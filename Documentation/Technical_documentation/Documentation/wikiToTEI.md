@@ -25,10 +25,10 @@ Notes: Before running the transformation, take care of the following issues:
 - `xml/1708-11-05_Scheuchzer_Johannes-Bernoulli_Johann_I.xml` --> remove "--" in commentary `<!--<ref> $Kommentar$ Johannes Scheuchzers erste Berufung nach Padua, Link auf externen Kommentar setzen -->`
 - `1740-11-15_Maupertuis_Pierre_Louis_Moreau_de-Bernoulli_Johann_II.xml` --> remove, it is empty, but remember that it should be added later only with the header.
 The results after transformation:
-* 1695-03-15_000055886_TA.xml
-* 1695-03-15_000055886_TP.xml
-* 1725-03-16_000057852_01.xml
-* 1725-03-16_000057852_02.xml
+* `1695-03-15_000055886_TA.xml`
+* `1695-03-15_000055886_TP.xml`
+* `1725-03-16_000057852_01.xml`
+* `1725-03-16_000057852_02.xml`
 are included back with the other transformed files.
 
 
@@ -64,12 +64,12 @@ Take care of the letters manually at the end of the process.
 	- `1725-01-20_000055892.xml	edit_idno_callnumber;`
 	- `1725-10-13_000055626.xml	edit_idno_callnumber`
 - Generated (status=bernoulliWiki in Bernoulli_Letters_TEI), but not among the letters transformed from the Wiki:
-	* B_1706-09-11_991170524875305501.xml
-	* B_1706_991170524875105501.xml
-	* B_1708-09-27_991170514865805501.xml
-	* B_1721-04-23_991170430267105501.xml
-	* B_1723-12-15_991170462464305501.xml
-	* B_1724-03-17_991170462463905501.xml
-	* B_1724-05-21_991170462462405501.xml
-	* B_1724-06-22_991170453971005501.xml
-	* B_1728-01-14_991170453213905501.xml
+	* `B_1706-09-11_991170524875305501.xml`
+	* `B_1706_991170524875105501.xml`
+	* `B_1708-09-27_991170514865805501.xml`
+	* `B_1721-04-23_991170430267105501.xml`
+	* `B_1723-12-15_991170462464305501.xml`
+	* `B_1724-03-17_991170462463905501.xml`
+	* `B_1724-05-21_991170462462405501.xml`
+	* `B_1724-06-22_991170453971005501.xml`
+	* `B_1728-01-14_991170453213905501.xml`
