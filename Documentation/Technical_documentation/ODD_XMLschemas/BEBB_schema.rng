@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-11-20T18:18:52Z. . 
+Schema generated from ODD source 2024-12-17T15:06:44Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -84,24 +84,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.ascribed.directed.attributes">
-      <ref name="tei_att.ascribed.attributes"/>
-      <ref name="tei_att.ascribed.directed.attribute.toWhom"/>
-   </define>
-   <define name="tei_att.ascribed.directed.attribute.toWhom">
-      <optional>
-         <attribute name="toWhom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom a speech act or action is directed.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
    <define name="tei_att.canonical.attributes">
       <ref name="tei_att.canonical.attribute.key"/>
       <ref name="tei_att.canonical.attribute.ref"/>
@@ -127,13 +109,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/
             </list>
          </attribute>
       </optional>
-   </define>
-   <define name="tei_att.ranging.attributes">
-      <ref name="tei_att.ranging.attribute.atLeast"/>
-      <ref name="tei_att.ranging.attribute.atMost"/>
-      <ref name="tei_att.ranging.attribute.min"/>
-      <ref name="tei_att.ranging.attribute.max"/>
-      <ref name="tei_att.ranging.attribute.confidence"/>
    </define>
    <define name="tei_att.ranging.attribute.atLeast">
       <optional>
@@ -204,14 +179,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.dimensions.attributes">
-      <ref name="tei_att.ranging.attributes"/>
-      <ref name="tei_att.dimensions.attribute.unit"/>
-      <ref name="tei_att.dimensions.attribute.quantity"/>
-      <ref name="tei_att.dimensions.attribute.extent"/>
-      <ref name="tei_att.dimensions.attribute.precision"/>
-      <ref name="tei_att.dimensions.attribute.scope"/>
-   </define>
    <define name="tei_att.dimensions.attribute.unit">
       <optional>
          <attribute name="unit">
@@ -246,42 +213,6 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                </data>
                <data type="decimal"/>
             </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.dimensions.attribute.extent">
-      <optional>
-         <attribute name="extent">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the size of the object concerned using a project-specific vocabulary combining quantity and units in a single string of words.</a:documentation>
-            <data type="string"/>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.dimensions.attribute.precision">
-      <optional>
-         <attribute name="precision">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the precision of the values specified by the other attributes.</a:documentation>
-            <choice>
-               <value>high</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>medium</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>low</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>unknown</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.dimensions.attribute.scope">
-      <optional>
-         <attribute name="scope">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation, specifies the applicability of this measurement.
-Sample values include: 1] all; 2] most; 3] range</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
          </attribute>
       </optional>
    </define>
@@ -326,7 +257,7 @@ Suggested values include: 1] human; 2] template; 3] system; 4] bot; 5] unspecifi
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.cmc-generatedBy-CMC_generatedBy_within_post-constraint-rule-1">
+            id="BEBB_schema-att.cmc-generatedBy-CMC_generatedBy_within_post-constraint-rule-1">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -440,7 +371,7 @@ Suggested values include: 1] human; 2] template; 3] system; 4] bot; 5] unspecifi
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.datable.w3c-att-datable-w3c-when-constraint-rule-2">
+            id="BEBB_schema-att.datable.w3c-att-datable-w3c-when-constraint-rule-2">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -450,7 +381,7 @@ Suggested values include: 1] human; 2] template; 3] system; 4] bot; 5] unspecifi
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.datable.w3c-att-datable-w3c-from-constraint-rule-3">
+            id="BEBB_schema-att.datable.w3c-att-datable-w3c-from-constraint-rule-3">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -460,7 +391,7 @@ Suggested values include: 1] human; 2] template; 3] system; 4] bot; 5] unspecifi
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.datable.w3c-att-datable-w3c-to-constraint-rule-4">
+            id="BEBB_schema-att.datable.w3c-att-datable-w3c-to-constraint-rule-4">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -804,7 +735,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.global.source-source-only_1_ODD_source-constraint-rule-5">
+            id="BEBB_schema-att.global.source-source-only_1_ODD_source-constraint-rule-5">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -820,7 +751,6 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </pattern>
    <define name="tei_att.global.attributes">
       <ref name="tei_att.global.rendition.attributes"/>
-      <ref name="tei_att.global.linking.attributes"/>
       <ref name="tei_att.global.analytic.attributes"/>
       <ref name="tei_att.global.facs.attributes"/>
       <ref name="tei_att.global.change.attributes"/>
@@ -988,7 +918,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.typed-subtypeTyped-constraint-rule-6">
+            id="BEBB_schema-att.typed-subtypeTyped-constraint-rule-6">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1020,7 +950,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.pointing-targetLang-targetLang-constraint-rule-7">
+            id="BEBB_schema-att.pointing-targetLang-targetLang-constraint-rule-7">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1072,7 +1002,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-8">
+            id="BEBB_schema-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-8">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2161,41 +2091,29 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.global.edit">
       <choice>
          <ref name="tei_gap"/>
-         <ref name="tei_space"/>
       </choice>
    </define>
    <define name="tei_model.global.edit_alternation">
       <choice>
          <ref name="tei_gap"/>
-         <ref name="tei_space"/>
       </choice>
    </define>
    <define name="tei_model.global.edit_sequence">
       <ref name="tei_gap"/>
-      <ref name="tei_space"/>
    </define>
    <define name="tei_model.global.edit_sequenceOptional">
       <optional>
          <ref name="tei_gap"/>
-      </optional>
-      <optional>
-         <ref name="tei_space"/>
       </optional>
    </define>
    <define name="tei_model.global.edit_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_gap"/>
       </zeroOrMore>
-      <zeroOrMore>
-         <ref name="tei_space"/>
-      </zeroOrMore>
    </define>
    <define name="tei_model.global.edit_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_gap"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="tei_space"/>
       </oneOrMore>
    </define>
    <define name="tei_model.divPart">
@@ -2209,7 +2127,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_persName"/>
          <ref name="tei_floruit"/>
-         <ref name="tei_gender"/>
       </choice>
    </define>
    <define name="tei_model.personLike">
@@ -2377,41 +2294,29 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.attributable">
       <choice>
          <ref name="tei_model.quoteLike"/>
-         <ref name="tei_said"/>
       </choice>
    </define>
    <define name="tei_model.attributable_alternation">
       <choice>
          <ref name="tei_model.quoteLike_alternation"/>
-         <ref name="tei_said"/>
       </choice>
    </define>
    <define name="tei_model.attributable_sequence">
       <ref name="tei_model.quoteLike_sequence"/>
-      <ref name="tei_said"/>
    </define>
    <define name="tei_model.attributable_sequenceOptional">
       <optional>
          <ref name="tei_model.quoteLike_sequenceOptional"/>
-      </optional>
-      <optional>
-         <ref name="tei_said"/>
       </optional>
    </define>
    <define name="tei_model.attributable_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_model.quoteLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
-      <zeroOrMore>
-         <ref name="tei_said"/>
-      </zeroOrMore>
    </define>
    <define name="tei_model.attributable_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_model.quoteLike_sequenceRepeatable"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="tei_said"/>
       </oneOrMore>
    </define>
    <define name="tei_model.respLike">
@@ -2786,11 +2691,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.div2Like">
       <notAllowed/>
    </define>
-   <define name="tei_model.annotationLike">
-      <choice>
-         <ref name="tei_note"/>
-      </choice>
-   </define>
    <define name="tei_model.teiHeaderPart">
       <choice>
          <ref name="tei_encodingDesc"/>
@@ -2813,15 +2713,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_correspDesc"/>
          <ref name="tei_particDesc"/>
          <ref name="tei_settingDesc"/>
-      </choice>
-   </define>
-   <define name="tei_model.standOffPart">
-      <choice>
-         <ref name="tei_model.global.meta"/>
-         <ref name="tei_model.biblLike"/>
-         <ref name="tei_model.listLike"/>
-         <ref name="tei_model.annotationLike"/>
-         <ref name="tei_listChange"/>
       </choice>
    </define>
    <define name="tei_model.correspActionPart">
@@ -2850,7 +2741,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_text"/>
          <ref name="tei_facsimile"/>
-         <ref name="tei_standOff"/>
       </choice>
    </define>
    <define name="tei_model.describedResource">
@@ -2895,7 +2785,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </choice>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="BEBB-adapted-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-9">
+            id="BEBB_schema-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-9">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2912,7 +2802,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-10">
+                  id="BEBB_schema-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-10">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:p">
@@ -2923,7 +2813,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-p-abstractModel-structure-p-in-l-or-lg-constraint-rule-11">
+                  id="BEBB_schema-p-abstractModel-structure-p-in-l-or-lg-constraint-rule-11">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:p">
@@ -2973,74 +2863,33 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <element name="hi">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]</a:documentation>
          <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.cmc.attributes"/>
          <optional>
-            <attribute name="rendition">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the rendering or presentation used for this element in the source text.</a:documentation>
+            <attribute name="rend">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
-                        <value>#sup</value>
+                        <value>sup</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#u</value>
+                        <value>u</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#uu</value>
+                        <value>uu</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#mMM</value>
+                        <value>mMM</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#c</value>
+                        <value>c</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#et</value>
+                        <value>et</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#k</value>
+                        <value>k</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#right</value>
+                        <value>right</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#i</value>
+                        <value>i</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      </choice>
                   </oneOrMore>
                </list>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_said">
-      <element name="said">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]</a:documentation>
-         <ref name="tei_macro.specialPara"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.ascribed.directed.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <optional>
-            <attribute name="aloud">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to indicate whether the quoted matter is regarded as having been vocalized or signed.</a:documentation>
-               <choice>
-                  <data type="boolean"/>
-                  <choice>
-                     <value>unknown</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                     <value>inapplicable</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  </choice>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="direct"
-                       a:defaultValue="true">
-               <a:documentation>may be used to indicate whether the quoted matter is regarded as direct or indirect speech.</a:documentation>
-               <choice>
-                  <data type="boolean"/>
-                  <choice>
-                     <value>unknown</value>
-                     <a:documentation/>
-                     <value>inapplicable</value>
-                     <a:documentation/>
-                  </choice>
-               </choice>
             </attribute>
          </optional>
          <empty/>
@@ -3271,7 +3120,7 @@ Sample values include: 1] pages</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-name-calendar-check-name-constraint-rule-12">
+                  id="BEBB_schema-name-calendar-check-name-constraint-rule-12">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:*[@calendar]">
@@ -3393,7 +3242,7 @@ Sample values include: 1] person; 2] persons; 3] biblio; 4] biblios; 5] letter; 
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-ptr-ptrAtts-constraint-rule-13">
+                  id="BEBB_schema-ptr-ptrAtts-constraint-rule-13">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:ptr">
@@ -3416,6 +3265,10 @@ Sample values include: 1] person; 2] persons; 3] biblio; 4] biblios; 5] letter; 
                   <a:documentation/>
                   <value>geonames</value>
                   <a:documentation/>
+                  <value>Briefwechsel</value>
+                  <a:documentation/>
+                  <value>Korrespondenz</value>
+                  <a:documentation/>
                </choice>
             </attribute>
          </optional>
@@ -3428,7 +3281,7 @@ Sample values include: 1] person; 2] persons; 3] biblio; 4] biblios; 5] letter; 
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-ref-refAtts-constraint-rule-14">
+                  id="BEBB_schema-ref-refAtts-constraint-rule-14">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:ref">
@@ -3479,7 +3332,7 @@ Sample values include: 1] person; 2] persons; 3] biblio; 4] biblios; 5] letter; 
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-list-gloss-list-must-have-labels-constraint-rule-15">
+                  id="BEBB_schema-list-gloss-list-must-have-labels-constraint-rule-15">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:list[@type='gloss']">
@@ -3558,10 +3411,6 @@ Sample values include: 1] person; 2] persons; 3] biblio; 4] biblios; 5] letter; 
                   <value>url</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>accessed</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value/>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>dataGroup</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -3742,7 +3591,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-author-calendar-check-author-constraint-rule-16">
+                  id="BEBB_schema-author-calendar-check-author-constraint-rule-16">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:*[@calendar]">
@@ -3759,7 +3608,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-editor-calendar-check-editor-constraint-rule-17">
+                  id="BEBB_schema-editor-calendar-check-editor-constraint-rule-17">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:*[@calendar]">
@@ -3804,7 +3653,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="tei_macro.phraseSeq.limited"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-resp-calendar-check-resp-constraint-rule-18">
+                  id="BEBB_schema-resp-calendar-check-resp-constraint-rule-18">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:*[@calendar]">
@@ -3821,7 +3670,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-title-calendar-check-title-constraint-rule-19">
+                  id="BEBB_schema-title-calendar-check-title-constraint-rule-19">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:*[@calendar]">
@@ -4051,7 +3900,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-relatedItem-targetorcontent1-constraint-rule-20">
+                  id="BEBB_schema-relatedItem-targetorcontent1-constraint-rule-20">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:relatedItem">
@@ -4085,7 +3934,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-l-abstractModel-structure-l-in-l-constraint-rule-21">
+                  id="BEBB_schema-l-abstractModel-structure-l-in-l-constraint-rule-21">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:l">
@@ -4132,7 +3981,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-lg-atleast1oflggapl-constraint-rule-22">
+                  id="BEBB_schema-lg-atleast1oflggapl-constraint-rule-22">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:lg">
@@ -4141,7 +3990,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-lg-abstractModel-structure-lg-in-l-constraint-rule-23">
+                  id="BEBB_schema-lg-abstractModel-structure-lg-in-l-constraint-rule-23">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:lg">
@@ -4231,7 +4080,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="tei_macro.phraseSeq.limited"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-funder-calendar-check-funder-constraint-rule-24">
+                  id="BEBB_schema-funder-calendar-check-funder-constraint-rule-24">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4299,7 +4148,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-idno-calendar-check-idno-constraint-rule-25">
+                  id="BEBB_schema-idno-calendar-check-idno-constraint-rule-25">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4337,7 +4186,7 @@ Sample values include: 1] URLWeb; 2] URLXML; 3] callNumber; 4] ALMA_NZ; 5] ALMA_
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-idno-calendar-calendar-check-idno-constraint-rule-26">
+                  id="BEBB_schema-idno-calendar-calendar-check-idno-constraint-rule-26">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4367,7 +4216,7 @@ Sample values include: 1] URLWeb; 2] URLXML; 3] callNumber; 4] ALMA_NZ; 5] ALMA_
          <ref name="tei_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-licence-calendar-check-licence-constraint-rule-27">
+                  id="BEBB_schema-licence-calendar-check-licence-constraint-rule-27">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4555,6 +4404,36 @@ Sample values include: 1] URLWeb; 2] URLXML; 3] callNumber; 4] ALMA_NZ; 5] ALMA_
                <ref name="tei_listBibl"/>
             </choice>
          </oneOrMore>
+         <optional>
+            <attribute name="xml:lang">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language) indicates the language of the element content using a tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                     xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                     href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</a:documentation>
+               <choice>
+                  <value>grc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>lat</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>heb</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>deu</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>fra</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>eng</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>rus</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>ita</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>nld</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>und</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
       </element>
    </define>
    <define name="tei_langUsage">
@@ -4735,7 +4614,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <ref name="tei_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-change-calendar-check-change-constraint-rule-28">
+                  id="BEBB_schema-change-calendar-check-change-constraint-rule-28">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4749,6 +4628,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.notBefore"/>
          <ref name="tei_att.datable.w3c.attribute.notAfter"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
+         <optional>
+            <attribute name="ref">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ref attribute custom for Bernoulli-Wiki link in change element</a:documentation>
+               <text/>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -5010,7 +4896,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-29">
+                  id="BEBB_schema-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-29">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:div">
@@ -5021,7 +4907,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-30">
+                  id="BEBB_schema-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-30">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:div">
@@ -5609,7 +5495,7 @@ Sample values include: 1] right</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-persName-calendar-check-persName-constraint-rule-31">
+                  id="BEBB_schema-persName-calendar-check-persName-constraint-rule-31">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5687,7 +5573,7 @@ Sample values include: 1] birth; 2] married</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-placeName-calendar-check-placeName-constraint-rule-32">
+                  id="BEBB_schema-placeName-calendar-check-placeName-constraint-rule-32">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5726,7 +5612,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-country-calendar-check-country-constraint-rule-33">
+                  id="BEBB_schema-country-calendar-check-country-constraint-rule-33">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5758,7 +5644,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-birth-calendar-check-birth-constraint-rule-34">
+                  id="BEBB_schema-birth-calendar-check-birth-constraint-rule-34">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5780,7 +5666,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-death-calendar-check-death-constraint-rule-35">
+                  id="BEBB_schema-death-calendar-check-death-constraint-rule-35">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5800,7 +5686,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-floruit-calendar-check-floruit-constraint-rule-36">
+                  id="BEBB_schema-floruit-calendar-check-floruit-constraint-rule-36">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5813,42 +5699,6 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
          <ref name="tei_att.datable.w3c.attribute.to"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_gender">
-      <element name="gender">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gender) specifies the gender identity of a person, persona, or character. [14.3.2.1. Personal Characteristics]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-gender-calendar-check-gender-constraint-rule-37">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:*[@calendar]">
-                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
-                        systems or calendars to which the date represented by the content of this element belongs,
-                        but this <sch:name/> element has no textual content.</sch:assert>
-                </sch:rule>
-         </pattern>
-         <optional>
-            <attribute name="value">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a coded value for gender identity</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <choice>
-                        <value/>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>M</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>F</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                     </choice>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -5932,7 +5782,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-location-calendar-check-location-constraint-rule-38">
+                  id="BEBB_schema-location-calendar-check-location-constraint-rule-37">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6278,7 +6128,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-facsimile-no_facsimile_text_nodes-constraint-rule-39">
+                  id="BEBB_schema-facsimile-no_facsimile_text_nodes-constraint-rule-38">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6289,64 +6139,6 @@ Sample values include: 1] hyphenation</a:documentation>
         </sch:report>
             </sch:rule>
          </pattern>
-      </element>
-   </define>
-   <define name="tei_space">
-      <element name="space">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(space) indicates the location of a significant space in the text. [12.4.1. Space]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <ref name="tei_model.descLike"/>
-               <ref name="tei_model.certLike"/>
-            </choice>
-         </zeroOrMore>
-         <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.global.rendition.attribute.rend"/>
-         <ref name="tei_att.global.rendition.attribute.style"/>
-         <ref name="tei_att.global.rendition.attribute.rendition"/>
-         <ref name="tei_att.global.linking.attribute.corresp"/>
-         <ref name="tei_att.global.linking.attribute.synch"/>
-         <ref name="tei_att.global.linking.attribute.sameAs"/>
-         <ref name="tei_att.global.linking.attribute.copyOf"/>
-         <ref name="tei_att.global.linking.attribute.next"/>
-         <ref name="tei_att.global.linking.attribute.prev"/>
-         <ref name="tei_att.global.linking.attribute.exclude"/>
-         <ref name="tei_att.global.linking.attribute.select"/>
-         <ref name="tei_att.global.analytic.attribute.ana"/>
-         <ref name="tei_att.global.facs.attribute.facs"/>
-         <ref name="tei_att.global.change.attribute.change"/>
-         <ref name="tei_att.global.responsibility.attribute.cert"/>
-         <ref name="tei_att.global.source.attribute.source"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.dimensions.attributes"/>
-         <optional>
-            <attribute name="resp">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) (responsible party) indicates the individual responsible for identifying and measuring the space</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <data type="anyURI">
-                        <param name="pattern">\S+</param>
-                     </data>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="dim">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(dimension) indicates whether the space is horizontal or vertical.</a:documentation>
-               <choice>
-                  <value>horizontal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is horizontal.</a:documentation>
-                  <value>vertical</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is vertical.</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
       </element>
    </define>
    <define name="tei_subst">
@@ -6361,7 +6153,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-subst-substContents1-constraint-rule-40">
+                  id="BEBB_schema-subst-substContents1-constraint-rule-39">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6410,7 +6202,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-msDesc-one_ms_singleton_max-constraint-rule-41">
+                  id="BEBB_schema-msDesc-one_ms_singleton_max-constraint-rule-40">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6441,7 +6233,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-dimensions-duplicateDim-constraint-rule-42">
+                  id="BEBB_schema-dimensions-duplicateDim-constraint-rule-41">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6479,7 +6271,7 @@ Sample values include: 1] hyphenation</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-origPlace-calendar-check-origPlace-constraint-rule-43">
+                  id="BEBB_schema-origPlace-calendar-check-origPlace-constraint-rule-42">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6519,7 +6311,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-msIdentifier-msId_minimal-constraint-rule-44">
+                  id="BEBB_schema-msIdentifier-msId_minimal-constraint-rule-43">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6557,7 +6349,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-altIdentifier-calendar-check-altIdentifier-constraint-rule-45">
+                  id="BEBB_schema-altIdentifier-calendar-check-altIdentifier-constraint-rule-44">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6662,7 +6454,7 @@ Sample values include: 1] hyphenation</a:documentation>
          <ref name="tei_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-origin-calendar-check-origin-constraint-rule-46">
+                  id="BEBB_schema-origin-calendar-check-origin-constraint-rule-45">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6704,137 +6496,6 @@ Sample values include: 1] hyphenation</a:documentation>
                </choice>
             </oneOrMore>
          </choice>
-      </element>
-   </define>
-   <define name="tei_att.global.linking.attributes">
-      <ref name="tei_att.global.linking.attribute.corresp"/>
-      <ref name="tei_att.global.linking.attribute.synch"/>
-      <ref name="tei_att.global.linking.attribute.sameAs"/>
-      <ref name="tei_att.global.linking.attribute.copyOf"/>
-      <ref name="tei_att.global.linking.attribute.next"/>
-      <ref name="tei_att.global.linking.attribute.prev"/>
-      <ref name="tei_att.global.linking.attribute.exclude"/>
-      <ref name="tei_att.global.linking.attribute.select"/>
-   </define>
-   <define name="tei_att.global.linking.attribute.corresp">
-      <optional>
-         <attribute name="corresp">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) points to elements that correspond to the current element in some way.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.synch">
-      <optional>
-         <attribute name="synch">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(synchronous) points to elements that are synchronous with the current element.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.sameAs">
-      <optional>
-         <attribute name="sameAs">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to an element that is the same as the current element.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.copyOf">
-      <optional>
-         <attribute name="copyOf">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to an element of which the current element is a copy.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.next">
-      <optional>
-         <attribute name="next">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the next element of a virtual aggregate of which the current element is part.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.prev">
-      <optional>
-         <attribute name="prev">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(previous) points to the previous element of a virtual aggregate of which the current element is part.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.exclude">
-      <optional>
-         <attribute name="exclude">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to elements that are in exclusive alternation with the current element.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.global.linking.attribute.select">
-      <optional>
-         <attribute name="select">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">selects one or more alternants; if one alternant is selected, the ambiguity or uncertainty is marked as resolved. If more than one alternant is selected, the degree of ambiguity or uncertainty is marked as reduced by the number of alternants not selected.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_standOff">
-      <element name="standOff">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Functions as a container element for linked data, contextual information, and stand-off annotations embedded in a TEI document. [17.10. The standOff Container]</a:documentation>
-         <oneOrMore>
-            <ref name="tei_model.standOffPart"/>
-         </oneOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB-adapted-standOff-nested_standOff_should_be_typed-constraint-rule-47">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:standOff">
-               <sch:assert test="@type or not(ancestor::tei:standOff)">This
-        <sch:name/> element must have a @type attribute, since it is
-        nested inside a <sch:name/>
-               </sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <empty/>
       </element>
    </define>
    <start>
