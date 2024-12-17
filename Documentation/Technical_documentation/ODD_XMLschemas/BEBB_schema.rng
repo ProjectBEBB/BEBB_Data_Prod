@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-12-17T22:32:22Z. . 
+Schema generated from ODD source 2024-12-17T23:25:53Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -2886,6 +2886,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                         <value>right</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>i</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>sub</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      </choice>
                   </oneOrMore>
