@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-12-18T15:52:34Z. . 
+Schema generated from ODD source 2025-01-08T11:48:15Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -74,6 +74,24 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/
       <optional>
          <attribute name="who">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom the element content is ascribed.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.ascribed.directed.attributes">
+      <ref name="tei_att.ascribed.attributes"/>
+      <ref name="tei_att.ascribed.directed.attribute.toWhom"/>
+   </define>
+   <define name="tei_att.ascribed.directed.attribute.toWhom">
+      <optional>
+         <attribute name="toWhom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom a speech act or action is directed.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI">
@@ -2306,29 +2324,41 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.attributable">
       <choice>
          <ref name="tei_model.quoteLike"/>
+         <ref name="tei_said"/>
       </choice>
    </define>
    <define name="tei_model.attributable_alternation">
       <choice>
          <ref name="tei_model.quoteLike_alternation"/>
+         <ref name="tei_said"/>
       </choice>
    </define>
    <define name="tei_model.attributable_sequence">
       <ref name="tei_model.quoteLike_sequence"/>
+      <ref name="tei_said"/>
    </define>
    <define name="tei_model.attributable_sequenceOptional">
       <optional>
          <ref name="tei_model.quoteLike_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="tei_said"/>
       </optional>
    </define>
    <define name="tei_model.attributable_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_model.quoteLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_said"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.attributable_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_model.quoteLike_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_said"/>
       </oneOrMore>
    </define>
    <define name="tei_model.respLike">
@@ -2919,6 +2949,46 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                      </choice>
                   </oneOrMore>
                </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_said">
+      <element name="said">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]</a:documentation>
+         <ref name="tei_macro.specialPara"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.ascribed.directed.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <optional>
+            <attribute name="aloud">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to indicate whether the quoted matter is regarded as having been vocalized or signed.</a:documentation>
+               <choice>
+                  <data type="boolean"/>
+                  <choice>
+                     <value>unknown</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                     <value>inapplicable</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  </choice>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="direct"
+                       a:defaultValue="true">
+               <a:documentation>may be used to indicate whether the quoted matter is regarded as direct or indirect speech.</a:documentation>
+               <choice>
+                  <data type="boolean"/>
+                  <choice>
+                     <value>unknown</value>
+                     <a:documentation/>
+                     <value>inapplicable</value>
+                     <a:documentation/>
+                  </choice>
+               </choice>
             </attribute>
          </optional>
          <empty/>
