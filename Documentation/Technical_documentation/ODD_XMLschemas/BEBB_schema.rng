@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-01-08T17:14:42Z. . 
+Schema generated from ODD source 2025-01-08T17:18:45Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -3375,7 +3375,8 @@ Sample values include: </a:documentation>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="type"
                        a:defaultValue="next,prev">
-               <a:documentation/>
+               <a:documentation>
+Suggested values include: 1] next; 2] prev; 3] Briefwechsel; 4] Korrespondenz; 5] </a:documentation>
                <choice>
                   <value>next</value>
                   <a:documentation/>
@@ -3387,6 +3388,9 @@ Sample values include: </a:documentation>
                   <a:documentation/>
                   <value/>
                   <a:documentation/>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
                </choice>
             </attribute>
          </optional>
