@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-01-10T08:47:08Z. . 
+Schema generated from ODD source 2025-01-10T08:50:14Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -1034,22 +1034,28 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.nameLike.agent">
       <choice>
          <ref name="tei_name"/>
+         <ref name="tei_orgName"/>
          <ref name="tei_persName"/>
       </choice>
    </define>
    <define name="tei_model.nameLike.agent_alternation">
       <choice>
          <ref name="tei_name"/>
+         <ref name="tei_orgName"/>
          <ref name="tei_persName"/>
       </choice>
    </define>
    <define name="tei_model.nameLike.agent_sequence">
       <ref name="tei_name"/>
+      <ref name="tei_orgName"/>
       <ref name="tei_persName"/>
    </define>
    <define name="tei_model.nameLike.agent_sequenceOptional">
       <optional>
          <ref name="tei_name"/>
+      </optional>
+      <optional>
+         <ref name="tei_orgName"/>
       </optional>
       <optional>
          <ref name="tei_persName"/>
@@ -1060,12 +1066,18 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_name"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_orgName"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_persName"/>
       </zeroOrMore>
    </define>
    <define name="tei_model.nameLike.agent_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_name"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_orgName"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_persName"/>
@@ -5634,13 +5646,50 @@ Sample values include: 1] right</a:documentation>
          </attribute>
       </optional>
    </define>
+   <define name="tei_orgName">
+      <element name="orgName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [14.2.2. Organizational Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <optional>
+            <attribute name="calendar">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more systems or calendars to which the date represented by the content of this element belongs.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="anyURI">
+                        <param name="pattern">\S+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  id="BEBB_schema-orgName-calendar-calendar-check-orgName-constraint-rule-31">
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+         </pattern>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_persName">
       <element name="persName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [14.2.1. Personal Names]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-persName-calendar-check-persName-constraint-rule-31">
+                  id="BEBB_schema-persName-calendar-check-persName-constraint-rule-32">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5718,7 +5767,7 @@ Sample values include: 1] birth; 2] married</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-placeName-calendar-check-placeName-constraint-rule-32">
+                  id="BEBB_schema-placeName-calendar-check-placeName-constraint-rule-33">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5757,7 +5806,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-country-calendar-check-country-constraint-rule-33">
+                  id="BEBB_schema-country-calendar-check-country-constraint-rule-34">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5789,7 +5838,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-birth-calendar-check-birth-constraint-rule-34">
+                  id="BEBB_schema-birth-calendar-check-birth-constraint-rule-35">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5811,7 +5860,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-death-calendar-check-death-constraint-rule-35">
+                  id="BEBB_schema-death-calendar-check-death-constraint-rule-36">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5831,7 +5880,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-floruit-calendar-check-floruit-constraint-rule-36">
+                  id="BEBB_schema-floruit-calendar-check-floruit-constraint-rule-37">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -5869,7 +5918,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-gender-calendar-calendar-check-gender-constraint-rule-37">
+                  id="BEBB_schema-gender-calendar-calendar-check-gender-constraint-rule-38">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6004,7 +6053,7 @@ Sample values include: 1] de; 2] en; 3] fr; 4] la</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-location-calendar-check-location-constraint-rule-38">
+                  id="BEBB_schema-location-calendar-check-location-constraint-rule-39">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6451,7 +6500,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-facsimile-no_facsimile_text_nodes-constraint-rule-39">
+                  id="BEBB_schema-facsimile-no_facsimile_text_nodes-constraint-rule-40">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6497,7 +6546,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-subst-substContents1-constraint-rule-40">
+                  id="BEBB_schema-subst-substContents1-constraint-rule-41">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6546,7 +6595,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-msDesc-one_ms_singleton_max-constraint-rule-41">
+                  id="BEBB_schema-msDesc-one_ms_singleton_max-constraint-rule-42">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6577,7 +6626,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-dimensions-duplicateDim-constraint-rule-42">
+                  id="BEBB_schema-dimensions-duplicateDim-constraint-rule-43">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6615,7 +6664,7 @@ Sample values include: 1] hyphenation</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-origPlace-calendar-check-origPlace-constraint-rule-43">
+                  id="BEBB_schema-origPlace-calendar-check-origPlace-constraint-rule-44">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6655,7 +6704,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-msIdentifier-msId_minimal-constraint-rule-44">
+                  id="BEBB_schema-msIdentifier-msId_minimal-constraint-rule-45">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6693,7 +6742,7 @@ Sample values include: 1] hyphenation</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-altIdentifier-calendar-check-altIdentifier-constraint-rule-45">
+                  id="BEBB_schema-altIdentifier-calendar-check-altIdentifier-constraint-rule-46">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -6798,7 +6847,7 @@ Sample values include: 1] hyphenation</a:documentation>
          <ref name="tei_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-origin-calendar-check-origin-constraint-rule-46">
+                  id="BEBB_schema-origin-calendar-check-origin-constraint-rule-47">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
