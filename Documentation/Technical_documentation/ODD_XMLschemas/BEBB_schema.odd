@@ -368,7 +368,11 @@
                                                 <attDef ident="synch" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
-                                                <attDef ident="corresp" usage="opt"/>
+                                                <attDef ident="corresp" usage="opt">
+                                                        <datatype>
+                                                             <dataRef key="teidata.pointer"/>
+                                                        </datatype>
+                                                </attDef>
                                                 <attDef ident="type" mode="change">
                                                   <valList type="closed" mode="replace">
                                                   <valItem ident="book"/>
@@ -2340,6 +2344,9 @@
                                                 <attDef ident="ref" mode="add">
                                                   <desc>ref attribute custom for Bernoulli-Wiki link
                                                   in change element</desc>
+                                                        <datatype>
+                                                                <dataRef key="teidata.pointer"/>
+                                                        </datatype>
                                                 </attDef>
                                                 <attDef ident="ref" mode="delete"/>
                                         </attList>
@@ -3214,7 +3221,7 @@
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
                                                 <attDef ident="type" mode="change" usage="req">
-                                                  <defaultVal>person,persons,place,places,biblio,biblios,organisation,organisations,letter,letters</defaultVal>
+<!--                                                  <defaultVal>person,persons,place,places,biblio,biblios,organisation,organisations,letter,letters</defaultVal>-->
                                                   <valList type="closed" mode="replace">
                                                   <valItem ident="person"/>
                                                   <valItem ident="persons"/>
