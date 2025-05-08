@@ -42,7 +42,7 @@
                                         <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
                                 </application>
                         </appInfo>
-                <appInfo><application ident="RomaJS" version="1.1.2" when="2025-02-18T12:00:40.807Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.2" when="2025-05-08T22:35:03.508Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+                <appInfo><application ident="RomaJS" version="1.1.2" when="2025-02-18T12:00:40.807Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
         </teiHeader>
         <text>
                 <front>
@@ -983,7 +983,11 @@
                                                 <attDef ident="style" mode="delete"/>
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
-                                                <attDef ident="type" mode="delete"><valList mode="change"><valItem mode="add" ident="type"/></valList></attDef>
+                                                <attDef ident="type" mode="change">
+                                                        <valList type="closed" mode="replace">
+                                                                <valItem ident="deleted"/>
+                                                        </valList>
+                                                </attDef>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
@@ -3214,7 +3218,6 @@
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
                                                 <attDef ident="type" mode="change" usage="req">
-                                                  <defaultVal>person,persons,place,places,biblio,biblios,organisation,organisations,letter,letters</defaultVal>
                                                   <valList type="closed" mode="replace">
                                                   <valItem ident="person"/>
                                                   <valItem ident="persons"/>
