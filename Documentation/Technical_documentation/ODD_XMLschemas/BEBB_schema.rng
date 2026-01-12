@@ -3572,8 +3572,19 @@ Sample values include: </a:documentation>
    </define>
    <define name="tei_item">
       <element name="item">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(item) contains one component of a list. [3.8. Lists 2.6. The Revision Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+            (item) contains one component of a list. [3.8. Lists 2.6. The Revision Description]
+         </a:documentation>
          <ref name="tei_macro.specialPara"/>
+         <optional>
+            <attribute name="n">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+                  (number) provides a number or label for this item, e.g. for explicit numbering in lists.
+               </a:documentation>
+               <data type="string"/>
+            </attribute>
+         </optional>
+         
       </element>
    </define>
    <define name="tei_head">
