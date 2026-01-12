@@ -1072,7 +1072,15 @@
                                                 <attDef ident="facs" mode="delete"/>
                                                 <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
-                                                <attDef ident="place" mode="delete"/>
+                                                <attDef ident="place" mode="change">
+                                                        <valList type="closed" mode="replace">
+                                                                <valItem ident="above"/>
+                                                                <valItem ident="below"/>
+                                                                <valItem ident="margin"/>
+                                                                <valItem ident="opposite"/>
+                                                                <valItem ident="overleaf"/>
+                                                        </valList>
+                                                </attDef>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
                                                 <attDef ident="rendition" mode="delete"/>
@@ -1173,6 +1181,7 @@
                                                   <valList type="closed" mode="replace">
                                                   <valItem ident="space"/>
                                                   <valItem ident="editorial"/>
+                                                  <valItem ident="indented"/>
                                                   </valList>
                                                 </attDef>
                                         </attList>
@@ -3247,7 +3256,14 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
+                                                <attDef ident="n" mode="change" usage="opt">
+                                                  <valList type="open">
+                                                  <valItem ident="teidata.count" mode="replace">
+                                                  <desc versionDate="2025-11-20" xml:lang="en"
+                                                  >Station number in itinerary.</desc>
+                                                  </valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
