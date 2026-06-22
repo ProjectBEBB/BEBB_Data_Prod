@@ -50,7 +50,41 @@
                 <body>
                         <p>Schema adapted to BEBB letter files (version from 2024_12_17)</p>
                         <schemaSpec ident="BEBB_schema" docLang="en" prefix="tei_" xml:lang="en" targetLang="en">
-                                <moduleRef key="core" except="binaryObject cb citedRange desc distinct divGen ellipsis email emph gb gloss headItem headLabel index label measure measureGrp media meeting mentioned milestone noteGrp num postBox postCode rb rt ruby soCalled sp speaker stage street textLang time unit"/>
+                                <moduleRef key="core" except="binaryObject cb citedRange desc distinct divGen ellipsis email emph gb gloss headItem headLabel index label measureGrp media meeting mentioned milestone noteGrp num postBox postCode rb rt ruby soCalled sp speaker stage street textLang time unit"/>
+                                <elementSpec ident="measure" module="core" mode="change">
+                                        <content mode="replace">
+                                                <textNode/>
+                                        </content>
+                                        <attList>
+                                                <attDef ident="ana" mode="delete"/>
+                                                <attDef ident="cert" mode="delete"/>
+                                                <attDef ident="change" mode="delete"/>
+                                                <attDef ident="commodity" mode="delete"/>
+                                                <attDef ident="copyOf" mode="delete"/>
+                                                <attDef ident="corresp" mode="delete"/>
+                                                <attDef ident="exclude" mode="delete"/>
+                                                <attDef ident="facs" mode="delete"/>
+                                                <attDef ident="generatedBy" mode="delete"/>
+                                                <attDef ident="n" mode="delete"/>
+                                                <attDef ident="next" mode="delete"/>
+                                                <attDef ident="prev" mode="delete"/>
+                                                <attDef ident="rend" mode="delete"/>
+                                                <attDef ident="rendition" mode="delete"/>
+                                                <attDef ident="resp" mode="delete"/>
+                                                <attDef ident="sameAs" mode="delete"/>
+                                                <attDef ident="select" mode="delete"/>
+                                                <attDef ident="source" mode="delete"/>
+                                                <attDef ident="style" mode="delete"/>
+                                                <attDef ident="subtype" mode="delete"/>
+                                                <attDef ident="synch" mode="delete"/>
+                                                <attDef ident="type" mode="delete"/>
+                                                <attDef ident="unitRef" mode="delete"/>
+                                                <attDef ident="xml:base" mode="delete"/>
+                                                <attDef ident="xml:id" mode="delete"/>
+                                                <attDef ident="xml:lang" mode="delete"/>
+                                                <attDef ident="xml:space" mode="delete"/>
+                                        </attList>
+                                </elementSpec>
                                 <moduleRef key="tei" except=""/>
                                 <moduleRef key="header" except="appInfo application authority biblFull cRefPattern calendar calendarDesc catRef citeData citeStructure classCode conversion correction creation distributor editorialDecl geoDecl hyphenation interpretation listPrefixDef namespace normalization prefixDef principal projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation sponsor stdVals styleDefDecl tagUsage tagsDecl unitDecl unitDef xenoData"/>
                                 <moduleRef key="textstructure" except="argument byline div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur titlePage titlePart trailer"/>
@@ -1733,10 +1767,8 @@
                                                 <attDef ident="min" mode="delete"/>
                                                 <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
-                                                <attDef ident="notAfter" mode="delete"/>
                                                 <attDef ident="notAfter-custom" mode="delete"/>
                                                 <attDef ident="notAfter-iso" mode="delete"/>
-                                                <attDef ident="notBefore" mode="delete"/>
                                                 <attDef ident="notBefore-custom" mode="delete"/>
                                                 <attDef ident="notBefore-iso" mode="delete"/>
                                                 <attDef ident="nymRef" mode="delete"/>
@@ -3237,7 +3269,7 @@
                                                   <valItem ident="place" mode="add"/>
                                                   
                                                   <valItem ident="keyword" mode="add"/>
-                                                  <valItem mode="add" ident=""/><valItem mode="add" ident="lostletter"/></valList>
+                                                  <valItem mode="add" ident="lostletter"/></valList>
                                                 </attDef>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
@@ -4429,7 +4461,6 @@
                                         <attList>
                                                 <attDef ident="type" mode="change">
                                                   <valList mode="change" type="closed">
-                                                  <valItem mode="add" ident=""/>
                                                   <valItem mode="add" ident="reg"/>
                                                   <valItem mode="add" ident="alt"/>
                                                   </valList>
