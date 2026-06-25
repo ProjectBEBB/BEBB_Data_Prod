@@ -52,19 +52,24 @@
                         <schemaSpec ident="BEBB_schema" docLang="en" prefix="tei_" xml:lang="en" targetLang="en">
                                 <moduleRef key="core" except="binaryObject cb citedRange desc distinct divGen ellipsis email emph gb gloss headItem headLabel index label measureGrp media meeting mentioned milestone noteGrp num postBox postCode rb rt ruby soCalled sp speaker stage street textLang time unit"/>
                                 <elementSpec ident="measure" module="core" mode="change">
-                                        <content mode="replace">
+                                        <content>
                                                 <textNode/>
                                         </content>
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
+                                                <attDef ident="atLeast" mode="delete"/>
+                                                <attDef ident="atMost" mode="delete"/>
                                                 <attDef ident="cert" mode="delete"/>
                                                 <attDef ident="change" mode="delete"/>
                                                 <attDef ident="commodity" mode="delete"/>
+                                                <attDef ident="confidence" mode="delete"/>
                                                 <attDef ident="copyOf" mode="delete"/>
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
                                                 <attDef ident="generatedBy" mode="delete"/>
+                                                <attDef ident="max" mode="delete"/>
+                                                <attDef ident="min" mode="delete"/>
                                                 <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
@@ -309,17 +314,23 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
+                                                <attDef ident="generatedBy" mode="delete"/>
+                                                <attDef ident="key" mode="delete"/>
                                                 <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
                                                 <attDef ident="rendition" mode="delete"/>
+                                                <attDef ident="ref" mode="delete"/>
                                                 <attDef ident="resp" mode="delete"/>
+                                                <attDef ident="role" mode="delete"/>
                                                 <attDef ident="sameAs" mode="delete"/>
                                                 <attDef ident="select" mode="delete"/>
                                                 <attDef ident="source" mode="delete"/>
                                                 <attDef ident="style" mode="delete"/>
+                                                <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
+                                                <attDef ident="type" mode="delete"/>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
@@ -1186,6 +1197,16 @@
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="p" module="core" mode="change">
+                                        <constraintSpec ident="p-style-rend" scheme="schematron">
+                                          <constraint>
+                                            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                                                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                                                      context="tei:p">
+                                              <sch:assert test="not(@style) or normalize-space(@rend) = ('first-line', 'hanging', 'block-indent')">@style may only be used on p when @rend is exactly first-line, hanging, or block-indent.</sch:assert>
+                                              <sch:assert test="not(tokenize(normalize-space(@rend), '\s+') = ('first-line', 'hanging', 'block-indent')) or normalize-space(@style)">The @rend values first-line, hanging, and block-indent require a non-empty @style containing CSS declarations.</sch:assert>
+                                            </sch:rule>
+                                          </constraint>
+                                        </constraintSpec>
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
                                                 <attDef ident="cert" mode="delete"/>
@@ -1205,7 +1226,12 @@
                                                 <attDef ident="sameAs" mode="delete"/>
                                                 <attDef ident="select" mode="delete"/>
                                                 <attDef ident="source" mode="delete"/>
-                                                <attDef ident="style" mode="delete"/>
+                                                <attDef ident="style" mode="change" usage="opt">
+                                                  <desc xml:lang="en">contains non-empty CSS declarations specifying the paragraph indentation according to the project rules documented for p/@rend.</desc>
+                                                  <datatype>
+                                                    <dataRef name="string" restriction=".*\S.*"/>
+                                                  </datatype>
+                                                </attDef>
                                                 <attDef ident="synch" mode="delete"/>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
@@ -1213,12 +1239,28 @@
                                                 <attDef ident="xml:space" mode="delete"/>
                                                 <attDef ident="rend" mode="change">
                                                   <valList type="closed" mode="replace">
-                                                  <valItem ident="space"/>
-                                                  <valItem ident="editorial"/>
-                                                  <valItem ident="indented"/>
+                                                  <valItem ident="space">
+                                                    <desc xml:lang="en">A larger space in the manuscript functions as a paragraph boundary. It is handled differently in the diplomatic and normalized versions.</desc>
+                                                  </valItem>
+                                                  <valItem ident="editorial">
+                                                    <desc xml:lang="en">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</desc>
+                                                  </valItem>
+                                                  <valItem ident="first-line">
+                                                    <desc xml:lang="en">Only the first line is indented. Project rule: use @style with the CSS declaration text-indent, for example style="text-indent: 2em;".</desc>
+                                                  </valItem>
+                                                  <valItem ident="hanging">
+                                                    <desc xml:lang="en">Following lines are indented while the first line projects to the left. Project rule: use matching padding-left and negative text-indent declarations, for example style="padding-left: 4em; text-indent: -4em;".</desc>
+                                                  </valItem>
+                                                  <valItem ident="block-indent">
+                                                    <desc xml:lang="en">The complete paragraph is indented. Project rule: use the CSS declaration margin-left, for example style="margin-left: 2em;".</desc>
+                                                  </valItem>
                                                   </valList>
                                                 </attDef>
                                         </attList>
+                                        <model behaviour="paragraph" useSourceRendition="true"/>
+                                        <remarks xml:lang="de">
+                                          <p>Projektregel für Absatzeinzüge: <att>rend</att>="first-line" wird mit <att>style</att>="text-indent: 2em;" verwendet; <att>rend</att>="hanging" mit gleich großen Werten für <code>padding-left</code> und negativem <code>text-indent</code>; <att>rend</att>="block-indent" mit <code>margin-left</code>. Andere gültige Einzugstiefen in <code>em</code> sind zulässig.</p>
+                                        </remarks>
                                 </elementSpec>
                                 <elementSpec ident="pb" module="core" mode="change">
                                         <attList>
@@ -3241,7 +3283,12 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
+                                                <attDef ident="n" mode="change" usage="opt">
+                                                  <desc xml:lang="en">Station number in an itinerary.</desc>
+                                                  <datatype>
+                                                    <dataRef name="positiveInteger"/>
+                                                  </datatype>
+                                                </attDef>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="nymRef" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
@@ -3498,7 +3545,7 @@
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
                                                 <attDef ident="type" mode="change">
-                                                  <valList type="open" mode="replace">
+                                                  <valList type="closed" mode="replace">
                                                   <valItem ident="hyphenation"/>
                                                   </valList>
                                                 </attDef>
