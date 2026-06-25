@@ -1197,22 +1197,6 @@
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="p" module="core" mode="change">
-                                        <constraintSpec ident="p-rend-indent-combination" scheme="schematron">
-                                          <constraint>
-                                            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                                                      xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                                      context="tei:p">
-                                              <sch:let name="tokens" value="tokenize(normalize-space(@rend), '\s+')"/>
-                                              <sch:let name="indentKinds" value="$tokens[. = ('hanging', 'first-line', 'block-indent')]"/>
-                                              <sch:let name="indentDepths" value="$tokens[. = ('indent-2em', 'indent-3em', 'indent-4em', 'indent-5em')]"/>
-                                              <sch:assert test="empty($indentKinds) or count($indentDepths) = 1">The @rend values hanging, first-line, and block-indent require exactly one indentation depth (indent-2em, indent-3em, indent-4em, or indent-5em).</sch:assert>
-                                              <sch:assert test="empty($indentDepths) or count($indentKinds) = 1">An indentation depth in @rend may only be used with exactly one of hanging, first-line, or block-indent.</sch:assert>
-                                              <sch:assert test="count($indentKinds) le 1">The @rend values hanging, first-line, and block-indent must not be combined with one another.</sch:assert>
-                                              <sch:assert test="count($indentDepths) le 1">Multiple indentation-depth values must not be combined in @rend.</sch:assert>
-                                              <sch:assert test="not($tokens = ('space', 'editorial')) or count($tokens) = 1">The @rend values space and editorial must be used on their own.</sch:assert>
-                                            </sch:rule>
-                                          </constraint>
-                                        </constraintSpec>
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
                                                 <attDef ident="cert" mode="delete"/>
@@ -1239,6 +1223,9 @@
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
                                                 <attDef ident="rend" mode="change">
+                                                  <datatype>
+                                                    <dataRef key="teidata.enumerated"/>
+                                                  </datatype>
                                                   <valList type="closed" mode="replace">
                                                   <valItem ident="space">
                                                     <desc xml:lang="en">A larger space in the manuscript functions as a paragraph boundary. It is handled differently in the diplomatic and normalized versions.</desc>
@@ -1246,26 +1233,41 @@
                                                   <valItem ident="editorial">
                                                     <desc xml:lang="en">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</desc>
                                                   </valItem>
-                                                  <valItem ident="first-line">
-                                                    <desc xml:lang="en">Only the first line is indented. Must be combined with exactly one indent-*em value in @rend.</desc>
+                                                  <valItem ident="hanging-2em">
+                                                    <desc xml:lang="en">Hanging indentation with a depth of 2 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="hanging">
-                                                    <desc xml:lang="en">Following lines are indented while the first line projects to the left. Must be combined with exactly one indent-*em value in @rend.</desc>
+                                                  <valItem ident="hanging-3em">
+                                                    <desc xml:lang="en">Hanging indentation with a depth of 3 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="block-indent">
-                                                    <desc xml:lang="en">The complete paragraph is indented. Must be combined with exactly one indent-*em value in @rend.</desc>
+                                                  <valItem ident="hanging-4em">
+                                                    <desc xml:lang="en">Hanging indentation with a depth of 4 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="indent-2em">
-                                                    <desc xml:lang="en">Specifies an indentation depth of 2 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  <valItem ident="hanging-5em">
+                                                    <desc xml:lang="en">Hanging indentation with a depth of 5 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="indent-3em">
-                                                    <desc xml:lang="en">Specifies an indentation depth of 3 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  <valItem ident="first-line-2em">
+                                                    <desc xml:lang="en">First-line indentation with a depth of 2 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="indent-4em">
-                                                    <desc xml:lang="en">Specifies an indentation depth of 4 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  <valItem ident="first-line-3em">
+                                                    <desc xml:lang="en">First-line indentation with a depth of 3 em.</desc>
                                                   </valItem>
-                                                  <valItem ident="indent-5em">
-                                                    <desc xml:lang="en">Specifies an indentation depth of 5 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  <valItem ident="first-line-4em">
+                                                    <desc xml:lang="en">First-line indentation with a depth of 4 em.</desc>
+                                                  </valItem>
+                                                  <valItem ident="first-line-5em">
+                                                    <desc xml:lang="en">First-line indentation with a depth of 5 em.</desc>
+                                                  </valItem>
+                                                  <valItem ident="block-indent-2em">
+                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 2 em.</desc>
+                                                  </valItem>
+                                                  <valItem ident="block-indent-3em">
+                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 3 em.</desc>
+                                                  </valItem>
+                                                  <valItem ident="block-indent-4em">
+                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 4 em.</desc>
+                                                  </valItem>
+                                                  <valItem ident="block-indent-5em">
+                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 5 em.</desc>
                                                   </valItem>
                                                   </valList>
                                                 </attDef>
