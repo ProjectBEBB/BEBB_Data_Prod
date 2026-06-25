@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-06-25T12:07:42Z. .
+Schema generated from ODD source 2026-06-25T17:52:36Z. .
 TEI Edition: P5 Version 4.11.0. Last updated on 18th February 2026, revision 358d2e48e
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.11.0/
   
@@ -3039,12 +3039,20 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="BEBB_schema-p-p-style-rend-constraint-rule-10">
+                  id="BEBB_schema-p-p-rend-indent-combination-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:p">
-               <sch:assert test="not(@style) or normalize-space(@rend) = ('first-line', 'hanging', 'block-indent')">@style may only be used on p when @rend is exactly first-line, hanging, or block-indent.</sch:assert>
-               <sch:assert test="not(tokenize(normalize-space(@rend), '\s+') = ('first-line', 'hanging', 'block-indent')) or normalize-space(@style)">The @rend values first-line, hanging, and block-indent require a non-empty @style containing CSS declarations.</sch:assert>
+               <sch:let name="tokens" value="tokenize(normalize-space(@rend), '\s+')"/>
+               <sch:let name="indentKinds"
+                        value="$tokens[. = ('hanging', 'first-line', 'block-indent')]"/>
+               <sch:let name="indentDepths"
+                        value="$tokens[. = ('indent-2em', 'indent-3em', 'indent-4em', 'indent-5em')]"/>
+               <sch:assert test="empty($indentKinds) or count($indentDepths) = 1">The @rend values hanging, first-line, and block-indent require exactly one indentation depth (indent-2em, indent-3em, indent-4em, or indent-5em).</sch:assert>
+               <sch:assert test="empty($indentDepths) or count($indentKinds) = 1">An indentation depth in @rend may only be used with exactly one of hanging, first-line, or block-indent.</sch:assert>
+               <sch:assert test="count($indentKinds) le 1">The @rend values hanging, first-line, and block-indent must not be combined with one another.</sch:assert>
+               <sch:assert test="count($indentDepths) le 1">Multiple indentation-depth values must not be combined in @rend.</sch:assert>
+               <sch:assert test="not($tokens = ('space', 'editorial')) or count($tokens) = 1">The @rend values space and editorial must be used on their own.</sch:assert>
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -3081,22 +3089,22 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                         <value>editorial</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</a:documentation>
                         <value>first-line</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Only the first line is indented. Project rule: use @style with the CSS declaration text-indent, for example style="text-indent: 2em;".</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Only the first line is indented. Must be combined with exactly one indent-*em value in @rend.</a:documentation>
                         <value>hanging</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Following lines are indented while the first line projects to the left. Project rule: use matching padding-left and negative text-indent declarations, for example style="padding-left: 4em; text-indent: -4em;".</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Following lines are indented while the first line projects to the left. Must be combined with exactly one indent-*em value in @rend.</a:documentation>
                         <value>block-indent</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The complete paragraph is indented. Project rule: use the CSS declaration margin-left, for example style="margin-left: 2em;".</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The complete paragraph is indented. Must be combined with exactly one indent-*em value in @rend.</a:documentation>
+                        <value>indent-2em</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Specifies an indentation depth of 2 em. Must be combined with exactly one indentation type in @rend.</a:documentation>
+                        <value>indent-3em</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Specifies an indentation depth of 3 em. Must be combined with exactly one indentation type in @rend.</a:documentation>
+                        <value>indent-4em</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Specifies an indentation depth of 4 em. Must be combined with exactly one indentation type in @rend.</a:documentation>
+                        <value>indent-5em</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Specifies an indentation depth of 5 em. Must be combined with exactly one indentation type in @rend.</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="style">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains non-empty CSS declarations specifying the paragraph indentation according to the project rules documented for p/@rend.</a:documentation>
-               <data type="string">
-                  <param name="pattern">.*\S.*</param>
-               </data>
             </attribute>
          </optional>
          <empty/>

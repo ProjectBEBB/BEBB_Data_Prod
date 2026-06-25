@@ -1197,13 +1197,19 @@
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="p" module="core" mode="change">
-                                        <constraintSpec ident="p-style-rend" scheme="schematron">
+                                        <constraintSpec ident="p-rend-indent-combination" scheme="schematron">
                                           <constraint>
                                             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                                                       xmlns:tei="http://www.tei-c.org/ns/1.0"
                                                       context="tei:p">
-                                              <sch:assert test="not(@style) or normalize-space(@rend) = ('first-line', 'hanging', 'block-indent')">@style may only be used on p when @rend is exactly first-line, hanging, or block-indent.</sch:assert>
-                                              <sch:assert test="not(tokenize(normalize-space(@rend), '\s+') = ('first-line', 'hanging', 'block-indent')) or normalize-space(@style)">The @rend values first-line, hanging, and block-indent require a non-empty @style containing CSS declarations.</sch:assert>
+                                              <sch:let name="tokens" value="tokenize(normalize-space(@rend), '\s+')"/>
+                                              <sch:let name="indentKinds" value="$tokens[. = ('hanging', 'first-line', 'block-indent')]"/>
+                                              <sch:let name="indentDepths" value="$tokens[. = ('indent-2em', 'indent-3em', 'indent-4em', 'indent-5em')]"/>
+                                              <sch:assert test="empty($indentKinds) or count($indentDepths) = 1">The @rend values hanging, first-line, and block-indent require exactly one indentation depth (indent-2em, indent-3em, indent-4em, or indent-5em).</sch:assert>
+                                              <sch:assert test="empty($indentDepths) or count($indentKinds) = 1">An indentation depth in @rend may only be used with exactly one of hanging, first-line, or block-indent.</sch:assert>
+                                              <sch:assert test="count($indentKinds) le 1">The @rend values hanging, first-line, and block-indent must not be combined with one another.</sch:assert>
+                                              <sch:assert test="count($indentDepths) le 1">Multiple indentation-depth values must not be combined in @rend.</sch:assert>
+                                              <sch:assert test="not($tokens = ('space', 'editorial')) or count($tokens) = 1">The @rend values space and editorial must be used on their own.</sch:assert>
                                             </sch:rule>
                                           </constraint>
                                         </constraintSpec>
@@ -1226,12 +1232,7 @@
                                                 <attDef ident="sameAs" mode="delete"/>
                                                 <attDef ident="select" mode="delete"/>
                                                 <attDef ident="source" mode="delete"/>
-                                                <attDef ident="style" mode="change" usage="opt">
-                                                  <desc xml:lang="en">contains non-empty CSS declarations specifying the paragraph indentation according to the project rules documented for p/@rend.</desc>
-                                                  <datatype>
-                                                    <dataRef name="string" restriction=".*\S.*"/>
-                                                  </datatype>
-                                                </attDef>
+                                                <attDef ident="style" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
@@ -1246,21 +1247,29 @@
                                                     <desc xml:lang="en">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</desc>
                                                   </valItem>
                                                   <valItem ident="first-line">
-                                                    <desc xml:lang="en">Only the first line is indented. Project rule: use @style with the CSS declaration text-indent, for example style="text-indent: 2em;".</desc>
+                                                    <desc xml:lang="en">Only the first line is indented. Must be combined with exactly one indent-*em value in @rend.</desc>
                                                   </valItem>
                                                   <valItem ident="hanging">
-                                                    <desc xml:lang="en">Following lines are indented while the first line projects to the left. Project rule: use matching padding-left and negative text-indent declarations, for example style="padding-left: 4em; text-indent: -4em;".</desc>
+                                                    <desc xml:lang="en">Following lines are indented while the first line projects to the left. Must be combined with exactly one indent-*em value in @rend.</desc>
                                                   </valItem>
                                                   <valItem ident="block-indent">
-                                                    <desc xml:lang="en">The complete paragraph is indented. Project rule: use the CSS declaration margin-left, for example style="margin-left: 2em;".</desc>
+                                                    <desc xml:lang="en">The complete paragraph is indented. Must be combined with exactly one indent-*em value in @rend.</desc>
+                                                  </valItem>
+                                                  <valItem ident="indent-2em">
+                                                    <desc xml:lang="en">Specifies an indentation depth of 2 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  </valItem>
+                                                  <valItem ident="indent-3em">
+                                                    <desc xml:lang="en">Specifies an indentation depth of 3 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  </valItem>
+                                                  <valItem ident="indent-4em">
+                                                    <desc xml:lang="en">Specifies an indentation depth of 4 em. Must be combined with exactly one indentation type in @rend.</desc>
+                                                  </valItem>
+                                                  <valItem ident="indent-5em">
+                                                    <desc xml:lang="en">Specifies an indentation depth of 5 em. Must be combined with exactly one indentation type in @rend.</desc>
                                                   </valItem>
                                                   </valList>
                                                 </attDef>
                                         </attList>
-                                        <model behaviour="paragraph" useSourceRendition="true"/>
-                                        <remarks xml:lang="de">
-                                          <p>Projektregel für Absatzeinzüge: <att>rend</att>="first-line" wird mit <att>style</att>="text-indent: 2em;" verwendet; <att>rend</att>="hanging" mit gleich großen Werten für <code>padding-left</code> und negativem <code>text-indent</code>; <att>rend</att>="block-indent" mit <code>margin-left</code>. Andere gültige Einzugstiefen in <code>em</code> sind zulässig.</p>
-                                        </remarks>
                                 </elementSpec>
                                 <elementSpec ident="pb" module="core" mode="change">
                                         <attList>
