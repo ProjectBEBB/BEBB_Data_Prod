@@ -3068,6 +3068,14 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A larger space in the manuscript functions as a paragraph boundary. It is handled differently in the diplomatic and normalized versions.</a:documentation>
                   <value>editorial</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</a:documentation>
+                  <value>center</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Centered line or block.</a:documentation>
+                  <value>right</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Right-aligned text.</a:documentation>
+                  <value>right-block</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A block positioned on the right, with internal text left-aligned.</a:documentation>
+                  <value>c</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</a:documentation>
                   <value>hanging-2em</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 2 em.</a:documentation>
                   <value>hanging-3em</value>
@@ -3158,6 +3166,8 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                         <value>right</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>i</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>b</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>sub</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5224,14 +5234,17 @@ Sample values include: 1] letter; 2] attachment</a:documentation>
          <optional>
             <attribute name="rend">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.
-Sample values include: 1] right</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <data type="token">
-                        <param name="pattern">[^\p{C}\p{Z}]+</param>
-                     </data>
-                  </oneOrMore>
-               </list>
+Sample values include: 1] center; 2] right; 3] right-block; 4] c</a:documentation>
+               <choice>
+                  <value>center</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Centered line or block.</a:documentation>
+                  <value>right</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Right-aligned text.</a:documentation>
+                  <value>right-block</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A block positioned on the right, with internal text left-aligned.</a:documentation>
+                  <value>c</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</a:documentation>
+               </choice>
             </attribute>
          </optional>
          <empty/>
@@ -5281,9 +5294,34 @@ Sample values include: 1] right</a:documentation>
       <element name="salute">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(salutation) contains a salutation or greeting prefixed to a foreword, dedicatory epistle, or other division of a text, or the salutation in the closing of a letter, preface, etc. [4.2.2. Openers and Closers]</a:documentation>
          <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.global.analytic.attributes"/>
+         <ref name="tei_att.global.change.attributes"/>
+         <ref name="tei_att.global.facs.attributes"/>
+         <ref name="tei_att.global.linking.attributes"/>
+         <ref name="tei_att.global.responsibility.attributes"/>
+         <ref name="tei_att.global.source.attributes"/>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.attribute.xmlbase"/>
+         <ref name="tei_att.global.attribute.xmlspace"/>
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.written.attributes"/>
+         <optional>
+            <attribute name="rend">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+               <choice>
+                  <value>center</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Centered line or block.</a:documentation>
+                  <value>right</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Right-aligned text.</a:documentation>
+                  <value>right-block</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A block positioned on the right, with internal text left-aligned.</a:documentation>
+                  <value>c</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -5291,9 +5329,34 @@ Sample values include: 1] right</a:documentation>
       <element name="signed">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(signature) contains the closing salutation, etc., appended to a foreword, dedicatory epistle, or other division of a text. [4.2.2. Openers and Closers]</a:documentation>
          <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.global.analytic.attributes"/>
+         <ref name="tei_att.global.change.attributes"/>
+         <ref name="tei_att.global.facs.attributes"/>
+         <ref name="tei_att.global.linking.attributes"/>
+         <ref name="tei_att.global.responsibility.attributes"/>
+         <ref name="tei_att.global.source.attributes"/>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.attribute.xmlbase"/>
+         <ref name="tei_att.global.attribute.xmlspace"/>
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.written.attributes"/>
+         <optional>
+            <attribute name="rend">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+               <choice>
+                  <value>center</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Centered line or block.</a:documentation>
+                  <value>right</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Right-aligned text.</a:documentation>
+                  <value>right-block</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A block positioned on the right, with internal text left-aligned.</a:documentation>
+                  <value>c</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

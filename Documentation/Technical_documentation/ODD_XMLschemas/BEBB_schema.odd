@@ -881,6 +881,7 @@
                                                   <valItem ident="k" mode="add"/>
                                                   <valItem ident="right" mode="add"/>
                                                   <valItem ident="i" mode="add"/>
+                                                  <valItem ident="b" mode="add"/>
                                                   <valItem ident="sub" mode="add"/>
                                                   <valItem mode="add" ident="overline"/></valList>
                                                 </attDef>
@@ -1232,6 +1233,18 @@
                                                   </valItem>
                                                   <valItem ident="editorial">
                                                     <desc xml:lang="en">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</desc>
+                                                  </valItem>
+                                                  <valItem ident="center">
+                                                    <desc xml:lang="en">Centered line or block.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right">
+                                                    <desc xml:lang="en">Right-aligned text.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right-block">
+                                                    <desc xml:lang="en">A block positioned on the right, with internal text left-aligned.</desc>
+                                                  </valItem>
+                                                  <valItem ident="c">
+                                                    <desc xml:lang="en">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</desc>
                                                   </valItem>
                                                   <valItem ident="hanging-2em">
                                                     <desc xml:lang="en">Hanging indentation with a depth of 2 em.</desc>
@@ -4445,8 +4458,22 @@
                                 <elementSpec ident="dateline" module="textstructure" mode="change">
                                         <attList>
                                                 <attDef ident="rend" mode="change">
-                                                  <valList type="open" mode="replace">
-                                                  <valItem ident="right"/>
+                                                  <datatype>
+                                                    <dataRef key="teidata.enumerated"/>
+                                                  </datatype>
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="center">
+                                                    <desc xml:lang="en">Centered line or block.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right">
+                                                    <desc xml:lang="en">Right-aligned text.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right-block">
+                                                    <desc xml:lang="en">A block positioned on the right, with internal text left-aligned.</desc>
+                                                  </valItem>
+                                                  <valItem ident="c">
+                                                    <desc xml:lang="en">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</desc>
+                                                  </valItem>
                                                   </valList>
                                                 </attDef>
                                                 <attDef ident="ana" mode="delete"/>
@@ -4470,6 +4497,56 @@
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
+                                        </attList>
+                                </elementSpec>
+                                <elementSpec ident="salute" module="textstructure" mode="change">
+                                        <attList>
+                                                <attDef ident="rend" mode="change">
+                                                  <datatype>
+                                                    <dataRef key="teidata.enumerated"/>
+                                                  </datatype>
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="center">
+                                                    <desc xml:lang="en">Centered line or block.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right">
+                                                    <desc xml:lang="en">Right-aligned text.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right-block">
+                                                    <desc xml:lang="en">A block positioned on the right, with internal text left-aligned.</desc>
+                                                  </valItem>
+                                                  <valItem ident="c">
+                                                    <desc xml:lang="en">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</desc>
+                                                  </valItem>
+                                                  </valList>
+                                                </attDef>
+                                                <attDef ident="style" mode="delete"/>
+                                                <attDef ident="rendition" mode="delete"/>
+                                        </attList>
+                                </elementSpec>
+                                <elementSpec ident="signed" module="textstructure" mode="change">
+                                        <attList>
+                                                <attDef ident="rend" mode="change">
+                                                  <datatype>
+                                                    <dataRef key="teidata.enumerated"/>
+                                                  </datatype>
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="center">
+                                                    <desc xml:lang="en">Centered line or block.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right">
+                                                    <desc xml:lang="en">Right-aligned text.</desc>
+                                                  </valItem>
+                                                  <valItem ident="right-block">
+                                                    <desc xml:lang="en">A block positioned on the right, with internal text left-aligned.</desc>
+                                                  </valItem>
+                                                  <valItem ident="c">
+                                                    <desc xml:lang="en">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</desc>
+                                                  </valItem>
+                                                  </valList>
+                                                </attDef>
+                                                <attDef ident="style" mode="delete"/>
+                                                <attDef ident="rendition" mode="delete"/>
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="space" module="transcr" mode="change">
