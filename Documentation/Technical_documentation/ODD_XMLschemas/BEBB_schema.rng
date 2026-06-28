@@ -3826,7 +3826,17 @@ Elements]</a:documentation>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.facs.attribute.facs"/>
          <ref name="tei_att.cmc.attributes"/>
-         <ref name="tei_att.typed.attribute.type"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the page break using a controlled project vocabulary.</a:documentation>
+               <choice>
+                  <value>empty</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>archival</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
