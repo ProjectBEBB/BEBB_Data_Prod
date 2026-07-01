@@ -3711,6 +3711,12 @@ Sample values include: </a:documentation>
             </choice>
          </zeroOrMore>
          <ref name="tei_att.cmc.attributes"/>
+         <optional>
+            <attribute name="rend">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the heading was rendered or presented in the source text.</a:documentation>
+               <value>center</value>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
