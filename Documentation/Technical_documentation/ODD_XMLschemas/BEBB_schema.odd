@@ -1124,11 +1124,9 @@
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="place" mode="change">
                                                         <valList type="closed" mode="replace">
-                                                                <valItem ident="above"/>
-                                                                <valItem ident="below"/>
-                                                                <valItem ident="margin"/>
-                                                                <valItem ident="opposite"/>
-                                                                <valItem ident="overleaf"/>
+                                                                <valItem ident="margin">
+                                                                        <desc xml:lang="en">Marginal note in the source. In BEBB encoding, note/@place="margin" is used for genuine marginalia and does not imply or require @hand.</desc>
+                                                                </valItem>
                                                         </valList>
                                                 </attDef>
                                                 <attDef ident="prev" mode="delete"/>
