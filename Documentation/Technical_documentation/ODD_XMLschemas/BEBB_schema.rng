@@ -2947,6 +2947,7 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
          <ref name="tei_abstract"/>
          <ref name="tei_langUsage"/>
          <ref name="tei_textClass"/>
+         <ref name="tei_calendarDesc"/>
          <ref name="tei_correspDesc"/>
          <ref name="tei_particDesc"/>
          <ref name="tei_settingDesc"/>
@@ -3535,6 +3536,51 @@ Measures]</a:documentation>
          <ref name="tei_att.datable.w3c.attribute.notAfter"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
          <ref name="tei_att.datable.w3c.attribute.to"/>
+         <optional>
+            <attribute name="calendar">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more systems or calendars to which the date represented by the content of this element belongs.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="anyURI">
+                        <param name="pattern">\S+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  id="BEBB_schema-date-calendar-calendar_attr_on_empty_element-constraint-rule-calendar">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:*[@calendar]">
+               <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+              systems or calendars to which the date represented by the content of this element belongs,
+              but this <sch:name/> element has no textual content.</sch:assert>
+            </sch:rule>
+         </pattern>
+         <optional>
+            <attribute name="when-custom">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of a date or time in some custom standard form.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="datingMethod">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+               <data type="anyURI">
+                  <param name="pattern">\S+</param>
+               </data>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -4784,6 +4830,28 @@ Sample values include: 1] URLWeb; 2] URLXML; 3] callNumber; 4] ALMA_NZ; 5] ALMA_
                </data>
             </attribute>
          </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_calendarDesc">
+      <element name="calendarDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(calendar description) contains a description of the calendar system used in any dating expression found in the text. [2.4. The Profile Description 2.4.5. Calendar Description]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_calendar"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_calendar">
+      <element name="calendar">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(calendar) describes a calendar or dating system used in a dating formula in the text. [2.4.5. Calendar Description]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_model.pLike"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.pointing.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
    </define>

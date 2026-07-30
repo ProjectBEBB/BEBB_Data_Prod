@@ -91,7 +91,7 @@
                                         </attList>
                                 </elementSpec>
                                 <moduleRef key="tei" except=""/>
-                                <moduleRef key="header" except="appInfo application authority biblFull cRefPattern calendar calendarDesc catRef citeData citeStructure classCode conversion correction creation distributor editorialDecl geoDecl hyphenation interpretation listPrefixDef namespace normalization prefixDef principal projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation sponsor stdVals styleDefDecl tagUsage tagsDecl unitDecl unitDef xenoData"/>
+                                <moduleRef key="header" except="appInfo application authority biblFull cRefPattern catRef citeData citeStructure classCode conversion correction creation distributor editorialDecl geoDecl hyphenation interpretation listPrefixDef namespace normalization prefixDef principal projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation sponsor stdVals styleDefDecl tagUsage tagsDecl unitDecl unitDef xenoData"/>
                                 <moduleRef key="textstructure" except="argument byline div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur titlePage titlePart trailer"/>
                                 <elementSpec ident="ptr" module="core" mode="change">
                                         <attList>
@@ -523,13 +523,13 @@
                                                 <attDef ident="ana" mode="delete"/>
                                                 <attDef ident="atLeast" mode="delete"/>
                                                 <attDef ident="atMost" mode="delete"/>
-                                                <attDef ident="calendar" mode="delete"/>
+                                                <attDef ident="calendar" mode="change"/>
                                                 <attDef ident="cert" mode="delete"/>
                                                 <attDef ident="change" mode="delete"/>
                                                 <attDef ident="confidence" mode="delete"/>
                                                 <attDef ident="copyOf" mode="delete"/>
                                                 <attDef ident="corresp" mode="delete"/>
-                                                <attDef ident="datingMethod" mode="delete"/>
+                                                <attDef ident="datingMethod" mode="change"/>
                                                 <attDef ident="datingPoint" mode="delete"/>
                                                 <attDef ident="dur" mode="delete"/>
                                                 <attDef ident="dur-iso" mode="delete"/>
@@ -568,7 +568,7 @@
                                                 <attDef ident="to-iso" mode="delete"/>
                                                 <attDef ident="type" mode="delete"/>
                                                 <attDef ident="unit" mode="delete"/>
-                                                <attDef ident="when-custom" mode="delete"/>
+                                                <attDef ident="when-custom" mode="change"/>
                                                 <attDef ident="when-iso" mode="delete"/>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
