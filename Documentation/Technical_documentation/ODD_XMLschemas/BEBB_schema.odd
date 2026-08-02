@@ -1552,11 +1552,7 @@
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
-                                                <attDef ident="type" mode="change">
-                                                  <valList type="closed" mode="replace">
-                                                  <valItem ident="otherForm"/>
-                                                  </valList>
-                                                </attDef>
+                                                <attDef ident="type" mode="delete"/>
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="respStmt" module="core" mode="change">
@@ -4083,6 +4079,23 @@
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
+                                        </attList>
+                                </elementSpec>
+                                <elementSpec ident="msDesc" module="msdescription" mode="change">
+                                        <attList>
+                                                <attDef ident="rend" mode="delete"/>
+                                                <attDef ident="type" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="concept"/>
+                                                  <valItem ident="draft"/>
+                                                  <valItem ident="copy"/>
+                                                  <valItem ident="excerpt"/>
+                                                  <valItem ident="fragment"/>
+                                                  <valItem ident="fairCopy"/>
+                                                  <valItem ident="sentVersion"/>
+                                                  <valItem ident="otherForm"/>
+                                                  </valList>
+                                                </attDef>
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="repository" module="msdescription" mode="change">
