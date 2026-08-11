@@ -3,7 +3,7 @@ Last data export: August 2024. Step 1-6 performed last time October (from 3 to 1
 
 # Step 0: Obtain data from wiki
 - Data dump obtained from UB (Martin Reisacher): https://drive.switch.ch/index.php/apps/files/?dir=/Bernoulli&fileid=7441540861.
-- Load data in local mysql server: DB name 'BEBB202408', user 'root', pwd 'chief'
+- Load data in a local MySQL server. Keep database credentials in a secure local configuration; do not record them in the repository.
 - Documentation: https://github.com/ProjectBEBB/wiki-to-xml/blob/master/bebb-import.md#parse-and-convert-mediawiki-contents
 
 # Step 1: from Wiki to XML
