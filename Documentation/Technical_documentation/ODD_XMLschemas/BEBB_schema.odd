@@ -49,6 +49,24 @@
                 </front>
                 <body>
                         <p>Schema adapted to BEBB letter files (version from 2024_12_17)</p>
+                        <div type="encoding-guidelines">
+                                <head>Block alignment and marginal notes</head>
+                                <p>Encode layout on the semantically appropriate block element
+                                        (<gi>p</gi>, <gi>dateline</gi>, <gi>salute</gi>, or
+                                        <gi>signed</gi>), not generically on <gi>opener</gi> or
+                                        <gi>closer</gi>. The value <val>center</val> means centered,
+                                        <val>right</val> means right-aligned, and
+                                        <val>right-block</val> means a block positioned on the right
+                                        whose text remains internally left-aligned.</p>
+                                <p><val>c</val> is a deprecated transitional value. Existing
+                                        <att>rend</att>="c" encodings must be migrated to the
+                                        appropriate block element with <att>rend</att>="center"; once
+                                        this data cleanup is complete, <val>c</val> must be removed
+                                        from the schema and ODD.</p>
+                                <p>Encode genuine marginalia as <gi>note</gi>
+                                        <att>place</att>="margin". Add <att>hand</att> only when the
+                                        hand has actually been identified.</p>
+                        </div>
                         <schemaSpec ident="BEBB_schema" docLang="en" prefix="tei_" xml:lang="en" targetLang="en">
                                 <moduleRef key="core" except="binaryObject cb citedRange desc distinct divGen ellipsis email emph gb gloss headItem headLabel index label measureGrp media meeting mentioned milestone noteGrp num postBox postCode rb rt ruby soCalled sp speaker stage street textLang time unit"/>
                                 <elementSpec ident="measure" module="core" mode="change">
