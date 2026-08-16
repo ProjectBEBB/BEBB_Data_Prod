@@ -2450,6 +2450,7 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
    <define name="tei_model.publicationStmtPart.agency">
       <choice>
          <ref name="tei_publisher"/>
+         <ref name="tei_authority"/>
       </choice>
    </define>
    <define name="tei_model.publicationStmtPart.detail">
@@ -4132,6 +4133,15 @@ Elements 7.2.6. Speech Contents]</a:documentation>
       <element name="publisher">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
+      </element>
+   </define>
+   <define name="tei_authority">
+      <element name="authority">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(release authority) supplies the name of a person or other agency responsible for making a work available, other than a publisher or distributor. [2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
+         <ref name="tei_macro.phraseSeq.limited"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.canonical.attributes"/>
+         <empty/>
       </element>
    </define>
    <define name="tei_biblScope">
