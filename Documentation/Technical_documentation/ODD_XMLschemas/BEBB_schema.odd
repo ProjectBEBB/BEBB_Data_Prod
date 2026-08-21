@@ -3477,7 +3477,13 @@
                                                 <attDef ident="style" mode="delete"/>
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
-                                                <attDef ident="type" mode="delete"/>
+                                                <attDef ident="type" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="astronomical-observations">
+                                                      <desc xml:lang="en">Table containing astronomical observation or calculation values.</desc>
+                                                    </valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
