@@ -3403,7 +3403,18 @@
                                                 </attDef>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
-                                                <attDef ident="rend" mode="delete"/>
+                                                <attDef ident="rend" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="left"><desc xml:lang="en">Left-aligned cell content.</desc></valItem>
+                                                    <valItem ident="center"><desc xml:lang="en">Centered cell content.</desc></valItem>
+                                                    <valItem ident="right"><desc xml:lang="en">Right-aligned cell content.</desc></valItem>
+                                                    <valItem ident="align-center"><desc xml:lang="en">Center-aligns the cell content.</desc></valItem>
+                                                    <valItem ident="align-right"><desc xml:lang="en">Right-aligns the cell content.</desc></valItem>
+                                                    <valItem ident="rule-right"><desc xml:lang="en">Displays a rule at the right edge of the cell.</desc></valItem>
+                                                    <valItem ident="double-rule-right"><desc xml:lang="en">Displays a double rule at the right edge of the cell.</desc></valItem>
+                                                    <valItem ident="rule-above"><desc xml:lang="en">Displays a rule above the cell.</desc></valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="rendition" mode="delete"/>
                                                 <attDef ident="resp" mode="delete"/>
                                                 <attDef ident="sameAs" mode="delete"/>
@@ -3477,13 +3488,7 @@
                                                 <attDef ident="style" mode="delete"/>
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
-                                                <attDef ident="type" mode="change">
-                                                  <valList type="closed" mode="replace">
-                                                    <valItem ident="astronomical-observations">
-                                                      <desc xml:lang="en">Table containing astronomical observation or calculation values.</desc>
-                                                    </valItem>
-                                                  </valList>
-                                                </attDef>
+                                                <attDef ident="type" mode="delete"/>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
