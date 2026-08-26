@@ -109,7 +109,7 @@
                                         </attList>
                                 </elementSpec>
                                 <moduleRef key="tei" except=""/>
-                                <moduleRef key="header" except="appInfo application biblFull cRefPattern catRef citeData citeStructure classCode conversion correction creation distributor editorialDecl geoDecl hyphenation interpretation listPrefixDef namespace normalization prefixDef principal projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation sponsor stdVals styleDefDecl tagUsage tagsDecl unitDecl unitDef xenoData"/>
+                                <moduleRef key="header" except="appInfo application biblFull cRefPattern citeData citeStructure classCode conversion correction creation distributor editorialDecl geoDecl hyphenation interpretation listPrefixDef namespace normalization prefixDef principal projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation sponsor stdVals styleDefDecl tagUsage tagsDecl unitDecl unitDef xenoData"/>
                                 <moduleRef key="textstructure" except="argument byline div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur titlePage titlePart trailer"/>
                                 <elementSpec ident="ptr" module="core" mode="change">
                                         <attList>
@@ -1723,7 +1723,11 @@
                                                 <attDef ident="style" mode="delete"/>
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
-                                                <attDef ident="type" mode="delete"/>
+                                                <attDef ident="type" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="Korrespondenz"/>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="version" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
@@ -2187,7 +2191,11 @@
                                                 <attDef ident="rend" mode="delete"/>
                                                 <attDef ident="rendition" mode="delete"/>
                                                 <attDef ident="resp" mode="delete"/>
-                                                <attDef ident="role" mode="delete"/>
+                                                <attDef ident="role" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="main"/>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="sameAs" mode="delete"/>
                                                 <attDef ident="select" mode="delete"/>
                                                 <attDef ident="sort" mode="delete"/>
@@ -3145,6 +3153,7 @@
                                                   <valItem ident="grundkommentiert"/>
                                                   <valItem ident="kommentiert"/>
                                                   <valItem ident="gedruckt"/>
+                                                  <valItem ident="generated"/>
                                                   </valList>
                                                 </attDef>
                                         </attList>
@@ -3623,7 +3632,20 @@
                                                 </attDef>
                                         </attList>
                                 </elementSpec>
-                                <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex fw handNotes handShift line listTranspose mod path redo restore retrace secl sourceDoc substJoin surface surfaceGrp surplus transpose undo zone"/>
+                                <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex handNotes handShift line listTranspose mod path redo restore retrace secl sourceDoc substJoin surface surfaceGrp surplus transpose undo zone"/>
+                                <elementSpec ident="fw" module="transcr" mode="change">
+                                        <attList>
+                                                <attDef ident="type" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="pageNum"/>
+                                                    <valItem ident="catch"/>
+                                                    <valItem ident="header"/>
+                                                    <valItem ident="footer"/>
+                                                    <valItem ident="sig"/>
+                                                  </valList>
+                                                </attDef>
+                                        </attList>
+                                </elementSpec>
                                 <elementSpec ident="facsimile" module="transcr" mode="change">
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
