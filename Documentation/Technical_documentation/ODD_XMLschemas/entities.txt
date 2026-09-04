@@ -36,9 +36,11 @@
 <!ENTITY klammerauf '<choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>' >
 <!ENTITY klammerzu '<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice>' >
 <!ENTITY ll '<choice><orig><g ref="#ll">ƚ</g></orig><reg>ll</reg></choice>' >
-<!ENTITY mm '<choice><orig><g ref="#mm">&#xE5B8;</g></orig><reg>mm</reg></choice>' >
+<!ENTITY macute '<choice><orig><g ref="#macute">&#x1E3F;</g></orig><reg>m</reg></choice>' >
+<!ENTITY mm '<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>' >
 <!ENTITY mn '<choice><orig><g ref="#mn">m&#x0305;</g></orig><reg>mn</reg></choice>' >
 <!ENTITY NB '<choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice>' >
+<!ENTITY nacute '<choice><orig><g ref="#nacute">&#x0144;</g></orig><reg>n</reg></choice>' >
 <!ENTITY nddot '<choice><orig><g ref="#nddot">:</g></orig><reg/></choice>' >
 <!ENTITY ndot '<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>' >
 <!ENTITY nn '<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>' >
@@ -75,6 +77,11 @@
 <!ENTITY U '<choice><orig><g ref="#U">V</g></orig><reg>U</reg></choice>' >
 <!ENTITY ue '<choice><orig><g ref="#ue">uͤ</g></orig><reg>ü</reg></choice>' >
 <!ENTITY ver '<choice><orig><g ref="#ver">v&#x035B;</g></orig><reg>ver</reg></choice>' >
+<!-- Currency signs -->
+<!ENTITY curr_batzen '<g ref="#curr_batzen">&#xF2F7;</g>'>
+<!ENTITY curr_floren '<g ref="#curr_floren">&#xF2E8;</g>'>
+<!ENTITY curr_lb '<g ref="#curr_lb">&#xF2EA;</g>'>
+<!-- Astronomical signs -->
 <!ENTITY SUN '<g ref="#SUN">&#x2609;</g>'>
 <!ENTITY leftmoon  '<g ref="#leftmoon">&#x263D;</g>'>
 <!ENTITY rightmoon '<g ref="#rightmoon">&#x263E;</g>'>
