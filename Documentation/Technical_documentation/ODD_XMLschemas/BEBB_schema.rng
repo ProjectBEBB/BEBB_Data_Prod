@@ -3078,8 +3078,6 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
             <attribute name="rend">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
                <choice>
-                  <value>space</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A larger space in the manuscript functions as a paragraph boundary. It is handled differently in the diplomatic and normalized versions.</a:documentation>
                   <value>editorial</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</a:documentation>
                   <value>center</value>
@@ -6719,6 +6717,13 @@ Sample values include: 1] #author; 2] #adressee; 3] #unknown</a:documentation>
                   <value>nbsp</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <value>paragraph</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A significant space functioning as a paragraph boundary.</a:documentation>
             </attribute>
          </optional>
          <empty/>

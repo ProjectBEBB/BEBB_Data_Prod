@@ -1260,9 +1260,6 @@
                                                     <dataRef key="teidata.enumerated"/>
                                                   </datatype>
                                                   <valList type="closed" mode="replace">
-                                                  <valItem ident="space">
-                                                    <desc xml:lang="en">A larger space in the manuscript functions as a paragraph boundary. It is handled differently in the diplomatic and normalized versions.</desc>
-                                                  </valItem>
                                                   <valItem ident="editorial">
                                                     <desc xml:lang="en">Marks a paragraph introduced for editorial reasons where the original manuscript has no paragraph boundary.</desc>
                                                   </valItem>
@@ -4643,7 +4640,13 @@
                                                 <attDef ident="style" mode="delete"/>
                                                 <attDef ident="subtype" mode="delete"/>
                                                 <attDef ident="synch" mode="delete"/>
-                                                <attDef ident="type" mode="delete"/>
+                                                <attDef ident="type" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                    <valItem ident="paragraph">
+                                                      <desc xml:lang="en">A significant space functioning as a paragraph boundary.</desc>
+                                                    </valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="xml:base" mode="delete"/>
                                                 <attDef ident="xml:id" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
