@@ -1278,44 +1278,11 @@
                                                   <valItem ident="c">
                                                     <desc xml:lang="en">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</desc>
                                                   </valItem>
-                                                  <valItem ident="hanging-1em">
-                                                    <desc xml:lang="en">Hanging indentation with a depth of 1 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="hanging-2em">
-                                                    <desc xml:lang="en">Hanging indentation with a depth of 2 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="hanging-3em">
-                                                    <desc xml:lang="en">Hanging indentation with a depth of 3 em.</desc>
+                                                  <valItem ident="hanging">
+                                                    <desc xml:lang="en">Hanging indentation without specifying a layout-dependent depth.</desc>
                                                   </valItem>
                                                   <valItem ident="hanging-4em">
                                                     <desc xml:lang="en">Hanging indentation with a depth of 4 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="hanging-5em">
-                                                    <desc xml:lang="en">Hanging indentation with a depth of 5 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="first-line-2em">
-                                                    <desc xml:lang="en">First-line indentation with a depth of 2 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="first-line-3em">
-                                                    <desc xml:lang="en">First-line indentation with a depth of 3 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="first-line-4em">
-                                                    <desc xml:lang="en">First-line indentation with a depth of 4 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="first-line-5em">
-                                                    <desc xml:lang="en">First-line indentation with a depth of 5 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="block-indent-2em">
-                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 2 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="block-indent-3em">
-                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 3 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="block-indent-4em">
-                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 4 em.</desc>
-                                                  </valItem>
-                                                  <valItem ident="block-indent-5em">
-                                                    <desc xml:lang="en">Indentation of the complete paragraph with a depth of 5 em.</desc>
                                                   </valItem>
                                                   </valList>
                                                 </attDef>
@@ -1735,6 +1702,11 @@
                                                 <attDef ident="version" mode="delete"/>
                                                 <attDef ident="xml:lang" mode="delete"/>
                                                 <attDef ident="xml:space" mode="delete"/>
+                                        </attList>
+                                </elementSpec>
+                                <elementSpec ident="text" module="textstructure" mode="change">
+                                        <attList>
+                                                <attDef ident="type" mode="delete"/>
                                         </attList>
                                 </elementSpec>
                                 <moduleRef key="namesdates" except="addName affiliation age bloc climate district education event faith geogFeat geogName langKnowledge langKnown listEvent listNym listObject listRelation nameLink nationality nym object objectIdentifier objectName occupation offset persPronouns personGrp persona population region relation residence settlement sex socecStatus state terrain trait"/>
@@ -4685,6 +4657,7 @@
                                 </elementSpec>
                                 <elementSpec ident="orgName" mode="change">
                                         <attList>
+                                                <attDef ident="role" mode="delete"/>
                                                 <attDef ident="type" mode="change">
                                                   <valList mode="change" type="closed">
                                                   <valItem mode="add" ident="reg"/>

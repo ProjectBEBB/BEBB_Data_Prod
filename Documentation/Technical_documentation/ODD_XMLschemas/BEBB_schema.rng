@@ -3090,32 +3090,10 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A block positioned on the right, with internal text left-aligned.</a:documentation>
                   <value>c</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Deprecated project value for centered text; retained temporarily for backwards compatibility. Prefer center.</a:documentation>
-                  <value>hanging-1em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 1 em.</a:documentation>
-                  <value>hanging-2em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 2 em.</a:documentation>
-                  <value>hanging-3em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 3 em.</a:documentation>
+                  <value>hanging</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation without specifying a layout-dependent depth.</a:documentation>
                   <value>hanging-4em</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 4 em.</a:documentation>
-                  <value>hanging-5em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanging indentation with a depth of 5 em.</a:documentation>
-                  <value>first-line-2em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">First-line indentation with a depth of 2 em.</a:documentation>
-                  <value>first-line-3em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">First-line indentation with a depth of 3 em.</a:documentation>
-                  <value>first-line-4em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">First-line indentation with a depth of 4 em.</a:documentation>
-                  <value>first-line-5em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">First-line indentation with a depth of 5 em.</a:documentation>
-                  <value>block-indent-2em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indentation of the complete paragraph with a depth of 2 em.</a:documentation>
-                  <value>block-indent-3em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indentation of the complete paragraph with a depth of 3 em.</a:documentation>
-                  <value>block-indent-4em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indentation of the complete paragraph with a depth of 4 em.</a:documentation>
-                  <value>block-indent-5em</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indentation of the complete paragraph with a depth of 5 em.</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -5090,7 +5068,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
          <ref name="tei_att.written.attributes"/>
          <empty/>
       </element>
@@ -5892,7 +5870,10 @@ Sample values include: 1] center; 2] right; 3] right-block; 4] c</a:documentatio
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.canonical.attributes"/>
+         <ref name="tei_att.naming.attribute.nymRef"/>
+         <ref name="tei_att.personal.attribute.full"/>
+         <ref name="tei_att.personal.attribute.sort"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
