@@ -4514,9 +4514,40 @@
                                                   <valItem ident="editorialIntroduction">
                                                     <desc xml:lang="en">Editorial introduction to a text or textual unit.</desc>
                                                   </valItem>
+                                                  <valItem ident="translation">
+                                                    <desc xml:lang="en">Translation of the source text into the language identified by xml:lang.</desc>
+                                                  </valItem>
+                                                  </valList>
+                                                </attDef>
+                                                <attDef ident="status" mode="add" usage="opt">
+                                                  <desc xml:lang="en">Records whether a translation has undergone complete scholarly review.</desc>
+                                                  <datatype>
+                                                    <dataRef key="teidata.enumerated"/>
+                                                  </datatype>
+                                                  <valList type="closed">
+                                                    <valItem ident="unreviewed">
+                                                      <desc xml:lang="en">The scholarly review is incomplete, including partially reviewed translations.</desc>
+                                                    </valItem>
+                                                    <valItem ident="reviewed">
+                                                      <desc xml:lang="en">The translation has undergone complete scholarly review against the source text.</desc>
+                                                    </valItem>
                                                   </valList>
                                                 </attDef>
                                         </attList>
+                                        <constraintSpec ident="translation-metadata" scheme="schematron">
+                                          <constraint>
+                                            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:tei="http://www.tei-c.org/ns/1.0" context="tei:div[@type = 'translation']">
+                                              <sch:assert test="@xml:lang">A translation division must identify its target language with @xml:lang.</sch:assert>
+                                              <sch:assert test="@status">A translation division must carry @status with the value unreviewed or reviewed.</sch:assert>
+                                              <sch:assert test="not(@ana)">Translation workflow state is recorded with @status; @ana is not used on translation divisions.</sch:assert>
+                                              <sch:assert test="not(@subtype) or @subtype = 'internal'">The only project-specific subtype for a translation division is internal.</sch:assert>
+                                              <sch:assert test="not(@xml:id) or matches(@xml:id, '_trans_(de|en)$')">If supplied, the translation division @xml:id must end in _trans_de or _trans_en.</sch:assert>
+                                            </sch:rule>
+                                            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:tei="http://www.tei-c.org/ns/1.0" context="tei:div[@status]">
+                                              <sch:assert test="@type = 'translation'">The project-specific @status on div is reserved for translation divisions.</sch:assert>
+                                            </sch:rule>
+                                          </constraint>
+                                        </constraintSpec>
                                 </elementSpec>
                                 <elementSpec ident="dateline" module="textstructure" mode="change">
                                         <attList>
