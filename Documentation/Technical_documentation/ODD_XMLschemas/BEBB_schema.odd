@@ -70,9 +70,6 @@
                         <schemaSpec ident="BEBB_schema" docLang="en" prefix="tei_" xml:lang="en" targetLang="en">
                                 <moduleRef key="core" except="binaryObject cb citedRange desc distinct divGen ellipsis email emph gb gloss headItem headLabel index label measureGrp media meeting mentioned milestone noteGrp num postBox postCode rb rt ruby soCalled sp speaker stage street textLang time unit"/>
                                 <elementSpec ident="measure" module="core" mode="change">
-                                        <content>
-                                                <textNode/>
-                                        </content>
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
                                                 <attDef ident="atLeast" mode="delete"/>
