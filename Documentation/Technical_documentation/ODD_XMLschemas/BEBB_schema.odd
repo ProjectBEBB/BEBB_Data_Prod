@@ -558,7 +558,6 @@
                                                 <attDef ident="key" mode="delete"/>
                                                 <attDef ident="max" mode="delete"/>
                                                 <attDef ident="min" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="notAfter-custom" mode="delete"/>
                                                 <attDef ident="notAfter-iso" mode="delete"/>
@@ -1138,7 +1137,6 @@
                                                 <attDef ident="evaluate" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="place" mode="change">
                                                         <valList type="closed" mode="replace">
@@ -1237,7 +1235,6 @@
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
                                                 <attDef ident="hand" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="part" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
@@ -1703,7 +1700,7 @@
                                                 <attDef ident="type" mode="delete"/>
                                         </attList>
                                 </elementSpec>
-                                <moduleRef key="namesdates" except="addName affiliation age bloc climate district education event faith geogFeat geogName langKnowledge langKnown listEvent listNym listObject listRelation nameLink nationality nym object objectIdentifier objectName occupation offset persPronouns personGrp persona population region relation residence settlement sex socecStatus state terrain trait"/>
+                                <moduleRef key="namesdates" except="addName affiliation age bloc climate district education faith geogFeat geogName langKnowledge langKnown listNym listObject nameLink nationality nym object objectIdentifier objectName occupation offset persPronouns personGrp persona population region residence settlement sex socecStatus state terrain trait"/>
                                 <elementSpec ident="birth" module="namesdates" mode="change">
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
@@ -2032,7 +2029,6 @@
                                                 <attDef ident="default" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
@@ -2274,7 +2270,6 @@
                                                 <attDef ident="from-iso" mode="delete"/>
                                                 <attDef ident="full" mode="delete"/>
                                                 <attDef ident="instant" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="notAfter" mode="delete"/>
                                                 <attDef ident="notAfter-custom" mode="delete"/>
@@ -2288,7 +2283,14 @@
                                                 <attDef ident="rend" mode="delete"/>
                                                 <attDef ident="rendition" mode="delete"/>
                                                 <attDef ident="resp" mode="delete"/>
-                                                <attDef ident="role" mode="delete"/>
+                                                <attDef ident="role" mode="change">
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="departure"><desc xml:lang="en">Departure place of a journey.</desc></valItem>
+                                                  <valItem ident="arrival"><desc xml:lang="en">Arrival place of a journey.</desc></valItem>
+                                                  <valItem ident="stay"><desc xml:lang="en">Place of a stay.</desc></valItem>
+                                                  <valItem ident="transit"><desc xml:lang="en">Place passed through during a journey.</desc></valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="sameAs" mode="delete"/>
                                                 <attDef ident="select" mode="delete"/>
                                                 <attDef ident="sort" mode="delete"/>
@@ -2746,7 +2748,6 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
@@ -2917,7 +2918,6 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
@@ -3764,7 +3764,6 @@
                                                 <attDef ident="corresp" mode="delete"/>
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
                                                 <attDef ident="rend" mode="delete"/>
@@ -4047,7 +4046,6 @@
                                                 <attDef ident="from-iso" mode="delete"/>
                                                 <attDef ident="instant" mode="delete"/>
                                                 <attDef ident="key" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="notAfter" mode="delete"/>
                                                 <attDef ident="notAfter-custom" mode="delete"/>
@@ -4135,7 +4133,6 @@
                                                 <attDef ident="exclude" mode="delete"/>
                                                 <attDef ident="facs" mode="delete"/>
                                                 <attDef ident="key" mode="delete"/>
-                                                <attDef ident="n" mode="delete"/>
                                                 <attDef ident="next" mode="delete"/>
                                                 <attDef ident="nymRef" mode="delete"/>
                                                 <attDef ident="prev" mode="delete"/>
