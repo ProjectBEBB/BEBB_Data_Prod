@@ -5003,6 +5003,15 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                </choice>
             </attribute>
          </optional>
+         <optional>
+            <attribute name="ana">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Current review state of the diplomatic encoding, independent of the general editorial status. A missing value makes no claim of completed review. Provenance is recorded in change entries.</a:documentation>
+               <choice>
+                  <value>diplomatic-reviewed</value>
+                  <value>diplomatic-unreviewed</value>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -6616,7 +6625,7 @@ Sample values include: 1] #author; 2] #adressee; 3] #unknown</a:documentation>
    <define name="tei_figDesc">
       <element name="figDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [15.4. Specific Elements for Graphic Images]</a:documentation>
-         <ref name="tei_macro.limitedContent"/>
+         <ref name="tei_macro.phraseSeq"/>
       </element>
    </define>
    <define name="tei_att.lexicographic.normalized.attribute.norm">

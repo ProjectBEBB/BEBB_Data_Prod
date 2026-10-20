@@ -3092,7 +3092,14 @@
                                 </elementSpec>
                                 <elementSpec ident="revisionDesc" module="header" mode="change">
                                         <attList>
-                                                <attDef ident="ana" mode="delete"/>
+                                                <attDef ident="ana" mode="change" usage="opt">
+                                                  <desc xml:lang="en">Current review state of the diplomatic encoding, independent of the general editorial status. A missing value makes no claim of completed review. Provenance is recorded in change entries.</desc>
+                                                  <datatype><dataRef key="teidata.enumerated"/></datatype>
+                                                  <valList type="closed" mode="replace">
+                                                  <valItem ident="diplomatic-reviewed"><desc xml:lang="en">The diplomatic encoding has been fully checked against the digitised manuscript. Individual corrections alone do not constitute a completed review.</desc></valItem>
+                                                  <valItem ident="diplomatic-unreviewed"><desc xml:lang="en">The diplomatic encoding has not yet been fully checked against the digitised manuscript, including partially reviewed encoding.</desc></valItem>
+                                                  </valList>
+                                                </attDef>
                                                 <attDef ident="cert" mode="delete"/>
                                                 <attDef ident="change" mode="delete"/>
                                                 <attDef ident="copyOf" mode="delete"/>
@@ -4216,6 +4223,9 @@
                                         </attList>
                                 </elementSpec>
                                 <elementSpec ident="figDesc" module="figures" mode="change">
+                                        <content>
+                                                <macroRef key="macro.phraseSeq"/>
+                                        </content>
                                         <attList>
                                                 <attDef ident="ana" mode="delete"/>
                                                 <attDef ident="cert" mode="delete"/>
