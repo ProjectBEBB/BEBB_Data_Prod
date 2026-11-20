@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517019805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Rémond de Montmort. Padua, 01. Januar 1718</title>
+          <title type="alt">1718.01.01: Bernoulli, Nicolaus (1687-1759) an Montmort, Pierre Rémond de (1678-1719)</title>
+          <title type="alt">000059349</title>
+          <title type="alt">1718-01-01_Bernoulli_Nicolaus-Montmort_Pierre_Remond_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517019805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517019805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23459">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.249-251r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517019805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433688405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059349</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4,5 S.<dimensions unit="cm"><height>20</height><width>15</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Padoue</origPlace>
+              <date when="1718-01-01">ce 1er Janvier 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+          <date when="1718-01-01"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517019905501" type="prev"/>
+          <ptr target="B_991170517019705501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-128349794">Beaune, Florimond de</persName>
+            <note type="lebensdaten">(1601-1652)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155965140">Apoil de Romicourt, Françoise Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100814832">Raphson, Joseph</persName>
+            <note type="lebensdaten">(1648-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 4); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-11-13" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-11-11" who="SG FN">Kollationieren begonnen</change>
+        <change when="2025-02-14" who="SG">Tagging abgeschlossen</change>
+        <change when="2025-02-14" who="SG">Zeilenfall eingefügt</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-08-30" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-05-27" who="MS">Mathe getagt, Platzhalter eingefügt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038865/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1038866" n="249r"/>
+  <opener>Monsieur</opener>
+  <p><lb/>Aprés Vous avoir souhaité de tout mon coeur une heureuse année
+      <lb/>et toute sorte de prosperité, je me donne l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vous dire que
+      <lb/>je suis heureusement de retour à <rs key="place_GEO-3171728" type="place">Padoue</rs>, il y a deux mois. Il au<pc type="hyphenation">-</pc><lb break="no"/>roit été mon devoir de Vous do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er plutot cet avis, mais <subst><del><gap/></del><add>ou</add></subst>tre que
+      <lb/>je n’avois pas l’occasion de le faire, je voulois attendre Vôtre <rs type="letter">repon<pc type="hyphenation">-</pc><lb break="no"/>se</rs> sur la <rs type="letter">lettre</rs>, que j’<del><gap/></del>eus l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vous écrire avant mon
+      <lb/>depart de <rs key="place_GEO-2661604" type="place">Bâle</rs>, pour <add>y</add> trouver de la matiere de quoi fournir
+      <lb/>celle<choice><orig></orig><reg>-</reg></choice>ci, laquelle donc je Vous envoye presentement sans passeport
+      <lb/>faute de <add>nouvelles</add> decouvertes. Au reste si Vous voulés sçavoir en quel état je
+      <lb/>me trouve ici, je puis Vous dire, que la santé, graces à Dieu, est assés
+      <lb/>bonne, mais que pour le reste je regarde mon état co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e un exil
+      <lb/>et que je vis presque en moine <del><gap/></del>sort<subst><del><gap/></del><add>ant</add></subst> fort rarement, sinon
+      <lb/>pour faire les Leçons publiques. L’année passée j’avois mon propre
+      <lb/>menage dans une maison que j’avois louée, mais à present je suis en
+      <lb/>pension chés <abbr>Mr.</abbr> le <abbr>Prof.</abbr> et Marquis <rs key="pers_DE-588-11887733X" type="person">Poleni</rs>, j’ai fait ce changement,
+      <lb/>pour avoir tant soit peu de conversation, et pour eviter les disgraces d’une
+      <lb/>entiere solitude. Je ne <choice><orig>scai</orig><reg>sçai</reg></choice> point de nouvelles de litterature Mathe<pc type="hyphenation">-</pc><lb break="no"/>matique, sinon que ce même <abbr>Mr.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> a fait imprimer un <rs type="biblio">Livre</rs>
+  <hi rend="u"><choice><orig>de</orig><reg>DE</reg></choice> Motu aqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mixto</hi>, dont je Vous enverrai un exempla<add>i</add>re aussitôt
+      <lb/>que j’en <del><gap/></del>trouver<add>ai</add> l’occasion. Je proposai il y a plus de 2 ans
+      <lb/>aux Geometres Italiens le Probleme suivant: <figure facs="../images/figures/1038866_01.png" hand="pers_DE-588-119166895"/> <quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Les ordo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ées <formula>AB</formula>, <formula>ab</formula>, de la
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Courbe <formula>CbB</formula> expriment les forces <add><del>centripetes </del></add>par lesquelles un <subst><del><gap/></del><add>c</add></subst>orps
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><add>descendant en ligne droite <formula>AC</formula></add> est poussé en <formula>A</formula>, <formula>a</formula> vers le point <formula>C</formula>, et les ordonnées <formula>AD</formula>,
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><formula>ad</formula> <add>de la Courbe <formula>CdD</formula></add> expriment les temps que le corps <del>employe en</del> tombant
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>du repos des points <formula>A</formula>, <formula>a</formula>, employe<del><gap/></del> à parcourir les espaces
+<pb facs="1038867" n="249v"/>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><formula>AC</formula>, <formula>aC</formula>; on demande en quel cas ces deux Courbes <formula>BbC</formula>, <formula>DdC</formula>, sont les mêmes,
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>ou quelle doit étre la raison des forces centripetes <formula>AB</formula>, <formula>ab</formula>, afin que les
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>tems des chutes par <formula>AC</formula>, <formula>aC</formula> leur<del><gap/></del> soient proportionels.</quote> Peu de temps
+      <lb/>aprés que ce Probleme fut proposé, on a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>onça dans le <rs type="biblio">Journal</rs> de <rs key="place_GEO-3164603" type="place">Venise</rs>,
+      <lb/>que de plusieurs endroits de l’<rs key="place_KON-italie" type="place">Italie</rs> on y avoit envoyé des solutions,
+      <lb/>qui toutes assuroient, que <add><del><gap/></del>le Probleme ne renfermoit aucune difficulté et que</add> la Courbe requise <formula>BbC</formula> <del><gap/></del>étoit <add>la</add> Para<pc type="hyphenation">-</pc><lb break="no"/>bole Cubique du 1.<hi rend="sup">er</hi> degré. Moi, <subst><del><gap/></del><add>je repondis que</add></subst> <choice><orig>Je</orig><reg>je</reg></choice> sçavois que <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>qui
+      <lb/>autrefois l’avoit appris de mon <rs type="person">Oncle</rs><choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> avoit no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>é cette courbe à quel<pc type="hyphenation">-</pc><lb break="no"/>ques uns de ses <rs type="person">amis</rs> de ce <rs key="place_KON-italie" type="place">païs</rs>, que lui même<supplied>,</supplied> <choice><orig></orig><reg>sçavoir</reg></choice> <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><supplied>,</supplied> en avoit
+      <lb/>jugé la solution difficile, et que partant je priois ceux<choice><orig></orig><reg>-</reg></choice>ci qui par eux
+      <lb/>mêmes avoient trouvé cette solution, qu’ils en donnassent l’Ana<pc type="hyphenation">-</pc><lb break="no"/>lyse ou la demonstration <hi rend="u"><foreign xml:lang="lat"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> priori</foreign></hi>. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e depuis ce temps là aucun
+      <lb/>n’a co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué son analyse, et qu’un seul a donné une demonstration
+  <hi rend="u"><foreign xml:lang="lat"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> posteriori</foreign></hi>, je <subst><del><gap/></del><add>veux</add></subst> les so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er encore une fois de publier leur analyse,
+      <lb/>afin qu’il paroisse, si l’on peut dire avec raison, que ce Probleme ne
+      <lb/>renferme aucune difficulté. À propos de <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><choice><orig>;</orig><reg>:</reg></choice> mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>
+      <lb/>me mande, qu’il avoit vû dans les derniers Actes de <rs key="place_GEO-2879139" type="place">Leipsic</rs> une
+  <rs type="biblio">piece</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>,<del><gap/></del> dans laquelle il donne la solution du
+      <lb/>Probleme des trajectoires proposé aux Anglois concuë en ces termes:
+  <quote type="long"><lb/><foreign xml:lang="lat"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>In <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione differentiali curvarum secandarum permutatis coordi<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>natarum elementis, alterutro tamen cum signo "mutato, eliciatur
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>valor moduli</foreign> <said>(il appelle <foreign xml:lang="lat"><hi rend="u">modulum</hi></foreign> le parametre vari<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>able que j’ai appellé <formula>p</formula>)</said> <foreign xml:lang="lat">ex <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione post hanc permutationem or<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>ta, inventusque moduli valor in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> secand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> finitis
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>quantitatibus expressa substitutus, suppeditabit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem diffe<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>rentialem Trajectori<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>.</foreign></quote> Vous decouvrirés fort aisément
+      <lb/>que cette solution n’est autre chose, que la regle que je Vous ai
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquée autrefois, et qu’elles ne sont differentes entre elles
+<pb facs="1038868" n="250r"/>
+      <lb/>que dans l’ordre des operations; c’est pourquoi je m’étonne de ce que
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> assure <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> me mande<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> que sa regle s’étend
+      <lb/>à <hi rend="u">toutes</hi> les courbes transcendantes aussi bien qu’aux Algebraiques<supplied>.</supplied>
+      <lb/>Voici ses paroles, que je copie sur la copie de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> (peutêtre étes
+      <lb/>Vous deja instruit de tout ceci, en ce cas cette copie sera superflue, mais
+      <lb/>n’importe, elle me servira à remplir ma <rs type="letter">lettre</rs>)<supplied>:</supplied> <quote type="long"><foreign xml:lang="lat"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Etsi vero Canon no<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>ster h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rere videtur in aliis Curvis transcendentibus, quarum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>nes differentiales ita comparat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> esse videntur, ut nequeant quan<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>titatibus finitis utut transcendentibus exprimi, quibus modulus non
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>involvatur, nihilominus tamen ex exemplo sequenti constabit, ad eas
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>omnino sese extendere levi scilicet facta substitutione nov<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cujus<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>dam indeterminat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> loco alterutrius illarum quibus curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> secand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis constat<supplied>.</supplied><choice><orig><g ref="#quote">„</g></orig><reg/></choice></foreign></quote> Mais mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> et moi<supplied>,</supplied> nous so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es d’avis
+      <lb/>qu’il y a une infinité de cas, où cela ne se peut pas faire, et je suis
+      <lb/>persuadé, que Vous penserés co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e nous. L’exemple dont <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>
+      <lb/>se sert, est justement celui de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, dont Vous me marqués dans
+      <lb/>Vôtre derniere <rs type="letter">Lettre</rs> que <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> avoit trouvé la solution, et
+      <lb/>lequel <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous <choice><orig>scavés</orig><reg>sçavés</reg></choice><choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> nous avons resolu il y a longtemps. Quand
+      <lb/>mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> publiera sa <rs type="biblio">solution</rs>, ce qui se fera aprés que <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Tay<pc type="hyphenation">-</pc><lb break="no"/>lor</rs> aura publié la sienne, je le prierai d’y joindre aussi la mienne.
+      <lb/>Mandés<choice><orig> </orig><reg>-</reg></choice>moi, s’il Vous plait, si Vous avés donné part de ma regle à
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs>. Je voudrois aussi bien sçavoir, si ce <rs key="pers_DE-588-118801481" type="person"><abbr>Mr.</abbr></rs> peut construire
+      <lb/>la Courbe des resistances, dont <subst><del><gap/></del><add>pa</add></subst>rle <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> <abbr>pag.</abbr> 282<choice><orig>.</orig><reg>,</reg></choice> <abbr>prop.</abbr> 30<choice><orig>.</orig><reg>,</reg></choice> <abbr>L.</abbr> II<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+      <lb/><add>dans la supposition que les resistances soient co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e les vitesses<supplied>.</supplied></add> <choice><orig>c</orig><reg>C</reg></choice>’est <subst><del><gap/></del><add>ce</add></subst> que <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> n’a point entrepris de faire, et dont
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> n’a pas pû venir à bout, voyés <abbr>pag.</abbr> 338<choice><orig>.</orig><reg>,</reg></choice> §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 588<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> de sa <rs type="biblio" key="biblio_WS22BVK4">Phoron.</rs>
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> dit que <del>la
+      </del>cette Courbe <del><gap/></del><quote><hi rend="u"><foreign xml:lang="lat">Ellipsis erit
+      <lb/>quam proxime</foreign></hi></quote>. En cas que <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> <choice><orig>scût</orig><reg>sçût</reg></choice> trouver la veritable Cour<pc type="hyphenation">-</pc><lb break="no"/>be par quelque methode de <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, je souhaiterois qu’il m’in<pc type="hyphenation">-</pc><lb break="no"/>diquat l’endroit, où cette methode est imprimée. <hi rend="u"><foreign xml:lang="lat">Sapienti sat.</foreign></hi> Pour
+<pb facs="1038869" n="250v"/>
+      <lb/>moi, j’ai trouvé quelque chose de fort curieux touchant
+      <lb/>cette courbe, mais que je ne veux pas encore co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquer. Je Vous dirai
+      <lb/>seulement que je puis construire <del><gap/></del><hi rend="u">sine quadraturis</hi> la
+      <lb/>même Courbe<del><gap/></del> pour l’hypothese <subst><del><gap/></del><add>de la</add></subst> resistance proportionelle au
+      <lb/>quarré de la vitesse. En un<del><gap/></del> mot cette Courbe est la même que la Cour<pc type="hyphenation">-</pc><lb break="no"/>be de <abbr>Mr.</abbr> de <rs key="pers_DE-588-128349794" type="person">Beaune</rs> ou que la Logarithmique. Soit <formula>BC=</formula> à l’arc
+      <lb/><figure facs="../images/figures/1038869_01.png" hand="pers_DE-588-119166895"/> de la Cycloide
+      <lb/>que le corps
+      <lb/>decrit en
+      <lb/>descendant,
+      <lb/>et <formula ana="corr">Ca =</formula> à l’arc <add>qu’il</add> decrit en montant aprés étre tombé de <formula>B</formula> en <formula>C</formula>,
+      <lb/>soit l’angle <formula ana="corr">ICB</formula> de 45<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> degrés, et <formula>IL</formula> perpendiculaire sur <formula>CB</formula>; je dis
+      <lb/>que la Courbe de<add>s</add> resistances <formula>aIB</formula><choice><orig>,</orig><reg type="deleted"/></choice> est la Courbe de <abbr>Mr.</abbr> de <rs key="pers_DE-588-128349794" type="person">Beaune</rs>,
+      <lb/>ayant pour so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et le point <formula>I</formula>, et <subst><del><gap/></del><add>que son</add></subst> axe principal est la droite <formula>IL</formula>.
+      <lb/>Vous avés dans Vôtre <rs type="biblio">Livre</rs> <abbr>pag.</abbr> 372<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> la demonstration, que cette Cour<pc type="hyphenation">-</pc><lb break="no"/>be est une Logarithmique, dont les ordo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ées font avec son asymtote
+      <lb/>un angle de 45<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> degrés. Voi<subst><del><gap/></del><add>là</add></subst> tout ce que j’ai de nouveau à <subst><del><gap/></del><add>Vous</add></subst> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>u<pc type="hyphenation">-</pc><lb break="no"/>niquer, je Vous prie de me faire aussi part de vos decouvertes et d’y
+      <lb/>joindre<supplied>,</supplied> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous avés promis<supplied>,</supplied> les choses, <del><gap/></del>sur lesquelles Vous
+      <lb/><del><gap/></del>dites <subst><del><gap/></del><add>que Vous</add></subst> et<subst><del><gap/></del><add>es</add></subst> en reste avec moi. Vous me ferés aussi un sensible plai<pc type="hyphenation">-</pc><lb break="no"/>sir de me procurer la nouvelle edition <rs type="biblio"><hi rend="u">Mensur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Sortis</hi></rs>, le Livre de
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-100814832" type="person">Raphson</rs> intitulé <rs type="biblio"><hi rend="u"><choice><orig>histo<subst><del><gap/></del><add>r</add></subst>y</orig><reg>History</reg></choice> of the fluxions <abbr>etc.</abbr></hi></rs>, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e aussi ce que
+      <lb/>Vous avés fait imprimer dans les <rs type="biblio" key="biblio_SSNXBWSP"><choice><orig>transactions</orig><reg>Transactions</reg></choice></rs><del><gap/></del> <add>et</add> la <rs type="biblio">Manœuvre</rs> de <abbr>Mr.</abbr>
+      <lb/><rs key="pers_DE-588-102079056" type="person">Renau</rs> avec son <rs type="biblio">Memoire</rs>, et quelques autres nouveautés dignes de
+      <lb/>ma curiosité, et Vous me tiendrés compte des dépenses que Vous
+      <lb/>ferés <add>pour moi</add><choice><orig>,</orig><reg>.</reg></choice> Je n’ai point reçu de <subst><del><gap/></del><add><rs type="letter">reponse</rs></add></subst> de mon <rs type="person">Cousin</rs> <subst><del><gap/></del><add>sur</add></subst>
+      <lb/><del><gap/></del>la <rs type="letter">lettre</rs>, que j’ai pris la liberté de Vous envoyer
+      <lb/>pour lui,<del><gap/></del>
+      <lb/><del><gap/></del>et je ne <choice><orig>scai</orig><reg>sçai</reg></choice> pas même
+<pb facs="1038870" n="251r"/>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/><del><gap/></del>s’il est encore à <rs key="place_GEO-2988507" type="place">Paris</rs> ou non<choice><orig>,</orig><reg>;</reg></choice> en cas qu’il y fut,
+      <lb/>il pourroit se charger de quelques un<subst><del><gap/></del><add>s</add></subst> de ces <del><gap/></del>Livres. Je salue
+      <lb/>treshumblement <abbr>Mad.<hi rend="sup">e</hi></abbr> de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs>,<del><gap/></del> <abbr>Mr.</abbr> Vôtre <rs type="person">Fils</rs>, <del><gap/></del>et
+      <lb/>nos <rs type="person">Amis</rs>, particulierement <abbr>Mr.</abbr> de <rs key="pers_DE-588-115598157X" type="person">Waldegrave</rs>, faites<choice><orig> </orig><reg>-</reg></choice>moi le plai<pc type="hyphenation">-</pc><lb break="no"/>sir de m’avertir par un petit mot, s’il a été content de la<del><gap/></del>
+      <lb/><del><gap/></del><rs type="letter">Lettre</rs> que j’ai eu l’<lb break="no"/>
+      <lb/>ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de lui ecrire, <del><gap/></del>mais n’ayés pas peur qu’aprés m’étre tû
+      <lb/>si long temps, je <subst><del><gap/></del><add>cherche une occasion de</add></subst> renouveller la guerre, je suis seule<pc type="hyphenation">-</pc><lb break="no"/>ment curieux de savoir, s’il y a ou paix ou treve entre nous, quoiqu’
+      <lb break="no"/>il en soit, je ne <subst><del><gap/></del><add>cesserai</add></subst> pas d’étre de Lui <del><gap/></del>aussi bien que de Vous,</p>
+    <lb/><closer><salute>Monsieur, le tres humble <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></salute> <dateline><rs key="place_GEO-3171728" type="place">Padoue</rs> ce <date when="1718-01-01">1.<hi rend="sup">er</hi> Janvier 1718</date>.</dateline></closer>
+  <postscript><p><lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> qui Vous honore parfaitement et qui veut lui<choice><orig> </orig><reg>-</reg></choice>même Vous faire
+        <lb/>présent de son <rs type="biblio">Livre</rs><supplied>,</supplied> m’a chargé des complimens pour Vous.</p></postscript>
+</div>
+
+
+</body>
+</text></TEI>

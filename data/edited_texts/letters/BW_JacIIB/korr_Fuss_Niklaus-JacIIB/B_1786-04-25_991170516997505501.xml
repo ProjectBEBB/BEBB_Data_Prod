@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516997505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nikolaj I. Fuss an Jakob Bernoulli. Sankt Petersburg, 25. April 1786</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516997505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516997505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128992">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 692:Bl.262</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516997505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433670705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000060105</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>22,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>St. Petersbourg</origPlace>
+              <date when="1786-04-25" when-custom="1786-04-14"
+                datingMethod="#julian" calendar="#julian #gregorian">14./ 25. Apr.
+                1786</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="gregorian"><p>Gregorianischer Kalender</p></calendar>
+        <calendar xml:id="julian"><p>Julianischer Kalender</p></calendar>
+      </calendarDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116878894">Fuss, Nikolaj I.</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4267026-3">Sankt Petersburg</placeName>
+          <date when="1786-04-25" when-custom="1786-04-14" datingMethod="#julian"
+            calendar="#julian #gregorian"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-120475030">Bernoulli, Jakob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516997605501" type="prev"/>
+          <ptr target="B_991170516997305501" type="next"/>
+          <ptr target="BW_JacIIB" corresp="pers_DE-588-120475030" type="Briefwechsel"/>
+          <ptr target="korr_Fuss_Niklaus-JacIIB" corresp="pers_DE-588-116878894" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Gratulation zur Berufung nach St.Petersburg und Informationen über die Stadt.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="inventarisiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3531621/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3531622" type="archival"/> <pb facs="3531623" type="archival"/> <pb facs="3531624" n="262r"/> <pb facs="3531625" n="262v"/>
+<head> Zu diesem Brief liegt derzeit noch keine Transkription vor. Metadaten zum Brief sind über das Info-Symbol verfügbar. </head>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516486905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Marius-Jean-Baptiste-Nicolas Daine an Johann II Bernoulli. Paris, 21. Januar 1759</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0006">
+            <surname>Gabbe</surname>
+            <forename>Nils</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516486905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516486905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136057">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.933-936</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516486905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433585205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058290</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23,5</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1759-01-21">ce 21 Jan.er 1759</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1156741289">Daine, Marius-Jean-Baptiste-Nicolas</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1759-01-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430340305501" type="prev"/>
+          <ptr target="B_991170516486805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Daine_Marie_Jean_Baptiste_Nicolas-JohIIB" corresp="pers_DE-588-1156741289" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Es geht um einen Auftrag, den Daine für Maupertuis zu erledigen hat.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-15" who="SG NG">Kollationieren abgeschlossen</change>
+        <change when="2026-06-09" who="SG NG">Kollationieren begonnen</change>
+        <change when="2026-06-08" who="NG">transkribiert</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694460/manifest"/>
+</facsimile>
+<text>
+    <body>
+      <div type="letter">
+<pb facs="3694461" n="931" type="archival"/>
+<pb facs="3694462" n="932" type="archival"/>
+
+<pb facs="3694463" n="933"/>
+  <opener>
+      <lb/><dateline><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Paris</rs> ce <date when="1759-01-21">21 <abbr>Jan.<hi rend="sup">e</hi></abbr> 1759</date>.</dateline>
+  </opener>
+  <p>
+      <lb/>J’ay reçu, Monsieur, la <rs type="lostletter">lettre</rs> de <abbr>M.</abbr> <rs type="person">de
+      <lb/>Maupertuis</rs> du <date when="1759-01-01">1<hi rend="sup">r</hi></date> et <rs type="lostletter">la vôtre</rs> du <date when="1759-01-08">8 de ce mois</date>,
+      <lb/>je suis infiniment touché de son etat et bien
+      <lb/>impatient d’apprendre son rétablissement, per<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sonne ne luy etant plus <choice><orig>sincerément</orig><reg>sincérement</reg></choice> attaché que
+      <lb/>moy. Je n’ay differé de luy répondre et <choice><orig>a</orig><reg>à</reg></choice> vous<supplied>,</supplied>
+      <lb/>Monsieur, que <del><gap/></del>dans l’<choice><orig>espérançe</orig><reg>espérance</reg></choice>
+      <lb/>de luy marquer quelque chose de précis sur
+      <lb/>l’objet des <rs type="biblio">Memoires</rs> que vous m’envoyéz, qui
+      <lb/>me paroit fort juste et que je contribuëray
+      <lb/>autant qu’il sera en moy, <choice><orig>a</orig><reg>à</reg></choice> faire reüssir.
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> vis <abbr>M.</abbr> <rs type="person">d’Auriac</rs> deux jours aprés qu’il
+      <lb/>eût écrit la <rs type="letter">lettre</rs> dont vous me faites part
+      <lb/>et il me dit qu’aussitôt que sa goutte luy
+      <lb/>permettroit de sortir <del><gap/></del>il feroit <del><gap/></del><add>l</add>es démar<pc type="hyphenation">-</pc><lb break="no"/>ches que vous desiréz, qu’il avoit déja
+      <lb/>prevenu celuy de <abbr>Mess.<hi rend="sup">rs</hi></abbr> <rs type="person">les Commissaires</rs>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> qui <abbr>M.</abbr> <rs type="person">le Chancelier</rs> renvoye ordinaire<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ment ces sortes d’affaires (<abbr>M.</abbr> <rs type="person">de Villeneuve<supplied>,</supplied>
+      <lb/>Maitre des Req.<hi rend="sup">tes</hi></rs>) Mais <choice><orig>a</orig><reg>à</reg></choice> peine <abbr>M.</abbr> <rs type="person">D’Au<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>riac</rs> etoit<choice><orig> </orig><reg>-</reg></choice>il soulagé, que <rs type="person"><abbr>Mad.<hi rend="sup">e</hi></abbr> son <rs type="person">épouse</rs></rs>
+      <lb/>a eû un accident affreux, heureusement sans
+      <lb/>danger, dont elle est encore au lit. S’etant
+<pb facs="3694464" n="934"/>
+      <lb/>levée la nuit pour boire un verre d’eau, et n’<choice><abbr>ay<hi rend="sup">t</hi>.</abbr><expan>ayant</expan></choice>
+      <lb/>pas voulu reveiller ses femmes, elle se trouva ma<unclear reason="lost">l</unclear>
+      <lb/>et s’appuya le coude sur la cheminée <choice><orig>oú</orig><reg>où</reg></choice> etoit
+      <lb/>une lampe de nuit dont le feu prit <choice><orig>a</orig><reg>à</reg></choice> son
+      <lb/>Mantelet, elle ne s’en apperçût que par la
+      <lb/>flamme qui luy brulât le bras gauche, et le
+      <lb/>dedans de la main droite qu’elle portât dessu<unclear reason="lost">s</unclear>
+      <lb/>pour l’éteindre, elle en sera quitte pour de
+      <lb/>trés vives douleurs n’y ayant que la peau et
+      <lb/>la surpeau d’endommagées, les tendons et
+      <lb/>les nerfs sont épargnés. Elle avoit <date>hier</date>
+      <lb/>encore un peu de fièvre<del><gap/></del><add>,</add> je dinay chéz elle
+      <lb/>et reparlay du <rs type="person"><abbr>S<supplied>.</supplied><hi rend="sup">r</hi></abbr> Decker</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs type="person">D’<choice><orig>auriac</orig><reg>Auriac</reg></choice></rs>, il
+      <lb/>se proposoit de revoir <abbr>M.</abbr> <rs type="person">de Villeneuve</rs>, qui
+      <lb/>n’est point en retard; <del><gap/></del>il n’y a pas
+      <lb/>encore eû de <rs type="organisation">Conseil de Chancellerie</rs> <date>cette
+      <lb/>année</date>, je veilleray de mon coté <choice><orig>a</orig><reg>à</reg></choice> ce qu’il en
+      <lb/>soit question au premier qui se tiendra, je
+      <lb/>solliciteray ceux de mes confréres qui en son<unclear reason="lost">t,</unclear>
+      <lb/>j’ay déja pris la liberté de prevenir <abbr>M.</abbr> le
+      <lb/><rs type="person">Chancelier</rs>, la derniére fois que j’allay <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/><rs type="place">Versailles</rs>, qu’on luy en parleroit, <abbr>M.</abbr> <rs type="person">D’<choice><orig>auri<unclear reason="lost">ac</unclear></orig><reg>Auri<unclear reason="lost">ac</unclear></reg></choice></rs>
+      <lb/>compte être en etat d’y aller demain ou aprés,
+      <lb/>il m’a assuré, et j’en suis trés persuadé, qu’il
+      <lb/>fera de son mieux, il vous répondra aussitôt
+      <lb/>qu’il aura matiére; Mes recommandations et
+<pb facs="3694465" n="935"/>
+      <lb/>mes soins, n’ajouteront rien aux siens, ils ne
+      <lb/>serviront, Monsieur, qu’<choice><orig>a</orig><reg>à</reg></choice> vous prouver et
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs type="person">de Maupertuis</rs> mon zéle, je me flatte
+      <lb/>qu’il n’en doute pas, je partage avec luy la
+      <lb/><choice><orig>reconnoissançe</orig><reg>reconnoissance</reg></choice> de la peine que vous prenéz de
+      <lb/>m’ecrire <choice><orig>a</orig><reg>à</reg></choice> sa <choice><orig>plaçe</orig><reg>place</reg></choice>, et l’inquiétude d’une
+      <lb/>amitié tendre, vous fera excuses, que je vous
+      <lb/>prie de me donner quelquefois de ses nouvelles,
+      <lb/>pendant que vous le possedéz. En m’affligeant
+      <lb/>de l’occasion qui me la procure, je sens le prix
+      <lb/>de la <choice><orig>correspondançe</orig><reg>correspondance</reg></choice> que vous m’ouvréz, et je
+      <lb/>suis charmé que vous m’ayéz mis <choice><orig>a</orig><reg>à</reg></choice> portée de
+      <lb/>vous assurer par moy même de la haute
+      <lb/>estime et des sentimens distingués avec lesquels
+      <lb/>j’ay l’honneur d’être, </p><closer><salute>Monsieur, Vôtre trés
+      <lb/>humble et trés obéissant serviteur</salute>
+      <lb/><signed><rs type="person">D’aine</rs></signed>
+  </closer>
+<pb facs="3694466" n="936" type="empty"/>
+
+      </div>
+    </body>
+</text>
+</TEI>

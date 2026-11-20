@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516533305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Georg Altmann an Johann II Bernoulli. Bern, 08. April 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516533305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516533305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Über Schriften Altmanns, die er an Joh. II B. geschickt hat</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-49759">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 677:Bl.112</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516533305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433444705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057918</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>21</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berne</origPlace>
+              <date when="1751-04-08">ce 8. avril 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117761419">Altmann, Johann Georg</persName>
+          <placeName key="place_GEO-2661552" ref="https://d-nb.info/gnd/4005762-8">Bern</placeName>
+          <date when="1751-04-08"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516533405501" type="prev"/>
+          <ptr target="B_991170516533205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Altmann_Johann_Georg-JohIIB" corresp="pers_DE-588-117761419" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Altmann sendet ein Exemplar seines Buches über die Schweizer Gletscher an de Mairan. Varenne de Beost übersetzt gerade Altmanns Essay ins Französische</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118785516">Musschenbroek, Petrus van</persName>
+            <note type="lebensdaten">(1692-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Varenne de Béost</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-13" who="NG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1588360/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1587043" n="112r"/>
+  <opener>
+      <lb/>
+    <salute>
+      Monsieur et très honoré Ami
+    </salute>
+  </opener>
+  <p>
+      <lb/>C’est avec bien du plaisir que je vous envoie cet
+      <lb/>exemplair de mon <rs type="biblio">livre sur les montagnes de glace</rs>
+      <lb/>pour <abbr>Mr.</abbr> <rs type="person">de Mairan</rs>; j’ai lu l’extrait de son livre
+      <lb/>il est dans un sentiment different de celui de
+      <lb/><abbr>Mr.</abbr> <rs type="person" key="pers_DE-588-118785516">Moschenbroek</rs>, mais quoi que je ne suis pas
+      <lb/>juge competent, il me paroit, que celui de <abbr>Mr.</abbr>
+      <lb/><rs type="person" key="pers_DE-588-118785516">Moeschenbroek</rs> garde toujour une grande probabilité.
+      <lb/><abbr>Mr.</abbr> l’<rs type="person">ambassadeur</rs> à <rs key="place_GEO-2658564" type="place">Solleuere</rs> fait traduire en Francois
+      <lb/>mon essai, et je pense qu’il sera fait en peu de tems
+      <lb/>et je le ferai imprimer sans delais.
+      <lb/>Je suis très charme q’un juge aussi habile comme vous
+      <lb/>aie trouve quelque satisfaction dans la lecture de mon
+      <lb/><rs type="biblio">livre</rs>, je voulais l’ecrire à la porte de tout le monde,
+      <lb/>d’autant plus que je l’ai dedie à <unclear>LL</unclear> <unclear>le</unclear> et vous savés
+      <lb/>que notre grand conseil contient bien des personnes d’une
+      <lb/>sphere inferieure. Si vous avés fait quelques remarques, je
+      <lb/>vous prie de me les comuniquer, je les ajouterai dans la
+      <lb/>traduction. Je suis avec le plus parfait devouement.
+
+  </p>
+  <closer>
+      <lb/>Monsieur et très honoré ami
+      <lb/>Votre tres humble et tres <abbr>ob.</abbr> <abbr>serv.</abbr>
+      <lb/><signed><rs type="person">Altmann</rs></signed>
+      <lb/><rs key="place_GEO-2661552" type="place">Berne</rs>
+    <dateline><lb/>ce 8 avril
+      <lb/>1751</dateline>
+  </closer>
+<pb facs="1587044" n="112v" type="empty"/>
+
+</div>
+</body>
+</text>
+</TEI>

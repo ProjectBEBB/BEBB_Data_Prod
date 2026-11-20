@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516516305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Marc Michel Bousquet an Johann II Bernoulli. Lausanne, 06. Juli 1742</title>
+          <title type="alt">1742.07.06: Bousquet, Marc-Michel (1696-1762) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058023</title>
+          <title type="alt">1742-07-06_Bousquet_Marc-Michel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516516305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516516305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Bousquet, Marc-Michel (1696-1762)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren. Am Briefkopf eigenhändig "Basle à Monr. Jean Bernoulli fils"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-143188">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 680:Bl.310-311</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516516305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433422405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058023</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Lausanne</origPlace>
+              <date when="1742-07-06">le 6.e Juillet 1742</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-136952968">Bousquet, Marc-Michel</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1742-07-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516516405501" type="prev"/>
+          <ptr target="B_991170516516205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Bousquet_Marc-Michel-JohIIB" corresp="pers_DE-588-136952968" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3832778/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3832779" n="310r"/>
+  <opener><salute>Monsieur</salute></opener>
+  <p>J’ay l’honneur de vous confirmer ma <rs key="B_991170516516405501" type="letter">derniere</rs> du <date when="1742-07-03">3e. de ce mois</date> &amp; l’envoy par le chassemarée &amp; je reçois aujourd’huy celle que vous avés pris la peine de m’ecrire <date when="1742-07-04">le 4</date> qui exige une prompte réponce au sujet du <rs type="person">jeune homme</rs> qui doit venir chés Mr. <rs type="person">Debranles</rs>; j’ay vu ce dernier &amp; communiqué votre <rs type="letter">Lettre</rs>, voici Monsieur le resultat de notre entretien.</p>
+  <p>Il ne manquera point de lui tenir une chambre prete, qui avec le diné et le soupé coutera pas moins des 12 Ecus par mois, sans etre obligé de fournir autre chose; c’est à dire que les déjeunés goutés chandelles, bois &amp; blanchissage seront payés par le <rs type="person">jeune homme</rs>, aussi bien que les Leçons de Droit qu’il voudra prendre de Mr. <pb facs="https://www.e-manuscripta.ch/i3f/v20/3832778/canvas/3832780" n="310v"/> <rs type="person">De Branles</rs> qui l’enseigne à plusieurs jeunes gens. Il faut vous dire Monsieur que cette pension est digne des personnes de distinction; la compagnie y est bonne &amp; instructive; il a actuellement <rs key="GND GND" type="person">3 personnes</rs> des premieres familles de <rs key="place_GEO-2661552" type="place">Berne</rs> qui sont tres contents de tout.</p>
+  <p>Je compte de pouvoir vous envoyer Mardi prochain une epreuve du Portrait, celui du <rs key="pers_DE-588-118535749" type="person">Roi</rs> ne rencherira l’ouvrage que de peu de chose, &amp; j’ay moins en vue la recompense que l’honne, il se pcurroit aussi que l’un n’ira pas sans l’autre, en tout cas j’en suis tout consolé d’avance; oui Monsieur c’est ici que se sont faits les vers au <rs key="pers_DE-588-118535749" type="person">Roi de <rs key="place_VER-preuss" type="place">Prusse</rs></rs>.</p>
+  <p>Nous voila maintenant remis sur le Livre de Monsieur votre <rs key="pers_DE-588-118509969" type="person">Pere</rs>, qui ne sera suspendu pour quoi que ce soit; &amp; avant les petits jours le 3e, Tome sera fait s’il plait au Seigneur, comme vous le verrés par l’envoy des feuilles; en attendant je <pb facs="https://www.e-manuscripta.ch/i3f/v20/3832778/canvas/3832781" n="311r"/> continue d’etre très respectueusement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</p>
+  <closer><dateline>à <rs key="place_GEO-2659994" type="place">Lausanne</rs> le <date when="1742-07-06">6e. Juillet 1742</date></dateline></closer>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3832778/canvas/3832782" n="311v"/>
+</div>
+</body>
+</text></TEI>

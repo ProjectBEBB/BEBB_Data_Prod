@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516522405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Antoine Barthez de Marmorières an Johann II Bernoulli. Solothurn, 12. September 1762</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516522405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516522405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf und auf der Rückseite des Blattes von anderer Hand "12 Sept. 1762". Laut Aufschrift auf dem Umschlag von Joh. III B. ist Barthès "Secr. d'Ambassade de Fr. à Soleure"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50974">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.28</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516522405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433430005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057957</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Soleure</origPlace>
+              <date when="1762-09-12">ce 12e 7bre 1762</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1042491984">Barthez de Marmorières, Antoine</persName>
+          <placeName key="place_GEO-2658564" ref="https://d-nb.info/gnd/4055458-2">Solothurn</placeName>
+          <date when="1762-09-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516522505501" type="prev"/>
+          <ptr target="B_991170516522305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Barthes_de_Marmorieres_Antoine-JohIIB" corresp="pers_DE-588-1042491984" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Barthès de Marmorières war Gesandtschaftssekretär in Solothurn. Es handelt sich um einen Freundschaftsbrief</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100166725">Hermann, Franz Jakob</persName>
+            <note type="lebensdaten">(1717-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie de</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Schmidt</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-01" who="NG">Nachkorrekturen</change>
+
+        <change when="2026-05-08" who="NG">manuelle Prüfung der Rohtranskription</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614051/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1599644" type="archival"/> <pb facs="1599645" type="archival"/>
+
+<pb facs="1599646" n="28r"/>
+    <lb/><note hand="unknown"><date when="1762-09-12">12 Sept 1762</date></note>
+  <opener><salute><lb/>Monsieur,</salute></opener>
+  <p><lb/>on ne sauroit être plus honteuse que je le suis de voir que
+      <lb/>le retard de mes males m’a empechi de remplir plutot la
+      <lb/>commission d<supplied>’</supplied>un homme à qui je suis aussi devoué que
+      <lb/><abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">de la Condamine</rs>, vis a vis une personne que je respecte
+      <lb/>autant que vous, Monsieur. je ne pouvois imaginer cet
+      <lb/>evenement qui m’a reduit dans ce pays à une espece de
+      <lb/>nudité faute d’avoir dequoi me couvrir. <choice><orig>recevés</orig><reg>Recevéz</reg></choice> en
+      <lb/>Monsieur, mes excuses les plus sinceres. la mémoire de <abbr>M<hi rend="sup">r</hi></abbr>
+      <lb/><rs type="person">de Maupertuis</rs>, mon attachement pour <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">de La Condamine</rs>
+      <lb/>ma veneration pour vous, Monsieur et pour toute votre famille
+<pb facs="1599647" n="28v"/>
+      <lb/><date when="1762-09-12">12 Sept 1762</date>
+      <lb/><choice><orig>tout</orig><reg>Tout</reg></choice> me fait une faute essentielle de mon peu d’exactitude.
+      <lb/><choice><orig>j’espere</orig><reg>J’espere</reg></choice> la reparer dans les suites par des preuves réelles de mon
+      <lb/>zele pour tout ce qui peut vous interesser. <choice><orig>je</orig><reg>Je</reg></choice> vous prie de
+      <lb/>presenter mes hommages à <abbr>M<hi rend="sup">de</hi></abbr> <rs type="person">de Bernoulli</rs>, à <abbr>M<hi rend="sup">r</hi></abbr> votre
+      <lb/><rs type="person">frère</rs>, à <abbr>M<hi rend="sup">r</hi></abbr> votre <rs type="person">frère</rs> et à <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Schmidt</rs> que <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person"><choice><orig>l’abbé</orig><reg>l’Abbé</reg></choice></rs>
+      <lb/><rs type="person">Hermann</rs> et moy attendons ici avec impatience</p>
+    <lb/><closer><salute>j’ay l’honneur d’etre avèc respect
+      <lb/>Monsieur
+      <lb/>Vôtre très humble et très
+      <lb/>obeissant serviteur</salute>
+      <lb/><signed>Barthes de Marmorières</signed>
+      <lb/>à
+      <lb/>Soleure le <date when="1762-09-12"><abbr>12e</abbr> <abbr>7bre</abbr> 1762</date>.
+  </closer>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516858805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Louis Moreau de Maupertuis an Johann II Bernoulli. Berlin, 06. April 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516858805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516858805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-533">"Copie de lettre", siehe Signatur UBH L Ia 768:Bl.212-213</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136325">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 708:Bl.145</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516858805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433561605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058640</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl. (2 beschriebene S.)<dimensions unit="cm"><height>21</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>De Berlin</origPlace>
+              <date when="1751-04-06">6 Avril 51</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1751-04-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516858905501" type="prev"/>
+          <ptr target="B_991170516858705501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Pierre_Louis_Moreau_de-JohIIB" corresp="pers_DE-588-118731998" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116340118">Argenson, Marc-Pierre de Voyer d'</persName>
+            <note type="lebensdaten">(1696-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118517252">Buffon, Georges Louis Le Clerc de</persName>
+            <note type="lebensdaten">(1707-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Duvelaer, Directeur de la Compagnie des Indes à Paris</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie de</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118781049">Machault d'Arnouville, Jean-Baptiste de</persName>
+            <note type="lebensdaten">(1701-1794)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-142409464">Maillebois, Jean Baptiste François Desmarets de</persName>
+            <note type="lebensdaten">(1682-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118786334">Noailles, Adrien-Maurice de</persName>
+            <note type="lebensdaten">(1678-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11859561X">Pompadour, Jeanne Antoinette Poisson</persName>
+            <note type="lebensdaten">(1721-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118788744">Richelieu, Louis François Armand Du Plessis de</persName>
+            <note type="lebensdaten">(1696-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11666407X">Rouillé, Antoine Louis</persName>
+            <note type="lebensdaten">(1689-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-143976079">Sallier, Claude</persName>
+            <note type="lebensdaten">(1685-1761)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-12" who="SG">Transkription hinzugefügt</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3698625/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3698626" n="145r"/>
+<pb facs="3698627" n="145v"/>
+</div>
+
+
+
+
+</body>
+</text>
+</TEI>

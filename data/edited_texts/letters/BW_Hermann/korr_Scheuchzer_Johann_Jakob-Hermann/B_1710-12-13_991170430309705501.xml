@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170430309705501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacob Hermann an Johann Jacob Scheuchzer. Padua, 13.
+            Dezember 1710</title>
+          <title type="alt">000060041</title>
+          <title type="alt">1710-12-13_Hermann_Jacob-Scheuchzer_Johann_Jakob</title>
+          <title level="s">Basler Edition
+            der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Kommentierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430309705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430309705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://www.ub.unibas.ch/bernoulli/index.php/1710-12-13_Hermann_Jacob-Scheuchzer_Johann_Jakob">
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms H 318, pp.391-392</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430309705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406961405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000060041</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Patavii</origPlace>
+              <date when="1710-12-13">d. 13. Dec.
+              1710</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+          <date when="1710-12-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430310205501" type="prev"/>
+          <ptr target="B_991170430309405501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-Hermann" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-115602194">Coronelli, Vincenzo</persName>
+            <note type="lebensdaten">(1650-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104265264">Morgagni, Giambattista</persName>
+            <note type="lebensdaten">(1682-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120379260">Scheuchzer, Johann</persName>
+            <note type="lebensdaten">(1684-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118867865">Vallisnieri, Antonio</persName>
+            <note type="lebensdaten">(1661-1730)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1710-12-13_Hermann_Jacob-Scheuchzer_Johann_Jakob"/>
+      </change>
+        <change when="2014-03-03">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1009391/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1710-12-13_Hermann_Jacob-Scheuchzer_Johann_Jakob">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1009598" n="391"/> Vir Celeberrime.</p>
+  <p>Responsionis debitum ad duas postremas gratissimas litteras tuas<note type="editorial"
+            >Diese beiden Briefe sind nicht erhalten.</note> nunc tandem exsolvo; ante omnia gratias
+          habeo maximas pro Mappa Tua Comitatus Toggici<note type="editorial">Scheuchzer, Johann
+            Jakob, <hi rend="u">Die Landschaft Toggenburg</hi> [Kartenmaterial], [Zürich] 1710,
+            gezeichnet von Johann Jacob Scheuchzer, gestochen von Johann Heinrich Huber.</note> quam
+          tam nitide aeri incisam Tibi gratulor; praesertim vero pro observationibus tuis
+          barometricis quibus regulam quandam meam nondum applicare vacavit per infinita quae me
+          premunt negotia: Ubi vero Tuas schedas<note type="editorial">Scheuchzer hatte offenbar
+            eine handschriftliche Liste seiner barometrischen Beobachtungen gesandt.</note>
+          transcripsero eas sollicite Tibi restitui curabo. Cl. Wallisnerio<note type="editorial"
+            >Antonio Vallisneri (1661-1730).</note> nostro, qui Te pl. salvere jubet, alterum
+          exemplar recentis Tuae mappae<note type="editorial">Es handelt sich wohl um Scheuchzers
+            Karte der Landschaft Toggenburg, welche gestochen von J. H. Huber 1710 in Zürich
+            erschienen war (Scheuchzer, Johann Jakob, <hi rend="u">Die Landschaft Toggenburg</hi>
+            [Kartenmaterial], [Zürich] 1710).</note> statim post acceptas priores Tuas tradidi, adeo
+          ut non dubitem quin Tibi hac de re interea temporis aliquid scripserit.<note
+            type="editorial">Unter den in der ZB Zürich aufbewahrten Briefen Vallisneris an
+            Scheuchzer findet sich aus dieser Zeit keiner, in welchem der Empfang einer Lankarte
+            Scheuchzers wird.</note> Dn. Morgagnae<note type="editorial">Giovanni Battista Morgagni
+            (1682-1771).</note> ea ipsa scripsi,<note type="editorial">Dieser Brief scheint nicht
+            erhalten zu sein.</note> quae ipsi responderi jusseras: Gratulor insuper felicem
+          successum Orationis Panegyricae in Laudem Matheseos<note type="editorial">Die Rede wurde
+            am 26. November 1710 in Zürich gehalten. Sie ist gedruckt als Scheuchzer, Johann Jakob,
+              <hi rend="u">Praelectio de matheseos usu in theologia ...</hi>, Tiguri [Zürich] (Chr.
+            Hardmeyer) 1711.</note> a Te habitae, quae si Theologis nonnullis vestratibus non
+          arrisit, quod contemnere fere soleant omnia quae ignorant, non multum referre debet, cum a
+          Politicis Vestris primi Ordinis applausum summum promerita sit. Circa Globos
+            Coronellianos<note type="editorial">Der Venezianer Vincenzo Coronelli (1650-1718) war
+            als Hersteller von Globen bekannt. Berühmt sind die sogenannten <ref
+              target="https://de.wikipedia.org/wiki/Coronelli-Globen">Coronelli- oder
+              Marly-Globen</ref>, ein Himmels- und ein Erdglobus, die beide von ihm am Ende des 17.
+            Jahrhunderts gebaut und an Ludwig XIV. verschenkt wurden.</note> Venetias<note
+            type="editorial"><rs key="place_GEO-3164603" type="place">Venedig</rs>.</note> jam ante
+          multos dies ad Amicum<note type="editorial">Um welchen Freund Hermanns es sich hier
+            handelt, ist nicht klar. Vielleicht ist Giovanni Poleni gemeint.</note> scripsi, a quo
+          tamen nullum adhuc responsum tuli, sed quam primum accepero Tecum communicabo. Interim
+          spero Cl. Fratrem Tuum<note type="editorial">Johannes Scheuchzer (1684-1738).</note> hic
+          adventasse quapropter Te rogo etiam atque etiam Ipsi ut cultum meum deferas, felicemque
+          Itineris exitum meo nomine gratuleris. </p>
+  <p>Vale Vir Amicissime, et porro Ama Tuum totum I. Hermannum. </p>
+  <p>Patavii d. 13. Dec. 1710. </p>
+      </div>
+<pb facs="1009599" n="392" type="empty"/>
+    </body>
+  </text>
+</TEI>

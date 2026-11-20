@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514979705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann I Bernoulli. London, 11. Dezember 1727</title>
+          <title type="alt">1727.12.11: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1667-1748)</title>
+          <title type="alt">000055728</title>
+          <title type="alt">1727-12-11_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514979705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514979705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Nachschrift am Rande</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Brouillon in BPU Genève</p>
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.137-138</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24585">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 655, Nr.1*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514979705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432935405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055728</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Londres</origPlace>
+              <date when="1727-12-11">ce 31.Novembre/11. Decembre 1727</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2643743" ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+          <date when="1727-12-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515370405501" type="prev"/>
+          <ptr target="B_991170514979605501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Cramer dankt Bernoulli für dessen Freundlichkeit und die Erlaubnis, ihm zu schreiben. Er berichtet über seine Gespräche in Paris: Saurin und Castel hätten sich für die Lehre der lebendigen Kräfte ausgesprochen; Saurin habe das Pariser Preisurteil kritisiert. Fontenelle habe etwa dreissig Abhandlungen zur Schwere erhalten. Cramer bittet um Bernoullis Einschätzung von Fontenelles Vorstellungen über endliche und unendliche Grössen. Aus den Philosophical Transactions referiert er Einwände Pembertons, Desaguliers’ und Eames’ gegen die lebendigen Kräfte, insbesondere zu Polenis Fallversuchen, Stössen und Federn, und verwirft deren Argumentation. Er kündigt die Übersendung der neuen Principia-Ausgabe an und berichtet über das geänderte Scholium zum Fluxionskalkül sowie über Innys’ Zuschreibung der anonymen Kritik an Bernoullis reziproken Trajektorien an Pemberton.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1372007326">Caille, Robert</persName>
+            <note type="lebensdaten">(-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119382156">Castel, Louis Bertrand</persName>
+            <note type="lebensdaten">(1688-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117632686">Desaguliers, J. T.</persName>
+            <note type="lebensdaten">(1683-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1325550264">Eames, John</persName>
+            <note type="lebensdaten">(1686-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-139267875">Innys, William</persName>
+            <note type="lebensdaten">(-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-143687417">Pemberton, Henry</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-114183734X">Pergen, Leopold Gottlieb von</persName>
+            <note type="lebensdaten">(1700-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Cramer thanks Bernoulli for his kindness and for permission to write to him. He reports on his conversations in Paris: Saurin and Castel had expressed support for the doctrine of living forces, and Saurin had criticised the Paris prize decision. Fontenelle reportedly had received about thirty dissertations on gravity. Cramer asks for Bernoulli’s assessment of Fontenelle’s ideas about finite and infinite magnitudes. He summarises objections by Pemberton, Desaguliers and Eames in the Philosophical Transactions against living forces, particularly concerning Poleni’s falling-body experiments, collisions and springs, and rejects their reasoning. He promises to send the new edition of the Principia and reports on the altered scholium on the calculus of fluxions and on Innys’ attribution to Pemberton of the anonymous criticism of Bernoulli’s reciprocal trajectories.</p>
+      </abstract>
+      <abstract>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1372007326">Caille, Robert</persName>
+            <note type="lebensdaten">(-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119382156">Castel, Louis Bertrand</persName>
+            <note type="lebensdaten">(1688-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117632686">Desaguliers, J. T.</persName>
+            <note type="lebensdaten">(1683-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1325550264">Eames, John</persName>
+            <note type="lebensdaten">(1686-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-139267875">Innys, William</persName>
+            <note type="lebensdaten">(-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-143687417">Pemberton, Henry</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-114183734X">Pergen, Leopold Gottlieb von</persName>
+            <note type="lebensdaten">(1700-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass>
+        <keywords>
+          <term>forces vives</term>
+          <term>force morte</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-02" who="RG">Grundkommentiert</change>
+
+        <change when="2026-10-17">Entwürfe des deutschen Regests und des englischen Abstracts auf Grundlage des Brieftextes ergänzt; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; kollationierter Text unverändert</change>
+        <change when="2025-12-19" who="MK">Code kontrolliert, ergänzt, grundkommentiert</change>
+        <change when="2025-09-19" who="MK">keywords im Header ergänzt</change>
+        <change when="2025-09-15" who="MK">Code kontrolliert, ergänzt, keys, Abstract Entwurf erstellt</change>
+        <change when="2025-07-03" who="MK">Code kontrolliert, ergänzt</change>
+        <change when="2025-06-30" who="MK">Code kontrolliert, ergänzt</change>
+        <change when="2025-06-27" who="MK">Code kontrolliert, ergänzt</change>
+        <change when="2025-05-23" who="MK">Code kontrolliert, ergänzt</change>
+        <change when="2024-11-15" who="MK SG">space getaggt</change>
+        <change when="2024-11-15" who="MK">note type=comment umformuliert</change>
+        <change when="2024-11-11" who="MK SG">Kodierung durchgeschaut, person tag ergänzt</change>
+        <change when="2024-11-11" who="MK SG">kollationieren abgeschlossen</change>
+        <change when="2024-11-08" who="MK">note comment eingefügt</change>
+        <change when="2024-11-07" who="MK">hi rend sup eingefügt, kleine Korrekturen</change>
+        <change when="2024-11-07" who="MK SG">kollationieren begonnen</change>
+        <change when="2022-12-20" who="RG">Zeilenabstände eingefügt, und etlig ergänzt</change>
+        <change when="2022-11-10" who="CG">Brief- und bibliotags</change>
+        <change when="2022-09-14" who="CG">Header angepasst, Seitenzahlen eingefügt, Briefstruktur, Orte  und Personen ausgezeichnet</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1073600/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1073601" type="archival"/>
+<pb facs="1073602" type="archival"/>
+<pb facs="1073603" n="1"/>
+  <opener><salute>Monsieur</salute></opener>
+  <p><lb/>Ce seroit me rendre coupable d’une grande ingratitude, que de manquer à
+      <lb/>vous remercier de toutes les bontés que vous avez eu pour moi, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ce seroit une
+      <lb/>grande imprudence que de ne pas profiter de la permission que vous m’avez
+      <lb/>acordé de vous ecrire. Deux motifs puissants pour m’engager à le faire.
+      <lb/>Je me laisse aller au premier avec tout le plaisir que peut faire sentir
+      <lb/>la reconoissance la plus vive. Je vous prie d’ètre persuadé qu’elle
+      <lb/>ne sauroit ètre plus sincère <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que rien ne pourra effacer de ma
+      <lb/>mémoire le souvenir des obligations que je vous ai.<note type="editorial">Der Satz bricht hier nach «ai» ab, obwohl ein Punkt gesetzt wurde. Zu ergänzen wäre wohl sinnvollerweise ein Verb wie z.B.: «témoignées».</note> Je m’estimerois fort
+      <lb/>heureux, si je pouvois en quelque maniére m’en aquiter par un parfait
+      <lb/>devouement à votre service. J’use présentement de la permission que
+      <lb/>vous m’avez donnée de vous informer de mes etudes, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de vous consulter sur
+      <lb/>les difficultez qui s’y peuvent présenter.</p>
+  <p><lb/>La <rs type="letter" key="B_991170514897605501">lettre</rs> que vous m’avez fait la grace de me donner pour Monsieur
+      <lb/>de <rs type="person" key="pers_DE-588-11931035X">Mairan</rs> a été presque inutile, parce qu’il s’est trouvé à la <rs type="place" key="place_GEO-3030195">Campagne</rs><note resp="MK" type="editorial">Mit hoher Wahrscheinlichkeit handelt es sich um die Ortschaft Breuilpont, von wo aus de Mairan mehrere Briefe an Johann I Bernoulli schrieb. Darin erwähnt er die Distanz 17 lieues, was der Distanz Breuilpont-Paris (=ca. 80 km) entspricht. Es gibt zwei Châteaux in Breuilpont.</note>,
+      <lb/>pendant le peu de tems que j’ai resté à <rs key="place_GEO-2988507" type="place">Paris</rs>. J’ai pourtant trouvé le moien
+      <lb/>de <rs key="B_991170514897605501" type="letter">la</rs> lui faire tenir par un <rs type="person">ami</rs><note resp="MK" type="editorial">Die Person ist hier nur vage erwähnt, weshalb sie nicht eindeutig identifiziert werden kann. Es kommen mehrere Personen in Frage.</note> qui étoit de sa co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>aissance, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il m’a fait
+      <lb/>remettre un Exemplaire de votre <rs key="biblio_5MVQ5CQI" type="biblio">Dissertation</rs> sur le Mouvement, dont je
+      <lb/>vous remercie. Je vous aprendrai <choice><orig>la</orig><reg>là</reg></choice> dessus <add>un</add>e chose qui peut ètre vous
+      <lb/>surprendra. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117619515" type="person">Saurin</rs>, que vous croyiés vous ètre opposé, est convaincu de
+      <lb/>la verité de votre Théorie des <rs type="keyword">forces vives</rs>. Il m’a parlé du jugement de l’<rs type="organisation" key="org_DE-588-35019-9">Acade<gap/>
+    <supplied rend="brackets">mie</supplied></rs>
+<pb facs="1073604" n="2"/>
+      <lb/>touchant les prix comme d’un jugement bien different du sien, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> fondé sur des
+      <lb/>préjugez, comme d’un jugement apuié sur la cabale. Il m’a fait entendre qu’on
+      <lb/>se portoit difficilement à louer <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> aprouver un sentiment qu’on avoit publiquement
+      <lb/>condamné, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><orig>Il</orig><reg>il</reg></choice> ajouta qu’après l’impression de cette <rs key="biblio_DPZXI8G3" type="biblio">Pièce</rs>, ceux mêmes qui y avoient
+      <lb/>été les plus opposés ont craint qu’il n’en réjaillit quelque chose sur l’<rs type="organisation" key="org_DE-588-35019-9">Academie</rs>,
+      <lb/>à cause de la préference qu’elle avoit donnée à une miserable <rs key="biblio_DPZXI8G3" type="biblio">Rhapsodie d’Ecolier</rs>,
+      <lb/>sur une <rs key="biblio_5MVQ5CQI" type="biblio">piéce</rs> excellente <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> digne du nom Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>. Ce sont là ses termes.</p>
+  <p><lb/>J’ai vû aussi le <abbr>P.</abbr> <rs key="pers_DE-588-119382156" type="person">Castel</rs>, (qui va publier ses Elemens de Mathematique à la
+      <lb/>portée de tout le Monde<note resp="MK" type="editorial">Es handelt sich wohl um die 1728 publizierte <rs key="biblio_LTGR9TMJ" type="biblio">«Mathematique universelle, abregée a l’usage et a la portée de tout le monde.»</rs></note>)<supplied>.</supplied> Il donne tout à fait dans vos idées sur les <rs type="keyword">forces vives</rs>.
+      <lb/>J’espère qu’enfin la vérité se fera sentir à tout le monde. Mais ce ne sera pas
+      <lb/>sans peine. Car le mot de force est si bien gravé dans l’imagination pour exprimer
+      <lb/>l’idée de <rs type="keyword">force morte</rs>, qu’il sera difficile de l’effacer, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il auroit été à souhaiter qu’on
+      <lb/>eut emploié quelque autre terme pour designer ce<del><gap/></del> que vous entendez par force
+      <lb/><unclear/> le vrai, la distinction de <rs type="keyword">vive</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de morte soit bien suffisante
+      <lb/>pour ceux qui veulent éxaminer cette question sans partialité.</p>
+  <p><lb/><abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118639056" type="person">Fontenelle</rs> m’a dit qu’il avoit <add>reçû</add> une trentaine de Dissertations sur la
+    <lb/>pesanteur, dont quelques unes etoient fort bonnes.<note resp="RG" type="editorial">Gemeint sind vermutlich die Bewerbungen um den Preis der Pariser Académie royale des sciences für 1728 zur Erklärung der physikalischen Ursache der Schwere. Den Preis erhielt <rs key="pers_DE-588-118663208" type="person">Georg Bernhard Bilfinger</rs> mit seiner <rs key="biblio_USXHT5CW" type="biblio">De causa gravitatis physica generali disquisitio experimentalis (Paris 1728)</rs>.</note> Je n’ai pû le penetrer davantage
+      <lb/>sur cet article, sur lequel il m’a paru fort reservé. Son traitté sur les Infinimen<add>t</add>
+      <lb/>petits<note resp="MK" type="editorial">Beim «traitté» handelt sich wohl um die Abhandlung <rs key="biblio_D624M7UH" type="biblio">«Eléments de la géometrie de l’infini»</rs>.</note> va etre publié, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> selon ce qu’il m’en a d<add>it,</add> il contiendra bien des nouveautez,
+      <lb/>pour ne pas dire des Paradoxes, ou quelque chose de plus. Il y soutient, par exemple, qu’il
+      <lb/>y a des grandeurs finies dont le quarré est infini, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> cela parceque la somme des <formula>\frac{1}{x}</formula>
+      <lb/>étant infinie, la somme des <formula>\frac{1}{xx}</formula> est finie; d’où il conclut qu’il doit y avoir dans la 1.<hi rend="sup">ere</hi>
+      <lb/>des termes finis, dont le correspondant dans la 2.<hi rend="sup">e</hi> est infiniment petit. Cela me paroit
+      <lb/>entièrement contraire aux idées que nous avons du fini <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’infini. Je crois que
+      <lb/>c’est sur cette matière que roulent les <rs key="B_991170514860305501" type="letter">Lettres</rs> que vous avez echangées ensemble. Je vous serois bien obligé si vous daigniés me communiquer vos idées sur cet article.</p>
+<pb facs="1073605" n="3"/>
+  <p><lb/>Je trouve que la Doctrine des <rs type="keyword">Forces vives</rs> est aussi victorieuse en <rs key="place_VER-englan" type="place">Angle<pc type="hyphenation">-</pc><lb break="no"/>terre</rs>, non pas qu’elle y ait fait des Prosélytes: (Vous savés le préjugé des
+      <lb/><rs type="person">Savans anglois</rs> contre ce qui vient de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs>) mais c’est qu’on l’ataque
+      <lb/>par des raisonemens foibles, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui font bien connoitre qu’on ne fait ou qu’on
+      <lb/>ne veut pas distinguer les <rs type="keyword">forces vives</rs> d’avec les <rs type="keyword">forces mortes</rs>. Voici ce que j’ai
+    <lb/>tiré des <abbr>Transact.</abbr> <abbr>Philosoph.</abbr> touchant ce Sujet. <rs key="biblio_HQEGPSVS" type="biblio"><abbr>N.</abbr><hi rend="sup">o</hi> 371<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Ma<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1722</rs>. Le <abbr>D.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-143687417" type="person">Pember<pc type="hyphenation">-</pc><lb break="no"/>ton</rs>, un des premiers Mathématiciens d’<rs key="place_VER-englan" type="place">Angleterre</rs>, pretend que les Experiences
+      <lb/>de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs>, bien loin de favoriser le Sentiment de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> lui sont contrai<unclear reason="lost">res.</unclear>
+      <lb/>Son raisonement revient à ceci. Deux Globes égaux en volume, tombant de
+      <lb/>hauteurs reciproquement proportio<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>elles à leurs masses ont des forces (prises
+      <lb/>dans son sens) reciproquement proportionelles à leurs vitesses. Donc ces globes —
+      <lb/>commençant à s’enfoncer dans le suif d’une egale profondeur, l’effet de la resistan<unclear>ce</unclear>
+      <lb/>ou la perte instantanée de la force sera proportionelle au tems emploié <choice><orig>a</orig><reg>à</reg></choice> descendre<note type="editorial">Am Anfang der nächsten zwei Zeilen wurde mit Bleistift jeweils ein B eingefügt. Vermutlich um die Zugehörigkeit der auseinandergefallenen und wieder zusammengeklebten Seitenstücke zu kennzeichnen.</note>
+      <lb/>de cette profondeur, ou reciproquement proportionelle à la vitesse (puisque les profon<pc type="hyphenation">-</pc><lb break="no"/>deurs sont égales) ou directement proportionelle à la <rs type="keyword">force primitive</rs>. Donc puisque
+      <lb/>ces deux globes perdent des parties proportionelles de leurs forces en s’enfonçant
+      <lb/>egalement, il s’ensuit que quand ils auront perdu toutes leurs forces, ils <add>se</add> seront <choice><abbr>egale<unclear reason="lost">m.</unclear></abbr><expan>egalement</expan></choice>
+      <lb/>enfoncés. <choice><abbr>C. Q. F. D.</abbr><expan>Ce qu’il fallait démontrer.</expan></choice> Il attaque ensuite la Théorie des <rs type="keyword">Forces vives</rs> par ces mêmes
+      <lb/>Expériences, mais par un raisonement extrémement compliqué <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui ne m’a point
+    <lb/>paru concluant, ce qui fait que je me dispense de vous l’écrire. <space type="paragraph"/> <rs key="biblio_4KDKI364" type="biblio"><abbr>N.<hi rend="sup">o</hi></abbr> 375<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>Janv.</abbr> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/><abbr>Fevr.</abbr> 1723</rs>. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117632686" type="person">Desaguiliers</rs> tache de refuter le système Leibnitien par des <unclear reason="lost">Experiences</unclear><supplied>.</supplied>
+      <lb/>Les unes sont des corps qu’on laisse tomber de differentes hauteurs sur le bras d’une
+      <lb/>balance <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui par ce moien soulevent un certain poids placé dans le bassin de l’autre
+      <lb/>bras, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il prétend avoir trouvé que ces hauteurs sont reciproquement proportionelles aux
+      <lb/>quarrez des poids. Les autres, sont des Corps Elastiques qui se <choice><orig>choquant</orig><reg>choquent</reg></choice> avec des vitesses
+    <lb/>en raison reciproque des Masses réjaillissent avec toute leur vitesse. <rs key="biblio_N7XGUJ7Q" type="biblio"><abbr>N.<hi rend="sup">o</hi></abbr> 376</rs><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <choice><orig>le</orig><reg>Le</reg></choice> même refute
+      <lb/>les Expériences de <abbr>M.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> par le même principe que D.<hi rend="sup">r</hi> <rs key="pers_DE-588-143687417" type="person">Pemberton</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> encore par cette
+      <lb/>considération, que le corps le plus lent ebranle une plus grande quantité de suif, <subst><del><gap/></del><add>de</add></subst> sorte <unclear reason="lost">que</unclear>
+<pb facs="1073606" n="4"/>
+      <lb/>quoiqu’il ait plus de force, il ne s’enfonce pas davantage. Il ajoute une Expérience qui lu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+      <lb/>paroit démonstrative, c’est <del><gap/></del> de deux Corps inégaux que le poids d’un 3.<hi rend="sup">e</hi> contraint de
+      <lb/>s’aprocher l’un de l’autre, avec des <add>vit</add>esses reciproquement proportionelles aux Masses.</p>
+  <p><lb/><rs key="biblio_7QNKI3IR" type="biblio">N.<hi rend="sup">o</hi> 396, <add><abbr>Nov.</abbr> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>Dec.</abbr> 1726</add></rs><supplied>.</supplied> <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1325550264">Eames</rs> l’attaque par les Loix des Corps non Elastiques. <formula>A</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B</formula> sont deux Corps
+      <lb/>égaux; <formula>B</formula> est en repos, <formula>A</formula> le choque avec 8 degrez de vitesse, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par là lui donne 16 degrez
+      <lb/>de force. Ensuite <formula>B</formula> a deux degrez de vitesse <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>A</formula> le choque avec 10 degrez de vitesse
+      <lb/> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par là <formula>B</formula> acquiert 6 degrez de vitesse ou 36<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><abbr><hi rend="sup">d.</hi><expan>degrez</expan></abbr> de force, d’où otant les 4<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><abbr><hi rend="sup">d.</hi><expan>degrez</expan></abbr> qu’il avoit<supplied>,</supplied>
+      <lb/>reste 32<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><abbr><hi rend="sup">d.</hi><expan>degrés</expan></abbr> que <formula>A</formula> lui a donné. <quote type="paraphrase">Or, di<subst><del><gap/></del><add>t</add></subst>-il, le chocq étant le même que dans le cas précédent
+        <lb/>la force communiquée devroit etre la même.</quote> Dans un autre <rs key="biblio_9V33WZZX" type="biblio">Mémoire</rs><note resp="RG" type="editorial">Eine handschriftliche Abschrift dieser Abhandlung ist im Registerbuch der Royal Society dokumentiert: <ref target="https://makingscience.royalsociety.org/items/rbo_12_85/remarks-upon-a-supposed-demonstration-that-the-moving-forces-of-the-same-body-are-not-as-the-velocities-but-as-the-squares-of-the-velocities-by-mr-eames">Royal Society Archives, RBO/12/85</ref></note>
+     il tache de
+      <lb/>répondre <choice><orig>a</orig><reg>à</reg></choice> votre argument des 4 ressorts bandez par <add>2</add> degrés de vitesse, tels qu’un
+      <lb/>degré ne peut bander qu’un ressort. Il repond qu’il faudroit que les Circonstances des deux
+      <lb/>Corps fussent les mêmes, <abbr><choice><orig>c-a-d.</orig><reg>c.-à-d.</reg><expan>c’est-à-dire</expan></choice></abbr> que le choc de tous deux fût en perpendiculaire ou oblique, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que
+      <lb/>tous deux conservassent leurs directions ou qu’ils en changeassent tous deux. Il ajoute que le
+      <lb/>corps mû avec 1 degré <add>de</add> vitesse, peut, en decomposant son mouvement comme l’autre bander
+      <lb/>4 ressorts qui feront la moitié moins de résistance, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de là (ce qui n’est pourtant qu’une
+      <lb/><unclear>pétition</unclear> de principe, car il suppose qu’un ressort qui se peut bander avec <formula>\frac{1}{2}</formula> <choice><abbr>d.</abbr><expan>degré</expan></choice> de vitesse fait
+      <lb/>la moitié moins de resistance que celui qui ne peut se bander que par 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">d</hi>) il conclud que
+      <lb/><add>votre preuve</add> prouvant également en faveur de l’un <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’autre Système, elle ne prouve rien du tout.</p>
+  <p><lb/><unclear>Voiés</unclear>, <abbr>M.<hi rend="sup">r</hi></abbr>, si je n’ai pas eu raison de vous dire que vôtre Système est victorieux, quoi
+      <lb/>qu’il n’ait pas ici des <rs type="person">Sectateurs</rs>. Et comment en auroit-il, <choice><orig>Tous</orig><reg>tous</reg></choice> les <rs type="person">Philosophes anglais</rs> sont
+      <lb/>des adorateurs de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, qu’ils s’imaginent avoir de<add>ci</add>dé que les forces des Corps étoient
+      <lb/>comme les vitesses, quoi que l’on puisse aisement deduire de sa 39<supplied>.</supplied> <abbr>Prop.</abbr> <rs key="biblio_73DJ8AIG" type="biblio"><abbr>Liv.</abbr></rs> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> que les forces
+      <lb/>vives sont co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e les quarrés des vitesses. Je trouverai l’occasion de vous envoier la derniére
+      <lb/><unclear>e</unclear>dition de ses <rs key="biblio_73DJ8AIG" type="biblio">Principes</rs>, <choice><orig>ou</orig><reg>où</reg></choice> au lieu du fameux Scholium du <rs  key="biblio_73DJ8AIG" type="biblio"><abbr>Liv.</abbr></rs> II<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>Lem.</abbr> 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> vous verrez
+      <lb/>un autre <rs key="biblio_73DJ8AIG" type="biblio">Scholium</rs>, <choice><orig>ou</orig><reg>où</reg></choice> sans faire mention de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs>, <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> s’attribue l’inven<pc type="hyphenation">-</pc><lb break="no"/>tion du Calcul des Fluxions, sur lequel il avoit écrit, dit-il, en <date when="1671">1671</date><note resp="MK" type="editorial">Das lateinische Manuskript aus dem Jahre 1671 trägt den Titel «De Methodis Fluxionum et Serierum Infinitarum» und wurde erst 1736, übersetzt von John Colson publiziert.</note>. C’est <abbr>M.</abbr> <rs key="pers_DE-588-143687417" type="person">Pemberton</rs> qui
+      <lb/>a procuré cette <rs key="biblio_73DJ8AIG" type="biblio">Edition</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> c’est lui même qui est vôtre <rs  key="pers_DE-588-143687417" type="person">Anonyme</rs> des Trajectoires reciproques,
+      <lb/>à ce que j’ai apris de <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-139267875">Jnnys</rs>. Au reste, <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> a laissé quelques Ouvrages qui
+    <lb/>seront imprimez. On commence par sa Ch<add>ro</add>nologie<note resp="MK" type="editorial">Es geht dabei um das Werk: The Chronology of Ancient Kingdoms Amended (London: 1728).</note> puis suivra un <rs type="biblio">Traitté des Fluxions</rs>.</p>
+  <closer>
+<salute><lb/>Je suis avec tout le respect <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> toute l’estime possible
+      <lb/>votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très obéissant
+      <lb/>serviteur</salute> <signed><rs key="pers_DE-588-11670912X" type="person"><abbr>G</abbr><supplied>.</supplied>Cramer</rs></signed>
+   <dateline><lb/><rs key="place_GEO-2643743" type="place">Londres</rs> ce <date when="1727-12-11"><formula>\frac{31 \mathrm{Novembre}}{11 \mathrm{Decembre}}</formula>1727.</date></dateline> </closer>
+  <postscript><p><lb/><note type="editorial">Die Randnotiz befindet sich links und ist von oben senkrecht geschrieben.</note><note hand="pers_DE-588-11670912X">Je vous prie d’assurer <abbr>M.</abbr> le comte de <rs key="pers_DE-588-114183734X" type="person">Pergen</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>M.</abbr> vôtre <rs key="pers_DE-588-119166895" type="person">Neveu</rs> de mes très humbles respects, <choice><orig>Si</orig><reg>si</reg></choice> vous
+        <lb/>voulez me faire la faveur de m’honorer d’une <unclear>rep</unclear>onse, vous pourrés l’adresser à <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1372007326">Robert Caille</rs> <choice><abbr>March<supplied>.</supplied><hi rend="sup">d</hi></abbr><expan>Marchand</expan></choice>
+        <lb/>B<unclear>anquier.</unclear></note></p></postscript>
+</div>
+</body>
+</text></TEI>

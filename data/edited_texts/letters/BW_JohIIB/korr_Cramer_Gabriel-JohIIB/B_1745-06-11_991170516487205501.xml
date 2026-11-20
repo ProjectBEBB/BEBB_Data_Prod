@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516487205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann II Bernoulli. Genf, 11. Juni 1745</title>
+          <title type="alt">1745.06.11: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058284</title>
+          <title type="alt">1745-06-11_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516487205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516487205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136036">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.783-784</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516487205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433581305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058284</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Geneve]</origPlace>
+              <date when="1745-06-11">ce 11 Juin 1745</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1745-06-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430340605501" type="prev"/>
+          <ptr target="B_991170430340505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+
+        <p>Cramer bittet Johann II, für Émilie du Châtelet ein Exemplar der letzten Londoner Ausgabe von Newtons Principia zu beschaffen. Baron de Thun, ein Freund Maupertuis’, sucht ebenfalls danach; Cramer hat sein eigenes Exemplar für Barrillots kommentierte Genfer Ausgabe abgegeben. Er vermutet ein Exemplar bei Johann I und bietet Ersatz aus London, Bezahlung oder einen Tausch gegen die Genfer Ausgabe an. Johann II soll das Buch rasch nach Paris senden, möglicherweise über den Grafen d’Onzembray, und Cramer unabhängig vom Erfolg antworten.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1037536630">Barrillot, Jacques</persName>
+            <note type="lebensdaten">(1684-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118681028">Du Châtelet, Gabrielle Émilie Le Tonnelier de Breteuil</persName>
+            <note type="lebensdaten">(1705-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117050164">Jacquier, François</persName>
+            <note type="lebensdaten">(1711-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100185258">Leseur, Thomas</persName>
+            <note type="lebensdaten">(1703-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117679879">Pajot d'Onsenbray, Louis Léon</persName>
+            <note type="lebensdaten">(1678-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Thun, Baron von</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare, deutsches Regest; Brieftext und Formeln unverändert</change>
+        <change when="2025-09-01" who="SG">Textkonstitution überprüft: deThun, du du Chatelet, <del><gap/></del><add>N</add>ous statt Nous, <choice><sic>obligé</sic><corr>obligés</corr></choice>, reçevoir, <del><gap/></del> statt <unclear>l<subst><del>e</del><add>a</add></subst></unclear></change>
+        <change when="2025-08-29" who="MK">Code durchgeschaut, ergänzt, korr., kollationiert</change>
+        <change when="2025-08-29" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-08-29" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-07-07" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-07-07" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694280/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3694281" n="783"/>
+  <opener>
+  <dateline>
+      <lb/><date when="1745-06-11">11 Juin 1745</date>
+  </dateline>
+  <salute>
+      <lb/>Monsieur,
+  </salute>
+  </opener>
+  <p>
+      <lb/>Monsieur le Baron de<rs type="person">Thun</rs>, ami particulier de
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>, cherche partout la derniére <subst><del>e</del><add>E</add></subst>dition
+      <lb/>de <rs key="place_GEO-2643743" type="place">Londres</rs> des <rs key="biblio_73DJ8AIG" type="biblio">Principes</rs> de <rs key="pers_DE-588-118587544" type="person">Newton</rs>. C’est pour Madame
+      <lb/>la Marquise du<rs key="pers_DE-588-118681028" type="person">du Chatelet</rs>, qui en a affaire. Nous ne le
+      <lb/>trouvons point ici. J’en avois une <rs key="biblio_73DJ8AIG" type="biblio">Edition</rs>, <del>que j’ai </del><add>mais je l’ai</add> fournie
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs type="person" key="pers_DE-588-1037536630">Barillot</rs>, pour l’impression qu’il a faite de cet <rs key="biblio_73DJ8AIG" type="biblio">Ouvrage</rs>
+      <lb/>avec le Commentaire des <abbr>PP.</abbr> <rs key="pers_DE-588-100185258" type="person">Leseur</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <rs key="pers_DE-588-117050164" type="person">Jaquier</rs>. J’ai pensé,
+      <lb/>mon cher Monsieur, qu’il ne seroit pas impossible d’en
+      <lb/>trouver un <rs type="biblio" key="biblio_73DJ8AIG">Exemplaire</rs> chés vous. Et si je ne me trompe fort
+      <lb/>Monsieur votre <rs key="pers_DE-588-118509969" type="person">Pére</rs> en doit en avoir <rs type="biblio" key="biblio_73DJ8AIG">un</rs>. Nous lui serions trés
+      <lb/>obligé s’il pouvoit se résoudre à s’en dèfaire. Je puis aisement
+      <lb/>lui en faire venir un <add>autre</add> de <rs key="place_GEO-2643743" type="place">Londres</rs>; à moins qu’il n’aime mieux
+      <lb/>qu’on lui en paie la valeur, ou qu’il ne voulut reçevoir en échange
+<pb facs="3694282" n="784"/>
+      <lb/>un Exemplaire de l’<rs type="biblio">Edition</rs><note resp="MK" type="editorial">Es handelt sich hier um folgende Edition: <rs type="biblio">Philosophiae naturalis principia mathematica … perpetuis commentariis illustrata a Thoma Le Seur et Francisco Jacquier</rs>, Genf: Jean-Louis Barrillot, 1739-1742.</note> de <rs key="place_GEO-2660646" type="place">Genève</rs> avec le Commentaire.
+      <lb/>Si Monsieur votre <rs key="pers_DE-588-118509969" type="person">Pére</rs>, ou quelque autre Possesseur de
+      <lb/>cette <rs type="biblio" key="biblio_73DJ8AIG">Edition</rs>, vouloit bien avoir cette complaisance; vous
+      <lb/>auriez celle de prendre soin de le faire transmettre <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> Madame la <abbr>M.</abbr> <rs key="pers_DE-588-118681028" type="person">du Chatelet</rs>, par la voie la plus
+      <lb/>convenable <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la plus courte. Il me semble que vous
+      <lb/>pourriez <unclear>l<subst><del>e</del><add>a</add></subst></unclear> emploier celle de l<subst><del>e</del><add>a</add></subst> Poste, sous le Couvert de
+      <lb/><abbr>Mons.</abbr> le Comte d’<rs key="pers_DE-588-117679879" type="person">Onzembray</rs>, qui est si obligeant <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> si
+      <lb/>genereux. J’espère que votre santé est toujours bonne.
+  </p>
+  <closer>
+  <salute>
+      <lb/>C’est avec un véritable attachement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> une parfaite
+      <lb/>consideration que je suis
+      <lb/>Monsieur
+      <lb/>Votre très humble
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très obéissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs>
+  </signed>
+  <dateline>
+      <lb/>ce <date when="1745-06-11">11 Juin 1745</date>.
+  </dateline>
+  </closer>
+  <postscript>
+    <p>
+        <lb/>Je vous prie, quoiqu’il en soit, de
+        <lb/>m’honorer d’un mot de reponse
+    </p>
+  </postscript>
+</div>
+</body>
+</text></TEI>

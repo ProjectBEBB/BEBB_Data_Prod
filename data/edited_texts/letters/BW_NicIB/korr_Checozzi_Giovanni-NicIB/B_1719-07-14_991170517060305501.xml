@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517060305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Giovanni Checcozzi. Venedig,
+            14. Juli 1719</title>
+          <title type="alt">1719.07.14: Bernoulli, Nicolaus (1687-1759) an
+            Checozzi, Giovanni (1691-1756)</title>
+          <title type="alt">000059019</title>
+          <title type="alt">1719-07-14_Bernoulli_Nicolaus-Checozzi_Giovanni</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517060305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517060305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Checozzi, Giovanni (1691-1756) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23319">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.21r-21v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517060305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433815905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059019</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,5 S.<dimensions unit="cm"><height>20,5</height><width>15</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Venetiis</origPlace>
+              <date when="1719-07-14">d. 14. Julij
+                1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1719-07-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1157561403">Checozzi, Giovanni</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517060505501" type="prev"/>
+          <ptr target="B_991170517060005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Checozzi_Giovanni-NicIB" corresp="pers_DE-588-1157561403" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1156361761">Checcozzi, Sebastiano</persName>
+            <note type="lebensdaten">(1693-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089921608">Zeno, Pietro Caterino</persName>
+            <note type="lebensdaten">(1666-1732)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-04-21" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-21" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-06" who="CG SG">kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1037790/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1037791" n="21r"/>
+  <opener><salute rend="center"><lb/>Viro Illustrissimo atque Doctissimo
+      <lb/><rs key="pers_DE-588-1157561403" type="person">Johanni Checcotio</rs> <abbr>S. P. D.</abbr> <rs key="pers_DE-588-119166895" type="person">N. B.</rs></salute></opener>
+  <p><lb/>Quas pro humanissima tua <rs type="letter">epistola</rs> superioribus diebus propter
+      <lb/>adversam valetudinem persolvere nequivi gratias, eas tibi, Vir
+      <lb/>Eruditissime, nunc demum, sed m<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>stissima mente, persolvo.
+<pb facs="1037793" n="21v"/>
+      <lb/><del><gap/></del>Ingenti certe tristitia <add>me</add> affec<del><gap/></del><add>erat</add> nuntius de pericu<pc type="hyphenation">=</pc><lb break="no"/>loso <del><gap/></del><rs key="pers_DE-588-1156361761" type="person">Fratris</rs> <del><gap/></del>tui statu; sed ex q<del><gap/></del><add>uo</add> multo infaustio<pc type="hyphenation">=</pc><lb break="no"/>rem <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Rev.</abbr> Patre <del><gap/></del><rs key="pers_DE-588-1089921608" type="person">Catharino Zeno</rs> accepi nuntium de ipsa
+      <lb/>Viri honestissimi morte, dolore pen<del><gap/></del><add>e</add> conficior.<del><gap/></del>
+      <lb/><del><gap/></del><add>Etenim n</add>on possum non graviter ferre jacturam
+      <lb/>amici, <del><gap/></del>quem mei studiosum
+      <lb/>fuisse, non solum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> te et <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unibus <rs type="person">amicis</rs>, sed <add>etiam</add> ex ipsius hu<pc type="hyphenation">=</pc><lb break="no"/>manissimis ad me <rs type="letter">litteris</rs> satis superque intellexi. Et eo quidem
+      <lb/>gravius fero hanc jacturam, quo<del><gap/></del>
+      <lb/><del><gap/></del>majorem animo<del><gap/></del>
+      <lb/><del><gap/></del>ejus convalescentia,
+      <lb/><del><gap/></del><add>et de amiciti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> recens inter nos nat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fructibus spem conceperam.</add> Cum igitur tam brevi temporis spatio, quo amicitia inter nos
+      <lb/>coaluit, ejus erga me benevolentiam demereri nullo pacto
+      <lb/>potuerim, hoc mihi reliquum manet, ut tibi persuadeam, me
+      <lb/><del><gap/></del>tanti amici et tam eximii rerum Mathematicarum
+      <lb/>cultoris memoriam grata mente culturum.<del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/>Interim ne justo dolori nimium indulgeas, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so, sed <add>in</add> Dei voluntat<del><gap/></del><add>e</add>
+      <lb/>acquiescas <del><gap/></del><add>qui</add> solatio suo luctum vestrum moderetur, et calami<pc type="hyphenation">=</pc><lb break="no"/>tatem hanc alia felicitate compenset! Quod superest gratias
+      <lb/><del><gap/></del><add>ago</add> pro enixa tua in me voluntate, rogoque ut eam deme<pc type="hyphenation">=</pc><lb break="no"/>rendi, et meam vicissim erga te observantiam demonstrandi
+      <lb/>occasionem <add>mihi</add> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>beas. </p> <closer><salute>Vale. </salute><dateline>Dabam <rs key="place_GEO-3164603" type="place">Venetiis</rs> <abbr>d.</abbr> <date when="1719-07-14">14. Julii 1719</date>.</dateline></closer>
+</div>
+</body>
+</text></TEI>

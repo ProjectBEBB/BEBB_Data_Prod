@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516903705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Giovanni Poleni. Venedig, 22. August 1718</title>
+          <title type="alt">Nicolaus I Bernoulli an Giovanni Poleni. Venedig, 22. August 1718</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516903705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516903705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Poleni, Giovanni (1683-1761)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Schlussfloskel mit Datum in deutscher Sprache</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23478">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.281v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516903705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433520905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059387</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>20,5</height><width>15</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Venedig</origPlace>
+              <date when="1718-08-22">den 22ten Augst 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1718-08-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516904105501" type="prev"/>
+          <ptr target="B_991170516904005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Poleni_Giovanni-NicIB" corresp="pers_DE-588-11887733X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ita">Italienisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1037587715">Hertz, Giovanni Gabriele</persName>
+            <note type="lebensdaten">(-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119543885">Riccati, Jacopo</persName>
+            <note type="lebensdaten">(1676-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117260266">Stirling, James</persName>
+            <note type="lebensdaten">(1692-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024" who="SG">erneut kollationiert, Tagging</change>
+        <change when="2022-11-01" who="EK">transformation xml</change>
+        <change when="2005-12-12" who="FN SG">transkribiert und kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1039016/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039017" n="281v"/>
+  <opener><abbr>Ill.<hi rend="sup">mo</hi></abbr> <abbr>Sig.<hi rend="sup">re</hi></abbr> <choice><abbr>Prne</abbr><expan>Patrone</expan></choice> mio <choice><abbr>Col<supplied>.</supplied><hi rend="sup">mo</hi></abbr><expan>Colendissimo</expan></choice></opener>
+  <p>Il <add>gran</add> caldo del Sole avendomi fugato l’inchiostro hà cau<pc type="hyphenation">-</pc><lb break="no"/>sata la carestia delle mie lettere, mà per pagar il mio
+      <lb/>debito à <choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> vado superar ogni difficultà <del><gap/></del>e
+      <lb type="deleted"/>
+      <lb/><del><gap/></del>farò buttar alla mia penna tre o quattro
+      <lb/>parole contro la sua volontà. Hò ricevuta la the<pc type="hyphenation">-</pc><lb break="no"/>riaca con due esemplari del suo <rs type="biblio" key="biblio_KGKQAP5S">Libro de Castellis</rs>, et
+      <lb/>hò consegnato il tutto <del><gap/></del>a un <rs type="person">mercante</rs> <del><gap/></del>per spedirlo
+      <lb/>à <rs key="place_GEO-2661604" type="place">Basilea</rs> con altri Libri, i quali come spero saranno
+      <lb/>già partiti. <foreign xml:lang="fre">Je ferai savoir à <abbr>Mr.</abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> et à
+      <lb/><abbr>Mr.</abbr> <del><gap/></del><rs key="pers_DE-588-119062372" type="person">Varignon</rs> en la maniere la plus solennelle
+      <lb/>tout ce que Vous me co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>andés à leur egard.</foreign> Se il
+      <lb/>viaggio è sotto conditione, anco la villeggiatura hà
+      <lb/>da essere sotto conditione, <foreign xml:lang="lat">nisi <del><gap/></del>ille sit apud <rs key="GeoNamesID" type="place">Ba<pc type="hyphenation">-</pc><lb break="no"/>tavos</rs>, sed Dii optumum!</foreign> Il <abbr>Sig.<hi rend="sup">r</hi></abbr> Conte <rs key="pers_DE-588-119543885" type="person">Riccati</rs> è stato
+      <lb/>quà alcuni giorni, <del><gap/></del><add>io</add> l’hò visto 2 o 3 volte<del><gap/></del>
+      <lb/>alla botega del <abbr>Sg.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1037587715" type="person">Ertz</rs>, dove avemo assai discorso
+      <lb/>insieme, egli m’hà promesso inviarmi una certa solu<pc type="hyphenation">-</pc><lb break="no"/>zione, ma io l’ho trovata d<del><gap/></del><add>i</add>poi da per me stesso.
+      <lb/>Hò veduto ancora il <abbr>Sgr.</abbr> <rs key="pers_DE-588-117260266" type="person">Sterling</rs>, egli <del><gap/></del><add>ha bensi</add>
+      <lb/><del><gap/></del>stampato <del><gap/></del><add>un</add> <rs type="biblio" key="biblio_HXRMGM5T">Libro de lineis 3<hi rend="sup">tii</hi> ordinis</rs>, mà la stam<pc type="hyphenation">-</pc><lb break="no"/>pa non essendo <del><gap/></del>finita quando partiva d’<rs key="place_VER-englan" type="place">Inghilterra</rs>
+      <lb/>egli stà ancora aspettando alcuni esemplari di questo suo
+      <lb/><rs type="biblio" key="biblio_HXRMGM5T">Libro</rs>. <choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <abbr>Ill<supplied>.</supplied><hi rend="sup">ma</hi></abbr> è pregata di riverir in mio nome
+      <lb/>il <abbr>Sgr.</abbr> <rs type="person" key="pers_DE-588-136541146X">Martini</rs>, e di pagar<add>g</add>li la theriaca, come ancora di
+      <lb/>assicurarlo che farò tutto il mio possibile per servirlo.</p>
+    <lb/><closer>M<add>a</add> sopra tutto la supplico d’esser persuaso che sono di tutto
+      <lb/>il <del><gap/></del>cuore <foreign xml:lang="ger">Meines hochgeehrten Herren und Patrons
+      <lb/>Underthänigster Gehorsamster diener <rs key="pers_DE-588-119166895" type="person">Niclauss bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></foreign>
+      <lb/><dateline><foreign xml:lang="ger"><rs key="place_GEO-3164603" type="place">Venedig</rs> den <date when="1718-08-22">22.<hi rend="sup">ten</hi> <abbr>Aug.</abbr> A<supplied>.</supplied> 1718</date>.</foreign></dateline></closer>
+</div>
+</body>
+</text></TEI>

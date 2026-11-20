@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991173093543405501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Samuel Grynaeus an Jacob I Bernoulli. Basel, 21. November 1676</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991173093543405501</idno>
+          <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991173093543405501</idno>
+          <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509950" type="person">Jacob I Bernoulli</rs> (1655-1705)</title>
+        <title level="s" type="Korrespondenz">Grynaeus, Samuel (1655-1706)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Nachgewiesen in: Jacob I Bernoulli an Samuel Werenfels, 6. Dezember 1676, in: Jac. B. Briefe, S. 206. Bernoulli antwortet dort getrennt auf die am Martinstag 1676 verfassten Briefe von Samuel Werenfels und Samuel Grynaeus. Martinstag 1676 entspricht dem 11. November julianisch beziehungsweise dem 21. November gregorianisch.</p>
+        </note>
+        <note type="print">
+          <p>Jac. B. Briefe, S. 206.</p>
+        </note>
+        <note type="erschliessbarkeit">Nachgewiesen</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Wahrscheinlich gemeinsam mit dem eigenständigen Brief von Samuel Werenfels an Jacob I Bernoulli vom selben Tag übermittelt; vgl. Alma MMS-ID 991170430273705501.</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier source="BIBB">
+            <repository>Unbekannt</repository>
+            <idno type="callNumber">-</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991173093543405501</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1676-11-21" when-custom="1676-11-11" datingMethod="#julian" calendar="#julian #gregorian">[Martinstag 1676 (11. November julianisch)]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="gregorian"><p>Gregorianischer Kalender</p></calendar>
+        <calendar xml:id="julian"><p>Julianischer Kalender</p></calendar>
+      </calendarDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-1089820453">Grynaeus, Samuel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1676-11-21" when-custom="1676-11-11" datingMethod="#julian" calendar="#julian #gregorian">Martinstag 1676</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430275105501" type="prev"/>
+          <ptr target="B_991170430272305501" type="next"/>
+          <ptr target="BW_JacIB" corresp="pers_DE-588-118509950" type="Briefwechsel"/>
+          <ptr target="korr_Grynaeus_Samuel-JacIB" corresp="pers_DE-588-1089820453" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="und">Unbestimmt</language>
+      </langUsage>
+      <abstract>
+        <p>Der Brief ist nur aus einer anderen Quelle bekannt; ein physischer Textzeuge ist nicht erhalten.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="inventarisiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-04" who="SG">Als eigenständigen, nur nachgewiesenen Brief in BEBB aufgenommen.</change>
+        <change when="2026-09-04" who="SG">TEI-Grunddatei aus bestätigten Alma-Metadaten erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>Der Brief ist nur aus anderer Quelle bekannt; ein Textzeuge ist nicht überliefert.</head>
+      </div>
+    </body>
+  </text>
+</TEI>

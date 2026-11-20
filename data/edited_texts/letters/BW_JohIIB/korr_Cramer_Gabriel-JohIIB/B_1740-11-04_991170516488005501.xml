@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516488005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann II Bernoulli. Mont-sur-Rolle, 04. November 1740</title>
+          <title type="alt">1740.11.04: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058263</title>
+          <title type="alt">1740-11-04_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516488005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516488005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+        <note type="print">
+          <p>Druck teilw.: Verhandlungen der Naturforschenden Gesellschaft in Basel. - Basel : Birkhäuser Verlag. - 43 (1933), S. 300</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136034">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.763-766</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516488005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433580705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058263</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Mont sur Rolle]</origPlace>
+              <date when="1740-11-04">ce 4. Nov. 1740</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2659599" ref="https://d-nb.info/gnd/7742300-8">Mont-sur-Rolle</placeName>
+          <date when="1740-11-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430341905501" type="prev"/>
+          <ptr target="B_991170516487905501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+
+        <p>Cramer kündigt die Prüfung und Abschrift der übersandten Briefe Johann I für die Veröffentlichung an und erläutert die nötige Trennung zwischen privaten und öffentlichen Mitteilungen. Für seinen Werkekatalog fragt er nach mehreren anonym oder unter dem Namen G××× veröffentlichten Beiträgen zur Kurve de Beaunes und zur Kontroverse über eine allgemeine Theorie der Kurven. Seine Vermutungen über Johann I als Verfasser und Tschirnhausen als Autor des kritisierten Buchs sollen durch Auskunft des Vaters geklärt werden. Zudem empfiehlt er die Aufnahme der logischen Dissertation De propositionibus.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-128349794">Beaune, Florimond de</persName>
+            <note type="lebensdaten">(1601-1652)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136952968">Bousquet, Marc Michel</persName>
+            <note type="lebensdaten">(1696-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118624369">Tschirnhaus, Ehrenfried Walther von</persName>
+            <note type="lebensdaten">(1651-1708)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare, deutsches Regest; Brieftext und Formeln unverändert</change>
+        <change when="2025-08-18" who="MK">Code durchgeschaut, ergänzt, korr., kollationiert fertig</change>
+        <change when="2025-08-15" who="MK">Code durchgeschaut, ergänzt, korr., kollationiert Teil 1</change>
+        <change when="2025-07-29" who="RG">Referenzierungen</change>
+
+        <change when="2025-07-29" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-29" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-06-23" who="RG">Zeilabstände eingefügt, und etlig ergänzt</change>
+        <change when="2023-06-23" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694262/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3694263" n="763"/>
+  <opener>
+  <dateline>
+      <lb/>ce <date when="1740-11-04">4. <abbr>Nov.</abbr> 1740</date><note hand="pers_DE-588-117589136"></note>
+  </dateline>
+  </opener>
+  <p>
+      <lb/>Je suis encore à la Campagne, où j’ai reçu vôtre <rs key="B_991170430341905501" type="letter">Lettre</rs>, ce qui m’a empêché
+      <lb/>mon cher Monsieur, de vous repondre par le premier ordinaire.
+  </p>
+  <p>
+      <lb/>Je suis charmé de ce que vous me marquez que <abbr>M.<hi rend="sup">r</hi></abbr> vôtre <rs key="pers_DE-588-118509969" type="person">Pere</rs> se dispose
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> faire part au Public des richesses que renferme Son cabinet. Les mathe<pc type="hyphenation">-</pc><lb break="no"/>matiques vous auront, Monsieur, une véritable obligation <choice><sic>de</sic><corr>des</corr></choice> soins
+      <lb/>que vous prenez pour cela. Elles doivent déjà infiniment au nom Bernoulli,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je prévois qu’elles leur devront encore beaucoup. J’ai bien de la joie
+      <lb/>que <abbr>M.<hi rend="sup">r</hi></abbr> vôtre <rs key="pers_DE-588-118509969" type="person">Pere</rs> consente aussi <choice><orig>a</orig><reg>à</reg></choice> faire imprimer Son <rs type="letter">Commerce Epistolaire</rs>.
+      <lb/>Je suis assuré que ce <rs type="biblio">recueil</rs> infiniment estimable, lui fera beaucoup d’honneur,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je me charge avec bien du plaisir de tout ce qui pourra dépendre de moi
+      <lb/>pour l’execution d’un si bon dessein. Je sens toute la delicatesse qu’il y a
+      <lb/>à prendre sur moi, ce qui est pourtant absolument nécessaire, de distinguer
+      <lb/>ce qui avoit été écrit pour l’ami, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ce qui sera bon pour le public; mais
+      <lb/>je me flatte que mon zele pour cet illustre ami, (qu’il me permette
+      <lb/>d’emploier ce mot pour marquer toute ma tendresse) pourra suppléer
+      <lb/>en partie à ce qui manque du côté des Lumieres. J’attendrai donc ces
+      <lb/><rs type="letter">Lettres</rs>, que vous pourrez m’envoier très surement par la Messagerie
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je chercherai à <rs key="place_GEO-2660646" type="place">Genève</rs>, quelque personne assurée <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> intelligente
+      <lb/>qui puisse les copier sous mes yeux avec les interpolations <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> changemens
+      <lb/>nécessaires pour les mettre en état d’étre remises au <rs type="person" key="pers_DE-588-136952968">Libraire</rs>, qui sera
+      <lb/>sans doute, bien content du parti que prend Monsieur <rs type="person" key="pers_DE-588-118509969">Bernoullj</rs>.
+  </p>
+<pb facs="3694264" n="764"/>
+  <p>
+      <lb/>J’aurai l’honneur, Monsieur, dès que je serai de retour chez moi, <subst><del><gap/></del><add>c</add></subst>e qui
+      <lb/>sera dans huit ou dix jours pour le plus tard, de vous envoier le Catalogue
+      <lb/>que j’ai dressé des <rs type="biblio" key="biblio_C98S9A3E">Oeuvres</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> vôtre <rs key="pers_DE-588-118509969" type="person">Pere</rs>, dans l’ordre où je pense qu’on
+      <lb/>pourroit les imprimer. Sur quoi je vous prie de lui demander un mot d’eclair<pc type="hyphenation">-</pc><lb break="no"/>cissement sur quelques piéces que je crois de lui, quoi que je ne les trouve pas dans
+      <lb/>le <rs type="biblio">Catalogue</rs> du <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs>. Je vois par un <rs type="biblio" key="biblio_ZAJZQ8SG">Memoire</rs> sur la Courbe de <abbr>M.</abbr> de
+      <lb/><rs key="pers_DE-588-128349794" type="person">Beaune</rs>, imprimé <rs type="biblio"><abbr><subst><del><gap/></del><add>A</add></subst>ct. Erud.</abbr></rs> <date when="1693-05">Maii 1693<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> <abbr>p.</abbr> 234<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118509950" type="person"><subst><del><gap/></del><add>Ber</add></subst>noulli</rs> avoit
+      <lb/>donné une Construction de cette Courbe dans le <rs type="biblio" key="biblio_QI6CIYPK">Journal des Sçavans</rs> <date when="1693-09"><abbr>Sept.</abbr> 1693</date><choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+      <lb/><foreign xml:lang="lat"><hi rend="u">Sub nomine ficto</hi></foreign><note type="editorial">Die lateinische Wendung bedeutet wörtlich: «Unter erfundenem Namen» oder sinngemäss: «Unter Pseudonym».</note>. <abbr>Effectivem.<hi rend="sup">t</hi></abbr> je vois dans ce <rs type="biblio">Journal</rs> une Construction donnée
+      <lb/>par <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-100814891">G×××</rs>. Je comprens donc que c’est là le <foreign xml:lang="lat"><hi rend="u">Nomen fictum</hi></foreign>. Or dans les <rs type="biblio">Journaux</rs>
+      <lb/>du <date when="1693-12-15">15</date> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> du <date when="1693-12-22">22 <abbr>Dec.</abbr></date> ce même <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-100814891">G×××</rs> rèpond à deux <rs type="biblio">memoires</rs> inserés dans les
+      <lb/>32<supplied>.</supplied> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 36. <rs type="biblio">Journaux</rs> de cette année, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> tout cela est relatif à un <rs type="biblio">Mémoire</rs> intitulé
+      <lb/>Remarques sur un Livre intitulé <rs type="biblio">Principes de la science generale des Lignes Courbes</rs>
+      <lb/>lesquelles se trouvent dans le <rs type="biblio">Journal</rs> du <date when="1692-04-21">21 Avril 1692</date>. Je crois pouvoir conclure
+      <lb/>de tout cela que ces 4 <rs type="biblio">Pièces</rs> du <date when="1692-04-21">21 Avril</date>, du <date when="1692-09-01">1 <abbr>Septemb<supplied>.</supplied></abbr></date>, du <date when="1692-12-15">15</date> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> du <date when="1692-12-22">22 <abbr>Dec.</abbr> 1692</date>
+      <lb/>sont de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118509950" type="person">Bernoulli</rs>, quoique sous le nom de <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-100814891">G×××</rs>. Le <rs type="biblio">Memoire</rs> du <date when="1692-12-15">15 <abbr>Decemb.</abbr></date>
+      <lb/>indique aussi une <rs type="letter">Lettre</rs> imprimée, une <rs type="biblio">Réponse</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> une <rs type="biblio">Replique</rs>, dont je n’ai
+      <lb/>aucune connoissance. Ces <rs type="biblio">pièces</rs> existent elles, peuvent elles se trouver, <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-100814891">G×××</rs>
+      <lb/>est-il veritablement <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118509950" type="person">Bernoulli</rs>, comme je le soubçonne, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dans ce Cas
+      <lb/>ces <rs type="biblio">pièces</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ces <rs type="biblio">memoires</rs> ne devroient elles pas entrer dans notre <rs type="biblio">Recueil</rs>.
+      <lb/>J’ai aussi quelque soupçon, que l’<rs type="person" key="pers_DE-588-115669146X">Autheur</rs> de ce livre intitulé, <rs type="biblio"><abbr>Princ.</abbr> de la <abbr>Sc.</abbr> <choice><abbr>g.nale</abbr><expan>générale</expan></choice>
+      <lb/>des Lignes Courbes</rs>, est <abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118624369" type="person">Tschirnhausen</rs>. C’est à <abbr>M.<hi rend="sup">r</hi></abbr> vôtre <rs key="pers_DE-588-118509969" type="person">Père</rs> à nous
+      <lb/>donner sur tout cela les éclaircissemens nécessaires, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je vous prie de les
+      <lb/>lui demander. Je finis en vous remerciant, Monsieur<supplied>,</supplied> des voeux que vous
+      <lb/>faites pour ma santé. J’en fais de tres Sinceres pour la vôtre <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> pour celle de tous
+      <lb/>ceux qui vous interessent. J’assure <abbr>M.<hi rend="sup">r</hi></abbr> vôtre <rs key="pers_DE-588-118509969" type="person">Pere</rs> de tous mes respects, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> suis
+      <lb/>avec une parfaite consideration, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un veritable attachement
+  </p>
+  <closer>
+  <salute>
+      <lb/>Votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très obeissant Serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs>
+  </signed>
+  </closer>
+<pb facs="3694265" n="765"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> Je connois une petite <rs type="biblio" key="biblio_4F3SCJ99">These</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-118509969" type="person">Pere</rs>, <foreign xml:lang="lat">De Propositi<pc type="hyphenation">-</pc><lb break="no"/>onibus</foreign>, où il y a de fort bonnes choses, surtout dans les Corollaires.
+        <lb/>Ne croiez vous pas, comme moi, qu’on doit la joindre aux autres
+        <lb/><rs type="biblio">Ouvrages</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> n’y a-t-il point d’autre Thèse dans le même gout.
+    </p>
+  </postscript>
+<pb facs="3694266" n="766"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs type="person" key="pers_DE-588-117589136">Jean Bernoulli fils</rs></addrLine>
+      <addrLine>Docteur en Droit, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2661604" type="place">Bale</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

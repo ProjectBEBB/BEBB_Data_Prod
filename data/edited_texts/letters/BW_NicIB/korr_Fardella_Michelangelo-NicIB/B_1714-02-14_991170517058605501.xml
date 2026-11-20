@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517058605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Michelangelo Fardella. Ohne Ort, 14. Februar 1714</title>
+          <title type="alt">1714.02.14: Bernoulli, Nicolaus (1687-1759) an Fardella, Michelangelo (1650-1718)</title>
+          <title type="alt">000059116</title>
+          <title type="alt">1714-02-14_Bernoulli_Nicolaus-Fardella_Michelangelo</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517058605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517058605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Fardella, Michelangelo (1650-1718)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23356">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.79r-v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517058605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433685305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059116</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1714-02-14">14. Febr. 1714</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1714-02-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119291967">Fardella, Michelangelo</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517058805501" type="prev"/>
+          <ptr target="B_991170517058505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Fardella_Michelangelo-NicIB" corresp="pers_DE-588-119291967" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1037004566">Grimani, Pietro</persName>
+            <note type="lebensdaten">(1677-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102552517">Michelotti, Pietro Antonio</persName>
+            <note type="lebensdaten">(1673-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Ruzzini, Antonio</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100656862">Trevisan, Bernardo</persName>
+            <note type="lebensdaten">(1652-1720)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-04-22" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-22" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-22" who="RG">NER Erkennung</change>
+        <change when="2026-02-20" who="CG SG">Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1038088/manifest"/></facsimile><text><body><div type="letter">
+<pb facs="1038089" n="79r"/>
+  <opener><salute rend="center"><lb/>Plurimum Reverendo et Clarissimo
+      <lb/>Viro <abbr>D.</abbr> <rs key="pers_DE-588-119291967" type="person">Michaeli Angelo Far<pc type="hyphenation">-</pc><lb break="no"/>dell<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <abbr>S.P.D.</abbr> <rs key="pers_DE-588-119166895" type="person">N.B.</rs></salute></opener>
+  <p><lb/><date>Hesterno die</date>, eo ipso tempore quo scriptioni ad <choice><abbr>Cl.</abbr><expan>Clarissimum</expan></choice> Domin<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>Doctorem <rs key="pers_DE-588-102552517" type="person">Michelottum</rs> operam dabam <rs type="lostletter">literis</rs> Ejus alias ad Te<note type="editorial">Dieses Antwortschreiben von <rs key="pers_DE-588-119166895" type="person">Nic. I B.</rs> wurde durch den vorliegenden Brief überflüssig und ist somit wohl nicht erhalten.</note>
+      <lb/>inclusurus, accepimus <rs key="pers_DE-588-118509969" type="person">Patruus meus</rs> et ego humanissimas
+      <lb/>et perquam officiosas <rs type="letter">epistolas</rs> Tuas, quibus quanta opera
+      <lb/>et ardore vocationem meam ad Cathedram Mathematicam
+      <lb/>in Illustri <rs type="organisation">Archilyceo Patavino</rs> promovere ind<del><gap/></del><add>esinenter</add> studeas,
+      <lb/>su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>o cum gaudio et voluptate intelleximus.<del></del>
+      <lb type="deleted"/><del></del>
+      <lb/><del></del>Est quod mihi impense gratuler Tibique quam
+      <lb/>maximas gratias agam <del></del><add>de favore tuo per</add> tant<del></del><add>a</add> benefici<del></del><add>a</add> mihi demonstrato
+      <lb break="no"/><del></del>, de quo diutinum silentium meum nihil <choice><sic>dem</sic><corr>demi</corr></choice><pc type="hyphenation">-</pc><lb break="no"/>sisse l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tus agnosco. Ignosces qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so quod ad priores Tuas
+      <lb/><del></del>urbanissimis et perquam honorificis expressionibus
+      <lb/>refertas <rs key="B_991170517059105501" type="letter">literas</rs>,<note type="editorial"><rs key="pers_DE-588-119291967" type="person">Fardella</rs> an <rs key="pers_DE-588-119166895" type="person">Nic. I B.</rs> von <rs key="B_991170517059105501" type="letter">1713.11.26</rs>.</note> qua<del></del><add>s</add> <date>ultimis pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teriti a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>i diebus</date> acceperam,
+      <lb/>citius non responderim.<del></del>
+      <lb/><del></del>Scriptionem ad Te et ad <abbr>Dn<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice></abbr>
+      <lb/><rs key="pers_DE-588-102552517" type="person">Michelottum</rs> impediebant negotia et Exercitia quadam,<del></del>
+      <lb/>quorum in <rs type="organisation">Academia nostra</rs> habendorum mihi data fuit occasio.
+      <lb/>Illustris <rs key="pers_DE-588-118571249" type="person">Leibnitii</rs> nostri co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endationes et auxilia, qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>continuis suis exhortationibus negotio nostro affert, non minori
+<pb facs="1038090" n="79v"/>
+      <lb/>gratiarum actione prosequor. Ejus consilium de <rs key="pers_DE-588-118509969" type="person">Patruo</rs> meo <rs type="place">Pa<pc type="hyphenation">-</pc><lb break="no"/>tavium</rs> evocando optimum esse fateor, sed <rs key="pers_DE-588-118509969" type="person">Patruum</rs> propter
+      <lb/>res suas domesticas nonnisi lautissimis et perquam honorifi<pc type="hyphenation">-</pc><lb break="no"/>cis conditionibus oblatis hinc abiturum credo. <del></del><add>Non ita pridem</add> enim Pro<pc type="hyphenation">-</pc><lb break="no"/>fessionem Matheseos <rs key="place_GEO-2751773" type="place">Lugduni Batavorum</rs> <add>cum</add> stipendio mille du<pc type="hyphenation">-</pc><lb break="no"/>catorum sibi oblatam respuit, quamvis <del></del><add>pro</add> <del></del><add>le</add>ctionibus priva<pc type="hyphenation">-</pc><lb break="no"/>tis <choice><orig>(</orig><reg type="deleted"/></choice>adhuc alterum fere tantum (quales ut audio <rs key="place_GEO-3171728" type="place">Patavii</rs> null<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>habentur) habere potuisset. Ipse autem sententiam suam Tibi
+      <lb/>perscribere non cessabit. Interim negotium, de cujus felici
+      <lb/>successu haud levem spem nobis injicis, porro <add>Tibi</add> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endatum
+      <lb/>habe; <del></del><add>Excellentissimis etiam</add> Viris, <rs type="person" key="pers_DE-588-1037004566">Petro Grimani</rs>, <rs key="pers_DE-588-100656862" type="person">Bernardo
+      <lb/>Trevisani</rs>, <rs key="pers_no_GND_id" type="person">Antonio Ruzzini</rs>, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipu<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> <del></del><add>ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice></add> Excellen<pc type="hyphenation">-</pc><lb break="no"/>tissimo Domino Procuratori <rs type="person">Ruzzino</rs> <add>reliquisque <del></del>caus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Patronis</add> quos omnes rem no<pc type="hyphenation">-</pc><lb break="no"/>stram benigne hactenus juvisse nuntiasti, meo nomine ubi
+      <lb/>occasio se feret su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>as gratias agere ne dedigneris.<del></del>
+      <lb/><del></del>Salutem <del></del><add>Tuam</add> <abbr>Cl.</abbr> <rs key="pers_DE-588-119112450" type="person">Herma<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o</rs> nostro, qui ut
+      <lb/>audio munus suum <rs type="place">Francofurti</rs> maximo cum applausu obit,
+      <lb/>cum scribam mittere non negligam.</p> <closer><salute>Vale et mihi fave.</salute>
+      <lb/><dateline><date when="1714-02-14">14. <abbr>Febr.</abbr> 1714</date>.</dateline> </closer>
+</div></body></text></TEI>

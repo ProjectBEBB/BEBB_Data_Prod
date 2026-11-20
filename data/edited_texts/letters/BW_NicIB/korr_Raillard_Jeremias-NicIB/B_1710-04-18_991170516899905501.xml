@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516899905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Jeremias Raillard. Hindelbank, 18. April 1710</title>
+          <title type="alt">1710.04.18: Bernoulli, Nicolaus (1687-1759) an Raillard, Jeremias (1691-1744)</title>
+          <title type="alt">000059425</title>
+          <title type="alt">1710-04-18_Bernoulli_Nicolaus-Raillard_Jeremias</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516899905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516899905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Raillard, Jeremias (1691-1744)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23491">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.7r-v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516899905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433521305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059425</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>0,5 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>in Hindelbanck</origPlace>
+              <date when="1710-04-18">a.d. 18. Aprilis 1710</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Hindelbank</placeName>
+          <date when="1710-04-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516900005501" type="prev"/>
+          <ptr target="B_991170516899805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Raillard_Jeremias-NicIB" corresp="pers_DE-588-1132220874" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+
+        <p>Nicolaus I Bernoulli gratuliert Jeremias Raillard zu dessen Ankunft in Genf und bedauert, dass dieser nicht über Bern gereist ist. Da seine Hauslehrerstelle in Hindelbank gescheitert ist, plant Bernoulli selbst über Genf und Lyon nach Frankreich zu reisen. Er bittet Raillard, ihm für den Genfer Aufenthalt eine Unterkunft zu vermitteln und die Kosten zu nennen, grüsst Johann Heinrich Beck und Theodor Falkeisen und lässt im Postskript bei einem nicht sicher identifizierten Korn nach einer weiteren Unterkunftsmöglichkeit fragen.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1072469103">Beck, Johann Heinrich</persName>
+            <note type="lebensdaten">(1687-1735)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+            <note type="lebensdaten">(1688-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089804180">Falkeisen, Theodor</persName>
+            <note type="lebensdaten">(1686-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Korn</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-25" who="SG">Grundkommentierung vorbereitet</change>
+        <change when="2026-08-25" who="SG">NER</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-11" who="RG">NER Erkennung</change>
+        <change when="2026-05-11" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-03-13" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039086/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1039087" n="7r"/>
+  <note hand="pers_DE-588-119166895">Ad <rs key="pers_DE-588-1132220874" type="person">Jeremiam Raillardum</rs>, <rs key="place_GEO-2660646" type="place">Genevam</rs>.</note>
+  <opener>
+      <lb/><salute>Amice optime.</salute></opener>
+  <p><lb/><date>Ante quatriduum</date> <rs type="letter">literas</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uni nostro amico <rs key="pers_DE-588-140736662" type="person">Francisco Christ</rs> accepi, quibus mihi inter alia
+      <lb/>significavit, te salvum et incolumem <rs key="place_GEO-2660646" type="place">Genev<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> adventasse, de quo tibi l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tus gratulor; doleo au<pc type="hyphenation">-</pc><lb break="no"/>tem non parum, te per <rs key="place_GEO-2661552" type="place">Bernam</rs> iter non fecisse, meque adeo spem te videndi et nos invicem exhila<pc type="hyphenation">-</pc><lb break="no"/>randi frustra concepisse; Tui gratia certe solus per integrum diem cum dimidio in <rs key="place_GEO-2661552" type="place">Urbe</rs> mansi,
+      <lb/>cum nostri omnes jam antea in <rs type="place">rus</rs> discesserant. Quia vero te non minor cupido tenuit per
+      <lb/><rs key="place_GEO-2661552" type="place">Bernam</rs> transeundi, et tu alterius voluntatem sequi necesse habuisti, nullam tibi propterea
+      <lb/>culpam imputo. Non omnino tamen spem te adhuc videndi abjicio, siquidem animus est
+      <lb/><choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>quia res cum <rs type="person">discipulo</rs> meo non bene successit<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> regiones has derelinquere, et per
+<pb facs="1039088" n="7v"/>
+  <rs key="place_GEO-2660646" type="place">Genevam</rs> et <rs key="place_GEO-2996944" type="place">Lugdunum</rs> iter in <rs key="place_VER-frankr" type="place">Galliam</rs> volente Deo instituere. <rs key="place_GEO-2660646" type="place">Genev<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> per unam aut
+      <lb/>alteram hebdomadam co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>orabor, quamobrem si mihi ibidem hospitium aliquod, vel
+      <lb/>tuum vel alienum, comparare posses, maxime me obligares, gratum etiam facies, si
+      <lb/>quantum singulis mensibus <rs type="person">hospit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> solvas, mihi indices. Rogo te, ut mihi
+      <lb/>quamprimum rescribas, quia brevi proficiscar. Saluta <rs key="pers_DE-588-1072469103" type="person">Beckium</rs> et <rs key="pers_DE-588-1089804180" type="person">Falkisium</rs>,
+      <lb/>et alios, si qui <rs key="place_GEO-2660646" type="place">Genev<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> sunt, <rs type="person">amicos</rs>.</p>
+  <closer>Vale et fave Tui studiosissimo <signed><rs key="pers_DE-588-119166895" type="person">NBernoull</rs><choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></signed>.
+      <lb/><dateline>Datum in <rs key="place_GEO-2660349" type="place"><choice><orig>hindelbanck</orig><reg>Hindelbanck</reg></choice></rs> <abbr>a. d.</abbr> <date when="1710-04-18">18. Aprilis 1710</date>.</dateline></closer>
+  <postscript>
+    <p><abbr>P. S.</abbr> Potes etiam <rs type="person">Kornium</rs> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>feür<pc type="hyphenation">-</pc><lb break="no"/>feg<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> rogare, an me suo hospitio excipere velit.</p>
+  </postscript>
+</div>
+<div type="translation" xml:id="B_991170516899905501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039087" n="7r" /> <p>Mein lieber Freund!</p>
+<p>Vor vier Tagen erhielt ich einen Brief unseres gemeinsamen Freundes Franz Christ. Unter anderem teilte er mir darin mit, dass Du wohlbehalten in Genf angekommen bist. Dazu gratuliere ich Dir von Herzen. Sehr bedaure ich allerdings, dass Du nicht über Bern gereist bist und ich deshalb vergeblich gehofft habe, Dich zu sehen und mit Dir einige frohe Stunden zu verbringen. Deinetwegen bin ich tatsächlich noch anderthalb Tage allein in der Stadt geblieben, während alle anderen von uns bereits aufs Land gefahren waren. Da Du aber ebenso gern über Bern gereist wärst und Dich nach dem Willen eines anderen richten musstest, mache ich Dir deshalb keinen Vorwurf. Ganz aufgegeben habe ich die Hoffnung, Dich doch noch zu sehen, freilich nicht. Weil es mit meinem Schüler nicht gut gegangen ist, will ich diese Gegend verlassen und, so Gott will, über <pb facs="1039088" n="7v" /> Genf und Lyon nach Frankreich reisen. In Genf werde ich eine oder zwei Wochen bleiben. Du würdest mir deshalb einen grossen Gefallen tun, wenn Du mir dort eine Unterkunft besorgen könntest, sei es bei Dir im Haus oder anderswo. Auch wäre ich Dir dankbar, wenn Du mir mitteilen könntest, wie viel Du Deiner Wirtin monatlich bezahlst. Bitte antworte mir möglichst bald, da ich in Kürze aufbrechen werde. Grüsse Beck und Falkeisen sowie die übrigen Freunde, die sich allenfalls in Genf aufhalten.</p>
+<p>Lebe wohl und bleibe Deinem Dir sehr ergebenen N. Bernoulli gewogen.<lb type="forced"/>Geschrieben in Hindelbank am 18. April 1710.</p>
+<p>P. S. Du kannst auch Korn («feür feg») fragen, ob er mich bei sich aufnehmen möchte.</p></div>
+<div type="translation" xml:id="B_991170516899905501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039087" n="7r" /> <p>My dear friend,</p>
+<p>Four days ago I received a letter from our mutual friend Franz Christ. Among other things, he told me that you had arrived safely in Geneva, and I am very glad to congratulate you on this. I am sorry, however, that you did not travel through Bern, and that my hope of seeing you and enjoying your company proved vain. For your sake I stayed alone in the city for a full day and a half, although everyone else in our party had already gone to the country. Since you were no less eager to pass through Bern, but had to follow someone else’s wishes, I do not blame you for this. I have not entirely given up hope of seeing you after all. As things have not worked out well with my pupil, I intend to leave this region and, God willing, travel to France by way of <pb facs="1039088" n="7v" /> Geneva and Lyon. I shall stay in Geneva for a week or two, so you would do me a great favour if you could find me lodgings there, either in the house where you are staying or elsewhere. I should also be grateful if you would tell me how much you pay your landlady each month. Please reply as soon as possible, since I shall be leaving shortly. Give my regards to Beck and Falkeisen, and to any other friends who may be in Geneva.</p>
+<p>Farewell, and think kindly of your devoted N. Bernoulli.<lb type="forced"/>Written at Hindelbank, 18 April 1710.</p>
+<p>P. S. You can also ask Korn («feür feg») whether he would be willing to take me in.</p></div>
+</body>
+</text></TEI>

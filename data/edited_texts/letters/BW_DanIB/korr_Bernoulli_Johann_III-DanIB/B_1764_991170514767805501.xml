@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514767805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Basel,
+                        1764</title>
+          <title type="alt">1764: Bernoulli, Daniel (1700-1782) an
+                        Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000054759</title>
+          <title type="alt">1764_Bernoulli_Daniel-Bernoulli_Johann</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514767805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514767805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs>
+                    (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Das Datum "s.d. 1764" am Briefkopf ist von anderer
+                        Hand. Joh. III zitiert aus diesem Brief in seinem "Projet de quelques
+                        Expériences sur l'Aiman" (UB Basel L Ia 676:Bl.63-65, gedruckt in Dan. B.,
+                        Werke 7, S. 159-160))</p>
+          <p>Aufgebrochenes Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200188">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.23-25</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514767805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432852905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054759</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 Bl.<dimensions unit="cm"><height>24</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1764">[1764]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1764"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514767905501" type="prev"/>
+          <ptr target="B_991170514767405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514767905501" type="prev"/>
+          <ptr target="B_991170514767405501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156360374">Dietrich, Johannes</persName>
+            <note type="lebensdaten">(1715-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089915780">Dolgorukij, Vladimir
+                            Sergeevic</persName>
+            <note type="lebensdaten">(1720-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116610832">Euler, Johann Albrecht</persName>
+            <note type="lebensdaten">(1734-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568876">Lambert, Johann Heinrich</persName>
+            <note type="lebensdaten">(1728-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119543885">Riccati, Jacopo</persName>
+            <note type="lebensdaten">(1676-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1060062828">Zuberbühler, Johann Jakob</persName>
+            <note type="lebensdaten">(1723-1803)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-01" who="SG">Vorbereitung für die Kollation erweitert: Zeilenfall und Worttrennungen bildgestützt überprüft sowie Normalisierungen, mathematische Auszeichnungen und Entitäten-Pretagging ergänzt.</change>
+        <change when="2026-09-24" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994655/manifest"/>
+</facsimile><text>
+
+  <front>
+    <div type="printSource">
+      <p><rs type="biblio" key="biblio_Euler_IVA3_PublBEZ_2017">Leonhard Eulers Briefwechsel mit Daniel, Johann II und Johann III Bernoulli</rs>, hg. von Emil A. Fellmann und Gleb K. Mikhajlov (Opera Omnia IVA/3, Online-Edition, Publikationen des Bernoulli-Euler-Zentrums, Bd. 2), Basel 2017, IV.2 Nr. 99, S. 784–786.</p>
+    </div>
+  </front>
+  <body>
+<div type="letter">
+  <p>
+
+    <pb facs="5994656" n="23r"/><note hand="unknown"><abbr>S. d.</abbr></note> </p>
+  <p>
+      <lb/>Je suis charmé de voir, Monsieur mon tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, l’interpretation
+      <lb/>favorable que vous donnez à mes conseils. <choice><orig>mon</orig><reg>Mon</reg></choice> coeur
+      <lb/>ne sauroit vous etre suspect et vous saurez bien apretier vous meme mes pensées,
+      <lb/>que vous ne devez traiter de conseils qu’autant que vous les aprouvez.
+      <lb/>Je vous fais mes complimens sur votre reception à l’<rs type="organisation">Academie</rs>, de meme que
+      <lb/>sur la pension que le <rs key="pers_DE-588-118535749" type="person">Roi</rs> y a voulu attacher. <choice><orig>c</orig><reg>C</reg></choice>’est un beau partir et j’espere
+      <lb/>que ce debut vous menera loin. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-13763868X" type="person">Huber</rs> est de retour à <rs key="place_GEO-2661604" type="place">Bale</rs> et je ne crois
+      <lb/>pas qu’il pense à un second etablissement à <rs key="place_GEO-2950159" type="place">Berlin</rs>. Vous me dites, mon
+      <lb/>cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, que vos aiguilles recourbées en <formula>S</formula> n’ont pas reussi; j’en suis surpris
+      <lb/>pour peu que l’electricité ait <choice><orig>eté</orig><reg>été</reg></choice> forte; il faut faire ensorte que la matiere ele<pc type="hyphenation">-</pc><lb break="no"/>ctrique ne puisse s’echaper que par les deux pointes; tout le reste doit etre arrondi
+      <lb/>et l’aiguille doit etre fort mobile sans qu’elle aproche en tournant d’aucun
+      <lb/>autre corps: le plus remarquable de ces aiguilles, est de les faire tourner dans
+      <lb/>un plan vertical sur un petit axe horizontal long d’environ un pouce, dont
+      <lb/>les deux extremités sont garnies de boutons ronds comme les tetes d’epingle; mais
+      <lb/>ces aiguilles doivent etre equilibrées avec beaucoup d’attention: on couche
+      <lb/>cet axe sur deux cordes de clavessin paralleles et inclinées de 4, 5, 6 degrés
+      <lb/>suivant le degré d’electricité, et àlors, l’aiguille en tournant monte sur
+      <lb/>la double corde; le tout doit etre isolé et communiquer avec le conducteur.
+      <lb/><choice><orig>vous</orig><reg>Vous</reg></choice> savez que l’aiguille tourne par le principe de la reaction du fluide electrique
+      <lb/>qui sort rapidement par les deux pointes de l’aiguille aprez y etre entrée par son
+      <lb/>axe; Vous aisement determiner cette petite force en inclinant peu à peu
+      <lb/>la double corde jusqu’à ce que l’aiguille cesse de tourner et se soutienne dans sa
+      <lb/>place; soit le sinus de cette inclinaison <formula>= s</formula>, le rayon de l’axe <formula>= r</formula>, le poids de l’aiguille
+      <lb/><formula>= p</formula>; la distance de chaque extremité de l’aiguille depuis l’axe <formula>= d</formula>; la force cherchée
+      <lb/>de la reaction pour chaque extremité <formula>= f</formula>; on aura <formula>2df=rsp</formula> ou <formula>f=\frac{sr}{2d}p</formula>. soit
+      <lb/>par exemple <formula>s=0,1\;:\;r=1/3\mbox{lin.},d=20\mbox{lin.}</formula> et <formula>p=100</formula> grains, on aura <formula>f=\frac{100}{30.40}=\frac{1}{12}</formula> grain.
+      <lb/>Ceci est fondé comme vous voyez, simplement sur la nature du levier. Vous me demandez aussi
+      <lb/>l’explication de mes electrometres. C’est un simple peseliqueur, dont le corps submergé dans
+      <lb/>l’eau est de laiton et creux, de la grosseur d’un oeuf; de ce corps monte une fleche gra<pc type="hyphenation">-</pc><lb break="no"/>duée, large en tout sens d’environ une ligne; on a des plaques rondes et minces de metal, qu’on
+      <lb/>peut mettre au bout de la fleche dans une position horizontale; il y a au bas du corps plongé un
+      <lb/>petit crochet pour y suspendre de petits poids jusqu’à ce que l’instrument plonge dans l’eau
+      <lb/>jusqu’à une certaine marque de la fleche; Pour en faire usage on commence par suspendre
+      <lb/>au conducteur une grosse plaque de metal epaisse d’environ deux lignes et de 4 ou 5 pouces de diametre;
+      <lb/>on plonge l’electrometre dans un vase d’eau aprez y avoir mis au bout de la fleche une petite plaque
+      <lb/>mince d’environ deux pouces de diametre; on met ce vase sur une table au dessous de la plaque <pb facs="5994657" n="23v"/>suspendue par le conducteur à une distance plus ou moins grande, comme de 18 ou 20
+      <lb/>pouces, aprez quoi on electrise la grosse plaque, qui attire la plaque deliée de l’electro<pc type="hyphenation">-</pc><lb break="no"/>metre et celuici monte; c’est cette elevation qui mesure la force de l’electricité. C’est
+      <lb/>de cette maniere, que j’ai apris plusieurs nouvelles propriétés; par exemple j’ai apliqué
+      <lb/>au haut de la fleche un autre rond du meme metal et du meme diametre, mais trois fois
+      <lb/>plus epaix; il falloit diminuer le poids suspendu par le crochet plongé; là dessus j’ai remarqué
+      <lb/>que l’electricité elevoit l’electrometre egalement pour la plaque mince et pour l’autre 3. fois
+      <lb/>plus epaisse, ce qui prouve que l’electricité agit simplement sur les surfaces sans entrer
+      <lb/>dans les substances des corps: il est remarquable que dans tous les aimans artificiels de <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-1156360374" type="person">Dietrich</rs>, qui etoient tres differens en grandeur, mais toujours d’une figure semblable, j’ai
+      <lb/>trouvé les forces de ces aimans pareillement proportionelles à leurs surfaces ou aux racines cubiques des quarrés
+      <lb/>de leurs poids. J’ai ensuite diminué la distance entre les deux plaques rondes et il m’a paru
+      <lb/>que les attractions etoient à peu prés en raison reciproque des quarrés des distances; mais ce
+      <lb/>qui me surprit d’abord, c’est qu’en aprochant peu à peu les deux plaques, l’attraction
+      <lb/>augmentoit toujours moins; enfin elle cessa d’augmenter, elle commencoit ensuité à diminuer;
+      <lb/>mais j’en vis bientot la raison; c’est que l’electricité du conducteur diminuoit elle meme par
+      <lb/>l’approche du corps non electrique, savoir de l’electrometre. Vous pourrez varier ces experiences
+      <lb/>en isolant le vase qui renferme l’electrometre; en ce cas le conducteur ne perdra rien de son electricité
+      <lb/>en descendant peu à peu la plaque suspendue; mais l’electrometre s’electrisera insensiblement
+      <lb/>lui meme; l’attraction diminuera et se changera enfin en repulsion; Vous pourrez donc
+      <lb/>observer la relation qu’il y a entre les distances, les attractions et les repulsions. Pour faire toutes
+      <lb/>ces experiences, vous pourriez vous associer avec <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> le fils, ce qui interessera en meme
+      <lb/>tems <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler le Pere</rs>, qui vous assistera de ses conseils, car il faut une infinité de petites
+      <lb/>adresses dans ces experiences, qu’on ne peut pas faire seul d’ailleurs; Vous assisterez <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs>
+      <lb/>à votre tour dans ses recherches. Vous pourrez encor varier d’une autre maniere les expe<pc type="hyphenation">-</pc><lb break="no"/>riences sur cet electrometre, en otant la plaque qui tient au conducteur, en isolant le
+      <lb/>vase de l’electrometre et en y conduisant le conducteur; alors le vase et l’electrometre seront
+      <lb/>electrisés et il arrivera que la surface de l’eau repoussera la petite plaque apliquée à
+      <lb/>l’electrometre et cet electrometre s’elevera. Ici on pourra encor remarquer la relation
+      <lb/>qu’il y a entre les elevations de l’electrometre et les distances initielles de la petite plaque
+      <lb/>depuis la surface de l’eau. Voilà donc un nouveau champ pour vous occuper utilement
+      <lb/>pendant autant de tems que vous voudrez vous apliquer à cette matiere; je suis sûr que toutes ces experiences seront
+      <lb/>beaucoup plus neufes que celles de <abbr>Mess.<hi rend="sup">rs</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs>: peutetre pourriez-vous
+      <lb/>y interesser <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11879941X" type="person">Sulzer</rs> ou <abbr>M.</abbr> <rs key="pers_DE-588-118568876" type="person">Lambert</rs>. Quant à l’arithmetique politique, il faudroit lire tout ce que l’experi<pc type="hyphenation">-</pc><lb break="no"/>ence nous a apris et tacher de tirer de chaque observation le plus de consequences qu’il
+      <lb/>est possible, tout comme on fait dans la geometrie elementaire; mais à moins d’avoir l’esprit
+      <lb/>naturellement juste et tourné de ce coté là, on n’y fera jamais de grands progrés; par exemple
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">d’Alembert</rs> dans ses <rs type="biblio">opuscules</rs> a proposé la question, quel est le raport dans une ville de ceux qui
+      <lb/>n’ont pas encor eu la petite verole à ceux qui l’ont eue; ce grand <rs key="pers_DE-588-11850178X" type="person">d’Alembert</rs> a raisonné sur cette
+      <lb/>matiere d’une maniere fort vague et presque comme feroit un enfant. <choice><orig>voici</orig><reg>Voici</reg></choice> mon raisonne<pc type="hyphenation">-</pc><lb break="no"/>ment. <choice><orig>à</orig><reg>À</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs> il y a à peu près 700000 ames et il en meurt par an environ 20000; la treizieme
+      <lb/>partie de ces 20000 ou bien 1538 meurt de la petite verole; sur 7 malades de la petite
+      <lb/>verole, il en meurt un; il y a donc 10766 par an qui prenent la petite verole; enfin plusieurs <pb facs="5994658" n="24r"/>observations m’ont donné à connoitre que sur 8 personnes qui n’ont pas eu la petite verole
+      <lb/>il y en a une qui la prend pendant le cours d’une année; il faut donc qu’il y ait à
+      <lb/><rs key="place_GEO-2988507" type="place">Paris</rs> <formula>8\times10766</formula> ou 86128 personnes qui n’ayent pas eu la petite verole, ce qui fait
+      <lb/>à peu près la huitieme partie du total. <choice><orig>mais</orig><reg>Mais</reg></choice> la petite verole est d’une nature differente pour
+      <lb/>les climats differents et d’ailleurs <rs key="place_GEO-2988507" type="place">Paris</rs> n’est pas une ville qui subsiste par elle meme. <choice><orig>il</orig><reg>Il</reg></choice> fau<pc type="hyphenation">-</pc><lb break="no"/>droit choisir une ville telle que <rs key="place_GEO-3081368" type="place">Breslaw</rs>; si je savois depuis dix ans le nombre de tous ceux qui y
+      <lb/>sont morts de la petite verole avec l’age de chaque mort de cette maladie, je serois en etat d’en
+      <lb/>donner une histoire complette pour ces pays là et d’en tirer des consequences tres utiles. Je vous
+      <lb/>ai fait une autre question dans ma derniere, savoir pourquoi il y a dans les grandes villes trois
+      <lb/>fois plus de veufes que de veufs: je puis assez demontrer que la seule raison en est, que les hommes
+      <lb/>se marient plus tard que les filles. Il se glisse dans les villes des maximes, qui sont fort contraires
+      <lb/>à la population et qu’il suffit de connoitre pour qu’un <rs key="pers_DE-588-118535749" type="person">Roi</rs> tel que <rs key="pers_DE-588-118535749" type="person">Frederic</rs> y trouve des
+      <lb/>remedes. Si je vous ai parlé de thermometres, c’est que je voudrois qu’on perfectionat les thermo<pc type="hyphenation">-</pc><lb break="no"/>metres à air dont j’ai parlé dans mon <rs type="biblio">hydrodynamique</rs>. Rien n’est plus facile qu’à faire ces
+      <lb/>thermometres; on n’a qu’à fermer ou sceller hermetiquement un bon barometre par sa capsule
+      <lb/>d’en bas: alors l’air renfermé dans cette capsule pousse le mercure plus haut lorsqu’il fait plus
+      <lb/>chaud, parce que cet air prend plus d’elasticité; mais il se dilate en meme tems et par là il
+      <lb/>perd une grande partie de son elasticité et les variations deviennent fort petites, outre qu’on
+      <lb/>n’a pas toujours un air de la meme densité; pour remedier à cet inconvenient, je fais
+      <lb/>ajouter au tuyau du barometre une grosse boule à la place d’une petite capsule, ou bien
+      <lb/>un cylindre de verre de prés d’un pouce de diametre et de la hauteur de 2 pieds. <choice><orig>par</orig><reg>Par</reg></choice> le
+      <lb/>moyen d’un tel thermometre j’ai reconnu que les variations annuelles des elasticités de l’air
+      <lb/>sont beaucoup plus grandes que je ne les avois supposées sur la parole de quelques auteurs.
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> croyois dans notre ville cette plus grande variation des elasticités de l’air, qui sont
+      <lb/>exprimées par les hauteurs du mercure, pour l’hyver et pour l’eté comme 8 à 9, et cependant
+      <lb/>je les ai trouvées comme 9 à 11, c’est à oire presque deux fois plus grandes. Il est utile
+      <lb/>de connoitre l’effet de la plus grande ou plus petite chaleur sur l’air et ces effets sont
+      <lb/>beaucoup plus naturels que ceux que les changemens de chaleur font sur l’esprit de vin ou
+      <lb/>sur le mercure. Quant à la force des fils ou des cordages destinés à soutenir des choqs,
+                              elle
+      <lb/>me paroit ce qu’il y a de plus neuf, de plus curieux et de plus inattendu dans toute cette matiere.
+      <lb/>Supposez une corde suspendue verticalement, dont la longueur <formula>= l</formula>, qui supporte le poids <formula>P</formula> avant
+      <lb/>de rompre et qui s’allonge dans ce moment de la petite longueur <formula>\lambda</formula>. Prenez de cette corde une
+      <lb/>autre longueur <formula>\alpha</formula>; attachez y un petit poids <formula>\pi</formula>; elevez ce poids de la hauteur <formula>a</formula> et la laissez
+      <lb/>tomber; la question sera si alors la corde se cassera ou non par la dite chute; on voit d’acord
+      <lb/>que la corde se cassera, si le choq du petit poids peut etendre la corde au delà de la quantité
+      <lb/><formula>\frac{\lambda}{l}\alpha</formula>, si non la corde ne sera pas rompue. Remarquez que le corps tombe libre<pc type="hyphenation">-</pc><lb break="no"/>ment de la hauteur <formula>a</formula>, aprez quoi il commence à etendre la corde et que par là meme il doit
+      <lb/>etre par la reaction de la corde peu à peu arreté: Ainsi la vitesse du corps, au moment
+      <lb/>qu’il commence à allonger la corde, sera suivant notre maniere de nous enoncer = <formula>\sqrt{2a}</formula>:
+      <lb/>supposez depuis ce moment, que le corps ait parcouru le petit espace <formula>x</formula>, et que sa vitesse
+      <lb/>soit alors <formula>v</formula>; vous aurez suivant les principes que vous savez la force de la tension du
+      <lb/>fil, par cette analogie; l’allongement entier <formula>\frac{\lambda}{l}\alpha</formula> donne à la corde une force de tension
+      <lb/><formula>P</formula>, quelle sera cette force pour un allongement <formula>x</formula> et vous trouvez <formula>\frac{l\cdot x}{\lambda\cdot\alpha}\cdot P</formula>. cette force retire
+      <lb/>le poids et l’arrete, pendant que son propre poids continue à le pousser; on a donc la force entiere qui le retarde =
+      <lb/><formula>\frac{l\cdot x}{\lambda\cdot x}\cdot P-\pi</formula>, laquelle etant divisée par la masse donne
+      <lb/>la force retardatrice = <formula>\frac{l\cdot x\cdot P}{\lambda\cdot\alpha\pi}-1</formula>: Vous aurez donc
+      <lb/><formula>-dv=\left(\frac{l\cdot x\cdot P}{\lambda\cdot x\cdot\pi}-1\right)\,dt</formula>, en entendant par <formula>dt</formula> l’element <pb facs="5994659" n="24v"/>de tems: De là vous tirez <formula>-v\,dv=\left(\frac{l\cdot x\cdot P}{\lambda\cdot\alpha\cdot\pi}-1\right)\,dx</formula>, dont l’integrale est <formula>a-1/2vv=\left(\frac{l\cdot x\cdot x\cdot P}{2\lambda\cdot\alpha\cdot\pi}-x\right)</formula>; la constante
+      <lb/><formula>a</formula> se trouve de ce que faisant <formula>x=0</formula>, la vitesse est celle qu’acquiert un corps en tombant de la
+      <lb/>hauteur <formula>a</formula>. Or la nature du probleme demande que le poids perde precisement son mouve<pc type="hyphenation">-</pc><lb break="no"/>ment lorsque la corde a pris son plus grand allongement possible, c’est à dire, que <formula>\frac{1}{2}vv</formula> devient <formula>=0</formula> au moment que
+      <lb/><formula>x=\frac{\lambda}{l}\alpha</formula>; en substituant donc ces valeurs, on obtient <formula>a=\frac{P\cdot\lambda\cdot\alpha}{2\pi\cdot l}-\frac{\lambda\cdot\alpha}{l}</formula>.
+      <lb/>De cette equation vous pourrez tirer un grand nombre de corollaires en examinant la question
+      <lb/>tantot à l’egard des poids <formula>P</formula> et <formula>\pi</formula>, tantot par raport aux longueurs <formula>l</formula>, <formula>\alpha</formula> et <formula>\lambda</formula>, qui meritent
+      <lb/>beaucoup d’attention; soit par exemple <formula>l=720</formula> lig, <formula>\alpha=360</formula> lig, <formula>\lambda=10</formula> <abbr>lig.</abbr> <formula>P=320</formula> onces et <formula>\pi=10</formula> {*}
+      <lb/>et vous aurez <formula>a=75</formula> <abbr>lig.</abbr> douc un poids de 10 onces tombant de la hauteur 6 1/4 pouces rompra une corde
+      <lb/>de 360 <abbr>lig.</abbr> de longueur, et qui peut soutenir un poids de 320 onces ou de 20. une corde qui seroit trois fois
+      <lb/>plus forte, mais qui ne preta {*} que le quart seroit rompu par le meme poids de 10 onces
+      <lb/>qui ne tomberoit que de la hauteur de 56 1/4 lig, de sorte qu’une corde trois fois plus
+      <lb/>forte seroit rompue par un moindre choq. <choice><orig>plus</orig><reg>Plus</reg></choice> une corde est courte, moins il faut de choq
+      <lb/>pour la rompre &amp;c. On pourroit faire une infinité d’experiences sur cette matiere et on aime
+      <lb/>surtout la philosophie experimentale; mais il faut annoncer ces experiences avec menage<pc type="hyphenation">-</pc><lb break="no"/>ment et precaution à cause de plusieurs inegalités. Cette theorie peut avoir son utilité pour
+      <lb/>la facon de fabriquer les cordages et de les employer suivant les differens usages qu’on en
+      <lb/>veut faire. Je vous prie de presenter mes honneurs à notre cher et illustre Compatriote et de
+      <lb/>l’assurer de ma parfaite estime; ce qu’il a eu la bonté de me repondre sur les vibrations des cordes est
+      <lb/>entierement conforme à ma theorie; mais cette conformité ne me fait voir et sentir au doigt la generalité
+      <lb/>de ma methode. Je crois donc que la combinaison infinie de toutes les courbes des Sinus donne toutes les courbes
+      <lb/>possicles, que peuvent former les vibrations; mais qu’il ne faut pas sortir de l’hypothese fondamentale
+      <lb/>de la petitesse infinie des vibrations; Les <formula>y</formula> doivent etre considerés comme des infiniment petits, les <formula>dy</formula> comme
+      <lb/>des infiniment petits du second ordre et les <formula>ddy</formula> comme des infiniment petits du troisieme ordre et il me
+      <lb/>semble que les raisonnemens de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">Dalembert</rs> pechent contre cette hypothese. Je ne crois pas par exemple
+      <lb/>que la corde puisse jamais faire et continuer ces vibrations sous la forme de deux lignes droites qui se
+      <lb/>couperoient. <choice><orig>pour</orig><reg>Pour</reg></choice> moi sans attaquer personne je defands une des plus belles loix de la nature, qui est
+      <lb/>la coexistence infinie des vibrations, sans qu’elles se troublent, que j’ai fait voir etre si utile dans la
+      <lb/>mecanique. J’avoue que je n’aime pas le langage, qu’on veut introduire en consequence du nouveau
+      <lb/>theoreme de <abbr>M.</abbr> <rs key="pers_DE-588-11850178X" type="person">D’a lemoert</rs>, qui est d’exprimer le nombre des vibrations pour un certain tems indistinctement
+      <lb/>des circonstances: Si je fais faire á une corde uniforme les vibrations du troisieme ordre sans aucun melange
+      <lb/>avec aucune autre espece de vibrations, il est sur que la corde fait alors trois fois plus de vibrations
+      <lb/>que si elle faisoit les vibrations du premier ordre sans melange; l’oreille entendra uniquement
+      <lb/>la douzieme dans le premier cas du son qu’elle entend dans le second cas; je ne comprends pas
+      <lb/>aprez cela dans quel sens on peut dire que le nombre de vibrations est le meme de part et d’autre
+      <lb/>et par consequent qu’on entend le meme ton; au reste les cordes dont les epaisseurs sont proportionelles à <formula>\frac{1}{(6+x)^{4}}</formula> ne
+      <lb/>sont pas les seules, comme <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> croit, à pouvoir produire des vibrations
+      <lb/>regulieres: j’en puis donner une infinité d’autres. J’ai aussi examiné ce qui arrive, quand la
+      <lb/>corde est composée de deux bouts, chacun uniformement epaix, mais inegalement epaix entre eux. <choice><orig>je</orig><reg>Je</reg></choice> suis
+      <lb/>sur que nous tomcerions encor d’accord sur cette question; quelle realité peut-il donc y avoir dans
+      <lb/>les questionsqui paroissent montrer quelque desaccord? <choice><orig>qui</orig><reg>Qui</reg></choice> est ce qui a mieux resolu que moi les
+      <lb/>questions où l’on considere la corde comme chargée d’autant de points pesants qu’on veut. Je suis sûr
+      <lb/>que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> rendra un jour justice à la generalité de mes principes; mais je n’attends rien des deux autres.
+      <lb/>Leur metaphysique est trop grotesque. <choice><orig>par</orig><reg>Par</reg></choice> exemple <abbr>M.</abbr> <rs key="pers_DE-588-11850178X" type="person">Dalembert</rs> dit dans ses <rs type="biblio">opuscules</rs> que <formula>n\times\frac{l}{n}</formula> n’est
+      <lb/>pas <formula>=1</formula>, lorsque <formula>n=0</formula>; quand on en vient à ces sortes d’assertions, tout est dit. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> dit
+      <lb/>encor, que dans tous les cas de l’equation de <rs key="pers_DE-588-119543885" type="person">Riccati</rs>, il peut determiner les ebranlemens; je puis faire
+      <lb/>la meme chose; il peut comme moi marquer les circonstances pour lesquelles ces ebranlemens deviennent
+      <lb/>reguliers; mais ces circonstances ne reviennent elles pas à la condition de faire evanouir tout melange de vibrations
+      <lb/>et de n’en retenir qu’une seule, soit celle du premier ordre, soit une autre d’un ordre inferieur <pb facs="5994660" n="25r"/>quelconque. Aprez tous ces merveilleux accords, je ne comprends pas comment <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> puisse soupconner
+      <lb/>ma methode d’etre moins generale que la sienne et ne pas rendre justice à la simplicité de la nouvelle
+      <lb/>loy de la nature sur la composition des vibrations. Je dis plus; quand <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> rend regulieres les
+      <lb/>vibrations, qui generalement parlant ne le sont pas; c’est à dire, selon mon langage, quand il separe chaque
+      <lb/>ordre de vibration, n’est il pas obligé de considérer chaque courbure et ne trouve-t-il pas un nombre
+      <lb/>de vibrations different pour chaque ordre different? <choice><orig>cela</orig><reg>Cela</reg></choice> etant generalement, pouquoi ne distin<pc type="hyphenation">-</pc><lb break="no"/>gue-t-il plus les vibrations par la seule raison que leur[s]durées sont exactement sons multiples
+      <lb/>de la durée de la vibration du premier ordre. Je ne scai pas si <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs> a pensé à tout cela avant que
+      <lb/>je vous eusse ecrit sur les cordes inegalement epaisses; mais j’espere en tout cas qu’il sera revenu
+      <lb/>de l’idée qu’il a eue d’abord de ma methode; s’il s’est donné la peine d’examiner le tout sans pre<pc type="hyphenation">-</pc><lb break="no"/>vention, je m’en remets à sa penetration et à sa bonne foy, auxquelles je rends justice. J’ajouterai
+      <lb/>encor, que je n’ai pas employé la nature de l’equation de <rs key="pers_DE-588-119543885" type="person">Riccati</rs> pour trouver les cas dont
+      <lb/>nous avons parlé; peutetre que ma methode donne infiniment plus de cas: c’est ce que ne
+      <lb/>n’ai pas encore examiné. Vous me demandez, mon cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, de la part de ce grand homme
+      <lb/>mon avis sur un nouveau principe d’entretenir un feu, où il ne se perd rien de la chaleur qu’on
+      <lb/>en tire. <choice><orig>j</orig><reg>J</reg></choice>’accorde la circulation de l’air dont il parle; je crois vous avoir fait remarquer
+      <lb/>cette circulation sous la porte qui separe une chambre chaude d’avec une chambre froide;
+      <lb/>mais outre qu’il y a plusieurs raisons, qui empechent l’acceleration d’une telle circulation,
+      <lb/>qui sera toujours fort mediocre, il y a un obstacle physique, qui renverse tout le
+      <lb/>systeme; c’est qu’aucun feu ni flamme ne peut subsister sans une affluence continuelle
+      <lb/>d’un air nouveau. Il y a d’autres obstacles physiques tirés de la nature de la fumée;
+      <lb/>on pourroit obtenir une circulation d’air dans un canal qui communiquat avec
+      <lb/>l’interieur de la chambre; mais tout cet air contenu dans une chambre seroit bientot
+      <lb/>epuisé de ce que les Physiciens appellent pabulum ignis, et ce qui plus est l’homme ne
+      <lb/>sauroit vivre dans un tel air; il y est suffoqué dans l’instant. J’ai examiné votre
+      <lb/>solution sur la cyssoide. <choice><orig>elle</orig><reg>Elle</reg></choice> est fort bonne; mais il n’y a rien de neuf. <choice><orig>cela</orig><reg>Cela</reg></choice> est bon
+      <lb/>pour vous exercer. <choice><orig>mais</orig><reg>Mais</reg></choice> non pour en faire un <rs type="biblio">memoire</rs>. <choice><orig>je</orig><reg>Je</reg></choice> prefererois la plus
+      <lb/>petite observation nouvelle en physique ou mechanique à toutes ces mathematiques abstraites,
+      <lb/>qui le plus souvent ne sont plus qu’une espece de cabalistique. Il ne faut les exposer au public,
+      <lb/>que lorsqu’un probleme utile vous
+                              y conduit naturellement et qu’il y a quelque tour nouveau
+      <lb/>dans la facon de les traiter, sans quoi on se contente de mettre le dernier resultat. Le precepte
+      <lb/>supprimit orator quod ... n’est pas deplacé dans les mathematiques. Il me semble que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler
+      <lb/>fils</rs> ne doit pas vous decourager, du coté de la physique experimentale, pas meme le <rs key="pers_DE-588-118531379" type="person">Pere</rs>.
+      <lb/>Voici une experience nouvelle, que vous pourrez varier à l’infini. <formula>mn</formula> et <formula>no</formula> sont
+      <lb/>deux petites barres de fer, qui n’ont aucune vertu magnetique; placez les entre
+      <lb/>deux bornes magnetiques <formula>A</formula> et <formula>B</formula>, le tout sur un plan horizontal, les deux barres
+      <lb/><formula>mn</formula> et <formula>no</formula> prendront aussitot beaucoup de vertu magnetique; chargez l en
+      <lb/>barre <formula>mn</formula> d’un petit poids <formula>p</formula>, si vous tirez vers vous la barre <formula>no</formula>, l’autre
+      <lb/>sera entrainé malgré le frottement, qui pourra faire le tiers du poids total.
+      <lb/>Otez les barres <formula>A</formula> et <formula>B</formula>, toute la vertu de <formula>mn</formula> et <formula>no</formula> sera otée. <choice><orig>renversez</orig><reg>Renversez</reg></choice> une des barres
+      <lb/>magnetiques, il n’y aura plus d’attraction en <formula>n</formula>; variez les positions et observez toujours; vous aurez
+      <lb/>des resultats, dont vous faire un <rs type="biblio">memoire</rs>. Il est aussy remarquable que les deux
+      <lb/>petites lames du milieu marquent plus de vertu, quand elles se touchent simplement par le coin. Je
+      <lb/>n’entends pas, pour quoi le Prince <rs key="pers_DE-588-1089915780" type="person">Dolghoroucki</rs> donne plus de force à ma pretention jusques
+      <lb/>en 1745 ou 46, que pour les années suivantes; sur quoi cette epoque est-elle fondée; j’avois
+      <lb/>stipulé une pension viagere et je ne l’ai recu[s]que jusques 1740 inclusivement. <choice><orig>mais</orig><reg>Mais</reg></choice> <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116610832" type="person">Euler</rs>
+      <lb/>me fera plaisir d’assurer le Prince <rs key="pers_DE-588-1089915780" type="person">Dolgoroucki</rs>, que je serai content quoiqu’on fasse, soit pour le passé
+      <lb/>soit pour l’avenir. Je vous embrasse, Monsieur mon tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs> et suis toujours tout à vous.
+      <lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoulli</rs>. </p>
+  <pb facs="5994661" n="25v"/>
+  <address><addrLine>Adresse: Monsieur <rs key="pers_DE-588-116170654" type="person">Jean Bernoulli</rs> de la <rs type="organisation">Societé Royale</rs> à <rs key="place_GEO-2950159" type="place">Berlin</rs>.</addrLine></address>
+<pb facs="5994662" type="archival"/></div>
+</body>
+</text></TEI>

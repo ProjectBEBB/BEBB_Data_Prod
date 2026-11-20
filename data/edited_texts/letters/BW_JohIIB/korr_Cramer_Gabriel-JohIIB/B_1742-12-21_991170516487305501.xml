@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516487305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann II Bernoulli. Genf, 21. Dezember 1742</title>
+          <title type="alt">1742.12.21: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058278</title>
+          <title type="alt">1742-12-21_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516487305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516487305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Der Brief ist zwischen denjenigen von 1742.12.21 und 1742.12.28 geschrieben.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136052">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.779-780</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516487305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433584405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058278</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>24</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Geneve]</origPlace>
+              <date when="1742-12-21">[zwischen 21. und 28. Dez. 1742]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1742-12-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516487405501" type="prev"/>
+          <ptr target="B_991170430341005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-09-02" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-09-02" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-07-07" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-07-07" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694418/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3694419" n="779"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur, mon très cher ami,
+  </salute>
+  </opener>
+  <p>
+      <lb/>Vous aurez reçu la <rs type="letter">Lettre</rs> que je vous ecrivois l’ordinaire
+      <lb/>dernier, sur un scrupule qui m’arretoit dans une piéce de
+      <lb/><abbr>Mons<supplied>.</supplied><hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-118509969" type="person">Père</rs> intitulée <foreign xml:lang="lat">Problema Newtonianum
+      <lb/>generaliter conceptum <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> solutum</foreign>. Je suis obligé <choice><abbr>presentem.<hi rend="sup">t</hi></abbr><expan>presentement</expan></choice>
+      <lb/>de vous importuner encore aujourd<supplied>’</supplied>hui au même sujet, à cause
+      <lb/><subst><del><gap/></del><add>de l’</add></subst>accident qui m’est arrivé d’en laisser tomber au feu
+      <lb/>la derniére <choice><sic>fueille</sic><corr>feuille</corr></choice>. Je la repassois, quand tout à coup quelcun
+      <lb/>ouvrant ma porte a excité un petit vent qui a porté cette
+      <lb/><choice><sic>fueille</sic><corr>feuille</corr></choice> dans le feu, ce dont je ne me suis aperçu que trop tard
+      <lb/>parce que dans ce moment je me tournois pour voir qui
+      <lb/>entroit dans ma chambre. La <choice><sic>fueille</sic><corr>feuille</corr></choice> que je vous redemande
+      <lb/>par le premier ordinaire, s’il vous plait<del>,</del> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> s’il est possible<unclear>,</unclear> commence
+      <lb/>au Corollaire 5, dont j’ai encore une ou deux lignes dans ce
+      <lb/>qui a été arraché au feu. Ainsi vous aurés, mon cher <abbr>Mons<supplied>.</supplied></abbr>,
+      <lb/>la bonté de faire recopier depuis ce 5 <abbr>Coroll.</abbr> <abbr>inclusivem.<hi rend="sup">t</hi></abbr>
+      <lb/>jusqu’<choice><orig>a</orig><reg>à</reg></choice> la fin, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de me l’adresser incessamment.
+  </p>
+  <closer>
+  <salute>Je suis avec les
+      <lb/>sentimens les plus sincéres <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les plus tendres
+      <lb/>Tout a vous
+  </salute>
+  <signed><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> <abbr>C.</abbr></rs></signed>
+  </closer>
+<pb facs="3694420" n="780" type="empty"/>
+</div>
+</body>
+</text></TEI>

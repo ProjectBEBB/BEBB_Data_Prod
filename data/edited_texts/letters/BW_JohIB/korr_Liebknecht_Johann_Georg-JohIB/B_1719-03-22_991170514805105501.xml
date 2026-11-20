@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514805105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Johann Georg Liebknecht. Basel,
+            22. März 1719</title>
+          <title type="alt">000056386</title>
+          <title type="alt">1719-03-22_Bernoulli_Johann_I-Liebknecht_Johann_Georg</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514805105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514805105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Liebknecht, Johann Georg (1679-1749) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli
+            Werkausgabe: Op. 112</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-42527">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 674:Bl.124</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514805105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433215105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056386</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>20,5</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1719-03-22">a.d. XXII. Martii
+                MDCCXIX</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1719-03-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116997052">Liebknecht, Johann Georg</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514805205501" type="prev"/>
+          <ptr target="B_991170514805005501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Liebknecht_Johann_Georg-JohIB" corresp="pers_DE-588-116997052" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. hat endlich die Geschichte der Erfindung seines "phosphor mercurialis" mit seiner
+          Theorie der Phänomene aufgeschrieben und sendet sie Liebknecht, mit dessen Dissertation er
+          sich darin kritisch auseinandersetzt.</p>
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1719-03-22_Bernoulli_Johann_I-Liebknecht_Johann_Georg"/>
+      </change>
+        <change when="2008-08-04" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1416744/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1719-03-22_Bernoulli_Johann_I-Liebknecht_Johann_Georg">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1416745" n="124r"/> Viro Excellentissimo atque Clarissimo </p>
+  <p>Joh. Georgio Liebknecht </p>
+  <p>S. P. D. </p>
+  <p>Joh. Bernoulli</p>
+  <p>Memini Vir Clariss. Te aliquando abs me petere historiam ac descriptionem perfectam
+          Phosphori mei Mercurialis: quandoquidem autem talis a me data non extabat, nisi quae
+          sparsim pro ratione inventionis, quae non una vice facta fuit, de hoc argumento in
+          Commentariis Paris. publicavi; Ecce nunc ea de
+          re integram Dissertationem inter alia negotia horis subcisivis conscriptam,<note
+            type="comment">[Bernoulli, Johann I] Op. 112 {mit Wilhelm Bernhard Nebel} Dissertatio
+            Physica De Mercurio lucente in vacuo Quam Annuente aeterno luminum Patre Permissu
+            Sapientiss. Philos. Ord. in Univ. Basil. Sub praesidio Viri Excellentissimi, Celeberrimi
+            Joh. Bernoulli, Ph. &amp; Med.D. Math. P.P. Trium Societatum Scient. Gall. Angl. &amp;
+            Boruss. Socii, Patroni &amp; Praeceptoris sui omni observantiae cultu prosequendi,
+            Publico Eruditorum Examini submittit ad d. 24. Mart. MDCCXIX. Wilhelm. Bernhard. Nebel,
+            Hasso-Marpurg. M.C. Auctor. In Auditorio Collegii inferioris Basileae, Typis Friderici
+            Lüdij, Acad. Typogr. </note> quae juxta inventi historiam systema meum de Lumine
+          Mercuriali et quaecunque ad hanc materiam pertinent quam fieri potuit accuratissime
+          tradit. Tuum est judicare Vir. Cl. pro ingenii Tui perspicacissimi acumine quid de
+          explicationibus nostris sit sentiendum. De Tua limatissima dissertatione fecimus utique ut
+          par erat honorificam mentionem, laudato Tuo in plerisque cum nostris consensu, quamvis pro
+          ea quam unusquisque in philosophicis sibi arrogat libertate modeste monuimus in quibus
+          paucis a te dissentire coacti fuimus. Quod quidem Te non aegre laturum speramus. Si quid
+          autem in Diatribe nostra, quae festinanter satis fuit scripta inveneris, quod palato Tuo
+          arrideat, habebimus de quo nobis gratulemur: saltem officii mei esse putavi, ne Te ea,
+          sive digna sit lectu sive non digna carere sinerem. Vale Vir Clariss. et me quod facis
+          amare perge. </p>
+  <p>Dabam Basileae a. d. XXII. Martii MDCCXIX </p>
+        <pb facs="1416747" n="124v" type="empty"/>
+      </div>
+    </body>
+  </text>
+</TEI>

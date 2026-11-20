@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517003505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Ludwig Frey an Jacob Hermann. Basel, 16. Februar 1708</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517003505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517003505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-140870">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Frey-Gryn Mscr VI 4, fol.108</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517003505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433809105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059715</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basil.</origPlace>
+              <date when="1708-02-16">15 Cal. Mart. die ante Jejunium publicum in Reform. Helv. ob Pacem restitutam indictum</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-102039186">Frey, Johann Ludwig</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1708-02-16"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517003605501" type="prev"/>
+          <ptr target="B_991170517003405501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Frey_Johann_Ludwig-Hermann" corresp="pers_DE-588-102039186" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-11-18" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-11-17" who="SG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3779911/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3779912" n="108r"/>
+  <opener></opener>
+  <opener><salute><choice><abbr>V.</abbr><expan>Viro</expan></choice> <choice><abbr>Acu.</abbr><expan>Acutissimo</expan></choice> <choice><abbr>Celeb.</abbr><expan>Celeberrimo</expan></choice> <rs type="person" key="pers_DE-588-119112450">I. Herma<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o</rs>, <abbr>Prof.</abbr> <abbr>Geom.</abbr> <choice><abbr>Dign.</abbr><expan>Dignissimo</expan></choice> Amico <choice><abbr>Honor.</abbr><expan>Honoratissimo</expan></choice> <rs type="person" key="pers_DE-588-102039186">I. L. F.</rs> <choice><abbr>S.</abbr><expan>Salutat</expan></choice><supplied>,</supplied> Patavium.</salute></opener>
+  <p><lb/>Quant<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <unclear reason="illegible">l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>titia</unclear> perfus<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> fuerim, acceptis <rs type="letter">Literis</rs> Tuis <abbr>Humaniss.</abbr> verbis exprimere me fateor nequaqu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/>posse. Extab<choice><orig><g ref="#an">ā</g></orig><reg>an</reg></choice>t in illis expressissima amoris Tui at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> candoris <foreign xml:lang="grc">τεκμήρια</foreign><note type="editorial">«extabant expressissima… τεκμήρια» = «es zeigten sich die deutlichsten Beweise…».</note> nulla simulata affectationi imitanda.
+      <lb/>Extabant plurima ad Rem <abbr>p.</abbr> <abbr>Liter.</abbr> spectantia, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rescire talium rerum Curiosum neminem pigeat, extabat deni<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>(quod primo loco fuisset memorand<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>) appuls<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> tui tam felicis tam exoptati ad ill<choice><orig><g ref="#aacut">á</g></orig><reg>a</reg></choice>m musar<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> sedem Patavi<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>mihi gratissima significatio. Faxit <abbr>D. O. M.</abbr> ut per Te <seg type="transposition">porr<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> cresc<choice><orig><g ref="#an">ā</g></orig><reg>an</reg></choice>t</seg> <abbr>nobiliss.</abbr> <abbr>Scient.</abbr> <abbr>Mathemat.</abbr> illustre<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>gloria <rs type="organisation">L<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>cei Patavini</rs>, quod Te habet, et <rs type="organisation"><abbr>Basil.</abbr></rs> quod Te brevi habiturum l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ti ominamur, promoveatur<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Ipsi<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> Res, ad
+      <lb/>consideration<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice> magnali<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> suor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> in hoc stupendo mundi <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dificio elucescenti<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>, nos vocantis honos. Nunc<supplied>,</supplied> <choice><abbr>Am.</abbr><expan>Amicissime</expan></choice> <choice><abbr>V.</abbr><reg>Vir</reg></choice><supplied>,</supplied> ut
+      <lb/>videas confidenti<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> me<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>, <unclear><gap/></unclear> quod Te, c<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> vix pedem in Terram illam intuleris etiam at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> eti<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> rogo. Nosti apud
+      <lb/>Vos <rs key="place_GEO-3171728" type="place">Patavii</rs> t<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>pis ante a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>os aliquot excusum esse nitidissim<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> ill<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> Alcoran<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> Arabico<supplied>-</supplied>lat. cum Prodromo oper<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/><abbr>Doct.</abbr> Maraccii. Hujus <unclear>2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></unclear> exemplaria cum in aliis <abbr>regionib.</abbr> sint satis rara et cara, <rs type="person">amici no<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ulli</rs> ex
+      <lb/><rs key="place_VER-belgie" type="place">Belgio</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me peti<choice><orig><g ref="#ehat">ê</g></orig><reg>e</reg></choice>re ut si poss<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice> duo saltem exemplaria ipsis procurar<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice>. Quib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> c<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> lubenter mor<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice>
+      <lb/>gererem, Te <abbr>Hum.</abbr> <abbr>V.</abbr> compellare audeo, ut nisi grave sit, et cum vacabit, bina exemplaria integra
+      <lb/>emere, huic<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <rs type="person">mercatori</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo Liter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Tibi transmitten<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, tradere velis. Precium solvet indicat<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>, hic
+      <lb/><rs type="person">mercator</rs>, aut si mavis, <abbr>Hon.</abbr> <abbr>D.</abbr> <rs type="person">Parenti</rs> Tuo hic ego solv<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>. Cum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> in ea nunc degas Regione, ubi multa
+      <lb/>aliquando Rabbinica et Orientalia in lucem prodiere, scire gestir<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice>, n<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>m non in Bibliopoliis talium
+      <lb/>sat vilis a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ona sit, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> inprimis n<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>m et quo pretio veneant <hi rend="u"><rs type="person">Bartoloccii</rs> <rs type="biblio">Bibliot. Rabbin.</rs></hi><supplied>,</supplied> <hi rend="u">Abarbanelis
+      <lb/><rs type="biblio">Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent. Hebr. in Pentateuch</rs></hi>. Quid, inquis, frontem ne plane perfricuisti, me<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Tuis <unclear><gap/></unclear> usib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> patere
+      <lb/>arbitraris? Culp<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> fateor: <abbr>Am.</abbr> <abbr>V.</abbr> et nisi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidi<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> sit in benignitate tua at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> sincera amicitia
+      <lb/>qu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> illibat<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> mihi servare digneris eous<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> impudent<unclear>iam</unclear> progredi <choice><abbr>n.</abbr><expan>non</expan></choice> aus<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> essem. <choice><orig>adder<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice></orig><reg>Adderem</reg></choice> no<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ulla
+      <lb/>nova de vacantib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> officiis <abbr>Eccles.</abbr> ambienti<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> Persona, machinationib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> et sic obtinendis
+      <lb/><abbr>it.</abbr> magis remota de tragica fortuna <abbr>Cel.</abbr> <abbr>Mat.</abbr> de <rs type="person">Façio</rs> <abbr>etc.</abbr> nisi h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c et plura alia
+      <lb/>ob aliis pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipu<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> <abbr>Amic.</abbr> nostr<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> utri<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <rs type="person">Bringolfio</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cepta mihi esse <unclear>scire</unclear> suspicarer.
+      <lb/>Vale <abbr>Clar.</abbr> Vir et ubicun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> mea opella sive <unclear>hic</unclear> sive <unclear>dil...</unclear>
+      <lb/>possis <unclear>s?</unclear> <unclear>proficu?</unclear>, <unclear>e</unclear><choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> parat<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> <unclear>p</unclear>er <unclear><gap/></unclear>xp<unclear><gap/></unclear>ta.</p>
+  <closer>
+      <lb/><dateline><rs key="place_GEO-2661604" type="place">Basil.</rs> <date>15. <abbr>Cal.</abbr> Mart.</date> die ante Iejuni<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice></dateline>
+      <lb/>public<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> in <abbr>Reform.</abbr> <abbr>Helv.</abbr> ob Pac<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice> restitut<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/>indictum.</closer>
+  <postscript><p><lb/>Plurima salute Te
+        <lb/>impertiat <rs type="person"><abbr>Th.</abbr> Bury</rs>
+        <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unis amicus<supplied>.</supplied></p></postscript>
+  <closer>
+    <address>
+      <addrLine>Inscriptio.</addrLine>
+      <addrLine>All <del><gap/></del>Ill.<hi rend="sup">me</hi> Signor mio e <choice><abbr>P<supplied>.</supplied>rone</abbr><expan>Patrone</expan></choice></addrLine>
+      <addrLine>il Signor Giacomo Herman</addrLine>
+      <addrLine>Professore di Matematica</addrLine>
+      <addrLine>nel celebratissimo Studio di Padoua.</addrLine>
+      <addrLine>In Casa del’ <abbr>Eccellentiss.</abbr> Signor</addrLine>
+      <addrLine>Professor Fardella.</addrLine>
+      <addrLine>in</addrLine>
+      <addrLine><hi rend="u">Padoua.</hi></addrLine>
+    </address></closer>
+<pb facs="3779913" n="108v" type="empty"/>
+<pb facs="3779914" type="archival"/>
+<pb facs="3779915" type="archival"/>
+<pb facs="3779916" type="archival"/>
+<pb facs="3779917" type="archival"/>
+<pb facs="3779918" type="archival"/>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,132 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dbk="http://docbook.org/ns/docbook">
+        <fulltext default="none" attributes="false"/>
+        <lucene>
+            <analyzer class="org.exist.indexing.lucene.analyzers.NoDiacriticsStandardAnalyzer"/>
+            <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
+            <text match="/tei:TEI/tei:text">
+                <ignore qname="tei:div"/>
+                <ignore qname="tei:note"/>
+                <ignore qname="tei:abbr"/>
+                <ignore qname="tei:pc"/>
+                <ignore qname="tei:g"/>
+                <ignore qname="tei:choice"/>
+                
+                <!--Fields for text search-->
+               
+                <field name="normalized" expression="nav:get-normalizedText(.)"/>
+                <field name="diplomatic" expression="nav:get-diplomaticText(.)"/>
+                <field name="commentaries" expression="nav:get-commentary(., 'document')"/>
+                <field name="metadata" expression="nav:get-metadata(ancestor::tei:TEI, 'header')"/>
+                
+                <field name="text" expression="."/>
+                <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
+                <field name="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>
+                <field name="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <field name="date-binary" expression="nav:get-metadata(ancestor::tei:TEI, 'date-sent')" binary="yes"/>
+                <field name="date-when" expression="nav:get-metadata(ancestor::tei:TEI, 'date-sent')"/>
+                <field name="file" expression="util:document-name(.)"/>
+                
+                <field name="correspondent-id" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent-id')"/>
+                <field name="correspondent-name" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent-name')"/>
+                <field name="place-sent" expression="nav:get-metadata(ancestor::tei:TEI, 'place-sent')"/>
+                <field name="date-sent" expression="nav:get-metadata(ancestor::tei:TEI, 'date-sent')"/>
+                <field name="correspondent-main" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent-main')"/>
+                <field name="briefwechsel-name" expression="nav:get-name-main(ancestor::tei:TEI/tei:teiHeader)"/>
+                <field name="korrespondenz" expression="nav:get-metadata(ancestor::tei:TEI, 'korrespondenz')"/>
+                <field name="person-mentioned" expression="./descendant::tei:rs[@type eq 'person']/@key"/>
+                <field name="place-mentioned" expression="./descendant::tei:rs[@type eq 'place']/@key"/>
+                <field name="work-mentioned" expression="./descendant::tei:rs[@type eq 'biblio']/@key"/>
+                
+                <!-- Fields for generated overview -->
+                <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <field name="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
+                
+                
+                <facet dimension="type" expression="nav:get-metadata(ancestor::tei:TEI, 'type')"/>
+                <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="correspondent-id" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent-id')"/>
+                <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <facet dimension="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
+                <facet dimension="place-sent" expression="nav:get-metadata(ancestor::tei:TEI, 'place-sent')"/>
+                <facet dimension="date-sent" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'date-sent'), '-')" hierarchical="yes"/>
+                <facet dimension="date-when" expression="nav:get-metadata(ancestor::tei:TEI, 'date-sent')"/>
+                <facet dimension="briefwechsel" expression="nav:get-metadata(ancestor::tei:TEI, 'briefwechsel')" hierarchical="yes"/>
+                <facet dimension="correspondent-main" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondent-main')"/>
+                <facet dimension="correspondence" expression="nav:get-correspondent(ancestor::tei:TEI/tei:teiHeader)"/>
+                <facet dimension="korrespondenz" expression="nav:get-metadata(ancestor::tei:TEI, 'korrespondenz')"/>
+                <facet dimension="person-mentioned" expression="for $key in ./descendant::tei:rs[@type = ('person', 'persons')]/@key return tokenize($key, '\s+')"/>
+                <facet dimension="place-mentioned" expression="./descendant::tei:rs[@type eq 'place']/@key"/>
+                <facet dimension="letter-mentioned" expression="./descendant::tei:rs[@type eq 'letter']/@key"/>
+                <facet dimension="work-mentioned" expression="./descendant::tei:rs[@type eq 'biblio']/@key"/>
+                <facet dimension="shelfmark" expression="nav:get-metadata(ancestor::tei:TEI, 'shelfmark')"/>
+                <facet dimension="status" expression="nav:get-metadata(ancestor::tei:TEI, 'status')"/>
+                <facet dimension="systemNr" expression="nav:get-idnos(ancestor::tei:TEI/tei:teiHeader)"/>
+                <facet dimension="hasFacsimile" expression="nav:has-facsimile(ancestor::tei:TEI)"/>
+                <facet dimension="isPreserved" expression="nav:is-preserved(ancestor::tei:TEI/tei:teiHeader)"/>
+
+                <!-- Canonical values used by the combined BEBB edition search. -->
+                <facet dimension="bebb-search-sender" expression="nav:search-facet(ancestor::tei:TEI, 'sender')"/>
+                <facet dimension="bebb-search-addressee" expression="nav:search-facet(ancestor::tei:TEI, 'addressee')"/>
+                <facet dimension="bebb-search-exchange" expression="nav:search-facet(ancestor::tei:TEI, 'exchange')"/>
+                <facet dimension="bebb-search-correspondence" expression="nav:search-facet(ancestor::tei:TEI, 'correspondence')"/>
+                <facet dimension="bebb-search-place" expression="nav:search-facet(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="bebb-search-language" expression="nav:search-facet(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="bebb-search-person-mentioned" expression="nav:search-facet(ancestor::tei:TEI, 'person-mentioned')"/>
+                <facet dimension="bebb-search-place-mentioned" expression="nav:search-facet(ancestor::tei:TEI, 'place-mentioned')"/>
+                <facet dimension="bebb-search-work-mentioned" expression="nav:search-facet(ancestor::tei:TEI, 'work-mentioned')"/>
+                <facet dimension="bebb-search-organisation-mentioned" expression="nav:search-facet(ancestor::tei:TEI, 'organisation-mentioned')"/>
+                <facet dimension="bebb-search-repository" expression="nav:search-facet(ancestor::tei:TEI, 'repository')"/>
+                <facet dimension="bebb-search-collection" expression="nav:search-facet(ancestor::tei:TEI, 'collection')"/>
+                <facet dimension="bebb-search-facsimile" expression="nav:search-facet(ancestor::tei:TEI, 'facsimile')"/>
+                <facet dimension="bebb-search-preservation" expression="nav:search-facet(ancestor::tei:TEI, 'preservation')"/>
+                <facet dimension="bebb-search-status" expression="nav:search-facet(ancestor::tei:TEI, 'status')"/>
+                <facet dimension="bebb-search-type" expression="nav:search-facet(ancestor::tei:TEI, 'type')"/>
+                <facet dimension="bebb-search-shelfmark" expression="nav:search-facet(ancestor::tei:TEI, 'shelfmark')"/>
+                <facet dimension="bebb-search-system" expression="nav:search-facet(ancestor::tei:TEI, 'system')"/>
+                
+            </text>
+            <text qname="tei:div">
+                <ignore qname="tei:div"/>
+                <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <facet dimension="addressee" expression="nav:get-metadata(ancestor::tei:TEI, 'addressee')"/>
+                <facet dimension="place-sent" expression="nav:get-metadata(ancestor::tei:TEI, 'place-sent')"/>
+                <facet dimension="date-sent" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'date-sent'), '-')" hierarchical="yes"/>
+                <facet dimension="briefwechsel" expression="nav:get-metadata(ancestor::tei:TEI, 'briefwechsel')" hierarchical="yes"/>
+                <facet dimension="status" expression="nav:get-metadata(ancestor::tei:TEI, 'status')"/>
+            </text>
+            <text qname="tei:TEI">
+                <field name="briefwechsel-key" if="@type eq 'Korrespondenz'" expression="nav:get-metadata(., 'briefwechsel-key')"/>
+                <field name="correspondent-key" if="@type eq 'Korrespondenz'" expression="nav:get-metadata(., 'correspondent-key')"/>
+                <field name="title" expression="nav:get-metadata(., 'title')"/>
+            </text>
+            <text qname="tei:head"/>
+            <text match="//tei:titleStmt/tei:title"/>
+            <text match="//tei:msDesc/tei:head"/>
+            <text match="//tei:listPlace/tei:place/tei:placeName"/>
+            
+            <text match="tei:person" index="no">
+                <field name="name" expression="nav:normalization(nav:get-name(.))"/>
+                <field name="person-note" expression="tei:note"/>
+                <field name="type" expression="'Person'"/>
+                <facet dimension="type" expression="'Person'"/>
+            </text>
+            <text match="tei:place" index="no">
+                <field name="name" expression="tei:placeName/nav:normalization(.)"/>
+                <field name="country" expression="tei:note"/>
+            </text> 
+             <text match="tei:biblStruct" index="no">
+                <field name="name" expression="string-join((.//tei:author/*, .//tei:title[1], .//tei:date[1]), ' ')"/>
+            </text> 
+        </lucene>
+        
+        <range>
+            <create qname="@ref" type="xs:string"/>            
+            <create qname="@target" type="xs:string"/>
+            <create qname="@url" type="xs:string"/>      
+        </range>
+    </index>
+</collection>

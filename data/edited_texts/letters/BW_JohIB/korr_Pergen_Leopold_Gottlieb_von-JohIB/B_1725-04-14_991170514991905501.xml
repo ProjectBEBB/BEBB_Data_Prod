@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514991905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Leopold Gottlieb von Pergen.
+            Basel, 14. April 1725</title>
+          <title type="alt">000056835</title>
+          <title type="alt">1725-04-14_Bernoulli_Johann_I-Pergen_Leopold_Gottlieb_Graf_von</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514991905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514991905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Pergen, Leopold Gottlieb Graf von (1700-1749) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "à Mr. le Comte de
+          Perguen"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-43128">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 675:Bl.9-10</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514991905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433198705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056835</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1725-04-14">ce 14e Avril
+              1725</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1725-04-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-114183734X">Pergen, Leopold Gottlieb von</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514992005501" type="prev"/>
+          <ptr target="B_991170514991805501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Pergen_Leopold_Gottlieb_von-JohIB" corresp="pers_DE-588-114183734X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Von Pergen hat lange geschwiegen. Dan. I B. ist nach St. Petersburg berufen worden und
+          kehrt jetzt aus Italien zurück. Er weilt gegenwärtig in Bern bei seinem Bruder Nic. II B.
+          Er wird wohl erst in einem Jahr nach Petersburg abreisen, kann also Pergen noch seine
+          Dienste erweisen, falls dieser - wie geplant - nach Basel zurückkehrt. Joh. B. hat für ein
+          Jahr die ermüdende Arbeit des Inspektorats des Gymnasiums übernommen.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-141535504">Golofkin, Alexander</persName>
+            <note type="lebensdaten">(1688-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11872116X">Katharina</persName>
+            <note type="lebensdaten">(1684-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1725-04-14_Bernoulli_Johann_I-Pergen_Leopold_Gottlieb_Graf_von"/>
+      </change>
+        <change when="2009-08-11" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1438423/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1725-04-14_Bernoulli_Johann_I-Pergen_Leopold_Gottlieb_Graf_von">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1438424" n="9r"/> Monsieur et tres honoré Comte </p>
+  <p>Votre long silence m’a donné de l’inquitude ne sachant à quoy l’attribuer; Je craignois
+          avec quelque apparen[c]e de raison, que Vous n’eussiez abandonné le dessein de revenir
+          ici; Ce qui a produit deux effets sur moy, lesquels <hi rend="u">peut etre</hi> sans cela
+          ne seroient peutetre pas arrivés; l’un est que j’ai permis à mon fils<note
+            type="comment">Daniel Bernoulli</note>, qui temoignoit de l’inclination pour
+          Petersbourg, d’écouter les propositions favorables, qu’on luj fait de la part de
+          l’Imperatrice de Russie, quoiqu’il ne soit pas encore engagé si avant, qu’il ne puisse
+          rompre encas de besoin; Il partit dernierement d’Italie et se trouve à present à Berne
+          chés son Frere le Prof.<hi rend="sup">r</hi> en Droit<note type="comment">Nicolaus II
+            Bernoulli</note>; aprés une visite de quelques semaines il se rendra icy; l’autre effet
+          que votre long silence a eu sur moy consiste, en ce que je me suis laissé persuader à
+          l’acceptation d’une nouvelle charge tres penible et tres onereuse; C’est l’Inspectorat ou
+          la sur-Intendance de Notre College public, dans lequel le Magistrat a entrepris <pb facs="1438426" n="9v"/> de faire une Reforme, dont il m’a confié<note type="editorial">Im
+            Manuskript steht «confier»</note> le soin;<note type="comment">Johann I Bernoulli
+            wurde vom Rat der Stadt Basel als Inspektor für das Gymnasium eingesetzt und sollte
+            Vorschläge zur Reform der Bildungseinrichtung machen</note> Il est vray que cette charge
+          ne durera qu’un an; mais pendant tout ce tems elle m’occupe presque entièrement; ma
+          presence etant requise dans le College tous les jours depuis 8 heures du matin jusqu’à 4
+          heures du soir; c’est un travail, qui n’est guere moins fatigant, que celui des forçats
+          sur les Galeres. Quoiqu’il en soit cependant, je veux que ces deux incidents ne doivent
+          pas Vous faire perdre l’envie de revenir chez nous, car pour ce qui est de moi il me
+          restera toujours assèz de loisir pour Vous assister dans Vos etudes de Mathem., etant pret
+          de sacrifier à Votre service touts les momens de mon repos; quant à mon fils supposé que
+          sa vocation de Petersbourg vienne à etre conclue, quoique la chose soit encor fort
+          incertaine, il ne fera le voyage qu’au bout d’un an, pour donner le tems à ses forces de
+          se bien retablir, aprés la grande maladie qu’il a soufferte en Italie; Mr. le Comte de
+          Galowki Ministre Russien à la Cour de Berlin, luj a deja accordé ce delai dans une Lettre
+<pb facs="1438427" n="10r"/> fort honneste,
+          qu’il luj a fait l’honneur de luj ecrire de sa propre main; C’est pourquoi mon fils sera
+          toujours en etat de Vous rendre ses services au moins pour une année entiere. Vous n’avez
+          Mr. qu’à venir au plutôt; nous tacherons tous deux de Vous donner toute la satisfaction
+          qui sera en notre pouvoir; Le reste de mes enfants aussi bien que ma femme se feront un
+          plaisir de contribuer autant qu’ils pourront à Vous procurer de l’agrement; C’est sur quoy
+          Vous pou[v]és compter et ètre assuré que je suis avec un devouement parfait Monsieur Votre
+          tres humble et tres obeissant serviteur J. Bernoully</p>
+  <p>Bâle ce 14.<hi rend="sup">e</hi> Avril 1725 </p>
+        <pb facs="1438428" n="10v" type="empty"/>
+      </div>
+    </body>
+  </text>
+</TEI>

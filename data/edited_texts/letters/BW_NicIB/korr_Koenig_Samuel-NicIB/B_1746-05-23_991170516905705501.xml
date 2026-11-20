@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516905705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Samuel König an Nicolaus I Bernoulli. Franeker, 23. Mai 1746</title>
+          <title type="alt">1746.05.23: König, Samuel (1712-1757) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059159</title>
+          <title type="alt">1746-05-23_Koenig_Samuel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516905705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516905705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">König, Samuel (1712-1757)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Auf der Adresse von anderer Hand "Par ami"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24352">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.111</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516905705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433544905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059159</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Franequer</origPlace>
+              <date when="1746-05-23">Le 23 Mai 1746</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117528854">König, Samuel</persName>
+          <placeName key="place_GEO-2755845" ref="https://d-nb.info/gnd/4237485-6">Franeker</placeName>
+          <date when="1746-05-23"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516905805501" type="prev"/>
+          <ptr target="B_991170516905605501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Koenig_Samuel-NicIB" corresp="pers_DE-588-117528854" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">Briefstruktur (pb, lb, etc.) ergänzt, sowie kleinere Anpassungen</change>
+        <change when="2025-10-24" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-24" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-24" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063765/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063766" n="1"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+  </salute>
+  </opener>
+  <p>
+      <lb/>Diverses lettres que j’avois fait mettre à la poste
+      <lb/>avec une à Vous, qui contenoit des remercimens de la
+      <lb/>bonté que Vous avez eû de m’envoyer une copie de Votre
+      <lb/>dissertation, ayant eté egarées, j’ay lieu de croire, que
+      <lb/>celle qui Vous a eté destinée aura subi le même sort.
+  </p>
+  <p>
+      <lb/>Ainsi pour ne point risquer de paroitre insensible
+      <lb/>a Votre politesse, je profite de l’occasion que me
+      <lb/>presente ce jeune Etudiant en droit qui s’en va par
+      <lb/>Votre Ville <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2660646" type="place">Geneve</rs>, pour Vous accuser la recep<pc type="hyphenation">-</pc><lb break="no"/>tion de Votre <rs type="biblio">piece</rs>, et Vous temoigner mes très
+      <lb/>humbles remercimens a cet Egard. Si j’etois en
+      <lb/>etat de Vous rendre quelque petit Service dans
+      <lb/>ce pays cy, je Vous prie<add><supplied>,</supplied> Monsieur<supplied>,</supplied></add> de disposer toujours lib<pc type="hyphenation">-</pc><lb break="no"/>rement de tout ce qui sera en mon pouvoir.
+  </p>
+  <p>
+      <lb/><abbr>Mons.</abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> a fait mention dans quelqu’une
+      <lb/>de ses notes sur l’ouvrage de feu <rs type="person" key="pers_DE-588-118509950">Jaques Bernoulli</rs>
+      <lb/>d’une dissertation où Methode de Votre façon
+      <lb/>sur le Rectangle de <rs key="pers_DE-588-118587544" type="person">Newton</rs>; bien des gens de
+      <lb/>ce pays cy, me demandent cette <rs type="biblio">piece</rs>, et je ne puis
+      <lb/>point leur satisfaire; <abbr>Mr.</abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> m’a promis
+      <lb/>de m’en envoyer une copie, s’il ne tient pas
+<pb facs="1063767" n="2"/>
+      <lb/>parole, je serai obligé de Vous importuner une seconde
+      <lb/>fois. Puisque Vous ne faites rien imprimer, il faut bien
+      <lb/>tacher de tirer parti de Vos excellentes meditations
+      <lb/>comme on peut. Nouvelles litteraires, je n’en
+      <lb/>ai point à Vous mander. Les Experiences sur l’Elec<pc type="hyphenation">-</pc><lb break="no"/>tricité vont toujours leur train, on decouvre Pheno<pc type="hyphenation">-</pc><lb break="no"/>mene sur Phenomene, mais la cause <add>en</add> est plus obscure
+      <lb/>que jamais. Voulant essayer si un verre plein
+      <lb/>de Mercure Electrisé par le moyen d’une verge de
+      <lb/>fer, qu’on y plonge jetteroit des Etincelles aussi vives
+      <lb/>que les autres metaux soit solides, soit liquides,
+      <lb/>j’ay <del><gap/></del><add>eprouvé</add> en touchant par hazard de l’extremité d’un
+      <lb/>doigt le baton de fer, une secousse si violente dans
+      <lb/>tout le bras <del><gap/></del>avec lequel je tenois le vase, que je
+      <lb/>fus obligé de le laisser tomber croyant le bras brisé
+      <lb/>pendant quelques instans, d’autres personnes ayant
+      <lb/>observé le même Phenomene avec un verre d’eau
+      <lb/>l’ont mandé <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs>, où a ce qu’on dit, il fait
+      <lb/>beaucoup parler de l’Electricité. Comme je l’ai
+      <lb/>dit dans ma precedente, c’est bien dommage,
+      <lb/>que Vous autres Messieurs ne soyes pas a portée
+      <lb/>d’être temoins de ces Experiences, <del><gap/></del><add>pour pouvoir</add> nous<del><gap/></del>
+      <lb/>com<pc type="hyphenation">-</pc>
+<pb facs="1063768" n="3"/>
+      <lb break="no"/>muniquer Vos idées sur des Effets si inouis. Un chien
+      <lb/>frotté comme il convient même un bas de Castor, electrise
+      <lb/>un homme au point qu’il peut allumer de l’Esprit de
+      <lb/>vin du bout du doigt. Ayant electrisé un homme
+      <lb/>devant leurs Altesses qui portoit un habit galonné
+      <lb/>avec une veste de drap d’argent, il devint electrique
+      <lb/>a un point, qu’etant touché dans quelque extremit<unclear reason="lost">é</unclear>
+      <lb/>de son corps, il jettoit des Etincelles si vives de tou<unclear reason="lost">s</unclear>
+      <lb/>les points de ses galons et de sa veste, qu’jl paroissoit
+      <lb/>tout en feu,<del><gap/></del> poussant en même tems de grands
+      <lb/>cris, des piques qu’il disoit eprouver par toute l’Eten<pc type="hyphenation">-</pc><lb break="no"/>duë de son corps. Enfin quantité de choses pa<pc type="hyphenation">-</pc><lb break="no"/>reilles où personne ne comprend rien. Je Vous ai
+      <lb/>dit<add><supplied>,</supplied> Monsieur<supplied>,</supplied></add> dans ma prededente que le Phosphore Mercurial
+      <lb/>de <abbr>Mr.</abbr> Votre <rs type="person">Oncle</rs> n’etoit qu’un<del>e</del> Phenomene Electrique
+      <lb/>car son barometre luisant placé comme il faut
+      <lb/>attire et repousse alternativement.
+  </p>
+  <p>
+      <lb/>Mes complimens <choice><orig>a</orig><reg>à</reg></choice> toute la famille Mathema<pc type="hyphenation">-</pc><lb break="no"/>tique je Vous en suplie, j’ay l<supplied>’</supplied>honneur d’être
+      <lb/>avec une consideration parfaite
+  </p>
+  <closer>
+    <salute>
+      <lb/>Monsieur
+      <lb/>Votre très humble et très
+      <lb/>obeissant Serviteur
+    </salute>
+    <signed>
+      <lb/><rs type="person" key="pers_DE-588-117528854"><abbr>Sam.</abbr> Koenig</rs>.
+    </signed>
+    <dateline>
+      <lb/>A <rs type="place" key="place_GEO-2755845">Franequer</rs>
+      <lb/>Le <date when="1746-05-23">23 Mai 1746</date>
+    </dateline>
+  </closer>
+<pb facs="1063769" n="4"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Nicolas Bernoulli</rs></addrLine>
+      <addrLine>Professeur en Droit <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></addrLine>
+      <addrLine><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Bâle</rs></addrLine>
+    </address>
+  </closer>
+  <postscript>
+    <p>
+        <lb/>Par ami
+    </p>
+  </postscript>
+</div>
+</body>
+</text></TEI>

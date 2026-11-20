@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514628505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Jakob Risler. Basel, Juli 1763</title>
+          <title type="alt">1763.07: Bernoulli, Daniel (1700-1782) an Risler, Jakob (ca. 1730-1770)</title>
+          <title type="alt">000055259</title>
+          <title type="alt">1763-07_Bernoulli_Daniel-Risler_Jakob</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514628505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514628505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Risler, Jakob (ca. 1730-1770)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf Bl. 151v von der Hand Joh. III B.s. "von Daniel Bernoulli an D. Risler zu Mulhausen 1763"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200377">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.150-151</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514628505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432954605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055259</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1763-07">[Juli?] 1763</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1763-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1051474922">Risler, Jakob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430100905501" type="prev"/>
+          <ptr target="B_991170514628405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Risler_Jakob-DanIB" corresp="pers_DE-588-1051474922" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1051474922">Risler, Jakob</persName>
+            <note type="lebensdaten">(1731-1770)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-20" who="SG FN">Kollationieren abgeschlossen.</change>
+        <change when="2026-10-16" who="SG">Formeln normalisiert.</change>
+        <change when="2026-10-07" who="SG">Kleingeschriebenen Satzanfang nach Satzpunkt mit choice/orig/reg normalisiert.</change>
+        <change when="2026-09-24" who="SG">Tagging.</change>
+        <change when="2026-03-29" who="NG">Tagging</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-04" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5997759/manifest"/>
+</facsimile><text>
+  <body>
+    <div type="letter">
+      <pb facs="5997760" type="archival"/>
+      <pb facs="5997761" type="archival"/>
+      <pb facs="5997762" n="150r"/>
+      <head rend="center">
+<lb/>Betrachtungen über die achromatische telescopia.
+      </head>
+      <p>
+<lb/>Nachdeme man in erfahrung gebracht, daß das cristal d’<rs key="place_VER-englan" type="place">Angleterre</rs>
+<lb/>eine weit grössere dispersionem radiorum versicolorum verursache als das
+        <lb/>gewöhnliche glaß, ohne daß die mittel-refraction in be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>derle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> sorten
+        <lb/>glaß sonderlich unterschieden se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en, hat man sich dieser e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>genschafft bedient
+<lb/>umb achromatische ferngläßer zu verfertigen: zu solchem ende hat
+        <lb/>man sich beflissen auff vielerle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> arten solche combinationen der linßen von
+        <lb/>be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>derle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> arten außfündig zu machen und diesen linßen solche focos
+<lb/>zu geben, daß die zerstrewte radii an dem ort, da die imago objecti
+<lb/>formiert werden soll, wieder zusa<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en kommen. Ich will hier noch nicht
+<lb/>untersuchen, ob nicht dieses principium selber noch eine grössere voll<pc type="hyphenation">-</pc><lb break="no"/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>enheit haben wurde, wan die vielfärbige stralen erst in retina wieder
+<lb/>zusammen kämen oder vielmehr wan man erhalten könte, daß diese
+<lb/>vereinigte stralen von der <subst><del><gap/></del><add>imagine</add></subst> biß zu dem aug vereiniget blieben;
+<lb/>dan weilen die <add>zerstreüte farb</add>stralen unter einem kleinen winkel in einen puncten
+<lb/>versamlet <subst><del>haben</del><add>werden</add></subst>, so werden sie unter dem nehmlichen winkel <subst><del>l</del><add>s</add></subst>ich wieder
+<lb/><subst><del>separieren</del><add>zerstrewen</add></subst>; dieses inconveniens ist vielleicht nur deswegen nicht sehr
+<lb/>erheblich, weilen diese newe dispersion in der kleinen distantz von der imagine
+<lb/>biß zu dem aug keinen mercklichen effect machen kan.
+      </p>
+      <p>
+<lb/>Es ist eben nicht schwär nach obvermeldetem principio, auff unendlich
+<lb/>viel arten, alle die stralen welche auß einem puncten gekommen wieder
+<lb/>in ein puncten zu concentrieren; allein die außrechnungen geben
+<lb/>zu erkennen, daß man von jeder art glaß so wohl die hauptrefraction
+<lb/>als die dispersion gantz genaw wissen müsse; ein kleiner fehler in diesen
+<lb/>bestimmungen kan eine<del>n</del> grosse veränderung in den final bestim<pc type="hyphenation">-</pc><lb break="no"/>mungen verursachen, so daß zu letst das gantze werck be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> nahem unnütz
+        <lb/>außfallet<subst><del>;</del><add>,</add></subst> und ich glaube nicht daß es möglich ist alle fehler zu verme<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den.
+      </p>
+      <p>
+        <lb/>Es möchte also wohl nöhtig se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, daß man die ferngläßer so einrichte
+<lb/>daß man den linßen noch eine veränderung in ansehung derer lag geben
+        <lb/>könne, umb dadurch die begangene unverme<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>dliche fundamental fehler
+<lb/>wieder einiger massen zu redressieren; zu erst muß man den außrech<pc type="hyphenation">-</pc><lb break="no"/>nungen, so viel möglich, nachkommen, nachgehends aber die lage der linßen
+<pb facs="5997763" n="150v"/>
+<lb/>mit grosser auffmercksamkeit so lang veränderen, biß der beste effect
+<lb/>herauß kommen; die allerkleinste veränderung kan nach gewissen ein<pc type="hyphenation">-</pc><lb break="no"/>richtungen von grosser wichtigkeit se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n; deswegen halte ich nicht für
+        <lb/>gut zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> linßen gantz auffeinander zu legen, weilen sie keine spielung
+<lb/>haben können; Da noch ferners die sach nicht so wohl ankomt auff
+<lb/>die besti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ung der refraction und dispersion selbsten als auff ih<subst><del>re</del><add>r</add></subst> ver<pc type="hyphenation">-</pc><lb break="no"/>hältniß be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> unterschiedenen glaßarten, so dunckt mich man solle
+<lb/>nicht eher zu dem cristal d’<rs key="place_VER-englan" type="place">angleterre</rs> seine zuflucht nemmen,
+        <lb/>als biß man vollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en versichert se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n könne, daß der gebrauch des
+        <lb/>nemlichen glases zu allen linßen nicht hinreichend se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e de<subst><del><gap/></del><add>r</add></subst>
+<lb/>zerstrewung der vielfärbi<subst><del>g</del><add>ch</add></subst>ten stralen zu begegnen. Ist es möglich
+        <lb/>seinen zweck mit einerle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> glaßart zu erhalten, so kan man den
+<lb/>ungewissen besti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen begegnen, weilen man anne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en kan, daß
+        <lb/>die refraction und die dispersion be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> allen linßen nach dem nehmlichen
+<lb/>gesätz geschehen; ja in diesem fahl komt es nicht einmahl darauff an,
+<lb/>ob die di<subst><del><gap/></del><add>s</add></subst>persion in ansehung der refraction etwas grösser oder etwas
+        <lb/>kleiner se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e, als man sie angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en hat; Der berühmte <abbr>H.</abbr> <rs key="pers_DE-588-118531379" type="person">Eüler</rs>
+<lb/>hat auch schon diese anmerkung gemacht, daß man achromatische
+<lb/>ferngläßer mit der nehmlichen glaßart machen könne. Endlich
+<lb/>pflegt man noch die dicke der linßen zu negligieren, da doch ihre verände<pc type="hyphenation">-</pc><lb break="no"/>rung offt einen sehr mercklichen effect machen kan; wolte man
+<lb/>auch in den außrechnungen derselben rechnung tragen, so wurden
+        <lb/>nicht nur grosse newe schwürigkeiten be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> den außrechnungen entstehen,
+        <lb/>sondern es wurde be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> der außfertigung be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> nahem unmöglich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n
+<lb/>allen besti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen genaw nachzukommen; man könte sich also
+<lb/>in ansehung dieses puncten begnügen die linßen so dünn zu machen
+<lb/>als es die umbständ erlauben, und also ihre diametros nur ein wenig
+<lb/>grösser machen, als die erlaubte apertur erfordert.
+      </p>
+      <p>
+<lb/>Obige betrachtungen haben mich bewogen folgende einrichtung eines achro<pc type="hyphenation">-</pc><lb break="no"/>matischen ferngla<subst><del>s</del><add>ss</add></subst>es zu berechnen und zu untersuchen, ob solche den
+<pb facs="5997764" n="151r"/>
+<lb/>erwünschten effect thun möge.
+      </p>
+      <p>
+        <lb/><choice><orig>die</orig><reg>Die</reg></choice> vörderste lens könte concavo-concava se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n und die zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>te convexo-
+        <lb break="no"/>convexa; zwischen diesen be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den linßen muß eine gewisse distantz se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n
+<lb/>von einem halben, einem gantzen oder auch etlichen zollen: es ist unnöhtig zu
+        <lb/>melden, daß be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>de linßen müssen mit vielem fle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß <del>con</del>centriert werden.
+<lb/><choice><orig>alle</orig><reg>Alle</reg></choice> verhältnisse müssen sich nach dem foco de<subst><del>s</del><add>r</add></subst> lentis convexo<supplied>-</supplied>convex<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>richten: ich setze diesen focum <formula>= f</formula> und den focum imaginarium der vordersten
+        <lb/>linßen <formula>=\varphi</formula>. Ich habe gefunden, daß der focus <formula>=\varphi</formula> seine limites in utramque
+        <lb/>partem habe; er muß grösser se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n als <formula>\frac{6}{7}f</formula> und k<subst><del><gap/></del><add>lei</add></subst>ner als <formula>2\frac{1}{4}f</formula>; der
+        <lb/>mittelweg zwischen den be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den extremiteten möchte wohl der beste se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n;
+<lb/>ich wolte also anne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en den valorem <formula>\varphi=\frac{3}{2}f</formula>; doch richtet sich dieses alles
+        <lb/>nach der refraction, für welche ich <add>nur</add> 1500 zu 1000 gesetzet habe. Für diese
+        <lb/>proportionen finde ich daß be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>der linßen entfernung se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n müsse = <del><gap/></del><formula ana="corr">0,271 f</formula><supplied>;</supplied>
+<lb/>ich finde auch<supplied>,</supplied> daß die <foreign xml:lang="lat">distantia inter lentem convexam et focum resultantem
+  <lb/>principalem</foreign> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n werde = <subst><del><gap/></del><add><formula>6,50 f</formula></add></subst><supplied>.</supplied> In diesem foco principali verme<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ne
+<lb/>ich<supplied>,</supplied> daß die vorhergegangene dispersion sich wieder auffheben werde.
+      </p>
+      <p>
+<lb/>Damit man aber nun sehe, wie <del><gap/></del>sich die resultat änderen
+<lb/>von einer kleinen veränderung der umbständen, so will ich nunmehro
+<lb/>die refra<subst><del>t</del><add>c</add></subst>tion anne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en wie 1600 zu 1000 und die nemlichen linßen
+        <lb/>wieder anne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en; da finde ich die erforderliche distantz zwischen den be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den
+<lb/>linßen = <del><gap/></del><formula>0,315 f</formula>;<del><gap/></del>
+        <lb/><del><gap/></del>hingegen wird der focus resultans principalis
+<lb/>jetz nur <subst><del><gap/></del><add><formula>5,63 f</formula></add></subst>. <choice><orig>weilen</orig><reg>Weilen</reg></choice> es nun so viel ankomt auff die di<subst><del>e</del><add>s</add></subst>tantz
+        <lb/>zwischen den be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den linßen, so wäre mein raht die vordere concav
+        <lb/> linßen beweglich zu machen umb diese distantz vermehren oder
+        <lb/>verminderen zu können; Be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> der wahren <subst><del><gap/></del><add>g</add></subst>ewöhnlichen refraction möchten
+        <lb/>die be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>de gläßer eine distantz <del>von ungefehr <gap/></del>erfordern von <del><gap/></del><formula>0,293 f</formula> und <metamark/> <add>der focus principalis = <subst><del><gap/></del><add><formula>6,10 f</formula></add></subst> werden.</add>
+      </p>
+      <p rend="center"><lb/>______________________________</p>
+      <p>
+<lb/><choice><orig>da</orig><reg>Da</reg></choice> mir diese untersuchungen gantz new sind, so möchte von <abbr>H.</abbr> <abbr>D.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1051474922" type="person">Risler</rs>,
+        <lb/>welcher se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t etlicher zeit sich darmit beschäfftiget, wissen, ob einige offen<pc type="hyphenation">-</pc><lb break="no"/>bahre inconvenientzen be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> einer solchen einrichtung zum vorauß können
+<lb/>eingesehen werden; sonsten könte ich die ejgentliche außrechnung machen, so
+        <lb/>bald mir die zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> linßen bestimt und die refraction vorgeschrieben wurde.
+<lb/><choice><orig>ich</orig><reg>Ich</reg></choice> muß aber diese gegenwärtige betrachtungen, so ich gantz obenhin auffge<pc type="hyphenation">-</pc><lb break="no"/>setzt, wieder haben.
+      </p>
+      <pb facs="5997765" n="151v"/>
+      <pb facs="5997766" type="archival"/>
+      <pb facs="5997767" type="archival"/>
+      <pb facs="5997768" type="archival"/>
+    </div>
+  </body>
+</text>
+</TEI>

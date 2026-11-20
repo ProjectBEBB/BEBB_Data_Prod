@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516907305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean Gabriel Hertz an Nicolaus I Bernoulli. Venedig, 18. November 1718</title>
+          <title type="alt">1718.11.18: Hertz, Jean Gabriel () an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059143</title>
+          <title type="alt">1718-11-18_Hertz_Jean_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516907305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516907305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Hertz, Jean Gabriel
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 19ten". Beigelegt war ein Flugblatt von Carlo Baldi</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24342">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.101</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516907305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433544505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059143</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>22,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>a Venise</origPlace>
+              <date when="1718-11-18">1718 [...] la 18.me 9bre</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1037587715">Hertz, Jean Gabriel</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1718-11-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517058305501" type="prev"/>
+          <ptr target="B_991170516907205501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Hertz_Jean_Gabriel-NicIB" corresp="pers_DE-588-1037587715" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118937669">Grandi, Guido</persName>
+            <note type="lebensdaten">(1671-1742)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-27" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change notAfter="2026-03-09" who="SW SG">transkribiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063687/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063688" n="1"/>
+  <opener><dateline>à <rs key="place_GEO-3164603" type="place">Venise</rs> le <date when="1718-11-18"><abbr>18.<hi rend="sup">me</hi></abbr> <abbr>9<hi rend="sup">bre</hi></abbr> <add>1718.</add></date></dateline><note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1718-11-19">19.<hi rend="sup">ten</hi></date></note>
+      <lb/>Monsieur<salute/></opener>
+  <p>
+      <lb/>Permettez<choice><orig> </orig><reg>-</reg></choice>moy que j’aie l’honneur de
+      <lb/>vous saluer, et de vous rendre mes respects
+      <lb/>et de vous faire part <del><gap/></del><add>d’</add>u<del><gap/></del><add>ne</add> <rs type="biblio"><choice><orig>pieçe</orig><reg>piece</reg></choice> volante</rs>
+      <lb/>que j’ay reçeu <date when="1718-11-17">hier</date> de la Poste de <rs key="place_GEO-3169070" type="place">Rome</rs><supplied>,</supplied>
+      <lb/>je vous la remets telle qu<del><gap/></del><add>’on</add> me l’a envoyée
+      <lb/>dans le papier<choice><orig> </orig><reg>-</reg></choice>cy enc<del><gap/></del><add>l</add>os, vous verrez si
+      <lb/><del><gap/></del><add>v</add>ous en êtes l’objet de la susdite <rs type="biblio"><choice><orig>pieçe</orig><reg>piece</reg></choice></rs>.
+      <lb/><choice><orig>pour</orig><reg>Pour</reg></choice> ce qui regarde les <rs type="biblio">Oeuvres</rs> du Pere <rs key="pers_DE-588-118937669" type="person">Grandi</rs>
+      <lb/>je n’ai pas <choice><orig>sçeu</orig><reg>sceu</reg></choice> obtenir jusques à present
+      <lb/>ny livres ni rêponce à mes <rs type="letter">lettres</rs>, il faut
+      <lb/>qu’il soit absent de <del><gap/></del><add>l</add>a <rs type="place">Toscane</rs>, cependant
+      <lb/>je suis bien sincerement<choice><orig>.</orig><reg>,</reg></choice></p>
+  <closer><lb/>Monsieur<supplied>,</supplied>
+      <lb/>Vôtre tres humble, et<del><gap/></del>
+      <lb/>tres obbeissant <abbr>servit.</abbr>
+      <lb/><signed><rs key="pers_DE-588-1037587715" type="person">Jean Gabriel Hertz</rs></signed></closer>
+<pb facs="1063689" n="2" type="empty"/>
+</div>
+</body>
+</text></TEI>

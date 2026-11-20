@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516631305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean Cottin an Johann II Bernoulli. Paris, 22. Dezember 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516631305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516631305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf Blatt 241 findet sich ein P.S.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-122913">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 732:Bl.240-241</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516631305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433588405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058258</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 beschriebene S.)<dimensions unit="cm"><height>23,5</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1751-12-22">22. Xbre 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1107785383">Cottin, Jean</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1751-12-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516631405501" type="prev"/>
+          <ptr target="B_991170516631205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cottin_Jean-JohIIB" corresp="pers_DE-588-1107785383" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Die Korrespondenz mit Cottin erfolgt in engem Zusammenhang mit derjenigen mit Marie de Vincens-Petit. Es geht um die Naturalisation des Sohnes Paul von Mme de Vincens in der Schweiz</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-29" who="SG">korrigiert</change>
+        <change when="2026-06-08" who="NG">transkribiert</change>
+        <change when="2026-06-07" who="NG">transkribieren angefangen</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3388268/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3388269" n="240r"/>
+  <opener>
+      <lb/><dateline><rs type="place">Paris</rs> <date when="1751-12-22">22. X 1751</date></dateline>
+  </opener>
+  <p>
+      <lb/>Nous voyons, Monsieur, par l’honneur de la votre
+      <lb/>du 14. c<hi rend="sup">t</hi>. que vous etiez inquiet <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> impatient d’avoir
+      <lb/>notre reponse. Le méme jour ou le lendemain, vous aurez
+      <lb/>reçu notre derniere qui aura satisfait <choice><orig>a</orig><reg>à</reg></choice> ce que vous
+      <lb/>demandiez. La mort de <abbr>M<supplied>.</supplied></abbr> <rs type="person">De Vincent</rs> ne change
+      <lb/>rien au plan de la <rs type="person">mere</rs>,il est donc question
+      <lb/>de faire la naturalization, et par la suitte on
+      <lb/>voira <choice><orig>a</orig><reg>à</reg></choice> acquerir le droit de Bourgeoisie comme
+      <lb/>il sera convenable<supplied>.</supplied>
+      <lb/>J’ay l’honneur d’etre avec une tres parfaite <unclear>condolation</unclear>
+  </p>
+  <closer>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Vôtre <abbr>t<supplied>.</supplied></abbr> humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> obeiss<supplied>.</supplied> <abbr>Serv<supplied>.</supplied></abbr>
+      <lb/><signed><rs type="person">Jean Cottin</rs></signed>
+  </closer>
+<pb facs="3388270" n="240v" type="empty"/>
+
+
+<pb facs="3388271" n="241r"/>
+
+  <postscript>
+    <p>
+        <lb/>P. S. A l’egard de la <rs type="letter">lettre</rs> de Bourgeoisie de <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">de Vincent</rs>,
+        <lb/>La <rs type="letter">lettre</rs> qu<supplied>’</supplied>il at actuellement en mains peut suffire, mais
+        <lb/>je trouve aussi qu<supplied>’</supplied>il faut bien d’en demander une autre, <choice><orig>ou</orig><reg>où</reg></choice> il soit
+        <lb/>exprimé, que <abbr>LLEE</abbr> de <rs type="place">Berne</rs> et de <rs type="place">Frybourg</rs> ayant
+        <lb/>naturalizé ledit <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">de Vincent</rs> sous telle et telle datte / qu’il
+        <lb/>sera a propos de m<supplied>’</supplied>indiquer, puisque je n’ay gardé aucune coppie
+        <lb/>des <rs type="letter">lettres de Naturalization</rs> / que <abbr>M<hi rend="sup">rs</hi></abbr> <rs type="person">du Conseil de Grandson</rs>
+        <lb/>l’ont receu et admis au nombre de leur Bourgeois, ainsy
+        <lb/>il faut que la lettre de Bourgeoisie soit posterieure à la
+        <lb/>Naturalization, pour qu’on ne puisse rien objecter, si on
+        <lb/>venoit à egarer <rs type="letter">Les Lettres de Naturalization</rs> des deux Estats de
+        <lb/>Berne et de Frybourg, ainsy pourrez me la renvoyer
+        <lb/>en me faisant une <rs type="letter">lettre</rs> signée par <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs type="person">de Vincent</rs>
+        <lb/>conçue <choice><orig>a</orig><reg>à</reg></choice> peu près dans ces termes.
+    </p>
+    <p>
+        <lb/>Comme j’ay eu occasion de faire voir la <rs type="letter">lettre de Bourgeoisie
+        <lb/>de Grandson</rs>, que m’avez procurée, une Persone tres entendue dans
+        <lb/>les affaires, m’a fait observer, que <rs type="letter">cette lettre de Bourgeoisie</rs>
+        <lb/>estoit conditionelle, et seroit susceptible de difficulté, si
+<pb facs="3388272" n="241v"/>
+        <lb/>je venois <choice><orig>a</orig><reg>à</reg></choice> perdre ou <choice><orig>a</orig><reg>à</reg></choice> égarer les Actes de Naturalization des
+        <lb/>deux Estats de <rs type="place">Berne</rs>, et de <rs type="place">Frybourg</rs>, je vous prie donc
+        <lb/>de m’en procurer une autre, qui soit posterieure en datte, aux
+        <lb/>deux Lettres de Naturalization, et qu’il soit exprimé dans la
+        <lb/>ditte Lettre de Bourgeoisie, que <abbr>LLEE</abbr> de <rs type="place">Berne</rs> m’ayant
+        <lb/>accordé la Naturalization le <gap quantity="10"/> et <abbr>LLEE</abbr> de <rs type="place">Frybourg</rs>
+        <lb/>Le <gap quantity="10"/>. Suivant les actes authentiques produits,
+        <lb/>En consequence dequoy j’ay esté récu et agregé au nombre des
+        <lb/>Bourgeois <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> De cette maniére il n<supplied>’</supplied>y aura rien <choice><orig>a</orig><reg>à</reg></choice> redire, la
+        <lb/>Lettre sera <unclear>en due</unclear> forme, laquelle j’attendray au plutot possible,
+    </p>
+  </postscript>
+</div>
+</body>
+</text>
+</TEI>

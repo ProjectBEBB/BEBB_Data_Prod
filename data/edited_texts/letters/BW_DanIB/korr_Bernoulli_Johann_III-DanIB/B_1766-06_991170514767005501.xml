@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514767005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Basel,
+                        Juni 1766</title>
+          <title type="alt">1766.06: Bernoulli, Daniel (1700-1782) an
+                        Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000054767</title>
+          <title type="alt">1766-06_Bernoulli_Daniel-Bernoulli_Johann</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514767005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514767005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs>
+                    (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von anderer Hand "Juin 1766"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200190">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.36-37</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514767005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432853505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054767</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1766-06">juin
+                            1766.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1766-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170491265505501" type="prev"/>
+          <ptr target="B_991170491266505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170491265505501" type="prev"/>
+          <ptr target="B_991170514766905501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116472448">Castillon, Giovanni Francesco Mauro
+                            Melchiorre</persName>
+            <note type="lebensdaten">(1708-1791)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156360374">Dietrich, Johannes</persName>
+            <note type="lebensdaten">(1715-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100162703">Hennert, Johann Friedrich</persName>
+            <note type="lebensdaten">(1733-1813)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-129353949">Mallet, Jacques-André</persName>
+            <note type="lebensdaten">(1740-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-23" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change when="2026-10-14" who="SG">Briefstruktur und Normalisierungen nachbearbeitet.</change>
+        <change when="2026-10-01" who="SG">Vorbereitung für die Kollation erweitert: Zeilenfall und Worttrennungen bildgestützt überprüft sowie Normalisierungen, mathematische Auszeichnungen und Entitäten-Pretagging ergänzt.</change>
+        <change when="2026-09-24" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994673/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="5994674" n="36r"/>
+  <note hand="unknown"><date when="1766-06">Juin 1766</date></note>
+  <p>
+      <lb/>Quoique vos lettres me soyent toujours fort cheres, Monsieur mon
+    <lb/>tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, je suis le premier à vous exhorter de ne m’en ecrire,
+      <lb/>que lorsque vous me jugerez en etat de vous etre utile; mon affection
+      <lb/>pour vous n’aura jamais besoin d’etre entretenue par des lettres
+      <lb/>de politesse ou de bienseance de votre part: j’attendrai que vous
+      <lb/>soyez arrivé à cet etat de permanence, que je vous souhaite, et
+      <lb/>j’espere qu’àlors vous ne serez plus si fort excedé d’occupations et
+      <lb/>de distractions et que vous m’acorderez quelques momens de votre loisir. </p>
+  <p>
+      <lb/>Je trouve, que vous ne devez pas vous en laisser imposer par <abbr>M.</abbr>
+      <lb/><rs key="pers_DE-588-116472448" type="person">Castillon</rs>, sur tout pour les questions de mecanique. <choice><orig>je</orig><reg>Je</reg></choice> tombe d’accord
+      <lb/>qu’on ne doit user que sobrement d’hypotheses; mais je vois aussi que
+      <lb/>plusieurs savans, qui se piquent d’une Philosophie de <rs key="pers_DE-588-118587544" type="person">Newton</rs> tombent
+      <lb/>dans l’extremité oposée; ils croyent que cet inimitable Philosophe
+      <lb/>n’a jamais formé aucune hypothese et il est bien clair qu’il a <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>forcé d’en former autant qu’un autre; mais il n’en a jamais formé
+      <lb/>que de bien fondées; il a <choice><orig>scu</orig><reg>sçu</reg></choice> imaginer des experiences qui devoient
+      <lb/>en decider, aprez quoi il a renversé l’ordre de ses procedés, en
+      <lb/>traitant les experiences de phenomenes et ses hypotheses de consequences.
+      <lb/>Le jugement de <abbr>Mess.<hi rend="sup">rs</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> sur les <rs type="biblio">memoires</rs> qui ont <choice><orig>eté</orig><reg>été</reg></choice> envoyés à l’<rs type="organisation">Aca<pc type="hyphenation">-</pc><lb break="no"/>demie</rs> pour le prix de cette année ne devoit pas non plus enlever les
+      <lb/>suffrages des <rs type="person">Academiciens</rs> sans autre examen; ces Messieurs <add><rs key="pers_DE-588-118531379" type="person">Euler</rs></add> ne sont
+      <lb/>rien moins qu’infaillibles sur ces sortes de questions et souvent
+      <lb/>il y a quelque esprit de parti dans leurs decisions. <choice><orig>il</orig><reg>Il</reg></choice> est inconte<pc type="hyphenation">-</pc><lb break="no"/>stable que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-129353949" type="person">Mallet</rs> doit avoir eu de grands avantages sur
+      <lb/>son <rs type="person">concurrent</rs><metamark>*)</metamark>, et je doute si les petites experiences de <rs key="pers_DE-588-100162703" type="person">Hennert</rs>
+
+    <note hand="unknown" place="bottom">
+      <lb/>*) Il s’agit de la question sur <hi rend="u">la Vis d’<rs key="pers_DE-588-118503863" type="person"><choice><orig>archimede</orig><reg>Archimede</reg></choice></rs></hi>. <rs key="pers_DE-588-129353949" type="person">Mallet</rs> n’eut que l’
+      <lb/>accessit.</note>
+    <pb facs="5994675" n="36v"/>
+
+    <lb/>peuvent contrebalancer des avantages aussi manifestes, sans
+      <lb/>parler des difformités et lacunes, qui se trouvent dans le <rs type="biblio">memoire</rs>
+      <lb/>de <rs key="pers_DE-588-100162703" type="person">Hennert</rs> et qui sont tout autant de marques de manque de
+      <lb/>respect vis<choice><orig> </orig><reg>-</reg></choice>à<choice><orig> </orig><reg>-</reg></choice>vis d’un <rs type="organisation">Corps</rs> aussi respectable que votre <rs type="organisation">Academie</rs>.
+      <lb/><choice><orig>au</orig><reg>Au</reg></choice> lieu de partager le prix, mon avis eut <choice><orig>eté</orig><reg>été</reg></choice> de le renvoyer, et de
+      <lb/>le doubler pour la meme question en temoignant qu’on souhaite une
+      <lb/>theorie fondée sur des experiences. <choice><orig>je</orig><reg>Je</reg></choice> suis bien aise que vous
+      <lb/>aprouviez mes principes sur ces matieres tels que je les ai exposés
+    <lb/>dans mon <rs type="biblio"><choice><orig>hydrodynamique</orig><reg>Hydrodynamique</reg></choice></rs>. Depuis 40 ans j’ai toujours <choice><orig>eté</orig><reg>été</reg></choice> confirmé
+      <lb/>dans mes idées et je crois en avoir fait un fort heureux usage dans
+      <lb/>mon <rs type="biblio">memoire qui a remporté le prix sur la meilleure maniere de
+      <lb/>faire aller les vaisseaux sur mer sans voiles</rs>. Si <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> avoit
+      <lb/>fait attention à ces principes, il s<subst><del><gap/></del><add>e se</add></subst>roit epargné bien des pauvretés
+      <lb/>qu’il a dites sur l’action des rames. <choice><orig>mon</orig><reg>Mon</reg></choice> <rs type="biblio">memoire</rs> n’a jamais <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>imprimé; on pouroit donc l’inserer dans les <rs type="biblio">memoires</rs> de <rs key="place_GEO-2950159" type="place">Berlin</rs>,
+      <lb/>si tant est que les circonstances <add>du prix</add> admettent une telle publication.
+      <lb/>Avez<choice><orig> </orig><reg>-</reg></choice>vous fini dans vos lectures, ce que nous avons traité ensemble
+      <lb/>sur la force des cordes et sur celle des poutres; la force d’une poutre fichée
+      <lb/>verticalement en terre merite sur tout d’etre traitée; il y a du neuf et la
+      <lb/>matiere est riche. L’observation sur l’aiman, qui vous a encor fourni
+    <lb/>de la matiere pour une <rs type="biblio">lecture</rs>, est effectivement fort curieuse.
+      <lb/>La maniere de trouver les forces de l’attraction en chargeant peu à peu
+      <lb/>de poids une des barres, <subst><del><gap/></del><add>q</add></subst>u’on traine ensuite par l’autre petite barre, cette
+      <lb/>maniere est beaucoup plus commode que toutes les autres, mais il est bon
+      <lb/>de determiner auparavant le frottement de la barre sur la surface, qu<subst><del>i</del><add>e</add></subst>
+      <lb/>vous avez devant vous, aprez quoi on <choice><orig>scait</orig><reg>sçait</reg></choice> que les frottemens sont comme
+      <lb/>les poids reunis de la barre et du poids couché dessus. Vous pourriez encor
+    <pb facs="5994676" n="37r"/>
+    <lb/>tirer parti de la proprieté que j’ai observée aux aimans artificiels de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietric</rs>,
+      <lb/>qui sont tous d’une figure semblable; c’est que la force de ces aimans est en raison
+    <lb/><subst><del>sesquipliquée</del><add>de la racine cubique du quarré</add></subst> de leurs poids, c’est<choice><orig> </orig><reg>-</reg></choice>à<choice><orig> </orig><reg>-</reg></choice>dire, en raison de leur surface. <choice><orig>cette</orig><reg>Cette</reg></choice> propri<pc type="hyphenation">-</pc><lb break="no"/>eté merite d’autant plus d’attention, que les attractions electriques obser<pc type="hyphenation">-</pc><lb break="no"/>vent la meme loy, comme <subst><del>j</del><add>m</add></subst>es electrometres m’ont fait remarquer. Vous
+      <lb/>savez que ces electrometres sont une maniere de peseliqueur au sommet
+      <lb/>desquels on peut apliquer horizontalement des plaques minces et rondes de laiton;
+      <lb/>et j’ai remarqué que c’est la surface de ces plaques qui decide de l’attraction
+      <lb/><subst><del><gap/></del><add>sa</add></subst>ns que leur epaisseur y entre pour rien. Quant au thermometre à
+      <lb/>air je crois que les hauteurs du mercure pour l’eau à la glace et pour
+      <lb/>l’eau bouillante sont à peu pres comme 2 à 3 en supposant que l’air
+    <lb/>conserve sensiblement sa densité, ce qui suppose que la capsule, qui renfer<pc type="hyphenation">-</pc><lb break="no"/>me l’air, est fort grande<supplied>,</supplied> et en meme tems il faut que la surface inferieure
+      <lb/>du mercure soit bien grande; examinez ces deux circonstances dans
+      <lb/>votre thermometre, car vous deviez trouver à la place de votre proportion 128
+      <lb/>à 177 à peu prés 128 à 192; cependant moi<choice><orig> </orig><reg>-</reg></choice>meme, je ne saurois rien dire
+      <lb/>de bien precis n’ayant pas fait des experiences bien exactes et ne connoissant
+      <lb/>pas bien la marche de<del>s</del> ces <subst><del><gap/></del><add>th</add></subst>ermometres à air relative à celle de l’esprit
+      <lb/>de vin. Plusieurs physiciens paroissent ignorer encor que la marche
+      <lb/>de l’esprit de vin n’est pas proportionelle à celle du mercure; Le raport
+      <lb/>de ces differentes marches ou variations dans les densités de differentes
+      <lb/>liqueurs causées par le meme changement de chaleur, ce raport
+      <lb/>ouvre un champ à un grand nombre d’experiences fort curieuses.
+      <lb/><choice><orig>j</orig><reg>J</reg></choice>’ai <choice><orig>eté</orig><reg>été</reg></choice> surpris de voir que dans mon thermo<subst><del>t</del><add>m</add></subst>etre à air la marche
+      <lb/>etoit entierement la meme que dans un thermometre à esprit de vin
+      <lb/>depuis vingt degrés au<choice><orig> </orig><reg>-</reg></choice>dessus du temperé jusqu’à 27<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">d</hi> au<choice><orig> </orig><reg>-</reg></choice>dessous du temperé.
+      <lb/><choice><orig>mais</orig><reg>Mais</reg></choice> je suis bien <choice><orig>sur</orig><reg>sûr</reg></choice> que dans les froids excessifs, qu’on a <choice><orig>observé</orig><reg>observés</reg></choice> en <rs key="place_WEI-sibiria" type="place">Siberie</rs>,
+      <lb/>la marche eut <choice><orig>eté</orig><reg>été</reg></choice> extremement inegale. Quand vous vous serez bien
+      <lb/>familiarisé avec la machine balistique, vous pourez l’employer encor à mon<pc type="hyphenation">-</pc><lb break="no"/>trer l’effet de la resistance de l’air sur les bales legeres. Si les deux bales d’ivoire
+    <lb/>et de tremble<note type="comment">Espenholz</note>, chacune sous un angle de <measure>45<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">d</hi></measure> vont à la meme distance de <measure>15 pieds</measure>
+      <lb/>je ne doute pas, qu’etant tirées verticalement celle de tremble montera plus haut
+      <lb/>que celle d’ivoire. </p>
+<closer>
+<salute>Je suis toujours tres parfaitement, Monsieur mon tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, </salute>
+
+<signed><lb/>Votre tres obeïssant Serviteur
+<lb/>et tres affectioné <rs key="pers_DE-588-118656503" type="person">oncle</rs>
+<lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>. </signed>
+<lb/><dateline><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1766-06">.. juin 1766</date></dateline>
+</closer>
+<pb facs="5994677" n="37v"/>
+
+<address>
+<addrLine>A Monsieur</addrLine>
+<addrLine>
+<lb/>Monsieur <rs key="pers_DE-588-116170654" type="person">Jean Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></addrLine>
+<addrLine>
+<lb/>de l’<rs type="organisation">Academie <abbr>R.</abbr> des sciences</rs></addrLine>
+<addrLine>
+<lb/>à</addrLine>
+<addrLine>
+<lb/><rs key="place_GEO-2950159" type="place">Berlin</rs>. </addrLine>
+</address>
+<pb facs="5994678" type="archival"/></div>
+</body>
+</text></TEI>

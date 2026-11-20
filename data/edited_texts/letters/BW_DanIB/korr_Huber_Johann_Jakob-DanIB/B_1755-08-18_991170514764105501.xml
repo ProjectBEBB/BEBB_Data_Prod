@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514764105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann Jakob Huber. Basel, 18. August 1755</title>
+          <title type="alt">1755.08.18: Bernoulli, Daniel (1700-1782) an Huber, Johann Jakob (1733-1798)</title>
+          <title type="alt">000055095</title>
+          <title type="alt">1755-08-18_Bernoulli_Daniel-Huber_Johann_Jakob</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514764105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514764105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Huber, Johann Jakob (1733-1798)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39829">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 49 k</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514764105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432846805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055095</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3,5 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1755-08-18">ce 18. aoust 1755</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1755-08-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514764205501" type="prev"/>
+          <ptr target="B_991170514764005501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-DanIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1156360374">Dietrich, Johannes</persName>
+            <note type="lebensdaten">(1715-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-122151550">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1704-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153517639">Schweighauser, Johannes</persName>
+            <note type="lebensdaten">(1673-1761)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-30" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2026-03-28" who="NG">Tagging</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-23" who="RG">NER Erkennung</change>
+        <change when="2024-03-21" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-03-21" who="RG">Kleinere Anpassungen, Personen und Orte ausreferenziert</change>
+        <change when="2024-03-21" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1369592/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1369593" n="1"/>
+  <opener>
+        <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1755-08-18">18. aoust 1755</date>.
+        </dateline>
+  </opener>
+  <opener>
+        <salute>
+      <lb/>Monsieur, mon tres cher Ami.
+        </salute>
+  </opener>
+  <p>
+      <lb/>Je suis extremement content de la montre que vous
+      <lb/>avez eu la bonté de me faire faire et de m’envoyer.
+      <lb/><choice><orig>depuis</orig><reg>Depuis</reg></choice> 24<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> heures que j’en suis en possession<supplied>,</supplied> je lui trouve
+      <lb/>deja un si grand degré de perfection, que j’en suis tout etonné.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> n’y a d’ailleurs rien d’oublié de tout ce qui peut donner du
+      <lb/>brillant à un ouvrage si achevé. Enfin, mon cher Monsieur,
+      <lb/>la piece est trop riche de toutes les façons pour etre ni donnée
+      <lb/>ni <choice><orig>recue</orig><reg>reçue</reg></choice> en present et encore moins en honoraire, car la
+      <lb/>disproportion seroit trop grande. Usons<supplied>,</supplied> je vous prie<supplied>,</supplied>
+      <lb/>de part et d’autre de cette franchise qui convient entre
+      <lb/>des Amis tels que je me flatte que nous serons tant que
+      <lb/>je vivrai. Marquez<choice><orig> </orig><reg>-</reg></choice>moi donc le prix et je m’expliquerai
+      <lb/>tout naturellement pour le reste. <choice><orig>quel</orig><reg>Quel</reg></choice> que ce prix puisse
+      <lb/>etre, je suis trop prevenu et l’ouvrage est trop excellent,
+      <lb/>pour que je trouve ce prix excessif. En attendant,
+      <lb/>que vous me donniez cette marque de votre amitié,
+      <lb/>je Vous fais des remercimens infinis du grand soin
+      <lb/>que vous avez eu à me si bien servir.
+  </p>
+  <p>
+      <lb/>Vous voilà donc, Monsieur, <rs type="person">Membre de l’Academie
+      <lb/>Royale des Sciences de <rs key="place_GEO-2950159" type="place">Berlin</rs></rs>. <choice><orig>je</orig><reg>Je</reg></choice> Vous en fais
+<pb facs="1369595" n="2"/>
+      <lb/>bien des complimens et j’en fais encore d’avantage
+      <lb/>à cette <rs type="organisation">Academie</rs>, qui fait une aussi belle acquisition,
+      <lb/>dont votre modestie ne vous laisse pas voir tout le prix.
+      <lb/><choice><orig>mais</orig><reg>Mais</reg></choice> votre absence me fera bien de la peine; c’est mon
+      <lb/>sort de n’avoir jamais personne avec qui je puisse parler
+      <lb/>de mon metier. <choice><orig>que</orig><reg>Que</reg></choice> j’eusse <choice><orig>eté</orig><reg>été</reg></choice> charmé de profiter
+      <lb/>des nouvelles connoissances que vous aurez acquises en
+      <lb/><rs key="place_VER-englan" type="place">Angleterre</rs>. <abbr>Mons.<hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-122151550" type="person">Pere</rs> me console, car son
+      <lb/>intention n’est pas que vous vous fixiez pour long<pc type="hyphenation">-</pc><lb break="no"/>tems chez les Etrangers. Je vois avec plaisir que Vous
+      <lb/>avez pris plus de gout pour les mathematiques pures
+      <lb/>et pour les Calculs. Vous aurez la satisfaction de
+      <lb/>trouver à <rs key="place_GEO-2950159" type="place">Berlin</rs> le plus grand mathematicien et Calcu<pc type="hyphenation">-</pc><lb break="no"/>lateur du monde; mais defiez<choice><orig> </orig><reg>-</reg></choice>vous de ses <hi rend="u">principia
+      <lb/>Philosophandi</hi>, que j’avoue n’avoir jamais eu mon
+      <lb/>approbation. <choice><orig>je</orig><reg>Je</reg></choice> suis sûr aussi que vous trouverez
+      <lb/>sa façon de penser là<choice><orig> </orig><reg>-</reg></choice>dessus bien differente de celle
+      <lb/>de l’Illustre <rs key="place_VER-englan" type="place">Nation Angloise</rs>, que vous savez estimer
+      <lb/>autant qu’elle le merite.
+  </p>
+  <p>
+      <lb/>La <rs type="biblio">solution</rs> que vous avez donnée de mon <rs type="biblio">probleme</rs>
+      <lb/>convient parfaitement avec la mienne et avec
+      <lb/>les experiences que nous avons faites ici, <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-1156360374" type="person">Dietrich</rs> et moi. <choice><orig>cela</orig><reg>Cela</reg></choice> marque en meme tems
+<pb facs="1369596" n="3"/>
+      <lb/>l’excellence des aiguilles de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietrich</rs>. Ne pourriez<choice><orig> </orig><reg>-</reg></choice>
+      <lb break="no"/>Vous pas obtenir de cette <rs type="organisation">Academie</rs>, où vous vous trou<pc type="hyphenation">-</pc><lb break="no"/>vez actuellement qu’on repande ces aiguilles dans les
+      <lb/>pays lointains et que les <rs type="person">Capitaines de vaisseaux</rs> en
+      <lb/>fassent des observations toutes les fois que les grands
+      <lb/>calmes pourroient le permettre. <choice><orig>il</orig><reg>Il</reg></choice> semble que l’incli<pc type="hyphenation">-</pc><lb break="no"/>naison est actuellement à <rs key="place_GEO-2661604" type="place">Bale</rs> de 70 degrés à quelques
+      <lb/>minutes prés. Si vous croyez nos premieres observa<pc type="hyphenation">-</pc><lb break="no"/>tions assez justes, il faudra dire que l’inclinaison
+      <lb/>a diminué d’environ un degré et demi. J’ai <choice><orig>recu</orig><reg>reçu</reg></choice>
+      <lb/>des <rs type="biblio">memoires de <rs key="place_GEO-2992166" type="place">Montpellier</rs></rs>, où l’on pretend y avoir fait
+      <lb/>des cures miraculeuses par le moyen de l’electricité. <choice><orig>dans</orig><reg>Dans</reg></choice>
+      <lb/>quelle odeur sont ces sortes de cures en <rs key="place_VER-englan" type="place">Angleterre</rs>?
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1153517639" type="person">Schweighauser</rs> le <foreign xml:lang="ger">Gerichtsherr</foreign> a voulu se servir
+      <lb/>de cette cure contre une Sciatique extremement opiniatre,
+      <lb/>qui le tourmente depuis tres longtems; mais il lu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> a
+      <lb/>paru s’en trouver plus mal; s’il etoit sûr que l’electri<pc type="hyphenation">-</pc><lb break="no"/>sation ordinaire eut augmenté son mal, il est à presumer
+      <lb/>qu’une electrisation negative lui eut fait du bien.
+  </p>
+  <p>
+      <lb/>Je finis en Vous souhaitant un heureux voyage;
+      <lb/>on ne sauroit prendre plus de part, que je fais, à tout
+      <lb/>ce qui Vous regarde. <choice><orig>honorez</orig><reg>Honorez</reg></choice><choice><orig> </orig><reg>-</reg></choice>moi toujours de votre amitié.
+      <lb/><choice><orig>j</orig><reg>J</reg></choice>’espere que nous aurons ensemble un commerce reglé, quand
+      <lb/>Vous serez à <rs key="place_GEO-2950159" type="place">Berlin</rs>.
+  </p>
+  <closer>
+        <salute>J’ai l’honneur d’etre tres parfaitement,
+      <lb/>Monsieur,
+      <lb/>votre tres humble et tres
+      <lb/>obeïssant Serviteur
+        </salute>
+        <signed>
+      <lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+        </signed>
+  </closer>
+<pb facs="1369597" n="4"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> Dans ce moment, <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietrich</rs> me vient voir; il a <choice><orig>recu</orig><reg>reçu</reg></choice> une <rs type="letter">lettre</rs>
+        <lb/>qui lui donne quelque esperance de faire valoir ses aiguilles d’inclinai<pc type="hyphenation">-</pc><lb break="no"/>son auprez de l’<rs type="organisation">Admirauté d’<rs key="place_VER-englan" type="place">Angleterre</rs></rs>; cela etant il ne trouve pas
+        <lb/>bon, qu’on publie la construction de ces aiguilles.
+    </p>
+  </postscript>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-13763868X" type="person">Huber</rs></addrLine>
+      <addrLine>Membre de l’<rs type="organisation">Academie</rs></addrLine>
+      <addrLine>Royale des Sciences de Berlin</addrLine>
+      <addrLine><choice><sic>presentenent</sic><corr>presentement</corr></choice></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2643743" type="place">Londres</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

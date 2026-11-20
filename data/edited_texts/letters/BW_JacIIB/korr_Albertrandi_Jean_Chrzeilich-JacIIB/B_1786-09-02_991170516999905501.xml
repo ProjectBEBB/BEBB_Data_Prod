@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516999905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jan Chrzciciel Albertrandy an Jacob II Bernoulli.
+                        Warschau, 02. September 1786</title>
+          <title type="alt">Jan Chrzciciel
+                        Albertrandy an Jacob II Bernoulli. Warschau, 02. September
+                        1786</title>
+          <title level="s">Basler Edition der
+                        Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516999905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516999905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-120475030" type="person">Jacob II Bernoulli</rs>
+                    (1759-1789)</title>
+        <title level="s" type="Korrespondenz">Albertrandi, Jean Chrzeilich (1731-1808)
+                </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren. Auf der Adresseite Rechnungen mit
+                        Bleistift.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-49748">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 677:Bl.90-91</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516999905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433669105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000060080</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>20,5</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Warschau]</origPlace>
+              <date when="1786-09-02">ce 2 Sept.
+                                1786</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-1055453040">Albertrandy, Jan Chrzciciel</persName>
+          <placeName key="place_GEO-756135" ref="https://d-nb.info/gnd/4079048-4">Warschau</placeName>
+          <date when="1786-09-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann II</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517158605501" type="prev"/>
+          <ptr target="B_991170514768205501" type="next"/>
+          <ptr target="BW_JacIIB" corresp="pers_DE-588-120475030" type="Briefwechsel"/>
+          <ptr target="korr_Albertrandi_Jean_Chrzeilich-JacIIB" corresp="pers_DE-588-1055453040" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Einladung zum Diner mit dem polnischen König während Hoftrauer. Albertrandi,
+                    Gründer der Warschauer Akademie und später Bischof von Zenepolis, war damals
+                    laut Unterschrift "Chanoine de Gnesne et de Varsovie [et] Secr. du Roi [de
+                    Pol.]"</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119095777">Stanisław August</persName>
+            <note type="lebensdaten">(1732-1798)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2004-03-18" who="FN SG">kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1588305/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/1588305/canvas/1586997" type="archival"/>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/1588305/canvas/1586998" type="archival"/>
+<pb facs="1586999" n="90r"/>
+  <opener>Monsieur</opener>
+  <p>Je viens de recevoir l’ordre du <rs type="person" key="GND">Roi</rs> de vous emme<pc type="hyphenation">-</pc><lb break="no"/>ner demain à diner chez Sa <rs type="person" key="GND">Majesté</rs>, en conse<pc type="hyphenation">-</pc><lb break="no"/>quence j’aurai l’honneur de venir vous prendre à
+      <lb/>une heure après midi. Je crois que Vous savez
+      <lb/>M.r que la Cour est en deuil et que l’etiquette
+      <lb/>exige qu’on le présente au <rs type="person" key="GND">Roi</rs> de la même ma<pc type="hyphenation">-</pc><lb break="no"/>niere. Je suis avec tout le respect possible</p>
+  <closer>Monsieur
+      <lb/>Ce 2. Sept. 1786
+      <lb/>Votre trés humble et
+      <lb/>très obeissant Serviteur
+      <lb/><rs type="person" key="pers_DE-588-1055453040">J. B. d’Albertrandi</rs>
+      <lb/>Chanoine de <rs type="place" key="place_GEO-3099112">Gnesne</rs> et
+      <lb/>de <rs type="place" key="place_GEO-756135">Varsovie</rs> Secr. du <rs type="person" key="GND">Roi</rs>
+<pb facs="1587000" n="90v" type="empty"/>
+<pb facs="1587001" n="91r" type="empty"/>
+<pb facs="1587002" n="91v"/>
+    <address><addrLine>Pour Monsieur</addrLine>
+      <addrLine>de <rs type="person" key="pers_DE-588-120475030">Bernouilly</rs></addrLine>
+      <addrLine>chez lui</addrLine></address></closer>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430336405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacob Hermann an Louis Bourguet. Padua, 17. Mai 1713</title>
+          <title type="alt">1713.05.17: Hermann, Jacob (1678-1733)
+                                    an Bourguet, Louis (1678-1742)</title>
+          <title type="alt">000059658</title>
+          <title type="alt">1713-05-17_Hermann_Jacob-Bourguet_Louis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430336405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430336405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Bourguet, Louis (1678-1742)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf dem Briefkopf mit Bleistift: "17 Mai 1713".</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Neuchâtel BPU, Ms</repository>
+            <idno type="callNumber">1272/5, fo.61</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430336405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406839305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059658</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Pad.e</origPlace>
+              <date when="1713-05-17">ce 17 May 1713.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+          <date when="1713-05-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116298553">Bourguet, Louis</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430336505501" type="prev"/>
+          <ptr target="B_991170430336305501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Bourguet_Louis-Hermann" corresp="pers_DE-588-116298553" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1152041665">Bonis, Alexandros</persName>
+            <note type="lebensdaten">(1672-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1201314852">Bourguet, André</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1188760025">Bourguet, Jean</persName>
+            <note type="lebensdaten">(1652-)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1186849312">Bourguet, Jean</persName>
+            <note type="lebensdaten">(-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-122952537">Faesch, Sebastian</persName>
+            <note type="lebensdaten">(1647-1712)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117205508">Iselin, Jakob Christoph</persName>
+            <note type="lebensdaten">(1681-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118617577X">Jourdan, Susanne</persName>
+            <note type="lebensdaten">(1668-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1048657159">Ostervald, Samuel</persName>
+            <note type="lebensdaten">(1692-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121792498">Piceninus, Antonius</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118867865">Vallisnieri, Antonio</persName>
+            <note type="lebensdaten">(1661-1730)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-09-29" who="MS">Korrekturen durch Autor eingebaut</change>
+        <change when="2022-10-14" who="MS">note type="editorial" in type="comment", kleinere Tags, Digitalisate eingebaut</change>
+        <change when="2022-08-24" who="MS">Header angepasst, Seitennummerierung</change>
+        <change when="2019-07-15" who="MS">Persontags eingefügt, keine Werktags, Brieftags eingefügt, BIBB aktualisiert, MS; Personenrecherche, BIBB aktualisiert</change>
+        <change when="2018-09-19" who="SG MS">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile><graphic url="manifests/M_1713-05-17_991170430336405501"/></facsimile><text><body><div type="letter">
+<pb facs="991170430336405501_01" n="61r"/>
+  <opener><salute>Monsieur et tres <choice><orig>honore</orig><reg>honoré</reg></choice> Amy</salute></opener>
+  <p><lb/><choice><abbr>Mons.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> <rs key="pers_DE-588-118867865" type="person">Wallisnieri</rs> m’a envoyé ce matin vôtre <rs type="letter">lettre</rs> avec <rs type="letter">l’incluse</rs>
+      <lb/>pour <abbr>Mr.</abbr> de <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>. Je ne manqueray pas de la luy faire tenir
+      <lb/><choice><abbr>ponctuellem.<hi rend="sup">t</hi></abbr><expan>ponctuellement</expan></choice><add> et</add> de luy faire scavoir Vos sentiments d’estime et de
+      <lb/>veneration de sa personne et de son merite. Je Vous remercie fort
+      <lb/>de Vos voeux s<subst><del><gap/></del><add>u</add></subst>r mon Voyage, et je Vous souhaite reciproquement
+      <lb/>toute sorte de prosperité aussi bien <choice><orig>qu’a</orig><reg>qu’à</reg></choice> <choice><abbr>Md.<hi rend="sup">e</hi></abbr><expan>Madame</expan></choice> votre <rs key="pers_DE-588-118617577X" type="person">Epouse</rs>, <choice><abbr>Mons.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> votre
+      <lb/><rs key="pers_DE-588-1188760025" type="person">Pere</rs>, <abbr>Mrs.</abbr> Vos <rs type="person" key="pers_DE-588-1186849312 pers_DE-588-1201314852">freres</rs> enfin à tous ceux qui Vous appartiennent, sur<pc type="hyphenation">-</pc><lb break="no"/>tout une bonne et durable santé. Je ne manqueray pas de bien faire
+      <lb/>Vos compliments <choice><orig>a</orig><reg>à</reg></choice> <choice><abbr>Mess.<hi rend="sup">rs</hi></abbr><expan>Messieurs</expan></choice> <rs key="pers_DE-588-117205508" type="person">Iselin</rs>, Frey, <rs key="pers_DE-588-1048657159" type="person">Ostervald</rs> et <choice><orig>a</orig><reg>à</reg></choice> d’autres; je souhai<pc type="hyphenation">-</pc><lb break="no"/>terois fort de les <subst><del><gap/></del><add>p</add></subst>ouvoir faire de meme <choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr.</abbr> <rs key="pers_DE-588-122952537" type="person">Fesch</rs> ainsi que Vous me
+      <lb/>l’ordonnez, parce que Vous ne scavez pas apparemment que cet habile Juris<pc type="hyphenation">-</pc><lb break="no"/>consulte et Antiquaire est mort il y a deja quelque tems. J’ecrivis hier
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr.</abbr> <rs key="pers_DE-588-1152041665" type="person">Bonis</rs> pour prendre congé de luy et pour luy repondre sur ces diffi<pc type="hyphenation">-</pc><lb break="no"/>cultés sur les quelles il m’a fait l’honneur de me consulter. Je suis distrait
+      <lb/>de mille bagatelles c’est pour cela que j’ecris <choice><abbr>confusem<hi rend="sup">t</hi></abbr><expan>confusement</expan></choice>. Je Vous prie d’assurer
+      <lb/>de mes respets tous les amis de <rs key="place_GEO-3164603" type="place">V<unclear>e</unclear>nise</rs> qui sont de notre Connoissance.
+      <lb/>Si Vous verrez <abbr>Mr.</abbr> le Docteur <rs key="pers_DE-588-121792498" type="person">Picenino</rs> qui est <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-3164603" type="place">Venise</rs>, je Vous prie de
+      <lb/>luy faire aussi mes compliments mais sur tout n’oubliez pas de les faire
+      <lb/>de ma part <choice><orig>a</orig><reg>à</reg></choice> Madame Votre <rs key="pers_DE-588-118617577X" type="person">Epouse</rs> et à <abbr>Mr.</abbr> Votre <rs type="person" key="pers_DE-588-1186849312">frere</rs>; Adieu et soyez
+      <lb/>persuadez que je suis et seray toujour et de tout mon coeur</p>
+  <closer><lb/>Monsieur et tres cher Amy
+      <lb/>Votre tres humble et tres
+      <lb/><choice><abbr>obéss<hi rend="sup">t</hi></abbr><expan>obéissant</expan></choice> <choice><abbr>sr.</abbr><expan>serviteur</expan></choice> <signed><rs key="pers_DE-588-119112450" type="person">Herman</rs></signed>.
+                                  <dateline><lb/><rs key="place_GEO-3171728" type="place"><abbr>Pad.<hi rend="sup">e</hi></abbr></rs> ce <date when="1713-05-17">17 May 1713</date>.</dateline></closer>
+  <postscript><p><lb/>Je partiray s<supplied>’</supplied>il plait au <choice><abbr>S.</abbr><expan>Seigneur</expan></choice> le 20 detto
+        <lb/>pour <rs key="place_GEO-3164419" type="place">Vicence</rs></p></postscript>
+<pb facs="991170430336405501_02" n="61v" type="empty"/>
+</div></body></text></TEI>

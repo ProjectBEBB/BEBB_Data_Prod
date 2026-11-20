@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514786505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Louis Moreau de Maupertuis an Johann I Bernoulli.
+            Paris, 15. März 1735</title>
+          <title type="alt">000056579</title>
+          <title type="alt">1735-03-15_Maupertuis_Pierre_Louis_Moreau_de-Bernoulli_Johann_I</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514786505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514786505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Maupertuis, Pierre Louis Moreau de (1698-1759)
+        </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24732">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 662, Nr.43*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514786505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433110405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056579</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A paris</origPlace>
+              <date when="1735-03-15">15 Mars
+              1735</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1735-03-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514786605501" type="prev"/>
+          <ptr target="B_991170514786405501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Pierre_Louis_Moreau_de-JohIB" corresp="pers_DE-588-118731998" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-129466697">Anisson, Jean</persName>
+            <note type="lebensdaten">(1642-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1165724057">Bricault, Jacques</persName>
+            <note type="lebensdaten">(1695-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117528854">König, Samuel</persName>
+            <note type="lebensdaten">(1712-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1076298087">Zaeslin, Johann Heinrich</persName>
+            <note type="lebensdaten">(1697-1752)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1735-03-15_Maupertuis_Pierre_Louis_Moreau_de-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2009-06-17" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1075397/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1735-03-15_Maupertuis_Pierre_Louis_Moreau_de-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1075398" n="1"/> Monsieur </p>
+  <p>J’ay receu l’honeur de votre lettre du 22 Fevr.
+          et vous ay pris suivant votre ordre X Actions à la Tontinne pour en jouir vous et vos
+          heritiers apres vous sur la Teste du Roy Louis XV. J’ay donné pour cela au Notaire Bricault trois mille livres dont j’ay son
+          recepisse pour luy rendre lorsque il me remettra en main le contract. Je n’ay point voulu
+          demander cet argent à m. Zeslin etant en etat d’en faire l’avance, et d’attendre que vous
+          me le remboursiés par lettres de change. </p>
+  <p>Le petit present que j’ay pris la liberté de vous faire, n’est monsieur que le temoignage
+          de la moindre partie de la reconnoissance que je vous ay pour toutes les bontés que vous
+          avés eues pour nous pendant notre séjour à Basle; et je suis bien eloigné de vous regarder
+          comme trop interessé ny de vous traitter ainsy avec personne. </p>
+  <p>Quelque diligence que j’aye faitte, il me sera impossible de vous envoyer sitost les
+          exemplaires de votre piece; quoy qu’elle <pb facs="1075399" n="2"/> soit achevée
+          d’imprimer aussy bien que celle de m. votre fils, m. Anisson ne les veut mettre en vente
+          que vers un mois parce qu’il faut ce tems dit il pour les arranger et les secher. Au
+          retardement prés, vous serés je crois content de l’edition qui est fort belle et faitte
+          avec tout le soin dont je suis capable. Je suis toujours avec un attachement respectueux
+          Monsieur Votre tres humble et tres obeissant serviteur Maupertuis</p>
+  <p>A paris 15 Mars 1735 </p>
+  <p>Voicy une lettre que je vous prie de remettre à
+          m. Koenig votre disciple. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

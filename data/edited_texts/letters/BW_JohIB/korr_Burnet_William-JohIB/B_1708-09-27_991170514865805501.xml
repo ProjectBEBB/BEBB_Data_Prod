@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170514865805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">William Burnet an Johann I Bernoulli. Genf, 27. September 1708</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514865805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514865805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Die Seiten 2 bis 4 sind mit Berechnungen zu einer bei Craig behandelten Differentialgleichung beschrieben</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">TEI XML</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.169</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24552">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 654, Nr.1*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514865805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432945005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055681</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1708-09-27">27 Sept. 1708</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-104185643">Burnet, William</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1708-09-27"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430096205501" type="prev"/>
+          <ptr target="B_991170514865705501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Burnet_William-JohIB" corresp="pers_DE-588-104185643" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Burnet beginnt mit diesem Brief seine Korrespondenz mit Johann I Bernoulli. Er hat Craigs Quadraturbedingungen für algebraische Kurven [Methodus figurarum lineis rectis et curvis comprehensarum quadraturas determinandi, London 1685] studiert und korrigiert. Er sendet seine Berechnungen an Joh. B. mit der Bitte um Durchsicht. Insbesondere möchte er Joh. B.s Methode bei der Behandlung der Kurve mit der Gleichung z[exp.m] + a y [exp.n] = b z[exp.e] y[exp.r] durch Substitution und bei deren Quadratur kennenlernen. Er sendet Grüsse an Verzaglia und Nicolaus I Bernoulli. Er bittet, die Antwort nach Genf zu richten, wo er für 10 bis 12 Tage bei den Mlles. Turretin in der Grande rue wohnt. Auf dem Beiblatt bezeichnet sich Burnet als ehemaligen Schüler Craigs.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124465641">Craig, John</persName>
+            <note type="lebensdaten">(1663-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Turretin, Mlles</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089923198">Verzaglia, Giuseppe</persName>
+            <note type="lebensdaten">(1669-1728)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+        <change when="2010-01-15" who="FN SG">kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+  <graphic url="https://www.e-manuscripta.ch/i3f/v20/1073149/manifest"/>
+</facsimile>
+<text>
+  <body>
+    <div type="letter">
+
+<pb facs="1073150" type="archival"/>
+      <pb facs="1073151" type="archival"/>
+      <pb facs="1073152" n="1"/>
+  <opener><lb/><dateline><rs key="place_GEO-2660646" type="place">Geneve</rs> <date when="1708-09-27">27. Sept. 1708</date></dateline>
+
+      <lb/><salute>Monsieur</salute></opener>
+
+  <p> <lb/>Je vous avoue, que c’est fort temeraire <choice><orig>a</orig><reg>à</reg></choice> moi, de
+      <lb/>vous oser ecrire sur ces matieres, que j’entend si peu, mais
+      <lb/><choice><orig>Je</orig><reg>je</reg></choice> voulois avoir quelque pretexte, pour commencer
+      <lb/>un<del><gap/></del> commerce de lettres avec une personne, dont j’ad<pc type="hyphenation">-</pc><lb break="no"/>mire tant le genie, et le scavoir, et dont je me
+      <lb/>ferai un tres grand honneur, de recevoir
+      <lb/>des instructions de temps en temps. Je me suis appliqué
+      <lb/>hier à trouver la veritable manière de corriger
+      <lb/>la condition de quadrabilité dans le traité de
+      <lb/><abbr>M.<hi rend="sup"></hi></abbr> <rs type="person">Craig</rs>, et pour faire cela j’etois obligé de
+      <lb/>tracer la methode du le commencement; ainsi j’ay
+      <lb/>creu que vous ne seriés pas faché, de la voir
+      <lb/>tout au long, avec les corrections necessaires <del></del>
+      <lb/><del><gap/></del>; si vous vouliés <choice><sic>bein</sic><corr>bien</corr></choice> jetter
+      <lb/><del><gap/></del>les yeux, <choice><orig>la</orig><reg>là</reg></choice> dessus, et m’ecrire votre sentiment,
+      <lb/>vous m’obligeriés extremement. <choice><orig>et</orig><reg>Et</reg></choice> si cela ne vous
+      <lb/>incommodoit pas trop, je souhaitterois de voir votre
+      <lb/>maniere de traiter cette equation <formula>z^{m}+ay^{n}=bz^{e}y^{r}</formula>
+      <lb/>par substitution, et de <choice><orig>trouer</orig><reg>trouver</reg></choice> l’Area; Je l’ay veue trop
+      <lb/>en passant pour la bien rappeler, mais elle m’a
+      <lb/>tant <choice><orig>pleu</orig><reg>plu</reg></choice> que je souhaiterois de la considerer
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> loisir; Excusez cette hardiesse, parsque
+      <lb/>c’est l’envie d’apprendre de vous qui me la fait
+      <lb/>prendre; et je vous assure que vous me trou<pc type="hyphenation">-</pc><lb break="no"/>verés pas un ingrat<del><gap/></del>
+      <lb/><del><gap/></del>; mais tres reellement</p>
+  <closer>Monsieur <space/> votre tres <choice><orig>obligè</orig><reg>obligé</reg></choice> et tres obeissant Serviteur
+        <rs type="person">W. Burnet</rs>.</closer>
+
+  <postscript><p><choice><orig>mes</orig><reg>Mes</reg></choice> compliments <choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr.</abbr> <rs type="person">Verzaglia</rs>, et Monsieur votre <rs type="person">neveu</rs>.
+
+        <add>Si vous voulois avoir la bonté de repondre <choice><orig>a</orig><reg>à</reg></choice> ma lettre, je seray ici
+  encore 10 ou 12 jours, chez <abbr>M.<hi rend="sup">lles</hi></abbr> <rs type="person">Turretin</rs> dans la Grande
+  rue.</add><note type="editorial">Dieser Satz steht am oberen Rand der Manuskriptseite.</note></p></postscript>
+
+<pb facs="1073153" n="2"/>
+
+
+    </div>
+    <div type="attachment">
+      <gap reason="editorial"></gap>
+  <p>
+
+  </p>
+
+      <pb facs="1073154" n="3"/>
+    </div>
+  </body>
+</text>
+</TEI>

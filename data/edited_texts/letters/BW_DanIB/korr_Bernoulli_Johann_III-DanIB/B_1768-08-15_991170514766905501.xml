@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514766905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Basel,
+                        15. August 1768</title>
+          <title type="alt">1766.08.15: Bernoulli, Daniel
+                        (1700-1782) an Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000054768</title>
+          <title type="alt">1768-08-15_1766-08-15_Bernoulli_Daniel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514766905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514766905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs>
+                    (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+        <note type="print">
+          <p>Druck teilw.: Nouveaux mémoires de l'Académie Royale des
+                        Sciences et Belles Lettres. - Berlin : Decker. - 1781, S. 360,
+                    364-365</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck historisch</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Auszug unter dem Titel "Remarque du 15 Aout" in Ms UB Basel L Ia 749 F 7 als Beigabe zur handschriftlichen Fassung des Aufsatzes von Joh. III B. "Sur la force et l'extension des lames élastiques"</p>
+          <p n="MARC-533">Auszug von Johann Bernoulli, siehe Signatur L Ia 749:Bl.246-249, 304-308</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200198">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.45-48</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514766905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432854905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054768</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1768-08-15">[15. August
+                                1768]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1768-08-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170491266505501" type="prev"/>
+          <ptr target="B_991170514766805501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514767005501" type="prev"/>
+          <ptr target="B_991170514766805501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Am Briefkopf eigenhändig: "Pour mon Neveu sur la petite machine balistique". Der
+                    Brief enthält Kommentare zu Joh. III B.s Aufsätzen "Sur la cohérence des corps,
+                    Second Mémoire. Problemes sur la force et la courbure des lames élastiques" und
+                    "Sur la cohérence des corps. Troisieme Mémoire. Problemes sut la résistance des
+                    poutres" (Mémoires Berlin 1766 (1768), pp.99-107 und pp.108--116. Da der Auszug
+                    auf den 15. August datiert ist und der Druck nicht vor 1768 vorlag, ist der
+                    Brief nach diesem Datum anzusetzen</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+            <note type="lebensdaten">(1698-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119020890">Hirzel, Hans Caspar</persName>
+            <note type="lebensdaten">(1725-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568698">Lagrange, Joseph Louis de</persName>
+            <note type="lebensdaten">(1736-1813)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-128835354">Orlov, Vladimir Grigorʹevič</persName>
+            <note type="lebensdaten">(1743-1831)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118749420">Réaumur, René Antoine Ferchault de</persName>
+            <note type="lebensdaten">(1683-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1060062828">Zuberbühler, Johann Jakob</persName>
+            <note type="lebensdaten">(1723-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1069611298">Wirz, Hans Jakob</persName>
+            <note type="lebensdaten">(1705-1764)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-05" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change when="2026-10-30" who="CG SG">Kollationieren begonnen.</change>
+        <change when="2026-10-14" who="SG">Briefstruktur und Normalisierungen nachbearbeitet.</change>
+        <change when="2026-10-14" who="SG">Briefstruktur und Normalisierungen nachbearbeitet.</change>
+        <change when="2026-10-01" who="SG">Vorbereitung für die Kollation erweitert: Zeilenfall und Worttrennungen bildgestützt überprüft sowie Normalisierungen, mathematische Auszeichnungen und Entitäten-Pretagging ergänzt.</change>
+        <change when="2026-09-24" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994735/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="5994736" n="45r"/>
+<head> Pour mon <rs key="pers_DE-588-116170654" type="person">Neveu</rs> sur la petite machine balistique. </head>
+  <p>
+      <lb/>Dans l’<rs type="biblio">introduction</rs> on pourroit dire <add>sans me nommer</add>, qu’ayant vû à <rs key="place_GEO-2661604" type="place">Bale</rs> dans un cours de
+      <lb/>physique experimentale faire avec beaucoup de succés toutes les experiences sur
+      <lb/>le jet de petits globes de metal, semblable à celui des bombes et des boulets de
+      <lb/>canon, à l’aide d’une petite machine balistique d’une nouvelle invention,<del><gap/></del>
+      <lb/>le succés de ces experiences vous a engagé <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>... <abbr>Pag.</abbr> 6. Sans doute que la maniere
+      <lb/>de couper le fil est fort importante; il faut que le poids conserve son activité pendant qu’on coupe
+      <lb/>le fil; ce n’est que l’habitude, l’afilage des ciseaux, tenus bien horizontalement et en se precauti<pc type="hyphenation">-</pc><lb break="no"/>onant contre les moindres efforts, qui puissent tendre à augmenter o<subst><del><gap/></del><add>u à</add></subst> diminuer la tension du fil.
+      <lb/>Vous pourriez essayer cet autre moyen, qui seroit d’avoir tout prés un brazier pour y rougir un
+      <lb/>fer, dont il suffiroit aparemment de toucher legerement le fil ou de souffler un filet de flamme contre
+    <lb/>le fil avec un chalumeau; <add>un bon rasoir feroit peut<choice><orig/><reg>-</reg></choice>etre mieux que des ciseaux.</add> On peut se precautionner assez bien contre le frottement du fil sur la
+      <lb/>poulie en pinçant legerement la partie du fil qui est entre la poulie et le tuyau ou en donnant de petits
+      <lb/>coups de doigt aux cotés de la poulie, qui d’ailleurs doit etre fort mobile; votre moyen de frotter le fil avec du
+      <lb/>suif suppose que le fil doit glisser sur la poulie, en ce cas la poulie n’auroit aucune utilité; il faut
+      <lb/>que la poulie tourne librement sur son axe. <choice><orig>votre</orig><reg>Votre</reg></choice> autre moyen de laisser tomber le fil verticalement
+      <lb/>tout en sortant du tuyau est, à mon avis, tout ce qu’on peut faire de plus mal et il faut etre peu versé
+      <lb/>dans la mechanique pratique pour ne le pas voir; le seul bord de l’ouverture du passage du fil cause
+      <lb/>plus de frottement que toute autre chose<choice><orig>-</orig><reg>.</reg></choice> ... Ce qui peut faire varier le plus les jets obliques
+      <lb/>est peut<choice><orig/><reg>-</reg></choice>etre l’ebranlement de la machine, qui arrive au moment que le fil est coupé; il falloit
+      <lb/>donc apuyer un peu sur le moyen, que vous alleguez, de separer la poulie d’avec l’instrument.
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> crains aussi les frottements du ressort contre le canon; peut<choice><orig/><reg>-</reg></choice>etre qu’on y remedieroit en partie
+      <lb/>en frottant d’huile tant l’interieur du canon que le ressort lui<choice><orig> </orig><reg>-</reg></choice>meme. ... <choice><orig>je</orig><reg>Je</reg></choice> suis assez content de
+      <lb/>vos experiences sur la relation qu’il y a entre le racourcissement du ressort et le poids suspendu.
+      <lb/><choice><orig>j</orig><reg>J</reg></choice>’y vois cependant de petites irregularités, que je ne saurois attribuer qu’à un defaut
+      <lb/>de precision dans les observations et qui peuvent bien etre inevitables; il n’est du tout
+      <lb/>point à presumer qu’une meme augmentation de poids puisse produire un nouvel
+      <lb/>racourcissement qui aille en augmentant; si <measure>le premier quart de livre</measure> a produit un
+    <lb/>racourcissement de <measure>six quarts de ligne</measure>, je ne comprends pas, que le 18<hi rend="sup">e</hi>, le 19<hi rend="sup">e</hi> et le 20<hi rend="sup">e</hi>
+      <lb/>quart de livre ayent produit chacun <measure>8 quarts de ligne</measure> de racourcissement. <choice><orig>je</orig><reg>Je</reg></choice> conclus
+      <lb/>plutot de l’assemblage de toutes vos observations, que tous les nouveaux racourcissemens devroient
+      <lb/>etre <add>à peu prés</add> egaux entre eux et chacun à tres peu prés de <measure>7 <abbr>lig.</abbr></measure><supplied>,</supplied> s’il etoit possible d’avoir une precision
+      <lb/>entiere pour toutes les circonstances. Ce principe est proprement le meme que celui que vous
+      <lb/>avez adopté sur les allongemens des fils; il consiste à supposer les racourcissemens proportionels
+      <lb/>aux poids suspendus: peut<choice><orig/><reg>-</reg></choice>etre que le ressort etoit plus gené dans les premieres observations que
+      <lb/>dans les suivantes; on ne sauroit juger de ces choses sans avoir <choice><orig>eté</orig><reg>été</reg></choice> present aux experiences.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> auroit <choice><orig>eté</orig><reg>été</reg></choice> bon à chaque nouvelle observation de donner de petits coups de doigt au tuyau, qui
+      <lb/>servent à obtenir le vrai point d’equilibre; j’aurois souhaité que vous eussiez pris <unclear reason="lost" cert="high">chaque</unclear> fois
+      <lb/>le poids par les doigts et de le mettre tantot un peu au<choice><orig> </orig><reg>-</reg></choice>dessous et tantot un peu au<choice><orig> </orig><reg>-</reg></choice>dessus <unclear reason="lost" cert="medium">du poi</unclear>nt cherché;
+      <lb/>je suis <choice><orig>sur</orig><reg>sûr</reg></choice> qu’avec toutes les precautions qu’on peut prendre vous aprocherez de l’hypothese
+      <lb/>plus que vous n’avez fait. <choice><orig>en</orig><reg>En</reg></choice> tout cas elle merite qu’on y etablisse ses calculs qui sont fort
+      <lb/>faciles. Soit le racourcissement entier pour un certain poids <formula>P</formula>, <formula>=a</formula>, la masse ou le poids de la
+      <lb/>bale <formula>= m</formula>; imaginez<choice><orig> </orig><reg>-</reg></choice>vous que durant l’action du ressort, le racourcissement soit <formula>= x</formula> ou la resti<pc type="hyphenation">-</pc><pb facs="5994737" n="45v"/>
+<lb break="no"/>tution <formula>= a-x</formula>; on aura pour ce moment la force du ressort (par hypothese)  <formula>=\frac{x}{a}P</formula>; par consequent
+      <lb/><formula>dv=\frac{x}{a}\cdot\frac{P}{m}\cdot dt</formula> ou <formula>v\,dv=-\frac{P}{m}\cdot\frac{x}{a}\cdot dx</formula> et <formula>\frac{1}{2}vv=-\frac{Pxx}{2ma}+\frac{Pa}{2m}</formula>; pour avoir la hauteur entiere de la
+      <lb/>vitesse de la bale, il faut faire <formula>x=0</formula>; donc cette hauteur sera <formula>= \frac{Pa}{2m}</formula>. <choice><orig>il</orig><reg>Il</reg></choice> est bon de donner
+      <lb/>la definition du terme <add>de</add> <hi rend="u">charge</hi>; on la supose proportionelle à la dite hauteur, qui en fait
+      <lb/>la mesure tant qu’on se sert de la meme bale et qu’on varie le poids de la tension: qu’on
+      <lb/>suspende un autre poids quelconque <formula>P'</formula>, le racourcissement sera àlors (par <abbr>hyp.</abbr>) <formula>=\frac{P'}{P}a</formula> et
+      <lb/>la hauteur du jet vertical <formula>= \frac{P'}{2m}\cdot\frac{P'}{P}\cdot a</formula>; comme les seuls poids <formula>P'</formula> varient, il s’ensuit
+      <lb/>que les hauteurs des jets verticaux sont en raison des quarrés de ces poids: <subst><del><gap/></del><add>l</add></subst>a sixieme co<pc type="hyphenation">-</pc><lb break="no"/>lonne de Votre seconde table ne s’eloigne pas beaucoup de cette theorie hypothetique; par exemple
+      <lb/>avec le poids de <measure>2.<unclear reason="illegible"><hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></unclear></measure> <measure>3 <abbr>l.</abbr></measure> la bale est montée à la hauteur verticale de <measure>8 pouces</measure> et avec celui
+    <lb/>de <measure>4<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure> <measure>7 <foreign xml:lang="ger">loht</foreign></measure>, qui est à peu prés le double, elle est montée à la hauteur de <measure>32 pouces</measure>, qui est quadruple.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> me semble à tout prendre, que cette hypothese satisfait tout aussi bien que votre integration
+      <lb/>par parties. Je voudrois que vous refissiez les experiences de la 2.<hi rend="sup">de</hi> colonne de la premiere table
+      <lb/>avec les precautions que j’ai indiquées; en raprochant les observations de l’hypothese autant que la
+      <lb/>bonne foy peut le permettre; je suis <choice><orig>sur</orig><reg>sûr</reg></choice> que vous trouverez d’autres resultats, si vous faites
+      <lb/>vos observations à rebours en commeçant par le plus grand poids et en diminuant successivement
+      <lb/>ce poids, et <add>que</add> vous ne <choice><orig>fassies</orig><reg>fassiez</reg></choice> pas usage des dites precautions. Votre correction de multiplier
+    <lb/>la hauteur du jet vertical par la fraction <formula>\frac{m}{m+\pi+\frac{1}{3}\varphi}</formula> me paroit bien employée; mais lorsque <formula>m=</formula>
+    <lb/><measure><formula>2\frac{1}{2}</formula> <foreign xml:lang="ger">loht</foreign></measure>, <formula>\pi=</formula> <measure><formula>\frac{3}{8}</formula> <abbr>l.</abbr></measure> et <formula>\varphi=</formula> <measure><formula>\frac{15}{16}</formula> <abbr>l.</abbr></measure><supplied>,</supplied> cette fraction devient <formula>= \frac{40}{51}</formula> et Vous la faites <formula>= \frac{20}{31}</formula>, qui est bien
+      <lb/>differente et qui diminue la correction considerablement, de sorte que la theorie differe des obser<pc type="hyphenation">-</pc><lb break="no"/>vations plus que vous ne croyez et que le frottement de la bale et du ressort en est augmenté: mon
+      <lb/>avis est toujours qu’à la moindre inclinaison du tuyau la bale descende sur le tampon: il y a
+      <lb/>dans vos quantités observées quelquesfois des irregularités, qui devoient vous engager à repeter
+      <lb/>votre experience. J’observe dans la 4.<hi rend="sup">e</hi> table, que les hauteurs <add>quoique</add> corrigées sont <add>encor</add> extremement
+      <lb/>differentes des hauteurs observées; il faut que la bale d’ivoire soit genée dans le canon,
+      <lb/>car la resistance de l’air doit avoir <choice><orig>eté</orig><reg>été</reg></choice> tres petite sur tout dans l<subst><del>a</del><add>es</add></subst> 3 ou 4 premieres
+      <lb/>experiences: d’ailleurs les amplitudes du jet pour 45<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° repondent fort mal aux hauteurs
+      <lb/>observées, comme 27 et 11 ou 102 et 46; ces coups etoient donc fort incertains et cette
+      <lb/>incertitude pourroit bien jetter quelque doute sur l’accord des 8 premieres experiences de
+      <lb/>la V. table. Si vous eussiez fait un examen severe et critique de tous les resultats de vos
+      <lb/>experiences, en les comparant entre elles, je ne <choice><orig>scai</orig><reg>sçai</reg></choice> si vous n’eussiez employé par<choice><orig> </orig><reg>-</reg></choice>ci par<choice><orig> </orig><reg>-</reg></choice>là
+      <lb/>d’autres expressions. Je remarque en general que vos quantités d’observation, quoique
+      <lb/>fort differentes de la theorie, n’en different pas beaucoup pour la proportion et que ma loy
+      <lb/>sur les racourcissemens du ressort et sur les hauteurs verticales du jet, exprimées par <formula>\frac{Pa}{2m}</formula>
+      <lb/>repond aussi bien aux resultats, que vos racourcissemens observés et les memes hauteurs
+      <lb/>qui en decoulent. Je vois que vous vous etes donné beaucoup de peine pour faire vos
+    <lb/> experi<unclear reason="lost" cert="high">ences</unclear>; mais le grand desaccord entre les jets calculés et les jets observés diminuent
+      <lb/>leur pri<unclear reason="lost" cert="high">x;</unclear> L’essentiel est d’examiner jusqu’à quel degré on peut conter sur l’egalité
+      <lb/>entre les jets sous les memes circonstances; aprez quoi on peut supposer les charges etre
+      <lb/>à peu prés en raison quarrée des poids <formula>P</formula>, puisque <formula>m</formula>, <formula>\pi</formula> et <formula>\varphi</formula> restent les memes; En tout
+      <lb/>cas il sera facile pour chaque charge donnée d’examiner par observation, quelle montée
+      <lb/>verticale ou quelle amplitude de jet sous un angle de 45<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° cette charge produit, comme
+      <lb/>on fait dans le jet des bombes. Aprez tout cela la petite machine sera fort utile pour
+    <pb facs="5994738" n="46r"/>
+    <lb/>demontrer dans les ecoles militaires toutes les regles sur le jet des bombes.</p>
+  <p>
+    <lb/><subst><del><gap/></del><add>Enfin il</add></subst> faut aussi expliquer la construction de la mire, qui consiste
+      <lb/>dans un petit chassis mobile dans une coulisse et cette coulisse se tient toujours dans une
+      <lb/>position verticale par un contrepoids qui y est attaché: Ces mires ne sont que pour les canons
+      <lb/>et les mousquets, dont les bales decrivent des lignes paraboliques presque droites a<subst><del></del><add>u</add></subst> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encement;
+      <lb/>cependant ces bales baissent en chemin faisant, de <measure>15 pieds</measure> dans la premiere seconde, de
+      <lb/><measure>60 pieds</measure> dans deux secondes et c’est pour corriger ces baissemens, qu’on peut employer la mire.
+      <lb/><choice><orig>un</orig><reg>Un</reg></choice> canon doit etre pointé autrement en tirant à la meme distance sur une plaine hori<pc type="hyphenation">-</pc><lb break="no"/>zontale, ou de bas en haut ou de haut en bas; mais dans nos mires les memes distances
+      <lb/>ne demanderont pas une position differente du chassis, pourvû que la coulisse se tienne verti<pc type="hyphenation">-</pc><lb break="no"/>calement. Ces experiences ne peuvent se faire qu’avec de grandes charges et à de
+      <lb/>petites distances; mais aussi je donnois ordinairement bale sur bale aprez avoir fait
+      <lb/>mes calculs. <choice><orig>je</orig><reg>Je</reg></choice> crois vous avoir expliqué cette theorie dans une de mes precedentes
+      <lb/><rs type="letter">lettres</rs>. Soit par exemple la charge telle que la bale fasse une montée verticale de
+    <lb/><measure><formula>6 \frac{2}{3}</formula> pieds</measure>; cette bale mettra <formula>\frac{2}{3}</formula> de seconde à monter; dans <formula>\frac{2}{3}</formula> de seconde elle parcourreroit
+    <lb/>avec sa vitesse initielle <add>uniforme</add> <measure><formula>13 \frac{1}{3}</formula> pieds</measure> ou <measure>20 pieds</measure> dans une seconde; ainsi si on veut tirer
+    <lb/>à la distance de <measure>4 pieds</measure>, elle restera en chemin <formula>\frac{1}{5}</formula> de seconde et pendant ce petit tems
+    <lb/>la bale baissera <add>verticalement</add> de <formula>\frac{15}{25}</formula> ou de <measure><formula>\frac{3}{5}</formula> de pieds</measure>, quelle que soit l’inclinaison du canon; pour
+    <lb/>redresser ce baissement de <measure><formula>\frac{3}{5}</formula> de pieds</measure>, il faut mesurer la distance entre la mire et le gui<pc type="hyphenation">-</pc><lb break="no"/>don; je la supposerai de <measure>6 pouces</measure>; ce sera la huitieme partie de la distance du
+    <lb/>but; il faut donc que l’elevation du point de la mire par<choice><orig> </orig><reg>-</reg></choice>dessus le guidon soit de la huitie<pc type="hyphenation">-</pc><lb break="no"/>me partie de <measure><formula>\frac{3}{5}</formula> de pied</measure> ou de <measure><formula>\frac{3}{40}</formula> pied</measure> ou de <measure><formula> 10 \frac{4}{5}</formula> lignes</measure>; àlors on donnera precisement
+      <lb/>au but, dans quelle elevation ou profondeur qu’il se trouve pourvû que sa distance soit
+      <lb/>toujours de <measure>4 pieds</measure> depuis l’extremité du canon: si cette distance n’etoit que de deux
+    <lb/>pieds, il faudroit, pour la meme charge, elever la mire de la moitié ou de <measure><formula>5 \frac{2}{5}</formula> lignes</measure>.
+      <lb/>J’espere, Monsieur mon tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, que ces remarques Vous mettront
+    <lb/>à meme de retoucher et de finir votre <rs type="biblio">memoire</rs>; peut<choice><orig/><reg>-</reg></choice>etre <choice><sic>reuïsserez</sic><corr>réussirez</corr></choice><choice><orig> </orig><reg>-</reg></choice>vous mieux à
+      <lb/>prevenir les frottemens et les autres obstacles qui diminuent si fort les jets
+      <lb/>actuels, sans quoi il seroit assez inutile d’entrer dans tout le detail, qui vous a
+      <lb/>donné tant de peine, soit pour les experiences<supplied>,</supplied> soit pour le calcul<supplied>,</supplied> et il vaudroit
+      <lb/>mieux de choisir les experiences principales ou du moins de dire que vous les avez
+      <lb/>faites dans l’<subst><del>e</del><add>i</add></subst>ntention de voir combien les jets actuels s’eloignent de vos calculs. </p>
+  <p>
+      <lb/>Quant à vos experiences sur les barres magnetiques, je suis surpris que vous
+      <lb/>n’ayez pas pû en faire à <rs key="place_GEO-2950159" type="place">Berlin</rs>; vous savez sans doute comment il faut les
+      <lb/>frotter pour leur donner peu à peu beaucoup de vertu magnetique. Voici ce que
+      <lb/>Vous pourriez essayer; quelle est la position la plus avantageuse des deux barres magnetiques
+      <lb/>et des deux petites barres de fer? <choice><orig>on</orig><reg>On</reg></choice> pourroit d’abord eloigner les deux barres magnetiques et
+    <lb/>ensuite les aprocher peu à peu; apres quoi on placeroit les deux petites barres de fer jusqu’à debor<pc type="hyphenation">-</pc><lb break="no"/>der les barres magnetiques et ensuite on remarqueroit la position où elles commencent à marquer
+    <pb facs="5994739" n="46v"/>
+    <lb/>quelque effet et comment cet effet augmente en les tirant peu à peu vers le milieu; on
+      <lb/>pourra encor faire une autre espece d’experiences; ce sera en couvrant les 4 barres
+      <lb/>d’une feuille de papier sur la quelle on semeroit ou eparpilleroit de la limaille de fer;
+      <lb/>cette limaille prendra la figure de quelque double tourbillon, sur tout si on ebranle legere<pc type="hyphenation">-</pc><lb break="no"/>ment par quelques coups de doigt tout le sisteme et il seroit bon de faire dessiner ces toubillons
+      <lb/>pour les differentes configurations des barres. Si vous n’etes pas à meme de vous pro<pc type="hyphenation">-</pc><lb break="no"/>curer de ces barres magnetiques, je pourrois moi<choice><orig> </orig><reg>-</reg></choice>meme faire là<choice><orig> </orig><reg>-</reg></choice>dessus quelque <rs type="biblio">memoire</rs>
+      <lb/>pour <rs key="place_GEO-498817" type="place">Petersbourg</rs>, si tant est qu’on me paye ma pension: mais je ne saurois croire que
+      <lb/>dans une ville, comme <rs key="place_GEO-2950159" type="place">Berlin</rs>, on manque d’ouvriers capables de faire de pareilles barres, que
+      <lb/>vous pourrez aimanter vous<choice><orig> </orig><reg>-</reg></choice>meme.</p>
+  <p>
+      <lb/>Voici à present quelques remarques sur la machine hydraulique de <rs key="place_GEO-2657896" type="place">Zuric</rs>; L’<rs type="person">auteur</rs>
+      <lb/>me paroit avoir donné au tuyau, assez mal à propos, une forme spirale <add>dans un meme plan</add>; de cette maniere
+      <lb/>il faut augmenter le diametre du tuyau depuis l’orifice, par lequel l’eau entre vers l’autre
+      <lb/>àfin que la capacité de chaque tour demeure toujours à peu prés la meme; d’ailleurs
+      <lb/>le diametre de chaque tour allant en diminuant, la pression de l’eau diminue à propor<pc type="hyphenation">-</pc><lb break="no"/>tion, ce qui est un grand inconvenient. Je ne sai si vous avez observé une grande
+      <lb/>difficulté pour expliquer le vrai mecanisme de la machine; cette difficulté se manifeste mieux
+      <lb/>si on suppose la machine executée en grand <add>et</add> destinée à elever les eaux, par exemple, à
+      <lb/>la hauteur de <measure>32 pieds</measure>; si on puise toujours la moitié d’un tour, l’autre moitié sera
+      <lb/>remplie d’air; mais lorsque ces deux moitiés sont poussées peu à peu vers l’endroit de
+      <lb/>l’ecoulement, l’air doit se comprimer toujours d’avantage de sorte qu’etant parvenu
+      <lb/>au dernier tour il est comprimé par une colonne d’eau de <measure>32 pieds</measure> de hauteur; il n’oc<pc type="hyphenation">-</pc><lb break="no"/>cupera donc plus qu’<subst><del></del><add>un</add></subst> quart de tour; la difficulté est donc de savoir comment on
+      <lb/>doit <subst><del><gap/></del><add>s</add></subst>auver cette contradiction; il me semble que l’eau, au lieu de s’ecouler, sera refoulée
+    <lb/>et qu’elle se ramassera dans le dernier tour jusqu’à en occuper <formula>\frac{24}{32}</formula> et meme au delà, ce qui
+      <lb/>fera d’abord que l’eau sera refoulée en sortant du dernier tour pour entrer dans le penul<pc type="hyphenation">-</pc><lb break="no"/>tieme en passant par<choice><orig> </orig><reg>-</reg></choice>dessus; jusqu’à ce que ce penultieme tour contienne, par exemple,
+    <lb/><formula>\frac{22}{32}</formula> d’eau, les <formula>\frac{10}{32}</formula> etant occupées par un air comprimé par une colonne d’eau de <measure>30 pieds</measure>;
+    <lb/>aprez quoi le penultieme tour sera rempli <subst><del>par</del><add>de</add></subst> <formula ana="corr">\frac{20}{32}</formula> d’eau et de <formula>\frac{12}{32}</formula> d’air comprimé par une
+    <lb/>colonne d’eau de <measure>28 pieds</measure> de hauteur et ainsi de suite jusqu’à ce qu’on parvienne à <formula>\frac{16}{32}</formula>
+      <lb/>parties d’eau et autant de parties d’air naturel; ce n’est qu’àlors que la machine pourra
+      <lb/>faire <subst><del>tout</del><add>uniformement</add></subst> son jeu; je ne vous dis la chose que fort superficiellement <add>et sans marquer les vraies mesures</add>; il faudroit un grand
+      <lb/>commentaire pour expliquer toute la theorie de cette machine; je vois en general qu’il faut se
+      <lb/>precautionner contre plusieurs pertes de la force motrice. J’ai marqué à <abbr>M.<hi rend="sup">r</hi></abbr> l’Archiatre <rs key="pers_DE-588-1036931382" type="person">Hirzel</rs>,
+    <lb/>que pour executer la machine en grand il vaudroit beaucoup mieux <subst><del>d’envelopper</del><add>d’entortiller</add></subst> le tuyau sur un
+      <lb/><subst><del>cy</del><add>a</add></subst>rbre cylindrique de bois creusé<supplied>,</supplied> <add>c’est<choice><orig> </orig><reg>-</reg></choice>à<choice><orig> </orig><reg>-</reg></choice>dire autour d’un tambour</add><supplied>,</supplied> et d’en conduire le bout vers le centre dans un barillet de fer
+      <lb/>placé au milieu de l’arbre,<del><gap/></del> d’où les eaux seroient
+      <lb/>poussées dans le conduit d’ecoulement: on pourroit aussi, au lieu du tuyau entortillé autour de
+      <lb/>l’arbre, entailler dans cet arbre un conduit en forme de spirale qui fit <subst><del><gap/></del><add>8</add></subst> ou 1<subst><del><gap/></del><add>0</add></subst> tours de maniere
+      <lb/>qu’à la fin du dernier tour le conduit fasse un coude pour etre dirigé vers le dit barillet.
+      <lb/><choice><orig>ce</orig><reg>Ce</reg></choice> conduit pourroit conserver sa largeur, mais il faudroit diminuer uniformement sa profondeur
+      <lb/>de maniere que cette profondeur n’ait plus que les trois quarts vers la fin, au cas que les eaux
+    <lb/><unclear reason="illegible" cert="medium">doiv</unclear>ent etre elevées à la hauteur de <measure>32 pieds</measure>. C’est là le moyen de remedier à l’inconve<fw type="catch" place="bottom">nient</fw><pc type="hyphenation">-</pc><pb facs="5994740" n="47r"/>
+<lb break="no"/>nient, que j’ai expliqué ci-dessus et ce moyen me paroit tres essentiel; ainsi dans les
+      <lb/>grandes elevations des eaux, il faut tout regler sur la hauteur de cette elevation.
+      <lb/>Les tours du canal seroient tout prés les uns des autres en ne laissant qu’autant d’inter<pc type="hyphenation">-</pc><lb break="no"/>valle que la force du canal demanderoit. Je pense que ces tours sur une surface cylindrique
+      <lb/>sont preferables à tous egards à ceux que <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person">Würtz</rs> de <rs key="place_GEO-2657896" type="place">Zuric</rs> leur fait faire; quant aux
+      <lb/>coudes des canaux, il est toujours bon de les arrondir. <choice><orig>il</orig><reg>Il</reg></choice> m’est venu encor une autre idée
+      <lb/>qui est peut<choice><orig/><reg>-</reg></choice>etre de grande importance sur ce sujet; c’est qu’il seroit fort bon si on pouvoit
+      <lb/>rendre l’ecoulement des eaux uniforme et continuel; car l’interruption dont vous parlez fait
+      <lb/>perdre une partie de l’effet; pour cet effet il faudroit que l’air et l’eau sortissent à la fois
+      <lb/>et melés ensemble: ce melange diminueroit <subst><del>de la moitié</del><add>considerablement</add></subst> la pesanteur specifique de l’eau
+      <lb/>et <del><gap/></del>le melange pourroit etre elevé presque à une double hauteur. Cette reflexion
+      <lb/>m’a fait penser qu’on pourroit donner au barillet, rempli<figure facs="../images/figures/5994740_01.png"><figDesc>Skizze des Barillets für das Gemisch aus Wasser und komprimierter Luft.</figDesc></figure>
+      <lb/>en partie d’eau et en partie d’un air comprimé, cette forme
+      <lb/>qui pourroit bien faciliter la sortie simultanée de l’eau
+      <lb/>et de l’air. Vous dites, que dans votre modele <del>que </del>la
+      <lb/>somme des diametres des tours etoit de 5 pieds et que les eaux sortoient à la hauteur
+      <lb/>de 4 pieds 5 pouces; voilà deja la hauteur presque toute entiere malgr<subst><del><gap/></del><add>é</add></subst> tous les
+      <lb/>empechemens. Cependant, vous ajoutez dans une autre remarque, que les eaux, qui sor<pc type="hyphenation">-</pc><lb break="no"/>toient horizontalement, etoient quelques fois <add>encor</add> jettées à la distance de <measure>8 pieds</measure>: ici il fal<pc type="hyphenation">-</pc><lb break="no"/>loit dire, quelle etoit la hauteur verticale de ces jets; aparemment cette hauteur etoit
+      <lb/>pareillement de <measure>4 pieds</measure> et <measure>5 pouces</measure>; en ce cas les eaux sortoient avec une vitesse dont
+      <lb/>la hauteur generatrice etoit encor de <measure>3 pieds 10 pouces</measure>, de sorte qu’on eut pu porter les
+      <lb/>eaux de prés de <measure>4 pieds</measure> plus haut et en tout à peu prés de <measure>8 pieds</measure>, qui <subst><del><gap/></del><add>sur</add></subst>passe de
+      <lb/>beaucoup la somme des diametres des tours du tuyau: un tel excés ne sauroit etre expliqué
+      <lb/>à mon avis que par la diminution du poids de la colonne d’eau melée d’air. Au reste
+      <lb/>j’ai trouvé vos remarques sur votre modele fort justes et la nouveauté de la machine
+      <lb/>meriteroit bien que vous tachassiez de la perfectioner: j’espere que mes remarques y contri<pc type="hyphenation">-</pc><lb break="no"/>bueront. Je viens à votre <rs type="biblio">memoire</rs> sur la force et la courbure des lames elastiques, qui
+      <lb/>me paroit deja ecrit avec plus d’ordre et de methode: mais je vous avertis que je n’ai
+      <lb/>point examiné vos calculs. <choice><orig>je</orig><reg>Je</reg></choice> ne me souviens pas quel est le paradoxe de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118749420" type="person">de Reaumur</rs>
+    <lb/>(<abbr><choice><orig>mem.</orig><reg>Mem.</reg></choice></abbr> de l’<rs type="organisation"><abbr>Acad.<hi rend="sup">e</hi></abbr></rs> de <rs key="place_GEO-2988507" type="place">Paris</rs> 1711). Le nom <rs key="pers_DE-588-118749420" type="person">Reaumur</rs> me choque; je crois qu’il n’est d’usage
+      <lb/>de se passer du mot de Monsieur que pour ceux qui sont morts depuis 30 ou 40 ans: on dit bien
+      <lb/>encor <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">de Leibnitz</rs> <add>quoique</add> mort il y a 50 ans. <choice><orig>je</orig><reg>Je</reg></choice> me souviens que nous avons fait sur cette
+      <lb/>matiere qu<subst><del><gap/></del><add>elques ex</add></subst>periences qui ont assez bien reussi; Vous devriez les repeter; elles ne manque<pc type="hyphenation">-</pc><lb break="no"/>roient pas d’etre fort bien <choice><orig>recues</orig><reg>reçues</reg></choice>. <choice><orig>je</orig><reg>Je</reg></choice> crois qu’il y a une faute au <abbr>coroll.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>pag.</abbr> 13. <choice><orig>vous</orig><reg>Vous</reg></choice> <add>y</add> dites pour
+      <lb/>la force des lames posées verticalement, qu’elles ne pourront supporter que le quart du poids si on leur
+      <lb/>donne une double longueur; il me semble que la force est en raison reciproque des longueurs simple
+      <lb/>et non quarrée; Vous dites vous<choice><orig> </orig><reg>-</reg></choice>meme que <formula>\alpha</formula> augmente en raison quarrée et <formula>P'</formula> en raison reciproque
+      <lb/>simple des longueurs; cette raison composée donne simplement la raison reciproque des longueurs;
+    <pb facs="5994741" n="47v"/>
+    <lb/>cela vous servira à etre infiniment sur vos gardes dans vos memoires; il faut tourner et retour<pc type="hyphenation">-</pc><lb break="no"/>ner toutes les formules trouvées et en faire toutes les combinaisons et examens possibles avant que
+      <lb/>de les hazarder. <choice><orig>à</orig><reg>À</reg></choice> la meme page <abbr>coroll.</abbr> 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> vous donnez à ce corollaire une mauvaise tour<pc type="hyphenation">-</pc><lb break="no"/>nure, quand vous l’expliquez: Le ressort employé suivant la 5<hi rend="sup">e</hi> figure ne porte le double <subst><del><gap/></del><add>par</add></subst>
+      <lb/>raport à la figure 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> que parcequ’on suppose l’extremité superieure en <formula>A</formula> assujetti<add>e</add> et forcée
+      <lb/>à demeurer dans la ligne verticale <formula>A</formula>; ce n’est point comme vous dites, parce qu’on laisse libre
+      <lb/>l’extremité inferieure dans la figure 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> au lieu qu’elle est assujettie verticalement dans la figure 3.
+      <lb/><choice><orig>ma</orig><reg>Ma</reg></choice> remarque est si vraie, que si les deux extremités de la 5.<hi rend="sup">e</hi> figure etoient obligées de retenir
+      <lb/>les directions verticales, la lame pourroit supporter non seulement le double<supplied>,</supplied> mais meme le quadru<pc type="hyphenation">-</pc><lb break="no"/>ple qu’elle ne peut faire suivant la <abbr>fig.</abbr> 3<choice><orig>.</orig><reg>,</reg></choice> parce que chaque quart sera semblable à la figure
+      <lb/>3. Essayez de faire passer la lame par un anneau en <formula>A</formula> (<abbr>fig.</abbr> 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>) et que cet anneau soit bien assujetti;
+      <lb/>pressez àlors sur l’extremité de la lame <add>en <formula>A</formula></add>, vous verrez et vous sentirez à la main que vous aurez
+      <lb/>beaucoup plus de peine à plier la lame que sans cet anneau; substitués donc aux mots que j’ai sous<pc type="hyphenation">-</pc><lb break="no"/>lignés <add place="bottom">laissant libre le bas des colonnes <abbr>Probl.</abbr> 6<choice><orig>.</orig><reg>,</reg></choice> <abbr>Coroll.</abbr> 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> vers la fin.</add> ces autres, <hi rend="u">en empechant simplement l’extremité d’en haut de se jetter de coté qu’en la laissant
+      <lb/>libre</hi>et comme ces verités de pratique sont beaucoup mieux <choice><orig>recues</orig><reg>reçues</reg></choice> que les nouvelles theories,
+    <lb/>il ne faut pas les cacher dans un corollaire et les dire en passant; c’est sur tout dans ces occa<pc type="hyphenation">-</pc><lb break="no"/>sions, que les etalages peuvent etre permis et non dans des bagatelles de theorie.</p>
+  <p><figure facs="../images/figures/5994741_01.png"><p>fig. 1</p><figDesc>Gebogene Lamelle mit einem am rechten Ende angehängten Gewicht P.</figDesc></figure>
+    <figure facs="../images/figures/5994741_02.png"><p>fig. 2</p><figDesc>Zwischen C und B gebogene Lamelle mit einem mittig angehängten Gewicht 4P.</figDesc></figure>
+    <figure facs="../images/figures/5994741_03.png"><p>fig. 3</p><figDesc>Gebogene Lamelle mit überstehenden Enden und einem in q angehängten Gewicht 4P.</figDesc></figure>
+      <lb/>Je me souviens de vous avoir expliqué
+      <lb/>aussi les configurations 2 et 3 relati<pc type="hyphenation">-</pc><lb break="no"/>vement à la premiere. Dans la figure
+      <lb/>2, la tangente en <formula>q</formula> etant horizontale
+      <lb/>ce point <formula>q</formula> representera le point <formula>C</formula> de la
+      <lb/>premiere figure; considerez le point <formula>q</formula> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>assujetti et apliquez au point <formula>C</formula> une puis<pc type="hyphenation">-</pc><lb break="no"/>sance qui le tire en haut, la puissance
+      <lb/>requise <subst><del><gap/></del><add>e</add></subst>n <formula>C</formula> sera <formula>=2P</formula> à cause que
+      <lb/><formula>Cq</formula> n’est que la moitié de <formula>CB</formula> de la
+      <lb/>premiere figure; il faut une meme
+      <lb/>puissance <formula>2P</formula> au point <formula>B</formula> et ces deux
+      <lb/>puissances devant etre egales au poids attaché au milieu de la
+      <lb/>lame, ce poids sera <formula>=4P</formula>; je me souviens d’avoir confirmé cette proposition en votre presence
+      <lb/>par une experience; mais ce qu’il y a de plus remarquable, c’est qu’en assujettissant les deux
+      <lb/>bouts <formula>Cc</formula> et <formula>Bb</formula>, qui debordent, <choice><orig>demaniere</orig><reg>de maniere</reg></choice> qu’ils soyent contraints de demeurer couchés
+      <lb/>sur <formula>mC</formula> et <formula>nB</formula>, comme dans la troisieme figure, la meme lame redoublera encor sa
+      <lb/>force: car il se formera en <formula>p</formula> et <subst><del></del><add><formula>r</formula></add></subst> deux points d’inflexion contraire et le quart <formula>Cp</formula>
+      <lb/>de meme que <formula>Br</formula> se conformeront à la courbure <formula>CD</formula> de la 1. figure et la partie <formula>pqr</formula>
+      <lb/>sera representée par <formula>CqB</formula> de la seconde figure double en longueur; il faudra donc
+      <lb/>pour la figure 3 un poids de <formula>8P</formula> pour casser la lame soit au point <formula>q</formula><supplied>,</supplied> soit à l’un des deux
+      <lb/>points <formula>C</formula> et <formula>B</formula>, car la lame souffre un effort egal dans ces 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> points. Cette theorie peut
+    <pb facs="5994742" n="48r"/>
+    <lb/>avoir son utilité, non seulement dans l’architecture, mais encor dans la mechanique, lorsqu’il
+      <lb/>s’agit de donner aux instrumens, qui en ont besoin, toute la solidité possible. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117622974" type="person">Bouguer</rs> a
+      <lb/>remarqué dans les observations delicates qu’il a faites en <rs key="place_KON-amerika" type="place">Amerique</rs> que les instrumens, dont
+      <lb/>il se servoit, se courboient imperceptiblement par leur propre poids; c’est pour prevenir ces
+      <lb/>petites courbures, qu’on employe des barres et des traverses, qu’il convient de placer et de
+      <lb/>distribuer d’une façon, qui ne permette plus aucun jeu aux pieces.</p>
+  <p>
+      <lb/>J’ai lu avec plaisir votre troisieme <rs type="biblio">memoire</rs> sur la coherence des corps; mais je
+      <lb/>n’ai fait que le lire sans examiner les calculs: il n’auroit pas <choice><orig>eté</orig><reg>été</reg></choice> mal, quand vous
+      <lb/>expliquez l’action du dernier filet, qui souffre la plus grande extension, d’ajouter que ce filet
+      <lb/>etant rompu, les suivans doivent se rompre successivement, parceque si cent filets n’ont pu
+      <lb/>resister, 99 le pourront encor moins; cependant cela n’arrive pas toujours; quand la
+      <lb/>matiere n’est pas parfaitement uniforme<supplied>,</supplied> les filets suivants peuvent etre plus forts; on voit
+      <lb/>souvent qu’un corps est entamé dans sa surface sans se rompre en deux pieces et quand meme
+      <lb/>la matiere seroit parfaitement uniforme; je conçois que la meme chose pourroit encor arriver,
+      <lb/>suivant la configuration du corps; par exemple si on prenoit un prisme triangulaire
+      <lb/>qui eut un de ses angles tourné en haut, les fibres les plus eloignées <subst><del>de</del><add>depuis</add></subst> la base pourroient
+      <lb/>se casser sans que les suivantes <add>plus nombreuses</add> se cassassent; je ne doute point aussi, que ce prisme ne
+      <lb/>resiste beaucoup plus si on tourne un angle en bas, parce que le nombre des dernieres fibres
+      <lb/>seroit infiniment plus grand que dans le premier cas. Votre second probleme devien<subst><del>droit</del><add>t</add></subst> tout
+    <lb/>autre pour ces corps prismatiques; <add>Vous le faites voir vous<choice><orig> </orig><reg>-</reg></choice>meme</add>; il fau<subst><del>droit</del><add>t</add></subst> cependant que la force <subst><del>d</del><add>po</add></subst>ur la suspension
+      <lb/>verticale soit toujours la meme, pourvu que l’aire de la section du corps soit la meme;
+      <lb/>il faut donc que la solution de ce probleme satisfasse à cette conclusion. Dans votre
+      <lb/>dit second probleme vous parlez de poutres et vous alleguez un exemple, pour le quel vous
+      <lb/>trouvez qu’un poi<subst><del>t</del><add>d</add></subst>s de <measure>1800.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure> suspendu à la poutre verticale la dechireroit; vous donnez à
+      <lb/>la poutre <measure>un demi pied</measure> de hauteur; si on lui donnoit pareillement <measure>un demi pied</measure> de largeur,
+      <lb/>je suis <choice><orig>sur</orig><reg>sûr</reg></choice> qu’il y faudroit suspendre un poids incomparablement plus grand; c’est que vous
+    <lb/>supposez <measure><formula>\pi=50.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></formula></measure> et peut<choice><orig> </orig><reg>-</reg></choice>etre auriez<choice><orig> </orig><reg>-</reg></choice>vous <choice><orig>du</orig><reg>dû</reg></choice> supposer <measure><formula>\pi=50000.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></formula></measure><supplied>.</supplied> Ayant fendu en deux une
+      <lb/>allumette <del>en deux </del>,dont la section faisoit à peine le quart d’une ligne quarrée, je ne pouvois
+      <lb/>pas dechirer <subst><del><gap/></del><add>la</add></subst> moitié de l’allumette; si je suppose qu’une ligne quarrée <add>de section</add> demande
+    <lb/><subst><del><gap/></del><add>la</add></subst> suspension d’<measure>un quintal</measure> pour etre rompue, la dite poutre demanderoit <measure>5184 quin<pc type="hyphenation">-</pc><lb break="no"/>taux</measure> où <measure>518400 livres</measure>, et vous ne parlez que de <measure>1800.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure><supplied>.</supplied> <choice><orig>une</orig><reg>Une</reg></choice> corde de metal dont la
+      <lb/>section ne feroit peut<choice><orig/><reg>-</reg></choice>etre pas la cinquantieme partie d’une ligne quarrée porteroit peut<choice><orig/><reg>-</reg></choice>etre
+      <lb/><measure>vingt livres</measure>; il falloit donc choisir un exemple, ou plus d’un, fondé sur quelques experiences,
+      <lb/>sans quoi on saisit l’exemple pour rejetter toute la theorie. Le probleme 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> n’est pas
+    <lb/>bien enoncé et il manque la lettre <formula>B</formula> à la figure 6. Ce que ce probleme ren<pc type="hyphenation">-</pc><lb break="no"/>ferme me paroit <add>à vue de paÿs</add> bien traité. Je suis allé hier à la <rs type="organisation">Bibliotheque</rs> pour voir
+      <lb/>quel est le paradoxe de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118749420" type="person">de Reaumur</rs>, dont vous parlez; c’est qu’un nombre de
+      <lb/>filets ou <add>de</add> ficelles entortillées <choice><orig>en semble</orig><reg>ensemble</reg></choice> ne portent pas tant de poids immediatement
+      <lb/>avant que de se rompre, qu’en portent toutes les ficelles à part en prenant la somme des forces.
+    <pb facs="5994743" n="48v"/>
+    <lb/><choice><orig>je</orig><reg>Je</reg></choice> crois que la plus forte raison de ce phenomene est, que <choice><sic>les</sic><corr>le</corr></choice> cordier<del>s</del>, en entortillant
+      <lb/>les ficelles, ne sauroit les tendre ou tirer toutes egalement; en ce cas celles qui auront <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>tendues le plus fort se rompront les premieres et puis les autres; si toutes les ficelles, qui com<pc type="hyphenation">-</pc><lb break="no"/>posent la corde, etoient par tout uniformes, parfaitement egales et egalement tendues, la perte
+      <lb/>de leur force reünie seroit sans doute bien moins sensible; si on entortilloit ensemble un fil
+      <lb/>de lin et un fil de soye, chacun d’une force egale, je crois que la perte de la force sera plus
+      <lb/>grande, que si tous les deux fils etoient de lin ou de soye; c’est que les deux fils de lin et de soye
+      <lb/>preteront inegalement et <subst><del><gap/></del><add>q</add></subst>ue celui qui pretera moins etant plus tendu se rompra avant
+      <lb/>l’autre, qui ne l’est pas tant. <choice><orig>ce</orig><reg>Ce</reg></choice> sera donc un avis pour les cordiers de faire toutes les ficelles
+      <lb/>aussi egales qu’ils le pourront et de les tendre egalement en les entortillant; on pourroit
+      <lb/>faire là<choice><orig> </orig><reg>-</reg></choice>dessus quelques experiences; par exemple suspendez deux fils pris d’un meme peloton
+    <lb/>l’un à coté de l’autre; supposez que chaque fil puisse supporter <measure>10.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure><supplied>,</supplied> suspendez <add>à</add> un des fils <measure>1<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure>
+    <lb/>et à l’autre <measure>8.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure> et dans cet etat entortillez les deux fils et puis examinez quelle est la force
+    <lb/>reünie: faites ensuite la meme operation en attachant à chaque fil <measure>2.<hi rend="sup"><g ref="#curr_lb">&#xF2EA;</g></hi></measure> avant de les entor<pc type="hyphenation">-</pc><lb break="no"/>tiller <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <choice><orig>vous</orig><reg>Vous</reg></choice> voyez que mon gout me porte toujours à la physique experimentale; mais
+      <lb/>vous voyez aussy, que je vous marque, sans autre examen, tout ce qui se presente à ma
+      <lb/>plume; faites<choice><orig> </orig><reg>-</reg></choice>en sobrement usage et toujours aprez un mur examen: je vous ecris comme
+      <lb/><rs key="pers_DE-588-118656503" type="person">oncle</rs> et non comme savant, titre auquel je n’aspire plus.</p>
+  <p>
+      <lb/>J’ai parcour<unclear reason="illegible">u</unclear> enfin ce que vous dites sur les sequences et tout en lisant j’ai
+      <lb/>fait le calcul des deux premiers problemes, pour lesquels j’ai trouvé les memes resul<pc type="hyphenation">-</pc><lb break="no"/>tats que vous. <choice><orig>mais</orig><reg>Mais</reg></choice> j’ai vu ensuite, que c’est une penible affaire de faire tou<pc type="hyphenation">-</pc><lb break="no"/>tes les combinaisons requises et je m’en suis tenu à ce que vous dites d’autant plus
+      <lb/>qu’il m’a paru que vous n’aviez rien negligé pour faire une enumeration suffi<pc type="hyphenation">-</pc><lb break="no"/>sante de toutes les combinaisons qui peuvent arriver. Comme vous prenez pour se<pc type="hyphenation">-</pc><lb break="no"/>quence l<subst><del><gap/></del><add>e</add></subst> premier et <subst><del>d</del><add>l</add></subst>e dernier <abbr>n.ro</abbr> et que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> ne les prend pas pour telle, votre
+      <lb/>probleme differe un peu de celui de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> et ils different meme quoique vous
+      <lb/>diminuiez la lettre <formula>n</formula> d’une unité, si j’ai pris la chose dans le vrai sens. Ainsi il
+    <lb/>ne faudroit pas s’etonner si la solution de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> differe un peu de la votre, puis<pc type="hyphenation">-</pc><lb break="no"/>que la question differe elle<choice><orig> </orig><reg>-</reg></choice>meme; vos solutions pourroient etre bonnes l’une et l’autre<supplied>,</supplied>
+      <lb/>Vous verrez plus clair dans cette question si vous choisissez des nombres <formula>n</formula> plus petits; je
+      <lb/>doute si <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> fut allé plus loin que vous en traitant le probleme dans le sens que vous
+      <lb/>lui donnez. Je viens de relire ma lettre; elle est pleine d’omissions, d’expressions gauches <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</abbr><supplied>.</supplied>
+    <lb/><choice><orig>redoublez</orig><reg>Redoublez</reg></choice> votre attention pour les points qui vous interesseront et quand vous l’aurez lue, bru<pc type="hyphenation">-</pc><lb break="no"/>lez<choice><orig/> <reg>-</reg></choice>la; La <rs type="letter">lettre</rs> que <abbr>M.<hi rend="sup">r</hi></abbr> le <abbr>C.</abbr> <rs key="pers_DE-588-128835354" type="person">Orlow</rs> m’a fait l’honneur de m’ecrire, n’est qu’une simple lettre
+      <lb/>de politesse; mon premier semestre ne m’a pas encor <choice><orig>eté</orig><reg>été</reg></choice> payé, comme on me l’avoit fait
+      <lb/>esperer; cela viendra peut<choice><orig/><reg>-</reg></choice>etre dans 3 ou 4 semaines, sans quoi j’ai fort mauvaise opinion de ma
+      <lb/>pension. <choice><orig>faites</orig><reg>Faites</reg></choice> de mon <rs type="biblio">memoire</rs> de <rs key="place_GEO-2988507" type="place">Paris</rs> tel usage que vous trouverez bon; je serois <choice><orig>charme</orig><reg>charmé</reg></choice>
+      <lb/>qu’il fut assez gouté pour faire un essay des rames pendantes que je propose; si vous prenez le parti
+      <lb/>de le lire à l’<rs type="organisation"><abbr>Acad.<hi rend="sup">e</hi></abbr></rs> faites<choice><orig> </orig><reg>-</reg></choice>le dans cette intention; il me semble que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11879941X" type="person">Sulzer</rs> seroit fort propre pour cette
+      <lb/>affaire; mais il n’y a peut<choice><orig/><reg>-</reg></choice>etre que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118568698" type="person">de la Grange</rs>, qui puisse entierement conformer ce<unclear reason="illegible">t</unclear> essay aux prin<pc type="hyphenation">-</pc><lb break="no"/>cipes que j’employe; Deux ou quatre rames sur une chaloupe suffiroient et le moindre succés m’en<pc type="hyphenation">-</pc><lb break="no"/>courageroit à perfectioner mes idées.</p>
+<closer>
+<salute>À Dieu<supplied>,</supplied> mon cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, je vous embrasse de tout mon cœur.</salute>
+<signed>
+      <lb/><rs key="pers_DE-588-118656503" type="person">DB.</rs> </signed>
+</closer>
+<pb facs="5994744" type="archival"/></div>
+</body>
+</text></TEI>

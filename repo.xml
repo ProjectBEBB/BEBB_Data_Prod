@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Technical eXist-db package for the Basler Edition der Bernoulli-Briefwechsel; edition data are licensed separately in data/LICENSE</description>
+    <author/>
+    <website/>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>bebb-data</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" user="bebb" group="tei" mode="rw-r--r--" />
+</meta>

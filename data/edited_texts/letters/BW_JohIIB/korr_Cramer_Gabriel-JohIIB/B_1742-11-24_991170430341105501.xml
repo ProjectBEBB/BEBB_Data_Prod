@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430341105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Gabriel Cramer. Ohne Ort, 24. November 1742</title>
+          <title type="alt">1742.11.24: Bernoulli, Johann (1710-1790) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000058276</title>
+          <title type="alt">1742-11-24_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430341105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430341105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf einem angeschlossenen Blatt findet sich ein Lemma mit Korollar zu Joh. I B. Op. CLXXXVI, Hydraulica, § IV, part.1.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms. Suppl. 384, fo. 27r-28v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430341105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406960105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058276</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S., fo. 25v ist leer<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1742-11-24">ce 24 9.bre 1742</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1742-11-24"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430341205501" type="prev"/>
+          <ptr target="B_991170516487405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914156">Cromelin, Jean Pierre</persName>
+            <note type="lebensdaten">(1716-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-09-03" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-09-03" who="RG">Mathematische Formeln (etc.) angepasst und ergänzt.</change>
+        <change when="2023-09-03" who="RG">Seitenzahlen, Briefstruktur</change>
+
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaa186541f325fd105/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="0/33" n="27r"/>
+  <opener>
+      <lb/>Pour <abbr>M.</abbr> le <abbr>Prof.</abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>
+  </opener>
+  <p>
+      <lb/>Je suis bien aise de vous avertir, mon cher Monsieur, avant
+      <lb/>que le dernier <rs type="biblio">Tome</rs> des ouvrages de mon <rs key="pers_DE-588-118509969" type="person">Père</rs> s’imprime, que
+      <lb/>l’exemplaire de son Hydraulique, d’aprés lequel celui que
+      <lb/>j’ai envoyé à <rs key="place_GEO-2659994" type="place">Lausanne</rs> fut copié, a été écrit par un
+      <lb/>de mes <rs type="person">Neveux</rs>, un jeune garçon qui n’entendoit point
+      <lb/>du tout la matière, l’original ayant été comme vous
+      <lb/>savés envoyé à <rs key="place_GEO-498817" type="place">Petersbourg</rs>; j’explique actuellement
+      <lb/>cette pièce dans une de mes leçons et j’en suis à la fin
+      <lb/>de la l.<hi rend="sup">e</hi> Partie, mais je trouve la copie de mon <rs type="person">Neveu</rs>
+      <lb/>si mal écrite, que le second <rs type="person">copiste</rs> aura eu bien de
+      <lb/>la peine de ne pas faire des fautes, qu’il m’aura
+      <lb/>été impossible d<supplied>’</supplied>appercevoir en collationnant simple<pc type="hyphenation">-</pc><lb break="no"/>ment les deux copies, c’est pourquoi je vous prie de
+      <lb/>voir avec quelque attention s’il n’y aura point
+      <lb/>de fautes dans les expressions algebriques; j’ai
+      <lb/>trouvé, par exemple, le <rs type="biblio">Lemme du §. IV. (Part. 1.)</rs> si
+      <lb/>plein de fautes, qu’il est impossible qu’il ne soit
+      <lb/>tout defiguré dans l’exemplaire que vous avés,
+      <lb/>c’est pourquoi j’ai cru qu’il étoit necessaire
+      <lb/>d’en faire moi même une copie correcte,
+      <lb/>que je joindrai ici à la suite de ma <rs type="letter">lettre</rs>.
+  </p>
+  <p>
+      <lb/>Quelles nouvelles avès vous de notre ami <rs key="pers_DE-588-100289665" type="person">Jallabert</rs>
+<pb facs="0/34" n="27v"/>
+      <lb/>l’air de <rs key="place_GEO-2992166" type="place">Montpelier</rs> lui fait il autant de bien que
+      <lb/>je souhaite qu’il lui en fasse? faites lui <abbr>s. v. p.</abbr>
+      <lb/>mes <choice><abbr>Compl.</abbr><expan>Complimens</expan></choice> si vous lui ècrivés; faites les aussi
+      <lb/>je vous prie à <abbr>M.</abbr> <rs key="pers_DE-588-1089914156" type="person">Cromlin</rs> et lui dites, que
+      <lb/>le jeune homme qu’il m<supplied>’</supplied>a recommandé m’a
+      <lb/>demandé une leçon toute particulière; je ne
+      <lb/>puis la lui accorder sans me deranger
+      <lb/>beaucoup parce que je suis fort occupé
+      <lb/>actuellement, cependant je ne puis pas la
+      <lb/>lui refuser non plus, parce que je vois qu’il
+      <lb/>faut absolument qu’il soit seul pour
+      <lb/>profiter quelque chose; il est trop distrait
+      <lb/>ètant plusieurs, au lieu que quand il sera
+      <lb/>seul et que je lui adresserai directement
+      <lb/>la parole il ne pourra pas s’abandonner
+      <lb/>à ses distractions. Je me suis donc rendu
+      <lb/>à ses instances et l’ai prié seulement d’avoir
+      <lb/>patience jusuque vers la fin de l’année.
+  </p>
+  <closer>
+  <salute>
+      <lb/>Adieu mon Cher Monsieur portés vous bien
+      <lb/>et aimés moi toujours un peu
+  </salute>
+  <signed><rs key="pers_DE-588-117589136" type="person"><abbr>J.</abbr> Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></signed>
+  <dateline>
+      <lb/>ce <date when="1742-11-24">24 9<hi rend="sup">bre</hi> 1742</date>
+  </dateline>
+  </closer>
+<pb facs="0/35" n="28r"/>
+  <postscript>
+    <p>
+        <lb/><hi rend="u">Lemma</hi>
+    </p>
+    <p>
+        <lb/><foreign xml:lang="lat">§. XIV. Sit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio integranda (et quidem sine necessitate
+        <lb/>se parandi indeterminata) <formula>\alpha z\,dx+(\beta+\gamma x)\,dz=\varepsilon+\theta x)\,dx</formula>; scribo
+        <lb/><formula>y</formula> pro <formula>\beta+\gamma x</formula>, unde <formula>dx=\frac{dy}{\gamma}</formula> et <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio mutatur in hanc <formula>\frac{\alpha}{\gamma}z\,dy</formula>
+        <lb/><formula>+y\,dz=(\varepsilon+\theta x)\,dx</formula> qua multiplicata per <formula>y^{\frac{\alpha}{\gamma}-1}</formula> habebitur
+        <lb/><choice><orig><formula>\frac{\alpha}{\gamma}zy^{\frac{\alpha}{\gamma}-1}\,dy+y^{\frac{\alpha}{\gamma}}\,dz=(\varepsilon+\theta x)\,dx\times y^{\frac{\alpha}{\gamma}-1}=(\varepsilon+\theta x)\times\frac{1}{\gamma}(\beta+\gamma x)^{\frac{\alpha}{\gamma}-1}\gamma\,dx</formula></orig><reg><formula>\frac{\alpha}{\gamma}zy^{\frac{\alpha}{\gamma}-1}\,dy+y^{\frac{\alpha}{\gamma}}\,dz=(\varepsilon+\theta x)\,dx\cdot y^{\frac{\alpha}{\gamma}-1}=(\varepsilon+\theta x)\times\frac{1}{\gamma}(\beta+\gamma x)^{\frac{\alpha}{\gamma}-1}\times\gamma\,dx</formula></reg></choice>:
+        <lb/>integrando prodibit <formula>\gamma^{\frac{\alpha}{\gamma}}z=\int{(\varepsilon+\theta x)}\times \frac{1}{\gamma}(\beta + \gamma x)^{\frac{\alpha}{\gamma}-1}\gamma\,dx=</formula>
+        <lb/><formula>\frac{1}{\alpha}(\beta+\gamma x)^{\frac{\alpha}{\gamma}}\times (\varepsilon+\theta x)-\int{\frac{\theta}{\gamma\alpha}}(\beta+\gamma\,x)^{\frac{\alpha}{\gamma}}\gamma\,dx=\frac{1}{\alpha}(\beta+\gamma x)^{\frac{\alpha}{\gamma}}\times(\varepsilon+\theta\,x)</formula>
+        <lb/><formula>-\frac{\theta}{\alpha\alpha+\gamma\alpha}(\beta+\gamma\,x)^{\frac{\alpha+\gamma}{\gamma}}-\frac{\varepsilon}{\alpha}\beta^{\frac{\alpha}{\gamma}}+\frac{\theta}{\alpha\alpha+\gamma\alpha}\beta^{\frac{\alpha+\gamma}{\gamma}}</formula>.
+        <lb/>Notetus hic duos postremos terminos datos adjectos
+        <lb/>esse more solito ad rectificandam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem, ut
+        <lb/>nimirum evanescente <formula>x</formula> etiam evanescat <formula>z</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> dividatur
+        <lb/>nunc <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio per <formula>y^{\frac{\alpha}{\gamma}}</formula>, hoc est, <formula>(\beta+\gamma\,x)^{\frac{\alpha}{\gamma}}</formula> et emerget
+        <lb/>valor ipsius <formula>z</formula>, nempe <formula>z=\frac{1}{\alpha}(\varepsilon+\theta\,x)-\frac{\theta}{\alpha\alpha+\gamma\alpha}(\beta+\gamma\,x)+</formula>
+        <lb/><formula>\left(\frac{\theta}{\alpha\alpha+\gamma\alpha}\beta^{\frac{\alpha+\gamma}{\gamma}}-\frac{\varepsilon}{\alpha}\beta^{\frac{\alpha}{\gamma}}\right)\times\left(\beta+\gamma\,x\right)^{\frac{-\alpha}{\gamma}}</formula></foreign>.
+    </p>
+    <p>
+        <lb/>Item §. XV. <abbr>Coroll.</abbr> 2 (1. Partie) erit <formula>z=\frac{hhax+\frac{1}{2}hmxx}{hma+hhx-hmx}</formula>, lisés
+        <lb/>erit <formula>z=\frac{hhax-\frac{1}{2}hmxx}{hma+hhx-hmx}</formula>
+    </p></postscript>
+<pb facs="0/36" n="28v" type="empty"/>
+</div>
+</body>
+</text></TEI>

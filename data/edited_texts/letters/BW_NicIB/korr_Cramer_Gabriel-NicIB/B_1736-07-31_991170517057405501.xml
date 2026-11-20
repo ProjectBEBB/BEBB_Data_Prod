@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517057405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Nicolaus I Bernoulli. Genf, 31. Juli 1736</title>
+          <title type="alt">1736.07.31: Cramer, Gabriel (1704-1752) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059063</title>
+          <title type="alt">1736-07-31_Cramer_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517057405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517057405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24299">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.57</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517057405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433696105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059063</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1736-07-31">ce 31. Juillet 1736</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1736-07-31"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517057505501" type="prev"/>
+          <ptr target="B_991170430193005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118517252">Buffon, Georges Louis Le Clerc de</persName>
+            <note type="lebensdaten">(1707-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117260266">Stirling, James</persName>
+            <note type="lebensdaten">(1692-1770)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-07" who="FN SG">Kollationieren abgeschlossen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-14" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-14" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-09-26" who="RG">Personen und Orte ausgezeichnet</change>
+        <change when="2023-08-28" who="RG">Zeilabstände eingefügt, und etlig ergänzt</change>
+        <change when="2023-08-28" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063344/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063345" n="1"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur,
+  </salute>
+  </opener>
+  <p>
+      <lb/>Je prens la Liberté de vous écrire pour vous faire une restitution.
+      <lb/>Je viens de <choice><orig>reçevoir</orig><reg>recevoir</reg></choice> l’Année 1732 de l’<rs type="biblio">Histoire de l’Académie de Paris</rs>,
+      <lb/>où l’on me fait l’Autheur d’un <rs type="biblio">Probléme</rs> qui me vient de vous. Je n’ai
+      <lb/>assurément donné aucun lieu à cette méprise. Il est vrai que <abbr>Mr<add>.</add></abbr> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>,
+      <lb/>avec qui je suis en commerce de Lettres<supplied>,</supplied> m’aiant demandé quelques
+      <lb/>Problémes, je lui répondis que je venois de résoudre celui-là, que, si je ne
+      <lb/>me trompe, vous aviés proposé à Monsieur <rs key="pers_DE-588-117260266" type="person">Stirling</rs>: <del><gap/></del>comme je ne lui
+      <lb/>marquai point apparemment d’où il me venoit, cela lui aura, sans doute,
+      <lb/>donné lieu de croire <choice><orig>qu’e</orig><reg>que</reg></choice> j’en étois l’Autheur. Mais peu de tems après
+      <lb/>Monsieur de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> m’aiant ecrit qu’on avoit lû à l’Academie diverses
+      <lb/>Solutions de ce Probléme je lui repondis qu’il etoit de vous, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> peu aprés, j’ecrivis
+      <lb/>encore la même chose à <abbr>Mons.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118517252" type="person">Buffon</rs>, qui est aussi de l’<rs type="organisation" key="org_DE-588-35019-9">Academie</rs>.
+<pb facs="1063346" n="2"/>
+      <lb/>Ainsi, Monsieur, vous voiés qu’il n’a pas tenu à moi qu’on
+      <lb/>ne vous rendit vôtre bien. Mais apparemment on vous a cru trop
+      <lb/>riche pour étre sensible à une si pétite perte. Quoiqu’il en soit, je vous
+      <lb/>en <choice><sic>fait</sic><corr>fais</corr></choice> une restitution entiére, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je profite de l’occasion pour vous
+      <lb/>assurer de la parfaite reconnoissance que je conserve pour toutes les
+      <lb/>amitiés que vous m’avés temoignées, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> du parfait attachement que
+      <lb/>j’aurai toujours pour vôtre personne <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> vôtre <rs type="person">famille</rs>. Obligés moi,
+      <lb/>Monsieur, d’assurer Monsieur Vôtre <rs key="pers_DE-588-118509969" type="person">Oncle</rs> de mes respects les plus humbles
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> faites-moi la grace de croire que je suis, avec une veritable consideration<supplied>,</supplied>
+  </p>
+  <closer>
+  <salute>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très
+      <lb/>obeissant Serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>. </supplied></abbr>Cramer</rs>
+  </signed>
+  <dateline>
+      <lb/>Geneve ce <date when="1730-07-31">31. Juillet 1736</date>.
+  </dateline>
+  </closer>
+<pb facs="1063347" n="3" type="empty"/>
+<pb facs="1063348" n="4"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Nicolas Bernoull<subst><del>e</del><add>i</add></subst></addrLine>
+      <addrLine>Docteur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Professeur en Droit</addrLine>
+      <addrLine><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> Basle</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

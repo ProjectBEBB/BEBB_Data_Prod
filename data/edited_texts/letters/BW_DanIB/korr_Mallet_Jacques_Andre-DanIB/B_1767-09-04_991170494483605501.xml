@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170494483605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacques-André Mallet an Daniel I Bernoulli. Genf, 04. September 1767</title>
+          <title type="alt">1767.09.04: Mallet, Jacques André (1740-1790) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000265880</title>
+          <title type="alt">1767-09-04_Mallet_Jacques_Andre-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170494483605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170494483605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf der letzten Seite findet sich ein rotes Wachssiegel.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-125224">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 709:Bl.159-160</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170494483605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972426536005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000265880</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (4 beschriebene S.)<dimensions unit="cm"><height>22,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Genève</origPlace>
+              <date when="1767-09-04">4 Septembre 1767</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-129353949">Mallet, Jacques André</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1767-09-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430276005501" type="prev"/>
+          <ptr target="B_991170430274705501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mallet_Jacques_Andre-DanIB" corresp="pers_DE-588-129353949" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-04" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-15" who="RG">NER Erkennung</change>
+        <change when="2024-08-16" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-08-16" who="RG">Kleinere Anpassungen sowie Ortschaften referenziert</change>
+        <change when="2024-08-16" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3442188/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3442189" n="159r"/>
+  <opener>
+    <dateline>
+      <lb/><rs key="place_GEO-2660646" type="place">Geneve</rs> le <date when="1767-09-04">4 7bre 1767</date>
+    </dateline>
+  </opener>
+  <p>
+      <lb/>Vos lettres, Mon cher Monsieur, me font toujours tant de plaisir, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il y a si longtems que
+      <lb/>je n’en ai point reçu que je ne puis m’empêcher de vous en faire un petit reproche,
+      <lb/>pardonnez le moi, c’est la seule amitié qui le dicte, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’empressement à recevoir de vos nouvelles;
+      <lb/>je n’insiste plus, des que je me rappelle que vous n’aimez point à écrire, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que vous ne
+      <lb/>répondez qu’aux lettres indispensables, je craindrois trop d’abuser de votre complaisance.
+      <lb/>en exigeant une reponse à chance de mes lettres.
+  </p>
+  <p>
+      <lb/>j’espere que vous aurez reçu ma derniere du mois de 9<hi rend="sup">bre</hi>. ce n’est pas qu’elle contint rien
+      <lb/>de bien intéressant, mais j’y joignis un recueil de quelques expériences d’électricité
+      <lb/>assez curieuses, que je supposois que vous seriez bien aise de voir, si par hazard il ne vous
+      <lb/>est point parvenu, il me sera aisé de vous en procurer un autre.
+  </p>
+  <p>
+      <lb/>Je m’occupe presque uniquement d’astronomie <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de choses relatives à la pratique des
+      <lb/>observations, je travaille actuellement à des tables d’aberration <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de nutation d’étoiles,
+      <lb/>qui doivent servir de suite à celles que M<hi rend="sup">r</hi>. <rs key="pers_DE-588-104234059" type="person">de la Lande</rs> a données depuis quelques
+      <lb/>années dans les Connaissances des <choice><orig>tems</orig><corr>Temps</corr></choice> pour 155 étoiles, au moyen de quoi l’on aura
+      <lb/>ces Tables pour environ 300 des principales étoiles, ce qui est d’une grande commodité
+      <lb/>pour les astronomes.
+  </p>
+  <p>
+      <lb/>Je compte travailler ensuite à de nouvelles Tables de Saturne, adaptées aux
+      <lb/>oppositions observées depuis 30 ans, celles de <rs key="pers_DE-588-118720066" type="person">Halley</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de <rs key="pers_DE-588-117648388" type="person">Cassini</rs> dont
+      <lb/>se servent les astronomes étant très défectueuses.
+  </p>
+  <p>
+      <lb/>Les préparatifs que l’on fait pour le prochain passage de Venus m’ont fait
+      <lb/>naitre l’idée d’un projet, que je roule dans ma tête depuis quelque tems
+      <lb/>et pour lequel j’ai absolument besoin de votre assistance. je souhaiterois
+      <lb/>très fort<choice><orig/><corr> de</corr></choice> pouvoir participer à cette observation, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> être d’un des voyages que
+      <lb/>l’on entreprendra à cet effet. J’en écrivis quelque chose à M<hi rend="sup">r</hi> <rs key="pers_DE-588-104234059" type="person">de la Lande</rs>
+      <lb/>avec qui je suis en correspondance depuis quelque tems, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> voici ce qu’il
+      <lb/>m’a répondu.
+  </p>
+<pb facs="3442190" n="159v"/>
+  <p>
+      <lb/>Je ne vois aucuns moyens de vous mettre dans le voyage du passage de Venus
+      <lb/>pour la <rs key="place_VER-frankr" type="place">France</rs>, car on n’a pas résolu d’en faire d’autre que celui de M<hi rend="sup">r.</hi>
+      <lb/>l’Abbé <rs type="person">Chappe</rs> à la <rs type="place">mer du Sud</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> celui cy a deja un compagnon de voyage,
+      <lb/>vous feriez trés bien si cela vous intéresse, d’écrire à M<hi rend="sup">r.</hi> <rs key="pers_DE-588-100975127" type="person">Stehlin</rs> Conseiller
+      <lb/>d’Etat, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Secretaire de l’académie Impériale de <rs key="place_GEO-498817" type="place">Petersbourg</rs> pour offrir vos
+      <lb/>services à cette Académie, qui est résolue d’entreprendre quatre voyages <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>qui n’a guéres d’astronomes capables de les faire. Je voudrois fort que la Cour
+      <lb/>d’<rs key="place_VER-spanie" type="place">Espagne</rs> voulut envoyer en <rs key="place_VER-kalifo" type="place">Californie</rs>, ou au nord du <rs key="place_VER-mexiko" type="place">Mexique</rs>, puisque la
+      <lb/>mission de la Société Royale de <rs key="place_GEO-2643743" type="place">Londres</rs> n’a plus lieu, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’elle envoye au nord
+      <lb/>de la <rs key="place_GEW-hudson" type="place">baye d’Hudson</rs>. Vous pourriez encore écrire à ce sujet à Milord <rs type="person">Morton</rs>
+      <lb/>Présid.<hi rend="sup">t</hi> de la Société Royale pour savoir si la Société Roy. se détermineroit
+      <lb/>à faire entreprendre un second voyage à la partie <rs type="place">Nord ouest de
+      <lb/>l’amérique</rs> septentrionale qui est beaucoup plus intéressante que le Nord Est.
+  </p>
+  <p>
+      <lb/>Vous voyez Monsieur que s’il y a quelque espérance de réussir dans mon
+      <lb/>projet, ce ne peut gueres être que de la part de l’Académie de <rs key="place_GEO-498817" type="place">Petersbourg</rs>
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que votre secours me sera de la plus grande utilité, Vous etes membre
+      <lb/>de cette Académie, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> vous en avez été pendant plusieurs <add>années</add> le principal soutien,
+      <lb/>ensorte que je ne doute pas que votre recommandation ne fasse tout
+      <lb/>l’effet possible. Je prends donc la liberté de vous la demander, Monsieur,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> j’ose croire que je suis en etat de remplir la commission dont je
+      <lb/>souhaite de me charger d’une maniere à ne vous la pas faire regretter.
+  </p>
+<pb facs="3442191" n="160r"/>
+  <p>
+      <lb/>Je vous envoye<del>r</del> la lettre que je compte d’écrire à M<hi rend="sup">r.</hi> <rs key="pers_DE-588-100975127" type="person">Stehlin</rs>, en vous priant
+      <lb/>de vouloir bien y faire toutes les additions <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> corrections que vous jugerez
+      <lb/>convenables, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je la ferai partir aussitot que vous me l’aurez renvoyée, car
+      <lb/>je pense qu’il n’y a pas de tems à perdre, Vous voudrez bien y joindre
+      <lb/>celle que je prends la liberté de vous demander.
+  </p>
+  <p>
+      <lb/>Il y a longtems que je n’ai pas eu des nouvelles de notre ami M<hi rend="sup">r.</hi> <rs key="pers_DE-588-1069359947" type="person">Jeanneret</rs>,
+      <lb/>il a été affligé d’un assez mauvais Rhumatisme par tout le corps.
+  </p>
+  <p>
+      <lb/>Mes Respects Je vous prie à M<hi rend="sup">r.</hi> votre <rs key="pers_DE-588-117589136" type="person">Frere</rs>. Et soyez très persuadé
+      <lb/>du sincère attachement et de l’estime particulière avec le quel
+  </p>
+  <closer>
+    <salute>
+      <lb/>J’ai l’honneur d’etre Monsieur
+      <lb/>Votre tres humble
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très obeiss<hi rend="sup">t.</hi> serviteur
+    </salute>
+    <signed>
+      <lb/><rs key="pers_DE-588-129353949" type="person">Mallet</rs>
+    </signed>
+  </closer>
+<pb facs="3442192" n="160v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-118656503" type="person">Daniel Bernoulli</rs></addrLine>
+      <addrLine>Proffesseur der Physique</addrLine>
+      <addrLine><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</addrLine>
+      <addrLine>à <rs key="place_GEO-2661604" type="place">Bâle</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

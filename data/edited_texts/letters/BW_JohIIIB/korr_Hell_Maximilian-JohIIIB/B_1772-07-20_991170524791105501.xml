@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524791105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 20. Juli 1772</title>
+          <title type="alt">1772.07.20: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079633</title>
+          <title type="alt">1772-07-20_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524791105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524791105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+        <note type="print">
+          <p>[Erw.] Druck: Lettres sur différens sujets / Johann [III] Bernoulli. -Berlin. - [T.] 1(1777), [S.] 44</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128968">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.150, 175-177</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524791105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440049705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079633</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae (Wien)</origPlace>
+              <date when="1772-07-20">die 20 Julij 1772</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1772-07-20">die 20 Julij 1772</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524791205501" type="prev"/>
+          <ptr target="B_991170524791005501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1421672375">Espinha, José de</persName>
+            <note type="lebensdaten">(1722-1788)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell sends Johann III Bernoulli Augustin Hallerstein's observation and calculation of the solar eclipse of 25 May 1770 in Beijing for possible publication in the Recueil pour les astronomes. Hell discusses the unexplained discrepancy between the minimum distance of the solar and lunar centres calculated from the beginning and end of an eclipse and that calculated from measured phases, and therefore questions methods based on eclipse contacts. He offers descriptions of three Austrian observatories and encloses his dissertation defending his Vardø observation of the 1769 transit of Venus and his determination of the solar parallax against Lalande's published criticism. Hell condemns the fabrication of astronomical observations and asks Bernoulli to forward a packet to astronomers in Greifswald.</p>
+
+        <p>Maximilian Hell sendet Johann III Bernoulli Augustin Hallersteins Beobachtung und Berechnung der Sonnenfinsternis vom 25. Mai 1770 in Peking zur möglichen Veröffentlichung im Recueil pour les astronomes. Hell erörtert die ungeklärte Abweichung zwischen dem aus Beginn und Ende einer Finsternis berechneten kleinsten Abstand der Sonnen- und Mondzentren und dem aus gemessenen Phasen bestimmten Abstand. Daher bezweifelt er Methoden, die auf den Kontakten einer Finsternis beruhen. Er bietet Beschreibungen dreier österreichischer Sternwarten an und legt seine Abhandlung bei, in der er seine Beobachtung des Venustransits von 1769 in Vardø und seine Bestimmung der Sonnenparallaxe gegen Lalandes veröffentlichte Kritik verteidigt. Hell verurteilt die Erfindung astronomischer Beobachtungen und bittet Bernoulli, ein Paket an Astronomen in Greifswald weiterzuleiten.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-08-20" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2026-08-19" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-08-06" who="SG CG">Kollationieren weitergeführt</change>
+        <change when="2026-07-28" who="SG CG">Kollationieren begonnen</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-27" who="CG">Manuelle Kontrolle der Transkription</change>
+        <change when="2026-07-27" who="SG">Maschinelle Transkription hinzugefügt</change>
+        <change when="2026-07-27" who="SG">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529596/manifest"/>
+  </facsimile>
+  <text>
+<body>
+<div type="letter">
+
+
+
+
+<pb facs="3529597" n="150r"/>
+<opener rend="center">
+<salute rend="center">
+<lb/>Illustri, ac Celeberrimo <abbr>D.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-116170654" type="person">Bernoullio</rs>
+<lb/><rs type="organisation" key="org_DE-588-15514-7">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum Berolinensis</rs>
+<lb/>Astronomo longe profundissimo <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr>
+  <lb/>
+<lb/><rs key="pers_DE-588-119502208" type="person">Maximilianus Hell</rs>, <rs key="org_DE-588-80092-2" type="organisation"><abbr>S. J.</abbr></rs> <abbr>S. P. D.</abbr>
+</salute>
+</opener>
+<p rend="hanging"><lb/>Fasciculum nuper ad Te Vir <abbr>cel.</abbr> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me transmissum, Tibi redditum esse, plurim<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>m
+<lb/>gavisus sum. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unico hisce observationem <rs key="place_GEO-1816670" type="place">Pekinensem</rs>, et Problematis Solu<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tionem Patris <rs key="pers_DE-588-128740620" type="person">Augustini Hallerstein</rs> Tuo excellentissimo operi, <rs type="biblio">Recueil
+<lb/>pour les Astronomes</rs>, si Tibi digna videantur, inserenda.</p>
+<p><lb/>Miratur <abbr>P.</abbr> <rs key="pers_DE-588-128740620" type="person">Hallerstein</rs> repertam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> se distantiam veram centrorum <g ref="#SUN">&#x2609;</g> et <g ref="#leftmoon">&#x263D;</g>
+<lb/>minimam, ex Initio et Fine Eclipseos, <hi rend="u">junctim</hi> sumptis repertam, non congrue<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>re cum ea, quam ex dimensis Phasibus correspondentibus eadem methodo
+<lb/>supputavit. Fateor causam discrepanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hujus non esse facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> assignandam:
+<lb/>Errorem in observatione admissum non esse, liquet ex correspondente observatione
+<lb/><rs key="place_GEO-1816670" type="place">Pekini</rs> in Residentia <abbr>P.</abbr> <rs key="pers_DE-588-1421672375" type="person">Josephi <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>P.</abbr> Espinha</rs> facta, ex qua eadem distantia
+<lb/>supputatur; item ali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> observationes <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-117573752" type="person">De la Hire</rs>, et aliorum, quos citat
+<lb/><abbr>P.</abbr> <rs key="pers_DE-588-128740620" type="person">Hallerstein</rs>, <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> quibus omnibus distantia minima centrorum ex Initio, et Fine
+<lb/>major supputatur, quam <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> dimensis phasibus. Discrepantiam hanc jam ego
+<lb/>quoque ipse ali<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>s <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> meis observationibus animadverteram, veram tamen hujus
+<lb/>discrepanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> causam usque hodie detegere non potui; Etenim si dicamus id fieri
+<lb/>ab motum lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in sua orbita, et Telluris circa axem revolutionem, quibus
+<lb/>duabus causis junctim sumptis luna viam curvilineam describere videri debet,
+<lb/>quam tamen in Calculo tanquam rectilineam adhibemus, tum omnino distan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> phasibus correspondentibus calculis erut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> certa quadam lege
+<lb/>crescere, vel decrescere deberent. <choice><orig>at</orig><reg>At</reg></choice> ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> id non fieri ipsum Schema propositum
+  <lb/>indicat; distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> enim minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> phasibus erut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, e<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dem fere sunt <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> phasi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>bus tempore remotioribus, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> propioribus, excepta ea sola distantia minima
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex initio, et fine eruitur, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quasi per repentinum <hi rend="u">saltum</hi> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teris
+<lb/>omnibus discrepat; deinde <hi rend="u">saltus</hi> hic latere etiam non potest in incuria
+<lb/>observatoris utentis micrometro, quia hic <hi rend="u">saltus</hi> non in una unius observatoris
+<lb/>observatione deprehenditur, sed in plurium Astronomorum diversis in locis, et
+<lb/>temporibus observantium, atque ex hac discrepanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> causa, quod nempe alia distan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tia minima centrorum eruatur ex initio et fine, alia ex phasibus dimensis
+<lb/>ego methodum eam suspectam, et errandi periculo obnoxiam habeo, qua ex initio
+<lb/>et fine Eclipseos Solis elementa supputantur; methodum hanc satis jam dubiam
+<lb/>reddit ipsa observatio initi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> Eclipseos, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> certe non mihi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terpropter observari potest.</p>
+<pb facs="3529598" n="150v"/>
+<p rend="hanging"><lb/>Cum in excellenti opusculo <rs type="biblio" key="biblio_2UFWUTPT"><hi rend="u">Lettres Astronomiques</hi></rs> descriptionem observatori<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> anglicam
+<lb/>legissem, venit mihi in mentem, me Tibi fortassis rem non ingratam facturum,
+<lb/>si trium nostrarum novarum specularum <abbr>Astron.</abbr> delineationes, et descriptiones
+<lb/>Tecum co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unes facerem, eo cumprimis nomine, quod <abbr>Cel.</abbr> <rs key="pers_DE-588-104234059" type="person">De la Lande</rs> in sua
+<lb/>excellente <rs type="biblio">Astronomia</rs> harum specularum nimis succinctam mentionem fecerit, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>tamen mea opinione locum inter primarias merentur. <rs key="pers_DE-588-117542644" type="person">Majerus</rs> noster <rs key="place_GEO-2873891" type="place">Manhei<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> mihi splendidam munificentia <rs key="pers_DE-588-118560190" type="person">Electoris Palatini</rs> <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> fundamentis struit speculam, cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+<lb/>delineationem haud dubie Tecum co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unem faciet; exstat adhuc in <rs key="place_VER-austria" type="place">Austria</rs> specul<unclear reason="binding">a</unclear>
+  <lb/><rs key="place_GEO-2773538" type="place">Cremifani<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> in <rs type="organisation">Abbatia Religiosorum <abbr>S.</abbr> Benedicti</rs> ante annos aliquot exstructa, cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+<lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>est <abbr>cel.</abbr> <rs key="pers_DE-588-116586621" type="person">Fixlmillner</rs>, hanc ob magnificentiam, quam ipsas conspexi, primam
+<lb/>esse totius <rs key="place_KON-europa" type="place">Europ<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, longeque superiorem <rs type="organisation" key="org_DE-588-82800-2">Regia Parisina</rs> censeo.</p>
+  <p rend="hanging"><lb/>Addo tria exemplaria <rs type="biblio"><choice><sic>dissertationes</sic><corr>dissertationis</corr></choice> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> novissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> de Parallaxi Solis</rs>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> per mod<unclear reason="binding">um</unclear>
+<lb/>Appendicis in <rs type="biblio">Ephemeridibus <date when="1773">1773</date></rs> comparebit, ejus loco, quam <rs type="biblio">de <choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>quatione tempor<unclear reason="binding">is</unclear></rs>
+<lb/>promiseram, dissertationem hanc scribere coactus sum ob recens editum <rs type="biblio"><hi rend="u">Memoir<unclear reason="binding">e</unclear>
+<lb/>sur le Passage de Venus</hi></rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Cel<supplied>.</supplied><hi rend="sup">mo</hi></abbr> <rs key="pers_DE-588-104234059" type="person">de La Lande</rs> <rs key="place_GEO-2988507" type="place">Parisi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s</rs> in odium observationis
+    <lb/><rs key="place_GEO-777019" type="place">Wardhusian<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> confectum, quo me in auditi, et characteri, officioque meo contradicto<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ri<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> appasiti Criminis <hi rend="u">falsari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi> sine ullo fundamento suspectum reddere intendebat,
+<lb/>respondi quidem acrius, sed multo acerbiora meritus fuisset. Etenim si fides Astro<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nomi vacillet, nihil superest, quam ut <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> numero Astronomorum eliminetur <hi rend="u">falsariu<unclear reason="binding">s</unclear></hi>
+<lb/>ejusmodi; crimen quo non nulli Parisini Astronomi se se contaminarunt, uti
+<lb/>sunt <rs type="person"><abbr>P.</abbr></rs> et <rs type="person"><abbr>C.</abbr></rs> et <rs type="person">de la <abbr>Ch.</abbr></rs> et ali<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> plures, in alios quoque facile cadere posse
+<lb/>autumant, quodque sibi crimini non ducunt, putant et alios Viros veri amantes
+<lb/>patrare posse. Hanc pestem, si in Astronomiam admittamus, perdita est Astrono<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mia, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> solum, et unic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> i<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ititur <hi rend="u">observationibus</hi>. Si Astronomi artem noverun<unclear reason="binding">t</unclear>
+<lb/>confingendi observationes tam mirabiliter exactas, quasi fact<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fuissent, et id, quod
+<lb/>in qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stione est, jam ante observationes reperiendi, dein ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> per fictas observationes
+<lb/>confirmandi; tum cert<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> vana fu<choice><orig><g ref="#emacron">ē</g></orig><reg>e</reg></choice>re Astronomorum itinera, sumptus Principum, et
+<lb/>Regum inutiles, verbo: actum erit cum Astronomia, jam non scientia sublimissima,
+<lb/>sed pretiosa, et nugatoria habebitur <hi rend="u">charlateneria</hi>. <choice><orig>hujusmodi</orig><reg>Hujusmodi</reg></choice> ergo criminis Astro<pc type="hyphenation">-</pc><lb break="no"/>nomum quempiam, qui non heri natus est, et cujus labores, atque vigili<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> jam ab annis
+    <lb/>30 inter Astronomos pretium suum habu<choice><orig><g ref="#emacron">ē</g></orig><reg>e</reg></choice>re, sine ullo vel levissimo fundamento suspec<pc type="hyphenation">-</pc><lb break="no"/>tum reddere, hancque turpissimam, et prors<choice><orig><g ref="#uacut">ú</g></orig><reg>u</reg></choice>s indignam suspicionem in publicum prof<unclear reason="binding">er</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>re audere, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so an acerrimam mereatur reprehensionem <rs type="person" key="pers_DE-588-104234059">Calumniator</rs> ejusmodi.
+<lb/><choice><orig>me<del><gap/></del><add>u</add>m</orig><reg>Meum</reg></choice> ergo ad abjecta <rs type="biblio">De La Landiana responsum</rs>, si magnitudinem ab eo intentati
+<lb/>criminis spectemus, nimis quam humanum est.</p>
+  <p rend="hanging"><lb/>Adjectum fasciculum Astronomis <rs key="place_GEO-2917788" type="place">Grypsvaldensibus</rs> inscriptum, fac qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so, ut i<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s
+<lb/>reddatur; </p>
+<closer>
+<salute>vale, et me Nominis Tui, Tuorumque in Astronomiam meritorum
+<lb/>maximum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimatorem puta. <choice><orig>vale</orig><reg>Vale</reg></choice> iterum, iterumque.
+</salute>
+<dateline><lb/>dabam <rs key="place_GEO-2761369" type="place">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> die <date when="1772-07-20">20 Juli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1772</date>.</dateline>
+</closer>
+</div>
+</body>
+<back>
+<div type="attachment">
+<div type="editorialNote">
+<p>Beilage mit Augustinus Hallersteins Beobachtung der Sonnenfinsternis vom 25. Mai 1770 in Peking und der Berechnung der geringsten Distanz der Sonnen- und Mondzentren; mit einer abschliessenden Notiz von Maximilian Hell.</p>
+</div>
+<div type="attachment_text">
+<p>
+<pb facs="3529599" n="175r"/>
+
+<lb/>Eclipsis <g ref="#SUN">&#x2609;</g> <date when="1770-05-25">1770 Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 25</date> man<choice><orig><g ref="#eacut">é</g></orig><reg>e</reg></choice> observata <rs key="place_GEO-1816670" type="place">Pekini Sinarum</rs>
+<lb/>in <rs type="organisation">Collegio <abbr>S. I.</abbr></rs> Dioptrico 8 pedum cum Micrometro Anglico,
+<lb/>quo circa 7<hi rend="sup">h</hi> capta Diameter <g ref="#SUN">&#x2609;</g> erat 31′. 40″.
+  <note hand="pers_DE-588-119502208"><lb/><choice><orig><g ref="#agrav">à</g></orig><reg>A</reg></choice> <abbr>R.</abbr> Patre <rs key="pers_DE-588-128740620" type="person">Augustino Hallerstein</rs> <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> <rs type="organisation"><abbr>S. J.</abbr></rs> Mandarino, et <rs type="organisation">Collegi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <abbr>Mathem.</abbr></rs> Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>side.</note>
+</p>
+  <table rend="astronomical boxed">
+    <row role="label">
+      <cell role="label" cols="3" rend="rule-right align-center">Initium.</cell>
+      <cell role="label" cols="2" rend="rule-right align-center"><abbr>Lux.</abbr></cell>
+      <cell role="label" cols="3" rend="double-rule-right align-center">Finis.</cell>
+      <cell role="label" cols="3" rend="rule-right align-center">
+        <abbr>T.</abbr> <abbr>d.</abbr>
+        <formula>\frac{a}{m}</formula>.
+        <abbr>CC.</abbr>
+      </cell>
+      <cell role="label" cols="2" rend="align-center">
+        <abbr>d.</abbr>
+        <formula>\frac{b}{m}</formula>.
+        <abbr>CC.</abbr>
+      </cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7<hi rend="sup">h</hi>.</cell>
+      <cell role="data" rend="align-right">30′.</cell>
+      <cell role="data" rend="rule-right align-right">44″.</cell>
+      <cell role="data" rend="align-right">-</cell>
+      <cell role="data" rend="rule-right align-right"/>
+      <cell role="data" rend="align-right">9<hi rend="sup">h</hi>.</cell>
+      <cell role="data" rend="align-right">19′.</cell>
+      <cell role="data" rend="double-rule-right align-right">44″.</cell>
+      <cell role="data" rend="align-right">9<hi rend="sup">h</hi>.</cell>
+      <cell role="data" rend="align-right">18′.</cell>
+      <cell role="data" rend="rule-right align-right">1″<supplied>.</supplied></cell>
+      <cell role="data" rend="align-right">9′.</cell>
+      <cell role="data" rend="align-right">50″.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">39.</cell><cell role="data" rend="rule-right align-right">42.</cell>
+      <cell role="data" rend="align-right">27′.</cell><cell role="data" rend="rule-right align-right">56″<supplied>.</supplied></cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">9.</cell><cell role="data" rend="double-rule-right align-right">13.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">2.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">12.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">42.</cell><cell role="data" rend="rule-right align-right">4.</cell>
+      <cell role="data" rend="align-right">27.</cell><cell role="data" rend="rule-right align-right">4.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">6.</cell><cell role="data" rend="double-rule-right align-right">31.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">2.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">10.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">44.</cell><cell role="data" rend="rule-right align-right">39.</cell>
+      <cell role="data" rend="align-right">26.</cell><cell role="data" rend="rule-right align-right">11.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">3.</cell><cell role="data" rend="double-rule-right align-right">53.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">8.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">11.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">47.</cell><cell role="data" rend="rule-right align-right">5.</cell>
+      <cell role="data" rend="align-right">25.</cell><cell role="data" rend="rule-right align-right">19.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">1.</cell><cell role="data" rend="double-rule-right align-right">12.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">10.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">14.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">49.</cell><cell role="data" rend="rule-right align-right">47.</cell>
+      <cell role="data" rend="align-right">24.</cell><cell role="data" rend="rule-right align-right">27.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">58.</cell><cell role="data" rend="double-rule-right align-right">5.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">8.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">12.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">51.</cell><cell role="data" rend="rule-right align-right">6.</cell>
+      <cell role="data" rend="align-right">24.</cell><cell role="data" rend="rule-right align-right">0..</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">56.</cell><cell role="data" rend="double-rule-right align-right">24.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">3.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">13.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">52.</cell><cell role="data" rend="rule-right align-right">40.</cell>
+      <cell role="data" rend="align-right">23.</cell><cell role="data" rend="rule-right align-right">34.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">55.</cell><cell role="data" rend="double-rule-right align-right">11.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">15.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">14.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">54.</cell><cell role="data" rend="rule-right align-right">1.</cell>
+      <cell role="data" rend="align-right">23.</cell><cell role="data" rend="rule-right align-right">8.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">53.</cell><cell role="data" rend="double-rule-right align-right">20.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">6.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">14.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">56.</cell><cell role="data" rend="rule-right align-right">0.</cell>
+      <cell role="data" rend="align-right">22.</cell><cell role="data" rend="rule-right align-right">42.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">51.</cell><cell role="data" rend="double-rule-right align-right">36.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">17.</cell><cell role="data" rend="rule-right align-right">54.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">17.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">57.</cell><cell role="data" rend="rule-right align-right">1.</cell>
+      <cell role="data" rend="align-right">22.</cell><cell role="data" rend="rule-right align-right">15.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">49.</cell><cell role="data" rend="double-rule-right align-right">54.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">0.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">15.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">7.</cell><cell role="data" rend="align-right">58.</cell><cell role="data" rend="rule-right align-right">17.</cell>
+      <cell role="data" rend="align-right">21.</cell><cell role="data" rend="rule-right align-right">49.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">48.</cell><cell role="data" rend="double-rule-right align-right">13.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">17.</cell><cell role="data" rend="rule-right align-right">58.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">21.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">0.</cell><cell role="data" rend="rule-right align-right">5.</cell>
+      <cell role="data" rend="align-right">21.</cell><cell role="data" rend="rule-right align-right">23.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">46.</cell><cell role="data" rend="double-rule-right align-right">32.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">8.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">22.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">2.</cell><cell role="data" rend="rule-right align-right">9.</cell>
+      <cell role="data" rend="align-right">20.</cell><cell role="data" rend="rule-right align-right">57.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">44.</cell><cell role="data" rend="double-rule-right align-right">20.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">2.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">18.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">4.</cell><cell role="data" rend="rule-right align-right">7.</cell>
+      <cell role="data" rend="align-right">20.</cell><cell role="data" rend="rule-right align-right">30.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">42.</cell><cell role="data" rend="double-rule-right align-right">6.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">12.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">20.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">6.</cell><cell role="data" rend="rule-right align-right">22.</cell>
+      <cell role="data" rend="align-right">20.</cell><cell role="data" rend="rule-right align-right">4.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">39.</cell><cell role="data" rend="double-rule-right align-right">56.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">3.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">22.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">9.</cell><cell role="data" rend="rule-right align-right">12.</cell>
+      <cell role="data" rend="align-right">19.</cell><cell role="data" rend="rule-right align-right">38.</cell>
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">37.</cell><cell role="data" rend="double-rule-right align-right">13.</cell>
+      <cell role="data" rend="align-right">9.</cell><cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">4.</cell>
+      <cell role="data" rend="align-right">10.</cell><cell role="data" rend="align-right">18.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right">8.</cell><cell role="data" rend="align-right">22.</cell><cell role="data" rend="rule-right align-right">22.</cell>
+      <cell role="data" rend="align-right">18.</cell><cell role="data" rend="rule-right align-right">28<supplied>.</supplied></cell>
+      <cell role="data" cols="3" rend="rule-above double-rule-right align-center">minima</cell>
+      <cell role="data" cols="3" rend="rule-above rule-right align-center">phasis</cell>
+      <cell role="data" cols="2" rend="rule-above align-center"><abbr>lucis.</abbr></cell>
+    </row>
+  </table>
+  <note hand="pers_DE-588-119502208">
+<lb/><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice> <hi rend="u">a</hi> i<del><gap/></del><add>t</add>a legendum: Tempus
+    <lb/>distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> centrorum
+    <lb/><g ref="#SUN">&#x2609;</g> et <g ref="#leftmoon">&#x263D;</g>.
+<lb/><hi rend="u">b</hi><choice><orig>:</orig><reg type="deleted"/></choice> ita: Distantia minima
+    <lb/>centrorum <g ref="#SUN">&#x2609;</g> et <g ref="#leftmoon">&#x263D;</g> in partibus
+    <lb/>circuli maximi.
+</note>
+<p>
+<lb/>Prima serie sunt tempora I<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ersionum, terti<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> Emersionum. Secunda
+<lb/>serie sunt partes lucis capt<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> micrometro eadem in I<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ersione, et Emer<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sione. Constituta scilicet pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vi<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> revolutione micrometri expectabam pha<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sim, eiusque tempus usus micrometro instar reticuli. <choice><orig>ita</orig><reg>Ita</reg></choice> quippe pha<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualibus supputavi paulo co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odius distantiam minimam centro<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rum veram, eiusque tempus, quorum hoc quarta serie, illam quinta ad<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>scripsi, suis singula phasibus, et temporibus, <add>ex</add> quibus eruta sunt.
+</p>
+<pb facs="3529600" n="175v"/>
+  <figure facs="../images/figures/3529600_01.png">
+    <p><abbr>Fig.</abbr> I.</p>
+    <figDesc></figDesc>
+  </figure>
+  <figure facs="../images/figures/3529600_02.png">
+    <p><abbr>Fig.</abbr> II.</p>
+    <figDesc></figDesc>
+</figure>
+<p>
+<lb/>Nimirum in typo orthographico, <abbr>Fig.</abbr> I. (in quo <formula>Gg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> est orbita lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, <formula>Ca</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+<lb/>eius axis, <formula>CA</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> axis <choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>quatoris,) intervallum temporum observatorum
+  <lb/>conversum in minuta horarii mot<choice><orig><g ref="#uhat">û</g></orig><reg>u</reg></choice>s <g ref="#leftmoon">&#x263D;</g><hi rend="sup"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <g ref="#SUN">&#x2609;</g><hi rend="sup">e</hi> in orbita dat portionem
+  <lb/>orbit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>Gg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> ad tempora <abbr>e. c.</abbr> Initii in <formula>P</formula>, finis in <formula>p</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> supputo binas paral<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lelas ad orbitam <choice><orig><formula>P.B</formula></orig><reg>PB</reg></choice>, <formula>pb</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> itemque binas <formula>CB</formula>, <formula>Cb</formula>, ad eam perpendiculares:
+  <lb/>differentiam <formula>PB - pb = Ff</formula> aufero <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <formula>Gg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> manet su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>a <formula>GF+gf</formula>: differen<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tia <formula>CB-Cb=Bb</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> est differentia <formula>PF-pf</formula>.
+</p>
+<p>
+  <lb/>Existunt ade<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> duo triangula rectangula <formula>GPF</formula>, <formula>gpf</formula><choice><orig>.</orig><reg>,</reg></choice> <abbr>Fig.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in <abbr>Fig.</abbr> II<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+  <lb/>conjuncta apparent <formula>GPF</formula>, <formula>gpf</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> horum nota est su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>a basium <formula>GF + fg =</formula>
+  <lb/><formula>Gg</formula>, et differentia cathetorum <formula>PF-pF=Pp</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> not<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> item hypothenus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>PG</formula>,
+<lb/><formula>pg</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> centrorum <g ref="#SUN">&#x2609;</g> et <g ref="#leftmoon">&#x263D;</g> vis<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales, erut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex pha<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sibus lucis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualibus. Ex his trigonometrice, sive Analytic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> elicio sin<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>gulas <formula>GF</formula>, <formula>gf</formula>, <formula>PF</formula>, <formula>pf</formula>, tum in <abbr>Fig.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <formula>GF + PB = GD</formula> in minutis mo<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>t<choice><orig><g ref="#uhat">û</g></orig><reg>u</reg></choice>s horarii <g ref="#leftmoon">&#x263D;</g><hi rend="sup"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <g ref="#SUN">&#x2609;</g><hi rend="sup">e</hi> conversa in tempus, et hoc additum tempori<pc type="hyphenation">-</pc>
+  <lb></lb><seg type="weiser">prioris<pc type="hyphenation">-</pc></seg>
+<pb facs="3529601" n="176r"/>
+  <lb/><pc type="hyphenation">-</pc>prioris phaseos in <formula>G</formula>, dat in <formula>D</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> tempus distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> centrorum
+<lb/>ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><choice><orig>.</orig><reg>,</reg></choice> vel <formula>pb = fD</formula> ablat<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <formula>fg</formula>, et residu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <formula>Dg</formula> conversa in tempus, hoc ab<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>latum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> tempore posterioris phaseos in <formula>g</formula>, dat in <formula>D</formula>, tempus idem distan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> centrorum ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Similiter in <abbr>Fig.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <formula>PF = BD</formula> ablata <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <formula>CB</formula>,
+<lb/>relinquit <formula>CD</formula>, distantiam minimam veram centrorum, vel ab eadem <formula>PF</formula> ab<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lat<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <formula>Bb</formula>, et residu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <formula>bD = pf</formula> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <formula>Cb</formula> manet <formula>CD</formula> eadem.
+</p>
+<p>
+  <lb/>Et trigonometricus quidem calculus planus est: <abbr>Fig.</abbr> II<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> ad extremitatem
+  <lb/>not<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>Gg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> erigo perpendicularem notam <formula>Bg = Pp = Bb</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ro hypothe<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nusam <formula>BG</formula>, et angulum <formula>BGg</formula>. Cum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales sint <formula>PG</formula>, et <formula>PB = pg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et adeo <formula>GZ</formula>
+  <lb/>semissis hypothenus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in triangulo <formula>PGZ</formula> rectangulo invenio angulum <formula>PGZ</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+<lb/>(si in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales sint <formula>PG</formula>, <formula>PB</formula> in triangulo scaleno <formula>GPB</formula> ex notis tribus lateribus
+  <lb/>invenio angulum eundem <formula>PGZ</formula>) qui angulo <formula>BGg</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> additus dat angulum
+  <lb/><formula>PGF</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> notis angulis, et hypothenusa elicio <formula>GF</formula>, <formula>PF</formula>, ex quibus <formula>gF</formula>, <formula>pF</formula> additione
+<lb/>sola, aut subtractione innotescunt.
+</p>
+<p>
+  <lb/>Analyticus calculus tricosior. Pono, <abbr>Fig.</abbr> II<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <formula>PG = pg</formula>, <formula>= a\cdot Gg = b\cdot Pp = c</formula>.
+<lb/><formula>GF = x</formula>. <choice><orig>erit</orig><reg>Erit</reg></choice> <formula>Fg = b-x \cdot PF = \sqrt{aa-xx} \cdot pF = \sqrt{aa-xx}-c</formula>, et <formula>pg^{2} = aa =</formula>
+<lb break="no"/><formula>xx-2bx+bb+cc+aa-xx-\sqrt{4a^{2}c^{2}-4c^{2}x^{2}}</formula>. Omissis <formula>aa</formula>, et qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> se mutuo tol<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lunt <formula>xx</formula>, erit <formula>0=-2bx+bb+cc-\sqrt{4a^{2}c^{2}-4c^{2}x^{2}}</formula><choice><orig>.</orig><reg>,</reg></choice> et <formula>-2bx+bb+cc=\sqrt{4a^{2}c^{2}+4c^{2}x^{2}}</formula><choice><orig>.</orig><reg>,</reg></choice>
+  <lb/>quadrando utrumque: <formula>4b^{2}x^{2}+4b^{3}x-4bc^{2}x+b^{4}+2b^{2}c^{2}+c^{4}=4a^{2}c^{2}+4c^{2}x^{2}</formula><choice><orig>.</orig><reg>,</reg></choice> et
+<lb/>dividendo omnia per <formula>4</formula>, et rite trajiciendo erit: <formula>b^{2}x^{2}+c^{2}x^{2}-b^{3}x-bc^{2}x=a^{2}c^{2}</formula>
+  <lb break="no"/><formula>-\frac{b^{2}c^{2}}{2}-\frac{b^{4}}{4}-\frac{c^{4}}{4}</formula>. Et dividendo utrumque per <formula>bb+cc</formula>, erit <formula>xx-bx=\frac{a^{2}c^{2}-\frac{b^{2}c^{2}}{2}-\frac{b^{4}}{4}-\frac{c^{4}}{4}}{bb+cc}</formula><choice><orig>.</orig><reg>,</reg></choice>
+  <lb/>addendo utrinque <formula>\frac{bb}{4}</formula><choice><orig>.</orig><reg>,</reg></choice> erit <formula>xx-bx+\frac{bb}{4}=\frac{aacc-\frac{bbcc}{2}-\frac{b^{4}}{4}-\frac{c^{4}}{4}}{bb+cc}+\frac{bb}{4}=</formula>
+  <lb break="no"/><formula>\frac{4a^{2}c^{2}-2b^{2}c^{2}-b^{4}-c^{4}+b^{4}+b^{2}c^{2}}{4bb+4cc}</formula><choice><orig>.</orig><reg>,</reg></choice> reducendo scilicet omnia ad unum denominator<del><gap/></del><add>e</add>m,
+  <lb/>et omissis se mutu<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> destruentibus erit: <formula>xx-bx+\frac{bb}{4}=\frac{4a^{2}c^{2}-b^{2}c^{2}-c^{4}}{4bb+4cc}=\frac{a^{2}c^{2}}{bb+cc}-\frac{c^{4}}{4}</formula><choice><orig>.</orig><reg>,</reg></choice>
+  <lb/>nam et <formula>\frac{4a^{2}c^{2}}{4bb+4cc}=\frac{a^{2}c^{2}}{bb+cc}</formula><choice><orig>.</orig><reg>,</reg></choice> et <formula>\frac{-b^{2}c^{2}-c^{4}}{4bb+4cc}=-\frac{cc}{4}</formula><choice><orig>.</orig><reg>,</reg></choice> denique extrahendo utrinque
+  <lb/>radices,<fw type="catch">erit:</fw>
+<pb facs="3529602" n="176v"/>
+  <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>erit: <formula>x-\frac{b}{2}=\frac{\sqrt{a^{2}c^{2}}}{bb+cc}-\frac{cc}{4}</formula> et <formula>x=\frac{b}{2}\pm \frac{\sqrt{a^{2}c^{2}}}{bb+cc}-\frac{cc}{4}</formula><choice><orig>.</orig><reg>,</reg></choice> et ad vitandos magnos inter<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>dum numeros <formula>aacc</formula> juverit facere <formula>x=\frac{bb}{4}\pm \frac{\sqrt{ac}}{\sqrt{bb+cc}}-\frac{cc}{4}=GF</formula><choice><orig>.</orig><reg>,</reg></choice> et
+<lb/><formula>\sqrt{PG^{-2}-GF^{-2}}=PF</formula>.
+</p>
+<p>
+<lb/>Ut autem formula h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c ultima brevis videatur, et plana, nihil est usu ipso pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>calculo trigonometrico certius, aut co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odius. <choice><orig>hoc</orig><reg>Hoc</reg></choice> calculo erui, quos serie
+  <lb/>quart<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> descripsi, numeros 17, quos inter medius est 9<hi rend="sup">h</hi>.18′.4″ tempus distan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> centrorum ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Serie quinta descripti numeri 16 (excluso nem<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>pe primo 9′.50″, qui ex erutus ex Initio, et fine longius abit,) dant mediam 10′.16″.
+<lb/>distantiam minimam centrorum veram. Combinavi etiam tempora phasium
+  <lb/>in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualium extrema cum mediis: puta exclusis Initio et Fine <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> 7<hi rend="sup">h</hi>.39′.42<supplied rend="brackets">″</supplied> de<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>scendendo, et ascendendo <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> 8<hi rend="sup">h</hi>.37′.13″. exiver<choice><orig><g ref="#ehat">ê</g></orig><reg>e</reg></choice> numeri paull<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> alteri 16, quos
+</p>
+  <table rend="astronomical boxed">
+    <row role="data">
+      <cell role="data" rend="align-right">9<hi rend="sup">h</hi>.</cell>
+      <cell role="data" rend="align-right">18′.</cell>
+      <cell role="data" rend="rule-right align-right">6″.</cell>
+      <cell role="data" rend="align-right">10′.</cell>
+      <cell role="data" rend="align-right">13″.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">16.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">16.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">55.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">6.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">10.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">14½.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">18.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">22.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">9.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">15.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">7.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">11.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">21.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">14.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">59.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">19.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">10.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">18.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">53.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">20½.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">54½.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">21.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">18.</cell>
+      <cell role="data" rend="rule-right align-right">5.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">18½.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">55½.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">19.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">53.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">19½.</cell>
+    </row>
+
+    <row role="data">
+      <cell role="data" rend="align-right"/>
+      <cell role="data" rend="align-right">17.</cell>
+      <cell role="data" rend="rule-right align-right">54.</cell>
+      <cell role="data" rend="align-right">10.</cell>
+      <cell role="data" rend="align-right">17.</cell>
+    </row>
+  </table>
+<p>
+  <lb/>h<choice><orig><g ref="#igrav">ì</g></orig><reg>i</reg></choice>c adscripsi, ex quibus medii prodiv<choice><orig><g ref="#ehat">ê</g></orig><reg>e</reg></choice>re iidem: 9<hi rend="sup">h</hi>.18′.4″ et 10′.16″
+<lb/>Quid ergo ita solus ille numerus 9′. 50″ ab aliis abit? Ex Ini<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tio, et Fine hujus Eclipseos observatis in <rs type="organisation">Residentia <abbr>S.</abbr> Jo<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sephi</rs> erui distantiam minimam centrorum veram 9′. 48″<choice><orig>.</orig><reg>,</reg></choice>
+<lb/>ex aliis phasibus mediam 10′. 18″. An igitur utrobique eodem
+  <lb/>errore erratum? idem mihi accidit in Eclipsi <date when="1760-06-13">1760<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>Jun<choice><orig>:</orig><reg>.</reg></choice></abbr> 13</date><choice><orig>.</orig><reg>,</reg></choice>
+  <lb/>idem in Eclipsi <date when="1706-05-12">1706 Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 12</date><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> observata <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Cl<choice><orig>:</orig><reg>.</reg></choice></abbr> <rs key="pers_DE-588-117573752" type="person">de la Hire</rs>;
+<lb/>in Eclipsi <date when="1715">1715</date> ab eodem observata, contra distantia cen<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>trorum minima vera ex Initio, et Fine eruta maxima est
+<lb/>omnium, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex aliis phasibus erut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt. Sed in hac Ecli<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>psi numeri ex diversis phasibus eruti minimus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> maxi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mo differt 3′. Et sunt pauc<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fort<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Eclipses, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hoc exa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>men ferant.
+</p>
+<p>
+  <lb/>Denique posit<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> distantia minima centrorum vera 10′. 16″<choice><orig>.</orig><reg>,</reg></choice> et
+<lb/>ejus tempore 9<hi rend="sup">h</hi>. 18′. 4″<supplied>,</supplied> servatis reliquis elementis ex tabulis, quas habet
+  <lb/>in suis <rs type="biblio"><abbr>Inst<choice><orig>:</orig><reg>.</reg></choice></abbr> <abbr>Astr<choice><orig>:</orig><reg>.</reg></choice></abbr></rs> <abbr>Cl<choice><orig>:</orig><reg>.</reg></choice></abbr> <rs key="pers_DE-588-117636169" type="person">le Monnier</rs>, supputavi Initium hujus Eclipseos
+<pb facs="3529603" n="177r"/>
+  <lb/>7<hi rend="sup">h</hi>. 30′. 2½″. Cum id observ<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>ssem 7<hi rend="sup">h</hi>. 30′. 44″<choice><orig>.</orig><reg>,</reg></choice> Finem supputavi 9<hi rend="sup">h</hi>. 20′. 25″<choice><orig>.</orig><reg>,</reg></choice> cum
+  <lb/>eum observ<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>ssem 9<hi rend="sup">h</hi>. 19′. 44″<choice><orig>.</orig><reg>,</reg></choice> anne igitur tubus 8 pedum det Initium tar<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>di<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>s, et Finem citi<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>s 40″<choice><orig>.</orig><reg>,</reg></choice> ego certe et Initium, et Finem recte vidi.
+</p>
+<p>
+<lb/><hi rend="u c">Notandum</hi><note type="editorial">Die folgende Passage wurde von M. Hell nachträglich eigenhändig hinzugefügt, sie richtet sich an den Empfänger des Briefes.</note>
+</p>
+<p>
+<lb/>Eandem querelam questus est <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-119291096" type="person">Audifredi</rs> in Suo <abbr>Excell.</abbr> opusculo, cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> titulus:
+  <lb/><rs type="biblio">De Solis Parallaxi commentarius</rs>, <rs key="place_GEO-3169070" type="place">Rom<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> Anno <date when="1766">1766</date>, edito, <abbr>Cap.</abbr> II<choice><orig>.</orig><reg>,</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>pag.</abbr> 70
+  <lb/>ad 77<choice><orig>.</orig><reg>,</reg></choice> dum ex Initio, et fine Eclipseos <g ref="#SUN">&#x2609;</g> <del><gap/></del>Anni <date when="1764">1764</date> methodo <rs key="pers_DE-588-104234059" type="person">de la Landi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>
+<lb/>in differentiam Meridianorum inquireret, reperissetque ex observatione <rs key="place_GEO-2673730" type="place">Stockhol<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>miensi</rs> <abbr>cel.</abbr> Domini <rs key="pers_DE-588-117565849" type="person">Wargentin</rs> Anni <date when="1764">1764</date>, differentiam Meridianorum <rs key="place_GEO-2988507" type="place">Parisios</rs>
+<lb/>inter, et <rs key="place_GEO-2673730" type="place">Stokholmiam</rs> ab hactenus statuta minuend<del><gap/></del><add>a</add>m fore 52″, <del><gap/></del><add>t</add>empor.
+  <lb/>aut plane integro minuto primo; vitium manifestum determinationis
+  <lb/>hujus in ipsam Methodum refundendam esse indicavit. <abbr>P.</abbr> <rs type="person" key="pers_DE-588-119502208">Hell</rs>.
+</p>
+<p>
+<lb/>Methodum parallacticam ex Eclipsibus Solis periculosam non nunquam esse, demonstra
+  <lb break="no"/><pc type="hyphenation">-</pc>vi in <rs type="biblio"><abbr>Ephem.</abbr> <date when="1767">1767</date></rs><choice><orig>.</orig><reg>,</reg></choice> ubi in causas nonnullas inquiro.
+</p>
+<pb facs="3529604" n="177v" type="empty"/>
+</div>
+</div>
+</back>
+</text>
+</TEI>

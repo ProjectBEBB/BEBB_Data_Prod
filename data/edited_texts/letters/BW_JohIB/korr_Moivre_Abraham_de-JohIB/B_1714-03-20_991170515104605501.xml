@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170515104605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Abraham de Moivre. Basel, 20. März 1714</title>
+          <title type="alt">1714.03.20: Bernoulli, Johann (1667-1748) an Moivre, Abraham de (1667-1754)</title>
+          <title type="alt">000056766</title>
+          <title type="alt">1714-03-20_Bernoulli_Johann-Moivre_Abraham_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515104605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515104605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Moivre, Abraham de (1667-1754)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Datum eigemhändig</p>
+        </note>
+        <note type="print">
+          <p>Druck: Karl Wollenschläger, Der mathematische Briefwechsel zwischen Johann I Bernoulli und Abraham de Moivre: Verh.d.Nat.f.Ges. in Basel, Bd.XLIII, Basel 1933, pp.286-289</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-25044">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 664, Nr.8</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515104605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433086905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056766</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Bale</origPlace>
+              <date when="1714-03-20">ce 20. Mars 1714</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1714-03-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515104705501" type="prev"/>
+          <ptr target="B_991170515104505501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Moivre_Abraham_de-JohIB" corresp="pers_DE-588-117586765" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1151666831">Arnold, William</persName>
+            <note type="lebensdaten">(1690-XXXX)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1141832453">Arnold, John</persName>
+            <note type="lebensdaten">(1688-17XX)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104185643">Burnet, William</persName>
+            <note type="lebensdaten">(1688-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119115700">Collins, John</persName>
+            <note type="lebensdaten">(1625-1683)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118720066">Halley, Edmond</persName>
+            <note type="lebensdaten">(1656-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1022825984">Stanyan, Abraham</persName>
+            <note type="lebensdaten">(1669-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-22" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2022-12-16" who="RG">Erste Personen und Orte ausgezeichnet, aber nicht fertig</change>
+        <change when="2022-11-29" who="RG">Zeilabstände eingefügt, Seite angepasst, und kleinere Anpassungen</change>
+        <change when="2022-10-14" who="RG">Header angepasst</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1080305/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1080306" n="1"/>
+  <note hand="pers_DE-588-118509969">à <abbr>Mr.</abbr> de Moivre.</note>
+  <opener><dateline>à <rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1714-03-20">20. Mars 1714</date></dateline>
+      <lb/><salute>Monsieur</salute></opener>
+  <p><lb/>Depuis que Vous m’avez notifié ma reception dans Votre <rs type="organisation">Societé Royale</rs>,
+      <lb/>je n’ay plus reçu de Vos nouvelles, quoi qu’il y ait plus d’un an, que Vous
+      <lb/>me devez une réponse sur une <rs type="letter">lettre</rs> fort ample dattée du <date>18 fevrier 1713</date>,
+      <lb/>que je Vous ai envoyée sous couvert adressé <choice><orig>a</orig><reg>à</reg></choice> un certain <abbr>Mr.</abbr> <rs type="person">Arnold</rs><supplied>,</supplied> Frere
+      <lb/>d’un <rs type="person">autre</rs> qui faisoit dans ce temps là ses etudes de mathematiques sous moi
+      <lb/>et qui se trouve présentement <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs>; Je l’ai prié il y a quelques temps
+      <lb/>de s’informer auprés de son <rs type="person">Frere</rs> si cette <rs type="letter">Lettre</rs> là Vous a <choice><orig>eté</orig><reg>été</reg></choice> rendue,
+      <lb/>craignant qu’elle ne se soit perdue, ce qui ne me chagrineroit pas peu: Mon
+      <lb/><rs key="pers_DE-588-119166895" type="person">Neveu</rs> se plaint aussi de Votre silence disant qu’il Vous a ecrit plus d’une
+      <lb/>fois et en dernier lieu par la voye de <rs key="place_GEO-2988507" type="place">Paris</rs>, la quelle seroit la plus sûre et
+      <lb/>la plus courte si Vous vouliez nous honorer de la continuation de Votre corre<pc type="hyphenation">-</pc><lb break="no"/>spondance, en adressant les Lettres <hi rend="u">à <abbr>Mr.</abbr> <rs key="pers_DE-588-119062372" type="person">Varignon</rs> de l’<rs type="organisation">Academie Royale
+      <lb/>des Sciences</rs> et Professeur des mathematiques au <rs type="organisation">College des 4 Nations</rs>, <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs></hi>;
+      <lb/>Nous ne pouvons pas penetrer si Votre silence provient de quelque mécontentement,
+      <lb/>sans que nous en sçachions le sujet: Est<choice><orig></orig><reg>-</reg></choice>ce peutetre qu’<supplied rend="brackets">en </supplied>epousant l’interest de
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> Vous nous <del><gap/></del><choice><orig>soupçon̄éz</orig><reg>soupconnés</reg></choice> d’avoir pri<del><gap/></del><add>s</add> part contre Lui à la
+      <lb/>querelle qu’on a suscitée <choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs>; assûrement Vous nous feriez grand
+      <lb/>tort, car nous estimons également ces deux grands Ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es, et la bienveuillance
+      <lb/>de l’un et de l’autre nous est si chere et si pretieuse que nous ne voudrions
+      <lb/>pas la perdre auprez de l’un en nous attachant uniquement à l’autre, ainsi
+      <lb/>nous nous tiendrons <del><gap/></del><add>dans</add> la neutralité; nous souhaiterions seulement que la
+      <lb/>bo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e intelligence pût etre retablie entre eux, et que chacun relachât un
+      <lb/>peu de ses pretensions; puisqu’il ne s’agit ici que de la gloire d’etre
+      <lb/>le premier inventeur, la quelle ce me semble peut fort bien
+      <lb/>etre partagée en sorte que chacun en ait assez: pour moi je suis
+      <lb/>de cette nature qu<del><gap/></del><add>e</add> je laisserois ent<del><gap/></del><add>r</add>er en partage avec moi qui<pc type="hyphenation">-</pc><lb break="no"/>conque voudroit me disputer l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de la premiere inven<pc type="hyphenation">-</pc>
+<pb facs="1080307" n="2"/>
+      <lb break="no"/>tion des decouvertes que je croi avoir faites le premier, car j’aime mieux
+      <lb/>ceder le mien propre que de me tourmenter en querellant, d’autant
+      <lb/>plus que le Lecteur intellige<del><gap/></del>nt et desinteressé sçaura toujours ce qu’il
+      <lb/>en doit penser, et le jugement qu’il doit porter de la vanité et de l’o<pc type="hyphenation">-</pc><lb break="no"/>piniatreté avec la quelle on tache de s’arroger les decouvertes d’autrui:
+      <lb/>il y a bien encore à inventer! que de pays encore inconnus dans le monde des
+      <lb/>mathematiques! que ne vont<choice><orig> </orig><reg>-</reg></choice>ils chercher de nouveaux thresors, ceux qui
+      <lb/>nous veulent ravir les nôtres, ils en trouveront assez pour s’en passer des
+      <lb/>vieux: Mais pour revenir à la cause de Votre silence, je ne sçai si je
+      <lb/>ne le dois pas attribuer <choice><orig>a</orig><reg>à</reg></choice> quelque mesentendu, d’autant plus que je n’ai
+      <lb/>point encore reçû les deux <rs type="biblio">livres</rs> que Vous m’avez promis de m’envoyer dés
+      <lb/>qu’<choice><sic>il</sic><corr>ils</corr></choice> sortiroient de la presse sçavoir le <rs type="biblio"><hi rend="u">Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ercium Epistolicum de
+      <lb/>Collins</hi></rs> et les <rs type="biblio"><hi rend="u">Princip. Philosoph.</hi></rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, les quels ont <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>publiés depuis longtemps; on ne sçauroit étre plus impatient que moi
+      <lb/>de voir ce dernier <rs type="biblio">livre</rs>, parceque j’apprens qu’il y a beaucoup d’addi<pc type="hyphenation">-</pc><lb break="no"/>tions dans cette nouvelle <rs type="biblio">Edition</rs> qui ne sont pas dans l’<rs type="biblio">ancie<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e</rs>; j’
+      <lb break="no"/>apprens aussi que l’<rs type="person">Auteur</rs> y a mis la correction d’une erreur sui<pc type="hyphenation">-</pc><lb break="no"/>vant ma remarque que mon <rs key="pers_DE-588-119166895" type="person">Neveu</rs> lui co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqua lorsqu’il étoit en
+      <lb/><rs key="place_VER-englan" type="place">Angleterre</rs>: Je ne doute pas que du depuis Vous n’ayez vû mon <rs type="biblio">memoire</rs>
+      <lb/>inseré dans les Actes de Leipsic des Mois de Fevrier et de Mars, de l’an<pc type="hyphenation">-</pc><lb break="no"/>née passée, qui contient plusieurs choses sur le mouvement des corps
+      <lb/>pesants et quelques autres remarques sur les <rs type="biblio"><abbr>Princip.</abbr> de <abbr>Phil.</abbr></rs> de <abbr>Mr.</abbr> <lb/><rs key="pers_DE-588-118587544" type="person">Newton</rs>, mais Vous aurez aussi vû que je parle de ce grand ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e avec
+      <lb/>toute la moderation possible et avec un air respectueux et accompagné
+      <lb/>des eloges que l’on doit à son rare merite; en sorte que je n’ai pas lieu
+      <lb/>de croire, que cette <rs type="biblio">piece</rs> l’aura offen<del><gap/></del><add>s</add>é, ni qu’elle Vous aura do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é
+      <lb/>sujet de garder le silence: au contraire j’espere d’apprendre que
+      <lb/>Vous y aurez trouvé au moins quelque chose qui aura merité
+<pb facs="1080308" n="3"/>
+      <lb/>Votre approbation, ce qui me fera tout le plaisir que l’on peut at<pc type="hyphenation">-</pc><lb break="no"/>tendre de son travail.</p>
+  <p><lb/>Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <abbr>Mr.</abbr> <rs type="person">Stania<del><gap/></del><add>n</add></rs><supplied>,</supplied> Envoyé de la Reine aux <rs key="place_VER-schweiz" type="place">Cantons Suisses</rs><supplied>,</supplied> s’en
+      <lb/>retourne en <rs key="place_VER-englan" type="place">Angleterre</rs>, je me suis prevalu de cette bo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e occasion pour
+      <lb/>Vous envoyer<supplied>,</supplied> Monsieur<supplied>,</supplied> ce paquet, dont son <rs type="person">Secretaire</rs> qui est de <rs key="place_GEO-2661604" type="place">Bale</rs>
+      <lb/>s’est chargé, il contient 4 exemplaires de mon <rs type="biblio">Traité d’une nouvelle The<pc type="hyphenation">-</pc><lb break="no"/>orie de la Manoeuvre des Vaisseaux</rs> qui ne fait que <add>de</add> sortir de la presse; je
+      <lb/>Vous prie de faire tenir les 3 exemplaires aux 3 Perso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es aux quelles je
+      <lb/>les ai destinés et dont j’ay ecrit les noms devant le titre, sçavoir <choice><orig>a</orig><reg>à</reg></choice> <abbr>Messrs.</abbr>
+      <lb/><rs key="pers_DE-588-118587544" type="person">Newton</rs>, <rs key="pers_DE-588-118720066" type="person">Halley</rs>, et <rs key="pers_DE-588-104185643" type="person">Burnet</rs>: Vous garderez<supplied>,</supplied> s’il Vous plait<supplied>,</supplied> pour Vous le
+      <lb/>quatrieme exemplaire, que je Vous supplie de considerer co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e un gage
+      <lb/>d’une veritable Amitié et co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e une petite marque de la haute estime
+      <lb/>que j’ay pour Vous; Vous aurez la bonté d’assurer ces 3 Messieurs de
+      <lb/>mes respects en les priant d’accepter ce petit <rs type="biblio">livre</rs> non point co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e un
+      <lb/>present (car j’en ai trop reçu d’eux pour etre en état de m’en acquiter)
+      <lb/>mais co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e un signe tres foible de ma bo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e volonté: j’ay fait brocher seu<pc type="hyphenation">-</pc><lb break="no"/>lement ces exemplaires pour les empaqueter co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odement; il n’y a point
+      <lb/>ici de <choice><sic>Relieurs</sic><corr>Relieur</corr></choice> qui les auroi<del><gap/></del><add>t</add> pu relier <choice><orig>a</orig><reg>à</reg></choice> l’Angloise, c’est pourquoi Vous
+      <lb/>aurez la bonté et ces Messieurs de les faire relier chez Vous de la manie<pc type="hyphenation">-</pc><lb break="no"/>re qu’il Vous plaira: Je serai curieux de sçavoir Votre sentiment sur ma
+      <lb/>maniere de traiter cette matiere; Vous verrez dans la Préface que la
+      <lb/><rs type="biblio">Theorie de la Manoeuvre</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-102079056" type="person">Renau</rs> m’a do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é occasion d’ecrire cet
+      <lb/><rs type="biblio">Essai d’une nouvelle Theorie</rs>, parce que j’ay vu que celle de <abbr>Mr.</abbr> <rs key="pers_DE-588-102079056" type="person">Renau</rs>
+      <lb/>etoit batie sur deux principes faux, dont feu <abbr>Mr.</abbr> <rs key="pers_DE-588-118639749" type="person">Huyguens</rs> n’a remarqué
+      <lb/>qu’un seul; <abbr>Mr.</abbr> <rs key="pers_DE-588-102079056" type="person">Renau</rs><supplied>,</supplied> non content des raisons de <abbr>Mr.</abbr> <rs key="pers_DE-588-118639749" type="person">Huguens</rs>, re<pc type="hyphenation">-</pc><lb break="no"/>nouvella l’année passée la dispute par un <rs type="biblio">memoire</rs> qu’il fit impri<pc type="hyphenation">-</pc><lb break="no"/>mer et qu’il m’envoya me priant de do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er ma decision, ce que j’ai cru
+<pb facs="1080309" n="4"/>
+      <lb/>ne pouvoir mieux faire qu’en publiant mon <rs type="biblio">traité</rs> que je venois d’achever,
+      <lb/>et que j’avois co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encé sur l’avis que <abbr>Mr.</abbr> <rs key="pers_DE-588-117601020" type="person">de Montmort</rs> m’avoit do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é par
+      <lb/>avance que <abbr>Mr.</abbr> <rs key="pers_DE-588-102079056" type="person">Renau</rs> avoit sous la presse un <rs type="biblio">memoire</rs> pour repondre <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>la <rs type="biblio">replique</rs> que <abbr>Mr.</abbr> <rs key="pers_DE-588-118639749" type="person">Huguens</rs> publia contre Lui il y a plus de 20 ans. A pro<pc type="hyphenation">-</pc><lb break="no"/>pos de <abbr>Mr.</abbr> <rs key="pers_DE-588-117601020" type="person">de Montmort</rs> Vous sçavez sans doute qu’il a do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é au jour
+      <lb/>une <rs type="biblio">seconde edition</rs> de son <rs type="biblio">Livre</rs> sur les jeux de hazard avec des changemens
+      <lb/>et des <choice><sic>augmentions</sic><corr>augmentations</corr></choice> considerables, je n’ai pas encore reçu ce <rs type="biblio">livre</rs> quoiqu’il
+      <lb/>soit en chemin pour nous depuis plus de 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> semaines; je sçai pourtant
+      <lb/>qu’il contient plusieurs lettres de mon <rs key="pers_DE-588-119166895" type="person">Néveu</rs> et une des mie<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es, je
+      <lb/>ne doute pas qu’il ne parle de Votre traité de <rs type="biblio"><hi rend="u">Mensura Sortis</hi></rs>, qui est
+      <lb/>une piece des plus solides et des plus ingenieuses qu’on ait jamais
+      <lb/>vu sur ce sujet: Le <rs type="biblio">Livre</rs> posthume de feu mon <rs key="pers_DE-588-118509950" type="person">Frere</rs> de <hi rend="u"><rs type="biblio">Arte con<pc type="hyphenation">-</pc><lb break="no"/>jectandi</rs></hi> est devenu public depuis pres d’un an, Vous en devez a<pc type="hyphenation">-</pc><lb break="no"/>voir reçu un exemplaire par le soin de mon <rs key="pers_DE-588-119166895" type="person">Neveu</rs> qui en a envoyé
+      <lb/>plusieurs en <rs key="place_VER-englan" type="place">Angleterre</rs>; c’est Lui qui a fait la <rs type="biblio">Preface</rs> aprez son re<pc type="hyphenation">-</pc><lb break="no"/>tour de son voyage, et qui a changé et corrigé plusieurs fautes qui y
+      <lb/>seroient encore, s’il etoit arrivé ici un peu plus tard: On fait esperer
+      <lb/>à mon <rs key="pers_DE-588-119166895" type="person">Néveu</rs> de pouvoir succeder <choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> dans la <rs type="organisation">chaire</rs> de
+      <lb/>Mathematique à <rs key="place_GEO-3171728" type="place">Padoue</rs>. Il m’a chargé de Vous faire <del><gap/></del><add>s</add>es com<pc type="hyphenation">-</pc><lb break="no"/>plimens, et de Vous dire qu’il attend une reponse à sa <rs type="letter">lettre</rs>: Il
+      <lb/><del><gap/></del><add>se flattoit</add> que selon les mouvements qu’on se do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oit en sa faveur,
+      <lb/>il m’auroit suivi de prés pour entrer dans Votre <rs type="organisation">Societé</rs>: il ne sçait
+      <lb/>à present à quoi attribuer cette lenteur. Je suis avec un attachem<choice><orig><g ref="#en">ē</g></orig><reg>en</reg></choice>t
+      <lb/>inviolable</p>
+  <closer><lb/>Monsieur
+      <lb/>Votre tres humble et tres obeiss<choice><orig><g ref="#an">ā</g></orig><reg>an</reg></choice>t
+      <lb/>Serviteur
+      <lb/><signed><rs key="pers_DE-588-118509969" type="person">J<supplied>.</supplied> Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></signed>.</closer>
+</div>
+</body>
+</text></TEI>

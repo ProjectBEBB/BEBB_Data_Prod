@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516487605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann II Bernoulli. Genf, 20. Januar 1741</title>
+          <title type="alt">1741.01.20: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058269</title>
+          <title type="alt">1741-01-20_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516487605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516487605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136031">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.775-776</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516487605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433580305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058269</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1741-01-20">ce 20 Janv. 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1741-01-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430341705501" type="prev"/>
+          <ptr target="B_991170430341605501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+
+        <p>Cramer bestätigt, eine Bitte Johann II an den durchreisenden Algarotti ausgerichtet zu haben, und verlangt dessen Adresse für eine Antwort. Er reagiert scherzhaft auf Johann II zurückhaltende Mitteilung über die preussische Berufung und versichert ihm bleibende Freundschaft trotz möglicher Entfernung. Die Verteidigungsschrift Spinosismi depulsionis Echo will er nach eigener Lektüre offen darauf beurteilen, ob sie neben den ernsten mathematischen Arbeiten in die Werkausgabe aufgenommen werden sollte.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119086395">Algarotti, Francesco</persName>
+            <note type="lebensdaten">(1712-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare, deutsches Regest; Brieftext und Formeln unverändert</change>
+        <change when="2025-08-21" who="MK">Code durchgeschaut, ergänzt, korr., kollationiert fertig</change>
+        <change when="2025-07-31" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-31" who="RG">Personen, Biblio, Orte referenziert</change>
+        <change when="2025-07-31" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-07-05" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-07-05" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694238/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3694239" n="775"/>
+  <p>
+      <lb/>J’ai fait, mon cher Monsieur, votre commission auprès de
+      <lb/>Monsieur <rs key="pers_DE-588-119086395" type="person">Algarotti</rs>, qui a passé ici <date notAfter="1741-01-17">un couple de jours</date>.
+      <lb/>C’est un bien aimable homme, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui a bien du merite, entr’au<pc type="hyphenation">-</pc><lb break="no"/>tres celui de vous estimer infiniment. Vous avez apparemment
+      <lb/>son adresse, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je vous prierai de me la donner, parce qu’en quittant
+      <lb/>ce <rs key="place_GEO-2660646" type="place">pays</rs>-ci, il m’a fait l’honneur d’y laisser une <rs type="letter">lettre</rs> pour moi
+      <lb/>toute obligeante <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> flatteuse, à laquelle je crois devoir une réponse.
+      <lb/>J’aprouverois vôtre delicatesse virginale par raport à la recherche de
+      <lb/><choice><abbr>S. M.</abbr><expan>Sa Majesté</expan></choice> <rs key="pers_DE-588-118535749" type="person">Prussienne</rs>, si vous n’etiez pas comme la ville placée sur
+      <lb/>une haute montagne, qui ne peut étre cachée. Mais pouvez-vous
+      <lb/>vous flatter que vos moindres demarches soient ignorées. Surement les
+      <lb/>Journalistes ont des Espions à gage pour les informer de tout ce que
+      <lb/>vous faites. Vous auriez tort de vous offenser de ce que je parois
+      <lb/>craindre vôtre éloignement. Ce n’est qu’une erreur de calcul. Je
+      <lb/><subst><del><gap/></del><add>sens</add></subst> que nous tirons tout nôtre lustre des raions de votre gloire
+      <lb/>qui rejaillissent un peu sur nous, vos bons voisins. Et je m’imaginois
+      <lb/>que l’intensité de cette lumiere decroissoit en raison doublée des
+      <lb/>distances. Vous voulez qu’elle subsiste en raison constante. Cela
+      <lb/>est bien flatteur pour nous, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je n’y saurois répondre qu’en vous
+      <lb/>assurant d’une amitié tout aussi constante, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> parfaitement durable.
+<pb facs="3694240" n="776"/>
+      <lb/>Ne prenez pas ceci, je vous prie, pour une figure: <subst><del>r</del><add>R</add></subst>ien n’est
+      <lb/>plus réel, je vous jure. Je serai fort obligé à Monsieur
+      <lb/>votre <rs key="pers_DE-588-118509969" type="person">Pére</rs> de la communication de la Piéce <rs key="biblio_MELCB7I5" type="biblio"><foreign xml:lang="lat">Spinosismi depulsionis
+      <lb/>Echo</foreign></rs>. Elle est, dites vous, plaisante. J’en conclus quasi surement
+      <lb/>qu’elle est bonne, car <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118509969" type="person">Bernoulli</rs> <del><gap/></del>a fort l’esprit de la
+      <lb/>bonne plaisanterie. Je la recevrai avec plaisir, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> après cela je
+      <lb/>vous dirai, avec ma franchise ordinaire, si je suis d’avis de l’inserer
+      <lb/>parmi tant de belles piéces serieuses. Enfin, vous vous determinerez
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> nous suivrons vos ordres. Je ne crois pas avoir rien autre <choice><orig>a</orig><reg>à</reg></choice> vous
+      <lb/>marquer pour le present, que de vous assurer
+  </p>
+  <p>
+      <lb/>J’allois dire de mon parfait attachement, mais ce seroit
+      <lb/>retomber dans ce que nous sommes convenus d’<subst><del><gap/></del><add>ev</add></subst>iter.
+  </p>
+  <closer>
+  <salute>
+      <lb/>Adieu donc, mon très cher ami.
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs>
+  </signed>
+  <dateline>
+      <lb/><rs key="place_GEO-2660646" type="place">Geneve</rs> ce <date when="1741-01-20">20 <abbr>Janv.</abbr> 1741</date>
+  </dateline>
+  </closer>
+</div>
+</body>
+</text></TEI>

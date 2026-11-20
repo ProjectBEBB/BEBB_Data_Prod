@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514763605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jakob Huber an Daniel I Bernoulli. Ohne Ort, 1757</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514763605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514763605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39834">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 49 tt1-tt2</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514763605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432847905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055100</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 S.)<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1757">[1757?]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1757"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514763705501" type="prev"/>
+          <ptr target="B_991170514763505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-DanIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-12" who="SG">Vorbereitendes Tagging</change>
+        <change when="2026-03-29" who="SG">Tagging</change>
+        <change when="2026-03-29" who="SG">Transkription eingefügt</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1369632/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1369633" n="1"/>
+  <p>
+      <lb/>Oserois-je vous prier, Monsieur, de m’éclaircir <subst><del><gap/></del><add>sur un</add></subst> doute qui <add>me</add> vint
+      <lb/><subst><del><gap/></del><add>en</add></subst> repassant ce que vous avez eu la bonté de me dire sur
+      <lb/>la théorie du choc des corps.<del><gap/></del> <add>Je crains</add> qu’il <add>ne vous</add> paroisse trop singulier;
+      <lb/><del><gap/></del>si je ne comptois <add>pas</add> sur votre indulgence, je
+      <lb/>n’au rai <subst><del><gap/></del><add>garde</add></subst> de vous proposer une idée aussi
+      <lb/>baroque.
+
+  </p>
+  <p> <subst><del><gap/></del><add>Il me semble qu’il</add></subst> pourroit <del><gap/></del>y avoir des
+      <lb/><hi rend="u">Corps mous</hi> par faitement durs. <del><gap/></del>Quand
+      <lb/>il est question de Corps elastiques, et
+      <lb/>de Corps mous <subst><del><gap/></del><add>dans la doctrine des loix
+      <lb/>du mouvement</add></subst>, le terme
+      <lb/>de <hi rend="u">mou</hi> <subst><del><gap/></del><add>ne signifie autre chose que</add></subst>
+      <lb/><del><gap/></del><hi rend="u">non-elastique</hi>. <add>On prend ces deux termes pour synonimes.</add> <add>Si c’est avec fondement, voilà ce que je ne sais pas.</add> Il est vrai que parmi les corps que
+      <lb/>nous connoissons, les plus mous paroissent les moins
+      <lb/>élastiques.<del><gap/></del> le Plomb <subst><del><gap/></del><add>acquiert</add></subst> plus d’elasticité à mesure
+      <lb/>que sa dureté <subst><del><gap/></del><add>est augmentée</add></subst> par le marteau.<del><gap/></del> mais de ce que ces
+      <lb/>deux qualités se trouvent ordinairement
+      <lb/>join tes ensemble, <del><gap/></del>s’en suit-il qu’elles le soient
+      <lb/>toûjours?<del><gap/></del> D’ailleurs quand on supposeroit cette
+      <lb/>liaison en physique,<del><gap/></del> il restera <del><gap/></del>toûjours au
+      <lb/>Mathematicien à considerer des Corps<del><gap/></del>
+<pb facs="1369634" n="2"/>
+      <lb/>non-elastiques de toutes les trampes:
+
+      <lb/><del><gap/></del>Je serois tenté de croire <subst><del><gap/></del><add>que cette liaison n’est pas observée generalement.</add></subst> A vuë de pays le bois
+      <lb/>de sapin bien sec <subst><del><gap/></del><add>me paroit</add></subst> plus elastique et moins dur que l’etain.
+      <lb/>Les fluides fourniroient peut-être des exemples mieux
+      <lb/>marqués: Ce sont sans contredit les corps les plus mous.
+      <lb/>ne s’en trouve<del><gap/></del>-t-il point qui soient élastiques? Je ne
+      <lb/>sai si l’air est un exemple à citer; son elasticité est
+      <lb/>d’une espece particuliere, qui<del><gap/></del> n’agit qu’en expansion.
+<pb facs="1369636" n="3"/>
+      <lb/><abbr>Mr.</abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> suppose, comme vous le remarquez, Monsieur, que dans le Choc des
+      <lb/>Corps durs la Compression est in finiment petite,  <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <add>que</add> cependaant <add>elle est</add> infiniment plus garande que la
+
+      <lb/>restitution: je ne sais si je me trompe, mais il me semble que la chose
+      <lb/>est possible; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> voici <del><gap/></del>comment je me la suis representé[e].
+      <lb/>Me rappllant d’abord ce que vous avez eu la bonté de m’en seigner sur les
+      <lb/>Loix du mouvement des Corps mous, j’ai vu qu’on y suppose la Restitution
+      <lb/>absolument nulle, et que la quantité de la Compression ou de l’applatissement n’y
+      <lb/>entre pas en considera tion. On pourroit donc supposer cet applatissement infiniment petit,
+      <lb/>sans rien changer à la thèse; mais des Corps <del><gap/></del>dans ce cas seroient
+      <lb/>improprement appelés parfaitement mous,<del><gap/></del> <add>on</add> en diroit, je crois,
+      <lb/>plutot qu’ils sont <add>infiniment</add> durs. Quoiqu’il en soit, c’est tels que je me figure les Corps
+      <lb/>durs de <abbr>Mr.</abbr> De <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>. <del><gap/></del>Il est vrai <add>du reste</add> qu’il peut y avoir aussi bien des Corps élastiques
+      <lb/>parfaitement durs, <del><gap/></del>et Mr. De <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> n’en fait pas mention.
+
+      <lb/>La quantité de l’applatissement <del><gap/></del>causé par
+      <lb/>le choc n’entre pas dans son calcul: <subst><del><gap/></del><add>Il</add></subst> peut donc
+      <lb/>supposer cet applatissement infiniment petit; et voilà,<del><gap/></del>
+      <lb/>si je ne me trompe, l’idée d’un corps <hi rend="u">non-elastique</hi>
+      <lb/><hi rend="u">parfaitement dur</hi>.<del><gap/></del> [Der Brief ist nicht abgeschlossen,]
+
+  </p>
+<pb facs="1369637" n="4" type="empty"/>
+</div>
+</body>
+</text>
+</TEI>

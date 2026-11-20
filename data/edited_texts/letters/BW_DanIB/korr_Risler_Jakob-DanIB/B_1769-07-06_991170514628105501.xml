@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514628105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jakob Risler an Daniel I Bernoulli. Mülhausen, 06. Juli 1769</title>
+          <title type="alt">1769.07.06: Risler, Jakob (ca. 1730-1770) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055263</title>
+          <title type="alt">1769-07-06_Risler_Jakob-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514628105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514628105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Risler, Jakob (ca. 1730-1770)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Spuren von einer roten Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-126505">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 717:Bl.227, 229</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514628105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432955605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055263</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Mülhausen</origPlace>
+              <date when="1769-07-06">6. Juli 1769</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1051474922">Risler, Jakob</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4040474-2">Mülhausen</placeName>
+          <date when="1769-07-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514628205501" type="prev"/>
+          <ptr target="B_991170514628005501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Risler_Jakob-DanIB" corresp="pers_DE-588-1051474922" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117650390">Dollond, John</persName>
+            <note type="lebensdaten">(1706-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-19" who="FN SG">Kollationieren abgeschlossen</change>
+        <change when="2026-10-16" who="FN SG">Kollationieren begonnen</change>
+        <change when="2026-10-16" who="SG">Nachschrift: Transkription, Zeilenfall und vorbereitendes Tagging</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-04" who="RG">NER Erkennung</change>
+        <change when="2024-09-16" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-09-16" who="RG">Kleinere Anpassungen sowie Personen und Orte referenziert</change>
+        <change when="2024-09-16" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic xml:id="quelle1" url="https://www.e-manuscripta.ch/i3f/v20/3477374/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3477374/canvas/3477375" n="227r" source="#quelle1"/>
+  <opener>
+    <salute>
+      <lb/>HochEdelGebohrner, HochGelehrter
+      <lb/>Insonders HochzuEhrender Herr Professor!
+    </salute>
+  </opener>
+  <p>
+      <lb/>Mit diesen wenigen zeilen gebe mir die ehr <abbr>Ew.</abbr> <abbr>HochEdGeb.</abbr>
+      <lb/>zu berichten<supplied>,</supplied> <choice><orig>das</orig><reg>daß</reg></choice> ich wegen einigen vorgefallenen geschäfften
+      <lb/>erst seit wenigen tagen mit dem experiment dero doppel<pc type="hyphenation">-</pc><lb break="no"/>te<unclear reason="illegible">n</unclear> Objectifs fertig geworden, und a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>och darff ich mir nicht
+    <lb/>flattieren, <choice><orig>das</orig><reg>daß</reg></choice> meine arbeit mit genugsamer attention und
+      <lb/>sorgfalt behandelt worden; Ich glaube zwar denen gläsern
+      <lb/>die accurate sph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rische fl<subst><del><gap/></del><add>ä</add></subst>chen nach dero vorschrifft gegeben
+      <lb/>zu haben, allein der effect welcher der theorie nicht entspricht<supplied>,</supplied>
+    <lb/>weiset genugsam<supplied>,</supplied> <choice><orig>das</orig><reg>daß</reg></choice> es noch an einigen wichtigen orten
+      <lb/>fehlet, vielleicht ist es an der concentration und accuraten
+      <lb/>stellung der gläser, dieweilen ich um mehrere weitläuffig<pc type="hyphenation">-</pc><lb break="no"/>keiten und zum theil aus mangel der zeit die tubos nur
+      <lb/>auff die gewöhnliche art der Perspectif<choice><orig>=</orig><reg>-</reg></choice>röhren, und die
+      <lb/>capsuln<supplied>,</supplied> worinnen die gläser enthalten, nur von holz
+      <lb/>anstatt von <choice><orig>mesing</orig><reg>messing</reg></choice> verfertiget; <choice><orig>desen</orig><reg>dessen</reg></choice> ohngeachtet verwun<pc type="hyphenation">-</pc><lb break="no"/>dere mich, <choice><orig>das</orig><reg>daß</reg></choice> kein <choice><orig>beserer</orig><reg>besserer</reg></choice> effect und kein mercklicher un<pc type="hyphenation">-</pc><lb break="no"/>terscheid bey denen verschiedenen verruckungen der vorderen
+      <lb/>linsen<supplied>,</supplied> welche in einem beweglichen tubo <choice><orig>eingeschlosen</orig><reg>eingeschlossen</reg></choice>, sich zei<pc type="hyphenation">-</pc><lb break="no"/>gen will, die foci hingegen ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en zimlich mit dem calculo
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3477374/canvas/3477376" n="227v" source="#quelle1"/>
+      <lb/>übereins, da ich mir auch in diesem neuen experiment selbsten
+      <lb/>nicht traute, so habe zu mehrerer sicherheit <subst><del><gap/></del><add>b</add></subst>eyde lentes
+      <lb/>etliche mahl überschliffen, poliert und auff das genauste,
+      <lb/>nach denen schaalen geprüfft, gleichwie mich die erfahrung
+      <lb/>bey den <rs type="person">Clairautischen</rs> objectiven schon gel<subst><del><gap/></del><add>ehr</add></subst>et, wie behutsam
+      <lb/>man hieri<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en verfahren müss<subst><del><gap/></del><add>e</add></subst>, allein wiedrum kein
+      <lb/>mercklicher unterscheid. Ich habe auch um zu sehen was
+      <lb/>für ein effect heraus käme, wann beyde lentes i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ediate auf
+      <lb/>einander appliciert wurden, dem radio <formula>gch</formula> eine krü<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ung
+      <lb/>so sich zu dem radio <formula>man</formula> verhalten wie <formula>2m-1</formula> zu 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>,<del> ge-</del>
+    <lb/>nemlich <measure>90<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>lin.</abbr></measure> gegeben, und hier deuchte es mich, <choice><orig>das</orig><reg>daß</reg></choice>
+    <lb/>der effect etwas <choice><orig>beser</orig><reg>besser</reg></choice> seye, allein es erfolgt bey
+    <lb/>allen diesen einrichtungen kein <choice><orig>beserer</orig><reg>besserer</reg></choice><supplied>,</supplied> ja kaum so gu<pc type="hyphenation">-</pc><lb break="no"/>ter effect <subst><del><gap/></del><add>al</add></subst>s bey einer simplen linse von ohngefehr die<pc type="hyphenation">-</pc><lb break="no"/>sem foco; <space type="paragraph"></space>- Ich <choice><orig>weis</orig><reg>weiß</reg></choice> nicht, ob ich <abbr>Ew.</abbr> <abbr>HEdGeb.</abbr> diese
+      <lb/>unvollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ene und nur oben hin verfertigte machine
+      <lb/>ad videndum übersenden darff; sollten aber Dieselben
+      <lb/>belieben tragen die ph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>nomena Physica davon <del><gap/></del>zu sehen,
+      <lb/>besonders aber die fehler so Sie zweyffelsohn einsehen
+      <lb/>werden, nebst denen mittlen dens<subst><del><gap/></del><add>e</add></subst>lben <abbr>womögl.</abbr> abzuhelffen,
+      <lb/>mir gütigst anzudeuten, so wurde ich Ihnen unendlich ver<pc type="hyphenation">-</pc><lb break="no"/>pflichtet seyn, und bitte mich desfals mit Dero werthen
+      <lb/>befehlen zu beehren, der ich <choice><orig>indesen</orig><reg>indessen</reg></choice> die Ehr habe mit
+      <lb/>vollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ener hochachtung und ergebenheit zu beharren
+      <lb/><abbr>Ew.</abbr> HochEdelGebohrnen!
+  </p>
+  <closer>
+    <salute>
+      <lb/>Gehorsamster und erge<pc type="hyphenation">-</pc><lb break="no"/>benster diener</salute>
+    <signed><rs key="pers_DE-588-1051474922" type="person"><abbr>J.</abbr> Risler</rs>.</signed>
+    <dateline>
+      <lb/><rs key="place_GEO-2991214" type="place">Mülhausen</rs> <abbr>d.</abbr> <date when="1769-07-06">6.<hi rend="sup">ten</hi> July<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1769.</date>
+    </dateline>
+    <pb facs="https://www.e-manuscripta.ch/i3f/v20/3477374/canvas/3477377" n="229r" type="empty" source="#quelle1"/>
+    <pb facs="https://www.e-manuscripta.ch/i3f/v20/3477374/canvas/3477378" n="229v" source="#quelle1"/>
+
+      <address>
+        <addrLine>Monsieur</addrLine>
+        <addrLine>Monsieur le Professeur</addrLine>
+        <addrLine><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>, des Academies</addrLine>
+        <addrLine>de <rs key="place_GEO-2988507" type="place">Paris</rs>, <rs key="place_GEO-2643743" type="place">Londres</rs>, <rs key="place_GEO-498817" type="place">Petersbourg</rs><supplied>,</supplied></addrLine>
+        <addrLine><rs key="place_GEO-2950159" type="place">Berlin</rs>, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></addrLine>
+        <addrLine>à</addrLine>
+        <addrLine><rs key="place_GEO-2661604" type="place"><hi rend="u">Basle</hi></rs></addrLine>
+      </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

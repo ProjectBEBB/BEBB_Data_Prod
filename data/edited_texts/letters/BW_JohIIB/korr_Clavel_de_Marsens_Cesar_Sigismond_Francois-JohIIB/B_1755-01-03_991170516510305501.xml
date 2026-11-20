@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516510305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">César Sigismond François Clavel de Marsens an Johann II Bernoulli. Ropraz, 03. Januar 1755</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516510305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516510305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24398">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.48</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516510305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433436105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058134</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>20,5</height><width>15,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Ropraz</origPlace>
+              <date when="1755-01-03">ce 3e Janv. 1755</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="">Clavel de Marsens, César Sigismond François</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ropraz</placeName>
+          <date when="1755-01-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516510405501" type="prev"/>
+          <ptr target="B_991170516510205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Clavel_de_Marsens_Cesar_Sigismond_Francois-JohIIB" corresp="pers_DE-588-137455443X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1064474/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1064475" n="1"/>
+  <opener><lb/><dateline>Ropraz ce <date when="1755-02-03">3.<hi rend="sup">e</hi> <abbr>fevr.</abbr> 1755</date></dateline></opener>
+  <p>
+      <lb/>J’ay toujours été assez ennemi de l’usage reçu pour les Complimens
+      <lb/>dans cette circonstance, Mais à present je ne reconnois plus
+      <lb/>jamais avec lui, Monsieur et tres cher ami, puisqu’il me fait
+      <lb/>le plaisir de me presenter une occasion si naturelle de rompre
+      <lb/>le long et coupable Silence que j’ai gardé depuis quelque tems
+      <lb/>avec vous, pour vous reiterer les assurances de mon
+      <lb/>inviolable attachement pour vôtre personne et des voeux
+      <lb/>vifs et sinceres que je forme pour vôtre parfait Bonheur.
+      <lb/>Jouissés vous mon cher ami jouissés longtems de Bien et de
+      <lb/>Satisfaction, non interrompus, Sans Mélange d’aucunes peines
+      <lb/>que celles qui sont necessaires pour ranimer le goût émoussé de
+      <lb/>l’humanité et donner de la pointe aux plaisirs, et qui soient
+      <lb/>proportionelles à vôtre merite et aux désirs de vos Amis; je
+      <lb/>crois renfermer dans ces quatre Mots tous les souhaits les plus
+      <lb/>étendus, car je ne connois personne qui soit plus digne et soit
+      <lb/>en effet plus cher que vous de tous ceux qui ont le bonheur de
+      <lb/>vous Connoitre.
+      <lb/>M. Basler dans les lettres ne m’ayant point écrit de cette santé; j’en ai
+      <lb/>conclus, qu’elle est bonne: donnez m’en cependant des nouvelles,
+<pb facs="1064476" n="2"/>
+      <lb/>et de celle de Mad.<hi rend="sup">e</hi> vôtre Epouse que j’aime de mes tres humbles
+      <lb/>obeissances et de vôtre aimable famille; toute
+      <lb/>ce choix m’attendrit toujours mon coeur par les endroits
+      <lb/>les plus vifs; Car telle est la foi que je veux me former quelque
+      <lb/>Chateau en Espagne qui satisfasse pleinement mon gout et mon
+      <lb/>inclination, je me figure quelque circonstance qui me mette
+      <lb/>à même d’aller respirer encore une fois le même air que vous
+      <lb/>Mon cher ami pour jouir de tous les agremens et les utilités
+      <lb/>inseparables d’un commerce tel que le Vôtre.
+      <lb/>je vous suis infiniment redevable de vôtre complaisance pour
+      <lb/>ce que j’avois prié M. Balex de vous demander, j’avois dit
+      <lb/>précisément les mêmes choses au jeune homme en question,
+      <lb/>mais comme apparemment il ne croioit pas que je l’eusse assez
+      <lb/>dit, il a fallu le satisfaire et j’espere que s’il entendra bien
+      <lb/>vous en croire.
+      <lb/>On dit que M. de Voltaire vient d’arriver dans un Chateau
+      <lb/>de ce païs, où il compte de fixer son séjour; si cela est je
+      <lb/>pourrai vous en dire des nouvelles, car comme de <unclear>Dreux</unclear>
+      <lb/>est en grande relation avec lui depuis environ une année
+<pb facs="1064477" n="3"/>
+      <lb/>je serai bien instruit de ses faits et gestes, je crains bien qu’il ne
+      <lb/>fasse tourner la tête à bien des petites têtes legeres de notre pais,
+      <lb/>qui le voyant avoir été transformés en tout autant de petits voltaires
+      <lb/>apres l’avoir vu quelquesfois, semblables à ces Docteurs Indiens, qui
+      <lb/>s’imaginent recevoir le don d’inspiration en tournoyant en regardant
+      <lb/>le soleil.
+      <lb/>Adieu Mon Cher ami, je vous prie de penser quelquefois à
+      <lb/>moi, je retiens persuadé que vous le faites et que vous n’oubliez
+      <lb/>point un homme, qui sera jusqu’au tombeau avec le plus tendre
+      <lb/>Attachement vôtre tres humble et tres obeissant serviteur
+  </p>
+  <closer>
+      <lb/><signed>De Marsens</signed>
+<pb facs="1064478" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine> Monsieur Jean Bernoulli</addrLine>
+      <addrLine>des Academies des Sciences et belles</addrLine>
+      <addrLine>lettres, Bibliothecaire et professeur des</addrLine>
+      <addrLine>Mathematiques</addrLine>
+      <addrLine>de Messieurs</addrLine>
+      <addrLine>à Bale</addrLine>
+            <note hand="unknown">Janv. 1755.</note>
+    </address>
+  </closer>
+
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430340505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Gabriel Cramer. Basel, 16. Juni 1745</title>
+          <title type="alt">1745.06.16: Bernoulli, Johann (1710-1790) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000058285</title>
+          <title type="alt">1745-06-16_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430340505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430340505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms. Suppl. 362 (Coll. Coindet)</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430340505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406957305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058285</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1745-06-16">ce 16 Juin 1745</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1745-06-16"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516487205501" type="prev"/>
+          <ptr target="B_991170516487105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1396374396">Grimod de La Reynière, Antoine Gaspard</persName>
+            <note type="lebensdaten">(1687-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117679879">Pajot d'Onsenbray, Louis Léon</persName>
+            <note type="lebensdaten">(1678-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Thun, Baron von</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/ark:/17786/vta8dfe09dd2ce30916/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://archives.bge-geneve.ch/ark:/17786/vta8dfe09dd2ce30916/canvas/0/1" n="3r"/>
+  <p> Monsieur </p>
+  <p> Il est vrai que j’ai trouvé dans la Bibliothèque de mon Père un Exemplaire très proprement relié de la dernière Edition de Londres des Principes de Newton, qu’il a conservé d’autant plus precieusement que c’étoit un présent venant de votre part; mais comme il s’agissoit de vous faire plaisir, il n’a fait aucune difficulté de me le laisser prendre; vous pensés bien cependant qu’il n’aura pas voulu traquer contre de l’argent un souvenir si cher; il ne peut donc qu’accepter l’offre qui M. le Baron de Thun lui fait de lui procurer un pareil Exemplaire de Londres, d’autant plus qu’il est déjà pourvu de l’Edition de Genève. J’ai donc fait votre Commission mon cher Monsieur, et j’ai expédié le livre par la poste sous le couvert <pb facs="https://archives.bge-geneve.ch/ark:/17786/vta8dfe09dd2ce30916/canvas/0/2" n="3v"/> de <rs type="person" key="pers_DE-588-1396374396">M. de la Rainiéres</rs> que j’ai préferé à celui de M. d’Onsembray. </p>
+  <p> J’ai l’honneur d’être avec un veritable attachement et une parfaite Consideration Monsieur Bâle Votre tres humble et ce 16 Juin 1745 tres obéissant serviteur J. Bernoulli </p>
+<pb facs="https://archives.bge-geneve.ch/ark:/17786/vta8dfe09dd2ce30916/canvas/0/3" n="4r" type="empty"/>
+<pb facs="https://archives.bge-geneve.ch/ark:/17786/vta8dfe09dd2ce30916/canvas/0/4" n="4v"/>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170521065405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 27. März 1790</title>
+          <title type="alt">1790.03.27: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000215207</title>
+          <title type="alt">1790-03-27_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170521065405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170521065405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128949">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.169</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170521065405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972436171905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000215207</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1790-03-27">27 Martii 1790</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1790-03-27">27 Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1790</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516783205501" type="next"/>
+          <ptr target="B_991170524789505501" type="prev"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell sends Johann III Bernoulli several publications and reiterates his opposition to naming the newly discovered planet after George III or Herschel, predicting that those names will disappear from astronomical usage. Responding to Bernoulli's letter of 25 August 1789, Hell rejects the judgement of Bernoulli's theologian friend on his demonstrative elegy arguing that Adam must have been an astronomer. Hell cites the chronology of Noah in Genesis as evidence that the motions of the Sun and Moon were known before the Flood and denounces theological and philosophical accounts that treat Genesis as fiction or early humanity as primitive. He announces a more extensive work, already prepared for printing, on Adam's first night and the origins of astronomy among the patriarchs, and invites Bernoulli to communicate his reply to the theologian.</p>
+
+        <p>Maximilian Hell sendet Johann III Bernoulli mehrere Veröffentlichungen und bekräftigt seine Ablehnung einer Benennung des neu entdeckten Planeten nach Georg III. oder Herschel. Er sagt voraus, diese Namen würden aus dem astronomischen Gebrauch verschwinden. Als Antwort auf Bernoullis Brief vom 25. August 1789 weist Hell das Urteil eines mit Bernoulli befreundeten Theologen über seine beweisende Elegie zurück, wonach Adam ein Astronom gewesen sein müsse. Hell führt die Chronologie Noahs in der Genesis als Beleg dafür an, dass die Bewegungen von Sonne und Mond bereits vor der Sintflut bekannt waren, und verurteilt theologische und philosophische Darstellungen, die die Genesis als Erfindung oder die frühe Menschheit als primitiv betrachten. Er kündigt ein umfangreicheres, druckfertiges Werk über Adams erste Nacht und die Ursprünge der Astronomie bei den Patriarchen an und erlaubt Bernoulli, seine Antwort dem Theologen mitzuteilen.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-18" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2025-05-09">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529392/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+        <pb facs="3529393" n="169r"/>
+        <opener>
+          <salute rend="center">
+            <lb/>Illustris, doctissime, ac celeberrime Domine!
+          </salute>
+        </opener>
+        <p>
+          <lb/><rs type="biblio">Opuscula</rs>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentia offero, benevolo, ut soles, accipienda animo
+          <lb/>rogo. Per mea Monumenta, spero, Nomina Regis Angli<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, et <hi rend="u"><rs type="person" key="pers_DE-588-118841920">Herscheli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></hi>
+          <lb/>perennia futura, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Planet<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> novo non recte tributa, certissim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+          <lb/>Posteris Astronomis extra Usum ponenda, proindeque <choice><sic>exstinquenda</sic><corr>exstinguenda</corr></choice>,
+          <lb/>et delenda pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>video.
+        </p>
+        <p>
+          <lb/>E perhumana Tua <rs type="lostletter">Epistola</rs> die <date when="1789-08-25">25 <abbr>Aug.</abbr> Anni 1789</date> ad me exarata,
+          <lb/>intellexi judicium, et sententiam <rs type="person">Amici Tui Theologi</rs> de <rs type="biblio">Elegia mea
+          <lb/>Epidictica</rs>, in qua demonstratur: <hi rend="u"><rs type="person" key="pers_DE-588-118646877">Adamum</rs> necessario fuisse Astronomum</hi>.
+          <lb/>A Theologo, Astronomiam ignorante, non aliud ferri poterat judicium,
+          <lb/>qui fortassis toto Su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Vit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tempore, vultum, et oculos in Coelum non erexit,
+          <lb/>si tamen Theologus est <hi rend="u">Christianus</hi>, <rs type="biblio">Librum Geneseos</rs> pro <hi rend="u">vero</hi> libro ad<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mittens, <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Capite VII et VIII<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <rs type="biblio">Geneseos</rs>, utique intelligere poterat, annos
+          <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person" key="pers_DE-588-118641328">Noëmo</rs> numeratos, jam fuisse Mensium <hi rend="u">duodecim</hi>, adeoque Cursum Lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+          <lb/>et Solis ante <rs type="person" key="pers_DE-588-118641328">Noëmum</rs> jam notum fuisse Patriarchis ante diluvianis,
+          <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> notitia sine observationibus cursus <g ref="#leftmoon">&#x263D;</g>, et <g ref="#SUN">&#x2609;</g> anterioribus omnino
+          <lb/>haberi non poterat. <rs type="person">Theologus</rs> hic antichristianus, et Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+          <lb/>prorsus ignorans, un<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <hi rend="u">blasphemi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice></hi> argumenta mea exsuflare po<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tuisset, dicendo: <hi rend="u"><rs type="biblio">Genesim</rs> totam esse merum figmentum, et meram
+          <lb/>fabulam <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> cerebro <rs type="person" key="pers_DE-588-118641190">Moysis</rs> confictam, uti totus est liber, quem <rs type="biblio">Biblia</rs> di<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>cunt christiani</hi>. <choice><orig>hoc</orig><reg>Hoc</reg></choice> responso, <rs type="person">Theologus</rs> iste confessus fuisset, se esse <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+          <lb/>numero hodiernorum Philosophorum, omnem <hi rend="u">revelationem</hi>, et <hi rend="u">traditionem</hi>
+          <lb/>negantium, atque <rs type="person" key="pers_DE-588-118646877">Adamum</rs> cum posteris suis fuisse <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> specie simiarum
+          <lb/><hi rend="u">Orang-Outang</hi> somniantium, uti me memini vidisse in <rs type="biblio">Calendario Bero<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>linensi</rs> quodam, Cupris <rs type="person" key="pers_DE-588-118520512">Chodieviczkianis</rs> decorato, in quo <rs type="biblio">Calendario</rs> ad
+          <lb/>mentem hodiernorum Berolinensium Philosophorum, perfectio, et Progressus
+          <lb/>generis humani ab <rs type="person" key="pers_DE-588-118646877">Adamo</rs> inchoati ad scandalum totius christianitatis
+          <pb facs="3529394" n="169v"/>
+          <lb/>et dedecus generis humani proponitur, more hodiernorum Deistarum, et
+          <lb/>Atheistarum, eo modo viventium, quo eos descripsit <rs type="person" key="pers_DE-588-118641549">Paulus Apostolus</rs>
+          <lb/>in sua <rs type="biblio">Epistola ad Rom. I.</rs> cujus fragmentum refero pagina ultima
+          <lb/>mearum Notarum in <rs type="biblio">Elegiam Epidicticam</rs>.
+        </p>
+
+        <p>
+          <lb/>Ceterum ego non provoco ad Theologos, Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rudes, sed ad Astro<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nomos, dum in <rs type="biblio">Elegia Epidictica <abbr>pag.</abbr> 14</rs> ita ajo: <quote><hi rend="u">Et si Astronomus es
+          <lb/><said><choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>non dixi, si Theologus es antichristianus, Astronomiam ignorans <choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice></said> aude
+          <lb/>negare; <rs type="person" key="pers_DE-588-118646877">Adamum</rs> fuisse primum, et maximum Astronomum.</hi></quote> Sed de hoc
+          <lb/>argumento ego in alio <rs type="biblio">opere</rs> fusiore, jam pro pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>lo parato, <subst><del><gap/></del><add>ago</add></subst>, in quo
+          <lb/><rs type="biblio">opere</rs> patetic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> descripta legetur: <quote><hi rend="u"><rs type="biblio">Prima nox Adami</rs></hi></quote>, et in quo opere ex
+          <lb/>Professione ago de <hi rend="u">Principio</hi> Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> per <rs type="person" key="pers_DE-588-118646877">Adamum</rs> <hi rend="u">necessario</hi> inchoat<unclear reason="binding"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></unclear>
+          <lb/>et per Patriarchas continuat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ubi un<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> famosum illum Theologum
+          <lb/><hi rend="u"><rs type="person" key="pers_DE-588-116725966"><rs type="person" key="pers_DE-588-116725966">Brukerum</rs></rs></hi>, <rs type="biblio">Histori<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Philosophic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in septem vastis Tomis</rs> Authorem, per
+          <lb/>totum Librum I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et II<supplied>,</supplied> Tomi I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Histori<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> delirantem, et primos homines
+          <lb/>in classem simiarum <hi rend="u">Ourang-outang</hi> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>ut Tuus fuit <rs type="person">Theologus</rs><choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> referentem
+          <lb/>in numerum stultorum perinde referendum esse demonstro, uti <hi rend="u"><rs type="person" key="pers_DE-588-119059150">Wunschium</rs></hi>
+          <lb/>insanum Authorem <hi rend="u"><rs type="biblio">Hori</rs></hi>, in classem retuli delirantium in <rs type="biblio"><hi rend="u">Elegia</hi> mea <hi rend="u">Epi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>dictica</hi></rs>. Hanc meam de Sententia Tui <rs type="person">Theologi</rs> mentem, non sum con<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>trarius, si eidem <rs type="person">Theologo</rs> communicaveris, eum admonendo, ut judicium
+          <lb/>suum de <hi rend="u"><rs type="person" key="pers_DE-588-118646877">Adamo</rs> primo Astronomo</hi> tantisper suspendat, donec <hi rend="u">Primam
+          <lb/>noctem <rs type="person" key="pers_DE-588-118646877">Adami</rs> vigilatam</hi>, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me descriptam, et vulgatam legerit.</p>
+<closer><lb/>Jam Vale Vir celeberrime, et mihi porro favere perge.
+<dateline><lb/><choice><orig>dabam</orig><reg>Dabam</reg></choice> <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1790-03-27">27 Martii 1790</date>.
+          </dateline>
+          <salute>
+            <lb/>Tui obsequentissimus
+          </salute>
+          <signed>
+            <lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs>.
+          </signed>
+        </closer>
+            <note hand="pers_DE-588-116170654">† <date when="1792-04-15">15 <abbr>Apr.</abbr> 1792</date>. <abbr><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>t.</abbr> 72.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

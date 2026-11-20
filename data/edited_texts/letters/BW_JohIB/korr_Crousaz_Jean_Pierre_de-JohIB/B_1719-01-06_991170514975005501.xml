@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514975005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean-Pierre de Crousaz an Johann I Bernoulli. Lausanne,
+            06. Januar 1719</title>
+          <title type="alt">000055779</title>
+          <title type="alt">1719-01-06_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514975005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514975005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Signatur eigenhändig. Letzte Seite
+          leer</p>
+          <p>Original</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.79-84</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24633">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.12*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514975005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432939905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055779</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>7 S.<dimensions unit="cm"><height>22</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Lausanne</origPlace>
+              <date when="1719-01-06">6e Janv.
+              1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1719-01-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514975105501" type="prev"/>
+          <ptr target="B_991170514974905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Crousaz hat Werenfels einiges Material gesandt, das er zur seiner Verteidigung gegen die
+          Theologen geschrieben hat, und diesen gebeten, es Joh. B. zugänglich zu machen. M. de
+          Traitorens hat aus Paris erfahren, dass Renau plant, in den Kampf zu ziehen. In Genf gibt
+          es geschickte Mathematiker, die Renaus Ideen teilen und seine Hypothesen verteidigen. Der
+          Eigensinn macht sich in den Wissenschaften breit. Newton hätte gut daran getan, in seinen
+          Prinzipien klarer und weniger dunkel in seinen Folgerungen zu sein. Crousaz bekämpft eine
+          seiner Hypothesen in einer These, die er Joh. B. senden wird. Sie scheint Newtons System
+          von Grund auf umzustürzen. Crousaz sagt "scheint", denn er erwartet noch Joh. B.s Meinung
+          dazu. [Crousaz beschreibt nun ausführlich Experimente mit farbigen Schatten, die er selbst
+          angestellt hat.] Er hat die Beobachtung nicht geordnet und eine Erklärung der vielen
+          beobachteten Phänomene will er hier nicht geben. Für ihn sind jedoch die Farben
+          abgeschwächtes Licht bzw. eine Mischung von Licht und Schatten.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1069608270">Treytorrens, François-Frédéric de</persName>
+            <note type="lebensdaten">(1687-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1719-01-06_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2009-10-20" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074491/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1719-01-06_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+  <pb facs="1074492" n="1"/>
+        <opener>
+          <dateline>
+
+<lb/> à <rs type="place" key="place_GEO-2659994">Lausanne</rs> 6.<hi rend="sup">e</hi> Jan.<hi rend="sup">r</hi>
+          1719</dateline>
+          <salute>
+<lb/>Monsieur </salute>
+        </opener>
+  <p>
+<lb/>Les embarras que m’a causé le <rs type="organisation">Clergé</rs> de <rs type="place" key="place_GEO-2661552">Berne</rs> ne m’ont, en rien, tant
+<lb/> fait de peine qu’en
+          m’éloignant de mes cheres Mathematiques, dont je ne saurois
+<lb/> perdre l’habitude, sans
+          risquer d’autant celle de penser juste. J’envoierai la
+<lb/> semaine qui vient à Mr. <rs type="person" key="pers_DE-588-12209025X">Verenfels</rs>
+          quelques unes des compositions que j’ai
+<lb/> faites pour me defendre, et je le prierai de les
+          communiquer aux <rs type="person">amis</rs>. Dès que
+<lb/> cette affaire sera finie, je recompenserai soigneusement le
+          tems perdu, et pour
+<lb/> m’aider à le regagner, je vous demande dès à cette heure la permission
+          de vous
+<lb/> consulter de tems en tems: Vôtre loisir au reste, Monsieur, reglera vos reponses. </p>
+  <p>
+<lb/>Mr. <rs type="person">De Traitorens</rs>, qui aime les Mathematiques, et qui les cultive avec
+<lb/> succés, a reçu
+          nouvelle de <rs type="place" key="place_GEO-2988507">Paris</rs>, d’où il est de retour depuis un an, que
+<lb/> M. <rs type="person" key="pers_DE-588-102079056">Renau</rs> pensoit tout de bon à
+          se remettre en lice. Je connois à <rs type="place" key="place_GEO-2660646">Geneve</rs>
+<lb/> des <rs type="person">Mathematiciens</rs>, habiles d’ailleurs, qui sont
+          dans ses idées et defendent son
+<lb/> hypothese, tant il est vrai que l’entêtement se glisse
+          dans les Sciences qui
+<lb/> en devroient le plus éloigner les hommes, et de tems en tems je
+          rencontre
+<lb/> de nouvelles preuves qui me confirment dans la pensée que l’on étudie
+<lb/> mal les
+          Mathématiques. Partagé que je suis en tant d’ocupations, quand
+<lb/> même je me ferois illusion
+          sur la mediocrité de mon genie, je ne pourois
+<lb/> pas aspirer à la gloire d’inventer des
+          Theories fort <choice><sic>nouvelle</sic><corr>nouvelles</corr></choice>, mais
+          je me <pb facs="1074493" n="2"/>
+<lb/> fais un devoir et en même tems un plaisir d’où je tire
+          moi même les premiers
+<lb/> fruits, de travailler à rendre le chemin plus utile, en le rendant,
+          autant
+<lb/> qu’il me sera possible, plus aisé et plus suivi, et c’est même, ce me semble, un
+          des
+<lb/> moiens les plus propres à prevenir l’entêtement; car on se previent moins
+<lb/> pour ce
+          qu’on a decouvert aisement que pour ce qui a beaucoup couté, et les
+<lb/> plus opiniatres sont
+          ordinairement ceux qui vont à leurs conclusions par
+<lb/> de plus grans detours. Je ne sai,
+          Monsieur, si vous aprouverés ma conjecture,
+<lb/> mais je doute que M. <rs type="person" key="pers_DE-588-118587544">Newton</rs> se fut aquis une
+          si grande autorité, s’il avoit
+<lb/> été plus clair dans ses principes et moins obscur dans les
+          consequences qu’il en
+<lb/> tire et les aplications qu’il en fait; mais il semble à la plupart
+          de ses Sectateurs
+<lb/> que se defier de ses hypotheses c’est faire un aveu d’ignorance et
+          donner des marques
+<lb/> d’une petitesse de genie. Pour moi, je vous l’avoue, je me suis mis au
+          dessus
+<lb/> de cette fausse honte, j’ai osé combatre son hypothese dans une <rs type="biblio">These</rs>,<note
+            type="comment" resp="SG">Crousaz sandte Bernoulli mit seinem <rs type="letter" key="B_991170514974805501">Brief</rs> vom 1. März 1719 mehrere Thesen zur Farbenlehre. Bernoulli bestätigte den Empfang in seinem <rs type="letter" key="B_991170514974705501">Brief</rs> vom 13. April und besprach dabei § IV der <hi rend="i"><rs type="biblio" key="biblio_TT5HS2XZ">Systhematis physici, disputatio trigesima quinta</rs></hi> (Bern 1717).</note> que je
+<lb/> vous envoierai si vous en êtes curieux, et
+          du depuis j’ai fait des experiences
+<lb/> qui me paroissent renverser son Systeme de fonds en
+          comble; je dis <hi rend="u">me paroissent</hi>;
+<lb/> car j’atendrai vos reflexions pour parler
+          là dessus plus positivement. </p>
+  <p>
+<lb/>J’ai longtems regardé, après plusieurs autres, les secours qu’on tire du prisme
+<lb/> comme
+          decisifs sur la matiere des Couleurs: Cependant des effets aussi composés que
+<lb/> ceux là
+          peuvent aisement étre raportés à diverses causes, et on peut les raporter
+<lb/> en faveur de
+          diverses hypotheses, comme il est effectivement arrivé.
+<lb/> Les experiences que j’ai faites
+          sont incomparablement plus simples, et difficilement
+<lb/> en imaginera-t-on de plus
+          decisives.</p>
+  <p>
+<lb/>Les Couleurs que l’on aperçoit sur les murailles, aprés avoir été éblouï quelques
+<lb/> momens
+          par la lumiere du Soleil, prouvent assés que les Couleurs sont une lumier[e]
+<lb/> afoiblie, et
+          c’est de quoi, je pense, il n’y a personne qui ne soit obligé de convenir.</p>
+  <p>
+<lb/>Une parfaite ombre interromt tout à fait la lumiere. Dans toutes les
+<lb/> penombres elle est
+          seulement afoiblie. Cela m’a fait penser à examiner si l’ombre
+<lb/> qu’un corps opaque fait
+          naitre en interrompant une lumiere ne paroitroit
+<lb/> point colorée, lors qu’elle est éclairée
+          par une lumiere qui vient de quelque autre
+<lb/> côté, et j’ai été surpris des phenomenes que
+          cet essai m’a fait remarquer et des
+<lb/> éclaircissemens qu’il m’a donnés. </p>
+  <p>
+<lb/>J’ai commencé ces essais à la campagne, et je les ai continués dès mon retour
+<lb/> en Ville.
+          Ils sont fort aisés à faire à la campagne, parce qu’on y prend le
+<lb/> Soleil comme l’on veut,
+          et qu’on a des jours de tous côtés. Heureusement j’ai eu
+<lb/> la même facilité en Ville, parce
+          que ma maison est isolée et sur une
+<lb/> hauteur. </p>
+  <p><pb facs="1074494" n="3"/>
+<lb/> D’abord j’ai posé une table vis à vis de deux fenêtres, dont
+          l’une étoit par<pc type="hyphenation">-</pc><lb break="no"/>faitement tournée au Nord et l’autre au Couchant. Environ les 6 ou 7 heures
+
+<lb/>          du matin, la lumiere du Soleil frisoit la tablette de la fenêtre Septentrionale, et
+<lb/> il
+          venoit plus de lumiere sur ma table de ce côté là que du côté du Couchant. J’élevois
+<lb/> un
+          petit cilindre sur un papier blanc étendu sur la table, qui jettoit une ombre
+<lb/> du côté du
+          Midi bleuatre, parce que, les jours étant beaux, il venoit encor au
+<lb/> matin même assés
+          d’éclat du côté du Couchant pour éclairer cette ombre, et que
+<lb/> d’ailleurs la chambre étoit
+          fort claire et plâtrée. Quand on faisoit en sorte qu’il ne
+<lb/> tombât aucune lumiere sur
+          l’ombre, elle paroissoit simplement noire. </p>
+  <p>
+<lb/>Le cilindre jettoit aussi une ombre oposée au Couchant, et celle ci, éclairée aux
+<lb/> heures
+          du matin d’une plus forte lumiere, paroissoit d’un jaune clair, mais d’une
+<lb/> teinture
+          extremement foible, parce que n’interrompant qu’une lumiere très
+<lb/> foible, il faisoit une
+          ombre trop mince pour modifier la lumiere que presque
+<lb/> imperceptiblement. </p>
+  <p>
+<lb/>Sur le soir les Couleurs changeoient de situation, et l’ombre oposée au Septentr.
+<lb/> avoit
+          cette foible teinture jaune, qui se faisoit peu remarquer, au lieu que
+<lb/> l’ombre oposée au
+          Couchant étoit d’un très beau bleu, beaucoup plus chargé
+<lb/> qu’au matin, parce qu’elle étoit
+          causée par une ombre plus forte, comme
+<lb/> interrompant une lumiere plus vive; Et on voit par
+          là que l’ombre a de
+<lb/> differens effets sur l’oeil, suivant le degré de lumiere dont elle est
+          environnée;
+<lb/> Il y a donc dans les sens des Couleurs quelque chose de relatif comme dans les
+          autres sensations.</p>
+  <p>
+<lb/>Quand on fait l’experience que je viens de raporter dans une chambre dont
+<lb/> une des
+          fenêtres est tournée à l’Orient et l’autre au Midi, la lumiere Occidentale
+<lb/> et la lumiere
+          Merid. tombant sur la table avec le même éclat à diverses heures,
+<lb/> les mêmes couleurs
+          precisement qui le matin étoient tournées du côté du Couchant,
+<lb/> le sont au milieu du jour
+          du côté oposé au Midi, et lorsqu’une fenêtre est
+<lb/> tournée au Couchant et l’autre au Midi,
+          l’ombre Orientale est sur le soir, dans
+<lb/> cette chambre, ce que l’Occidentale étoit le matin
+          dans l’autre. </p>
+  <p>
+<lb/>Quand on allume une chandele, elle est aussi suivie de son ombre, et
+<lb/> au lieu de deux on
+          en a trois, et alors quand les fenêtres fermées, ou un mince
+<lb/> rideau un peu tiré, font que
+          la lumiere de la chandele est la plus forte
+<lb/> des trois, c’est son ombre qui est bleue, et
+          l’une des autres tient du gris de lin. </p>
+  <p>
+<lb/>Je n’entre pas, Monsieur, dans un grand nombre de varietés, qu’il faut
+<lb/> observer soi même
+          pour s’en souvenir bien distinctement. Les vitres des
+<lb/> fenêtres ouvertes <choice><sic>reflêchissent</sic><corr>reflêchissant</corr></choice>
+            la lumiere qui y tombe sur
+          le papier, ont
+<lb/> aussi une ombre qui leur repond et qui a sa couleur; Un rideau bien
+<lb/> blanc
+          produit encore un même effet, mais plus foible. Un bois assés poli pour
+<lb/> reflêchir la
+          lumiere devient encore cause d’une ombre et d’une couleur par<pc type="hyphenation">-</pc><lb break="no"/>ticuliere. </p>
+  <p><pb facs="1074495" n="4"/>
+<lb/> On peut faire des experiences dans une chambre plus ou moins
+          obscure, on
+<lb/> peut tirer devant les fenêtres des rideaux plus ou moins épais. On peut
+          pratiquer
+<lb/> des ouvertures dans des contrevens, et voir les ombres multiplier suivant le
+          nombre
+<lb/> de ces ouvertures, et les couleurs varier suivant la force des ombres et la force
+
+<lb/>          de la lumiere qui les tempere.</p>
+  <p>
+<lb/>En general l’ombre la plus éclairée est d’un jaune de paille, après suit le gris de
+<lb/> lin
+          plus ou moins rougeatre; Une couleur de biche; le bleu; le violet, et puis
+<lb/> feuille morte
+          obscur, et enfin la couleur ordinaire des ombres, c’est à dire le
+<lb/> noir plus ou moins
+          foncé. </p>
+  <p>
+<lb/>Quand on promene sur le papier le cilindre dont on se sert pour former
+<lb/> l’ombre, on voit
+          que l’ombre qui le suit passe successivement par de differentes
+<lb/> couleurs, suivant les
+          differens degrés de la lumiere dont elle est éclairée. </p>
+  <p>
+<lb/>Soit que le jour ne vienne que d’un côté, soit qu’il ne vienne que d’un seul,
+<lb/> promenés
+          dans une chambre une table couverte d’un papier blanc sur lequel
+<lb/> vous ferés tomber l’ombre
+          d’un cilindre, tantôt perpendiculaire, tantôt diffe<pc type="hyphenation">-</pc><lb break="no"/>remment incliné, tantôt couché
+          horisontalement sur le papier, vous apercevrés
+<lb/> des ombres colorées, et vous verrés que les
+          ombres passeront par toutes sortes de couleurs,
+<lb/> suivant la differente position de la
+          table, suivant que la lumiere viendra
+<lb/> dans la chambre d’un ou de plusieurs côtés; suivant
+          qu’on joindra la lumiere
+<lb/> des chandeles à celle du Soleil élevé sur l’horison ou près de
+          l’horison; suivant
+<lb/> que la lumiere à laquelle le cilindre oposera son ombre sera directe ou
+
+<lb/>          reflêchie; suivant que les murs de la chambre seront plus clairs ou plus
+<lb/> obscurs, c’est à
+          dire plus ou moins propres à reflêchir de la lumiere; suivant
+<lb/> que des rideaux seront plus
+          ou moins tirés devant les fenêtres, et suivant qu’ils
+<lb/> seront plus ou moins épais; suivant
+          enfin que le Ciel sera clair ou plus ou
+<lb/> moins couvert. Qu’on m’explique la naissance de
+          toutes ces Couleurs dont les
+<lb/> ombres paroitront, par des raions qui prennent plaisir à se
+          separer de leurs
+<lb/> heterogenes, pour faire, sans secours d’aucune refraction, des
+          assemblages d’homo<pc type="hyphenation">-</pc><lb break="no"/>genes reflêchis par le même papier, dans des positions plus ou moins
+          éclairées,
+<lb/> j’avoue qu’alors on relevera mon admiration, et qu’eblouï de cette dexterité,
+
+<lb/>          je me laisserai persuader tout ce qu’on voudra.</p>
+  <p>
+<lb/>Quand j’ai devant les yeux un plan dont la moitié a dans son milieu une
+<lb/> couleur obscure
+          et au dessus et au dessous de cet obscur une couleur fort claire, et
+<lb/> l’autre moitié tout
+          le contraire a un clair environné d’obscurité, mon oeil est
+<lb/> partagé de même, et si je
+          regarde ce plan à travers un prisme, soit que je le
+<lb/> place sur mon nez, soit que je le
+          place sur mon front, mêmes raions et
+<lb/> mêmes detours font naitre des couleurs differentes,
+          suivant qu’ils tombent de
+<lb/> l’obscur dans le clair ou du clair dans l’obscur. </p>
+  <p><pb facs="1074496" n="5"/>
+<lb/> Quand je regarde à travers une Loupe un objet, je le vois dans
+          sa couleur,
+<lb/> et quand à travers une Loupe, je regarde le foyer d’une lentille sur du metal,
+
+<lb/>          je vois la couleur de ce metal qui, vûe sans Loupe, paroit lumiere et non
+<lb/> couleur: La
+          Loupe étendant l’image, fait que l’impression est moins vive,
+<lb/> mais ne porte pas dans
+          l’oeil des raions d’une autre espece. </p>
+  <p>
+<lb/>J’ai une chambre dont le mur, où l’on a pratiqué la fenêtre, tiré du Midi
+<lb/> au Nord,
+          decline vers l’Occident, et par là a une position oblique, assés
+<lb/> ordinaire aux Villes qui
+          n’ont pas été bâties regulierement, et où l’on est assu<pc type="hyphenation">-</pc><lb break="no"/>jetti par des anciens fondemens et
+          par les maisons voisines. Vis à vis du trumeau,
+<lb/> à la distance de quatre ou cinq piés,
+          j’avois posé sur un papier blanc un verre
+<lb/> cilindrique plein d’eau. La lumiere qui entroit
+          par la <choice><sic>lumiere</sic><corr>fenêtre</corr></choice>
+            meridionale
+<lb/> tomboit sur ce verre fort obliquement, au lieu que celle
+          qui entroit par la
+<lb/> fenêtre Septentr. reflêchie par un jambage fort dur et fort blanc,
+          revenoit à
+<lb/> plomb sur le verre. A ces deux lumieres étoient oposées deux ombres assés
+          foibles,
+<lb/> et au milieu de chaque ombre il y avoit un foier, mal fini, peu serré, mais
+<lb/> trois
+          fois plus étendu en longueur qu’en largeur; l’un et l’autre étoient colorés,
+<lb/> et celui qui
+          rassembloit la lumiere la plus vive etoit jaune, au lieu que
+<lb/> l’autre étoit bleu. Je ne
+          joins aucun raisonnement à cette experience. On
+<lb/> en voit naitre des consequences aussi
+          favorables à mon Système qu’incompa<pc type="hyphenation">-</pc><lb break="no"/>tibles à celui de M. <rs type="person" key="pers_DE-588-118587544">Newton</rs>. </p>
+  <p>
+<lb/>J’avois posé des boules d’acier fort polies sur la tablette d’une galerie, j’avois
+<lb/> le dos
+          tourné au Soleil, et à mesure que je baissois l’oeil, je voiois la convexité
+<lb/> la plus
+          éloignée de la boule se dorer, pendant que celle qui étoit plus près de
+<lb/> mon oeil demeuroit
+          speculaire. La convexité de la boule mettoit à l’ombre,
+<lb/> par raport à mon oeil baissé la
+          partie qui en étoit plus loin, et les raions plus
+<lb/> foibles, au lieu d’une impression
+          lumineuse n’excitoient qu’un sentiment de jaune.
+<lb/> Je changeai de situation, et je mis la
+          boule entre le Soleil et mon oeil, en élevant
+<lb/> un petit corps opaque qui couvroit de son
+          ombre la moitié la plus prés du
+<lb/> Soleil, et cette moitié se jaunit, comme je m’y atendois. </p>
+  <p>
+<lb/>Je voulus faire la même experience avec une plaque d’argent que j’elevois
+<lb/> un peu, afin
+          que, faisant angle avec la tablette horisontale, elle fut à l’ombre
+<lb/> par raport à mon oeil;
+          mais les couleurs des objets voisins s’y paignoient: Je
+<lb/> pris donc une cuilliere très polie
+          aussi, et il arriva à la moitié de sa convexité,
+<lb/> savoir à celle qui étoit la plus eloignée
+          de mes yeux un peu baissés, de jaunir;
+<lb/> il est vrai que la couleur blanche de l’argent
+          rendoit ce jaune
+<lb/> plus pâle. </p>
+  <p><pb facs="1074497" n="6"/>
+<lb/> Il seroit bien commode de pouvoir faire ces experiences de
+          nuit et colorer les
+<lb/> ombres par le moien de chandeles, car si les couleurs changeoient
+          suivant le
+<lb/> nombre des chandeles, dont une ombre seroit éclairée, on auroit les couleurs
+          dis<pc type="hyphenation">-</pc><lb break="no"/>tribuées en degrés. Mais jusqu’ici j’ai fait d’inutiles essais. L’ombre oposée à une
+
+<lb/>          chandele, éclairé par quelques autres, devient simplement plus claire, et elle paroit
+
+<lb/>          prendre quelque couleur, c’est tout au plus une couleur de biche des plus <choice><orig>dilaiées</orig><reg>delaiées</reg></choice>,
+
+<lb/> avec un bord tant soit peu tirant
+          sur le jaune, qui n’a que la largeur d’un filet
+<lb/> et qui s’aperçoit à peine. </p>
+  <p>
+<lb/>Après y avoir un peu pensé on ne sera pas surpris de ne pouvoir faire de
+<lb/> nuit les mêmes
+          experiences que le jour, car l’ombre oposée à la lumiere d’une
+<lb/> chandele est une ombre
+          totale; au lieu que de jour celle qui est oposée au Soleil
+<lb/> n’est en elle même qu’une
+          foible penombre: Or quand je suis assis au pié d’un
+<lb/> arbre et que mon Livre est à l’ombre
+          du tronc, je lis et même plus commodement
+<lb/> que si je l’exposois aux raions du Soleil.
+          Deplus la lumiere d’une chandele est
+<lb/> si semblable et à peu près si égale à celle d’une
+          autre, qu’afin que les experiences
+<lb/> de nuit repondissent à celles de jour, il faudroit
+          faire celles ci par le moien
+<lb/> de deux Soleils; au lieu que nous mêlons les lumieres du même
+          Soleil diffe<pc type="hyphenation">-</pc><lb break="no"/>remment ménagées, et differemment temperées par la situation des corps
+<lb/> qui les
+          recoivent et qui les reflêchissent; ou differemment temperées par la
+<lb/> lumiere d’une
+          chandele ou de plusieurs chandeles, qui éclairent plus ou moins
+<lb/> une penombre, qui, perdant
+          les raions du Soleil les plus directs, ne laisse pas
+<lb/> d’en recevoir un grand nombre de
+          reflêchis.</p>
+  <p>
+<lb/>Pour m’assurer, ou du moins pour me procurer quelques éclaircissemens
+<lb/> sur cette
+          difference des ombres du jour et des ombres de la nuit, j’ai élevé sur
+<lb/> un papier blanc un
+          petit cilindre opaque dans un jour fort couvert, il
+<lb/> jettoit dans la partie oposée à la
+          fenêtre une ombre fort foible, parce
+<lb/> qu’une ombre paroit foible à proportion que la
+          lumiere qui l’environne
+<lb/> est foible elle même. J’ai fait aporter une chandele et la lumiere
+          du jour
+<lb/> a jauni, éclairée par cette chandele, au lieu que la lumiere du jour a
+<lb/> repandu une
+          couleur bleue sur l’ombre oposé à la chandele. Plus le
+<lb/> tems est couvert, plus le bleu est
+          foncé et le jaune délaié. </p>
+  <p>
+<lb/>J’ai posé la chandele sur un chandelier fort haut, afin que l’ombre, qui
+<lb/> lui seroit
+          oposée, s’étendit peu, et j’ai placé le chandelier de maniere que
+<lb/> l’ombre oposée à la
+          chandele fut precisement enfermée dans celle qui étoit
+<lb/> oposée au jour: Alorz j’ai vû une
+          ombre bleue fort foncée, et violette au milieu,
+<lb/> qui s’étendoit peu, dans une ombre jaune,
+          qui s’étendoit davantage. </p>
+  <p><pb facs="1074498" n="7"/>
+<lb/> En multipliant les chandeles on multiplie les ombres bleues,
+          mais elles
+<lb/> deviennent moins foncées, de même que le jaune. </p>
+  <p>
+<lb/>Si l’on aproche une chandele tout près d’une des ombres, elle fait évanouïr
+<lb/> et couleur et
+          ombre. </p>
+  <p>
+<lb/>J’ai exposé un cilindre opaque élevé sur un papier blanc à un beau Soleil, tout
+<lb/> près de
+          la fenêtre; il a jetté une ombre noire, j’en ai aproché une chandele,
+<lb/> l’ombre a paru un
+          peu moins forte, mais sans couleur. Je me suis peu à peu
+<lb/> éloigné de la fenêtre, l’ombre a
+          pris une couleur de gris de lin. J’ai continué
+<lb/> à m’éloigner, elle est devenue jaune et
+          d’un jaune plus foncé et plus couleur d’or
+<lb/> à mesure que l’éloignement de la fenêtre
+          rendoit la lumiere moins vive. Je
+<lb/> m’en suis raproché, et j’ai tiré un rideau assés épais,
+          mais blanc, l’ombre a
+<lb/> jauni à l’aproche de la chandele. </p>
+  <p>
+<lb/>Dans un jour très couvert l’ombre oposée au jour a jauni à
+<lb/> une mediocre distance de la
+          chandele, et a disparu quand je mettois la chandele
+<lb/> fort près. Mais l’ombre oposée à la
+            <choice><sic>chande</sic><corr>chandele</corr></choice> étoit bleue, éclairée
+          par la lumie[re]
+<lb/> du jour.</p>
+  <p>
+<lb/>J’ai oposé le cilindre opaque à la lumiere de la Lune, la chandele a jauni
+<lb/> l’ombre à une
+          distance mediocre et l’a fait disparoitre quand je l’ai mise
+<lb/> fort près; mais l’ombre
+          oposée à la chandele, ombre qui, par conséquent
+<lb/> étoit éclairée par la Lune, a paru d’un
+          beau bleu.
+<lb/> Sur un papier exposé à un grand Soleil, un corps opaque ne jette point
+<lb/> d’ombre
+          à l’oposite de la chandele. </p>
+  <p>
+<lb/>Je ne me suis pas donné le soin de ranger ces experiences dans un plus grand
+<lb/> ordre, et
+          par Lieux communs. Vous possédés, Monsieur, si bien l’art de les faire
+<lb/> et d’en tirer parti
+          pour la connoissance de la Nature, que quand ma lettre
+<lb/> seroit de la moitié moins longue,
+          elle vous suffiroit, et je dois vous faire des
+<lb/> excuses du tems que je vous prens. </p>
+        <closer>
+          <salute>C’est,
+          pour n’étendre pas cette faute, que
+<lb/> je me defens de vous dire tout ce que je vous souhaite
+          dans ce commen<pc type="hyphenation">-</pc><lb break="no"/>cement d’<choice><sic>amnée</sic><corr>année</corr></choice>;
+          Personne ne la passera plus heureusement que Vous,
+<lb/> si tout ce qui vous arrivera repond à
+          mes voeux, ils sont tels que
+<lb/> le demande l’estime la plus parfaite avec laquelle j’ai
+          l’honneur d’etre
+<lb/> Monsieur
+<lb/> Vôtre très humble et
+<lb/> très obeïssant serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-100097413">
+<lb/>J. P. De Crousaz</rs>
+  </signed>
+        </closer>
+      <pb facs="1074499" n="8" type="empty"/></div>
+
+
+    </body>
+  </text>
+</TEI>

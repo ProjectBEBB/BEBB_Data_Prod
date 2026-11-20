@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170514608205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Nicolaus I Bernoulli. Basel, 12. Februar 1718</title>
+          <title type="alt">1718.02.12: Bernoulli, Johann (1667-1748) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000055557</title>
+          <title type="alt">1718-02-12_Bernoulli_Johann-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514608205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514608205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Nicolaus I (1687-1759) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren. Unter dem Datum von Nic. I B. eigenhändig "Empfg. den 28.ten"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Abschrift UB Basel L I a 673 fo.68-69 (4 S., 21 x 16,5 cm)</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24257">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.17</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514608205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432843105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055557</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3,5 S.<dimensions unit="cm"><height>22,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basel</origPlace>
+              <date when="1718-02-12">den 12. febr. 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1718-02-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514608305501" type="prev"/>
+          <ptr target="B_991170514608105501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Nicolaus_I-JohIB" corresp="pers_DE-588-119166895" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514608305501" type="prev"/>
+          <ptr target="B_991170514608105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_I-NicIB" corresp="pers_DE-588-118509969" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913494">Battier, Dorothea</persName>
+            <note type="lebensdaten">(1704-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153514060">Bernoulli, Anna Katharina</persName>
+            <note type="lebensdaten">(1698-1780)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913338">Bernoulli, Benedict</persName>
+            <note type="lebensdaten">(1692-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913311">Bernoulli, Jacob</persName>
+            <note type="lebensdaten">(1712-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089924429">Bernoulli, Ursula</persName>
+            <note type="lebensdaten">(1665-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108991332X">Falkner, Dorothea</persName>
+            <note type="lebensdaten">(1673-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118532561">Fermat, Pierre de</persName>
+            <note type="lebensdaten">(1601-1665)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-130064114">Frénicle de Bessy, Bernard</persName>
+            <note type="lebensdaten">(1605-1675)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102552517">Michelotti, Pietro Antonio</persName>
+            <note type="lebensdaten">(1673-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104265264">Morgagni, Giambattista</persName>
+            <note type="lebensdaten">(1682-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100814832">Raphson, Joseph</persName>
+            <note type="lebensdaten">(1648-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+            <note type="lebensdaten">(1672-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120379260">Scheuchzer, Johann</persName>
+            <note type="lebensdaten">(1684-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117652245">Staehelin, Benedict</persName>
+            <note type="lebensdaten">(1695-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118771167">Wallis, John</persName>
+            <note type="lebensdaten">(1616-1703)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-09-26" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2025-09-12" who="SG CG">Kollationieren erneut begonnen</change>
+        <change when="2024-10-11" who="SG CG">teilweise kollationiert</change>
+        <change when="2024-10-01" who="SG CG">teilweise kollationiert</change>
+        <change when="2022-09-01" who="RG">Seitenzahl "n" ergänzt</change>
+        <change when="2022-08-17" who="RG">Anpassung TEI-Header</change>
+        <change when="2022-07" who="RG">noch nicht ganz nachbearbeitet</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1062998/manifest"/>
+</facsimile><text>
+  <front>
+    <div type="editorialNote">
+      <head>Bemerkungen zur Transkription</head>
+      <p> Die als Textgrundlage verwendete Abfertigung weist durch Tintenfrass bedingt zahlreiche Schäden auf, so dass der Text zum Teil schwer zu entziffern ist. Wo der Text verloren ist, wurde der Entwurf (Universitätsbibliothek Basel, L Ia 673:Bl.68-69 (991170457447005501) beigezogen. Leider ist der Entwurf nicht vollständig, von den zitierten Passagen wurde jeweils nur das Incipit angegeben.</p>
+    </div>
+  </front>
+<body>
+<div type="letter">
+<pb facs="1062999" n="1"/>
+  <opener>
+<dateline rend="right"><rs key="place_GEO-2661604" type="place"><choice><orig>basel</orig><reg>Basel</reg></choice></rs><supplied>,</supplied> den <date when="1718-02-12">12. <abbr>febr.</abbr> 1718.</date></dateline>
+      <lb/><note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1718-02-15">28.<hi rend="sup">ten</hi></date></note>
+      <lb/><salute><foreign xml:lang="fre">Monsieur et tres cher Neveu</foreign></salute></opener>
+  <p><lb/>Ihr werdet wie ich hoffe mein letstes sehr weitläuffiges <rs key="B_991170514608305501" type="letter">schreiben</rs> vom <date when="1718-01-29">29. passato</date>
+      <lb/>durch den <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-102552517" type="person">Michelotti</rs> an welchen ich es adressiert wohl empfangen haben,
+      <lb/>wenig tag hernach nach absendung meines <rs type="letter">brieffes</rs>, hab ich ein <rs type="letter">schreiben</rs> von <abbr>Mr.</abbr>
+      <lb/>de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> erhalten, welches mir anlaß gibt zu gegen wertigem, we<pc type="hyphenation">-</pc><lb break="no"/>gen allerhand sachen die ich darin gefunden, sonderlich von dem <rs key="pers_DE-588-124275087" type="person">Keil</rs> und <rs key="pers_DE-588-118801481" type="person">Tay<pc type="hyphenation">-</pc><lb break="no"/>lor</rs>, von denen be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den Er mir ein extract auß ihren <rs type="letter">brieffen</rs> in Englisch co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uni<pc type="hyphenation">-</pc><lb break="no"/>ciert; habe solches durch eweren <rs key="pers_DE-588-1089913338" type="person">bruder</rs> mit zuthun deß jungen <abbr>H<supplied>.</supplied></abbr> <abbr>D.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117652245" type="person">Ste<pc type="hyphenation">-</pc><lb break="no"/>helin</rs> lassen translatieren, die translation umb ewer curiositet zu er<pc type="hyphenation">-</pc><lb break="no"/>s<unclear>e</unclear>ttigen will hieher setzen und lautet also:</p>
+  <p><lb/>Extract auß <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylors</rs> <rs type="letter">brieff</rs> an <abbr>Mr.</abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> welcher den selben den
+      <lb/><date when="1718-01-25">25. Januari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1718</date> empfangen. <choice><orig>auß</orig><reg>Auß</reg></choice> dem Englischen ins teütsche vertiert.
+      <lb/><quote type="long">... Inzwischen als ich meine solution <foreign xml:lang="lat">(problematis de trajectoriis)</foreign> etlichen von
+      <lb/>meinen freünden in sonderheit dem <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118587544" type="person">Isac Newton</rs> gezeiget, hatt man mich
+      <lb/>persuadiert, die selbige in unsern <rs type="biblio"><choice><orig>transactionibus</orig><reg>Transactionibus</reg></choice></rs> publiciren zu lassen, damit
+      <lb/>man nicht sagen möchte, kein Engelländer habe eine solution gegeben, ehe deß <abbr>H<supplied>.</supplied></abbr>
+      <lb/><rs key="pers_DE-588-118509969" type="person">Bernoullis</rs> seine zum vorschein ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en; meine solution wird in unsrer nächsten
+      <lb/><rs type="biblio"><choice><orig>transaction</orig><reg>Transaction</reg></choice></rs> publiciert werden, also daß der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118509969" type="person">Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> wan er begehret
+      <lb/>seine decouvertes in dieser materi in sicherheit zu stellen, wohl thun wird, wan er
+      <lb/>dieselben entweder publicieren oder sie eüch übersenden wird, ehe er die meinige
+      <lb/>zu sehen beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et, damit nicht nachgehends jemand gedencken möchte die jenigen
+      <lb/>ding, darin wir vielleicht miteinander übereinsti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en werden, se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en mir
+      <lb/>allein zuzuschreiben; er hatt auch nicht vonnöthen, daß er länger warte
+      <lb/>zu sehen, was die Engelländer weiters in dieser sach thun werden, dan ich kan Ihne
+      <lb/>versicheren, daß sich deßwegen alhier niemand auff keinerle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> weise bemühen wird.
+      <lb/><abbr><unclear>H</unclear><supplied>.</supplied></abbr> <rs key="pers_DE-588-119112450" type="person">Hermans</rs> <rs type="biblio">solution</rs> dieses <foreign xml:lang="lat">problematis</foreign> ist unvolko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, dan er zeiget nicht, wie
+      <lb/><unclear>die <choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>qua</unclear>tion, zu deren er ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et, auff den <foreign xml:lang="lat">casum</foreign> appliciert werde, das <abbr>probl.</abbr> ist
+      <lb/>limitiert auff alle <foreign xml:lang="lat">curvas secandas transcendentes</foreign> <foreign xml:lang="eng"><hi rend="u">thro the same point in
+      <lb/>the axis</hi></foreign> <said>(diese expression hatt der <rs type="person">translator</rs> nicht vertieren können)</said> welche die
+      <lb/><foreign xml:lang="lat">quantitates</foreign> in seiner solution auff einen gewissen valor determinieren. Ich hab
+      <lb/><unclear reason="lost">2</unclear> <foreign xml:lang="lat">solutiones</foreign> und in be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e ich<del> <gap/></del> nothwendig <foreign xml:lang="lat">ad secundas fluxiones</foreign>, ich kan
+      <lb/>auch nicht sehen, wie sie in diesem casu können evitiert werden; <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-119112450" type="person"><choice><orig>herman</orig><reg>Herman</reg></choice></rs> ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et
+      <lb/>eben fahls dahin, obschon er vorgiebet, es se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e nicht nöthig, wan er in dem pro<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>mio
+      <lb/>seiner solution sagt<supplied>:</supplied> <quote><foreign xml:lang="lat">Dico autem <rs type="person">Autorem</rs> nostrum citra necessitatem ad secunda
+      <lb/>differentialia delabi cum certum sit ope canonis mox afferendi et ad transcen<pc type="hyphenation">-</pc><lb break="no"/>dentes curvas <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>que ac algebraicas sese extendentis semper <abbr><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qu.</abbr> <abbr>diff.</abbr> primi gradus
+      <lb/>inveniri posse pro trajectoria curvas secandas ad angulos rectos trajiciente.</foreign></quote><note type="editorial">Zitat im Zitat.</note>
+      <lb/><foreign xml:lang="eng"><choice><orig>in</orig><reg>In</reg></choice> the present case</foreign> <said>(<hi rend="u">dieses zu vertieren hatt der <rs type="person">translator</rs> vergessen</hi>)</said> <foreign xml:lang="eng">he does
+      <lb/>ce<unclear reason="lost">rta</unclear>inly</foreign> <foreign xml:lang="lat">ad se<unclear reason="lost">cu</unclear>nda differentialia delabi</foreign>, <foreign xml:lang="eng">which <choice><sic>in</sic><corr>is</corr></choice> all he can charge that
+      <lb/>general solution with prescribing in some cases, but he <choice><sic>most</sic><corr>must</corr></choice> prove that it is
+<pb facs="1063000" n="2"/>
+      <lb/>done <foreign xml:lang="lat">citra necessitatem <unclear>ben</unclear>des</foreign> his assertion that by his canon, <choice><sic>wich</sic><corr>which</corr></choice> is not<pc type="hyphenation">-</pc><lb break="no"/>hing else but a part of that general solution</foreign> <foreign xml:lang="lat">semper <abbr><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qu.</abbr> <abbr>diff.</abbr> primi gradus in<pc type="hyphenation">-</pc><lb break="no"/>veniri posse pro <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></foreign> <foreign xml:lang="eng">in the present case he found it necessary to descend to se<pc type="hyphenation">-</pc><lb break="no"/>cond fluxions, tho he had the good luck to get back again; but I fanc<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> several
+      <lb/>cases might be proposed wherein this is not so easy.</foreign></quote></p>
+  <p><foreign xml:lang="lat">Hactenus <rs key="pers_DE-588-118801481" type="person">Taylorus</rs> ad <rs key="pers_DE-588-117601020" type="person">Monmortium</rs></foreign>: darauß kan ich ungefehr sehen, daß deß
+      <lb/><rs key="pers_DE-588-118801481" type="person">Taylors</rs> <rs type="biblio">solution</rs> sehr operos se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n muß, in dem er sich mit den <foreign xml:lang="lat">fluxionibus
+      <lb/>secundis</foreign> hatt müssen zerma<del><gap/></del><add>r</add>tern; glaube also daß s<unclear reason="illegible">eine</unclear> gantze solution
+      <lb/>nur bestehen wird <foreign xml:lang="lat">in aliquali <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione fluxiones sec<unclear reason="illegible">u</unclear>ndas inolvente</foreign>,
+      <lb/>und hiemit <foreign xml:lang="lat"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> reductione ad fluxiones primas, item <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> separatione indetermi<pc type="hyphenation">-</pc><lb break="no"/>natarum et <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> constructione (saltem concessa quadratura curvarum)</foreign> noch sehr
+      <lb/>entfernt ist<choice><orig>,</orig><reg>;</reg></choice> darauß erhellet daß ewere forcht, als ob er die solution au<unclear reason="illegible">ch</unclear> <foreign xml:lang="lat"><unclear reason="illegible">ex</unclear>
+      <lb/>similitudine curvarum</foreign> finden möchte, gantz verschwindet, dan wan ihme die gedan<pc type="hyphenation">-</pc><lb break="no"/>cken auff die <foreign xml:lang="lat">similitudinem</foreign> ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en wären, wurde er mit den <foreign xml:lang="lat">fluxionibus secundis</foreign>
+      <lb/>nichts zu thun gefunden haben: bin also noch der meinung, daß wan wir unser
+      <lb/>solution des <foreign xml:lang="lat">exempli Anglis propositi</foreign> wollen an tag geben, zur zeit nur die con<pc type="hyphenation">-</pc><lb break="no"/>struction publicieren<supplied>,</supplied> die analysin aber oder <foreign xml:lang="lat">modum solvendi ex consideratio<pc type="hyphenation">-</pc><lb break="no"/>ne similitudinis</foreign> supprimieren, damit wir den <rs key="pers_DE-588-118801481" type="person">Taylor</rs> mit seiner ohne zweiffel
+      <lb/>sehr weitläuffigen <del>solution </del>und keiner construction fähigen solution, gleich
+      <lb/>wie den <rs key="pers_DE-588-119112450" type="person">Herman</rs> lustig außlachen können: bin underdessen, wie in meinem <rs type="letter">let<pc type="hyphenation">-</pc><lb break="no"/>steren</rs> gemeldet, ewers <rs type="biblio">Scripti</rs> so ihr eines naher <rs key="place_GEO-2879139" type="place">Leipzic</rs> zu verfertigen gesinnet
+      <lb/>mit ehestem gewärtig, damit solches gegen <date>Ostern</date> mit den <rs type="person">kauffleüten</rs> versenden
+      <lb/>kan. Man könnte auch wie in <rs type="letter">meinem vorigen</rs> gesagt, das <foreign xml:lang="lat">problema trajectori<pc type="hyphenation">-</pc><lb break="no"/>arum</foreign> also einrichten, daß die <foreign xml:lang="lat">curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> secand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign><supplied>,</supplied> ob sie schon <foreign xml:lang="lat">transcendentes</foreign> seind<supplied>,</supplied>
+      <lb/>dennoch <foreign xml:lang="lat">secundum datam legem dissimilitudins algebraice expressam progrediun<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice></foreign>
+      <lb/>in welchem fahl man nach meiner in <rs type="letter">meinem vorigen</rs> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicierter methode seh<unclear reason="illegible">r</unclear>
+      <lb/>leicht zu einer <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quation ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en kan, darin die <foreign xml:lang="lat">indeterminat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> zum öffteren sich
+      <lb/>separiren lassen; ich habe eüch einig exempel proponiert, man könnte aber noch an<pc type="hyphenation">-</pc><lb break="no"/>dere proponieren, welche durch diese methode sehr leicht zu solvieren wären, die aber
+      <lb/>weder der <rs key="pers_DE-588-119112450" type="person">Herman</rs> durch seine pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tendierte general solution noch der <unclear><rs key="pers_DE-588-118801481" type="person">Taylor</rs>,</unclear> <unclear>ja</unclear>
+      <lb/>der schinder selbsten<supplied>,</supplied> durch seine 1000 künste nicht wurden solvieren k<unclear reason="illegible">önn</unclear>en<unclear>, es</unclear>
+      <lb/>scheinet ohne das genug<supplied>,</supplied> daß die <rs type="person">Engelländer</rs> sich nicht recht darhinder wagen dör<pc type="hyphenation">-</pc><lb break="no"/>ffen in dem der <rs key="pers_DE-588-118801481" type="person">Taylor</rs> selbsten sagt <quote><hi rend="u">er könne mich versicheren, daß sich deßwegen
+      <lb/>be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> ihnen niemand auff keinerle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> weise bemühen werde</hi></quote>: Ich verstehe nicht recht
+      <lb/>was ihr durch das in dem <rs type="biblio">zed<unclear>e</unclear>lin</rs> (so in ewerem <rs type="letter">brieff</rs> an meinen <rs key="pers_DE-588-117589144" type="person">Niclau<unclear>ß</unclear></rs> eingesch<unclear>loss</unclear>en
+      <lb/>war) enthaltenen problema sagen wollet<supplied>:</supplied> <quote>"<foreign xml:lang="lat">Datam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem <formula>dx=s\,dy</formula>, in qua
+      <lb/><formula>s</formula> datur per <formula>x</formula>, <formula>y</formula>, quantitatem constantem <formula>p</formula>, et alias constantes, transmutare in aliam
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalentem <formula>dx=s\,dy+t\,dp</formula>, in qua etiam quantitas <formula>p</formula> sit variabilis<supplied>"</supplied>.</foreign></quote> <choice><orig>kan</orig><reg>Kan</reg></choice> auch noch nicht
+      <lb/>sehen was das selbe diene die <foreign xml:lang="lat">solutionem pro trajectoriis universaliorem</foreign> zu machen.</p>
+  <p><lb/>Hier folgt jetz ein extract auß <rs key="pers_DE-588-124275087" type="person">Keils</rs> <rs type="letter">brieff</rs> an <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> wie dieser dem <abbr>Mr.</abbr> de <rs key="pers_DE-588-117601020" type="person">Mon<pc type="hyphenation">-</pc><lb break="no"/>mort</rs> denselben co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniciert und von dem <rs key="pers_DE-588-117601020" type="person">Monmort</rs> schon den <date when="1717-09-13">13. <abbr>7bris</abbr> 1717<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> empfangen<supplied>.</supplied>
+
+      <lb/><quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Ich kan nicht läugnen, daß der <abbr>H<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-118509969">Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> in dem calculo sehr wohl versiert
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e, aber er hatt, so viel ich weiß, seine wüssensch<unclear>afft</unclear> <unclear>nie</unclear>mahlen <unclear>auff</unclear> prob<unclear>lem</unclear>ata
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>die einigen nutzen haben, appliciert, es scheinet Er habe einen sonder<unclear>bah</unclear>ren zu <hi rend="u">nichts</hi><pc type="hyphenation">-</pc>
+<pb facs="1063001" n="3"/>
+      <lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><hi rend="u">werthen</hi> dingen geschickten Geist; den eintzigen theil von deß <rs key="pers_DE-588-118587544" type="person">Newtons</rs> Philoso<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>phie, der von <hi rend="u">keiner wichtigkeit</hi> ist, und nichts zeiget, wie die ph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>nomena
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>natur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> zu explicieren, hatt er sehr fleissig gestudiert und examiniert, wan er
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>wollte seine wissenschafft auff etwaß nutzliches applicieren, so wünschte ich daß
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>er dieß problema solvierte. <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> hatt es tentiert, aber er hatt wüst ge<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>fehlet, und konte es nicht solvieren.</quote></p>
+  <p><lb></lb><hi rend="c"><foreign xml:lang="lat">problema vero ex mea versione ita sonat</foreign></hi></p>
+  <p><lb/><quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice><foreign>Invenire curvam quam projectile describit in aëre in simplicissima suppo<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>sitione uniformitatis tam gravitatis quam densitatis medii, sed resistenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>in duplicata ratione velocitatis.</foreign></quote></p>
+  <p><lb/>Ist allso die frag (wan ich das problema recht verstehe) was die bombe in dem
+      <lb/>lufft für eine curvam beschreibe anstatt der parabole so in dem <foreign xml:lang="lat">vacuo</foreign><del><gap/></del>
+      <lb/>oder <foreign xml:lang="lat">aëre non resistente</foreign> beschrieben wird. Wan der leichtfertige <rs key="pers_DE-588-124275087" type="person">Keil</rs> keine
+      <lb/>andere solution begehret als eine <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem differentialem, so hab ich das
+      <lb/>problema schon lang solviert so wohl in den <rs type="biblio">Memoires 1711</rs> als in den <rs key="biblio_AHE68U6J" type="biblio"><choice><orig>actis</orig><reg>Actis</reg></choice> 1713</rs>;
+      <lb/>wan er aber pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tendiert man solle die <foreign xml:lang="lat"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem differentialem</foreign> (so da ist <foreign xml:lang="lat">tertii
+      <lb/>gradus</foreign> ich aber <foreign xml:lang="lat">ad differentialem secundi gradus</foreign> und das nicht ohne adresse reduciert)
+      <lb/><foreign xml:lang="lat">ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem differentialem primi gradus</foreign> oder <foreign xml:lang="lat">ad constructionem</foreign> bringen, so
+      <lb/>bin ich versichert daß dieser <foreign xml:lang="ita">Secca Cojone</foreign> es selbsten noch lang nicht wird pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>stiert haben und könnte ihme also antworten <foreign xml:lang="lat">qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rit delirus quod non respondet
+      <lb/><rs type="person">Homerus</rs></foreign>.<note type="editorial">Erasmus, Adagia (1500)  «Ein Narr fragt nach dem, was Homer nicht beantwortet» (Jemand stellt unsinnige Fragen).</note> Im übrigen nimt mich wunder, daß dieser <rs type="person">Ne<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>dhard</rs><note type="editorial">Vermutlich eine Anspielung auf den berühmten Minnesänger Neidhart von Reuental (13. Jh.), sprichwörtlich «Spötter» oder jemand, der sich über andere lustig macht.</note> meine inventa
+      <lb/>darff nichtswehrtige dinge heissen, da er selbsten sich mit kahlen und abgeschma<pc type="hyphenation">-</pc><lb break="no"/>ckten sachen als da ist die <foreign xml:lang="lat">divisibilitas materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> mit deren er aller orten viel we<pc type="hyphenation">-</pc><lb break="no"/>sens machet so lang und viel herum schleppet: Man sihet aber sein gallsüchtig
+      <lb/>und lästerhafftes gemüt meistens darauß, daß er sagt der jenige theil deß
+      <lb/><rs key="pers_DE-588-118587544" type="person">Newtons</rs> philosophie, welchen wir ein wenig zu nahe examiniert und worin wir
+      <lb/>eintzig und allein das habermuß verschittet<note type="editorial">«verschittet» ist eine veraltete Schreibweise für «verschüttet». Die Redewendung bedeutet «alles verdorben».</note> daß wir in der <rs type="person">Engelländer</rs> ungnad
+      <lb/>gefallen, se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e von keiner wichtigkeit, da doch der <rs key="pers_DE-588-118587544" type="person">Newton</rs> selbsten von einer
+      <lb/>gantz anderen meynung ist<supplied>,</supplied> in dem er diese materie wie es scheinet vor anderer hoch
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimiert und <del><gap/></del>wegen der schwärigkeit in dero tiefsinnigen nachforschen für sehr
+      <lb/>wichtig muß gehalten <add>haben</add>, dan <foreign xml:lang="lat">in fine sectionis IV. <abbr>Lib.</abbr> II. <abbr>p.</abbr> 259<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></foreign> alwo er von dieser
+      <lb/>materi zu handlen auffhöret, nennet er diese undersuchungen <foreign xml:lang="lat">perplexas dis<pc type="hyphenation">-</pc><lb break="no"/>quisitiones</foreign>: ja was noch mehr ist, das problema so der <rs key="pers_DE-588-124275087" type="person">Keil</rs> mir proponiert
+      <lb/>und so er etwas nutzliches nennet wan ich mich darauff applicieren wurde, ist es
+      <lb/>dan nicht von eben der materi darvon derjenige theil des <rs key="pers_DE-588-118587544" type="person">Newtons</rs> Philosophie
+      <lb/>handelt<supplied>,</supplied> welchen er von keiner wichtigkeit zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n saget? also contradiciert sich die<pc type="hyphenation">-</pc><lb break="no"/>ser Lotterbub<note type="editorial">«Lotterbub» = liederlicher Junge</note> auff eine schandliche weiß; hätte ich mich auff einen andern theil zu
+      <lb/>critisieren geleget, so wurde als dan <add>ebenffals</add> derselbige von keiner wichtigkeit gewesen se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n.
+      <lb/>Da der <rs key="pers_DE-588-118771167" type="person">Wallisius</rs> von den <abbr>HH<supplied>.</supplied></abbr> <rs key="pers_DE-588-118532561" type="person">Fermat</rs> und <rs key="pers_DE-588-130064114" type="person">Frenicle</rs> so lustig durch die hechel ge<pc type="hyphenation">-</pc><lb break="no"/>zogen nur darum daß er ihre <foreign xml:lang="lat">problemata Diophantea</foreign> oder <foreign xml:lang="lat">numerica</foreign> für <foreign xml:lang="lat">nullius
+      <lb/>utilitatis</foreign> gehalten, hatt meines erachtens lang nicht so viel pecciert, als der saubere
+<pb facs="1063002" n="4"/>
+      <lb/><rs key="pers_DE-588-124275087" type="person">Keil</rs> welcher alles worauff ich mich bis dato geleget für <foreign xml:lang="fre">vetilles</foreign> und <foreign xml:lang="fre">bagatelles</foreign>
+      <lb/>außschre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>et zu grossem schandflecken der gantzen mathematic, dan wan unser sachen
+      <lb/>in solchem credit <choice><abbr>sc.</abbr><expan>scilicet</expan></choice> seind be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> denen<supplied>,</supplied> die Mathematici se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n wollen, was werden sie dan
+      <lb/>gelten be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> denen<supplied>,</supplied> die der mathematic unkündig seind. <choice><orig>underdessen</orig><reg>Underdessen</reg></choice> schreib ich
+      <lb/>all diese affectierte verachtung die der <rs key="pers_DE-588-124275087" type="person">Keil</rs> von meinen sachen machet, ledig
+      <lb/>und allein seinem gegen mir als non-Anglo habenden mißgunst zu: dan wä<pc type="hyphenation">-</pc><lb break="no"/>re ich nur ein Engelländer, so wären meine erfindungen die importantsten die
+      <lb/>jemalen wären gethan worden: und hiemit genug von diesem.</p>
+  <p><lb/>Ich will mich mit unseren <rs type="biblio">Stattzeitungen</rs> (welche wie ich glaube Ewer <rs key="pers_DE-588-1089913338" type="person">bruder</rs>
+      <lb/><rs type="letter">überschreiben</rs> wird) nicht auffhalten: nur das sage ich, daß endlich das blinde
+      <lb/>Loos, von welchem ewer <rs key="pers_DE-588-135542286" type="person">Vatter</rs> <choice><abbr>sel.</abbr><expan>seelig</expan></choice> und Ihr vor diesem nur das gelächter ge<pc type="hyphenation">-</pc><lb break="no"/>habt da es die <rs type="person">Geistlichen</rs> vor dem <rs type="organisation">Grossen Rath</rs> proponiert hatten, jetz und
+      <lb/>mit <formula>\frac{2}{3}</formula> sti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en gegen <formula>\frac{1}{3}</formula> ist durchgetrungen und stabiliert worden, und haben die
+      <lb/>me<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sten die vor diesem darwider gewesen jetzund darzu geholffen: weil sie ge<pc type="hyphenation">-</pc><lb break="no"/>sehen daß das practicieren auff das höchste geko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, und sie selbsten zu nichts mehr ge<pc type="hyphenation">-</pc><lb break="no"/>langen konnten wan sie sich nicht mit spendieren ruinieren wollten.</p>
+  <p><lb/>Zu dem <abbr>tom.</abbr> 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> adversariorum des <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-104265264" type="person">Morgagni</rs> so er mir verehrt, bitte mir auch
+      <lb/>den <foreign xml:lang="lat">tomum primum</foreign> zu kauffen, damit ich das <foreign xml:lang="lat">opus completum</foreign> habe, den pre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß will
+      <lb/>ewerer <rs key="pers_DE-588-1089924429" type="person">Mutter</rs> restituieren. Dem <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> will ich schreiben daß ihr auch
+      <lb/>2 <foreign xml:lang="lat">exemplaria</foreign> für ihne und seinen <rs key="pers_DE-588-120379260" type="person">bruder</rs> in handen habt, vielleicht wird er anstalt
+      <lb/>machen daß sie samtlich auff <rs key="place_GEO-2657896" type="place">Zürich</rs> können geschickt werden, wan ihre indessen nicht
+      <lb/>andere gelegenheit findet.</p> <closer>Nebst <choice><abbr>sel.</abbr><expan>seligem</expan></choice> gruß von meinen <rs key="pers_DE-588-108991332X" type="person">fraw</rs> <abbr>u.</abbr> <rs key="pers_DE-588-117589144 pers_DE-588-1153514060 pers_DE-588-118656503 pers_DE-588-1089913494 pers_DE-588-117589136 pers_DE-588-1089913311" type="person">kindern</rs> <choice><orig><g ref="#ver">v&#x035B;</g></orig><reg>ver</reg></choice>bleibe
+      <lb/><foreign xml:lang="fre">Votre tres affectioné Oncle</foreign> <signed><rs key="pers_DE-588-118509969" type="person"><abbr>J.</abbr> <abbr>B.</abbr></rs></signed></closer>
+<postscript><p><lb/><abbr>P. S.</abbr> <abbr>Mr.</abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> schreibt, er habe be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> seiner
+        <lb/>ankunfft zu <rs key="place_GEO-2988507" type="place">Paris</rs> die <rs key="biblio_X4XGY28E" type="biblio">Historiam fluxionum</rs> von dem
+        <lb/><rs key="pers_DE-588-100814832" type="person">Raphson</rs> und die <rs key="biblio_6WR9SDGQ" type="biblio">newe edition der Optic</rs> des <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118587544" type="person">New<pc type="hyphenation">-</pc><lb break="no"/>tons</rs> gefunden: er sagt es duncke ihn<supplied>,</supplied> es se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en in dieser
+        <lb/>2<hi rend="sup">ten</hi> edition <foreign xml:lang="fre">des nouveautés considerables</foreign>. <choice><orig>ich</orig><reg>Ich</reg></choice> förchte
+        <lb/>aber wir werden in der <rs key="biblio_X4XGY28E" type="biblio">Historia fluxionum</rs> <rs type="person">Raphsoni</rs>
+        <lb/>welche in Englisch beschrieben, schlechte figur machen und
+        <lb/>an invention und propagation deß <foreign xml:lang="lat">calculi fluxio<pc type="hyphenation">-</pc><lb break="no"/>num</foreign> wenig theil haben.</p></postscript>
+  <closer>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></addrLine>
+      <addrLine>Professeur des mathemathiques</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-3171728" type="place">Padoue</rs></addrLine></address></closer>
+</div>
+</body>
+</text></TEI>

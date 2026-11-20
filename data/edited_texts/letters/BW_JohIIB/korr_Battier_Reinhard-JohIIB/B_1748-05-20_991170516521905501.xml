@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516521905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Reinhard Battier an Johann II Bernoulli. Berlin, 20. Mai 1748</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516521905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516521905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von anderer Hand "B.m." und "20 Mai 1748"</p>
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50983">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.52-53</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516521905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433428505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057964</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1748-05-20">ce 20 May 1748</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1035421844">Battier, Reinhard</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Berlin</placeName>
+          <date when="1748-05-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430260905501" type="prev"/>
+          <ptr target="B_991170516521805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Battier_Reinhard-JohIIB" corresp="pers_DE-588-1035421844" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Dankesbezeugungen an Bernoulli. Battier verdankt Bernoulli die Stellung in der Berliner Akademie. Er berichtet von einem Besuch in Halle und einem Gespräch mit Christian Wolff. Euler hat am vergangenen Dienstag Daniel Bernoullis St. 43 gelesen</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119086395">Algarotti, Francesco</persName>
+            <note type="lebensdaten">(1712-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Baumgarten</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+            <note type="lebensdaten">(1711-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1015904726">Passavant, Daniel</persName>
+            <note type="lebensdaten">(1722-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104208082">Ponickau, Johann August von</persName>
+            <note type="lebensdaten">(1718-1802)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118634771">Wolff, Christian von</persName>
+            <note type="lebensdaten">(1679-1754)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-14" who="NG">manuelle Prüfung der Rohtranskription (1. Durchgang)</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614096/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+  <head>Achtung: Maschinell erzeugte Rohtranskription – noch nicht redaktionell geprüft.</head>
+  <p><pb facs="1599694" type="archival"/>
+
+<pb facs="1599695" type="archival"/>
+
+<pb facs="1599696" n="52r"/>
+      <lb/>B. m
+      <lb/>22.
+      <lb/><date>20 Mai 1748</date>
+      <lb/>Monsieur
+      <lb/>Mon Devoir aussi bien, que la situation heureuse, dans la quelle je me trouve ici en
+      <lb/><rs type="place">Berlin</rs> me devoient engager naturellement a en remercier l’<rs type="person">Auteur</rs> et par consequent a
+      <lb/>Vous en marquer; Monsieur, ma plus que vive Reconnoissance. Je me flatte pourtant,
+      <lb/>que le nouveau Sejour que je viens de faire dans ces Quartier ici joint aux soins, qu’on a
+      <lb/>d’abord de se faire des <rs type="person">Protecteurs</rs> et des <rs type="person">Amis</rs> justifieront mieux ce silence, qu’une
+      <lb/>Quantité d’autres Excuses aussi frivoles que communes. Je redoublerai mon Attention
+      <lb/>pour en être tout a fait dispensé <choice><orig>a</orig><reg>à</reg></choice> l’avenir. Les Nouvelles, que Vous aurez sans doute reçûes,
+      <lb/>de <abbr>Mr.</abbr> <rs type="person">Passavant</rs> bonneront celles, que j’aurai l’Honneur de vous communiquer Monsieur
+      <lb/>par la presente. En arrivant <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Laxe Gotha</rs> j’eûs soin de m’informer de <abbr>Mr.</abbr> <rs type="person">de Ponicau</rs>
+      <lb/>On me dît <choice><orig>a</orig><reg>à</reg></choice> la Poste, que ce <rs type="person">Klipphausen</rs> etoit pres de <rs type="place">Dresden</rs>, et que je ferai par conse<pc type="hyphenation">-</pc><lb break="no"/>quent mieux de porter la <rs type="letter">lettre</rs> <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Leipzig</rs>, ce qu’ayant fait j’espere que Vous en ayés recû
+      <lb/>des Nouvelles. En passant par <rs type="place">Halle</rs> nous avions l’Honneur de voir outre <abbr>Mr.</abbr> <rs type="person">Baum</rs><pc type="hyphenation">-</pc>
+
+<pb facs="1599697" n="52v"/>
+      <lb break="no"/>garten ce fameux <rs type="person">Baron de Wolf</rs>, qui nous a entretenu d’un Discours tres digne des
+      <lb/>grandes Idées, que j’ay toujours eues de luy, Il nous a prie fort instamment d’eassurer
+      <lb/>Messieurs <rs type="person">Bernoulli</rs> de sa parfaite Estime. Sa Vigueur nous promet encor bien des
+      <lb/>Volumes in Quarto. En arrivant ici Monsieur <rs type="person">de Maupertuis</rs> nous a reçu tres
+      <lb/>gracieusement, <abbr>Mons.</abbr> <rs type="person">le Comte d’Algarotti</rs> et <abbr>Mr.</abbr> le <abbr>Prof.</abbr> <rs type="person">Formey</rs>, membre du <rs type="organisation">Depar<pc type="hyphenation">-</pc><lb break="no"/>tement Philosophique</rs> y etoient. L’augmentation de nos Gages nous a bientot faite
+      <lb/>oublier toutes les contretems que nous avons essuyés en chemin. <rs type="organisation">Le Depart de notre
+      <lb/>genereux President</rs> pour <rs type="place">Potsdam</rs> m’empesche de vous en donner des Nouvelles,
+      <lb/>Monsieur <choice><orig>a</orig><reg>à</reg></choice> l’exception de la plus interessante, savoir qu’il se porte bien. En
+      <lb/>attendant <abbr>Mr.</abbr> le <abbr>Prof.</abbr> <rs type="person">Euler</rs> <choice><orig>a</orig><reg>à</reg></choice> la Bonté de nous conduire aux <rs type="organisation">Assemblées de
+      <lb/>l’Academie</rs>, ou il a lû Jeudi passé la Piece de <abbr>Mr.</abbr> <rs type="person">Votre Frere</rs> sur les Forces
+      <lb/>vives. Je commence peu a peu <choice><orig>a</orig><reg>à</reg></choice> me former une Idée distincte de cette Illustre
+
+<pb facs="1599698" n="53r"/>
+      <lb/>Compagnie. C’est aux Lectures, que nous ferons de Tems en Tems <rs type="place">au Chateau</rs>, <rs type="organisation">ou
+      <lb/>Societé</rs> l’assemble, que les Occupations pour l’<rs type="organisation">Academie</rs> se borneront. Avantage d’au<pc type="hyphenation">-</pc><lb break="no"/>tant plus estimable, que je suis en Etat d’employer tout mon Tems a repondre aux
+      <lb/>Sentiments favorables, que Votre Bonté, Monsieur vous a inspiré Envers moi. Heu<pc type="hyphenation">-</pc><lb break="no"/>reux, si mon Assiduité m’y ferot reussir. Je finis, Monsieur en vous priant de faire
+      <lb/>agreer mes obeissances respectueuses <choice><orig>a</orig><reg>à</reg></choice> Ma Dame <rs type="person">Votre chere Epouse</rs> aussi bien qu’<choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>Monsieur <rs type="person">Votre Frere</rs>, et de me croire tres parfaitement
+  </p>
+  <closer><lb/>Monsieur.
+      <lb/>
+      <lb/><rs type="place">Berlin</rs> ce <date when="1748-05-20">20 May 1748</date>.
+      <lb/>
+      <lb/><salute>Votre tres humble et tres <abbr>obeisst</abbr>
+      <lb/>serviteur</salute>
+      <lb/>
+      <lb/><signed>Reinhard Battier</signed><del><gap/></del>
+
+<pb facs="1599699" n="53v"/>
+    <address>
+      <addrLine>Monsieur</addrLine>
+      <addrLine>Monsieur <rs type="person">Jean Bernoulli</rs> Professeur en</addrLine>
+      <addrLine>Eloquence</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs type="place">Bâsle</rs></addrLine>
+    </address>
+  </closer>
+
+
+</div>
+</body>
+</text>
+</TEI>

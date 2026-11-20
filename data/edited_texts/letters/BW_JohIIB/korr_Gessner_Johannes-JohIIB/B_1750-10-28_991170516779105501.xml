@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516779105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johannes Gessner an Johann II Bernoulli.
+                        Zürich, 28. Oktober 1750</title>
+          <title type="alt">1750.10.28: Geßner,
+                        Johannes (1709-1790) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058394</title>
+          <title type="alt">1750-10-28_Ge_ner_Johannes-Bernoulli_Johann</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516779105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516779105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Gessner, Johannes (1709-1790) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-137193">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 693:Bl.311</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516779105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433710205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058394</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>22,5</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Zürich]</origPlace>
+              <date when="1750-10-28">28. Okt[ober]
+                                1750</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119331136">Geßner, Johannes</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1750-10-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430337805501" type="prev"/>
+          <ptr target="B_991170516779005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Gessner_Johannes-JohIIB" corresp="pers_DE-588-119331136" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117517747">MacLaurin, Colin</persName>
+            <note type="lebensdaten">(1698-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117703583">Pézenas, Esprit</persName>
+            <note type="lebensdaten">(1692-1776)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-01-11" who="RG">lb und pb eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3713740/manifest"/>
+</facsimile><text>
+<body>
+    <div type="letter"><pb facs="3713741" n="311r"/>
+  <opener><lb/>Excellentissimo Joh. BERNOULLIO <lb/>Joh. Gesnerus s. pl. d.</opener>
+  <p><lb/>Cito humanitate tua Amicissime Bernoulli co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ittendo tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <lb/>cur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quos ex Bibliotheca Steheliniana libros desidera verim: deprecor <lb/>eam molestiam. Ob discessum Tabellarium brevis esse cogor, <lb/>alia vice plenior futurus. De Maclaurini <del><gap/></del>Introd. in <lb/>Doctrinam fluctionum moneo ejus pretium esse Parisiis 20 <lb/>Interque <add>De Pezenas</add> palam ab Academia Scientiarum ob merita in analysin lau<lb break="no"/>datur. Introductio in Analysin v. decimum sub prelo cudat.</p>
+  <closer><lb/>Vale, saluta nobiliss. familiam &amp; à nobis pl. salutatus <lb/>vole. Raptissime d. 28. Oct. 1750</closer><pb facs="3713742" n="311v" type="empty"/>
+</div>
+</body>
+</text></TEI>

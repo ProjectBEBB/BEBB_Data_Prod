@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514629605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacques-André Mallet an Daniel I Bernoulli. Genf, 15. Juli 1771</title>
+          <title type="alt">1771.07.15: Mallet, Jacques André (1740-1790) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055225</title>
+          <title type="alt">1771-07-15_Mallet_Jacques_Andre-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514629605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514629605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf der letzten Seite befindet sich ein rotes Wachssiegel.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Entwurf. Autograph. BPU Genève, Ms. fr. 655, fo.55</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-125318">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 709:Bl.171-172</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514629605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432955205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055225</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (4 beschriebene S.)<dimensions unit="cm"><height>25</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1771-07-15">le 15 Juillet 1771</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-129353949">Mallet, Jacques André</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1771-07-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430262405501" type="prev"/>
+          <ptr target="B_991170430261105501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mallet_Jacques_Andre-DanIB" corresp="pers_DE-588-129353949" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-04" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-15" who="RG">NER Erkennung</change>
+        <change when="2024-08-27" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-08-27" who="RG">Kleinere Anpassungen sowie Ortschaften und Personen referenziert (noch nicht alle)</change>
+        <change when="2024-08-27" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3443126/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3443127" n="171r"/>
+  <opener>
+    <dateline>
+      <lb/>de <rs key="place_GEO-2660646" type="place">Geneve</rs> le <date when="1771-07-15">15<hi rend="sup">e</hi> Juillet 1771</date>
+    </dateline>
+  </opener>
+  <p>
+      <lb/>J’étois à la <rs key="place_GEO-3017341" type="place">Campagne</rs>, mon cher Monsieur, lorsque la lettre que vous m’avez
+      <lb/>fait l’amitié de m’écrire, m’est parvenue, c’est ce qui, joint à quelques jours de mauvais
+      <lb/>tems, m’a empêché de faire faire plutot, l’essay que vous desiriez, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que vous
+      <lb/>m’expliquez dans votre lettre, Je viens à présent en communiquer voici le résultat.
+  </p>
+  <p>
+      <lb/>Le bateau que nous primes pour cet essay, quoiqu’un des plus petits ne laissoit pas que d’etre
+      <lb/>encore assezgrand <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> assez pesant, il etoit sans quille, comme sont tous ceux de notre lac.
+      <lb/>Il y avoit deux rameurs intelligents, à qui j’expliquai dabord la man<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>uvre qu’ils
+      <lb/>devoient faire, ils me comprirent parfaitement, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> après quelques essays ils y reussirent
+      <lb/>assez bien. l’un des deux, plus fort <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> plus vigoureux, man<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>uvroit aussi bien qu’on
+      <lb/>pouvoit le désirer, ce qui étoit très difficile <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très pénible, à cause de la pesanteur
+      <lb/>considérable de la rame, quoique j’eusse fait prendre les plus légères qu’on put trouver
+      <lb/>l’autre rameur moins robuste avoit beaucoup de peine à conserver l’inclinaison de sa
+      <lb/>pale, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> à l’ammener perpendiculairement au bateau, à cause de la résistance de l’eau,
+      <lb/>qui lui faisoit prendre une route oblique, pour moi, cela m’auroit été absolument
+      <lb/>impossible.
+  </p>
+  <p>
+      <lb/>Pour comparer la vitesse que donnoit au bateau cette nouvelle manière de ramer, avec
+      <lb/>la vitesse ordinaire: Nous partions de quelque point fixe près du bord, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> nous
+      <lb/>allions ainsi vers quelque autre point, à une petite distance, en comptant exactement
+      <lb/>le tems que nous restions en chemin. Nous retournions ensuite de la même manière
+      <lb/>au même point, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> après cela nous répétions ces deux petites courses en ramant
+      <lb/>comme à l’ordinaire. Les petits détails de chaque course vous seroient inutiles,
+      <lb/>il suffira de vous dire que le 1<hi rend="sup">r</hi> essay fut de 4 courses pour les quelles
+      <lb/>nous employames <formula>5\frac{3}{4}</formula> minutes de la <choice><abbr>nouv.</abbr><expan>nouvelle</expan></choice> maniere, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 3 <choice><abbr>min.</abbr><expan>minutes</expan></choice>, 5 <choice><abbr>sec.</abbr><expan>secondes</expan></choice> en ramant à
+      <lb/>l’ordinaire.
+  </p>
+  <p>
+      <lb/>Le 2<hi rend="sup">d.</hi> essay fut de deux courses, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’on employa 3 <hi rend="sup">min.</hi> 45 <hi rend="sup">sec.</hi> par la nouvelle methode
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 1 min.: 50 sec <del>par a</del>vec les rames ordinaires.
+  </p>
+  <p>
+      <lb/>Ainsi en prenant tout ensemble, le rapport des deux vitesses sera comme <formula>9\frac{1}{2}</formula> à <formula>4\frac{11}{12}</formula>.
+      <lb/>c’est à dire environ comme 2 à 1.
+  </p>
+<pb facs="3443128" n="171v"/>
+  <p>
+      <lb/>Ce résultat étant assez bien constaté, je crus qu’il inutile de repéter d’avantage
+      <lb/>l’expérience, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> rélativement aux autres circonstances, voici les remarques que je fis:
+  </p>
+  <p>
+      <lb/>1°<hi rend="sup">.</hi> Les pales avoient environ <formula>\frac{1}{2}</formula> pied de largeur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 3 pieds de longueur, mais de la nouvelle
+      <lb/>manière on ne les plongeoit qu’à moitié c’est à dire environ <formula>1\frac{1}{2}</formula>.
+  </p>
+  <p>
+      <lb/>2°<hi rend="sup">.</hi> L’on étoit obligé de faire des courses fort petites, parceque le poids de ces rames, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>la force qu’il falloit pour donner la saccade comme il faut, empêchoit les
+      <lb/>rameurs de continuer ce travail pénible, au delà de 2 minutes, il falloit
+      <lb/>nécessairement les laisser reposer au bout de ce petit intervalle
+  </p>
+  <p>
+      <lb/>3°<hi rend="sup">.</hi> En voguant comme à l’ordinaire, ils travailloient de manière à continuer ce
+      <lb/>travail pendant plusieurs heures.
+  </p>
+  <p>
+      <lb/>4°. Le nombre des coups de rames qu’ils donnoient étoit à peu près le même dans les
+      <lb/>deux manières c’est à dire environ 24 par minute.
+  </p>
+  <p>
+      <lb/>5°<hi rend="sup">.</hi> En vguant de cette nouvelle manière, l’on ne pouvoit pas conserver une route aussi
+      <lb/>droite que par la méthode ordinaire, à cause de la différence entre les deux
+      <lb/>rameurs, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de ce que leur man<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>uvre étoit moins uniforme, une rame attachée
+      <lb/>à la pouppe servoit de gouvernail pour remettre le bateau dans sa direction,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de cette maniere le tems d’une course étoit un peu plus grand qu’il n’auroit du etre,
+      <lb/>mais cela etoit peu de chose.
+  </p>
+  <p>
+      <lb/>6°. Je ne saurois pas dire précisément sous quel angle les pales étoient inclinées
+      <lb/>parceque cela ne dépendant que de la force de la main, il varioit un peu,
+      <lb/>je sai seulement que l’angle que faisoit le plan de la pâle avec la direction du
+      <lb/>bateau, etoit beaucoup plus grand que 45 degrés. Si on vouloit le faire plus petit,
+      <lb/>la résistance de l’eau contre la pale devenoit si grande, que le rameur n’avoit
+      <lb/>plus la force d’ammener la rame bien perpendiculairement au bateau, comme
+      <lb/>on l’exigeoit, mais il etoit difficile de juger bien exactement de cette inclinaison.
+      <lb/>Voilà, Monsieur, tout ce que je puis vous dire de cet essay, qui quoique fait
+      <lb/>grossièrement, doit ce me semble, faire bien espérer de vos nouvelles rames.
+      <lb/>Je serai charmé d’apprendre que l’académie de <rs key="place_GEO-498817" type="place">Petersbourg</rs> en fasse faire
+<pb facs="3443129" n="172r"/>
+      <lb/>l’expérience en grand, je ne doute pas du succés.
+  </p>
+  <p>
+      <lb/>J’ai enfin reçu le paquet que m’a expédié M<hi rend="sup">r.</hi> <rs type="person">Em. Beck</rs> contenant des <del><gap/></del><add>exemplaires</add> du
+      <lb/><hi rend="u">Recueil astronomique</hi> de M<hi rend="sup">r.</hi> votre <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, il m’est parvenu un mois plus tard qu’il ne
+      <lb/>devoit, par la bêtise des batteliers de <rs key="place_GEO-2659587" type="place">Morges</rs> qui l’avoient été débarquer à <rs key="place_GEO-2659422" type="place">Nion</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>soutenoient l’avoir bien ammené à <rs key="place_GEO-2660646" type="place">Geneve</rs>. J’attendois ce petit ouvrage avec grande
+      <lb/>impatience, j’ai eu beaucoup de plaisir le lire, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je vous assure que je suis extrémement
+      <lb/>content de l’exécution.<del> Je ne</del> Tout y est bien choisi <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> bien présenté. Je ne doute
+      <lb/>pas qu’il ne soit fort gouté des astronomes, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je fais bien des voeux pour que la
+      <lb/>santé de notre ami lui permette de le continuer.
+  </p>
+  <p>
+      <lb/>Je viens de lire dans la gazette de <rs key="place_GEO-2661552" type="place">Berne</rs> la nouvelle<del>s</del> d’un incendie considérable
+      <lb/>à <rs key="place_GEO-498817" type="place">Petersbourg</rs> dans le quartier où demeurent nos amis <rs key="pers_DE-588-118531379" type="person">Euler</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> on m’a dit que
+      <lb/>la gazette de <rs key="place_GEO-2751773" type="place">Leyde</rs> en faisoit mention et parloit nommément de sa maison qui
+      <lb/>a été brulée. Si vous apprenez quelque nouvelle qui soit sure, faites moi
+      <lb/>l’amitié de m’en informer, je serois bien aise de savoir ce qui en est.
+  </p>
+  <p>
+      <lb/>Je suis obligé de finir, Mon cher Monsieur, il ne me reste que le tems de vous prier
+      <lb/>de présenter mes obeissances à M<hi rend="sup">r.</hi> votre <rs key="pers_DE-588-117589136" type="person">Frère</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> à Madame <rs key="pers_DE-588-1089911661" type="person">Bernoulli</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de vous assurer
+      <lb/>de l’amitié sincère <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’estime avec laquelle Je suis
+      <lb/>Monsieur et Très cher ami
+  </p>
+  <closer>
+    <salute>
+      <lb/>Votre Très Humble
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Très obeiss<hi rend="sup">t.</hi> Serviteur
+    </salute>
+    <signed>
+      <lb/><rs key="pers_DE-588-129353949" type="person">J. A. Mallet</rs>
+    </signed>
+  </closer>
+
+  <postscript>
+    <p>
+        <lb/>P. S. Je ne crois pas que ces bagatelles que je vous ai anvoyées, vaillent la
+        <lb/>peine de faire le voyage de <rs key="place_GEO-498817" type="place">Petersbourg</rs>, c’est pourquoi je vous prie
+        <lb/>de les garder pour en faire l’usage qu’il vous plaira.
+    </p>
+  </postscript>
+<pb facs="3443130" n="172v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-118656503" type="person">D. Bernoulli</rs></addrLine>
+      <addrLine>Proffesseur de Physique <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</addrLine>
+      <addrLine><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</addrLine>
+      <addrLine>à <rs key="place_GEO-2661604" type="place">Bâle</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516889205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Andreas Ritz. Ohne Ort,
+            1709</title>
+          <title type="alt">1709: Bernoulli, Nicolaus (1687-1759) an Ritz, Andreas
+            (1684-1767)</title>
+          <title type="alt">000059432</title>
+          <title type="alt">1709_Bernoulli_Nicolaus-Ritz_Andreas</title>
+          <title level="s">Basler Edition der
+            Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516889205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516889205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Ritz, Andreas (1684-1767) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "NB. Deest epistola ad Ritsum
+            scripta"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23496">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.3r-4r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516889205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433673205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059432</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1709">1709</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne
+            Ort</placeName>
+          <date when="1709"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="no_GND">Ritz, Andreas</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516889305501" type="prev"/>
+          <ptr target="B_991170516889105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Ritz_Andreas-NicIB" corresp="pers_DE-588-1012090132" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Nicolaus I Bernoulli berichtet Andreas Ritz zunächst von verlorenen Briefen und Ritz’ Genesung. Ausführlich schildert er die Erhebung Hieronymus Burckhardts zum Basler Antistes und Theologieprofessor, Samuel Werenfels’ dazu gedruckte Promotionsrede sowie konfliktreiche Pfarrwahlen und zahlreiche personelle Veränderungen im Basler Kirchenwesen. Er kündigt an, eine Predigt Werenfels’ und seine eigene Dissertation durch Johann Jacob Zörnlin an Ritz zu senden, und erwähnt abschliessend eine Verletzung des Basler Territoriums, die den Einsatz eidgenössischer Besatzungstruppen erforderlich gemacht habe.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-115793895">Battier, Samuel</persName>
+            <note type="lebensdaten">(1667-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089794002">Burckhardt, Christoph</persName>
+            <note type="lebensdaten">(1640-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116223539X">Burckhardt, Christoph</persName>
+            <note type="lebensdaten">(1679-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-132501279">Burckhardt, Hieronymus</persName>
+            <note type="lebensdaten">(1680-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-134148347">Euler, Paul</persName>
+            <note type="lebensdaten">(1670-1745)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121435032">Gernler, Johann Heinrich</persName>
+            <note type="lebensdaten">(1664-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1383921512">Burckhardt, Augusta Maria</persName>
+            <note type="lebensdaten">(1689-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100159567">Harder, Johann Jakob</persName>
+            <note type="lebensdaten">(1656-1711)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1383922438">Harder, Sibylla</persName>
+            <note type="lebensdaten">(1680-)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089801718">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1662-1717)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104222069">Im Hoff, Samuel</persName>
+            <note type="lebensdaten">(1679-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-112715494X">Merian, Andreas</persName>
+            <note type="lebensdaten">(1694-1776)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12169660X">Merian, Friedrich</persName>
+            <note type="lebensdaten">(1676-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089854447">Merian, Matthäus</persName>
+            <note type="lebensdaten">(1685-1763)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1158701985">Meyer, Jeremias</persName>
+            <note type="lebensdaten">(1653-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089815948">Stöcklin, Johannes</persName>
+            <note type="lebensdaten">(1655-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108982615X">Stöcklin, Simon</persName>
+            <note type="lebensdaten">(1657-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1033229474">Tonjola, Nicolaus</persName>
+            <note type="lebensdaten">(1668-1707)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1055606939">Wettstein, Johann Rudolf</persName>
+            <note type="lebensdaten">(1663-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108987653X">Wild, Johannes</persName>
+            <note type="lebensdaten">(1656-1712)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Zörnli</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-25" who="SG">Grundkommentierung vorbereitet</change>
+        <change when="2026-08-25" who="SG">NER</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-11" who="RG">NER Erkennung</change>
+        <change when="2026-03-20" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039115/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+
+<pb facs="1039116" n="3r"/>
+  <note hand="pers_DE-588-119166895"><abbr>NB.</abbr> Deest <rs type="lostletter">epistola</rs> ad <rs key="pers_DE-588-1012090132" type="person">Ritsium</rs> scripta. Ad eundem.</note>
+  <p><lb/>Itane tandem, <choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> optime, et <rs type="letter">liter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs key="place_GEO-2661604" type="place">Basileam</rs> veniunt et <rs type="person">Amicum</rs> de valetudine tua anxium
+      <lb/>su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>a perfundunt l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>titia. Gratulor vehementer non solum tibi, sed et mihi, ob id quod prosperam
+      <lb/>per usum aquarum mineralium recuperaveris salutem, Deus tibi hanc ulterius confirmet, omni<pc type="hyphenation">-</pc><lb break="no"/>aque, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quilibet bonus sibi optare potest, bona largiatur! Doleo priorem meam <rs type="letter">epistolam</rs>
+      <lb/>tibi non fuisse redditam, nec tuam mihi; nescio autem an hoc utrique nostrûm solatium sit,
+      <lb/>quod utrumque <rs type="person">Amicus</rs> fefellit, meus certe, cui quod promissis non steterit haud ita pridem
+      <lb/>exprobravi, se curavisse ait, ut <rs type="letter">liter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ad te perferrentur, adeoque pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter suam cul<pc type="hyphenation">-</pc><lb break="no"/>pam evenisse, ut deperdit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fueri<del><gap/></del><add>n</add>t. <abbr>D.num</abbr> <rs key="pers_DE-588-132501279" type="person">Burcardum</rs> ad Antistitium evectum esse ne<pc type="hyphenation">-</pc><lb break="no"/>mo mirabitur, nisi qui statum <rs key="place_GEO-2661604" type="place">Civitatis</rs> nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hodiernum ignorat; miror autem, quod
+      <lb/>dubites, an munus Professoris Theologi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> humeris ejus impositum fuerit, cum tamen <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>ni fal<pc type="hyphenation">-</pc><lb break="no"/>lor<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> scias, Antistitium cum Professoratu semper conjunctum fuisse, et ad quid, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so, aliud
+      <lb/>ipsi prodesse posset Doctoratus, quam ad Professionem decenter obeundam? sin autem
+      <lb/>dubium tuum huc redeat, ut suspiceris, munus Professoris ejus quidem person<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, humeris
+      <lb/>autem alienis impositum esse, tunc tibi illud eximere nequeo, hoc autem dicere possum, quod
+      <lb/>paucis post Promotionem diebus <rs type="biblio">Lectionem Inauguralem</rs> habuerit. <rs type="biblio">Oratio</rs> <abbr>Dni</abbr> <rs key="pers_DE-588-12209025X" type="person">Werenfelsii</rs>
+
+
+      <lb/>Promotoris una cum toto Promotionis actu impressa est sub titulo <rs type="biblio"><hi rend="u">Mitra Aaronis capiti
+<pb facs="1039117" n="3v"/>
+      <lb/>imposita</hi></rs>, misissem tibi libenter exemplar unum hujus Orationis, sed nullum adhucdum ad me<pc type="hyphenation">-</pc>
+
+      <lb break="no"/>as manus pervenit, quia <abbr>Dn.</abbr> <rs key="pers_DE-588-132501279" type="person">Antistes</rs> eam in gratiam solum Amicorum suorum imprimi curavit,
+      <lb/>ajunt illam apud <rs type="person">Typographum</rs> venalem extare. <rs type="biblio">Dissertationem</rs> ejus inauguralem, quam pe<pc type="hyphenation">-</pc><lb break="no"/>tis, nusquam invenire potui; ne indigneris, rationem hujus rei facile conjicere poteris. Sed
+      <lb/>properemus ad reliquas Ministrorum Promotiones, audies autem miranda et stupenda, omnis
+      <lb/>enim res h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c per multas machinationes gesta fuit, inprimis quod Pastoratum et Diacona<pc type="hyphenation">-</pc><lb break="no"/>tum <rs type="place">Petrinum</rs> attinet. Miraberis si cognoveris, <abbr>Dnum</abbr> <rs key="pers_DE-588-104222069" type="person">Im Hof</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter expectationem
+      <lb/>Diaconatum adeptum esse, una cum <rs type="person">filia</rs> <abbr>Dni</abbr> Professoris <rs key="pers_DE-588-100159567" type="person">Harderi</rs>, intellige <rs type="person" key="pers_DE-588-1383921512">Augustam</rs>
+      <lb/>non viduam <rs type="person">Dni</rs> <rs type="person" key="pers_DE-588-1033229474">Tonjol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c enim nupsit Professori <rs key="pers_DE-588-115793895" type="person">Battierio</rs> Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>co; metuo autem
+      <lb/>an sponsalia h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c optatum habitura sint exitum, siquidem vicina h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c mea non libere
+      <lb/>consensit in <rs type="person">Samuelis Prophet<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> nostri matrimonium. Stupebis vero, et quidem merito,
+      <lb/>si dicam, turbas exortas fuisse in electione <abbr>Dni</abbr> <rs key="pers_DE-588-121435032" type="person">Gernleri</rs> ad Pastoratum, cui et ego in<pc type="hyphenation">-</pc><lb break="no"/>terfui tanquam Candidatus Juris; causa tumultus fuit exclusio <abbr>Dni</abbr> <rs key="pers_DE-588-1089801718" type="person">Huberi</rs> ex ter<pc type="hyphenation">-</pc><lb break="no"/>nario, assumserant enim <abbr>Dni</abbr> Capitulares per pluritatem votorum in ternarium pri<pc type="hyphenation">-</pc><lb break="no"/>mo loco <abbr>D.</abbr> <rs key="pers_DE-588-115793895" type="person">Battierium</rs> <rs type="place">Albanum</rs>, secundo <abbr>D.</abbr> <rs key="pers_DE-588-1055606939" type="person">Wetstenium</rs> <rs type="place">Leonhardinum</rs>, et tertio
+      <lb/><abbr>D.</abbr> <rs key="pers_DE-588-121435032" type="person">Gernlerum</rs> <rs type="place">Petrinum</rs> Diaconum; contra hunc igitur ternarium publice <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice><abbr>sc.</abbr> in
+      <lb/>choro templi, ubi electio Pastoris fieri debebat<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> protestatus est <abbr>Dn.</abbr> <rs key="pers_DE-588-1089801718" type="person">Huberus</rs> con<pc type="hyphenation">-</pc><lb break="no"/>querens se ex odio privato quorundam, qui in factionem coierant, per fraudulentas
+      <lb/>machinationes pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teritum fuisse, ob quod increpatus fuit ab <rs key="pers_DE-588-132501279" type="person">Antistite</rs> et <rs type="person">Scholar<pc type="hyphenation">-</pc><lb break="no"/>cha</rs> quodam, sed defensus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Tribuno plebis <rs type="person">Burcardo</rs>, hinc ortus tumultus, insur<pc type="hyphenation">-</pc><lb break="no"/>gebant contra seinvicem <rs type="person">Decanus</rs> Capituli, qui pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidebat, <rs type="person">Tribunus</rs> plebis, <rs key="pers_DE-588-132501279" type="person">An<pc type="hyphenation">-</pc><lb break="no"/>tistes</rs>, <rs type="person">Scholarch<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> imo quidam pacis amantes plane secesserunt; sed taceamus
+
+      <lb/>de infandis his et scandalosis rebus, pergamus ad <rs type="person">Pastores</rs> minorum gentium. Avun<pc type="hyphenation">-</pc><lb break="no"/>culus meus <abbr>D.</abbr> <rs type="person" key="pers_DE-588-1158701985">Me<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>erus</rs> successit <abbr>D.</abbr> <rs key="pers_DE-588-108982615X" type="person">Stöcklino</rs> Pastori in <rs key="place_GEO-8533597" type="place">Oltigen</rs>, qui adeptus est
+      <lb/>Pastoratum apud Franciscanos; frater ejus <abbr>D.</abbr> <rs key="pers_DE-588-1089815948" type="person">Joh. S<del><gap/></del><add>t</add>öcklinus</rs> et <rs key="pers_DE-588-1089854447" type="person">Merianus</rs> filius
+      <lb/><rs type="person">Pastoris</rs> Diaconatum in <rs type="place">minori Urbe</rs>, alius <rs key="pers_DE-588-12169660X" type="person">Merianus</rs> Pastoratum <rs type="place">Bretzwilan<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice></rs>,
+      <lb/><rs key="pers_DE-588-134148347" type="person">Eulerus</rs> <rs key="place_GEO-3206590" type="place">Riehensem</rs> <rs type="person">Burcardus</rs> <foreign xml:lang="ger"><rs type="place">im Würtenberger Hof</rs></foreign> <rs type="place"><abbr>S.</abbr> Jacob<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>um</rs>, <rs key="pers_DE-588-108987653X" type="person">Wildius</rs>
+<pb facs="1039118" n="4r"/>
+      <lb/>olim officio motus <rs type="place">Leuffelfingensem</rs>, <rs key="pers_DE-588-1055606939" type="person">Wetstenius</rs> Pastor in <foreign xml:lang="ger"><rs key="place_GEO-2660036" type="place">Langenbruckh</rs></foreign> <rs type="place">Rimlingensem</rs>,
+      <lb/><rs type="person">Friburgerus</rs> <rs type="place">Langenbruggensem</rs>, et denique <rs key="pers_DE-588-116223539X" type="person">Burcardus</rs> filius <rs type="person">Pastoris</rs> in <rs type="place">Rothenflueh</rs>
+      <lb/>Vicariatum et certam <rs type="person">Patri</rs> suo succedendi spem consecuti sunt; et h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt mutatio<pc type="hyphenation">-</pc>
+
+      <lb break="no"/>nes ill<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> anno abhinc in Ministerio contigerunt. <rs type="biblio">Concionem</rs> <abbr>D.</abbr> <rs key="pers_DE-588-12209025X" type="person">Werenfelsii</rs>, quam
+      <lb/>petiisti, misi <abbr>D.</abbr> <rs key="pers_resource_000069" type="person">Zörnlino</rs> una cum exemplari aliquo <rs key="biblio_ME943KC7" type="biblio">Dissertationis</rs> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ut prioris, si
+      <lb/>forte deperdita fuisset <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>eam enim te nondum accepisse ex tuis et <abbr>D.</abbr> <rs key="pers_resource_000069" type="person">Zörnlini</rs> <rs type="letter">literis</rs> co<pc type="hyphenation">-</pc><lb break="no"/>gnovi<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> vicem sustinere posset. Tibi forsan jam nuntiatum erit, Germanorum temera<pc type="hyphenation">-</pc><lb break="no"/>riam territorii nostri violationem multum inco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odi nobis fecisse, adeo ut <rs type="place">foedera<pc type="hyphenation">-</pc><lb break="no"/>torum Cantonum</rs> milites pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidiarios hic habere coacti simus. Sed sat prata biberunt.</p>
+
+  <closer>Vale, amice optime, et amare perge tuum, qui te millies salvere jubet, <signed>NB.</signed> <dateline><date when="1709">1709</date></dateline>.</closer>
+</div>
+<div type="translation" xml:id="B_991170516889205501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039116" n="3r" /> <p>Da kommt also endlich auch Dein Brief nach Basel, mein Lieber, und macht Deinem Freund, der sich um Deine Gesundheit gesorgt hat, die grösste Freude! Ich freue mich sehr für Dich, aber auch für mich, dass Du durch den Gebrauch der Mineralwässer wieder gesund geworden bist. Gott möge Deine Gesundheit weiter festigen und Dir alles Gute schenken, das ein rechtschaffener Mensch sich wünschen kann! Es tut mir leid, dass mein früherer Brief Dich ebenso wenig erreicht hat wie der Deine mich. Ob es uns beiden ein Trost sein kann, dass jeder von uns von einem Freund enttäuscht wurde, weiss ich allerdings nicht. Meiner jedenfalls, dem ich kürzlich vorhielt, sein Versprechen nicht gehalten zu haben, behauptet, er habe für die Beförderung meines Briefes an Dich gesorgt; dass dieser verloren gegangen sei, sei also nicht seine Schuld. Dass Herr Burckhardt zum Antistes aufgestiegen ist, wird niemanden wundern, der die gegenwärtigen Zustände in unserer Stadt kennt. Mich wundert aber, dass Du daran zweifelst, ob ihm das Amt eines Theologieprofessors übertragen wurde. Du weisst doch, wenn ich mich nicht täusche, dass das Antistesamt stets mit einer Professur verbunden war. Und wozu sonst, frage ich Dich, sollte ihm der Doktorgrad dienen, wenn nicht dazu, die Professur in gebührender Form auszuüben? Wenn Dein Zweifel allerdings darauf hinausläuft, dass zwar er den Namen des Professors trägt, die Last der Arbeit aber auf fremden Schultern liegt, kann ich ihn Dir nicht nehmen. Sagen kann ich immerhin, dass er wenige Tage nach seiner Promotion eine Antrittsvorlesung gehalten hat. Die Rede des Promotors, Herrn Werenfels, wurde zusammen mit dem gesamten Promotionsakt unter dem Titel «Mitra Aaronis capiti <pb facs="1039117" n="3v" /> imposita» gedruckt, also «Die dem Haupt Aarons aufgesetzte Mitra». Ich hätte Dir gern ein Exemplar der Rede geschickt, doch ist mir bisher keines in die Hände gekommen. Der Herr Antistes hat sie nämlich nur für seine Freunde drucken lassen. Man sagt allerdings, sie sei beim Drucker käuflich zu haben. Seine Inauguraldissertation, um die Du bittest, konnte ich nirgends finden. Sei darüber nicht ungehalten; den Grund wirst Du leicht erraten können. Doch kommen wir zu den übrigen Beförderungen der Geistlichen. Du wirst Erstaunliches und Unglaubliches hören, denn all dies ging unter zahlreichen Machenschaften vor sich, besonders die Besetzung der Pfarr- und der Diakonatsstelle an St. Peter. Du wirst Dich wundern zu hören, dass Herr Im Hof wider Erwarten das Diakonat erhalten hat, dazu die Tochter von Herrn Professor Harder. Ich meine Augusta, nicht die Witwe Herrn Tonjolas, denn diese hat den Professor für Griechisch, Battier, geheiratet. Allerdings frage ich mich besorgt, ob diese Verlobung einen glücklichen Ausgang nehmen wird, da meine Nachbarin der Heirat mit unserem Propheten Samuel nicht aus freien Stücken zugestimmt hat. Staunen wirst Du aber, und das mit Recht, wenn ich Dir sage, dass es bei der Wahl Herrn Gernlers zum Pfarrer zu Unruhen kam. Ich war als Kandidat der Rechte ebenfalls dabei. Anlass des Tumults war, dass Herr Huber nicht in den Dreiervorschlag aufgenommen wurde. Die Herren des Kapitels hatten mit Stimmenmehrheit an erster Stelle Herrn Battier von St. Alban, an zweiter Herrn Wettstein von St. Leonhard und an dritter Herrn Gernler, den Diakon von St. Peter, nominiert. Gegen diesen Vorschlag protestierte Herr Huber öffentlich, und zwar im Chor der Kirche, wo die Pfarrerwahl stattfinden sollte. Er beklagte sich, einige Personen hätten sich zu einer Partei zusammengeschlossen und ihn aus persönlichem Hass mit betrügerischen Machenschaften übergangen. Dafür wiesen ihn der Antistes und ein Schulherr zurecht; der Tribunus plebis Burckhardt verteidigte ihn dagegen. Daraus entstand ein Tumult. Der vorsitzende Dekan des Kapitels, der Tribunus plebis, der Antistes, die Schulherren und andere gerieten gegeneinander auf. Einige, denen am Frieden gelegen war, entfernten sich sogar ganz. Doch schweigen wir von diesen unsäglichen und anstössigen Vorgängen und kommen wir zu den Pfarrern von geringerem Rang. Mein Onkel mütterlicherseits, Herr Meyer, wurde Nachfolger von Herrn Stöcklin in Oltigen; dieser erhielt die Pfarrstelle bei den Franziskanern. Sein Bruder, Herr Johann Stöcklin, und Merian, der Sohn des Pfarrers, erhielten die Diakonatsstellen in Kleinbasel; ein anderer Merian die Pfarrstelle in Bretzwil, Euler diejenige in Riehen, Burckhardt im Württemberger Hof diejenige an St. Jakob, der früher seines Amtes enthobene Wild <pb facs="1039118" n="4r" /> diejenige in Läufelfingen, Wettstein, bisher Pfarrer in Langenbruck, diejenige in Rümlingen und Friburger diejenige in Langenbruck. Schliesslich erhielt Burckhardt, der Sohn des Pfarrers in Rothenfluh, das Vikariat und die sichere Aussicht, seinem Vater nachzufolgen. Das sind die Veränderungen, die sich im letzten Jahr unter den Geistlichen ergeben haben. Die Predigt von Herrn Werenfels, um die Du gebeten hast, habe ich Herrn Zörnlin geschickt, zusammen mit einem weiteren Exemplar meiner Dissertation. Dieses soll das frühere ersetzen, falls es verloren gegangen ist; aus Deinem und Herrn Zörnlins Brief habe ich nämlich erfahren, dass Du es noch nicht erhalten hast. Vielleicht hat man Dir schon berichtet, dass die Deutschen durch die dreiste Verletzung unseres Territoriums grosse Schwierigkeiten verursacht haben, sodass wir gezwungen sind, hier Truppen der verbündeten Kantone als Besatzung aufzunehmen. Doch nun genug, die Wiesen haben genug getrunken.</p>
+<p>Lebe wohl, mein lieber Freund, und bleibe Deinem N. B., der Dich tausendmal grüsst, in Freundschaft verbunden.<lb type="forced"/>1709.</p></div>
+<div type="translation" xml:id="B_991170516889205501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039116" n="3r" /> <p>So at last, my dear friend, a letter from you reaches Basel and fills your friend, who has been anxious about your health, with the greatest joy! I warmly congratulate you, and myself as well, on your recovery through the use of mineral waters. May God strengthen your health still further and grant you every blessing an upright person could wish for. I am sorry that my earlier letter did not reach you, nor yours me. I do not know, however, whether it can console us both that each of us was let down by a friend. Mine, at any rate, whom I recently reproached for failing to keep his promise, says he arranged for my letter to be carried to you, and that its loss was therefore not his fault. No one who knows the present state of our city will be surprised that Mr Burckhardt has risen to the office of Antistes. I am surprised, though, that you doubt whether the duties of a professor of theology have been laid upon his shoulders. Unless I am mistaken, you know that the office of Antistes has always been joined to a professorship. And what other use, I ask, could his doctorate be to him, except to hold the professorship in due form? If your doubt means, however, that the title of professor belongs to him while the burden falls on someone else’s shoulders, I cannot remove it. I can at least say that he delivered his inaugural lecture a few days after receiving his degree. The speech by the promotor, Mr Werenfels, has been printed together with the entire degree ceremony under the title «Mitra Aaronis capiti <pb facs="1039117" n="3v" /> imposita», or «The Mitre Placed upon Aaron’s Head». I should gladly have sent you a copy of the speech, but none has yet come into my hands, since the Antistes had it printed only for his friends. They say, however, that it is on sale at the printer’s. I have been unable to find his inaugural dissertation, which you ask for, anywhere. Do not be annoyed; you can readily guess the reason. But let us move on to the other appointments among the clergy. You will hear astonishing and extraordinary things, for the whole business was conducted through many intrigues, especially the appointments to the pastorate and deaconship at St Peter’s. You will be surprised to learn that Mr Im Hof unexpectedly obtained the deaconship, together with Professor Harder’s daughter. I mean Augusta, not Mr Tonjola’s widow, for the latter married Battier, the professor of Greek. I fear, however, that this betrothal may not turn out as hoped, since this neighbour of mine did not freely consent to marry our prophet Samuel. You will be astonished, and rightly so, when I tell you that disturbances broke out during Mr Gernler’s election to the pastorate. I too was present, as a candidate in law. The cause of the tumult was Mr Huber’s exclusion from the shortlist of three. By a majority vote, the members of the chapter had placed Mr Battier of St Alban’s first, Mr Wettstein of St Leonhard’s second, and Mr Gernler, deacon of St Peter’s, third. Mr Huber protested publicly against this list, in the choir of the church where the pastor was to be elected. He complained that certain men had formed a faction and, out of personal hatred, passed him over by fraudulent manoeuvres. For this he was reprimanded by the Antistes and one of the school governors, but defended by Burckhardt, the Tribunus plebis. This led to an uproar. The presiding dean of the chapter, the Tribunus plebis, the Antistes, the school governors and others turned on one another; some peace-loving men even left altogether. But let us say no more of these shameful and scandalous affairs and turn to the pastors of lesser standing. My maternal uncle, Mr Meyer, succeeded Mr Stöcklin as pastor in Oltigen, while the latter obtained the pastorate at the Franciscans’ church. His brother, Mr Johann Stöcklin, and Merian, the pastor’s son, obtained the deaconships in Kleinbasel; another Merian the pastorate in Bretzwil; Euler that in Riehen; Burckhardt of the Württemberger Hof that at St Jakob’s; Wild, formerly removed from office, <pb facs="1039118" n="4r" /> that in Läufelfingen; Wettstein, pastor in Langenbruck, that in Rümlingen; and Friburger that in Langenbruck. Finally, Burckhardt, the son of the pastor in Rothenfluh, obtained the vicariate and the certain prospect of succeeding his father. These are the changes that have taken place among the clergy over the past year. I sent Mr Zörnlin the sermon by Mr Werenfels which you requested, together with another copy of my dissertation to replace the earlier one if it had been lost: I learnt from your letter and Mr Zörnlin’s that you had not yet received it. Perhaps you have already been told that the Germans’ reckless violation of our territory has caused us considerable trouble, to the point that we have been compelled to take in garrison troops from the allied cantons. But enough now: the meadows have drunk their fill.</p>
+<p>Farewell, my dear friend, and keep in your affection your N. B., who sends you a thousand greetings.<lb type="forced"/>1709.</p></div>
+</body>
+</text></TEI>

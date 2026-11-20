@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514628305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jakob Risler an Daniel I Bernoulli. Mülhausen, 04. April 1769</title>
+          <title type="alt">1769.04.04: Risler, Jakob (ca. 1730-1770) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055261</title>
+          <title type="alt">1769-04-04_Risler_Jakob-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514628305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514628305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Risler, Jakob (ca. 1730-1770)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-126507">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 717:Bl.223-224, 228</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514628305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432956905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055261</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Mülhaussen</origPlace>
+              <date when="1769-04-04">4. Apr. 1769</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1051474922">Risler, Jakob</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4040474-2">Mülhausen</placeName>
+          <date when="1769-04-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514628405501" type="prev"/>
+          <ptr target="B_991170514628205501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Risler_Jakob-DanIB" corresp="pers_DE-588-1051474922" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117650390">Dollond, John</persName>
+            <note type="lebensdaten">(1706-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118785516">Musschenbroek, Petrus van</persName>
+            <note type="lebensdaten">(1692-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117703583">Pézenas, Esprit</persName>
+            <note type="lebensdaten">(1692-1776)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117635006">Smith, Robert</persName>
+            <note type="lebensdaten">(1689-1768)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-11">Beilage (Bl. 228r–v) aus dem Brief vom 6. Juli 1769 (B_991170514628105501) hierher verschoben</change>
+        <change when="2026-10-15" who="FN SG">Kollationieren abgeschlossen</change>
+        <change when="2026-03-29" who="NG">Tagging</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-04" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-04" who="RG">NER Erkennung</change>
+        <change when="2024-09-10" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-09-10" who="RG">Kleinere Anpassungen sowie Personen und Orte referenziert</change>
+        <change when="2024-09-10" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3477396/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3477397" n="223r"/>
+  <opener>
+    <salute>
+      <lb/>HochEdelGebohrner, Hochgelehrter!
+      <lb/>Insonders HochzuEhrender Herr Professor!
+    </salute>
+  </opener>
+  <p>
+      <lb/>Aus Dero geEhrtestem <rs type="lostletter">schreiben</rs> habe sowohl als
+      <lb/>aus denen mir zu übersenden beliebten <rs type="letter">betrachtungen</rs>
+      <lb/>über die <foreign>lunettes achromatiques</foreign> <del><gap/></del>dero Gedancken
+      <lb/>von einer neuen einrichtung dieser neuen fernglä<pc type="hyphenation">-</pc><lb break="no"/>ser mit vielem vergnügen durchlesen; Ich zweyffle kei<pc type="hyphenation">-</pc><lb break="no"/>neswegs das woferne sich <abbr>Ew.</abbr> <abbr>HochEdelG.</abbr> die Müh geben
+      <lb/>wollten die proportionen der linsen in ansehung ihrer
+      <lb/>krü<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen nach den refractionen und dispersionen <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+      <lb/>genau zu besti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, man einige wesentliche vortheile
+      <lb/>hierdurch erlangen wurde um diesen instrumenten
+      <lb/>einen höchren grad der vollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>enheit zu geben,
+      <lb/>wann nur (welches mein einiger zweyffel) die ver<pc type="hyphenation">-</pc><lb break="no"/>schiednen entfernungen der zweyen linsen, davon die
+      <lb/>einte beweglich, nicht etwann bei jeder verruckung
+      <lb/>einige veränderung in den krü<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen derselben
+      <lb/>erfordern um die <foreign xml:lang="lat">radios versicolores</foreign> in einen punckt
+<pb facs="3477398" n="223v"/>
+      <lb/>zu versamlen, allein wann in allem so viel es sich thun
+      <lb/><choice><orig>läst</orig><reg>läßt</reg></choice>, exact procediert wird, so kann die spielung der
+      <lb/>linsen nicht <choice><orig>gros</orig><reg>groß</reg></choice> werden, und fällt also dieser zweyffel
+      <lb/>von sich selbsten weg.
+  </p>
+  <p>
+      <lb/>Da ich seithero auch einige experimenten mit den <foreign xml:lang="lat">pris<pc type="hyphenation">-</pc><lb break="no"/>matibus</foreign> gemacht, so nehme die freyheit <del><gap/></del>das resul<pc type="hyphenation">-</pc><lb break="no"/>tat davon <abbr>Ew.</abbr> <abbr>HochEdelG.</abbr> beyko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>end zu übersenden und dero
+      <lb/>urtheil zu unterwerffen, da ich meine meiste attention
+      <lb/>auff die glasart <del><abbr>n<hi rend="sup">o</hi></abbr> </del>6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> gerichtet (so ich von einer mir
+      <lb/>beka<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ten glashütte in quantit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>t haben ka<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>) so habe
+      <lb/>neben dieser nur noch eine einzige glasart <abbr>neml.</abbr> das
+      <lb/><del><abbr>n<hi rend="sup">o</hi></abbr> </del>11<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> so mit des <abbr>H.</abbr> <rs key="pers_DE-588-118785516" type="person">Muschenbroecks</rs> refraction übereins
+      <lb/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>t, versucht, und die resultats, welche von <abbr>denjenig.</abbr><supplied>,</supplied>
+      <lb/>so ich <del><gap/></del>durch die gleichförmige linsen erhalten<supplied>,</supplied>
+      <lb/>nicht viel differieren<supplied>,</supplied> machen mir hoffnung, das sie
+      <lb/>in denen ausrechnungen möchten zu gebrauchen seyn.
+      <lb/>Das <del><abbr>n<hi rend="sup">o</hi></abbr> </del>6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> habe a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>och aus dieser ursache pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>feriert, wei<pc type="hyphenation">-</pc><lb break="no"/>len ich glaube, <choice><orig>das</orig><reg>daß</reg></choice>, da seine refraction am meisten
+      <lb/>von dem cristal d’<rs type="place">angl.</rs> differiert, die krü<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen der
+      <lb/>linsen nicht so viel von einander differieren dörfften, als
+      <lb/>bey einer glasart<supplied>,</supplied> so eine <choice><orig>grösere</orig><reg>grössere</reg></choice> refraction hat,
+      <lb/>und hiermit kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ten meiner meinung nach, die linsen
+      <lb/>dü<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er geschliffen werden, welches einige vortheil ver<pc type="hyphenation">-</pc>
+<pb facs="3477399" n="224r"/>
+      <lb break="no"/>schaffen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>te, da man ohne das bey gläsern von einem
+      <lb/><choice><orig>grosen</orig><reg>großen</reg></choice> diameter müh hat glas zu finden, so die
+      <lb/>gehörige dicke hat.
+  </p>
+  <p>
+      <lb/>Ich habe ohnlängst des <abbr>H. P.</abbr> <rs key="pers_DE-588-117703583" type="person">Pezenas</rs> französische
+      <lb/>übersezung von <rs key="pers_DE-588-117635006" type="person">Smidts</rs> <rs type="biblio">Optic</rs> ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en <choice><orig>lasen</orig><reg>laßen</reg></choice>; Es
+      <lb/>befindet sich in diesem buch (als ein anhang) eine zimlich
+      <lb/>weitläuffige <rs type="biblio">abhandlung</rs> von den <foreign xml:lang="fre">lunettes Achromatiques</foreign>.
+      <lb/>Es glaubt der gelehrte <rs type="person">autor</rs> dies<subst><del><gap/></del><add>e</add></subst> materie fundamentier<pc type="hyphenation">-</pc><lb break="no"/>lich abgehandelt, und durch vergleichung der <abbr>ausrechnung.</abbr>
+      <lb/>der <choice><abbr>H.</abbr><expan>Herren</expan></choice> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>, <rs key="pers_DE-588-118531379" type="person">Euler</rs> und seiner eigenen alle
+      <lb/>nur mögliche problemata dieser art solviert zu haben,
+      <lb/>er giebt auch eine theorie von des <abbr>H.</abbr> <rs key="pers_DE-588-117650390" type="person">Dollonds</rs>
+      <lb/>vortrefflichem telescopio, allein da ich in <foreign xml:lang="lat">Algebraicis</foreign> zimlich
+      <lb/>unerfahren, so ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>t es mir etwas dunckel vor, und
+      <lb/>getraute mir nicht ohne bessere explication darnach
+      <lb/>zu arbeiten.
+  </p>
+  <p>
+      <lb/>Ich habe ein nach der Methode des <abbr>H.</abbr> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>
+      <lb/>verfertigtes zimlich gutes objectif<choice><orig>=</orig><reg>-</reg></choice>glas von <measure>40 zoll</measure>
+      <lb/>foco, da die <del><gap/></del>radii der krü<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ungen sich verhalten <add>fere</add>
+      <lb/>wie <formula>5:1</formula>, davon möchte wohl ein oder die andere
+      <lb/>linse zu <abbr>Ew.</abbr> <abbr>HEdG.</abbr> experiment zu gebrauchen seyn<supplied>.</supplied>
+<pb facs="3477400" n="224v"/>
+      <lb/><choice><orig>die</orig><reg>Die</reg></choice> radii der schaalen, woraus sie geschliffen<supplied>,</supplied> sind
+      <lb/><measure>399<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>lin.</abbr></measure> und <measure>84<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>lin.</abbr></measure><supplied>,</supplied> der focus der linsen von glas
+      <lb/>so <foreign xml:lang="lat">utrim<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualiter</foreign> convex ist = <measure>130<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>lin.</abbr></measure> Sollten
+      <lb/><abbr>Ew.</abbr> <abbr>HEdG.</abbr> belieben dieses glas selbsten zu examinier<unclear reason="binding">en</unclear>
+      <lb/>oder mir zu melden, was noch für ein anderes müss<unclear reason="binding">te</unclear>
+      <lb/>geschliffen werden, um dero ausrechnungen zu entspr<unclear reason="binding">e<pc type="hyphenation">-</pc></unclear>
+      <lb break="no"/>chen, so wurde mir ein sonderbahres vergnügen
+      <lb/>machen hieri<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en allen möglichen fleys anzuwenden
+      <lb/>in der gegründeten hoffnung<supplied>,</supplied> <choice><orig>das</orig><reg>daß</reg></choice> unsere arbeit nich<unclear reason="binding">t</unclear>
+      <lb/>vergeblich seyn werde.
+  </p>
+  <closer>
+    <salute>Ich habe die Ehr mit
+      <lb/>der vollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ensten hochachtung und ergebenheit zu behar<unclear reason="binding">ren</unclear>
+      <lb/><abbr>Ew.</abbr> HochEdelGebohrn
+      <lb/>Unterthänigster und g<unclear reason="binding">e<pc type="hyphenation">-</pc></unclear>
+      <lb break="no"/>horsamster diener
+    </salute>
+    <signed>
+      <lb/><rs key="pers_DE-588-1051474922" type="person">J. Risler.</rs>
+    </signed>
+  <dateline><rs key="place_GEO-2991214" type="place">Mülhausen</rs> <abbr>d.</abbr> <date when="1769-04-04">4.<hi rend="sup">ten</hi> Aprilis
+      <lb/><hi rend="u">1769.</hi></date>
+</dateline>
+  </closer>
+</div>
+</body>
+<back>
+  <div type="attachment">
+    <div type="editorialNote">
+      <head>Editorische Vorbemerkung</head>
+      <p>Risler kündigt in diesem Brief an, die Ergebnisse seiner Versuche zur Lichtbrechung in Prismen beizulegen. Der Versuchsbericht auf Bl. 228r–v behandelt die im Brief genannten Glassorten Nr. 6 und 11.</p>
+    </div>
+    <div type="attachment_text">
+  <pb facs="https://www.e-manuscripta.ch/i3f/v20/3477396/canvas/3477401" n="228r"/>
+  <p>
+    <lb/>Um die Refractionen durch prismata zu finden, so habe
+    <lb/>in einem verfinsterten zi<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er, vermittelst einer einrichtung
+    <lb/>wie bey dem Microscopio Solari üblich den radium <choice><orig><formula>I.D.</formula></orig><reg><formula>ID</formula></reg></choice> horizontal
+    <lb/>auff das prisma <formula>ABC</formula> fallen <choice><orig>lasen</orig><reg>lassen</reg></choice>, und bey dem ganzen expe<pc type="hyphenation">-</pc><lb break="no"/>riment der Methode des <rs key="pers_DE-588-118587544" type="person">Newtons</rs> welche er in seiner <rs type="biblio">Optic</rs> <abbr>Part.</abbr> 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied>
+    <lb/><abbr>Sect.</abbr> 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> angiebt und für die exacteste haltet<supplied>,</supplied> gefolget, nur
+    <lb/>das der radius <formula>SD</formula> vermittelst eines plan-spiegels horizontal
+    <lb/>gegen das prisma fiele, welches auch die rechnung um etwas
+    <lb/><space/>erleichtert, <abbr>u.</abbr> bey welcher ich dieser Analogie gefolgt:
+  </p>
+  <p>
+    <lb/><choice><orig>der</orig><reg>Der</reg></choice> Sinus des winckels <formula>LDK=KBD</formula> (<add>oder</add> die helffte des refringieren<pc type="hyphenation">-</pc>
+
+    <lb break="no"/>den winckels des prismatis) verhaltet sich gegen den Sinus des
+    <lb/>winckels <formula>IDK(=LDK+IDL)</formula> wie der Sinus totus} zu dem
+    <lb/>Sinu der gesuchten Refraction
+  </p>
+  <figure facs="../images/figures/3477401_01.png">
+    <figDesc>Strahlengang durch ein Prisma ABC mit bezeichneten Punkten und geometrischen Hilfslinien.</figDesc>
+  </figure>
+  <p>
+    <lb/>Ein Prisma von dem glas <abbr>N.<hi rend="sup">o</hi></abbr> 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> geschliffen, gab den
+    <lb/>winckel <formula>MIP =</formula> <measure>19° 2′</measure>.
+  </p>
+  <p>
+    <lb/>Der refringierende winckel des prisma ware = <measure>34°<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 50′<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></measure><supplied>,</supplied>
+    <lb/>ich finde also die refraction hier <formula>= 1513</formula> da sie in
+    <lb/>dem experiment mit den <abbr>gleichförmig.</abbr> linsen <formula>= 1509</formula> ware.
+  </p>
+  <pb facs="https://www.e-manuscripta.ch/i3f/v20/3477396/canvas/3477402" n="228v"/>
+  <p>
+    <lb/><choice><orig>ein</orig><reg>Ein</reg></choice> anderes prisma von eben diesem glas gab den winckel
+    <lb/><formula>MIP =</formula> <measure>18° 40′</measure><supplied>.</supplied>
+    <lb/><choice><orig>der</orig><reg>Der</reg></choice> winckel des prismatis ware = <measure>34<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° <subst><del><gap/></del><add>2</add></subst>0</measure>.
+    <lb/><choice><orig>die</orig><reg>Die</reg></choice> refraction fande = 1511<supplied>.</supplied>
+      </p>
+  <p>
+    <lb/>Ein Prisma von dem glas <abbr>N.<hi rend="sup">o</hi></abbr> 11<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> gab den winckel <formula>MIP</formula> = <measure>20<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° 1<unclear reason="binding">4′</unclear></measure>
+    <lb/>des prismatis <abbr>ang.</abbr> refringens ware = <measure>34° 30′</measure>, <del><gap/></del>welches mir
+    <lb/>eine refraction gab <del><gap/></del>= 1550 anstatt <formula>1545\frac{1}{2}</formula><supplied>.</supplied>
+        <lb/>Die winckel <formula>MIP</formula> glaube ich zimlich exact zu seyn, da ich alle 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+    <lb/>seyten des <formula>\bigtriangleup</formula> genau <choice><orig>abgemesen</orig><reg>abgemessen</reg></choice> <abbr>u.</abbr> trigonometrisch berechnet, die
+    <lb/>distanz <formula>MI</formula> ware circa <measure>11<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> schuh</measure>.
+  </p>
+  <p>
+    <lb/>Die refringierende winckel der prismatum dörften einer kleinen
+    <lb/>correction benöthiget seyn, obwohlen ich sie auff <measure>4′</measure> bis <measure>5′</measure> sicher glau<unclear reason="binding">be;</unclear>
+    <lb/>jedoch habe im si<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice> sie noch durch folgende methode so mir erst
+    <lb/>kürzlich eingefallen zu examinieren.
+  </p>
+    <figure facs="../images/figures/3477402_01.png">
+    <figDesc>Prisma P mit zwei einfallenden und an seinen Seiten reflektierten Strahlen sowie geometrischen Hilfslinien.</figDesc>
+  </figure>
+  <p>
+    <lb/>Die So<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e passiert durch die 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> löchlein <formula>g</formula><choice><orig>.</orig><reg>,</reg></choice> <formula>a</formula><choice><orig>.</orig><reg>,</reg></choice> <add>jedes</add> circa
+    <lb/><measure>ein <abbr>lin.</abbr></measure> im <abbr>diam.</abbr><supplied>,</supplied> die radii <formula>abc</formula><choice><orig>.</orig><reg>,</reg></choice> <formula>gfc</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> reflectieren
+    <lb/>beyderseyts an dem prisma in <formula>b</formula> <abbr>u.</abbr> <formula>f</formula> <abbr>u.</abbr> fahren fort
+    <lb/>bis in <formula>c</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>u.</abbr> <formula>e</formula> auff ein ebenes brett so auff <formula>pd</formula><note type="editorial">In der Figur fehlt der Buchstabe klein <formula>p</formula>, er könnte die Spitze des Prismas bezeichnet haben.</note>
+    <lb/>perpendicular, und das prisma <formula>P</formula> wird gedreht
+    <lb/>bis <formula>ed=dc</formula>.
+  </p>
+  <p>
+    <lb/><choice><orig>der</orig><reg>Der</reg></choice> concurs der linien <formula>dp</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>u.</abbr> <formula>bc</formula><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice><choice><orig><g ref="#ndot">.</g></orig><reg/></choice></abbr> <formula>ef</formula>
+    <lb/>determiniert also <del>den </del>(so ich nicht irre) den
+    <lb/>refringierenden winckel des prismatis.
+  </p>
+  <p>
+    <lb/>Von cristal d’<abbr>Angl.</abbr> habe, (da der erwartete noch nicht angelan<unclear reason="binding">gt)</unclear>
+    <lb/>noch kein prisma formiert; Nach denen experimenten m<unclear reason="binding">it</unclear>
+    <lb/>den lentibus ist seine refraction = 1580<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> so mit der ver<pc type="hyphenation">-</pc><lb break="no"/>hältnis<supplied>,</supplied> so der <abbr>H.</abbr> <rs key="pers_DE-588-117650390" type="person">Dollond</rs> angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en<supplied>,</supplied> fast übereinsko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>t.
+  </p>
+    </div>
+  </div>
+</back>
+</text></TEI>

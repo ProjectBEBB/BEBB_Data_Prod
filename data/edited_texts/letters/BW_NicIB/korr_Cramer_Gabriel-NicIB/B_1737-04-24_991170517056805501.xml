@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517056805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 24. April 1737</title>
+          <title type="alt">1737.04.24: Bernoulli, Nicolaus (1687-1759) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000059070</title>
+          <title type="alt">1737-04-24_Bernoulli_Nicolaus-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517056805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517056805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Original BPU Genève, Ms. Suppl. 384, fol. 59-60</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23338">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.40v-41v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517056805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433693105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059070</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1737-04-24">24. Avril 1737</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1737-04-24"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517056905501" type="prev"/>
+          <ptr target="B_991170517056705501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913338">Bernoulli, Benedict</persName>
+            <note type="lebensdaten">(1692-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089924429">Bernoulli, Ursula</persName>
+            <note type="lebensdaten">(1665-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117205508">Iselin, Jakob Christoph</persName>
+            <note type="lebensdaten">(1681-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-12" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-09-26" who="RG">Matheformeln angepasst</change>
+        <change when="2025-09-26" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-09-26" who="RG">Seitenzahlen, Briefstruktur nach dem Brief (Bibliothek in Genf)</change>
+
+        <change when="2023-09-27" who="RG">Personen und Orte ausgezeichnet</change>
+        <change when="2023-09-08" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-09-08" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="0/33" n="59r"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur
+  </salute>
+  </opener>
+  <p>
+      <lb/>Si l’étroite et estimable amitié, dont Vous m’honorés, ne m’obligeoit pas à Vous
+      <lb/>rendre tous les petits services, dont je suis capable, les seules belles qualités de la
+      <lb/>personne, que Vous me reco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>andés, seroient plus que suffisantes pour me porter à Vous
+      <lb/>accorder la demande que Vous venés de me faire, si seulement ce que Vous me de<pc type="hyphenation">-</pc><lb break="no"/>mandés étoit en mon pouvoir, mais malheureusement je suis obligé de Vous dire,
+      <lb/>qu’il m’est absolument impossible de loger un seul pensionaire chés moi, la moitié
+      <lb/>de ma maison (c’est à présent une autre que celle où j’ai eu l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vous em<pc type="hyphenation">-</pc><lb break="no"/>brasser, je demeure maintenant à coté de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> dans la maison de feu mon <rs key="pers_DE-588-135542286" type="person">Pere</rs>)
+      <lb/>étant occupée par ma <rs key="pers_DE-588-1089924429" type="person">Mere</rs> et mon <rs key="pers_DE-588-1089913338" type="person">frere</rs>, qui y ont un menage à part, et le reste étant
+      <lb/>à peine suffisant pour mon propre menage. Je suis pourtant fort obligé à <abbr>Mr.</abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs>
+      <lb/>de l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur qu’il avoit le dessein de me faire de venir chés moi; mais il me permettra
+      <lb/>et Vous aussi, Monsieur, s’il Vous plait, Vous me permettrés de Vous dire, qu’il feroit
+      <lb/>un mauvais change, s’il quittoit son ancien maitre, il n’en sauroit trouver un meil<pc type="hyphenation">-</pc><lb break="no"/>leur chés nous; pour moi en particulier, je suis forcé de Vous ceder la préferance,
+      <lb/>il y a long temps que Vous m’avés devancé de beaucoup, et d’ailleurs je suis peu
+      <lb/>en état par mes frequentes indispositions de rendre les services que l’on pourroit
+      <lb/>exiger de moi. Si non obstant cela Monsieur <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> est neanmoins resolu de
+      <lb/>venir ici, je tacherai de trouver un autre bon et agréable endroit, où il pourra se
+      <lb/>mettre en pension. Mon <rs key="pers_DE-588-118509969" type="person">oncle</rs> qui vient de se remettre peu à peu d’une toux et d’une
+      <lb/>fluxion sur la poitrine, qui l’a travaillé pendant plusieurs semaines, Vous remercie
+      <lb/>trés cordialement de l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vôtre souvenir. <abbr>Mr.</abbr> le <abbr>D.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117205508" type="person">Iselin</rs> m’a remis à son
+      <lb/>tems le manuscrit que Vous lui aviés adressé. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e j’avois peu de chose à répondre
+      <lb/>à la <rs type="letter">chere Vôtre</rs> du 14.<hi rend="sup">e</hi> 8<hi rend="sup">bre</hi>, par laquelle Vous m’aviés accusé la reception de ce
+      <lb/><rs type="biblio">manuscrit</rs>, je l’ai laissé jusqu’ici sans réponse. Voici un ou deux mots que j’ai à
+      <lb/>ajouter sur ce que Vous y avés dit à l’occasion de la methode pour les suites infinies,
+<pb facs="0/34" n="59v"/>
+      <lb/>et de celle pour l’élevation du binome ou polinome à une puissance indeterminée.
+      <lb/>La supposition de <formula>y=Ax^{\alpha}+p</formula>, <choice><orig><formula>p=Bx^{\beta}+q\mathrm{\;\&amp;c.}</formula></orig><reg><formula>p=Bx^{\beta}+q\mathrm{\;etc.}</formula></reg></choice> et celleci <choice><orig><formula>y=Ax^{\alpha}+Bx^{\beta}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>y=Ax^{\alpha}+Bx^{\beta}+\mathrm{\;etc.}</formula></reg></choice> revien<pc type="hyphenation">-</pc><lb break="no"/>nent à la même chose, je m’étois aussi servi de la prémiere, mais la derniere m’
+      <lb break="no"/>a paru pour la plûpart la plus co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ode. Vous paroissés douter, si ces methodes
+      <lb/>ont toute la generalité qu’elles pourroient et devroient avoir; pour moi je n’en
+      <lb/>doute nullement, et il ne me paroit pas une chose étrange, que par <abbr>Ex.</abbr> cette
+      <lb/>equation <formula>r^{2}\,ddy+y=0</formula>, ou bien celleci <formula>r^{2}dy^{2}=r^{2}dx^{2}-y^{2}dx^{2}</formula> n’ait aucune racine
+      <lb/><formula>y</formula> qui se puisse expliquer par une suite descendente; quoique je ne puisse pas de<pc type="hyphenation">-</pc><lb break="no"/>couvrir la raison de ce phénomene, je suis persuadé qu’elle depend de la nature
+      <lb/>de l’équation, et qu’il ne faut pas la chercher dans la methode même, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e si elle
+      <lb/>n’avoit pas toute l’universalité qu’on pourroit desirer. Je m’é<subst><del><gap/></del><add>t</add></subst>onne que Vous
+      <lb/>fassiés tant le difficile sur les methodes d’élever un binome ou polinome à une
+      <lb/>puissance indeterminée, et que neanmoins Vous sembliés préferer la methode de de<pc type="hyphenation">-</pc><lb break="no"/>montrer <foreign xml:lang="lat"><hi rend="u"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> posteriori</hi></foreign>, que si l’on suppose que la formule a lieu pour une puissance
+      <lb/>quelconque, elle a aussi lieu pour la puissance dont l’indice est d’une unité plus
+      <lb/>grand, à l’investigation qui se tire par la nature de la multiplication des regles des
+      <lb/>combinaisons et des changements d’ordre. À quoi bon aussi, aprés qu’on a trouvé la
+      <lb/>formule generale pour une puissance dont l’indice est un nombre entier quelconque
+      <lb/><formula>m</formula>, de chercher par un detour la formule pour une puissance imparfaite dont
+      <lb/>l’indice est un nombre rompu <formula>\frac{m}{n}</formula>? N’est<choice><orig> </orig><reg>-</reg></choice>il donc pas permis de se servir des inter<pc type="hyphenation">-</pc><lb break="no"/>polations et de substituer pour <formula>m</formula> un nombre rompu, quoique dans l’investigation
+      <lb/>il ait signifié un nombre entier? Si Vous croyés que c’est pousser l’induction trop
+      <lb/>loin en usant de ces sortes d’interpolations, je ne co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ois point de meilleure metho<pc type="hyphenation">-</pc><lb break="no"/>de pour les puissances imparfaites que la seconde de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, dans laquelle pour<pc type="hyphenation">-</pc><lb break="no"/>tant on peut substituer <formula>Ax^{\alpha}</formula>, <formula>Bx^{\beta}</formula>, <formula>Cx^{\gamma}</formula> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> et leur differences pour <formula>a</formula>, <formula>b</formula>, <formula>c</formula> <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr> et <formula>da</formula>,
+      <lb/><formula>db</formula>, <formula>dc</formula> <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr> respectivement, pour éviter l’inconvenient dont Vous parlés; le but de mon
+      <lb/><rs key="pers_DE-588-118509969" type="person">Oncle</rs> a seulement été de rendre manifeste la loi de progression qui regne entre les
+      <lb/>termes <formula>p</formula>, <formula>q</formula>, <formula>r</formula>, <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr> de la suite cherchée. J’ai l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur d’étre toujours avec un attache<pc type="hyphenation">-</pc><lb break="no"/>ment inviolable, Monsieur,
+  </p>
+  <closer>
+  <salute>
+      <lb/>Vôtre tréshumble et trés obeissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-119166895" type="person"><abbr>N.</abbr> Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+  </signed>
+  <dateline>
+      <lb/>À <rs key="place_GEO-2661604" type="place">Bâle</rs> ce <date when="1737-04-24">24. Avril 1737.</date>
+  </dateline>
+  </closer>
+<pb facs="0/35" n="60r" type="empty"/>
+<pb facs="0/36" n="60v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> trés celebre</addrLine>
+      <addrLine>Professeur en Mathematiques <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2660646" type="place">Geneve</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

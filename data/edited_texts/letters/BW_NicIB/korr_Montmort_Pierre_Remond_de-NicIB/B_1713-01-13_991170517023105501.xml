@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517023105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Rémond de Montmort an Nicolaus I Bernoulli. Ohne Ort, 13. Januar 1713</title>
+          <title type="alt">1713.01.13: Montmort, Pierre Rémond de (1678-1719) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059313</title>
+          <title type="alt">1713-01-13_Montmort_Pierre_Remond_de-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517023105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517023105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39616">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.183</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517023105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433679805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059313</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>22,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1713-01-13">ce 13 Janvier 1713</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1713-01-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517023405501" type="prev"/>
+          <ptr target="B_991170430192305501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_no_GND_id">Benoist, Gastwirtin in Meaux</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156687535">Cuvier de Montsoury, Pierre</persName>
+            <note type="lebensdaten">(-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117584401">Nicole, François</persName>
+            <note type="lebensdaten">(1683-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 1); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+
+        <change when="2025-02-26" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2024-10-22" who="RG">Lb/ eingefügt</change>
+        <change when="2024-01-08" who="RG">Seitenzahlen etc. eingefügt</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-06-20" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-05-04" who="MS">Mathe getagt, Platzhalter eingesetzt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1361725/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1361726" n="1"/>
+  <opener>
+  <dateline>
+      <lb/>ce <date when="1713-01-13">13 Janvier 1713</date>
+  </dateline>
+  </opener>
+  <p>
+      <lb/>Je viens de recevoir vostre <rs key="B_991170517023305501" type="letter">lettre</rs><supplied>,</supplied> Monsieur<supplied>,</supplied>
+      <lb/>dattée du 30. X.<hi rend="sup">bre</hi> de <rs key="place_GEO-2800866" type="place">Bruxelles</rs>. Je suis veritablement
+      <lb/>faché<del><gap/></del> de n<supplied>’</supplied>estre point <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs> pour vous recevoir
+      <lb/>et je serois inconsolable si je ne me flattois que
+      <lb/>Vous viendrez <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2992218" type="place">Monmort</rs> passer quelques mois
+      <lb/>avec moy. Je suis d<supplied>’</supplied>autant plus hardy <choice><orig>a</orig><reg>à</reg></choice> vous demander
+      <lb/>cette grace que je suis persuadé que vous ne vous
+      <lb/>y ennuyrez point. <abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-115598157X" type="person">Waldegrave</rs> est icy<supplied>,</supplied> qui a
+      <lb/>c<choice><orig><g ref="#omm">ō</g></orig><reg>omm</reg></choice>e moy une grande passion de vous voir. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> l<supplied>’</supplied>abbé
+      <lb/><rs key="pers_DE-588-1156687535" type="person">Dorbais</rs> est <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2969679" type="place">Versailles</rs><supplied>.</supplied> Je luy <rs type="letter">écris</rs> pour luy donner
+      <lb/>avis de vostre arrivée <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs><supplied>.</supplied> Je ne doutte point qu’il
+      <lb/>ne vous aille chercher. Si vous voulez me faire l<supplied>’</supplied>honneur
+      <lb/>que j<supplied>’</supplied>attends de vous<choice><orig>.</orig><reg>,</reg></choice> vous pourrez v<add>en</add>ir ensemble.
+      <lb/><choice><orig>je</orig><reg><add>Il</add></reg></choice> compte d<supplied>’</supplied>estre icy avant la fin du mois<supplied>.</supplied> Je dois aller
+      <lb/>dans le caresme <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs><supplied>;</supplied> si vous n<supplied>’</supplied>estes pas <choice><orig>presse</orig><reg>pressé</reg></choice> de
+      <lb/>vous en retourner chez vous<supplied>,</supplied> je vous y remenerois et
+      <lb/>vous servirois avec bien du plaisir pour vous faire voir
+      <lb/><choice><sic>toutte</sic><corr>touttes</corr></choice> les <choice><sic>rarere<add>s</add></sic><corr>raretés</corr></choice> de <rs key="place_GEO-2988507" type="place">Paris</rs> et des maisons Royalles pour
+      <lb/>lesquelles vous auriez de la curiosité.
+  </p>
+  <p>
+      <lb/>Si vous ne voyez point <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> l<supplied>’</supplied>abbé <rs key="pers_DE-588-1156687535" type="person">Dorbais</rs> et que
+      <lb/>vous vouliez bien nous faire l’honneur de venir icy<choice><orig>.</orig><reg>,</reg></choice>
+      <lb/>co<del><gap/></del><add>mm</add>e vous <add>me</add> <del><gap/></del><add>l’</add>avez fait esperer dans une de vos <rs type="letter">lettres</rs><supplied>,</supplied>
+      <lb/>voicy la routte. <choice><orig>le</orig><reg>Le</reg></choice> carosse de <rs key="place_GEO-2994798" type="place">Meaux</rs> part tous les
+<pb facs="1361727" n="2"/>
+      <lb/><choice><orig>Jours</orig><reg>jours</reg></choice> de <rs key="place_GEO-2988507" type="place">Paris</rs><supplied>,</supplied> on le prend chez le <abbr>S<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs type="person">Doyen</rs><supplied>,</supplied>
+      <lb/><rs key="place_STR-delaverrerieparis" type="place">rue de la Verrerie</rs><supplied>.</supplied> <rs key="place_GEO-2994798" type="place"><del><gap/></del><add>Meaux</add></rs> est <choice><orig>a</orig><reg>à</reg></choice> 10 lieues de
+      <lb/><rs key="place_GEO-2988507" type="place">Paris</rs> et le carosse y va en un jour. A <rs key="place_GEO-2994798" type="place">Meaux</rs>
+      <lb/>chez <abbr>M<supplied>.</supplied><hi rend="sup">e</hi></abbr> <rs type="person">Benoist</rs> <choice><orig>a</orig><reg>à</reg></choice> l<supplied>’</supplied>enseigne de l<supplied>’</supplied>ours vous prendriez
+      <lb/>des chevaux qui vous meneroient <choice><orig>a</orig><reg>à</reg></choice> 4 lieues de <choice><orig>la</orig><reg>là</reg></choice>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-3009481" type="place">la ferté</rs> <choice><orig>a</orig><reg>à</reg></choice> l’enseigne des trois pigeons. <choice><orig>la</orig><reg>Là</reg></choice>
+      <lb/>je vous ferois trouver au jour marqué une
+      <lb/>chaize qui vous ameneroit commodement
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2992218" type="place">Monmort</rs>. <choice><orig>faittes</orig><reg>Faittes</reg></choice> moy<supplied>,</supplied> je vous prie<supplied>,</supplied> <choice><orig>scavoir</orig><reg>sçavoir</reg></choice>
+      <lb/>vos intentions <choice><orig>la</orig><reg>là</reg></choice> dessus<choice><orig>.</orig><reg>,</reg></choice> car je suis resolu de vous
+      <lb/>voir<supplied>,</supplied> et si vous ne voulez point venir icy<supplied>,</supplied> je
+      <lb/>prendrai la poste pour vous aller voir. Je vous
+      <lb/>suis trop <choice><orig>oblige</orig><reg>obligé</reg></choice> de tout le plaisir que vous
+      <lb/>m<supplied>’</supplied>avez donné par vos <rs type="letter">lettres</rs> pour ne vous en pas
+      <lb/>temoigner ma reconnoissance; <choice><orig>Mais</orig><reg>mais</reg></choice> <choice><orig>Je</orig><reg>je</reg></choice> ne puis
+      <lb/>croire que vous <add>m</add>e refusiez la grace que je
+      <lb/>vous demande. <choice><orig>comme</orig><reg>Comme</reg></choice> je <choice><orig>scai</orig><reg>sçai</reg></choice> par ma propre
+      <lb/>experience que les voyageurs manquent quelquefois
+      <lb/>d<supplied>’</supplied>argent<supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> <add>ch</add>a<add>rg</add>e <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117584401" type="person">Nicolle</rs> qui vous rendra
+      <lb/>cette <rs type="letter">lettre</rs><supplied>,</supplied> de vous offrir de ma part
+      <lb/>tout ce dont vous aurez besoin<supplied>,</supplied> et si par hazard
+      <lb/>cela arrive<supplied>,</supplied> vous ne pourriez me faire plus
+<pb facs="1361729" n="3"/>
+      <lb/>d<supplied>’</supplied>honneur et plus de plaisir. <choice><orig>mon</orig><reg>Mon</reg></choice> addresse est
+      <lb/>A <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> au <rs key="place_WEI-chamon" type="place">chateau de Monmort</rs>
+      <lb/>Par <rs key="place_GEO-3020062" type="place">Espernai</rs>. J<supplied>’</supplied>attendrai avec impatience
+      <lb/>de vos nouvelles et une reponse favorable.
+  </p>
+  <closer>
+  <salute>
+      <lb/>J<supplied>’</supplied>ay l’honneur d<supplied>’</supplied>estre<supplied>,</supplied> Monsieur<supplied>,</supplied> plus que
+      <lb/>personne du monde vostre tres humble et tres
+      <lb/>obeissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-117601020" type="person">Remond de Monmort</rs>
+  </signed>.
+<pb facs="1361730" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Bernoulli</rs></addrLine>
+      <addrLine>A <rs key="place_GEO-2988507" type="place">Paris</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+
+
+</body>
+</text></TEI>

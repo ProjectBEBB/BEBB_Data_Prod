@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514634005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Alexis Claude Clairaut. Basel, 14. Juli 1760</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514634005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514634005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Es handelt sich laut Angabe von Dan. B. um einen "Extrait d'une lettre que j'ai ecrite à M. Clairaut le 14. Juillet 1760". Der Auszug ist angefügt an einen Text auf zwei Blättern. Diese enthalten laut Eintrag auf p.104 ein "Memoire de M. Fontaine a communiquer a M. Bernoulli (Daniel) recu a l'academie le 17 Mai 1760". Sie sind eingebunden in den Briefwechsel La Condamine - Joh. II B.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Teilweise erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-148740">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 685:S.103 unten-104</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514634005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432958205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054824</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>38</height><width>24</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1760-07-14">14. Juli 1760</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1760-07-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514634105501" type="prev"/>
+          <ptr target="B_991170514633905501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Clairaut_Alexis_Claude-DanIB" corresp="pers_DE-588-11852092X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-03-25" who="SG">Transkription und Tagging</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3985467/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3985468" type="archival"/>
+
+<pb facs="3985469" type="archival"/>  <pb facs="3985470" n="103"/>
+  <p><lb></lb>Extrait d’une lettre que j’ai ecrite à M. Clairaut le 14. juillet 1760</p>
+  <p><lb/>Le memoire sur l’inoculation n’etant pas fait pour etre presenté à l’<rs type="organisation">Academie</rs>, j’ai commencé à l’ecrire
+      <lb/>sans m’en etre fait un plan et ne prevoyant pas à quoi mes recherches me menoient; je  Vous assure
+      <lb/>meme que je ne l’ai pas relu, quand je l’eux fini; Cette negligence et l’envie de me servir du langage
+      <lb/>Geometrique aussi peu qu’il me seroit possible ont <choice><orig>eté</orig><reg>été</reg></choice> la cause que je ne me suis pas toujours enoncé
+      <lb/>aussi exactement que je le devois; C’est ce que <abbr>M.</abbr> <rs type="person">Fontaine</rs> a fort bien remarqué pour l’empoi
+      <lb/>que j’ai fait de la lettre <formula>n</formula>, en disant que sur <formula>n</formula> personnes, qui n’ont pas encor eu la
+      <lb/>petite verole, je suppose que une personne la prendra pendant le cours de l<supplied>’</supplied>année; javoue
+      <lb/>que cette elocution n’est pas assez exacte pour le Geometres; mon intention etoit, que le nombre <formula>n</formula>
+      <lb/>fut consideré comme constamment le meme pendant tout le cours de l’année, de maniere que un
+      <lb/>venant à vourir ou <choice><orig>a</orig><reg>à</reg></choice> prendre la petit verole, il fut aussitot remplacé par un autre, qui
+      <lb/>n’ait pas encor eu la petite verole; Je n’ai pas cru devoir dire tout cela, parce qu’on est
+      <lb/>acoutumé à regarder une année de tems comme une tres petite portion de la vie; j’aurois
+      <lb/>pourtant mieux fait de dire, que <add>je supose que</add> pendant la millieme partie d’un an une personne prend la
+      <lb/>petite verole sur le nombre exprimé par <formula>1000 n</formula>; mais mes enoncés auroient toujours paru
+      <lb/>ricidules aux non-Geometres, ou j’aurois <choice><orig>eté</orig><reg>été</reg></choice> inintelligible pour eux, si je n’avois pas
+      <lb/>voulu me relacher du coté de la rigueur en supposant que les geometres m’entendroient
+      <lb/>à demi mot.... Je savois bien aussi que mon equation etoit integrable, quelque loy de
+      <lb/>variation qu’on voulut supposer dans les lettres <formula>m</formula> et <formula>n</formula>: mais encore que foy, je ne m’etois
+      <lb/>point proposé de faire un morceau de Geometrie; je pretendois seulement de faire voir qu’il y a
+      <lb/>une certaine logique, qu’on neglige trop <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></p>
+  <p><lb/>§. 5. mes paroles sont; on voit aussi que j’entends <add><unclear reason="illegible">proprement</unclear></add> par <formula>\frac{1}{n}</formula> et <formula>\frac{1}{m}</formula> l’intensité des perils à prendre la petite verole <del><gap/></del><add>p</add>our ceux
+      <lb/>qui ne l’ont pas encor eue et à en mourir lorsqu’on en est attaqué.</p>
+  <p><lb/>§. 7. Not. V. je dis, que pour plus grande exactitude je prendrai pour <formula>s</formula> le milieu <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></p>
+  <p><lb/>§. 11. je dis, qu’on est obligé de faire le calcul d’année en année, parce qu’on n’a pas de listes mortuaires de six mois en <del><gap/></del>mois, qui
+      <lb/>donneroient les resultats un peu plus exacts.</p>
+  <p><lb/>§. 13. je dis que la methode du §. 11. n’est qu’une espece d’aproximation<supplied>.</supplied></p>
+  <p><lb/>Voici co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e on pourra considerer le sens. Je suppose que si au mileu d’une certaine année, il y a 8000 personnes
+      <lb/>qui n’ayent pas eu la <abbr>p.</abbr> <abbr>v.</abbr> il y aura 1000 qui seront surpris par la maladie; mais il y aura eu peutetre au commencement
+      <lb/>de l’année 8100 de ces personnes et 7900 à la fin de l’année.
+  </p>
+<pb facs="3985471" n="104"/>
+  <note hand="unknown"><lb/>Memoire de <abbr>M<supplied>.</supplied></abbr> <choice><orig>fontaine</orig><reg>Fontaine</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> communiquer <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person">Bernoulli (Daniel)</rs>
+    <lb/>recu <choice><orig>a</orig><reg>à</reg></choice> l<supplied>’</supplied><rs type="organisation">academie</rs> le <choice><orig><g ref="#ndot">.</g></orig><reg/></choice><date when="1760-05-17">17 Mai 1760</date>.</note>
+  <note hand="unknown">Extrait d’une lettre de <abbr>m<supplied>.</supplied></abbr> <rs type="person"><abbr>Dan.</abbr> Bernoulli</rs> à <abbr>m<supplied>.</supplied></abbr> Clairaut.</note>
+
+</div>
+</body>
+</text>
+</TEI>

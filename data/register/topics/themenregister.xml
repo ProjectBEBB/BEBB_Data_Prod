@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="themenregister_pilot">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Themenregister: Stirling-Pilot mit lesbaren Kennungen</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Pilotfassung zur Erprobung in der Testinstallation. Kennungspolitik bestätigt; fachliche Themenauswahl und Briefzuordnungen weiterhin zur redaktionellen Prüfung.</p>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Auswahl_zur_Entscheidung.json, Stand 29. Oktober 2026. Wikidata-Verweise ergänzen die eigenen stabilen Themenkennungen.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="generated">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-03" who="SG">Bezeichnungen und Beschreibungen von fünf bestehenden Themen nach Stirling Themen.docx angepasst. Lokale Kennungen, Wikidata-Verweise und Briefzuordnungen beibehalten.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Themen</head>
+        <list>
+          <item>
+            <term xml:id="topic_interpolation" xml:lang="de" ref="https://www.wikidata.org/entity/Q187631">Interpolation bei Zahlenfolgen und Reihen</term>
+            <note type="description">Bestimmung von Zwischenwerten aus vorgegebenen Werten.</note>
+            <note type="editorial">Allgemeiner Oberbegriff als ausdrückliche redaktionelle Alternative zu den feineren M01–M03. Quadraturverfahren, Binomialkoeffizienten und Fakultätenfolgen bleiben getrennt geprüfte Feinbegriffe. Keine Gleichsetzung dieser Spezialbegriffe mit Q187631.</note>
+          </item>
+          <item>
+            <term xml:id="topic_summation_langsam_konvergierender_reihen" xml:lang="de">Summation langsam konvergierender Reihen</term>
+            <note type="description">Bestimmung von Reihensummen durch Darstellungen oder Berechnungsverfahren, die den Aufwand langsamer Konvergenz vermindern.</note>
+          </item>
+          <item>
+            <term xml:id="topic_flaechenbestimmung_durch_reihen" xml:lang="de">Flächenbestimmung durch Reihen</term>
+            <note type="description">Darstellung und Bestimmung von Kurvenflächen mithilfe unendlicher Reihen sowie Prüfung der Gültigkeit entsprechender Verfahren.</note>
+          </item>
+          <item>
+            <term xml:id="topic_integration_durch_kreis_und_hyperbelquadraturen" xml:lang="de">Rückführung von Integralen auf Kreis- und Hyperbelquadraturen</term>
+            <note type="description">Untersuchung, ob und unter welchen Bedingungen ein Integrationsproblem durch Kreis- oder Hyperbelquadraturen gelöst werden kann.</note>
+          </item>
+          <item>
+            <term xml:id="topic_teilbruchzerlegung" xml:lang="de" ref="https://www.wikidata.org/entity/Q431617">Partialbruchzerlegung</term>
+            <note type="description">Zerlegung rationaler Terme in eine Summe einfacherer Brüche.</note>
+          </item>
+          <item>
+            <term xml:id="topic_reihenloesungen_von_differentialgleichungen" xml:lang="de">Reihenlösungen von Differentialgleichungen</term>
+            <note type="description">Darstellung von Lösungen von Differentialgleichungen durch Reihen. Zulässige Exponenten, frei wählbare Koeffizienten und der Zusammenhang von besonderen und allgemeineren Lösungen gehören zur Beschreibung.</note>
+          </item>
+          <item>
+            <term xml:id="topic_klassifikation_kubischer_kurven" xml:lang="de">Klassifikation kubischer Kurven</term>
+            <note type="description">Einteilung algebraischer Kurven dritten Grades nach ihren Gleichungen und geometrischen Eigenschaften.</note>
+          </item>
+          <item>
+            <term xml:id="topic_pendelbewegung_mit_widerstand" xml:lang="de">Pendelbewegung mit Widerstand</term>
+            <note type="description">Untersuchung von Pendelbewegungen in einem widerstehenden Medium und auf verschiedenen Kurven, z.B. auf einer Zykloide.</note>
+          </item>
+          <item>
+            <term xml:id="topic_ab_und_aufstiegsboegen_mit_widerstand" xml:lang="de">Bestimmung der Kurven von Kurvenbögen eines nach dem Abstieg auf gegebener Kurve wieder aufsteigenden schweren Körpers.</term>
+            <note type="description">Ein Körper bewegt sich auf einem gegebenen Kurvenbogen unter dem Einfluss der Schwere abwärts und steigt danach auf einem zweiten Kurvenbogen entweder zur gleichen Höhe oder auf einer gleichlangen Kurvenbogen wieder auf.  Reibungswiderstand ist zusätzlich zu berücksichtigen.</note>
+          </item>
+          <item>
+            <term xml:id="topic_mondtheorie" xml:lang="de" ref="https://www.wikidata.org/entity/Q1443023">Mondtheorie</term>
+            <note type="description">Mathematische und physikalische Beschreibung der Mondbewegung sowie Prüfung der dabei verwendeten Modelle und Berechnungsverfahren.</note>
+          </item>
+          <item>
+            <term xml:id="topic_ortsbestimmung_aus_drei_hoehen" xml:lang="de">Bestimmung der Deklination eines Sterns aus drei Sternhöhen- und zwei Zeitmessungen</term>
+            <note type="description">Bestimmung der Deklination eines Sterns sowie der Polhöhe des Beobachtungsortes aus drei gemessenen Sternhöhen und den beiden dazwischenliegenden Zeitintervallen</note>
+          </item>
+          <item>
+            <term xml:id="topic_summe_reziproker_quadratzahlen" xml:lang="de" ref="https://www.wikidata.org/entity/Q810431">Summe der reziproken Quadratzahlen</term>
+            <note type="description">Bestimmung und Begründung der Summe 1 + 1/4 + 1/9 + 1/16 + … .</note>
+          </item>
+          <item>
+            <term xml:id="topic_briefuebermittlung" xml:lang="de">Briefübermittlung</term>
+            <note type="description">Ankündigung, Organisation oder Bestätigung der Beförderung von Briefen, insbesondere durch Dritte.</note>
+          </item>
+          <item>
+            <term xml:id="topic_sprachwahl_im_briefwechsel" xml:lang="de">Sprachwahl im Briefwechsel</term>
+            <note type="description">Wahl oder Aushandlung der Sprache, in der Korrespondierende schreiben.</note>
+          </item>
+          <item>
+            <term xml:id="topic_publikationsvorhaben" xml:lang="de">Publikationsvorhaben</term>
+            <note type="description">Absichten, Vorbereitungen und ausdrücklich geäusserte Wünsche für die Veröffentlichung von Texten.</note>
+          </item>
+          <item>
+            <term xml:id="topic_buchversand" xml:lang="de">Buchversand</term>
+            <note type="description">Vorbereitung, Ankündigung oder Bestätigung der Übermittlung bestimmter Buchexemplare.</note>
+          </item>
+          <item>
+            <term xml:id="topic_buchgeschenk" xml:lang="de">Buchgeschenk</term>
+            <note type="description">Ausdrücklich als Schenkung bezeichnete Überlassung eines Buchexemplars oder einer gedruckten Schrift.</note>
+          </item>
+          <item>
+            <term xml:id="topic_buchleihe" xml:lang="de">Buchleihe</term>
+            <note type="description">Zeitweilige Überlassung eines Buchexemplars zur Benutzung.</note>
+          </item>
+          <item>
+            <term xml:id="topic_empfehlungsschreiben" xml:lang="de">Empfehlungsschreiben</term>
+            <note type="description">Schriftliche Empfehlung einer Person gegenüber einem Dritten zur Unterstützung eines Kontakts oder Anliegens.</note>
+          </item>
+          <item>
+            <term xml:id="topic_persoenlicher_gelehrter_austausch" xml:lang="de">Persönlicher gelehrter Austausch</term>
+            <note type="description">Fachlicher Austausch in persönlicher Begegnung und spätere Bezugnahme auf die gemeinsam behandelten Gegenstände.</note>
+          </item>
+        </list>
+      </div>
+    </body>
+  </text>
+</TEI>

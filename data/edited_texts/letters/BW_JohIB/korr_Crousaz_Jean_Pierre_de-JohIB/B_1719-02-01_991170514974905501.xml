@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514974905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean-Pierre de Crousaz. Basel, 01.
+            Februar 1719</title>
+          <title type="alt">000055780</title>
+          <title type="alt">1719-02-01_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514974905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514974905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli
+            Werkausgabe: Op. XCI</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Weitere Abschrift unter L Ia 908:Bl.121-122</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24634">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.9</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514974905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432938505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055780</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>20,5</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1719-02-01">ce 1. fevrier
+              1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1719-02-01"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514975005501" type="prev"/>
+          <ptr target="B_991170514974805501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Diese Annahme scheint ihm auch deshalb sehr wahrscheinlich, weil gemäss den Experimenten von Newton sich die "primitiven" Farben beim Durchgang durch ein zweites Prisma nicht mehr ändern. Nach Descartes und anderen, die annehmen, dass die Farben nur verschiedene Modifikationen des Lichtes sind, müssten sich die Farben bei jedem neuen Durchgang wieder ändern. Crousaz' Experimente scheinen dessen Hypothese, die Farben seien Mischungen aus Licht und Schatten, zu bestätigen. Doch meint Joh. B., dass Crousaz nicht von den "primitiven" oder homogenen Farben Newtons redet. Man muss also prüfen, ob sich diese Farben durch ein Prisma zerlegen lassen, sonst wird Newton einwenden, Crousaz' Experimente beträfen nur Mischfarben und widerlegten sein System nicht. Crousaz möge aber auf jeden Fall seine Essays veröffentlichen. Joh. B. erwidert zum Schluss für die guten Wünschen zum neuen Jahr.</p>
+        <p>Joh. B. ist es gleichgültig, ob Renau wieder antritt oder nicht. Er wird ihm nicht mehr antworten. Nach Erscheinen seiner Théorie de la manoeuvre des vaissaux hat Renau in einem langen Brief wiederum eine Antwort auf seine neuen - doch eigentlich nur wiederholten - Bemerkungen erteilt und ihm die Beweise für seine eigene Theorie nochmals erläutert. Renau will aber die Früchte seiner Kindereien, die ihm so viel Beifall gebracht hatten, offenbar nicht verlieren. Da seine Hypothese eine oberflächliche Wahrscheinlichkeit hat, findet er immer halbgelehrte Anhänger. Joh. B. kennt in Genf keine Mathematiker, die er als Schiedsrichter anrufen würde. Vielleicht könnte Jean Christoph Fatio, dem er einst mit Erfolg Differential- und Integralrechnung beigebracht hat, Wahres und Falsches unterscheiden. Er zweifelt aber an dessen Geduld, einer solchen Diskussion seine ganze Aufmerksamkeit zu widmen. Ihm genügt es, wenn die tüchtigeren Mathematiker in Frankreich, Deutschland und England auf seiner Seite stehen. Einige der letzteren sind allerdings nicht glücklich über das Kapitel hinsichtlich der Ansprüche auf die neuen Entdeckungen, was ein Zeichen ist, dass die englischen Geometer nicht aus Gefälligkeit seine Partei gegen Renau ergreifen. Joh. B. bittet um Zusendung von Crousaz' These zur Farbenlehre, die ihn sehr interessiert. Seine Experimente sollten unbedingt veröffentlicht werden. Man ist nämlich zur Zeit so von Newtons System der Farben eingenommen, dass man es als Eingeständnis von Ignoranz und Mangel an Geist betrachtet, wenn man davon abweicht. Offengestanden stimmt Joh. B. Newtons Prinzipien der Optik zu, mindestens was die Erklärung der Farben bei Refraktion in durchsichtigen Medien betrifft. Die Annahme, dass die Farben im Licht gemischt enthalten sind und bei der Refraktion infolge der verschiedenen Brechung durch Zerlegung entstehen, ist ausserordentlich natürlich und einfach.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118524844">Descartes, René</persName>
+            <note type="lebensdaten">(1596-1650)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-103763058">Fatio de Duillier, Jean Christophe</persName>
+            <note type="lebensdaten">(1656-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-20" who="SG">XML-Formatierung bereinigt; Transkriptionszeichen unverändert.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1719-02-01_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de"/>
+      </change>
+        <change when="2009-11-05" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074503/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1719-02-01_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+  <pb facs="1074504" n="1"/>
+        <opener>
+          <salute>
+
+<lb/> Monsieur </salute>
+        </opener>
+  <p>
+<lb/>Je suis faché que le <rs type="organisation">Clergé</rs> de <rs type="place" key="place_GEO-2661552">Berne</rs> Vous ait
+<lb/> causé tant d’embarras, et je regrette le
+          tems qu’ils
+<lb/> Vous ont fait perdre, et que Vous auriés pu emploier
+<lb/> plus utilement à cultiver
+          Vos cheres Mathematiques. J’espere
+<lb/> cependant que les compositions que Vous avés faites
+          pour Votre
+<lb/> defense imposeront silence à Vos <rs type="person">Adversaires</rs>. Je recevrai toujours
+<lb/> avec plaisir
+          ce que Vous voudriés bien me communiquer de Vos
+<lb/> Meditations et des nouvelles pensées qui
+          Vous viendront en matiere
+<lb/> de Mathematiques. Je ne <choice><sic>menquerai</sic><corr>manquerai</corr></choice>
+            pas de Vous en dire mes senti<pc type="hyphenation">-</pc><lb break="no"/>mens, autant que les
+          distractions et les occupations dont je suis sou<pc type="hyphenation">-</pc><lb break="no"/>vent accablé me le permettront. </p>
+  <p>
+<lb/>Que Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> revienne à la charge ou qu’il n’y revienne pas
+<lb/> cela me sera indifferent;
+          car j’ai pris la resolution de ne lui plus
+<lb/> repondre, voiant que toutes les tentatives que
+          j’ai faites pour le ra<pc type="hyphenation">-</pc><lb break="no"/>mener de son egarement à la connoissance de la verité ont eté vaines
+
+<lb/>          et infructueuses; car depuis mon <rs type="biblio" key="biblio_RTB4565Q">Essai</rs> publié sur la Manoeuvre
+<lb/> des Vaisseaux
+            qui devroit lui avoir dessillé les yeux, je lui ai
+          encore
+<lb/> ecrit une fort longue <rs type="letter">lettre</rs> en reponse<note type="comment" resp="SG">Gemeint ist sehr wahrscheinlich Bernoullis <rs type="letter" key="B_991170514990505501">Brief</rs> an Renau vom 12. August 1714. Darin antwortete er auf Renaus Schreiben vom 19. Juli und ging ausführlich auf dessen Argumente zum Gleichgewicht der Kräfte ein.</note> à
+          ses instances nouvel<pc type="hyphenation">-</pc><lb break="no"/>les ou plutot reiterées, dans la quelle je lui ai mis devant les yeux
+
+<lb/>          la verité deploiée avec tant d’evidence et de clarté, qu’il me
+<lb/> semble que le plus hardi
+          Pyrrhonien n’auroit pas osé se roi<pc type="hyphenation">-</pc><lb break="no"/>dir contre la force de mes demonstrations. Mais c’est
+          comme
+<lb/> je l’ai deja dit ailleurs, le bon Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> a bien de la peine
+<lb/> à voir perir le cher
+          fruit de son enfantement, qui lui avoit
+<lb/> d’abord attiré l’applaudissement de tous ceux qui
+          ne sçavent
+<lb/> pas aprofondir les choses: Or comme son hypothese a quelque
+<lb/> apparence
+          superficielle, il ne faut s’etonner qu’il y ait des
+<lb/> demi-sçavans qui la defendent et qui
+          soient encore dans
+<lb/> ses idées. Je ne connois point à <rs type="place" key="place_GEO-2660646">Geneve</rs> de Mathematiciens
+ <pb
+            facs="1074505" n="2"/>
+<lb/> assés habiles, au jugement desquels je voulusse me soumettre pour
+
+<lb/>          leur laisser la decision de ce different; J’avoue que Mr. <rs type="person" key="pers_DE-588-103763058">J. Chris<pc type="hyphenation">-</pc><lb break="no"/>tophe Fatio de Duiller</rs>,
+          à qui j’ai donné autrefois à <rs type="place" key="place_GEO-2660646">Geneve</rs>
+<lb/> des leçons dans les calculs differentiel et
+            integral<note type="comment" resp="SG">Die Lektionen fallen in Bernoullis Genfer Aufenthalt von 1690/91. In einem <rs type="letter" key="B_991170430375705501">Briefentwurf</rs> von Anfang 1706 dankte ihm Fatio dafür, dass er ihn im Differentialkalkül unterwiesen hatte, als dieser noch wenig bekannt war.</note> et qui
+<lb/> en a assés bien profité,
+          seroit peutetre capable de discer<pc type="hyphenation">-</pc><lb break="no"/>ner ici le vrai d’avec l’apparent, mais je doute qu’il
+          puis<pc type="hyphenation">-</pc><lb break="no"/>se prendre assés de patience pour y apporter toute l’atten<pc type="hyphenation">-</pc><lb break="no"/>tion requise à la discussion
+          des poins principaux de la dispute.
+<lb/> Il suffit que les plus habiles Mathematiciens de
+          <rs type="place" key="place_VER-frankr">France</rs>,
+<lb/> d’<rs type="place" key="place_VER-heilig">Allemagne</rs> et d’<rs type="place" key="place_VER-englan">Angleterre</rs> se rangent de mon coté, quoi<pc type="hyphenation">-</pc><lb break="no"/>que quelques uns de ces
+          derniers ne soient pas trop contens
+<lb/> de moi sur le chapitre de pretension aux decouvertes,
+          comme
+<lb/> vous sçavés sans doute; marque certaine que ce n’est pas par
+<lb/> complaisance, que les
+          Geometres Anglois prennent mon parti
+<lb/> contre Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs>. </p>
+  <p>
+<lb/>Je Vous suis Monsieur tres obligé de ce qu’il Vous a plu de me
+<lb/> faire part de Vos
+          observations et experiences sur les cou<pc type="hyphenation">-</pc><lb break="no"/>leurs;<note type="comment" resp="SG">In seinem <rs type="letter" key="B_991170514975005501">Brief</rs> vom 6. Januar 1719 beschrieb Crousaz Versuche mit farbigen Schatten. Er liess einen Zylinder Schatten auf weisses Papier werfen und beobachtete, wie sich ihre Farbe bei wechselnder Beleuchtung änderte.</note> si
+          Vous voulés bien m’envoyer Votre <rs type="biblio">these</rs> que
+<lb/> Vous m’offrés sur ce sujet, Vous augmenterés
+          mon obli<pc type="hyphenation">-</pc><lb break="no"/>gation: Vos observations sont telles qu’elles meriteroient
+<lb/> bien, ce me semble,
+          d’etre rendues publiques; car on est à
+<lb/> present si generalement prevenu pour le systeme de
+          Mr. <rs type="person" key="pers_DE-588-118587544">
+<lb/>Newton</rs> touchant les couleurs, que se deffier de ses hypotheses,
+<lb/> c’est, comme Vous
+          dites, faire un aveu d’ignorance et donner des
+<lb/> marques d’une petitesse de genie. Pour Vous
+          avouer nette<pc type="hyphenation">-</pc><lb break="no"/>ment, je n’ai pas fait grande difficulté de donner aussi
+<lb/> dans la pensée de Mr.
+          <rs type="person" key="pers_DE-588-118587544">Newton</rs> au moins pour expliquer
+<lb/> les couleurs emphatiques, c’est à dire celles, qui se
+          montrent
+ <pb facs="1074506" n="3"/>
+<lb/> par la refraction des diaphanes, voiant que cette
+          explicati<pc type="hyphenation">-</pc><lb break="no"/>on est si naturelle et si simple par la seule supposition
+<lb/> que toutes les couleurs
+          se trouvent deja actuellement me<pc type="hyphenation">-</pc><lb break="no"/>lées dans la lumiere par exemple du Soleil, et qu’elles
+          sont
+<lb/> sujettes à de differentes refrangibilités, ce qui fait, que ces
+<lb/> raions se demelant en
+          passant à travers le prisme de verre
+<lb/> chacun d’eux paroit sous sa propre couleur: cette
+          supposition
+<lb/> me paroissoit d’autant plus vraisemblable, que selon les experi<pc type="hyphenation">-</pc><lb break="no"/>ences de Mr.
+          <rs type="person" key="pers_DE-588-118587544">Newton</rs> les couleurs primitives separées les unes des autres
+<lb/> ne peuvent plus etre changées
+          en traversant une seconde fois le prisme
+<lb/> au lieu que suivant le sentiment de Mr. <rs type="person" key="pers_DE-588-118524844">Descartes</rs>
+          ou des au<pc type="hyphenation">-</pc><lb break="no"/>tres Philosophes qui statuent que les differentes couleurs ne sont
+<lb/> que des
+          differentes modifications de la lumiere, il faudroit
+<lb/> qu’un raion coloré changeat de
+          couleur toutes les fois qu’<pc type="hyphenation">-</pc><lb break="no"/>il passat de nouveau sous une obliquité differente le corps
+
+<lb/>          transparent. Selon Votre idée, les couleurs ne sont autre
+<lb/> chose qu’une lumiere affoiblie
+          ou un melange de lumi<pc type="hyphenation">-</pc><lb break="no"/>ere et d’ombre. Les experiences que Vous avés faites Vous pa<pc type="hyphenation">-</pc><lb break="no"/>roissent
+          confirmer cette idée, et par consequent renverser
+<lb/> de fond en comble le systeme de Mr.
+          <rs type="person" key="pers_DE-588-118587544">Newton</rs>. Vous feriés
+<lb/> assurement quelque chose de curieux et d’utile au public,
+<lb/> si Vous
+          pouviés le desabuser par Vos experiences de la pre<pc type="hyphenation">-</pc><lb break="no"/>vention où il est presque generalement
+          en faveur du syste<pc type="hyphenation">-</pc><lb break="no"/>me Newtonien: Mais j’apprehende qu’on ne vous dise, que
+<lb/> les couleurs sur
+          les quelles Vous avés fait Vos experiences
+<lb/> ne sont pas primitives, ou homogenes, etant
+          composées cha<pc type="hyphenation">-</pc><lb break="no"/>cune de differentes autres couleurs reflechies de toute
+<lb/> part par exemple des
+          nuées et d’autres objets eclairés, en
+<lb/> sorte que ces couleurs reflechies venant se jetter
+          sur
+<lb/> l’ombre derriere Votre cylindre peuvent sans doute repre<pb facs="1074507" n="4"
+          />
+<lb/>senter de nouvelles couleurs de toute sorte, d’où il suit que
+<lb/> ces couleurs ne sont pas
+          primitives ou celles qui font le
+<lb/> sujet du Systeme de Mr. <rs type="person" key="pers_DE-588-118587544">Newton</rs>. Pour s’en eclaircir il
+
+<lb/>          faudroit voir si chacune de ces couleurs de Vos experiences se
+<lb/> change ou ne se change pas
+          en passant par le prisme de ver<pc type="hyphenation">-</pc><lb break="no"/>re, car si elle se changeoit, Mr. <rs type="person" key="pers_DE-588-118587544">Newton</rs> ne manque<pc type="hyphenation">-</pc><lb break="no"/>roit pas
+          de faire d’abord exception en disant que tout cela
+<lb/> n’infirme pas plus son systeme que ce
+          qu’on voit naitre
+<lb/> une nouvelle couleur quand le Peintre fait un melange
+<lb/> de plusieurs
+          autres. Je dis cela Monsieur non pas pour
+<lb/> Vous rebuter de continuer Vos Essais: Ils auront
+          toujours
+<lb/> de quoi occuper et embarasser meme les Sectateurs de
+<lb/> Mr. <rs type="person" key="pers_DE-588-118587544">Newton</rs>, ce qui ne peut
+          faire que du bien en donnant
+<lb/> occasion aux speculatifs d’approfondir mieux cette
+<lb/> matiere et
+          d’enrichir peutetre la Physique de nou<pc type="hyphenation">-</pc><lb break="no"/>velles decouvertes. Ainsi je Vous prie de hazarder
+          Vo<pc type="hyphenation">-</pc><lb break="no"/>tre theorie à la fortune publique, au moins Vous ne man<pc type="hyphenation">-</pc><lb break="no"/>querés pas, je suis sur, d’en
+          retirer la gloire que cette
+<lb/> Theorie est parfaitement bien imaginée. </p>
+  <p>
+<lb/>Quant au reste je reciproque les voeux que Vous m’avés
+<lb/> fait à l’occasion du commencement
+          d’année; je prie le
+<lb/> Seigneur que le Public pour le quel Vous travaillés
+<lb/> si utilement
+          puisse jouir encore longtems de Votre Personne.
+</p>
+        <closer>
+          <salute>
+<lb/> Je me recommende à la continuation de
+          Votre bienveuil<pc type="hyphenation">-</pc><lb break="no"/>lance, Vous priant d’etre assuré que je suis avec un zele
+<lb/> parfait
+<lb/> Monsieur
+
+<lb/>          Votre tres humble et tres
+<lb/> obeissant serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-118509969">
+<lb/>J. Bernoulli</rs>.</signed>
+          <dateline><rs type="place" key="place_GEO-2661604">
+
+<lb/>Bâle</rs>
+<lb/> ce 1. fevrier
+<lb/> 1719. </dateline>
+        </closer>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514738605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Georg Bernhard Bilfinger an Johann I Bernoulli.
+            Tübingen, 19. März 1720</title>
+          <title type="alt">000055580</title>
+          <title type="alt">1720-03-19_Bilfinger_Georg_Bernhard-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514738605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514738605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Bilfinger, Georg Bernhard (1693-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24495">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 653, Nr.4*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514738605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432947605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055580</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Tubingae</origPlace>
+              <date when="1720-03-19">d. 19. Mart.
+                MDCCXX</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118663208">Bilfinger, Georg Bernhard</persName>
+          <placeName key="place_GEO-2820860" ref="https://d-nb.info/gnd/4061147-4">Tübingen</placeName>
+          <date when="1720-03-19"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430105805501" type="prev"/>
+          <ptr target="B_991170430104905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bilfinger_Georg_Bernhard-JohIB" corresp="pers_DE-588-118663208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1720-03-19_Bilfinger_Georg_Bernhard-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2008-08-06" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1069993/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1720-03-19_Bilfinger_Georg_Bernhard-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1069994" n="1"/> Vir Magnifice, </p>
+  <p>et </p>
+  <p>Mathematicorum facile Princeps.</p>
+  <p>Iconem Tuam justo tempore nuper acceptam ad Halenses sine mora transmisi; urgebant enim
+          illi per Litteras suas, et festinationem mihi imperabant. Ego illis ex adverso serio
+          injunxi, ut nihil precipitent, et typi sui aliquod exemplum ante ad me deferri curent,
+          quam reliqua publico exponant. Commentatiunculam meam in Tua, Vir Magnifice, Theoremata
+          Analytica non adjunxi illis Litteris, quoniam tumultuario examine facto (neque enim per
+          absentiam meam et negotia Elementaria licuit his altioribus vacare, vel has saltim
+          litteras exarare citius) deprehendi, <pb facs="1069995" n="2"/> meam Methodum in Theor. V
+          aliquando impediri quantitatibus imaginariis: neque licuit hactenus de alia cogitare. Quod
+          autem Tua Humanitas et in immaturos conatus meos studium, mihi spem faciat, Te aliquando
+          id meis precibus daturum, ut demonstrationes istas me edocere velis, id non possum non
+          summi beneficii loco habere, confisus ea re majus mihi Lumen in sublimioribus studiis
+          allapsurum fore. Quemadmodum et Excellentiss. Dom. Agnati Tui in me favorem, quem binis
+          notulis me monendo demonstravit, non sine profunda gratiarum actione agnosco. Miratus fui eam limitationem, quam primo meo
+          scholio adjunxit, scribentem me subterfugere potuisse, cum ipse eius rei <pb
+            facs="1069996" n="3"/> exempla dederim in schol. Theor.<hi rend="sup">is</hi> V.<hi
+            rend="sup">i</hi> etsi nec ibi illam distincte annotaverim. Dubitem vero, nisi proxime
+          alia generalis ratio demonstrandi illud Theorema V succurrat, an omnino meam
+          meditatiunculam velim publici juris facere: sed Viri Excellentissimi Demonstrationes
+          transmittam ad Lipsienses, ubi intellexero, annon aliquid mutatum velit in Demonstratione
+          sua eiusdem Theorematis V.<hi rend="sup">i</hi>. Jbi enim ita: Ponatur
+            <formula>A=\frac{1}{n-1.qe}</formula> et erit <formula>\int
+            x^{pq+l}dx:(e+fx^{q})^{n}=</formula><formula>Ax^{pq+l+1}:(e+fx^{q})^{n-1}+\overline{\frac{1}{e}-A.\overline{pq+l+1}}\int
+            x^{pq+l}dx:(e+fx^{q})^{n-1}\mathrm{etc.\;etc.}</formula>Haec tamen formul[a]
+          differentiata non restituit <formula>x^{pq+l}dx:(e+fx^{q})^{n}</formula> verum
+            <formula>\frac{1}{e}\frac{x^{pq+l}dx}{(e+fx^{q})^{n}}-\frac{Afqx^{pq+l+q}dx}{(e+fx^{q})^{n}}</formula>.
+          Expectabo itaque, dum resciero, quomodo hic <pb facs="1069997" n="4"/> scribi velit Vir
+          Celeberrimus; video enim ipsius methodo rem obtineri quam facillime, factis <formula>\int
+            x^{pq+l}dx:(e+fx^{q})^{n}=fq(pq-q+l+1)\int
+            x^{pq-q+l}dx:(e+fx^{q})^{n-1}-fqx^{pq-q+l+1}:(e+fx^{q})^{n-1}</formula> et sic deinceps
+            <formula>\int x^{pq-q+l}dx:(e+fx^{q})^{n-1}=\int
+            fq(pq-2q+l+1)\frac{x^{pq-2q+l}dx:}{(e+fx^{q})^{n-2}}-fqx^{pq-2q+l+1}:(e+fx^{q})^{n-2}\mathrm{etc.\;etc.}</formula>
+  </p>
+  <p>Excusa autem, Vir Magnifice, multiloquentiam meam, et noli me excidere Tua Gratia et
+          favore, futurum dum vixero, Bernoullianae Gentis, </p>
+  <p>Cultorem vere deditissimum, M. Georg Bernh. Bülffingerum.</p>
+  <p>Tubingae d. 19. Mart. MDCCXX. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

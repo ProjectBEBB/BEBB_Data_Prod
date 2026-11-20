@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516851505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Philippe Moreau de Maupertuis an Johann II Bernoulli. Paris, 06. August 1766</title>
+          <title type="alt">1766.08.06: Maupertuis, Philippe Moreau de () an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058720</title>
+          <title type="alt">1766-08-06_Maupertuis_Philippe_Moreau_de-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516851505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516851505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Maupertuis, Philippe Moreau de
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136472">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 708:Bl.284-285</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516851505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433702105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058720</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 beschriebene S.)<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1766-08-06">le 6. Aoust de 1766</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1089924313">Maupertuis, Philippe Moreau de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1766-08-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516851605501" type="prev"/>
+          <ptr target="B_991170516851405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Philippe_Moreau_de-JohIIB" corresp="pers_DE-588-1089924313" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Bestätigt den Brief von 1766 08 28 mit der Abschrift des Testaments seines Vaters. Er war während 16 Jahren von Europa abwesend. Zum ersten Mal ist er jetzt aus China zurück. Kennt Joh. II B. eine Demoiselle namens Anne Magdeline Mouton? Hat sie sein Vater nach Preussen mitgenommen? Er wird vielleicht bald nach China zurückkehren. Er wohnt bei Mme Magon, der Gattin eines Neffen von Mauptertuis.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1326454730">Magon de La Villebague, René</persName>
+            <note type="lebensdaten">(1722-1778)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-132645515X">Vincent de la Pierre, Julienne Jacquette</persName>
+            <note type="lebensdaten">(1730-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1399455559">Mouton, Anne-Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3699946/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3699947" n="284r"/>
+  <p> Monsieur Jean Bernoulli. a Paris le 6. Aoust 1766. Monsieur. </p>
+  <p> J’ai reçu avec un sensible plaisir la lettre que vous m’ avez écrire en datte du 28. Juillet. je vous suis obligé de la copie du Testament de mon Pere que vous m’avez envoyée. </p>
+  <p> Vous me demandé, Monsieur, si je connois un apelé Philippe dont mon Pere vous aparlé; c’est moi même. qui ai eté absent pendant seize années consecutives, et voici la premiere fois que je reviens de la chine. je vous serois obligé. Monsieur. de me marquer si vous n’auriez pas connu une demoiselle nommée <rs type="person" key="pers_DE-588-1399455559">Anne-Magdeline Mouton</rs>. Si mon pere ne vous en auroit pas parlé, s’il l’a mené en Prusse, enfin tout ce que vous pourrez savoir, vous me rendrez un sensible plaisir </p>
+  <p> Comme il pouroit se faire que je retournasse en Chine sou peu de tems je vous prie Monsieur, de disposer de moi soit dans ce pays <pb facs="3699948" n="284v"/> l’a soit dans celui cy. je vous prie de ne point m’epargner et de me pardonner la liberté que je prends de vous distraire de vos occupations. Madame <rs type="person" key="pers_DE-588-132645515X">Magon</rs> chez qui je demeure est femme de Mr. <rs type="person" key="pers_DE-588-1326454730">Magon</rs> neveu de Mr. de Maupertuis J’ai l’honneur d’être Monsieur. votre très humble et très obeissant Serviteur Philippe Moreau de Maupertuis à la nouvelle france rue belle fond chez Mde. <rs type="person" key="pers_DE-588-132645515X">Magon</rs>.</p>
+<pb facs="3699949" n="285r" type="empty"/><pb facs="3699950" n="285v"/></div>
+</body>
+</text></TEI>

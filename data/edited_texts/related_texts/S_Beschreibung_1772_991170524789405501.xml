@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xml:id="S_991170524789405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Brevis descriptio speculae astronomicae, et Musaei physici Collegii Academici societatis Jesu Graecensis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <author>
+          <persName key="pers_DE-588-119502208">
+            <surname>Hell</surname>
+            <forename>Maximilian</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Kollationierung<note type="remarkResponsibility">Weitgehend gemeinsam kollationiert.</note></resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkription</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+          <idno type="URLWeb">https://bebb.unibas.ch/related_texts/S_991170524789405501</idno>
+          <idno type="URLXML">https://bebb.unibas.ch/api/document/S_991170524789405501</idno>
+          <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">Das Katalogisat bezeichnet den Autor als nicht identifiziert und nennt Maximilian Hell als mögliche Zuschreibung. Die Verfasserschaft Maximilian Hells wurde der Herausgeberin fachlich durch einen Experten bestätigt.</note>
+        <note type="print">Druck, französische Übersetzung: Lettres sur différens sujets / Johann III Bernoulli. Berlin, Bd. 1 (1777), S. 49–53.</note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128970">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.182</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524789405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440050105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079650</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>33,5</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date from="1772" to="1777">[zwischen 1772 und 1777]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>Beschreibung</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell describes the observatory of the Jesuit academic college in Graz, built in 1745 under the direction of the Jesuit Peter Halloy, together with its associated physical museum. He explains the site, orientation, and internal arrangement of the building, including a meridian line more than eighty Paris feet long, and describes the museum’s natural-history collections and its astronomical automaton clock, constructed by Philipp Imser in 1555 and restored in 1753. Hell provides a detailed inventory of the facilities for magnetic, meteorological, and astronomical observations, including pendulum clocks, fixed and movable quadrants, telescopes, an azimuth circle, a meridian instrument, parallactic machines, and micrometers. Drawing on Joseph Liesganig’s measurement of the Vienna meridian, he gives the latitude of Graz and its longitudinal differences from Vienna and Paris. The description concludes with optical installations, including a camera obscura and a collection of mirrors and lenses.</p>
+
+        <p>Maximilian Hell beschreibt die 1745 unter der Leitung des Jesuiten Peter Halloy errichtete Sternwarte des Grazer Jesuitenkollegs und das mit ihr verbundene physikalische Museum. Er erläutert Lage, Ausrichtung und innere Gliederung des Gebäudes, darunter eine mehr als 80 Pariser Fuss lange Meridianlinie, und beschreibt die naturkundlichen Sammlungen sowie eine 1555 von Philipp Imser gefertigte und 1753 restaurierte astronomische Automatenuhr. Ausführlich verzeichnet Hell die Einrichtungen für magnetische, meteorologische und astronomische Beobachtungen: Pendeluhren, feste und bewegliche Quadranten, Fernrohre, einen Azimutalkreis, ein Meridianinstrument, parallaktische Maschinen und Mikrometer. Auf der Grundlage von Joseph Liesganigs Messung des Wiener Meridians nennt er die geografische Breite von Graz und die Längendifferenzen gegenüber Wien und Paris. Den Abschluss bilden optische Einrichtungen, darunter eine Camera obscura sowie eine Sammlung von Spiegeln und Linsen.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+        <listChange>
+          <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+          <change when="2026-09-24" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-18" who="SG CG">Kollationieren begonnen</change>
+        <change when="2026-08-19" who="SG">Bildkontrollierte Transkription in einem gemeinsamen Lauf strukturiert und pretagged.</change>
+        <change when="2026-08-19" who="SG">Seiten 3529620 und 3529621 in Originalauflösung transkribiert und bildgestützt kontrolliert.</change>
+        <change when="2026-08-19" who="SG">TEI-Grundgerüst aus dem bestätigten BIBB-/Alma-Katalogisat erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529617/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="manuscript">
+        <pb facs="3529620" n="182r"/>
+        <head rend="center"><lb/>Brevis Descriptio Specul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Astronomic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,
+          <lb type="forced"/>et Mus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>i Ph<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sici <rs type="organisation">Collegii Academici <choice><orig>Soc'tis</orig><reg><abbr>Soc.<hi rend="sup">tis</hi></abbr></reg></choice> Jesu Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>censis</rs>.
+        </head>
+        <p><lb/><rs type="organisation">Specula Astronomica Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>censis</rs> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dificata est anno <abbr><choice><orig>D'ni</orig><reg>D.<hi rend="sup">ni</hi></reg></choice></abbr> <date when="1745">1745</date>, fabricam diri<pc type="hyphenation">-</pc><lb break="no"/>gente <abbr>R. P.</abbr> <rs type="person" key="pers_DE-588-1421673495">Petro Hallo<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice></rs> e <rs type="organisation"><abbr>S. J.</abbr></rs>, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> illi <rs type="organisation">Collegii Academici <abbr>S. J.</abbr></rs> parti
+          <lb/>imposita, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> occidentem respicit. Figura prima ejus <rs type="biblio">Ichnographiam</rs>, Ortho<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>graphiam vero externam figura altera exhibet.
+        </p>
+        <p>
+          <lb/>Horizontem habet undi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Observatoris oculis patentem, si circa septen<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>trionem arcum 30° demas, cui vicina <rs type="place">arx</rs>, <rs type="place">mons<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Gesacus</rs> obstruit.
+<lb/>Murus in meridionalem plagam tendens <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> vero Meridie in Orientem <formula>9\frac{1}{2}^\circ</formula>
+          <lb/>duntaxat declinat, situ tam opportuno, ut lineam meridianam (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 6) in
+          <lb/>pavimento <rs type="organisation">Mus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>i Ph<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sici</rs> (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 2) ultra <measure>80 pedes Parisinos</measure>, altitudine Gno<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>monis <measure>32 ped. Paris.</measure> existente, producere licuerit.
+        </p>
+        <p>
+          <lb/>Binas intern<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> structur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ut vocant, contignationes ambulacrum dividit co<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lumnis et pilis (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 3) marmor imitantib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> i<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ixum, quib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> id obtentum fuit,
+          <lb/>ut <rs type="organisation">Mus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>um Ph<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sicum</rs> (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 2) ingredientib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> tot<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> simul interioris, ad omnem
+          <lb/>elegantiam exornat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fabric<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> conspectus offeratur. In hoc Mus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>o, ad quod e 4ta
+          <lb/><rs type="organisation">Collegii nostri</rs> contignatione per gradus (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 1) ascenditur, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter complures
+          <lb/>staticas, h<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>draulicas, pneumaticas, et electricas machinas (<abbr>fig<choice><orig>:</orig><reg>.</reg></choice></abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 4) singulariter
+          <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endari merentur collectiones regni mineralis, et insectorum, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c juxta <abbr>Illust<choice><orig>:</orig><reg>.</reg></choice></abbr>
+          <lb/><rs type="person">Caroli Lin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>i</rs>, illa juxta <abbr>Cl.</abbr> <rs type="person">Wallerii</rs> S<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>stema a <abbr>RR. PP.</abbr> <rs type="person">Nicolao Boda</rs>, et <rs type="person" key="pers_DE-588-142167470X">Carolo
+            <lb/>Tirnberger</rs> e <rs type="organisation"><abbr>S. J.</abbr></rs> digesta; tum et horologium automaton Planetarium (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 5)
+          <lb/><abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s.</abbr> Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Augustissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="person">Mari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Theresi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> munificenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> debitum. Horologium istud
+          <lb/>jam anno <date when="1555">1555</date> a <rs type="person">Philippo Imssero</rs> <rs type="place">Argentin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> constructum, cum diu in Archiducali
+          <lb/>h<subst><del>a</del><add>o</add></subst>c <add>p</add>a<subst><del><gap/></del><add>latio</add></subst> incognitum, i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>otum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> stetisset, <rs type="organisation">Mus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>o dehinc nostro</rs> ex Augustissima <rs type="person"><abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sar<choice><orig>:</orig><reg>.</reg></choice></abbr>
+          <lb/>Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Majestatis</rs> voluntate dicatum, a <abbr>R. P.</abbr> <rs type="person">Bevere</rs> e <rs type="organisation"><abbr>S. J.</abbr></rs> anno <date when="1753">1753</date> post
+          <lb/>longum 9 mensium tentamen tam feliciter fuit restitutum, ut pars horologii inferior
+          <lb/>s<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>derum errantium, fixorum vero sph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ra horologio eminens, vicissitudines omnes sat
+          <lb/>exacte exhibeat.
+        </p>
+        <p>
+          <lb/>Magnetic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> observationes, quo accuratiores redderentur, in locum (<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 15)
+          <lb/>ab omni ferro remotum translat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt. Super ligneam mensulam ad verum meri<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>diem exactam, acus magnetica, <measure>8 digitorum</measure> <abbr>Paris<choice><orig>:</orig><reg>.</reg></choice></abbr> longa, in orichalceo circulo diame<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tri <measure>3</measure> <abbr>ped<choice><orig>:</orig><reg>.</reg></choice></abbr> <abbr>Paris.</abbr> declinationem ope fili tensi indicat, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quidem hic loci a septen<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>trione in occidentem pro declinatione inter maximas, minimasve media dat <formula>15.^\circ 45'</formula>.
+          <lb/>Inclinationi acus ejusdem examinand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> servit alia machinula, in qua acus magneti<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ca pone orichalceum quadrantem, radii <measure>4</measure> <abbr>dig.</abbr> <abbr>Paris.</abbr>, super tenuissimo axiculo libere
+          <lb/>oscillans, depressionem infra horizontem, mediam itidem hucus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ostendit <formula>35^\circ</formula>. Obser<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>vationes h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <choice><sic>meteorlogicæ</sic><corr>meteorologicae</corr></choice> in altitudine supra horizontem circiter <measure>70</measure>
+          <lb/><abbr>ped.</abbr> <abbr>Paris.</abbr> instituuntur. Mercurii in Barometro altitudo media, cui varium ad<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>scribi solet, est <measure>26</measure> <abbr>dig.</abbr> <formula>8\frac{3}{8}</formula> <abbr>Lin.</abbr> <abbr>Par.</abbr>
+        </p>
+        <p><lb/>Gradus (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 7) ad 2dam contignationem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tota usibus Astronomicis
+          <lb/>destinata est, et ad supremum ambulacrum (<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 8) deducunt. Pendula, minu<pc type="hyphenation">-</pc>
+          <pb facs="3529621" n="182v"/>
+          <lb break="no"/><pc type="hyphenation">-</pc>torum 2dorum indice pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dita, tria variis in locis disposita, suppetunt, quorum
+          <lb/>tamen illud facile princeps, quod ab artifice Anglo <rs type="person">John <unclear>Monkhouse</unclear></rs> elabora<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tum est. Muro occidentali plag<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> obverso (<abbr>fig.</abbr> 1<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 9) juxta veram lineam meridi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>anam aptatus est quadrans fixus radii <measure>9 ped.</measure> <measure>6 dig<supplied>.</supplied></measure>, intra quem plura alia telesco<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>pia certis stellis fixis destinata eidem parieti inh<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rent. Huic incumbit turricula
+          <lb/>firm<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fornici insistens (<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 10) in qua quadrans azimuthalis radii <measure>5 ped.</measure> <measure>6 dig. Par.</measure>
+          <lb/>superiori turricul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> perimetro i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>issus est circulus orichalceus diametri <measure>7 pedum</measure>,
+          <lb/>in quo protensa utrin<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> e superiori verticalis quadrantis radio chal<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>bea regula
+          <lb/>azimutha abscindit. Cum hac turricula versus orientem co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>exum est aliud observa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>toriolum (<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 11) in quo rota meridiana cum telescopio <measure>4 ped.</measure> <measure>9 dig. Par.</measure> ob<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>servandis quorumvis s<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>derum culminationib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> deservit.
+        </p>
+        <p>
+          lb/>In Observatorio majori meridionali (<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 12) habentur quadrans mobilis,
+          <lb/>cui sector radii <measure>4 ped.</measure> <measure>3 dig. Par.</measure> applicatus est; item telescopia plura dioptrica,
+          <lb/>et illud quidem pro Satellitum Jovis eclipsibus <measure>13 ped.</measure> <measure>9 dig. Par.</measure>, telescopia catadiop<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>trica tria, <abbr>1mum</abbr> Newtonianum foci <measure>4 ped.</measure> <measure>2 dig.</measure>, <abbr>2dum</abbr> Newtonianum foci <measure>1
+          <lb/>ped.</measure> <measure>5 dig.</measure>, 3tium Gregorianum foci <measure>2 ped<supplied>.</supplied></measure>, du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> etiam machin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> parallactic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cum
+          <lb/>telescopiis <measure>5 ped.</measure> Micrometra telescopiis pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipuorum instrumentorum applicata sunt
+          <lb/>ejusmodi, qualia celebris <rs type="person">De la Lande</rs> in <rs type="biblio">prima editione sua Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <abbr>lib.</abbr>
+            <lb/>13<choice><orig>.</orig><reg>,</reg></choice> § 1873 et <abbr>seq.</abbr></rs> describit.
+        </p>
+        <p>
+          <lb/>Latitudo <rs type="place">Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>censis</rs>, et differentia meridiani, tametsi jam pri<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> per observationes
+          <lb/>h<choice><orig><g ref="#ihat">î</g></orig><reg>i</reg></choice>c loci institutas utcun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> determinat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fuerint, eas tamen longe accuratiores
+          <lb/>Celebris e <choice><abbr><choice><orig>n'ra</orig><reg>n.<hi rend="sup">ra</hi></reg></choice></abbr><expan>nostra</expan></choice> <rs type="organisation"><choice><orig>Soc'te</orig><reg><abbr>Soc.<hi rend="sup">te</hi></abbr></reg></choice></rs> <abbr>P.</abbr> <rs type="person">Josephus Liesganig</rs> decempedali suo sectore in sua graduum
+          <lb/><rs type="biblio">Meridiani Viennensis dimensione</rs>, <rs type="place">Vindobon<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> anno <date when="1770">1770</date> edita, definivit; et quidem
+          <lb/>Latitudinem 47°. 4′. 9″<choice><orig>.</orig><reg>,</reg></choice> <choice><abbr><choice><orig>differe'a</orig><reg>differe.<hi rend="sup">a</hi></reg></choice></abbr><expan>differentia</expan></choice> vero inter meridianum <rs type="organisation"><abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<choice><orig>:</orig><reg>.</reg></choice> Reg.</abbr> Observatorii Vien<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nensis</rs>, et <rs type="organisation">observatorii <choice><abbr><choice><orig>n'ri</orig><reg>n<hi rend="sup">ri</hi></reg></choice></abbr><expan>nostri</expan></choice></rs> <measure>3′. 43″</measure>, 4 <measure>occident.</measure> in tempore; adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> cum <choice><orig>differe'a</orig><reg>differe.<hi rend="sup">a</hi></reg></choice> eadem
+          <lb/>inter <rs type="organisation"><abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<choice><orig>:</orig><reg>.</reg></choice> Reg.</abbr> Observatorium Viennense</rs>, et <rs type="place">Lutetias Parisi<del>n</del>orum</rs> in <rs type="biblio">Ephemeridib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice></rs>
+          <lb/>Celebris <abbr>P.</abbr> <rs type="person">Maximiliani Hell</rs> e <rs type="organisation"><abbr>S. J.</abbr></rs> <abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<choice><orig>:</orig><reg>.</reg></choice> Reg.</abbr> Observatoris statuatur <measure>56′. 10″ <abbr>occid.</abbr></measure>
+          <lb/>in tempore, erit <rs type="organisation">Observatorium Collegii Academici <abbr>S. J.</abbr></rs> <rs type="place">Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cii in Stiria</rs> <measure>52′. 26″, 6</measure>
+          <lb/>in tempore <rs type="place">Lutetiis Parisiorum</rs> orientalius.
+        </p>
+        <p>
+          <lb/>Tandem, ne oblectamenta optica desiderentur, turricula septentrionalis
+          <lb/>(<abbr>fig.</abbr> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>N.</abbr> 14) Cameram obscuram pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>bet. Sph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ra illi<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice> inclusum speculum species
+          <lb/>objectorum e tota late vicinia colligit, eas<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ope lentis vitre<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in subjecta mensa
+          <lb/>tam vivaces exhibet, ut iis spectator pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sens sibi adesse videatur. In alio item
+          <lb/>Cubiculo, quod sub Collegii hujus tecto prope <abbr>N.</abbr> 13 <abbr>fig.</abbr> 2 adaptatum fuit, collectum
+          <lb/>habetur, <choice><abbr><choice><orig>q'dq'd</orig><reg>q.dq.d</reg></choice></abbr><expan>quidquid</expan></choice> fere oblectamenti specula varia, lentes<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> vitre<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> intuentium oculis
+          <lb/>effingere possunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

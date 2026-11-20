@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516481205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Amédée François Frézier an Johann II Bernoulli. Landau in der Pfalz, 30. März 1738</title>
+          <title type="alt">1738.03.30: Frézier, Amédée François (1682-1773) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058361</title>
+          <title type="alt">1738-03-30_Frezier_Amedee_Francois-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516481205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516481205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Frézier, Amédée François (1682-1773)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128999">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 692:Bl.166</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516481205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433708905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058361</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Landau</origPlace>
+              <date when="1738-03-30">30. März 1738</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117537373">Frézier, Amédée François</persName>
+          <placeName key="place_GEO-2881646" ref="https://d-nb.info/gnd/4034222-0">Landau in der Pfalz</placeName>
+          <date when="1738-03-30"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516481305501" type="prev"/>
+          <ptr target="B_991170516481105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Frezier_Amedee_Francois-JohIIB" corresp="pers_DE-588-117537373" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913311">Bernoulli, Jacob</persName>
+            <note type="lebensdaten">(1712-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118064584">Du Hamel, Jean-Baptiste</persName>
+            <note type="lebensdaten">(1624-1706)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Lenes</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118729438">Ludwig</persName>
+            <note type="lebensdaten">(1710-1774)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-05" who="SG">Am Manuskript für die Kollation vorbereitet: Zeilenfall, Textstruktur und Pretagging.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3531688/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3531689" n="166r"/>
+<opener>
+<dateline rend="right-block">
+<lb/><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Landau</rs> le <date when="1738-03-30">30 mars 1738</date>
+</dateline>
+<salute>
+<lb/>Monsieur
+</salute>
+</opener>
+<p>
+<lb/><choice><orig>j’</orig><reg>J’</reg></choice>ay chargé mon libraire de faire remettre
+<lb/>à <abbr>M<supplied>.</supplied></abbr> <rs type="person">votre frere</rs> de <rs type="place">Strasbourg</rs> deux
+<lb/>exemplaires de <rs type="biblio">mon second tome</rs> l’un pour
+<lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person">votre pere</rs> l’autre pour vous que je vous prie <add>d’accepter<unclear>.</unclear></add>
+
+<lb/>Comme j’avois écrit <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person">Lenes</rs> de <del><gap/></del>
+
+<lb/><rs type="organisation">l’<choice><orig>academie</orig><reg>Academie</reg></choice> des Sciences de Montpelier</rs> que
+<lb/>j’avois <choice><orig>êté</orig><reg>été</reg></choice> surpris que cette <rs type="organisation">Academie</rs> eut laissé
+<lb/>imprimer dans <rs type="biblio">l’extrait de son assemblée de <date when="1732">1732</date></rs>
+<lb/>que j’ay eu l’honneur de vous montrer <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Steinback</rs>
+<lb/>que dans le calcul de la poussée des voutes il ne
+<lb/><hi rend="u">falloit pas s’embarrasser de la hauteur des
+<lb/>piedroits.</hi> <choice><orig>jl</orig><reg>Il</reg></choice> en a parlé <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person"><choice><orig>danisy</orig><reg>Danisy</reg></choice></rs> qui
+<lb/>m’a envoyé une demonstration pour le soutenir
+<lb/>dans laquelle <choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>l employe l’infini, comme cette
+<lb/>hypothese est contraire <choice><orig>a</orig><reg>à</reg></choice> ce qui suit de celle de
+<lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person">Votre Pere</rs> je voudrois bien vous l’envoyer<unclear>.</unclear>
+
+<lb/>pour l’examiner avec une demonstration que
+
+<lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person"><choice><orig>duhamel</orig><reg>Duhamel</reg></choice></rs> avoit fait de l’erreur de sa construction
+<lb/>trouverez bon que je vous envoye ces deux pieces
+
+<lb/>pour m’en dire votre sentiment et celuy de <abbr>M<supplied>.</supplied></abbr>
+<pb facs="3531690" n="166v"/>
+<lb/><rs type="person">votre pere</rs> si sa santé luy permet d’y donner un
+<lb/>quart d’heure de son attention car il n’y a pas de
+<lb/>lecture pour plus longtems. <choice><orig>mon</orig><reg>Mon</reg></choice> <rs type="biblio">troisieme tome</rs>
+<lb/>n’etant encore que environ au quart je ferois
+<lb/>grand bien au service du <rs type="person">Roy</rs> de donner de
+<lb/>bonnes instructions aux <abbr><choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ng<hi rend="sup">rs</hi><supplied>.</supplied></abbr> sur la poussée des
+
+<lb/>voutes car je vous ai dit qu<supplied>’</supplied>il en avoit couté
+<lb/><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Strasbourg</rs> 24 mile francs pour un magazin
+<lb/><choice><orig>a</orig><reg>à</reg></choice> poudre qui tomba en <date when="1731">731</date> aussitot ou peu
+<lb/>aprés qu’il fut decintré.
+</p>
+<closer>
+<salute>
+<lb/><choice><orig>j’</orig><reg>J’</reg></choice>ay l’honneur d<supplied>’</supplied>etre avec une singuliere estime
+<lb/>Monsieur
+<lb/>Votre tres humble et tres
+<lb/>obeissant serviteur</salute> <signed><rs type="person"><choice><orig>frezier</orig><reg>Frezier</reg></choice></rs></signed>
+</closer>
+<postscript>
+<p>
+<lb/><choice><orig>je</orig><reg>Je</reg></choice> vous prie d’offrir mes respects <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person">Votre <unclear>Pere</unclear></rs>.
+
+</p>
+</postscript>
+</div>
+</body>
+</text></TEI>

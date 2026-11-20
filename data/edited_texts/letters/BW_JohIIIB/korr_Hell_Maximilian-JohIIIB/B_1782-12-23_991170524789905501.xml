@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524789905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 23. Dezember 1782</title>
+          <title type="alt">1782.12.23: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079645</title>
+          <title type="alt">1782-12-23_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524789905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524789905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128972">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.165-166</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524789905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440050305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079645</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1782-12-23">die 23 Decemb. 1782</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1782-12-23">die 23 Decemb. 1782</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524790105501" type="prev"/>
+          <ptr target="B_991170524789805501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-142166528X">Madarassy, János</persName>
+            <note type="lebensdaten">(1741-1814)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Through the Prussian resident Jacobi, Maximilian Hell sends Johann III Bernoulli fourteen florins and forty kreuzers deposited by the historian and Buda university librarian György Pray as an advance subscription for Bernoulli's publications. Hell promises to send the Vienna ephemerides for 1783 and complains that the printer Trattner has delayed production despite completed manuscripts for several years. He identifies errors in the Berlin ephemerides for 1783 and fears that publication in German limits their market. Hell asks Bernoulli's opinion and requests observations of Herschel's newly discovered celestial body, which he considers probably a planet with an orbital period of about eighty years; he reports his own Vienna observations and suspects it is approaching perihelion. He also discusses the training of Triesnecker and Gerstner, the Eger observatory's instruments, and observations of Mercury's transit.</p>
+
+        <p>Durch den preussischen Residenten Jacobi sendet Maximilian Hell Johann III Bernoulli vierzehn Gulden und vierzig Kreuzer, die der Historiker und Bibliothekar der Universität Buda György Pray als Vorauszahlung für Bernoullis Veröffentlichungen hinterlegt hat. Hell verspricht, die Wiener Ephemeriden für 1783 zu senden, und beklagt Verzögerungen des Druckers Trattner trotz fertiggestellter Manuskripte für mehrere Jahrgänge. Er nennt Fehler in den Berliner Ephemeriden für 1783 und befürchtet, ihre deutsche Sprache begrenze den Absatz. Hell bittet Bernoulli um seine Einschätzung und um Beobachtungen des von Herschel neu entdeckten Himmelskörpers, den er vermutlich für einen Planeten mit einer Umlaufzeit von etwa achtzig Jahren hält. Er berichtet über eigene Wiener Beobachtungen und vermutet eine Annäherung an das Perihel. Ferner behandelt er die Ausbildung Triesneckers und Gerstners, die Instrumente der Sternwarte Eger und Beobachtungen des Merkurtransits.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-17" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529637/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+<pb facs="3529638" n="165r"/>
+<opener><salute rend="center"><lb/>Illustrissime, ac Celeberrime Domine!</salute></opener>
+<p><lb/>Benevolentia Illustris <abbr>D.</abbr> <rs type="person">Jacobi</rs> Residentis <rs type="place" key="place_VER-preuss">Borussi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, cujus benevola
+<lb/>amicitia perfruor, admonitus, se ocasiones habere non nunquam <rs type="place" key="place_GEO-2950159">Berolinum</rs>
+<lb/>quidpiam transmittendi, et quidem die <date>27 hujus</date> esse, qui <rs type="place" key="place_GEO-2950159">Berolinum</rs> proficisca<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tur, per quem, si quid haberem, tuto ei co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ittere possem. <choice><orig>hac</orig><reg>Hac</reg></choice> benevolentia
+<lb/>utens transmitto Tibi Illustrissime, ac Celeberrime Domine depositos apud
+<lb/>me quatuor et decem florenos cum <measure>40 Xfr.</measure> nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pecuni<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Patre <rs type="person" key="pers_DE-588-129982121">Pra<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice></rs>
+<lb/>Historiographo, et Bibliothecario <rs type="organisation">Universitatis Budensis</rs> in <rs type="place" key="place_VER-ungarn">Ungaria</rs>,
+<lb/>tanquam pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>numerationem pro Tuis quibusdam operibus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Te edendis, de
+<lb/>quibus eum monueras.
+</p>
+ <p><lb/>Addidissem Exemplar mearum <rs type="biblio">Ephemeridum anni <date when="1783">1783</date></rs>, si composita Exemplaria
+<lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person" key="pers_DE-588-118760726">Typographo</rs> habere potuissem; proxime autem iterum quemdam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nobis
+<lb/><rs type="place" key="place_GEO-2950159">Berolinum</rs> profecturum asseruit <abbr>Ill.</abbr> <abbr>D.</abbr> <rs type="person">Jacobi</rs>, per quem Tibi certo certius
+<lb/>Exemplar mittam. Urgebam hoc anno Typographum <rs type="person" key="pers_DE-588-118760726">Trattnerum</rs>, ut
+<lb/>trium annorum <rs type="biblio">Ephemerides</rs>, anni scilicet <date when="1783">1783</date>, <date when="1784">84</date>, et <date when="1785">85</date> quas in
+<lb/>manuscripto in <date when="1782">Principio anni 1782</date> pro typo paratas habebam, ut
+<lb/>inquam hi tres anni hoc anno currente typis absolverentur, cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> etiam
+<lb/>in fine <date>Januari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> <rs type="biblio">Exemplar anni 1783</rs> tradideram; sed incassum urgebam;
+<lb/>vix obtinere potui, ut anni <date when="1783">1783</date> cum <date>fine hujus anni</date> absolveretur; Nuper
+<lb/>ergo iterum <unclear>ursi typi accelerationem</unclear>, ut cum <date>fine anni sequentis</date> tres prodirent
+<lb/>anni scilicet <date when="1784">1784</date>, <date when="1785">85</date>, <date when="1786">86</date><choice><orig>.</orig><reg>,</reg></choice> quos jam paratos habeo; num promissis stabit
+<lb/>videbimus, ipsius namque interest, cujus sumptibus imprimuntur, ut duobus saltem
+<lb/>annis ante in publicum prodeant.
+</p>
+ <p>
+   <lb/><rs type="biblio">Ephemerides Berolinenses anni <date when="1783">1783</date></rs> errores quosdam non typi, sed calculi con<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tinent, i<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s omissis<note type="editorial">Auf dem «m» in «omissis» steht fälschlicherweise ein Verdoppelungsstrich.</note>, qui ad menses pertinent solum noto: Momenta I<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ersionis
+<lb/>totalis, et Initia egressus ex Umbra in Eclipsi utraque Lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> diei <date when="1783-03-18">18 Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> et
+<lb/><date when="1783-09-10">10 <subst><del><gap/></del><add>S</add></subst>eptembris</date> errone<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> supputata sunt, etiam in Elencho occultationum fixarum
+<lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <g ref="#leftmoon">&#x263D;</g> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dam omiss<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt, ali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> insert<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> non evenient, sed h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c non tanti sunt
+<lb/>ut eorum celebritatem minuant, solum doleo, has lingua germanica editas
+<pb facs="3529639" n="165v"/>
+<lb/>unde necessario fieri debet, ut ob paucitatem Astronomorum <rs type="place" key="place_KON-deutsch">Germani<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, aut
+<lb/>qui germanicum callent idioma, sumptus impressionis non refundantur,
+<lb/>itaque ab editione cessare cogent <rs type="person">Editorem</rs>.
+</p>
+<p>
+  <lb/>Quid censes de novo Planeta <rs type="person" key="pers_DE-588-118841920">Herscheliano</rs>? estne revera corpus proprio lumine
+<lb/><choice><orig>Carens</orig><reg>carens</reg></choice>, quod circa Solem nostrum revolvatur? hucusque omnino probabile
+<lb/>videtur, esse Planetam nostri Systematis habens periodum annorum 80
+<lb/>aut 82. Si observationes anni unius hucusque fact<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in circulo suppu<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>temus satisfacere videntur observationibus; sed nondum sufficientia ejus
+<lb/>habemus elementa an ad Perihelium, aut Aphelium properet, ut ejus excentri<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>citatem supputare possemus <abbr>etc<choice><orig>:</orig><reg>.</reg></choice></abbr> interea mihi videor ex observationibus
+<lb/>eruisse accelerationem aliquam motus heliocentrici, qu<subst><del><gap/></del><add><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></add></subst> indicat Planetam
+<lb/>ad Perihelium accedere. Nunc dum ad oppositionem cum sole properat
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> die <date when="1782-12-26">26 <abbr>Decemb.</abbr></date> eveniet, mihi die <date when="1782-12-20">20 <abbr>Dec.</abbr></date> visus est crevisse, et in lumine
+<lb/>et in Diametro adeo ut censuerim cum prope ad 3<hi rend="sup u">ti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> magnitudinis fixa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rum lumen attigisse. Nos eum hic <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> ob inclementiam C<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>li non nisi
+<lb/>peraro videre possumus; <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Mense Novembri usque nunc quater solum vi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>cibus in Quadrante meo fixo culminantem observare licuit, dubito num
+<lb/>die <date when="1782-12-26">26 <abbr>Dec.</abbr></date> eum in oppositione observare dabitur. Scio Tibi amplissimum
+<lb/>cum Astronomis observatoribus esse Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ercium litterarium, quare enixe Te
+<lb/>rogatum volui, ut quotquot habes, aut habere poteris hucusque factas
+<lb/>observationes, aut deinceps habiturus sis, mecum benevole co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unes fa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>cere velis; sum enim in eo, ut de hoc Planeta quidpiam certius eruam,
+<lb/>atque cum ali<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s Astronomis sensa mea co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicem; habeo Adjunctum egre<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>gium <abbr>R.</abbr> Dominum <rs type="person" key="pers_DE-588-117418420">Triesneker</rs> Exjesuitam, atque alterum quempiam Ado<pc type="hyphenation">-</pc><lb break="no"/>lescentem <rs type="place" key="place_GEO-3078198">Bohemum</rs> secularem in Calculis et Theoria optime versatum No<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mine <rs type="person" key="pers_DE-588-129094692">Gerstner</rs>, quem in Astronomicis jam ab uno anno exerceo, futurum
+<lb/>in aliqua Specula nostrorum <rs type="place">Regnorum</rs> Astronomum.</p>
+<pb facs="3529640" n="166r"/>
+<p><lb/><rs key="org_resource_000002" type="organisation">Specula Agriensis</rs> jam plene instructa est Instrumentis anglicanis; ante
+<lb/>duos ipse excurri <rs type="place" key="place_GEO-721239">Agriam</rs> cum Quadrante murali <measure>8 ped.</measure> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>D.</abbr> <rs type="person">Sisson</rs> in
+<lb/><del><gap/></del><rs type="place" key="place_VER-englan">Anglia</rs> confecto, qui etiam suo loco jam affixus est; Quare ab Exercitato
+<lb/>Astronomo Reverendissimo <abbr>D.</abbr> <rs type="person" key="pers_DE-588-142166528X">Madarass<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice></rs> egregias his instrumentis obser<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>vationes pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stolamur.
+</p>
+
+<p>
+  <lb/>Mercurium in Sole die <date when="1782-11-12">12 Novembris</date> versantem ob inclementiam C<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>li nullo
+<lb/>modo videre potui; ex observatione <rs type="place" key="place_GEO-2773538">Cremifanensi</rs> <abbr>R. P.</abbr> <rs type="person" key="pers_DE-588-116586621">Fixlmillner</rs>
+<lb/>colligo <rs type="biblio">Tabulas Mercuri<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> <abbr>Cel<supplied>.</supplied> D.</abbr> <rs type="person" key="pers_DE-588-104234059">De la Lande</rs> cum c<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>lo congruisse. </p><closer><lb/>Jam vale, et mihi Tua benevolentia favere perge.
+<dateline><lb/>Dabam <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> die <date when="1782-12-23">23 <abbr>Decemb.</abbr> 1782</date>
+</dateline><salute><lb/>Tui Nominis Studiosissimus
+</salute><signed><lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs>.</signed></closer>
+<pb facs="3529641" n="166v" type="empty"/>
+</div>
+    </body>
+  </text>
+</TEI>

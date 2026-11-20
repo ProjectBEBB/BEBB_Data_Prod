@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430299905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel II Bernoulli an Jean Henri Samuel Formey. Berlin, 05. Januar 1775</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430299905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430299905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Berlin, Staatsbibliothek, Nachlass Formey</repository>
+            <idno type="callNumber">K.4</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430299905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406963005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000060104</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1775-01-05">ce 5. Janvier 1775</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-135542146">Bernoulli, Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Berlin</placeName>
+          <date when="1775-01-05"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514612305501" type="prev"/>
+          <ptr target="B_991170430186605501" type="next"/>
+          <ptr target="BW_DanIIB" corresp="pers_DE-588-135542146" type="Briefwechsel"/>
+          <ptr target="korr_Formey_Johann_Heinrich_Samuel-DanIIB" corresp="pers_DE-588-119353210" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Daniel II B. besitzt nur wenige derjenigen Musikstücke, die Graf Golowkin haben möchte. Er sendet diese zusammen mit einigen Stücken anderer Komponisten. Er gibt einen Auszug aus einem Brief seiner Schwägerin [Veronika, geb. Beck] von 1774.12.21, der Mitteilungen über die Reise ihres Gatten Johann III Bernoulli nach Südfrankreich enthält. Diese Reise soll in Berlin möglichst nicht bekannt werden, da der Urlaub Joh. III B.s vom König Friedrich d. Gr. nur für einen Genesungsaufenthalt in der Schweiz bewilligt wurde. Daher hat Daniel II B. nur die Gräfin Kameke und jetzt Formey vertraulich informiert.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+        <change when="2026-11-12" who="SG">Maschinelle Transkription hinzugefügt</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+  <graphic url="manifests/M_1775-01-05_991170430299905501"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+  <head>Achtung: Maschinell erzeugte Rohtranskription – noch nicht redaktionell geprüft.</head>
+  <pb facs="https://e-editiones.org/canvas/M_1775-01-05_991170430299905501/1" n="1r"/>
+
+  <opener>
+    <salute>
+      <lb/>Monsieur,
+    </salute>
+  </opener>
+  <p>
+    <lb/>Je n’ai que peu de <choice><orig>piéces</orig><reg>pièces</reg></choice> de Musique
+    <lb/>des Auteurs dont <abbr>M<hi rend="sup">r</hi>.</abbr> le <abbr>C.</abbr> <rs type="person">de Golowkin</rs> sou<pc type="hyphenation">-</pc><lb break="no"/>haite d’en avoir. Je Vous en envoye, Mon<pc type="hyphenation">-</pc><lb break="no"/>sieur, aussi de quelques autres Compositeurs,
+    <lb/><choice><orig>peutêtre</orig><reg>peut-être</reg></choice> que <abbr>M<hi rend="sup">r</hi>.</abbr> le Comte en goûtera
+    <lb/>quelques<choice><orig> </orig><reg>-</reg></choice>unes; Il pourra faire copier
+    <lb/>celles qu’Il agréera le plus, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> garder le
+    <lb/>tout aussi longtems qu’il Lui plaira.
+  </p>
+  <p>
+    <lb/>Quant aux nouvelles de <rs type="place">Basle</rs>, je puis
+    <lb/>Vous en donner, Monsieur, de toutes <choice><orig>fraiches</orig><reg>fraîches</reg></choice>.
+    <lb/>Voici un Extrait d’<rs type="letter">une Lettre de ma Belle soeur
+    <lb/><date when="1774-12-21">du 21. <abbr>X<hi rend="sup">bre</hi>.</abbr> 1774</date></rs>. <quote>„J’ai envoyé votre lettre
+    <lb/>à mon mari qui n’est pas encore de retour
+    <lb/>à <rs type="place">Bâle</rs>; en passant à <rs type="place">Lausanne</rs> <abbr>M.</abbr> <rs type="person">Tissot</rs>
+    <lb/>lui a conseillé de passer cet hyver sous un
+    <lb/>ciel tempéré; il n’avoit pas besoin de ce
+    <lb/>conseil pour être tenté de prolonger
+    <lb/>son voyage, vu sa passion pour voir
+    <pb facs="https://e-editiones.org/canvas/M_1775-01-05_991170430299905501/2" n="1v"/>
+    <lb/>de nouveaux pays <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de nouveaux objets;
+    <lb/>Il a donc passé (de <rs type="place">Genève</rs>) par <rs type="place">Lyon</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+    <lb/><rs type="place">Avignon</rs> pour se rendre à <rs type="place">Marseille</rs>, de
+    <lb/>là il ira à <rs type="place">Nice</rs> qui n’est qu’à 4 journées
+    <lb/>de <rs type="place">Turin</rs>, de sorte qu’il y a toute apparence
+    <lb/>qu’il reviendra par le <rs type="place">Piémont</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la <rs type="place">Savoye</rs>;
+    <lb/>nous ne le reverrons je crois qu’à la fin
+    <lb/>de Mars, cela nous capotise tous, mais si
+    <lb/>cela fait du bien à sa santé nous serons
+    <lb/>consolés.”</quote> Ils se portent au reste tous fort
+    <lb/>bien. Ma Soeur croit qu’il n’est pas à
+    <lb/>propos de dire à <rs type="place">Berlin</rs>, que mon frère
+    <lb/>est allé plus loin que la <rs type="place">Suisse</rs>, par ce,
+    <lb/>dit-elle, qu’ayant demandé au <rs type="person">Roi</rs> la
+    <lb/>permission de passer l’hyver dans sa pa<pc type="hyphenation">-</pc><lb break="no"/>trie des gens mal intentionnés pourroient
+    <lb/>trouver à redire à ce qu’il est allé plus loin.
+    <lb/>Quant à moi je doute que ce secret puisse
+    <lb/>rester ignoré, et quoiqu’il en soit je n’ai
+    <lb/>fait aucune difficulté d’en faire la confidence
+    <lb/>à <abbr>Mad<hi rend="sup">e</hi>.</abbr> la Comtesse <rs type="person">de Kameke</rs>, et à Vous,
+    <lb/>Monsieur, qui voudrés bien lui communiquer
+    <lb/>ces nouvelles, en Lui présentant mes
+    <pb facs="https://e-editiones.org/canvas/M_1775-01-05_991170430299905501/3" n="2r"/>
+    <lb/>très humbles respects, ainsi qu’à <abbr>M<hi rend="sup">r</hi>.</abbr> le <abbr>C.</abbr>
+    <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> à <abbr>M<hi rend="sup">e</hi>.</abbr> la <abbr>Csse</abbr> <rs type="person">de Golowkin</rs>.
+  </p>
+  <p>
+    <lb/>Ma Soeur me charge, Monsieur, de beau<pc type="hyphenation">-</pc><lb break="no"/>coup de Complimens pour toute Votre mai<pc type="hyphenation">-</pc><lb break="no"/>son, je prends la liberté d’y ajouter mes
+    <lb/>honneurs aussi.
+  </p>
+  <closer>
+    <salute>
+      <lb/>J’ai l’honneur d’être avec un respect
+      <lb/>inviolable
+      <lb/>Monsieur
+      <lb/>Votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>très-obéïssant Serviteur
+    </salute>
+    <signed>
+      <lb/><rs type="person">Bernoulli</rs>
+    </signed>
+    <dateline>
+      <lb/><rs type="place">Berlin</rs>, <date when="1775-01-05">ce 5. Janvier, 1775</date>.
+    </dateline>
+  </closer>
+  <pb facs="https://e-editiones.org/canvas/M_1775-01-05_991170430299905501/4" n="2v"/>
+  <address>
+    <addrLine>
+      <lb/>A Monsieur
+    </addrLine>
+    <addrLine>
+      <lb/>le Conseiller privé <rs type="person">Formey</rs>
+    </addrLine>
+  </address>
+
+  <note hand="unknown">
+    <lb/>Je vous prie Madame <unclear>de</unclear>
+    <lb/>me renvoyer cette Lettre
+    <lb/>avec votre prochaine <choice><orig>reponse</orig><reg>réponse</reg></choice>
+  </note>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170515274105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jacob Scheuchzer an Johann I Bernoulli. Zürich,
+            22. Juni 1725</title>
+          <title type="alt">000057331</title>
+          <title type="alt">1725-06-22_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_resource_000076">
+            <surname>Mazzei</surname>
+            <forename>Elena</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515274105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515274105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-13313">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 667, Nr. 95*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515274105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433182505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057331</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Zuric</origPlace>
+              <date when="1725-06-22">ce 22. Juin.
+              1725</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1725-06-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430269605501" type="prev"/>
+          <ptr target="B_991170430268505501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-JohIB" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089923198">Verzaglia, Giuseppe</persName>
+            <note type="lebensdaten">(1669-1728)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-26" who="SG">Anrede und Seitenanker am Manuskript geprüft</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1725-06-22_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I"/>
+      </change>
+        <change>Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/651411/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1725-06-22_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+<pb facs="651413" n="1"/>
+
+<opener>
+<salute>
+
+<lb/>Monsieur et treshonoré Amy  </salute>
+</opener>
+  <p>Vous pouvés bien vous asseurer, que j’aurois omis dans ma Dissertation tout le passage de
+          <rs type="person" key="pers_DE-588-1089923198">Verzalia</rs>, si j’avois scû vos demelés avec cet indigne, dont la description me fait fremir.
+          Certainement je me debarrasserois dans une huitaine des jours d’une bete si feroce.
+          Pardonnez donc la faute commise par ignorance. </p>
+  <p>Pour ce qui regarde les Dents d’Elephant fossiles j’en ay de si lisses comme sont les
+          originaux memes. Les ossements des oiseaux comme toutes les reliques de ces betes sont
+          tres rares, parce qu’apparemment ils nagoient sur la surface des eaux à cause de leur
+          legereté. Je n’ay de tout le Regne des oiseaux qu’une plume imprimée sur une pierre. Et en
+          general nous observons, que parmy les coquilles memes qui nous restent de cette fatale
+          inondation, celles cy sont les plus rares, qui sont pour la pesanteur specifique les plus
+          legeres, comme par ex. les Coquilles dites Porcellaines dont je n’ay que quelques
+          Exemplaires. </p>
+  <p>Nos Orthodoxes sont à cette heure en repos, et ne peuvent pas souffrir ni la lumiere ni
+          le soleil. Peut etre qu’une
+<pb facs="651414" n="2"/>
+ fois je leur donneray une carte
+          blanche; certainement ils y trouveront à critiquer. Ils auroient aussi sans doute rayé les
+          phrases, que vous avez observées, et qui sentent l’heresie des Copernicains, s’ils les
+          auroient entendues. Ainsi leur ignorance nous sert quelque fois de bouclier. Adieu. Je
+          suis de tout mon coeur Monsieur votre tresh. et tres ob. servit.<hi rend="sup">r</hi> J.
+          J. Scheuchzer </p>
+  <p><rs type="place" key="place_GEO-2657896">Zuric</rs> ce 22. Juin. 1725. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

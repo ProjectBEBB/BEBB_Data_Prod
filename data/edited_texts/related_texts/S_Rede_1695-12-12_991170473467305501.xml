@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xml:id="S_991170473467305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Lectio mathematica</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <author>
+          <persName key="pers_DE-588-118509969">
+            <surname>Bernoulli</surname>
+            <forename>Johann I</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Textkonstitution<note type="remarkResponsibility">Frühere Arbeitsfassung, spätestens 2010.</note></resp>
+          <persName key="pers_DE-588-117490881">
+            <surname>Spiess</surname>
+            <forename>Otto</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-128594543">
+            <surname>Gehr</surname>
+            <forename>Damaris</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594543">
+            <surname>Gehr</surname>
+            <forename>Damaris</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+          <idno type="URLWeb">https://bebb.unibas.ch/related_texts/S_991170473467305501</idno>
+          <idno type="URLXML">https://bebb.unibas.ch/api/document/S_991170473467305501</idno>
+          <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-77653">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 750:Bl.74-83</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170473467305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972419165305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000324398</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>10 Bl.; verschiedene Formate</extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">Autograf Johann I Bernoullis</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Groningae</origPlace>
+              <date when="1695-12-12">12. Dec. 1695</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>Rede</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Rede über die Grundlagen der Mathematik.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-09" who="SG">Diplomatische Neutranskription in zwei bildgestützten Durchgängen erstellt; die kollationierte LyX-Fassung blieb verbindlicher Wortlautanker, Abweichungen sind kommentiert.</change>
+        <change when="2026-09-08" who="SG">TEI-Grundgerüst aus dem bestätigten ALMA-Katalogisat erzeugt.</change>
+        <change notAfter="2010" who="OS SG DG">Transkription und Textkonstitution</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/2228249/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="oration" rend="marginalia">
+        <pb facs="2228250" type="archival"/>
+
+<pb facs="2228251" type="archival"/>
+<pb facs="2228252" n="74r"/>
+
+<head rend="center">
+<lb/>Lectio Mathematica
+</head>
+        <note hand="pers_DE-588-118509969"><lb/>Habita <abbr>d.</abbr> <date>12. <abbr>Xbris</abbr>
+          <lb/>1695</date> in auditorio
+          <lb/>philosophico <rs type="organisation"><abbr>Acad.</abbr>
+          <lb/><abbr>Groning.</abbr></rs> pro prima
+          <lb/>Lectione inserviens</note>
+<p>
+<lb/>Magnifice <abbr>Dn.</abbr> Rector <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.
+</p>
+<p>
+<lb/>Denuo in conspectum vestrum prodeo, ut peractis
+<lb/>nuper feliciter solennitatibus publicis quibus ad
+<lb/>Professiones designati et vocati inaugurari solent,
+<lb/>hac ipsa <del><gap/></del>hor<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> auspice Deo demandatam mihi
+<lb/>provinciam, Mathesin nempe docend<subst><del>am</del><add>i</add></subst> public<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>, prima
+<lb/>Lectione exordiar, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> adeo expositis <rs type="biblio">Oratione in<pc type="hyphenation">-</pc><lb break="no"/>augurali</rs> <del><gap/></del>Matheseos Origine,<del><gap/></del>
+<lb/>dignitate, utilitate, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stanti<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>, aliis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <add>generalioribus</add>, nunc paul<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice>
+<lb/>propius ad ipsam essentiam accedam. Quod ut eadem
+<lb/>attentione et benevolentia qua nuper <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Vobis
+<lb/>Auditores accipiatur, omni qua par est humani<pc type="hyphenation">-</pc><lb break="no"/>tate et modestia obsecro, peto.
+</p>
+<p>
+<lb/>Quantumvis vast<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sint scienti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mathematic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>tam respectu varietatis objectorum quam respectu
+<lb/>concatenationis veritatum cujuslibet partis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> long<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+<lb/>serie una ex altera deducuntur, et ut clavus cla<pc type="hyphenation">-</pc><lb break="no"/>vum trudit ita continu<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> productio unius est genera<pc type="hyphenation">-</pc><lb break="no"/>tio alterius; Principia tamen quibus tanquam fun<pc type="hyphenation">-</pc><lb break="no"/>damento nituntur perpauca sunt at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> adeo clara et
+<lb/>per se nota, ut quis de existentia sua magis quam de
+<lb/>veritate illorum dubitare posset; sunt enim veritates
+<lb/>nobiscum nat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> aliter demonstrari non possunt
+<lb/>quam per internam mentis contemplationem, qua qui<pc type="hyphenation">-</pc><lb break="no"/>libet si vel leviter attendat oppido <del><gap/></del>ad assensum
+<lb/>cogitur et de certitudine illarum convincitur; Et
+<lb/>sane <unclear reason="illegible">si</unclear> eas per alias priores explicare vellemus,
+<lb/>tantum abest ut veritates hasce illustraremus ut
+<lb/>potius illas multis <choice><sic>obsucritatibus</sic><corr>obscuritatibus</corr></choice> involveremus; Adde
+<lb/>quod etiam ad ineptam illam progressionem in infini<pc type="hyphenation">-</pc><lb break="no"/>tum delaberemur, siquidem et ipsarum harum priorum
+<pb facs="2228253" n="74v"/>
+<lb/>demonstrationes peterentur, et harum adhuc priores
+<lb/>id quod continuaretur sine fine. Sunt ergo statuen<pc type="hyphenation">-</pc><lb break="no"/>da qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dam principia vel prim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> notiones, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nulla
+<lb/>demonstratione indigent sed quarum veritates adeo
+<lb/>evidentes sunt, ut etiam pertinacissimus veritatis inimicus
+<lb/>et maximus Pyrrhonista auditis solis verbis nolens volens
+<lb/>eas intern<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> quidem agnoscere cogatur, quamvis ore, vultu
+<lb/>gestibus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> extern<subst><del><gap/></del><add>i</add></subst>s eas omnino respuere videatur.
+</p>
+<p>
+<lb/>Hasce primas notiones qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vulgo axiomata vocantur
+<lb/>Mathematicas scientias discere cupidi supponere tenen<pc type="hyphenation">-</pc><lb break="no"/>tur sed pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea nihil, imo de omnibus aliis dubitare
+<lb/>ceu Philosophorum Princeps <rs type="person">Cartesius</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipit, nihil pro
+<lb/>vero accipere, <add>sed</add> omnium rationes expetere et rationum ra<pc type="hyphenation">-</pc><lb break="no"/>tiones, omnia rigoros<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> examinare, et demum quod ex
+<lb/>primis notionibus stabilitis rationi consentaneum elicue<pc type="hyphenation">-</pc><lb break="no"/>runt pro vero amplecti, revereri, defendere quod vero
+<lb/>contra easdem <add>tanquam falsum</add> rejicere, damnare, refutare audacter deb<subst><del><gap/></del><add>e</add></subst>nt.
+<lb/>Mathematici <subst><del><gap/></del><add>et</add></subst> Geometr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hac methodo utuntur; hinc tan<pc type="hyphenation">-</pc><lb break="no"/>ta Matheseos certitudo et evidentia qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in mathematicorum
+<lb/>scriptis ubi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> elucet, in aliorum vero ob defectum ejus ple<pc type="hyphenation">-</pc><lb break="no"/>rum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> desideratur. Quo autem melius Tyrones quorum
+<lb/>in gratiam publicis hisce lectionibus Matheseos princi<pc type="hyphenation">-</pc><lb break="no"/>pia explicabo hanc mathematicorum methodum sequan<pc type="hyphenation">-</pc><lb break="no"/>tur illi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> inviolat<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> insistant, h<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c vice exponam regulas
+<lb/>generales quas ratiocinando sibi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>scribere debent
+<lb/>ut evitent omnes errores et falsas species verisimilitudinum.
+</p>
+<p>
+<lb/><note place="margin"><hi rend="u"><abbr>Reg.</abbr> 1. <abbr>gen.</abbr></hi></note> Regula generaliter stabilita tanquam prima et
+<lb/>fundamentalis est ut ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sint pur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et distinct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,
+<lb/>earum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> expressiones clar<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et omnis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivocationis
+<lb/>expertes. Voco autem <hi rend="u">ideam</hi> objectum spirituale
+<lb/>vel intelligibile quod anima contemplatur intuitu
+<lb/>interno: Et <hi rend="u">expressiones idearum</hi> sunt signa ex<pc type="hyphenation">-</pc><lb break="no"/>terna et sensibilia, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in anima nostra excitant
+<lb/>has ipsas ideas vel ipsi quasi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentes sistunt.
+<lb/>Verum est quod ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in se considerat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nullam
+<lb/>habeant affinitatem cum verbis aut cum signis
+<lb/>sensibilibus, quibus utimur ad illas explicandas,
+
+<pb facs="2228254" n="75r"/>
+
+<lb/>cogitatio enim essentialiter differt <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> sonis qui
+<lb/>aures feriunt, et ab imaginibus aut figuris qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>in oculis depinguntur. Verum etiamsi copulatio
+<lb/>rerum harum adeo diversarum et toto coelo diffe<pc type="hyphenation">-</pc><lb break="no"/>rentium sit omnino arbitraria, absolut<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> tamen
+<lb/>necessaria est hominibus, ut sibi mutuo cogitata
+<lb/>sua manifestare at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> hoc modo uti corpo<pc type="hyphenation">-</pc><lb break="no"/>ra sunt unita ita etiam mentes suas conjungere
+<lb/>possint. Omnis idea est <hi rend="u">simplex</hi> aut <hi rend="u">composita</hi>,
+<lb/><hi rend="u">simplex</hi> est si objectum quod mens intuetur est
+<lb/>simplex; et <hi rend="u">composita</hi> si objectum est compositum.
+<lb/>Pariter omnis expressio ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est simplex aut com<pc type="hyphenation">-</pc><lb break="no"/>posita: simplex est cum unicus tantum terminus
+<lb/>adhibetur, et composita cum plures adhibendi sunt.
+<lb/>Dicimus etiam ideam esse <hi rend="u">puram et distinctam</hi>, quando
+<lb/>mens plen<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> perspicit objectum suum, aut si illud
+<lb/>contemplatur distinct<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> quoad omnes ejus partes,
+<lb/>sed si mens objectum non clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> percipit aut ejus
+<lb/>partes non satis distinguit, idea tantummodo erit
+<lb/><hi rend="u">obscura et confusa</hi>. Expressiones sunt clar<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et
+<lb/><hi rend="u">non-<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivoc<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, si generaliter eodem sensu sumun<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+<lb/>at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> si ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quas repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentant sunt pur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et distin<pc type="hyphenation">-</pc><lb break="no"/>ct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Si ex pluribus diversis expressionibus cert<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>cujusdam ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> seligatur brevissima, et si eadem
+<lb/>idea expressa sit confusius per unicum terminum,
+<lb/>expressio clara <hi rend="u">definit</hi> aut <hi rend="u">explicat</hi> aut <hi rend="u">illustrat</hi>
+<lb/>hunc terminum obscurum, et dicitur ejusdem
+<lb/><hi rend="u">definitio</hi>.
+</p>
+<p>
+<lb/>Definitur ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Mathesis dicendo, quod sit scientia
+<lb/><hi rend="u">exacta quantitatum</hi>: Et per <hi rend="u">quantitatem</hi> intelligi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+<lb/>in genere omne id quod augmentationis vel diminutio<pc type="hyphenation">-</pc><lb break="no"/>nis capax est vel ut in scholis dicere solent quod
+<lb/>recipit magis et minus. Du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt species quantitatum,
+<lb/>nimirum <hi rend="u">intelligibiles</hi> quas sola mente percipimus
+<lb/>ut sunt numeri; Et <hi rend="u">sensibiles</hi> ut corpora et motus.
+<lb/>Ill<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ut numeri dicuntur etiam <hi rend="u">discret<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> vel <hi rend="u">non con<pc type="hyphenation">-</pc><lb break="no"/>tinu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vero <hi rend="u">concret<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> vel <hi rend="u">continu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>.
+</p>
+<p>
+<pb facs="2228255" n="75v"/>
+
+<lb/>Etiamsi Mathesis dicatur scientia exacta quantita<pc type="hyphenation">-</pc><lb break="no"/>tum, non tamen ita intelligendum est quasi per illam
+<lb/>cognosci possit quid sint quantitates absolut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et in
+<lb/>se spectat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, sed duntaxat quid una sit respectu
+<lb/>alterius. Cognoscitur quidem quod quantitas pedis
+<lb/>superat quantitatem pollicis undecim pollicibus aut
+<lb/>quod illa contineat hanc pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cis<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> duodecies; Exinde
+<lb/>tamen non concludendum est cognosci posse quanti<pc type="hyphenation">-</pc><lb break="no"/>tatem pollicis aut pedis absolut<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> vel per se ipsam.
+<lb/>Sic una eadem<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> magnitudo alteri major alteri
+<lb/>minor apparebit, si ille illam sub majori hic sub
+<lb/>minori visionis angulo aspiciat; sic unus idem<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>motus nunc celerior nunc tardior videbitur prout
+<lb/>oculus videntis propius vel longinquius distet: Sic
+<lb/>unum idem<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> pondus nunc gravius nunc levius nobis
+<lb/>obveniet prout nunc minori nunc majori virium
+<lb/>copia polleamus. Quinimo ausim dicere inter
+<lb/>omnes quotquot sunt in orbe terrarum homines,
+<lb/>ne duos quidem esse qui idem eodem modo sen<pc type="hyphenation">-</pc><lb break="no"/>tiant. Unus eundem sonum, eundem colorem, eundem
+<lb/>saporem, eundem odorem clarius, vividius, fortius
+<lb/>percipit altero: forsan quod tu rubrum vocas
+<lb/>alter flavum dicit et vicissim; quod tibi suave<pc type="hyphenation">-</pc><lb break="no"/>odorum alteri f<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>tidum erit; quod tibi dulce
+<lb/>alteri amarum; et sic de omnibus aliis; quemad<pc type="hyphenation">-</pc><lb break="no"/>modum enim ex arte combinatoria facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> patet,
+<lb/>constitutionem corporis nostri infinitis fer<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> modis
+<lb/>variari posse; sic mirari etiam non debemus si
+<lb/>singuli homines aliter et aliter constituti, aliter
+<lb/>et aliter quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> rebus externis afficiantur; adeo
+<lb/>ut tritum illud <hi rend="u">quot capita tot sensus</hi> verius de sensi<pc type="hyphenation">-</pc><lb break="no"/>bilibus externis in animam nostram agentibus, quam de
+<lb/>ipsa anima judicante censendum sit.
+</p>
+<p>
+<lb/>Ut ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> cognoscamus quantitates respectiv<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> sum<pc type="hyphenation">-</pc><lb break="no"/>tas, comparand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt cum se invicem, id quod
+<lb/>semper supponit duas ad minimum quantitates,
+<pb facs="2228256" n="76r"/>
+
+<lb/>Du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quantitates inter se comparat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, dicuntur
+<lb/>termini comparationis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fit aut secundum
+<lb/>excessum quo altera alteram superat, ut si conside<pc type="hyphenation">-</pc><lb break="no"/>ramus 13 ex cedere 8, unitatibus 5, quod vocatur
+<lb/><hi rend="u">differentia</hi>; aut secundum <hi rend="u">contentum</hi> quo altera
+<lb/>alteram continet aut continere potest, ut si consi<pc type="hyphenation">-</pc><lb break="no"/>deramus 8 contineri bis in 16; aut 16 comprehendere
+<lb/>8 bis, id quod simpliciter vocatur <hi rend="u">ratio</hi>, ad distinctio<pc type="hyphenation">-</pc><lb break="no"/>nem differenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Quare qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet differentia aut
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet ratio duos ad minimum habebit termi<pc type="hyphenation">-</pc><lb break="no"/>nos: Differentia ipsorum 13 et 8 aut tredecim
+<lb/>minus 8 habebit duos terminos 13 et 8; et ratio
+<lb/>ipsorum 16 et 8 habebit duos terminos 16 et 8.
+</p>
+<p>
+<lb/>Si quantitates comparat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales, earum
+<lb/>ratio dicitur <hi rend="u"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis</hi>: <hi rend="u">In<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis</hi> vero si
+<lb/>sunt in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales. <abbr>gr.</abbr> to nihil quod cyphra vocatur
+<lb/>est quasi terminus aut punctum fixum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo
+<lb/>incipitur institui earum mensura, aut <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo pro<pc type="hyphenation">-</pc><lb break="no"/>ceditur ad earum comparationem. Quantitates
+<lb/>vocantur <hi rend="u">reales</hi>, <hi rend="u">positiv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> aut <hi rend="u">ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, quando nihil
+<lb/>vel cyphram superant, aut plus valent quam
+<lb/>nihil; dicuntur vero <hi rend="u">defectiv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, <hi rend="u">negativ<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> aut
+<lb/><hi rend="u">fals<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, si earum valor est minor quam nihil
+<lb/>aut si <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nihilo sint subduct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Summa mille impe<pc type="hyphenation">-</pc><lb break="no"/>rialium est quantitas realis vel positiva vel
+<lb/>vera, debitum autem eorundem mille imperia<pc type="hyphenation">-</pc><lb break="no"/>lium pro homine qui non est solvendo et qui plan<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>nihil possidet, est quantitas defectiva vel nega<pc type="hyphenation">-</pc><lb break="no"/>tiva vel falsa. Id quod etiam facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> intellectu
+<lb/>est in communi loquendi modo, quando loquimur
+<lb/>de aliquo homine qui nihil habet et qui adhuc
+<lb/>debet mille imperiales; dicimus enim mille abesse
+<lb/>imperiales quin iste homo unicum habeat solidum.
+</p>
+<p>
+<pb facs="2228257" n="76v"/>
+
+<lb/>Quando cognoscere volumus quantitates vel po<pc type="hyphenation">-</pc><lb break="no"/>tius earum relationes, habenda est regula qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pos<pc type="hyphenation">-</pc><lb break="no"/>sit mensurare distantiam quam obtinent <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> cy<pc type="hyphenation">-</pc><lb break="no"/>phra. Illa qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> generaliter adhibetur est <hi rend="u">uni<pc type="hyphenation">-</pc><lb break="no"/>tas</hi>: Ut autem distinct<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> concipiatur ejus natura, non
+<lb/>abs re erit si attendamus ad duas ideas illas quas
+<lb/>habemus de unitate et multitudine. Dubitari
+<lb/>non potest quin du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ist<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> direct<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> sibi mutuo
+<lb/>opponantur: Idea unitatis destruit ideam multi<pc type="hyphenation">-</pc><lb break="no"/>tudinis, et h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c illam; Unitas concipitur ut sim<pc type="hyphenation">-</pc><lb break="no"/>plex et indivisibilis, non composita ex partibus;
+<lb/>contra autem multitudo concipitur ut composita ex
+<lb/>diversis partibus.
+</p>
+<p>
+<lb/>Si unitas esset divisibilis aut si gauderet parti<pc type="hyphenation">-</pc><lb break="no"/>bus, idea multitudinis ipsi conveniret, et tunc uni<pc type="hyphenation">-</pc><lb break="no"/>tas non amplius esset unitas. H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c veritas ut videtur
+<lb/>plerum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> non satis attent<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> consideratur. Mens no<pc type="hyphenation">-</pc><lb break="no"/>stra s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pius falsam facit commixtionem idearum
+<lb/>verarum: Quavis fer<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> occasione solemus consi<pc type="hyphenation">-</pc><lb break="no"/>derare quamcun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> quantitatem tanquam divisi<pc type="hyphenation">-</pc><lb break="no"/>bilem in multitudinem numerosam partium diver<pc type="hyphenation">-</pc><lb break="no"/>sarum. Unio omnium harum partium nihil ali<pc type="hyphenation">-</pc><lb break="no"/>ud est quam repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentatio rudis et vald<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> imper<pc type="hyphenation">-</pc><lb break="no"/>fecta ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> unitatis; quoniam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vis harum par<pc type="hyphenation">-</pc><lb break="no"/>tium actu distincta est <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quavis altera, et una
+<lb/>ab altera non dependet ut subsistat; ne<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> nexum
+<lb/>habent essentialem et necessarium cum se invi<pc type="hyphenation">-</pc><lb break="no"/>cem. Nihilominus tamen h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c unio aut hic nexus
+<lb/>quem mens nostra concipit in quantitatibus sed
+<lb/>satis confus<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>, nos considerare fecit quamlibet quan<pc type="hyphenation">-</pc><lb break="no"/>titatem tanquam reipsa unam, et unitatem tan<pc type="hyphenation">-</pc><lb break="no"/>quam reipsa divisibilem. Hoc modo assueti
+<lb/>sumus ideam unitatis intempestiv<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> conjungere
+<lb/>cum quavis quantitate, et hasce duas ideas di<pc type="hyphenation">-</pc><lb break="no"/>versissimas confundere.
+</p>
+<p>
+<pb facs="2228258" n="77r"/>
+
+<lb/>Quantitas vel quantum dividi potest ideo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> etiam
+<lb/>unum quantum, sed non quatenus est unum sed
+<lb/>quatenus est quantum; Sic qui unum corpus divi<pc type="hyphenation">-</pc><lb break="no"/>dunt non unitatem sed corpus ipsum dividunt
+<lb/>cujus qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet pars respectu sui ipsius manebit
+<lb/>una. Contemplando notiones nostras facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> vide<pc type="hyphenation">-</pc><lb break="no"/>bimus, nullam nobis inesse clariorem et distinctio<pc type="hyphenation">-</pc><lb break="no"/>rem quam unitatis, siquidem illius natura et
+<lb/>proprietas sit esse indivisibilem et incompositam.
+<lb/>Nullam aliam regulam vel mensuram habet
+<lb/>quam se ipsam; et illa sola est mensura aut
+<lb/>regula i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>utabilis ad quam omnes numeri <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sti<pc type="hyphenation">-</pc><lb break="no"/>mantur. Et hoc sensu unitas et numeri intelligi<pc type="hyphenation">-</pc><lb break="no"/>biles sunt ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> clar<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> menti nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt
+<lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentes, et qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in quantitatibus sensibilibus <add>realiter</add> non
+<lb/>existunt, sed ipsis tantummodo inserviunt pro men<pc type="hyphenation">-</pc><lb break="no"/>sura, quando nempe una quantitas per alteram
+<lb/>mensurari potest, sicuti hi numeri intelligibi<pc type="hyphenation">-</pc><lb break="no"/>les mensurantur per unitatem aut per alios
+<lb/>numeros. In hunc finem ex diversis quantita<pc type="hyphenation">-</pc><lb break="no"/>tibus comparatis et homogeneis seligitur qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>dam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vices unitatis sustinet aut qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> illam
+<lb/>repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentat ejus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> nomen accipit: Plerum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ta<pc type="hyphenation">-</pc><lb break="no"/>men accidit ut unitate ita determinata, alia in<pc type="hyphenation">-</pc><lb break="no"/>super sumatur pro unitate quantitas <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> priori diver<pc type="hyphenation">-</pc><lb break="no"/>sa. Si h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c nova superat priorem eam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ali<pc type="hyphenation">-</pc><lb break="no"/>quoties continet pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cis<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> vel sine residuo, erit
+<lb/>illa multitudo respectu hujus. Sumto <abbr>ex. gr.</abbr> pro
+<lb/>unitate pollice, deinde vero pro unitate etiam
+<lb/>pede, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c nova unitas est multitudo respectu
+<lb/>prioris. At<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> si nova est minor quam prior
+<lb/>vel si in hac aliquoties est contenta abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> resi<pc type="hyphenation">-</pc><lb break="no"/>duo, prior erit multitudo respectu nov<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Sed si per
+<lb/>abstractionem consideretur unitas nova tanquam
+<pb facs="2228259" n="77v"/>
+
+<lb/>constituens partem alterius quantitatis accept<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>pro unitate; tunc h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c concipitur tanquam divi<pc type="hyphenation">-</pc><lb break="no"/>sibilis, ut cum pes duodecim continens pollices sumi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+<lb/>pro unitate. Verum hujusmodi unitates
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> divisibiles sunt in multitudines diversarum
+<lb/>partium, nunquam perfect<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> cognit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt tales
+<lb/>quales sunt in se ipsis: Et cum appellantur cog<pc type="hyphenation">-</pc><lb break="no"/>nit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, hoc fit tantum conditionaliter aut per sup<pc type="hyphenation">-</pc><lb break="no"/>positionem, ut judicemus de aliis earum respectu.
+</p>
+<p>
+<lb/>Si unitas supposita et qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dam quantitas cum
+<lb/>illa comparanda habere possunt communem mensu<pc type="hyphenation">-</pc><lb break="no"/>ram, aut si quantitas alia applicata certis aliquot
+<lb/>vicibus unitati et quantitati proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> utram<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>mensurare possit pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cis<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et sine residuo; quanti<pc type="hyphenation">-</pc><lb break="no"/>tas ista proposita vocatur <hi rend="u">co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ensurabilis</hi>. Si
+<lb/>vero nullam habeant communem mensuram, aut si
+<lb/>nulla quantitas possit mensurare utram<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cis<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>et sine residuo; quantitas proposita vocatur <hi rend="u">in<pc type="hyphenation">-</pc><lb break="no"/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ensurabilis</hi>.
+</p>
+<p>
+<lb/>Inutile omnino foret discutere hic velle Stevini
+<lb/>et Scholasticorum insulsam disputationem, an
+<lb/>scilicet unitas sit numerus nec ne. Explicandum
+<lb/>tantummodo est, quid intelligatur per numerum.
+<lb/>Si inh<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rendo etymologi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> termini contendas om<pc type="hyphenation">-</pc><lb break="no"/>nem numerum esse enumerationem plurium uni<pc type="hyphenation">-</pc><lb break="no"/>tatum, unitas non erit numerus. Sed si per nu<pc type="hyphenation">-</pc><lb break="no"/>merum intelligas ideam intelligibilem qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> con<pc type="hyphenation">-</pc><lb break="no"/>ducit ad determinandam mensuram quantitatum
+<lb/>aut quantitates ipsas quas elegeris ad repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sen<pc type="hyphenation">-</pc><lb break="no"/>tandas hasce ideas, quid tunc impedit quo minus
+<lb/>unitas inter numeros ponatur? Alterutro ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>hoc sensu vel utro<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> usus obtinuit ut unitas etiam
+<lb/>comprehenderetur sub generali hoc nomine numeri;
+<lb/>siquidem vulgo dicimus quantitates co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ensurabiles
+<lb/>inter quas unitatem primam ponimus, esse in ratione
+<lb/>numeri ad numerum.
+</p>
+<p>
+<pb facs="2228260" n="78r"/>
+
+<lb/>Si unitas exposita alicui quantitati aliquoties
+<lb/>applicetur eam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> exact<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et sine residuo mensuret,
+<lb/>quantitas ista vocatur <hi rend="u">integra</hi>, quoniam unitas ex<pc type="hyphenation">-</pc><lb break="no"/>posita illam metitur eodem modo quo unitas
+<lb/>lntelligibilis metitur certum quendam numerum.
+<lb/>Accepta quantitate unius pedis pro unitate, erit
+<lb/>quantitas quatuor pedum quantitas integra, quo<pc type="hyphenation">-</pc><lb break="no"/>niam mensurata est quater et sine residuo per
+<lb/>quantitatem unius pedis, sicuti numerus intelli<pc type="hyphenation">-</pc><lb break="no"/>gibilis 4 per <del><gap/></del> unitatem simplicem. Sed
+<lb/>si unitas exposita non metitur exact<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> quantitatem
+<lb/>et si aliqua earum partium differentium metiatur
+<lb/>utram<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> sine residuo, sicuti unitas simplex metitur
+<lb/>duos numeros intelligibiles, quantitas nominatur
+<lb/><hi rend="u">fractio</hi> aut <hi rend="u">portio quantitatis</hi> aut <hi rend="u">quantitas frac<pc type="hyphenation">-</pc><lb break="no"/>ta</hi>; ut tres quart<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> partes pedis; quoniam quarta
+<lb/>pars pedis quater continetur in uno pede et ter in
+<lb/>tribus quartis partibus pedis, sicuti unitas quater
+<lb/>est in quatuor et ter in tribus.
+</p>
+<p>
+<fw type="header" place="margin"><hi rend="u">2. <abbr>Reg.</abbr></hi></fw>
+<lb/>Hinc secunda regula fluit qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c est: Quando
+<lb/>mens percipit suas ideas conceptu claro et distincto
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> etiam exprimuntur clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et non ambigu<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>,
+<lb/>comparand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt inter se secundum rationem
+<lb/>quam habere possunt aut <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis aut in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>qualitatis; Et cum ist<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rationes percipiuntur ta<pc type="hyphenation">-</pc><lb break="no"/>les quales in se ipsis sunt, concipiuntur veritates.
+<lb/>Sed si non sunt tales quales sunt, illud quod cre<pc type="hyphenation">-</pc><lb break="no"/>ditur verum est falsum. Ratio est <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis
+<lb/>inter bis tria et inter 6 et in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis inter
+<lb/>duo plus tria et 6. Concipio ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> veritatem, quando
+<lb/>concipio quod bis tria faciunt 6, aut quod 2 + 3
+<lb/>non faciunt 6. Sed puram putam falsitatem
+<lb/>viderem si <del><gap/></del> crederem bis tria non facere 6
+<lb/>aut 2 + 3 facere 6.
+</p>
+<p>
+<lb/>Expressiones rationum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis aut in<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>litatis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> percipiuntur inter duas ideas vocantur <hi rend="u">pro<pc type="hyphenation">-</pc><lb break="no"/>positiones</hi>: <hi rend="u">ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> si rationes sunt ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel reales;
+<pb facs="2228261" n="78v"/>
+
+<lb/>et <hi rend="u">fals<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> si sunt imaginari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel fals<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Mathema<pc type="hyphenation">-</pc><lb break="no"/>tici et Geometr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> distinguunt propositiones suas
+<lb/>in certas species, quales sunt:
+</p>
+<p>
+<lb/><hi rend="u">Axioma</hi> est propositio ut superius memini cujus
+<lb/>cognitio adeo est clara ut in dubium vocari non possit,
+<lb/>ita ut nulla omnino probatione indigeat, velut si
+<lb/>dicatur totum majus esse sua parte.
+</p>
+<p>
+<lb/><hi rend="u">Suppositio</hi> vel <hi rend="u">postulatum</hi> est propositio aliquan<pc type="hyphenation">-</pc><lb break="no"/>tulum minus generalis et minus evidens quam axio<pc type="hyphenation">-</pc><lb break="no"/>ma, sed qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tamen ex <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quo negari vel denegari non potest.
+<lb/>Ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> postulatum ut concedatur sine demonstratione.
+</p>
+<p>
+<lb/><hi rend="u">Theorema</hi> est propositio cujus veritas ex pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mis<pc type="hyphenation">-</pc><lb break="no"/>sis demonstranda est.
+</p>
+<p>
+<lb/><hi rend="u">Problema</hi> aut <hi rend="u">qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stio</hi> est propositio qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> petit
+<lb/>ut detegatur qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dam veritas abscondita, et ut
+<lb/>demonstretur eam detectam esse.
+</p>
+<p>
+<lb/><hi rend="u">Lemma</hi> est propositio qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tantummodo inservit
+<lb/>ad demonstrandas alias qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sequuntur.
+</p>
+<p>
+<lb/><hi rend="u">Corollarium</hi> aut <hi rend="u">consequentia</hi> est propositio de<pc type="hyphenation">-</pc><lb break="no"/>ducta ex alia priori quam immediat<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> sequitur.
+</p>
+<p>
+<lb/>Quemadmodum nunc ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> non omnes sunt <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>liter simplices, sic propositiones sunt etiam plus
+<lb/>minusve composit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ut et earum veritates magis
+<lb/>minusve cognitu sunt difficiles, prout du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ist<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> principales <del><gap/></del> quarum relationem propositiones
+<lb/>ill<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> exprimunt, comprehendunt vel supponunt
+<lb/>plures paucioresve ideas simplices.
+</p>
+<p>
+  <note place="margin"><hi rend="u">3. <abbr>Reg.</abbr></hi></note>
+<lb/>Tertia regula. Omnes scienti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habent pro pri<pc type="hyphenation">-</pc><lb break="no"/>mis principiis et fundamentis propositiones simplicio<pc type="hyphenation">-</pc><lb break="no"/>res et generaliores: quibus semel positis h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c ob<pc type="hyphenation">-</pc><lb break="no"/>servanda veniunt pro deductione veritatum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ab
+<lb/>illis dependent. Primo attent<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et distinct<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> conside<pc type="hyphenation">-</pc><lb break="no"/>rentur at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> exprimantur ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Dein e<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dem
+<lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ide<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> comparentur inter se exactissim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et summo ordin<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>et caut<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> observentur relationes simpliciores at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>universaliores secundum quas propius ad
+<lb/>axiomata accedunt. Applicentur demum his novis
+<pb facs="2228262" n="79r"/>
+
+<lb/>relationibus aut propositionibus qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> illas expri<pc type="hyphenation">-</pc><lb break="no"/>munt, axiomata ipsa prout ipsis conveniunt. H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c
+<lb/>applicatio rit<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> facta et instituta progenerat cogni<pc type="hyphenation">-</pc><lb break="no"/>tionem veritatum simplicium et generalium qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>axiomata presso pede sequuntur. Eodem modo ex
+<lb/>hisce deducuntur ali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> immediat<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> sequentes. Hoc or<pc type="hyphenation">-</pc><lb break="no"/>dine semper veritates magis composit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et specialiores
+<lb/>ex simplicioribus et universalioribus eliciuntur.
+</p>
+<p>
+<note place="margin"><hi rend="u">4. <abbr>Reg.</abbr></hi></note>
+<lb/><hi rend="u">Quarta Regula.</hi> Omnes divers<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> applicationes veri
+<lb break="no"/>tatum simpliciorum et generaliorum ad alias minus sim<pc type="hyphenation">-</pc><lb break="no"/>plices et generales, institui possunt hoc modo: si ve<pc type="hyphenation">-</pc><lb break="no"/>ritas propositionis alicujus per se ipsam patet, erit
+<lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c quasi species axiomatis vel suppositionis, et proinde de<pc type="hyphenation">-</pc><lb break="no"/>monstratio ejus est inutilis quia de ea non dubitatur.
+<lb/>Sic ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> sufficit si pronuncietur terminis claris.
+<lb/>Verum si propositio demonstratione opus habet,
+<lb/>aut si ejus veritas non ita clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> liqueat, demonstran<pc type="hyphenation">-</pc><lb break="no"/>da est adhibendo pro hoc definitiones, axiomata
+<lb/>aut suppositiones qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> conceduntur at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> etiam
+<lb/>theoremata, problemata, lemmata et corollaria
+<lb/>quorum veritates jam prius demonstrata fuere.
+</p>
+<p>
+<lb/>Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet enim applicatio veritatis unius ad alium
+<lb/>est instar rationis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatis unius et alterius,
+<lb/>quaternarius est integrum quid cujus binarius est pars:
+<lb/>Totum majus est sua parte: Ecce duas veritates.
+<lb/>Si nunc applico secundam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> generalior est ad
+<lb/>priorem qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minus generalis est, concipiendo inte<pc type="hyphenation">-</pc><lb break="no"/>grum 4 majus esse sua parte duobus, evidens est
+<lb/>hanc applicationem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quare certo sensu hasce
+<lb/>duas veritates, dico tamen certo sensu, quoniam
+<lb/>hoc discrimen interest quod una respectu alterius
+<lb/>sit particularis. Eodem modo invenitur quod omnis
+<lb/>veritas ordinis inferioris sit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualis isto sensu cuili<pc type="hyphenation">-</pc><lb break="no"/>bet ordinis superioris, quarum divers<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> appilcationes
+<lb/>ad inventionem illius conduxerint.
+</p>
+<p>
+<lb/>Quando ex applicatione veritatis unius ad alte<pc type="hyphenation">-</pc><lb break="no"/>ram, deducitur aut concluditur tertia veritas, hoc
+<pb facs="2228263" n="79v"/>
+
+<lb/>appellatur <hi rend="u">ratiocinatio</hi>, ut in exemplo modo alla<pc type="hyphenation">-</pc><lb break="no"/>to: quatuor est integrum, duo vero ejus pars; verum
+<lb/>integrum majus est sua parte. Ergo integrum qua<pc type="hyphenation">-</pc><lb break="no"/>tuor majus est sua parte duobus.
+</p>
+<p>
+<lb/>Ratiocinationes successiv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt quasi tot diversi
+<lb/>gradus per quos ordine descenditur <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> veritatibus
+<lb/>simplicioribus et generalioribus ad veritates par<pc type="hyphenation">-</pc><lb break="no"/>ticulares et magis compositas. Sic nunquam detegi
+<lb/>potest veritas nova et particularis, abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ut in<pc type="hyphenation">-</pc><lb break="no"/>notescant ad minimum du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> veritates, una magis
+<lb/>altera minus composita, et abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ut <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quari una
+<lb/>possit alteri. Sciri <abbr>ex. gr.</abbr> nequit 17 esse differentiam
+<lb/>numerorum 86 et 69, abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> cognitione harum du<pc type="hyphenation">-</pc><lb break="no"/>arum veritatum, quarum prima quod 86 superet 69, et
+<lb/>secunda quod minor quantitas <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> majori ablata relin<pc type="hyphenation">-</pc><lb break="no"/>quat differentiam earum; et abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ut deinde h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>veritates <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quentur; judicando 17 quod reperitur esse
+<lb/>differentiam ipsorum 86 et 69, subducto hoc ab illo.
+</p>
+<p>
+<lb/>Fateor applicationem harum veritatum genera<pc type="hyphenation">-</pc><lb break="no"/>liorum et simpilciorum ad veritates qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minus
+<lb/>sunt generales et simplices et qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ipsis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quantur
+<lb/>s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pissim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> implicit<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> potius quam explicit<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> fieri
+<lb/>id est per operationem tacitam et secretam, ad
+<lb/>quam non attenditur. Mens tanta cum promtitu<pc type="hyphenation">-</pc><lb break="no"/>dine et facilitate instituit hanc applicationem,
+<lb/>ut veritatem quam inde elicit per se ipsam cla<pc type="hyphenation">-</pc><lb break="no"/>ram esse putet, ac si neutiquam ex axiomatibus pen<pc type="hyphenation">-</pc><lb break="no"/>deret, vel potius ac si ipsa esset axioma.
+</p>
+<p>
+<lb/>Anima adeo parum examinat originem judiciorum
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> format, et ordinem quem formando sequitur,
+<lb/>ut s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pius credat percipere aspectu immediato illud
+<lb/>quod scit non nisi per seriem aliquarum ratiocina<pc type="hyphenation">-</pc><lb break="no"/>tionum quas experientia sensuum aut consideratio
+<lb/>clara certarum veritatum omnibus hominibus sup<pc type="hyphenation">-</pc><lb break="no"/>peditat, et quas habitus toties reiterare facit ut
+<lb/>tandem de illis amplius non cogitent.
+</p>
+<p>
+<pb facs="2228264" n="80r"/>
+
+<lb/>Judicando <abbr>ex. gr.</abbr> numerum binarium esse differen<pc type="hyphenation">-</pc><lb break="no"/>tiam inter 6 et 4, credimus veritatem hanc esse adeo
+<lb/>claram et notam per se ipsam ut ex nulla alia depen<pc type="hyphenation">-</pc><lb break="no"/>dere possit. Parum tunc sumus solliciti ut distinct<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>consideremus unam post alteram hasce duas veritates,
+<lb/>primo quod 6 superet 4, et secundo quod ablata quan<pc type="hyphenation">-</pc><lb break="no"/>titate minore <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> majori remaneat illarum
+<lb/>differentia; ne<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ut dein <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quemus primam cum
+<lb/>secunda ut concludamus duo quod reperimus aufe<pc type="hyphenation">-</pc><lb break="no"/>rendo 4 <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> 6 esse differentiam duorum horum nume<pc type="hyphenation">-</pc><lb break="no"/>rorum. At<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> si verum unquam sit nos non posse
+<lb/>non considerare veritatem hanc particularem 6
+<lb/>superare 4; consideramus tamen illam ita ante
+<lb/>conjunctam et unitam cum illa qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> statim propo<pc type="hyphenation">-</pc><lb break="no"/>nitur, ut confundantur prorsus ac si esset una sola
+<lb/>propositio.
+</p>
+<p>
+<lb/>Magna facilitas cum qua percipimus hujusmodi
+<lb/>veritates in causa est ut illas non contemplemur
+<lb/>tanquam sequelas ex illis <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quibus dependent deductas.
+<lb/>Unde accidit ut illas enunciare nobis sufficiat, et
+<lb/>earum demonstrationes parum curemus vel nexum
+<lb/>quem obtinent cum primis principiis, sicuti pro
+<lb/>aliis facimus ipsis quidem similibus et ex iisdem
+<lb/>principiis fluentibus, sed non ita facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> obviis;
+<lb/>ut si reperienda esset differentia numerorum
+<lb/>vald<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> prolixorum. Ut ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> amplectamur
+<lb/>generaliter demonstrationes omnium veritatum
+<lb/>particularium qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt similes et ejusdem speciei,
+<lb/>debemus clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> exponere veritates generales <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> qui<pc type="hyphenation">-</pc><lb break="no"/>bus omnes <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualiter pendent; servamus tamen li<pc type="hyphenation">-</pc><lb break="no"/>bertatem supprimendi omnes applicationes explici<pc type="hyphenation">-</pc><lb break="no"/>tas harum veritatum, quando mens nostra eas facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>supplere potest per implicitas.
+</p>
+<p>
+  <note place="margin"><hi rend="u">5. <abbr>Reg.</abbr></hi></note>
+<lb/><hi rend="u">Quinta Regula.</hi> Si illi cum quibus loquimur con<pc type="hyphenation">-</pc>
+<pb facs="2228265" n="80v"/>
+
+<lb break="no"/>victi sunt de veritate alicujus propositionis, illam sim<pc type="hyphenation">-</pc><lb break="no"/>pliciter proposuisse sufficiet, ut tum tempori tum labori
+<lb/>parcatur. Sed si de propositone dubitatur, ostendenda
+<lb/>est <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitas quam habet cum alia simpliciori et clari<pc type="hyphenation">-</pc><lb break="no"/>ori. Sed si etiam de hac ambigatur, pariter hujus
+<lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitas cum alia adhuc simpliciori et generaliori exhi<pc type="hyphenation">-</pc><lb break="no"/>benda erit: Hoc ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ordine h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c tertia propositio cum
+<lb/>aliqua quarta qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> etiam simplicior et clarior est, et
+<lb/>similiter h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c quarta cum aliqua quinta <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatur; et
+<lb/>ita consequenter ascendendo semper ad prima principia
+<lb/>in quibus necessario subsistendum est. His ergo omnibus
+<lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatibus rit<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> institutis, veritas propositionis in<pc type="hyphenation">-</pc><lb break="no"/>vict<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> demonstrata est, et quicun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tunc hanc applica<pc type="hyphenation">-</pc><lb break="no"/>tionem percepisset evidenter, non posset non adstipu<pc type="hyphenation">-</pc><lb break="no"/>lari huic veritati.
+<add>
+<lb/><abbr>Ex. gr.</abbr> quadragesima
+<lb/>septima libri primi Euclidis
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> continet decantatissi<pc type="hyphenation">-</pc><lb break="no"/>mum illud theorema pro
+<lb/>cujus inventione Pythagoras
+<lb/>hecatomben Diis immolavit
+<lb/>duabus tantum propositionibus
+<lb/>prius demonstratis nititur
+<lb/>quarum prior est, quod duo
+<lb/>triangula habentia duo la<pc type="hyphenation">-</pc><lb break="no"/>tera <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualia et angulum
+<lb/>interceptum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualem, sint
+<lb/>etiam quoad aream <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualia;
+<lb/>Altera est, quod parallelogra<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>um
+<lb/>sit duplum trianguli super
+<lb/>eadem vel <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quali basi con<pc type="hyphenation">-</pc><lb break="no"/>stituti et ejusdem altitudinis;
+<lb/>H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ips<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> autem propositiones
+<lb/>antecedentes immediat<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> ex axiomatibus deducuntur;
+<lb/>illa ex hoc, quod figur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sibi mutuo congruunt
+<lb/>sunt <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales; et h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c ex hoc quod si <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualibus addas
+<lb/>vel demas <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualia, tota vel residua sunt <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualia.
+</add>
+</p>
+<p>
+<lb/>Mathematici et Geometr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qui supponunt omnes
+<lb/>suas propositiones sibi posse negari exceptis primis prin<pc type="hyphenation">-</pc><lb break="no"/>cipiis, etiam omnes illas demonstrare sustinent
+<lb/>adhibendo h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c sola principia et quas ex illis jam deduxe<pc type="hyphenation">-</pc><lb break="no"/>runt veritates. Duobus tantum utuntur demonstrandi
+<lb/>modis, uno <hi rend="u">positivo</hi> et <hi rend="u">directo</hi> qui penitus naturam
+<lb/>ipsam rei detegit; et altero <hi rend="u">indirecto</hi> ex <hi rend="u">absurdo</hi> de<pc type="hyphenation">-</pc><lb break="no"/>ducto, qui ab hac notione communi dependet; quod
+<lb/>una eadem<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> propositio uno tantum sensu sumta
+<lb/>non possit simul esse vera et falsa; id quod tamen
+<lb/>accideret necessario, si illa qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proponitur et ab
+<lb/>adversario negatur non esset vera.
+</p>
+<p>
+<lb/>Duo isti demonstrandi modi hoc commune habent
+<lb/>quod uter<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> convincat et mentem nostram ad assensum
+<lb/>cogat. Verum directus hanc super indirectum habet
+<lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rogativam quod insuper illustret mentem ei<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>omnino satisfaciat: adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> demonstrationes direct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>long<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> magis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimand<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt quam indirect<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, his<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>proin long<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> anteferend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>; ita ut indirect<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nunquam
+<lb/>adhibend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sint, quando haberi possunt direct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>.
+</p>
+<p>
+<pb facs="2228266" n="81r"/>
+
+<lb/>Tres autem sunt methodi generales qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> de<pc type="hyphenation">-</pc><lb break="no"/>ducunt ad inventionem diversarum veritatum aut
+<lb/>ad solutionem qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stionum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proponuntur. Pri<pc type="hyphenation">-</pc><lb break="no"/>ma vocatur methodus <hi rend="u">Synthetica</hi> aut <hi rend="u">compositionis</hi>
+<lb/>aut simpliciter <hi rend="u">Synthesis</hi>, secunda est <hi rend="u">analytica</hi>
+<lb/>aut <hi rend="u">resolutionis</hi> aut simpliciter <hi rend="u">Analysis</hi>; et tertia
+<lb/>est mixta ex utra<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>.
+</p>
+<p>
+<lb/>Synthesis statim constituit principia, et deinde
+<lb/>ordine ex illis varias consequentias elicit, quas cum
+<lb/>suis principiis iterum copulat, et exinde ostendit
+<lb/>certis formationibus generalibus vel diversis com<pc type="hyphenation">-</pc><lb break="no"/>positionibus veritatum omnes ideas quas compre<pc type="hyphenation">-</pc><lb break="no"/>hendunt. Exact<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> distinguit earum differentias
+<lb/>et relationes; at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> determinat quid fluere debeat
+<lb/>ex diversis earum combinationibus; et tandem quid
+<lb/>varietas earum conjunctionum et disjunctionum
+<lb/>possit producere. At<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> per cognitionem harum
+<lb/>veritatum compositarum docet explicare et re<pc type="hyphenation">-</pc><lb break="no"/>solvere omnes illas qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sibi sunt similes et ejusdem
+<lb/>generis.
+</p>
+<p>
+<lb/>Analysis reducit qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stiones ad certas <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitates,
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> monstrant relationes cognitas <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quibus solutio
+<lb/>earum dependet; et postea comparat inter se duas ideas
+<lb/>principales harum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitatum, faciendo utrin<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> varias
+<lb/>mutationes <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales; ita ut tandem veritates quas
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rit detegat.
+</p>
+<p>
+<lb/>Du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ist<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> methodi multum differunt: Synthesis multo
+<lb/>plura supponit quam Analysis. Aptior est ad infor<pc type="hyphenation">-</pc><lb break="no"/>mandum et docendum alios quam se ipsum. Illi qui
+<lb/>jam sunt versati alios<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> edocere volunt illa uti
+<lb/>debent ab initio donec illis satis clar<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> inculcaverint
+<lb/>usum analyseos. Sed si quis semel ingressus fuerit
+<lb/>methodum analyticam, long<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> facilius deteget
+<lb/>veritates reconditas: H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c methodus nihil plan<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> co<pc type="hyphenation">-</pc><lb break="no"/>acti habet in suis ratiociniis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ordinata sunt modo
+<lb/>omnino simplici, sunt facilia, semper uniformia et
+<pb facs="2228267" n="81v"/>
+
+<lb/>determinata, et non requirunt conatus et appli<pc type="hyphenation">-</pc><lb break="no"/>cationes istas adeo operosas, quas exigunt ratioci<pc type="hyphenation">-</pc><lb break="no"/>nia Syntheseos quando instruendum est. H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c inte<pc type="hyphenation">-</pc><lb break="no"/>rim methodus non minus f<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>cunda et luminosa est
+<lb/>in suis inventis quam simplex et facilis in ratioci<pc type="hyphenation">-</pc><lb break="no"/>nando; et jure merito consideratur tanquam fons
+<lb/>inexhaustus inventorum subtilissimorum totius
+<lb/>matheseos, et tanquam instrumentum aptissimum
+<lb/>non solum ad illam intim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> ediscendam sed etiam ad
+<lb/>inveniendum quicquid subtile in illa habetur.
+</p>
+<p>
+<lb/>Synthesis Geometrarum nunquam ad eum perve<pc type="hyphenation">-</pc><lb break="no"/>nisset gradum quem hoc seculo obtinere videmus,
+<lb/>si Analysis modernorum illam non sustinuisset et
+<lb/>infinita in lucem edidisset egregia inventa qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>etiam perspicacissimos vetustatis mathematicos
+<lb/>latuerunt: Revera impossibile est ratiocinari
+<lb/>modo simul ingeniosiori, magis methodico, profundio<pc type="hyphenation">-</pc><lb break="no"/>ri et compendiosiori. Expressiones literarum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>isti usui inserviunt omnino sunt simplices et fa<pc type="hyphenation">-</pc><lb break="no"/>miliares, et sane nihil menti suppeditari potest
+<lb/>quod ipsi majori sit adminiculo ad detegendas ve<pc type="hyphenation">-</pc><lb break="no"/>ritates; quoniam diminuunt laborem et applicationi
+<lb/>mirum quantum subveniunt. Defigunt quasi
+<lb/>mentem illam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> reddunt attentam ad illud quod qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>rit; commod<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> ipsi ostendunt omnes partes, suffulciunt
+<lb/>imaginationem, et quod pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipuum refocillant me<pc type="hyphenation">-</pc><lb break="no"/>moriam et juvant; verbo dicam mentem perfectissim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>ducunt quo velit. Ita ut illam nihil effugere possit et
+<lb/>semper incedat per viam brevissimam ad veritates ad
+<lb/>quas tendit.
+</p>
+<p>
+<lb/>Fateor modum exprimendi sua cogitata esse pur<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>arbitrarium. Sed cum sit tanti momenti ut non abu<pc type="hyphenation">-</pc><lb break="no"/>tamur vi et capacitate ingenii nostri, obligati sumus
+<lb/>eligere expressiones simplices, et familiares illas<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>parvo numero: Et evitare illas qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nimis barbar<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>sunt vel qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vanam eruditionem sapiunt, quales
+<lb/>sunt quando insulsa quadam affectatione gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ca multa
+<pb facs="2228268" n="82r"/>
+
+<lb/>et citationes non necessarias dictis et scriptis suis
+<lb/>immiscent. Termini obscuri confundunt imaginatio<pc type="hyphenation">-</pc><lb break="no"/>nem; expressiones nimis diffus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et insolit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fatigant
+<lb/>memoriam. Rescindi debet omne quod inutiliter mentem
+<lb/>occupat, quod eam ab applicatione sua deflectit, et
+<lb/>quod ejus activitatem impedit vel conturbat. Nihil
+<lb/>adhibendum est pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sertim in scientiis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pro abstractis
+<lb/>habentur, quod non sit summ<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> necessarium ad attentio<pc type="hyphenation">-</pc><lb break="no"/>nem procurandam. Verum enimvero Analysis hoc obti<pc type="hyphenation">-</pc><lb break="no"/>net bonum quod plerum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> exprimat paucis lineis et modo
+<lb/>vald<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> intelligibili omnes discursus et ratiocinia quibus
+<lb/>Geometria alias integras paginas impleret: Unde fit
+<lb/>ut anima facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> fatigetur et <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Geometria deterrea<pc type="hyphenation">-</pc><lb break="no"/>tur, si aliquantulum nimis sit composita, nisi pro
+<lb/>Duce sumat analysin; e contrario internam quandam
+<lb/>voluptatem percipit quando in analysi multas vi<pc type="hyphenation">-</pc><lb break="no"/>det ideas et veritates unitas modo perquam com<pc type="hyphenation">-</pc><lb break="no"/>pendioso. Et h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c contemplatio tanto sibi jucundior
+<lb/>est quod minus laboris sentit in illis repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentandis sibi,
+<lb/>et quod illas comprehendere et penetrare potest ma<pc type="hyphenation">-</pc><lb break="no"/>jori facilitate.
+</p>
+<p>
+<lb/>Motus mentis incredibili celeritate peragitur.
+<lb/>Vis ejus perrumpit, penetrat et percurrit s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pe uno
+<lb/>momento long<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> plura quam calamus et lingua
+<lb/>integris horis exprimere possent. Sic tarditas ex<pc type="hyphenation">-</pc><lb break="no"/>pressionum, labor et fatigatio impatientem eam
+<lb/>faciunt pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sertim si multitudo, prolixitas et confu<pc type="hyphenation">-</pc><lb break="no"/>sio terminorum non satisfaciant meditationibus suis
+<lb/>ne<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> sequi possint rapiditatem sui motus. Et contra
+<lb/>multum delectamenti capit, si aliqualiter aptare
+<lb/>possit caracteres et signa conceptibus suis intelligi<pc type="hyphenation">-</pc><lb break="no"/>bilibus, et denotare paucis expressionibus curtis et fa<pc type="hyphenation">-</pc><lb break="no"/>cilibus ipsas suas diversas ideas et cognitiones.
+</p>
+<p>
+<lb/>H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hucus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> diximus pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipua sunt
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Matheseos studioso observanda veniunt;
+<lb/>sed insuper attentionem ab illo omnino
+<pb facs="2228269" n="82v"/>
+
+<lb/>requirimus, sine qua san<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> nec ex Lectionibus lib<pc type="hyphenation">-</pc><lb break="no"/>rorum nec ex publicis nostris quicquam proficiet:
+<lb/>studium enim scientiarum mathematicarum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>multis aliis ob claritatem suam pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ferend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>sunt ita comparatum est, ut prout quis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> attentus
+<lb/>est in illis proficiat. Cum quis ad libri cujusdam
+<lb/>Geometrici lectionem se accingit, et anima attentio<pc type="hyphenation">-</pc><lb break="no"/>ne sua non operatur, nihil assequetur; verum
+<lb/>ab infantia assuescendum ad laborem mentis, eo
+<lb/>enim tempore partes cerebri capaces sunt omniva<pc type="hyphenation">-</pc><lb break="no"/>ri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> inflexionis; et facil<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> conciliari potest habi<pc type="hyphenation">-</pc><lb break="no"/>tus attentionis: Sic ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> illi qui in juventute
+<lb/>assueverunt meditari super ideas claras, quas Di<pc type="hyphenation">-</pc><lb break="no"/>vina mathesis abundanter suggerit, idonei sunt
+<lb/>non solum ad omnes scientias, sed etiam ad judi<pc type="hyphenation">-</pc><lb break="no"/>candum solid<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> de omnibus rebus, ad faciendas in<pc type="hyphenation">-</pc><lb break="no"/>ventiones ingeniosas, ad pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>videndas consequentias
+<lb/>et eventus rerum inceptarum, cui ars conjecturandi
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sua principia ex mathesi abstracta petit pluri<pc type="hyphenation">-</pc><lb break="no"/>mum confert: De rebus enim dubiis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> futur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt
+<lb/>aliter non potest judicari quam conjecturando et eli<pc type="hyphenation">-</pc><lb break="no"/>gendo probabilissimum, quodnam autem illud sit, mi<pc type="hyphenation">-</pc><lb break="no"/>rific<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> ope hujus artis elicitur. Interim veritas
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> detegitur in Mathesi abstracta purissima est
+<lb/>ab omnibus dubiis immunis, nullis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> contentionibus ob<pc type="hyphenation">-</pc><lb break="no"/>noxia; quod illam gratam et amabilem reddit est sola
+<lb/>claritas et evidentia, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> etiam mentem pertinacis<pc type="hyphenation">-</pc><lb break="no"/>simam et quasi invitam in suas partes allicit.
+<lb/>Amor voluptatum corporalium et sensibilium nihil
+<lb/>in illa invenit <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo foveatur et sustentetur:
+<lb/>Non affectat sermonis eloquentiam, vana ornamen<pc type="hyphenation">-</pc><lb break="no"/>ta et seductrices istas venustates, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> potius ad
+<lb/>complacendum et adulandum quam vero ad instru<pc type="hyphenation">-</pc><lb break="no"/>endum et illuminandum videntur ab industria huma<pc type="hyphenation">-</pc><lb break="no"/>na invent<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>: Nam communiter videmus quod homi<pc type="hyphenation">-</pc><lb break="no"/>num eloquentia magis persuadeat vi sensuum et
+<lb/>vi rationis quam vi <gap/>ionis; hinc nihil est tam in<pc type="hyphenation">-</pc>
+<pb facs="2228270" n="83r"/>
+
+<lb break="no"/>credibile, quod dicendo non fiat probabile, ut
+<lb/>ipse oratorum Princeps fatetur: Hinc etiam
+<lb/>patet quam perversa sit sciolorum quorundam
+<lb/>consuetudo, qui judicium suum ab externis de ho<pc type="hyphenation">-</pc><lb break="no"/>mine in publico loquente statim ferunt; si enim con<pc type="hyphenation">-</pc><lb break="no"/>cinn<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> et venust<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> loquitur, si dotibus pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ditus est
+<lb/>omnia qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vult cum facilitate, cum gravitate
+<lb/>exprimendi, suo discursui lepores immiscendi, oratio<pc type="hyphenation">-</pc><lb break="no"/>ni splendorem accersendi; hic inquam in ore eo<pc type="hyphenation">-</pc><lb break="no"/>rum pro docto, pro erudito, pro subtili Philosopho,
+<lb/>pro Viro incomparabili habetur, qui suam quam
+<lb/>habet Dignitatem dignissim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> possidet, licet alias
+<lb/>stupidissimus sit stipes, cujus tota scientia con<pc type="hyphenation">-</pc><lb break="no"/>sistit in verbis et garritu inani. Contrarium omnino
+<lb/>evenit, si ille qui solidam eruditionem possidet
+<lb/>difficulter se exprimit, si ipsum deficiunt verba
+<lb/>id quod plerum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> iis accidit qui rebus magis quam
+<lb/>verbis student, qui nucleum magis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimant quam
+<lb/>putamen, hic apud iniquos istos censores pro
+<lb/>indocto et barbaro habebitur, ac si judicium et
+<lb/>ingenium abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> futili ista eloquentia, abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> floscu<pc type="hyphenation">-</pc><lb break="no"/>lis illis Ciceronianis, abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> phrasibus poëticis at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+<lb/>alio verborum mangonio subsistere non posset.
+<lb/>Ingenia dantur satis mediocria, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ob frequentem
+<lb/>exercitationem promta sunt loquenda et parrhi<pc type="hyphenation">-</pc><lb break="no"/>siam nescio quam sibi compararunt, qua quicquid
+<lb/>volunt feliciter proponunt; Hinc ille qui quater
+<lb/>vel quinquies jam conscendit cathedram, qui ibi
+<lb/>audacter garrit, blaterat, distinguit, confundit <abbr>gr.</abbr>
+<lb/>usteron proteron, clamore auditorum au<pc type="hyphenation">-</pc><lb break="no"/>res obtundit; hic dignus est cui laurea imponatur.
+<lb/>O quanta species cerebrum non habet; fallit enim
+<lb/>vitium specie virtutis et umbra. Sed quorsum prola<pc type="hyphenation">-</pc><lb break="no"/>bor, jam extra oleas me video; oportet ut abrumpam
+<lb/>id unicum adhuc addendo, quod studium mathematicum
+<lb/>mutam quidem sed long<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> magis persuasoriam
+<lb/>habet eloquentiam, qua intern<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> con<supplied>vin</supplied>cit et ado<pc type="hyphenation">-</pc><lb break="no"/>lescentum mentem in tempore disponit <supplied>ad cognos</supplied>
+<pb facs="2228271" n="83v"/>
+
+<lb break="no"/>cendam veritatem, ad illam degustandam et colendam.
+<lb/>Voluptas insuper quam eam indagando capiunt summ<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>
+<lb/>idonea est ad efficiendum ut abducantur ab infinitis
+<lb/>occupationibus vanis et periculosis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> eos in disso<pc type="hyphenation">-</pc><lb break="no"/>lutam et effr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>natam vitam dejicere possent. Fre<pc type="hyphenation">-</pc><lb break="no"/>quens etiam usus su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rationis quem ope divin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ma<pc type="hyphenation">-</pc><lb break="no"/>theseos faciunt format in ipsis habitum cogitandi
+<lb/>ordine, ratiocinandi exact<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>, ben<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> distinguendi in quo<pc type="hyphenation">-</pc><lb break="no"/>libet subjecto clarum ab obscuro, verum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> falso, et
+<lb/>id quod evidens est ab eo quod tantum verosimile
+<lb/>est, et proinde judicandi de illo majori confidentia
+<lb/>et soliditate. Vos quos imposterum habebo matheseos
+<lb/>studiosos, nunc compello; si vobis volupe erit
+<lb/>verborum meorum veritatem experiri; excipite l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tos
+<lb/>quos vobis exhibebo matheseos fructus, postquam gna<pc type="hyphenation">-</pc><lb break="no"/>viter si quid acerbi in ejus radicibus videbitur supera<pc type="hyphenation">-</pc><lb break="no"/>veritis; utimini meis curis, vigiliis et laboribus, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ibo
+<lb/>vobis omni qua decet integritate et fidelitate; nihil
+<lb/>celabo, ut quidam facere solent, qui van<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> glo<pc type="hyphenation">-</pc><lb break="no"/>ri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> magis litant quam bono publico; sed <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> vobis vicissim
+<lb/>peto benevolentiam, diligentiam et attentionem, ut vi<pc type="hyphenation">-</pc><lb break="no"/>deam conatus nostros non fore frustraneos, et ut juncta
+<lb/>opera, almam nostram mathesin qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> diu nimis in palla<pc type="hyphenation">-</pc><lb break="no"/>dio hoc sub cineribus latitavit, iterum excitemus et
+<lb/>pristino suo nitori restituamus.
+</p>
+<p>
+<lb/>Interim lauderis benedict<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Deus in s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cula qui vitam et vires subministrasti, exercitium hoc
+<lb/>feliciter ad finem promovendi, ago Tibi gratias pro innumeris beneficiis tuis
+<lb/>quibus me non hodie tantum sed ab utero matris me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> non cumulasti tan<pc type="hyphenation">-</pc><lb break="no"/>tum sed obruisti. Quamvis omnibus tuis beneficiis indignus sim, ne tamen deseras
+<lb/>sed protegas me sub umbra alarum tuarum. Adsis mihi porro auxilio et so<pc type="hyphenation">-</pc><lb break="no"/>latio spiritus tui sancti in omnibus qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mihi accidere possunt sive bona sive
+<lb/>mala, sive l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ta sive tristia ut omnia <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quali animo suscipiam tanquam de paterna manu
+<lb/>tua profecta. Dirige omnes meos gressus ne recedam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> verbo Tuo nec ad dextram
+<lb/>nec ad sinistram. Conserva nos o Domine in pace, protege tuam ecclesiam, hanc provinciam et inclytam
+<lb/>in illa academiam; benedic et docentium et discentium laboribus. Illumina
+<lb/>o Pater luminum corda nostra, ut evitemus omnes erroneas doctrinas nobis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> caveamus
+<lb/>ab inquinamentis falsarum opinionum. Ostende tuis infantibus unicam viam veritatis
+<lb/>Tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> immens<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tern<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> perquam te contemplaturi sumus de facie ad faciem in sempiterna s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cula.
+</p>
+<p>
+<lb/>Dixi.
+</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

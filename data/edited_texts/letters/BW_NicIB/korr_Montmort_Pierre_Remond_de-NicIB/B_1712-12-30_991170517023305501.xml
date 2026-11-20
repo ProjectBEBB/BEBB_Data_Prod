@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517023305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Rémond de Montmort. Brüssel, 30. Dezember 1712</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517023305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517023305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Dieser Brief scheint nicht abgeschickt worden zu sein, denn Pierre Remond bestätigt am 13. Januar 1713 nur den Empfang eines einzigen Briefes vom 30.12.1712 aus Brüssel. Auf fo.199v befindet sich nach dem Brieftext eine Abschrift des ersten Abschnittes des Briefes von Pierre Varignon an Joh.I B. vom 29.12.1712 von der Hand Nic.I B.s. Auf fo.200 schliesst sich die Abschrift eines Teils der Abhandlung "De motu corporum gravium ... von Joh.I B. (AE 1713, pp.77-95) an</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23442">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.199-200</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517023305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433682005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059311</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl. (4 S.)<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Brüssel?]</origPlace>
+              <date when="1712-12-30">30 Xbris 1712</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2800866" ref="https://d-nb.info/gnd/4008460-7">Brüssel</placeName>
+          <date when="1712-12-30"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517023205501" type="prev"/>
+          <ptr target="B_991170517023105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542472">Bernoulli, Nikolaus</persName>
+            <note type="lebensdaten">(1687-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118674978">Burnet, Gilbert</persName>
+            <note type="lebensdaten">(1643-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119115700">Collins, John</persName>
+            <note type="lebensdaten">(1625-1683)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118720066">Halley, Edmond</persName>
+            <note type="lebensdaten">(1656-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156687535">Cuvier de Montsoury, Pierre</persName>
+            <note type="lebensdaten">(-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119115719">Oldenburg, Henry</persName>
+            <note type="lebensdaten">(1617-1677)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Shuttleworth, Obadiah</persName>
+            <note type="lebensdaten">(1675?-1734)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118771167">Wallis, John</persName>
+            <note type="lebensdaten">(1616-1703)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-11-05" who="SG">automatisch transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038692/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1038694" n="199v"/> <pb facs="1038695" n="200r"/> <pb facs="1038696" n="200v"/>
+
+<pb facs="1038693" n="199r"/>
+
+  <opener><salute>Monsieur</salute></opener>
+  <p><lb/>Vos deux dernieres Lettres datées du 8<hi rend="sup">e</hi> Juin et 5<hi rend="sup">e</hi> 7bre m’ont été rendues la premiere en Angleterre et l’autre il y a quelques semaines en Hollande; j’ai manqué d’y repondre faute de loisir, les inquietudes du voyage ne me fournissant pas assés de repos et la tranquillité d’esprit necessaire pour travailler aux matieres dont Vous remplissez toujours Vos belles lettres. Je tarde meme encore de le faire, parce que j’espere d’avoir l’occasion en peu de jours de Vous voir à Paris, et de nous entretenir plus agreablement qu’on ne le peut faire par des lettres. Je me flatte aussi que j’aurai l’honneur de parler à Mrs. de Waldegrave et l’Abbé d’Orbais et de lever entierement la dispute, à laquelle Vous avez donné occasion. Je me trouve fort honoré de l’estime partiguliére qu’ils ont pour moy, et je Vous supplie de les assurer de ma reconnoissance et de mes tres humbles respects. Je partirai d’icy, s’il plait à Dieu, demain par la poste et je compte arriver en deux jours à Paris; je souhaiterois de Vous pouvoir apporter quelques nouveautés d’Angleterre, ou du moins de Vous pouvoir apprendre ce que Vous desirez de spavoir touchant les Livres qu’on doit imprimer à Londres; comme j’etois deja de retour en Hollande, lorsque je <choice><orig>recus</orig><reg>reçus</reg></choice> Votre derniere Lettre, et que pendant le sejour que j’ai fait à Londres je n’avois rien entendu parler des Livres dont Vous faites mention, je n’ai pas pu m’informer la dessus. La nouvelle edition des principes de Mr. Newton doit etre achevéece mois-ci, comme aussi un traité qu’on a imprimé jussu societatis et dont le titre est Collectio Epistolarum Collinsii; ce sont des Lettres de Mrs. Newton, Leibnits, Oldenburg, Wallisius, collins et d’autres, par lesquelles on veut prouver que Mr. Newton est l’Auteur du calcul des infiniment petits, et que Mr, Leibnits en a vû les principes chez Mr. Collins, et qu’il les a depuis publié mutato nomine et notationis modo. Ce Livre ne viendra pas en vente, mais il sera distribué aux plus celebres Geometres, qui seront les juges de cette affaire. J’ai vu à Salisbury chez Mr. Burnet un Geometre nommé Shuttelworth, qui à ce qu’il m’a dit publiera dans les transactions un nouveau systeme de Musique; je ne soai si c’est le même dont Vous parlez dans Vêtre Lettre. Mr. Halley fait imprimer Menelai Sphaericorum Libros Tres. On imprime à Bâle le traité de mon Oncle de Arte Conjectandi; mon Cousin a pris la resolution de l’imprimer apres mon depart à mon insoû et à celui de mon Oncle; il en a confié le soin et la correction à un qui n’entend point de tout ces choses;c’est un dtyo à l’egard de ce calcul. Voilà tout ce que je puis Vous donner de nouvelles. Vomme nous entrons par la grace de Dieu dans une nouvelle année, je souhaite que Vous puissiez pendant le cours non seulement de cette année, mais aussi de plusieurs autres suivans jouir d’une parfaite et meilleure santé que Vous n’en avez fait cette année passée; ce sont les voeux sinceres de Votre tres humble Mr. 30 Xbris 1712.
+  </p>
+</div>
+  <div type="attachment">
+    <head>[Johann I Bernoulli an Varignon. 29.Dezember 1712]</head>
+  <p>Vous avez rempli mon esperance au dela de mon attente par le grand soin et la diligence que Vous Vous étes donnée à procurer des lettres de recommandation en faveur de mon Neveu; ces Lettres me paroissent si efficaces que je m’en promets tout l’effet que l’on peut souhaiter; aussi les envoyai-je le premier ordinaire aprez les avoir reques à Mr. Herman en le priant de les expedier incontinent et de les accompagner de sa recommandation la plus forte, ce qu’il ne manquera pas de faire, comme j’espere: cependant agréés que je Vous fasse icy mes remerciemens et que je Vous offre en revanche mon coeur plein de reconnoissance avec tous mes petis services, dont je suis capable, et que je Vous remets à vêtre pleine disposition: ne m’epargnez pas, je Vous en conjure. Mon Neveu sera peut-être à Paris avant cette Lettre, il s’acquittera de son devoir envers Vous quand il sgaura les bons offices que Vous luy avez fait dans l’affaire de P. Ayez la bonté de le mener chez les RR. PP. Banduri et Quirini, pour leur faire un compliment en action de graces, tant de sa part que de la mienne; je leur suis en mon particulier tres redevable de la tres obligeante maniere dont ils ont bien voulu seconder nos souhaits. [Erster Abschnitt eines Briefes von Johann I Bernaulli an Varignon vom 29.XII 1712, kopiert durch Nikolaus I Bernoulli.</p>
+  </div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430082205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Gabriel Cramer. Basel, 27. November 1743</title>
+          <title type="alt">1743.11.27: Bernoulli, Daniel (1700-1782) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000054842</title>
+          <title type="alt">1743-11-27_Bernoulli_Daniel-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430082205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430082205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms Suppl.384, fo. 9-10</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430082205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406986705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054842</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1743-11-27">ce 27 9bre 1743</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1743-11-27"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430083005501" type="prev"/>
+          <ptr target="B_991170430081105501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-DanIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116745487">Herrenschwand, Johann Friedrich</persName>
+            <note type="lebensdaten">(1715-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1017268398">König, Emanuel</persName>
+            <note type="lebensdaten">(1698-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-23" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-11-05" who="MK">Transkr. kontr., TEIcode kontr.</change>
+        <change when="2025-08-25" who="MK">Transkr. kontr., TEIcode erg., korr., keys, rs</change>
+        <change when="2025-08-24" who="MK">TEIcode erg., korr.</change>
+        <change when="2025-08-22" who="MK">Transkription korrigiert mit Abfertigung BGE, TEIcode erg., korr.</change>
+        <change when="2025-06-13" who="RG">pb, lb, zusätzliche Anpassungen</change>
+        <change when="2024-02-23" who="RG">Kleinere Anpassungen und Referenzierungen (ohne Biblio)</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta25055345583f21a1/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="0/11" n="1"/>
+  <p>
+      <lb/>Vous me faites un sensible plaisir, Monsieur, de m’employer toutes
+      <lb/>les fois que je puis vous etre utile, soit dans les petites affaires, soit dans d’autres
+      <lb/>de plus grande importance, si vous m’en jugez capable. Je n’a<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> pas
+      <lb/>manqué de prouver à <abbr>Mr.</abbr> <rs key="pers_DE-588-116745487" type="person">Herrenschwand</rs> toutes les facilités pour
+      <lb/>faire epreuve de son secret, mais il ne s’est trouvé ici qu’un seul
+      <lb/>malade pour son specifique. <choice><orig>il</orig><reg>Il</reg></choice> a laissé à <abbr>Mr.</abbr> le <abbr>Prof.</abbr> <rs key="pers_DE-588-1017268398" type="person">Koenig</rs> une
+      <lb/>certaine quantité de sa poudre; <subst><del><gap/></del><add>ce</add></subst>pendant personne n’en a encore
+      <lb/>demandé; j’ai donné aussi des adresses à <abbr>Mr.</abbr> <rs key="pers_DE-588-116745487" type="person">Herrenschwand</rs> pour
+      <lb/><rs key="place_GEO-2973783" type="place">Strasbourg</rs> et lu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> ai promis de le faire connoitre à l’<rs type="organisation" key="org_DE-588-35019-9">Academie des sciences</rs>
+      <lb/>de <rs key="place_GEO-2988507" type="place">Paris</rs>, quand il y sera arrivé. Quant au sujet de
+      <lb/>votre seconde <rs key="B_991170514632605501" type="letter">lettre</rs>, j’aura<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> l’honneur de vous dire, que les Chi<pc type="hyphenation">-</pc><lb break="no"/>rurgiens d’ici, mais bon Dieu quels chirurgiens! font un corps à
+      <lb/>part entierement independant de la <rs type="organisation" key="org_DE-588-5166923-7">faculté de Medecine</rs>; Ces
+      <lb/>Chirurgiens font un <rs type="organisation" key="org_DE-588-5085177-9">corps de Maitrise</rs>, tel que le <rs type="organisation" key="org_DE-588-2170180-5">corps de cordon<pc type="hyphenation">-</pc><lb break="no"/>niers</rs>, <rs type="organisation" key="org_DE-588-1085883264">[corps de] tailleurs</rs> et autres Artisans; un homme qui veut etre
+      <lb/>recu dans ce corps fait une epreuve de s<subst><del><gap/></del><add>on</add></subst> art, qui consiste
+      <lb/>à composer un emplatre en presence des Maitres, sur quoi ils
+      <lb/>sont recus: je crois qu’il en est de mem<unclear>e</unclear> dans toutes les villes Im<pc type="hyphenation">-</pc><lb break="no"/>periales <choice><orig>ou</orig><reg>où</reg></choice> qui l’ont eté anciennement; les corps de metier y ont leurs
+      <lb/>privileges et les chirurgiens y font un semblable corps. Il faut pourtant
+      <lb/>dire aussi, que nous avons ici quelques fois des Chirurgiens plus habiles
+      <lb/>et ceux-ci ont coutume de s’adresser à la <rs type="organisation" key="org_DE-588-5166923-7">faculté de Medecine</rs>, y subissant
+      <lb/>leurs examens et lorsqu’on les trouve le meriter, on les recoit Docteurs
+      <lb/>en chirurgie et on leur accorde tous les privileges qui y sont attachés.
+      <lb/><choice><orig>et</orig><reg>Et</reg></choice> nos status à cet egard sont à peu prés les memes que ceux qu’on observe
+      <lb/>pour recevoir les autres Docteurs. Voici, mon cher monsieur, ce que je
+<pb facs="0/12" n="2"/>
+      <lb/>puis vous dire sur votre <rs type="biblio">article</rs> et si cela n’est pas suffisant, je vous
+      <lb/>prie de detailler d’avantage vos questions.
+  </p>
+  <p>
+      <lb/>On m’a dit qu’on a inseré dans la nouvelle edition de <rs key="place_GEO-2660646" type="place">Geneve</rs>
+      <lb/>des <rs type="biblio">principes</rs> de <rs key="pers_DE-588-118587544" type="person">Newton</rs> les <rs type="biblio">traités sur le flux et reflux</rs> qui ont
+      <lb/>emporté les prix; si cela est vrai j’aurois souhaité qu’on m’en eut
+      <lb/>averti, car j’aurois pû faire plusieurs additions à ma <rs key="biblio_JHW6KKGC" type="biblio">piece</rs> pour
+      <lb/>faire voir le merveilleux accord entre mes formules et les experiences
+      <lb/>ou observations, dont je n’etois pas informé auparavant. Faites<supplied>,</supplied> je
+      <lb/>vous prie<supplied>,</supplied> mille complimens de ma part à <abbr>Mr.</abbr> <rs key="pers_DE-588-100289665" type="person">Jalabert</rs>; j’espere
+      <lb/>qu’il s’est entierement retabli.
+  </p>
+  <closer>
+    <salute>Je suis toujours avec tous les
+      <lb/>sentimens d’amitié et d’estime possibles,
+      <lb/>Monsieur,
+      <lb/>votre tres humble et tres
+      <lb/>obeïssant Serviteur
+    </salute>
+    <signed>
+      <lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+    </signed>
+    <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1743-11-27">2<subst><del><gap/></del><add>7</add></subst> 9<hi rend="sup">bre</hi>
+      <lb/>1743</date>
+    </dateline>
+  </closer>
+  <postscript>
+    <p>
+        <lb/><abbr>P.S.</abbr> J’ai oublié de vous dire, qu’il
+        <lb/>y a toujours un Docteur en Medecine
+        <lb/>constitué par notre <rs type="organisation">Magistrat</rs>, qui preside
+        <lb/>aux examens des Chirurgiens.
+    </p>
+  </postscript>
+<pb facs="0/13" n="3" type="empty"/>
+<pb facs="0/14" n="4"/>
+  <closer>
+    <note type="editorial">mit Siegel</note>
+    <address>
+      <addrLine>Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs></addrLine>
+      <addrLine>Professeur en Mathematique</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2660646" type="place">Geneve</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

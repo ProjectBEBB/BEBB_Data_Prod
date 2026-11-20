@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517066505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 28. Oktober 1741</title>
+          <title type="alt">1741.10.28: Bernoulli, Nicolaus (1687-1759) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000059083</title>
+          <title type="alt">1741-10-28_Bernoulli_Nicolaus-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517066505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517066505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Original BPU Genève, Ms. Suppl. 384, fol. 71-72</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23344">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.45v-46v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517066505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433686205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059083</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1741-10-28">ce 28. 8bre 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1741-10-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517066705501" type="prev"/>
+          <ptr target="B_991170517065505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-26" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-24" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-24" who="RG">Mathematische Formeln (etc.) angepasst.</change>
+        <change when="2025-07-24" who="RG">Personen und Briefe ausgezeichnet</change>
+        <change when="2025-07-24" who="RG">Zeilabstände eingefügt</change>
+        <change when="2025-07-24" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change when="2025-07-23" who="RG">&amp; mit etlig ersetzt, ausser in den Formeln</change>
+        <change when="2023-09-21" who="RG">"prev" und "next" in correspContext eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="0/57" n="71r"/>
+  <p>
+      <lb/>Il m’est arrivé co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e à Vous, Monsieur, d’avoir été empeché
+      <lb/>par des affaires indispensables de répondre plûtôt à l’honneur
+      <lb/>de Vôtre derniére <rs key="B_991170517066705501" type="letter">Lettre</rs>. Je Vous suis obligé de la peine que
+      <lb/>Vous avés prise de me co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquer Vôtre méthode de réduire
+      <lb/>les lignes du 3.<hi rend="sup">me</hi> Ordre aux quatre Classes de <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>.
+      <lb/>Je vois avec plaisir qu’elle a beaucoup de rapport avec la
+      <lb/>mienne, et que les deux méthodes réviennent à peu près à la
+      <lb/>même chose, quatre des 8 cas, que j’avois distingués étant com<pc type="hyphenation">-</pc><lb break="no"/>pris dans les autres. Au dénombrement que Vous faites des
+      <lb/>4 Classes de <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> Vous joignés dans Vôtre <rs type="letter" key="B_991170517066705501">Lettre</rs> une
+      <lb/>reflexion à laquelle je trouve quelque chose à rédire. Vous dites
+      <lb/>que <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> examine dans les 4<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> prémiers Numeros de
+      <lb/>la premiére Classe les cas où l’équation <formula>aq^{3}+bq^{2}+cqp^{2}+dp^{3}=0</formula>
+      <lb/>a trois racines réelles inégales; dans les N.<hi rend="sup">os</hi> 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> les cas où cette
+      <lb/>équation <choice><orig><formula>aq^{3}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>aq^{3}+\mathrm{\;etc.}</formula></reg></choice> a deux racines imaginaires; et dans les N.<hi rend="sup">os</hi> 7, 8, 9, 10, 11
+      <lb/>les cas où elle a deux racines égales; tout cela est très vrai, mais
+      <lb/>je ne comprens pas le raisonnement, par lequel Vous le prouvés.
+      <lb/>Je ne voi pas quelle liaison il y a entre les deux racines imaginai<pc type="hyphenation">-</pc><lb break="no"/>res ou les deux racines égales de l’équation <choice><orig><formula>aq^{3}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>aq^{3}+\mathrm{\;etc.}</formula></reg></choice> et les deux
+<pb facs="0/58" n="71v"/>
+      <lb/>racines imaginaires ou égales de l’équation <formula>v^{2}-\alpha t^{2}=0</formula>, et je ne sai
+      <lb/>pas quel sens il faut donner à <del><gap/></del><add>cette <subst><del><gap/></del><add>propo</add></subst>sition</add> <quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>les deux racines imaginaires
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>ou égales doivent rester dans l’équation qui se fera des plus hauts termes
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><formula>tv^{2}</formula> et <formula>\alpha t^{3}</formula><choice><orig><g ref="#quote">„</g></orig><reg/></choice><supplied>.</supplied></quote> Si l’on suppose que les 3 racines de l’équation <formula>aq^{3}+bq^{2}p</formula>
+      <lb break="no"/><formula>+cqp^{2}+dp^{3}=</formula> soient <formula>\beta p</formula>, <formula>\gamma p</formula>, <formula>\delta p</formula>, et que pour <formula>q</formula> on substitue <formula>\delta p</formula>, on trou<pc type="hyphenation">-</pc><lb break="no"/>vera <choice><orig><formula>A=\overline{\beta\delta\delta+\gamma\delta\delta-\delta^{3}-\beta\gamma\delta}\cdot app</formula></orig><reg><formula>A=(\beta\delta^{2}+\gamma\delta^{2}-\delta^{3}-\beta\gamma\delta)ap^{2}</formula></reg></choice>; <choice><orig><formula>C=\overline{\beta\delta\delta+\gamma\delta\delta-2\beta\gamma\delta}\cdot ap</formula></orig><reg><formula>C=(\beta\delta^{2}+\gamma\delta^{2}-2\beta\gamma\delta)ap</formula></reg></choice>, <formula>F=-a\beta\gamma\delta</formula>,
+      <lb/>et <formula>\alpha=</formula> au quarré de la quantité <choice><orig><formula>\frac{apr\delta\delta\cdot\overline{\beta-\gamma}}{2A}</formula></orig><reg><formula>\frac{apr\delta^{2}(\beta-\gamma)}{2A}</formula></reg></choice>; or ce quarré dévient
+      <lb/>negatif quand les deux racines <formula>\beta p</formula> et <formula>\gamma p</formula> sont imaginaires, et il dévient
+      <lb/><formula>=0</formula>, quand ces racines sont égales; ce qu’il falloit prouver.
+  </p>
+  <p>
+      <lb/>J’ai pensé à la difficulté qui se présente quand on veut appliquer la
+      <lb/>méthode de <abbr>Mr.</abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> à la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ation de la suite <choice><orig><formula>1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\mathrm{pp.}</formula></orig><reg><formula>1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\mathrm{\;etc.}</formula></reg></choice>
+      <lb/>par le moyen de la suite qui exprime le sinus d’un arc d’une
+      <lb/>Ellipse quelconque. Je dis que cette suite <choice><orig><formula>y=x-\frac{aa}{6b^{4}}x^{3}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>y=x-\frac{a^{2}}{6b^{4}}x^{3}+\mathrm{\;etc.}</formula></reg></choice> ne
+      <lb/>donne pas la valeur du sinus <formula>y</formula> pour l’arc <formula>x</formula> exactement quand elle
+      <lb/>n’est pas convergente, or dès que l’arc <formula>x</formula> surpasse une certaine
+      <lb/>quantité la suite dévient divergente, de sorte qu’on ne peut plus
+      <lb/>appliquer le raisonnement de <abbr>Mr.</abbr> <rs key="pers_DE-588-118531379" type="person">>Euler</rs>, lequel par hazard a
+      <lb/>seulement lieu dans le Cercle, par ce que les quantités qui
+      <lb/>rendent la suite <choice><orig><formula>x-\frac{aa}{6b^{4}}x^{3}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>x-\frac{a^{2}}{6b^{4}}x^{3}+\mathrm{\;etc.}</formula></reg></choice> divergente evanouissent
+<pb facs="0/59" n="72r"/>
+      <lb/>lorsque <formula>a=b</formula>. Je n’ai pas le tems de m’étendre davantage et de
+      <lb/>démontrer ce que je viens d’avancer, c’est pourquoi je Vous
+      <lb/>laisserai le plaisir d’en découvrir la verité par Vous même.
+      <lb/>Mandés<choice><orig> </orig><reg>-</reg></choice>moi, s’il Vous plait, si <abbr>Mrs.</abbr> <rs type="person">Cramer</rs> et <rs type="person">Philibert</rs> pensent
+      <lb/>faire imprimer les <rs type="biblio">Tables Gnomoniques</rs>, et s’ils sont bien avancés
+      <lb/>dans l’impression des autres Ouvrages.
+  </p>
+  <closer>
+  <salute>
+      <lb/>J’ai l’honneur d’étre avec une considération parfaite
+      <lb/>Monsieur
+      <lb/>Vôtre très humble et très-
+      <lb break="no"/>obeissant Serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-119166895" type="person"><choice><orig>N</orig><reg>N. </reg></choice>Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+  </signed>
+  <dateline>
+      <lb/>Bâle ce <date when="1741-10-28">28. <abbr>8<hi rend="sup">bre</hi></abbr> 1741.</date>
+  </dateline>
+  </closer>
+<pb facs="0/60" n="72v"/>
+  <closer>
+    <address>
+      <addrLine>À Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> très celébre</addrLine>
+      <addrLine>Professeur en Mathématiques <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr> <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine> <rs key="place_GEO-2660646" type="place">Geneve</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

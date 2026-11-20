@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170514976005501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean-Pierre de Crousaz. Basel, 07.
+            August 1716</title>
+          <title type="alt">000055769</title>
+          <title type="alt">1716-08-07_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Kommentierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514976005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514976005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "à Mr. de Crouzas [sic!]"</p>
+          <p>Bezug
+            des Briefes zu Bänden der gedruckten Bernoulli Werkausgabe: Op. LXVIII</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Fragment des Originals in Lausanne (Mlle. de Crousaz) [O. Spiess]</p>
+          <p n="MARC-544">Weitere Abschrift unter L Ia 908:Bl.110-112</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24623">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.4</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514976005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432936905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055769</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>8 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1716-08-07">ce 7. Aoust
+              1716</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1716-08-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514976105501" type="prev"/>
+          <ptr target="B_991170514975905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Er hat damit begonnen, ihnen die Elemente der Geometrie beizubringen, derer sie bedürfen. Was Crousaz über den Kompass als Hilfsmittel zur Breitenbestimmung gesagt hat, kann er ebensogut hinsichtlich der Längenbestimmung sagen. Die Seeleute schätzen in der Tat Länge und Breite mittels der Striche auf dem Kompass. Bernards Kritik in den Nouvelles de la république des lettres hat Joh. B. noch nicht gesehen. Anfänger in der Arithmetik sollten nicht durch lange Beweise gelangweilt werden. Wenn sie fortgeschritten sind, werden sie die Beweise der Regeln, die sie routinemässig gelernt haben, leicht selbst führen. Es gibt in der Tat Formeln für die Evolute mittels Differentialen erster Ordnung. Joh. B. hat diese in den AE [Martii] 1701 [= Op. LXVIII] auf p.137 gegeben. Dennoch setzen diese Differentiale zweiter Ordnung voraus. Crousaz muss ihm schon die Stelle aus den Mémoires angeben, an der Guisnée die ihm gestellten Fragen beantwortet. Joh. B. liest die Mémoires nicht von vorne bis hinten durch.</p>
+        <p>Joh. B. hat wegen seines Rektorats auf den von [George Joseph] Tacheron [Matrikel Basel IV, Nr.2660] überbrachten Brief bis jetzt nicht antworten können. Er teilt Crousaz endlich seine Bemerkungen zum Kapitel über Musik in dessen Traité du beau mit. Insbesondere korrigiert er Crousaz' Behauptung auf p.246, dass bei zwei Saiten aus gleichem Material und von gleicher Länge, die von gleichen Gewichten gespannt werden, die dickere einen höheren Ton als die dünnere gibt. Das Gegenteil ist der Fall, wovon man sich im Experiment, das Joh. B. angibt, und auch durch Überlegung überzeugen kann. Wenn nämlich im Fall der dünneren Saite weniger Materie gespannt werden muss, wird die Federkraft grösser und damit werden die Schwingungen schneller, was einen höheren Ton gibt. Man kann sich auch die dicker Saite aus vier Fasern, die dünnere aus einer Faser gebildet vorstellen. Die Anzahl der Schwingungen [pro Zeiteinheit] verhalten sich dann wie 1 : 2, d.h. die dünnere tönt eine Oktave höher. Auch die Bemerkung auf p.255, dass der Ton eines Glases höher wird, wenn man es mit mehr Wasser füllt, widerspricht der Erfahrung. Offensichtlich hat Crousaz keine Versuche angestellt, bevor er sein Buch schrieb. Er war wohl durch einen Erinnerungsfehler voreingenommen. Auch hier ist die Federkraft des Glases mit weniger Masse grösser, daher der Ton höher. Wenn man mit dem Finger den Rand des Glases anstreicht, beobachtet man, dass das Wasser sich kräuselt. Dies ist ein Zeichen dafür, dass auch das Wasser an den Schwingungen des Glases teilhat und einen Teil der Federkraft absorbiert. Nur wenn das Wasser im Glas unerschütterlich wäre und es den von ihm bedeckten Teil des Glases unerschütterlich machen würde, wäre der Ton bei mehr Wasser höher, weil weniger Glas angeregt würde. Die Herren de Villars und ihr Hofmeister Tacheron folgen seinen Lektionen mit Aufmerksamkeit. Er ist sehr zufrieden, wie prompt sie verstehen, was er ihnen zeigt.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-131366858">Bernard, Jacques</persName>
+            <note type="lebensdaten">(1658-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-105511176X">Guisnée, N.</persName>
+            <note type="lebensdaten">(-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089851545">Chandieu, Benjamin de</persName>
+            <note type="lebensdaten">(1701-1784)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-114228039X">Tacheron, Georges Joseph</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1423982150">Chandieu-Villars, Esaïe de</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-20" who="SG">Bild- und Seitenanker berichtigt; XML-Formatierung bereinigt. Transkriptionszeichen unverändert.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1716-08-07_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de"/>
+      </change>
+        <change when="2017-07-14" who="FN">Wissenschaftliche Kommentierung abgeschlossen</change>
+        <change when="2010-02-04" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074399/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Ab «les vibrations ne fassent» folgt der Editionstext der erhaltenen Lausanner Abfertigung
+          (BCU Lausanne, IS 2024/XII/281, S. 281–284). Das verlinkte Digitalisat zeigt Bernoullis
+          Basler Entwurf (UB Basel, UBH L Ia 656, Nr. 4).</p>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1716-08-07_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+
+<pb facs="1074400" n="1"/>
+<opener><salute>
+<lb/> Monsieur</salute></opener>
+  <p>
+<lb/>La charge de Recteur de <rs type="organisation" key="org_DE-588-36146-X">nôtre université</rs>
+<lb/> qui me fut conferée dans le temps que Mr. <rs type="person" key="pers_DE-588-114228039X">Tache<pc type="hyphenation">-</pc><lb break="no"/>ron</rs> m’avoit delivré l’honneur de Vôtre
+            <rs type="letter" key="B_991170514976105501">derniere</rs>,
+<lb/> me donne trop d’occupations pour
+          vaquer aussi
+<lb/> souvent que je le souhaiterois aux meditations
+<lb/> de Mathematiques: c’est là la
+          raison, qui m’a
+<lb/> empesché de Vous repondre plustôt: car je
+<lb/> m’etois proposé de Vous
+          communiquer quand
+<lb/> je serois de loisir, puisque Vous le souhaités
+<lb/> quelques remarques sur ce
+          que Vous dites de la Mu<pc type="hyphenation">-</pc><lb break="no"/>sique dans <rs type="biblio" key="biblio_XTJW24K7">Vôtre excellent Traité du beau</rs>;
+<lb/> Les voici. <rs type="biblio" key="biblio_XTJW24K7">Page 246</rs> Vous dites que, <hi rend="u">quand deux cordes
+
+<lb/>            sont de meme matiere et de meme longueur, si
+<lb/> les efforts qui les tendent sont egaux la
+            grosse donne<pc type="hyphenation">-</pc><lb break="no"/>ra des sons plus aigus</hi>, et
+          Vous en attribuez la cause
+<lb/> à ce que la grosse corde a plus de roideur que la
+
+
+ <pb
+            facs="1074401" n="2"/>
+<lb/> menue; Vous supposez un fait qui n’est point
+<lb/> verifié par
+          l’experience, ainsi la cause que Vous
+<lb/> en rendez, ne sçauroit etre bonne; il n’est pas
+          diffi<pc type="hyphenation">-</pc><lb break="no"/>cile de faire voir le contraire par l’experience.
+<lb/> Prenez deux cordes de boyaux de
+          differente grosseur,
+<lb/> attaschez chacune par un bout aux points fixes <formula>A</formula>
+          et <formula>B</formula>; <figure facs="../images/figures/1074401_01.png"><figDesc>Zwei an den Punkten A und B befestigte Seile, die über die Rollen F und G geführt und durch die Gewichte L und M gespannt werden.</figDesc></figure>
+<lb/> faites
+          ensuite passer les cordes
+<lb/> par les poulies <formula>F</formula> et <formula>G</formula>,
+          ega<pc type="hyphenation">-</pc><lb break="no"/>lement eloignées des points
+<lb/> <formula>A</formula> et <formula>B</formula>, pour les
+          bander
+<lb/> de forces egales moyennant
+<lb/> les poids egaux <formula>L</formula> et
+            <formula>M</formula>,
+<lb/> que Vous attacherés aux
+<lb/> extremités des cordes: Ainsi
+<lb/> Vous aurés
+          deux cordes, qui sont dans le cas en
+<lb/> question, car elles sont de meme longueur
+            <formula>AC</formula>, <formula>BD</formula>,
+<lb/> elles sont aussi également tendues par des
+          poids egaux
+<lb/> <formula>L</formula> et <formula>M</formula>; Mais je dis que Vous eprouverez
+          le contraire
+<lb/> de ce que Vous avancez, car la plus grosse corde <formula>AC</formula>
+
+<lb/>          donnera un son plus grave ou moins aigu que la
+<lb/> moins grosse; En effet il est fort naturel
+          que le son
+
+
+ <pb facs="1074402" n="3"/>
+<lb/> de la corde <formula>AC</formula> soit plus grave
+          que celui de la corde
+<lb/> <formula>BD</formula>, ce qu’on pouroit predire avant l’experience;
+          car la
+<lb/> force du poids <formula>L</formula> pour tendre la corde <formula>AC</formula>,
+          trouvant
+<lb/> plus de matiere à animer de ressort et une force egale
+<lb/> du poids
+            <formula>M</formula>, qui bande la corde <formula>BD</formula><note type="editorial">Die
+            folgende Passage bis «de la corde <formula>BD</formula>» wurde von Johann I Bernoulli
+            nachträglich am unteren Rand der Seite mit Verweiszeichen angefügt. </note> etant
+          repandue sur moins de matiere, il faut que le ressort en devienne plus vif que celui de la
+          corde <formula>AC</formula> ce qui fait que les vi[br]ations de la corde
+            <formula>BD</formula> seront plus promtes ou
+<lb/> plus frequentes que celles de
+            <formula>AC</formula>, et que par consequent
+<lb/> le son de <formula>BD</formula> plus aigu
+          ou moins grave que le son de
+<lb/> <formula>AC</formula>. Voici encore une autre raison que le
+            son<note type="editorial">Im Manuskript steht «les sons».</note> que
+<lb/> donne la grosse
+          corde <formula>AC</formula> sera plus grave que le
+<lb/> son de la menue <formula>BD</formula>:
+          soit le diametre de l’epaisseur
+<lb/> de <formula>AC</formula> par exemple double du diametre de
+            <formula>BD</formula>, et
+<lb/> partant la grosseur meme de <formula>AC</formula> quadruple
+<lb/> de
+          celle de <formula>BD</formula>,<note type="editorial">Die folgende Passage bis «avec la
+            corde <formula>BD</formula>,» wurde von Johann I Bernoulli nachträglich am unteren Rand
+            der vorhergehenden Seite 2 mit Verweiszeichen angefügt.</note> il est visible que l’on
+          peut considerer la corde <formula>AC</formula> comme composée de 4 filamens dont chacun
+          est d’une egale epaisseur avec la corde <formula>BD</formula>, en sorte que chacun de ces
+          filamens
+<lb/> soutient seulement la quatrieme partie du poids <formula>L</formula>; c’est
+<lb/> donc
+          comme si Vous aviez 4 differentes cordes et
+<lb/> toutes egalement grosses à la corde
+            <formula>BD</formula>, mais qui
+<lb/> ne sont tendues que d’une force qui fait le quart
+<lb/> de
+          celle qui bande la corde <formula>BD</formula>; d’où il suit
+<lb/> que chacune de ces 4 cordes
+          qui sont en <formula>AC</formula>, c’est
+<lb/> à dire que <formula>AC</formula> elle meme fera
+          ses vibrations
+
+ <pb facs="1074403" n="4"/>
+<lb/> deux fois moins frequentes que ne fait les
+          siennes
+<lb/> la corde <formula>BD</formula>; car on peut demontrer Geometri<pc type="hyphenation">-</pc><lb break="no"/>quement, que les
+          cordes etant de meme longueur
+<lb/> et de meme epaisseur mais chargées de differens
+<lb/> poids, le
+          nombre de leurs vibrations faites en meme
+<lb/> temps sont en raison sousdoublée ou comme les
+
+<lb/>          racines des poids qui les tendent; ainsi dans
+<lb/> cet exemple le nombre des vibrations de la
+            corde<note type="editorial">Die folgende Passage bis «de la corde» wurde von Johann I
+            Bernoulli nachträglich am unteren Rand der Seite mit Verweiszeichen angefügt.</note>
+          <formula>BD</formula> est au nombre des vibrations de la corde <formula>AC</formula>
+<lb/> ou de
+          chaque filament comme est <formula>\sqrt{1}</formula> à
+            <formula>\sqrt{\frac{1}{4}}</formula> ou
+<lb/> comme 2 à 1: donc la corde
+            <formula>BD</formula> sonnera l’octave par
+<lb/> dessus la corde <formula>AC</formula>: Ce
+          n’est donc pas la rigidité des
+<lb/> cordes dependante de leur structure, qui augmente le
+<lb/> nombre
+          de leurs vibrations, ce n’est que la force ou le
+<lb/> poids, qui les bande, qui puisse leur
+          donner le
+<lb/> ressort propre à produire le son, qui sera plus ou
+<lb/> moins aigu, selon que ce
+          ressort est plus ou moins
+<lb/> vif par plus ou moins de force du poids: desorte
+<lb/> que si une
+          corde etoit parfaitement flexible ou
+<lb/> infiniment peu rigide, elle ne laisseroit pas de
+
+<lb/>          donner un son plus aigu qu’une autre corde
+ <pb facs="1074404" n="5"/>
+<lb/> d’egale longueur et
+          d’egale epaisseur, mais qui
+<lb/> seroit tendue par une force plus petite, je crois
+<lb/> que le plus
+          ou le moins de rigidité dans les cordes
+<lb/> ne contribue rien à hausser ou à baisser les tons
+
+<lb/>          mais peutetre à les rendre plus ou moins clairs: car
+<lb/> il semble que la roideur des cordes
+          ne fait autre
+<lb/> chose que d’empescher que<note type="editorial">Von hier an ist das Original
+            (in <rs type="place" key="place_GEO-2659994">Lausanne</rs>) erhalten.</note> les vibrations ne fassent
+<lb/> de si longues excursions que
+          celles des cordes qui sont
+<lb/> plus souples ou plus flexiles tout le reste é<pc type="hyphenation">-</pc><lb break="no"/>tant egal, sans
+          que les vibrations soient pour
+<lb/> cela plus frequentes, tout comme dans les oscilla<pc type="hyphenation">-</pc><lb break="no"/>tions le
+          long d’une cycloide, lesquelles soit qu’elles
+<lb/> parcourent de grands arcs ou de petits arcs,
+          sont toutes
+<lb/> d’une égale durée. </p>
+  <p>
+<lb/>Ce que Vous rapportez <rs type="biblio" key="biblio_XTJW24K7">pag. 255</rs> touchant les verres dont
+<lb/> vous dites que le son devient <hi
+            rend="u">plus aigu</hi> à mesure qu’on y verse <hi rend="u">plus
+<lb/> d’eau</hi>, est aussi manifestement contraire à l’expérience;
+
+<lb/>          il faut bien que Vous n’ayez pas fait l’experience
+<lb/> avant que d’ecrire cela, car autrement
+          Vous ne l’auriez
+<lb/> pas écrit; je m’etonne que Vous ne Vous soyez pas
+<lb/> bien informé de ce
+          fait, qui est si facile à eprouver;
+<lb/> c’est sans doute parceque vous etiez prevenu par un
+          faux
+<lb/> souvenir d’un ouïr dire ou d’une experience faite fort <pb facs="1074405"
+            n="6"/>
+
+
+
+<lb/> longtemps et dont il ne vous
+          estoit resté qu’une fausse
+<lb/> idée de l’issue. Je raisonnerois donc tout autrement que Vous,
+
+<lb/>          en disant que le son du Verre qui renferme de l’eau doit
+<lb/> étre plus grave que celui du meme
+          verre quand il est
+<lb/> vuide, parceque l’eau étant unie avec le verre compose
+<lb/> avec Lui une
+          masse plus grosse que quand il est vuide,
+<lb/> donc la force du ressort se repandant sur plus
+          de matiere
+<lb/> qui doit étre ebranlée, le ressort sera moins vif et par  con<pc type="hyphenation">-</pc><lb break="no"/>sequent les tremoussements seront moins rapides; on peut
+<lb/> s’apercevoir de ce
+          tremoussement communiqué à l’eau en
+<lb/> frottant le bord du verre avec le bout du doigt que
+          l’on aura
+<lb/> mouillé, car il s’excite un son continuel pendant qu’on
+<lb/> continue à faire le tour
+          plusieurs fois en frottant, et
+<lb/> durant ce son on observe l’eau enfermée sautiller et
+          fris<pc type="hyphenation">-</pc><lb break="no"/>sonner, marque evidente que l’eau participe ou absorbe
+<lb/> une partie de la force du
+          ressort, ou à parler plus
+<lb/> proprement que l’eau aide à constituer une masse
+<lb/> plus grande
+          dont les parties qui doivent étre ebranlées toutes
+<lb/> ensemble sont en plus grand nombre que
+          celles du
+<lb/> verre vuide et par consequent susceptibles de vibrations
+<lb/> moins frequentes; il en
+          est sans doute de la cloche
+<lb/> dont Vous parlez <rs type="biblio" key="biblio_XTJW24K7">pag. 254</rs> comme du verre; Vôtre raison
+<lb/> du
+          contraire auroit lieu, si l’eau versée dans le verre
+<lb/> demeuroit inebranlable et qu’elle
+          rendit en meme
+<lb/> temps inebranlable la partie du verre qu’elle occupe; <pb facs="1074406" n="7"/>
+
+
+
+<lb/> car de cette maniere
+          la force du ressort n’ayant qu’à animer
+<lb/> le reste du verre produiroit des tremoussemens
+          plus frequens et ainsi
+<lb/> le son en deviendroit plus aigu. </p>
+  <p>
+<lb/>Pardon, Monsieur, de la liberté avec la quelle je Vous ouvre
+<lb/> mes pensées: je reviens à
+          Vôtre <rs type="letter" key="B_991170514976105501">lettre</rs>. Messrs. <rs type="person" key="pers_resource_000120 pers_DE-588-1089851545">de Villars</rs><note type="comment" resp="SG">Gemeint sind sehr wahrscheinlich die Brüder <rs type="person" key="pers_resource_000120">Esaïe</rs> und <rs type="person" key="pers_DE-588-1089851545">Benjamin de Chandieu-Villars</rs>, die Crousaz im <rs type="letter" key="B_991170514976305501">Brief vom 31. März 1716</rs> empfohlen hatte.</note>
+<lb/> et Mr. <rs type="person" key="pers_DE-588-114228039X">Tacheron</rs>
+          leur <rs type="person" key="pers_DE-588-114228039X">Gouverneur</rs>, sont fort assidus à mes
+<lb/> leçons,<note type="comment" resp="pers_DE-588-117433391X">Siehe dazu auch den
+            Brief von <rs type="person" key="pers_DE-588-118509969">Johann Bernoulli</rs> an <rs type="person" key="pers_DE-588-114228039X">Tacheron</rs> von <rs key="B_991170515372205501"
+              type="letter">1717.03.27</rs>.</note> ils en profitent ce me semble assez, et
+          témoignent beau<pc type="hyphenation">-</pc><lb break="no"/>coup de panchant pour les mathematiques, aussi ont-ils le talent
+<lb/> excellent
+ pour comprendre promtement ce que je leur montre,
+<lb/> j’admire la
+          vivacité de leur Esprit; j’ai commencé de traiter avec Eux
+<lb/> les premiers Elements de
+          Geometrie, car ils en avoient besoin;
+<lb/> ils y font de bon progrés, j’ai lieu d’étre content
+          de leur facili<pc type="hyphenation">-</pc><lb break="no"/>té en aprenant et de l’attention qu’ils me pretent quand je
+<lb/> leur fai des
+          demonstrations; je ne sçai si de leur coté ils sont aussi contens de moi; au moins je fai
+          tout ce que je puis, pour leur donner contentement. De la maniere que Vous expli<pc type="hyphenation">-</pc><lb break="no"/>quez la
+          raison pourquoi vous avez dit que la direction de l’aiguille
+<lb/> aimantée vers le nord est un
+          secours pour les latitudes; je
+<lb/> pourrois dire par la meme raison qu’elle serviroit aussi
+          pour
+<lb/> les longitudes, car quand il ne s’agit que de juger par esti<pc type="hyphenation">-</pc><lb break="no"/>mation, il sera aussi
+          facile d’estimer combien on est avancé
+<lb/> vers l’est ou vers l’ouëst, qu’il est facile
+          d’estimer com<pc type="hyphenation">-</pc><lb break="no"/>bien on est avancé vers le Nord ou vers le Sud: Vous deviez
+<lb/> donc faire
+          mention des longitudes aussi bien que des latitudes,
+<lb/> puisque la direction de l’aiguille ne
+          donne pas plus de secours
+<lb/> pour les unes que pour les autres; effectivement les pilotes par
+          le moyen
+<lb/> des rumbes sçavent également bien prendre par estime les
+<lb/> longitudes et les latitudes.<note type="comment" resp="SG">Bernoulli antwortet auf Crousaz’ Erläuterung vom <rs type="letter" key="B_991170514976105501">16. Juni 1716</rs> zur Aussage in den <rs type="biblio" key="biblio_2TJUPIVU"><hi rend="i">Réflexions</hi></rs> (1715), S. 3. Sein Einwand betrifft die Beschränkung auf die geographische Breite: Die Ortsveränderung anhand des Kompasskurses zu schätzen, ist für die Ost-West- wie für die Nord-Süd-Bewegung möglich.</note>
+          Comme je ne reçois pas regu<pc type="hyphenation">-</pc><lb break="no"/>lierement les <rs type="biblio" key="biblio_ERJKSHA9">Nouvelles</rs> de Mr. <rs type="person" key="pers_DE-588-131366858">Bernard</rs>,<note type="comment" resp="SG">Gemeint ist <rs type="person" key="pers_DE-588-131366858">Bernards</rs> Rezension in den <hi rend="i"><rs type="biblio" key="biblio_ERJKSHA9">Nouvelles de la république des lettres</rs></hi>, März/April 1716, Art. IV, S. 222–232. Den Arithmetikteil (S. 231–232) beurteilt sie trotz der Länge der Rechenregeln wohlwollend. Bernoullis anschliessende Bemerkung über lange Beweise ist seine eigene Vermutung, keine Wiedergabe der ihm noch unbekannten Rezension.</note> je n’ai pas <pb facs="1074407" n="8"/>
+
+<lb/> vû ce qu’il a critiqué de Vôtre <rs type="biblio" key="biblio_2TJUPIVU">Arithmetique</rs>; ayant exa<pc type="hyphenation">-</pc><lb break="no"/>miné quelques demonstrations que Vous y
+          donnez, je les
+<lb/> ai trouvé bonnes, je juge que les autres le seront aussi; tout
+<lb/> ce qu’il y a
+          peutetre à redire, c’est que les jeunes commençants
+<lb/> qui veulent apprendre l’arithmetique
+          n’aiment  pas à étre
+<lb/> fatigués par de longues demonstrations, et
+          que quand ils seront
+<lb/> un peu avancés dans les mathematiques ils seront ca<pc type="hyphenation">-</pc><lb break="no"/>pables de se faire
+          eux memes les demonstrations des
+<lb/> regles d’arithmetique, qu’ils n’avoient apprises que par
+          routine.</p>
+  <p>
+<lb/>Vous avez raison, Monsieur, on a des formules
+<lb/> pour les developpées exprimées par de
+          seules differences premi<pc type="hyphenation">-</pc><lb break="no"/>eres, j’en ai donnée dans les <rs type="biblio" key="biblio_KULJRSQL">Actes</rs> de <rs type="place" key="place_GEO-2879139">Leipsic</rs> de l’année
+<lb/> 1701 p.
+            137,<note type="comment" resp="SG">Die Formel auf S. 137 bestimmt den zur Konstruktion der Evolute benötigten Krümmungsradius. Sie enthält in der Endgestalt nur erste Differentiale, wird aber durch Umformung einer Formel mit zweiten Differentialen hergeleitet.</note> cependant il est vrai aussi que ces
+          formules
+<lb/> exprimées en differences premieres sont tirées des diffe<pc type="hyphenation">-</pc><lb break="no"/>rences secondes et les
+          supposent originellement. </p>
+  <p>
+<lb/>Vous me deviez nommer l’endroit des <rs type="biblio" key="biblio_XSJACQMG">Memoires</rs> de
+<lb/> l’<rs type="organisation" key="org_DE-588-35019-9">Academie</rs> où Mr. <rs type="person" key="pers_DE-588-105511176X">Guinée</rs> repond aux
+          questions que Vous dites
+<lb/> Lui avoir été proposées sur les <rs type="biblio" key="biblio_G33A27CT">plus grands et les moindres</rs>,
+<lb/> pour pouvoir les lire et étre en etat d’en dire mon
+          senti<pc type="hyphenation">-</pc><lb break="no"/>ment: Car pour dire la verité, je ne lis pas ces <rs type="biblio" key="biblio_XSJACQMG">Memoires</rs>
+<lb/> d’un bout à l’autre, y
+          ayant beaucoup de choses qui ne me
+<lb/> paroissent pas meriter mon attention. </p>
+  <closer><salute>Quant au
+<lb/> reste je
+          me recommende à la continuation de Vos
+<lb/> bonnes graces, et Vous prie d’etre assuré de celle
+          de la haute estime
+<lb/> que j’ai pour vous et pour vôtre merite: Je suis
+<lb/> Monsieur
+<lb/> Votre tres
+          humble et tres
+<lb/> obeissant serviteur </salute><signed><rs type="person" key="pers_DE-588-118509969">J. Bernoulli</rs></signed>
+  <dateline><rs type="place" key="place_GEO-2661604">
+<lb/>Bale</rs> ce 7. Aoust
+<lb/> 1716. </dateline></closer>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

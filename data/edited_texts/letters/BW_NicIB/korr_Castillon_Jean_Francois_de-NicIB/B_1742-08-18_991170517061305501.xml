@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517061305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Jean François de Castillon. Ohne Ort, 18. August 1742</title>
+          <title type="alt">1742.08.18: Bernoulli, Nicolaus (1687-1759) an Castillon, Jean François de (1708-1791)</title>
+          <title type="alt">000059015</title>
+          <title type="alt">1742-08-18_Bernoulli_Nicolaus-Castillon_Jean_Francois_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517061305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517061305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Castillon, Jean François de (1708-1791)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Die Abschrift ist auf fo.2r des Briefes von Castillon vom 3. August 1742 geschrieben</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24281">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.39:2r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517061305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433817405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059015</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>0.5 S.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1742-08-18">18 Aout 1742</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1742-08-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116472448">Castillon, Jean François de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517061505501" type="prev"/>
+          <ptr target="B_991170517061005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Castillon_Jean_Francois_de-NicIB" corresp="pers_DE-588-116472448" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117528854">König, Samuel</persName>
+            <note type="lebensdaten">(1712-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-27" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-04-21" who="RG">Referenzen Personen und Orte ergänzt</change>
+        <change when="2026-04-07" who="FN SG">Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063192/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063193" n="2r"/>
+  <opener><lb/><salute>Monsieur</salute></opener>
+  <p><lb/>J’ai receu l’honneur de Vôtre <rs type="letter">Lettre</rs> du <date when="1742-08-18">3.<hi rend="sup">e</hi> de ce mois</date>, par laquelle Vous me
+      <lb/>donnés avis que <abbr>Mr.</abbr> <rs key="pers_DE-588-117528854" type="person">Kœnig</rs> Vous a co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué les deux <rs type="biblio">démonstrations</rs>
+      <lb/>que je lui <add>ai</add> <rs type="letter">envoy<del><gap/></del><add>é</add></rs> il y a <date>quelque<add>s</add> <del><gap/></del><add>m</add>ois</date>, je suis bien aise qu’elles ayent
+      <lb/>trouvé Vôtre approbation. Je Vous accorde la permission que Vous
+      <lb/>me démandés de les insérer dans Vôtre <rs type="biblio">Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>entaire sur l’Algebre de
+      <lb/><abbr>Mr.</abbr> Newton</rs>. Si Vous me trouvés capable de Vous rendre quelques
+      <lb/>autres services, Vous n’avés qu’à <add>me</add> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ander, je me ferai toujours
+      <lb/>un plaisir de Vous satisfaire autant qu’il sera en mon pouvoir
+      <lb/>étant avec une très parfaite considération<supplied>,</supplied> </p><closer>Monsieur <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr>, <dateline><date when="1742-08-18">18<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Aout 1742</date>.</dateline></closer>
+<pb facs="1063194" n="2v" type="empty"/>
+</div>
+</body>
+</text></TEI>

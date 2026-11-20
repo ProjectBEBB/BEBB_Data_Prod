@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517067205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Nicolaus I Bernoulli. Ohne Ort, 15. August 1741</title>
+          <title type="alt">1741.08.15: Cramer, Gabriel (1704-1752) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059080</title>
+          <title type="alt">1741-08-15_Cramer_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517067205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517067205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24308">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.66</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517067205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433684405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059080</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1741-08-15">Mardi 15. Aoust 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1741-08-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517067505501" type="prev"/>
+          <ptr target="B_991170517066905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-21" who="SG FN">kollationieren abgeschlossen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-22" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-22" who="RG">Mathematische Formeln (etc.) angepasst.</change>
+        <change when="2025-07-22" who="RG">&amp; mit etlig ersetzt, ausser in den Formeln</change>
+        <change when="2023-09-29" who="RG">Personen und Orte ausgezeichnet</change>
+
+        <change when="2023-09-13" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-09-13" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063416/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063417" n="1"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur,
+  </salute>
+  </opener>
+  <p>
+      <lb/>J’ai bien reçu vo<subst><del>s</del><add>tre</add></subst> <rs type="letter" key="B_991170517067505501">Lettre</rs> avec les papiers qui y etoient joints, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dont
+      <lb/>je vous remercie très humblement. Je suis assez de vôtre Avis que cette
+      <lb/>petite <rs type="biblio">pièce</rs> ne doit pas ètre imprimée. Ce n’est qu’un projet, qui n’a jamais été
+      <lb/>bien fini. Et quoiqu’on y voie des traces du génie <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’exactitude de feu
+      <lb/>Monsieur vôtre <rs type="person" key="pers_DE-588-118509950">Oncle</rs>, il faut pourtant avouer que cela ne va pas à l’Enume<pc type="hyphenation">-</pc><lb break="no"/>ration de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>. Les <rs type="biblio">Remarques</rs> que vous avez <choice><sic>ajoutée</sic><corr>ajoutées</corr></choice> sur un papier
+      <lb/>separé sont très intéressantes, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <subst><del><gap/></del><add>for</add></subst>t justes. J’ai cru pourtant qu’on pouvoit
+      <lb/><subst><del>d</del><add>r</add></subst>edui<unclear>r</unclear>e, avec un peu plus de facilité, l’equation generale aux 4 Classes de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je l’avois fait <del><gap/></del>dans un petit <rs type="biblio">Ouvrage</rs> commencé ou plutot ebauché
+      <lb/>sur <subst><del><gap/></del><add>l’A</add></subst>nalyse des Courbes, qui n’est pas encore <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ne sera vraisemblablement jamais
+      <lb/>fini, faute de loisir. Le Nombre des Espèces des Courbes est assés difficile à determiner
+      <lb/>parce que le mot même d’espece est équivoque. La Courbe que vous ajoutés après
+      <lb/>la 54.<hi rend="sup">e</hi> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, est une correction nécessaire. Mais il en manque également
+      <lb/>une après la 55.<hi rend="sup">e</hi> Espèce, ou du moins celle-ci est double. Car si les 2 racines de l’equa<pc type="hyphenation">-</pc><lb break="no"/>tion <formula>bx^{2}+cx+d=0</formula> sont inégales <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> positives, il en resulte l’espèce qu’il donne,
+      <lb/><choice><orig>Mais</orig><reg>mais</reg></choice> si elles sont négatives inégales, la Courbe <subst><del><gap/></del><add>sera</add></subst> hyperbolo-Parabolique
+      <lb/>comme la <abbr>fig.</abbr> 57<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> avec une Ovale de l’autre côté de l’asymptote, laquelle ovale
+      <lb/>degenère en un point quand les 2 racines sont égales, <choice><orig>Et</orig><reg>et</reg></choice> c’est là votre espèce<choice><orig>,</orig><reg>.</reg></choice>
+  </p>
+  <p>
+      <lb/>Je crois outre cela qu’on peut trouver quelques espèces en epluchant bien tous les
+      <lb/>cas. Cependant il est vrai de dire que cet <rs type="biblio">Ouvrage</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> est magnifique<supplied>.</supplied>
+<pb facs="1063418" n="2"/>
+      <lb/>Je suis bien mortifié, Monsieur, pour l’interêt du Public, que je
+      <lb/>n’aie pu vous persuader de lui donner vos <rs type="biblio">Ouvrages</rs>. Votre comparaison
+      <lb/>de l’Etoile nébuleuse est ingenieuse, mais permettez<choice><orig> </orig><reg>-</reg></choice>moi de vous dire
+      <lb/>qu’elle n’est rien moins que juste, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’il n’y a d’autre <foreign xml:lang="lat"><hi rend="u">nebula</hi></foreign> que votre
+      <lb/>excessive modestie. Avec ce Caractère, comment oserai-je vous dire, que
+      <lb/>l’invitation que vous m’avez faite, jointe aux instances de nos <rs type="person">Libraires</rs>,
+      <lb/>m’ont determiné <choice><orig>a</orig><reg>à</reg></choice> ajouter de tems en tems quelques mots de Notte aux
+      <lb/>endroits des <rs type="biblio">Ouvrages</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-118509950">Bernoulli</rs> qui en ont besoin. Mais<del><gap/></del>
+      <lb/>il faut bien que je vous le dise, puisque je n’ai pris ce parti que dans
+      <lb/>l’espérance que vous voudriez, Monsieur, avoir la bonté de m’assister
+      <lb/>dans ce travail, sur lequel je prendrai la liberté de vous consulter
+      <lb/>dans l’occasion. Je tirerai du moins cet avantage de mon entreprise
+      <lb/>que j’aurai le bonheur de correspondre un peu plus souvent avec vous.
+      <lb/>En attendant qu’il se présente quelque chose de plus considerable, souffrés
+      <lb/>que je vous demande un mot d’eclaircissement sur ceci. C’est à l’occasion
+      <lb/>de la sommation de cette Suite <choice><orig><formula>\frac{1}{1}+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1}+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\mathrm{\;etc.}</formula></reg></choice>, dont <subst><del><gap/></del><add>f</add></subst>eu <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-118509950">Bernoulli</rs>
+      <lb/>parle dans la 1.<hi rend="sup">e</hi> Partie de ses <rs type="biblio" key="biblio_WAN5I3PB">Suites infinies</rs>. Je crois qu’il ne sera pas désagreable
+      <lb/>aux Lecteurs de leur aprendre que Vous, Monsieur, <abbr>M.<hi rend="sup">r</hi></abbr> Votre <rs type="person" key="pers_DE-588-118509950">Oncle</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>
+      <lb/>(qui est, je crois<supplied>,</supplied> le premier) en avez trouvé la Valeur chacun par vos Methodes.
+      <lb/>Peutètre même, y joindrai<choice><orig>.</orig><reg>-</reg></choice>je la Demonstration de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>, qui a une sorte
+<pb facs="1063419" n="3"/>
+      <lb/>d’elegance inespérée. Mais <rs type="person">quelcun</rs> y a trouvé cette objection. La suite <formula>y=</formula>
+      <lb break="no"/><choice><orig><formula ana="corr">x-\frac{1}{6}x^{3}+\frac{1}{120}x^{5}-\mathrm{\;\&amp;c}</formula></orig><reg><formula>x-\frac{1}{6}x^{3}+\frac{1}{120}x^{5}-\mathrm{\;etc.}</formula></reg></choice> qu’il emploie, donne le Sinus <formula>y</formula> par le moien de l’arc <formula>x</formula><choice><orig>,</orig><reg>.</reg></choice>
+      <lb/>Il est vrai. Mais si l’on ne prend que les 2 premiers termes <choice><orig><formula>y=x-\frac{1}{6}x^{3}\mathrm{\;\&amp;c}</formula></orig><reg><formula>y=x-\frac{1}{6}x^{3}\mathrm{\;etc.}</formula></reg></choice>
+      <lb/>(<choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> c’est sur ces 2 premiers termes que tout son raisonnement est fondé) ces deux
+      <lb/>termes, dis-je, commencent une suite qui donne egalement l’ordonnée <formula>y</formula> de
+      <lb/>toute Ellipse, p<subst><del><gap/></del><add>ar</add></subst> le moien de l’arc <formula>x</formula>, compris entre cette Ordonnée <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le sommet.
+      <lb/>On peut donc dire de la Circonference d’une Ellipse quelconque, ce qu’il dit de la
+      <lb/>Circonference du Cerc<del><gap/></del><add>le</add>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’on trouveroit ainsi pour la valeur de la suite
+      <lb/>quelle est la 6.<hi rend="sup">e</hi> partie du quarré de la Circonference <del>quelconque</del> d’une Ellip<subst><del><gap/></del><add>s</add></subst>e
+      <lb/>quelconque, ce qui est absurde. Votre Methode n’est pas sujette à cette Objection,
+      <lb/>à laquelle pourtant je ne doute pas qu’on n’ait quelque chose de Solide à répondre.
+      <lb/>Je vous ren<subst><del><gap/></del><add>voie</add></subst> les papiers que vous avez eu la bonté de
+      <lb/>m’envoier en dernier lieu. Pour les <rs type="biblio">Posthumes</rs>, pardonnés<choice><orig> </orig><reg>-</reg></choice>nous, si nous les
+      <lb/>gardons un peu plus longtems. Il est difficile de trouver des gens qui sachent
+      <lb/>copier des Calculs Algebraiques, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le peu qu’il y en a s’occupe à copier<del><gap/></del>
+      <lb/>les Ouvrages qui doivent préceder celui<choice><orig> </orig><reg>-</reg></choice>là.
+  </p>
+  <closer>
+  <salute>J’ai l’honneur d’etre avec
+      <lb/>une consideration infinie <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un veritable devouement<supplied>,</supplied>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Votre trés humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>trés obeissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>. </supplied></abbr>Cramer</rs>
+  </signed>
+  <dateline>
+      <lb/>Mardi <date when="1741-08-15">15. Aoust 1741</date>
+  </dateline>
+  </closer>
+<pb facs="1063420" n="4" type="empty"/>
+</div>
+</body>
+</text></TEI>

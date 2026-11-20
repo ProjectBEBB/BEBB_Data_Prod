@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516850505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 14. März 1750</title>
+          <title type="alt">1750.03.14: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058730</title>
+          <title type="alt">1750-03-14_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516850505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516850505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131673">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.141, 144</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516850505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433700005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058730</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1750-03-14">ce 14iême Mars 1750</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1750-03-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516850605501" type="prev"/>
+          <ptr target="B_991170516850405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1017268398">König, Emanuel</persName>
+            <note type="lebensdaten">(1698-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121703592">Merian, Hans Rudolf</persName>
+            <note type="lebensdaten">(1690-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1035424398">Ortmann, Andreas</persName>
+            <note type="lebensdaten">(1724-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118798022">Sophie Dorothea</persName>
+            <note type="lebensdaten">(1687-1757)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-11-07" who="RG">Briefstruktur (pb, lb, etc.) ergänzt, sowie kleinere Anpassungen</change>
+
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587296/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3587298" n="141r"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur
+  </salute>
+  </opener>
+  <p>
+      <lb/>Permettés moi de vous reiterer par ces Lignes mes trés hum bles remerci<pc type="hyphenation">-</pc><lb break="no"/>mens pour les faveurs, dont vous m’avés comblé, et dont a peine arrivé a <rs key="place_GEO-2950159" type="place">Berlin</rs>
+      <lb/>je ressens des influences toutes nouvelles, qui surpassent même et vos promesses,
+      <lb/>et mon attente. Non content, Monsieur, de m’avoir transplanté dans un pays
+      <lb/>de lumiere, et dans une situation, qui faisoit depuis longtems l’objèt de mes
+      <lb/>desirs, c’est sans doute par vôtre intercession favorable, que Monsieur de
+      <lb/><rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> vôtre grand et digne ami vient de me donner des marques tout
+      <lb/>a fait extraordinaires de faveur et de protection, dont mon <rs key="pers_DE-588-121703592" type="person">Pere</rs> aurà l’<pc type="hyphenation"></pc><lb break="no"/>ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de vous aprendre le détail. N’êtant point en êtât, Monsieur, de me
+      <lb/>rendre digne de la moindre partie de vôs generosités, je me borne a regrèt aux
+      <lb/>sentimens de la rèco<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oissance la plus vive, et a un dévouement entier a vos
+      <lb/>services.
+  </p>
+  <p>
+      <lb/>Je ne suis point encore introduit dans l’<rs key="org_DE-588-1166668754" type="organisation">Academie</rs>, quoique j’en frequente les
+      <lb/>assemblées, mais Monsieur de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> me marque, que je le serai aussitôt
+      <lb/>qu’il viendrà en <rs key="place_GEO-2950159" type="place">ville</rs>, ce qui quivant toutes les apparencès arriverà dans deux
+      <lb/>semaines, tems vers lequel la <rs type="organisation">Cour</rs> se rendrà icy pour solenniser l’anniversaire
+      <lb/>de Naissance de la <rs type="person" key="pers_DE-588-118798022">Reine Mere</rs>.
+  </p>
+  <p>
+      <lb/>Le séjour de cette <rs key="place_GEO-2950159" type="place">ville</rs> m’acco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ode des mieux; Je m’y plairai encor d’avantage,
+      <lb/>si en satisfaisant a mes devoiss je puis conserver les bonnes graces de Monsieur
+      <lb/>le <rs type="person">President</rs>, et meriter la continuation des Vôtres, auxquelles j’ai l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur
+      <lb/>de me reco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ander en me nommant avec un dévouement sans reserve
+  </p>
+  <closer>
+  <salute>
+      <lb/>Monsieur
+      <lb/>Vôtre tres humble, et trés Obeissant Serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-116892021" type="person"><abbr>J<supplied>.</supplied></abbr> <abbr>B<supplied>.</supplied></abbr> Merian</rs>.
+  </signed>
+  <dateline>
+      <lb/><rs key="place_GEO-2950159" type="place">Berlin</rs> ce <date when="1750-03-14">14iême Mars 1750</date>.</dateline>
+  </closer>
+<pb facs="3587299" n="141v"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> Je prends la liberté de presenter mes Obeissances a <abbr>Mdme</abbr> votre <rs key="pers_DE-588-1089911661" type="person">Epouse</rs>,
+        <lb/>a Monsieur votre <rs key="pers_DE-588-118656503" type="person">Frêre</rs>, et a Monsieur le Professeur <rs key="pers_DE-588-1017268398" type="person">König</rs>, et de renvoyer
+        <lb/>mes complimens a Monsieur <rs key="pers_DE-588-1035424398" type="person">Ortmann</rs>, quoique il me donne un peu sujèt de penser
+        <lb/>qu’il pourroit m’oublier avec le tems, ce que je conterois pour une de mes pertes
+        <lb/>les plus grandes.
+    </p>
+  </postscript>
+<pb facs="3587300" n="144r" type="empty"/>
+<pb facs="3587301" n="144v"/>
+
+</div>
+</body>
+</text></TEI>

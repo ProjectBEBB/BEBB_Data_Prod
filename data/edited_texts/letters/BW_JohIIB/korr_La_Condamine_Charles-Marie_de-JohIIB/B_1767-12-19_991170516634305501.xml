@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516634305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Charles-Marie de La Condamine an Johann II
+                        Bernoulli. Paris, 19. Dezember 1767</title>
+          <title type="alt">1767.12.19: La
+                        Condamine, Charles-Marie de (1701-1774) an Bernoulli, Johann
+                        (1710-1790)</title>
+          <title type="alt">000058227</title>
+          <title type="alt">1767-12-19_La_Condamine_Charles-Marie_de-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516634305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516634305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">La Condamine, Charles-Marie de (1701-1774)
+                </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-148787">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 685:S.565-568</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516634305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433589105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058227</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1767-12-19">19. Dez.
+                                1767</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie
+                        de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1767-12-19"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516634405501" type="prev"/>
+          <ptr target="B_991170516634205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_La_Condamine_Charles-Marie_de-JohIIB" corresp="pers_DE-588-118778390" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118505696">Bacon, Francis</persName>
+            <note type="lebensdaten">(1561-1626)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-130425192">Bouillet, Jean</persName>
+            <note type="lebensdaten">(1690-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118521756">Condillac, Etienne Bonnot de</persName>
+            <note type="lebensdaten">(1714-1780)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119252309">Dávila, Pedro Franco</persName>
+            <note type="lebensdaten">(1711-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118525263">Diderot, Denis</persName>
+            <note type="lebensdaten">(1713-1784)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117572535">Gua de Malves, Jean-Paul de</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1395763542">La Condamine, Marie Louise Charlotte de</persName>
+            <note type="lebensdaten">(-1806)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156428033">La Ville, Jean Ignace de</persName>
+            <note type="lebensdaten">(1690-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-172039908">Deleyre, Alexandre</persName>
+            <note type="lebensdaten">(1726-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-128731524">Louise Élisabeth</persName>
+            <note type="lebensdaten">(1727-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10103024X">Maty, Matthew</persName>
+            <note type="lebensdaten">(1718-1776)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135662486">Mitchell, Andrew</persName>
+            <note type="lebensdaten">(1708-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-137838573">Philipp</persName>
+            <note type="lebensdaten">(1720-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Rochechouard, Comte de, franz. Gesandter am Hofe von Parma</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Simon, Kaufmann in London</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3985940/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3985941" n="565"/>
+  <p> Paris 19 Déc. 1767 </p>
+  <p> Feu l’Infant Don Philippe m’avoit fait, Monsieur et cher ami, un acceuil assés flateur à Parme en 1756, ainsi que Made. Infante, je le devois sans doute à une lettre de recommandation que j’avois aportée à M. le C. de Rochechouart, alors notre ministre plenipotentiaire en cette cour. L’Infant et Made. Infante sont morts, M. le C. de Rochechouart est de retour depuis deux ou trois ans, et je ne le vois point. Ma surdité et mes autres infirmités me sequestrent du monde et surtout des grands. J’avois un autre ami à Parme, M. l’abbé de Condillac, précepteur des Infants, il est aussi de retour à Paris. Je l’ai été chercher deux ou trois fois, je l’ai trouvé une, il m’est venu revoir une fois le printems dernier, je ne l’ai pas vu depuis. Je lui écrirai et le prierai de s’informer de ce que vous desirés savoir. Je crois qu’il n’a nulle liaison directe avec les négocians, mais il est à portée, je crois, de recevoir de bonnes instructions par quelque ami. Cependant vous demandés bien des choses, le nom des associés, leur caractere, la description personnelle de leur figure. Je vous offre ce qui depend de moi. J’ai apris par hazard depuis deux jours qu’un M. <rs type="person" key="pers_DE-588-172039908">de Leyre</rs>, lié avec les Diderot, d’Alembert et autres encyclopédistes, auteur de l’analyse de la philosophie de Bacon etc. est à Parme et attaché à l’Infant, je crois qu’il a des relations à Genève, vous pourriés, si vous connoissiés quel qu’un de ses amis, vous adresser à lui. </p>
+  <p> Réponse à votre lettre du 9 nov. </p>
+  <p>Si j’avois reçu cette lettre à Etouilli, ou j’ai passé 3 mois et demi <pb facs="3985942" n="566"/> et ou vous savés que je reste jusqu’à la S. Martin, j’y aurois repondu plustot. Je n’ai rien fait en cette campagne que répondre à de vieilles lettres, ma soeur et ma femme ne me permettoient aucune occupation sérieuse, quoique l’aplication ne m’ait jamais causé le plus petit mal de tête. Je vous plains de votre rhumatisme, il est triste de souffrir, cependant je regrette celui que j’eus il y a douze ans et qui s’est converti en une plus que demi-insensibilité, quoi que vous regardiés cela comme une bonne fortune. Je m’accoutume à mon état, l’en gourdissement est au moins le même. Son progrès, que je crois réel et qui doit l’etre, est presque insensible. Je conser ve l’apetit et le sommeil, et je croirois me bien porter. si j’avois les jambes plus fermes. Je ne laisse pas de mar cher sans me lasser, et je reste debout le plus sou vent que je puis, surtout en écrivant. </p>
+  <p> Mille tres humbles complimens à M. votre frere, M. de Mairan se fait un plaisir de prendre pour lui l’histoire de l’academie et je crois la description des arts. M. de Mairan vivra plus que M. de Fontenelle, il est mieux constitué, personne ne sait son âge, et vous ne le pourrés savoir que d’un M. Bouillet, medecin de Beziers, ou de quelque medecin de Montpellier, qui auroit à coeur de s’en informer à Béziers. </p>
+  <p> On ne fait que d’achever de graver les lettres de l’épitafe, encore manque t’il quelques virgules. Le gra veur des figures acheve la planche, à present je ne doute pas que la famille ne fasse volontiers le present de l’estampe à ceux des amis du défunt que vous croirés sensibles à cette attention et pour qui ce sera un vrai present, particulierement à ceux qui ont son portrait. C’est même un assés bon moyen de juger de ceux qu’il faut preferer. J’ai fait faire l’estampe du mausolée de la meme grandeur que le portrait gravé, pour lui servir de pendant. Il me semble que les Genevois ne sont pas plus contens des mediateurs que les Neufchatellois de M. Mitchel. </p>
+  <p> <pb facs="3985943" n="567"/> Ne croyés pas que je m’affecte trop vivement des tra verses que j’eprouve, meme les plus injustes. Je n’en perds ni l’apetit ni le sommeil, et je prens plus vive ment les injustices qu’essuyent les autres que celles que j’éprouve. </p>
+  <p> Mon testament est fait, c’est a dire la recommanda tion à ma femme de quelques dispositions pour mes domes tiques et l’instruction de l’etat de mes affaires, car nous nous sommes faits un don mutuel par contrat de mari age. </p>
+  <p> Je vous ai renvoyé votre discours, et vous ne m’en accusés pas la reception. Le cabinet de Davila se vend bien; il y a deux ans qu’il l’a offert au Roi d’Espagne, qui n’en a point voulu. </p>
+  <p> J’ai reçu les Acta Helvetica, et je donnerai les 9 livres à qui viendra les recevoir, je vous remercie de la peine que vous a donnée cette commission et du Choix <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. </p>
+  <p> Quand je dis que je vous ai envoyé votre discours, c’est que je me souviens d’en avoir fait un paquet à part et crois vous l’avoir adressé par l’abbé de la Ville. Dites moi que non, je le croirai et je le retrouverai dans mes papiers, qui se derangent dans mes voyages, mal gré l’attention que j’y aporte. Mais je ne sais ou de meure celui qui m’a aporté les acta helvetica. Il vient beaucoup d’etrangers me voir, je confonds leurs noms, et mon laquais oublie de les demander et d’ecrire leur de meure. il est actuellement malade. </p>
+  <p> Vous devriés bien avoir de l’encre noire pour sou lager mes yeux. </p>
+  <p> Je suis faché de pas penser comme vous, je croirois faire tort à la mémoire de notre ami en publiant ses lettres familieres, qui sont tristes, pleines d’anecdotes personnelles, de plaintes, d’inquietudes et quelquefois de sarcasmes. je doute qu’en faisant un choix, il y eut de quoi faire un tres mince volume qui fut digne d’etre presenté au public. Encore lui feroit il des ennemis et à moi aussi. plus je me rapellerois la clef du chifre et moins je révèlerois ce qu’il cachoit, songés vous que ces lettres ont à peine dix ans la pluspart? </p>
+  <p> Je ne suis point en ralation avec Mr. Simon, j’attens réponse depuis trois mois d’une lettre à M. Maty, à la quelle je croyois qu’il repondroit sur le champ. </p>
+  <p> Je n’ai pas encore lu votre premiere partie latine. si la seconde est encore dans mon porte-feuille, vous les recevrés en meme tems toutes deux. </p>
+  <p> Je ne connois point les melanges de litterature d’Amster dam, je m’en informerai, le ne les crois pas à Paris. Il y a 20 ans que l’abbé de Gua a commencé une arithmetique uni verselle, dont le titre seul tient une page, il ne la finira jamais. C’est, je crois, la qu’il veut placer sa re futation de croix ou pile, avés vous vu le 4e volume de d’Alembert, édition de Paris? Comment cela ne va t’il pas à Bâle? </p>
+  <p> Je voudrois bien que M. votre frere et vous lussiés son article d’inoculation et des probabilités. </p>
+  <p> Adieu, mon cher ami, je n’ai pas le courage de me re lire, je vous embrasse. [Keine Unterschrift] <pb facs="3985944" n="568"/> [Adresse (mit Siegel)] </p>
+</div>
+</body>
+</text></TEI>

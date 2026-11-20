@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516659905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Christian Wolff. Basel, 05.
+            September 1725</title>
+          <title type="alt">000057859</title>
+          <title type="alt">1725-09-05_Bernoulli_Johann_I-Wolff_Christian</title>
+          <title level="s">Basler Edition
+            der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516659905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516659905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Wolff, Christian (1679-1754) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Am Briefende ein autographer Zusatz</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-15947">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 671, Nr.24</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516659905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433426705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057859</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1725-09-05">a.d. 5. 7bris
+                1725</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1725-09-05"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118634771">Wolff, Christian von</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516660005501" type="prev"/>
+          <ptr target="B_991170516659805501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Wolff_Christian-JohIB" corresp="pers_DE-588-118634771" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117608629">Blumentrost, Laurentius</persName>
+            <note type="lebensdaten">(1692-1755)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11872116X">Katharina</persName>
+            <note type="lebensdaten">(1684-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124520839">Kühn, Joachim</persName>
+            <note type="lebensdaten">(1647-1697)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118592955">Peter</persName>
+            <note type="lebensdaten">(1672-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118610260">Schöpflin, Johann Daniel</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-29" who="SG">Manuelle deutsche Arbeitsübersetzung von FN vollständig am Ausgangstext geprüft und unmittelbar überarbeitet. Angenommene Verbesserungsvorschläge in den Wortlaut eingearbeitet, fehlende Briefpassagen ergänzt und offene sprachliche, mathematische sowie sachliche Fragen als interne Anmerkungen mit resp="FN" festgehalten. Ausgangstext unverändert; Übersetzung und Anmerkungen weiterhin resp="FN", subtype="internal" und status="unreviewed".</change>
+        <change when="2026-09-16" who="SG">Deutsche Arbeitsübersetzung mit der lateinischen Transkription abgeglichen. 1 interne Verbesserungsvorschläge als note type="internal" mit resp="FN" ergänzt. Verantwortlichkeit der Übersetzung und ihrer Anmerkungen auf FN präzisiert. Übersetzungswortlaut unverändert; redaktionelle Annahme der Vorschläge ausstehend, Status weiterhin unreviewed.</change>
+        <change when="2026-09-16" who="SG">Vorhandene manuelle deutsche Arbeitsübersetzung von Fritz Nagel in Zusammenarbeit mit Sulamith Gehr aus «Briefw JohIB Wolff Dt Uebers Arbeitsversion.sxw» übernommen, einschliesslich der zugehörigen Fussnoten; technische Übernahme als interne, noch zu prüfende Übersetzungsfassung. Offene Stellen der Vorlage und ausstehende Layoutzuordnung als XML-Kommentare dokumentiert.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1725-09-05_Bernoulli_Johann_I-Wolff_Christian"/>
+      </change>
+        <change who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/808477/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1725-09-05_Bernoulli_Johann_I-Wolff_Christian">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="808479" n="1"/> Viro amplissimo </p>
+  <p>atque </p>
+  <p>celeberrimo Christiano Wolfio </p>
+  <p>S. P. D. </p>
+  <p>Joh. Bernoulli</p>
+  <p>En Filios meos,<note type="comment" resp="pers_DE-588-117433391X">Nicolaus II und Daniel Bernoulli sollten also
+            diesen Brief auf ihrer Reise nach St. Petersburg persönlich Christian Wolff
+            übergeben.</note> Vir amicissime, qui Caelo licet minus favente, atque continuis pluviis
+          exasperato, auspice tamen et Duce Deo ingressi sunt iter ingens et molestum, hac
+          praesertim anni tempestate ad Hyemem vergente. Huc jam unice vota mea tendunt ut
+          benignissimus Pater velit conservare Juvenes constitutionis, ut vides, non admodum
+          robustae, velit eos salvos ac sospites perducere ad locum optatum eorumque ibi futuris
+          laboribus divina sua gratia annuere, ut ante omnia ad divini sui nominis gloriam cedant ac
+          deinde ad scientiarum propagationem; nihil est quod praeterea ardentius exoptem, quam ut
+          satisfiat laudabili scopo Magnae Russorum Imperatricis<note type="comment" resp="pers_DE-588-117433391X">Katharina I.,
+            Kaiserin von Russland.</note> ejusque quondam Augustissimi Mariti<note type="comment" resp="pers_DE-588-117433391X"
+            >Peter d. Gr.</note> novae Academiae Fundatoris. Tu vero Vir celeb. qui auctor fuisti
+          inter primos ut Filiis meis honorifica statio quam nunc adeunt obtingeret, rogaris ut
+          illis proporro consiliis tuis favere pergas, eosque litteris commendaticiis ad Illustr.
+            Legatum,<note type="comment" resp="pers_DE-588-117433391X">Alexander Golovkin.</note>
+<pb facs="808480" n="2"/> ad amplissimum Blumentrostium, aliosque viros, qui in gratia
+          sunt apud potentissimam Imperatricem, stipatos dimittas, facies opus quo nos tibi in
+          perpetuum obstrictissimos reddes. De Schöpflino non est quod multa dicam, exponent Filii
+          quicquid de illo resciscere gestieris, hoc tantum dico, felicem fore Academiam
+          Petropolitanam si hunc virum obtinere possit; fuit quondam meus Auditor in philosophicis
+          et Mathematicis,<note type="comment" resp="pers_DE-588-117433391X">Johann Daniel Schöpflin (1694-1717) studiert von
+            1707 bis 1711 in Basel (siehe Matrikel Basel IV, Nr. 2225). Er setzte dann ab 1711 seine
+            Studien an der Universität Straßburg bei Johann Kaspar Kuhn (1655-1720) fort. Nach Kuhns
+            Tod 1720 wurde Schöpflin zu dessen Nachfolger auf dem Lehrstuhl für Geschichte und
+            Rhetorik ernannt. Schöpflin stand nach Abschluss seiner Studien in Briefwechsel mit
+            Johann Bernoulli, der ihn schon als Studenten hoch schätzte (siehe Brief von Johann
+            Bernoullli an Schöpflin von <rs key="B_991170515373105501" type="letter"
+              >1711.11.19</rs>).</note> in quibus non leviter versatus, Litterator insuper eximius,
+          Orator eloquentissimus, historicus et antiquarius consummatissimus<note type="comment" resp="pers_DE-588-117433391X"
+            >Die letzten vier Worte stehen im Manuskript am Ende der Seite.</note>, Linguarum
+          callentissimus, nunc quidem Eloquentiae et Historiarum Professione cum laude fungitur in
+          Universitate Argentinensi, Celeberrimi Kuhnii successor olim Discipulus, aetatem jam
+          habens triginta et aliquot annorum, adeoque vegetam et maxime idoneam ad labores
+          academicos peragendos et ad spartam suam cum fructu ornandam; ut verbo dicam digniorem vix
+          novi, qui Historiographi vices expleat atque inprimis vitam describat invictissimi
+          Russorum Monarchae Petri Magni, cujus utique Heroica gesta tam sunt memoratu digna quam
+          quae maxime. Vale Vir summe ac mihi Filiisque meis favere perge. </p>
+  <p>Dabam Basileae a. d. 5. 7<hi rend="sup">bris</hi>. 1725. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

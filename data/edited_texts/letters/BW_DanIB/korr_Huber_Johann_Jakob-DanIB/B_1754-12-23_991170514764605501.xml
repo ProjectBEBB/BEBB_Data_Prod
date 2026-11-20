@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514764605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jakob Huber an Daniel I Bernoulli. London, 23. Dezember 1754</title>
+          <title type="alt">1754.12.23: Huber, Johann Jakob () an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055090</title>
+          <title type="alt">1754-12-23_Huber_Johann_Jakob-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514764605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514764605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Huber, Johann Jakob (1733-1798)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39824">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 49 b</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514764605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432847205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055090</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>31,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Londres</origPlace>
+              <date when="1754-12-23">23.e Decembre 1754</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="place_GEO-2643743" ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+          <date when="1754-12-23"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514764705501" type="prev"/>
+          <ptr target="B_991170514764505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-DanIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117604933">Birch, Thomas</persName>
+            <note type="lebensdaten">(1705-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+            <note type="lebensdaten">(1698-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118517252">Buffon, Georges Louis Le Clerc de</persName>
+            <note type="lebensdaten">(1707-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117631655">L'Isle, Joseph Nicolas de</persName>
+            <note type="lebensdaten">(1688-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117650390">Dollond, John</persName>
+            <note type="lebensdaten">(1706-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100157483">Hales, Stephen</persName>
+            <note type="lebensdaten">(1677-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie de</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119027275">Nollet, Jean Antoine</persName>
+            <note type="lebensdaten">(1700-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1051532213">Short, James</persName>
+            <note type="lebensdaten">(1710-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140645292">Wettstein, Johann Kaspar</persName>
+            <note type="lebensdaten">(1695-1760)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-03-17" who="SG">Kollationieren abgeschlossen</change>
+        <change when="2026-03-16" who="SG">Kollationieren begonnen</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-23" who="RG">NER Erkennung</change>
+        <change when="2024-03-11" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-03-11" who="RG">Kleinere Anpassungen, Personen und Orte ausreferenziert</change>
+        <change when="2024-03-11" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1369556/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1369557" n="1"/>
+  <opener><salute>Monsieur,</salute></opener>
+  <p><lb/>Depuis que vous me <choice><orig>permites</orig><reg>permîtes</reg></choice> à mon depart de chez vous <del><gap/></del>de vous
+      <lb/>ecrire de temps en temps, les circonstances <del><gap/></del>où je me suis trouvé<del><gap/></del> m’ont
+      <lb/>souvent empeché de me procurer cet honneur; mais <del>entre cela </del>c’est en
+      <lb/>partie par ma propre faute que je m’en suis privé si long temps; je
+      <lb/>le sens bien, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> j’en ai un <add>si</add> grand regret que je suis sûr que cela ne
+      <lb/>m’arrivera plus. Je vous demande pardon, Monsieur, de ce qu’en omettant
+      <lb/>ainsi de vous écrire, j’ai negligé <del>aussi</del> l’occasion de <del><gap/></del>vous remercier des <del><gap/></del><add>f</add>aveurs
+      <lb/>dont vous m’aviez comblé. <add>Je sens parfaitement combien je vous <del><gap/></del>suis redevable; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice></add> je puis vous assurer que, bien loin d’oublier
+      <lb/>vos <del>bontes</del><add>bienfaits</add>, je m’en ressouviens journellement, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que j’en<del><gap/></del> aurai toute ma
+      <lb/>vie la plus sincere reconnoissance.</p>
+  <p><lb type="deleted"/><del>Je ne saurois assez me louer des politesses que je reçus du <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117622974" type="person">Boug.<hi rend="sup">r</hi></rs></del>
+      <lb type="deleted"/><del>pendant mon sejour à <rs key="place_GEO-2988507" type="place">Paris</rs></del></p>
+  <p><lb/>Lorsque je fus à <rs key="place_GEO-2988507" type="place">Paris</rs>, je fis usage <add>des Adresses <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice></add> de la lettre de recommendation<del><gap/></del>
+      <lb/><del><gap/></del>dont vous m’aviez fait la grace de me munir: <del><gap/></del>je <add>ne</add> saurois
+      <lb/>assez me <del>des </del>louer des politesses <add><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> des marques de bienveuillance, que je reçus de</add> <del>que </del> <rs key="pers_DE-588-117622974" type="person">Bouguer</rs> <del><gap/></del>pendant
+      <lb/>tout le temps que j’étois là: j’eus l’honneur de voir <abbr>M.<hi rend="sup">r</hi></abbr> De <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <del><gap/></del>l’Abbé <rs key="pers_DE-588-119027275" type="person">Nollet</rs>, mais ce dernier alla à la <rs type="place">Campagne</rs> peu de jours après,
+      <lb/>desorte que je ne pus pas voir son Cabinet: je fus bien des fois au
+      <lb/><rs type="place">Jardin du Roi</rs>, sans trouver <abbr>M.<hi rend="sup">r</hi></abbr> De <rs key="pers_DE-588-118517252" type="person">Buffon</rs> au logis; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> M.<hi rend="sup">r</hi> <rs key="pers_DE-588-118778390" type="person">De La
+      <lb/>Condamine</rs> demeuroit à la Ca<del><gap/></del><add>m</add>pagne en ce temps là.<del><gap/></del>
+      <lb/><del><gap/></del>Avant que de quiter <rs key="place_GEO-2988507" type="place">Paris</rs>, je m’informai de l’adresse de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>
+      <lb/>à <rs key="place_GEO-2643743" type="place">Londres</rs>; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <del><gap/></del>après être arrivé en cette ville je ne manquai
+      <lb/>pas d’aller bientôt à l’endroit indiqué; <del><gap/></del>j’y appris<del><gap/></del>
+      <lb/>que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs> ne demeuroit pas en ville; <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1051532213" type="person">Short</rs>,<del> me p</del> un de ses
+      <lb/><rs type="person">amis</rs>, me promit cependant de me faire avertir quand il <add>y</add> viendroit, mais
+      <lb/>cette promesse fut oubliée:<del> Allant</del> <add>étant</add> une fois chez <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_no_GND_id" type="person">Short</rs>, après que je
+      <lb/>ne l’eus point vu pendant trois semaines, j’appris de lui <add>avec peine</add> que <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-11852092X">C.<hi rend="sup">t</hi></rs>
+      <lb/>etoit parti pour la <rs key="place_VER-frankr" type="place"><del><gap/></del><add>F</add>rance</rs> depuis huit jours. <space type="paragraph"/> <lb/>Je fus dédommagé
+      <lb/>de l’Absence de <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-11852092X">C.<hi rend="sup">t</hi></rs> par l’Amitié de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117604933" type="person">Birch</rs>, Secretaire de <add>la</add> <rs type="organisation">Societé Royale</rs>,
+      <lb/>auquel j’avois <choice><orig>eté</orig><reg>été</reg></choice> recommendé par <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117631655" type="person">De L’Isle</rs><del><gap/></del>: j’acquis la Connoissance de <del><gap/></del>
+      <lb/><add>divers</add> <rs type="person">Savants</rs> par le moyen de<del><gap/></del> ce <abbr><del><gap/></del><add>D</add>.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117604933" type="person">Birch</rs>;<del><gap/></del>
+      <lb/><del><gap/></del> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> comme j’ai àpresent aussi <abbr>M.<hi rend="sup">r</hi></abbr> le <abbr>Chap.<hi rend="sup">n</hi></abbr> <rs type="person" key="pers_DE-588-140645292"><del><gap/></del><add>W</add>.<hi rend="sup">n</hi></rs> pour Patron, je serai encore
+      <lb/>introduit chez plusieurs, <add><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice></add> entre autres chez le celebre <abbr><del><gap/></del><add>D</add>.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-100157483" type="person">Hales</rs>, aussitôt que je saurai<del><gap/></del>
+      <lb/>l’anglois suffisamment.</p>
+<pb facs="1369559" n="2"/>
+  <p><lb/>Il me souvient, Monsieur, de vous avoir entendu dire une fois,
+      <lb/>qu’il vous paroissoit que les Sciences n’etoi<del>t</del><add>ent</add> plus si bien cultivées
+      <lb/><del>qu’elles </del>en <rs key="place_VER-englan" type="place">Angl.<hi rend="sup">re</hi></rs> qu’elles le sont en <rs key="place_VER-frankr" type="place">F.<hi rend="sup">ce</hi></rs>:<del><gap/></del> j’ai lieu de croire à cette
+      <lb/>heure, que vous seriez d’une Opinion contraire, si vous etiez en relation
+      <lb/>avec les <rs type="person"><del><gap/></del><add>A</add>nglois</rs>; <del><gap/></del>car outre ce que <del><gap/></del>ceux-ci ont
+      <lb/>de leur crû, ils <del>savant </del>connoissent toutes les productions des plus
+      <lb/>celebres <rs type="person">Academiciens François</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> même presque aussitôt qu’on les connoit
+      <lb/>à <rs key="place_GEO-2988507" type="place">Paris</rs>: il-y-a déja deux ou trois mois que je vis ici les <rs type="biblio">Tables Lunaires</rs>
+      <lb/>in 8.<hi rend="sup">o</hi> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un <rs type="biblio">Traité</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">d’A<del><gap/></del><add>l</add>embert</rs>, quoique ces deux
+      <lb/><rs type="biblio">Ouvrages</rs> n’aient pas encore <choice><orig>eté</orig><reg>été</reg></choice> publiés lorsque je fus à <rs key="place_GEO-2988507" type="place">Paris</rs>: <add>d’ailleurs</add> je
+      <lb/>connois<note type="editorial"> Die folgende Passage weist zahlreiche Korrekturen mit Tinte und Bleistift auf</note> <del>aussi </del>plusieurs particuliers, qui ont <add>outre un grand nombre d’autres livres tant françois <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> latins sur les <abbr>Math.<hi rend="sup">s</hi></abbr>, la Physi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice></add> les <rs type="biblio"><abbr>Mem.<hi rend="sup">es</hi></abbr> de l’Acad. de Paris</rs>
+      <lb/>complets depuis le <abbr>commencem.<hi rend="sup">nt</hi></abbr><supplied>.</supplied><del><gap/></del>
+      <lb/><del><gap/></del><add>Il arrive <del><gap/></del>fort souvent que les</add> Decouvertes des François <del><gap/></del><add>sont <del><gap/></del>ici <choice><abbr>perfect.<hi rend="sup">s</hi></abbr><expan>perfectionnées</expan></choice> ou amplifiées;</add>
+      <lb/><del><gap/></del><add>en voici un exemple qui est assez remarquable.</add> <del><gap/></del><add><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117622974" type="person">Bouguer</rs></add> a <del><gap/></del>inventé un <choice><abbr>Instrum.<hi rend="sup">t</hi></abbr><expan>Instrument</expan></choice>,
+      <lb/><del><gap/></del><add>qu’il appelle Helioscope,</add> pour <del><gap/></del>mesurer facilement les diametres <add>apparents</add> du Soleil <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de la Lune avec une
+      <lb/>grande precision: <del>je vis </del>il <del>me</del><add>m’en</add> fit voir <add>un <del><gap/></del>quand j’etois une fois</add> chez-lui; <del><gap/></del><add>C’<choice><orig>etoit</orig><reg>étoit</reg></choice> une</add> Lunette, d’environ 10 pieds
+      <lb/>de longueur, qui avoit deux verres objectifs l’un à coté de l’autre,<del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/><del><gap/></del>&amp; qui de cette façon <del>laissoit </del><add>doit laisser</add> voir deux images à <del><gap/></del><add>l’observateur;</add>
+      <lb/>on voit <abbr>p. e.</abbr> le limbe oriental du Soleil par l’un <add>des </add>ob<del><gap/></del><add>j</add>ectifs, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le limbe occidental par l’autre,
+      <lb/><del><gap/></del>ce qui fait paroitre deux Soleils <del><gap/></del><add>qui sont</add> près de <add>se</add> toucher <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’<del><gap/></del><add>il faut,</add>
+      <lb/><add>pour avoir le diametre, mener</add> precisement au point de Contact, <del><gap/></del><seg type="transposition"><add>en</add> aprochant <add>ou</add> en eloignant</seg> les objectifs l’un
+      <lb/>de l’autre, par le moyen d’une visse qui sert de micrometre: Cette Invention de <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-117622974" type="person">Bouguer</rs> fut appliquée ici aux Telescopes à reflexion par un <add><del><gap/></del></add>certain <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117650390" type="person">Dollond</rs>,
+      <lb/>qui etoit autrefois Tisserand, mais qui connoit fort bien la Theorie de l’Optique <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui entend
+      <lb/>même le Calcul des Fluxions; <del><gap/></del>le premier modele d’u<del><gap/></del><add>n</add>
+      <lb/>tel Telescope à micrometre fut executé par M.<hi rend="sup">r</hi> <rs key="pers_no_GND_id" type="person">Short</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> du depuis il s’en est fait
+      <lb/>plusieurs; <del>pour differents pays </del>au lieu de deux <add>verres</add> Objectifs ils n’en appliquent que deux
+      <lb/>demis à l’ouverture du Telescope,<del><gap/></del>
+      <lb/>à fin de pouvoir mesurer, non seulement les diametres des luminaires, mais encore d’autres
+      <lb/>angles audessous jusqu’à 0; j’ai <del>trouvé </del><add>vu</add> moi-même, qu’en essayant de mesurer le <abbr>diam.</abbr>
+      <lb/>du Soleil plusieurs fois de suite, on trouv<del><gap/></del><add>e</add> toûjours la même chose à moins d’une
+      <lb/>demi<choice><orig> </orig><reg>-</reg></choice>seconde près, avec un Telescope dont le grand miroir n’est que de neu<unclear>f</unclear> pouces
+      <lb/>de foyer.</p>
+  <p><lb/>Il se fait ici toûjours un grand <choice><sic>nombres</sic><corr>nombre</corr></choice> d’experiences sur l’Electricité;<del><gap/></del> en voici
+      <lb/>une, Monsieur, qui merite peut-être de vous être connue: on a trouvé que l<del><gap/></del><add>e</add>
+      <lb/>verre fondu etoit par rapport à l’Electricité <del><gap/></del><add>la même chose que</add> de la Glace fondue, c’est à dire,
+      <lb/>que le verre liquide conduisoit l’<abbr>El.<hi rend="sup">é</hi></abbr> aussi bien que l’Eau ou les Metaux, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> toutes
+      <lb/>sortes de Resine ou de Cire de même.</p>
+  <closer>
+       <salute>
+      <lb/>Je vous supplie de me continuer l’<abbr>hon.<hi rend="sup">r</hi></abbr> de <choice><abbr>vre</abbr><expan>vôtre</expan></choice> Bienveuillance, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> j’ai celui d’être <abbr>av.</abbr> un entier <abbr>Devouem.<hi rend="sup">t</hi></abbr>
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> V. t. h. <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> t. o. S. <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice>
+       </salute>
+       <dateline>
+      <lb/><rs key="place_GEO-2643743" type="place">Londres</rs>, <date when="1754-12-23">23.<hi rend="sup">e</hi> Decembre 1754</date>.</dateline></closer>
+</div>
+</body>
+</text></TEI>

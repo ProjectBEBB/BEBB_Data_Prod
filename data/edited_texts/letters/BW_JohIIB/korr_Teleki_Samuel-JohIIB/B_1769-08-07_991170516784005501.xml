@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516784005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Samuel Teleki von Szek an Johann II Bernoulli. Scharnberg, 07. August 1769</title>
+          <title type="alt">1769.08.07: Teleki von Szek, Samuel (1739-1822) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058892</title>
+          <title type="alt">1769-08-07_Teleki_von_Szek_Samuel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516784005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516784005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Teleki, Samuel Graf (1739-1822)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+        <note type="print">
+          <p>Druck: Szántay, Antal. - Die Teleki-Korrespondenz in Basel / Antal Szántay. - In: Miscellanea Fontium Historiae Europaeae. - Budapest : Elte Bölcsészettudonmányi Kar, 1997. - S.181, Nr.15</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck historisch</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-127051">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 725:Bl.35-36</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516784005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433538705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058892</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Saronberg.</origPlace>
+              <date when="1769-08-07">ce 7e d'Août 1769</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119123150">Teleki von Szek, Samuel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Scharnberg</placeName>
+          <date when="1769-08-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516784105501" type="prev"/>
+          <ptr target="B_991170430193505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Teleki_Samuel-JohIIB" corresp="pers_DE-588-119123150" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Empfiehlt Graf Adam Rhédey mit dessen Reisegefährten und Hofmeister. Bittet um Nachricht über seinen Freund Johann III. Auf Anordnung der Kaiserin wird die erste Société d'Agriculture et d'Arts in diesem Land gegründet. Er soll teilnehmen, lebt aber lieber zurückgezogen.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118560565">Katharina</persName>
+            <note type="lebensdaten">(1729-1796)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Rhédei, Adam, Graf, 1769 in Basel immatrikuliert</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3491784/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3491785" n="35r"/>
+  <p> Monsieur! </p>
+  <p> La bonté avec laquelle Vous avez bien voulu recevoir jusqu’ici les marques de ma confiance, me fait ésperer, Monsieur, que Vous de refuserez pas d’aggréer la liberté que je prens de Vous recommander un jeune cavalier de ce pays, que me fait l’honneur de me croire de Vos amis, et qui m’a prié de lui procurer celui d’etre du nombre de Vos eleves. C’est Mr. le Comte Adam Rhédey avec son compagnon de Voyage qui lui sert de guide dans ses études. La disposition heureuse qu’il a pour les sciences, et d’autres belles <pb facs="3491786" n="35v"/> qualités qui le rendent aimable, pourroient bien lui attirer Votre estime, et meriter Vos bontés, sans que j’y contribue beaucoup par ma recommandation. Cependant, Monsieur, si Vous lui en temoignez en ma consideration, Vous me ferez beaucoup d’honneur, et m’obligerez infiniment. </p>
+  <p> Je serois charmé, Monsieur, d’apprendre des nouvelles de Mr. Bernoulli, l’Academicien de Berlin, Votre digne fils. L’amitié que j’ai pour lui me fait prendre part à tout ce qui le regarde, et je Vous prie de l’en assurer. </p>
+  <p><pb facs="3491787" n="36r"/> Nous allons former, par ordre de S. M. l’Impera trice Reine une Société d’Agriculture et d’Arts. C’est la pre miere que nous ayons jamais eue dans ce pays. On veut que j’en sois aussi; quoique ma maniere de vivre dans une retraite, et les revers de fortune dont j’ai été rudement frappé me mettent hors d’etat de pouvoir faire des grands efforts; outre qu’il y a une infinité de choses qui nous manquent pour remplire l’e tenduë de notre devoir. </p>
+  <p> Au reste je suis et serai toute ma vie avec des sentimens remplis de respect et d’amitié: Monsieur! Votre très humble et très obéis sant serviteur Samuel Comte Saronberg, ce 7e- d’Août 1769 Teleki </p>
+<pb facs="3491788" n="36v" type="empty"/></div>
+</body>
+</text></TEI>

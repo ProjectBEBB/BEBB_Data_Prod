@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514768005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Basel, 07. Dezember 1763</title>
+          <title type="alt">1763.12.07: Bernoulli, Daniel (1700-1782) an Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000054757</title>
+          <title type="alt">1763-12-07_Bernoulli_Daniel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514768005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514768005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von anderer Hand "7. Dec. 1763"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Extrait d'une lettre de M. Daniel Bernoulli du 7.e Dec. 1763" in UB Basel L Ia 689:Bl.165-166 (4 S.). Dort auf fo.166v eine autographe Notiz Leonhard Eulers.</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200178">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.21-22</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514768005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432850305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054757</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1763-12-07">ce 7.e decembre 1763.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1763-12-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514766405501" type="prev"/>
+          <ptr target="B_991170514767905501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514766405501" type="prev"/>
+          <ptr target="B_991170514767905501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118524844">Descartes, René</persName>
+            <note type="lebensdaten">(1596-1650)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155969200">Golovkin, Aleksandr Aleksandrovič</persName>
+            <note type="lebensdaten">(1732-1781)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1075862159">Kameke, Maria Alexandrovna von</persName>
+            <note type="lebensdaten">(1718-1787)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118560565">Katharina</persName>
+            <note type="lebensdaten">(1729-1796)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568698">Lagrange, Joseph Louis de</persName>
+            <note type="lebensdaten">(1736-1813)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118598708">Rozumovsʹkyj, Kyrylo Hryhorovyč</persName>
+            <note type="lebensdaten">(1728-1803)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-02" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-10-01" who="SG">Pretagging ergänzt.</change>
+        <change when="2026-09-24" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-03-29" who="SG">Tagging</change>
+        <change when="2026-03-28" who="NG">Tagging</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994587/manifest"/>
+</facsimile><text>
+
+  <front>
+    <div type="printSource">
+      <p><rs type="biblio" key="biblio_Euler_IVA3_PublBEZ_2017">Leonhard Eulers Briefwechsel mit Daniel, Johann II und Johann III Bernoulli</rs>, hg. von Emil A. Fellmann und Gleb K. Mikhajlov (Opera Omnia IVA/3, Online-Edition, Publikationen des Bernoulli-Euler-Zentrums, Bd. 2), Basel 2017, IV.2 Nr. 98, S. 780–784.</p>
+    </div>
+  </front>
+  <body>
+<div type="letter"><pb facs="5994588" type="archival"/><pb facs="5994589" type="archival"/>
+  <p><note hand="unknown"><pb facs="5994590" n="21r"/><date when="1763-12-07">7. <abbr>Dec.</abbr> 1763</date></note> </p>
+  <p>
+      <lb/>Jusqu’ici, Monsieur mon tres cher Neveu, tout est allé à souhait et à merveille; Vous
+      <lb/>avez achevé votre grand voyage sans aucun accident facheux; partout Vous vous etes fait
+      <lb/>aimer et estimer; Vous avez <choice><orig>eté</orig><reg>été</reg></choice> bien <choice><orig>recu</orig><reg>reçu</reg></choice> et accueilli chez les savans, chez les <rs type="person">Grands</rs> et
+      <lb/>même chez des <rs type="person">Princes</rs>; Mais surtout Vous avez vû ce grand <rs key="pers_DE-588-118535749" type="person">Roi</rs> que vous etes allé servir;
+      <lb/>c’est deja un grand salaire que de servir un tel <rs type="person">Maitre</rs>, surtout pour Vous, qui saurez
+      <lb/>regler votre œconomie sur les revenus que sa bonté Royale Vous aura accordé<add>s</add>; j’espere
+      <lb/>que Vous aurez <choice><orig>eté</orig><reg>été</reg></choice> mis un peu à votre aise; jamais l’indigence n’osa aspirer à rien
+      <lb/>de grand. Si le <rs key="pers_DE-588-118535749" type="person">Roi</rs> vous aura placé dans son <rs type="organisation">Academie des sciences</rs>, je serai charmé
+      <lb/>de vous avoir pour confrere et nous travaillerons de concert pour l’avancement des Sciences
+      <lb/>et pour la gloire de cette <rs type="organisation">Academie</rs>. <choice><orig>je</orig><reg>Je</reg></choice> souhaite que le <rs key="pers_DE-588-118535749" type="person">Roi</rs> Vous ait confié le departement
+      <lb/>de la Philosophie experimentale. J’ai blanchi dans cette carriere et depuis ma premiere
+      <lb/>jeunesse j’ai vu à chaque pas, qu’il n’y a d’autre philosophie que celle qui est fondée
+      <lb/>sur la connoissance des phenomenes: mais il faut etre absolument mathematicien pour
+      <lb/>tirer parti de cette connoissance. Vous voyez à quoi il sera bon que Vous employiez la
+      <lb/>vigueur de votre age: tachez avec cela de prendre l’esprit d’observation et celui
+      <lb/>de meditation; Examinez, observez tout; que rien ne soit indigne de votre attention, pas
+      <lb/>meme les actions morales; bientot les consequences se presenteront d’elles memes; Vous
+      <lb/>sentirez le vrai comme par instinct; Vous ecarterez le faux et vous ne formerez jamais
+    <lb/>ces sistemes ridicules, qui ne sont que trop <subst><del>g</del><add>com</add></subst>muns meme parmi les savans du
+      <lb/>premier ordre: quelques fois Vous sentirez le faux jusqu’à l’entière conviction sans
+      <lb/>en pouvoir dire la raison; Si peutetre le nombre des sots est plus grand dans le monde
+      <lb/>qu’on ne croit, il est sûr d’un autre coté, que les hommes à talens ne sont pas si rare<add>s</add>
+      <lb/>qu’on le suppose; c’est pourquoi il est bon d’etre circonspect, meme timide, dans ses
+    <lb/>productions qu’on suppose nouvelles et importantes; un enfant meriteroit le fouet, s<supplied>’</supplied>il
+      <lb/>avoit dit ce qu<subst><del>e</del><add>i</add></subst> echape quelque<add>s</add>fois de dire aux grands hommes ou se disant tels
+      <lb/>et ce qui ne leur seroit pas arrivé de dire, s’ils avoient eu moins d’amour propre et
+      <lb/>moins de mepris pour le<subst><del><gap/></del><add>urs</add></subst> semblables. Je voudrois bien savoir si l’<rs type="organisation">Academie</rs> possede
+      <lb/>un cabinet d’instrumens de physique: S’il <add>y</add> en a un, vous pourriez m’en donner
+      <lb/>une petite description et je verrai à quelle sorte d’observations et d’experiences vous
+      <lb/>pourriez vous apliquer. Si vous avez une bonne boussole et que les aurores boreales
+    <lb/>ne soyent pas si rares à <rs key="place_GEO-2950159" type="place">Berlin</rs> comme elles sont ici, je souhaiterois que Vous confir<pc type="hyphenation">-</pc><lb break="no"/>m<unclear reason="illegible">assi</unclear>ez par vos observations ce qui est dit dans les <rs type="biblio"><choice><orig>actes</orig><reg>Actes</reg></choice> de <rs key="place_VER-schwede" type="place">Suede</rs></rs>, que les aurores
+    <pb facs="5994591" n="21v"/>
+     <lb/>derangent l’aiguille de <unclear reason="illegible">2</unclear><choice><orig>.</orig><reg>,</reg></choice> 3 ou 4<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> degrés et que l’aiguille reprend sa position à mesure
+      <lb/>que l’aurore s’affoiblit: un tel phenomene pourroit repandre quelque lumiere sur le raport
+      <lb/>qu’il peut y avoir entre la matiere de l’aurore boreale, la matiere magnetique et la matiere
+      <lb/>electrique<subst><del>;</del><add>,</add></subst> puisqu’on a aussi trouvé quelque relation entre la vertu magnetique et la vertu
+      <lb/>electrique. <choice><orig>je</orig><reg>Je</reg></choice> <choice><orig>scai</orig><reg>sçai</reg></choice> qu’il y a aussi à <rs key="place_GEO-2950159" type="place">Berlin</rs> une boussole d’inclinaison; il faudroit donc faire
+      <lb/>de pareilles observations sur cette boussole. Les observations barometriques me paroissent
+      <lb/>assez inutiles pour en former une theorie à moins qu’on ne les fasse dans le dessein de les
+      <lb/>comparer avec celles d’un autre paÿs bien eloigné ou avec celles qui auroient <choice><orig>eté</orig><reg>été</reg></choice> faites
+      <lb/>sur des montagnes voisines et bien elevées; j’ai tiré plusieurs nouvelles verités des observa<pc type="hyphenation">-</pc><lb break="no"/>tions barometriques correpondantes faites à <rs key="place_GEO-2657896" type="place">Zuric</rs> et sur le <rs key="place_STR-gottha" type="place"><abbr>S.<hi rend="sup">t</hi></abbr> Gothard</rs>. Vous vous souvien<pc type="hyphenation">-</pc><lb break="no"/>drés aussi des experiences que nous avons faites ici sur l’electricité et dont quelques unes
+    <lb/>n’ont pas encor transpiré; les aiguilles recourbées en <formula>S</formula> sont dignes d’etre decrites<metamark/><note hand="pers_DE-588-118656503">vous souvenez<choice><orig> </orig><reg>-</reg></choice>Vous de quelle <choice><orig>facon</orig><reg>façon</reg></choice> on fait monter à contremont les aiguilles en les faisant tourner<unclear reason="illegible">?</unclear></note> nos
+      <lb/>electrometres ne le sont pas moins; ceux-ci m’ont apris cette nouvelle verité, que les forces suivent
+      <lb/>le raport des surfaces et non des masses; les aiguilles recourbées prouvent la reaction du fluide
+      <lb/>electrique et son inertie. J’ai fait aussi plusieurs nouvelles observations magnetiques, que
+      <lb/>je pourrois vous communiquer, si vous entrepreniez cette tache, à moins que je ne les oublie
+      <lb/>d’ici à ce tems-là.
+  </p>
+  <p>
+    <lb/>L’arithmetique politique seroit une des sciences les plus utiles<supplied>,</supplied> si elle
+      <lb/>etoit traitée par d’habiles gens; mais les esprits mediocres ne font qu’entasser des paralogismes.
+      <lb/><choice><orig>par</orig><reg>Par</reg></choice> exemple, comment se fait-il que dans les grandes villes il y a ordinairement trois fois
+      <lb/>plus de veufes que de veufs; quelles sont les maximes morales qui en sont la cause; quels
+      <lb/>effets en resulte<del>nt</del> il<del>s</del> sur la population? <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> L’inoculation devroit tenir à cœur aux
+      <lb/>plus grands monarques, etant demontré que la mortalité de la petite verole naturelle
+      <lb/>va en augmentant depuis cent cinquante ans. <choice><orig>cette</orig><reg>Cette</reg></choice> matiere est tres riche et admet
+      <lb/>des theoremes remarquables qu’on tire par un enchainement de consequences de quelques
+    <lb/>faits verifiés par des observations constantes; par exemple <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">D<supplied>’</supplied>Alembert</rs> a proposé la
+      <lb/>question de savoir parmi un certain nombre d’habitans d’une ville, quel sera le nombre
+      <lb/>de ceux qui n’auront pas eu la petite verole: son raisonnement et sa decision ne font
+      <lb/>pas voir le grand homme; pour moi je dis que c’est la septieme partie du total. Si le
+      <lb/>froid de <rs key="place_GEO-2950159" type="place">Berlin</rs> est bien considerable, je voudrois qu’on comparat ensemble la marche d’un
+      <lb/>thermometre à esprit de vin, d’un autre à mercure et enfin d’un troisieme à air; il faut
+      <lb/>que les grands froids tels qu’on en a produit artificiellement à <rs key="place_GEO-498817" type="place">Petersbourg</rs> agissent d’une
+      <lb/>maniere singuliere <add>s</add>ur les liqueurs: car comment concevoir qu’un froid soit trente ou
+    <lb/>quarante fois plus grand <add>que celui de la congelation depuis le temperé</add>, comme on a pretendu conclure à <rs key="place_GEO-498817" type="place">Petersbourg</rs>; si on avoit
+      <lb/>consulté en meme tems un thermometre à air, je suis <choice><orig>sur</orig><reg>sûr</reg></choice> qu’on auroit trouvé tout autre
+      <lb/>chose; cette recherche demanderoit une dissertation prealable sur les thermometres à air
+      <lb/>qu’on n’a pas encor etudiés. Je vous cite, mon cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, quelques exemples, qui pourroient
+      <lb/>diriger vos premiers travaux. Vous faites tres bien de mettre au net les recherches que
+      <lb/>nous avons faites sur la force des fils et des poutres: <choice><sic>commenez</sic><corr>commencez</corr></choice> par la force des fils plus
+      <lb/>susceptlibles d’une exacte determination<del>s</del>; il y aura de quoi faire deux beaux <rs type="biblio">memoires</rs>.
+      <lb/>L’effet des choqs sur les fils est encor nouveau et digne de remarque; il est par exemple
+      <lb/>bien paradoxe qu’une corde becaucoup plus forte qu’une autre pourra etre rompue par un
+      <lb/>choq beaucoup plus foible; je suis <choice><orig>sur</orig><reg>sûr</reg></choice> que les experiences confirmeront la theorie d’autant
+    <pb facs="5994592" n="22r"/>
+    <lb/>plus exactement, qu’elles seront plus exactes elles memes. <choice><orig>mais</orig><reg>Mais</reg></choice> il est inconcevable de combien
+      <lb/>de manieres on peut pecher contre l’exactitude des experiences; ici il faut etre sur tout atten<pc type="hyphenation">-</pc><lb break="no"/>tif que la corde soit egalement forte dans toute sa longueur; que la <choice><orig>facon</orig><reg>façon</reg></choice> d’y attacher le poids
+      <lb/>aussi bien que celle d’attacher la corde par l’autre bout ne rendent la corde plus foible par l’un
+    <lb/>ou l’autre de ses bouts<supplied>,</supplied> et comme toute la theorie est fondée sur la <choice><orig>facon</orig><reg>façon</reg></choice> de preter avant
+      <lb/>que la corde se rompe, il faut aussi avoir egard que le point de suspension soit bien solide
+      <lb/>et ne plie ou prete en aucune façon. Quant à la force des poutres, il en faut parler
+      <lb/>avec moins de confiance y ayant une infinité de circonstances qui peuvent faire varier
+      <lb/>les succés. <choice><orig>le</orig><reg>Le</reg></choice> theoreme sur la relation qu’il y a entre la force d’une poutre verticale qui
+      <lb/>soutient un poids et celle de la meme poutre fichée horizontalement dans le mur, merite
+      <lb/>beaucoup d’attention et ne sauroit manquer de repondre aux experiences, pourvu qu’on
+      <lb/>s’y prenne bien. La forme à donner à ses memoires demande de l’exercice; à cet
+      <lb/>egard vous ferez bien de vous proposer un modele et de lire avec attention. Je ne
+      <lb/>desaprouve pas que vous lisiez le <rs type="biblio"><choice><orig>traité</orig><reg>Traité</reg></choice> de la lumiere</rs> par <rs key="pers_DE-588-118639749" type="person">Huyghens</rs>; mais ce grand homme
+      <lb/>tenoit encor à la philosophie de <rs key="pers_DE-588-118524844" type="person">Descartes</rs> et son dit <rs type="biblio">traité</rs> n’est qu’un jeu d’imagination; en
+      <lb/>general <rs key="pers_DE-588-118639749" type="person">Huyghens</rs> n’avoit pas moins de merite que <rs key="pers_DE-588-118587544" type="person">Newton</rs> et aprez ces deux grands hommes
+      <lb/>il ne faut plus nommer personne. <choice><orig>mais</orig><reg>Mais</reg></choice> l’<rs type="biblio"><choice><orig>optique</orig><reg>Optique</reg></choice></rs> de <rs key="pers_DE-588-118587544" type="person">Newton</rs> merite une preference infinie
+    <lb/>sur le <rs type="biblio"><choice><orig>traité</orig><reg>Traité</reg></choice> de la lumiere</rs> de <rs key="pers_DE-588-118639749" type="person">Huyghens</rs>. <choice><orig>c</orig><reg>C</reg></choice>’est une lecture, celle de l’<choice><orig>optique</orig><reg>Optique</reg></choice> de <rs key="pers_DE-588-118587544" type="person">Newton</rs>, que
+      <lb/>je vous recommande le plus et je vous la recommanderois encor, quand vous l’auriez deja
+      <lb/>lue dix fois avec toute l’aplication dont Vous etes capable. J’ai oublié de vous dire
+      <lb/>que Vous etes entierement le maitre de tout ce que nous avons traité ensemble sous
+      <lb/>quelle forme que vous trouviez à propos de l’exposer dans les memoires que vous
+      <lb/>lirez à l’<rs type="organisation">Academie</rs>. Je crois que vous seriez extremement deplacé à traduire des
+      <lb/>livres grecs sur la mechanique. Le <rs key="pers_DE-588-118535749" type="person">Roy</rs> possede trop l’art de tirer de toutes choses le plus
+      <lb/>d’utilité qu’il est possible pour que <abbr>S. M.</abbr> impose un tel travail à un jeune homme
+      <lb/>aussitot qu’elle <choice><orig>scait</orig><reg>sçait</reg></choice> qu’il faudroit commencer par aprendre deux langues pour un
+      <lb/>nombre infini de termes d’art et de metier qu’il faudroit savoir, qu’on ne trouve point
+      <lb/>dans les dictionaires ou qu’on ne sauroit y chercher lorsqu’ils y sont et que tres peu de
+      <lb/>gens du metier connoissent. Je ne doute pourtant pas qu’enflammé par le desir
+      <lb/>de plaire au <rs key="pers_DE-588-118535749" type="person">Roi</rs>, Vous ne fissiez de progrés rapides dans cette Etude. En tout
+      <lb/>cas souvenez<choice><orig> </orig><reg>-</reg></choice>vous, qu’il ne faut pas vouloir à demi quand il s’agit du service du
+      <lb/><rs key="pers_DE-588-118535749" type="person">Roi</rs> et que quiconque veut bien ne manque jamais de re<unclear reason="illegible">ü</unclear>ssir.
+  </p>
+  <p>
+      <lb/>Monsieur le Comte <rs key="pers_DE-588-1155969200" type="person">Golowkin</rs>, qui a une seigneurie en <rs key="place_VER-schweiz" type="place">Suisse</rs> prés de <rs key="place_GEO-2659587" type="place">Morges</rs>,
+      <lb/>informé de mes justes pretentions à l’<rs type="organisation">Academie</rs> de <rs key="place_GEO-498817" type="place">Petersbourg</rs> m’a conseillé de
+      <lb/>dresser deux <rs type="biblio">memoires</rs><supplied>,</supplied> l’un en forme de requete à <abbr>S. M. Imp.</abbr> de toutes les <rs key="place_VER-russia" type="place">Russies</rs>, l’autre
+      <lb/>au <rs key="pers_DE-588-118598708" type="person">President</rs> de l’<rs type="organisation">Academie</rs>, ce qu’ayant fait j’ai envoyé le tout à <abbr>Mons.<hi rend="sup">r</hi></abbr> <rs type="person">le Comte</rs>,
+      <lb/>qui a bien voulu l’envoyer à Madame <rs key="pers_DE-588-1075862159" type="person">Kameke</rs> <add>sa Sœur</add> à <rs key="place_GEO-2950159" type="place">Berlin</rs> en priant cette <rs type="person">Dame</rs>
+      <lb/>de s’interesser pour moi à la <rs type="organisation">Cour</rs> de <rs key="place_GEO-498817" type="place">Petersbourg</rs>. Si vous avez occasion de voir
+      <lb/><subst><del><gap/></del><add>Mad</add></subst>ame <rs key="pers_DE-588-1075862159" type="person">Kameke</rs>, je Vous prie de Lu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> parler de cette affaire: On me dit que
+      <lb/>c’est une <rs type="person">Dame</rs> d’un trés rare merite et qui sait parfaitement bien les souterrains pour
+      <lb/>arriver à ses fins. J’aurai surement ma pension, si elle daigne s’interesser pour moi, d’autant
+      <lb/>plus que je ne demande que ce qui m’est <choice><orig>du</orig><reg>dû</reg></choice> en vertu d’un contrat fait en <date>1733</date>.</p>
+  <pb facs="5994593" n="22v"/>
+  <p>
+    <lb/>Je Vous prie de presenter mes honneurs à <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> notre <rs type="person">Illustre Compatriote</rs>. Il me feroit
+      <lb/>plaisir d’examiner de nouveau toute ma theorie sur les vibrations des cordes, qui develope merveil<pc type="hyphenation">-</pc><lb break="no"/>leusement les loix de la nature et dont on peut tirer tant d’utilité pour la physique generale.
+      <lb/>Il est bien extraordinaire, que n’etant que quatre qui avons ecrit sur cette matiere,
+    <lb/>savoir Lui, <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118568698" type="person">de la Grange</rs>, <abbr>M.</abbr> <rs key="pers_DE-588-11850178X" type="person">D<supplied>’</supplied>Alembert</rs> et moi, aucun ne convienne avec les autres,
+      <lb/>quoique nous soyons d’accord pour l’essentiel. Je suis encor bien persuadé qu’il n’y a rien
+      <lb/>dans toute cette matiere qu<subst><del>e</del><add>i</add></subst> <subst><del>de conforme à</del><add>ne soit compris dans</add></subst> ma theorie; je crois qu’on pourroit apliquer avec
+      <lb/>succés mes principes à determiner les petites aberrations astronomiques en les considerant comme un
+      <lb/>melange de petits balancemens, par lesquels les corps celestes s’eloignent et s’aprochent alternative<pc type="hyphenation">-</pc><lb break="no"/>ment de leur orbite naturelle; il me semble encor que tous les phenomenes admirables sur
+      <lb/>la lumiere se deduisent fort naturellement de ma theorie, comme par <abbr>ex.</abbr> les accés de facile
+      <lb/>transmission et reflexion des rayons de differente couleur; il n’y a qu’à supposer que les surfaces
+      <lb/>des deux verres doivent etre prés d’un nœud du rayon de lumiere pour transmettre ce rajon.
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> entendra ce que je veux dire, quand il aura lû le grand <rs type="biblio">memoire</rs> que j’ai
+      <lb/>envoyé à l’<rs type="organisation">Academie</rs> de <rs key="place_GEO-2988507" type="place">Paris</rs> sur les tons des tuyaux d’orgues de differente structure; j’ai trouvé
+      <lb/>l<subst><del><gap/></del><add>a <choice><orig>facon</orig><reg>façon</reg></choice></add></subst> de determiner les tons des tuyaux coniques, des tuyaux à cheminée <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> et toute ma theorie
+      <lb/>repond parfaitement aux experiences que j’ai faites et qui peuvent etre apliquées aux rayons
+      <lb/>de lumiere tout comme aux rayons sonores. Je souhaiterois d’aprendre, si la theorie de <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-118531379" type="person">Euler</rs> sur les courbures des cordes apliquée aux demi vibrations donne quelque cas qui ne soit
+    <lb/>pas compris dans cette <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quation <choice><orig><formula ana="corr">y=a\,\mathrm{Sin.\,}\mathrm{Arc.\,}\frac{x}{l}\pi+b\,\mathrm{Sin.\,}\mathrm{Arc.\,}\frac{3x}{l}\pi+c\,\mathrm{Sin.\,}\mathrm{Arc.\,}\frac{5x}{l}\pi+\mathrm{\&amp;c}</formula></orig><reg><formula>y=a\sin\left(\frac{\pi x}{l}\right)+b\sin\left(\frac{3\pi x}{l}\right)+c\sin\left(\frac{5\pi x}{l}\right)+\cdots</formula></reg></choice>, où j’entends
+      <lb/>par <formula>l</formula> la longueur de la corde et par <formula>\pi</formula> le demicercle pour le rayon 1. Cette equation donne les
+      <lb/>courbes, qui remette<add>nt</add> tous les points de la corde dans l’axe au meme instant outre qu’ils achevent au
+    <lb/>meme instant leur vibration dans le sens de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> et de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">D<supplied>’</supplied>Alembert</rs>. <choice><orig>mais</orig><reg>Mais</reg></choice> ce qui eclaircit sur
+      <lb/>tout cette matiere epineuse et importante, c’est de resoudre le probleme sur les vibrations des
+      <lb/>cordes plus generalement en poussant la solution jusqu’aux cordes inegalement epaisses. Voici un
+    <lb/>exemple. <figure facs="../images/figures/5994593_01.png"
+      hand="pers_DE-588-118656503">
+      <figDesc>…</figDesc>
+    </figure> Soit la longueur de la corde <formula>AC=l</formula>; <formula>AB=x</formula>; le poids de <formula>AB=</formula>
+    <lb break="no"/><choice><orig><formula ana="corr">\frac{8}{7}g-\frac{8}{7}\times\left(\frac{l}{l+x}\right)^{3}g</formula></orig><reg><formula ana="corr">\frac{8}{7}g-\frac{8}{7}\cdot\left(\frac{l}{l+x}\right)^{3}g</formula></reg></choice><supplied>,</supplied> en entendant par <formula>g</formula> le poids total de la corde <formula>AC</formula>; je dis que le pendule isochrone pour
+    <lb/>les vibrations du premier, du second, du troisieme ordre sera <choice><orig><formula ana="corr">\frac{6}{7\pi\pi}\times\frac{g}{P}l</formula></orig><reg><formula>\frac{6}{7\pi\pi}\cdot\frac{g}{P}l</formula></reg></choice>; <choice><orig><formula ana="corr">\frac{1}{4}\times\frac{6}{7\pi\pi}\cdot\frac{g}{P}l</formula></orig><reg><formula>\frac{1}{4}\cdot\frac{6}{7\pi\pi}\cdot\frac{g}{P}l</formula></reg></choice>; <choice><orig><formula ana="corr">\frac{1}{9}\times\frac{6}{7\pi\pi}\cdot\frac{g}{P}l\mathrm{ \&amp;c.}</formula></orig><reg><formula>\frac{1}{9}\cdot\frac{6}{7\pi\pi}\cdot\frac{g}{P}l\mathrm{ etc.}</formula></reg></choice>
+      <lb/>en entendant par <formula>P</formula> le poids qui tend la corde; on aura aussi pour les vibrations du
+    <lb/><figure facs="../images/figures/5994593_02.png"
+      hand="pers_DE-588-118656503">
+      <figDesc>…</figDesc>
+    </figure> second ordre <formula>Ae=\frac{1}{3}l</formula> et <formula>eC=\frac{2}{3}l</formula>. Ensuite pour les vibrations du
+    <lb/>troisieme ordre je trouve <figure facs="../images/figures/5994593_03.png"
+      hand="pers_DE-588-118656503">
+      <figDesc>…</figDesc>
+    </figure> <formula>Ae=\frac{1}{5}l</formula>; <formula>ed=\frac{3}{10}l</formula>; <formula>dC=\frac{1}{2}l</formula>. Il est donc bien
+      <lb/>remarquable, que les tems pour les vibrations de chaque ordre soient toujours sons multiples des tems des
+      <lb/>vibrations fondamentales pour la corde que je viens de supposer tout comme dans les cordes uniformement
+    <lb/>epaisses; On peut donc apliquer aussi à cette corde le theoreme de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">D<supplied>’</supplied>Alembert</rs>; mais le calcul m’a
+      <lb/>apris que presque toutes les autres cordes n’ont pas cette proprieté. Comme je respecte beaucoup
+      <lb/>les lumieres et la couleur de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>, il me feroit beaucoup de plaisir s’il vouloit bien essayer sa methode
+      <lb/>sur les cordes inegalement epaisses. Si vous pouvez lire, mon cher Neveu, le griffonage de cette page
+      <lb/>pour ce qu’il y a de calcul, Vous me ferez plaisir de la copier et de communiquer la copie à <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>.
+      <lb/>J’ai communiqué votre <rs type="letter">lettre</rs> à Votre <rs key="pers_DE-588-117589136" type="person">Pere</rs>: il Vous aura repondu lui meme sur l’<rs type="biblio">article</rs> que
+      <lb/>Vous avez mis dans l’envelope. Voilà une <rs type="letter">lettre</rs> bien longue; l’amitié que j’ai pour vous
+      <lb/>ne m’a pas permis de la faire plus courte: Je vous embrasse, mon cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>;</p> <closer>aimez<choice><orig> </orig><reg>-</reg></choice>moi
+        <lb/>toujours et croyez<choice><orig> </orig><reg>-</reg></choice>moi toujours tout à Vous.
+      <lb/><signed><rs key="pers_DE-588-118656503" type="person">D B.</rs></signed>
+        <dateline><lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1763-12-07">7.<hi rend="sup">e</hi> decembre 1763</date>.</dateline></closer>
+
+<pb facs="5994594" type="archival"/></div><note type="archival">vgl. 689 fo. 165</note>
+</body>
+</text></TEI>

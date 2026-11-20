@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430341305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Gabriel Cramer. Basel, 12. Mai 1742</title>
+          <title type="alt">1742.05.12: Bernoulli, Johann (1710-1790) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000058274</title>
+          <title type="alt">1742-05-12_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430341305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430341305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms. Suppl. 384, fo. 23r-24v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430341305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406957605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058274</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1742-05-12">ce 12. Mai 1742</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1742-05-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430341405501" type="prev"/>
+          <ptr target="B_991170430341205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136952968">Bousquet, Marc Michel</persName>
+            <note type="lebensdaten">(1696-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1069193119">Barberie de Courteille, Dominique Jacques de</persName>
+            <note type="lebensdaten">(1696-1767)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-09-10" who="RG">Korrekturgelesen, und Code ergänzt</change>
+        <change when="2025-09-10" who="RG">Restliche Auszeichnungen</change>
+        <change when="2025-09-10" who="RG">Verbesserung Briefstruktur, facs, closer, Adresse, etc.</change>
+        <change when="2025-08-22" who="MK">Transkription kontr. anhand Abfertigung BGE, lb, person, place, keys, Teil 1</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaa186541f325fd105/manifest"/>
+</facsimile><text>
+<body>
+
+<div type="letter">
+<pb facs="0/25" n="23r"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur
+  </salute>
+  </opener>
+  <p>
+      <lb/>Je n’ai que le tems de vous dire que mon
+      <lb/><rs key="pers_DE-588-118509969" type="person">Père</rs> ne se souvient plus de l’explication que
+      <lb/>vous me demandés de l’anagramme qui se trouve
+      <lb/>dans les <rs key="biblio_3H3CXVQL" type="biblio">Actes de Leipsic <date when="1724">1724</date></rs> et que nous ne
+      <lb/>savons où nous pourrions la trouver, ainsi il
+      <lb/>faudra bien se contenter de mettre simplement
+      <lb/>l’anagramme, à moins que par hazard vous
+      <lb/>ne la trouviés vous même dans quelqu’une des
+      <lb/><rs type="letter">lettres</rs> de mon <rs key="pers_DE-588-118509969" type="person">Père</rs> que vous avés.
+  </p>
+  <p>
+      <lb/>Au reste, mon <rs key="pers_DE-588-118509969" type="person">Père</rs> est fort sensible à la part que
+      <lb/>vous avés prise à sa maladie et à son <abbr>retablissem.<hi rend="sup">t</hi></abbr>
+  </p>
+  <closer>
+  <salute>
+      <lb/><choice><orig>toute</orig><reg>Toute</reg></choice> la gent Bernoullienne vous fait ses
+      <lb/>Complimens et personne n’est avec plus d’<pc type="hyphenation"></pc><lb break="no"/>estime et d<supplied>’</supplied>attachement que moi Monsieur
+      <lb/>votre très humble et très
+      <lb/>obeissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-117589136" type="person">Bernoulli</rs>
+  </signed>
+  <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bâle</rs> ce <date when="1742-05-12">12. Mai
+      <lb/>1742</date>
+  </dateline>
+  </closer>
+  <postscript>
+    <p>
+        <lb/>mes obéissances à <abbr>M.</abbr> le
+        <lb/><rs key="pers_DE-588-1069193119" type="person">Résident de france</rs> si
+        <lb/>vous le voyés de même qu’à
+        <lb/>ces autres Messieurs<note type="editorial"></note>.
+    </p>
+    <p>
+        <lb/>Dites, je vous prie à <abbr>M.</abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> que j’aurois déjà
+        <lb/>repondu à sa <rs type="letter">lettre</rs> de l’autre jour, si je n’avois voulu
+        <lb/>attendre les épreuves qu’il me promet, si tôt que je les
+        <lb/>aurai reçuës je lui repondrai et peutêtre plutot.
+    </p>
+  </postscript>
+<pb facs="0/26" n="23v" type="empty"/>
+<pb facs="0/27" n="24r" type="empty"/>
+<pb facs="0/28" n="24v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur le Professeur</addrLine>
+      <addrLine><rs key="pers_DE-588-11670912X" type="person">Cramer</rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2660646" type="place">Genève</rs> </addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

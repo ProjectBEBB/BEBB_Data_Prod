@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514627105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Daniel Schöpflin an Daniel I Bernoulli. Straßburg, 11. Februar 1767</title>
+          <title type="alt">1767.02.11: Schöpflin, Johann Daniel (1694-1771) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055277</title>
+          <title type="alt">1767-02-11_Schoepflin_Johann_Daniel-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514627105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514627105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Schöpflin, Johann Daniel (1694-1771)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24379">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.74</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514627105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432952905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055277</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Strasb.</origPlace>
+              <date when="1767-02-11">le 11 fev. 1767</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118610260">Schöpflin, Johann Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4057878-1">Straßburg</placeName>
+          <date when="1767-02-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430096305501" type="prev"/>
+          <ptr target="B_991170430095405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Schoepflin_Johann_Daniel-DanIB" corresp="pers_DE-588-118610260" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Sch. vermutet, dass Dan. B. wohl Gayots Antwort erhalten hat Vgl. Brief von Gayot an Dan. I B. 1767 02 09 mit einem Schuldschein Herings). Dieser hat sich durch Hering über die Affäre informieren lassen. Die Summe für das Mädchen ist sehr klein. Falls noch Unklarheiten bestehen, möge sich Dan. B. an Gayot wenden.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116978318X">Gayot, Félix-Louis</persName>
+            <note type="lebensdaten">(1733-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Hering, aus Strassburg</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-22" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2026-03-31" who="NG">Tagging</change>
+        <change when="2026-02-02" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-02" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-02" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1064312/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1064313" n="1"/>
+  <opener><dateline><rs key="place_GEO-2973783" type="place">Strasb.</rs> le <date when="1767-02-11">11. <abbr>fev.</abbr> 1767</date></dateline>
+<salute>Monsieur</salute></opener>
+  <p><lb/>Vous aurés reçu la <rs type="letter">Reponse</rs> de
+      <lb/><abbr>M.</abbr> <rs type="person">de Gayot</rs>. Il a fait venir
+      <lb/>dabord <rs type="person">Hering</rs> et s’est informé de
+      <lb/>l’affaire, mais il me dit, que la
+      <lb/>somme, qui revient à la <rs type="person">fille</rs>,
+      <lb/>est petite. S’il y a encore
+      <lb/>quelque chose, qui n’est pas en
+      <lb/>regle, revenés à la charge, car
+      <lb/>il veut Vous rendre service.
+      <lb/>Je Vous embrasse de tout mon
+      <lb/>coeur.</p>
+  <closer><rs key="pers_DE-588-118610260" type="person">Schoepflin</rs>.
+<pb facs="1064314" n="2" type="empty"/>
+<pb facs="1064315" n="3" type="empty"/>
+<pb facs="1064316" n="4"/>
+  <note hand="unknown"><date><abbr>fevr.</abbr> 1767</date></note>
+    <address>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-118656503" type="person">Daniel</rs></addrLine>
+      <addrLine>Bernoulli, fameux</addrLine>
+      <addrLine>Mathematicien et</addrLine>
+      <addrLine>Professeur</addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice></addrLine>
+      <addrLine><hi rend="u"><rs key="place_GEO-2661604" type="place">Bale</rs></hi></addrLine>
+    </address></closer>
+</div>
+</body>
+</text></TEI>

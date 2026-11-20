@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516734805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Louis Moreau de Maupertuis an Johann II Bernoulli. Braunschweig, 20. September 1740</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516734805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516734805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-533">"Copie de lettre", siehe Signatur UBH L Ia 768:Bl.105-106</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136433">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 708:Bl.56</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516734805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433573105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058580</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl. (2 beschriebene S.)<dimensions unit="cm"><height>23</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>De Brunswic</origPlace>
+              <date when="1740-09-20">20 Sept. 1740</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4008065-1">Braunschweig</placeName>
+          <date when="1740-09-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516734905501" type="prev"/>
+          <ptr target="B_991170516734705501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Pierre_Louis_Moreau_de-JohIIB" corresp="pers_DE-588-118731998" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118681028">Du Châtelet, Gabrielle Émilie Le Tonnelier de Breteuil</persName>
+            <note type="lebensdaten">(1705-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914202">Du Châtelet-Lomont, Florent Claude</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Laistre, de</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118627813">Voltaire</persName>
+            <note type="lebensdaten">(1694-1778)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-22" who="CG SG">Transkription erstellt</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3699590/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+  <p>
+<pb facs="3699591" n="56r"/>
+      <lb/>J’arrive <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Berlin</rs> dans 2 jours<supplied>,</supplied> mon cher amy<supplied>,</supplied> ou du
+      <lb/>moins à <rs type="place">Potzdam</rs> avec le <rs type="person">Roy</rs>; et je n<supplied>’</supplied>ay point l’esperance
+      <lb/>d<supplied>’</supplied>y trouver ce que je vous avois prié d’envoyer à <abbr><choice><orig>m</orig><reg>M</reg></choice>.</abbr> de <unclear>Wernike</unclear>
+      <lb/>parcequ<supplied>’</supplied>il me mande qu<supplied>’</supplied>il doit aller aux Deux ponts et que
+      <lb/>je crois qu<supplied>’</supplied>il sera party avant que d’avair receu votres paquets,
+      <lb/>envoyés<choice><orig> </orig><reg>-</reg></choice>moy donc par la poste <add>à Berlin</add> 2 <abbr>exempl.</abbr> de ma <rs type="biblio">Dissertation</rs>
+      <lb/>sans etre coupés ny pliés anfin qu’on puisse les rellier.</p>
+  <p><lb/><del><gap/></del><choice><orig>faittes</orig><reg>Faittes</reg></choice> en mettre à la poste de Strasbourg 2 <abbr>exempl.</abbr>
+      <lb/>l’un à l’adresse de <hi rend="u"><abbr>M.</abbr> le Marquis Du Chatelet Marechal de
+      <lb/>camp des Armées du <rs type="person">Roy</rs>. Grange Bateliere <choice><orig>a</orig><reg>à</reg></choice> Paris</hi>
+      <lb/>l<supplied>’</supplied>autre à l<supplied>’</supplied>adresse de <hi rend="u"><abbr>M.</abbr> DeLaistre rue <abbr>S.<hi rend="sup">t</hi></abbr> Honoré vis <choice><orig>a</orig><reg>à</reg></choice> vis
+      <lb/>les Capucins</hi>. Les adresses mises d’une autre main que
+      <lb/>la vostre <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les paquets ne partant par Strasbourg.
+      <lb/>Envoyés<choice><orig> </orig><reg>-</reg></choice>moy aussi les feuillets du <rs type="biblio">Merc. Suisse</rs> qui regardent
+      <lb/>l’Examen <unclear>desinteressé le plutost</unclear> que vous <unclear>pourrés</unclear>.</p>
+  <p><lb/>Malgré tout le plaisir de voyager avec le <rs type="person">Roy</rs> j’ay fort
+      <lb/>envie d’etre à <rs type="place">Berlin</rs> et d’y voir <unclear>quel train prendra</unclear>
+      <lb/>l’Academie; <abbr>M.<hi rend="sup">r</hi></abbr> Du Chastellet <del><gap/></del>qui après quelques Noirceurs
+      <lb/>qu<supplied>’</supplied>elle m’a voulu faire me comble aujourd’huy d’amitiés, voudroit
+      <lb/>que le <rs type="person">Roy</rs> en vous mettant dans son <abbr>Acad.</abbr> exigeast que
+      <lb/>vous assossiés passer un an ou 6 mois auprès d’elle, je crois
+      <lb/>que cela se pourra sans cela. Je luy ay dit <del><gap/></del>et à Voltaire
+      <lb/>qu<supplied>’</supplied>une telle Clause ne seroit pas agreable et oteroit du<seg type="weiser"> choix du</seg>
+<pb facs="3699592" n="56v"/>
+      <lb/>choix du <rs type="person">Roy</rs> une partie de ce qu’il y a de flatteur à etre
+      <lb/>apellé dans son Academie; quoy que ne doutois point qu<supplied>’</supplied>
+      <lb/>après la chose faite, si <abbr>M.<hi rend="sup">e</hi></abbr> <rs type="person">Du Chat.</rs> vous demandoit au <rs type="person">Roy</rs>
+      <lb/>pour quel<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tems elle ne vous obtint facilement <unclear>et</unclear> qu’alors
+      <lb/>solliciteroit rien ne pouvoit etre plus agreable que voir que
+      <lb/>allassiés sans <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> votre place <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Berlin</rs> fust achetée par
+      <lb/>une telle condition. Mais il faut voir le Tour que prendront
+      <lb/>les choses car je crois que la <abbr>1<hi rend="sup">ere</hi></abbr> seance de l’Acad<abbr>ie</abbr> ne se
+      <lb/>tiendra pas si tost, le <rs type="person">Roy</rs> ayant auparavant bien des choses
+      <lb/>à arranger. Sans <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> encor rien de vos desseins je ne
+      <lb/>manqueray pas de vous proposer au <rs type="person">Roy</rs> vus et <abbr>M.</abbr> votre frere
+      <lb/><choice><orig>Dés</orig><reg>dès</reg></choice> qu’il sera question de nomer les membres de l’Academie et je
+      <lb/>luy <add>en</add> ay deja parlé; parce<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je crois que luy pouvoir indiquer
+      <lb/>personne qui soit <subst><del><gap/></del><add>si</add></subst> capable de donner à <subst><del><gap/></del><add>s</add></subst>on Academie <unclear>tout</unclear>
+      <lb/>le lustre qu<supplied>’</supplied>il faut qu<supplied>’</supplied>elle ait. Le <rs type="person">Roy</rs> m’a dit qu<supplied>’</supplied>il compto<unclear reason="lost">it</unclear>
+      <lb/>avoir <abbr>M.</abbr> <rs type="person">Euler</rs> mais qu<supplied>’</supplied>il ne pouvoit partir de Petersbourg
+      <lb/>que dans un an qu’expire son engagement. Dittes<choice><orig> </orig><reg>-</reg></choice>moy ce que
+      <lb/>vous en <choice><orig>scavés</orig><reg>sçavés</reg></choice>. Adieu<supplied>,</supplied> mon cher amy<supplied>,</supplied> M.</p>
+  <closer>
+<dateline><lb/>De Brunswic 20 Sept. 1740.</dateline>
+  </closer>
+  <postscript><p>
+        <lb/><abbr>M.<hi rend="sup">e</hi></abbr> Du Chastellet et Volt. s’etoient <del><gap/></del><add>f</add>lattés que le <rs type="person">Roy</rs> iroit
+        <lb/>les voir <choice><orig>a</orig><reg>à</reg></choice> Bruxelles, mais <choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>l s’est contenté de faire venir <unclear>V.</unclear>
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> Cleves et de laisser <abbr>M.<hi rend="sup">e</hi></abbr> Du Chatellet.
+    </p></postscript>
+</div>
+</body>
+</text>
+</TEI>

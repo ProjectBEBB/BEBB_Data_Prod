@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516522005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacob Basler an Johann II Bernoulli. Basel, 12. April 1770</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516522005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516522005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50980">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.40-47</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516522005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433429405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057962</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>20,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>Beilagen</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1770-04-12">[1770.04.12]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1014027802">Basler, Jacob</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1770-04-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516522105501" type="prev"/>
+          <ptr target="B_991170430260905501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Basler_Jakob-JohIIB" corresp="pers_DE-588-1014027802" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Basler sendet Auszüge aus Briefen über die Genfer Unruhen, die er von M. Bournet erhalten hat. Er gibt einige Erklärungen zum Begriff des "Bourgeois Natif". Der Brief befand sich in einem Paket mit 5 Fernrohren und Zubehör</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Bournet, aus Genf</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-25" who="SG NG">kollationieren begonnen</change>
+        <change when="2026-06-01" who="NG">Korrigiert</change>
+        <change when="2026-05-11" who="NG">transkribieren begonnen</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614081/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1599672" n="40r"/>
+  <head><lb/>Extraits de <rs type="letter">differentes lettres</rs> sur
+    <lb/>les derniers troubles de <rs type="place">Genéve</rs>.</head>
+  <opener><dateline>du <date when="1770-02-20"><abbr>20.<hi rend="sup">e</hi></abbr> <abbr>Fevr<choice><orig>:</orig><reg>.</reg></choice></abbr> 1770</date>.</dateline></opener>
+  <p>
+      <lb/>Nos divisions passées (savoir estre les Representans
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les Negatifs) avoient do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é naissance à une faction
+      <lb/>composée d’un <choice><orig>asses</orig><reg>assés</reg></choice> petit nombre de gens du bas peuple
+      <lb/>dans l’ordre des nâtifs <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> habitans; ces gens là avoient été
+      <lb/>excités <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> animés contre les Citoyens par le gouvernement
+      <lb/>qui cherchoit à se faire des <choice><orig>aꝑuis</orig><reg>appuis</reg></choice> par tout contre les Repre<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sentans.</p>
+  <p>
+      <lb/>L’accomodement du <date when="1768-03-11"><abbr>11.<hi rend="sup">e</hi></abbr> Mars 1768<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> fit dans les familles du
+      <lb/>haut bien des mecontens, desesperés de se voir <del><gap/></del>frustrés
+      <lb/>des belles espérances qu’ils avoient <choice><orig>concuës</orig><reg>conçuës</reg></choice> de l’<choice><orig>aꝑui</orig><reg>appui</reg></choice><del><gap/></del> de
+      <lb/>la garantie; un bon nombre d’entr’eux demandérent <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> obtinrent
+      <lb/>leur decharge. Ces gens mécontens ont cherché à troubler
+      <lb/>l’Etat, pour cet effet ils n’ont cessé en secret d’animer les restes
+      <lb/>de cette faction des nâtifs <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> contre le <rs type="organisation">Conseil</rs> qui les avoit
+      <lb/>negligés après l’accomodement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> contre les Citoyens qu’ils
+      <lb/>leur ont fait envisager co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e leurs e<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>emis les plus acharnés:
+      <lb/>En remontant à des tems soit reculés<supplied>,</supplied> ils leur ont fait voir
+      <lb/>que l’Etat des Nâtifs avoit été sur un pied beaucoup plus
+      <lb/>avantageux; qu’en l’an <date when="1500">1500</date> ils jouïssoient de tous les droits
+      <lb/>de citoyens, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que l’<rs type="biblio">Edit</rs> de <date when="1568">1568<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> qui a fixé la <rs type="biblio">constitution</rs>
+      <lb/>êtoit une vraïe usurpation dont ils pouvoient revenir puisque
+      <lb/>le peuple est toûjours mineur.
+      <lb/>Ces insinuations faites à quelques gens inquiets <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> vains
+      <lb/>qui cherchoient à joüer un rôlle, ont fermenté pendant
+      <lb/>quelque tems; l’esperance d’être <choice><orig>aꝑuiés</orig><reg>appuiés</reg></choice> par des gens riches
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>accredités a accru <abbr>considerablem.<hi rend="sup">t</hi></abbr> avec le tems le nombre des
+      <lb/>mecontens; à mesure qu’ils voyoient leur nombre s’acr<del><gap/></del><add>o</add>ître,
+
+<pb facs="1599673" n="40v"/>
+      <lb/>leur insolence alloit en augmentant<choice><orig>.</orig><reg>,</reg></choice> elle etoit montée à son
+      <lb/>comb<del><gap/></del><add>l</add>e depuis quelques jours; un no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>é <rs type="person">Resseguerre</rs><supplied>,</supplied> l’un des Chefs
+      <lb/>qui avoit tenu au caffé des propos très seditieux, fut empriso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é, pour
+      <lb/>cela les premiers jours de l’a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ée; les Grimands (c’est le sobriquet
+      <lb/>do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é aux nâtifs) ayant <choice><orig>aꝑris</orig><reg>appris</reg></choice> qu’il devoit être jugé <date when="1770-02-14">Mecredi
+      <lb/>dernier</date>, montèrent en grand nombre l’epée au côté <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les pistolets
+      <lb/>dans leurs poches, investirent la maison de Ville menaçant des
+      <lb/>dernières violences; le Conseil intimidé par ces furieux le jugea
+      <lb/>à 6 mois de prison dans sa maison; Dès qu’il sortit après avoir
+      <lb/>ouï sa sentence, ses camarades s’en emparèrent <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le porterent
+      <lb/>sur les épaules en triomphe par toute <rs type="place">la Ville</rs>, couro<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>és de laurier
+      <lb/>jusque ch<del><gap/></del><add>ez</add> lui faisant partout des huées effroïables: dès le jour
+      <lb/>même <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le <date>lendemain</date> matin, <rs type="person">Resseguerre</rs> méprisant le
+      <lb/>jugement du Conseil sortit de chez lui <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> fût vû dans tous les
+      <lb/>quartiers. Tous les bien intentio<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>és d’entre les Citoyens <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>bourgeois nâtifs <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> habitans manifestèrent au Conseil le
+      <lb/>chagrin qu’ils en ressentoient <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> lui offrirent leur secours
+      <lb/>en cas de violence de la part de ces forcenés: le <rs type="organisation">Conseil</rs> ainsi
+      <lb/>rassuré envoya reprendre <rs type="person">Resseguerre</rs> chez lui <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <unclear>le</unclear> conduire
+      <lb/>dans les prisons. Dès que les Nâtifs l’eurent <choice><orig>aꝑris</orig><reg>appris</reg></choice>, ils se
+      <lb/>repandirent par la <rs type="place"><del><gap/></del><add>Vi</add>lle</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> transportèrent des armes en
+      <lb/>différens quartiers, a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>onçant <abbr>hautem.<hi rend="sup">t</hi></abbr> les préparatifs d’une
+      <lb/>guerre civile; le tumul<del><gap/></del><add>t</add>e allant en augmentant à chàque instant
+      <lb/>châcun se prépara à la defense; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il alla enfin au point que
+      <lb/>le <rs type="organisation">Conseil</rs> fut obligé à 3 heures de faire so<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er le tocsin <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>battre la generale; il en étoit tems, une heure plus tard, il
+      <lb/>n’auroit plus été possible de se rassembler, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le sang auroit
+      <lb/>r<del><gap/></del><add>ui</add>sselé de toutes parts sans qu’on puisse savoir quel parti
+      <lb/>auroit été le plus fort, ces gens là étant environ 1200; dejà
+      <lb/>quantité se rendoient <abbr>d.</abbr> les postes assignés; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> étant ainsi
+      <lb/>egrenés, il ne nous fut pas difficile de les arrêter à mesure,
+
+<pb facs="1599674" n="41r"/>
+      <lb/>de les desarmer <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> enfermer ; <abbr>seulem.<hi rend="sup">t</hi></abbr> dans le premier instant
+      <lb/>4 de ces misérables voulant forcer un poste 3 furent tués
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le <abbr>4.<hi rend="sup">e</hi></abbr> blessé; c’est tout le sang qu’il y a eu de répandu.
+      <lb/>Le <rs type="organisation">Conseil General</rs> setant assemblé quelques jours après,
+      <lb/>a porté un decret qui condanne <rs type="person">les 8 principaux Chefs
+      <lb/>de la sedition</rs> à un <abbr>Ba<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>issend.</abbr> perpetuel <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui adouci le
+      <lb/>sort des natifs afin de les calmer. </p>
+  <p>
+      <lb/>du <date when="1768-03-06"><abbr>6.<hi rend="sup">e</hi></abbr> Mars</date></p>
+  <p>
+      <lb/>Nous somera actuellem.<hi rend="sup">n</hi> tranquilles autaut du moins qu’on
+      <lb/>peut l<supplied>’</supplied>être en montant <rs type="person">une garde bourgeoise</rs> d’environ
+      <lb/>300 ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es sans la garnison: Je ne suis pas surpris de
+      <lb/>vôtre éto<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ement sur la douceur du jugement rendu contre
+      <lb/>les 8 <rs type="person">chefs des coupables</rs> enoncés dans l’édit. le <rs type="organisation">Conseil</rs> a fait
+      <lb/>un acte de clemence dont il y a peu d’exemple. Si l’on avoit
+      <lb/>suivi à l’egard des proscrits une procedure regulière, <choice><orig>peutêtre</orig><reg>peut-être</reg></choice>
+      <lb/>bien des gens d’un certain nom <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> d’un certain rang se servient
+      <lb/>trouvés impliqués <abbr>d.</abbr> cette affaire, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’on en auroit aꝑris sur
+      <lb/>leur compte plus qu’on auroit voulu; <abbr>Probablem.<hi rend="sup">t</hi></abbr> on auroit
+      <lb/>decouvert des menées <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> des intrigues d’une Puissance interessée
+      <lb/>à entretenir parmi nous les feux de la discorde afin de peupler
+      <lb/>une nouvelle ville<note><rs type="place">Versoy</rs></note> aux depens de la nôtre.</p>
+  <p>
+      <lb/>Au reste le parti est abbattu, en leur ôtant <rs type="person">leurs Cercles</rs><note>espece de tabagies ou Societès</note>,
+      <lb/>on leur a ôté les moyens de se reünir. <choice><orig>les</orig><reg>Les</reg></choice> uns sont gagnés
+      <lb/>par la douceur, les autres contenus par la crainte, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>(on se propose de reçevoir bourgeois tous les ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>êtes gens
+      <lb/>d’entre les <rs type="person">nâtifs</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les <rs type="person">habitans</rs> moye<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ant une modique
+      <lb/>finance, le parti de la Bourgeoisie se fortifiera d’autant
+      <lb/>que celui des seditieux s’affoiblira: le plus grand nombre
+      <lb/>du parti negatif s’est reconcilié avec nous dans cette
+      <lb/>occasion. <choice><orig>ainsi</orig><reg>Ainsi</reg></choice> il y a lieu d’esperer qu’une paix durable
+      <lb/>succedera enfin à nos tribulations passées.</p>
+  <p>
+      <lb/>On ne peut douter que <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">De Voltaire</rs> n’ait été l’organe,
+      <lb/>le moteur, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le <rs type="organisation">conseil</rs> de nos seditions, on a trouvé des <rs type="letter">lettres</rs>,
+
+<pb facs="1599675" n="41v"/>
+      <lb/>qui en faisoient preuve; Le <rs type="person">Mînistre</rs> s’est servi de lui co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>un ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e bien propre à faire un aussi indigne perso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>age.</p>
+  <p>
+      <lb/>Du <date when="1768-03-13"><abbr>13.<hi rend="sup">e</hi></abbr> Mars</date></p>
+  <p>
+      <lb/>Nos exilés ont eté accueillés à bras ouverts à <rs type="place">Versoy</rs>, ou leurs promet
+      <lb/>monts <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> veaux à eux <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> à tous les mècontens qui sont s’y etablir;
+      <lb/>le <rs type="person">Roi</rs> a fait publier une <del><gap/></del><add>invitation</add> adressé à tous les <rs type="person">habitans de Genéve</rs>,
+      <lb/>qu’ont neget d’etre ameutem du <abbr>gouvernem.<hi rend="sup">t</hi></abbr> d’aller s’etablir là;
+      <lb/>N’y a cepend’ pas a craindre que ces peranches rendent beaucoup
+      <lb/>de monde; L’on a envoié a <rs type="place">Paris</rs> un porte, <abbr>Mr</abbr> <rs type="person">le Connell-
+      <lb break="no"/>Crainier</rs> en qualité d’envoyé extraordinaire pour mellier à nos
+      <lb/>interets; nous en dis qu’il n’a pas encore receu audience.
+      <lb/>Du <date>6. Avril</date>.
+      <lb/>Depuis le <date><abbr>15<hi rend="sup">e</hi></abbr> fevrier</date> tout est parfaitement tranquille dans
+      <lb/><rs type="place">notre Ville</rs> malgrè les efforts de <rs type="person">quelques troublefeteux</rs> qui cherchent
+      <lb/>sans cesse a aigri <rs type="person">les naifs</rs> que nourrissons de calmes. On
+      <lb/>est tojours plus convaincu que <rs type="person">les naifs</rs> n’ont servi que d’instrumens
+      <lb/>a des gens qui de derrière cherchoient a renverser
+      <lb/>la constitution achellée. L’on continue cependant les precautions,
+      <lb/>sur tout les commencemens, nous montrons dans les ruelles,
+      <lb/><rs type="person">Garde bourgeoise de 120 hommes</rs>, l’on fait bruler les nuits de
+      <lb/>patrouilles exactes; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> on cherche d’ailleurs tous les moyens de
+      <lb/>ramener les esprits. Les espies malgrè toutes leurs intelligences,
+      <lb/>dans la ville n’ont pu faire reussir encore a faire deserter de la
+      <lb/>Ville qu’un petit nombre de gens chargé de dettes. On a refjancé
+      <lb/>dans l’Athanger un mémoire justificatif plein de faussetés iniques,
+      <lb/>Il viendra pendant l’ier <date><abbr>11<hi rend="sup">e</hi></abbr> Avril</date> par un autre Canal
+      <lb/>que <abbr>Mr</abbr> <rs type="person">le President de France</rs> sent rentré de <rs type="place">Genève</rs>,
+      <lb/>apres <abbr>Mr.</abbr> <rs type="person">Crainer</rs> reçié encore avoir audience.
+
+<pb facs="1599676" n="42r"/>
+
+<pb facs="1599677" n="42v"/>
+
+<pb facs="1599678" n="43r"/>
+
+<pb facs="1599679" n="43v"/>
+
+
+<pb facs="1599680" n="44r"/>
+
+<pb facs="1599681" n="44v"/>
+
+<pb facs="1599682" n="45r"/>
+
+<pb facs="1599683" n="45v"/>
+      <lb/>approbation 1182
+      <lb/>rejection 99
+      <lb/>electeurs 1281
+
+<pb facs="1599684" n="46r"/>
+      <lb/>les Instrumens ose pieces <del><gap/></del>qui se distinguent dans
+      <lb/>la salle de physique de <rs type="place">notre université</rs>, sont <abbr>1<hi rend="sup">o</hi></abbr> un aimaint
+      <lb/>artificiel de la façon de <add>fcu</add><abbr>M</abbr> <rs type="person"><add><abbr>v</abbr></add>Dietrich</rs> du poids de W, qui
+      <lb/>parle jusqu’a 80W. 2<hi rend="sup">o</hi> une aiguille d’Inclination pour
+      <lb/>truite par le meme artiste sur les principes de <abbr>M</abbr> le <abbr>Prof.</abbr>
+      <lb/><rs type="person">D. Bernoulli</rs>; 3<hi rend="sup">o</hi> un instrument, qui prouve d’une
+      <lb/>maniere directe, et meme dans le vuide le recul des
+      <lb/>canons.
+      <lb/>
+      <lb/>Chez <abbr>M<hi rend="sup">r</hi></abbr><abbr>M.</abbr> <rs type="person">Furstemberger</rs> <hi rend="sup">fils de feu <abbr>M.</abbr> <rs type="person">le Solaque</rs></hi> se trouve outre plusieurs Instrui
+      <lb/>mens de physique, un microscope solaire de son invention
+      <lb/>qui represente d’une maniere sur distincte les objets
+      <lb/>opaques.
+      <lb/>
+      <lb/><abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Ryhiner</rs> <hi rend="sup">fils de <abbr>M.</abbr> <rs type="person">le Comte</rs></hi>possede un assortiment presque complet
+      <lb/>d’Instrumens de physique; ses machines electriques
+      <lb/>sont à plateau, et d’une force considerable; dans
+      <lb/>les Saisons favorables, les étinceles qu’on en tire
+      <lb/>sont de 7-8 pouces, ou fontent de fils d’acier.
+      <lb/><abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Kisler</rs>, graveur à <rs type="place">Mulsouse</rs>, fait de tres
+      <lb/>bonnes lentilles, des microscopes et des Telescopes
+      <lb/>catadiophriques; <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Kisler</rs> le Medecin est mort
+      <lb/>il y a quelyues années,
+
+<pb facs="1599685" n="46v"/>
+      <lb/>Il se trouve encore à <rs type="place">Basle</rs> plusieurs cabinets
+      <lb/>d’histoire naturelle, qui méritent d’être vus;
+      <lb/>1<hi rend="sup">o</hi> une collection très considérable, et quasi complet
+      <lb/>de Pétrifications, donnée à notre université par <abbr>M<hi rend="sup">r</hi></abbr>
+      <lb/><rs type="person">Danone Saslus</rs> dans un village de notre canton; Un
+      <lb/>neveu, qui ette collection sur beaucoup d’astres, eût pris
+      <lb/>a trouvé toutes les pièces dans notre Canton.
+      <lb/><abbr>2<hi rend="sup">o</hi></abbr> celui de <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Bernoulli</rs> Apothicaire se distingue par
+      <lb/>sa beauté, et la Bibliothèque d’histoire naturelle.
+      <lb/><abbr>3<hi rend="sup">o</hi></abbr> Celui de <abbr>M<hi rend="sup">r</hi></abbr> le Prof: Danre renferme de plus un
+      <lb/>fort beau medailler de notre ville).
+      <lb/><abbr>4<hi rend="sup">o</hi></abbr> Celui de <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Bruckner</rs> qui est nouveau en ville est celui de
+      <lb/><abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Bavier</rs>, est une suite du cabinet de <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">Mattern</rs>
+      <lb/>medecin, qui etoit fort estimé autrefois. mais une grande
+      <lb/>partie en a été vendue, pour introduire de la paret. la même
+      <lb/>origine, à <abbr>M<hi rend="sup">r</hi></abbr> en faisant l’acquisition.
+      <lb/>à la Bibliothèque se trouve une collection assez nom-
+      <lb/>breuse de <rs type="biblio">Tableaux de Holbein</rs>; de la passion en 8 tableaux. <abbr>2<hi rend="sup">o</hi></abbr>
+      <lb/>St Marc, <abbr>3<hi rend="sup">o</hi></abbr> un corps de Christ.
+      <lb/>Dans la petite ville municipale de <rs type="place">Lichtenstall</rs>, se distingue
+      <lb/>parmi les artistes, un nommé Gaff, qui fabrique de tres bons instrumens
+      <lb/>de Chirurgie, et des machines pour la fabrique des
+      <lb/>Rubans,
+      <lb/>Nous avons des fabriques d’étoffes et de rubans de soie, d’indiennes, de papiers
+      <lb/><abbr>M.</abbr> <rs type="person">Samson</rs> passe pour un des plus bons graveurs de cartes et de médailles.
+
+<pb facs="1599686" n="47r"/>
+      <lb/>.Monsieur <rs type="person">Bonneil</rs> me remit hier les extraits a faire
+      <lb/>des <rs type="letter">lettres</rs>, qu’il a recues de tems en tems de Geneve concernant
+      <lb/>les dernieres troubles, de cette Ville; ils sont assez circonstan
+      <lb/>ciés, et je crois quils satisferont a Vostre fils; la suite,
+      <lb/>pour un plus grand eclaircissement du terme de Natif
+      <lb/>Bourgois p<hi rend="sup">r</hi>: qu’il y a quatre etats differens a Geneve.
+      <lb/><abbr>1<hi rend="sup">o</hi></abbr> Citoyen qui a le droit d’entrer dans la magistrature
+      <lb/><abbr>2<hi rend="sup">o</hi></abbr> Bourgois qui est du conseil general, et qui forme
+      <lb/>l’etat de la republique.
+      <lb/><abbr>3.<hi rend="sup">o</hi></abbr> Habitant, Etranger etably a Geneve
+      <lb/><abbr>4<hi rend="sup">o</hi></abbr> Natif fils de cet habitant, et né a Geneve.
+      <lb/>de plus, <del><gap/></del>, il y a une loi fondamentale
+      <lb/>que le fils dun pere Citoyen, mais né dans un pais
+      <lb/>etranger, perd son droit, et rentre dans la classe
+      <lb/>des Bourgois;
+      <lb/>soie vous prier de faire bien des complemens de ma part
+      <lb/>à <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">votre fils</rs> Basle.
+
+<pb facs="1599687" n="47v"/>
+      <lb/>dans le paquet se trouvait 3 verres, 2 oculaires
+      <lb/>et 3 objectifs; des trois derniers il y en a un de cassé
+      <lb/>on ne sait si c’est celui qu’on a envoyé à <rs type="place">Berlin</rs> pour
+      <lb/>modèle, ou un nouveau, qui a eu le malheur d’en
+      <lb/>retour; — En ne mettant que deux objectifs, le foyer
+      <lb/>ne se rencontrent que une distance beaucoup plus grande
+      <lb/>que est la longueur du tube, de sorte qu’il faudroit
+      <lb/>l’allonger près d’un pied; et en y mettant tous les trois
+      <lb/>objectifs avec les diaphragmes ou verres de cuivre; la Vis
+      <lb/>ne peut pas descendre entierement, ce qui est causé l’Etat
+      <lb/>trop de hauteur;
+  </p>
+</div>
+</body>
+</text>
+</TEI>

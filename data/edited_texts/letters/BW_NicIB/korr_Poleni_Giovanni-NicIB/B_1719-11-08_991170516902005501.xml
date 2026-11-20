@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516902005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Giovanni Poleni. Basel, 08. November
+      1719</title>
+          <title type="alt">Nicolaus I Bernoulli an Giovanni Poleni. Basel, 8. November
+      1719</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516902005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516902005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Poleni, Giovanni (1683-1761) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23485">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.285r-v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516902005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433523805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059404</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,5 S.<dimensions unit="cm"><height>21,5</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basileae</origPlace>
+              <date when="1719-11-08">8. 9bre 1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1719-11-08"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516902105501" type="prev"/>
+          <ptr target="B_991170516901905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Poleni_Giovanni-NicIB" corresp="pers_DE-588-11887733X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ita">Italienisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104265264">Morgagni, Giambattista</persName>
+            <note type="lebensdaten">(1682-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118867865">Vallisnieri, Antonio</persName>
+            <note type="lebensdaten">(1661-1730)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024" who="SG">erneut kollationiert</change>
+        <change when="2022-11-09" who="EK">transformation xml</change>
+        <change when="2005-12-12" who="FN SG">transkribiert und kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1039050/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039051" n="285r"/>
+  <opener>Al <abbr>Sig.<hi rend="sup">r</hi></abbr> <choice><abbr>March.</abbr><expan>Marchese</expan></choice> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs>.
+      <lb/><abbr>Ill.<hi rend="sup">mo</hi></abbr> <abbr>Sig.<hi rend="sup">r</hi></abbr> <abbr>Sig.<hi rend="sup">r</hi></abbr> <choice><abbr>P<supplied>.</supplied>rne</abbr><expan>Patrone</expan></choice> <choice><abbr>Col<supplied>.</supplied>mo</abbr><expan>Colendissimo</expan></choice>
+      <lb/><dateline><rs key="place_GEO-2661604" type="place">Basilea</rs> <date when="1719-11-08">8. <choice><abbr>9bre</abbr><expan>novembre</expan></choice> 1719</date>.</dateline></opener>
+  <p>Hò ricevuto ambidue <add>le</add> <rs type="letter" key="B_991170516902105501 B_991170516902205501">lettere</rs> di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> speditemi <add>l’una</add> à <rs key="place_GEO-2657896" type="place">Zurigo</rs>
+      <lb/><add>e l’altra</add> à <rs key="place_GEO-2661604" type="place">Basilea</rs>, dove sono arrivato (grazia à Dio) in buona salute
+      <lb/><del><gap/></del>l’<date when="1719-10-31">ultimo dì del mese passato</date>. Sono contento del
+      <lb/>pagamento, che mi fù fatto in <rs key="place_GEO-2657896" type="place">Zurigo</rs>, della lettera cambiale del
+      <lb/><abbr>Sig.<hi rend="sup">r</hi></abbr> <rs type="person">Rezzonico</rs>; hò levato solamente Lire 2200<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <del><gap/></del>per
+      <lb/>saldar giusto il conto <del><gap/></del>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice>. Non attribuisco alla di
+      <lb/>Lei fortuna, mà pure alla mia disgrazia, l’esatta osservazione
+      <lb/>delle leggi del <rs type="organisation" key="org_DE-588-108622423X">Magistrato</rs>. <del><gap/></del>Dio voglia che non si faccia
+      <lb/>più maggior disordine di quello, che si sarebbe co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>esso in mio
+      <lb/>favore! Nulladimeno io sono assai contento e ringrazio <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice>
+      <lb/>per tutto quello ch’Ella hà in questo caso operato. Le rendo parimen<pc type="hyphenation">-</pc><lb break="no"/>te grazie per la bontà ch’Ella hà avuta di tener li mobili lasciati
+      <lb/>per il prezo di 365:10. La prego ringraziare ancora in mio nome
+      <lb/>il <abbr>Sig.<hi rend="sup">r</hi></abbr> <rs type="person">Roberto Roberti</rs> suo Suocero per la fatica che <add>egli</add> hà presa
+      <lb/>intorn<del><gap/></del><add>o</add> la Lettera di Cambio. Quell’<rs type="person" key="pers_DE-588-140736662">amico</rs> che hà comprato
+      <lb/>in <rs key="place_VER-hollan" type="place">Olanda</rs> lo <rs type="person">Scardeone</rs>, il <rs type="person">Frontino</rs> cum notis <rs type="person">Keuchenii</rs> e l’<rs type="biblio">Onu<pc type="hyphenation">-</pc><lb break="no"/>frio Panvino</rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> è arrivato qui un giorno avanti di me e mi hà
+      <lb/>assicurato, che questi libri si trovano attualmente à <rs key="place_GEO-3178829" type="place">Chiavenna</rs>,
+      <lb/><del><gap/></del>se non sono già spediti al <abbr>Sig.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-133372036X">Planta</rs> à <rs key="place_GEO-3164603" type="place">Venezia</rs>.<note type="editorial">Wortumstellung im Manuskript.</note>
+      <lb/>In nostro Libreria si trovano due <rs type="biblio">Vitruvii</rs><rs type="person" key="pers_DE-588-118627252"/> col Frontino, l’uno stam<pc type="hyphenation">-</pc><lb break="no"/>pato in <rs key="place_GEO-3176959" type="place">Firenze</rs> <abbr>a.<hi rend="sup">o</hi></abbr> 1496<choice><orig>.</orig><reg>,</reg></choice> l’altro in 4.<hi rend="sup">o</hi> stampato in <rs key="place_GEO-2973783" type="place">Argentina</rs> <abbr>a.<hi rend="sup">o</hi></abbr> 1543.</p>
+<pb facs="1039052" n="285v"/>
+  <p>Io dubito che si potrà cattar quell’Esemplare consaputo del <rs type="person">Vitru<pc type="hyphenation">-</pc><lb break="no"/>vio Sulpitii</rs>,<rs type="person" key="pers_DE-588-118627252"/> il <rs type="person">compratore</rs> essendo <del><gap/></del>un Bernese, noto solamente
+      <lb/>di vista al <rs type="person">Libraro</rs> chi l’hà venduto, questi però hà promesso
+      <lb/>di fare tutta la diligenza per <add>r</add>iaver questo <rs type="biblio">libro</rs> nella fiera
+      <lb/>prossima di <rs key="place_GEO-2661552" type="place">Berna</rs>. <del><gap/></del><add>N</add>on mi stendo
+      <lb/>di vantaggio in questa lettera per mancanza di tempo, e per <del><gap/></del><add>causa delli</add>
+      <lb/>disturbi che mi <del><gap/></del>fa<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o le visite ch hò da fare e da
+      <lb/>ricevere; mi dò solamente la libertà di riverire cordialmen<pc type="hyphenation">-</pc><lb break="no"/>te l’Ill.<hi rend="sup">mo</hi> <abbr>Sig.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1365357775">Padre</rs> e <rs type="person">tutti di Casa</rs>, et assicurandola della
+      <lb/>mia continua e divota servitù mi dichiaro come avanti</p>
+  <closer><lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> <choice><abbr>Div.<hi rend="sup">mo</hi></abbr><expan>Divotissimo</expan></choice> <choice><abbr>Obbl.<hi rend="sup">mo</hi></abbr><expan>Obbligatissimo</expan></choice> <choice><abbr>Ser.<hi rend="sup">re</hi></abbr><expan>Servitore</expan></choice> et Amico <rs key="pers_DE-588-119166895" type="person">NB</rs>.</closer>
+  <postscript><p><abbr>P. S.</abbr> Mio <rs key="pers_DE-588-118509969" type="person">Zio</rs> La riverisce divotamente; la prego di <del><gap/></del>portare
+        <lb/>i miei rispetti a<del><gap/></del><add>g</add>l’<abbr>Ill.<hi rend="sup">mi</hi></abbr> <abbr>Sig.<hi rend="sup">ri</hi></abbr> <rs key="pers_DE-588-104265264" type="person">Morgagni</rs>, <rs key="pers_DE-588-118867865" type="person">Vallisnieri</rs>, et à
+        <lb/><del><gap/></del>tutti gli <rs type="person">Amici</rs> comuni.</p></postscript>
+</div>
+</body>
+</text></TEI>

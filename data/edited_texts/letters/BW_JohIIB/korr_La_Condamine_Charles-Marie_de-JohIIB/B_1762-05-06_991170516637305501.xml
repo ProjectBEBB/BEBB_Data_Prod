@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516637305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Charles-Marie de La Condamine an Johann II
+                        Bernoulli. Paris, 06. Mai 1762</title>
+          <title type="alt">1762.05.06: La
+                        Condamine, Charles-Marie de (1701-1774) an Bernoulli, Johann
+                        (1710-1790)</title>
+          <title type="alt">000058197</title>
+          <title type="alt">1762-05-06_La_Condamine_Charles-Marie_de-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516637305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516637305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">La Condamine, Charles-Marie de (1701-1774)
+                </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-148842">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 685:S.445-446, 200c-200l</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516637305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433717305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058197</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>19</height><width>13</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1762-05-06">6. Mai
+                                1762</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie
+                        de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1762-05-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516637405501" type="prev"/>
+          <ptr target="B_991170516637205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_La_Condamine_Charles-Marie_de-JohIIB" corresp="pers_DE-588-118778390" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Boni</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117650390">Dollond, John</persName>
+            <note type="lebensdaten">(1706-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1395763542">La Condamine, Marie Louise Charlotte de</persName>
+            <note type="lebensdaten">(-1806)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10103024X">Maty, Matthew</persName>
+            <note type="lebensdaten">(1718-1776)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-172424232">Teleki, József</persName>
+            <note type="lebensdaten">(1738-1796)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3986460/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3986461" n="445"/>
+  <p> Paris 6 Mai 1762 reflexion je n’adresse point celle ci à M. Boni, puisque vous ne me l’avés pas dit et que les directeurs n’ont peut etre pas la franchise des gros paquets, mais je la fais contresigner. </p>
+  <p>Je prens de petit papier, mon cher ami, pour me circonsrire, etant accablé d’affaires en ce moment surtout. Mde de la Condamine est arrivée. Cecy partira avec le pr. envoi de nouvelles à l’adresse de M. Boni. j’ai payé 6 pour le premier mois. Cela est plus cher que je ne croyois, de nouvelles défenses ont augmenté les difficultés, on me fait beaucoup valoir cette complaisance. Les nouvelles iront une ou deux fois la semaine au choix des payeurs. Je juge que la moitié de ces nouvelles n’interesseront guère vos messieurs, ce sont des petits evenemens de Paris, morts, mariages, procez, qui sont fort indifferens quand on ne connoit pas les masques. Ils verront si cela leur convient. </p>
+  <p> Je porterai votre lettre et la précédente à l’academie apres demain, Samedi, et m’informerai des telescopes de Dollond. j’en ai vu une mention circonstanciée dans l’avant coureur, feuille hebdomadaire qui contient toutes les nou veautés, particulierement des arts, et toutes les annonces en ce genre avec un petit detail, item des livres nouveaux, Jurisprudence, Medecine, Sciences, arts utiles, agréables, nouveautés litteraires. cela coute 12 en souscrivant par an et va par tout le royaume franc de port. Cela pourroit convenir à vos messieurs. M. Boni les recevroit toutes les semaines. </p>
+  <p> Dieu soit loué que M. et Mde. ne soient plus dans vos quartiers et ne vous embarassent plus. Cela m’a l’air d’aventuriers. </p>
+  <p> Je suppose comme vous que le C. Teleki ne veut pas approuver formellement le projet, mais certainement il n’aura pas de quoi s’en plaindre, et laissera faire. il peut craindre quelque suite <pb facs="3986462" n="446"/> déplaisante et ne veut pas prendre d’engagement positif, mais je crois que nous pouvons courir les risques d’aller notre chemin, ce risque etant nul. Je n’ai pas encore continué, je vous l’avoue, mais tout est sous ma main. Mde de la C. va dans 8 ou 10 jours à la campagne, je l’y conduirai et passerai quelques jours avec elle et ne porterai pas d’autre besogne. Je vous prie de le dire à Mr. votre frere, et de trouver bon que cette lettre lui soit commune, en attendant que j’aye quelque chose à lui envoyer de moi. Voici la copie du memoire et des Tables de M. Maty assés au net, mais je vous avoue que je n’ai pas eu le tems de le collationer, ni meme de repondre à ses dernieres lettres. Je souhaite que cela puisse faire naitre quelque idée nou velle à M. votre frere. Voila votre lettre repondue pour ne pas remettre plus loin, l’autre page sera pour lui. </p>
+  <p> Tout le monde convient du besoin que nous avons de la paix. [Keine Unterschrift] </p>
+  <pb facs="3986463" n="200c"/>
+  <pb facs="3986464" n="200d"/>
+  <pb facs="3986465" n="200e"/>
+  <pb facs="3986466" n="200f"/>
+  <pb facs="3986467" n="200g"/>
+  <pb facs="3986468" n="200h"/>
+  <pb facs="3986469" n="200i"/>
+  <pb facs="3986470" n="200j"/>
+  <pb facs="3986471" n="200i"/>
+  <pb facs="3986472" n="200j"/>
+  <pb facs="3986473" n="200k" type="empty"/>
+  <pb facs="3986474" n="200l" type="empty"/>
+</div>
+</body>
+</text></TEI>

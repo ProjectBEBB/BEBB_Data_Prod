@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516765005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jakob Huber an Johann II Bernoulli.
+                        Berlin, 11. Mai 1756</title>
+          <title type="alt">1756.05.11: Huber, Johann
+                        Jakob (1733-1798) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058460</title>
+          <title type="alt">1756-05-11_Huber_Johann_Jakob-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516765005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516765005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Huber, Johann Jakob (1733-1798) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39842">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 49 r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516765005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433578105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058460</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1756-05-11">11.e Mai 1756</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Berlin</placeName>
+          <date when="1756-05-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516765105501" type="prev"/>
+          <ptr target="B_991170453261205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-JohIIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117626953">Decker, Georg Jakob</persName>
+            <note type="lebensdaten">(1732-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+            <note type="lebensdaten">(1723-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1051532213">Short, James</persName>
+            <note type="lebensdaten">(1710-1768)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-12-05" who="RG">Grobe Ergänzungen, Zeilenabstände, PB-Einfügen, etc.</change>
+        <change when="2025-11-28" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-11-28" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-11-28" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1369686/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1369687" n="1"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur,
+  </salute>
+  </opener>
+  <p>
+      <lb/>Aussitot que j’eus reçu la <rs type="letter">lettre</rs> que vous m’avez
+      <lb/>fait l’honneur de m’ecrire, j’allai chez Mr. de <rs key="pers_DE-588-118731998" type="person"><abbr>M.<hi rend="sup">s</hi></abbr></rs>
+      <lb/>pour lui faire part de ce que vous m’avez marqué
+      <lb/>touchant <rs key="pers_DE-588-118627813" type="person"><abbr>V.<hi rend="sup">e</hi></abbr></rs>: Mais comme <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118731998" type="person"><abbr>D. M.</abbr></rs> etoit fort
+      <lb/>incommodé ce jour <add>là,</add> et qu’il se <del><gap/></del><add>fit</add> même saigner,
+      <lb/>je n’eus pas l’<choice><abbr>hon.<hi rend="sup">r</hi></abbr><expan>honneur</expan></choice> de le voir; cependant j’y laissai
+      <lb/>votre <rs type="letter"><choice><abbr>l.<hi rend="sup">re</hi></abbr><expan>lettre</expan></choice></rs>.
+  </p>
+  <p>Quelques jours après je fus encore
+      <lb/>chez lui, et je vis avec plaisir <del><gap/></del>
+      <lb/><del><gap/></del>que sa santé etoit meilleure: A ce que
+      <lb/>j’apprends il <add>se porte aussi</add> bien du depuis, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il
+      <lb/><del><gap/></del><add>sort quelquefois</add>. Son Départ pour la <rs key="place_VER-frankr" type="place"><abbr>F.<hi rend="sup">ce</hi></abbr></rs> paroit
+      <lb/>être fixé pour la fin de ce mois.
+  </p>
+  <p>
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116892021" type="person">Merian</rs> m’a chargé de vous faire <add>bien</add> ses
+      <lb/>compliments. Il n’a pas encore reçu votre <rs type="letter">lettre</rs>; je
+      <lb/>lui ai communiqué en <choice><abbr>atend.<hi rend="sup">t</hi></abbr><expan>atendant</expan></choice> ce que vous me marquez
+      <lb/>au sujet de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117626953" type="person">Decker</rs>. <del><gap/></del>
+      <lb/><del><gap/></del>Vous pouvez être persuadé, Monsieur, que <add>de mon coté</add> je
+      <lb/>ferai pour <del><gap/></del><add>celui-ci</add> tout ce qui dépendra de moi; <add>c’est un homme qui me paroit être</add>
+      <lb/><del><gap/></del>fort industrieux. Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs>
+      <lb/><del><gap/></del>
+<pb facs="1369689" n="2"/>
+      <lb/>et <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116892021" type="person"><abbr>M.<hi rend="sup">n</hi></abbr></rs> s’interessent<del><gap/></del> beaucoup pour lui;
+      <lb/><del><gap/></del>ils l’ont <add><choice><abbr>particulierem.<hi rend="sup">t</hi></abbr><expan>particulierement</expan></choice></add> recommendé<del><gap/></del> pour
+      <lb/>l’impression du Code-Frederic, dont l’<rs type="organisation">Academie</rs> a
+      <lb/>le privilege,<del><gap/></del>
+      <lb/><del><gap/></del><add>et il-y-a toute apparence qu’on lui donnera cette impression, ce</add>
+      <lb/>qui ne manqueroit pas de mettre ses affaires<del><gap/></del>
+      <lb/>sur <add>un bon</add> pied.<del><gap/></del>
+      <lb/><del><gap/></del><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117626953" type="person">Decker</rs> m’a dit que <abbr>M.<hi rend="sup">e</hi></abbr> sa <rs type="person">mere</rs> avoit
+      <lb/>payé sa <rs type="letter">lettre</rs> de change de RSf 200 -, <del><gap/></del><add>laquelle</add>
+      <lb/>somme faisoit partie de l’heritage de sa <rs type="person">Grand-Mere</rs>,
+      <lb/>qui lui etoit échu; mais qu’il se voyoit obligé de
+      <lb/>demander aussi le reste de cet heritage à <abbr>M.<hi rend="sup">e</hi></abbr> sa <rs type="person">Mere</rs>,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de la prier même de le lui<del><gap/></del> remettre au
+      <lb/>plutot possible, sans quoi il risqueroit que l’impression
+      <lb/>du Code-Frederic ne lui echappat, l’<rs type="organisation">Academie</rs> ne
+      <lb/>voulant point <del><gap/></del><add>donner</add> d’Avances <add>pour cette impression</add>. Voyez donc,
+      <lb/>Monsieur, si vous pouvez disposer <abbr>M.<hi rend="sup">e</hi></abbr> <rs type="person"><abbr>D.<hi rend="sup">r</hi></abbr></rs>
+      <lb/>à faire la dite remise à son <rs key="pers_DE-588-117626953" type="person">fils</rs>: je suis persuadé
+      <lb/>d’avance qu’il emploiera bien son argent <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <add>en tout cas</add> je ne
+<pb facs="1369690" n="3"/>
+      <lb/>manquerai <add>pas</add> d’y veiller aussi bien <supplied>que</supplied> <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-116892021" type="person"><abbr>M.<hi rend="sup">n</hi></abbr></rs>
+  </p>
+  <p>
+      <lb/>Je suis bien aise, <add>Monsieur,</add> si les lunettes <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>,<del><gap/></del>
+      <lb/><del><gap/></del>que j’ai envoyées de <rs key="place_GEO-2643743" type="place">Lond.</rs>, vous accommodent; je
+      <lb/>vous prie de vouloir bien accepter ces bagatelles
+      <lb/>qui ne meritent pas qu’on en parle.
+  </p>
+  <p>Les <choice><abbr>Telesc.<hi rend="sup">s</hi></abbr><expan>Telescopes</expan></choice>
+      <lb/>de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> n’ont pas eté mis en exécution jus qu’ici:
+      <lb/>j’apprends que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_no_GND_id" type="person">Short</rs> à <rs key="place_GEO-2643743" type="place">Lond.</rs> en veut faire un essai.
+  </p>
+  <closer>
+  <salute>
+      <lb/>J’ai l’honneur d’être avec un parfait
+      <lb/>dévouement
+      <lb/>Monsieur,
+      <lb/><abbr>v. t. h.</abbr> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>t. o. s.</abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>
+  </salute>
+  <dateline>
+      <lb/><rs key="place_GEO-2950159" type="place">Berlin</rs>, <date when="1756-05-11">11.<hi rend="sup">e</hi> Mai 1756</date>
+  </dateline>
+  </closer>
+<pb facs="1369691" n="4" type="empty"/>
+</div>
+</body>
+</text></TEI>

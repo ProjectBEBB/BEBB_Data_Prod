@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516998105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Josefa Breuner-Khevenhüller an Jakob Bernoulli. Wien, 13. August 1788</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516998105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516998105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136852">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 682:Bl.51-52</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516998105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433672005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000060098</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Vienne</origPlace>
+              <date when="1788-08-13">le 13 d'août [1]788</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1089922841">Breuner-Khevenhüller, Josefa</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1788-08-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-120475030">Bernoulli, Jakob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516998205501" type="prev"/>
+          <ptr target="B_991170516998005501" type="next"/>
+          <ptr target="BW_JacIIB" corresp="pers_DE-588-120475030" type="Briefwechsel"/>
+          <ptr target="korr_Breuner-Khevenhueller_Josefa-JacIIB" corresp="pers_DE-588-1089922841" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_no_GND_id">Amelon</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Biendy</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1160058660">Breuner, Joseph Franz Anton von</persName>
+            <note type="lebensdaten">(1765-1813)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156688779">Breuner-Enckevoirth, Karl Borromaeus Ignatius Joseph von</persName>
+            <note type="lebensdaten">(1740-1796)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1371264465">Burdelle, Johannes</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Drember</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Hartig, Gräfin, Cousine von Josefa Breuner-Khevenhüller</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117628204">Toaldo, Giuseppe</persName>
+            <note type="lebensdaten">(1719-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156694760">Wurmbrand-Stuppach, Josef Rudolf von</persName>
+            <note type="lebensdaten">(1724-1779)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3706384/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3706385" n="51r"/>
+  <opener>Vienne le 13. D’août
+    [1]788</opener>
+  <p>C’est avec baucoup, mais baucoup de plaisir, que j’ai recû vôtre lettre du 4 de Jûlliet, 1.mo de voir que vous ne nous avez pas oublié, mon cher Bernoûlli, et que vos lettres, quoique dans un pays baucoup plus eloignez nous parvienent, et ne se perdent point comme celles de Mr. <rs type="person" key="pers_DE-588-1371264465">Burdêll</rs>, du quel mon mari, mon fils, ni moi n’avonts plus signe de vie depuis un tems infinie, quoique mon fils et moi lui avonts ecrits plusieurs fois, que nous l’avonts invitez aux noçes de mon fils, de la maniere la plus amicale, mais toujours sans rêponçe, quoiqu’il dit a tout le monde qu’il nous ecrit; il n’y a que Biendy qui est assez heureux de rêçevoir tous les mois exactement une lettre de sa part, pour tirer sa penssion de 400 fl. par ans, que mon mari lui a assignié, ainsi Mr. amêlon et toute sa famille ne doivent pas etre etonnez de son silençe a leurs egard, puisqu’il nous traite pas mieu; je vous avoûe que sa conduite me paroit inconçevable. Il a achettez une maison a Teütsch altenburg, l’on dit qu’il n’est pas heureux avec sa commpagne, voila tout ce que j’en sai.
+  2.do j’apprend avec grande satisfaction que vous vous ete deçidez a suivre mon cons[eille] et que vous allez prendre une jeunne et jolie femme; je vous en fais mon sinçere compl.s <pb facs="3706386" n="51v"/> et je ne doute nûllement que vous serez parfaitement heureux, pourvû que vous ne soiez pas jaloux, ce que j’espere que vous ne serez pas par reflexion, quoique vous m’avez dit plus d’une fois que vous y aviez quelque disposition. Je vous avoûe mon cher Bernoûlli que je voudrois bien vous voir avec vôtre femme, je interesserai toujours a vôtre bonheur, je serois donc charmé d’en etre temoin ocûlaire. Mon fils est de jours en jours plus heureux et content avec sa chêre petite femme; elle est un ange, en verité. Le C.te de vûrmbrandt a eté aux Noces de mon fils, et est rêtournêe ensuite sur ses terres en stirie; il m’a assurez vous avoir ecrit. J’ai eté fort etonez de la nouvelle que vous m’avez donez de Drênbert, et sa battaille avec son maitre m’a bien amûsez; il auroit bien mieu fait de rester chez nous, ou il avoit un pain sur a esperer, en plaçe de se laisser dêbaûcher, mais je croie qu’il en est bien au rêpentir.
+  Nous comptonts partir d’ici le 4 ou le 5 de sêptembre, et passer par Ratisbonne ou nous nous arretteronts quelques jours chez mon fils, je pense que nous seronts au plus tards Le 25 de septembre a venise c’est a dire, a nôtre maison de campagne a la Carità. Mon mari, et ma cousinne <pb facs="3706387" n="52r"/> (qui engraisse de jours en jours) me chargent de mille amitiés pour vous, ainsi que de vous faire compl.s sur l’amêllioration de vôtre sort, et sur vôtre mariage; faite en aussi mon comp. a vôtre futûre, et dite lui que je serois fort charmée si je pouvois un jours faire sa connoissançe; en attendent croiez moi comme toujours et pour la vie, avec l’amitié, et l’estime la plus parfaite</p>
+  <closer> Mon cher Bernoûlli
+  Vôtre tres afféctionée
+  servante et amie C.tesse
+  de Breünner</closer>
+  <postscript><p>P. S. Aussi tôt que j’ariverai a venise je m’informerai chez Réch‘ des livres de Toaldo, qu’il devoit vous envoier.</p></postscript>
+
+<pb facs="3706388" n="52v" type="empty"/>
+</div>
+</body>
+</text>
+</TEI>

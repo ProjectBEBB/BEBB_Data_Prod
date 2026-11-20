@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="team_en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Team</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Basel Edition of the Bernoulli Correspondence.</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+                <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Written for the BEBB website.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+                <change when="2026-11-20" who="SG">Added the academic titles of Helmut Harbrecht and Fritz Nagel at Sulamith Gehr's request.</change>
+                <change when="2026-11-20" who="SG">Added a direct revision history for release validation; textual content unchanged.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <head>Team</head>
+            <div xml:id="team-leitung">
+                <head>Project leadership</head>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-128594551">Sulamith Gehr</rs></head>
+                    <p>Project and editorial direction</p>
+                    <p>Project planning</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-124238785">Prof. Helmut Harbrecht</rs></head>
+                    <p>Institutional direction</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-117433391X">Dr. Fritz Nagel</rs></head>
+                    <p>Academic direction</p>
+                </div>
+            </div>
+            <div xml:id="team-redaktion">
+                <head>Editorial team</head>
+                <div>
+                    <head><rs type="person" key="pers_f500_0005">Jonas Biedermann</rs></head>
+                    <p>Design and programming</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-1270723049">Céline Gass</rs></head>
+                    <p>Establishing the text and basic annotation</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-128594551">Sulamith Gehr</rs></head>
+                    <p>Establishing and annotating the text, technical implementation, indexes, cataloguing and GND authority data</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-1270721828">Raphael Germann</rs></head>
+                    <p>Basic annotation, itineraries, indexes</p>
+                </div>
+                <div>
+                    <head><rs type="person" key="pers_DE-588-117433391X">Dr. Fritz Nagel</rs></head>
+                    <p>Establishing the text, annotation, indexes</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

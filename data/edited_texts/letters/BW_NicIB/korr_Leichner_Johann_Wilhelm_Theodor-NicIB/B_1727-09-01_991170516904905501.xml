@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516904905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Wilhelm Theodor Leichner an Nicolaus I Bernoulli. Ohne Ort, 01. September 1727</title>
+          <title type="alt">1727.09.01: Leichner, Johann Wilhelm Theodor (1682-1733) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059172</title>
+          <title type="alt">1727-09-01_Leichner_Johann_Wilhelm_Theodor-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516904905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516904905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Leichner, Johann Wilhelm Theodor (1682-1733)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24353">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.112</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516904905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433540305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059172</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>5 S.<dimensions unit="cm"><height>20</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1727-09-01">Dabam festino calamo d. 1. Sept. 1727</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1052878059">Leichner, Johann Wilhelm Theodor</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1727-09-01"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430192405501" type="prev"/>
+          <ptr target="B_991170516904805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Leichner_Johann_Wilhelm_Theodor-NicIB" corresp="pers_DE-588-1052878059" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120811723">Hausen, Christian August</persName>
+            <note type="lebensdaten">(1693-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117529591">Hommel, Ferdinand August</persName>
+            <note type="lebensdaten">(1697-1765)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-04-27" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-27" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-27" who="RG">NER Erkennung</change>
+        <change when="2026-02-13" who="CG SG">Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063773/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1063774" n="1"/>
+  <opener><salute rend="center"><lb/><choice><orig>VIR</orig><reg>Vir</reg></choice> ver<choice><orig><g ref="#eacut">é</g></orig><reg>e</reg></choice> <choice><orig>EXCELLENTISSIME</orig><reg>Excellentissime</reg></choice>,
+      <lb/>meritis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Tuis Celeberrime,</salute></opener>
+  <p><lb/>Cum proxime <rs type="organisation">pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teritis nundinis Francofurtens.</rs>
+      <lb/><rs type="letter">literas</rs> dederim ad immortalis nominis Patruum Tuum
+      <lb/><rs key="pers_DE-588-118509969" type="person">Joh. Bernoulli</rs>, nec in hoc us<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tempus ullas <rs type="letter">responsorias</rs>
+      <lb/>acceperim, maxime autem, cum in <rs type="biblio">Act. Erud. Supplem.
+      <lb/>T. IX<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Sect. III<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs> adverterim Te <abbr>Prof.</abbr> <rs type="organisation">Basileensis</rs> nomine
+      <lb/><abbr>p.</abbr> 98<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> insignivi, haud sine ingenti cordolio exinde colli<pc type="hyphenation">-</pc><lb break="no"/>gendum mihi fuit, illum omni laude majorem Virum
+      <lb/>fatis forsan concessisse, miratus tamen insimul non
+      <lb/>mediocriter, de <abbr>Reipubl.</abbr> <abbr>literar.</abbr> luctuosissimo hoc obitu,
+      <lb/>si contigisset nec in <rs type="biblio">Act. Erudit.</rs> nec in <rs type="biblio">Novis Lipsiensium
+      <lb/>literariis</rs> vernaculis, nec in aliis Novellis, quantum mihi
+      <lb/>constat vel verbulo mentionem factam fuisse; <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> re igi<pc type="hyphenation">-</pc><lb break="no"/>tur putavi, si inter spem et metum animo versante,
+      <lb/>datis hisce ad Te, Vir ver<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Excellentissime<supplied>,</supplied> <rs type="letter">literis</rs> explo<pc type="hyphenation">-</pc><lb break="no"/>rarem num conjectur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> dolorific<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> veritas subsit,
+      <lb/>num ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> eadem, quod maximopere exopto me fefellerit,
+      <lb/>ita ut forsan solum tanquam emeritus officio Pro<pc type="hyphenation">-</pc><lb break="no"/>fessorio sese <rs type="person">Vir</rs> summus abdicaverit, Tibi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> edecu<pc type="hyphenation">-</pc>
+<pb facs="1063775" n="2"/>
+      <lb break="no"/>mata eruditionis in Sublimiori Mathesi laude du<pc type="hyphenation">-</pc><lb break="no"/>dum ut inter ignes Luna minores solet, resplendenti
+      <lb/>id muneris commissum fuerit. Ea igitur qua par est,
+      <lb/>observantia rogo, ut per <rs type="letter">literas</rs> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> occasione <rs type="organisation">nun<pc type="hyphenation">-</pc><lb break="no"/>dinarum instantium Lispsiensium</rs> <rs type="person">Mercatori</rs> cuidam illic
+      <lb/>proficiscenti tradi possent, <rs key="place_GEO-2879139" type="place">Lipsi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> autem <abbr>Dn.</abbr> <rs key="pers_DE-588-117529591" type="person">Hommelio</rs>
+      <lb/><abbr>J. U. D.</abbr> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>des <rs type="person">Gromannianas</rs> in vico cui <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nemore nomen
+      <lb/>(<rs type="place"><choice><orig>hayn-strasse</orig><reg>Hayn-strasse</reg></choice></rs>) inhabitanti exhibend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> essent, certiorem
+      <lb/>hac de re me reddere velis. Gratissimum etiam foret,
+      <lb/>si integrum mihi esset commercium literarium in
+      <lb/>re Mathematica Tecum colere, uti me hactenus pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>laudatus <rs key="pers_DE-588-118509969" type="person">Patruus Tuus</rs> tali dignatus est. At<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> spe fre<pc type="hyphenation">-</pc><lb break="no"/>tus, me ab Humanitate Tua voti mei facile compotem
+      <lb/>redditum iri, jamdum in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentiarum non vereor ejus<pc type="hyphenation">-</pc><lb break="no"/>dem auspicium audere. Scirem nimirum 1) quid sentias
+      <lb/>de <rs type="biblio">problemate in Act. Erud. anni pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter. <abbr>M.</abbr> Majo</rs> sub
+      <lb/>nomine meo propositi, num scilicet illud omni difficul<pc type="hyphenation">-</pc><lb break="no"/>tate carere cum <abbr>Dn.</abbr> <abbr>Prof.</abbr> <rs key="pers_DE-588-120811723" type="person">Hausen</rs> putes. Equidem si per
+      <lb/>problema difficile illud solum intelligendum foret, quod
+      <lb/>ad sui solutionem nov<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> alicujus methodi inventione
+      <lb/>opus habet, uti hoc significata se vocabulum illud
+      <lb/>usurpasse in privatis ad me <rs type="letter">literis</rs> <del><gap/></del>indicavit Vir
+      <lb/><abbr>Clariss.</abbr> facile concedo illud non esse <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> difficilium nu<pc type="hyphenation">-</pc><lb break="no"/>mero, cum alioquin in vulgato vocis significatu id ipsum
+<pb facs="1063776" n="3"/>
+      <lb/>si non difficillimis, saltem paulo difficilioribus id accen<pc type="hyphenation">-</pc><lb break="no"/>sendum putem: qua de re monitum <rs type="biblio">Schediasmati</rs>
+      <lb/>cuidam paucos ante dies <rs key="place_GEO-2879139" type="place">Lipsiam</rs> ut <rs type="biblio">Actis Erud.</rs>
+      <lb/>inseratur, transmisso, adjunxi, quo insimul etiam
+      <lb/>publicum edocetur, qui factum fuerit, ut <del><gap/></del><add>di</add>scunt<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>,
+      <lb/>qui problematis propositionem insequitur, tanquam
+      <lb/>mihi adscribendus ibidem legatur, cum meus non sit,
+      <lb/>sed <rs type="person">Amici</rs> cujusdam innominati. Innui etiam simul
+      <lb/>solida demonstratione opus habere <rs type="biblio">solutionem</rs> <abbr>Cl.</abbr>
+      <lb/><abbr>Dn.</abbr> <rs type="person">Prof.</rs> (quam enim privatim mihi misit rei non sa<pc type="hyphenation">-</pc><lb break="no"/>tisfacit) cum alioquin satis certi esse nequeamur num
+      <lb/>assignati numeri problemati satisfaciant, partialis
+      <lb/>enim inductio ad certitudinem Mathematicam
+      <lb/>plane insufficiens est. Si Tibimet talem dict<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> solu<pc type="hyphenation">-</pc><lb break="no"/>tionis demonstrationem adornare, mihique transmittere
+      <lb/>volupe esset, gratissimum id foret, licet enim proble<pc type="hyphenation">-</pc><lb break="no"/>ma meum et solvere et demonstrare possim, paulo
+      <lb/>difficilior tamen videtur demonstratio ejus si generali<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice>
+      <lb/>concipiatur, uti <choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <abbr>Dn.</abbr> <rs key="pers_DE-588-120811723" type="person">Hausen</rs> factum, qualem indag<unclear reason="illegible">are</unclear>
+      <lb/>nondum ob temporis penuriam mihi licuit. Secundo scirem,
+      <lb/>quid Tibi videatur de problemate: Propositis quot-
+      <lb/>et quibuscun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> curvis Algebraicis invenire proprieta<pc type="hyphenation">-</pc><lb break="no"/>tes omnibus communes, num aliquo loco illud habeas,
+      <lb/>et dignum putes, quod publice proponatur. Ejus
+      <lb/>Solutionem dudum inveni. Tertio me Tibi non parum
+      <lb/>reddes obstrictum, si Solutionem sequentium duorum
+      <lb/>problematum mihi impertiri posses:</p>
+<pb facs="1063777" n="4"/>
+  <p>I. Proposito numero rerum paulo majori, <abbr>e. g.</abbr> 100000
+      <lb/>vel 1000000 dispositarum in circulum perenni numeratio<pc type="hyphenation">-</pc><lb break="no"/>ne ad certum us<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <choice><sic>ititem</sic><corr>itidem</corr></choice> datum numerum <abbr>e. g.</abbr> 10
+      <lb/>ita peragrandum, ut qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet res, in quam numerus
+      <lb/>ille datur, <abbr>e. g.</abbr> incidit, summoveatur, donec alius iti<pc type="hyphenation">-</pc><lb break="no"/><choice><sic>tem</sic><corr>dem</corr></choice> datur rerum numerus, <abbr>e. g.</abbr> 100 solum remanent,
+      <lb/>invenire numeros ordinales rerum illarum ultimo
+      <lb/>remansurarum, <abbr>e. g.</abbr> 100 illarum superstitum. Pona<pc type="hyphenation">-</pc><lb break="no"/>mus <abbr>v. g.</abbr> <rs type="person">Xerxis</rs> exercitum 1000000 mili<del><gap/></del><add>tib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice></add> constan<pc type="hyphenation">-</pc><lb break="no"/>tem ita decimandum esse, ut decimus quin<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> miles di<pc type="hyphenation">-</pc><lb break="no"/>mitteretur, donec tandem solummodo 100 <abbr>e. g.</abbr> rema<pc type="hyphenation">-</pc><lb break="no"/>nerent suspendio plectendi. Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><del><gap/></del><add>r</add>itur qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> loca vi<pc type="hyphenation">-</pc><lb break="no"/>tanda sint militibus vitam salvaturis.</p>
+  <p>II. Invenire <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationes et naturam catenariarum
+      <lb/>horizontalium, quo nomine indigitare soleo lineas
+      <lb/>illas curvas, quarum formam successive induit ca<pc type="hyphenation">-</pc><lb break="no"/>tenula perfecte flexilis (quamcun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> propositam figuram
+      <lb/>in plano horizontali ab initio obtinens) dum ejus extre<pc type="hyphenation">-</pc><lb break="no"/>mitates per lineas sive rectas, sive curvas situ et longi<pc type="hyphenation">-</pc><lb break="no"/>tudine datas pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>scripta lege transeunt. <abbr>E. g.</abbr> si in ad<pc type="hyphenation">-</pc><lb break="no"/>jecta figura <figure facs="../images/figures/1063777_01.png"/> catenula primo efformaret semicirculum
+      <lb/><formula>ABC</formula>, et ejus extremitates <formula>A</formula>, <formula>C</formula>, traherentur secundum
+      <lb/>ductum parallelarum <formula>AD</formula>, <formula>CE</formula>, et quidem motu unifor<pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc><lb break="no"/>nam curvedine<del><gap/></del> tum induta fuerit catenula <formula>ABC</formula>.
+<pb facs="1063778" n="5"/>
+      <lb/>Hoc problematis credo omnium difficillimum
+      <lb/>esse, cum satis difficile id ipsum judica<unclear reason="illegible">r</unclear>it pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc>laudatus <rs key="pers_DE-588-118509969" type="person">Patruus</rs> Tuus, cum illud ante aliquot an<pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc>nos eidem proposuissem; solutionem enim solum
+      <lb/>casus cujusdam particularis suppeditavit, et mo<pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc>nuit me oper<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pretium facturum, si publico solu<pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc><lb break="no"/>tionem generalem impertiri possem. Sed certe vix
+      <lb/>ac ne vix quidem talis problematis solutionem
+      <lb/>tentarem, quod Tanto <rs type="person">Viro</rs> difficile visum fuisset.
+      <lb/>Non tamen despero ipsum ceu Herculem illud fuisse
+      <lb/>superaturum, si sat temporis et profund<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> medita<pc type="hyphenation">-</pc><lb break="no"/>mi, donec pervenirent ad puncta <formula>D</formula> et <formula>E</formula>: qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur qua<del><gap/></del><pc type="hyphenation">-</pc><lb break="no"/>tionis in id ipsum impendere ipsi vel licuisset vel
+      <lb/>libuisset. </p> <closer>Vale Vir ver<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Excellentissime, et p<unclear reason="lost">ro</unclear>
+      <lb/>favore at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> benevolentia, qua Magnus Tuus <rs type="person">Pa<pc type="hyphenation">-</pc><lb break="no"/>truus</rs> me dignatus est, complectere<supplied>.</supplied>
+      <lb/>ex asse Tuum
+      <lb/><signed><rs key="pers_DE-588-1052878059" type="person">Joh. Wilh. Theodor Leichner</rs></signed>, <abbr>Ph.</abbr> <abbr>M.</abbr>
+      <lb/>et <rs type="organisation"><abbr>Dicasterior.</abbr></rs> <rs type="place">Moguntino-Erffur<pc type="hyphenation">-</pc><lb break="no"/>tens.</rs> <abbr>Electoral.</abbr> <abbr>Advoc.</abbr> <abbr>Ord.</abbr>
+      <lb/><dateline>Dabam festino calamo
+      <lb/><abbr>d.</abbr> <date when="1727-09-01">1. Sept. 1727</date>.</dateline>
+<pb facs="1063779" n="6"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Nicolas Bernoulli</rs>,</addrLine>
+      <addrLine>Professeur ès Mathematiques</addrLine>
+      <addrLine>tres-celebre</addrLine>
+      <addrLine>par occasion.</addrLine>
+      <addrLine>cit<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice>.</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Basel</rs>.</addrLine>
+    </address>
+  </closer>
+  <note hand="unknown"><lb/>Par adr.<hi rend="sup">e</hi> de votre tres hum.<hi rend="sup">e</hi>
+    <lb/>Serviteur <rs type="person"><unclear reason="illegible">I.</unclear> Daniel
+    <lb/>Mauriti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> <rs key="place_GEO-2925533" type="place">frfort</rs> ce <date when="1727-09-20">20. 7bre
+    <lb/>1727</date>.</note>
+  <note hand="unknown"><lb/>Par m. et am<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> que Dieu
+    <lb/>Conduise.</note>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524789505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 06. März 1789</title>
+          <title type="alt">1789.03.06: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079649</title>
+          <title type="alt">1789-03-06_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524789505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524789505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Brieftext (4 Zeilen) befindet sich unter einem Kupferstich einer Medaille</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128976">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.168a</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524789505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440051405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079649</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>9</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennam</origPlace>
+              <date when="1789-03-06">Ao: 1789 die 6. Martii</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1789-03-06">Ao: 1789 die 6. Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524789705501" type="prev"/>
+          <ptr target="B_991170521065405501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>The document records and illustrates a platinum medal, approximately the size of a sovereign, bearing inscriptions naming platinum and Urania and dedicating the new planet to Hell. Six examples of the medal, whose place of manufacture and maker were unknown, were sent as a gift to Maximilian Hell in Vienna on 6 March 1789.</p>
+
+        <p>Das Dokument beschreibt und zeigt eine etwa souverängrosse Medaille aus Platin. Ihre Inschriften nennen Platin und Urania und widmen den neuen Planeten Hell. Sechs Exemplare der Medaille, deren Herstellungsort und Hersteller unbekannt waren, wurden Maximilian Hell am 6. März 1789 als Geschenk nach Wien gesandt.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-18" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529687/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+        <pb facs="3529688" n="168ar"/>
+        <figure>
+          <figDesc>Kupferstich einer Medaille mit den Inschriften "PLATINA", "URANIA" und "NOVO PLANET<choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice> DICAT HELLIUS ASTR: ANNO 1786".</figDesc>
+        </figure>
+        <p>
+          <lb/>Figura major Nummi <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> Metallo novo <hi rend="u">Platina</hi> dicto, in
+          <lb/>magnitudine Souverain d’or <choice><orig>A’o:</orig><reg>A<supplied>.</supplied><hi rend="sup">o</hi></reg></choice> <date when="1789">1789</date> <choice><orig>Cusi</orig><reg>cusi</reg></choice>, nescitur ubi? et
+          <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo? Cujusmodi sex dono missi sunt Patri <rs type="person" key="pers_DE-588-119502208">Hell</rs> <rs type="place" key="place_GEO-2761369">Viennam</rs>,
+          <lb/><choice><orig>A’o:</orig><reg>A<supplied>.</supplied><hi rend="sup">o</hi></reg></choice> <date when="1789-03-06">1789 die 6. Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date>.
+        </p>
+        <pb facs="3529689" n="168av" type="empty"/>
+      </div>
+    </body>
+  </text>
+</TEI>

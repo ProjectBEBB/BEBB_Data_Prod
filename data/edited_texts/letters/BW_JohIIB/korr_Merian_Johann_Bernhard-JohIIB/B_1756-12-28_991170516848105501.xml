@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516848105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 28. Dezember 1756</title>
+          <title type="alt">1756.12.28: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058754</title>
+          <title type="alt">1756-12-28_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516848105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516848105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131678">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.192-193</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516848105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433701305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058754</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1756-12-28">ce 28ieme décembre 1756</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1756-12-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516848205501" type="prev"/>
+          <ptr target="B_991170516723205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Brenner</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+            <note type="lebensdaten">(1711-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117547786">Godin, Louis</persName>
+            <note type="lebensdaten">(1704-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104196645">Lieberkühn, Johann Nathanael</persName>
+            <note type="lebensdaten">(1711-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117610429">Murdoch, Patrick</persName>
+            <note type="lebensdaten">(-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1015904726">Passavant, Daniel</persName>
+            <note type="lebensdaten">(1722-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118788744">Richelieu, Louis François Armand Du Plessis de</persName>
+            <note type="lebensdaten">(1696-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118627813">Voltaire</persName>
+            <note type="lebensdaten">(1694-1778)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587346/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+  <p><pb facs="3587349" n="193r"/> P. S. [am Schluss des Briefes] Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> vous fait ses obeissances, et la famille Beguelin ses complimens. </p>
+  <p><pb facs="3587347" n="192r"/>Monsieur </p>
+  <p> Je n’ai différé, pendant quelque tems, à vous écrire que pour attendre que je pusse le faire bien à loisit, et donner à ma lettre sa juste étendue. Quand j’ai quelque occu pation sur les bras, j’ai le malheur de ne pouvoir faire au tre chose. me trouvant libre depuis hier, je profite des pre miers instans pour me rendre à mon devoir. Je ne dois à per sonne autant qu’à Vous, Monsieur, et il n’y point de devoir, dont je m’acquitte avec tant de plaisir. </p>
+  <p> Vous me peignés la ville de <rs key="place_GEO-2661604" type="place">Basle</rs> dans un déplora ble état par raport à la littérature et aux Sciences: le tableau que vous en tracés, ne donne certainement pas grande envie de voir la chose en original; ceperdant il est des mérites supérieurs, que l’ignorance et la barbarie ne sau roient obscureir, et ces mérites sont héréditaires dans la famille des Bernouillys. Je sais de bonne part que Monsieur votre <rs type="person">fils</rs> ne dégénere point; je sais qu’il réunit à tous les talens, toutes les graces du corps et de l’esprit, et en un mot tout ce qui fait un caractere accompli. Je félicite d’avance notre <rs type="organisation">Académie</rs> du bonheur que je me faltte qu’elle aura de le posséder, je me félicite en particulier de pouvoir faire la connoissance d’un aussi aimable Cavalier, et de pouvoir esti mer et aimer en lui le <rs type="person">fils</rs> de l’homme que je respecte, et, permettés moi de le dire, que j’aime le plus. Soyés au moins très persuadé, Monsieur, que notre cher <rs type="person" key="pers_DE-588-118731998">président</rs>, conserve toujours les mêmes sentimens à votre égard: il m’a protesté mille fois qu’il attend, avec impatience, que Monsieur votre <rs type="person">fils</rs> soit parvenu à un age, où il pourra vous convaince, dans sa personne, combien il vous est attaché. Je lui ai fait par venir vos plaintes: il vient de m’écrire, sur ce sujet, les choses les plus touchantes. Il est en arriere avec tous ses correspondans: Un voyage fait en mauvaise santé, un redouble ment de mauvaise santé en arrivant à <rs key="place_GEO-2978640" type="place">St. Malo</rs>, des embarras domestiques, et bien d’autres chagrins, l’ont mis dans la triste nécessité de surseoit à son commerce de lettres. Il me prie de vous faire ses excuses. Ne croyés pas qu’il songe à demeurer en <rs key="place_VER-frankr" type="place">France</rs>. S’il a été fait vétéran dans l’<rs type="organisation">Académie</rs> des Sciences, ce n’est pas qu’il l’ait sollicité. On lui [a] accordé ce titre de plein gré, et parce qu’il auroit été in décent de ne le lui pas donner, après qu’on l’avoit déféré à Mr. <rs key="pers_DE-588-117547786" type="person">Godin</rs>, établi en <rs key="place_VER-spanie" type="place">Espagne</rs>, qui avoit <pb facs="3587348" n="192v"/> fait exprès un voyage à <rs key="place_GEO-2988507" type="place">Paris</rs> pour le demander. Je sais au contrair que ce qui lui fait le plus de peine, ce sont les conjonctures présentes, l’taf politique de l’<rs key="place_KON-europa" type="place">Europe</rs>, et sa grande sensibilité pour ce qui se passe entre les 2 cours de <rs key="place_VER-preuss" type="place">Prusse</rs> et de <rs key="place_VER-frankr" type="place">France</rs>. Il a marqué à Madame son <rs key="pers_DE-588-1089911661" type="person">épouse</rs> quil songeoit à revenir chez nous aussitôt qu’il pourroit. La permission que ce faquin de <rs key="pers_DE-588-118627813" type="person">Voltaire</rs> a obtenue par l’intercession du Duc de <rs key="pers_DE-588-118788744" type="person">Richelieu</rs> de retourner dans sa patrie, ne doit pas avoir fait grand plaisir à Monsieur de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>. Avés vous vû la <rs type="biblio">vraye pu celle</rs> qui vient de paroitre? C’est un amas d’horreurs, où ni les grands du ciel, ni les grands de la terre, ni ses amis, ni ses bienfaiteurs, ni la religion ni la morale ne sont épargnés. Je ne conçois pas qu’on puisse enfanter un tel ouvrage à moins que d’être possédé du Diable, ou plûtôt d’une légion de Diables. </p>
+  <p> Monsieur <rs key="pers_DE-588-119353210" type="person">Formey</rs> a expédié votre exemplaire de nos mémoires pour <rs key="place_GEO-2879139" type="place">Leipzig</rs>, et je compte que vous l’aurés reçû. Je n’ose pas lui proposer de m’en laisser le soin: il est un peu sensible, et je tache de vivre en paix avec lui; mais je le ferai toujours souvenir à tems: et je veillerai à ce que vous soyés servi avec exactitude. Si vous n’avés pas retrouvé le volume que l’anglois vous a emporté, nous vous l’enverrons par la premiere occasion. </p>
+  <p> Les fonctions de Mr. <rs key="pers_DE-588-1015904726" type="person">Passavant</rs> ayant expiré avec celle du ministre Saxon, je crois qu’il songer[a] à retourner à <rs key="place_GEO-2661604" type="place">Basle</rs>. Je profiterai de l’occasion pour envoyer à mon <rs type="person">pere</rs> tous les écrits qui se sont publiés icy à l’occasion de la présente guerre; ils sont en grand nombre. Si vous êtes curieux de les lire, il pourra vous les communiquer. Vous y trouverés une rélation exacte de la campagne de cette année, sans exa gération et sans gasconades. Vous y verrés clairement combien peu sont fondés les bruits qui courent chez Vous, comme si les autrichiens avoient gagné la bataille de <rs type="place">Lowositz</rs>, et nous avoient délogé de la <rs type="place">boheme</rs>. Nous jouissons icy d’un profond repos et sommes fort tranquiles sur les événemens. </p>
+  <p> Nil desperandum <rs type="person">Teucro</rs> duce et auspice <rs type="person">Teucro</rs>. Cependant nous souhaitons la paix sans sentir, le moins du monde, les incommodités de la guerre. </p>
+  <p> Monsieur le Docteur <rs type="person" key="pers_DE-588-104196645">Lieberkuhn</rs> vient de mourir: il est fort regretté à cause de sa science médicale, mais encore d’avantage à cause de son habileté en mécanique. Il laisse un cabinet des plus beaux. Il a travaillé aux télescopes et aux microscopes de Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs>, et la mort est venue fort mal à propos interrompte son travail. Il a poussé l’art des injections ana tomiques au de là de tout ce qu’on a vû. </p>
+  <p><pb facs="3587349" n="193r"/> Monsieur <rs key="pers_no_GND_id" type="person">Brenner</rs>, nostre compatriote, vient aussi de payer le tribut à la nature, après une maladie de langueur qui a duré près d’un an et qu’il a soutenue jusqu’au dernier moment avec beaucoup de courage et de fermeté: On l’a ouvert, et on a trouvé le côté droit de l’estomac entiermont durci: c’étoit là son seul mal, et la source unique de sa langueur. Il a toujours conservé la poitrine bonne et la tête libre. Il laisse une veuve fort affligée, une <rs type="person">fille</rs> assés maladive, et un <rs type="person">fils</rs> fort gai et fort bien portant; il semble avoir volé la santé à son <rs type="person">pere</rs>. </p>
+  <p> Je vis hier Mr. <rs key="pers_DE-588-117610429" type="person">Murdoch</rs> chapélain de l’envoyé d’<rs key="place_VER-englan" type="place">angleterre</rs>. Il a imaginé une expérience fort ingénieuse pour décider la question sur les forces vives. Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> va la faire et nous vous aprrendrons le résultat. </p>
+  <p> Permettés, Monsieur, que je présente mes respects et mes obéissances à Monsieur votre <rs type="person" key="pers_DE-588-118656503">frere</rs> et à toute votre famille. J’ai l’honneur d’être inviolablement Monsieur Votre très humble et très obéissant Serviteur <rs key="place_GEO-2950159" type="place">Berlin</rs> ce 28ieme décembre 1756 <rs key="pers_DE-588-116892021" type="person">Merian</rs> </p>
+<pb facs="3587350" n="193v"/></div>
+</body>
+</text></TEI>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430108505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Louis Bourguet. Basel, 30. Oktober 1734</title>
+          <title type="alt">1734.10.30: Bernoulli, Johann (1667-1748) an Bourguet,
+            Louis (1678-1742)</title>
+          <title type="alt">000055648</title>
+          <title type="alt">1734-10-30_Bernoulli_Johann-Bourguet_Louis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430108505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430108505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Bourguet, Louis (1678-1742)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Antwortvermerk Bourguets am Briefende: "Rec. le 1.e 9bre Rep. le 17. Jan. 1735." Adresse und Siegelspuren.</p>
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli Werkausgabe: Op. CXLVI</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Neuchâtel BPU, Ms</repository>
+            <idno type="callNumber">1267/1, fo.27-28</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430108505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406886705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055648</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1734-10-30">ce 30. 8bre 1734.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1734-10-30"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116298553">Bourguet, Louis</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430109005501" type="prev"/>
+          <ptr target="B_991170430107705501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bourguet_Louis-JohIB" corresp="pers_DE-588-116298553" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. dankt für die Glückwünsche zur Preisverleihung. Er hat erst vor einer Woche die Druckfahnen seiner Preisschrift von Maupertuis und Clairaut erhalten. Beide sind in Basel, um von seinen Gaben zu profitieren. Die Preisarbeit von Dan. I B. ist noch nicht im Satz. Maupertuis wird sich nach der Rückkehr nach Paris darum kümmern. Joh. B. gestattet Bourguet einen Auszug im Mercure Suisse zu bringen. Das kleine Vorwort von B. zum Brief des Sohnes in der Septemberausgabe ist sehr ehrenvoll. Joh. B. hat im Unterschied zu Bourguet Band 3 der Petersburger Commentarii noch nicht erhalten. Der Bibliothekar überträgt wahrscheinlich seine Abneigung gegen Dan. I B. auf ihn. Joh. B. wird die Alphabet-Tafeln von Bourguet so verwenden wie gewünscht.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1201440807">Alexandre, Jean</persName>
+            <note type="lebensdaten">(-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+            <note type="lebensdaten">(1698-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117647691">Schumacher, Johann Daniel</persName>
+            <note type="lebensdaten">(1690-1761)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-09-27" who="MS">Korrekturen durch Autor eingebaut</change>
+        <change when="2022-10-14" who="MS">Digitalisate eingebaut</change>
+        <change when="2022-10-03" who="MS">note type="editorial" in type="comment", Notizen von fremder Hand ausgezeichnet, kleinere Tags</change>
+        <change when="2022-08-23" who="MS">Header angepasst, Seitennummern ergänzt</change>
+        <change when="2019-12-11" who="MS">Werk- und Brieftag eingefügt, Briefrechere, BIBB aktualisiert, Personenrecherche, GND Alexandre erstellt und getagt, BIBB aktualisiert</change>
+        <change when="2019-03-12" who="MS">Personen getagt, Werkrecherche</change>
+        <change when="2018-05-02" who="SG MS">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+  <graphic url="manifests/M_1734-10-30_991170430108505501"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://e-editiones.org/canvas/M_1734-10-30_991170430108505501/1" n="27r"/>
+  <opener><salute>Monsieur</salute></opener>
+  <p><lb/>Je suis charmé de Vous voir toujours prendre tant de part
+      <lb/>à la victoire que j’ai remportée avec mon <rs key="pers_DE-588-118656503" type="person">fils</rs> sur nos Concurrents<note type="comment">Nach dem Brief von Daniel Bernoulli an Bourguet von 28.05.1734 war <rs key="pers_DE-588-117622974" type="person">Pierre Bouguer</rs> einer der Konkurrenten.</note><supplied>.</supplied><note type="comment">Ein entsprechender Brief Bourguets an Johann Bernoulli ist nicht erhalten.</note>
+      <lb/>Nos pieces<note type="comment">Gemeint ist die 1734 von der Pariser Académie des sciences ausgezeichnete Preisschrift Bernoulli, Johann, <rs key="biblio_DDGGYG92" type="biblio">Op. CXLVI</rs> und diejenige von Bernoulli, Daniel <rs key="biblio_943QQZJ7" type="biblio">St. 24</rs>.</note> ne sont pas encore imprimées, sans cela Vous eussiés
+      <lb/>été le premier à en recevoir un <rs key="biblio_DDGGYG92 biblio_943QQZJ7" type="biblio">exemplaire de chacune</rs>, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>certainement nous Vous les avons destinés devant touts nos autres
+      <lb/>Amis, c’est surquoi Vous pourés compter infailliblement<supplied>.</supplied>
+      <lb/>Ce n’est que depuis peu de semaines que j’ai reçû seulement les
+      <lb/>épreuves de l’imprimerie de ma <rs key="biblio_DDGGYG92" type="biblio">piece</rs> par <abbr>Mrs.</abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>
+      <lb/>et <rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>, deux savants Geometres de l’<rs type="organisation" key="org_DE-588-35019-9">Academie <choice><abbr>R.</abbr><expan>Royale</expan></choice> des sciences</rs>,
+      <lb/>qui sont venus ici pour profiter de mes foibles lumieres:<note type="comment">Pierre Louis Moreau de Maupertuis und Alexis-Claude Clairaut hielten sich von September bis Dezember 1734 zur Weiterbildung durch Johann Bernoulli in Basel auf. Siehe Brief von La Condamine an Johann II Bernoulli von 1761.07.26.</note> <rs key="biblio_943QQZJ7" type="biblio">Celle</rs>
+      <lb/>de mon <rs key="pers_DE-588-118656503" type="person">fils</rs><note type="comment">Daniel Bernoulli.</note>, à ce qu’ils nous disent, reste encore en manuscript, l’
+      <lb break="no"/>impression n’en <subst><del>ayant</del><add>étant</add></subst> pas seulement co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encée, et ne se co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encera
+      <lb/>qu’après leur retour à <rs key="place_GEO-2988507" type="place">Paris</rs>, d’autant que <abbr>Mr.</abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> a
+      <lb/>entrepris l’inspection et la correction de l’<rs type="organisation">imprimerie</rs> et du <rs key="pers_DE-588-1201440807" type="person">Gra<pc type="hyphenation">-</pc><lb break="no"/>veur</rs><note type="comment">Zwischen 1723 und bis ca. 1738 hatte <rs key="pers_DE-588-1201440807" type="person">Jean Alexandre</rs> das Amt als graveur du Roi pour l’Imprimierie royle inne. Er war aber auf Schriften spezialisiert und deswegen ist nicht klar, ob er auch die Figuren zu Daniel Bernoullis Werk gestochen hatte.</note>: Ainsi cela tardera bien jusqu’après le nouvel an, et il
+      <lb/>faudra prendre patience. Il est glorieux d’étre loué par Votre
+      <lb/>plume, c’est pourquoi si Vous trouvés nos <rs key="biblio_DDGGYG92 biblio_943QQZJ7" type="biblio">ouvrages</rs><note type="comment">Bernoulli, Johann, <rs type="biblio">Op. CXLVI</rs> und Bernoulli, Daniel <rs type="biblio">St. 24</rs>.</note> dignes d’
+      <lb break="no"/>etre annoncés au public nous permettrons bien d’en donner un
+      <lb/><rs key="biblio_WSS9UK49" type="biblio">Extrait dans le Mercure Suisse</rs>;<note type="comment">Die ausführliche Besprechung von Johann Bernoullis Preisschrift durch Bourguet erschien unter dem Titel <rs key="biblio_WSS9UK49" type="biblio">«Essai d’une nouvelle physique celeste»</rs>, in: «Mercure suisse» Mai 1735, pp. 106–122. Zu Beginn dieser Besprechung weist Bourguet auf p. 108 auch auf die ebenfalls preisgekrönte Schrift von Daniel Bernoulli (<rs key="biblio_943QQZJ7" type="biblio">St. 24</rs>) hin und kündigt deren Besprechung für einen späteren Monat an. Bourguets Besprechung von Daniel Bernoullis Preisschrift erschien dann als <rs key="biblio_CJRKBH3K" type="biblio">«Recherches physiques et astronomiques sur le Problème, proposé pour la seconde fois par l’Académie Roïale des Sciences de Paris pour l’année 1734»</rs>, in: «Mercure suisse», Juillet 1735, pp. 49–66. Daniel Bernoulli bedankt sich für die Rezension seiner Preisschrift in seinem Brief von 1735.08.24 an Bourguet. Bourguet habe seine Preisschrift als «trop court» bezeichnet. Ihm selbst aber scheine sie zu lang, da Bourguet das Wesentliche auf wenigen Seiten habe zusammenfassen können.</note> La petite <rs key="biblio_5HDTNKUM" type="biblio">préface</rs> faite à la tete
+      <lb/>de la <rs key="B_991170430096305501" type="letter">Lettre</rs> de mon <rs key="pers_DE-588-118656503" type="person">fils</rs> inserée dans le mois de Septembre<note type="comment">Die «Lettre Mr. Daniel Bernoulli, ..., à Mr. Schoepflin, ..., sur un Livre que le prémier va publier» in: Mercure suisse, Septembre 1734 (Neuchatel (J. G. Galandre) 1734, pp. 42–50, ist datiert auf 1734.08.25 und bezieht sich auf die bevorstehende Publikation seiner <rs key="biblio_JHW6KKGC" type="biblio">Hydrodynamik</rs>. Das Vorwort Bourguets steht auf pp.41–42.</note> lui est
+      <lb/>infiniment honorable; co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e j’y ai aussi ma part, je Vous en
+      <lb/>suis bien obligé; Quand il se donnera l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vous <rs type="letter">repondre</rs>
+<pb facs="https://e-editiones.org/canvas/M_1734-10-30_991170430108505501/2" n="27v"/>
+      <lb/>il ne manquera sans doute pas de Vous marquer combien il
+      <lb/>est sensible à toutes Vos honnetetés.<note type="comment">Ein Dankschreiben Daniel Bernoullis für Bourguets Vorwort zu Bernoulli, Daniel, «Lettre à Schoepflin» wurde bisher nicht aufgefunden.</note></p>
+  <p><lb/>Vous étes Monsieur plus heureux que moi d’avoir
+      <lb/>reçû le Tome III<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> des <rs type="keyword">Memoires de l’<rs type="organisation" key="org_DE-588-1292277092">Academie de <rs key="place_GEO-498817" type="place">Petersbourg</rs></rs></rs>,<note type="comment">«Commentarii Academiae Scientiarum Imperialis Petropolitanae tome III ad annum 1728», Petropoli 1732.</note>
+      <lb/>car quoique je sois membre de cette <rs type="organisation" key="org_DE-588-1292277092">Academie</rs> et que je Lui
+      <lb/>aye fourni déja plusieurs pieces<note type="comment">Folgende Werke von JIB sind in den CP für die Jahre bis 1734 erschienen: I) <rs key="biblio_TWTQJFFC" type="biblio">Op. CXXXVI</rs> II)<rs key="biblio_9ZH9PG45" type="biblio">Op. CXXXVII</rs> III) <rs key="biblio_RLWWERSV" type="biblio">Op. CXL</rs> V) <rs key="biblio_APKVJ6RX" type="biblio">Op. CXLVII</rs>.</note>, je n’ai pas encore reçû
+      <lb/>ce <rs type="keyword">Tome</rs> et je ne sçai si on me l’enverra jamais. Le <rs key="pers_DE-588-117647691" type="person">Biblio<pc type="hyphenation">-</pc><lb break="no"/>thecaire</rs>,<note type="comment">Johann Daniel Schumacher (1690-1761) war seit 1724 Direktor der Bibliothek der St. Petersburger Akademie, der nach dem Wegzug des Akademiepräsidenten Laurentius Blumentrost als Akademiesekretär ein despotische Regiment führte, was zum Abgang einiger Akademiemitglieder führte.</note> qui doit distribuer les <rs type="keyword">exemplaires</rs> à ceux qui y ont
+      <lb/>pretension, n’est pas de mes Amis dont je ne sçai pas la raison,
+      <lb/>si ce n’est peutetre que mon <rs key="pers_DE-588-118656503" type="person">fils</rs> n’étoit pas bien avec lui, mais
+      <lb/>qu’en puis-je? <hi rend="u">Ne Pater pro filio</hi>.</p>
+  <p><lb/>Je vois Monsieur avec étonnement que Vous excellés en
+      <lb/>tout genre de science et de litterature, puisque Vous <choice><orig>saves</orig><reg>savés</reg></choice> de<pc type="hyphenation">-</pc><lb break="no"/>chifrer si adroitement les ecritures des anciennes Langues,
+      <lb/>qui étoient co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e peries et ensevelies dans l’Oubli; La <rs key="biblio_3F8GNVNK" type="biblio">Table d’
+      <lb/>alphabet</rs> que vous m’avés envoyée<note type="comment">Diese «Table alphabetique» findet sich nach p. 10 des Aufsatzes: [Bourguet, Louis], «Lettre sur l’Alphabet Etrusque à Monsieur Ernest, Comte d’Harrah, Auditeur de Rote et Principe de l’Académie Etrusque de Cortone», in: Bibliotheque italique ou Histoire litteraire de l’Italie, t. 18, Geneve (M.-M. Bousquet) 1734, Article I, pp. 1–62.</note> en est un Temoin auten<pc type="hyphenation">-</pc><lb break="no"/>tique: J’en ferai l’usage que Vous souhaités. Je prie Dieu
+      <lb/>qu’il Vous donne assés de force et de vigueur pour soutenir la
+      <lb/>fatigue avec la quelle Vous travaillés si assiduement pour le
+      <lb/>bien public. Je suis avec une estime et consideration
+      <lb/>parfaite</p>
+  <closer><lb/>Monsieur
+      <lb/>Votre très humble et très-
+      <lb break="no"/>obeissant Serviteur
+      <lb/><signed><rs key="pers_DE-588-118509969" type="person"><abbr>J</abbr>Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.</signed>
+<dateline><lb/><rs key="place_GEO-2661604" type="place">Bâle</rs>
+      <lb/>ce <date when="1734-10-30">30<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>8<hi rend="sup">bre</hi></abbr> 1734</date>.</dateline>
+<note hand="pers_DE-588-116298553"><choice><abbr>Rece</abbr><expan>Recue</expan></choice> le <date when="1734-11-01">1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">e</hi> <abbr>9<hi rend="sup">bre</hi></abbr></date> <choice><abbr>Repondu</abbr><expan>Repondu</expan></choice> le <rs type="letter"><date when="1735-01-17">17<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <choice><abbr>Jan.</abbr><expan>Janvier</expan></choice> 1735</date></rs>.</note>
+<pb facs="https://e-editiones.org/canvas/M_1734-10-30_991170430108505501/3" n="28r" type="empty"/>
+<pb facs="https://e-editiones.org/canvas/M_1734-10-30_991170430108505501/4" n="28v"/>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-116298553" type="person">Bourguet</rs>, Pro-</addrLine>
+      <addrLine>fesseur en Philosophie et</addrLine>
+      <addrLine>en Mathematique <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></addrLine>
+      <addrLine>à <rs key="place_GEO-2659496" type="place">Neuchâtel</rs></addrLine>
+      <addrLine>en <rs key="place_VER-schweiz" type="place">Suisse</rs></addrLine></address></closer>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517060405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Isaac Coly an Nicolaus I Bernoulli. Venedig, 18. Mai 1717</title>
+          <title type="alt">1717.05.28: Coly, Isaac () an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059049</title>
+          <title type="alt">1717-05-18_1717-05-28_Coly_Isaac-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517060405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517060405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Coly, Isaac
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 19ten"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24290">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.47</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517060405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433694105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059049</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>20,5</height><width>14,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Ven.a</origPlace>
+              <date when="1717-05-18">li 28 Mag. 717 [sic!]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="no_GND">Coly, Isaac</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1717-05-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517060605501" type="prev"/>
+          <ptr target="B_991170517060105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Coly_Isaac-NicIB" corresp="pers_resource_000017" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ita">Italienisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-31" who="SG">Kollationieren abgeschlossen</change>
+        <change when="2026-04-21" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-21" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-21" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063266/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063267" n="1"/>
+  <opener><salute><abbr>Ill.<hi rend="sup">mo</hi></abbr> <abbr>Sig.<hi rend="sup">e</hi></abbr> <abbr>Sig.<hi rend="sup">e</hi></abbr> <abbr>Pron<hi rend="sup">e</hi></abbr> <abbr>Col.<hi rend="sup">mo</hi></abbr></salute></opener>
+  <p><lb/>Appena tardo mi giunse (per falta del dispensiere)
+      <lb/>il riveritiss.<hi rend="sup">mo</hi> foglio di <abbr>V. S.</abbr> Ill.<hi rend="sup">ma</hi> che s’accolsi con quel
+      <lb/>eccesso di Stima, e Contento ben dovuta alla generosiss.<hi rend="sup">ma</hi>
+      <lb/>Sua penna che Colma di grazie mi fè degno di
+      <lb/>adorar i Caratteri di Celebre Soggetto a cui professai
+      <lb/>quel rispetto che universale giusta fama sempre
+      <lb/>Le Cattivò<supplied>.</supplied></p>
+  <p>La prontezza con cui m’attrovai favorito del <rs type="biblio">Trattato</rs>
+    <lb/>del di Lei degno <rs type="person" key="pers_DE-588-118509969">Zio</rs> mi Confondè di maniera ché Lo
+      <lb/>Credei mostro di Cortesia in animo verso cui me<unclear reason="illegible">rito</unclear>
+      <lb/>non mi prevenne.</p>
+  <p><lb/><unclear reason="illegible">Ar</unclear>disco de sfrutar <abbr>V. S.</abbr> <abbr>Ill.<hi rend="sup">ma</hi></abbr> con questo foglio per non
+    <lb/>lasciar inofficiosa La mia divozione che m’obbliga
+    <lb/>a dedicarle tutto mè stesso, e che s’augura l’incontro
+    <pb facs="1063269" n="2"/>
+    <lb/>di poter goder i privileg<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> continuati del Suo padrocinio
+    <lb/>et esser arrolato al Numero di quei tanti che professano
+    <lb/>a grado di somma fortuna il poter coltivar con rispetto
+    <lb/>la Casa Bernoulli<supplied>,</supplied> Lume dell’<rs key="place_KON-europa" type="place">Europa</rs> nella quale
+    <lb/>risplendend<unclear reason="illegible">ui</unclear> V. S. <abbr>Ill.<hi rend="sup">ma</hi></abbr> stella di <choice><abbr>p.<hi rend="sup">ma</hi></abbr><expan>prima</expan></choice> grandezza mi pubblicharei
+    <lb/>tutto felice se avessi la sorte di poter dirmi con frutto</p>
+  <closer>Di <abbr>V. S. Ill.<hi rend="sup">ma</hi></abbr>
+    <lb/><abbr>Dev.<hi rend="sup">mo</hi></abbr> <abbr>Obbligat.<hi rend="sup">o</hi></abbr> <abbr>Serv.<hi rend="sup">e</hi></abbr>
+    <lb/><signed><rs key="pers_resource_000017" type="person">Isaac Coly</rs></signed>
+    <lb/><dateline><rs type="place" key="place_GEO-3164603"><abbr>Ven.<hi rend="sup">a</hi></abbr></rs> li <date when="1717-05-18"><choice><sic>28</sic><corr>18</corr></choice><note type="editorial">Dass das Datum auf den 18. Mai zu korrigieren ist, ergibt sich aus dem Empfangsvermerk von Nicolaus Bernoulli, der den Brief angesichts der kurzen Distanz zwischen Venedig und Padua wohl bereits am folgenden Tag erhalten hat.</note> <abbr>Mag.<hi rend="sup">o</hi></abbr> <choice><orig>717</orig><reg>1717</reg></choice></date></dateline>
+    <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> den <date when="1717-05-19">19<hi rend="sup">ten</hi></date></foreign></note>
+  </closer>
+</div>
+</body>
+</text></TEI>

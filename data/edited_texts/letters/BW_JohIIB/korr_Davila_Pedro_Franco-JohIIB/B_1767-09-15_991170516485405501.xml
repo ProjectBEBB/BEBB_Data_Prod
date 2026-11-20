@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516485405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pedro Franco Dávila an Johann II Bernoulli. Paris, 15. September 1767</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516485405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516485405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136039">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.1111-1112</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516485405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433581705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058305</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1767-09-15">ce 15.e 7bre 1767</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119252309">Dávila, Pedro Franco</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1767-09-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516485505501" type="prev"/>
+          <ptr target="B_991170516485305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Davila_Pedro_Franco-JohIIB" corresp="pers_DE-588-119252309" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Handelt vom Katalog seines Kabinetts</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694306/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3694307" n="1111"/>
+  <opener>
+      <lb/><dateline>15 Sept. 1767.</dateline>
+    <salute><lb/>Monsieur</salute>
+  </opener>
+  <p>
+      <lb/>Je suis charmé que vous ayez reçu l’exemplaire du catalogue
+      <lb/>de mon cabinet que j’ai eu l’honneur de vous envoyer par
+      <lb/>le canal de M<hi rend="sup">r</hi> Schweighauser, et que vous en soyez content
+      <lb/>quant à la tête d’ouvrage, intitulée contenu dans l’art 801.
+      <lb/>de mon cabinet, au cas que la vente se fasse en détail,
+      <lb/>je la ferai retirer par l’huissier qui sera nommé pour la
+      <lb/>vendre et j’avertis Monsieur, Monsieur, de vous l’envoyer
+      <lb/>afin que vous la presentiez à M<hi rend="sup">r</hi> vostre cher fils qui
+      <lb/>professe la Médecine. Je serai d’autant plus content
+      <lb/>que c’est un chef d’œuvre dont M<hi rend="sup">r</hi> Davril et tous les
+      <lb/>personnes sçavantes font cas, si par mes mes livres
+      <lb/>ou tout autre chose vous desirez quelque chose je vous
+      <lb/>prie de me le marquer en particulier, il se pourra
+      <lb/>faire de même que avec la tête.
+      <lb/>J’ai viens de recevoir une lettre de Berlin de
+      <lb/>M<hi rend="sup">r</hi> vostre fils, du 20 aoust et autre de M<hi rend="sup">r</hi> Formey,
+      <lb/>secretaire de l’Académie où ils m’accusent avoir
+      <lb/>reçu le catalogue que je les ai envoyé, mais
+      <lb/>M<hi rend="sup">r</hi> vostre fils ne me dit rien au sujet des
+      <lb/>desirs que j’ai d’être reçu savante société comme
+      <lb/>je vous le signifiai par ma lettre anterieure
+      <lb/>pour prier de lui ecrire à ce sujet et que
+      <lb/>vous evez eu la bonté de m’assurer de le faire
+<pb facs="3694308" n="1112"/>
+      <lb/>je m’imagine, Monsieur, que lorsque M<hi rend="sup">r</hi> vostre
+      <lb/>fils m’ecrivit il n’avoit pas encore reçu
+      <lb/>votre lettre et si cela est je peux encore
+      <lb/>en avoir l’esperance, je vous supplie de lui
+      <lb/>ecrire nouvellement sans y perdre de tems et
+      <lb/>lui recommander ce souhait ou affaire dont
+      <lb/>je vous serai toute ma vie redevable ainsi
+      <lb/>qu’a M<hi rend="sup">r</hi> vostre fils et à M<hi rend="sup">r</hi> de Formey leur
+      <lb/>assurant de ma part que je tacherai de
+      <lb/>remplir mes obligations leurs faisant part
+      <lb/>de toutes les productions naturelle que
+      <lb/>je trouverai dans mes voyages et que je
+      <lb/>croirai dignes de leur savante société avec
+      <lb/>les observations que je pourrai en faire.
+      <lb/>J’ai l’honneur d’être avec le plus sincere atta<pc type="hyphenation">-</pc><lb break="no"/>chement et les sentimens les plus respectueux</p>
+  <closer>
+      <lb/>Monsieur
+      <lb/>Votre tres humble et tres
+      <lb/>obeissant serviteur
+      <lb/>Davila de L’Academie
+      <lb/>Imperiale des sciences
+      <lb/>de St Petersbourg.
+      <lb/><dateline>à Paris ce 15<hi rend="sup">e</hi>
+      <lb/>7bre 1767</dateline>
+  </closer>
+</div>
+</body>
+</text>
+</TEI>

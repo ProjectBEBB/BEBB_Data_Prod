@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517059605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Nicolaus I Bernoulli. Ohne Ort, 09. Juni 1727</title>
+          <title type="alt">1727.06.09: Cramer, Gabriel (1704-1752) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059052</title>
+          <title type="alt">1727-06-09_Cramer_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517059605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517059605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Beilage auf fo.2. Cramer hielt sich zu jener Zeit in Basel auf. Nic. I B. war von 1722 bis 1731 Professor für Logik in Basel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24292">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.50</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517059605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433694605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059052</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23,5</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1727-06-09">[9. Juin 1727?]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1727-06-09"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517060105501" type="prev"/>
+          <ptr target="B_991170517059505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-04-23" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-06-23" who="RG">Mathematische Formeln (array, etc.) angepasst.</change>
+        <change when="2025-06-13" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-06-02" who="MK">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-01-10" who="RG">Mathematische Formeln angepasst.</change>
+        <change when="2025-01-10" who="RG">Kleinere Anpassungen</change>
+        <change when="2023-09-26" who="RG">Peronen und Orte ausgezeichnet</change>
+        <change when="2023-09-24" who="RG">Personen referenziert</change>
+
+        <change when="2023-07-11" who="RG">Zeilabstände eingefügt, und etlig ergänzt</change>
+        <change when="2023-07-11" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063284/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063285" n="1"/>
+
+  <p>
+      <lb/>Je vous r’envoye, Monsieur, Le <rs type="biblio">Livre</rs> que vous avés eù la bonté de me
+      <lb/>preter, et j’y joins mes très humbles remercimens. Je prens aussi la
+      <lb/>Liberté de vous envoyer en même tems les Suites que l’induction m’a fait
+      <lb/>trouver. Je l’applique à la fin au Cas <subst><del><gap/></del><add>p</add></subst>articulier de <abbr>M.<hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-118656503" type="person">Cousin</rs>.
+      <lb/>J’avois d’abord crû, que je pourrois trouver une expression finie de la Suite
+      <lb/><del><gap/></del>qui a lieu dans ce Cas, mais je n’ai pû y reussir. Sans doute, Monsieur<unclear>,</unclear>
+      <lb/>que si ce Probléme est possible, vous étes plus capable que personne de le
+      <lb/>resoudre. Quoi qu’il en soit, je soumets le tout au tribunal infallible de vôtre
+      <lb/>decision. Ajoutés à la grace que vous me ferés d’en juger, celle de vouloir bien
+      <lb/>remettre à la <rs type="person">Servante</rs> vôtre Exemplaire du <rs type="biblio" key="biblio_69NKSR46">livre</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117601020" type="person">de Mont-mort</rs>.
+      <lb/>C’est pour copier les figures qui se raportent <choice><orig>a</orig><reg>à</reg></choice> vos <rs type="letter">lettres</rs> du <date when="1727-06-08">8.<hi rend="sup">e</hi> Juin</date> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> du <date when="1726-10-11">11.<hi rend="sup">e</hi> Octobre</date>.
+      <lb/>Sans elles je ne puis entendre vos excellentes decouvertes sur les Logarithmiques <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>les Tractrices. J’aurai soin de vous le renvoyer ce soir ou demain.</p>
+  <closer>
+ <salute>Je suis avec un
+      <lb/>respect et une estime toutte particuliere
+      <lb/>Monsieur
+      <lb/>Votre tres humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> tres obeissant
+      <lb/>Serviteur
+ </salute>
+ <signed><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs></signed>
+ <dateline><lb/><unclear reason="illegible"><date when="1727-06-09">9. Juin 1727</date></unclear></dateline>
+  </closer>
+<pb facs="1063287" n="2" type="empty"/>
+<pb facs="1063288" n="3"/>
+  <postscript>
+    <p>
+        <lb/>Soit une Suite, dont les 4 premiers termes sont <formula>A</formula>, <formula>B</formula>, <formula>C</formula>, <formula>D</formula>, et les autres sont
+        <lb/>formés par cette Regle generale, que chaque terme est egal a celui qui le precede
+        <lb/>multiplié par <hi rend="u"><formula>m</formula></hi>, plus à celui qui precede celui<choice><orig> </orig><reg>-</reg></choice>là multiplié par <hi rend="u"><formula>n</formula></hi>, plus
+        <lb/>encore Celui qui precede celui<choice><orig> </orig><reg>-</reg></choice>là multiplié par <hi rend="u"><formula>p</formula></hi>, plus enfin le terme qui <del><gap/></del>
+        <lb/>precede multiplié par <hi rend="u"><formula>q</formula></hi>, de sorte que le 5.<hi rend="sup">e</hi> terme soit <formula>mD+nC+pB+qA</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+        <lb/>ainsi des autres, on demande une Expression generale du terme dont l’exposant soit <formula>z</formula>.
+    </p>
+    <p>
+        <lb/>Ce terme est:
+        <lb/>
+        <lb/><choice>
+   <orig>
+    <formula>
+     \begin{array}{r l r l r}
+     D\times &amp; m^{z-4} &amp; &amp; &amp; \\
+     &amp; +m^{z-8}\times\overline{m^{2}n+mp+q} &amp; \;\text{multiplié par}\; &amp; \overline{z-5}+\overline{z-6}+\overline{z-7} &amp; \\
+     &amp; +m^{z-12}\times\overline{m^{2}n+mp+q}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-6\cdot z-7}{1\cdot2}+\cdots+\frac{z-10\cdot z-11}{1\cdot2} &amp; \\
+     &amp; +m^{z-16}\times\overline{m^{2}n+mp+q}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8\cdot z-9}{1\cdot2\cdot3}+\frac{z-8\cdot z-9 \cdot z-10}{1\cdot2\cdot3} &amp; \mathrm{\;\&amp;c.\;Sept\;termes} \\
+     &amp; +m^{z-20}\times\overline{m^{2}n+mp+q}^{4} &amp; \;\text{multiplié par}\; &amp; \frac{z-8\cdot z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3\cdot4}+\frac{z-9\cdot z-10\cdot z-11\cdot z-12}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;\&amp;c.\;Neuf\;termes} \\
+     &amp; \mathrm{\;\&amp;c.} &amp; &amp; &amp; \\
+     \end{array}
+    </formula>
+   </orig>
+   <reg>
+    <formula>
+     \begin{array}{r l r l r}
+     D\cdot &amp; m^{z-4} &amp; &amp; &amp; \\
+     &amp; +m^{z-8}(m^{2}n+mp+q) &amp; \;\text{multiplié par}\; &amp; (z-5)+(z-6)+(z-7) &amp; \\
+     &amp; +m^{z-12}(m^{2}n+mp+q)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-6)(z-7)}{1\cdot2}+\cdots+\frac{(z-10)(z-11)}{1\cdot2} &amp; \\
+     &amp; +m^{z-16}(m^{2}n+mp+q)^{3} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)(z-9)}{1\cdot2\cdot3}+\frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3} &amp; \mathrm{\;etc.\;Sept\;termes} \\
+     &amp; +m^{z-20}(m^{2}n+mp+q)^{4} &amp; \;\text{multiplié par}\; &amp; \frac{(z-8)(z-9)(z-10)(z-11)}{1\cdot2\cdot3\cdot4}+\frac{(z-9)(z-10)(z-11)(z-12)}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;etc.\;Neuf\;termes} \\
+     &amp; \mathrm{\;etc.} &amp; &amp; &amp; \\
+     \end{array}
+    </formula>
+   </reg>
+  </choice>
+        <lb/><choice>
+   <orig>
+    <formula>
+     \begin{array}{r l r l r}
+     C\times &amp; m^{z-7}\times\overline{m^{2}n+mp+q} &amp; &amp; &amp; \\
+     &amp; +m^{z-11}\times\overline{m^{2}n+mp+q}^{2} &amp; \;\text{multiplié par}\; &amp; \overline{z-6}+\overline{z-7}+\overline{z-8}+\overline{z-9}+\overline{z-10} &amp; \\
+     &amp; +m^{z-15}\times\overline{m^{2}n+mp+q}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8}{1\cdot2}+\frac{z-8\cdot z-9}{1\cdot2}+\frac{z-9\cdot z-10}{1\cdot2}+\frac{z-10\cdot z-11}{1\cdot2}+\frac{z-11\cdot z-12}{1\cdot2}+ &amp; \mathrm{\;\&amp;\;7\;termes}\\
+     &amp; +m^{z-19}\times\overline{m^{2}n+mp+q}^{4} &amp; \;\text{multiplié par}\; &amp; \frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3}+ &amp; \mathrm{\;\&amp;c.\;9\;termes}\\
+     &amp; +m^{z-23}\times\overline{m^{2}n+mp+q}^{5} &amp; \;\text{multiplié par}\; &amp; \frac{z-9\cdot z-10\cdot z-11\cdot z-12}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;\&amp;c.\;11\;termes}\\
+     &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </orig>
+   <reg>
+    <formula>
+     \begin{array}{r l r l r}
+     C\cdot &amp; m^{z-7}(m^{2}n+mp+q) &amp; &amp; &amp; \\
+     &amp; +m^{z-11}(m^{2}n+mp+q)^{2} &amp; \;\text{multiplié par}\; &amp; (z-6)+(z-7)+(z-8)+(z-9)+(z-10) &amp; \\
+     &amp; +m^{z-15}(m^{2}n+mp+q)^{3} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-8)(z-9)}{1\cdot2}+\frac{(z-9)(z-10)}{1\cdot2}+\frac{(z-10)(z-11)}{1\cdot2}+\frac{(z-11)(z-12)}{1\cdot2}+ &amp; \mathrm{\;et\;7\;termes}\\
+     &amp; +m^{z-19}(m^{2}n+mp+q)^{4} &amp; \;\text{multiplié par}\; &amp; \frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3}+ &amp; \mathrm{\;etc.\;9\;termes}\\
+     &amp; +m^{z-23}(m^{2}n+mp+q)^{5} &amp; \;\text{multiplié par}\; &amp; \frac{(z-9)(z-10)(z-11)(z-12)}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;etc.\;11\;termes}\\
+     &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </reg>
+  </choice>
+        <lb/><choice>
+   <orig>
+    <formula>
+     \begin{array}{r l r l r}
+     B\times &amp; m^{z-6}\times\overline{mp+q} &amp; &amp; &amp; \\
+     &amp; +m^{z-10}\times\overline{mp+q}\times\overline{m^{2}n+mp+q}^{1} &amp; \;\text{multiplié par}\; &amp; \overline{z-6}+\overline{z-7}+\overline{z-8}+\overline{z-9} &amp; \\
+     &amp; +m^{z-14}\times\overline{mp+q}\times\overline{m^{2}n+mp+q}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8}{1\cdot2}+\frac{z-8\cdot z-9}{1\cdot2}+\frac{z-9\cdot z-10}{1\cdot2}+ &amp; \mathrm{\;\&amp;c.\;6\;termes} \\
+     &amp; +m^{z-18}\times\overline{mp+q}\times\overline{m^{2}n+mp+q}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3}+ &amp; \mathrm{\;\&amp;c.\;8\;termes} \\
+     &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </orig>
+   <reg>
+    <formula>
+     \begin{array}{r l r l r}
+     B\cdot &amp; m^{z-6}(mp+q) &amp; &amp; &amp; \\
+     &amp; +m^{z-10}(mp+q)(m^{2}n+mp+q)^{1} &amp; \;\text{multiplié par}\; &amp; (z-6)+(z-7)+(z-8)+(z-9) &amp; \\
+     &amp; +m^{z-14}(mp+q)(m^{2}n+mp+q)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-8)(z-9)}{1\cdot2}+\frac{(z-9)(z-10)}{1\cdot2}+ &amp; \mathrm{\;et\;6\;termes} \\
+     &amp; +m^{z-18}(mp+q)(m^{2}n+mp+q)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3}+ &amp; \mathrm{\;etc.\;8\;termes} \\
+     &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </reg>
+  </choice>
+        <lb/><choice>
+   <orig>
+    <formula>
+     \begin{array}{r l r l r}
+     A\times &amp; m^{z-5} &amp; &amp; &amp; \\
+     &amp; +m^{z-9}\times\overline{m^{2}n+mp+q} &amp; \;\text{multiplié par}\; &amp; \overline{z-6}+\overline{z-7}+\overline{z-8} &amp; \\
+     &amp; +m^{z-13}\times\overline{m^{2}n+mp+q}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8}{1\cdot2}+\frac{z-8\cdot z-9}{1\cdot2}+\frac{z-9\cdot z-10}{1\cdot2}+\frac{z-10\cdot z-11}{1\cdot2}+\frac{z-11\cdot z-12}{1\cdot2} &amp; \\
+     &amp; +m^{z-17}\times\overline{m^{2}n+mp+q}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3}+ &amp; \mathrm{\;\&amp;c.\;7\;termes} \\
+     &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </orig>
+   <reg>
+    <formula>
+     \begin{array}{r l r l r}
+     A\cdot &amp; m^{z-5} &amp; &amp; &amp; \\
+     &amp; +m^{z-9}(m^{2}n+mp+q) &amp; \;\text{multiplié par}\; &amp; (z-6)+(z-7)+(z-8) &amp; \\
+     &amp; +m^{z-13}(m^{2}n+mp+q)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-8)(z-9)}{1\cdot2}+\frac{(z-9)(z-10)}{1\cdot2}+\frac{(z-10)(z-11)}{1\cdot2}+\frac{(z-11)(z-12)}{1\cdot2} &amp; \\
+     &amp; +m^{z-17}(m^{2}n+mp+q)^{3} &amp; \;\text{multiplié par}\; &amp; \frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3}+ &amp; \mathrm{\;etc.\;7\;termes} \\
+     &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp; \\
+     \end{array}
+    </formula>
+   </reg>
+  </choice>
+        <lb/><abbr>NB.</abbr> que ces mots <hi rend="u"><choice><sic>multiplié</sic><corr>multipliés</corr></choice> par</hi> ne designent pas une multiplication ordinaire, mais
+        <lb/>après avoir elevé <formula>m^{2}n+mp+q</formula> à la puissance indiquée et ayant rangé ses termes selon les dimensions
+        <lb/>de <formula>n+1</formula> (<del><gap/></del><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dans les produits de <formula>B</formula> l’ayant encore multiplié par <formula>mp+q</formula>) le premier terme
+        <lb/>sera multiplié par le premier des coefficiens qui suivent ces mots <hi rend="u">multiplié par</hi>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le 2<hi rend="sup">d</hi> terme
+        <lb/>par le 2.<hi rend="sup">d</hi> coëfficient, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le 3.<hi rend="sup">e</hi> terme par le 3.<hi rend="sup">e</hi> coefficient <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</abbr>.
+<pb facs="1063289" n="4"/>
+        <lb/>Si dans cette Expression on suppose <formula>p</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>A=0</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>z-l=z</formula> par ce que le premier terme
+        <lb/><formula>A</formula> manquant, <formula>mD+nC+pB+qA</formula> (qui deviant <formula>mD+nC+pB</formula>) n’est plus le cinquiéme
+        <lb/>terme mais seulement le quatriéme, alors la <subst><del><gap/></del><add>suite</add></subst> se changera en celle ci
+        <lb/><choice>
+   <orig>
+    <formula>
+     \begin{array}{r l r l r}
+     D \mathrm{\;par\;} &amp; m^{z-3} &amp; &amp; &amp;\\
+     &amp; +m^{z-6}\times\overline{mn+p} &amp; \;\text{multiplié par}\; &amp; \overline{z-4}+\overline{z-5} &amp;\\
+     &amp; +m^{z-9}\times\overline{mn+p}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-5\cdot z-6}{1\cdot2}+\frac{z-6\cdot z-7}{1\cdot2}+\frac{z-7\cdot z-8}{1\cdot2} &amp;\\
+     &amp; +m^{z-12}\times\overline{mn+p}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-6\cdot z-7\cdot z-8}{1\cdot2\cdot3}+\frac{z-7\cdot z-8\cdot z-9}{1\cdot2\cdot3}+\frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3} &amp;\\
+     &amp; +m^{z-15}\times\overline{mn+p}^{4} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;\&amp;c.\;5\;termes}\\
+     &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp;\\
+     \end{array}
+    </formula>
+   </orig>
+   <reg>
+    <formula>
+     \begin{array}{r l r l r}
+     D \mathrm{\;par\;} &amp; m^{z-3} &amp; &amp; &amp;\\
+     &amp; +m^{z-6}(mn+p) &amp; \;\text{multiplié par}\; &amp; (z-4)+(z-5) &amp;\\
+     &amp; +m^{z-9}(mn+p)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-5)(z-6)}{1\cdot2}+\frac{(z-6)(z-7)}{1\cdot2}+\frac{(z-7)(z-8)}{1\cdot2} &amp;\\
+     &amp; +m^{z-12}(mn+p)^{3} &amp; \;\text{multiplié par}\; &amp; \frac{(z-6)(z-7)(z-8)}{1\cdot2\cdot3}+\frac{(z-7)(z-8)(z-9)}{1\cdot2\cdot3}+\frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3} &amp;\\
+     &amp; +m^{z-15}(mn+p)^{4} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)(z-9)(z-10)}{1\cdot2\cdot3\cdot4}+ &amp; \mathrm{\;etc.\;5\;termes}\\
+     &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp;\\
+     \end{array}
+    </formula>
+   </reg>
+  </choice>
+        <lb/><choice>
+     <orig>
+       <formula>
+         \begin{array}{r l r l r}
+         +C \mathrm{\;par\;} &amp; m^{z-5}\times\overline{mn+p} &amp; &amp; &amp;\\
+         &amp; +m^{z-8}\times\overline{mn+p}^{2} &amp; \;\text{multiplié par}\; &amp; \overline{z-5}+\overline{z-6}+\overline{z-7} &amp;\\
+         &amp; +m^{z-11}\times\overline{mn+p}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-6\cdot z-7}{1\cdot2}+\frac{z-7\cdot z-8}{1\cdot2}+\frac{z-7\cdot z-8}{1\cdot2}+\frac{z-8\cdot z-9}{1\cdot2}+\frac{z-9\cdot z-10}{1\cdot2} &amp;\\
+         &amp; +m^{z-14}\times\overline{mn+p}^{4} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8\cdot z-9}{1\cdot2\cdot3}+\frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3} &amp; \mathrm{\;\&amp;c.\;5\;termes.}\\
+         &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp;\\
+         \end{array}
+       </formula>
+     </orig>
+     <reg>
+       <formula>
+         \begin{array}{r l r l r}
+         +C \mathrm{\;par\;} &amp; m^{z-5}(mn+p) &amp; &amp; &amp;\\
+         &amp; +m^{z-8}(mn+p)^{2} &amp; \;\text{multiplié par}\; &amp; (z-5)+(z-6)+(z-7) &amp;\\
+         &amp; +m^{z-11}(mn+p)^{3} &amp; \;\text{multiplié par}\; &amp; \frac{(z-6)(z-7)}{1\cdot2}+\frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-8)(z-9)}{1\cdot2}+\frac{(z-9)(z-10)}{1\cdot2} &amp;\\
+         &amp; +m^{z-14}(mn+p)^{4} &amp; \;\text{multiplié par}\; &amp; \frac{(z-7)(z-8)(z-9)}{1\cdot2\cdot3}+\frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3} &amp; \mathrm{\;etc.\;5\;termes.}\\
+         &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp;\\
+         \end{array}
+       </formula>
+     </reg>
+   </choice>
+        <lb/><choice>
+     <orig>
+       <formula>
+         \begin{array}{r l r l r}
+         + p\mathrm{.}B \mathrm{\;par\;} &amp; m^{z-4} &amp; &amp; &amp;\\
+         &amp; +m^{z-7}\times\overline{mn+p} &amp; \;\text{multiplié par}\; &amp; \overline{z-5}+\overline{z-6}&amp;\\
+         &amp; +m^{z-10}\times\overline{mn+p}^{2} &amp; \;\text{multiplié par}\; &amp; \frac{z-6\cdot z-7}{1\cdot2}+\frac{z-7\cdot z-8}{1\cdot2}+\frac{z-8\cdot z-9}{1\cdot2}&amp;\\
+         &amp; +m^{z-13}\times\overline{mn+p}^{3} &amp; \;\text{multiplié par}\; &amp; \frac{z-7\cdot z-8\cdot z-9}{1\cdot2\cdot3}+\frac{z-8\cdot z-9\cdot z-10}{1\cdot2\cdot3}+\frac{z-9\cdot z-10\cdot z-11}{1\cdot2\cdot3} + &amp; \mathrm{\;\&amp;c.\;4\;t.}\\
+         &amp; \mathrm{\;\&amp;c.} &amp; \mathrm{\;\&amp;c.} &amp; &amp;\\
+         \end{array}
+       </formula>
+     </orig>
+     <reg>
+       <formula>
+         \begin{array}{r l r l r}
+         + p\mathrm{.}B \mathrm{\;par\;} &amp; m^{z-4} &amp; &amp; &amp;\\
+         &amp; +m^{z-7}(mn+p) &amp; \;\text{multiplié par}\; &amp; (z-5)+(z-6)&amp;\\
+         &amp; +m^{z-10}(mn+p)^{2} &amp; \;\text{multiplié par}\; &amp; \frac{(z-6)(z-7)}{1\cdot2}+\frac{(z-7)(z-8)}{1\cdot2}+\frac{(z-8)(z-9)}{1\cdot2}&amp;\\
+         &amp; +m^{z-13}(mn+p)^{3} &amp; \;\text{multiplié par}\; &amp;
+         \frac{(z-7)(z-8)(z-9)}{1\cdot2\cdot3}+\frac{(z-8)(z-9)(z-10)}{1\cdot2\cdot3}+\frac{(z-9)(z-10)(z-11)}{1\cdot2\cdot3} + &amp; \mathrm{\;etc.\;4\;t.}\\
+         &amp; \mathrm{\;etc.} &amp; \mathrm{\;etc.} &amp; &amp;\\
+         \end{array}
+       </formula>
+     </reg>
+   </choice>
+        <lb/>Enfin si dans cette suite on suppose <formula>p</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B=0</formula>, et <formula>z-l=z</formula>, on aura
+        <lb/><choice>
+     <orig>
+       \begin{array}{l}
+       mD \mathrm{\;par\;} m^{z-3}+\overline{z-3}\times m^{z-5}n+\frac{z-4\cdot z-5}{1\cdot2}m^{z-7}n^{2}+\frac{z-5\cdot z-6\cdot z-7}{1\cdot2\cdot3}m^{z-9}n^{2}+\frac{z-6\cdot z-7\cdot z-8\cdot z-9}{1\cdot2\cdot3\cdot4}m^{z-11}n^{3}+\\
+       +nC \mathrm{\;par\;} m^{z-3}+z-4\times m^{z-5}n+\frac{z-5\cdot z-6}{1\cdot2}m^{z-7}n^{2}+\frac{z-5\cdot z-6\cdot z-7}{1\cdot2\cdot3}m^{z-9}m^{2}+ \mathrm{\;\&amp;c.\;}
+       \end{array}
+     </orig>
+     <reg>
+       \begin{array}{l}
+       mD \mathrm{\;par\;} m^{z-3}+(z-3)\times m^{z-5}n+\frac{(z-4)\cdot(z-5)}{1\cdot2}m^{z-7}n^{2}+\frac{(z-5)\cdot(z-6)\cdot(z-7)}{1\cdot2\cdot3}m^{z-9}n^{2}+\frac{(z-6)\cdot(z-7)\cdot(z-8)\cdot(z-9)}{1\cdot2\cdot3\cdot4}m^{z-11}n^{3}+\\
+       +nC \mathrm{\;par\;} m^{z-3}+(z-4)\times m^{z-5}n+\frac{(z-5)\cdot(z-6)}{1\cdot2}m^{z-7}n^{2}+\frac{(z-5)\cdot(z-6)\cdot(z-7)}{1\cdot2\cdot3}m^{z-9}m^{2}+ \mathrm{\;etc.\;}
+       \end{array}
+     </reg>
+   </choice>
+        <lb/>La premiere suite a <formula>\frac{z}{2}</formula> ou <formula>\frac{z-1}{2}</formula> de termes selon que <formula>z</formula> est pair ou impair
+        <lb/>et la seconde en a <formula>\frac{z-1}{2}</formula> ou <formula>\frac{z-2}{2}</formula>, de sorte qu’entre les 2 suites elles ont <formula>z-1</formula> de termes.
+    </p>
+    <p>
+        <lb/><del><gap/></del>
+        <lb/>Si dans cette derniere expression on suppose <formula>m=n=1</formula>, on aura
+        <lb/><choice>
+    <orig>
+      <formula>
+        \begin{array}{l}
+        D \mathrm{\;par\;} \overline{1+\overline{z-3}+\frac{z-4\cdot z-5}{1\cdot2}+\frac{z-5\cdot z-6\cdot z-7}{1\cdot2\cdot3}}+ \mathrm{\;\&amp;c.}\\
+        +C \mathrm{\;par\;} 1+\overline{z-4}+\frac{z-5\cdot z-6}{1\cdot2}+\frac{z-6\cdot z-7\cdot z-8}{1\cdot2\cdot3}+ \mathrm{\;\&amp;c.}\\
+        \end{array}
+      </formula>
+    </orig>
+    <reg>
+      <formula>
+        \begin{array}{l}
+        D \mathrm{\;par\;} \left(1+(z-3)+\frac{(z-4)(z-5)}{1\cdot2}+\frac{(z-5)(z-6)(z-7)}{1\cdot2\cdot3}\right)+ \mathrm{\;etc.}\\
+        +C \mathrm{\;par\;} 1+(z-4)+\frac{(z-5)(z-6)}{1\cdot2}+\frac{(z-6)(z-7)(z-8)}{1\cdot2\cdot3}+ \mathrm{\;etc.}\\
+        \end{array}
+      </formula>
+    </reg>
+ </choice>
+        <lb/>c’est la formule dans le Cas dont parle <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118656503" type="person">Daniel Bernoulli</rs>, mais ceci
+        <lb/>n’est pas opposé <choice><orig>a</orig><reg>à</reg></choice> ce qu’il dit qu’il regarde comme demontré qu’on ne peut
+        <lb/>trouver une expression generale d’un terme quelconque de cette suitte. Car sans
+        <lb/>doute qu’il entend une expression finie, et composée d’un nombre fini de <choice><sic>terme</sic><corr>termes</corr></choice>.
+        <lb/>Pour cet effet il faudroit savoir sommer cette suite <lb/><choice><orig><formula>1+x+\frac{x-1\cdot x-2}{1\cdot2}+\frac{x-2\cdot x-3\cdot x-4}{1\cdot2\cdot3}\mathrm{\;\&amp;c.}</formula></orig><reg><formula>1+x+\frac{(x-1)(x-2)}{1\cdot2}+\frac{(x-2)(x-3)(x-4)}{1\cdot2\cdot3}\mathrm{\;etc.}</formula></reg></choice>
+    </p>
+  </postscript>
+</div>
+</body>
+</text></TEI>

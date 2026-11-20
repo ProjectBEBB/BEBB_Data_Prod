@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xml:id="S_991171243768105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Kurtzentworfener Lebens-Lauff</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <author>
+          <persName key="pers_DE-588-118509969">
+            <surname>Bernoulli</surname>
+            <forename>Johann I</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Transkription<note type="remarkResponsibility">Gesicherte Arbeitsfassung von 2015.</note></resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung<note type="remarkResponsibility">Begonnen; Seiten 1–5 und 12–16.</note></resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung<note type="remarkResponsibility">Seiten 1–16.</note></resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+          <idno type="URLWeb">https://bebb.unibas.ch/related_texts/S_991171243768105501</idno>
+          <idno type="URLXML">https://bebb.unibas.ch/api/document/S_991171243768105501</idno>
+          <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">Die Selbstbiographie berichtet bis zum Jahr 1710; eine spätere Fortsetzung reicht bis 1735.</note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="https://doi.org/10.7891/e-manuscripta-164967">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Archiv Bernoulli III a2, Nr. 1</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991171243768105501</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Heft (60 S.)<dimensions unit="cm"><height>18</height><width>11</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">Autograf Johann I Bernoullis</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date from="1711" to="1748">[zwischen 1711 und 1748]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>Selbstbiographie</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+        <p>Autobiographische Darstellung Johann I Bernoullis bis zum Jahr 1710 mit einer Fortsetzung bis 1735.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-09" who="SG">Seiten 1–16 grundkommentiert; sichere Register- und Werkverknüpfungen ergänzt, offene Identifizierungen als interne Notizen festgehalten.</change>
+        <change when="2026-09-09" who="SG">NER</change>
+        <change when="2026-09-08" who="SG">Kollationieren begonnen (Seiten 1-5 und 12-16)</change>
+        <change when="2026-08-26" who="SG">Maschinelle Transkription mit Digitalisat und gesicherter Zeichenbestand der Arbeitsfassung von 2015.</change>
+        <change when="2026-08-26" who="SG">TEI-Grundgerüst aus den bestätigten Kalliope- und e-manuscripta-Metadaten erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/4326316/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="manuscript" rend="marginalia">
+
+
+
+
+
+
+
+         <pb facs="4326317" type="archival"/>
+        <pb facs="4326318" type="archival"/>
+        <pb facs="4326319" type="archival"/>
+        <pb facs="4326320" type="archival"/>
+
+
+        <pb facs="4326321" n="1"/>
+        <p>
+          <note place="margin"><date when="1667"><supplied>166</supplied>7</date></note>
+          <lb/><date when="1667-07-27"><hi rend="u"><abbr>d.</abbr> 27 Juli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <abbr>St. v.</abbr></hi></date> Sambstags <formula>\frac{1}{4}</formula> nach
+          <lb/>11 Uhren vor mittag in dem zeichen
+          <lb/>der fischen, bin ich <rs key="pers_DE-588-118509969" type="person">Johannes Ber<pc type="hyphenation">-</pc><lb break="no"/>noull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> allhier zu <rs key="place_GEO-2661604" type="place">Basel</rs> an das
+          <lb/>liecht dieser Welt gebohren und
+          <lb/>allso die Zahl der Sündern, denen
+          <lb/>Gott gnädig se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n wolle, vermehrt.
+        </p>
+        <p>
+          <lb/>Mein Vatter ist gewesen <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-1089913281" type="person">Ni<pc type="hyphenation">-</pc><lb break="no"/>colaus Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> deß Grossen Rahts
+          <lb/>und Stattgerichts wie auch be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sitzer
+          <lb/>an der Rechenka<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er; Ein Sohn
+          <lb/><choice><abbr>H</abbr><expan>Herrn</expan></choice> <rs type="person" key="pers_DE-588-1210111705">Jacobi Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> und <abbr>Fr.</abbr>
+          <lb/><rs type="person">M<unclear reason="lost">ar</unclear>i<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Fre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>in</rs>.
+
+        </p>
+        <p>
+          <lb/>Meine Mutter war <abbr>Fr.</abbr> <rs type="person" key="pers_DE-588-130536431">Mar<pc type="hyphenation">-</pc><lb break="no"/>garetha Schönawerin</rs>, Eine Tochter
+          <lb/>Heeren <rs type="person" key="pers_DE-588-124755232">Emanuel Schonawers</rs> und
+          <lb/><abbr>Fr.</abbr> <rs type="person" key="pers_DE-588-1308179367">Gertrud Herwagins</rs>.
+        </p>
+        <p>
+          <lb/><date when="1667-07-30"><abbr>d.</abbr> 30 <abbr>ejusd.</abbr></date> Zinstags bin ich in dem
+          <lb/><rs type="place" key="place_WEI-basmuen">Münster</rs> durch <abbr>H<supplied>.</supplied></abbr> <abbr>M.</abbr> <rs type="person" key="pers_DE-588-117433160">Theodor
+          <lb/>Wolleb</rs> getauffet und allso ein
+          <lb/>Mittglied der Kirchen Christi
+          <lb/>auff und angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en worden,
+          <lb/>laß mich d<unclear reason="illegible">a</unclear>n <choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> Herr nicht wie<pc type="hyphenation">-</pc><lb break="no"/>der von dir getrennet werden!
+        </p>
+        <fw type="catch" place="bottom">Meine</fw>
+        <pb facs="4326322" n="2"/>
+
+        <p>
+          <lb/>Meine Gött<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> waren <abbr>H<supplied>.</supplied></abbr> <rs type="person">Hanß Geörg
+          <lb/>Ochß</rs>, <abbr>H<supplied>.</supplied></abbr> <rs type="person">Johannes Millot</rs> mein Oncle,
+          <lb/>und <abbr>Fr.</abbr> <rs type="person" key="pers_DE-588-1164114107">Margreth Sarrasin</rs><supplied>,</supplied> Herren
+          <lb/><rs type="person" key="pers_DE-588-1213674530">Achillis Wertenmans</rs> haußfraw.
+
+        </p>
+        <p>
+          <lb/>In dem 6.<hi rend="sup">ten</hi> jahr meines alters
+          <lb/>hatt mich mein Vatter <abbr>sel.</abbr> in das
+          <lb/><rs type="organisation" key="org_resource_000006">Gymnasium</rs> alhier auff burg ge<pc type="hyphenation">-</pc><lb break="no"/>nandt, geschicket; und bin ich das
+          <lb/>erste mahl auß der ersten und
+          <lb/>understen Class in die andere promo<pc type="hyphenation">-</pc><lb break="no"/>virt worden in der herbstpromo<pc type="hyphenation">-</pc><lb break="no"/>tion des jahrs <date when="1673">1673</date>. Darnach hab
+          <lb/>ich alle übrigen und allso zusa<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+          <lb/>die 10 Classes in 10 jahren durch<pc type="hyphenation">-</pc><lb break="no"/>loffen.
+        </p>
+        <p>
+          <note place="margin"><date when="1682">1682</date></note>
+          <lb/><date when="1682-09-05"><abbr>d.</abbr> 5. <abbr>7<hi rend="sup">bris</hi></abbr></date> bin ich <foreign xml:lang="lat">ad Lectiones publi<pc type="hyphenation">-</pc><lb break="no"/>cas</foreign> promovirt, und des folgen<pc type="hyphenation">-</pc><lb break="no"/>den tags hab ich <foreign xml:lang="lat">sub Decanatu <abbr>Phil.</abbr>
+          <lb/><abbr>D.D.</abbr> <rs key="pers_DE-588-100159567" type="person">Joh. Jacobi Harderi</rs> per solen<pc type="hyphenation">-</pc><lb break="no"/>nem Depositionem</foreign> das recht eines
+          <lb/><foreign xml:lang="lat">Studiosi <abbr>Phil.</abbr></foreign> empfangen, und bin
+          <lb/>darauff be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> <abbr>H<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-102103356">Nicolao Passavant</rs>
+          <lb/><foreign xml:lang="lat"><abbr>J.U.D<supplied>.</supplied></abbr></foreign> als damahligen <foreign xml:lang="lat"><abbr>Rect. Magn.</abbr></foreign> für
+          <lb/>ein <foreign xml:lang="lat">Civis Academicus</foreign> i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>atriculirt worden.
+        </p>
+        <fw type="catch" place="bottom">Kurtz</fw>
+        <pb facs="4326323" n="3"/>
+
+        <p>
+          <note place="margin"><date when="1682">1682.</date></note>
+          <lb/>Kurtz hernach bin ich nach <rs key="place_GEO-2659496" type="place">Welsch<pc type="hyphenation">-</pc><lb break="no"/>newenburg</rs> versandt worden;
+          <lb/>theils umb die frantzösische sprach<supplied>,</supplied>
+          <lb/>theils umb die Specere<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> hand<pc type="hyphenation">-</pc><lb break="no"/>lung be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> <abbr>H<supplied>.</supplied></abbr> <rs type="person">Blaise Rosselet</rs> zu
+
+          <lb/>erlehrne<del><gap/></del><add>n</add>; ich ware aber von Gott<del><gap/></del>
+          <lb/>dem Herren zu etwaß anders
+          <lb/>destinirt, sintemahlen ich nach
+          <lb/>Verbleibung eines jahrs, widrumb
+          <lb/>zu <rs key="place_GEO-2661604" type="place">Basel</rs> anko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und mich zu
+          <lb/>den Studien begeben under manu<pc type="hyphenation">-</pc><lb break="no"/>duction <abbr>D.D.</abbr> <rs type="person" key="pers_DE-588-100704514">Joh. Rod. Wetsteni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>;
+          <lb/>und hatt der gütige Gott die<pc type="hyphenation">-</pc><lb break="no"/>selbigen dergestallten gesegnet,
+          <lb/>daß ich ungeacht einer fast
+          <lb/>jährigen versaumnuß, dennoch
+          <lb/>mit meinen <foreign xml:lang="lat">Condiscipulis</foreign> be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>de
+          <lb/><foreign xml:lang="lat">gradus <abbr>Phil.</abbr></foreign> erlanget, und zwar
+          <lb/>den <foreign xml:lang="lat">gradum prim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Laure<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> in dem jahr
+          <lb/><note place="margin"><date when="1684">1684</date></note><date when="1684-06-10"><hi rend="u"><abbr>d.</abbr> 10. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> <foreign xml:lang="lat">Promotore <abbr>D.D<supplied>.</supplied></abbr> <rs key="pers_DE-588-128552018" type="person">Nicolao
+          <lb/>Eglingero</rs></foreign><choice><orig>,</orig><reg>;</reg></choice> mein <foreign xml:lang="lat">thema promotionis</foreign>,
+          <lb/>welches ich in einem <foreign xml:lang="lat">carmine Latino</foreign>
+          <lb/>concipirt, ware <rs type="biblio"><foreign xml:lang="lat"><hi rend="u">De Igne Lambente</hi></foreign></rs>.
+
+        </p>
+        <fw type="catch" place="bottom"><hi rend="u"><abbr>d.</abbr> 8. <abbr>Xbris</abbr></hi></fw>
+        <pb facs="4326324" n="4"/>
+
+        <p>
+          <note place="margin"><date when="1685">1685.</date></note>
+          <lb/><date when="1685-12-08"><hi rend="u"><abbr>d.</abbr> 8. <abbr>Xbris</abbr></hi></date> ward ich zum <foreign xml:lang="lat">Ma<pc type="hyphenation">-</pc><lb break="no"/>gistro artium</foreign> creirt <foreign xml:lang="lat">Promotore
+          <lb/>eodem</foreign>; Mein thema, welches ich
+          <lb/>in einem <foreign xml:lang="lat">Carmine Graeco</foreign> compo<pc type="hyphenation">-</pc><lb break="no"/>nirt, ware <rs type="biblio"><foreign xml:lang="lat">Principem esse propter
+          <lb/>Subditos</foreign></rs>.
+
+        </p>
+        <p>
+          <lb/>Mein principal Studium nach
+          <lb/>erlangten <foreign xml:lang="lat">gradibus <abbr>Phil.</abbr></foreign> sollte
+          <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n das <foreign xml:lang="lat">Studium Medicum</foreign>, da<pc type="hyphenation">-</pc><lb break="no"/>rin ich mich so viel als die mir
+          <lb/>von meinem Vatter <abbr>sel.</abbr> suppeditir<pc type="hyphenation">-</pc><lb break="no"/>ten sparsamen <foreign xml:lang="lat">subsidia</foreign> zugelaßen<supplied>,</supplied>
+          <lb/>nach vermögen exercirt; habe auch
+          <lb/>in meinem <foreign xml:lang="lat">Tyrocinio</foreign> deßen
+          <lb/>ein <foreign xml:lang="lat">specimen</foreign> außgehen lassen
+          <lb/>durch eine öffentliche Disputa<pc type="hyphenation">-</pc><lb break="no"/>tion <rs type="biblio" key="biblio_W6BHQDM2"><foreign xml:lang="lat"><hi rend="u">De Effervescentia et Fer<pc type="hyphenation">-</pc><lb break="no"/>mentatione</hi></foreign></rs>, welche ich gehalten
+          <lb/>habe <note place="margin"><date when="1690">1690</date></note><date when="1690-09-19"><abbr>d.</abbr> 19. <abbr>7<hi rend="sup">bris</hi></abbr></date> <foreign xml:lang="lat">sub <abbr>Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s.</abbr> <abbr>D.D.</abbr> <rs key="pers_DE-588-128552018" type="person">Ni<pc type="hyphenation">-</pc><lb break="no"/>colai Eglingeri</rs></foreign>.
+        </p>
+        <p>
+          <lb/>In zwischen hab ich mich auff die
+          <lb/>Mathesin geleget, darzu ich einen
+          <lb/>sonderbahren lust be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> mir ver<pc type="hyphenation">-</pc><lb break="no"/>spühret; welches mir dan nicht übel
+          <lb/>gelungen, zumahlen ich darin durch
+        </p>
+        <fw type="catch" place="bottom"><abbr>Göttlichen</abbr></fw>
+        <pb facs="4326325" n="5"/>
+
+        <p>
+          <lb/>Göttlichen be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>stand zimliche fun<pc type="hyphenation">-</pc><lb break="no"/>damenta geleget, wie ich es her<pc type="hyphenation">-</pc><lb break="no"/>nachmahls durch underschiedliche Er<pc type="hyphenation">-</pc><lb break="no"/>findungen und probstücken hin<pc type="hyphenation">-</pc><lb break="no"/>und wider an tag gegeben, welche
+          <lb/>jeweilen von den gelehrtisten mathe<pc type="hyphenation">-</pc><lb break="no"/>maticis (vielleicht über meriten)
+          <lb/>seind <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimirt worden: deren
+          <lb/>eines das erste in den <rs type="biblio" key="biblio_X5R4Z82E">Actis <abbr>Lips.</abbr></rs>
+          <lb/><foreign xml:lang="lat">anni 1691. m. Junio<choice><orig>.</orig><reg type="deleted"></reg></choice></foreign> zu sehen, in sich
+          <lb/>haltend meine <rs type="biblio" key="biblio_X5R4Z82E">Solutionem pro<pc type="hyphenation">-</pc><lb break="no"/>blematis catenarii publice pro<pc type="hyphenation">-</pc><lb break="no"/>po<unclear reason="lost">siti</unclear></rs>, so damahls neben mir
+          <lb/>niemand solviert hatte als
+          <lb/>nur die <abbr>HH<supplied>.</supplied></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> und <rs key="pers_DE-588-118639749" type="person">Hu<pc type="hyphenation">-</pc><lb break="no"/>gens</rs>, nach dem zuvor mein
+          <lb/><abbr>br.</abbr> <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118509950" type="person">Jacobus Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> <abbr>sel.</abbr> sich
+          <lb/>mit dessen solution zu finden
+          <lb/>lang vergeblich macerirt und
+          <lb/>bemühet; welches zwar nicht
+          <lb/>sage seine<del>n</del><add>r</add> schönen Wüssenschafft
+          <lb/>etwaß zu derogiren, oder mich
+          <lb/>zu überheben, dan ich erkenne
+          <lb/>meine schwachheit und die gaab
+          <lb/>Gottes, welcher die talenta außtheilt,
+          <lb/>welchem und in was maß Er will.
+
+        </p>
+        <fw type="catch" place="bottom"><hi rend="u"><abbr>d.</abbr> 21. <abbr>Xbris</abbr></hi></fw>
+        <pb facs="4326326" n="6"/>
+
+        <p>
+          <note place="margin"><date when="1690">1690<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date></note>
+          <lb/><date when="1690-12-21"><hi rend="u"><abbr>d.</abbr> 21. <abbr>Xbris</abbr></hi></date> bin ich von <rs key="place_GEO-2661604" type="place">Basel</rs> ver<pc type="hyphenation">-</pc><lb break="no"/>re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>set, und den <date when="1690-12-26">26. <abbr>dito</abbr></date> zu <rs key="place_GEO-2660646" type="place">Genff</rs>
+          <lb/>angelanget; auff dieser re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß
+          <lb/>namlich zwischen <rs key="place_GEO-2659422" type="place">Nion</rs> und <rs key="place_GEO-2661124" type="place">Copet</rs>
+          <lb/>an dem <rs key="place_GEW-genfse" type="place">Genffer See</rs> hab ich
+          <lb/>mit dem Pferd einen sehr gefähr<pc type="hyphenation">-</pc><lb break="no"/>lichen fal gethan; in dem dassel<pc type="hyphenation">-</pc><lb break="no"/>bige be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> schon anbrechender nacht
+          <lb/>einen zimlich hohen rä<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n hinun<pc type="hyphenation">-</pc><lb break="no"/>der auff das uffer des Sees
+          <lb/>mit mir plötzlich gestürtzet;
+          <lb/>Es hatt mich aber Gott <unclear reason="illegible">der</unclear> Herr
+          <lb/>auff eine wunderliche w<unclear reason="lost">eiß</unclear> be<pc type="hyphenation">-</pc><lb break="no"/>hütet, daß weder mir noch dem
+          <lb/>pferd der geringste schade nicht
+          <lb/>widerfahren ist; wie ich dan mei<pc type="hyphenation">-</pc><lb break="no"/>nem Schöpfer<supplied>,</supplied> der in einer so
+          <lb/>augenscheinlicher lebensgefahr
+          <lb/>mein Retter gewesen, alle tag in
+          <lb/>meinem gebett hertzi<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>iglich dan<pc type="hyphenation">-</pc><lb break="no"/>cke, und Ihne fur diese und an<pc type="hyphenation">-</pc><lb break="no"/>dere Vielfältige mir erwiesene
+          <lb/>Gnad<del> dancke</del>, lobe und pre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>se.
+        </p>
+        <p>
+          <lb/>Nach dem ich mich etwaß wenigers
+          <lb/>als ein jahr zu <rs key="place_GEO-2660646" type="place">Genff</rs> auffgehalten,
+        </p>
+        <fw type="catch" place="bottom">allwo</fw>
+        <pb facs="4326327" n="7"/>
+
+        <p>
+          <lb/>allwo ich mit einigen gelehrten kund<pc type="hyphenation">-</pc><lb break="no"/>schafft gemacht, sonderlich mit <abbr>H<supplied>.</supplied></abbr>
+          <lb/><rs key="pers_DE-588-103763058" type="person">J. Christoph Fatio De Duillier</rs>
+          <lb/>wohl bestellten Ingenieur zu <rs key="place_GEO-2660646" type="place">Genff</rs>,
+          <lb/>welcher sich meiner Information in
+          <lb/><foreign xml:lang="lat">Mathesi profundiori</foreign> mit gutem
+          <lb/><foreign xml:lang="lat">succes</foreign> und seinem grossen vergnügen
+          <lb/>bedienet, wie es dan seine an mich ab<pc type="hyphenation">-</pc><lb break="no"/>gelaßene vielfältige <rs type="letter">Schreiben</rs> solches
+
+          <lb/>klärlich erweisen: bin ich in dem
+          <lb/><note place="margin"><date when="1691">1691</date></note>monat <abbr>IXbris</abbr> <date when="1691">1691<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> in Gottes na<pc type="hyphenation">-</pc><lb break="no"/>m<unclear reason="lost">en</unclear> naher <rs key="place_GEO-2996944" type="place">Lion</rs> mit der <foreign xml:lang="fre">Chasse<pc type="hyphenation">-</pc><lb break="no"/>marée</foreign>, und von dannen theils zu
+          <lb/>wasser theils zu land naher
+          <lb/><rs key="place_GEO-2988507" type="place">Paris</rs> verre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>set und allda glück<pc type="hyphenation">-</pc><lb break="no"/>lich angelanget.
+        </p>
+        <p>
+          <lb/>In dieser Weltberühmten Statt,
+          <lb/>hab ich mich be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> vielen berühmten
+          <lb/>und Gelehrten Leüten, sonderlich
+          <lb/>be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> den <foreign xml:lang="lat">Philosophis</foreign> und <foreign xml:lang="lat">Mathema<pc type="hyphenation">-</pc><lb break="no"/>ticis</foreign> in eine nicht geringe Repu<pc type="hyphenation">-</pc><lb break="no"/>tation gesetzet: Zu mahlen der
+          <lb/>under andern hoch<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimirt<subst><del>en</del><add>e</add></subst> und
+          <lb/>fürtreffliche Mathematicus <abbr>H<supplied>.</supplied></abbr> Mar<pc type="hyphenation">-</pc>
+        </p>
+        <fw type="catch" place="bottom">quis</fw>
+        <pb facs="4326328" n="8"/>
+
+        <p>
+          <lb break="no"/>quis <rs key="pers_DE-588-100814891" type="person">de l'Hopital</rs> auß dem uhralten
+          <lb/>und durchläuchtigen Geschlecht der
+          <lb/>Hospitaliern, welcher obschon in <foreign xml:lang="lat">ordi<pc type="hyphenation">-</pc><lb break="no"/>naria Geometria</foreign> mit ungemeiner
+          <lb/>wüssenschafft begabet und es damahls
+          <lb/>allen Frantzösischen <foreign xml:lang="lat">Mathematicis</foreign> zu<pc type="hyphenation">-</pc><lb break="no"/>vor thate, mich dennoch so vil ge<pc type="hyphenation">-</pc><lb break="no"/>würdiget, daß Er von mir zu lehr<pc type="hyphenation">-</pc><lb break="no"/>nen und in <foreign xml:lang="lat">profundiori Mathesi</foreign><supplied>,</supplied>
+          <lb/>absonderlich in unsrem <foreign xml:lang="lat">Calculo dif<pc type="hyphenation">-</pc><lb break="no"/>ferentiali und integrali</foreign> (welcher zu
+          <lb/>der zeit in <rs key="place_VER-frankr" type="place">Franckreich</rs> gantz unbe<pc type="hyphenation">-</pc><lb break="no"/>kandt, biß ich denselben zuerst
+          <lb/>dahin gebracht und <foreign xml:lang="fre">en vogue</foreign> gesetzet
+          <lb/>hab) sich meiner instruction zu
+          <lb/>underwerffen sich nicht geschämet
+          <lb/>hatt; da ich<del> Ihme</del> dan die zeit
+          <lb/>meines verbleibens ihme alle 2 tag
+          <lb/>eine Lection concipirt und in
+          <lb/><foreign xml:lang="lat">scripto</foreign> überlüffert, nach meiner
+          <lb/>abre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>s aber durch brieffwechsel
+          <lb/>continuirt hab; auß diesen meinen
+
+          <lb/>Lectionen hatt Er nach der hand, das
+          <lb break="no"/>jenige buch under dem Titul, <rs type="biblio" key="biblio_6EAMFGYN"><title level="m">Ana<pc type="hyphenation">-</pc></title></rs>
+        </p>
+        <fw type="catch" place="bottom">lyse</fw>
+        <pb facs="4326329" n="9"/>
+
+        <p>
+          <lb break="no"/><rs type="biblio" key="biblio_6EAMFGYN"><title level="m">lyse des infiniment petis pour l'intel<pc type="hyphenation">-</pc><lb break="no"/>ligence des Lignes courbes</title></rs> zusa<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+          <lb/>gezogen und an Tag gegeben, welches
+          <lb/>Er dan in der Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>fation zur genüge
+          <lb/>erkennet.
+        </p>
+        <p>
+          <lb/>Wie viel satisfaction Er der <abbr>H<supplied>.</supplied></abbr>
+          <lb/>Marquis auß meiner Information
+          <lb/>geschöpfet, erhellet theils darauß, daß
+          <lb/>neben andern vielfältigen Zeichen der
+          <lb/>wohlgewogenheit, Er mir die Ehr an<pc type="hyphenation">-</pc><lb break="no"/>gethan mich in seinen Carosse mit zu
+          <lb/>ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, da wir neben seiner <rs type="person" key="pers_DE-588-1089921616">Fraw
+          <lb/>Gemahlin nach seiner <foreign xml:lang="fre">Seigneurie</foreign>
+          </rs><lb/>genandt <rs type="place" key="place_GEO-2989065">Ouques</rs> nicht weit von <rs key="place_GEO-3032213" type="place">Blois</rs>
+          <lb/>gereiset und allda den Sommer durch
+          <lb/>passirt: Ja so gar auch mich mit
+          <lb/>einer jährlichen pension von 400 <foreign xml:lang="fre">livres</foreign>
+          <lb/>beehret, welche ich schier biß zu sei<pc type="hyphenation">-</pc><lb break="no"/>nem tod genossen.
+        </p>
+        <p>
+          <note place="margin"><date when="1692">1692</date></note>
+          <lb/>In dem monat Novemb. bin ich mit
+          <lb/>der Langres Kutschen von <rs key="place_GEO-2988507" type="place">Paris</rs> ver<pc type="hyphenation">-</pc><lb break="no"/>re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ßt, von <rs key="place_GEO-3007680" type="place">Langres</rs> aber zu Pferd da
+          <lb/>ich wider gleich vor der Statt ein ge<pc type="hyphenation">-</pc><lb break="no"/>fährliches unglück gehabt, welches aber
+          <lb/>doch Gottlob ohne schaden ist abgeloffen;
+        </p>
+        <fw type="catch" place="bottom">In Wäh<pc type="hyphenation">-</pc></fw>
+        <pb facs="4326330" n="10"/>
+
+        <p>
+          <note place="margin"><date when="1692">1692</date></note>
+          <lb/>In währender Baselmäß, bin ich
+          <lb/>alhier zu <rs key="place_GEO-2661604" type="place">Basel</rs> von meiner Re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß
+          <lb/>in guter gesundheit wider ange<pc type="hyphenation">-</pc><lb break="no"/>langt, Gott se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e für seine gnä<pc type="hyphenation">-</pc><lb break="no"/>dige erhaltung gedancket!
+        </p>
+        <p>
+          <note place="margin"><date when="1693">1693</date></note>
+          <lb/>In dem folgenden jahr <date when="1693">1693</date>, sollte
+          <lb/>ich nacher <rs type="place" key="place_GEO-2806914">Wolfenbutel</rs> beruffen werden
+          <lb/>auff verordnung Ihro <abbr>Drlcht.</abbr> des
+          <lb/>Hertzogs <rs type="person" key="pers_DE-588-118503472">Antonii Ulrici</rs>, umb allda
+
+          <lb/>die <foreign xml:lang="lat">mathemata</foreign> zu dociren; Es ist
+          <lb/>aber durch Gottes allweise Für<pc type="hyphenation">-</pc><lb break="no"/>sehung diese vocation underbrochen,
+          <lb/>in dem ich mich zu selber zeit durch
+          <lb/>Göttliche Schickung in eine Eheliche
+          <lb/>Verlobnuß eingelassen mit meiner
+          <lb/>nun mehro geliebten Haußfrawen <rs key="pers_DE-588-108991332X" type="person">Doro<pc type="hyphenation">-</pc><lb break="no"/>thea Falcknerin</rs>, Herrn <rs key="pers_DE-588-1123089604" type="person">Daniel Falck<pc type="hyphenation">-</pc><lb break="no"/>ners</rs> des Rahts und Deputaten der
+          <lb/>Kirchen und Schulen alhier, und Frawen
+          <lb/><rs key="pers_DE-588-1161857710" type="person">Ann<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Catherin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Königin</rs> Ehlichen Tochter,
+          <lb/><note place="margin"><date when="1694">1694</date></note>Mit deren ich darauff den <date when="1694-03-26">26. Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+          <lb/>1694</date> alhier zu <rs type="place" key="place_GEO-12489657">St. Peter</rs> durch <abbr>H<supplied>.</supplied></abbr>
+          <lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-129808253">Seylern</rs> <foreign xml:lang="lat">Diaconum</foreign> daselbsten solen<pc type="hyphenation">-</pc>
+
+          <lb break="no"/>niter copulirt worden, und biß jetzund
+          <lb/>in frid und ruh <add>samt gutem wohlstand</add> (außgenommen einige
+          <lb/>Züchtigungen, mit denen unß Gott
+        </p>
+
+        <note>
+          <lb/><metamark>#</metamark> <date when="1693-11-27"><abbr>A.o</abbr> 1693. <abbr>d.</abbr> 27. Novemb.</date> hab ich <foreign xml:lang="lat">pro va<lb break="no"/>cante Professione Logica</foreign> publice disputirt, und 3 Tag zuvor das
+          <lb/><rs type="biblio" key="biblio_4F3SCJ99"><foreign xml:lang="lat">specimen Lectionis</foreign></rs> gehalten.
+
+        </note>
+        <pb facs="4326331" n="11"/>
+
+        <p>
+          <lb/>zu weilen heimgesuchet) und viel<pc type="hyphenation">-</pc><lb break="no"/>fältigem segen, darfür Gott gedancket
+          <lb/>seye, albere<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t 17 jahr gelebet; der
+          <lb/>Allerhöchste gebe daß wir die je<pc type="hyphenation">-</pc><lb break="no"/>nige Zeit die Er unß be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>samen zu
+          <lb/>leben bestimmet hatt, gleichfals in frid
+          <lb/>und einigkeit und nach seinem <abbr>göttl.</abbr>
+          <lb/>Willen zu bringen mögen.
+        </p>
+        <p>
+          <note place="margin"><date when="1694">1694</date></note>
+          <lb/>In eben diesem jahr kurtz vor unsrer
+          <lb/>hohzeit, namlich den <date when="1694-03-16">16. Martii</date> hab
+          <lb/>ich <foreign xml:lang="lat">pro gradu Doctoratus in Medicina</foreign>
+          <lb/>publice disputirt <rs type="biblio" key="biblio_I2Z37CBH"><title level="a"><foreign xml:lang="lat">De Motu Musculorum</foreign></title></rs>,
+          <lb/>und ist meine Disputation an frembden
+          <lb/>orten wo sie hinkommen zimlich wohl auff<pc type="hyphenation">-</pc><lb break="no"/>genommen, so gar daß auch die <abbr>HH.</abbr> Colle<pc type="hyphenation">-</pc><lb break="no"/>ctores <title level="j"><abbr>Actorum Lips.</abbr></title> dieselbige schier von
+
+          <lb/>wort zu wort ihren Actis zu inseriren
+          <lb/>und ein zu verleiben gewürdiget haben.
+          <lb/>Den folgenden Dienstag nach gehaltener
+          <lb/>Disputation, als den <date when="1694-03-20">20 Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> hab ich
+          <lb/>den <foreign xml:lang="lat">Gradum Doctoralem</foreign> solenniter
+          <lb/>angenommen <foreign xml:lang="lat">Promotore <rs type="person" key="pers_DE-588-122548647">Jacobo Rot</rs>
+          <lb/><abbr>Med. D.</abbr> et <abbr>Prof. Facult. med.</abbr> tum temporis
+          <lb/>Decano</foreign>: mein <foreign xml:lang="lat">Thema Orationis</foreign> ware
+          <lb/><rs type="biblio"><title level="a"><foreign xml:lang="lat">De Origine et Dignitate Medicin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et una
+          <lb/>De Utilitate Matheseos ad Studium me<pc type="hyphenation">-</pc><lb break="no"/>dicum</foreign></title></rs>. Anfangs dieses jahrs namlich
+
+          <lb/><date when="1694-01-06"><abbr>d.</abbr> 6. Januari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> bin ich von unsern <abbr>Gnäd.</abbr> <abbr>HH.</abbr> zu
+
+          <lb/>einem Ingenieur angestellet worden.
+        </p>
+        <fw type="catch" place="bottom"><hi rend="u"><abbr>d.</abbr> 27. Jan.</hi></fw>
+        <pb facs="4326332" n="12"/>
+
+        <p>
+          <lb/><note place="margin"><date when="1695">1695</date></note>
+          <date when="1695-01-27"><hi rend="u"><abbr>d.</abbr> 27. Januari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1695</hi></date> Sontag morgens
+          <lb/>zwischen 9 und 10 uhr hatt unß Gott
+          <lb/>der herr erfrewet mit unsrem
+          <lb/>erstgebohrnen Sohn, welcher darauff
+          <lb/>den <date when="1695-01-29">29. dito</date> durch <abbr>H<supplied>.</supplied></abbr> <abbr>PfH<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-116082356">Battieren</rs>
+          <lb/>alhier in dem <rs type="place" key="place_WEI-basmuen">Münster</rs> mit dem
+          <lb/>na<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en <rs key="pers_DE-588-117589144" type="person">Nicolao</rs> ist<del><gap/></del> getauffet
+          <lb/>worden. <choice><orig>die</orig><reg>Die</reg></choice> Tauffgezeügen waren
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-1165238829" type="person">Leonhard Respinger</rs>, <abbr>H<supplied>.</supplied></abbr> <rs type="person">Jacob
+          <lb/>Gürtler</rs> be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>de deß Rahts und <abbr>Fr.</abbr>
+
+          <lb/>...... <rs type="person">Forckhardin gebohrne R<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>h<pc type="hyphenation">-</pc><lb break="no"/>nerin</rs>; der barmhertzige Gott
+
+          <lb/>wolle Ihme unsrem Sohne seinen
+          <lb/>guten Ge<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>st verle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>hen, daß Er
+          <lb/>ein kind der Seligkeit werde!
+        </p>
+        <p>
+          <lb/>In <date>diesem jahr</date> bin ich durch ein
+          <lb/><rs type="letter">Missive</rs> von den <abbr>HH<supplied>.</supplied></abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatoren der
+          <lb/>Provincialen Academie</rs> zu <rs key="place_GEO-2755251" type="place">Groningen</rs>
+
+          <lb/><foreign xml:lang="lat">de dato</foreign> <date when="1695-07-04">4. Juli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1695.</date> gantz freünd<pc type="hyphenation">-</pc><lb break="no"/>lich ersucht und invitirt worden, die
+          <lb/><foreign xml:lang="lat">Professionem Matheseos</foreign> in Ihrer <rs type="organisation" key="org_DE-588-36948-2">Uni<pc type="hyphenation">-</pc><lb break="no"/>versitet</rs> mit einem jährlichen sala<pc type="hyphenation">-</pc><lb break="no"/>rio von 1250 <abbr>fl</abbr> holländi<unclear reason="illegible">scher</unclear>, oder
+          <lb/>500 <abbr>rh</abbr> <foreign xml:lang="lat">species</foreign> an zu nehmen; welche
+          <lb/>so ehrliche und mir von Gott zu ge<pc type="hyphenation">-</pc>
+        </p>
+        <fw type="catch" place="bottom">schickte</fw>
+        <pb facs="4326333" n="13"/>
+
+        <p>
+          <lb break="no"/>schickte vocation ich auch angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en;
+          <lb/>habe mich dan nach deme <add>ich</add> <rs type="person" key="pers_DE-588-108991332X">meine Fraw</rs>
+          <lb/>nicht ohne müh darzu persuadirt, zu
+          <lb/>einer so fernen re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß, gerüstet;
+          <lb/>welche ich dan gleich darauff, namlich
+          <lb/><note place="margin"><date when="1695">1695</date></note><date when="1695-09-01"><hi rend="u"><abbr>d.</abbr> 1. <abbr>Septemb.</abbr> 1695<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></hi></date> mit <rs type="person" key="pers_DE-588-108991332X">Weib</rs> und
+          <lb/><rs type="person" key="pers_DE-588-117589144">Kind</rs> samt einer <rs type="person">Magd</rs>, under Gottes
+
+          <lb/>gele<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t angetretten, und seind mit hie<pc type="hyphenation">-</pc><lb break="no"/>sigem, frantzösischem, und Teütschem
+          <lb/>von Ihr <abbr>Dht.</abbr> Printz <rs type="person" key="pers_DE-588-118729500">Louis</rs> underschriebenem
+
+          <lb/>Paß versehen, in der Kutschen biß
+          <lb/><rs key="place_GEO-2925533" type="place">Franckfurt</rs> geko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, underwegen
+          <lb/>mitten durch die Teütsche <foreign xml:lang="fre">armée</foreign>
+          <lb/>marchirt; Von <rs key="place_GEO-2925533" type="place">Franckfurt</rs> auß
+          <lb/>seind wir zu wasser biß <rs key="place_GEO-2759794" type="place">Amsterdam</rs>
+          <lb/>außgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en von <rs key="place_GEO-2750053" type="place">Nimeguen</rs> auff
+          <lb/><rs key="place_GEO-2745912" type="place">Utrecht</rs> in einem Kutschwagen, <del><gap/></del>ge<pc type="hyphenation">-</pc><lb break="no"/>re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>set; von <rs key="place_GEO-2759794" type="place">Amsterdam</rs> über den
+          <lb/><rs key="place_GEW-zuiderz" type="place">Suydersee</rs> auff <rs key="place_GEO-2744179" type="place">Worcum</rs>, und von
+          <lb/>dorten auff den Canälen vollends
+          <lb/>zu <rs key="place_GEO-2755251" type="place">Groningen</rs> in gutem wohlstand
+          <lb/>angelangt, und also diese Beschwär<pc type="hyphenation">-</pc><lb break="no"/>liche re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß samt underschiedlichen
+          <lb/>Gefahren, durch Gottes gnädigem
+          <lb/>be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>stand überstanden.
+
+        </p>
+        <fw type="catch" place="bottom">Währender</fw>
+        <pb facs="4326334" n="14"/>
+
+        <p>
+          <lb/>Währender dieser Re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß, ist von
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> <abbr>Churfr. Hanover.</abbr> Gehei<pc type="hyphenation">-</pc><lb break="no"/>men Raht ein <rs type="letter" key="B_991170514841205501">Schreiben</rs> underm <date when="1695-09-15"><formula>\frac{5}{15}</formula> <abbr>Sept.</abbr>
+          <lb/>1695<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> an mich alhier eingeloffen, welches
+          <lb/>mir auff <rs key="place_GEO-2759794" type="place">Amsterdam</rs> ist nachge<pc type="hyphenation">-</pc><lb break="no"/>schickt worden, darin mir auff befehl
+          <lb/>deß Herrn <rs type="person" key="pers_DE-588-119053322">Danckelmans</rs> damahls ersten
+
+          <lb/>Ministers am <rs type="organisation">Berlinischen Hoff</rs>, die
+
+          <lb/><foreign xml:lang="lat">Professio Matheseos</foreign> auff der new auff<pc type="hyphenation">-</pc><lb break="no"/>gerichteten <rs type="organisation" key="org_DE-588-1048495779">Universitet zu <rs key="place_GEO-2911522" type="place">Hal</rs></rs> in <rs key="place_VER-sachse" type="place">Sachsen</rs>
+          <lb/>angetragen wurde, nebst offerirung besse<pc type="hyphenation">-</pc><lb break="no"/>rer conditionen als ich zu <rs key="place_GEO-2755251" type="place">Groningen</rs> haben
+          <lb/>sollte: Weil ich aber den <abbr>HH<supplied>.</supplied></abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatoren</rs>
+          <lb/>der <rs type="organisation" key="org_DE-588-36948-2">Universitet zu <rs key="place_GEO-2755251" type="place">Groningen</rs></rs><choice><orig>,</orig><reg type="deleted"/></choice> mein wort
+          <lb/>albere<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t von mir gegeben, und meine
+          <lb/>hardes und bagage zu <rs key="place_GEO-2755251" type="place">Groningen</rs> al<pc type="hyphenation">-</pc><lb break="no"/>bere<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t angelangt waren, so hab ich die
+          <lb/>Hallische vocation ohne ferners be<pc type="hyphenation">-</pc><lb break="no"/>d<subst><del><gap/></del><add>e</add></subst>ncken abgeschlagen: Ich bin allso, wie
+          <lb/>schon gesagt mit meiner familien
+          <lb/><note place="margin"><date when="1695">1695.</date></note><date when="1695-10-22"><hi rend="u"><abbr>d.</abbr> 22. <abbr>Octobr.</abbr> 1695.</hi></date> zu <rs key="place_GEO-2755251" type="place">Gröningen</rs> an<pc type="hyphenation">-</pc><lb break="no"/>gelangt, und den <date when="1695-10-24">24 <abbr>dito</abbr></date> be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> <abbr>H<supplied>.</supplied></abbr> <abbr>D.<hi rend="sup">re</hi></abbr>
+          <lb/>und Professore <rs key="pers_DE-588-130109363" type="person">Braunio</rs> das Logement
+          <lb/><foreign xml:lang="lat">ad interim</foreign> biß ich ein eigen hauß gemietet,
+          <lb/>bezogen; welcher mich dan samt den
+        </p>
+        <fw type="catch" place="bottom">meinigen</fw>
+        <pb facs="4326335" n="15"/>
+
+        <p>
+          <lb/>meinigen sehr freündlich und lieb<pc type="hyphenation">-</pc><lb break="no"/>reich auffgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und bewürtet;
+          <lb/>ja auch die gantzen 10 jahr durch
+          <lb/>welche ich zu <rs key="place_GEO-2755251" type="place">Groningen</rs> verblieben,
+          <lb/>ich, meine <rs type="person" key="pers_DE-588-108991332X">Fraw</rs> und <rs type="person">Kinder</rs>, un<pc type="hyphenation">-</pc>
+
+          <lb break="no"/>zähliche viele gutthaten von Ihme
+          <lb/>und Seinen <abbr>Jgfrn.</abbr> <rs type="person">Töchtern</rs> empfan<pc type="hyphenation">-</pc>
+
+          <lb break="no"/>gen und genossen, auch mehr als Vät<pc type="hyphenation">-</pc><lb break="no"/>terliche Liebe und affection von diesem
+          <lb/>Herren <rs key="pers_DE-588-130109363" type="person">Braunio</rs> verspühret; dessen
+          <lb/>ich die zeit meines lebens werde ein<pc type="hyphenation">-</pc><lb break="no"/>gedenck se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n.
+        </p>
+        <p>
+          <lb/><date when="1695-11-14"><hi rend="u"><abbr>d.</abbr> 14. <abbr>Novemb.</abbr></hi></date> haben wir unser e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>gene be<pc type="hyphenation">-</pc><lb break="no"/>hausung welche ich gemiete<unclear reason="illegible">th</unclear> bezogen.
+        </p>
+        <p>
+          <lb/><date when="1695-11-28"><hi rend="u"><abbr>d.</abbr> 28 <abbr>ejusd.</abbr></hi></date> bin ich solenniter wie es
+          <lb/>zu <rs key="place_GEO-2755251" type="place">Groningen</rs> gebräuchlich <foreign xml:lang="lat">cum sceptro
+          <lb/>Academico</foreign> under Trompeten Schall und
+          <lb/>darauff erfolgder music <foreign xml:lang="lat">in chorum tem<pc type="hyphenation">-</pc><lb break="no"/>pli Academici</foreign> introducirt worden, under
+          <lb/>begleitung deß <abbr>H<supplied>.</supplied></abbr> Rectoris <abbr>Magnif.</abbr> <rs type="person" key="pers_DE-588-139891811">Jacobi
+          <lb/>Gussetii</rs> (welcher Tags zu vor diesen <foreign xml:lang="lat">Actum
+          <lb/>solennem</foreign> durch ein gedrucktes <rs type="biblio">programm<subst><del><gap/></del><add>a</add></subst></rs>
+
+          <lb/>hatte kund gemacht) und der sämtlichen
+          <lb/><abbr>HH<supplied>.</supplied></abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatoren</rs> und <rs type="organisation" key="org_DE-588-36948-2">Professoren</rs>. Nach
+          <lb/>meiner gehaltenen <rs type="biblio">inaugural Oration</rs>
+
+        </p>
+        <fw type="catch" place="bottom"><foreign xml:lang="lat">in laudem</foreign></fw>
+        <pb facs="4326336" n="16"/>
+
+        <p>
+          <lb/><rs type="biblio">in laudem Matheseos</rs> bin ich mit gleichen
+          <lb/>c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>remonien <foreign xml:lang="lat">in curiam academicam deducirt</foreign>
+          <lb/>worden, allwo die <abbr>HH<supplied>.</supplied></abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatores</rs> unß mit
+          <lb/>einer Herrlichen mahlzeit tractirt, und
+          <lb/>des folgenden Tags widrumb in deß
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-139891811">Rectoris</rs> <abbr>Magnif.</abbr> hauß gastirt worden.
+          <lb/><date when="1695-12-12"><hi rend="u"><abbr>d.</abbr> 12. <abbr>Xbris</abbr></hi></date> darauff hab ich meine erste
+          <lb/><foreign xml:lang="lat">Lectionem publicam</foreign> in dem <foreign xml:lang="lat">auditorio
+          <lb/>philosophico</foreign> gleichfals solenniter gehal<pc type="hyphenation">-</pc><lb break="no"/>ten in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentz de<unclear reason="illegible">r</unclear> <abbr>HH<supplied>.</supplied></abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatorum</rs> under
+          <lb/>einem grossen <foreign xml:lang="lat">confluxu</foreign> von allerhand
+          <lb/>leüten.
+
+        </p>
+        <p>
+          <lb/><note place="margin"><date when="1697">1697.</date></note>
+          <date when="1697-02-09"><hi rend="u"><abbr>d.</abbr> 9. Februari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> morgens umb 10<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> uhren hatt
+          <lb/>der Liebe Gott meine geliebte <rs type="person" key="pers_DE-588-108991332X">haußfraw</rs>
+          <lb/>ihrer Leibsburdi entbunden, und uns
+          <lb/>mit einem Töchterlin erfrewet. Es
+          <lb/>hatt aber diese freüd nicht lang gewäh<pc type="hyphenation">-</pc><lb break="no"/>ret; in dem den <date when="1697-05-27">27. Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> desselbigen jahrs</date>
+          <lb/>ein wenig nach dem mittag, dieß liebe
+          <lb/>kind, welches den <date when="1697-02-10">10. <abbr>febr.</abbr></date> mit na<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en <rs type="person">Anna<pc type="hyphenation">-</pc><lb break="no"/>Catharin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> getauffet worden, uns widrumb
+
+          <lb/>zu unsrem größten schmertzen, durch
+          <lb/>den zeitlichen Tod ist hingerafft worden,
+          <lb/>nach dem es 14 Tag mit einem wie es schiene
+          <lb/>nicht gefährlichen <foreign xml:lang="lat">cat<del>h</del>arrho</foreign> behafftet ge<pc type="hyphenation">-</pc><lb break="no"/>wesen, darzu aber plötzlich die gichten geschlagen;
+          <lb/>Gott verle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>he uns allen eine selige nachfolg.
+        </p>
+        <fw type="catch" place="bottom"><hi rend="u"><abbr>d.</abbr> 29. Novemb.</hi></fw>
+        <pb facs="4326337" n="17"/>
+
+        <p>
+          <note place="margin"><date when="1698">1698</date></note>
+          <lb/><date when="1698-11-29"><hi rend="u"><abbr>d.</abbr> 29. Novemb. 1698.</hi></date> Hatt unß der
+          <lb/>barmhertzige Gott diesen verlurst
+          <lb/>widrumb ersetzet, in dem meine
+          <lb/>haußfraw morgens ein wenig vor 7. uhr
+          <lb/>eines Zweyten Töchterlins glücklich
+          <lb/>genesen: welches dan den 30. dito bey
+          <lb/>der <abbr>H<supplied>.</supplied></abbr> Tauff gleichfals
+          <lb/>mit dem nammen <rs type="person" key="pers_DE-588-1153514060">Anna Catharina</rs>
+          <lb/>ist genennet worden: Es wolle der
+          <lb/>liebe Gott gnad verleyhen zu dieses
+          <lb/>Kinds aufferziehung, damit es auff<pc type="hyphenation">-</pc><lb break="no"/>wachse an Verstand und an allen Christ<pc type="hyphenation">-</pc><lb break="no"/>lichen Tugenden zunehme.
+        </p>
+        <p>
+          <note place="margin"><date when="1699">1699</date></note>
+          <lb/><date when="1699-02-21"><hi rend="u"><abbr>d.</abbr> 21. febr. <abbr>st.n.</abbr></hi></date> Bin ich von der Königlichen
+          <lb/><rs type="organisation" key="org_DE-588-35019-9">Academie der Wüssen schafften</rs>, als Ein Mitt<pc type="hyphenation">-</pc><lb break="no"/>Glied under die Zahl der Acht frembden,
+          <lb/>nebst einem andern nominirt und Seiner
+          <lb/>Aller <abbr>Christl.</abbr> <abbr>May.</abbr> umb einen von unß
+          <lb/>Zweyen zu erwehlen, proponirt worden,
+          <lb/>da es dan höchstbesagter Aller <abbr>Chr.</abbr> <abbr>May.</abbr> hatt
+          <lb/>gefallen wollen, meine wenige Person
+          <lb/>zu dieser hochansehnlichen würde allergnäd.
+          <lb/>zu erwehlen: worauff dan mir das
+          <lb/>Diploma durch den <abbr>H<supplied>.</supplied></abbr> Präsidenten <abbr>Mr.</abbr> l'Abbé
+          <lb/><rs key="pers_DE-588-120052539" type="person">Bignon</rs> selbsten underschriben <foreign xml:lang="lat">de dato</foreign> 1. April.
+          <lb/>1699, auff Pergament und mit der Academie
+
+        </p>
+        <fw type="catch" place="bottom">Insigel</fw>
+        <pb facs="4326338" n="18"/>
+
+        <p>
+          <lb/>Insigel bekräfftiget, ist zugeschickt worden.
+        </p>
+        <p>
+          <note place="margin"><date when="1699">1699</date></note>
+          <lb/><date when="1699-08-16"><hi rend="u"><abbr>d.</abbr> 16. Aug. <abbr>st.v.</abbr></hi></date> eben dieses jahrs hatt
+          <lb/>mich <foreign xml:lang="lat"><abbr>Ampliss.</abbr> <rs type="organisation" key="org_DE-588-36948-2">Senatus Academicus Gro<pc type="hyphenation">-</pc><lb break="no"/>ninganus</rs> approbantibus et consentientibus
+          <lb/><abbr>Nob.</abbr> et <abbr>Ampliss.</abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatoribus</rs></foreign>, Zu einem <foreign xml:lang="lat">Re<pc type="hyphenation">-</pc><lb break="no"/>ctore Universitatis</foreign> einhällig erwehlet;
+          <lb/>habe auch 8 Tag hernach das <foreign xml:lang="lat">Sceptrum
+          <lb/>academicum</foreign> nach dem in selbiger Univer<pc type="hyphenation">-</pc><lb break="no"/>sitet üblichen gebrauch und die übrigen
+          <lb/><foreign xml:lang="lat">insignia</foreign> mit allen solenniteten von mei<pc type="hyphenation">-</pc><lb break="no"/>nem <foreign xml:lang="lat">Antecessore</foreign> empfangen; darbey
+          <lb/>ich eine <foreign xml:lang="lat">inaugural oration</foreign> gehalten welche
+          <lb/>war eine <rs type="biblio" key="biblio_Q52MGH4N"><title level="m"><foreign xml:lang="lat">Apologia pro mea Fama, Honore,
+          <lb/>et Religione</foreign></title></rs> wider einige der Wahrheit
+          <lb/>und allen guten Künsten gehässige Ver<pc type="hyphenation">-</pc><lb break="no"/>leümbdere, denen Gott verzeihen wolle, wel<pc type="hyphenation">-</pc><lb break="no"/>che mich auff eine unmenschliche weiß verfol<pc type="hyphenation">-</pc><lb break="no"/>geten, aber je dannoch durch hochoberkeitliche
+          <lb/>Autoritet bin erhalten, ja wie es hernach fol<pc type="hyphenation">-</pc><lb break="no"/>gen wird mit einem schönen <foreign xml:lang="lat">augmento sala<pc type="hyphenation">-</pc><lb break="no"/>rii</foreign> bin beehret worden: diese <rs type="biblio" key="biblio_Q52MGH4N"><title level="m">Apologia</title></rs> ist
+          <lb/>nach der Zeit in Truck außkommen;
+
+        </p>
+        <p>
+          <note place="margin"><date when="1700">1700</date></note>
+          <lb/><date when="1700-01-29"><hi rend="u"><abbr>d.</abbr> 29. Jan. <abbr>st.v.</abbr></hi></date> abends umb ¼ uhr vor
+          <lb/>acht, hatt unß Gott, mit einem Zweyten
+          <lb/>Sohn erfrewet; welchen ich den 31. dito in der
+          <lb/><rs type="place">Frantzösischen Kirchen</rs>, selbsten zur <abbr>H<supplied>.</supplied></abbr> Tauff
+          <lb/>gehalten; worin Er den nammen <rs key="pers_DE-588-118656503" type="person">Daniel</rs> em<pc type="hyphenation">-</pc>
+
+        </p>
+        <fw type="catch" place="bottom">pfangen</fw>
+        <pb facs="4326339" n="19"/>
+
+        <p>
+          <lb break="no"/>pfangen. Es wolle der liebe Gott
+          <lb/>Ihne lassen auffwachsen in seiner
+          <lb/>gnad, an Größe weißheit und verstand,
+          <lb/>zu seines allerheiligsten Namens Ehr
+          <lb/>und zu unserer der Eltern sonder<pc type="hyphenation">-</pc><lb break="no"/>bahren freüd und trost!
+        </p>
+        <p>
+          <note place="margin"><date when="1700">1700</date></note>
+          <lb/><date when="1700-08-23"><hi rend="u"><abbr>d.</abbr> 23. Aug. 1700. <abbr>st.v.</abbr></hi></date> hab ich den
+          <lb/><foreign xml:lang="lat">Rectoratum Academicum</foreign> mit eben den
+          <lb/><foreign xml:lang="lat">Ceremonien</foreign> mit welchen ich denselbigen
+          <lb/>voriges jahrs angetretten, widrumb
+          <lb/>abgeleget, und die <foreign xml:lang="lat">Fasces Academicos</foreign>
+          <lb/>meinem <foreign xml:lang="lat">Successori</foreign> dem <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-130109363" type="person">Johanni
+          <lb/>Braunio</rs> meinem grossen freünd
+          <lb/>und <foreign xml:lang="lat">Fautori</foreign> solenniter überlüffert;
+          <lb/>bey ablegung deß <foreign xml:lang="lat">Rectorats</foreign> hab ich
+          <lb/><foreign xml:lang="lat">more solito</foreign> eine <foreign xml:lang="lat">Oration</foreign> gehalten
+          <lb/>über die dieses jahrs über zu vielen
+          <lb/><foreign xml:lang="lat">Discursen</foreign> anlaß gebende <foreign xml:lang="lat">materi</foreign>, nam<pc type="hyphenation">-</pc><lb break="no"/>lich <rs type="biblio"><title level="m"><foreign xml:lang="lat">de hoc Anno currente, num sit
+          <lb/>s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>culi XVII ultimus, an vero s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>culi XVIII
+          <lb/>primus, et simul de Calendarii Grego<pc type="hyphenation">-</pc><lb break="no"/>riani pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stantia</foreign></title></rs>; welches letztere dan
+          <lb/>bey den <abbr>HH.</abbr> <rs type="organisation" key="org_resource_000001">Staten</rs> so viel gewürcket,
+          <lb/>daß sie sich gleich darauff bequemten
+
+        </p>
+
+        <note>der Provintz <rs key="place_GEO-2755251" type="place">Groningen</rs> und Omlanden</note>
+        <fw type="catch" place="bottom">den newen</fw>
+        <pb facs="4326340" n="20"/>
+
+        <p>
+          <lb/>den newen Stylum anzunehmen under
+          <lb/>dem namen deß new verbesserten
+          <lb/>Calenders, conform deß einige Zeit
+          <lb/>zuvor auff dem Reichstag zu
+          <lb/><rs key="place_GEO-2849483" type="place">Regenspurg</rs> von den Protestirenden
+          <lb/>Ständen gefassten Reichsschluß.
+        </p>
+
+        <p><del><gap/></del></p>
+        <p>
+          <note place="margin"><date when="1701">1701</date></note>
+          <lb/>Bin ich in der bey Ihr <abbr>Kön.</abbr> <abbr>May.</abbr> in
+          <lb/><rs key="place_VER-preuss" type="place">Preüssen</rs> newauffgerichtete <foreign xml:lang="lat"><rs type="organisation">Socie<pc type="hyphenation">-</pc><lb break="no"/>tatem scientiarum Regiam</rs></foreign> als Ein
+          <lb/><foreign xml:lang="lat">Membrum</foreign> erwehlet und recipiert
+          <lb/>worden; Krafft deß <foreign xml:lang="lat">Diplomatis</foreign> so mir
+          <lb/>ist zugeschickt worden datirt zu
+          <lb/><rs key="place_GEO-2950159" type="place">Berlin</rs> den 11. Jul. 1701.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1702">1702</date></note>
+          <lb/>Ist Ein Exemplar deß bey mir
+          <lb/>newlich erfundenen <foreign xml:lang="lat">Phosphori per<pc type="hyphenation">-</pc><lb break="no"/>petui Mercurialis</foreign> Ihro <abbr>Königl.</abbr> <abbr>May.</abbr>
+          <lb/>von <rs key="place_VER-preuss" type="place">Preussen</rs> wie wohl mir unwüs<pc type="hyphenation">-</pc><lb break="no"/>send <foreign xml:lang="lat">pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentirt</foreign> worden, darvon dan
+          <lb/>Ihr <abbr>Kön.</abbr> <abbr>May.</abbr> und der gantze Hoff
+          <lb/>ein so sattsames vergnügen geschöpfet,
+          <lb/>daß mich Ihr <abbr>Kön.</abbr> <abbr>May.</abbr> mit einer
+          <lb/>ansehnlichen guldenen Medaille mit
+
+        </p>
+        <fw type="catch" place="bottom">Ihrer</fw>
+        <pb facs="4326341" n="21"/>
+
+        <p>
+          <lb/>Ihrer Bildnuß gnädigst beschencket
+          <lb/>welche mir nebst einem <rs type="letter">Brieff</rs>
+          <lb/>von <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-120517892" type="person">Jablonski</rs> der <abbr>Königl.</abbr> Socie<pc type="hyphenation">-</pc><lb break="no"/>tet <foreign xml:lang="lat">Secretario de dato</foreign> 30. <abbr>7bris</abbr> 1702.
+          <lb/>auff empfangener <abbr>Königl.</abbr> Ordre ist
+          <lb/>zugesandt worden. diese Medaille
+          <lb/>wogt 40. Ducaten.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1703">1703</date></note>
+          <lb/>In dem Augusto deß folgenden jahrs;
+          <lb/>haben mich die Edelmög. <rs type="organisation" key="org_DE-588-4703212-1">Staaten
+          <lb/>von <rs key="place_GEO-2745912" type="place">Utrecht</rs></rs> durch einen an mich ab<pc type="hyphenation">-</pc><lb break="no"/>geschickten Expressen nebst einer
+          <lb/>an mich abgelaßenen sehr höfflichen
+          <lb/>und obligeanten <rs type="letter">missiven</rs> <foreign xml:lang="lat">da<pc type="hyphenation">-</pc><lb break="no"/>tiert</foreign> <date when="1703-08-27">d. 27. Aug. 1703.</date> auff Ihre <rs type="organisation" key="org_DE-588-116562-8">Uni<pc type="hyphenation">-</pc><lb break="no"/>versitet</rs> als <foreign xml:lang="lat">Professorem Philosophi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+          <lb/>et Matheseos</foreign> mit guten conditionen
+          <lb/>gantz freündlich invitirt und be<pc type="hyphenation">-</pc><lb break="no"/>ruffen. Es hatt aber eine <rs type="organisation" key="org_resource_000007">hohe Obrig<pc type="hyphenation">-</pc><lb break="no"/>keit der Statt <rs key="place_GEO-2755251" type="place">Gröningen</rs></rs>, welche
+          <lb/>an meiner bißherigen verwaltung
+          <lb/>meiner <foreign xml:lang="lat">profession</foreign> ein gnäd. Contento
+          <lb/>getragen, mich nicht gern gehen laßen;
+          <lb/>deßwegen umb mich zu bewegen
+          <lb/>daß ich möchte die gedachte vocation
+
+        </p>
+        <fw type="catch" place="bottom">ablähnen</fw>
+        <pb facs="4326342" n="22"/>
+
+        <p>
+          <lb/>ablähnen und auff ihrer Universitet
+          <lb/>den Professorat continuiren; haben
+          <lb/>mir <rs type="organisation" key="org_resource_000007">Burgermeister und Raht der
+          <lb/>Statt <rs key="place_GEO-2755251" type="place">Gröningen</rs></rs> zu meinem
+          <lb/>vorigen <foreign xml:lang="lat">Salario</foreign> der 500 <abbr>rd.</abbr>, annoch
+          <lb/>ein ansehnliches <foreign xml:lang="lat">augmentum</foreign> von
+          <lb/>100 <abbr>rd.</abbr>, allso zusammen 600 <abbr>rd.</abbr> <abbr>Spec.</abbr> od.
+          <lb/>1500 <abbr>fl.</abbr> Holländ. jährliches <foreign xml:lang="lat">Salarii</foreign>
+          <lb/>zu erkennen, Krafft der mir zu
+          <lb/>gestellten Rahtserkantnuß <foreign xml:lang="lat">de dato
+          <lb/>Lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> <date when="1703-10-08">d. 8. Octobr. 1703.</date> In Betrach<pc type="hyphenation">-</pc><lb break="no"/>tung daß ich zu <rs key="place_GEO-2755251" type="place">Gröningen</rs> sehr lieb
+          <lb/>und werth und mir eine Ehr wider<pc type="hyphenation">-</pc><lb break="no"/>fahren die noch niemand genoßen, an<pc type="hyphenation">-</pc><lb break="no"/>gesehen waß die Provinz oder beyde
+          <lb/>Glieder (als von welchen beyden die Uni<pc type="hyphenation">-</pc><lb break="no"/>versitet dependirt) namlich die Statt
+          <lb/>und die Omlanden hätten thun sollen,
+          <lb/>und aber die <abbr>HH.</abbr> von den Omlanden
+          <lb/>wegen allerhand under Ihnen damahls
+          <lb/>entstandenen mißhälligkeiten, darzu
+          <lb/>sogleich nicht zu bringen waren, hatt
+          <lb/>die Statt lieber allein den Kosten tragen
+          <lb/>und das <foreign xml:lang="lat">augmentum</foreign> auß ihrem eigenen
+          <lb/>Fisco herzugeben sich entschliessen wollen,
+          <lb/>als aber durch längere verzögerung in
+        </p>
+        <fw type="catch" place="bottom">forchten</fw>
+        <pb facs="4326343" n="23"/>
+
+        <p>
+          <lb/>forchten, ich möchte wohl die
+          <lb/>Utrechtische vocation annehmen; In
+          <lb/>Betrachtung nun, sage ich, dieser mir
+          <lb/>sonderbahr erwiesenen Ehr, gnad
+          <lb/>und freündschafft, hab ich durch ein
+          <lb/>höffliches <rs type="letter">Rescript</rs> an den Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidieren<pc type="hyphenation">-</pc><lb break="no"/>den herrn Burgermeister von <rs key="place_GEO-2745912" type="place">Ut<pc type="hyphenation">-</pc><lb break="no"/>recht</rs> herrn <rs type="person">van Sypeste<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n</rs> mich be<pc type="hyphenation">-</pc><lb break="no"/>dancket und den Beruff geziemender<pc type="hyphenation">-</pc><lb break="no"/>maßen abgeschlagen; ungeachtet von
+          <lb/>seyten <rs key="place_GEO-2745912" type="place">Utrecht</rs> alles ins werck gerichtet
+          <lb/>ja ungewöhnliche mittel angewendet
+          <lb/>wurden umb mich dahin zu Zie<pc type="hyphenation">-</pc><lb break="no"/>hen, sintemahlen auff vernemmen, daß
+          <lb/>unsre Eltern, die unß so lange jahr
+          <lb/>nun gemanglet, difficultiren möchten
+          <lb/>dahin zu consentiren, wan ich mich
+          <lb/>auff ein newes engagiren wollte,
+          <lb/>hatt der dortige Rector Magnif.
+          <lb/><abbr>H<supplied>.</supplied></abbr> <abbr>Prof.</abbr> <rs key="pers_DE-588-117641987" type="person">Burmannus</rs> auß befehl deß
+          <lb/>Utrechtischen Magistrats ein überauß
+          <lb/>beweglich <rs type="letter">Bittschreiben</rs> <foreign xml:lang="lat">sub dato</foreign> <date when="1703-09-17">17.
+          <lb/><abbr>7bris</abbr> 1703.</date> an meinen Herrn Schwä<pc type="hyphenation">-</pc><lb break="no"/>her Vatter laßen abgehen, umb von
+          <lb/>Ihme seinen consens zu dieser vo<pc type="hyphenation">-</pc>
+
+        </p>
+        <fw type="catch" place="bottom">cation</fw>
+        <pb facs="4326344" n="24"/>
+
+        <p>
+          <lb break="no"/>cation zu erlangen, den Er auch auff
+          <lb/>so kräfftige Remonstrationen ja Sup<pc type="hyphenation">-</pc><lb break="no"/>plicationen endlich williglich dar<pc type="hyphenation">-</pc><lb break="no"/>zu gegeben in seinem <rs type="letter">andwortschrei<pc type="hyphenation">-</pc><lb break="no"/>ben</rs> vom <date when="1703-10-06">6. <abbr>8bris</abbr> 1703.</date> welches aber
+          <lb/>zu spath eingelauffen, nach dem
+          <lb/>ich mich zu <rs key="place_GEO-2755251" type="place">Gröningen</rs>, auff vor<pc type="hyphenation">-</pc><lb break="no"/>gemeldte weiß schon wider hatte
+          <lb/>engagiren laßen.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1703">1703</date></note>
+          <lb/><date when="1703-12-18"><hi rend="u"><abbr>d.</abbr> 18. Decemb. 1703.</hi></date> Ist in dem allhie<pc type="hyphenation">-</pc><lb break="no"/>sigen <foreign xml:lang="lat"><rs type="organisation" key="org_DE-588-36146-X">Senatu Academico</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentib. <abbr>Ampl.</abbr>
+          <lb/><abbr>DDn.</abbr> Scholarchis</foreign>, Krafft mir ertheilten
+          <lb/>Rahtserkantnuß vom <date when="1695-07-24">24. Jul<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1695.</date>
+          <lb/>(in welcher unsre gnäd. <abbr>HH.</abbr> über das
+          <lb/>begehrte vorbehalt meines Burger<pc type="hyphenation">-</pc><lb break="no"/>rechts vor mich, meine Fraw, und Kinder,
+          <lb/>und auch die abzugs Freyheit, so mir
+          <lb/>ist accordirt worden, Zugleich einen
+          <lb/>anhang gemachet haben, daß ich be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>
+          <lb/>begebender Vacanz in der Universitet
+          <lb/>vor andern sollte considerirt werden)
+          <lb/>die <foreign xml:lang="lat">Professio Lingu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> unani<pc type="hyphenation">-</pc><lb break="no"/>miter mir destinirt, und solches deß
+          <lb/>folgenden Tags von dem damaligen
+          <lb/>Rectore Magnif. Herrn <abbr>D<hi rend="sup">re</hi></abbr> <rs key="pers_DE-588-100159567" type="person">Hardero</rs> durch
+        </p>
+        <fw type="catch" place="bottom">ein</fw>
+        <pb facs="4326345" n="25"/>
+
+        <p>
+          <lb/>ein <rs type="letter">Schreiben</rs> underm <date when="1703-12-19">19. Decemb.
+          <lb/>1703.</date> notificirt und ich also zu der
+          <lb/>selbigen Profession bin vocirt worden,
+          <lb/>Welche ich zwar durch ein <rs type="letter">Rescript</rs>
+          <lb/>habe angenommen, doch aber in betrach<pc type="hyphenation">-</pc><lb break="no"/>tung daß ich die <foreign xml:lang="lat">Professionem Mathe<pc type="hyphenation">-</pc><lb break="no"/>matum</foreign> zu <rs key="place_GEO-2755251" type="place">Gröningen</rs> mit weit grösse<pc type="hyphenation">-</pc><lb break="no"/>rem ruhm und nutzen der Jugend
+          <lb/>versehe, habe ich darbey gebetten,
+          <lb/>man wollte mir zur Zeit einen
+          <lb/><foreign xml:lang="lat">Vicarium</foreign> stellen, biß daß eine
+          <lb/>komlichere Zeit und verhofftentli<pc type="hyphenation">-</pc><lb break="no"/>che andere mir anständigere aper<pc type="hyphenation">-</pc><lb break="no"/>sur sich eräugnete, wordurch ich mit
+          <lb/>grösserem nutzen und frucht dem
+          <lb/>Vatterland dienen könnte; welches
+          <lb/><foreign xml:lang="lat">petitum</foreign> mir auch gantz gönstig
+          <lb/>ist accordirt worden.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1704">1704</date></note>
+          <lb/>auff den Osterdienstag 1704. hatt
+          <lb/>mich der <abbr>H<supplied>.</supplied></abbr> Unser Gott zu bette
+          <lb/>nidergelegt und mit einer Schwären
+          <lb/>Kranckheit heimgesucht, welche in
+          <lb/>ein <foreign xml:lang="lat">Febrim malignam</foreign> außgieng: die
+          <lb/><foreign xml:lang="lat">Medici</foreign> und andere leüt hatten, wie es
+          <lb/>schiene wenig hoffnung zu meiner
+        </p>
+        <fw type="catch" place="bottom">wider<pc type="hyphenation">-</pc></fw>
+        <pb facs="4326346" n="26"/>
+
+        <p>
+          <lb break="no"/>widergenesung, sintemahlen ich
+          <lb/>in der Statt schon für Tod gesagt
+          <lb/>wurde; ich hatte mich auch albereyt
+          <lb/>zu einem seligen sterbstundlin ge<pc type="hyphenation">-</pc><lb break="no"/>schicket und Gott meinen Schöpfer umb
+          <lb/>eine gnädige aufflösung angefle<pc type="hyphenation">-</pc><lb break="no"/>het; Es hatt aber demselbigen gefallen
+          <lb/>wollen, mich noch länger in diesem
+          <lb/>jammervollen und sündigen leben
+          <lb/>herumb wallen zu laßen: Ich bin
+          <lb/>allso durch seine Barmhertzigkeit
+          <lb/>von meiner Schmertzhafften Kranck<pc type="hyphenation">-</pc><lb break="no"/>heit nach und nach genesen und zu
+          <lb/>meiner vorigen gesundheit gelanget,
+          <lb/>doch allso, daß die verdriessliche
+          <lb/>Schlafflosigkeit, welche schon einige
+          <lb/>Zeit vor der Kranckheit sich be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>
+          <lb/>mir eingefunden, noch etliche jahr
+          <lb/>hernach sehr starck angehalten, allso
+          <lb/>daß zum öfftern viel Tag und
+          <lb/>nacht nacheinandern ohne einigen
+          <lb/>Schlaff hab zugebracht. Ach! wan ich
+          <lb/>damahls auß dieser Welt wäre
+          <lb/>abgefordert worden, viel grobe und
+          <lb/>schwäre Sünden, die ich seithero begangen,
+        </p>
+        <fw type="catch" place="bottom">wären</fw>
+        <pb facs="4326347" n="27"/>
+
+        <p>
+          <lb/>wären vermitten blieben! Ach Herr
+          <lb/>vergiebe mir dieselbigen, samt allen,
+          <lb/>die ich vorhero begangen und die
+          <lb/>ich noch täglich begehe: Komme doch
+          <lb/>zu hülff mir armen Sünder, wie
+          <lb/>lang <choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> Herr Jesu! wie lang blei<pc type="hyphenation">-</pc><lb break="no"/>bestu doch auß mit deiner Gnad,
+          <lb/>ohne dieselbige kan ich mich nicht
+          <lb/>bekehren; Ich hoffe auff dich <choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> mein
+          <lb/>Liebster He<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>land! ja ich bin ver<pc type="hyphenation">-</pc><lb break="no"/>sichert, du werdest mich nicht ver<pc type="hyphenation">-</pc><lb break="no"/>laßen; ich verlange be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> dir zu
+          <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, darumb gibe daß du mich
+          <lb/>bere<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t findest, wan ich dieses Zeit<pc type="hyphenation">-</pc><lb break="no"/>liche gesegnen solle, damit ich dich
+          <lb/><choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> mein süssester He<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>land in jenem
+          <lb/>leben neben allen Außerwehlten mit
+          <lb/>unaußsprechlichen freüden loben
+          <lb/>und pre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>sen möge. Amen.
+        </p>
+        <p>
+          <note place="margin"><date when="1704">1704</date></note>
+          <lb/><date when="1704-10-06"><hi rend="u"><abbr>d.</abbr> 6. Octobr.</hi></date> morgens umb 4 uhr hatt
+          <lb/>unß der liebe Gott widerumb mit
+          <lb/>einem Töchterlin erfrewet; welches
+          <lb/>den 7. dito als den folgenden Tag in der
+          <lb/><rs type="place">grossen Kirchen</rs> zu <rs key="place_GEO-2755251" type="place">Gröningen</rs> mit dem
+          <lb/>nammen <rs key="pers_DE-588-1089913494" type="person">Dorothea</rs> ist getauffet worden.
+
+        </p>
+        <fw type="catch" place="bottom">Zu dieses</fw>
+        <pb facs="4326348" n="28"/>
+
+        <p>
+          <lb/>Zu dieses Kinds (welchem Gott sei<pc type="hyphenation">-</pc><lb break="no"/>nen guten Geist samt allem er<pc type="hyphenation">-</pc><lb break="no"/>sprießlichen wohlergehen zu Seel
+          <lb/>und leib verleyhen wolle) Gevattern
+          <lb/>habe ich durch schreiben erbetten, mei<pc type="hyphenation">-</pc><lb break="no"/>nen Bruder <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-108991329X" type="person">Hieron. Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>
+          <lb/>und meine geschwäg <abbr>Jgfr.</abbr> <rs type="person">Anna
+          <lb/>Helena Falcknerin</rs>, nunmehro <abbr>H<supplied>.</supplied></abbr>
+          <lb/><rs type="person">Philippi Dienasts</rs> Eheliche Haußfraw.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1705">1705</date></note>
+          <lb/>Zu anfang dieses jahrs 1705; ist ein
+          <lb/><rs type="letter">Brieff</rs> an unß eingelauffen von meinem
+          <lb/>Schwager Herrn <rs key="pers_DE-588-1074070976" type="person">Emanuel Falckner</rs> datirt
+          <lb/>den <date when="1705-01-21">21. Januar<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1705.</date> worin Er ohne Zwei<pc type="hyphenation">-</pc><lb break="no"/>fel auß ordre seines Herrn Vatters
+          <lb/>unß sehr hart angelegen; wir sollten
+          <lb/>doch einmahl wider auff die heim<pc type="hyphenation">-</pc><lb break="no"/>reyß gedencken, mit vermelden es seye
+          <lb/>dem Vatter insonderheit sehr viel dar<pc type="hyphenation">-</pc><lb break="no"/>an gelegen, als welcher Tag und nacht
+          <lb/>darnach seüffze; unser hartnäckiger
+          <lb/>widerwillen ins Vatterland zu kommen
+          <lb/>betrüebe Ihne in der Seelen; <del>dieses schla<pc type="hyphenation">-</pc><lb break="no"/>ge Ihne allso darnider, daß Er sich
+          <lb/>nach und nach von selbsten consumire;
+          <lb/>Er könne weder schlaffen noch essen, Er
+          <lb/>gehe herumb wie der schatten an der wand;</del>
+
+        </p>
+        <fw type="catch" place="bottom">Er würde</fw>
+        <pb facs="4326349" n="29"/>
+
+        <p>
+          <del>
+            <lb/>Er würde an unsrer widerkunfft eine
+            <lb/>unsägliche freüd haben, und vor freü<pc type="hyphenation">-</pc><lb break="no"/>den ein gantz anderer mensch werden;
+            <lb/>da im widrigen meine Fraw schwer<pc type="hyphenation">-</pc><lb break="no"/>lich mehr Ihne sehen würde: Wir kön<pc type="hyphenation">-</pc><lb break="no"/>nen unsre widerspenstigkeit gegen
+            <lb/>Gott in Ewigkeit nicht verantworten,
+            <lb/>daß wir unß allso an unsern Eltern
+            <lb/>versündigen und sie gleichsam ins
+            <lb/>Grab befürdern; meine Fraw inson<pc type="hyphenation">-</pc><lb break="no"/>derheit werde in Wahrheit ihr Gewis<pc type="hyphenation">-</pc><lb break="no"/>sen schwerlich beladen, wan sie mit mir die
+            <lb/>sach nicht re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>fflich überlegen werde
+            <lb/>umb auff den Frühling naher <rs key="place_GEO-2661604" type="place">Basel</rs>
+            <lb/>zu kommen; Er mein Schwager bitte unß
+            <lb/>allso umb Gottes willen unsrer schuldigkeit
+            <lb/>zu folgen &amp;c. diese und der<pc type="hyphenation">-</pc><lb break="no"/>gleichen harte zuredungen, ja scharffe
+            <lb/>beschwörungen, haben mich dahin bewo<pc type="hyphenation">-</pc><lb break="no"/>gen daß ich die resolution gefasset
+          </del>
+          <lb/>(in betrachtung daß ich schon 10. jahr
+          <lb/>mit meiner frawen in der fremde
+          <lb/>gehauset) meine Gröningische Profession
+          <lb/>auffzugeben und dem sehnlichen ver<pc type="hyphenation">-</pc><lb break="no"/>langen meiner SchwiegerEltern ein
+          <lb/>gnügen zu leisten, damit man mir
+        </p>
+        <fw type="catch" place="bottom">nicht</fw>
+        <pb facs="4326350" n="30"/>
+
+        <p>
+          <lb/>nicht die schuld beymessen könnte
+          <lb/>wan Ihnen eine Kranckheit oder
+          <lb/>etwas ärgers auß Ihrer Tochter
+          <lb/>längerer abwesenheit, wie mein
+          <lb/>Schwager sagt, zustehen sollte: Ich
+          <lb/>bin hiemit so gleich auff mittel be<pc type="hyphenation">-</pc><lb break="no"/>dacht gewesen, wie ich obschon mit
+          <lb/>hindansetzung meiner Zeitlichen For<pc type="hyphenation">-</pc><lb break="no"/>tun meiner Station auff eine
+          <lb/>glimpfliche und plausible manier
+          <lb/><foreign xml:lang="lat">vale diciren</foreign> könnte, worzu sich dan
+          <lb/>zu eben selbiger Zeit ein specioser
+          <lb/><foreign xml:lang="lat">pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>text</foreign> eräugnet, welchen ich arri<pc type="hyphenation">-</pc><lb break="no"/>pirt und darauff algemach mich
+          <lb/>zum abzug pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>parirt, unsre grosse
+          <lb/>meublen und haußraht, welcher nicht
+          <lb/>komlich konte verführet werden, durch
+          <lb/>eine expresse angestellte ganth ver<pc type="hyphenation">-</pc><lb break="no"/>gantet, darbey ich dan weil
+          <lb/>alles <foreign xml:lang="fre">à tout prix</foreign> mußte verkauffet werden
+          <lb/>ein ziemliches mußte verlieren und ein<pc type="hyphenation">-</pc><lb break="no"/>büssen. Nach diesem allem hab ich den
+          <lb/><date when="1705-08-10">10. August.</date> von den <abbr>HH.</abbr> <rs type="organisation" key="org_DE-588-1086211391">Curatoren</rs>, welche
+          <lb/>zu dem end auff mein anhalten ver<pc type="hyphenation">-</pc><lb break="no"/>sammlet waren, auff eine gebührende weiß
+        </p>
+        <fw type="catch" place="bottom">abscheid</fw>
+        <pb facs="4326351" n="31"/>
+
+        <p>
+          <lb/>abscheid genommen, mich bedancket für
+          <lb/>alle mir erwiesene hohe Gnad, Ehr
+          <lb/>und gutthaten, mit angehenckter
+          <lb/>recommendation meines und der mei<pc type="hyphenation">-</pc><lb break="no"/>nigen, daß Sie unß mit Ihrer
+          <lb/>wohlgewogenheit noch ferners obschon
+          <lb/>abwesend zugethan verbleiben möchten;
+          <lb/>Im übrigen ich Ihnen von Gott dem
+          <lb/>Allmächtigen gute gesundheit, langes
+          <lb/>leben, und allen Erwünschten succes
+          <lb/>in Ihren hochwichtigen Staatsaffaires
+          <lb/>zum besten Ihrer Provinz anwünschte:
+          <lb/>darauff mir der Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidirende <abbr>H<supplied>.</supplied></abbr>
+          <lb/>Curator Burgermeister <rs type="person">Trews</rs> mit
+          <lb/>gantz freündlichen terminis geant<pc type="hyphenation">-</pc><lb break="no"/>wortet und bezeüget wie es ihnen
+          <lb/>sehr leyd daß ich ihre Academie ver<pc type="hyphenation">-</pc><lb break="no"/>lassen wollte; sie seyen mit meiner
+          <lb/>Function, thun und lassen, Zeitwäh<pc type="hyphenation">-</pc><lb break="no"/>render meiner anwesenheit sehr
+          <lb/>wohl zufrieden gewesen; Sie hätten
+          <lb/>ja sonderlich Ein Ehrsamer Raht
+          <lb/>der Statt, solches durch ein bey selbsten
+          <lb/>mir Zuerkantes <foreign xml:lang="lat">augmentum salarii</foreign>
+          <lb/>genugsam an den Tag gegeben; darumb
+          <lb/>ihr allgemeiner wunsch wäre, daß
+          <lb/>ich länger bey Ihnen zu bleiben für
+
+        </p>
+        <fw type="catch" place="bottom">rahtsam</fw>
+        <pb facs="4326352" n="32"/>
+
+        <p>
+          <lb/>rahtsam befunden hätte: Weil es aber
+          <lb/>bey mir beschlossen seye, auß sonder<pc type="hyphenation">-</pc><lb break="no"/>bahren motiven, mich hinweg zu bege<pc type="hyphenation">-</pc><lb break="no"/>ben, so wollen noch können Sie mich
+          <lb/>wider meinen willen nicht auffhalten;
+          <lb/>wünschen derowegen mir zu meiner
+          <lb/>vorhabender reyß viel glück &amp;c.
+          <lb/>Mittler weil kame das gerücht
+          <lb/>von dieser meiner bevorstehender
+          <lb/>mutation in <rs key="place_VER-hollan" type="place">Holland</rs> sonderlich aber
+          <lb/>naher <rs key="place_GEO-2745912" type="place">Utrecht</rs>, da dan die Herren
+          <lb/>Staaden von <rs key="place_GEO-2745912" type="place">Utrecht</rs> auff ein newes
+          <lb/>bedacht waren und hoffnung gefasst
+          <lb/>mich auff Ihre Universitet nun<pc type="hyphenation">-</pc><lb break="no"/>mehro, da ich zu <rs key="place_GEO-2755251" type="place">Gröningen</rs> nicht
+          <lb/>weiters engagirt, zu bringen; deß<pc type="hyphenation">-</pc><lb break="no"/>wegen Sie obiggemelten Herrn <abbr>Prof.</abbr>
+          <lb/><rs key="pers_DE-588-117641987" type="person">Burmannum</rs> Expresse naher <rs key="place_GEO-2755251" type="place">Gröningen</rs>
+          <lb/>an mich abgesandt, umb mit mir
+          <lb/>zu tractiren und wo immer möglich
+          <lb/>mich durch gute offerten zu Persua<pc type="hyphenation">-</pc><lb break="no"/>diren, da es dan ihme an pressanten
+          <lb/>motiven und bewegreden nicht man<pc type="hyphenation">-</pc><lb break="no"/>gelte; ich hätte mich auch expugniren
+          <lb/>und überwinden laßen; wan ich mir da<pc type="hyphenation">-</pc>
+        </p>
+        <fw type="catch" place="bottom">mahls</fw>
+        <pb facs="4326353" n="33"/>
+
+        <p>
+          <lb break="no"/>mahls nicht so stetiglich vorgenommen
+          <lb/>hätte, meine Reyß fortzu
+          <lb/>setzen und meinem <abbr>H<supplied>.</supplied></abbr> Schwäher
+          <lb/>zu complaciren, es möchte auch kosten
+          <lb/>was es wollte und sollte ich gleich
+          <lb/>meine gröste fortun in den wind
+          <lb/>schlagen und hindansetzen, doch hatte
+          <lb/>ich darbey diesen vorsatz alles zu
+          <lb/><rs key="place_GEO-2661604" type="place">Basel</rs> in augenschein zu nemen, und
+          <lb/>allsdan nach gestalt und befindung
+          <lb/>der sachen, meinen <abbr>H<supplied>.</supplied></abbr> Schwäher da<pc type="hyphenation">-</pc><lb break="no"/>hin zu disponiren, daß Er in die Utre<pc type="hyphenation">-</pc><lb break="no"/>chtische Profession für ½ dotzet jahr
+          <lb/>anzunemmen consentiren möchte, be<pc type="hyphenation">-</pc><lb break="no"/>vorab wan ich mich erbotte, meine
+          <lb/>Fraw (als umb welche es Ihme am
+          <lb/>meisten zu thun) so lang bey Ihnen
+          <lb/>zu <rs key="place_GEO-2661604" type="place">Basel</rs> zu lassen, welches zwar
+          <lb/>mir sehr schwer würde ankommen
+          <lb/>seyn. In diesem Vorsatz nun hab
+          <lb/>ich Herrn <rs key="pers_DE-588-117641987" type="person">Burmanno</rs> auff seine
+          <lb/>zwar vortheilhafftigen offerten weder
+          <lb/>zugesagt noch abgesagt, sondern habe
+          <lb/>Zeit begehrt umb darüber zu delibe<pc type="hyphenation">-</pc><lb break="no"/>riren, wollte Ihme den Bescheid und posi<pc type="hyphenation">-</pc><lb break="no"/>tive antwort geben bey meiner Gott
+        </p>
+        <fw type="catch" place="bottom">geb</fw>
+        <pb facs="4326354" n="34"/>
+
+        <p>
+          <lb/>geb glücklichen und baldigen ankunfft
+          <lb/>zu <rs key="place_GEO-2745912" type="place">Utrecht</rs>. Mitt dieser antwort mußte
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117641987" type="person">Burmannus</rs> wiewohl nicht allzu
+          <lb/>vergnügt verreysen, schribe mir
+          <lb/>auch kurtz hernach daß Seine Herren
+          <lb/>eine favorablere entsprechung bey
+          <lb/>mir erwartet und gehoffet hätten,
+          <lb/>Sie flattirten sich aber; daß ich mich
+          <lb/>bey unsrer ankunfft in <rs key="place_GEO-2745912" type="place">Utrecht</rs>
+          <lb/>würde vollends gewinnen und per<pc type="hyphenation">-</pc><lb break="no"/>suadiren laßen. Underdessen nahete
+          <lb/>der bestimte Tag unsrer Abreyß
+          <lb/>von <rs key="place_GEO-2755251" type="place">Gröningen</rs> herbey, da wir den
+          <lb/><date when="1705-08-18"><hi rend="u"><abbr>d.</abbr> 18. Aug.</hi></date> mit der gantzen Familie
+          <lb/>namlich ich, meine Fraw, unser
+          <lb/>4 Kinder samt einer Magd, bey schö<pc type="hyphenation">-</pc><lb break="no"/>nem Wetter under Gottes Gele<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t
+          <lb/>mit einem Gutschwagen seind abge<pc type="hyphenation">-</pc><lb break="no"/>re<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>set, es befande sich in meiner com<pc type="hyphenation">-</pc><lb break="no"/>pagnie mein Neveu <rs key="pers_DE-588-119166895" type="person">Nicolaus Ber<pc type="hyphenation">-</pc><lb break="no"/>noull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> <abbr>J.U.C.</abbr> welcher zuvor ein halb
+          <lb/>jahr bey mir logiert: desselbigen abends
+          <lb/>seind wir zu <rs key="place_GEO-2754817" type="place">Harlingen</rs> übernacht
+          <lb/>geblieben, willens den folgenden Tag
+          <lb/>über den <rs key="place_GEW-zuiderz" type="place">Suyder-see</rs> naher <rs key="place_GEO-2759794" type="place">Amsterdam</rs>
+          <lb/>zu fahren, mußten aber wegen sehr un<pc type="hyphenation">-</pc>
+        </p>
+        <fw type="catch" place="bottom">gestümen</fw>
+        <pb facs="4326355" n="35"/>
+
+        <p>
+          <lb/>gestümen contrari wind still liegen
+          <lb/>seind aber deß andern Tags als den
+          <lb/><date when="1705-08-20">20. dito</date> wegen noch anhaltenden Sturm<pc type="hyphenation">-</pc><lb break="no"/>wind zu land naher <rs key="place_GEO-2746816" type="place">Staveren</rs> mit ei<pc type="hyphenation">-</pc><lb break="no"/>nem Postwagen gefahren, zu dieser
+          <lb/>Zeit hatt unser <rs key="pers_DE-588-118656503" type="person">Daniel</rs> die Rohtsucht
+          <lb/>bekommen, und ist zimlich Kranck
+          <lb/>daran gewesen, deßen ungeacht haben
+          <lb/>wir den <date when="1705-08-21">21. dito</date> mit einem sehr ve<pc type="hyphenation">-</pc><lb break="no"/>hementen Sturmwind, den traject naher
+          <lb/><rs key="place_GEO-2756077" type="place">Enckuysen</rs> überfahren, an deme wir
+          <lb/>ob Er schon nur 3 stund breit dennoch
+          <lb/>den gantzen Tag zu thun hatten.
+          <lb/>den <date when="1705-08-22">22. dito</date> seind wir zu <rs key="place_GEO-2759794" type="place">Amsterdam</rs>
+          <lb/>glücklich angelangt. Allhier hatt
+          <lb/>mir Büchführer <rs type="person">Wettstein</rs> die un<pc type="hyphenation">-</pc><lb break="no"/>erwartete Zeitung von meines
+          <lb/>Bruders <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118509950" type="person">Jacobi Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> (von deßen
+          <lb/>Tödlichen Kranckheit ich zuvor gantz
+          <lb/>keine nachricht hatte) absterben zu<pc type="hyphenation">-</pc><lb break="no"/>wissen gethan; darbey ich zu gleich
+          <lb/>vernomen daß Er auff eben denselbigen
+          <lb/>Tag da ich von <rs key="place_GEO-2755251" type="place">Gröningen</rs> verreyset
+          <lb/>zur Erden ist bestattet worden; welche
+          <lb/>unvermutete Zeitung dan mich sehr
+
+        </p>
+        <fw type="catch" place="bottom">bestürtzet</fw>
+        <pb facs="4326356" n="36"/>
+
+        <p>
+          <lb/>bestürtzet und darbey allsofort
+          <lb/>in die gedancken gebracht hatt, ob
+          <lb/>sollte wohl dieser Todesfahl das
+          <lb/>Utrechtische geschäfft vollkommen
+          <lb/>underbrechen und zu nichts machen;
+          <lb/>Sintemahlen ich wohl vorher sahe daß
+          <lb/>ich mich von meines Bruders <abbr>sel.</abbr> Suc<pc type="hyphenation">-</pc><lb break="no"/>cession schwerlich würde erwehren
+          <lb/>können, darumb ich mir fürgenom<pc type="hyphenation">-</pc><lb break="no"/>men den Herren von <rs key="place_GEO-2745912" type="place">Utrecht</rs> bey
+          <lb/>meiner ankunfft nichts positive
+          <lb/>zu versprechen, sondern alles <foreign xml:lang="lat">ad refe<pc type="hyphenation">-</pc><lb break="no"/>rendum und deliberandum</foreign> naher
+          <lb/><rs key="place_GEO-2661604" type="place">Basel</rs> mitzunemen: diese Zeit<pc type="hyphenation">-</pc><lb break="no"/>liche und schleünige benachrichtigung
+          <lb/>dan von meines Bruders Tod und
+          <lb/>mein darauff gefasste resolution
+          <lb/>nichts gewüsses zu versprechen, ist
+          <lb/>mir sehr wohl zu statten kommen,
+          <lb/>gestalten ich kaum würde haben
+          <lb/>können widerstehen den Herrlichen und
+          <lb/>sehr höfflichen offerten und promesses
+          <lb/>welche mir hernach zu <rs key="place_GEO-2745912" type="place">Utrecht</rs> von
+          <lb/>dem <abbr>H<supplied>.</supplied></abbr> Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sident Burgermeister
+          <lb/>Herren von <rs type="person">Sypensteen</rs> <foreign xml:lang="lat">nomine Senatus</foreign>
+        </p>
+        <fw type="catch" place="bottom">seind</fw>
+        <pb facs="4326357" n="37"/>
+
+        <p>
+          <lb/>seind angetragen worden; bin aber
+          <lb/>wie gemeldet bey meiner resolution
+          <lb/>geblieben, doch mit versprechen ich
+          <lb/>wolle so bald ich zu <rs key="place_GEO-2661604" type="place">Basel</rs> würde
+          <lb/>angelangt seyn, die sachen bey unsren
+          <lb/>Eltern dahin trachten zu dirigiren
+          <lb/>daß Sie zu Satisfaction der <abbr>HH.</abbr> von
+          <lb/><rs key="place_GEO-2745912" type="place">Utrecht</rs> sich möchten declariren.
+          <lb/>Wir seind allso den <date when="1705-08-28">28. Aug.</date> zu <rs key="place_GEO-2745912" type="place">Utrecht</rs>
+          <lb/>ankommen, und den <date when="1705-08-31">31. dito</date> von dannen
+          <lb/>widerumb verreyset.
+          <lb/>In währendem stillligen zu <rs key="place_GEO-2745912" type="place">Utrecht</rs>
+          <lb/>bekam ich ein <rs type="letter">Schreiben</rs> von <abbr>H<supplied>.</supplied></abbr> <abbr>Prof.</abbr>
+          <lb/><rs key="pers_DE-588-120665182" type="person">De Volder</rs> zu <rs key="place_GEO-2751773" type="place">Leyden</rs> <foreign xml:lang="lat">de dato</foreign> <date when="1705-08-21">21. Aug.</date>
+          <lb/>darin Er mir notificirt, daß Er seine
+          <lb/>Profession wollte niderlegen, und auff
+          <lb/>vernemmen daß ich <rs key="place_GEO-2755251" type="place">Groningen</rs> quittiren
+          <lb/>wollte, so offerirte Er mir solche auff
+          <lb/>befehl deß Herren von <rs type="person">Obdam</rs> als ersten
+          <lb/>Curatoris; habe aber Herrn <rs key="pers_DE-588-120665182" type="person">De Volder</rs>
+          <lb/>anderst nicht entsprechen können, als
+          <lb/>ich allbereyt den Herren von <rs key="place_GEO-2745912" type="place">Utrecht</rs>
+          <lb/>gethan, daß ich namlich alles in
+          <lb/><foreign xml:lang="lat">dubio</foreign> liesse und <foreign xml:lang="lat">ad deliberandum</foreign>
+          <lb/>zoge: Wir haben allso unsre reyse
+          <lb/>in Gottes namen fortgesetzet, und seind
+
+        </p>
+        <fw type="catch" place="bottom"><abbr>d.</abbr> 3. Sept.</fw>
+        <pb facs="4326358" n="38"/>
+
+        <p>
+          <lb/><date when="1705-09-03"><hi rend="u"><abbr>d.</abbr> 3. Sept.</hi></date> zu <rs key="place_GEO-2886242" type="place">Cöllen</rs> am Rhein an<pc type="hyphenation">-</pc><lb break="no"/>kommen, underwegen ist unser <rs type="person" key="pers_DE-588-1089913494">Doro<pc type="hyphenation">-</pc><lb break="no"/>theli</rs> so noch gesäugt wurde an der
+          <lb/>Rohtsucht gleichfahls Kranck worden
+          <lb/>ist auch so hart angegriffen worden,
+          <lb/>daß wir für sein leben förchteten;
+          <lb/>es ist aber Gott lob widrumb genesen.
+          <lb/><date when="1705-09-06"><hi rend="u"><abbr>d.</abbr> 6. <abbr>ejusd.</abbr></hi></date> von <rs key="place_GEO-2886242" type="place">Cöllen</rs> auff dem
+          <lb/>Rhein hinauff verreißt, und seind
+          <lb/><date when="1705-09-11"><hi rend="u"><abbr>d.</abbr> 11. <abbr>ejusd.</abbr></hi></date> zu <rs key="place_GEO-2925533" type="place">Franckfurt</rs> glücklich ar<pc type="hyphenation">-</pc><lb break="no"/>rivirt, und den <date when="1705-09-13">13. darauff</date> von dort
+          <lb/>in einer unß von <rs key="place_GEO-2661604" type="place">Basel</rs> auß entgegen
+          <lb/>geschickten Kutschen verreißt, und
+          <lb/>endlich nach abgelegter beschwährlichen,
+          <lb/>langwierigen, gefährlichen, und sehr
+          <lb/>kostbahren reyß; sind wir
+          <lb/><date when="1705-09-20"><hi rend="u"><abbr>d.</abbr> 20. <abbr>ejusd.</abbr></hi></date> zu <rs key="place_GEO-2661604" type="place">Basel</rs> samtlich, voll<pc type="hyphenation">-</pc><lb break="no"/>kommen in gesundheit angelangt;
+          <lb/>und gleichfahls die unsrigen in gutem
+          <lb/>wohlstand angetroffen; dem barm<pc type="hyphenation">-</pc><lb break="no"/>hertzigen Gott seye Lob, Ehr, pre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß und
+          <lb/>danck gesagt für seinen unß unser
+          <lb/>leben lang sonderlich auff dieser
+          <lb/>reyß erzeigten gnadenschutz; Er wolle
+          <lb/>unß ferner vor aller leibs und seel<pc type="hyphenation">-</pc><lb break="no"/>gefahr gnädiglich behüten, so lang wir
+        </p>
+        <fw type="catch" place="bottom">in dieser</fw>
+        <pb facs="4326359" n="39"/>
+
+        <p>
+          <lb/>in dieser Welt herumb wallen, biß
+          <lb/>wir endlich auß dieser mühseligen
+          <lb/>Pilgramschafft, in das himlische
+          <lb/>Vatterland versetzet werden, allwo
+          <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n wird freüde die fülle, darzu
+          <lb/>unß allen zu seiner Zeit der himlische
+          <lb/>Vatter verhelffen wolle, durch den
+          <lb/>einigen verdienst seines Lieben Sohns
+          <lb/>Jesu Christi unsers He<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>lands, deme
+          <lb/>seye samt dem Vatter und <abbr>H<supplied>.</supplied></abbr> Geist
+          <lb/>dem grossen dreyeinigen Gott,
+          <lb/>Ehr und Lob in Ewigkeit. Amen!
+        </p>
+        <p>
+          <lb/>Zu <rs key="place_GEO-2886242" type="place">Cöllen</rs> fand ich die benöthigten
+          <lb/>mir von <rs key="place_GEO-2661604" type="place">Basel</rs> auß geschickten Paßpor<pc type="hyphenation">-</pc><lb break="no"/>ten deren der frantzösische von dem
+          <lb/>König selbsten underschriben, und em<pc type="hyphenation">-</pc><lb break="no"/>pfienge zu gleich <rs type="letter">Brieff</rs>, darin mir
+          <lb/>erst meines Bruders <rs key="pers_DE-588-118509950" type="person">Jacobi</rs> abster<pc type="hyphenation">-</pc><lb break="no"/>ben notificirt wurde.
+          <lb/>Zu <rs key="place_GEO-2925533" type="place">Franckfurt</rs> aber wurde mir
+          <lb/>ein <rs type="letter">Brieff</rs><note><foreign xml:lang="lat">de dato</foreign> <date when="1705-09-01">1. Sept. 1705.</date></note> von <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117641987" type="person">Burmanno</rs> einge<pc type="hyphenation">-</pc><lb break="no"/>händiget, darin Er mir zu wüssen
+          <lb/>gethan, daß der Raht von <rs key="place_GEO-2745912" type="place">Utrecht</rs>
+          <lb/>den Herren Burgermeistern vollmacht
+          <lb/>gegeben, mit mir zu tractiren; welche dan
+
+        </p>
+        <fw type="catch" place="bottom">mir</fw>
+        <pb facs="4326360" n="40"/>
+
+        <p>
+          <lb/>mir offerirten ein jährliches Sala<pc type="hyphenation">-</pc><lb break="no"/>rium von 1600 <abbr>fl.</abbr> holländsch, darzu
+          <lb/>meiner frawen nach meinem Tod
+          <lb/>eine jährliche Pension von 400 <abbr>fl.</abbr>
+          <lb/>diese so vortheilhafftige offerten
+          <lb/>haben meinen <abbr>H<supplied>.</supplied></abbr> Schwäher zimlich
+          <lb/><foreign xml:lang="lat">in suspenso</foreign> gehalten, daß Er lang
+          <lb/>nicht wüste, wessen Er sich ent<pc type="hyphenation">-</pc><lb break="no"/>schliessen wolle; biß daß endlich
+          <lb/>das gantze geschäfft underbrochen
+          <lb/>wurde, in dem eine <foreign xml:lang="lat"><rs type="organisation" key="org_DE-588-1085854191">Amplissima
+          <lb/>Regentia</rs> unanimi voto</foreign> und auff
+          <lb/>eine sehr honorable weiß mir
+          <lb/>die <foreign xml:lang="lat">professionem mathematum</foreign> nicht
+          <lb/>nur conferirt, sondern auch bey
+          <lb/>der Obrigkeit durch eine intercession
+          <lb/>die sach dahin gebracht, daß mir
+          <lb/>das <foreign xml:lang="lat">ordinari salarium</foreign> durch ein
+          <lb/>merckliches <foreign xml:lang="lat">augmentum</foreign> verbessert
+          <lb/>wurde; also hatte man mich bewogen
+          <lb/>die in dem Vatterland mir ange<pc type="hyphenation">-</pc><lb break="no"/>tragene Stationen der Utrechtischen
+          <lb/>und Leydischen vocationen, und allso
+          <lb/>unsrer Universitet nutzen meinem
+          <lb/>privat interesse vorzuziehen: welches
+        </p>
+        <fw type="catch" place="bottom">dan</fw>
+        <pb facs="4326361" n="41"/>
+
+        <p>
+          <lb/>dan bey den <abbr>HH.</abbr> von <rs key="place_GEO-2745912" type="place">Utrecht</rs> und
+          <lb/>sonderlich bey <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117641987" type="person">Burmannus</rs> ein gross
+          <lb/>Lamentiren verursachet, laut sei<pc type="hyphenation">-</pc><lb break="no"/>nes <rs type="letter">Schreibens</rs> <foreign xml:lang="lat">de dato</foreign> <date when="1705-10-13">13. <abbr>8bris</abbr> 1705.</date>
+          <lb/><date when="1705-11-17"><hi rend="u"><abbr>d.</abbr> 17. Novemb. 1705.</hi></date> hab ich die mir auff<pc type="hyphenation">-</pc><lb break="no"/>getragene Profession solenniter an<pc type="hyphenation">-</pc><lb break="no"/>getretten, durch eine <foreign xml:lang="lat">Orationem inaugu<pc type="hyphenation">-</pc><lb break="no"/>ralem</foreign> <rs type="biblio"><title level="m"><foreign xml:lang="lat">De Fato Nov<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> analyseos et
+          <lb/>profundioris Geometri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign></title></rs>.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1706">1706</date></note>
+          <lb/><date when="1706-07-06"><hi rend="u"><abbr>d.</abbr> 6. Jul<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1706.</hi></date> Bin ich in das <foreign xml:lang="lat"><rs type="organisation" key="org_DE-588-123815-2">Collegium
+          <lb/>Philosophicum</rs></foreign> recipirt worden.
+          <lb/><date when="1706-08-20"><hi rend="u"><abbr>d.</abbr> 20. Aug.</hi></date> deß abends umb halb neün
+          <lb/>uhr Baselzeit, hatt Gott der Herr
+          <lb/>unß abermahlen mit einem Töch<pc type="hyphenation">-</pc><lb break="no"/>terlin erfrewet welches den 22. dito
+          <lb/>zu <rs type="place">St. Peter</rs> durch <abbr>H<supplied>.</supplied></abbr> Helffer
+          <lb/><rs type="person">Huber</rs> mit dem nammen <rs type="person">Marga<pc type="hyphenation">-</pc><lb break="no"/>retha</rs> ist getauffet worden. die
+          <lb/>Tauffgezeügen waren <abbr>H<supplied>.</supplied></abbr> <rs type="person">Isac
+          <lb/>Wirtz</rs>, <abbr>Fr.</abbr> <rs type="person" key="pers_DE-588-1089913354">Judith Stupanus</rs> meines
+          <lb/>Bruders <rs key="pers_DE-588-118509950" type="person">Jacobi</rs> <abbr>sel.</abbr> Wittib, und <abbr>Jgfr.</abbr>
+          <lb/><rs type="person">Margaretha Ryhinerin</rs> deß besagten
+          <lb/>Herrn <rs type="person">Wirtzen</rs> Gespons.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1707">1707</date></note>
+          <lb/><date when="1707-05-01"><hi rend="u"><abbr>d.</abbr> 1. May. 1707.</hi></date> <foreign xml:lang="lat">In Regentia Majali</foreign>
+          <lb/>bin ich unanimiter als Ein mittglied in
+          <lb/><foreign xml:lang="lat">Regentiam oder Senatum academicum</foreign> co<pc type="hyphenation">-</pc>
+        </p>
+        <fw type="catch" place="bottom">optirt</fw>
+        <pb facs="4326362" n="42"/>
+
+        <p>
+          <lb break="no"/>optirt worden; den nechstfolgenden
+          <lb/><date when="1707-06-01"><hi rend="u">1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> aber</hi></date> hatt mich das <foreign xml:lang="lat">Collegium
+          <lb/>Philos.</foreign> zum <foreign xml:lang="lat">Decano Facult. Philos.</foreign>
+          <lb/>einmüthig erwehlet; habe allso den
+          <lb/><foreign xml:lang="lat">Decanatum</foreign> allhier das erste mahl an<pc type="hyphenation">-</pc><lb break="no"/>getretten <date when="1707-06-26">d. 26. <abbr>ejusd.</abbr></date> mit einer <foreign xml:lang="lat">Oration</foreign>
+          <lb/><rs type="biblio"><title level="m"><foreign xml:lang="lat">De superstitione in Eclipsibus</foreign></title></rs> auß anlaß
+          <lb/>der vorigen jahrs <date when="1706-05-12">d. 12. May</date> sehr memo<pc type="hyphenation">-</pc><lb break="no"/>rablen Sonnenfinsternuß.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1707">1707</date></note>
+          <lb/><date when="1707-09-13"><hi rend="u"><abbr>d.</abbr> 13. Sept. 1707.</hi></date> hatt der liebe Gott
+          <lb/>unß widrumb mit einem Schwären
+          <lb/>haußCreütz heimgesucht; in dem Er unß
+          <lb/>erst jetzt gemeldtes Kind das schöne und
+          <lb/>liebe Engelin unser <rs type="person">Margrethlin</rs>, unsren
+          <lb/>augen entzogen und zu seinen Himlischen
+          <lb/>gnaden genommen, nach dem es zuvor
+          <lb/>mit einem starcken Husten und <foreign xml:lang="lat">Diar<pc type="hyphenation">-</pc><lb break="no"/>rhea</foreign> ist behafftet gewesen: Es ligt be<pc type="hyphenation">-</pc><lb break="no"/>graben zu <rs type="place">St. Peter</rs> und erwartet
+          <lb/>die Erscheinung <abbr>J. Christi.</abbr> Gott ver<pc type="hyphenation">-</pc><lb break="no"/>leyhe unß eine selige nachfolge!
+        </p>
+        <p>
+          <note place="margin"><date when="1708">1708</date></note>
+          <lb/><date when="1708-03-08"><hi rend="u"><abbr>d.</abbr> 8. Mart<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1708.</hi></date> Ist mein geliebter
+          <lb/>Vatter <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-1089913281" type="person">Nicolaus Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> in dem
+          <lb/><choice><orig><unclear reason="illegible">85</unclear></orig><reg>85.</reg></choice>sten jahr seines alters, nach einer
+          <lb/>kurtzen Kranckheit in Christo Jesu sanfft
+          <lb/>und selig gestorben. Er ligt begraben
+          <lb/>zu <rs type="place">St. Martin</rs>: Gott tröste unß über<pc type="hyphenation">-</pc><lb break="no"/>gebliebene, und bereyte unß gleich<pc type="hyphenation">-</pc><lb break="no"/>fahls zu einem seligen sterbstündlin.
+        </p>
+
+        <p><add>
+          <lb/>In diesem jahr bin ich bey alhiesiger univer<pc type="hyphenation">-</pc><lb break="no"/>sitet zum Prytani erwehlet worden.
+        </add></p>
+        <pb facs="4326363" n="43"/>
+
+
+        <p><add>
+          <note place="margin"><date when="1709">1709</date></note>
+          <lb/><date when="1709-05-28"><hi rend="u"><abbr>d.</abbr> 28. May.</hi></date> habe ich das erste mahl eine
+          <lb/><foreign xml:lang="lat">promotionem solennem</foreign> gehalten, darin ich
+          <lb/>7 Magistros und <unclear reason="illegible">14</unclear> Baccalaureos Creirt.
+        </add></p>
+        <p>
+          <note place="margin"><date when="1709">1709</date></note>
+          <lb/>Bey anfang deß monats Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> em<pc type="hyphenation">-</pc><lb break="no"/>pfienge ich ein <rs type="letter">Schreiben</rs> <foreign xml:lang="lat">de dato</foreign> <date when="1709-05-21">21.
+          <lb/>May 1709.</date> von <abbr>H<supplied>.</supplied></abbr> <abbr>Prof.</abbr> <rs key="pers_DE-588-118869361" type="person">Noodt</rs> zu
+          <lb/><rs key="place_GEO-2751773" type="place">Leyden</rs>, wordurch mir das absterben
+          <lb/>Herrn <abbr>Prof.</abbr> <rs key="pers_DE-588-120665182" type="person">De Volders</rs> notificirt, und
+          <lb/>zu gleich seine vacant gelassene und
+          <lb/>noch nicht ergäntzte Profession mit
+          <lb/>samt seinem gantzen salario und allen
+          <lb/><foreign xml:lang="lat">emolumentis</foreign> angetragen worden; habe
+          <lb/>aber wegen underschiedlichen ursachen
+          <lb/>diese offerten wiewohl an sich selbsten
+          <lb/>sehr considerabel noch nicht annehmen
+          <lb/>können noch wollen; deßwegen diese
+          <lb/>sach noch biß dato <foreign xml:lang="lat">in suspenso</foreign> bleibt,
+          <lb/>und obschon ich seithero durch under<pc type="hyphenation">-</pc><lb break="no"/>schiedliche <rs type="letter">Schreiben</rs> von hoher hand zu
+          <lb/>annehmung dieses beruffs animirt
+          <lb/>wird, so hab ich mich doch noch zu
+          <lb/>nichts resolvirt; sondern habe mir
+          <lb/>vorgenommen eine noch favorablere
+          <lb/>condition abzuwarten, und allsdan
+          <lb/>zu sehen waß Gott mit mir beschlossen
+          <lb/>hatt und wo Er mich haben will daß
+          <lb/>ich die Tage meines lebens enden solle.
+
+        </p>
+
+        <p><add>In diesem jahr bin ich als Prytanis continuirt worden.</add></p>
+        <p>
+          <note place="margin"><date when="1710">1710</date></note>
+          <lb/><date when="1710-05-18"><hi rend="u"><abbr>d.</abbr> 18. May. 1710.</hi></date> deß morgens ein
+          <lb/>halb viertel vor 3. uhr, hatt unß der
+          <lb/>himlische Vatter den erlittenen verlurst
+        </p>
+        <pb facs="4326364" n="44"/>
+
+        <p>
+          <lb/>deß lieben <rs type="person">Margrethli</rs> <abbr>sel.</abbr> in gnaden
+          <lb/>ersetzet, in dem Er unß den dritten Sohn
+          <lb/>geschencket: welcher den <date when="1710-05-20">20. dito</date> zu <rs type="place">St.
+          <lb/>Peter</rs> durch <abbr>H<supplied>.</supplied></abbr> <rs type="person">Samuel Imhoff</rs>
+          <lb/>ist getauffet und ihme der nammen
+          <lb/><rs key="pers_DE-588-117589136" type="person">Johannes</rs> gegeben worden. Es verleyhe
+          <lb/>ihme der barmhertzige Gott, seine
+          <lb/>Gnad und segen, und gebe sein gedeyen
+          <lb/>zu seiner aufferziehung, daß er
+          <lb/>ein Kind der seligkeit werde; und
+          <lb/>wir seine Eltern viel ergötzlichkeit
+          <lb/>und vergnügung an Ihme erleben mögen.
+        </p>
+        <p>
+          <note place="margin"><date when="1710">1710</date></note>
+          <lb/><date when="1710-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1710.</hi></date> Bin ich zum 2ten mahl
+          <lb/>zum <foreign xml:lang="lat">Decano Facult. Philos.</foreign> wider
+          <lb/>all mein verhoffen und wider gewohnheit
+          <lb/>gemachet worden. <date when="1710-06-29"><hi rend="u"><abbr>d.</abbr> 29. <abbr>ejusd.</abbr></hi></date> hab ich
+          <lb/>den <foreign xml:lang="lat">Decanatum</foreign> angetretten mit einer
+          <lb/><foreign xml:lang="lat">Oration</foreign> <rs type="biblio"><title level="m"><foreign xml:lang="lat">De usu rationis in scientiis</foreign></title></rs>.
+
+        </p>
+
+        <p><add>
+          <lb/><metamark>#</metamark> die Tauffgezeügen bey der <abbr>H<supplied>.</supplied></abbr> Tauff
+          <lb/>seind gewesen <abbr>H<supplied>.</supplied></abbr> <rs type="person">Hanß Georg König</rs>,
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs type="person">Andreas Karger</rs>, und <abbr>Fr.</abbr> <rs type="person">Anna
+          <lb/>Elisabetha Ortman</rs> Herrn <rs type="person">Hanß Georg
+          <lb/>Kargers</rs> Ehliche haußfraw.
+        </add></p>
+        <pb facs="4326365" n="45"/>
+
+        <p><foreign xml:lang="lat">Continuatio me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>.</foreign></p>
+        <p>
+          <note place="margin"><date when="1711">1711</date></note>
+          <lb/><foreign xml:lang="lat">In regentia Majali</foreign> ist <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-128552018" type="person">Eglinger</rs>
+          <lb/><abbr>Med. Prof.</abbr> zum Prytani gemachet, ich
+          <lb/>aber auff deßen baldiges absterben
+          <lb/>ihme in diesem ambt succedirt und allso
+          <lb/>zum dritten mahl dasselbe bedienet hab.
+        </p>
+        <p>
+          <note place="margin"><date when="1712">1712</date></note>
+          <lb/><date when="1712-01-24"><hi rend="u"><abbr>d.</abbr> 24. Jan.</hi></date><note place="margin">umb 10¾ uhr deß morgens</note> Hatt unß der Gute
+          <lb/>Gott den vierten Sohn an das liecht
+          <lb/>dieser Welt laßen gebohren
+          <lb/>werden: Ist darauff den <date when="1712-01-26">26. dito</date>
+          <lb/>durch <abbr>H<supplied>.</supplied></abbr> <rs type="person">Samuel Imhoff</rs> zu
+          <lb/>St. Peter mit dem nammen <rs key="pers_DE-588-1089913311" type="person">Jaco<pc type="hyphenation">-</pc><lb break="no"/>bus</rs> getauffet worden: Es wolle der
+          <lb/>Liebe Gott Ihne in seinen Schutz nem<pc type="hyphenation">-</pc><lb break="no"/>men, seinen segen zu deßen aufferzie<pc type="hyphenation">-</pc><lb break="no"/>hung verleyhen und unß die Eltern viel
+          <lb/>Freüd und Ehr an Ihme erleben laßen.
+          <lb/>Seine Gött<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> und Gotten seind gewesen
+          <lb/><abbr>H<supplied>.</supplied></abbr> <abbr>Joh.</abbr> <rs type="person" key="pers_DE-588-116082356">Jacobus Battier</rs> <abbr>J.U.D.</abbr> et <abbr>Prof.</abbr>
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs type="person">Ludovicus König</rs> deß gerichts und
+          <lb/>Obristmeister in der mindern Statt.
+          <lb/>Und <abbr>Fr.</abbr> <rs type="person">Barbara Stupanus</rs> seine deß
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs type="person">Königs</rs> verlobte Braut.
+          <lb/><date when="1712-05-01"><hi rend="u"><abbr>d.</abbr> 1. May.</hi></date> Ist mir von Einer <rs type="organisation" key="org_DE-588-1085854191"><abbr>Lobl.</abbr> Regentz</rs>
+          <lb/>allhier die Visitations Stell in dem <rs type="organisation" key="org_resource_000006">Gym<pc type="hyphenation">-</pc><lb break="no"/>nasio Mariano</rs> auffgetragen worden.
+
+        </p>
+        <pb facs="4326366" n="46"/>
+
+        <p>
+          <note place="margin"><date when="1712">1712</date></note>
+          <lb/><date when="1712-12-01"><hi rend="u"><abbr>d.</abbr> 1. Decemb.</hi></date> Bin ich als ein Mitt<pc type="hyphenation">-</pc><lb break="no"/>glied von der <rs type="organisation" key="org_DE-588-39272-8">Königl. Societet
+          <lb/>in Engelland</rs>
+          <lb/>auffgenommen und
+          <lb/>ist mir solches von dem <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117586765" type="person">De Moy<pc type="hyphenation">-</pc><lb break="no"/>vre</rs> durch ein <rs type="letter">Missive</rs> <foreign xml:lang="lat">sub dato</foreign>
+          <lb/><date when="1712-12-17">17. Decemb.</date> notificiret worden.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1713">1713</date></note>
+          <lb/><date when="1713-06-14"><hi rend="u"><abbr>d.</abbr> 14. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> hatt mich eine <rs type="organisation" key="org_DE-588-1085854191"><abbr>Lobl.</abbr>
+          <lb/>Regentz</rs> allhier zum Curatore
+          <lb/><foreign xml:lang="lat">Fisci Legatorum</foreign> ernennet.
+        </p>
+        <p>
+          <note place="margin"><date when="1714">1714</date></note>
+          <lb/>In diesem jahr ist mir die
+          <lb/><foreign xml:lang="lat">Professio matheseos</foreign> zu <rs key="place_GEO-3171728" type="place">Padua</rs> ange<pc type="hyphenation">-</pc><lb break="no"/>tragen worden, mit einem <foreign xml:lang="lat">salario</foreign>
+          <lb/>von 1500 Venetianischen ducati oder
+          <lb/>2250 <abbr>fl.</abbr> hiesigen gelts; hab aber sol<pc type="hyphenation">-</pc><lb break="no"/>ches auß gewissen ursachen außgeschlagen.
+        </p>
+        <p>
+          <note place="margin"><date when="1715">1715</date></note>
+          <lb/><date when="1715-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> Bin ich das 3te mahl zum
+          <lb/><foreign xml:lang="lat">Decano Phil.</foreign> erwehlet, darauff dan
+          <lb/>den <date when="1715-06-30">30. <abbr>ejusd.</abbr></date> denselben angetretten
+          <lb/>mit einer <foreign xml:lang="lat">Oration</foreign> <rs type="biblio"><title level="m"><foreign xml:lang="lat">De Cometis</foreign></title></rs>.
+
+          <lb/><date when="1715-07-04"><hi rend="u"><abbr>d.</abbr> 4. Jul<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> hab ich widerumb 6 Magistros
+          <lb/>und <add>auch</add> 7 Baccalaureos solenniter creiert.
+        </p>
+        <p>
+          <note place="margin"><date when="1716">1716</date></note>
+          <lb/><date when="1716-05-03"><hi rend="u"><abbr>d.</abbr> 3. May.</hi></date> Bin ich von einer <rs type="organisation" key="org_DE-588-1085854191"><abbr>Lobl.</abbr>
+          <lb/>Regentz</rs> zum <foreign xml:lang="lat">Rectore Universita<pc type="hyphenation">-</pc><lb break="no"/>tis</foreign> einhällig designiert worden, und
+          <lb/>den <date when="1716-06-21">21. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> darauff inauguriert worden
+          <lb/>mein Inaugural Oration ware <rs type="biblio"><title level="m"><foreign xml:lang="lat">De Ne<pc type="hyphenation">-</pc><lb break="no"/>cessitate Scholarum</foreign></title></rs>.
+
+        </p>
+        <pb facs="4326367" n="47"/>
+
+        <p>
+          <note place="margin"><date when="1717">1717</date></note>
+          <lb/>In dem jahr 1717. ist mir von den <abbr>HH.</abbr>
+          <lb/><foreign xml:lang="lat"><rs type="organisation" key="org_DE-588-1086211391">Curatoribus Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Groningensis</rs></foreign>
+          <lb/>eine <rs type="letter">Missive</rs> Zugesandt vom <date when="1717-02-27">27. febr.</date>
+          <lb/>wordurch Sie mich zum Zweyten mahl
+          <lb/>vocieren und auff das verbindlichste
+          <lb/>invitieren die vor diesem bey Ihnen
+          <lb/>10 jahr lang versehene <foreign xml:lang="lat">professionem
+          <lb/>matheseos</foreign>, widrumb anzunemmen, offe<pc type="hyphenation">-</pc><lb break="no"/>rieren darzu den <foreign xml:lang="lat">Titulum professionis phi<pc type="hyphenation">-</pc><lb break="no"/>losophi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> und neben dem vorigen <foreign xml:lang="lat">salario</foreign>
+          <lb/>annoch 100 <abbr>rh.</abbr> <foreign xml:lang="lat">augmenti</foreign> welche der Ma<pc type="hyphenation">-</pc><lb break="no"/>gistrat der Statt auch jetzund wie vor
+          <lb/>diesem auß seinem <foreign xml:lang="lat">aerario</foreign> darzu zu legen
+          <lb/>verspricht: Darneben werden mir von under<pc type="hyphenation">-</pc><lb break="no"/>schiedlichen Patronen und freünden, sonderliche
+          <lb/>promessen gethan, daß man mir, wan ich
+          <lb/>eine Zeit lang werde dort gewesen se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n,
+          <lb/>mein <foreign xml:lang="lat">salarium</foreign> von Zeit zu Zeit werde ver<pc type="hyphenation">-</pc><lb break="no"/>beßern. Ist ja ein Zeichen, daß man mich
+          <lb/>sehr verlangte, und hiemit daß ich das
+          <lb/>erste mahl müsse gute satisfaction
+          <lb/>gegeben haben. Möchte nur wünschen daß
+
+          <lb/>mein angehendes alter und andere obstacula
+          <lb/>nicht verhindert hätten, das Vatterland darin
+          <lb/>kein Prophet viel giltet zu vertauschen mit
+          <lb/>einem andern land darin ich von grossen u.
+          <lb/>Kleinen so hertzlich geliebet und estimiert
+          <lb/>worden bin.
+        </p>
+        <pb facs="4326368" n="48"/>
+
+        <p>
+          <note place="margin"><date when="1719">1719</date></note>
+          <lb/><date when="1719-05-07"><hi rend="u"><abbr>d.</abbr> 7. May</hi></date> hab ich die Visitations Stell
+          <lb/>in dem alhiesigen <foreign xml:lang="lat"><rs type="organisation">Gymnasio Mariano</rs></foreign>
+          <lb/>auff ersehen daß ungeacht all meines
+          <lb/>fle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß und Trew das vorgehabte
+          <lb/>reformations wesen durch practiquen
+          <lb/>der übellgesinnten zu keinem guten
+          <lb/>end hatt können gebracht werden, und
+          <lb/>ich mir durch meinen e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ffer, müh und
+          <lb/>auffmercksamkeit wormit ich dem Schul<pc type="hyphenation">-</pc><lb break="no"/>fisco wohl 5000 <abbr>fl.</abbr> erspahrt, nur der
+          <lb/>welt haß und undanck auff den halß
+          <lb/>geladen, widrumb resigniert und bin
+          <lb/>endlich nach Zweymahl mir gegebener
+          <lb/>abschlägigen antwort darvon ent<pc type="hyphenation">-</pc><lb break="no"/>laßen worden. diese charge hab ich
+          <lb/>7 jahr verwaltet, und bey den Gymnasiarch<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+          <lb/>rechnungen grossen verdruß gehabt, wo
+          <lb/>bey dan wie gesagt die Schul ohne mei<pc type="hyphenation">-</pc><lb break="no"/>ne vigilanz wohl für 5000 <abbr>fl.</abbr> würde
+          <lb/>zu kurtz kommen se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n.
+        </p>
+        <p>
+          <note place="margin"><date when="1720">1720</date></note>
+          <lb/><date when="1720-05-01"><hi rend="u"><abbr>d.</abbr> 1. May</hi></date> Ist mir zum vierten mahl
+          <lb/>der <foreign xml:lang="lat">Decanatus philosophicus</foreign> auffgetra<pc type="hyphenation">-</pc><lb break="no"/>gen worden, welchen ich den <date when="1720-05-30">30. <abbr>ejusd.</abbr></date> solenni<pc type="hyphenation">-</pc><lb break="no"/>ter angetretten mit einer <foreign xml:lang="lat">Oration</foreign> <rs type="biblio"><title level="m"><foreign xml:lang="lat">De Mundi
+          <lb/>Mirabilibus</foreign></title></rs>.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1721">1721</date></note>
+          <lb/><date when="1721-05-04"><hi rend="u"><abbr>d.</abbr> 4. May.</hi></date> <foreign xml:lang="lat">In Regentia Majali</foreign> ist
+          <lb/>mir die <foreign xml:lang="lat">Curatela Fisci Legati</foreign> widerumb
+          <lb/>anvertrawet worden.
+          <lb/><date when="1721-06-10"><hi rend="u"><abbr>d.</abbr> 10. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> hab ich 8 Magistros und 11.
+          <lb/>Laureatos creiert.
+        </p>
+        <pb facs="4326369" n="49"/>
+
+        <p>
+          <note place="margin"><date when="1721">1721</date></note>
+          <lb/><date when="1721-06-29"><hi rend="u"><abbr>d.</abbr> 29. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> Sontags morgens
+          <lb/>umb 9¼ uhr ist unß der 5te
+          <lb/>Sohn glücklich Zur Welt gebohren;
+          <lb/>dafür Gott dem Herren hertzlich gedanckt,
+          <lb/>Er wolle zu aufferziehung dieses kinds
+          <lb/>seinen reichen segen verleyhen und auß dem<pc type="hyphenation">-</pc><lb break="no"/>selbigen ein kind der seligkeit machen. Den
+          <lb/>darauff folgenden donnerstag als den <date when="1721-07-03">3.
+          <lb/>Jul<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> ist das kind zu <rs type="place">St. Peter</rs> durch <abbr>H<supplied>.</supplied></abbr>
+          <lb/>Candid. <rs type="person" key="pers_DE-588-1089913338">Bened. Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> mit dem Na<pc type="hyphenation">-</pc><lb break="no"/>men <rs key="pers_DE-588-1090746725" type="person">Emanuel</rs> getaufft worden.
+          <lb/>Die Tauffgezeügen seind gewesen
+          <lb/>1. <abbr>H<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-1074070976">Emanuel Falckner</rs> deß Geheimen
+          <lb/>Rahts und 3er <abbr>H<supplied>.</supplied></abbr>
+          <lb/>2. <abbr>H<supplied>.</supplied></abbr> <rs type="person">Hanß Jacob Hoffman</rs> deß Rahts
+          <lb/>3. <abbr>Jgfr.</abbr> <rs type="person">Susanna Mangoldin</rs>.
+          <lb/><hi rend="u">NB.</hi> Gleich nach vollbrachter <abbr>H<supplied>.</supplied></abbr> Tauff
+          <lb/>nemlich ¼ nach 9 uhr ist ein erdbidem
+          <lb/>entstanden der so starck war, daß die
+          <lb/>leüt begundten auß den häuseren
+          <lb/>sich zu salvieren.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1722-06">1722<lb/>Junio.</date></note>
+          <lb/>Bin ich <foreign xml:lang="lat">in Ampl. Reg.</foreign> neben <abbr>Exc.</abbr> <abbr>D.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-118773321" type="person">Theo<pc type="hyphenation">-</pc><lb break="no"/>doro Zuingero</rs> zu einem <foreign xml:lang="lat">Legato</foreign> ernennet
+          <lb/>worden umb be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> dem Bischoff von <rs key="place_GEO-2661604" type="place">Basel</rs> die <foreign xml:lang="lat">Reno<pc type="hyphenation">-</pc><lb break="no"/>vationem vicecancellariatus</foreign> zu begehren; die
+          <lb/><foreign xml:lang="lat">Legation</foreign> ist in eben diesem monat angetretten,
+          <lb/>und glücklich vollbracht worden.
+        </p>
+        <pb facs="4326370" n="50"/>
+
+        <p>
+          <note place="margin"><date when="1723">1723</date></note>
+          <lb/><date when="1723-05"><hi rend="u"><abbr>d.</abbr> <unclear reason="illegible">…</unclear>. Ma<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice></hi></date> Ist mir die <foreign xml:lang="lat">Curatela Fisci Leg.</foreign> an<pc type="hyphenation">-</pc><lb break="no"/>noch für ein jahr conferiert worden, welches hie<pc type="hyphenation">-</pc><lb break="no"/>mit das 5te jahr ist daß ich diese charge be<pc type="hyphenation">-</pc><lb break="no"/>diene.
+          <lb/><foreign xml:lang="lat">In eadem Regentia</foreign>, bin ich <foreign xml:lang="lat">per plurima suffragia</foreign>
+          <lb/>in das <foreign xml:lang="lat">ternarium pro rectoratu Acad.</foreign> erwehlet worden,
+          <lb/>Das looß aber ist auff <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-115793895">Sam. Battier</rs> gefallen.
+        </p>
+        <p>
+          <note place="margin"><date when="1724">1724</date></note>
+          <lb/>Im Junio hab ich ein <rs type="letter">Schreiben</rs> erhalten von
+          <lb/><abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117592307" type="person">Francisco Maria Zanotti</rs> <foreign xml:lang="lat">Bononiensis Scien<pc type="hyphenation">-</pc><lb break="no"/>tiarum instituti et Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Secretario</foreign>;
+          <lb/>dar durch mir notificiert wird, daß ich in
+          <lb/>diese <foreign xml:lang="lat"><rs type="organisation" key="org_DE-588-115557-X">Academiam Scientiarum Bononiensem</rs></foreign>
+          <lb/>sehr <foreign xml:lang="lat">honorifice</foreign> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e recipiert worden.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1725">1725</date></note>
+          <lb/><date when="1725-03-05"><hi rend="u"><abbr>d.</abbr> 5. Mart<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> bin ich von <abbr>E. E.</abbr> Grossen Raht als
+          <lb/>Inspector deß hiesigen <rs type="organisation">Gymnas<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> mit sonderbaren
+          <lb/>elogiis und sehr <foreign xml:lang="lat">honorifice</foreign> für ein
+          <lb/>jahr ernennet worden: Welches schwäre ambt
+          <lb/>aber ich anfangs nicht wollen annemmen, doch
+          <lb/>endlich auff bewegliches zu sprechen etlicher hohen Per<pc type="hyphenation">-</pc><lb break="no"/>sonen mich darzu verstanden hab.
+          <add>
+            <lb/><date when="1725">1725.</date> hatt mein Sohn <rs key="pers_DE-588-118656503" type="person">Daniel</rs> das Pariser Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mium
+            <lb/>von der Academie Royale des Sciences erhalten; das
+            <lb/>Thema war <rs type="biblio" key="biblio_2EHNCUE7"><title level="m"><foreign xml:lang="fre">La perfection des clepsidres ou des sabliers
+            <lb/>sur Mer.</foreign></title></rs>
+          </add>
+        </p>
+        <p>
+          <note place="margin"><date when="1726">1726</date></note>
+          <lb/><date when="1726-02">Im februar<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> hatt mich Gott mit einer schwären
+          <lb/>und langwirigen Kranckheit heimgesucht, welche
+          <lb/>meistens entstanden auß den übermässigen abmattungen
+          <lb/>die mir die Schularbe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>t zugezogen. Von dieser Kranck<pc type="hyphenation">-</pc><lb break="no"/>heit bin ich durch Gottes Gnad wider genesen, nach
+          <lb/>dem ich über 3 monat lang zu bette ge<pc type="hyphenation">-</pc><lb break="no"/>legen.
+          <lb/><date when="1726-08-09"><hi rend="u"><abbr>d.</abbr> 9. Aug.</hi></date> hatt mein Sohn <rs key="pers_DE-588-117589144" type="person">Nicolaus</rs> zu <rs type="place" key="place_GEO-498817">Petersburg</rs> dieses
+          <lb/>zeitliche gesegnet: Gott wolle unß hinderlaßene trösten.
+          <lb/>Er ist mit seinem bruder <rs key="pers_DE-588-118656503" type="person">Daniel</rs> den 5.
+        </p>
+        <fw type="catch" place="bottom right">Sept.</fw>
+        <pb facs="4326371" n="51"/>
+
+        <p>
+          <lb break="no"/><date when="1725-09-05">Sept. 1725.</date> auff <rs type="place" key="place_GEO-498817">Petersburg</rs> verre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>set, al<pc type="hyphenation">-</pc><lb break="no"/>wohin Sie be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>de als Professores auff der
+          <lb/>dort new auffgerichteten <rs type="organisation" key="org_DE-588-1292277092">Academie</rs> mit
+          <lb/>schönen salariis seind beruffen worden.
+          <lb/>Nachdem der selige Verstorbene zu vor
+          <lb/>die <foreign xml:lang="lat">Professionem Juris</foreign> zu <rs type="place" key="place_GEO-2661552">Bern</rs> 3
+          <lb/>jahr lang bedienet hatte.
+        </p>
+        <p>
+          <note place="margin"><date when="1727">1727</date></note>
+          <lb/><date when="1727-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>.</hi></date> Bin ich zum 5ten mahl zum
+          <lb/><foreign xml:lang="lat">Decano Philos.</foreign> ernennet worden;
+          <lb/>welches officium ich den <date when="1727-06-29">29. <abbr>ejusd.</abbr></date> ange<pc type="hyphenation">-</pc><lb break="no"/>tretten mit einer Oration <rs type="biblio"><title level="m"><foreign xml:lang="lat">de usu ra<pc type="hyphenation">-</pc><lb break="no"/>tionis in re medica</foreign></title></rs>. Diese charge hätte
+          <lb/>schon 2 jahr zuvor mir widerumb
+          <lb/>sollen conferiert werden, hatte aber we<pc type="hyphenation">-</pc><lb break="no"/>gen mir obliegenden Schulinspectur die<pc type="hyphenation">-</pc><lb break="no"/>selbige abgebetten; Welches ich auch deß<pc type="hyphenation">-</pc><lb break="no"/>folgenden jahrs gethan hab, weil ich von
+          <lb/>kurtz zuvor außgestandener Kranck<pc type="hyphenation">-</pc><lb break="no"/>heit meine kräfften noch nicht erholet
+          <lb/>hatte.
+          <lb/><date when="1727-06-04"><hi rend="u"><abbr>d.</abbr> 4. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>.</hi></date> hab ich widerumb eine solenne
+          <lb/>Promotionem 7 Magistrorum et 9 Laurea<pc type="hyphenation">-</pc><lb break="no"/>torum gehalten.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1729">1729</date></note>
+          <lb/><date when="1729-05-01"><hi rend="u"><abbr>d.</abbr> 1. Ma<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>.</hi></date> Bin ich <foreign xml:lang="lat">per plura suffragia</foreign> wider<pc type="hyphenation">-</pc><lb break="no"/>umb in das <foreign xml:lang="lat">ternarium pro Rectoratu
+          <lb/>Acad.</foreign> erwehlet worden. Es hatt aber das
+          <lb/>looß Herrn <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-117603155">J. Rod. Zuingern</rs> ge<pc type="hyphenation">-</pc><lb break="no"/>troffen.
+        </p>
+        <p><add>
+          <lb/><metamark>⊕</metamark> In diese <rs type="organisation" key="org_DE-588-1292277092"><abbr>Acad.</abbr> <abbr>Imper.</abbr> Petropolit.</rs> bin ich auch als
+          <lb/>ein <foreign xml:lang="lat">Membrum honorar.</foreign> recipiert worden.
+        </add></p>
+        <pb facs="4326372" n="52"/>
+
+        <p>
+          <note place="margin"><date when="1730">1730</date></note>
+          <lb/>Im Aprili ist mir von der <rs type="organisation" key="org_DE-588-35019-9">Academie
+          <lb/>Roy. des Sciences</rs> das grössere pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mium
+          <lb/>von 2500 livres zu erkant worden.
+          <lb/>Das Thema war <rs type="biblio"><title level="m"><foreign xml:lang="fre">Quelle est la Cause
+          <lb/>physique de la figure elliptique des
+          <lb/>Planetes et de la mobilité de leurs
+          <lb/>aphelies.</foreign></title></rs>
+
+          <lb/>In folgender Regentia Majali so
+          <lb/>den <date when="1730-05-07">7. Ma<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice></date> gehalten worden; bin ich
+          <lb/>nochmalen <foreign xml:lang="lat">per majora suffragia</foreign> in das
+          <lb/><foreign xml:lang="lat">ternarium pro Rectoratu Acad.</foreign> ge<pc type="hyphenation">-</pc><lb break="no"/>kommen und ist auch das looß auff
+          <lb/>mich gefallen; hab aber solche charge
+          <lb/>anzunemmen mich gewäigert, weil
+          <lb/>ich den Reformations e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d, deßen form
+          <lb/>anderst eingerichtet ist als solche von dem
+          <lb/>hohen Magistrat vorgeschrieben worden,
+          <lb/>zu schwören ein billiches bedencken trage.
+          <lb/>Dan mich duncket, daß niemand als
+          <lb/>der gesatzgeber selbsten den e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d ver<pc type="hyphenation">-</pc><lb break="no"/>ändern oder anderst außlegen könne als der
+          <lb/>klare buchstaben lautet.
+          <lb/><date when="1730-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>.</hi></date> Ist mir der Decanatus
+          <lb/>Philos. zwar zum 6ten mahl auffgetra<pc type="hyphenation">-</pc><lb break="no"/>gen worden; hab aber denselben gleichfals
+          <lb/>außgeschlagen, in dem es mich nicht an<pc type="hyphenation">-</pc><lb break="no"/>ständig gedaucht, den Rectoratum mit dem
+          <lb/>Decanatu, das mehrere mit dem minderen
+          <lb/>zu vertauschen.
+        </p>
+        <pb facs="4326373" n="53"/>
+
+        <p>
+          <note place="margin"><date when="1731">1731</date></note>
+          <lb/><date when="1731-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> Ist mir der Decanatus Philos. wider
+          <lb/>auffgetragen worden, hab auch denselben gleich<pc type="hyphenation">-</pc><lb break="no"/>sam wider meinen willen und also zum 6ten mal
+          <lb/>auff mich nemmen müßen, bin aber festiglich ge<pc type="hyphenation">-</pc><lb break="no"/>sinnet ins könfftig kein <foreign xml:lang="lat">munus Acad.</foreign> mehr anzu<pc type="hyphenation">-</pc><lb break="no"/>nemmen, wan ich je meiner selbst meister blei<pc type="hyphenation">-</pc><lb break="no"/>ben wurd. Meine <foreign xml:lang="lat">inaugural Oration</foreign> ware
+          <lb/><rs type="biblio"><title level="m"><foreign xml:lang="lat">De Modo quo Philosophus gerere se debeat in
+          <lb/>ferenda fortuna tam secunda quam adversa</foreign></title></rs>,
+          <lb/>auß anlaß der schwären Müllerischen banquer<pc type="hyphenation">-</pc><lb break="no"/>oute die mich kurtz zuvor getroffen.
+
+        </p>
+        <p>
+          <note place="margin"><date when="1733">1733</date></note>
+          <lb/><date when="1733-09-19"><hi rend="u"><abbr>d.</abbr> 19. Sept.</hi></date> Ist zu meiner freüd mein Sohn
+          <lb/><rs key="pers_DE-588-118656503" type="person">Daniel</rs>, der aber eben auff der ruckre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ß von <rs type="place" key="place_GEO-498817">Peters<pc type="hyphenation">-</pc><lb break="no"/>burg</rs> begriffen und sich mit seinem Bruder
+          <lb/><rs key="pers_DE-588-117589136" type="person">Johanne</rs> zu <rs type="place" key="place_GEO-2988507">Paris</rs> befande, durch das Looß
+          <lb/>zum Professore Anatomico-Botanices ge<pc type="hyphenation">-</pc><lb break="no"/>macht worden; neben Ihme waren in dem Terna<pc type="hyphenation">-</pc><lb break="no"/>rio <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117652245" type="person">Benedict Stählin</rs> und <abbr>H<supplied>.</supplied></abbr> <unclear reason="illegible">…</unclear> Cand. <rs type="person">Huber</rs>
+          <add>mit dem er <unclear reason="illegible">gestochen</unclear></add>. In der ersten Claß hatte er das suffragium deß <abbr>H<supplied>.</supplied></abbr>
+          <lb/><abbr>D<hi rend="sup">r</hi></abbr> <rs type="person">Königs</rs>, in der anderen deß <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-115793895">Battier</rs>,
+          <lb/>und in der dritten der <abbr>HH.</abbr> <abbr>D<hi rend="sup">r</hi></abbr> Stattschreibers, <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1089870078">Ton<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ola</rs> und <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-117603155">Zwingers</rs>, in dieser
+          <lb/>dritten Claß war noch der Vierte <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119166895" type="person">Niclauß
+          <lb/>Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> welcher da er verwandschaffts halber
+          <lb/>sein suffragium seinem Vetter nicht geben
+          <lb/>konte hatt er es dem <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1056088117">Buxtorff</rs> gegeben;
+          <lb/>ist allso der neüe Professor gleichsam unani<pc type="hyphenation">-</pc><lb break="no"/>miter in die wahl kommen.
+          <lb/><date when="1733-10-21"><hi rend="u"><abbr>d.</abbr> 21. Octob.</hi></date> Ist obbemeldter Professor designa<pc type="hyphenation">-</pc><lb break="no"/>tus als absens <foreign xml:lang="lat">sub Camino</foreign> zum Doctore Med.
+          <lb/>creirt worden; sein Promotor war <abbr>H<supplied>.</supplied></abbr> <abbr>D<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-117603155">Zwinger</rs>
+          <lb/>ietzmaliger Decanus Med. der tag der Promo<pc type="hyphenation">-</pc><lb break="no"/>tion war just der namliche tag, da mein Sohn <rs key="pers_DE-588-1089913311" type="person">Jacob</rs>
+
+        </p>
+        <pb facs="4326374" n="54"/>
+
+        <p>
+          <lb/>zu <rs type="place" key="place_GEO-2973783">Straßburg</rs> ehelich copulirt wurd mit
+          <lb/><abbr>Jgfr.</abbr> <rs type="person">Susanna Maria Debary</rs>: und da den
+          <lb/>folgenden Montag darauff als <date when="1733-10-26">d. 26. Octob.</date> meine
+          <lb/>Tochter <rs key="pers_DE-588-1089913494" type="person">Dorothea</rs> ihr hochzeitliches fest
+          <lb/>gleichfals begehen sollte mit <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-124202594" type="person">J. Rod. Bat<pc type="hyphenation">-</pc><lb break="no"/>tier</rs> <abbr>L.</abbr> Hebr. Professor. Gott verleyhe
+          <lb/>allerseits seinen seegen!
+
+        </p>
+        <p>
+          <note place="margin"><date when="1734">1734</date></note>
+          <lb/>In dem Majo ist von der <rs type="organisation" key="org_DE-588-35019-9">Academie Roy.
+          <lb/>des Sciences</rs> das grössere pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mium von
+          <lb/>2500 livres auff das duplum, nemlich auff
+          <lb/>5000 livr. gesetzet, und die eine helffte
+          <lb/>mir, die andere aber meinem Sohn <rs key="pers_DE-588-118656503" type="person">Da<pc type="hyphenation">-</pc><lb break="no"/>niel</rs> decernirt worden; Hatt also ieder
+          <lb/>von unß be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den 2 mahl victorisiert.
+          <lb/>Das Thema ist jetzund gewesen: <rs type="biblio" key="biblio_DDGGYG92"><title level="m"><foreign xml:lang="fre">Quelle
+          <lb/>est la cause physique de l’inclinaison des
+          <lb/>Plans des Orbites des Planètes par rapport au
+          <lb/>plan de l’Equateur de la revolution du Soleil
+          <lb/>autour de son axe, et d’où vient que les incli<pc type="hyphenation">-</pc><lb break="no"/>naisons de ces orbites sont differentes entr’elles.</foreign></title></rs>
+          <lb/><hi rend="u">NB.</hi> Diese unß dem Vatter und dem Sohn zuge<pc type="hyphenation">-</pc><lb break="no"/>fallene ehr muß gewißlich den meisten von un<pc type="hyphenation">-</pc><lb break="no"/>seren Professoribus und Collegis sehr übel gefallen
+          <lb/>haben, sintemalen <foreign xml:lang="lat">omnes altum servarunt silentium</foreign>
+          <lb/>außgenommen zween welche mir gratulirt haben.
+          <lb/>die übrigen haben es mit schälen augen angesehen,
+          <lb/>und mit stillschweigen supprimirt.
+        </p>
+        <p>
+          <note place="margin"><date when="1735">1735</date></note>
+          <lb/><date when="1735-06-01"><hi rend="u"><abbr>d.</abbr> 1. Jun<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi></date> der Decanatus Philos. ist mir zum 7ten
+          <lb/>mahl wider meinen willen auffgetrungen ge<pc type="hyphenation">-</pc><lb break="no"/>worden; die inaugural oration ware <rs type="biblio"><title level="m"><foreign xml:lang="lat">de usu
+          <lb/>matheseos in dirigenda Ratione.</foreign></title></rs>
+
+        </p>
+        <pb facs="4326375" n="55"/>
+
+        <pb facs="4326376" n="56"/>
+
+        <pb facs="4326377" n="57"/>
+
+        <pb facs="4326378" n="58"/>
+
+
+        <p>
+          <lb/><abbr>Carm.</abbr> lat.) <rs type="biblio"><foreign xml:lang="lat">de igne lambente</foreign></rs>
+          <lb/>hab. pro 1. Laur. <date when="1680-06-10"><abbr>d.</abbr> 10. Jun. 1680.</date>
+
+          <lb/><metamark>────────────</metamark>
+          <lb/><abbr>Carm.</abbr> gr.) <rs type="biblio"><foreign xml:lang="lat">Principem esse propter Subditos</foreign></rs>
+          <lb/>hab. pro Mag. <date when="1685-12-08"><abbr>d.</abbr> 8. Xbr 1685.</date>
+          <lb/><metamark>────────────</metamark>
+          <lb/><abbr>Disp.</abbr> <foreign xml:lang="lat">sub pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sid. med.</foreign> <note place="margin">1)</note> <rs type="biblio" key="biblio_W6BHQDM2"><foreign xml:lang="lat">de Effervescentia <choice><orig><g ref="#und">[und]</g></orig><reg>und</reg></choice> ferm.</foreign></rs>
+          <lb/>hab. <date when="1690-09-19"><abbr>d.</abbr> 19. 7br 1690.</date>
+          <lb/><metamark>────────────</metamark>
+          <lb/><rs type="biblio" key="biblio_X5R4Z82E"><foreign xml:lang="lat">Solutio problematis catenar<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></foreign></rs>,
+          <lb/><foreign xml:lang="lat">publ. propositi in Act. Lips.</foreign>
+          <lb/><date when="1691-06"><abbr>a.</abbr> 1691. <abbr>m.</abbr> Jun.</date>
+          <lb/><metamark>────────────</metamark>
+          <lb/><abbr>Disp. inaug. med.</abbr> <note place="margin">2.</note> <foreign xml:lang="lat">pro gradu Doct.</foreign>
+          <lb/><rs type="biblio" key="biblio_I2Z37CBH"><foreign xml:lang="lat">de motu musculorum</foreign></rs>,
+          <lb/>hab. <date when="1694-03-16"><abbr>d.</abbr> 16. Mart. 1694.</date>
+
+        </p>
+        <pb facs="4326379" n="59"/>
+        <pb facs="4326380" n="60"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516551005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Pierre Varignon. Basel, 21. Dezember 1719</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516551005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516551005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Datum von Joh. I B. eigenhändig. Dabei "20." in "21." korrigiert. Desgleichen eigenhändige Textkorrekturen und ein Zusatz auf fo.2r sowie am Briefkopf "à Mr. Varignon"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Varignon-Band</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-43032">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 669:Nr.67d</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516551005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433600805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057733</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>6 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1719-12-21">ce 21. xbre la veille du solstice d'hyver 1719. [21. Dezember 1719]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1719-12-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516551105501" type="prev"/>
+          <ptr target="B_991170516550905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Varignon_Pierre-JohIB" corresp="pers_DE-588-119062372" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1218193336">Bary, Johann Jakob de</persName>
+            <note type="lebensdaten">(1667-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1133586279">Beckel, Bernhard</persName>
+            <note type="lebensdaten">(1677-1722)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117604917">Bion, Nicolas</persName>
+            <note type="lebensdaten">(1653-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153519720">Birr, Johann Jacob</persName>
+            <note type="lebensdaten">(1677-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1048628825">Hermann, Germanus</persName>
+            <note type="lebensdaten">(1648-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914237">Lüdi, Joachim</persName>
+            <note type="lebensdaten">(1675-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118576682">Malebranche, Nicolas</persName>
+            <note type="lebensdaten">(1638-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118820214">Philipp</persName>
+            <note type="lebensdaten">(1674-1723)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117593508">Rolle, Michel</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117652245">Staehelin, Benedict</persName>
+            <note type="lebensdaten">(1695-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121297829">Staehelin, Johann Heinrich</persName>
+            <note type="lebensdaten">(1668-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100697771">Wiedeburg, Johann Bernhard</persName>
+            <note type="lebensdaten">(1687-1766)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="inventarisiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change who="SG" when="2026-10-02">Vorbereitendes Tagging und Zeilenfall; kollationierter LaTeX-Leittext und 12 Fussnoten 1:1 übernommen, Schreiberhand andere, nicht identifizierte Hand. Neue Fassung und Fussnoten vollständig auskommentiert, noch nicht zur Publikation freigegeben.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1433977/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1433978" n="1"/>
+<pb facs="1433979" n="2"/>
+<pb facs="1433981" n="3"/>
+<pb facs="1433982" n="4"/>
+<pb facs="1433983" n="5"/>
+<pb facs="1433984" n="6"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</text>
+</TEI>

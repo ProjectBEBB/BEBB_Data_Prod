@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516778205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Johannes Gessner. Basel, 25. Mai 1751</title>
+          <title type="alt">Johann II Bernoulli an Johannes Gessner. Basel, 25. Mai 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516778205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516778205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Gessner, Johannes (1709-1790)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Der Brief wurde laut P.S. erst am 1. Juni abgesandt</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 37:Bl.1</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516778205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433709405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058407</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl. (1 S. beschrieben)<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1751-05-25">ce 25. Mai 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1751-05-25"></date>
+        </correspAction>
+        <correspAction type="received">
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516778305501" type="prev"/>
+          <ptr target="B_991170516768105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Gessner_Johannes-JohIIB" corresp="pers_DE-588-119331136" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-123973716">Chambers, Ephraim</persName>
+            <note type="lebensdaten">(1680-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914148">Gessner-Escher, Katharina</persName>
+            <note type="lebensdaten">(1709-1788)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2004-06-30" who="FN SG">kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile><graphic url="http://fakeURL.com"/></facsimile><text>
+<body>
+<div type="letter">
+<pb/>
+  <p>Je vous fais bien des remerciments Monsieur mon cher ami pour la dernière dissertation que vous m’avés envoyée de votre façon avec l’argent pour les livres que je vous avois achetés. Si je n’ai pas eu l’honneur de vous écrire du depuis céstque je n’avois rien à vous mander qui meritât votre attention et ce peu de mots même n’est que pour accompagner la dissertation ci jointe qui a êté defendue ce matin par un <rs type="person" key="GND">Neveu</rs> de M. <rs type="person" key="GND">Nicolas Bernoulli</rs>; comme cette dissert. est plûtôt mathematique que juridique j’ai crû que vous ne seriés pas faché de la lire.</p>
+  <p>Vous savés sans doute que c’est M. le Dr. <rs type="person" key="GND">Zwinguer</rs> qui a recu porte la chaire d’anatomie; comme il passe pour savant et qu’il porte d’ailleurs un nom qui a depuis longtems de la reputation, je crois que ce choix ne fera pas de tort à votre Académie.</p>
+  <p>Adieu mon cher ami; bien des respects à Mad.e votre <rs type="person" key="pers_DE-588-1089914148">Epouse</rs>; je souhaite que le beau tems qui va venir vous procure une santé stable et à moi le plaisir de vous voir bientôt chés moi.</p> <closer>Je suis de tout mon coeur votre très humble et très obeissant serviteur
+      <lb/><rs type="person" key="pers_DE-588-117589136">J. Bernoulli</rs>
+      <lb/><dateline><rs type="place" key="place_GEO-2661604">Bâle</rs> ce <date when="1751-05-25">25. Mai 1751</date>.</dateline></closer>
+  <postscript><p>Je n’ai pas vu l’echantillon dont vous me parlés de l’<hi rend="u">Encyclopaedia Chamberriana</hi>.</p>
+    <p>J’ai differé de 8 jours l’envoy de cette lettre pour pouvoir vous envoyer en même tems les thèses de medecine que ont été soutenues depuis que je l’ai écrite.</p>
+    <p>ce 1. Juin.</p></postscript>
+</div>
+</body>
+</text></TEI>

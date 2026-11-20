@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514974605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean-Pierre de Crousaz an Johann I Bernoulli. Lausanne,
+            16. Juni 1719</title>
+          <title type="alt">000055783</title>
+          <title type="alt">1719-06-16_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514974605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514974605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Signatur eigenhändig</p>
+          <p>Bezug des Briefes zu Bänden der
+            gedruckten Bernoulli Werkausgabe: Op. 112</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.86-87</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24637">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.14*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514974605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432939505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055783</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3,5 S.<dimensions unit="cm"><height>22</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Lausanne</origPlace>
+              <date when="1719-06-16">16e Juin
+              1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1719-06-16"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514974705501" type="prev"/>
+          <ptr target="B_991170514974505501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Crousaz hat länger nicht geschrieben, weil er erst noch die Dissertation zum "phosphor
+          mercurialis" lesen wollte. Ausserdem fand die visite académique statt. Vielleicht führt
+          sie in Bern zur Aufhebung der Consenus-Formel. Gerne hätte er ein Abschrift des Briefes an
+          Varigon über das Unendliche. Er hat neue Experimente zur Farbenlehre gemacht und seine
+          Arbeit an einer Schrift dazu weitergeführt. Die Auseinandersetzungen um seine Nouvelles
+          maximes dauern an. Hier sind endlich die Jahrgänge 14 un 15 der in Holland gedruckten
+          Mémoires der Académie. Die Jahrgänge 17 und 18 folgen bald, Jahrgang 19 vielleicht sogar
+          Ende diesen Jahres. Wenn in diesem und im nächsten Jahr einige Kometen oder seltene
+          Planetenkonstellationen erscheinen würden, würden nicht soviele Leute über die Ursache der
+          Trockenheit sprechen, von denen sie nichts verstehen. Crousaz hat einige meteorologische
+          Beobachtungen zum Barometer gemacht, die der Hypothese von de Mairan widersprechen. Es tut
+          ihm leid, dass seine Thesen in so schlechtem Zustand angekommen sind. Es war vielleicht
+          nicht allein der Fehler der Post. Die Herren Fischer, die deren Leitung innehaben, sind
+          sehr ehrenwerte Leute.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1382439431">Fischer, Beat Rudolf</persName>
+            <note type="lebensdaten">(1706-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135990106">Fischer, Heinrich Friedrich</persName>
+            <note type="lebensdaten">(1676-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135990513">Fischer, Samuel von</persName>
+            <note type="lebensdaten">(1673-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1382439237">Fischer, Viktor</persName>
+            <note type="lebensdaten">(1709-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1719-06-16_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2009-10-20" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074527/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1719-06-16_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+  <pb facs="1074528" n="1"/>
+        <opener>
+          <dateline>
+
+<lb/> à <rs type="place" key="place_GEO-2659994">Lausanne</rs> 16.<hi rend="sup">e</hi> Juin 1719</dateline>
+          <salute>
+<lb/>Monsieur </salute>
+        </opener>
+  <p>
+<lb/>Il faut compter autant que je fais sur vôtre politesse et l’honneur
+<lb/> de vôtre amitié, pour
+          ne craindre pas de passer pour le plus impoli
+<lb/> des hommes, quand je tarde si longtems à
+          vous rendre grace de
+<lb/> l’excellente <rs type="biblio" key="biblio_7XA2T6GU">Dissertation</rs><note type="comment">Gemeint ist die <hi rend="i">Dissertatio physica de mercurio lucente in vacuo</hi> (Basel 1719), die <rs type="person" key="pers_DE-588-120970805">Wilhelm Bernhard Nebel</rs> unter dem Präsidium <rs type="person" key="pers_DE-588-118509969">Johann I Bernoullis</rs> vorlegte.</note>
+          que vous m’avés envoié, et de laquelle je suis
+<lb/> trés satisfait, comme je le suis de tout ce
+          où vous influés. Mais je
+<lb/> voulois la lire. Le relieur m’a servi negligemment. Nous avons
+<lb/> eu
+          ensuite nôtre Visite Academique. Enfin je n’ai eu du repos
+<lb/> que depuis quelques jours: mais
+          je compte que ce sera un repos effectif
+<lb/> et durable. La Visite s’est terminée heureusement,
+          et elle pouroit
+<lb/> bien être suivie à <rs type="place" key="place_GEO-2661552">Berne</rs> de l’abolition du <hi rend="u"><rs type="biblio" key="biblio_Q47BCUD6">Consensus</rs></hi>,
+          dans des
+<lb/> circonstances où l’on est si Chrétiennement invité à se réunir
+<lb/> avec les
+          Lutheriens. </p>
+  <p><pb facs="1074530" n="2"/>
+<lb/> Je fais trop de cas, Monsieur, de tout ce qui vient de vous,
+          pour
+<lb/> n’étre pas sensible à l’<rs type="letter" key="B_991170514974705501">offre</rs> obligeante que vous me faites de me commu<pc type="hyphenation">-</pc><lb break="no"/>niquer ce que
+          vous <rs type="letter" key="B_991170515366505501">aviés ecrit</rs> autrefois à M. <rs type="person" key="pers_DE-588-119062372">Varignon</rs> sur la question
+<lb/> que je vous avois proposée, et
+          sur laquelle il me paroit que M. <rs type="person" key="pers_DE-588-118639056">de Fon<pc type="hyphenation">-</pc><lb break="no"/>tenelle</rs> pense autrement que vous et que je ne
+          saurois penser.
+  </p>
+  <p>
+<lb/>J’ai encore fait quelques nouvelles experiences sur les couleurs. Je
+<lb/> pourai continuer et
+          mettre par ordre mes pensées sur ce sujet. Il semble
+<lb/> que Mess.<hi rend="sup">rs</hi> les
+          Anglois, si jaloux de la liberté, affectent un Torricisme
+<lb/> en matiere de Science, et
+          regardent de haut en bas tous ceux pour
+<lb/> qui les pensées de M. <rs type="person" key="pers_DE-588-118587544">Newton</rs> ne sont pas des
+          Oracles. Mais le
+<lb/> courage n’est pas moins le partage de nôtre Nation que de la leur,
+<lb/> et
+          tous les hommes ont un droit égal à chercher la verité, et à la
+<lb/> soutenir quand ils croient
+          de l’avoir trouvée. Un autre<note type="editorial">Im Manuskript steht «autres»</note>
+          <rs type="biblio">ouvrage</rs>
+<lb/> pourtant me presse davantage; c’est celui que j’ai entrepris sur
+<lb/> l’Education. Il a
+          fallu ceder aux instances des <rs type="person">amis</rs> et des <rs type="person">superieurs</rs>.
+<lb/> Ce n’a pas été sans beaucoup de
+          repugnance. Je ne suis pourtant
+<lb/> pas fâché de m’étre rendu. Je regardois d’abord un ouvrage
+          en forme
+<lb/> sur ce sujet comme très inutile, vû le grand nombre que nous en
+<lb/> avons deja; mais
+          quand il a fallu mettre la main à l’oeuvre, comme
+<lb/> j’y ai pensé de plus près, je me suis
+          aperçu qu’à bien des égars le
+<lb/> sujet n’étoit encore qu’effleuré. On ne sauroit disconvenir
+          qu’il ne
+<lb/> soit des plus importans, et par là il seroit à souhaiter qu’une meil<pc type="hyphenation">-</pc><lb break="no"/>leure main
+          l’entreprit. Je ferai, Monsieur, un cas infini des conseils
+<lb/> qui me viendront de vôtre part
+          sur ce sujet, comme sur tous les autres,
+<lb/> et je vous assure, Monsieur, que quand l’orage
+          s’est élevé contre mes
+<lb/> <rs type="biblio" key="biblio_XZEQE9P8">Nouvelles Maximes</rs>, je n’y
+          ai point oposé de rempart qui me parût
+<lb/> plus fort, qui m’ait plus tranquilisé et qui m’ait
+          plus defendu contre
+<lb/> la crainte d’avoir fait un mauvais <rs type="biblio" key="biblio_XZEQE9P8">Livre</rs>, que le temoignage que
+<lb/> vous
+          lui avés rendu. </p>
+  <p><pb facs="1074531" n="3"/>
+<lb/> Voila enfin l’année 14 et 15 des <rs type="biblio" key="biblio_XSJACQMG">Memoires</rs> de l’<rs type="organisation" key="org_DE-588-35019-9">Academie</rs> deja
+
+<lb/>          imprimés en <rs type="place" key="place_VER-hollan">Holande</rs>. Les années 16 et 17 vont suivre incessamment.
+<lb/> On me fait même esperer
+          que nous verrons l’an 19 l’année pro<pc type="hyphenation">-</pc><lb break="no"/>chaine. On en a en partie l’obligation au Duc <rs type="person" key="pers_DE-588-118820214">Regent</rs>,
+          et quoique
+<lb/> veuillent dire les murmures des peuples impatiens, la <rs type="place" key="place_VER-frankr">France</rs> re<pc type="hyphenation">-</pc><lb break="no"/>prendra enfin
+          son premier lustre par ses soins: Mais il faudroit
+<lb/> être visionnaire pour s’imaginer qu’une
+          si grande reparation
+<lb/> pût étre l’afaire d’une année ou de deux. </p>
+  <p>
+<lb/>Pour revenir aux Sciences il sera agréable d’avoir les <rs type="biblio" key="biblio_XSJACQMG">Memoires</rs>
+<lb/> d’année en année. Les
+          étrangers qui auront quelque commerce
+<lb/> avec les <rs type="organisation" key="org_DE-588-35019-9">Membres de l’Academie</rs> ne se feront pas une
+          peine de
+<lb/> communiquer leurs pensées sur quelques Memoires recens, au lieu
+<lb/> qu’on s’en
+          faisoit une de proposer des difficultés sur ce qui s’étoit
+<lb/> passé trois ou quatre ans
+          auparavant. </p>
+  <p>
+<lb/>Si nous avions eu cette année ou la precedente quelque Comete,
+<lb/> ou quelque singuliere
+          conjonction de Planetes, que n’auroient point
+<lb/> dit sur les causes de cette excessive
+          secheresse tant de gens qui se
+<lb/> plaisent à parler beaucoup sur ce qu’ils entendent très
+          peu? J’ai
+<lb/> remarqué vingt fois divers presages de pluie que le barometre de<pc type="hyphenation">-</pc><lb break="no"/>mentoit. Il n’a
+          point été trompeur. En même tems je l’ai trouvé
+<lb/> très contraire à l’hypothese de M. de
+          <rs type="person" key="pers_DE-588-11931035X">Meirans</rs>; tantôt haut, tantôt
+<lb/> un peu plus bas dans le vent et de même dans le calme. Je
+          suis
+<lb/> fort porté à croire qu’il y a des causes très minces, mais tres efficaces,
+<lb/> qui
+          servent à bander le ressort de l’air, en s’insinuant dans ses
+<lb/> pores, et qui par là lui
+          donnent la force de tenir les vapeurs
+<lb/> écartées. Mais je ne m’aperçois pas que le plaisir
+          de vous écrire
+<lb/> me fait oublier que je derobe des momens au public, à l’utilité duquel
+<lb/> nous
+          devons tous nous consacrer. Je suis mortifié que mes <rs type="biblio">Theses</rs> <pb facs="1074532" n="4"/>
+
+<lb/>          vous soient parvenues en si mauvais état, et j’en serois très honteux
+<lb/> si ce n’étoit pas
+          l’unique faute de la Messagerie. Mess.<hi rend="sup">rs</hi> <rs type="person" key="pers_DE-588-135990106 pers_DE-588-135990513">Fischer</rs>,
+<lb/> qui en ont la
+          direction, sont de très honnêtes, mais il s’en faut qu’ils
+<lb/> ne soient toujours servis
+          suivant leurs intentions. </p>
+  <closer>
+          <salute>
+<lb/>J’ai l’honneur d’etre avec la plus parfaite estime et le zele le plus
+<lb/> vif
+<lb/> Monsieur
+<lb/> Vôtre
+          très humble et
+<lb/> très obeïssant serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-100097413">
+<lb/>J. P. De Crousaz</rs> </signed>
+        </closer>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

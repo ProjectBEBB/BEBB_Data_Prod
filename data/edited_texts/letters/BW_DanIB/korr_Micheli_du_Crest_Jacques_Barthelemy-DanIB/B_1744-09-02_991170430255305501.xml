@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430255305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Jacques Barthélemi Micheli du Crest. Basel, 02. September 1744</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430255305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430255305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Landecy GE, Archiv Micheli</repository>
+            <idno type="callNumber">No.723</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430255305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406878705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055238</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>25</height><width>10</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1744-09-02">ce 2. 7bre 1744</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1744-09-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118162217">Micheli du Crest, Jacques Barthélemi</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514629105501" type="prev"/>
+          <ptr target="B_991170430254205501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Micheli_du_Crest_Jacques_Barthelemy-DanIB" corresp="pers_DE-588-118162217" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Dan. I B. hat einen Brief Michelis mit der französischen Post nach Lyon weitergeleitet, damit er nicht über Genf geht. Er hat mit Postdirektor Schaub gesprochen, dem er solche Brief zur Weiterleitung schicken kann. Er glaubt nicht, dass Micheli in Basel einen Drucker für sein Mémoire finden wird, da dieses Mémoire die Zensur nicht passieren wird. Dan. I B. muss noch dazu in diesem Jahr als Rektor die Einhaltung der Zensurvorschriften selbst überwachen. Micheli soll es in Ulm oder Nürnberg versuchen oder noch besser ganz davon Abstand nehmen, da er alle Götter gegen sich hat. Die Züricher Angelegenheit steht schlecht. Micheli hätte besser keine Rechtfertigung versucht, sondern einfach die guten Dienste und das Eingreifen von Zürich und Bern verlangt. Die Prinzipien der kantonalen Regierungen sind gegen ihn. Dan. I B. dankt für die Mitteilung der Erfahrungen mit Michelis Thermometern in Zürich und Schaffhausen. Er wünscht sich zahlreiche Experimente über die Siedetemperatur von Wasser bei verschiedenen Luftdichten, um eine auf Induktion beruhende Theorie aufzubauen. Hier in Basel könnte er mit Micheli viele einschlägige Experimente, auch mit anderen Flüssigkeiten, z.B. Weingeist, machen.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="inventarisiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<head> Zu diesem Brief liegt derzeit noch keine Transkription vor. Metadaten zum Brief sind über das Info-Symbol verfügbar. </head>
+</div>
+</body>
+</text>
+</TEI>

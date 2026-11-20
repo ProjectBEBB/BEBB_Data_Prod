@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516860805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Louis Moreau de Maupertuis an Johann II Bernoulli. Potsdam, 12. März 1748</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516860805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516860805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Ohne Unterschrift</p>
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-533">"Copie de lettre", siehe Signatur UBH L Ia 768:Bl.172-173</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136337">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 708:Bl.112-113</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516860805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433562805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058618</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (4 beschriebene S.)<dimensions unit="cm"><height>21</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>De Potzdam</origPlace>
+              <date when="1748-03-12">12 Mars 1748</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+          <placeName key="place_GEO-2852458" ref="https://d-nb.info/gnd/4046948-7">Potsdam</placeName>
+          <date when="1748-03-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516860905501" type="prev"/>
+          <ptr target="B_991170516860705501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Pierre_Louis_Moreau_de-JohIIB" corresp="pers_DE-588-118731998" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913494">Battier, Dorothea</persName>
+            <note type="lebensdaten">(1704-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108991332X">Falkner, Dorothea</persName>
+            <note type="lebensdaten">(1673-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156356024">Maupertuis, René Moreau de</persName>
+            <note type="lebensdaten">(1664-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Passavant, Mme</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-12" who="SG">Vorbereitende Normalisierung und Apostrophprüfung</change>
+        <change when="2026-10-10" who="SG">Kollationieren begonnen</change>
+        <change when="2026-10-10" who="SG">Transkription hinzugefügt</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3698735/manifest"/>
+</facsimile>
+<text>
+<body>
+
+
+
+
+<div type="letter">
+
+<pb facs="3698736" n="112r"/>
+<opener rend="center"><dateline>
+<lb/>De <rs type="place"><choice><orig>potzdam</orig><reg>Potzdam</reg></choice></rs> <date when="1748-03-12">12 Mars 1748</date>
+</dateline></opener>
+<p>
+<lb/>Nous avons toujours attendu<supplied>,</supplied> Mon cher amy<supplied>,</supplied> <abbr>M.</abbr> <rs type="person"><abbr><choice><orig>passav.</orig><reg>Passav.</reg></choice></abbr></rs>
+<lb/>pour la fin de Fevrier selon ce qu’il avoit promis: mais
+<lb/>j<unclear reason="illegible">e</unclear> vois par votre <rs type="letter">Lettre</rs> <choice><orig>Et</orig><reg>et</reg></choice> par <rs type="letter">celle</rs> de <abbr>M.</abbr> <rs type="person">Battier</rs> qu’il
+<lb/>n’<choice><orig>Est</orig><reg>est</reg></choice> pas <choice><orig>Encor</orig><reg>encor</reg></choice> prest à partir. <choice><orig>j</orig><reg>J</reg></choice>’en suis faché parce
+<lb/>qu’outre le retardement, c’est une marque de peu
+<lb/>d’<choice><orig>Exactitude</orig><reg>exactitude</reg></choice> à tenir Sa parole, ou de peu d’arrangement.
+<lb/>Comme je vois par la <rs type="letter">Lettre</rs> de <abbr>M.</abbr> <rs type="person">Battier</rs>, qu<supplied>’</supplied>il <choice><orig>Est</orig><reg>est</reg></choice> prest,
+<lb/>faittes <choice><orig>Le</orig><reg>le</reg></choice> toujours partir; <choice><orig>il</orig><reg>il</reg></choice> n’est pas necessaire qu<supplied>’</supplied>ils
+<lb/>viennent <choice><orig>Ensemble</orig><reg>ensemble</reg></choice>.
+</p>
+<p>
+  <lb/><choice><orig>C’a</orig><reg>Ça a</reg></choice> <choice><orig>Eté</orig><reg>été</reg></choice> la seule occasion d’<choice><orig>Ecrire</orig><reg>ecrire</reg></choice> à votre <rs type="person">frere</rs> un
+<lb/>jour que je crois que je ne vous <choice><orig>Ecrivois</orig><reg>ecrivois</reg></choice> point, qui m’
+<lb break="no"/>a fait m’adresser à Luy plustot qu<supplied>’</supplied>à vous pour
+<lb/><del>V</del><add>L</add>uy demander du <choice><sic>Kersvasser</sic><corr>Kirschwasser</corr></choice><supplied>:</supplied> j’ay assés d’<choice><orig>Experience</orig><reg>experience</reg></choice>
+  <lb/>de votre bonne volonté à faire mes commissions <choice><orig>Et</orig><reg>et</reg></choice> meme
+<lb/>à les prevenir; <choice><orig>Et</orig><reg>et</reg></choice> je vous ay la mesme obligation de
+  <lb/>celles que vous <choice><sic>fattes</sic><corr>faittes</corr></choice> <choice><orig>Et</orig><reg>et</reg></choice> de celles que vous ne <choice><sic>fattes</sic><corr>faittes</corr></choice> point.
+</p>
+<p><add>
+<lb/>Si vous avés receu <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Basle</rs> un <rs type="biblio"><choice><orig>jmprimé</orig><reg>imprimé</reg></choice></rs> qu’on
+<lb/>a fait courir <choice><orig>En</orig><reg>en</reg></choice> <rs type="place">Allemagne</rs> pour <choice><orig>Exhorter</orig><reg>exhorter</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> <choice><orig>Envoyer</orig><reg>envoyer</reg></choice>
+<lb/>icy des observations Astronomiques pour la confection
+<lb/>des Cartes Geographiques, tachés<supplied>,</supplied> je vous prie<supplied>,</supplied> de me
+<lb/>l’<choice><orig>Envoyer</orig><reg>envoyer</reg></choice>.
+</add></p>
+<pb facs="3698737" n="112v"/>
+<p>
+  <lb/>Ma <choice><orig>San<unclear reason="illegible">i</unclear>té</orig><reg>santé</reg></choice> <choice><orig>Est</orig><reg>est</reg></choice> assés bone pour <choice><orig>Estre</orig><reg>estre</reg></choice> revenu à <rs type="place"><choice><orig>potzdam</orig><reg>Potzdam</reg></choice></rs>;
+<lb/><choice><orig>Elle</orig><reg>elle</reg></choice> a <choice><orig>Eu</orig><reg>eu</reg></choice> <choice><orig>Encor</orig><reg>encor</reg></choice> cet hiver une rude attaque de Toux
+  <lb/><choice><orig>Et</orig><reg>et</reg></choice> de crachement de Sang: j’ne scay à la fin ce qu’il
+<lb/><choice><orig>En</orig><reg>en</reg></choice> sera. j’compte tousjours passer l’hiver prochain
+  <lb/><choice><orig>En</orig><reg>en</reg></choice> <rs type="place">France</rs>: <choice><orig>Et</orig><reg>et</reg></choice> tacheray de vous voir <choice><orig>En</orig><reg>en</reg></choice> passant. je
+  <lb break="no"/>pense comme vous <choice><orig>Et</orig><reg>et</reg></choice> plus que vous que ce sera
+<lb/>peut <choice><orig>Estre</orig><reg>estre</reg></choice> la derniere fois que nous nous verrons.
+<lb/>vous me paroissés quelquefois dans vos Lettres aussy
+<lb/>noir que moy. Et c’est beaucoup dire: car depuis la
+<lb/>mort de mon <rs type="person">pere</rs>, j’n’ay trouvé qu’amertume à
+<lb/>vivre. Quand toutes les choses <choice><orig>Exterieures</orig><reg>exterieures</reg></choice> paroissent
+<lb/>concourir à former notre bonheur; des causes de chagrin
+<lb/>que nous trouvons <choice><orig>En</orig><reg>en</reg></choice> nous mesmes nous dechirent,
+  <lb/><choice><orig>Et</orig><reg>et</reg></choice> d’autant plus cruellement que tout le monde nous
+  <lb/>croit heureux. Ces reflexions, <choice><orig>Et</orig><reg>et</reg></choice> beaucoup d’autres,
+  <lb/><del><gap/></del> <choice><orig>Et</orig><reg>et</reg></choice> Sur tout une justice que j’vois dans
+<lb/>tous les maux qui me sont arrivés, ont totalement changé
+<lb/>ma maniere de penser Sur bien des choses. j’ay <choice><orig>Escrit</orig><reg>escrit</reg></choice>
+<pb facs="3698738" n="113r"/>
+<lb/>ces jours passés des <rs type="biblio"><choice><orig>reflections</orig><reg>Reflections</reg></choice> Sur le Bonheur</rs>, qui sont
+<lb/>Si tristes, que Si on le croyoit permis, on <choice><orig>En</orig><reg>en</reg></choice> termineroit
+<lb/>la Lecture comme <rs type="person">Caton</rs>.
+</p>
+<p>
+<lb/>Quand j’suis party de <rs type="place">Berlin</rs> les affaires de votre <rs type="person">frere</rs>
+  <lb/>alloient mal <choice><orig>En</orig><reg>en</reg></choice> <rs type="place">Russie</rs>, <choice><orig>Et</orig><reg>et</reg></choice> mesme celles de tous
+<lb/>les Academiciens pensionnaires dont on vouloit supprimer
+<lb/>les pensions à moins qu’ils ne fournissent des Subsides à
+<lb/>l’<rs type="organisation">Academie</rs>. Ce n’est pas là le moyen de faire <del><gap/></del> <choice><orig>Envoyer</orig><reg>envoyer</reg></choice>
+<lb/>des Memoires à ceux qui cy devant n’<choice><orig>En</orig><reg>en</reg></choice> ont point <choice><orig>Envoyé</orig><reg>envoyé</reg></choice>.
+</p>
+<p>
+<lb/>Est ce que <abbr>M.<hi rend="sup">lle</hi></abbr> <rs type="person"><choice><orig>passavant</orig><reg>Passavant</reg></choice></rs> <choice><orig>Est</orig><reg>est</reg></choice> de retour à <rs type="place">Basle</rs>: j’me
+<lb/>feray un grand plaisir de l’y revoir si j’y puis passer.
+  <lb/>dittes le luy j’vous prie; <choice><orig>Et</orig><reg>et</reg></choice> combien j’suis sensible à Son
+  <lb/>attention <choice><orig>Et</orig><reg>et</reg></choice> caresseray le chat qu’<choice><orig>Elle</orig><reg>elle</reg></choice> m’<choice><orig>Envoyera</orig><reg>envoyera</reg></choice>.</p><closer><salute> Adieu
+<lb/>cher amy mille compliments à ma <rs type="person">commere</rs> à
+      <lb/><rs type="person">Mere</rs>, <rs type="person">frere</rs> <choice><orig>Et</orig><reg>et</reg></choice> <rs type="person">Soeur</rs>.</salute></closer>
+<pb facs="3698739" n="113v"/>
+<address>
+<addrLine>
+<lb/><hi rend="u"><rs type="place">Suisse</rs></hi> Monsieur</addrLine>
+<addrLine>
+<lb/>Monsieur <rs type="person">Bernoulli</rs> de</addrLine>
+<addrLine>
+<lb/>l’<rs type="organisation">Academie <abbr>R<hi rend="sup">le</hi></abbr> des Sciences <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice></rs></addrLine>
+<addrLine>
+<lb/><rs type="organisation">Belles Lettres de <choice><orig>prusse</orig><reg>Prusse</reg></choice></rs>,</addrLine>
+<addrLine>
+<lb/>professeur d’<choice><orig>Eloquence</orig><reg>eloquence</reg></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</addrLine>
+<addrLine>
+<lb/><hi rend="u"><abbr>Fr.</abbr> <rs type="place">Rheinhausen</rs></hi> à</addrLine>
+<addrLine>
+<lb/><rs type="place">Basle</rs></addrLine>
+</address>
+</div>
+
+</body>
+</text>
+</TEI>

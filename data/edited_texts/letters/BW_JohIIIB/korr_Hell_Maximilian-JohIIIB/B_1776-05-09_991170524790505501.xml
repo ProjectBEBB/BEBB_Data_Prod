@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524790505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 09. Mai 1776</title>
+          <title type="alt">1776.05.09: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079639</title>
+          <title type="alt">1776-05-09_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524790505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524790505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+        <note type="print">
+          <p>Druck t[eil]w.: Recueil pour les astronomes / par M. Jean Bernoulli. - Berlin. - Suppl.: Nouvelles littéraires de divers pays ... - 1(1776), [S.] 18</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128964">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.159</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524790505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440048205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079639</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Vindobonae (Wien)</origPlace>
+              <date when="1776-05-09">die 9 May 1776</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1776-05-09">die 9 May 1776</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524790605501" type="prev"/>
+          <ptr target="B_991170524790405501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell apologises for not yet answering Johann III Bernoulli's latest letter. He announces that he will leave the next day for Eger to equip the newly built observatory of Bishop Károly Eszterházy, and expects to return to Vienna after five weeks. Before leaving, he sends the requested magnets, one of each shape, and states the conditions under which he expects them to help with nervous disorders. He encloses the Vienna ephemerides and promises further news about the projected Vienna academy of sciences. He warns that Büsching's report of 22 April contains more falsehoods than truth.</p>
+
+        <p>Maximilian Hell entschuldigt sich dafür, Johann III Bernoullis letzten Brief noch nicht beantwortet zu haben. Er nutzt die Abreise eines Jesuiten nach Eperies, wo eine neue Schule für Astronomie errichtet worden ist, um die gewünschten Magnete zu senden. Nach Hell wirkt die magnetische Behandlung am ehesten bei Nervenkrankheiten, wenn der Magnet an der Körperstelle angebracht wird, von der die Krankheit ausgeht. Er legt ausserdem die Wiener Ephemeriden bei. Wegen der Berichte über die geplante Wiener Akademie der Wissenschaften bittet Hell Bernoulli, sich bei anderen Informanten zu erkundigen, und warnt, ein Pressburger Zeitungsbericht vom 22. April enthalte mehr Falsches als Wahres.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Fachbegriffe und offene Aussagen mit XML-Kommentaren versehen. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-28" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-28" who="SG">Maschinell transkribiert.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529558/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+
+ <div type="letter">
+
+
+
+
+<pb facs="3529559" n="159r"/>
+
+<opener rend="center">
+ <salute>
+<lb/>Celeberrimo ac Doctissimo Domino
+<lb/>Domino <rs type="person" key="pers_DE-588-116170654">Bernoullio</rs> <rs type="organisation" key="org_DE-588-15514-7">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum Berolinensis</rs> Soci<del><gap/></del><add>o</add>
+<lb/><unclear reason="illegible"><choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice><abbr>S. P.</abbr><choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice></unclear>
+   <lb/>
+<lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs> <abbr>S. P. D.</abbr>
+</salute>
+</opener>
+<p>
+ <lb/>Nondum habui otium ad <rs type="lostletter">postremas gratiosissimas</rs> respondendi,
+<lb/>Nunc etiam properanter scribo, quia <date>Crastina di<del>ei</del><add>e</add></date> iter adgredior
+<lb/>in <rs type="place" key="place_VER-ungarn">Ungariam</rs> ad <rs type="person" key="pers_DE-588-128811110">Episcopum Agriensem</rs> pro instruenda <rs key="org_resource_000002" type="organisation">specula
+<lb/>Astronomica</rs> hoc anno <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> fundamentis <rs type="place" key="place_GEO-721239">Agri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> sumptuose, et
+<lb/>splendide erecta, inde <rs type="place" key="place_GEO-2761369">Viennam</rs> non nisi post hebdomadas
+<lb/>quinque rediturus. Interea ut Desiderio Tuo satisfaciam
+<lb/>mitto desideratos magnetes, et quidem ex singulis figuris
+<lb/>unam, ut his pro arbitrio uti possis, opto ut effectum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>stent, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stabunt autem hi si <choice><orig>1<hi rend="sup u">mo</hi></orig><reg>1<hi rend="sup">mo</hi></reg></choice> morbus sit nervorum, <choice><orig>2<hi rend="sup u">do</hi></orig><reg>2<hi rend="sup">do</hi></reg></choice>
+<lb/>si magnes ei loco <add>corporis</add> applicetur, unde origo mali habetur.
+</p>
+
+<p>
+  <lb/><rs type="biblio">Ephemerides</rs> adjectas, ut amico animo accipias oro; c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum de
+<lb/>fatis erigend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hic <rs type="organisation">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> ali<unclear reason="illegible">a</unclear>s informabo, id unum
+<lb/>moneo, <rs type="biblio">relationem Buschingianam diei <date when="1776-04-22">22 Aprilis</date></rs> falsa cum
+<lb/>veris continere, plura tamen falsa, quam vera; c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum dum
+</p><closer><salute><lb/>Tibi Vir Celeberrim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> valetudinem optimam ex animo precor
+<lb/>me Tibi plurimum comendatum habere velis.
+</salute><dateline><lb/>Dabam <rs type="place" key="place_GEO-2761369">Vindobon<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1776-05-09">die 9 Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1776</date>.
+</dateline></closer>
+<pb facs="3529560" n="159v" type="empty"/>
+</div>
+
+
+    </body>
+  </text>
+</TEI>

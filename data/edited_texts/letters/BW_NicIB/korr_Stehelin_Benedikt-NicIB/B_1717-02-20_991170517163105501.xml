@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517163105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Benedict Staehelin an Nicolaus I Bernoulli. Basel, 20. Februar 1717</title>
+          <title type="alt">1717.02.20: Staehelin, Bénoît (1695-1750) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059505</title>
+          <title type="alt">1717-02-20_Staehelin_Beno_t-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517163105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517163105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Stehelin, Benedikt (1695-1750)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren. Neben dem Datum von Nic.I B. eigenhändig "Empfg. den 13. Mart."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23601">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.51</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517163105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433814305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059505</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>16,5</height><width>11</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basil:</origPlace>
+              <date when="1717-02-20">XX. Febr. 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117652245">Staehelin, Bénoît</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1717-02-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517163205501" type="prev"/>
+          <ptr target="B_991170517163305501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Stehelin_Benedikt-NicIB" corresp="pers_DE-588-117652245" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Stehelin kondoliert zum Tod des Vaters von Nic. I B.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913338">Bernoulli, Benedict</persName>
+            <note type="lebensdaten">(1692-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089924429">Bernoulli, Ursula</persName>
+            <note type="lebensdaten">(1665-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104265264">Morgagni, Giambattista</persName>
+            <note type="lebensdaten">(1682-1771)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-07-10" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-07-10" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-20" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1040075/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1040076" n="1"/>
+  <opener><salute rend="center"><lb/>Viro Clarissimo, Fautori et Cognato suo Charissimo
+      <lb/><abbr><choice><orig>DN.<hi rend="sup">o</hi></orig><reg>Dn.<hi rend="sup">o</hi></reg></choice></abbr> <rs key="pers_DE-588-119166895" type="person"><choice><orig>NICOLAO</orig><reg>Nicolao</reg></choice> <choice><orig>BERNOULLIO</orig><reg>Bernoullio</reg></choice></rs><choice><orig>.</orig><reg>,</reg></choice> <abbr>Math<choice><orig>:</orig><reg>.</reg></choice></abbr> <abbr>Pr<choice><orig>:</orig><reg>.</reg></choice></abbr> <rs key="place_GEO-3171728" type="place">Pad<choice><orig>:</orig><reg>.</reg></choice></rs>
+      <lb/><abbr>S. P. D.</abbr>
+      <lb/><rs key="pers_DE-588-117652245" type="person">Benedictus Stehelius</rs><choice><orig>.</orig><reg>,</reg></choice> <abbr>M. D.</abbr></salute></opener>
+
+  <p><lb/>Si quod officium meum fuit, jam pridem non
+      <lb/>sum exsequutus, Cognate charissime, occasione m<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<pc type="hyphenation">-</pc><lb break="no"/>tissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mortis, Venerandi <abbr>Dni.</abbr> <rs key="pers_DE-588-135542286" type="person">Parentis</rs> Tui,
+      <lb/>id neutiquam factum est quod Tu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> a nobis ab<pc type="hyphenation">-</pc><lb break="no"/>sentia a memori<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> me<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> quicquam eorum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>Tibi debeo et libenter debere sentio detriverit.
+      <lb/>Sed <del><gap/></del>in causa fuit partim quod crediderim
+      <lb/><add>ali<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>m</add> locum esse dandum justo isto dolori Tuo, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>m
+      <lb/>ex decessu Tanti <rs key="pers_DE-588-135542286" type="person">Parentis</rs> sensurum Te pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>videb<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>.
+      <lb/>Scio etenim quantum sit <del><gap/></del><rs key="pers_DE-588-135542286" type="person">Patrem</rs>, rem nobis
+      <lb/>charissim<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> <choice><sic>longinguis</sic><corr>longinquis</corr></choice> in regionibus semoto, nulla
+      <lb/>amplius revidendi spe amittere. Scio, inquam<supplied>,</supplied>
+      <lb/>quant<choice><orig><g ref="#ohat">ô</g></orig><reg>o</reg></choice> adhuc magis dolorifica debeat esse
+      <lb/>ejusmodi amissio, quo<del><gap/></del> plures in<del><gap/></del>
+      <lb/>amisso emicuerunt dotes. H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vero In Defuncto
+      <lb/>Tuo <rs key="pers_DE-588-135542286" type="person">Parente</rs> tant<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fuerunt, ut nonsolum a
+      <lb/>consanguineis et amicis, sed etiam ab omnibus
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quis et cordatis Viris su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimaretur.
+      <lb/>Omnes enim sciunt <choice><orig>quâ<add>nta</add></orig><reg>quanta</reg></choice> sinceritate, qua<add>nta</add> Prudenti<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice><supplied>,</supplied>
+<pb facs="1040077" n="2"/>
+      <lb/>qua<add>nta</add> soliditate Judicii, quanta in muneribus
+      <lb/>suis administrandis fide et Justitia fuerit
+      <lb/>ornatus, aliis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> bene multis dotibus qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>nemini magis cognit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> esse debent, quam Tibi.
+      <lb/>Partim quod a Charissimo <rs key="pers_DE-588-1089913338" type="person">Fratre</rs> Tuo intellexe<pc type="hyphenation">-</pc><lb break="no"/>ram, fasciculum <rs type="letter">litterarum</rs> Tuorum <rs type="person">Amicor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice></rs>
+      <lb/>ad Te scriptarum nimium jam increvisse.
+      <lb/>Quoniam vero haud dubito <del><gap/></del>Tuos <rs type="person">Amicos</rs>
+      <lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dictos dolori Tuo atroci solamina
+      <lb/>necessaria, simul<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Tuam ipsiusmet animi
+      <lb/>fortitudinem jamjam attulisse; hinc h<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c
+      <lb/>occasione quod Illi melius abs<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> omni dubio
+      <lb/>exsequuti sunt quam ego nunc <add>exsequi</add> possem, non
+      <lb/>ero illa in re prolixior. Sed unicum quod ista
+      <lb/>occasione faciam, est ut Deum intentis
+      <lb/>precibus venerer, ut hunc casum non Tibi
+      <lb/>minus, quam nobis <rs key="place_VER-basela" type="place">Patri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice></rs> <choice><orig>[</orig><reg>(</reg></choice>ob paucitatem
+      <lb/>Tuo <rs key="pers_DE-588-135542286" type="person">Parenti</rs> Defuncto similium<choice><orig>]</orig><reg>)</reg></choice>, tristissimum,
+      <lb/>nulla ope humana mutandum, Tantisundi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>in Te et Tuam totam lectissimam familiam
+      <lb/>collatis beneficiorum et felicitatum cumulis
+      <lb/>velit resarcire, ut luctus vester aliquo modo
+      <lb/>lenia<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, <rs key="pers_DE-588-1089924429" type="person">Matrem</rs> Tuam honoratissimam
+      <lb/>diutissime salvam et ab ulteriori m<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stiti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>causa remotam conservare quam diutissime,
+<pb facs="1040078" n="3"/>
+      <lb/>simul<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> benevolenter concedere ut annus, Professio<add><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice></add>
+      <lb/>Tua tam tristibus auspiciis inchoata, felicissim<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>et omnibus modis prosperum processum et exit<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>assequantur, Te<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> omnibus felicitatum generibus
+      <lb/>quas tam bene jam diu mereris cumulare, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>efficere ut salvus Tuos identidem rursus amplecti
+      <lb/><del><gap/></del>redux possis, <add>ut</add> damnum<del><gap/></del> quod <rs key="place_VER-basela" type="place">Patria</rs> et
+      <lb/>Amici in Venerando Tuo <rs key="pers_DE-588-135542286" type="person">Parente</rs> passi sumus
+      <lb/>in Te resarcitum <del><gap/></del>sentiamus. Ceterum dici vix
+      <lb/>potest quant<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> cum voluptate ex Tuis didicerim
+      <lb/>Te professionem Tuam omnium applausu inaugura<unclear reason="lost">ss</unclear>e
+      <lb/>Te<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> celebre vestrum nomen Gentilitium mirif<unclear reason="lost">ice</unclear>
+      <lb/>ornare, utinam l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>titi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> quam ex ista re capiunt
+      <lb/>omnes Tui <rs type="person">amici</rs> diutius frui potuisset Dominus
+      <lb/><rs key="pers_DE-588-135542286" type="person">Parens</rs> Tuus. <rs key="pers_DE-588-121297829 pers_DE-588-1333493304" type="person">Parentes</rs> mei qui Te plurimum
+      <lb/>salutari volunt, in eadem mecum Tui gratia
+      <lb/>vota descendunt, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipue <rs key="pers_DE-588-121297829" type="person">Pater</rs> meus qui, nisi
+      <lb/>variis admodum negotiis fuisset et esset adhucd<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>districtus ipsemet officium suum Tibi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stasset jam
+      <lb/>pridem, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stabit vero quam proxime. <abbr>Dnum</abbr>
+      <lb/>Tuum Consobrinum <rs type="person">Nicolaum</rs> pluribus verbis
+      <lb/>salutes rogo, simul<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> an apud Vos in Anatomicis
+      <lb/>aliquid edisci possit, mihi <del><gap/></del><add>quando</add> tuo co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odo fieri poterit
+      <lb/>significare at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Domin<del><gap/></del><add>o</add> <rs key="pers_DE-588-104265264" type="person">Morgagno</rs> quando sese
+      <lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>buerit occasio <rs key="pers_DE-588-121297829" type="person">Parentis</rs> mei, mea<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tenuia officia
+      <lb/><rs key="place_VER-basela" type="place">his in oris</rs> offerre <add>haud dedigneris.</add> </p><closer><choice><orig>VALE</orig><reg>Vale</reg></choice> Interim Consobrine Charissime<supplied>,</supplied>
+      <lb/>quam optime et me Tibi proporro <choice><sic>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>edatum</sic><corr>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endatum</corr></choice> habere perge.
+      <lb/><dateline>Dabam <rs key="place_GEO-2661604" type="place">Basil<choice><orig>:</orig><reg>.</reg></choice></rs> <date when="1717-02-20">XX. <abbr>Febr.</abbr> 1717</date>.</dateline>
+    <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> den <date when="1717-03-13">13. <abbr>Mart.</abbr></date></foreign></note>
+<pb facs="1040079" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Bernoulli</rs> Professeur</addrLine>
+      <addrLine>en Mathemati<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tres Celebre</addrLine>
+      <addrLine>à <rs key="place_GEO-3171728" type="place">Padoüe</rs></addrLine>
+    </address></closer>
+</div>
+</body>
+</text></TEI>

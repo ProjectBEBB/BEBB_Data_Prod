@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517163505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Frantz Ludwig Sprünglin.
+            Paris, 11. August 1710</title>
+          <title type="alt">1710.08.11: Bernoulli, Nicolaus
+            (1687-1759) an Sprünglin, Frantz Ludwig (?-1760)</title>
+          <title type="alt">000059501</title>
+          <title type="alt">1710-08-11_Bernoulli_Nicolaus-Spruenglin_Frantz_Ludwig</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517163505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517163505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Sprüngli </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Schluss des Textes unterstrichen "Genevam"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23501">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.292r-v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517163505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433814105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059501</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,2 S.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Parisiis</origPlace>
+              <date when="1710-08-11">11. Augusti
+                1710</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1710-08-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-122682769">Sprünglin, Frantz Ludwig</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517163605501" type="prev"/>
+          <ptr target="B_991170517163405501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Spruenglin_Frantz_Ludwig-NicIB" corresp="pers_DE-588-122682769" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+
+        <p>Nicolaus I Bernoulli dankt Franz Ludwig Sprünglin für dessen rasche Antwort, bedauert jedoch, ihn wegen der Verlängerung seines Parisaufenthalts nicht wie gehofft in Basel treffen zu können. Für Sprünglins Durchreise empfiehlt er Franz Christ als Ansprechpartner und verweist ihn an den Buchhändler Emanuel Thurneysen. Bernoulli bittet um Grüsse an Jakob Christoph Iselin, Johann I Bernoulli und Nicolaus Harscher in Marburg, erteilt Aufträge für einen nicht identifizierten Band und ein Paar Stiefel und wünscht Sprünglin eine erfolgreiche Reise.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+            <note type="lebensdaten">(1688-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-128895160">Harscher, Nicolaus</persName>
+            <note type="lebensdaten">(1683-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117205508">Iselin, Jakob Christoph</persName>
+            <note type="lebensdaten">(1681-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1168632560">Risold, Samuel</persName>
+            <note type="lebensdaten">(1685-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10068534X">Thurneysen, Emanuel</persName>
+            <note type="lebensdaten">(1687-1739)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-25" who="SG">Grundkommentierung vorbereitet</change>
+        <change when="2026-08-25" who="SG">NER</change>
+        <change when="2026-07-09" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-07-09" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-20" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039145/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1039146" n="292r"/>
+  <opener><salute>Viro Doctissimo <rs key="pers_DE-588-122682769" type="person"><abbr>Fr.</abbr> <abbr>Lud.</abbr> Spr<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>nglino</rs> Amico suo singulari et <abbr>pl.</abbr> colendo
+      <lb/><abbr>S. P. D.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>Nic.</abbr> Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.</salute></opener>
+  <p><lb/><rs type="lostletter">Literas</rs> Tuas humanissimas, quibus ad <rs type="letter" key="B_991170517163605501">meas</rs> tam cito, quod su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>i erga me amoris indicium est, mihi
+      <lb/>respondere dignatus es, su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>a cum voluptate perlegi, et ex iis me non ultimum inter amicos Tuos
+      <lb/>locum adhucdum obtinere l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tus percepi, de quo proin mihi impense gratulor. Illud autem
+      <lb/>quod significas, Te nempe promissa impleturum et sub finem <date>hujus mensis</date> <rs type="place" key="place_GEO-2661604">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> futurum
+      <lb/>esse, conceptam illam antehac ex disjunctione nostra tristitiam, quam fere omnem jam ex ani<pc type="hyphenation">-</pc><lb break="no"/>mo excusseram, renovavit imo et auxit; illud etenim, quo me erigebam, solatium et spes qu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/>constanter fovebam, me Te <rs key="place_GEO-2661604" type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> hac <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>state visurum, Tuoque ibidem fruiturum colloquio,
+      <lb/>ipso illo tempore, quo suavissimas Tuas <rs type="letter">literas</rs> accepi, subito proh dolor! evanuit. Accidens
+      <lb/>aliquod haud pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>visum me discessum meum in mensem <date>Septembrem</date> rejicere, atque adeo exopta<pc type="hyphenation">-</pc><lb break="no"/>tissima Tua pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentia <date>hoc a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o</date> carere cogit; dico hoc <date>anno</date>: nos enim post reditum Tuum in
+      <lb/><rs type="place" key="place_VER-schweiz">Patriam</rs>, si non <rs key="place_GEO-2661604" type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, saltem in alio quodam <rs type="place" key="place_VER-schweiz">Helveti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> loco, aliquando conjunctum iri
+      <lb/>confido. Interim donec hoc contingat amicitia nostra majora indies capiet incrementa, si
+      <lb/>moto potis est capere, quid enim ad su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>um amorem amplius accedere queat, nondum scio;
+      <lb/>ego saltem me totum Tibi et ad qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vis officia paratum sisto. Quid vero Tibi in itinere pro<pc type="hyphenation">-</pc><lb break="no"/>posito <rs key="place_GEO-2661604" type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentia mea et officiis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> forte Tibi ibidem pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stare possem, carendum erit,
+      <lb/>alium Tibi in mei locum substituo, amicum nempe meum singularem <rs key="pers_DE-588-140736662" type="person">Franciscum Christ</rs> Juris
+      <lb/>Studiosum, quem rogo ut meo nomine salutes; is non cessabit in mei gratiam co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odis Tuis,
+      <lb/>si quomodo potuerit, inservire, Teque etiam amico nostro co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uni <rs key="pers_DE-588-10068534X" type="person">Emanueli Thurnisio</rs> Bi<pc type="hyphenation">-</pc><lb break="no"/>bliopol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quem ut spero itineris <rs key="place_GEO-2925533" type="place">Francofurtani</rs> socium habebis, facile co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endabit. Salu<pc type="hyphenation">-</pc><lb break="no"/>tabis etiam, si placet, <abbr>Cl.</abbr> <abbr>Prof.</abbr> <rs key="pers_DE-588-117205508" type="person">Iselium</rs> et <rs key="pers_DE-588-118509969" type="person">Patruum</rs> meum, quorum prior Te fortasse <rs type="letter">lite<pc type="hyphenation">-</pc><lb break="no"/>ris</rs> <rs key="place_GEO-2873759" type="place">Marburgum</rs> perferendis onerabit. <rs type="biblio">Librum</rs> illum et ocreas, si eas <del><gap/></del>Tecum assume<pc type="hyphenation">-</pc><lb break="no"/>re Tibi co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odum sit, in nostras vel etiam <rs key="pers_DE-588-118509969" type="person">Patrui</rs> mei <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>des, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nostris contigu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt,
+      <lb/>mitti curabis. Rogo Te quoque, ut <rs key="place_GEO-2873759" type="place">Marburgi</rs> <abbr>D.</abbr> <abbr>Prof.</abbr> <rs key="pers_DE-588-128895160" type="person">Harscherum</rs>, si eum compellatione
+      <lb/>Tua dignaberis, meo nomine salutes. Ecce amice optime, libere Tecum ago in mandatis
+      <lb/>Tibi dandis, rogo proinde, ut pari libertate utaris, quotiescunque me Tibi quadam
+      <lb/>in re inservire posse deprehendes. C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum iter Tuum felix et prosperum esse jubeat.
+<pb facs="1039147" n="292v"/>
+      <lb/><abbr>D. O. M.</abbr> qui Te illo ex animi sententia absoluto sospitem et incolumem domum reducat, ubi
+      <lb/>ut brevi tempore eruditionis et studiorum Tuorum digna pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mia consequaris, est quod Tibi
+      <lb/>animitus apprecor. </p><closer>Vale et me ama. <dateline>Dabam <rs key="place_GEO-2988507" type="place">Parisiis</rs> <date when="1710-08-11">11. Augusti 1710</date>. <rs key="place_GEO-2660646" type="place"><hi rend="u">Genevam</hi></rs></dateline></closer>
+  <postscript>
+    <p><abbr>P. S.</abbr> <rs key="pers_DE-588-1168632560" type="person">Risoldo</rs> navem suam remitto, et c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teros <rs type="person">amicos</rs> omnes plurimum salvere jubeo.</p>
+  </postscript>
+</div>
+<div type="translation" xml:id="B_991170517163505501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039146" n="292r" /> <p>Dem hochgelehrten Herrn Franz Ludwig Spruenglin, seinem besonders geschätzten und sehr verehrten Freund,<lb type="forced"/>sendet Nicolaus Bernoulli seine herzlichsten Grüsse.</p>
+<p>Deinen freundlichen Brief, mit dem Du mir so rasch geantwortet und damit Deine grosse Zuneigung bewiesen hast, habe ich mit grösster Freude gelesen. Zu meiner Genugtuung habe ich daraus erfahren, dass ich unter Deinen Freunden noch immer nicht den letzten Platz einnehme. Darüber bin ich sehr glücklich. Deine Nachricht jedoch, Du werdest Dein Versprechen erfüllen und gegen Ende dieses Monats in Basel sein, hat die Traurigkeit über unsere Trennung, die ich schon fast überwunden hatte, wieder geweckt, ja noch verstärkt. Denn genau zu dem Zeitpunkt, als ich Deinen lieben Brief erhielt, zerschlug sich leider ganz plötzlich die Hoffnung, mit der ich mich beständig getröstet hatte: Dich diesen Sommer in Basel zu sehen und dort mit Dir sprechen zu können. Ein unvorhergesehenes Ereignis zwingt mich, meine Abreise in den September zu verschieben. So muss ich dieses Jahr auf Deine so sehr ersehnte Gesellschaft verzichten. Ich sage: dieses Jahr. Denn ich bin zuversichtlich, dass wir nach Deiner Rückkehr in die Heimat irgendwann zusammenkommen werden, wenn nicht in Basel, so doch an einem anderen Ort in der Schweiz. Bis dahin wird unsere Freundschaft täglich weiter wachsen, sofern das überhaupt möglich ist. Ich weiss nämlich nicht, was sich der grössten Zuneigung noch hinzufügen liesse. Jedenfalls stehe ich Dir ganz zur Verfügung und bin zu jedem Freundschaftsdienst bereit. Da Du mich auf Deiner geplanten Reise in Basel nicht antreffen wirst und deshalb auch auf meine dortigen Dienste verzichten musst, stelle ich Dir einen anderen an meine Stelle: meinen engen Freund Franz Christ, der die Rechte studiert. Bitte grüsse ihn von mir. Mir zuliebe wird er Dir gewiss nach Kräften behilflich sein. Er kann Dich auch ohne Weiteres unserem gemeinsamen Freund, dem Buchhändler Emanuel Thurneysen, empfehlen, mit dem Du, wie ich hoffe, nach Frankfurt reisen wirst. Grüsse bitte auch den angesehenen Professor Iselin und meinen Onkel väterlicherseits. Ersterer wird Dir vielleicht Briefe nach Marburg mitgeben. Das betreffende Buch und die Stiefel, sofern Du sie bequem mitnehmen kannst, lass bitte in unser Haus oder in das unmittelbar benachbarte Haus meines Onkels bringen. Auch bitte ich Dich, in Marburg Herrn Professor Harscher von mir zu grüssen, falls Du ihn besuchst. Du siehst, mein lieber Freund, wie frei ich Dir Aufträge erteile. Bitte nimm Dir dieselbe Freiheit, sooft Du bemerkst, dass ich Dir in irgendeiner Sache nützlich sein kann. Möge Deine Reise glücklich verlaufen! <pb facs="1039147" n="292v" /> Der allgütige und allmächtige Gott möge Dich nach ihrem guten Gelingen gesund und wohlbehalten nach Hause zurückführen. Dort mögest Du bald den verdienten Lohn für Deine Gelehrsamkeit und Deine Studien erhalten. Das wünsche ich Dir von Herzen.</p>
+<p>Lebe wohl und bleibe mir in Freundschaft verbunden.<lb type="forced"/>Geschrieben in Paris am 11. August 1710.<lb type="forced"/><hi rend="u">Nach Genf.</hi></p>
+<p>P. S. Ich schicke Risold sein «Schiff» zurück und grüsse alle übrigen Freunde herzlich.</p></div>
+<div type="translation" xml:id="B_991170517163505501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039146" n="292r" /> <p>To the learned Franz Ludwig Spruenglin, his especially valued and much-respected friend,<lb type="forced"/>Nicolaus Bernoulli sends warm greetings.</p>
+<p>I read your kind letter with the greatest pleasure. By answering mine so quickly, you have shown your deep affection for me, and I was delighted to find that I still hold something more than the lowest place among your friends. This makes me very happy. Yet your news that you will keep your promise and be in Basel towards the end of this month has revived, indeed increased, the sadness at our separation which I had almost put behind me. At the very time I received your welcome letter, the hope with which I had constantly consoled myself suddenly vanished, alas: the hope of seeing you in Basel this summer and enjoying your conversation there. An unforeseen event forces me to postpone my departure until September, and so to forgo your much-desired company this year. I say this year, for I am confident that after your return home we shall meet at some point, if not in Basel, then somewhere else in Switzerland. Until then our friendship will grow stronger every day, if indeed it can grow stronger: I do not yet know what could be added to the greatest affection. For my part, I place myself entirely at your disposal, ready to do you any service. Since on your intended journey you will have to do without my presence in Basel and whatever help I might offer you there, I appoint someone else in my place: my close friend Franz Christ, a student of law. Please give him my regards. For my sake he will certainly do whatever he can to help you, and he will readily introduce you to our mutual friend, the bookseller Emanuel Thurneysen, who I hope will accompany you on your journey to Frankfurt. Please also give my regards to the distinguished Professor Iselin and to my paternal uncle. The former may ask you to carry letters to Marburg. Please have the book in question and the boots, if you can conveniently bring them, delivered to our house or to my uncle’s, which is next door. I also ask you to give my regards to Professor Harscher in Marburg, if you pay him a visit. You see, my dear friend, how freely I give you commissions. Please take the same liberty whenever you find that I can be of service to you in any matter. May your journey go well! <pb facs="1039147" n="292v" /> May God, most good and almighty, bring you home safe and sound once you have completed it to your satisfaction. There, I sincerely hope, you will soon receive the rewards that your learning and studies deserve.</p>
+<p>Farewell, and keep me in your affection.<lb type="forced"/>Written in Paris, 11 August 1710.<lb type="forced"/><hi rend="u">To Geneva.</hi></p>
+<p>P. S. I am sending Risold his «ship» back, and send warm greetings to all the other friends.</p></div>
+</body>
+</text></TEI>

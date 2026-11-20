@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517065805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Héritiers Cramer an Nicolaus I Bernoulli. Genf, 17. September 1743</title>
+          <title type="alt">1743.09.17: Unbekannt (?-?) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059086</title>
+          <title type="alt">1743-09-17_NN-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517065805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517065805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs>
+                    (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer Philibert (Verlag in Genf) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren</p>
+          <p>Original</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24312">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.69</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517065805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433685905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059086</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1743-09-17">le 17.e 7bre 1743</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-000000000">Unbekannt</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1743-09-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517065905501" type="prev"/>
+          <ptr target="B_991170517063505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Philibert_Verlag_in_Genf-NicIB" corresp="org_DE-588-6145604-4" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-23" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-05-26" who="MK RG">kollationiert</change>
+        <change when="2025-05-23" who="MK">TEI codiert, komm.</change>
+        <change when="2025-05-20" who="RG">Adresse eingefügt</change>
+        <change when="2025-05-20" who="RG">Brief strukturiert, Code angepasst und lb/ eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+    <facsimile>
+        <graphic url="https://www.e-manuscripta.ch/i3f/v20/1063448/manifest"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+<pb facs="1063449" n="1"/>
+  <opener>
+                    <salute>
+      <lb/>Monsieur
+                    </salute>
+  </opener>
+  <p>
+      <lb/>Vous verrez par l’<rs type="letter">incluse</rs> de <abbr>mons.<hi rend="sup">r</hi></abbr> le <abbr>Prof.</abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>
+      <lb/>que nous avons enfin à peu près fini le <rs type="biblio">Recueil</rs>
+      <lb/>des <rs type="biblio">Ouvrages</rs> de feu monsieur vôtre <rs key="pers_DE-588-118509950" type="person">Oncle</rs>, dont
+      <lb/>il a eu un soin particulier <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’enrichir de
+      <lb/>beaucoup de Notes, ce qui a retardé de beaucoup
+      <lb/>l’impression, <subst><del><gap/></del><add>mais</add></subst> le Public n’y perdra rien, quoique
+      <lb/>nous aurions bien souhaité le publier plûtôt,
+      <lb/>mais cela n’a pas dépendu de nous, comme vous
+      <lb/>le voyez, Monsieur. Nous sommes persuadez que
+      <lb/>vous agréerez la <rs type="biblio">Dédicace</rs> de <abbr>Mons.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>, qui
+      <lb/>est bien à juste tître; puisque vous avez bien
+      <lb/>voulu nous obliger en consentant à la publication
+      <lb/>de ce <rs type="biblio">Recueil</rs>, et en nous fournissant les <rs type="biblio">Opera
+      <lb/>Posthuma</rs><note type="editorial">Es handelt sich wohl um Jacobi Bernoulli, Opera, Genevae, Sumptibus Haeredum Cramer et Fratrum Philibert, 1744, hg. von G. Cramer</note> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> ainsi, Monsieur, nous vous
+      <lb/>en témoignons nôtre vive reconnoissance, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>les vrais <rs key="pers_no_GND_id" type="person">Mathématiciens</rs> en sentiront encore
+      <lb/>mieux tout le prix. Dès que l’<rs type="biblio">ouvrage</rs> paroîtra,
+<pb facs="1063450" n="2"/>
+      <lb/>nous ne manquerons pas de vous en envoyer
+      <lb/>quelques <rs type="biblio">exemplaires</rs> que nous vous prierons
+      <lb/>de recevoir, comme une marque de nôtre gratitude,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> nous vous suppli<subst><del><gap/></del><add>ons</add></subst> de nous accorder toûjours
+      <lb/>l’honneur de vôtre bienveillance, étant avec
+      <lb/>la plus parfaite considération<supplied>.</supplied>
+  </p>
+  <closer>
+                    <salute>
+      <lb/>Monsieur
+      <lb/>Vos très humbles <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très
+      <lb/>Obeïssans Serviteurs
+                    </salute><lb/>Les <choice><abbr>her.</abbr><expan>héritiers</expan></choice>
+                    <signed><rs key="pers_DE-588-11670912X" type="person">Cramer</rs></signed> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> fréres <signed><rs type="person">Philibert</rs></signed>
+                    <dateline>
+      <lb/><rs key="place_GEO-2660646" type="place">Geneve</rs> le <date when="1743-09-17"><subst><del>2</del><add>1</add></subst>7<hi rend="sup">e</hi> 7<hi rend="sup">bre</hi> <hi rend="u">1743</hi></date>.</dateline>
+  </closer>
+<pb facs="1063451" n="3"/>
+  <postscript>
+    <p>
+        <lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> le <abbr>Prof.</abbr> <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> nous a remis vôtre <choice><abbr>Msc.</abbr><expan>Manuscrit</expan></choice> d’<rs type="biblio">opera Posthuma</rs>
+        <lb/>afin de vous le renvoyer comme vous souhaiterez, ou par
+        <lb/>le prochain messager.
+    </p>
+  </postscript>
+<pb facs="1063452" n="4"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Nicolas Bernoulli</rs></addrLine>
+      <addrLine>Docteur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Professeur en Droit</addrLine>
+      <addrLine><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></addrLine>
+      <addrLine>à <hi rend="u"><rs key="place_GEO-2661604" type="place">Basle</rs></hi></addrLine>
+    </address>
+  </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

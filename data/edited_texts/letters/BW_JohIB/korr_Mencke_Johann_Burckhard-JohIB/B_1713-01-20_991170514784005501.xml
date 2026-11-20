@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514784005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Johann Burkhard Mencke. Basel, 20.
+            Januar 1713</title>
+          <title type="alt">000056604</title>
+          <title type="alt">1713-01-20_Bernoulli_Johann_I-Mencke_Johann_Burckhard</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514784005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514784005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Mencke, Johann Burckhard (1674-1732) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli
+            Werkausgabe: Op. XC</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-42533">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 674:Bl.145-146</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514784005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433108805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056604</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basil.</origPlace>
+              <date when="1713-01-20">d. XX. Jan.
+                MDCCXIII</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1713-01-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118783181">Mencke, Johann Burkhard</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514784105501" type="prev"/>
+          <ptr target="B_991170514783905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Mencke_Johann_Burckhard-JohIB" corresp="pers_DE-588-118783181" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. sendet das Manuskript zu Op. XC, weil er von seinem in England weilenden Neffen
+          Nic. I B. erfahren hat, dass demnächst die zweite Auflage von Newtons Principia erscheinen
+          wird. Sein Op. XC enthält Bemerkungen zur ersten Auflage, die dann gelesen und mit der
+          zweiten Auflage verglichen werden sollten. Die Abhandlung kann auf zwei Monatshefte
+          verteilt werden, er zieht aber eine Publikation in einem Heft vor. Druckfehler sollen
+          sorgfältig vermieden, die algebraischen Grössen kursiv gesetzt werden. Um die doppelt
+          gesandte AE will Joh. B. sich nicht mehr kümmern. Mencke soll sich an Werenfels' Bruder
+          oder an Stern wenden. Im letzten Päckchen waren Sectio XII von Bd. 4 und Sectio I, II, III
+          und IV von Bd. 5 der Supplementa sowie die Hefte der AE von Juni 1711 bis Mai 1712. Joh.
+          B. bittet um Zusendung der weiteren Hefte durch den gleichen Kanal und bestellt im Voraus
+          zwei Exemplare der Hefte, in denen seine Arbeit (op. XC) erscheinen wird. Aus Frankreich
+          hat er gehört, dass Malebranches Recherches de la verité in zweiter erweiterter Auflage
+          erschienen ist. Renau, der Autor der Théorie de la manoeuvre des vaisseaux, soll eine
+          Publikation über den früheren Streit mit Huygens vorbereiten. Nicole wird im Winter eine
+          Arbeit über die Zykloiden publizieren. De Lagny bereitet eine Arbeit über die
+          Kreisquadratur vor. Montmort hat eine vermehrte Neuauflage seines Essay de l'Analyse sur
+          les jeux d'hazard angekündigt. Joh. B. grüsst Wolff, dem es hoffentlich wieder besser
+          geht.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100175473">Fantet de Lagny, Thomas</persName>
+            <note type="lebensdaten">(1660-1734)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118576682">Malebranche, Nicolas</persName>
+            <note type="lebensdaten">(1638-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117584401">Nicole, François</persName>
+            <note type="lebensdaten">(1683-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Werenfels, Bruder von Samuel Werenfels</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118634771">Wolff, Christian von</persName>
+            <note type="lebensdaten">(1679-1754)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1713-01-20_Bernoulli_Johann_I-Mencke_Johann_Burckhard"/>
+      </change>
+        <change when="2008-09-04">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1416778/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1713-01-20_Bernoulli_Johann_I-Mencke_Johann_Burckhard">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1416779" n="145r"/> Viro Excellentissimo </p>
+  <p>Joh. Burchardo Menkenio </p>
+  <p>S. P. D. </p>
+  <p>Joh. Bernoulli</p>
+  <p>Quia non displicuit quod misi schediasma Actis vestris inserendum, quin et plura a me
+          petis Vir Clariss. quae etsi per Cursorem publicum tra[n]smisero Tibi tamen non ingrata
+          fore testaris. Ecce igitur specimen novum de materia satis curiosa, quod paravi cum nuper
+          intelligerem ab Adgnato meo in Anglia commorante Editionem alteram operis Newtoniani
+          propediem lucem esse visuram: credidi enim me
+          rem gratam facere lectori, qui haec amat, si mea cogitata et observata in veterem
+          editionem eodem tempore legenda et cum nova conferenda exhiberem. Siquidem vero reapse jam
+          jam prodiit liber Newtoni, ut modo percipio, rogo ut scriptum meum quantocyus in Actis
+          vestris publicetur, quod si nimis prolixum visum fuerit quam quod uno mense simul edatur,
+          poterit in duas partes dispesci binis consecutivis mensibus edendas, mallem tamen uno
+          mense totum comprehendi si commode id fieri queat. Caeterum rogo etiam ut sphalmata
+          typographica probe praecaveantur; litterae algebraicae exprimantur characteribus, ut
+          vocant cursivis. </p>
+  <p>Quod attinet ad Acta bis missa pro bibliotheca nostra publica, utrum illa bis quoque sint
+          soluta, et quantum pro illis acceperis hucusque; ego certe ignoro, ex quo enim Cl.
+          Werenfelsius Bibliothecarius, solvendi curam in se recepit, ei negotio me amplius non
+          immisceo; quo circa ex ipso ejus vel Fratre vel <pb facs="1416780" n="145v"/> Affine quorum
+          alteruter quotannis nundinas Vestras frequentat, quod scire desideras sciscitari poteris.
+          Hoc saltem scio, quod in postremo nobis misso fasciculo contineantur sectio XII Tomi IV,
+          et Sect. I, II, III et IV Tomi V supplem. et a mens. Juni 1711 usque ad mens. May 1712
+          inclusive. Ideoque sequentia commoda occasione nobis transmitti rogamus, quorum pretium
+          alteruter modo memoratorum mercatorum persolvet in Nundinis Vestris cum quo igitur
+          rationes sunt ineundae tam pro praeterito quam pro futuro. Si in antecessum mihi mittere
+          non gravaberis duo exemplaria mensis ejus in quo scriptum meum evulgabitur statim ac
+          fuerit impressum, dummodo mittendi adsit opportunitas, facies rem gratissimam qua mirifice
+          me obstringes. Ex Gallia intelligo scrutinium veritatis Malebrancii Gall. altera vice
+          nuper prodiisse multis additamentis auctum: ut et Comment. Acad. Reg. pro anno 1710. Renaldus Auctor libri Gall. <hi rend="u">Theorie de
+            la manoevre des Vaisseaux</hi> dicitur aliquid ad praelum parare de lite quae olim ipsi
+          intercessit cum Hugenio. Nicollius tractatum
+          aliquem de Cycloidibus hac hyeme adhuc typis mandabit. De Lagny vero occupatur in
+          elaboratione alicujus dissertationis de Quadrat. Circ. Et Montmortius Auctor libri Gall. <hi rend="u">Essay de l’Analyse sur les
+            jeux de hazards</hi>, novam hujus libri promittit editionem auctiorem et meliorem. Spero Cl. Wolffium quem officiosissime salutatum
+          cupio, pristinae sanitati restitutum esse. Quod vero superest Tibi Vir Excell. annum novum
+          quem ante aliquot hebdoma<pb facs="1416782" n="146r"/>das ingressi sumus auspicatissimum et
+          omnibus bonis affluentem ut et plures subsecuturos opto et apprecor, meque Tuae
+          benevolentiae proporro commendo. Vale.</p>
+  <p>Dabam Basil. d. XX. Jan. MDCCXIII. </p>
+        <pb facs="1416783" n="146v" type="empty"/>
+      </div>
+    </body>
+  </text>
+</TEI>

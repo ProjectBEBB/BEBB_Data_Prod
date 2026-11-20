@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514978905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Gabriel Cramer. Basel, 04. September 1728</title>
+          <title type="alt">1728.09.04: Bernoulli, Johann (1667-1748) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000055737</title>
+          <title type="alt">1728-09-04_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514978905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514978905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig: "à Mr. Cramer 4 Sept.1728 4". Letzte Seite leer</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24592">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 655, Nr.4</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514978905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432936305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055737</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>22 1/2 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1728-09-04">ce 4 7bre 1728</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1728-09-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430094805501" type="prev"/>
+          <ptr target="B_991170514978805501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Bernoulli erklärt die verspätete Zustellung seines Briefes vom 13. Mai mit einem vermuteten Aufenthalt bei d'Onsenbrays Postverwaltung und bittet, seine Erklärung zu Robins nun in einem niederländischen Journal zu veröffentlichen. Er kritisiert Robins' Wiedergabe seines Discours sowie Mazières und Clarkes Argumente zum Kraftmass. Den Kupferplattenversuch erläutert er durch ein Modell zweier elastisch verbundener Körper, deren rasch wechselnde Bewegungs- und Ruhephasen die lebendige Kraft trotz scheinbar verringerter gemeinsamer Geschwindigkeit erhalten sollen. Er bekräftigt die Messung der Kraft an bleibenden gleichartigen Wirkungen unabhängig von der Wirkungsdauer. Cramer solle wegen seines Berichts über Saurin anonym bleiben. Bernoulli berichtet, Horrebows Beobachtungen der jährlichen Fixsternparallaxe beruhten auf einer von seinem Sohn Daniel entwickelten Methode. Daniel habe die Veröffentlichung der Methode und der Beobachtungen in den Petersburger Akademiememoiren angekündigt, deren erster Band demnächst erscheinen solle. Bernoulli lässt 's Gravesande nach einem Exemplar seines Discours fragen und bestätigt den Empfang der dritten Principia-Ausgabe, deren Kosten er erstatten möchte.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+            <note type="lebensdaten">(1698-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117672025">Camus, Charles-Etienne-Louis</persName>
+            <note type="lebensdaten">(1699-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118669478">Clarke, Samuel</persName>
+            <note type="lebensdaten">(1675-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-129767441">Horrebow, Peder</persName>
+            <note type="lebensdaten">(1679-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119507978">Jurin, James</persName>
+            <note type="lebensdaten">(1684-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117683280">Louville, Jacques Eugène d'Allonville de</persName>
+            <note type="lebensdaten">(1671-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089421028">Mazière, Jean Simon</persName>
+            <note type="lebensdaten">(1679-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117679879">Pajot d'Onsenbray, Louis Léon</persName>
+            <note type="lebensdaten">(1678-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-143687417">Pemberton, Henry</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100252419">Robins, Benjamin</persName>
+            <note type="lebensdaten">(1707-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Bernoulli attributes the delayed delivery of his letter of 13 May to its suspected retention in d'Onsenbray's postal administration and asks that his statement on Robins now be published in a Dutch journal. He criticises Robins' account of his Discours and Mazière's and Clarke's arguments about the measure of force. He explains the copper-plate experiment through a model of two elastically connected bodies whose rapidly alternating periods of motion and rest are intended to preserve living force despite an apparently reduced common velocity. He reaffirms measuring force by lasting effects of the same kind, independently of the duration of action. Cramer is to remain anonymous as the source of the report about Saurin. Bernoulli reports that Horrebow's observations of annual stellar parallax were based on a method developed by his son Daniel. Daniel had announced that the method and observations would be published in the memoirs of the St Petersburg Academy, whose first volume was expected shortly. Bernoulli asks Cramer to inquire whether 's Gravesande has received a copy of his Discours and acknowledges receipt of the third edition of the Principia, whose cost he wishes to reimburse.</p>
+      </abstract>
+      <abstract>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+            <note type="lebensdaten">(1698-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117672025">Camus, Charles-Etienne-Louis</persName>
+            <note type="lebensdaten">(1699-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118669478">Clarke, Samuel</persName>
+            <note type="lebensdaten">(1675-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-129767441">Horrebow, Peder</persName>
+            <note type="lebensdaten">(1679-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119507978">Jurin, James</persName>
+            <note type="lebensdaten">(1684-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117683280">Louville, Jacques Eugène d'Allonville de</persName>
+            <note type="lebensdaten">(1671-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089421028">Mazière, Jean Simon</persName>
+            <note type="lebensdaten">(1679-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117679879">Pajot d'Onsenbray, Louis Léon</persName>
+            <note type="lebensdaten">(1678-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-143687417">Pemberton, Henry</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100252419">Robins, Benjamin</persName>
+            <note type="lebensdaten">(1707-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-02" who="RG">Grundkommentiert</change>
+
+        <change when="2026-10-17">Entwürfe des deutschen Regests und des englischen Abstracts auf Grundlage des Brieftextes ergänzt; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; kollationierter Text unverändert</change>
+        <change when="2025-10-08" who="MK">Code durchgeschaut, ergänzt, korrigiert; Transkr. durchgeschaut, recherchiert, grundkomm.</change>
+        <change when="2025-10-06" who="MK">Code ergänzt, korrigiert; recherchiert, grundkomm.</change>
+        <change when="2025-09-25" who="MK">Code ergänzt, korrigiert; recherchiert, grundkomm.</change>
+        <change when="2025-09-24" who="MK">Code ergänzt, korrigiert; recherchiert, grundkomm.</change>
+        <change when="2025-09-23" who="MK">Code ergänzt, korrigiert; recherchiert, grundkomm.</change>
+        <change when="2025-07-14" who="MK">Code ergänzt, korrigiert; recherchiert</change>
+        <change when="2025-07-11" who="MK">Code ergänzt, korrigiert; recherchiert</change>
+        <change when="2025-07-10" who="MK">Code ergänzt, korrigiert; recherchiert</change>
+        <change when="2025-02-24" who="MK">Code ergänzt, korrigiert</change>
+        <change when="2025-02-24" who="MK">Code ergänzt, korrigiert</change>
+        <change when="2025-02-21" who="MK RG">kollationiert</change>
+        <change when="2025-02-19" who="MK">Code ergänzt, korrigiert bis S.4</change>
+        <change when="2023-03-10" who="RG">Zeilabstände eingefügt</change>
+        <change when="2022-11-24" who="CG">Personen und Orte</change>
+        <change when="2022-09-30" who="CG">Header, Seitenzahlen, Briefstruktur</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1073716/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1073717" n="1"/>
+  <opener><dateline><date when="1728-09-04">4 <abbr>Sept.</abbr> 1728</date>.</dateline>
+      <lb/><salute>Monsieur</salute></opener>
+  <p><lb/>Vôtre agreable <rs key="B_991170430094805501" type="letter">derniere</rs> du <date when="1728-08-13">13 Aoust</date> m’apprend
+      <lb/>votre heureuse arrivée en <rs key="place_VER-hollan" type="place">Hollande</rs>. Je suis
+      <lb/>bien aise que vous ayez enfin reçu ma gran<pc type="hyphenation">-</pc><lb break="no"/>de <rs key="B_991170514979305501" type="letter">lettre</rs> du <date when="1728-05-13">13 May</date>; je l’avois adressée à <abbr>Mr.</abbr>
+      <lb/>le Comte<rs key="pers_DE-588-117679879" type="person">d’Onsembray</rs> qui est Intendant General
+      <lb/>des <rs type="organisation">Postes de <choice><orig>france</orig><reg>France</reg></choice></rs>,
+      <lb/>promtement, mais il faut, qu’elle se soit arretée
+      <lb/>dans son Bureau par oubli de ses Commis,
+      <lb/>où elle seroit peutétre encore, si je n’avois
+      <lb/>pas prié <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> de s’en informer
+      <lb/>à <abbr>Mr.</abbr> <rs key="pers_DE-588-117679879" type="person">d’Onsembrai</rs>. Cependant j’aurois
+      <lb/>bien souhaité, que vous l’eussiez encore
+      <lb/>reçuë en <rs key="place_VER-englan" type="place">Angleterre</rs>, parcequ’elle contenoit
+      <lb/>bien des Choses propres à repondre aux
+      <lb/>Objections et Experiences des <rs type="person">Anglois</rs>. Depuis
+      <lb/>ma seconde <rs key="B_991170514979105501" type="letter">lettre</rs> du <date when="1728-07-22">22 Juillet</date> vous devés
+      <lb/>avoir maintenant reçu une <rs key="B_991170514979005501" type="letter">troisième</rs> du <date when="1728-07-27">27 <abbr>Juill.</abbr></date>
+    <lb/>sous couvert à un <rs key="pers_DE-588-1372007326" type="person">Marchand</rs>, par laquelle je
+      <lb/>vous donnois Avis des deux <rs key="B_991170514979305501 B_991170514979105501" type="letter">premières</rs>.
+<pb facs="1073718" n="2"/>
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-119507978" type="person">Jurin</rs> à qui vous avez confié mon
+      <lb/>Intention touchant la Declaration à faire de
+      <lb/>ma part sur l’<rs key="biblio_AT4A62U2" type="biblio">ecrit</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-100252419" type="person">Robins</rs> est trop
+      <lb/><del>peu </del>peu porté pour mes interêts, pour
+      <lb/>esperer qu’il executera la Commission que
+      <lb/>vous lui avez donnée. Il seroit pourtant
+    <lb/>bon, que vous <choice><sic>fissiez</sic><corr>fassiez</corr></choice> inserer ma <rs key="B_991170514979105501" type="letter">Declaration</rs>
+      <lb/>dans quelque <rs type="biblio">Journal</rs> de <rs key="place_VER-hollan" type="place">Hollande</rs>, quand
+      <lb/>ce ne seroit que pour avertir le Public pour<pc type="hyphenation">-</pc><lb break="no"/>quoi je ne daignerai pas repondr<del>ai</del><add>e</add> aux
+      <lb/>miserables Objections de <abbr>Mr.</abbr> <rs key="pers_DE-588-100252419" type="person">Robins</rs>, à moins
+      <lb/>que la <rs type="organisation" key="org_DE-588-39272-8">Société</rs> de <rs key="place_GEO-2643743" type="place">Londres</rs> ne les approuve.
+      <lb/>Car autrement il seroit à craindre, que nos
+      <lb/>rigides <rs type="person">Adversaires</rs> ne profitassent de
+      <lb/>mon Silence pour chanter victoire selon
+      <lb/>leur belle<del>s</del> Coutume<del>s</del>, d’autant plus, qu’ils
+      <lb/>avoient pris tant de Soin de proner et de
+      <lb/>faire sonner haut la <rs key="biblio_AT4A62U2" type="biblio">refutation</rs> qui devoit
+      <lb/>paroitre, comme un coup mortel, qui me
+<pb facs="1073719" n="3"/>
+      <lb/>terrasseroit et m’imposeroit le Silence pour
+      <lb/>toujours; Il est bien vrai que toute
+      <lb/>personne desinteressée sentira le foible, en
+      <lb/>la lisant, mais elle ne le sentira à moins
+      <lb/>qu’elle n’ait aussi lû ma <rs key="biblio_5MVQ5CQI" type="biblio">pièce</rs>: Or mon
+      <lb/><rs key="pers_DE-588-100252419" type="person">Refutateur</rs> combien d’absurditez ne me
+      <lb/>préte<choice><orig> </orig><reg>-</reg></choice><subst><del><gap/></del><add>t</add></subst>-il pas par malice, pour les refuter
+      <lb/>qu’on pourroit croire, que je les ai avancées
+      <lb/>effectivement, si on n’a pas lu mon <rs key="biblio_5MVQ5CQI" type="biblio">Discour<unclear>s</unclear></rs>?
+      <lb/>Par <abbr>ex<supplied>.</supplied></abbr>: ce qu’il dit sur ma Demonstration
+      <lb/>prise<del>s</del> des 4 ressorts, qu’un Corps avec deux
+      <lb/>degrez de vitesse peut flechir en y heurtant
+      <lb/>obliquement, n’est ce pas une invention
+      <lb/>Diabolique, que d’en faire consister l’essentiel
+      <lb/>dans la decomposition du mouvement, comme
+      <lb/>si les 4 ressorts n’y entroient pour rien? Et
+      <lb/>quand j’ai fait voir que si un Corps elastique
+      <lb/>choque un autre Corps egal aussi elastique et
+      <lb/>en repos, sous un Angle demi droit, il co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unique
+      <lb/>à celuici une Vitesse egale à celle qu’il conserve
+      <lb/>lui méme, et que cette vitesse sera à celle, que le
+<pb facs="1073720" n="4"/>
+      <lb/>choquant avoit avant le Choc en raison de 1 à <formula>\sqrt{2}</formula> et
+      <lb/>non point comme 1 à 2, comme il devroit étre
+      <lb/>selon nos <rs type="person">Adversaires</rs>; Or quand <rs key="pers_DE-588-100252419" type="person">Robins</rs> vient
+      <lb/>me dire presentement que cette determination
+      <lb/>du mouvement après le choc pour ce Cas, a
+      <lb/>deja eté trouvée par <abbr>Mr.</abbr> <rs key="pers_DE-588-118639749" type="person">Huguens</rs> longtems
+      <lb/>avant moi, je vous demande<supplied>,</supplied> n’est-ce pas un
+      <lb/>detestable artifice, qu’il veut faire à croire au
+      <lb/>lecteur, comme si mon dessein étoit de me parer
+      <lb/>de la gloire d’une invention d’<rs key="pers_DE-588-118639749" type="person">autrui</rs>, et qu’il
+      <lb/>dissimule malicieusement mon principal but,
+      <lb/>qui est d’en tirer la Consequence, pour etablir
+      <lb/>l’estimation des <rs type="keyword">forces vives</rs> du Corps choquant?
+      <lb/><rs key="pers_DE-588-100252419" type="person">Robins</rs> et ses autres <rs type="person">Sectateurs</rs> ne devroient
+      <lb/>ils pas plutôt étre honteux de leur <del><gap/></del>
+      <lb/>aveuglement, en ce qu’ils ont su le Theoréme de
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118639749" type="person">Huguens</rs> sans appercevoir la Conclusion
+      <lb/>qui s’en tire si aisément pour les <rs type="keyword">forces vives</rs>?
+      <lb/>n’est ce pas aussi par une effronterie insupportable,
+      <lb/>qu’il ose avancer hardiment que dans mon addition
+      <lb/>sur la Cause du ressort, je suppose une elasticité
+<pb facs="1073721" n="5"/>
+      <lb/>primitive, <choice><orig><abbr>c, a, d,</abbr><reg>c. a. d.</reg></orig><expan>c’est-à-dire</expan></choice> que je co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ets une petition de
+      <lb/>principe, moi qui me suis le plus <unclear>recrié</unclear> contre
+      <lb/>ceux qui le font? Je vous laisse à penser si ces
+      <lb/>sortes de finesses ne sont pas capables de faire
+      <lb/>impression sur l’esprit de ceux qui n’ayant
+      <lb/>pas lu mon <rs key="biblio_5MVQ5CQI" type="biblio">Discours</rs>, ou qui ne l’ayant lu
+      <lb/>que legerement donneront dans le panneau
+      <lb/>et ne douteront pas un moment de la bo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e foi
+      <lb/>de <rs key="pers_DE-588-100252419" type="person">Robins</rs>.</p>
+  <p><lb/>Ce que Vous me dites<supplied>,</supplied> <abbr>Mr.</abbr><supplied>,</supplied> que méme parmi
+      <lb/>les <rs type="person">Membres</rs> de la <rs type="organisation" key="org_DE-588-39272-8">Société</rs> de <rs key="place_GEO-2643743" type="place">Londres</rs>, il y en a
+      <lb/>qui ne sont plus opposez au Sistème des <rs type="keyword">forces
+      <lb/>vives</rs>, me confirme dans l’esperance que j’ai
+      <lb/>toujours eue, que la bonne Cause triomphera
+      <lb/>tôt ou tard en <rs key="place_VER-englan" type="place">Angleterre</rs> aussi bien qu’en
+      <lb/><rs key="place_VER-frankr" type="place">France</rs> malgré les efforts de nos <rs type="person">Envieux</rs>
+      <lb/>qui seront couverts de honte et de confusion. En attendant
+      <lb/>laissons les detonner leur feu, quand ils auront
+      <lb/>tiré toute leur poudre ils cesseront d’eux-
+      <lb break="no"/>mesmes et seront obligez de ceder à nos armes.
+<pb facs="1073722" n="6"/>
+      <lb/>Je ne sai si je dois rire de ceux, que vous dites
+      <lb/>qui font semblant de regarder cette question
+      <lb/>comme peu importante, ou si je dois avoir
+      <lb/>Compassion d’eux, quand ils n’osent pas décou<pc type="hyphenation">-</pc><lb break="no"/>vrir leur Secret panchant<note type="editorial">frühneuzeitliche Schreibweise für «penchant»</note> vers la Verité saisis
+      <lb/>de Crainte de deplaire à la multitude. Car enfin
+      <lb/>c’est un pretexte ridicule de dire, que la question
+      <lb/>n’est pas importante, tout le monde voyant,
+      <lb/>que dans la physique il n’y a rien de plus
+      <lb/>important, que de connoitre la nature du <choice><abbr>mouvemt.</abbr><expan>mouvement</expan></choice>
+      <lb/>qui est le premier fondement de toute cette science.
+      <lb/>Si <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> avoit connu la Verité que nous
+      <lb/>defendons il n’auroit pas raisonné si mal dans
+      <lb/>la 4<hi rend="sup">me</hi> partie de ses <rs key="biblio_73DJ8AIG" type="biblio">principes</rs> et quelque part
+    <lb/>dans Son <rs key="biblio_6WR9SDGQ" type="biblio">Optique</rs><note resp="RG" type="editorial">Vgl. <rs key="biblio_6WR9SDGQ" type="biblio">Newton, Opticks, 2. Auflage, 1718, Buch III, Query 31, S. 373–375</rs>. Newton beschreibt dort eine Abnahme der Bewegung durch Reibung und unvollkommene Elastizität, nimmt jedoch zugleich aktive Prinzipien an, welche die Bewegung erhalten und erneuern. Bernoullis Wiedergabe lässt diese Einschränkung ausser Betracht. Die vorausgehende Angabe «4me partie de ses principes» konnte bislang keiner bestimmten Stelle der Principia zugeordnet werden; das Werk besteht aus drei Büchern.</note>, où de ce que la quantité du
+      <lb/>mouvement peut diminuer dans le monde, il
+      <lb/>tire cette fausse Consequence, qu’il peut arriver
+      <lb/>et qu’il arrivera actuellement, que tout le
+      <lb/>mouvement de l’univers perira, à moins qu’il ne soit
+      <lb/>reparé de tems en tems comme par un miracle;
+<pb facs="1073723" n="7"/>
+      <lb/>Car s’il avoit eu l’idée des <rs type="keyword">forces vives</rs>, il auroit
+      <lb/>vu, que leur quantité demeurant la méme dans le
+      <lb/>monde, il est absolument impossible, que le <choice><abbr>mouvemt.</abbr><expan>mouvement</expan></choice>
+      <lb/>(nonobstant que sa quantité change tantôt en aug<pc type="hyphenation">-</pc><lb break="no"/>mentant tantôt en diminuant) puisse perir
+      <lb/>entièrement, parceque la quantité des <rs type="keyword">forces vives</rs>
+      <lb/>periroit aussi, ce qui est contre l’idée qu’on en <del>peut </del> <add>doit</add>
+      <lb/>avoir, cette quantité ne pouvant ni augmenter
+      <lb/>ni diminuer, vû que si d’un coté une partie se
+      <lb/>detruit, il faut qu’elle ait fait son effet, en
+      <lb/>produisant d’un autre coté tout autant de
+      <lb/>force, qu’il y en avoit de perdu.</p>
+  <p><lb/>Mais quan<subst><del><gap/></del><add>t</add></subst> à la Crainte que ces <rs type="person"><abbr>Mess.</abbr></rs> ont de
+      <lb/>deplaire à la Multitude, en cachant ou deguisant
+      <lb/>la Verité dont ils sont convaincus, on doit assuré<pc type="hyphenation">-</pc><lb break="no"/>ment avoir pitié de leur foiblesse quoique indigne
+      <lb/>d’un Philosophe, qui ne doit jamais <del><gap/></del>
+      <lb/>perdre le Courage de dire librement ses pensées, en
+      <lb/>fait de philosophie, ni se mettre en peine, si
+<pb facs="1073724" n="8"/>
+      <lb/>elles plairont ou deplairont à la multitude.</p>
+  <p><lb/>C’est aussi quelque chose de fort plaisant que l’histoire
+      <lb/>que votre <rs type="person">Ami</rs> a reçue de <rs key="place_VER-frankr" type="place">France</rs> sur la divison dans
+      <lb/>l’<rs type="organisation" key="org_DE-588-35019-9"><abbr>Acad.</abbr> des Sciences</rs>, au sujét de la mesure des forces;
+      <lb/>On n’en voit que trop, que le parti dominant est
+      <lb/>celui, qui <choice><orig>à</orig><reg>a</reg></choice> fait la Cabale, dont vous a parlé
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-117619515" type="person">Saurin</rs>, pour condamner ma <rs key="biblio_5MVQ5CQI" type="biblio">piéce</rs> et lui
+    <lb/>préferer de miserables <rs type="biblio" key="biblio_DPZXI8G3 biblio_W2MRIL3A">Rhabsodies d’Ecolier</rs><note resp="RG" type="editorial">Gemeint sind die <rs key="biblio_DPZXI8G3" type="biblio">Demonstration des loix du choc des corps</rs> von <rs key="pers_DE-588-117517747" type="person">Colin Maclaurin</rs> und die <rs key="biblio_W2MRIL3A" type="biblio">Les loix du choc des corps à ressort parfait ou imparfait</rs> von <rs key="pers_DE-588-1089421028" type="person">Jean Simon Mazière</rs>, die den Preis der <rs key="org_DE-588-35019-9" type="organisation">Académie des sciences</rs> für 1724 beziehungsweise 1726 erhielten. Mit «Rhabsodies d’Ecolier» wertet Bernoulli die beiden Arbeiten als zusammengewürfelte Erörterungen eines Schülers ab.</note>; On
+      <lb/>voit pourtant aussi que malgré la multitude
+      <lb/>des <rs type="person">Antagonistes</rs>, mon Sentiment n’a pas
+      <lb/>laissé de faire quelques <rs type="person">Proselytes</rs>, mais que
+      <lb/>l’on veut contraindre par force, ou de se ranger
+      <lb/>sous le Pavillon du gros Parti, ou de se taire, quelle
+      <lb/>honte, quelle fletrissure!<note type="editorial">Unklare Zeichensetzung des Autors Johann I, d.h. ein Ausrufezeichen ist nach «honte» nach einem ebenfalls nicht ganz eindeutigen Komma bloss angedeutet. Das Ausrufezeichen nach «fletrissure» ebenfalls nicht eindeutig.</note> pour une <rs type="organisation" key="org_DE-588-35019-9">Academie</rs>
+      <lb/>est<choice><orig> </orig><reg>-</reg></choice>ce là le moyen de faire fleurir les Sciences?
+    <lb/>il me semble que voilà une Chambre d’Inquisition<note resp="RG" type="editorial">Bernoulli vergleicht die <rs key="org_DE-588-35019-9" type="organisation">Académie des sciences</rs> polemisch mit einem Inquisitionstribunal. Er wirft der dominierenden Partei vor, abweichende Auffassungen zum Kraftmass zu unterdrücken. Der Vergleich gibt Bernoullis Bewertung der berichteten Vorgänge wieder.</note>
+      <lb/>pire que celle d’<rs key="place_VER-spanie" type="place">Espagne</rs>, au lieu <del>d’</del> <add>d’une </add> <rs type="organisation" key="org_DE-588-35019-9">Academie</rs><unclear>;</unclear> je
+      <lb/>plains surtout le pauvre Abbé le <rs key="pers_DE-588-117672025" type="person">Camus</rs>,
+<pb facs="1073725" n="9"/>
+      <lb/>contre lequel il s’eleva un murmure de ce qu’il
+      <lb/>attaquoit une Opinion approuvée par l’<rs type="organisation" key="org_DE-588-35019-9">Academie</rs>
+      <lb/>le pauvre <rs key="pers_DE-588-117672025" type="person">homme</rs> souffrira bien des persecutions
+      <lb/>et payera cher son audace, il meriteroit que je
+      <lb/>lui dressasse la Couronne de <rs type="keyword">martyr</rs>: Pour <abbr>Mr.</abbr> <rs key="pers_DE-588-117619515" type="person">Saurin</rs>
+      <lb/>dont l’histoire dit qu’il prend aussi mon parti,
+      <lb/>je n’ai pas trop bonne opinion de sa bonne
+      <lb/>foi, par des raisons qui vous sont connuës,
+      <lb/>il est de ceux qui clochent des deux cotez<note type="editorial">frühneuzeitliche Schreibweise für «côtés»</note>.
+      <lb/>L’<rs type="person">Auteur</rs> de l’histoire marque que le <abbr>P.</abbr> <rs key="pers_DE-588-1089421028" type="person">Maziere</rs>
+      <lb/>a soutenu l’opinion commune dans sa
+      <lb/><rs key="biblio_W2MRIL3A" type="biblio">Dissertation</rs> qui lui <choice><orig>à</orig><reg>a</reg></choice> procuré le prix.</p>
+  <p><lb/>Mais si pour soutenir une Opinion il suffit de
+      <lb/>la prononcer simplement sans aucune preuve
+      <lb/>et de dire en suite comme un Dictateur qu’elle
+      <lb/>est vraye on pourra soutenir de cette maniere
+      <lb/>toute opinion quelque monstrueuse qu’elle soit.
+      <lb/>Je ne sai si vous avez lû la <rs key="biblio_W2MRIL3A" type="biblio">Dissertation</rs> du
+      <lb/><choice><abbr>P.</abbr><expan>Père</expan></choice> <rs key="pers_DE-588-1089421028" type="person">Mazière</rs>; quoiqu’il en soit; voici tout ce
+      <lb/>qu’il dit sur les forces des Corps et ce qu’il
+      <lb/>prend pour un principe<supplied>.</supplied> <note resp="MK" type="editorial">Die Unterstreichung des folgenden Zitates – sowie weitere Unterstreichungen im Brief - ist vermutlich nicht vom Briefschreiber vorgenommen worden.</note> <quote><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Les forces
+<pb facs="1073726" n="10"/>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>des Corps <said>(dit il)</said> ou leurs mouvements sont en
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>raison composée de leurs masses et des
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>vitesses qu’ils ont dans l’instant qu’on les considére<supplied>.</supplied><choice><orig><g ref="#quote">„</g></orig><reg/></choice></quote>
+      <lb/>C’est <choice><orig>la</orig><reg>là</reg></choice> son enoncé, mais en voulez vous voir aussi sa
+      <lb/>preuve, la voici<supplied>.</supplied> <quote><choice><orig><g ref="#quote">„</g></orig><reg/></choice>C’est en vain <said>(ajoute ce <rs key="pers_DE-588-1089421028" type="person">Docteur</rs> grave)</said>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>que des <rs type="person">Auteurs Celebres</rs><note resp="MK" type="editorial">Bei den «Auteurs Celebres» handelt es sich wohl um <rs key="pers_DE-588-118509969" type="person">Johann I</rs> und um <rs key="pers_DE-588-118571249" type="person">Leibniz</rs>.</note> ont essayé de donner atteinte
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>à ce principe, et de lui en substituer un autre.
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>On les a refutez avec tant de solidité (<foreign xml:lang="lat">scilicet</foreign>!)
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>qu’il n’y a pas lieu de craindre, que desormais l’on
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>s’avise de soutenir aprés eux, que les forces sont en
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>raison composée des masses et des quarrez des vitesses<supplied>.</supplied><choice><orig><g ref="#quote">„</g></orig><reg/></choice></quote>
+      <lb/>De son principe ainsi solidement établi il deduit trois
+      <lb/>Corollaires pour tout potage, et aprés cela il n’y a
+      <lb/>plus un seul mot sur les <rs type="keyword">forces vives</rs> dans tout son <rs key="biblio_W2MRIL3A" type="biblio">discours</rs>;
+      <lb/>Voila de quelle maniére notre bon <rs key="pers_DE-588-1089421028" type="person">Pere</rs> a soutenu son
+      <lb/>opinion contre la notre, qu’en dites vous? Cependant là<pc type="hyphenation"><choice><orig> </orig><reg>-</reg></choice></pc>
+    <lb break="no"/>dessus on lui ajuge le prix, <foreign xml:lang="lat">Mopso Nisa datur</foreign><note resp="MK" type="editorial">Vergil, Eclogae VIII, Vers 26: «Mopso Nysa datur» («Nysa wird Mopsus gegeben»). Bernoulli verwendet das Zitat hier spöttisch für die aus seiner Sicht unverdiente Zuerkennung des Preises an <rs key="pers_DE-588-1089421028" type="person">Mazière</rs>.</note><supplied>.</supplied>
+      <lb/>Si j’avois su qu’en disant des niaiseries on peut devenir
+    <lb/>victorieux, j’en aurois donné <unclear>à</unclear> mes <rs type="person">Juges</rs><note resp="MK" type="editorial">Bei den «Juges» handelt es sich um die Mitglieder der Jury der Pariser <rs  key="org_DE-588-35019-9"  type="organisation">Académie des Sciences</rs>.</note> tout leur saoul.
+      <lb/>Je m’aperçois bien qu’il faut les repaitre de foin et
+      <lb/>que les mets exquis ne sont pas pour Eux. C’est beaucoup
+      <lb/>d’honneur que je leur fais en disant cela, car c’est dans la supposition
+      <lb/>qu’ils ont agi de bonne foi sans savoir mieux et qu’ils ont
+<pb facs="1073727" n="11"/>
+      <lb/>sentencié selon la portée de leurs lumie<subst><del><gap/></del><add>re</add></subst>s.</p>
+  <p><lb/>Je retourne en <rs key="place_VER-englan" type="place">Angleterre</rs>: Est ce que ce <abbr>Mr.</abbr> <rs key="pers_DE-588-118669478" type="person">Clarcke</rs> parle
+      <lb/>tout de bon, ou se moque-t-il, en nous debitant pour une
+      <lb/>preuve de l’opinion commune son beau raiso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ement, quand il dit.
+      <lb/><quote type="indirect">Que la force d’un Corps nait de deux choses, de la masse et
+      <lb/>de la vitesse, que la partie qui nait de la masse étant
+      <lb/>proportionelle à la masse, la partie qui nait de la
+      <lb/>vitesse doit etre proportionelle à la vitesse<supplied>.</supplied></quote> Pour toute
+    <lb/>reponse je veux imiter ce grand <rs key="pers_DE-588-118669478" type="person">Docteur</rs>, en lui retorquant
+      <lb/>un raisonnement tout à fait semblable, pour lui
+      <lb/>prouver que la solidité d’un <rs type="keyword">Cylindre</rs> est en raison com<pc type="hyphenation">-</pc><lb break="no"/>posée de sa hauteur et de son Diamètre. Je dis donc
+      <lb/>comme lui. La Solidite <add>d’un <rs type="keyword">cylindre</rs></add> nait de deux Choses, de sa
+      <lb/>hauteur et de son Diamètre. La partie qui nait de la
+      <lb/>hauteur <del>etat </del>etant proportionelle à la hauteur;
+      <lb/>la partie qui nait du diamètre, doit étre proportionelle
+      <lb/>au Diamètre: Ainsi il est faux que la solidité d’un
+      <lb/><rs type="keyword">Cylindre</rs> soit en raison composée de la hauteur et
+    <lb/>du quarré de son Diamètre; <foreign xml:lang="lat">Risum teneatis amici</foreign>!<note resp="MK" type="editorial"><rs key="pers_DE-588-118553569" type="person">Horaz</rs>, Ars poetica, Vers 5: «Risum teneatis, amici?» («Könntet ihr das Lachen zurückhalten, Freunde?»). Bernoulli kommentiert damit spöttisch das Gegenargument, mit dem er <rs key="pers_DE-588-118669478" type="person">Clarkes</rs> Schlussweise als unhaltbar vorführen will.</note>
+      <lb/>En verité si <abbr>Mr.</abbr> <rs key="pers_DE-588-118669478" type="person">Clarke</rs> n’est pas meilleur Theologien que
+      <lb/>Mathematicien et philosophe, sa Theologie doit étre sur
+      <lb/>un miserable pied.</p>
+  <p><lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> que vous dites ètre cet <rs key="pers_DE-588-118587544" type="person">Ami</rs> dont parle <rs key="pers_DE-588-143687417" type="person">Pem<pc type="hyphenation">-</pc><lb break="no"/>berton</rs> dans le Postcripte<note resp="MK" type="editorial">Seltene ältere Form von «postscriptum» oder «postscripte».</note> de sa <rs key="biblio_HQEGPSVS" type="biblio">lettre</rs>, qui a imaginé ce bel
+      <lb/>argument tiré de la comparaison de la resistance du suif
+<pb facs="1073728" n="12"/>
+      <lb/>avec celles que feroient des feuilles de papier ou des pieces
+      <lb/>de Soye, a bien fait de quitter ce monde, car il auroit eu
+      <lb/>le deboire de voir la defaite de son armée mise en
+      <lb/>Campagne contre les <rs type="keyword">forces vives</rs>, et de sentir ses propres
+      <lb/>armes tournées contre lui meme.</p>
+  <p><lb/>Je suis bien aise que vous ayez compris ma <rs key="B_991170514979105501" type="letter">reponse</rs> à
+      <lb/>l’experience faite avec la plaque de Cuivre et le plomb
+      <lb/>qu’on y a laissé tomber perpendiculairement, et que
+      <lb/>cette <rs key="B_991170514979105501" type="letter">reponse</rs> ait diminué votre difficulté, de laquelle
+      <lb/>s’il vous reste encore une partie c’est que vous ne
+      <lb/>comprenez pas encore dans toute sa perfection la
+      <lb/>Theorie que je me suis formée sur la Commu<pc type="hyphenation">-</pc><lb break="no"/>nication du mouvement, qui se fait lorsqu’un corps
+      <lb/>en mouvement se joint sans choquer à un autre
+      <lb/>corps en repos, qui est obligé par là de le suïvre, par
+      <lb/>le moyen des liens auxquels ils s’accrochent mutuelle<pc type="hyphenation">-</pc><lb break="no"/>ment dans le moment que les deux Corps s’unissent
+      <lb/>ensemble; car je puis demontrer fort clairement,
+      <lb/>que supposé méme, que les deux Corps soient parfaite<pc type="hyphenation">-</pc><lb break="no"/>ment elastiques, en sorte que rien ne se puisse perdre
+      <lb/>de la quantité de la <rs type="keyword">force vive</rs>, que, dis<choice><orig></orig><reg>-</reg></choice>je, toute la masse
+      <lb/>combinée paroitra continuer le mouvement avec la
+      <lb/>moitié seulement de la vitesse qu’avoit le premier
+<pb facs="1073729" n="13"/>
+      <lb/>corps avant la Conjonction et que nonobstant cela la
+      <lb/>quantite de la <rs type="keyword">force vive</rs> sera conservée en son
+      <lb/>entier: Ceci vous paroitra sans doute une contradiction,
+      <lb/>cependant il n’y a rien de si vrai, voici mon idée: concevez <figure facs="../images/figures/1073729_01.png"></figure>
+      <lb/>deux Corps egaux et parfaitement elastiques
+      <lb/><formula>A</formula> et <formula>B</formula>, liés ensemble par un fil <formula>C</formula>, qui soit
+      <lb/>aussi elastique, <abbr>c. a. d.</abbr> qui ayant souffert une
+      <lb/>extension ait la vertu de se remettre en sa premiére
+      <lb/>longueur naturelle; supposez d’abord que le fil entre
+      <lb/>les deux corps soit lache ou dans un intervalle plus
+      <lb/>court que toute sa longueur: Figurez Vous que le
+      <lb/>Corps <formula>A</formula> est en repos, et que <formula>B</formula> seul commence à se
+      <lb/>mouvoir de gauche à <choice><sic>droit</sic><corr>droite</corr></choice> avec une vitesse <formula>=v</formula> en s’eloignant
+      <lb/>ainsi du Corps <formula>A</formula>, il est visible que dès que le fil <formula>c</formula> sera
+      <lb/>étendu en ligne droite, le Corps <formula>B</formula>, ne pouvant plus
+      <lb/>continuer librement dans son Chemin fera sur le corps
+      <lb/><formula>A</formula> par l’attraction du fil precisément le meme
+      <lb/>effet pour le faire avancer vers le méme coté, que si
+      <lb/>le Corps <formula>A</formula> en repos avoit été poussé par derriére par
+      <lb/>un autre Corps egal avec la vitesse <formula>v</formula>: donc le Corps
+      <lb/><formula>A</formula> recevra toute la vitesse du Corps <formula>B</formula> et celui ci
+      <lb/>restera en repos jusqu’<choice><orig>a</orig><reg>à</reg></choice> ce que <formula>A</formula> heurtant contre
+      <lb/>lui il lui redonne toute la premiére vitesse et que
+<pb facs="1073730" n="14"/>
+      <lb/><formula>A</formula> lui méme soit remis derechef en repos; aprés cela
+      <lb/>quand le fil <formula>C</formula> sera revenu une seconde fois en
+      <lb/>ligne droite, le Corps <formula>B</formula> communiquera de nouveau
+      <lb/>toute sa vitesse au Corps <formula>A</formula> et celuici la rendra à
+      <lb/><formula>B</formula>, ensuite <formula>B</formula> à <formula>A</formula>, puis <formula>A</formula> à <formula>B</formula>; et ainsi ces deux
+      <lb/>Corps se mouvront alternativement, et la quan<pc type="hyphenation">-</pc><lb break="no"/>tité de la <rs type="keyword">force vive</rs> sera toujours la méme, savoir
+      <lb/><formula>Avv</formula> ou <formula>Bvv</formula>; Mais voyons ce que cela sert pour
+      <lb/>notre Sujet: Supposons la longueur du fil <formula>c</formula> trés
+      <lb/>petite, d’où il arrivera que ces alternations
+      <lb/>de mouvement et de repos des deux Corps seront
+      <lb/>si frequentes et suivies de si prés <del>de si pris </del>les unes
+      <lb/>après les autres, que les Sens ne pourront pas distin<pc type="hyphenation">-</pc><lb break="no"/>guer les petits tems de repos et de mouvement,
+      <lb/>et comme la somme des petits <add>tems</add> en repos est
+      <lb/>égale à la Somme des petits <add>tems</add> de <choice><abbr>mouvemt.</abbr><expan>mouvement</expan></choice>,
+      <lb/>les deux Corps <formula>A</formula> et <formula>B</formula> paroitront se mouvoir
+      <lb/>conjointement chacun avec la vitesse <formula>=\frac{1}{2}v</formula>, en sorte
+      <lb/>que l’on croiroit (mais faussement) que toute la
+      <lb/><rs type="keyword">force vive</rs> seroit seulement <formula>\frac{1}{4}Avv+\frac{1}{4}Bvv=\frac{1}{2}Avv</formula>
+      <lb/>ou <formula>=\frac{1}{2}Bvv</formula>, quoique effectivement elle <foreign xml:lang="lat">subsistat</foreign>
+<pb facs="1073731" n="15"/>
+      <lb/>toujours <formula>=Avv</formula> ou <formula>Bvv</formula>, parce qu’elle se trouve toujours entie<pc type="hyphenation">-</pc><lb break="no"/>rement dans l’un des deux Corps, passant tour à tour
+      <lb/>de l’un à l’autre. L’application est aisée à faire à l’expérience
+      <lb/>du cuivre: <choice><orig>Dés</orig><reg>Dès</reg></choice> que le plomb est tombé sur le cuivre (d’une
+      <lb/>hauteur perpendiculaire quelconque, car cela ne fait rien)
+      <lb/>les fibres de l’un et de l’autre qui s’entrelassent d’abord par
+      <lb/>le contact, tiennent lieu du fil ou du lien <formula>C</formula> ce qui produira
+      <lb/>l’effét, que l’experience fait paroitre, comme <del><gap/></del><add>si</add> la masse
+      <lb/>combinée du Cuivre et du plomb alloit conjointement
+      <lb/>avec la moitié de la vitesse qu’avoit le Cuivre seul avant
+      <lb/>la Combinaison, au lieu que chacun <del><gap/></del><add>va</add> separément avec la
+      <lb/>vitesse entiere, mais alternativement, c’est en quoi consiste le
+      <lb/>tremoussement des parties dont j’ai parlé dans une de mes
+      <lb/>précedentes <rs key="B_991170514979105501" type="letter">lettres</rs>. Voilà donc la <rs type="keyword">force vive</rs> conservée et
+      <lb/>la Contradiction apparente sauvée<supplied>.</supplied> Remarquès que je
+      <lb/>considère ici les choses en Theorie, sachant fort bien que les
+      <lb/>fibres de ces deux metaux ne seront pas parfaitement
+      <lb/>elastiques, et qu’ainsi une partie de la <rs type="keyword">force vive</rs> peut se
+      <lb/>perdre (ou plutôt, car il ne <del>s’en </del><add>se</add> perd rien) se communiquer
+      <lb/>à une matiére étrangére ou étre employée à faire tremousser
+      <lb/>davantage les petites particules du Cuivre et du plomb, mais
+      <lb/>tout cela ne fait rien contre moi non plus que la perte
+      <lb/>de la <rs type="keyword">force vive</rs> qui semble se faire dans le choc des <del><gap/></del>
+<pb facs="1073732" n="16"/>
+    <lb/>corps non elastiques: Il me suffit d’avoir demontré
+    <lb/>comment il est possible, que la <rs type="keyword">force vive</rs> se conserve
+    <lb/>dans la masse reunie, quoiqu’elle paroisse par l’experience
+    <lb/>n’avoir de vitesse que <formula>\frac{1}{2}v</formula>, au lieu qu’il semble qu’elle
+    <lb/>devroit avoir une vitesse commune <formula>=v\sqrt{\frac{1}{2}}</formula>. Je me flatte
+    <lb/>que mon explication achevera de lever entiérement
+    <lb/>votre scrupule.
+  </p>
+  <p>
+    <lb/>Je sai fort bien ce que repondroient les <rs type="person">Anglois</rs> à
+      <lb/>l’expérience, que je voudrois leur opposer, mais je leur
+      <lb/>ferois voir l’impertinence de leur reponse, quand
+      <lb/>ils pretendent, que si le gros poids acquiert plus de mou<pc type="hyphenation">-</pc><lb break="no"/>vement, c’est que le ressort agit plus longtems sur lui; car
+      <lb/>je prendrois les Choses <unclear>à</unclear> rebours, en leur demandant, quand
+      <lb/>quelcun leur presenteroit deux ressorts parfaitement
+      <lb/>egaux, lesquels à leur insçu eussent été bandés egalement<supplied>,</supplied>
+      <lb/><choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> <abbr>ex.</abbr> chacun de <del><gap/></del>60 à 40 degrés; mais par le mouvement
+      <lb/>de deux Corps de différente grosseur et de differente vitesse;
+      <lb/>je leur demanderois, dis-je, si ces deux ressorts en tout
+      <lb/>egaux et egalement bandez ne possedent pas une egale quantité
+      <lb/>de force chacun? à moins qu’ils ne soient fous, ils ne pourront
+      <lb/>me le nier, car quelle raison de préferer l’un à l’autre, puisque
+      <lb/>tout y est identique, dans l’etàt<del><gap/></del> où ils sont presentement?
+<pb facs="1073733" n="17"/>
+      <lb/>S’ils me l’accordent donc, je continuerois à leur demander,
+      <lb/>s’il ne falloit pas des forces egales de part et d’autre,
+      <lb/><unclear>pour</unclear> reduire ces deux ressorts egaux dans une parfaite
+      <lb/>égalité de compression; car quelle raison auroit<choice><orig> </orig><reg>-</reg></choice>on encore de
+      <lb/>dire, que l’un demanderoit plus de force que l’autre! Ils me
+      <lb/>diront peutètre, que suivant la grosseur du Corps qui comprime
+      <lb/>le ressort par son mouvement, il faut tantôt plus tantôt
+      <lb/>moins de force; donc, leur dirois<choice><orig> </orig><reg>-</reg></choice>je, plusieurs differentes
+      <lb/>causes inegales peuvent se consumer pleinement, et ce<pc type="hyphenation">-</pc><lb break="no"/>pendant ne produire qu’un méme effét, qui consiste uniquement,
+      <lb/>dans la quantité de Compression, qui est la seule chose qui
+      <lb/>subsiste et qu’on voit devant les yeux, la durée pendant la<pc type="hyphenation">-</pc><lb break="no"/>quelle la Compression s’est faite n’etant qu’une simple
+      <lb/>modalité de l’action, n’ayant plus aucune realité, apres l’action
+      <lb/>finie. Ainsi ces <rs type="person"><abbr>Mess.</abbr><hi rend="sup">rs</hi></rs> seroient obligés de reconnoitre que
+      <lb/>selon leur sentiment on ne pourroit jamais dire, que
+      <lb/>la cause est egale à son effet; que seroit<choice><orig> </orig><reg>-</reg></choice>il donc necessaire
+      <lb/>de chercher les causes efficientes de ce qui arrive dans la
+      <lb/>nature des Choses, puisqu’il n’y en auroit aucune de déter<pc type="hyphenation">-</pc><lb break="no"/>minée. En un mot je leur ferois comprendre le ridicule qu’il
+      <lb/>y auroit de vouloir mesurer la grandeur d’une cause positive
+      <lb/>par autres Choses que par des efféts homogènes et réels pro<pc type="hyphenation">-</pc><lb break="no"/>duits par l’entière <choice><orig>Consumtion</orig><reg>Consomption</reg></choice> ou extinction de la cause, <del><gap/></del>
+      <lb/>j’appelle un effét réel ce qui subsiste après l’action finie, qui
+<pb facs="1073734" n="18"/>
+      <lb/>est permanent, qui possède l’equivalent de sa Cause,
+      <lb/>et qui peut la restituer quand on voudra. Ainsi un
+      <lb/>ressort bandé <choice><orig>à</orig><reg>a</reg></choice> un certain degré de Compression,
+      <lb/>qui a absorbé toute la force d’un Corps en mouvement,
+      <lb/>sans faire attention au temps pendant lequel
+      <lb/>l’action de compression a durée, doit étre
+      <lb/>pris pour l’effet réel de la force du
+      <lb/>corps parce qu’aprés l’epuisement de
+      <lb/>cette force vous ne voyéz rien qu’un
+      <lb/>ressort dans un état de compression,
+      <lb/>qui seul subsiste, qui seul est p<subst><del><gap/></del><add>e</add></subst>rma<pc type="hyphenation">-</pc><lb break="no"/>nent dans cet état où il est presen<pc type="hyphenation">-</pc><lb break="no"/>tement, jusqu’à ce qu’on le relache;
+      <lb/>mais vous <subst><del><gap/></del><add>n</add></subst>’y voyés pas des traces de
+      <lb/>durée, qui puissent vous apprendre,
+      <lb/><choice><orig><unclear>compien</unclear></orig><reg>combien</reg></choice> de temps <del>a </del>le corps a emplo<pc type="hyphenation">-</pc><lb break="no"/>yé pour comprimer ce ressort, aussi
+      <lb/>n’y feroit<choice><orig> </orig><reg>-</reg></choice>on point d’attention quand
+      <lb/>il s’agiroit de juger de la force <del><gap/></del>
+      <lb/><del><gap/></del><note resp="MK" type="editorial">Eine ganze Zeile durchgestrichen sowie auf der vorderen Zeile das letzte Wort.</note>
+      <lb/>qui reside dans notre ressort bandé, on
+      <lb/>ne regarderoit qu’à son état pré<pc type="hyphenation">-</pc><lb break="no"/>sent et point de tout à la maniere dont
+      <lb/>il est parvenu à cet état de compression<supplied>,</supplied>
+      <lb/><foreign xml:lang="lat">unde habeat <choice><sic>quarat</sic><corr>quaerat</corr></choice> nemo sed oportet
+        <lb/>habere</foreign>;<note resp="RG" type="editorial">In Anlehnung an Juvenal, Satire XIV, Vers 207: «unde habeas quaerit nemo, sed oportet habere» («Woher du es hast, fragt niemand; aber haben muss man es»). Bernoulli überträgt die Sentenz auf die gespannte Feder: Für die Beurteilung ihres Wirkungsvermögens sei ihr gegenwärtiger Spannungszustand massgeblich, unabhängig davon, wie dieser hervorgebracht wurde.</note> c’est ici où on peut faire valoir
+<pb facs="1073735" n="19"/>
+      <lb/>votre comparaison du fossé dont on veut
+      <lb/>estimer le prix qu’il a couté à creuser, on
+      <lb/>ne considere que la grandeur de l’ouvrage,
+      <lb/>sans s’informer s’il a été creusé en 20 jours
+      <lb/>par 10 ouvriers, ou en 10 jours par 20 ouvriers,
+      <lb/>ou en 5 jours par 40 ouvriers, ou <del><gap/></del><add><unclear>80</unclear></add>, car c’est
+      <lb/>toujours le meme ouvrage; aussi ma
+      <lb/>comparaison peut quadrer, s’il s’agit
+      <lb/>de mesurer la quantité d’eau ecoulée
+    <lb/>d’un vase, je la mesure par <abbr>ex.</abbr> par pinte<supplied>,</supplied><note resp="RG" type="editorial">Die Pinte ist ein regional unterschiedlich bemessenes Flüssigkeitsmass. Bernoulli verwendet sie hier als Beispiel für die Messung der ausgeflossenen Wassermenge unabhängig von der dafür benötigten Zeit.</note>
+      <lb/>sans me mettre en p<del><gap/></del><add>e</add>ine combient il
+      <lb/>lui a fallu de temps pour s’ecouler.
+      <lb/>Si le raisonement que je viens de faire
+      <lb/>étoit proposé avec plus d<supplied>’</supplied>eloquence et
+      <lb/>de force, <del>peut étre </del>peutétre que nos
+      <lb/><rs type="person">Adversaires Anglois</rs> s’y <choice><orig><unclear>rendro<del><gap/></del>t</unclear></orig><reg>rendroient</reg></choice>,
+      <lb/>mais si aprés tout cela ils ne veulent
+      <lb/>pas se ranger, c’est une marque,
+      <lb/>qu’ils ne sont pas disposés à écouter
+      <lb/>la raison, et qu’il <del>sont </del><unclear><add>faut</add></unclear> les <del>ap</del> abandon<pc type="hyphenation">-</pc><lb break="no"/>ner co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des Gens avec lesquels il n’y
+      <lb/>a pas moyen de disputer, laiss<del>e</del><add>a</add>nt <choice><orig>a</orig><reg>à</reg></choice> en
+      <lb/>juger ceux des autres pays qui sont
+      <lb/>raiso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ables et exemts de prejugés.
+      <lb/>Pour ce qui est des <rs type="person">François</rs>, qui ne
+      <lb/>sont pas encore venu à ce point de delicatesse
+      <lb/>que de faire entrer dans l’estimation des <rs type="keyword">forces vives</rs> la
+<pb facs="1073736" n="20"/>
+      <lb/>Consideration du tems, je crois qu’on viendra plus facile<pc type="hyphenation">-</pc><lb break="no"/>ment à bout de les convaincre par mon argument, car
+      <lb/>chez quelques<choice><orig> </orig><reg>-</reg></choice>uns il n’y a que de l’aveuglement et
+      <lb/><choice><orig>chés</orig><reg>chez</reg></choice> quelques autres qui se sont précipités à se declarer
+      <lb/>contre nous (comme <abbr>Mrs.</abbr> De <rs key="pers_DE-588-117683280" type="person">Louville</rs>, <rs key="pers_DE-588-117622974" type="person">Bouguer</rs>,
+      <lb/><rs key="pers_DE-588-1089421028" type="person">Mazière</rs> et De <rs key="pers_DE-588-11931035X" type="person">Mairan</rs>, mon <rs key="pers_DE-588-11931035X" type="person">Correspondant</rs> lui mème) ce n’est
+      <lb/>je crois que le point d’honneur qui les empèche de
+      <lb/>reconnoitre la Verité. Mais passons enfin à d’autres
+      <lb/>Choses.</p>
+  <p><lb/>Ne soyés pas faché, <abbr>Mr.</abbr> que j’aye ecrit à <abbr>Mr.</abbr>
+      <lb/>De <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> ce que vous m’aviez communiquè touchant
+      <lb/><abbr>Mr.</abbr> <rs type="person" key="pers_DE-588-117619515">Saurin</rs>: Car celuici ayant tenu le meme
+      <lb/>Discours, qu’à vous, à plusieurs autres <rs type="person">Personnes</rs> ne
+      <lb/>pourra pas vous reconnoitre, comme je l’ai apris <seg type="transposition">dernierement
+      <lb/>d’un <rs type="person">homme</rs></seg> arrivé de <rs key="place_GEO-2988507" type="place">Paris</rs> <add>qui alloit en <rs key="place_KON-deutsch" type="place">Allemagne</rs></add>. Ainsi vous n’
+      <lb break="no"/>aurez qu’<choice><orig>a</orig><reg>à</reg></choice> lui nier quand il voudra vous questi<pc type="hyphenation">-</pc><lb break="no"/>onner <choice><orig>la</orig><reg>là</reg></choice><choice><orig></orig><reg>-</reg></choice>dessus; Mais je ne manquerai pas d’insi<pc type="hyphenation">-</pc><lb break="no"/>nuer cela à <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> dès que je lui ecrirai
+      <lb/>de nouveau, pour écarter le soubçon<note type="editorial">Frühneuzeitliche Schreibweise von «soupçon».</note>, qu’on pourroit
+      <lb/>avoir que ce soit Vous. Vous pourez mème lui dire, si
+      <lb/>vous le trouvez bon, que tant s’en faut que vous
+      <lb/>m’ayez fait ce raport, qu’au contraîre c’est de moi
+<pb facs="1073737" n="21"/>
+      <lb/>que Vous l’avez apris avec toutes les Circonstances
+      <lb/>que <abbr>Mr.</abbr> <rs key="pers_DE-588-117619515" type="person">Saurin</rs> vous l’avoit raconté auparavant.
+      <lb/>De ce que <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> m’a fait la justice de trouver
+      <lb/>mauvais, que <rs key="pers_DE-588-100252419" type="person">Robins</rs>, comme un jeune homme et sans
+      <lb/>Reputation ait eu l’audace de m’attaquer et
+      <lb/>de me menager si peu, je voi qu’il <choice><orig>à</orig><reg>a</reg></choice> conservé pour
+      <lb/>moi quelque reste d’amitié et d’éstime, dont il
+      <lb/>me paroissoit m’avoir entièrement privé depuis
+      <lb/>qu’il <choice><orig>à</orig><reg>a</reg></choice> rompu la Correspondance avec moi et
+      <lb/>que <subst><del>c</del><add>l</add></subst>es rigoureux <rs type="person">Newtoniens</rs> m’ont declaré la
+      <lb/>guerre: Je serois cependant curieux de savoir le
+      <lb/>Sentiment de <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> sur les <rs type="keyword">forces vives</rs><supplied>.</supplied>
+      <lb/>Savez Vous ce qu’on a publié <date notAfter="1728-07-31">il y a environ
+      <lb/>5 semaines</date> dans nos <rs type="biblio">Gazettes</rs>, qu’un Astronome
+      <lb/>Danois nommè <rs type="person" key="pers_DE-588-129767441">Horretor</rs><note resp="MK" type="editorial">Mit Bleistift oberhalb des Namens hinzugefügt «bow». Korrekter Name: «Horrebow».</note> <choice><sic>à</sic><corr><subst><del>à</del><add>a</add></subst></corr></choice> communiqué à l’<rs type="organisation" key="org_DE-588-1292277092"><abbr>acad.</abbr></rs>
+      <lb/>de <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> des observations sur la parallaxe
+      <lb/>annuelle<del>r</del> des <rs type="keyword">Etoiles fixes</rs>, par laquelle le Systeme
+      <lb/>de <rs type="person" key="pers_DE-588-118565273">Copernic</rs> sera desormais constitué hors de Contro<pc type="hyphenation">-</pc><lb break="no"/>verse, le <rs type="keyword">mouvement de la terre</rs> étant par là entie<pc type="hyphenation">-</pc><lb break="no"/>rement assûré. Or je viens d’aprendre maintenant
+      <lb/>que c’est mon <rs key="pers_DE-588-118656503" type="person">fils</rs> qui a inventé la methode de
+      <lb/>rendre sensible la dite parallaxe et que suivant
+      <lb/>cette methode <abbr>Mr.</abbr> <rs key="pers_DE-588-129767441" type="person">Horretor</rs> a fait ses observations
+      <lb/>dont il a rendu compte à l’<rs type="organisation" key="org_DE-588-1292277092"><abbr>acad.</abbr></rs>. <choice><orig>mon</orig><reg>Mon</reg></choice> <rs key="pers_DE-588-118656503" type="person">fils</rs> m’ecrit
+      <lb/>que sa methode et les observations du <rs key="pers_DE-588-129767441" type="person">danois</rs>
+<pb facs="1073738" n="22"/>
+      <lb/>seront publiées dans les <rs type="biblio" key="biblio_C5E5PBKG">Memoires</rs> de l’<rs type="organisation" key="org_DE-588-1292277092"><abbr>acad.</abbr></rs>,
+    <lb/>dont le <rs key="biblio_C5E5PBKG" type="biblio">premier Tome</rs><note resp="RG" type="editorial">Gemeint ist der <rs key="biblio_C5E5PBKG" type="biblio">erste Band der Commentarii Academiae Scientiarum Imperialis Petropolitanae für das Akademiejahr 1726, erschienen 1728</rs>. Bernoulli berichtet von der angekündigten Veröffentlichung der Methode und der Beobachtungen in den Akademiememoiren, ohne sie ausdrücklich diesem ersten Band zuzuweisen. Dessen Inhaltsverzeichnis verzeichnet keinen entsprechenden Beitrag zur Fixsternparallaxe. Die Zuschreibung der Methode an seinen Sohn <rs key="pers_DE-588-118656503" type="person">Daniel</rs> ist nicht unabhängig gesichert: Im <rs key="B_991170516658105501" type="letter">Brief vom 28. April 1729</rs> schreibt <rs key="pers_DE-588-118634771" type="person">Wolff</rs> die von <rs key="pers_DE-588-129767441" type="person">Horrebow</rs> veröffentlichte Methode und die Beobachtungen <rs key="pers_DE-588-118790919" type="person">Römer</rs> zu und stellt Bernoullis Zuschreibung ausdrücklich infrage.</note> va paroitre au premier Jour.</p>
+  <p><lb/>Vous verrez sans doute <abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">s’Gravesande</rs>
+      <lb/>à <rs key="place_GEO-2751773" type="place">Leyde</rs>, auquel je vous prie de faire bien mes
+      <lb/>Compliments, en lui demandant s’il <choice><orig><unclear>à</unclear></orig><reg>a</reg></choice> reçù un exem<pc type="hyphenation">-</pc><lb break="no"/>plaire de mon <rs key="biblio_5MVQ5CQI" type="biblio">discours</rs> sur le mouvement, comme
+      <lb/>j’en avois donné la Commission à <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs>:
+      <lb/>Mais en Cas qu’il n’en ait point reçù, vous vous souvien<pc type="hyphenation">-</pc><lb break="no"/>drez de ce que je vous ai prié de lui donner le <rs key="biblio_5MVQ5CQI" type="biblio">votre</rs>, et
+      <lb/>que je ferai en sorte que Vous en aurez un <rs key="biblio_5MVQ5CQI" type="biblio">autre</rs> à
+      <lb/><rs key="place_GEO-2988507" type="place">Paris</rs>. Puisque <abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">s’Gravesande</rs> est du nombre de
+      <lb/>ceux, qui reconnoissent les <rs type="keyword">forces vives</rs>, en faveur des
+      <lb/>quelles il <choice><orig>à</orig><reg>a</reg></choice> ecrit un petit <rs key="biblio_E6NGGIPE" type="biblio">livre</rs>, il aprouvera
+      <lb/>sans doute mes nouvelles Demonstrations.</p> <closer><salute>Je suis
+      <lb/>avec toute sorte d’Estime et de Consideration
+      <lb/><abbr>Monsr</abbr>
+      <lb/><abbr>V.</abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></salute>
+      <lb/><signed><rs type="person" key="pers_DE-588-118509969"><abbr>J</abbr> Bernoulli</rs></signed>
+      <lb/><dateline><rs type="place" key="place_GEO-2661604">Bàle</rs> ce <date when="1728-09-04">4 7<hi rend="sup">bre</hi>
+      <lb/>1728</date></dateline></closer>
+<pb facs="1073739" n="23"/>
+  <postscript><p><lb/><abbr>P. S.</abbr> J’ai enfin reçû le <rs key="biblio_73DJ8AIG" type="biblio">Livre</rs> de <abbr>Mr</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>,
+        <lb/>assez bien conditionné, que vous avez eu la bonté
+        <lb/>de m’envoyer; Je vous prie de me dire, ce qu’il vous
+        <lb/>a couté, et à qui vous voulez que je remette
+        <lb/>l’argent; <abbr>Mrs.</abbr> les <rs type="person">Anglois</rs> croyent<choice><orig></orig><reg>-</reg></choice>ils main<pc type="hyphenation">-</pc><lb break="no"/>tenant que cette <rs key="biblio_73DJ8AIG" type="biblio">troisiéme Edition</rs> est dans toute
+        <lb/>sa perfection? quant à moi j’y ai trouvé
+        <lb/>deja bien des Choses à critiquer, quoique je
+        <lb/>l’aye parcouru trés legerement.</p></postscript>
+<pb facs="1073740" n="24" type="empty"/>
+</div>
+</body>
+</text></TEI>

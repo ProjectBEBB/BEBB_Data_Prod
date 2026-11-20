@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514628905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann Rudolph Mieg. Sankt Petersburg, 15. September 1731</title>
+          <title type="alt">1731.09.15: Bernoulli, Daniel (1700-1782) an Mieg, Johann Rudolf (1694-1733)</title>
+          <title type="alt">000055245</title>
+          <title type="alt">1731-09-15_Bernoulli_Daniel-Mieg_Johann_Rudolf</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514628905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514628905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Mieg, Johann Rudolf (1694-1733)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+        <note type="print">
+          <p>Gedenkbuch der Familie Bernoulli : zum 300. Jahrestage ihrer Aufnahme in das Basler Bürgerrecht : 1622 - 1922 / [Hrsg.: Carl Albrecht Bernoulli]. - Basel : Helbing und Lichtenhahn, 1922, S. 223</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24378">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.1b</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514628905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432954805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055245</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>18</height><width>11</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>S. Petersb.</origPlace>
+              <date when="1731-09-15">d. 15. 7br. 1731</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4267026-3">Sankt Petersburg</placeName>
+          <date when="1731-09-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-104138556">Mieg, Johann Rudolf</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514629005501" type="prev"/>
+          <ptr target="B_991170430252905501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mieg_Johann_Rudolf-DanIB" corresp="pers_DE-588-104138556" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-29" who="SG CG">kollationieren abgeschlossen</change>
+        <change when="2026-02-09" who="RG">Kleine Anpassungen</change>
+        <change when="2024-08-29" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-08-29" who="RG">Kleinere Anpassungen sowie Personen referenziert</change>
+        <change when="2024-08-29" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+    <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1064304/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1064305" n="1"/>
+  <opener>
+    <dateline>
+      <lb/><abbr>S.</abbr> <rs type="place">Petersb.</rs> den <date when="1731-09-15">15. 7.<hi rend="sup">br</hi> 1731.</date>
+    </dateline>
+  </opener>
+  <opener>
+    <salute>
+      <lb/>HochEdelgebohrner <choice><orig>vnd</orig><reg>und</reg></choice> hohchgelehrter <abbr>H.</abbr> Professor
+      <lb/>Werthester freünd <choice><orig>vnd</orig><reg>und</reg></choice> Gönner
+    </salute>
+  </opener>
+  <p>
+      <lb/>Ich kan nicht sagen, wie erfrewlich mir
+      <lb/>dero geneigtestes <rs type="lostletter">zuschreiben</rs> gewesen, <abbr>sonderl.</abbr>
+      <lb/>da so viele merckmahle von <abbr>Ew.</abbr> <abbr>HochEdgb.</abbr>
+      <lb/>wohlgewogenheit <choice><orig>vnd</orig><reg>und</reg></choice> beständiger werthester
+      <lb/>freundschafft dari<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice> ersehe. Sonsten
+      <lb/>aber hat mich die nachricht von dero
+      <lb/>unpäslichkeit sehr betrübet <choice><orig>vnd</orig><reg>und</reg></choice> wurde
+      <lb/>mir noch weit empfindlicher ge<pc type="hyphenation">-</pc><lb break="no"/>wesen sejn, wan mich nicht damit
+      <lb/>getröstet, daß weiter keine gefährlichere
+      <lb/>folge daraus entstehen werde <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd
+      <lb/>die h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>moptoë nur aus einer <foreign xml:lang="lat">plethora <del><gap/></del><add>aut</add>
+      <lb/>orgasmo sanguinis</foreign> entstanden seje, indeme
+      <lb/><abbr>Ew.</abbr> <abbr>HochEdgb.</abbr> starckes <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd gesunde<del><gap/></del><add>s</add> tem<pc type="hyphenation">-</pc><lb break="no"/>perament nicht erlaubt zu glauben daß
+      <lb/>es <foreign xml:lang="lat">ex vitio sanguinis aut alicujus visceris</foreign>
+      <lb/>herkomme. Es gibt alhier sehr viel
+      <lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>moptoïci, welche doch alt darbe<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> werden,
+      <lb/>wan sie gleich öffters in eine <foreign xml:lang="lat">recidiv</foreign>
+      <lb/>fallen <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd gar keinen regularen perioden
+      <lb/>darbe<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> observieren; Ich bitte den Höchsten,
+<pb facs="1064306" n="2"/>
+      <lb/>daß er <del><gap/></del><add>S</add>ie stärcken <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd erhalten wolle
+      <lb/>zum auffnehmen der wahren
+      <lb/>wissenschafften, zum trost dero Geehrtesten
+      <lb/>Familie <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd so vieler leüten, die
+      <lb/>dero hülff bedürfftig seind <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd dan
+      <lb/>auch zum algemeinen vergnügen derer<pc type="hyphenation">-</pc><lb break="no"/>jenigen, welche Sie mit dero <foreign xml:lang="fre">affe<pc type="hyphenation">-</pc><lb break="no"/>ction</foreign> <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd freündschafft beehren, unter
+      <lb/>welche mich besonders rechnen darff.
+      <lb/>Ubrigens obschon nicht im stand bin
+      <lb/><abbr>Ew.</abbr> <abbr>hEdg.</abbr> einen guten raht mitzutheilen,
+      <lb/>den Sie nicht weit besser von
+      <lb/>Sich selbsten einholen solten, so un<pc type="hyphenation">-</pc><lb break="no"/>terstehe mich doch wohl meinend Sel<pc type="hyphenation">-</pc><lb break="no"/>bige zu <del><gap/></del><add>ersuchen</add> in <del><gap/></del><add>tractierung</add> der
+      <lb/><foreign xml:lang="lat">cadaverum</foreign> Sich behutsam zu erwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en,
+      <lb/><choice><orig><g ref="#und">[und]</g></orig><reg>und</reg></choice> dari<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice> Ihrer eigenen prudent mehr
+      <lb/>als dero inclination zu folgen.
+  </p>
+  <p>
+      <lb/>Ich bin sehr erfrewt, dass mein <rs key="pers_DE-588-117589136" type="person">Bruder</rs>
+      <lb/>das glück gehabt <abbr>Ew.</abbr> <abbr>HochEdgb.</abbr>
+      <lb/>approbation mit einem so kräfftigen
+      <lb/><abbr>würckl.</abbr> succes zu verdienen, worzu
+      <lb/>ich meinem <rs key="pers_DE-588-117589136" type="person">Bruder</rs> schon gratuliert,
+<pb facs="1064307" n="3"/>
+      <lb/>nunmehro aber auch Ihnen, unser
+      <lb/>aller wahrem Gönner, darfür ge<pc type="hyphenation">-</pc><lb break="no"/>horsamst dancke. Es ist mir le<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>d
+      <lb/>daß man Ihnen das jus ruckandi<note type="editorial">Gemeint ist wohl das Nachrückungsrecht.</note> hat
+      <lb/>wollen disputierlich machen, weilen <abbr>Ew.</abbr>
+      <lb/><abbr>HochEdgb.</abbr> be<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> dero jetzigen leibs-constitution
+      <lb/>die professio theoretic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> anständiger ohne
+      <lb/>zweiffel se<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>n wurde als die cathedra ana<pc type="hyphenation">-</pc><lb break="no"/>tomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et <abbr>botan.</abbr> Ubrigens will ja nicht
+      <lb/>glauben daß man Ihnen auch solte wegen
+      <lb/>dem <foreign xml:lang="lat">salario</foreign>, welches be<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> der <foreign xml:lang="lat">theoria</foreign> einträg<pc type="hyphenation">-</pc><lb break="no"/>licher ist als be<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> der anatomia, einige schwü<pc type="hyphenation">-</pc><lb break="no"/>rigkeit machen <choice><orig><g ref="#und">[und]</g></orig><reg>und</reg></choice> wan dieses <add>nicht</add> ist so werden
+      <lb/>Sich <abbr>Ew.</abbr> <abbr>HochEdgb.</abbr> mit dero künfftigen
+      <lb/><foreign xml:lang="lat">Collega</foreign> über die function leicht abfinden
+      <lb/>können, wan gleich dero gegenparti wieder
+      <lb/>mein vermuthen solte die obhand haben.
+  </p>
+  <p>
+      <lb/>Sonsten bedancke mich mit aller geziemenden
+      <lb/>erkentlichkeit für die so geneigte disposition,
+      <lb/>in deren Sie für mich zu se<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>n be<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> dieser occa<pc type="hyphenation">-</pc><lb break="no"/>sion gütigst bezeügen; empfehle mich in dero
+      <lb/>fernere gewogenheit, wie auch derer übrigen so
+      <lb/>mich dero angedenckens würdigen, <choice><orig><g ref="#u">v</g></orig><reg>u</reg></choice>nd verharre
+      <lb/>mit allem respect <choice><orig><g ref="#und">[und]</g></orig><reg>und</reg></choice> tieffer hochachtung
+  </p>
+  <closer>
+    <salute>
+      <lb/>Ewer HochEdelgebohrnen
+      <lb/>Meines hochgeneigten <abbr>H.</abbr> Professoris
+      <lb/>dienstfertigster diener
+    </salute>
+    <signed>
+      <lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>
+    </signed>
+  </closer>
+<pb facs="1064308" n="4"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-104138556" type="person">Mieg</rs></addrLine>
+      <addrLine>tres Celebre Docteur et Professeur</addrLine>
+      <addrLine>en Medecine</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Bâle</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

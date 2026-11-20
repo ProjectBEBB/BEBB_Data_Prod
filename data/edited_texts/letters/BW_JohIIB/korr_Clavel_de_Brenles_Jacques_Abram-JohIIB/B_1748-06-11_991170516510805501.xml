@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516510805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacques Abram Daniel Clavel an Johann II Bernoulli. Cully, 11. Juni 1748</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516510805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516510805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24395">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.16</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516510805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433436505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058129</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Cully</origPlace>
+              <date when="1748-06-11">ce 11.e Juin 1748</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1048572293">Clavel, Jacques Abram Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Cully</placeName>
+          <date when="1748-06-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516510905501" type="prev"/>
+          <ptr target="B_991170516510705501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Clavel_de_Brenles_Jacques_Abram-JohIIB" corresp="pers_DE-588-1048572293" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-27" who="SG">Tagging</change>
+        <change when="2026-06-27" who="SG">manuelle Nachkontrolle abgeschlossen</change>
+        <change when="2026-05-26" who="NG">manuelle Nachkontrolle begonnen</change>
+        <change when="2026-05-25" who="SG">maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1064450/manifest"/>
+</facsimile>
+<text>
+<body>
+  <div type="letter">
+<pb facs="1064451" n="1"/>
+    <lb/><note hand="unknown">De Brenles</note>
+  <opener><lb/><dateline>Cully ce <date when="1748-06-11">11<hi rend="sup">e</hi> Juin 1748</date></dateline></opener>
+  <p>
+      <lb/>Monsieur Sarazin <choice><orig>a</orig><reg>à</reg></choice> qui <rs type="letter">j’ai ecri</rs> l’ordinaire passé
+      <lb/>vous aura sans doute Communiqué <rs type="letter">ma Lettre</rs>, Mon
+      <lb/>Cher Monsieur, par la quelle vous aurés vu mon
+      <lb/>acquiescement à la proposition que Vous me faites
+      <lb/>de la part <del><gap/></del><add>dans</add> votre <rs type="letter">derniere</rs>, <unclear>vous</unclear> comprenés que
+      <lb/>si j’avois eu plusieurs Pensionnairs il ne m’avoit
+      <lb/>pas convenu de me charger de tous ces details,
+      <lb/>mais avec un<supplied>,</supplied> l’embarras est moins grand,
+      <lb/>le <rs type="person">jeune homme</rs> <add><choice><orig>la</orig><reg>là</reg></choice></add> séra mieux, et le <rs type="person">Pere</rs> epargne
+      <lb/>la moitié de la depense, j’envisage donc cette
+      <lb/>affaire comme arrangée et je prendrai mes
+      <lb/>mesures et consequences, il m’est impossible de fixer
+      <lb/>à present le tems auquel je pourrai le recevoir
+      <lb/>mais je prefere vos reparations avec toute l’activité
+      <lb/>possible, et je compte que sur la fin de <date>ce mois</date>
+      <lb/>ou au commencement de l’autre<supplied>,</supplied> je pourrai lui
+      <lb/>marquer le tems <choice><orig>ou</orig><reg>où</reg></choice> il pourr<del><gap/></del><add>a</add> le faire partir.
+<pb facs="1064452" n="2"/>
+      <lb/>Je trouve au reste comme <add>vous</add> que <del><gap/></del><rs type="person"><add>Votre</add> ami
+      <lb/>Orthmann</rs> <del><gap/></del><add>p</add>eut faire essai sans beaucoup
+      <lb/>d’inconvenient, je crois cependant qu’il sera
+      <lb/>assés important que je pus avoir une conference
+      <lb/>avec lui avant qu’il <unclear>fait</unclear> son entrée, ne pouvant
+      <lb/>guere expliquer dans une Lettre avec le detail
+      <lb/>necessaire bien des choses que j’aurois à lui dire,
+      <lb/>ce qui auroit pu se faire aisément si comme
+      <lb/>je l’ai cru il <unclear>avoit</unclear> pu prendre sa route
+      <lb/>à <unclear><gap/></unclear> retour par votre Pays.</p>
+  <p><lb/>Il y a un jeune Gentilhomme de ce Pays
+      <lb/>nommé Du Gard d’Echichens qui doit dans
+      <lb/>quelques tems aller dans vos quartiers, peutetre
+      <lb/>qu’il passera à Bale <choice><orig>ou</orig><reg>où</reg></choice> il s’arretera <date>un
+      <lb/>jour</date> <choice><abbr>pr.</abbr><expan>pour</expan></choice> voir <rs type="place">votre Ville</rs>, dans ce cas il aura
+      <lb/>l’honneur de vous voir, comme c’est un jeune ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>fort aimable et avec le quel je suis fort lié,
+      <lb/>j’ai cru qu’<choice><orig>a</orig><reg>à</reg></choice> <unclear reason="illegible">ce<del><gap/></del> titre<del><gap/></del> <choice><orig>la</orig><reg>là</reg></choice> vous voudriés</unclear> bien me
+      <lb/>permettre de vous le recommander pour lui faire
+      <lb/>voir tout ce qui peut meriter la curiosité d’un Etranger.
+<pb facs="1064453" n="3"/>
+      <lb/>Je souhaiterois, Monsieur, que Notre Pays peut
+      <lb/>me fournir quelque occasion de reciproquer cette
+      <lb/>espece d’office, à cet egard <choice><orig>la</orig><reg>là</reg></choice> comme en tous
+      <lb/>autre <unclear reason="illegible">point</unclear> Vous me trouverés  toujours <unclear reason="illegible">empressé</unclear> <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>Vous prouver dans toute l’etendue de ma
+      <lb/>petite sphere l’estime distinguée à  d’obliger à l’<unclear reason="illegible">attachement</unclear>
+      <lb/>? avec lequel je suis <unclear reason="illegible">sans reserve</unclear>
+      <lb/><unclear reason="illegible">Tout <choice><orig>a</orig><reg>à</reg></choice> vous</unclear>
+      <lb/>D. Clavel De Brenles
+      <lb/>Châtelain
+      <lb/>
+      <lb/>Faites <abbr>s. v. p.</abbr> agréer mes obeissances
+      <lb/>tres humbles à Mad.<hi rend="sup">e</hi> votre aimable Epouse.
+  </p>
+  <closer>
+<pb facs="1064454" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Jean Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></addrLine>
+      <addrLine>Celebre Professeur</addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> Bâle</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text>
+</TEI>

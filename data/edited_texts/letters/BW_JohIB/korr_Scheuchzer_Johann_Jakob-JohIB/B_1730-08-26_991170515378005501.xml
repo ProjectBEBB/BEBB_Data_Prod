@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170515378005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jacob Scheuchzer an Johann I Bernoulli. Zürich,
+            26. August 1730</title>
+          <title type="alt">000057410</title>
+          <title type="alt">1730-08-26_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_resource_000076">
+            <surname>Mazzei</surname>
+            <forename>Elena</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515378005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515378005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-13357">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 667, Nr. 139*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515378005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433071405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057410</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1.5 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Zuric</origPlace>
+              <date when="1730-08-26">ce 26. d'Aout
+              30</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1730-08-26"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170429982405501" type="prev"/>
+          <ptr target="B_991170429981705501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-JohIB" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1348830670">Bluntschli Anna Elisabeth</persName>
+            <note type="lebensdaten">(1696-1730)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Hug, Bruder des Falschmünzers</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Hug, Falschmünzer</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119257602">Owen, John</persName>
+            <note type="lebensdaten">(1616-1683)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1053956975">Waser, Hans Heinrich</persName>
+            <note type="lebensdaten">(1663-1735)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-26" who="SG">Anrede und Seitenanker am Manuskript geprüft</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1730-08-26_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I"/>
+      </change>
+        <change>Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/651733/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1730-08-26_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+<pb facs="651735" n="1"/>
+
+<opener>
+<salute>
+
+<lb/>Monsieur et tres honoré Amy </salute>
+</opener>
+  <p>J’ay l’honneur de vous feliciter encore le prix remporté, la piece publiée, et de vous
+          remercier pour la communication d’un Ecrit, que je liray avec plaisir et advancement dans
+          mes etudes; plaisir d’autant plus grand, parce que vous vous avez servi d’un stratageme.
+          C’est ainsi qu’on se saisit des renards. </p>
+  <p>La fille miserable parricide et matricide fut brulée vive Mecredi passé, j’ay admiré une
+          presence d’esprit veritablement heroique, accompagnée des marques d’une sincere
+          repentance, pour laquelle nous avons rendu graces à Dieu. Hug a eté proscrit et banni en
+          qualité de deserteur. Il confesse dans une Lettre ecrite à son frere d’avoir fait des
+          projets dans l’affaire de fausse monnoye. Ce crime pourtant n’entre pas dans la sentence
+          donnée, la quelle n’est que preliminaire. L’inquisition est aux mains du Baillif de Bade<note type="comment"><rs type="person" key="pers_DE-588-1053956975">Hans Heinrich Waser</rs> (1663–1735). Johann Jacob Leu führt ihn für 1728 als Landvogt von Baden auf (<ref target="https://www.e-rara.ch/download/pdf/2621137.pdf">Allgemeines helvetisches Lexicon, Art. Waser, S. 182</ref>). Der im selben Absatz genannte Zürcher Ratsprokurator Wilhelm Heinrich Hug war in das Falschmünzerverfahren gegen die Brüder Schnorf verwickelt. Scheuchzer nennt ihn in diesem Zusammenhang erneut am <rs type="letter" key="B_991170515377905501">19. Oktober 1730</rs>. Vgl. Albert Bodmer, <ref target="https://doi.org/10.5169/seals-697660">Die Hochreutiner</ref> (1955), S. 36.</note>,
+          et nous sommes seurs, que tous les complices seront mises au jour, quels qu’ils soient.
+          Cependant nous sommes bien aises d’etre delivrés de cette
+<pb facs="651736" n="2"/>
+ Peste,
+          je parle de Hug, qui a infecté par son venin quasi toutes les rues de notre ville. Nous
+          lisons dans un endroit d’Owenus </p>
+  <p>o Hugo nugo, nobilis es nebulo. </p>
+  <p>Au reste je vous recommende à la Grace de Dieu, etant avec un attachement sincere et
+          respectueux Monsieur votre tres h. et tres ob.<hi rend="sup">t</hi> serv.<hi rend="sup"
+            >tr</hi> J. J. Scheuchzer. </p>
+  <p>Zuric ce 26. d’Aout 30. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

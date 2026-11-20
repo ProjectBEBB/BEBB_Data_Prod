@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517005405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Rémond de Montmort an Nicolaus II Bernoulli. Montmort, 28. Oktober 1718</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517005405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517005405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Am Briefkopf mit Bleistift: "An Nicolaus II [O.Sp]".</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23935">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 665, Nr.24*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517005405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433806605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059584</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>19</height><width>11,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Monmort</origPlace>
+              <date when="1718-10-28">ce 28 8bre 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Montmort</placeName>
+          <date when="1718-10-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517005605501" type="prev"/>
+          <ptr target="B_991170517005305501" type="next"/>
+          <ptr target="BW_NicIIB" corresp="pers_DE-588-117589144" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Er gibt nun einige Auszüge aus Taylors Briefen wieder. Grüsse von Mme de Montmort und Mlle Ferrand.</p>
+        <p>Montmort hat weder dem [nicht genannten] Adressaten noch dessen Vater antworten können. Eine aussergewöhnliche Hitze und eine grosse Trockenheit haben ein Fieber hervorgerufen, von dem niemand im Schloss verschont blieb. Er selbst war während 25 Tagen in grosser Gefahr. Montmort hat gerade einen grossen Brief an den Vater des Adressaten geschrieben und dabei einige Neuigkeiten vergessen, die für diesen von Nutzen sind. Taylor hat ihm vor einiger Zeit geschrieben, dass de Moivre das Integral von ydx = axdy + du gefunden hat, wobei du eine Grösse ist, deren Integral bekannt ist. Hier die sehr leichte Lösung, die Taylor gefunden hat: Sxdy = xy - Sydx . Wenn man das Integral der Gleichung ydx = axdy + du nimmt, hat man Sydx = ady - a Sydx + u. Daraus ergibt sich Sydx = (axy + u)/ (1 + a ) Montmort hat in den Philos. Trans. zwei schöne Beiträge von de Moivre gesehen: Demonstration des quelques proprietès des sections coniques und Théorème sur les forces centrales. Er hat dort auch einen Beitrag von Taylor über eine neue Methode zur näherungsweisen Berechnung von Wurzeln nach dem Corr. von Prop. 7 seiner Methodus incrementorum gefunden, desgleichen eine Schrift von Derham, in der dieser durch Briefe von Gascoigne und Crabtree beweisen will, dass der Engländer Gascoigne de erste war, der Linsen bei astronomischen Instrumenten einführte und nicht die Franzosen. Die Engländer nehmen wieder einmal alles für sich in Anspruch. Montmort teilt sodann mit, was Taylor ihm über die Kurve des Widerstandes bei der Hypothese der "raison doublée des vitesses" geschrieben hat. Montmort vergass, den Vater des Adressaten an einer Freundlichkeit Taylors teilhaben zu lassen, die ihn unterhalten wird. Montmort hat Taylor geschrieben, dass man besser statt des 1. Septembers den 1. November schreiben soll wegen der Verzögerung seines ersten Briefes. Er hat ihn gebeten, die Ankündigung Joh. B.s, die er ihm übermittelt hat, sofort an Keill weiterzugeben.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-03-28" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2025-03-27" who="SG">getagt</change>
+        <change when="2025-03-27" who="SG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1052203/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1052204" n="1"/>
+  <opener><dateline>A <choice><orig>monmort</orig><reg>Monmort</reg></choice> ce <date when="1718-10-28">28 8<hi rend="sup">bre</hi> 1718</date></dateline></opener>
+  <p><lb/><choice><orig>les</orig><reg>Les</reg></choice> memes raisons qui m<supplied>’</supplied>ont empesché<supplied>,</supplied> Monsieur<supplied>,</supplied>
+    <lb/>de faire reponse <choice><orig>a</orig><reg>à</reg></choice> Monsieur vostre <rs key="pers_DE-588-118509969" type="person">Pere</rs> aussitost
+      <lb/>che je l’aurois voulu<supplied>,</supplied> sont cause aussi que <choice><orig>J</orig><reg>j</reg></choice><supplied>’</supplied>ay
+      <lb/><choice><orig>ete</orig><reg>été</reg></choice> obligé de differer celle que je vous dois depuis
+      <lb/>longtemps. <choice><orig>la</orig><reg>La</reg></choice> grande chaleur et la secheresse qui a été
+      <lb/>extreme ont causé des fievres dont presque personne n<supplied>’</supplied>a
+      <lb/>pu <choice><sic>ce</sic><corr>se</corr></choice> defendre en ce pays. <choice><orig>personne</orig><reg>Personne</reg></choice> n<supplied>’</supplied>en a été exempt
+      <lb/>icy dans le chateau mais j<supplied>’</supplied>ay été pendant plus de 15 jours
+      <lb/>en grand danger. <choice><orig>graces</orig><reg>Graces</reg></choice> au Quinquina ma <choice><orig>sante</orig><reg>santé</reg></choice> est
+      <lb/>presentement assez bonne.</p>
+  <p>
+      <lb/>Je viens d<supplied>’</supplied>ecrire une longue <rs type="letter">lettre</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre
+    <lb/><rs key="pers_DE-588-118509969" type="person">pere</rs>. J<supplied>’</supplied>ay oublié de luy faire part de quelques nouvelles
+      <lb/>qui sont <choice><orig>a</orig><reg>à</reg></choice> vostre usage comme au sien<supplied>,</supplied> les voicy.
+  </p>
+  <p>
+      <lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person"><add>T</add>aylor</rs> m<supplied>’</supplied>ecrivoit il y a quelque temps que <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs>
+      <lb/>luy avoit dit scavoir resoudre ce <abbr>prob.</abbr><supplied>:</supplied> trouver l’integral de <formula>ydx</formula>
+      <lb/>quand <formula>ydx=axdy+du</formula>, <formula>du</formula> etant une quantité dont
+      <lb/>on suppose que l’integral soit donnée<supplied>.</supplied> Voicy sa solution
+      <lb/>qu<supplied>’</supplied>en a trouvé <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> <formula>\int xdy=xy-\int ydx</formula> donc prenant
+      <lb/>l’integral de cette equation <formula>ydx=axdy+du</formula> on a <formula>\int ydx</formula>
+      <lb/><formula>= axy-a\int ydx+u</formula> d<supplied>’</supplied><choice><orig>ou</orig><reg>où</reg></choice> l’on tire <formula>\int ydx= \frac{axy +u}{1+a}</formula><supplied>;</supplied>
+      <lb/>cela estoit fort facile<supplied>.</supplied>
+  </p>
+  <p>
+      <lb/>Dans un cayer qu<supplied>’</supplied>on m<supplied>’</supplied>a envoyé depuis peu
+      <lb/>des <rs type="biblio"><choice><orig>transactions</orig><reg>Transactions</reg></choice> philosophiques</rs><supplied>,</supplied> <choice><orig>J</orig><reg>j</reg></choice><supplied>’</supplied>ay vu un assez beau
+      <lb/>morceau de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> dont le tittre est
+<pb facs="1052205" n="2"/>
+      <lb/><rs type="biblio">Demonstration de quelques <choice><orig>proprietes</orig><reg>proprietés</reg></choice> des sections
+      <lb/>coniques tirées de la nature des foyers et d<supplied>’</supplied>un theoreme
+      <lb/>sur les forces centrales</rs> par le moyen du quel on determine
+      <lb/>la loy des forces centripetes tendantes aux foyers des sections
+      <lb/>coniques, les vitesses des corps qui y font leur revolution<supplied>,</supplied>
+      <lb/>la description des orbes <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+  </p>
+  <p>
+      <lb/>J<supplied>’</supplied>y ay trouvé aussi un fort beau morceau de
+      <lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> Taylor<supplied>;</supplied> c<supplied>’</supplied>est une nouvelle Methode pour
+      <lb/>l<supplied>’</supplied>approximation des racines qui est tirée <choice><sic>des</sic><corr>du</corr></choice> <abbr>Cor.</abbr> 2
+      <lb/>de la <choice><abbr><choice><orig><g ref="#pro">&#xA753;</g></orig><reg>pro</reg></choice>po.on</abbr><expan>proposition</expan></choice> 7 de son ouvrage <rs type="biblio">Methodus incrementorum</rs><supplied>,</supplied>
+      <lb/>enfin on y voit un écrit de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-128644974" type="person">Derham</rs> dans
+      <lb/>lequel il entreprend de prouver par des <rs type="letter">lettres</rs> de
+      <lb/><abbr>M.<hi rend="sup">rs</hi></abbr> <del><gap/></del><rs key="pers_DE-588-1031350314" type="person"><add>Gascoigne</add></rs> et <rs type="person">Crabtrie</rs> Anglois que <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1031350314" type="person">Gascoigne</rs>
+      <lb/>a le 1<hi rend="sup">er</hi> appliqué les lunettes aux Instruments
+      <lb/>d’astronomie et non les Astronomes francois. <abbr>M<supplied>.</supplied><hi rend="sup">rs</hi></abbr>
+      <lb/>les Anglois sont en train comme vous voyez de vouloir
+      <lb/>s<supplied>’</supplied>approprier tout.
+  </p>
+  <p>
+      <lb/>Voicy ce que <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> m<supplied>’</supplied>ecrit aussy et de la courbe <add><formula>AKa</formula></add> des
+      <lb/><choice><sic>resistance</sic><corr>resistances</corr></choice> pour l’hyppotese de la raison doublée des vitesses.
+      <lb/>V. page<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 281<supplied>,</supplied> <rs type="biblio"><choice><orig>princ.</orig><reg>Princ</reg></choice> math.</rs>
+  </p>
+  <p>
+      <lb/>Soit <formula>CD</formula> <choice><orig>appelle</orig><reg>appellé</reg></choice> <formula>S</formula> et <formula>DK</formula> <formula>r</formula><supplied>,</supplied> l<supplied>’</supplied>equation de la courbe <choice><orig><g ref="#ndot">.</g></orig><reg/></choice><formula>AKa</formula> sera
+      <lb/><formula>adr=rds-sds</formula> ce que l<supplied>’</supplied>on trouve aisement par la <choice><abbr><choice><orig><g ref="#pro">&#xA753;</g></orig><reg>pro</reg></choice>po.on</abbr><expan>proposition</expan></choice> 39
+      <lb/>du livre 1.<hi rend="sup">er</hi><supplied>,</supplied> la <choice><orig>quantite</orig><reg>quantité</reg></choice> <formula>a</formula> etant determinée par l<supplied>’</supplied>experience
+      <lb/>on reduira cette equation aux Logarithmes ou en mettant
+      <lb/>pour <formula>r</formula>, <formula>\frac{xn}{a}</formula> et ainsi transformant l<supplied>’</supplied>equation
+      <lb/>ou en rapportant les points de la courbe <choice><orig>a</orig><reg>à</reg></choice> un autre axe
+<pb facs="1052206" n="3"/>
+      <lb/>en mettant <formula>s=\frac{b}{a}x</formula> et <formula>r=z+\frac{e}{a}x</formula><supplied>,</supplied> <formula>a</formula> etant
+      <lb/>l’hypotenuse et <formula>b</formula> et <formula>c</formula> les <choice><orig>cotes</orig><reg>côtés</reg></choice> d<supplied>’</supplied>un triangle rectangle<supplied>.</supplied>
+    <lb/>J<supplied>’</supplied>ay oublié de faire part <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">pere</rs> une
+
+      <lb/>plaisanterie de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> qui le divertira.</p>
+
+  <p><lb/>J<supplied>’</supplied>avois mandé <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> qu<supplied>’</supplied>au lieu du <date>1<hi rend="sup">er</hi> 7<hi rend="sup">bre</hi></date>
+      <lb/><choice><orig>Il</orig><reg>il</reg></choice> convenoit mettre le <date>1<hi rend="sup">er</hi> novembre</date> <choice><orig>a</orig><reg>à</reg></choice> cause du
+      <lb/>retard de ma 1<hi rend="sup">ere</hi> <rs type="letter">lettre</rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> et que je le prioi<add>s</add> <add>s</add><supplied>’</supplied>il n<supplied>’</supplied>avoit
+      <lb/><add>point</add> encore averty <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> de l<supplied>’</supplied>avis que luy donnoit
+    <lb/>par moy <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">Pere</rs><supplied>;</supplied> il le fit sans retard et sur
+      <lb/>le champ<supplied>.</supplied> Voicy ce que m<supplied>’</supplied>ecrit <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs>.
+  </p>
+  <p>
+      <lb/>J<supplied>’</supplied>attendrai jusqu<supplied>’</supplied><choice><orig>a</orig><reg>à</reg></choice> apres demain <choice><orig>a</orig><reg>à</reg></choice> ecrire <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-124275087" type="person">Keil</rs> et vous pouvez <add>a</add>vertir <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs type="person">Bernoulli</rs> de ce
+      <lb/>retard qui peutestre l<supplied>’</supplied>engagera <choice><orig>a</orig><reg>à</reg></choice> allonger encore
+      <lb/>le terme qu<supplied>’</supplied>il a donné <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs>. <choice><orig>tout</orig><reg>Tout</reg></choice> cecy est en Anglois
+      <lb/>et il adjoute ces deux mots <quote><hi rend="u">c<supplied>’</supplied>est pour rire</hi></quote>. <choice><orig>ensuitte</orig><reg>Ensuitte</reg></choice>
+      <lb/>recommencant son Anglois il adjoute, entre nous<supplied>:</supplied>
+      <lb/><quote>Je suis un peu de l<supplied>’</supplied>avis de <abbr>M<supplied>.</supplied></abbr> <rs type="person">Bernoulli</rs> que <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs>
+      <lb/><foreign xml:lang="eng">is better qualified for a champion than for an
+      <lb/>analyste</foreign></quote> <supplied>(</supplied>est plus hardy champion qu<supplied>’</supplied>il n<supplied>’</supplied>est bon
+      <lb/>analyste<supplied>)</supplied>. Dans une autre de ses <rs type="letter">lettres</rs> il blame <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-124275087" type="person">Keil</rs> de son peu d<supplied>’</supplied>equité <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr><supplied>;</supplied> <choice><orig>montres</orig><reg>montrés</reg></choice> s<supplied>’</supplied>il vous plaist
+    <lb/>ce dernier <rs type="biblio">article</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">Pere</rs><supplied>,</supplied> il est pour luy
+      <lb/>mais <choice><orig>Je</orig><reg>je</reg></choice> le prie de n<supplied>’</supplied>en point faire usage. <abbr>Mad<supplied>.</supplied><hi rend="sup">e</hi></abbr> de
+      <lb/><rs type="person">Montmort</rs> et <abbr>Mad<supplied>.</supplied><hi rend="sup">lle</hi></abbr> <rs type="person"><choice><orig>ferrand</orig><reg>Ferrand</reg></choice></rs> qui est icy<supplied>,</supplied> vous font mil
+      <lb/>complimens<supplied>.</supplied> Je me recommande<supplied>,</supplied></p> <closer>Monsieur<supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>vostre souvenir et <choice><orig>a</orig><reg>à</reg></choice> vostre <choice><orig>amitie</orig><reg>amitié</reg></choice><supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> suis de tout
+      <lb/>mon coeur et tres parfaittement Vostre <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <signed><rs key="pers_DE-588-117601020" type="person"><hi rend="u">Remond de Monmort</hi></rs></signed>
+<pb facs="1052207" n="4"/>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Bernoulli fils</addrLine>
+      <addrLine>de <abbr>M.</abbr> Jean Bernoulli</addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> Basle</addrLine>
+    </address>
+  </closer>
+
+</div>
+</body>
+</text>
+</TEI>

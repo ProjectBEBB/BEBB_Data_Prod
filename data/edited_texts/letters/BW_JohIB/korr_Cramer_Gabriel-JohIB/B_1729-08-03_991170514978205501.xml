@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514978205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Gabriel Cramer. Basel, 03. August 1729</title>
+          <title type="alt">1729.08.03: Bernoulli, Johann (1667-1748) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000055745</title>
+          <title type="alt">1729-08-03_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">(CC BY 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514978205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514978205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf "à Mr. le Prof. Cramer" und Datum eigenhändig. Mit anderer Tinte "8". Letzte Seite leer</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Original in London, British Library, Fr. 24,024, Misc. Autogr.Letters, fo.62-63v</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24598">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 655, Nr.8</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514978205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432935705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055745</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>7 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1729-08-03">ce 3. Aoust 1729</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1729-08-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514978305501" type="prev"/>
+          <ptr target="B_991170514978105501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Bernoulli dankt Cramer für dessen Fürsorge um seinen Sohn und bittet um den Preis eines zugesandten Buches Newtons zur Rückerstattung. Er erneuert seine Kritik an Mairan, Louville und Fontenelle im Streit um die lebendigen Kräfte und erläutert seine Antwort auf den Einwand zur Wirkung verschieden vieler gespannter Federn am Beispiel unterschiedlicher Pulverladungen. Cramers Einwände gegen Bilfingers Wirbeltheorie ergänzt er um Bedingungen für die Umlaufzeiten und um die Schwierigkeit, die Erdrotation zu berücksichtigen. Er erwähnt seinen Briefwechsel mit Maupertuis und reagiert auf die Nachricht von Clarkes Tod. Für Cramers Kurvenproblem gibt er eine weitere Eigenschaft und eine Differentialgleichung als Lösungsansatz an, deren Variablen sich ihm nicht trennen lassen; verwandte Varianten könne er hingegen durch Quadraturen konstruieren.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118663208">Bilfinger, Georg Bernhard</persName>
+            <note type="lebensdaten">(1693-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118669478">Clarke, Samuel</persName>
+            <note type="lebensdaten">(1675-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124799361">Hartsoeker, Nicolas</persName>
+            <note type="lebensdaten">(1656-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118561448">Kepler, Johannes</persName>
+            <note type="lebensdaten">(1571-1630)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117683280">Louville, Jacques Eugène d'Allonville de</persName>
+            <note type="lebensdaten">(1671-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-105511131X">Parent, Antoine</persName>
+            <note type="lebensdaten">(1666-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117593508">Rolle, Michel</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Bernoulli thanks Cramer for looking after his son and asks for the price of a book by Newton sent to him so that he can repay it. He renews his criticism of Mairan, Louville and Fontenelle in the dispute over living forces and explains his response to the objection concerning the effect of different numbers of tensioned springs by comparing different charges of gunpowder. He supplements Cramer's objections to Bilfinger's vortex theory with conditions on the periods of revolution and the difficulty of accounting for the Earth's rotation. He mentions his correspondence with Maupertuis and reacts to the news of Clarke's death. For Cramer's curve problem, he gives a further property and a differential equation as an approach to a solution, but cannot separate its variables; related variants, however, can be constructed by quadratures.</p>
+      </abstract>
+      <abstract>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118663208">Bilfinger, Georg Bernhard</persName>
+            <note type="lebensdaten">(1693-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118669478">Clarke, Samuel</persName>
+            <note type="lebensdaten">(1675-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124799361">Hartsoeker, Nicolas</persName>
+            <note type="lebensdaten">(1656-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118561448">Kepler, Johannes</persName>
+            <note type="lebensdaten">(1571-1630)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117683280">Louville, Jacques Eugène d'Allonville de</persName>
+            <note type="lebensdaten">(1671-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-105511131X">Parent, Antoine</persName>
+            <note type="lebensdaten">(1666-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117593508">Rolle, Michel</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+
+        <change when="2026-10-17">Entwürfe des deutschen Regests und des englischen Abstracts auf Grundlage des Brieftextes ergänzt; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; kollationierter Text unverändert</change>
+
+        <change when="2025-12-12" who="MK">Code kontr., korr., grundkommentiert</change>
+        <change when="2025-12-10" who="MK">Code kontr., korr., koll.</change>
+        <change when="2025-08-13" who="SG">Textkonstitution der ersten drei Seiten überprüft.</change>
+        <change when="2025-07-23" who="MK">Code und Manuskript durchgeschaut, kontrolliert, korrigiert</change>
+        <change when="2025-07-21" who="MK">Code und Manuskript durchgeschaut, kontrolliert, korrigiert</change>
+        <change when="2025-04-22" who="RG">Mathematikformel angepasst</change>
+        <change when="2025-04-11" who="MK RG">kollationiert</change>
+        <change when="2025-04-04" who="RG">Textstellen auscodiert und z. T. korrigiert</change>
+        <change when="2025-01-31" who="RG">In etlig umgewandelt</change>
+        <change when="2023-04-28" who="RG">Zeilenabstände eingefügt, sowie kleinere Anpassungen</change>
+        <change when="2022-10-07" who="CG">Header, Seitenzahlen, Personen und Orte</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1073798/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1073799" n="1"/>
+  <opener>
+      <lb/><note hand="pers_DE-588-118509969">à <abbr>Mr.</abbr> le <abbr>Prof.</abbr> Cramer</note>
+  <dateline><lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1729-08-03">3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Aoust
+      <lb/>1729</date>.</dateline>
+  <salute><lb/>Monsieur</salute></opener>
+  <p><lb/>J’ai été ravi d’apprendre <choice><abbr>V.<hi rend="sup">e</hi></abbr><expan>Votre</expan></choice> heureux retour dans <choice><abbr>V.<hi rend="sup">e</hi></abbr><expan>Votre</expan></choice> <rs key="place_GEO-2660646" type="place">Patrie</rs>.
+      <lb/>Vous avés sans doute co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encé les fonctions de <choice><abbr>V.<hi rend="sup">e</hi></abbr><expan>Votre</expan></choice> Charge
+      <lb/>de Professeur, je prie Dieu qu’il y repande sa Benediction
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que vous en ayés toute la satisfaction desirable; Je Vous
+      <lb/><add>suis</add> sensiblement obligé de la bonne volonté que vous temoignés
+    <lb/>avoir <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> mon <rs key="pers_DE-588-1089913311" type="person">fils</rs>, je vous en demande de la Continuation, afin qu’il
+      <lb/>puisse recourir à vos sages Conseils en Cas de besoin<supplied>.</supplied> J’avois
+      <lb/>oublié lorsqu’il partit d’ici de Lui do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er ordre qu’il vous demandât
+      <lb/>le prix du <rs key="biblio_73DJ8AIG" type="biblio">Livre</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, que vous avés eu la bonté
+      <lb/>de m’envoyer; ainsi je vous prie de le lui indiquer afin
+      <lb/>qu’il puisse vous le restituer sur mon ordre, que je ne man<pc type="hyphenation">-</pc><lb break="no"/>querai pas de lui do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er dès que je lui écrirai<supplied>.</supplied></p>
+  <p><lb/>J’aurois eu bien du plaisir si vous aviés pris <choice><abbr>v.<hi rend="sup">e</hi></abbr><expan>votre</expan></choice> retour
+      <lb/><choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> notre <rs key="place_GEO-2661604" type="place">ville</rs> ou que vous eussiéz trouvé l’occasion de
+      <lb/>me venir voir pendant ces feries. Je me console de cette perte
+      <lb/><choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> l’esperance que vous me do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>és de me rendre la visite
+      <lb/>l’<date when="1730">a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ée prochaine</date>, pour<subst><del><gap/></del><add>v</add></subst>û que je sois alors encor en vie
+      <lb/>car je suis dans un àge qui ne me permet pas de conter
+      <lb/>sur un long à venir.</p>
+  <p><lb/><abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> ne me paroit rien moins qu’étre penetré
+      <lb/>de l’Amour de la verité <choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> rapport aux <rs type="keyword">forces vives</rs>;
+      <lb/>ou bien il faut qu’il soit <choice><abbr>extrememt.</abbr><expan>extremement</expan></choice> aveugle, de ne
+<pb facs="1073800" n="2"/>
+      <lb/>pouvoir la voir, après que je la lui ai présentée dans un
+      <lb/>jour si clair, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> cela en mille façons <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de touts Côtés <choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> un
+      <lb/>grand nombre de <rs key="B_991170514896005501 B_991170514896205501" type="letter">Lettres</rs> <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je lui ai écrites pendant plusieurs
+      <lb/>a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ées, où je n’ai rien oublié <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> lui faire reco<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oitre au
+      <lb/>plus vif cette verité pour laquelle il fait semblant
+      <lb/>de n’avoir d’autre soin <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> de la chercher. Mais croyés
+      <lb/>moi <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> l’uni<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> raison, <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice>quoi il ne veut pas la reconnoit<del><gap/></del><add>re</add>, c’est la
+      <lb/>vilaine honte de se retracter de son erreur <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> laquelle
+      <lb/>il s’est declaré avec <abbr>Mr<supplied>.</supplied></abbr> de <rs key="pers_DE-588-117683280" type="person">Louville</rs> dans le même beau <rs key="biblio_KQJALEEY" type="biblio">récit</rs>
+    <lb/>que vous cités de l’<abbr>Hist.</abbr> de l’<abbr>Acad.</abbr> de <date when="1721">1721</date><note resp="RG" type="editorial">Gemeint ist <rs key="pers_DE-588-118639056" type="person">Fontenelles</rs> Bericht <rs key="biblio_KQJALEEY" type="biblio">Sur la force des corps en mouvement, Histoire de l’Académie royale des sciences für 1721, erschienen 1723, S. 81–85</rs>. Die Behauptung, <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> scheue einen öffentlichen Widerruf, ist Bernoullis Deutung seiner Haltung.</note>, <choice><orig>ou</orig><reg>où</reg></choice> <abbr>Mr.</abbr> de
+      <lb/><rs key="pers_DE-588-118639056" type="person">Fontenelle</rs> traite avec tant de hauteur la pretendue
+      <lb/>erreur de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>. Ainsi je ne suis pas étonné que
+      <lb/><abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> se pique <add>d’étre</add> le Chef des defenseurs de
+      <lb/>l’ancien Système. Cependant quoiqu’il vante de son
+      <lb/><rs key="biblio_K5MBLB7H" type="biblio">Discours</rs> lù à l’<rs type="organisation" key="org_DE-588-35019-9"><abbr>Acad.</abbr></rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’il pretende d’avoir mis
+      <lb/>cette matiére dans un jour nouveau <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de l’avoir presenté
+      <lb/>sous un point de vuë lumineux, ce <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <abbr>Mr.</abbr> de <rs key="pers_DE-588-118639056" type="person"><choice><orig>fontenelle</orig><reg>Fontenelle</reg></choice></rs>
+      <lb/>m’a aussi écrit<supplied>,</supplied> je suis pourtant assûré <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ce <rs key="biblio_K5MBLB7H" type="biblio">discours</rs>
+      <lb/>ne contiendra <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> des pauvretés dont il est apare<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent
+      <lb/>convaincû lui mème; Car <choice><abbr>autrem<supplied>.</supplied>t</abbr><expan>autrement</expan></choice> <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice>quoi Vous
+      <lb/>refuser la Lecture d’un <rs key="biblio_K5MBLB7H" type="biblio">écrit</rs> qui devoit Vous
+<pb facs="1073801" n="3"/>
+      <lb/>avoir rangé de Son Côté, s’il a crû en effet <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ses preuves
+      <lb/>étoient sans exception<add>s</add>? Ce qu’il Vous a soutenû contre
+      <lb/>la Proposition 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> du <abbr>Chap.</abbr> VI de mon <rs key="biblio_5MVQ5CQI" type="biblio">Discours</rs>, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> 12 ressorts
+      <lb/>autant bandés <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> 3, ne produiront dans des Corps egau<add>x</add> pa<add>s</add>
+      <lb/>plu<add>s</add> de<del><gap/></del> vitesse <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ces 3<choice><orig>,</orig><reg>;</reg></choice> ceci, dis-je, est un bel echantillon
+      <lb/>de la <del><gap/></del>solidité du reste de ses raisonnements; mais
+      <lb/>jugés de son opiniatreté <choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> ce <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je vai vous dire. <abbr>Mr.</abbr> de
+      <lb/><rs key="pers_DE-588-117683280" type="person">Louville</rs> m’avoit deja fait la méme Objection dans une longue
+      <lb/><rs type="biblio">pièce</rs> <del><gap/></del>luë à l’<rs type="organisation" key="org_DE-588-35019-9">Acad.</rs> dont <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> m’a
+    <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué la <rs type="biblio">Copie</rs><note resp="RG" type="editorial">Gemeint ist eine von <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> vermittelte Abschrift einer Abhandlung <rs key="pers_DE-588-117683280" type="person">Louvilles</rs>, die Bernoulli nach eigener Angabe bereits mehr als zwei Jahre zuvor erhalten hatte. Auch im <rs key="B_991170514896605501" type="letter">Brief an Mairan vom 1. Juli 1728</rs> bespricht er Louvilles damals noch ungedruckte Schrift. Ihr Verhältnis zu dem später veröffentlichten Beitrag <rs key="biblio_BUZVH2D3" type="biblio">Sur la théorie des mouvements variés, Akademiejahr 1729, Druck 1731, S. 154–184</rs> ist nicht abschliessend geklärt.</note>, <date notAfter="1727">il y a plus de 2 ans</date>, mais <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice>
+      <lb/>faire comprendre à <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs>, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> toute cette <rs type="biblio">piéce</rs> étoit
+      <lb/>miserable, je crûs qu’il étoit suffisant de choisir ce seul
+      <lb/>Exemple d’absurdité, qui me paroissoit sauter aux Yeux
+      <lb/>à quicon<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> auroit un peu de bon sens, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> manifester
+      <lb/>d’avantage cette absurdité, je provoquai à l’experience, en
+      <lb/>Lui demandant s’il ne conv<del><gap/></del><add>enoit</add> pas qu’une grande
+      <lb/>Charge de poudre portera plus loin la bale de mousquet,
+      <lb/>qu’une plus petite Charge de la méme poud<subst><del><gap/></del><add>re</add></subst>, vù que la
+      <lb/>poudre dès qu’elle est allumée n’est autre Chose, qu’une suite
+      <lb/>de petits ressorts <choice><abbr>egalemt.</abbr><expan>egalement</expan></choice> bandés qui se debandent subitement,
+      <lb/>ajoutant qu’on n’auroit qu’<choice><orig>a</orig><reg>à</reg></choice> faire l’epreuve <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’on verroit
+      <lb/>la foiblesse de l’Objection de <abbr>Mr.</abbr> <add>de</add> <rs key="pers_DE-588-117683280" type="person">Louville</rs>; Mais <abbr>Mr.</abbr> de
+      <lb/><rs key="pers_DE-588-11931035X" type="person">Mairan</rs> ne me repondit rien <choice><orig>la</orig><reg>là</reg></choice> dessus; voyés donc avec
+      <lb/>quelle sincerité il a osé vous demander d’en voir l’experi<pc type="hyphenation">-</pc><lb break="no"/>ence, qu’il pourroit voir tous les jours, jugés aussi
+<pb facs="1073802" n="4"/>
+      <lb/>de son opiniatreté, lorsqu’il ne veut pas se rendre à la
+      <lb/>Demonstration geometri<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je donne au <rs key="biblio_5MVQ5CQI" type="biblio"><abbr>Chap.</abbr> VII<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs> sans
+      <lb/>qu’il sache la moindre chose à y <del>repondre </del>redire, peut
+      <lb/>on, je vous prie, <del>de </del>disputer avec de telles gens. Enfin
+      <lb/>tout concourt à faire croire <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <abbr>Mrs.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs>, de
+      <lb/><rs key="pers_DE-588-117683280" type="person">Louville</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> les autres Antagonistes declarés contre les
+      <lb/><rs type="keyword">forces vives</rs>, n’ont rien moins en vue que la recherche
+      <lb/>de la verité, mais <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> leur but est de persuader aux
+      <lb/>ignorans, qu’on ne m’a pas fait tort en rejettant ma
+      <lb/><rs key="biblio_5MVQ5CQI" type="biblio">pièce</rs> <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er le prix à de miserables rhabsodies d’<pc type="hyphenation"></pc><lb break="no"/>Ecolier; c’est la honte injuste qui les fait agir de
+      <lb/>la sorte. Au reste <abbr>Mr.</abbr> de <rs key="pers_DE-588-118639056" type="person">Fontenelle</rs> <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> vous dites
+      <lb/>avoir avoué, que n’ayant jamais<del><gap/></del> rien compris à la
+      <lb/>matière des <rs type="keyword">forces vives</rs> avant la Lecture du dernier
+      <lb/><rs key="biblio_K5MBLB7H" type="biblio">Discours</rs> de <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs>, il voyoit maintenant clair
+      <lb/>comme le jour, m’a ecrit ces jours passés sur le mème ton,
+      <lb/><quote><hi rend="u">Quant aux <rs type="keyword">forces vives</rs></hi>, <said>me dit-il</said>, <hi rend="u">il est vrai que
+      <lb/>quand <abbr>Mr<supplied>.</supplied></abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> lût son ècrit à l’<rs type="organisation" key="org_DE-588-35019-9"><abbr>Acad.</abbr></rs> il me
+      <lb/>parut mettre bien l’affaire au net du moins <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> moi qui
+        <lb/>n’y avois rien entendu jusque là</hi>.</quote><note resp="RG" type="editorial">Das Zitat stammt aus <rs key="pers_DE-588-118639056" type="person">Fontenelles</rs> <rs key="B_991170514859705501" type="letter">Brief an Bernoulli vom 28. Juni 1729</rs>. Im anschliessenden, hier nicht zitierten Text erklärt Fontenelle, inzwischen keine klare Vorstellung mehr von der Sache zu haben und <rs key="pers_DE-588-11931035X" type="person">Mairans</rs> Schrift für seinen Bericht erneut und ohne Vorurteil studieren zu wollen.</note> La reflexion <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> vous faites
+      <lb/>ladessus est trés judicieuse, quand vous dites<supplied>,</supplied> <quote><hi rend="u">Si <abbr>Mr.</abbr> de <abbr><rs key="pers_DE-588-118639056" type="person">Fonten.</rs></abbr>
+      <lb/><del><gap/></del>avant la Lecture du <rs key="biblio_K5MBLB7H" type="biblio">Discours</rs> de <abbr>Mr.</abbr> de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> ne compre<pc type="hyphenation">-</pc><lb break="no"/>noit rien à ce sujet, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent pouvoit-il en <date when="1721">1721</date></hi> (<rs key="biblio_KQJALEEY" type="biblio"><abbr>Hist.</abbr> de l’<abbr>Acad<supplied>.</supplied></abbr></rs>)
+        <lb/><hi rend="u">traiter <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> avec tant de hauteur</hi>.</quote><note resp="RG" type="editorial">Bernoulli zitiert hier leicht verkürzt aus <rs key="pers_DE-588-11670912X" type="person">Cramers</rs> <rs key="B_991170514978305501" type="letter">Brief vom 12. Juli 1729</rs>.</note>
+<pb facs="1073803" n="5"/>
+      <lb/>Voilà des maniéres de ces <rs key="pers_DE-588-118639056 pers_DE-588-11931035X" type="person">Messieurs</rs>, capables de mettre
+      <lb/>à bout la patience la plus ferme; encor faut il <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je
+      <lb/>sois <choice><abbr>èternellemt.</abbr><expan>èternellement</expan></choice> exposé à leurs chicanes après le tort
+      <lb/>qu’on m’a fait.</p>
+  <p><lb/>Vous remarqués fort bien contre <abbr>Mr.</abbr> <rs key="pers_DE-588-118663208" type="person">Bulffinguer</rs>,
+      <lb/><choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> deux paires de Tourbillons mûs en sens contraire
+      <lb/>ne suffisent pas, <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> <del><gap/></del>faire tomber<del><gap/></del> un Corps
+      <lb/>placé ailleurs <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> dans le Meridien qui passe <choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice>
+      <lb/>les 4 poles; je remar<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> outre cela, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> quand mème
+      <lb/>le Corps est placé dans le Meridien, il n’est pas poussé
+      <lb/>vers le Centre, à moins <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> les Revolutions des deux paires
+      <lb/>de tourbillons ne soient isochrones entre elles; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><abbr>p.<hi>r</hi></abbr><expan>pour</expan></choice> faire
+      <lb/><choice><abbr>generalemt<supplied>.</supplied></abbr><expan>generalement</expan></choice>, qu’il soit poussé au Centre en <del>qul</del>quel<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>endroit qu’il soit placé, il faut sans doute une 3.<hi rend="sup">me</hi>
+      <lb/>paire de Tourbillons mûs en sens contraire, dont l’axe
+      <lb/>soit perpendiculaire au plan des deux autres axes;
+      <lb/>encore est il necessaire qu’il y ait un certain rapport
+      <lb/>entre les tems periodiques des 3 Revolutions, lequel
+      <lb/>rapport je n’ai pas encore examiné, s’il peut étre
+      <lb/>le méme <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> invariable <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> tous les Lieux du Corps,
+      <lb/>où il se peut trouver dans la sphère. Après tout cela il
+      <lb/>faut supposer, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> la Terre soit en repos; Car si elle
+      <lb/>tourne sur son axe on ne pourroit pas expliquer par
+<pb facs="1073804" n="6"/>
+      <lb/>cette maniére pourquoi les Corps pesants en tombant
+      <lb/>demeurent toujours dans le meme plan d’un méme meridien
+      <lb/>de la Terre.</p>
+  <p><lb/>Je ne dis plus rien sur le Chapitre de <abbr>Mr</abbr> <rs key="pers_DE-588-117619515" type="person">Saurin</rs>, je
+      <lb/>l’ai toujours regardé comme un ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e capable<del> de</del>
+      <lb/>de trahir sa Conscience, qui aura pu étre convaincu
+      <lb/>de la Justice de ma Cause <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> opiner en méme tems contre
+      <lb/>moi; Il y a plus d’un mois <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> j’ai repondu à <abbr>Mr.</abbr>
+      <lb/>de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> sur sa <rs key="B_991170514891505501" type="letter">Lettre</rs> où il me faisoit de
+      <lb/>petites Questions sur le Contour des Courbes, sur les
+      <lb/>points de <choice><abbr>rebroussemt.</abbr><expan>rebroussement</expan></choice> d’inflexions <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> ajoutant je
+      <lb/>ne sai quelles difficultés, <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je ne comprenois pas; Du depuis
+      <lb/>je n’ai plus réçû de Lettre de Lui; si c’est parce<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ma <rs key="B_991170514891405501" type="letter">Reponse</rs>
+      <lb/>ne l’a pas satisfait, ou qu’il veut differer encore la
+      <lb/>repli<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>, c’est ce <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> le tems apprendra<supplied>.</supplied></p>
+  <p><lb/>Quel mal ai<choice><orig> </orig><reg>-</reg></choice>je fait au <abbr>D.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118669478" type="person">Clarke</rs>, qui à ce <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Vous dites
+      <lb/>a manquè de Civilité envers moi, puis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> je n’ai jamais parlé
+      <lb/>de Lui en public ni bien ni mal? Mais <abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">s’Grave<pc type="hyphenation">-</pc><lb break="no"/>sande</rs>, qu’il a traité co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e moi sur le méme pied, saura
+      <lb/>en prendre la revanche, s’il le trouve à propos, <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> moi
+      <lb/>je meprise ce <rs key="pers_DE-588-118669478" type="person">Docteur</rs>, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e un fort petit Geométre <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>passioné contre les Etrangers, à l’exemple de plusieurs
+      <lb/>Anglois. Cependant vous dites qu’il est mort, voila
+      <lb/>donc le cinquiéme de mes Adversaires qui sont morts
+      <lb/>peu de tems aprés qu’ils m’<del>ont</del><add>avoient</add> attaqué sans que je leur<note type="editorial">Das üblicherweise auf die nächste Seite (hier die Seite 7) verweisende Wort, um den korrekten Anschluss zu gewährleisten, ist hier auf die gleiche Zeile gesetzt und nicht unterhalb in der Ecke des Blattes, weshalb der Eindruck einer Wortwiederholung entsteht.</note>
+<pb facs="1073805" n="7"/>
+      <lb/>leur aye donné le moindre Sujet, savoir <abbr>Mrs.</abbr> <rs key="pers_DE-588-117593508" type="person">Rolle</rs>, <rs key="pers_DE-588-105511131X" type="person">Pa<pc type="hyphenation">-</pc><lb break="no"/>rent</rs>, <rs key="pers_DE-588-124275087" type="person">Keil</rs>, <rs key="pers_DE-588-124799361" type="person">Hartsoëcker</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <rs key="pers_DE-588-118669478" type="person">Clarke</rs>, garre donc le sixième
+      <lb/>s’il ne veut <del>pas </del>subir le méme sort.</p>
+  <p><lb/><choice><abbr>V.<hi rend="sup">e</hi></abbr><expan>Votre</expan></choice> Courbe <formula>GCF</formula>, dont vous cherchez la Construction
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dont vous exprimés la proprieté en ces termes:
+      <lb/><formula>A</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B</formula> sont 2 points fixes donnés d’o<subst><del>n</del><add>ù</add></subst> l’on abaisse
+      <lb/>des perpendiculaires <formula>AD</formula>, <formula>BE</formula> sur la touchante en <formula>C</formula>, on a par<pc type="hyphenation">-</pc><lb break="no"/>tout <choice><orig><formula>AD.BE::AC^{2}.aa</formula></orig><reg><formula>AD:BE=AC^{2}:aa</formula></reg></choice>, <choice><abbr>v.<hi rend="sup">e</hi></abbr><expan>votre</expan></choice> Courbe dis-je a cette autre pro<pc type="hyphenation">-</pc><lb break="no"/>prièté, que l’angle <formula>CAF</formula> est partout proportionel à l’aire
+      <lb/><formula>BCF</formula>, ce qui est facile à prouver, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il semble qu’il a quel<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>affinité avec le problème de <rs key="pers_DE-588-118561448" type="person">Kepler</rs>. En cherchant la Solution
+      <lb/>de <choice><abbr>v.<hi rend="sup">e</hi></abbr><expan>votre</expan></choice> probléme, on parvient sans peine à une equation
+      <lb/>differentielle, mais où la Separation des indeterminées me paroit
+      <lb/>fort difficile. Si on vouloit <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> la Courbe eut cette propr<add>i</add>eté
+      <lb/><choice><orig><formula>AD.BE::AC^{2}.BC^{2}</formula></orig><reg><formula>AD:BE=AC^{2}:BC^{2}</formula></reg></choice>, elle feroit un arc de Cercle sur la Corde <formula>AB:</formula>
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><abbr>generalemt.</abbr><expan>generalement</expan></choice> si on propose <choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <choice><orig><formula>AD.BE::AC^{p}.BC^{p}</formula></orig><reg><formula>AD:BE=AC^{p}:BC^{p}</formula></reg></choice>, (où <formula>n</formula> est un
+      <lb/>coëfficient do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>p</formula> un exposant donné<del>)</del> quelcon<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>) je puis
+      <lb/>toujours separer les indeterminées <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> donner par <choice><abbr>conseq.</abbr><expan>consequent</expan></choice>
+      <lb/>la Construction <choice><orig><g ref="#par">&#42833;</g></orig><reg>par</reg></choice> des quadratures, mais cela demande
+      <lb/>pourtant une petite adresse; je ne doute pas, que vous
+      <lb/>ne la trouviez, si vous voulés vous y appliquer.</p>
+  <closer><salute><lb/>Je suis du profond de mon Coeur.
+      <lb/><abbr>Mons.<hi rend="sup">r</hi></abbr>
+      <lb/><choice><abbr>v.<hi rend="sup">e</hi></abbr><expan>votre</expan></choice> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></salute>
+      <lb/><signed><abbr>J<supplied>.</supplied></abbr> Bernoulli</signed></closer>
+<pb facs="1073806" n="8" type="empty"/>
+</div>
+</body>
+</text></TEI>
