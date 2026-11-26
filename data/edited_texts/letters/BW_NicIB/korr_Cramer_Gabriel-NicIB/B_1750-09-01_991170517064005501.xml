@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517064005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Nicolaus I Bernoulli. Genf, 01. September 1750</title>
+          <title type="alt">1750.09.01: Cramer, Gabriel (1704-1752) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059093</title>
+          <title type="alt">1750-09-01_Cramer_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517064005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517064005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Entwurf BPU Genève (Achat 1948)</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24316">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.72</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517064005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433686705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059093</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1750-09-01">ce 1 Sept. 1750</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1750-09-01"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517064305501" type="prev"/>
+          <ptr target="B_991170517063705501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117205567">Iselin, Johann Rudolf</persName>
+            <note type="lebensdaten">(1705-1779)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-06-04" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-25" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-25" who="RG">Mathematische Formeln (etc.) angepasst.</change>
+        <change when="2025-07-25" who="RG">&amp; mit etlig ersetzt</change>
+        <change when="2023-09-29" who="RG">Personen und Orte ausgezeichnet</change>
+        <change when="2023-09-23" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-09-23" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change when="2023-09-22" who="RG">"prev" und "next" in correspContext eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063480/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063481" n="1"/>
+  <opener>
+  <dateline>
+      <lb/>Geneve, ce <date when="1750-09-01">1 <abbr>Sept.</abbr> 1750.</date>
+  </dateline>
+  </opener>
+  <p>
+      <lb/>Je serois au desespoir, Monsieur, que la Lecture de mon <rs type="biblio">Traitté</rs>
+      <lb/>fatigât le moins du monde vôtre attention, ou prît tant soit peu sur
+      <lb/>un tems aussi précieux que le Vôtre. L’<rs type="biblio">Ouvrage</rs> ne mérite pas cette
+      <lb/>attention de Votre part. J’esperois qu’il pourroit vous amuser quelques
+      <lb/>moments, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je me serois crû bien <choice><orig>paie</orig><reg>paié</reg></choice> des peines qu’il m<supplied>’</supplied>a couté, s’il avoit
+      <lb/>eu ce bonheur-là <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> celui de meriter Votre approbation. Mais je vous
+      <lb/>conjure de ne vous en occuper qu’autant que Vous y trouverez quelque
+      <lb/>plaisir. Soiez assuré que je ne desire rien de plus que de vous marquer
+      <lb/>mon attachement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ma reconnoissance des bontés que vous avez eues
+      <lb/>pour moi en toutte occasion, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que ce me seroit une veritable peine
+      <lb/>que de penser que vous en prenez le moindrement à mon occasion.
+      <lb/>Je me flatte pourtant qu’il ne faut pas prendre à la rigueur ce que vous
+      <lb/>dites que depuis longtems vous n’avez plus l’esprit tourné du côté des
+      <lb/>Mathématiques. Il est comme impossible d’oublier entierement ce qui
+      <lb/>a sû charmer, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> où l’on a si <choice><sic>paifaitement</sic><corr>parfaitement</corr></choice> réussi. Votre <rs type="letter" key="B_991170517064305501">Lettre</rs> même
+      <lb/>contient des preuves que ce renoncement aux Mathematiques n’est pas
+      <lb/>si absolu que les premiéres expressions sembloient le faire craindre<supplied>.</supplied>
+      <lb/>Rien n’est plus élegant que vôtre manière de trouver les Series, sans le
+      <lb/>secours du Parallelogramme de <rs key="pers_DE-588-118587544" type="person">Newton</rs>, lequel, comme vous dites, ne
+      <lb/>réussit pas si bien dans les équations différentielles qu<subst><del>e</del><add>’une</add></subst> autre Methode
+      <lb/>que vous me communicates il y a longtems, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dont j’ai fait mention dans
+      <lb/>les Notes sur les <rs type="biblio" key="biblio_QNKFTGZ8">Œuvres</rs> de <abbr>Mr<supplied>.</supplied></abbr> votre Oncle <rs key="pers_DE-588-118509950" type="person">Jaques Bernoulli</rs>. J’avois
+      <lb/>aussi trouvé diverses maniéres de calculer ces Series, avec assez de facilité,
+<pb facs="1063482" n="2"/>
+      <lb/>car quand on a une fois la clef de cette Methode, on la peut varier
+      <lb/>en bien des maniéres: mais, aprés tout, je n’ai rien trouvé qui
+      <lb/>allat mieux à mon but que le Parallelogramme, ou, ce qui revient
+      <lb/>au même, le Triangle analytique. Outre que c’est une Methode
+      <lb/>connue, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dont le procedé n’étoit pourtant point encore éxactement
+      <lb/>demontré nulle part, j’a<del><gap/></del><add>v</add>ois fait usage de ce Triangle pour donner
+      <lb/>à chaque terme de l’equation sa véritable place, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> pour operer
+      <lb/>quelques transformations, ainsi les fraix de plusieurs definitions
+      <lb/>étoient faits: mais d’ailleurs j’ai trouvé cet avantage à chercher
+      <lb/>successivement les termes d’une Série par le moien du Triangle,
+      <lb/>c’est qu’on y voit avec plus de distinction jusqu’où vont les Termes que
+      <lb/>j’apelle irréguliers, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> où commencent les Termes réguliers: ce qui est
+      <lb/>fondamental pour la division des Lignes de chaque ordre en leurs genres,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> pour l’enumeration des points multiples de chaque dégré. Ce n’est,
+      <lb/>je vous assure, qu’après avoir eprouvé bien des Methodes differentes,
+      <lb/>que je me suis fixé à celle-ci, comme etant le plus souvent, quoique
+      <lb/>non pas toujours, la plus courte <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la plus facile <choice><orig>a</orig><reg>à</reg></choice> pratiquer <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>surtout à exposer. Car j’avois bien trouvé plusieurs abregez,
+      <lb/>même très universels, mais dont l’exposition auroit p<del><gap/></del><add>ri</add>s plus
+  de terrain
+      <lb/>dans mon <rs type="biblio">Livre</rs> que je n’en voulois donner à cette Partie, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dont le
+      <lb/>procedé auroit été, par le nombre des Règles, difficile à retenir. Ainsi
+      <lb/>il ne faut pas prendre que j’aie voulu traitter en general, ou
+      <lb/>aprofondir la Methode des Séries (voiez §. 107), mais il faut dire
+<pb facs="1063483" n="3"/>
+      <lb/>que je n’en ai touché que ce qui étoit nécessaire, ou le plus
+      <lb/>convenable à mon but. Au surplus, il est fort croiable que
+      <lb/>je puis n’avoir pas pris le meilleur chemin, quoique ç’ait été
+      <lb/>mon intention, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que je ne me sois déterminé qu’après avoir
+      <lb/>essaié de plusieurs diverses routes. Je vous dois donc étre, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je
+      <lb/>vous suis bien réellement, très obligé de ce que Vous m’avez
+      <lb/>communiqué, que je crois avoir très bien compris, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui me
+      <lb/>semble en effet très commode, dans une infinité d’occasions.
+  </p>
+  <p>
+      <lb/>Ce que <abbr>Mr<supplied>.</supplied></abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> vous a envoié, il y a quelque tems, <del><gap/></del>de
+      <lb/>votre méthode pour la sommation de <choice><orig><formula>\frac{1}{1}+\frac{1}{4}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{1}+\frac{1}{4}+\mathrm{\;etc.}</formula></reg></choice> est tout ce que
+      <lb/>j’en ai. C’est moi qui le lui ai donné, ou plûtôt restitué: <choice><orig>cár</orig><reg>car</reg></choice> c’est
+      <lb/>de lui que je l’avois reçu au retour de ses Voiages. Je n’ai point <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>je n’ai jamais vû, la prémiére méthode, dont ce <rs type="biblio">papier</rs> fait mention<unclear reason="lost">.</unclear>
+      <lb/>Ce qui m’avoit beaucoup plu dans la <rs type="letter" key="B_991170517064305501">derniére</rs>, c’est la reduction d’une
+      <lb/>sommation de Serie à une Intégration. Car ce rapel est rare, quoiqu<unclear reason="lost">e</unclear>
+      <lb/>la converse, je veux dire la reduction d’une Quadrature, ou en general
+      <lb/>d’une intégration, à une série, soit commun. La methode<del> plus courte</del>
+      <lb/>que vous emploiez dans vôtre <rs type="letter">le<del><gap/></del><add>ttre</add></rs>, est plus courte <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> plus facile,
+      <lb/>mais elle n’a pas cette singularité, qui m’a paru avoir son merite.
+      <lb/>Me pardonnerez-vous d’avoir remis à la Messagerie un Pacquet
+      <lb/>pour vous, qui contient six Exemplaires d’un <rs type="biblio">Discours</rs> inaugural que je
+      <lb/>recitai derniérement. Je me flatte que la lecture <choice><orig>èn</orig><reg>en</reg></choice> est si courte qu’elle
+      <lb/>ne pourra jamais vous ennuier longtems. Je vous prierai d’en faire
+      <lb/>tenir un <rs type="biblio">Exemplaire</rs> à chacun de <abbr>M<supplied>.</supplied>rs</abbr> vos <rs key="pers_DE-588-118656503 pers_DE-588-117589136" type="person">Cousins</rs> les Professeurs, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un
+      <lb/>à <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117205567" type="person">Jean Rodolfe Iselin</rs>, Docteur en Droit. Les autres sont pour vous, ou
+<pb facs="1063484" n="4"/>
+      <lb/>pour quelques uns de <subst><del><gap/></del><add>vos</add></subst> amis, à qui vous jugerez qu’ils pourroient
+      <lb/>faire plaisir.
+  </p>
+  <closer>
+  <salute>Je suis avec respect, Monsieur, Votre très humble
+      <lb/>et très-obéissant Serviteur
+  </salute>
+  <signed><rs key="pers_DE-588-11670912X" type="person"><abbr><choice><orig>G</orig><reg>G. </reg></choice></abbr>Cramer</rs></signed>
+  </closer>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Nicolas Bernoulli</rs></addrLine>
+      <addrLine>Docteur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Professeur en Droit</addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2661604" type="place">Basle</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

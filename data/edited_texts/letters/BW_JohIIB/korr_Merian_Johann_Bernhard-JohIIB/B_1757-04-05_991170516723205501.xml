@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516723205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 05. April 1757</title>
+          <title type="alt">1757.04.05: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058755</title>
+          <title type="alt">1757-04-05_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516723205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516723205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Spuren von einer Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131649">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.194-195</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516723205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433557605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058755</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1757-04-05">ce 5ieme avril 1757</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1757-04-05"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516848105501" type="prev"/>
+          <ptr target="B_991170516723105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913958">Béguelin</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie de</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117610429">Murdoch, Patrick</persName>
+            <note type="lebensdaten">(-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1035424398">Ortmann, Andreas</persName>
+            <note type="lebensdaten">(1724-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1015904726">Passavant, Daniel</persName>
+            <note type="lebensdaten">(1722-1799)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587054/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3587055" n="194r"/>
+  <p> Monsieur </p>
+  <p> La lettre que Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> a écrite à son <rs type="person">pere</rs> doit être arrivée à <rs key="place_GEO-2661604" type="place">Basle</rs> peu après le départ de celle que vous m’avés fait l’honneur de m’écrire. Je n’ai jamais reçû celle de son <rs type="person">frere</rs>: Messieurs <rs type="person">Girard</rs> et <rs type="person">Michelet</rs> l’avoient remise au dome stique de Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs>, et Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> avoit jugé à propos de la retenir sans m’en dire un mot, et lorsque j’en suis venu avec lui à des éclaircissemens, il m’a dit qu’il l’avoit renvoyée à <rs key="place_GEO-2661604" type="place">Basle</rs>. Ce procédé ne m’a nullement plû: je lui en ai dit mon sentiment, aussi bien que sur le silence qu’il avoit gardé pendant six mois vis à vis de ses parens: il m’a assuré qu’il avoit écrit, et qu’il falloit que sa lettre ne fut point par venue. Je ne crois pas qu’il y ait de la diablerie dans tout cecy: il pourroit bien y avoir de cette indolence qui fait le caractere de Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs>, dont d’ailleurs toute méchanceté est bannie. J’es<rs type="person">pere</rs> que la lettre qu’il a écrite le réconciliera avec sa famille. </p>
+  <p> Mr. <rs type="person" key="pers_DE-588-1035424398">Ortman</rs> vous aura communiqué ce qui regarde votre commission aussi bien que ce qui regarde la chaste pucelle. Vous verrés par là qu’il n’y a pas de ma faute: <rs key="pers_DE-588-1015904726" type="person">Passavant</rs> dit tous les jours qu’il veut partir; mais il ne part pas. Il semble qu’il ait de la peine à quitter <rs key="place_GEO-2950159" type="place">Berlin</rs>. S’il s’étoit mis de bonne heure dans la pratique de la médecine, il seroit actuellement un de nos fameux Esculapes; car on ne peut lui réfuser de la pénétration et du jugement joints à l’usage du monde et à des connoissances: avec cela il n’y a qu’à vouloir se remuer et se donner de la peine pour réüssir. </p>
+  <p> Vous vous trompés assurément, Monsieur, en croyant notre <rs type="person" key="pers_DE-588-118731998">Président</rs> refroidi à votre gard. Il a été, et il est encore extrèmement malade: il mande à Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs> qu’il n’écrit que le moins qu’il lui est possible et que les lettres les plus indispensables. Sa santé va en empirant, et je crains que nous ne le revoyions pas. En ce cas là ce n’est pas assurément à la guerre que nous devons nous en prendre: il est auprès du <rs type="person" key="pers_DE-588-118535749">Roi</rs> dans la même <pb facs="3587056" n="194v"/> faveur qu’il a toujours été, et en correspondance avec Lui. </p>
+  <p> Vous avés donc vaincu les préjugés qui combat tent l’inoculation? Je suis persuadé que vous ne vous en trouverés pas mal, et j’es<rs type="person">pere</rs> que vous en ferés venir la mode à <rs key="place_GEO-2661604" type="place">basle</rs>. J’ai lû avec bien de la satisfaction ce que Mr. de la <rs type="person" key="pers_DE-588-118778390">Condamine</rs> a écrit sur cette matiere. On conte que lorsqu’il demanda au pape la permission d’<rs key="pers_DE-588-1089911661" type="person">épouse</rs>r sa niece, le St. <rs type="person">Pere</rs> le voyant d’un certain age, lui avoit demandé s’il croyoit que les enfans se faisoient par inoculation. Il a fait le lendemain de ses noces un fort joli épigramme où il se compare à <rs type="person">Titon</rs> avec cette différence que celui cy avoit vieilli dans les bras de l’aurore, au lieu que lui avoit rajeuni dans ceux de son <rs key="pers_DE-588-1089911661" type="person">épouse</rs>. Il est à savoir si elle en tombera d’accord, car on se fait volontiers illusion sur ses bonnes qualités. </p>
+  <p> Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> n’a point, que je sache, fait l’expérian ce sur les forces vives: Mr. <rs key="pers_DE-588-117610429" type="person">Murdoch</rs> est parti subitement pour l’<rs key="place_VER-englan" type="place">angleterre</rs>. Je crois bien comme vous, Monsieur, que cette dispute durera aussi long-tems que le monde savant: on a si bien embrouillé cette matiere, qu’il faudroit un miracle pour accorder là dessus les philosophes et les Géometres. Je ne m’y entens gueres, mais il me semble que ceux qui disputent sur ce point ne s’entendent pas pour l’ordinaire beaucoup d’avantage. Ils partent de différens principes et par là chacun a raison chez lui, et a tort dans les principes de son antagoniste. </p>
+  <p> Vous aurés infailliblement par la foire prochain de <rs key="place_GEO-2879139" type="place">Leipzig</rs> le volume de nos Mémoires qui vous manque: je le ferai joindre au nouveau volume qui va paroître: et si Pas savant ne part pas avant ce tems là, j’y ajouterai le livre que vous demandés. </p>
+  <p> Je n’ai pas pû voir la famille <rs key="pers_DE-588-1361881542" type="person">Beguelin</rs> depuis la ré ception de votre lettre; mais je ferai vos complimens à la premiere occasion. </p>
+  <p> Qui est donc cet indigne <rs key="place_VER-schweiz" type="place">Suisse</rs> dont le scandaleux libelle vient d’être confisqué à <rs key="place_GEO-2935022" type="place">Dresde</rs>? J’aime trop ma nation pour croire qu’elle ait produit un pareil calomnia teur. Je ne conçois pas qu’un particulier suisse être assés insensé pour attaquer les souverains avec tant d’indécence. </p>
+  <p> Je croyois, Monsieur, votre <rs type="person">fils</rs> à <rs key="place_GEO-2659994" type="place">Lausanne</rs>: Il me semble, Monsieur, que vous avés attendu un peu tard à lui faire l’opération <pb facs="3587057" n="195r"/> angloise: je fais bien des voeux pour son heureux succès: et en présentant mes très humbles obéissan ces à Monsieur votre <rs type="person">frere</rs>, j’ai l’honneur d’être, Monsieur, votre très humble et très obeissant Serviteur <rs key="place_GEO-2950159" type="place">berlin</rs> ce 5 ieme avril 1757 <rs key="pers_DE-588-116892021" type="person">Merian</rs> </p>
+  <p>P. S. Nous attendons tous les jours la réponse de l’auditeur du Regiment avec le certificat: Mr. <rs key="pers_DE-588-1015904726" type="person">Passavant</rs> lui a écrit. Le régiment, qui depuis a changé deux fois de chef, de nom, et de quartier, a eu ses quartiers d’hiver, comme il a app ris, près de <rs type="place">Firna</rs>. présentement il cantonne; mais Mr. <rs type="person" key="pers_DE-588-1015904726">Passa vant</rs> es<rs type="person">pere</rs> que sa lettre, adressée à <rs type="place">Pirna</rs>, lui sera parve nue. Il vous prie d’agréer ses complimens. <pb facs="3587058" n="195v"/> [Adresse: A Monsieur Monsieur <rs key="pers_DE-588-120475030" type="person">Bernouilly</rs> Professeur en Mathématiques <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. <rs key="place_GEO-2661604" type="place">Basle</rs> en <rs key="place_VER-schweiz" type="place">Suisse</rs>] </p>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517001805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jakob Christoph Iselin an Jacob Hermann. Basel, 26. August 1710</title>
+          <title type="alt">Jacob Christoph Iselin an Jacob Hermann. Basel, 26. August 1710</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517001805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517001805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Iselin, Jacob Christoph (1681-1737) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-140871">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH VB Mscr M 14,2 fol.329r-329v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517001805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433809305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059773</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1710-08-26">7 Cal. Septem. 1710</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-117205508">Iselin, Jakob Christoph</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1710-08-26"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517001905501" type="prev"/>
+          <ptr target="B_991170517001705501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Iselin_Jacob_Christoph-Hermann" corresp="pers_DE-588-117205508" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2005-02" who="FN SG">transkribiert und kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/3779924/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3779925" n="329r"/>
+  <opener>Viro pl: Rev: atque Celeb: <rs type="person" key="pers_DE-588-119112450">Jacobo Hermanno</rs>.
+      <lb/><rs type="person" key="pers_DE-588-117205508">I: C: Iselius</rs>. S: P: D.</opener>
+  <p>Ita me semper ut jampridem facis, ames, Hermanne meum decus uti
+      <lb/>nihil suavius amantiusque tuis litteris nuperrimis scribi posse mihi persua<pc type="hyphenation">-</pc><lb break="no"/>deo. Quod quam vere a me affirmetur, ex isto velim judices quod tuo
+      <lb/>illo acerrimo, quod ad vivum in iis exprimitur, mei in <rs type="place" key="place_KON-italie">Italia</rs> videndi de<pc type="hyphenation">-</pc><lb break="no"/>siderio mihi faces ejusmodi subdidisti, ut nisi Te ibi ante annum amplec<pc type="hyphenation">-</pc><lb break="no"/>tar, plane infeliciter mihi vitam videar acturus. Sed care putes
+      <lb/>me de <rs type="place" key="place_GEO-3171728">Patavina</rs> Vocatione spes valde opimas foventem isthaec scri<pc type="hyphenation">-</pc><lb break="no"/>bere, qui de itinere in eam oram et ad Te praecipue, meae deliciae,
+      <lb/>faciendo cogito. Nam Vocationem illam quidem, cum aliquando uti
+      <lb/>Tu nosti, metuerim, eo quod ejuscemodi Professionem nondum Tum
+      <lb/>in rem meam fore putans, quo pacto me ab acerrima flagitatione,
+      <lb/>vel potius convicio Ill: <rs key="place_KON-iberien" type="place">Hispaniarum</rs> Legati <rs type="person" key="GND">Berettij</rs> Landini defenderem,
+      <lb/>aegre inveniebam; postea immutato animo; si tandem ijs quas cum Ampl:
+      <lb/><rs type="person" key="GND">Legato</rs> vehementer id sane postulante, pactus eram, conditionibus defer<pc type="hyphenation">-</pc><lb break="no"/>retur, non repudiaturum me receperim; verum tamen ita, ut illo
+      <lb/>toto quo sic fluctuabam tempore me omnino vocatum iri imbecilli<pc type="hyphenation">-</pc><lb break="no"/>tatis meae conscius nunquam plane vel sperarem vel opinarer; eam
+      <lb/>inquam ego, Vocationem repugnante licet Ill: <rs type="person" key="GND">Legato</rs> nunquam minus
+      <lb/>quam ista tempestate mihi puto exspectandam: quum Ill: <rs type="person" key="GND GND">Curatores
+      <lb/>Academiae <rs type="place" key="place_GEO-3171728">Patavinae</rs></rs> existimem, si quem trans <rs type="place" key="place_GEB-alpena">Alpinum</rs> vocare constituis<pc type="hyphenation">-</pc><lb break="no"/>sent, maturius suam sententiam fuisse declaraturos, ut is ante hie<pc type="hyphenation">-</pc><lb break="no"/>mem opportune ad Ipsos possit accedere. Tum sane de isto negotio, ut fit
+      <lb/>subinde cogitans, ejusmodi aliquando argumenta invenio, quae meo illi
+<pb facs="3779926" n="329v"/>desiderio utrunque incitato fraena injiciant. E quibus Tibi nunc sol[o]s Dis<pc type="hyphenation">-</pc><lb break="no"/>cipulos meos objiciam, quos cum a multis jam mensibus habeam supra
+      <lb/>triginta et spei profecto plerosque non malae, non libenter sane ab ijs
+      <lb/>me paterer divelli, quos brevi Tempore me Doctore non perfuntorie
+      <lb/>eruditos in Academia ista sperem celebratum iri. Quin neque operae pretium
+      <lb/>videtur ob ejuscemodi <rs type="place" key="place_KON-italie">Italicae</rs> professionis curriculum, certe temporis spa<pc type="hyphenation">-</pc><lb break="no"/>tio non valde amplum, omnem istam scholam prorsus dimitti, quae postea
+      <lb/>non possit iterum celerrime instaurari. Quae quanquam ita sint,
+      <lb/>tamen confiteor, tantum esse meum apud Te quam diutissime haerendi
+      <lb/>desiderium, atque ita me tuis istis incredibilem mei amorem spirantibus
+      <lb/>litteris permoveri posse et solere, ut consilium hoc meum adversus
+      <lb/>omnia potius quam illas a Te machinas firmum ausim dicere. At
+      <lb/>dum ita avide jucundeque Tecum garrio, et de numero paginarum
+      <lb/>securus totum hoc quod isto mane ad discessum usque tabella<pc type="hyphenation">-</pc><lb break="no"/>rij superest tempus scribendo conterere paro, interpellor molestissi<pc type="hyphenation">-</pc><lb break="no"/>me, et ita ut vix tria verba possim amplius addere. De epistola quam
+      <lb/>de Poësi hebraeorum inscriptam video, maximas Tibi ago gratias: cum
+      <lb/>legerim, qualis visa sit, uberius exponam. Quae Cel. <rs type="person" key="GND">Bernoul<pc type="hyphenation">-</pc><lb break="no"/>lium</rs> ceteraque, quae cum Ipsius negotio connexa sunt, spectant, expedi<pc type="hyphenation">-</pc><lb break="no"/>entur a me proxime: nunc quidem quam Ven: <rs type="person" key="GND">tuo parenti</rs> haeride
+      <lb/>scriptione dedi fidem cogor exolvere.</p> <closer>Vale et me porro ama. <dateline>Da<pc type="hyphenation">-</pc><lb break="no"/>tum <rs type="place" key="place_GEO-2661604">Bas:</rs> <date when="1710-08-26">7 Cal. Septem: 1710</date>.</dateline></closer>
+  <postscript><p>Obsecro Te ignosce, si quaero an a Praest: nostro <rs type="person" key="GND">Schaubio</rs> <rs type="person" key="GND">Serrij</rs>
+        <lb/>Scriptum petere me oporteat: Si tradere, ut facturum Te scribe<pc type="hyphenation">-</pc><lb break="no"/>bas, oblitus fuisti, minime jam a Te peto, sed si omnino tradidisti, non
+        <lb/>patiar, ut Tuum mihi beficium pereat.</p></postscript>
+</div>
+</body>
+</text></TEI>

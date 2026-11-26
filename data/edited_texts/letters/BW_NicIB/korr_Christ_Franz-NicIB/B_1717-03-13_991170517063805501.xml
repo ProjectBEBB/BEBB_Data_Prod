@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517063805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Franz Christ an Nicolaus I Bernoulli. Basel, 13. März 1717</title>
+          <title type="alt">1717.03.13: Christ, Franz (1688-1744) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059041</title>
+          <title type="alt">1717-03-13_Christ_Franz-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517063805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517063805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Christ, Franz (1688-1744) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Neben dem Datum von Nic.I B. eigenhändig "Empfg. den 29."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23541">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.8</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517063805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433694705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059041</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>22,5</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basel</origPlace>
+              <date when="1717-03-13">den 13. Mertz 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1717-03-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517064105501" type="prev"/>
+          <ptr target="B_991170517063305501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Christ_Franz-NicIB" corresp="pers_DE-588-140736662" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-115235079X">Battier, Veronika</persName>
+            <note type="lebensdaten">(1698-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089828284">Bruckner, Johann Jacob</persName>
+            <note type="lebensdaten">(1682-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-133771261">Bochat, Charles Guillaume Loys de</persName>
+            <note type="lebensdaten">(1695-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Pestalozzi</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089804180">Falkeisen, Theodor</persName>
+            <note type="lebensdaten">(1686-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121435032">Gernler, Johann Heinrich</persName>
+            <note type="lebensdaten">(1664-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089801718">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1662-1717)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1200260074">Lindenmeyer, Johann</persName>
+            <note type="lebensdaten">(1686-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-106521054X">Mentzer, Friedrich August</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1127667483">Märckt, Emanuel</persName>
+            <note type="lebensdaten">(1685-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+            <note type="lebensdaten">(1691-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1143548345">Rippel, Niklaus</persName>
+            <note type="lebensdaten">(1674-1755)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089783914">Seiler, Abel</persName>
+            <note type="lebensdaten">(1684-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089870078">Tonjola, Johannes</persName>
+            <note type="lebensdaten">(1663-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-15" who="SG">Englische Arbeitsübersetzung sprachlich überarbeitet und erneut mit dem Ausgangstext abgeglichen; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-15" who="SG">Layout der Arbeitsübersetzungen an Briefkopf, Schluss und Adresszeilen des Originals angeglichen.</change>
+        <change when="2026-09-15" who="SG">Maschinelle englische Arbeitsübersetzung ergänzt; wissenschaftlich ungeprüft und intern.</change>
+        <change when="2025-08-15" who="CG SG">Tagging Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039706/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039707" n="1"/>
+    <lb/><opener><salute>Liebster Fründ</salute></opener>
+  <p>Es hat mich nicht wenig gefreüet, daß ich aus deinem <rs type="letter">brief</rs> sehen
+      <lb/>kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, wie du dich in das dir zugestossene unglück geschicket und
+      <lb/>das von der verhangnus Gottes dir zugesante kreütz mit gedult
+      <lb/>aufgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en; Ich wünsche von hertzen, daß du in allem deinem thun
+      <lb/>die wahre vergnügung finden mögest. Es ist mir aber le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d, daß du
+      <lb/>under solchen leüten wohnen must, mit denen du keine rechte
+      <lb/>fründschaft pflantzen kanst, es ist einer von denen articlen die
+      <lb/>ich mir gleichsam vorher eingebildet, deine alzuaufrichtige und un<pc type="hyphenation">=</pc><lb break="no"/>gegleisnerte art werde mit der Italienischen nicht wohl überein<pc type="hyphenation">=</pc><lb break="no"/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, man mus sich in alles richten und kan man doch
+      <lb/>endlich aus allem einen nutzen ziehen. Ich zweifle zwar, ob sol<pc type="hyphenation">=</pc><lb break="no"/>ches wahr se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e in ansehen der<note type="editorial">Abbreviatur für «der».</note> pedanten von denen du mir meldest
+      <lb/>und ob sie zu etwas anzuwenden, vielleicht machen sie einen
+      <lb/>desto muhtiger auf einem wahren grund in seinen studien fort<pc type="hyphenation">=</pc><lb break="no"/>zufahren und kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en auch die nichtigkeit der <unclear reason="illegible">m</unclear>enschlichen hand<pc type="hyphenation">=</pc><lb break="no"/>lungen vorstellen. <abbr>H.</abbr> <rs type="person">Lindenme<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>er</rs> wäre ohne zweifel gut under
+      <lb/>sie und ist die <rs type="biblio">predigt</rs> von deren ich geredt in ofentlichem truck
+      <lb/>erschienen, sie hat viel spottens in unserer nachbarschaft erweckt
+      <lb/>und sind insonderheit die vers die er hinden daran gesetzt ärger<pc type="hyphenation">=</pc><lb break="no"/>lich und einem gespräch, daß auf ein theatrum gehörte gleich.
+      <lb/>Wan ich sie be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> der hand hätte, wolte ich dir einen außzug daraus
+      <lb/>senden, woraus du wurdest sehen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, daß man zu <rs type="place" key="place_GEO-2661604">Basel</rs>
+      <lb/>nunmehro tüchtig se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e alles zu thun; welches sich auch er<pc type="hyphenation">=</pc><lb break="no"/>zeiget in letster bestellung eines helfers zu <abbr>St.</abbr> Peter an Herren
+      <lb/><rs key="pers_DE-588-1089801718" type="person">Hubers</rs> <abbr>sel.</abbr> platz. Als die <abbr>HH.</abbr> <rs type="person">Capitulares</rs> die wahl machen wolten<supplied>,</supplied>
+      <lb/>haben <abbr>H.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-12209025X" type="person">Werenf.</rs><supplied>,</supplied> <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">Battier</rs> und <abbr>H.</abbr> <abbr>Pf.</abbr> <rs type="person">Gernler</rs> entdeckt,
+<pb facs="1039708" n="2"/>
+      <lb/>daß von dem <rs type="person">Obristen</rs> <abbr>Pf.</abbr> und seinem anhang, welche der <rs type="person">Rippel</rs>
+      <lb/>von <rs type="place">Leüfelfingen</rs>, der<note type="editorial">Abbreviatur für «der».</note> doch den <abbr>Pf.</abbr> <rs type="person">Gernler</rs> zuwi<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> war, hineinbringen
+      <lb/>wolten, eine partie se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e geschmiedet worden, daß man namlich
+      <lb/>den <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">Wer.</rs><supplied>,</supplied> <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">B.</rs> und <abbr>H.</abbr> <abbr>Pf.</abbr> <rs type="person">Gernl.</rs> wolle hinaustreiben,
+      <lb/>indem sie sich vorgesetzt den <rs type="person">Falckeisen</rs> und <rs type="person">Seiler</rs> zugleich in
+      <lb/>die wahl zu ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, die es doch nicht verlangt. Die <abbr>HH.</abbr> <abbr>D.<hi rend="sup">res</hi></abbr> aber
+      <lb/>haben <del><gap/></del>sich sehr widersetzt und wird <abbr>H.</abbr> <abbr>Dris<supplied>.</supplied></abbr> <rs type="person">W.</rs> standhaftigkeit
+      <lb/>in diesem fahl sehr gelobt, sie haben protestiert, daß sie nicht
+      <lb/>abtretten wollen, wan man leüt in die wahl ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e, die es nicht
+      <lb/>verlangen, die anderen ihrerseits haben souteniert, es se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> ihnen
+      <lb/>erlaubt darein zu ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, wen sie wollen, darauf sie ohnverrichter
+      <lb/>sachen von einander geschieden. Als die sach für raht ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, hat
+      <lb/>es geheissen, man solle den <rs type="person">capitularibus</rs> die <rs type="person"><choice><abbr>rahtsHH.</abbr><expan>rahtsherren</expan></choice></rs> aus der ge<pc type="hyphenation">=</pc><lb break="no"/>mein zugeben und solle die wahl selben tag auf dem Rhathaus
+      <lb/>vorgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en werden, es ist auch geschehen ohne daß die <rs type="person">capitulares</rs>
+      <lb/>haben wollen darbe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, und ist <abbr>H.</abbr> <rs type="person">Bruckner</rs>, <abbr>H.</abbr> <abbr>R.</abbr> <rs type="person">Wetst.</rs> und
+      <lb/><abbr>H.</abbr> <rs type="person">Rippel</rs> in die wahl ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, nachdem solche ihre probpredigten
+      <lb/>abgelegten<supplied>,</supplied> ist die haubtwahl und auf dem Rhathaus von vorigen,
+      <lb/>zu denen man aber noch die Professores und Doctores aus der
+      <lb/>gemein gefüget, vorgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en worden, die <rs type="person">capitulares</rs> aber haben
+      <lb/>sich auch eingestellt, welches <choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> anderen concept wüst verruckt und
+      <lb/>ist <abbr>H.</abbr> <rs type="person">Bruckner</rs> mit 15 gegen 14 sti<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en erwehlt worden, so daß <abbr>H.</abbr>
+      <lb/><rs type="person">Rudolf</rs> keine beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. Es ist also dem <abbr>H.</abbr> <abbr>Burgerm.</abbr> <abbr>zunftm.<hi rend="sup">r</hi></abbr> und
+      <lb/>Archibonzo eine entsetzliche nasen geträhet worden. An <abbr>H.</abbr> <rs type="person">Bruck<pc type="hyphenation">=</pc><lb break="no"/>ners</rs> stell ist hernach <abbr>H.</abbr> <rs type="person">Märckt</rs> befürdert worden.</p>
+  <p><abbr>H.</abbr> <rs type="person">Raillard</rs> hat mir vor etlichen wochen vorgestellet, <abbr>H.</abbr> <abbr>D.</abbr>
+      <lb/><rs key="pers_DE-588-115235079X" type="person">Battier</rs> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e willens ihn und mich in die <rs type="organisation">Facultet</rs> aufne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+      <lb/>zu machen, zu welchem end es nöhtig se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e sich Doctorem cre<pc type="hyphenation">=</pc><lb break="no"/>ieren zu lassen, möchte also wissen, ob ich willens wäre solches zu
+      <lb/>thun; ich gab aber zur antwort, weil es an dem se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e, daß
+<pb facs="1039709" n="3"/>
+      <lb/>ich verreisen werde, so wurde mich die aufne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ung in die <rs type="organisation" key="org_DE-588-2003184-1">fa<pc type="hyphenation">=</pc><lb break="no"/>cultet</rs> nichts nutzen, und se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e ich sonst nicht gesi<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>et als ein
+      <lb/><abbr>D.<hi rend="sup">r</hi></abbr> zu reisen, ich hab den titul vorhin nicht wollen a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, da du
+      <lb/>mich darzu habest antreiben wollen. Ich hab ihm vorgestellet er
+      <lb/>kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e es allein thun, bezeügte mir aber, er hätte mich gern
+      <lb/>zum gespang, ich bin aber auf meiner antwort beharret. Ich
+      <lb/>glaube also, daß er sich nach <date>Ostern</date> wird Drem<supplied>.</supplied> creieren lassen und
+      <lb/>dan in die <rs type="organisation" key="org_DE-588-2003184-1">Facultet</rs> aufgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en werden, welches ich ihme wohl gö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en
+      <lb/>kan; <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">Wetst.</rs> ist noch wie vorher und <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">B.</rs> wird bald auch
+      <lb/>abtretten, wie es das ansehen hat. Es sind seit etlichen wochen
+      <lb/>3 <foreign xml:lang="lat">Disputationes Juridic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign>, in denen allen ich opponiert, gehalten worden;
+      <lb/><abbr>H.</abbr> <abbr>ViceLohnH.</abbr> <rs type="person">Burckhard</rs> hat <rs type="biblio">de Successionibus ab intestato secund<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>m
+      <lb/>nostra statuta</rs>, <abbr>H.</abbr> <rs type="person" key="pers_DE-588-106521054X">Mentzer</rs> <rs type="biblio">de Remissione mercedis in locatione
+      <lb/>conductione ob damn<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> in fructibus contingens</rs> und <abbr>H.</abbr> <rs key="pers_DE-588-133771261" type="person">Bochat</rs> erst
+      <lb/>gestern <rs type="biblio">de Optimo Principe</rs> sich hören lassen. <abbr>H.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-115235079X" type="person">Battier</rs> als Decan
+      <lb/>hat in seinem compliment an mich extraordinari verbindliche
+      <lb/>wort fallen lassen und wan zu trauen, so will er mir besser
+      <lb/>als ich gemeinet. Ich hofe auf <date>Ostermontag</date> von hier zu
+      <lb/>verreisen, wir werden über <rs type="place" key="place_GEO-2661552">Bern</rs> nach <rs type="place" key="place_GEO-2660646">Genf</rs>, zu <rs type="place" key="place_GEO-2660646">Genf</rs> nicht viel
+      <lb/>über 14 tag bleiben, hernach über <rs type="place" key="place_GEO-2996944">L<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>on</rs> auf <rs type="place" key="place_GEO-3037656">Angers</rs> gegen
+      <lb/><rs type="place">Bretagne</rs> uns verfügen, alwo die <rs type="organisation" key="org_DE-588-1032060-X">neüe Academie</rs> in sehr gu<pc type="hyphenation">=</pc><lb break="no"/>tem stand se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n solle, wan wir daselbst uns werden etwan
+      <lb/>5 o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> 6 monat aufgehalten haben, sind wir willens auf <rs type="place" key="place_GEO-2988507">Paris</rs>
+      <lb/>zu gehen. Ist etwas irgend wo außzurichten, bitte fre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> zu be<pc type="hyphenation">=</pc><lb break="no"/>fehlen und wan du mir schreiben wilt, meine brief nur auf <rs type="place" key="place_GEO-2661604">Basel</rs>
+      <lb/>zu senden. <abbr>H.</abbr> <rs key="pers_DE-588-1089870078" type="person">Tonjola</rs> ist nicht willens etwas dergleichen anzu<pc type="hyphenation">=</pc><lb break="no"/>ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, wie du gemeldet und wüste ich hier niemand der darzu
+      <lb/>tüchtig wäre. Es wurde auch einer nicht gut se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, wan er
+      <lb/>die manier zu procedieren im <rs type="place">Reich</rs> nicht weisst.</p> <closer>Lebe allezeit
+      <lb/>wohl und se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e versicheret, daß du noch allezeit das hertz be<pc type="hyphenation">=</pc><lb break="no"/>sitzest
+      <lb/>Deines getreüen <signed>F<supplied>.</supplied> Christ.</signed>
+        <dateline><rs type="place" key="place_GEO-2661604">Basel</rs><supplied>,</supplied> den <date when="1717-03-13">13 Mertz 1717.</date></dateline>  <note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1717-03-29">29</date>.<hi rend="sup">ten</hi></note>
+<pb facs="1039710" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Bernoulli</addrLine>
+      <addrLine>Professeur aux Matematiques</addrLine>
+      <addrLine>A Padoue.</addrLine>
+    </address></closer>
+</div>
+
+<div type="translation" xml:id="B_991170517063805501_trans_en" xml:lang="en" status="unreviewed">
+<p><pb facs="1039707" n="1"/> Dearest friend,</p>
+<p>I was very glad to see from your letter how you have come to terms with your misfortune and patiently accepted the cross sent to you by God’s providence. I wish from my heart that you may find true contentment in all you do. But I am sorry that you must live among people with whom you cannot form a real friendship. It is one of the things I had, as it were, foreseen: your frank and unaffected manner would not fit well with the Italian way. One must adapt to everything, and in the end something useful can be drawn from it all. I do doubt, however, whether this is true of the pedants you tell me about, or whether anything can be learnt from them. Perhaps they make one all the more resolute in pursuing one’s studies on a sound foundation, and they can also illustrate the vanity of human conduct.</p>
+<p>Mr Lindenmeyer would doubtless fit in well among them. The sermon I mentioned has appeared in print. It has been much ridiculed in our neighbourhood, and the verses he placed at the end are particularly offensive and resemble a dialogue that belongs on a stage. If I had it to hand, I would send you an extract, from which you could see that people in Basel are now capable of anything. This is also evident from the recent appointment of an assistant pastor at St Peter’s in place of the late Mr Huber. When the members of the chapter were about to make their choice, Dr Werenfels, Dr Battier and Pastor Gernler discovered <pb facs="1039708" n="2"/> that the chief pastor and his supporters, who wanted to install Rippel from Läufelfingen despite Pastor Gernler’s opposition to him, had formed a faction. Their plan was to force Dr Werenfels, Dr Battier and Pastor Gernler to withdraw by putting Falckeisen and Seiler into the election at the same time, although those men had not sought it. The doctors resisted vigorously, and Dr Werenfels’s steadfastness in this affair is much praised. They protested that they would not withdraw if people were put up for election who had not asked for it. The others maintained that they were entitled to nominate whomever they wished, and the meeting broke up without a decision.</p>
+<p>When the matter came before the Council, it was decided that the councillors from the parish should be added to the chapter members and that the election should take place at the town hall that same day. This was done, although the chapter members refused to attend. Mr Bruckner, Mr Rudolf Wettstein and Mr Rippel were nominated. After they had delivered their trial sermons, the final election was again held at the town hall by the previous electors, to whom the professors and doctors from the parish had now been added. This time the chapter members also appeared, thoroughly upsetting the others’ plans. Mr Bruckner was elected by fifteen votes to fourteen, so that Mr Rudolf received none. Thus the burgomaster, the guild master and the ‹arch-bonze› suffered a crushing rebuff. Afterwards Mr Märckt was promoted to Mr Bruckner’s place.</p>
+<p>A few weeks ago Mr Raillard told me that Dr Battier intended to have him and me admitted to the faculty. For this purpose it would be necessary to obtain a doctorate, and he therefore wished to know whether I was willing to do so. I replied, however, that since <pb facs="1039709" n="3"/> I was about to travel, admission to the faculty would be of no use to me, and that I had no intention of travelling as a doctor. I had not wanted to accept the title before, when you tried to urge me to do so. I told him he could do it alone. He said that he would like me as his companion, but I stood by my answer. I therefore believe that he will obtain his doctorate after Easter and then be admitted to the faculty, and I wish him well in it. Dr Wettstein’s situation is unchanged, and Dr Battier too will apparently step down soon.</p>
+<p>Over the past few weeks three legal disputations have been held, in all of which I acted as an opponent. Mr Burckhardt, the deputy Lohnherr, spoke on intestate succession according to our statutes; Mr Mentzer on remission of rent in a lease because of damage to the crops; and Mr Bochat, just yesterday, on the best ruler. Speaking to me as dean, Dr Battier was extraordinarily gracious. If his words can be trusted, he is better disposed towards me than I thought.</p>
+<p>I hope to leave here on Easter Monday. We shall go through Bern to Geneva, stay there little more than a fortnight, and then travel by way of Lyon to Angers towards Brittany, where the new academy is said to be flourishing. After spending some five or six months there, we intend to go to Paris. If there is anything I can do for you along the way, please ask freely. If you wish to write, simply address your letters to me in Basel. Mr Tonjola has no intention of accepting anything of the kind you mentioned, and I know no one here suited to it. Anyone taking it on would need to know the legal procedures used in the Empire.</p>
+<p>Keep well, and be assured that you still hold the heart of
+<lb type="forced"/>your faithful F. Christ.
+<lb type="forced"/>Basel, 13 March 1717.</p>
+<p><pb facs="1039710" n="4"/> To Monsieur<lb type="forced"/>Monsieur Bernoulli,<lb type="forced"/>Professor of Mathematics,<lb type="forced"/>at Padua.</p>
+</div>
+</body>
+</text></TEI>

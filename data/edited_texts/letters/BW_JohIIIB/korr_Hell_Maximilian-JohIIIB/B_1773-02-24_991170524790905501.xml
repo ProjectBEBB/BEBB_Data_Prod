@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524790905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 24. Februar 1773</title>
+          <title type="alt">1773.02.24: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079635</title>
+          <title type="alt">1773-02-24_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524790905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524790905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128963">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.153-154, 170-174</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524790905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440048105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079635</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>Bl. 170-174: De aequatione temporis von Maximilianus Hell (5 Bl., Ill.)</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1773-02-24">24 Febr. 1773</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1773-02-24">24 Febr. 1773</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524791005501" type="prev"/>
+          <ptr target="B_991170524790805501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell welcomes Johann III Bernoulli's projected German-language Berlin ephemerides under Bode's collaboration and thanks him for publishing Hell's observations and writings in the Recueil pour les astronomes. He recounts how illness complicated his rapid response to Lalande's criticism of his solar-parallax determination and awaits Lexell's further publication. Hell sends a new paper on the equation of time for possible French publication and describes two planned studies: a method for determining latitude and refraction without a graduated quadrant, and an optical investigation of the apparent diameter of the Moon and Sun. He also reports a projected German scientific periodical by Austrian Jesuits, corrects a rumour about an assignment concerning Hungarian waters by explaining his inspection of canal works in Croatia, and hopes Lalande's revised position will settle their dispute.</p>
+
+        <p>Maximilian Hell begrüsst die von Johann III Bernoulli unter Mitarbeit Bodes geplanten deutschsprachigen Berliner Ephemeriden und dankt für die Veröffentlichung seiner Beobachtungen und Schriften im Recueil pour les astronomes. Er berichtet, wie eine Krankheit seine rasche Antwort auf Lalandes Kritik an seiner Bestimmung der Sonnenparallaxe erschwerte, und erwartet eine weitere Veröffentlichung Lexells. Hell sendet eine neue Abhandlung über die Zeitgleichung zur möglichen französischen Veröffentlichung. Er beschreibt zwei geplante Untersuchungen: eine Methode zur Bestimmung der geografischen Breite und der Refraktion ohne graduierten Quadranten sowie eine optische Untersuchung des scheinbaren Durchmessers von Mond und Sonne. Ferner berichtet er über eine geplante deutschsprachige wissenschaftliche Zeitschrift österreichischer Jesuiten, berichtigt ein Gerücht über einen Auftrag zu ungarischen Gewässern durch den Hinweis auf seine Begutachtung von Kanalarbeiten in Kroatien und hofft, Lalandes geänderte Haltung werde ihren Streit beenden.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-22" who="SG FN">Kollationieren abgeschlossen.</change>
+        <change when="2026-09-21" who="SG FN">Kollationieren weitergeführt.</change>
+        <change when="2026-09-01" who="SG FN">Kollationieren weitergeführt.</change>
+        <change when="2026-08-28" who="SG FN">Kollationieren weitergeführt.</change>
+        <change when="2026-08-27" who="SG">NER</change>
+        <change when="2026-08-27" who="SG">Beilage Bl. 170–174 anhand der Originaldigitalisate transkribiert, diplomatisch ausgezeichnet und als edierter Anhang integriert.</change>
+        <change when="2026-08-27" who="SG FN">Kollationieren begonnen.</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-27" who="SG">Maschinell transkribiert.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529538/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+<pb facs="3529539" n="153r"/>
+<opener rend="center"><salute rend="center">
+<lb/>Illustri, ac celeberrimo Domino Domino
+<lb/><rs key="pers_DE-588-116170654" type="person">Bernoullio</rs> Astronomo longe profundissimo.
+<lb/><rs key="pers_DE-588-119502208" type="person">Maximilianus Hell</rs> <abbr>S. J.</abbr> <abbr>S. P. D.</abbr>
+</salute></opener>
+<p><lb/>Plurimis occupato veniam dabis Vir Illustris, ac Celeberrime, quod serius, ac
+<lb/>debebam ad <rs type="letter">perhumanas Tuas die <date when="1772-12-08">8 <abbr>Decemb.</abbr></date> ad me datas litteras</rs> respondeam.
+<lb/>Plurimum me Tibi devinctum reddidisti promissis Tuis benevolentissimis, quibus me
+<lb/>certiorem reddere dignatus es, descriptiones observatoriorum nostrorum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me
+<lb/>Tibi transmissas, in secundo Tuo <rs type="biblio">litterarum Astronomicarum volumine</rs> inseren<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>das. Gaudeo, et <rs key="place_GEO-2950159" type="place">Berolini</rs> <rs type="biblio">Ephemerides astronomicas</rs> edendas, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sine dubio cum
+<lb/>c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teris de palma certabunt, nostras quod attinet, cum hasce non sponte mea, sed
+<lb/>jussu Augustorum edere debeam, tantum abest, ut <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mulatione invidiosa tangar,
+<lb/>ut potius gaudeam, si hisce calculis Astronomia incrementum aliquod accipiat,
+<lb/>et accipiet sine dubio, cum <rs type="biblio">Ephemerides h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Berolinenses</rs> sub Tua Vir Illustris
+<lb/>Directione proditur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sint, cumque idiomate germanico comparebunt, haud dubie
+  <lb/>plurimis, qui <choice><sic>latium</sic><corr>latinum</corr></choice>, aut gallicum, aut anglicum ignorant sermonem, acceptissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>erunt per <rs key="place_KON-deutsch" type="place">Germaniam</rs>. Dominum <rs key="pers_DE-588-116215372" type="person">Bode</rs>, quocum <rs key="place_GEO-2911298" type="place">Hamburgi</rs> coram egeram, ad
+<lb/>supputandos Calculos evocatum, multum gratulor, egregie jam exercitatum esse,
+<lb/><rs type="biblio">opuscula</rs> ejus testantur, persuasus etiam sum, eundem diligentissimum fore obser<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>vatorem.
+</p>
+<p>
+  <lb/>Non sine dolore intellexi, <choice><orig>TE</orig><reg>Te</reg></choice> <date>anno priore</date> infirma valetudine afflictum fuisse, ut
+<lb/>meliore causa astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> utaris, ex animo opto, ego quoque <date>anno priore</date> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> medio
+<lb/><date>februario</date> ad finem fere Juli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> cum gravissima conflictatus sum infirmitate adeo,
+<lb/>ut pene omnis laboris incapax fuerim, et in his valetudinis me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pessimis cir<pc type="hyphenation">-</pc><lb break="no"/>cumstanti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s, sub finem <date>Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> mensis</date>, injuriosum mihi <rs key="pers_DE-588-104234059" type="person"><abbr>Cel<hi rend="sup">mi</hi></abbr> <abbr>D.</abbr> de la Lande</rs> <rs type="biblio">Memoire</rs>
+<lb/>redditum erat, inde coni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>cies, quo animo hanc acceperim <rs type="biblio">dissertationem</rs>, maxime cum
+<lb/>dilationem <rs type="biblio">responsi mei</rs>, fam<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> maxim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> nocituram intelligerem, collectis ergo
+<lb/>omnibus meis viribus solus, et unicus, ea tandem confeci, et quidem intra 24 hebdomadas
+<pb facs="3529540" n="153v"/>
+<lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in <rs type="biblio">dissertatione mea de Parallaxi solis</rs> publico proposui, supersedissem equidem
+<lb/>huic labori, et ne quidem Verbo dignatus fuissem iniquum aggressorem, si is alter,
+<lb/>quiscunque fuisset, sed Nomen <rs key="pers_DE-588-104234059" type="person">De la Landi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> tant<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est apud nonnullos Astronomos
+<lb/>Authoritatis, ut effata ejus, pro effatis omnium Astronomorum censeantur, et ab
+<lb/>hoc condemnari quempiam, perinde habent, ac ab universo Orbe astronomico con<pc type="hyphenation">-</pc><lb break="no"/>demnatum esse, necessarium ergo <del><gap/></del><add>e</add>rat maxim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> meum responsum, et quidem promptis<pc type="hyphenation">-</pc><lb break="no"/>simum.
+</p>
+<p>
+  <lb/><rs type="organisation">Petropolitanus Academicus</rs> <rs key="pers_DE-588-100189180" type="person"><abbr>Cel.</abbr> <abbr>D.</abbr> Lexell</rs> <rs type="biblio">dissertationem meam</rs> haud <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quo accepit animo
+<lb/>nempe et is adversarius me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> observationis, et Patronus <rs key="place_GEO-654899" type="place">Cajaneburgensis</rs> erat quem<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>admodum ex opere <rs type="biblio">Collectionis Petropolitan<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> manifestum est, promisit is se <rs type="biblio">novum
+<lb/>de Parallaxi solis editurum opus</rs>, quod magno cum desiderio exspecto.
+</p>
+<p>
+  <lb/>Pro pretioso dono, mihique utilissimo <rs type="biblio">operis Tui excellentissimi Recueil pour les astronomes,
+<lb/><abbr>Tom.</abbr> II</rs><choice><orig>.</orig><reg>,</reg></choice> summas Tibi habes gratias, partem mearum <rs type="letter">litterarum de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione
+<lb/>temporis huic insertam grato vidi animo, cumque continuationem harum mea<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rum litterarum</rs> promissam intellexissem, illico me accinxi ad conscribenda ea<del><gap/></del> de
+<lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione temporis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Tibi Vir Illustris hic in charta seorsiva co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unico; sunt
+<lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c fere eadem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs key="place_GEO-2820860" type="place">Göttingam</rs> ad <rs key="pers_DE-588-118714570" type="person"><abbr>Cel.</abbr> Kaestnerum</rs> perscripseram, tanquam responsa
+<lb/>ad ea, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in <rs type="biblio">Actis Societatis Göttingensis Tomo I. editionis II<hi rend="sup">d<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> Anni <date when="1747">1771</date></rs>
+<lb/>habentur; optarem itaque, si <rs type="biblio">scriptum</rs> hoc meum, aut ejus comp<choice><orig><g ref="#en">ē</g></orig><reg>en</reg></choice>dium locum
+<lb/>habere possit in <rs type="biblio">Tertio Tuo Tomolo Recueil pour les Astronomes</rs>, gallico reddi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tum sermone, loco continuationis me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> illius antiqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="letter">Epistol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione
+<lb/>temporis <choice><orig>TEcum</orig><reg>Tecum</reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, nondum enim decrevi, num <rs type="biblio">dissertationem aliquam
+<lb/>ampliorem de hac materia</rs> <rs type="biblio">Ephemeridibus meis anni sequentis</rs> inserturus sum;
+<lb/>quam etsi <rs type="biblio">Ephemeridibus</rs> adi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>cerem, non tamen publico ingratum futurum arbitr<unclear reason="illegible">o</unclear>r
+<lb/>si <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <choice><orig>TE</orig><reg>Te</reg></choice> quoque in <rs type="biblio">Excellente Tuo <rs type="biblio">opere</rs></rs> communicatum fuerit.
+</p>
+ <p>
+   <lb/>Nos hic <rs key="place_GEO-2761369" type="place">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> anno hoc currente <rs type="biblio">opusculum</rs> meditamur novum per modum Actorum
+<lb/>alicujus societatis scientiarum idiomate germanico, continens Dissertationes breviores
+<lb/>variorum in scienti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s materiarum<del>,</del> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Viris <rs key="org_DE-588-80092-2" type="organisation">Ordinis nostri</rs>, et quidem tantum <rs type="organisation">Provinci<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Austriac<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> meditatas. Inter materias Astronomicas habebuntur et bin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> dissertationes una <rs type="biblio">de Methodo Astronomica</rs> <quote><hi rend="u">&quot;Sine usu Quadrantis, aut Sectoris, aut
+<lb/>alterius instrumenti in gradus circuli divisi, item sine notitia refractionis, ope solius
+<lb/>tubi micrometro filari singula secunda indicante instructi, et in apto ad hunc usum fulcro
+<lb/>aliquo mobili applicati, Elevationem Poli cujusvis loci in continente siti accuratissimam
+<lb/>definire</hi></quote>. Solutio hujus paradoxi Problematis, fundamentum est illius, quod in
+<pb facs="3529541" n="154r"/>
+<lb/>in Transitu Veneris proposueram ope Quadrantis erronei, Quadrans enim erroneus
+<lb/>respectu resoluti Problematis perinde se habet, ut merum fulcrum, si loco altitudinum
+<lb/>ope Quadrantis dimensarum, substituantur sol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> differenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> altitudinum ope tubi
+<lb/>captarum. Solutio hujus Problematis, et elegans est, et usus amplissimi, non solum
+<lb/>pro definienda Elevatione Poli accuratissima, sed etiam pro indaganda refractione,
+<lb/>et examinando <rs type="biblio">Catalogo fixarum</rs> spectando declinationes.
+</p>
+<p>
+<lb/>Alterum meum <rs type="biblio">scriptum</rs> est de diametro apparente lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, vel solis oculo inermi, seu libero
+<lb/>spectata, in quo <rs type="biblio">Scripto</rs>, maxime paradoxam demonstro propositionem, scilicet: <quote><hi rend="u">Discum
+<lb/>lun<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> plen<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in distantia media <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Tellure versantis libero oculo <metamark/><add>bene valente</add> spectatam, non
+<lb/>apparere majorem, quam appareat circellus sub diametro 1 <abbr>lin.</abbr> et 37 centesimarum
+<lb/>in distantia unius pedis ab oculo libero positus.</hi></quote> Est ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> hujus Propositionis
+<lb/>Paradox<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tanta utilitas in Astronomia, et optica, ut hac ignorata mihi impossi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>bile fuisset supputare <rs type="biblio">Tabulas diversi effectus Tuborum</rs>, quos in <rs type="biblio">Ephemeridibus meis
+<lb/>Anni <date when="1765">1765</date></rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="biblio"><abbr>pag.</abbr> 287 ad 308</rs> proposueram. Paradoxa h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c propositio continetur
+<lb/>in supposito VII ibidem <abbr>pag.</abbr> 283 proposito, ubi consulto mysterium hoc tecte edixeram:
+<lb/>ajo scilicet ibidem: <quote><hi rend="u">Experientia constat diametrum apparentem solis, per tubum cujus
+      <lb/>augmentum est <choice><orig>54<hi rend="sup u">es</hi></orig><reg>54<hi rend="sup">es</hi></reg></choice> non majorem apparere, quam appareat discus aliquis in distan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tia unius pedis ab oculo inermi, cujus diameter est 9 digitorum <rs key="place_GEO-2761369" type="place">Viennensium</rs></hi></quote>. <choice><orig>ajo</orig><reg>Ajo</reg></choice>
+  <lb/>ergo discum apparentem solis sub diametro 9 digitorum inferre augmentum tubi <choice><orig>54<hi rend="sup u">es</hi></orig><reg>54<hi rend="sup">es</hi></reg></choice>
+  <lb/>ergo inermi oculo diameter solis apparere debet <formula>\frac{9}{54}^{\mathrm{dig.}}=\frac{108}{54}^{\mathrm{lin.}}</formula> hoc est, sub diametro
+<lb/><measure>2 linearum</measure>; reipsa autem diameter solis perig<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>i apparet libero oculo tantum sub
+  <lb/>diametro <formula>1\frac{1}{2}</formula> line<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>; adeoque tubo augente <choice><orig>54<hi rend="sup u">es</hi></orig><reg>54<hi rend="sup">es</hi></reg></choice> apparere tantum debet 7 <abbr>digit.</abbr> et non
+<lb/>9 digitos, assumpsi autem in h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c supposito VII consulto diametrum solis 2 linearum,
+<lb/>majorem scilicet ver<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>, propter alias causas physicas opticas, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> inter observandum
+<lb/>occurrere solent. Si celeberrimum <rs key="pers_DE-588-116472448" type="person"><abbr>D.</abbr> Castilioneum</rs> Parentem junioris <rs key="pers_DE-588-11647243X" type="person">Castilionei</rs>
+<lb/>conveneris impertita <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me plurima salute, ab eodem intelligas, quid hac in
+<lb/>materia annis abhinc aliquot, me inter et illum per <rs type="letter">litteras</rs> actum sit.
+</p>
+<p>
+ <lb/><choice><orig>falsus</orig><reg>Falsus</reg></choice> erat rumor <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> novalistis sparsus, novum mihi circa aquas <rs type="place" key="place_VER-ungarn">Ungaria<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person">Sua
+<lb/>Majestate</rs> impositum fuisse officium, quod sine dubio cum laboribus meis astronomicis
+<pb facs="3529542" n="154v"/>
+<lb/>componi non potuisset; causa rumoris hujus falsi iter erat meum in <rs key="place_VER-kroati" type="place">Croatiam</rs>
+<lb/>ad inspiciendos labores novi <rs type="place">Canalis</rs> super terribilem <rs key="place_GEW-kupafl" type="place">Cataractam fluvi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <hi rend="u">Culpa</hi></rs>
+<lb/>dicti, de quo mea petebatur sententia.
+</p>
+<p>
+  <lb/>Scriptum mihi est <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="pers_DE-588-117542644" type="person"><abbr>P.</abbr> nostro Mayer</rs> Astronomo <rs key="pers_DE-588-118560190" type="person">Electoris Palatini</rs>, <rs type="letter">litteras</rs> quasdam
+<lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="pers_DE-588-104234059" type="person"><abbr>Cel.</abbr> <abbr>D.</abbr> de la Lande</rs> scriptas, insertas haberi in <rs type="biblio">Journal des Sçavans</rs> ad <date when="1773-02">Mensem
+  <lb/>februarium hujus anni</date>, in quibus <rs key="pers_DE-588-104234059" type="person"><choice><orig><abbr>Cel<hi rend="sup u">mus</hi></abbr></orig><reg><abbr>Cel<hi rend="sup">mus</hi></abbr></reg></choice> de la Lande</rs> circa quantitatem Paralla<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>xeos Solis me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> accedit determinationi, si ita est, gaudeo, controversiam nostram
+  <lb/>hoc modo amic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> compositam; fateor, summe mihi doluisse, quod <choice><orig><abbr>Cel<hi rend="sup u">mus</hi></abbr></orig><reg><abbr>Cel<hi rend="sup">mus</hi></abbr></reg></choice> <rs key="pers_DE-588-104234059" type="person">de l<unclear reason="binding">a</unclear>
+<lb/>Lande</rs>, cujus amicitia mihi maxime pretiosa erat, per injurium mihi suum
+<lb/><rs type="biblio">Memoire</rs> me ad ejusmodi defensionem coëgerit, qua et <rs key="place_GEO-654899" type="place">Cajaneburgensem</rs> Obser<pc type="hyphenation">-</pc><lb break="no"/>vationem, et determinationem ejus Parallaxeos erroneam demonstrare debue<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ram, de quibus alias altum fortassis tenuissem silentium.
+</p>
+<p>
+  <lb/>Si <rs type="letter">literas</rs> Patris <rs key="pers_DE-588-128740620" type="person">Hallerstein</rs> <rs key="place_GEO-1816670" type="place">Pekinenses</rs>, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicatas, descriptas jam habes, au<unclear reason="binding">to<pc type="hyphenation">-</pc></unclear>
+<lb break="no"/>graphum, mihi benevole remittendum oro. Vale Vir Illustris, ac Celeberrime et
+<lb/>Astronomiam excellentissimis Tuis operibus illustrare, augere, promovere perge<unclear reason="binding">.</unclear></p>
+<closer><salute><lb/>Vale iterum et me Tui amantem redamare dignare.
+</salute><dateline><lb/><choice><orig>dabam</orig><reg>Dabam</reg></choice> <rs key="place_GEO-2761369" type="place">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1773-02-24">24 <abbr>febr.</abbr> 1773</date>.</dateline></closer>
+</div>
+    </body>
+    <back>
+      <div type="attachment">
+        <div type="editorialNote">
+          <p>Beilage von Maximilian Hell über die Zeitgleichung, Bl. 170–174, mit vier geometrisch-astronomischen Diagrammen.</p>
+        </div>
+        <div type="attachment_text">
+          <pb facs="3529543" n="170r"/>
+
+          <head rend="center">
+            <lb/><hi rend="u">De <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione Temporis.</hi>
+            <lb/><hi rend="u"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Patre <rs key="pers_DE-588-119502208" type="person">Maximiliano Hell</rs> <abbr>S. J.</abbr></hi>
+          </head>
+          <p>
+            <lb/>Dum Anno <date when="1770">1770</date> ex itinere Arctico redux, <rs key="place_GEO-2918632" type="place">Göttingam</rs> inviserem, inter erudita cum <abbr>Cel<supplied>.</supplied><hi rend="sup u">mo</hi></abbr>
+            <lb/>Domino <rs key="pers_DE-588-118714570" type="person">Kästnero</rs> colloquia, mentione facta de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione Temporis, Eidem <rs key="pers_DE-588-118714570" type="person"><abbr>C<supplied>.</supplied><hi rend="sup u">mo</hi></abbr> Kästnero</rs>
+            <lb/>asserueram, argumenta <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Cel<supplied>.</supplied><hi rend="sup u">mo</hi></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-104234059" type="person">de la Lande</rs> contra doctrinam <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>
+            <lb/>de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione temporis, tam in <rs type="biblio">Actis <abbr>Ill.</abbr> Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum Parisin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, quam in sua
+            <lb/>excellente <rs type="biblio">Astronomia</rs>, non esse convincentia erroris Domini <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>.</p>
+<p>
+            <lb/>Quapropter <abbr>Cel<supplied>.</supplied><hi rend="sup u">mus</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästnerus</rs> hanc sibi materiam methodo analytica pertractandam, laborem
+            <lb/>non supervacaneum esse professus est. <choice><orig>ita</orig><reg>Ita</reg></choice> enim in notis <rs type="biblio">Actorum <abbr>Ill.</abbr> Societatis Göttin<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>gensis <abbr>Tomo</abbr> I. editionis 2<hi rend="sup u">d<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> Anni <date when="1771">1771</date></rs> <abbr>pag.</abbr> 95 mentem suam exposuit: <quote type="long">&quot;<abbr>R. P.</abbr> <rs key="pers_DE-588-119502208" type="person">Hell</rs>
+                <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>post observatum <rs type="biblio">Veneris per Solem transitum <date when="1769">1769</date></rs> rediens, <rs key="place_GEO-2918632" type="place">Götting<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> me invisit, comite
+                <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><abbr>R. P.</abbr> <rs type="person" key="pers_DE-588-119438429">Sajnovics</rs> die <date when="1770-06-15">15 Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1770</date>, ubi inter alia Colloquia professus etiam est, domini
+            <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><rs type="person" key="pers_DE-588-104234059">de la Lande</rs> argumentis persuaderi non potuisse, quod eum in finem addo, ut si recte se
+                <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>habeat, quam edo, demonstratio, eam non supervacuam esse intelligatur.</quote> Idem fere scri<pc type="hyphenation">-</pc><lb break="no"/>psit Anno <date when="1772">1772</date> in excellente suo opere <rs type="biblio">Astronomische Abhandlungen</rs>, <abbr>pag.</abbr> 295.
+            <lb/><quote>Er <said>(<abbr>Hr:</abbr> <rs type="person" key="pers_DE-588-104234059">de la Lande</rs>)</said> hat aber seine schlüsse nur auf ein Exempl angewandt, nicht
+            <lb/>allgemein außgedrukt, daher auch manche Astronomen nicht überzeügt, unter denen
+            <lb/>sich auch der <abbr>P.</abbr> <rs type="person" key="pers_DE-588-119502208">Hell</rs> befindet.</quote></p>
+            <p><lb/>Eundem fere in sensum eandem meam sententiam <abbr>Cel<supplied>.</supplied><hi rend="sup u">mus</hi></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-116170654" type="person">Bernoullius</rs> referre dignatus
+            <lb/>est in suo excellente opere <rs type="biblio">Recueil pour les Astronomes <abbr>Tomo</abbr> II</rs>, cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> partem <rs type="letter">mearum
+            <lb/>litterarum</rs> ad Eundem <abbr>Cel.</abbr> <rs type="person" key="pers_DE-588-116170654">Bernoullium</rs> datarum inseruerat.</p>
+            <p><lb/>Mearum igitur partium esse arbitratus sum, mentem meam candide exponere, quid de
+            <lb/>ratiocini<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s <abbr>cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <abbr>D.</abbr> <rs type="person" key="pers_DE-588-104234059">de la Lande</rs>, Domini <rs type="person" key="pers_DE-588-118903217">Maskelyne</rs>, et <abbr>cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-118714570">Kästneri</rs> sentiam, et qua<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nam demonstratione <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me excogitata, erroris Sectatores sententi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-119174596">de la Caille</rs>
+            <lb/>convinci posse censeam; convictum itaque me fateor, doctrinam <abbr>C.</abbr> <rs type="person" key="pers_DE-588-119174596">Dela Caille</rs> de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tione temporis esse erroneam, sed un<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> assero, non argumentis <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-104234059">de la Lande</rs>, non
+            <lb/>ratiocini<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <abbr>D.</abbr> <rs type="person" key="pers_DE-588-118903217">Maskelyne</rs>, non formulis analyticis <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-118714570">Kästneri</rs> in <rs type="biblio">Actis
+            <lb/>Societatis Göttingensis</rs>, et in opere suo <rs type="biblio">Astronomische Abhandlungen</rs> propositis, verum
+            <lb/>propri<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s meis inductum ratiocini<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hoc suo loco relaturus sum, postquam ante osten<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>dero, formulas <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-118714570">Kästneri</rs>, atque adeo et demonstrationes <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs type="person" key="pers_DE-588-104234059">de la Lande</rs>, et <abbr>cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr>
+            <lb/><abbr>D.</abbr> <rs type="person" key="pers_DE-588-118903217">Maskelyne</rs> <hi rend="u">supposito</hi> laborare, quod <hi rend="u">suppositum</hi> Sectatores De la Cailliani negant.
+</p>
+<p>
+            <lb/>Sectatores igitur de la Cailliani ajunt: <quote rend="unmarked"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ri<said>, (<abbr><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice></abbr>)</said> <hi rend="u">pro ipso momento culmi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nationis Solis Veri</hi>, et quidem in tempore medio, negant proinde <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis esse:
+            <lb/><hi rend="u">differentiam temporis inter culminationem Solis Veri, et ficti in eodem meridiano</hi></quote><supplied>,</supplied> nam ajunt:
+  <pb facs="3529544" n="170v"/>
+
+
+
+
+            <lb/><quote rend="unmarked">Si <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio temporis est differentia temporis inter culminationem Solis Veri, et ficti in eodem
+            <lb/>meridiano, tum h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio temporis, non est pro ipso momento culminationis <hi rend="u">Solis Veri</hi>
+            <lb/>sed est, pro momento culminationis <hi rend="u">Solis ficti</hi>, quod non est in qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stione, non enim qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio temporis pro momento culminationis <hi rend="u">Solis ficti</hi>, sed pro momento culminationis
+
+            <lb/><hi rend="u">Solis Veri</hi>.</quote> Sectatores itaque De la Cailliani <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis considerant, tan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>quam <hi rend="u">accelerationem</hi>, vel <hi rend="u">retardationem</hi> culminationis <hi rend="u">Solis Veri</hi> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <hi rend="u">sole ficto</hi> per<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>inde, ut accelerationem fixarum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> motu Solis medio. Est autem certissimum, aliam
+            <lb/>esse accelerationem fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pro <hi rend="u">momento culminationis fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>, aliam <hi rend="u">pro momento cul<pc type="hyphenation">-</pc><lb break="no"/>minationis Solis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, seu ficti</hi>. <choice><orig>ajunt</orig><reg>Ajunt</reg></choice> <abbr><subst><del><gap/></del><add>e</add></subst>x<choice><orig>:</orig><reg>.</reg></choice> Gr<choice><orig>:</orig><reg>.</reg></choice></abbr> in figura I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> dum fixa <formula>b</formula> est in Meri<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>diano, accelerationem ejus mensurat arcus <formula>a</formula>, <formula>b</formula>, inter solem medium <formula>a</formula> et fixam <formula>b</formula>
+            <lb/>interceptus, dum ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> Sol medius <formula>a</formula> appellit ad meridianum acceleratio fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>b</formula>, non
+  <lb/>erit arcus <choice><orig><formula>a, b</formula></orig><reg><formula>ab</formula></reg></choice>, sed arcus <choice><orig><formula>b, c</formula></orig><reg><formula>bc</formula></reg></choice>, quia interea dum arcus <choice><orig><formula>a, b</formula></orig><reg><formula>ab</formula></reg></choice>, transit meridianum, Sol
+            <lb/>medius ex <formula>a</formula> movetur in <formula>c</formula>, adeoque cum puncto <formula>c</formula>, pervenit ad Meridianum, est ergo
+            <lb/>alia acceleratio pro momento culminationis fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, alia pro momento culminationis
+            <lb/>Solis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <subst><del>f</del><add>s</add></subst>eu ficti respectu fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>; eodem modo discurrunt de <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione temporis, seu
+            <lb/>de acceleratione Solis Veri pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> medio seu ficto, dicuntque, aliam esse accelerationem, seu
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis pro <hi rend="u">momento culminationis Solis Veri</hi><choice><orig>.</orig><reg>,</reg></choice> aliam pro <hi rend="u">momento cul<pc type="hyphenation">-</pc><lb break="no"/>minationis Solis ficti</hi>. Sint ergo accelerationem fixarum <metamark>+</metamark><add>pro momento
+            <lb/>culminationis fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></add> negant esse, (et rect<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice>)
+            <lb/><hi rend="u">differentiam temporis inter culminationem fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, et culminationem Solis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></hi>, sed
+            <lb/>solum, ajunt, esse, arcum interceptum inter fixam, et Solem fictum, qui habetur pro ipso momento
+            <lb/>culminationis fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis, negant esse, differentiam temporis inter culmina<pc type="hyphenation">-</pc><lb break="no"/>tionem Solis Veri, et ficti, sed Solum, ajunt, esse arcum interceptum inter Solem Verum, et fictum,
+            <lb/>qui habetur in <hi rend="u">ipso momento culminationis Solis Veri</hi>, qui certe arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris alius
+            <lb/>est, ab arcu <add><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris</add>, qui transit meridianum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> culminatione Solis <subst><del><gap/></del><add>V</add></subst>eri, ad culminationem Solis
+            <lb/>ficti.
+          </p>
+          <p>
+
+            <lb/>Jam hoc pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>notato, intelligitur, huc demum recidere vim Argumenti, ut Sectatoribus De la
+            <lb/>Caillianis demonstretur: <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis, <add><abbr><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice></abbr></add>, <hi rend="u">pro ipso momento culminationis So<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lis Veri</hi>, non esse aliam, quam illam, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habetur, <abbr><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice></abbr>, <hi rend="u">pro ipso momento culminationis Solis ficti</hi><supplied>.</supplied>
+            <lb/>Nam formula <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs> fundamentalis, ex qua ultimam concludit formulam, hac omni<pc type="hyphenation">-</pc><lb break="no"/>no <hi rend="u">supponit</hi>, quod Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> negant; a<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>t enim <rs type="biblio">§ 12 <abbr>pag.</abbr> 97 <abbr>Tom.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>Actor.</abbr> Göttingensium</rs>
+            <lb/><quote><hi rend="u">Igitur <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> momento Meridiei Ver<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ad momentum, quo Sol fictus appellit ad Meridianum
+            <lb/>pertransit Meridianum arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris</hi> <formula>n+\frac{px}{24}</formula>.</quote> <choice><orig>ajunt</orig><reg>Ajunt</reg></choice> ergo Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, et meo judicio recte,
+            <pb facs="3529545" n="171r"/>
+
+            <lb/>formulam hanc exprimere arcum <add><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris</add>, qui transivit, aut transiturus est per Meridianum <hi rend="u"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> cul<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>minatione Solis Veri ad culminationem Solis ficti</hi>, esse mensuram <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis temporis <hi rend="u">pro
+            <lb/>momento culminationis Solis ficti</hi>, et non <hi rend="u">pro momento culminationis Solis Veri</hi>, quod omni<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>no in qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stione non est; nam pro <hi rend="u">momento culminationis Solis Veri</hi>, temporis mensura
+            <lb/>tantum est arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris interceptus inter Solem Verum et fictum, qui habetur pro ipso mo<pc type="hyphenation">-</pc><lb break="no"/>mento culminationis Solis Veri, quem <abbr>Cel.</abbr> <rs key="pers_DE-588-118714570" type="person">Kästnerus</rs> § 5<hi rend="sup u">to</hi> appellat <formula>n</formula>. <choice><orig>oportet</orig><reg>Oportet</reg></choice> ergo de<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>monstrari: arcum <formula>n</formula>, esse <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalentem arcui <formula>n+\frac{px}{24}</formula> seu <formula>n=n+\frac{px}{24}</formula>, quousque ergo
+            <lb/>non demonstretur arcum <formula>n=n+\frac{px}{24}</formula>, seu quod idem est, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis <hi rend="u">pro mo<pc type="hyphenation">-</pc><lb break="no"/>mento culminationis Solis Veri</hi>, esse prorsus eandem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est, <hi rend="u">pro momento culminationis
+            <lb/>Solis ficti</hi>, tamdiu demonstrationes <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>, <abbr>D.</abbr> <rs key="pers_DE-588-104234059" type="person">De la Lande</rs>, <abbr>D.</abbr> <rs key="pers_DE-588-118903217" type="person">Maskelyne</rs> in
+            <lb/>medium product<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, erroris Dominum <rs key="pers_DE-588-119174596" type="person">de la Caille</rs> non con<subst><del><gap/></del><add>v</add></subst>incunt.
+          </p>
+          <p>
+            <lb/>Im<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> ausim dicere, etiamsi admitteretur, quod tamen Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> non admittunt, quod <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio tempo<pc type="hyphenation">-</pc><lb break="no"/>ris sit <hi rend="u">differentia temporis inter culminationem Solis Veri et ficti</hi>, tamen adhuc formulam
+            <lb/><abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs> pro arcu mensurante <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis <formula>n+\frac{px}{24}</formula> non admitterent. En
+            <lb/>Ratiocinationem illorum: Vide <abbr>fig.</abbr> II et III<choice><orig>.</orig><reg>,</reg></choice> <hi rend="u">posito</hi>, quod etiam <abbr>Cel.</abbr> <rs key="pers_DE-588-118714570" type="person">Kästnerus</rs> ponere debet, et
+            <lb/>reipsa etiam sic se habet in natura, dum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio temporis maxima habetur, posito inquam
+            <lb/>quod intra 24 horas temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> arcus <choice><orig><formula>V,M</formula></orig><reg>VM</reg></choice>, <abbr>fig.</abbr> II<supplied>,</supplied> inter Solem Verum <formula>V</formula>, et fictum <formula>M</formula>
+            <lb/>interceptus, <hi rend="u">invariatus</hi> maneat, hoc est, quod intra unam revolutionem diurnam <hi rend="u">accessus</hi>
+            <lb/>vel <hi rend="u">recessus</hi> Solis veri <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> ficto sit pene insensibilis, ut hoc anno currente evenit inter diem
+            <lb/><date from="1773-11-01" to="1773-11-02">1 et 2<hi rend="sup u">dam</hi> Novembris</date>. <choice><orig>hac</orig><reg>Hac</reg></choice> positione facta ita ratiocinantur Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>: Verum est in <abbr>fig.</abbr>
+            <lb/>II<hi rend="sup">da</hi>, quod dum arcus <choice><orig><formula>M,V=n</formula></orig><reg><formula>MV=n</formula></reg></choice> transit per Meridianum, Sol fictus interea <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> puncto <formula>M</formula>
+            <lb/>moveri pergat ad <formula>x</formula>, cum quo puncto <formula>x</formula> Sol fictus culminabit, adeoque si <formula>Mx</formula> sit <formula>=\frac{px}{24}</formula>
+            <lb/>et <choice><orig><formula>M,V=n</formula></orig><reg><formula>MV=n</formula></reg></choice>, erit <choice><orig><formula>V,x=n+\frac{px}{24}</formula></orig><reg><formula>Vx=n+\frac{px}{24}</formula></reg></choice>. Sed ajunt, cum arcus <formula>MV</formula>, sit <hi rend="u">constans</hi> et <hi rend="u">invariatus</hi>
+            <lb/>ergo eodem <hi rend="u">modo Sol Verus <formula>V</formula></hi>, locum mutat eadem quantitate <formula>\frac{px}{24}</formula> versus orientem, hoc
+            <lb/>est, quantum <hi rend="u">Sol fictus</hi> <formula>M</formula> pro tempore transitus arcus <formula>VM</formula>, <hi rend="u">recedit</hi> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano versus
+            <lb/>orientem, tantundem <hi rend="u">Sol Verus <formula>V</formula></hi> ex parte occidentali Meridiani versans <hi rend="u">accedit</hi> ad eundem Me<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ridianum, adeo, ut dum <hi rend="u">Sol fictus <formula>x</formula></hi>, vide <abbr>fig.</abbr> III<choice><orig>.</orig><reg>,</reg></choice> est in Meridiano, <hi rend="u">Sol verus</hi> <formula>V</formula>, non magis
+            <lb/>distat <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole ficto <formula>x</formula> <hi rend="u">pro momento culminationis Solis ficti</hi>, quam distabat Sol fictus <formula>M</formula><supplied>,</supplied>
+            <lb/>vide <abbr>fig.</abbr> II<choice><orig>.</orig><reg>,</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero, <hi rend="u">pro momento culminationis Solis Veri <formula>V</formula></hi>. <choice><orig>ut</orig><reg>Ut</reg></choice> enim Sol fictus <formula>x</formula><supplied>,</supplied>
+            <lb/><abbr>fig.</abbr> III<choice><orig>.</orig><reg>,</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> puncto <formula>M</formula> pervenit ad <formula>x</formula>, ita eodem tempore Sol Verus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> puncto <formula>Z</formula> pervenit ad <formula>V</formula><choice><orig>.</orig><reg>,</reg></choice>
+            <fw type="catch" place="bottom right">adeoque</fw>
+            <pb facs="3529546" n="171v"/>
+
+            <lb/>adeoque ajunt: quantum Sol fictus <formula>M</formula> auget arcum <formula>n</formula> ex parte orientali Meridiani <hi rend="u">re<pc type="hyphenation">-</pc><lb break="no"/>cedendo</hi>, tantum Sol Verus <formula>V</formula>, minuit eundem arcum <formula>n</formula> ex parte occidentali Meridiani
+            <lb/><hi rend="u">accedendo</hi> ad eundem Meridianum, ita, ut distantia <del><gap/></del>Solis veri, et ficti <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano e<unclear reason="binding">a</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>dem sit pro culminatione Solis ficti, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> fuit pro culminatione Solis Veri, hinc ajun<unclear reason="binding">t:</unclear>
+            <lb/>arcus formul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>, <choice><orig><formula>n,</formula></orig><reg>n</reg></choice> nec major, nec minor efficitur ob motum Solis ficti v<unclear reason="binding">er<pc type="hyphenation">-</pc></unclear>
+            <lb break="no"/><pc type="hyphenation">-</pc>sus orientem, deberet proinde formula Solis ficti. §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 12 = <formula>n+\frac{px}{24}</formula> respectu habito <unclear reason="binding">ad</unclear>
+            <lb/>Solem Verum, sic exprimi, <formula>n+\frac{px}{24}-\frac{px}{24}=n</formula><supplied>,</supplied> quia <formula>\frac{px}{24}</formula><supplied>,</supplied> quod est respectu <hi rend="u">solius</hi> sol<unclear reason="binding">is</unclear>
+            <lb/>ficti <hi rend="u">positivum</hi>, idem <formula>\frac{px}{24}</formula> respectu <hi rend="u">Solis <subst><del>v</del><add>V</add></subst>eri</hi> et <hi rend="u">ficti</hi><choice><orig>,</orig><reg type="deleted"/></choice> evadit <hi rend="u">negativum</hi>.
+          </p>
+          <p>
+            <lb/>Nec dicere juverit: quod <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> culminatione Solis Veri, ad culminationem Solis ficti omnino
+            <lb/>transeat per Meridianum arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris <formula>n+\frac{px}{24}</formula>, nam respondent: Verum quide<unclear reason="binding">m</unclear>
+            <lb/>esse simpliciter loquendo arcum hunc transire, sed hunc arcum nihil facere ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quati<unclear reason="binding">o<pc type="hyphenation">-</pc></unclear>
+            <lb break="no"/><pc type="hyphenation">-</pc>nem temporis, seu hunc arcum <hi rend="u">totalem</hi>, non venire ad calculum computationi<unclear reason="binding">s</unclear>
+            <lb/>temporis, ea de causa (ut supra dictum est) quod quantum Sol fictus suo motu
+            <lb/>versus orientem auget arcum <formula>n</formula>, tantundem eundem arcum <formula>n</formula> Sol Verus suo motu
+            <lb/>itidem versus orientem imminuat, ita, ut semper Verum maneat, inter Solem Verum
+            <lb/>et fictum non intercipi arcum majorem, quam sit <formula>n</formula>, qui fuit pro momento culmin<unclear reason="binding">a<pc type="hyphenation">-</pc></unclear>
+            <lb break="no"/>tionis Solis Veri. Aliter res se haberet, si Sol Verus esset <hi rend="u">fixus</hi>, aut si Sol fictu<unclear reason="binding">s</unclear>
+            <lb/>compareretur cum stella fixa, tum enimver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> formula <formula>n+\frac{px}{24}</formula> vera esset pro mo<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mento culminationis Solis ficti, quia reipsa pro momento culminationis Solis fic<unclear reason="binding">ti</unclear>
+            <lb/>Sol fictus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero fixo, aut <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> stella fixa distaret arcu <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris <formula>n+\frac{px}{24}</formula>, qu<unclear reason="binding">i</unclear>
+            <lb/>in Sole Vero, eodem motu cum Sole ficto, mobili non evenit. Confirmant id modo
+            <lb/>sequente: Si arcus <formula>\frac{px}{24}</formula> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter arcum <formula>n</formula> venire debet in computum calculi <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tionis temporis, tum arcus <formula>n</formula>, converti deberet in tempus in ratione 15° ad 1 horam
+            <lb/>ut docet formula finalis <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs> <rs type="biblio">§ 16<choice><orig>.</orig><reg>,</reg></choice> <abbr>pag.</abbr> 98 <abbr>Actor.</abbr> <abbr>Götting.</abbr> Tomo <choice><orig><g ref="#ndot">.</g></orig><reg/></choice>I<choice><orig>.</orig><reg>,</reg></choice></rs> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est
+            <lb/><formula>x=\frac{n}{15}</formula>. Jam hinc sic argumentantur Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, si datus arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris intercept<unclear reason="binding">us</unclear>
+            <lb/>inter Solem Verum, et fictum converti debet in tempus in ratione 15° ad 1 horam, id<unclear reason="binding">que</unclear>
+            <lb/>tempus, est tempus medium, tum etiam <hi rend="u">invertendo</hi>, datum tempus medium converti
+            <lb/>debet in partes <choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>quatoris in ratione 1 h<subst><del><gap/></del><add>o</add></subst>r<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ad 15°, sed hoc secundum manifest<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> es<unclear reason="binding">t</unclear>
+            <lb/>falsum, ergo et primum.
+            <pb facs="3529547" n="172r"/>
+            <fw place="top center">J.</fw>
+            <lb/>Atque h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c erant mea, suntque etiamnum aliorum quorundam Astronomorum Ratiocinia,
+            <lb/>qui asserunt, Argumentis <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-104234059" type="person">de la Lande</rs>, <abbr>Cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-118903217" type="person">Maskelyne</rs>, atque <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>,
+            <lb/><abbr><choice><sic>cel<supplied>.</supplied><hi rend="sup u">num</hi></sic><corr>cel<supplied>.</supplied><hi rend="sup u">mum</hi></corr></choice></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-119174596" type="person">de la Caille</rs> erroris convictum non esse, neque convinci posse ante, quam de<pc type="hyphenation">-</pc><lb break="no"/>monstretur, arcum <formula>n</formula> (<abbr><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice></abbr><supplied>.</supplied>) pro <hi rend="u">momento culminationis Solis Veri interceptum</hi> inter solem
+            <lb/>verum, et fictum, converti debere in ratione 15° ad 1 horam, quod hactenus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nemine de<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>monstratum esse mihi videtur, idque propterea, quod omnes demonstrationes <hi rend="u">supponant</hi>
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis esse, <hi rend="u">differentiam temporis inter culminationes Solis Veri, et ficti
+            <lb/>in eodem Meridiano</hi>, quod <rs type="biblio">Suppositum</rs> Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> negant, quamdiu ergo non demonstretur
+            <lb/>hoc <hi rend="u">Suppositum</hi>, tamdiu ipsis videtur esse recta doctrina <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <abbr>D.</abbr> <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>. Res
+            <lb/>ergo alio modo est demonstranda, scilicet: excogitanda est demonstratio, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <hi rend="u">directe</hi>, et
+            <lb/>independenter ab hoc <hi rend="u">Supposito</hi> demonstret, arcum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris <formula>n</formula> inter solem Verum, et fictum
+            <lb/>interceptum, et quidem interceptum pro <hi rend="u">ipso momento culminationis Solis Veri</hi>, converti
+            <lb/>debere in ratione 5° ad 1 horam, hoc est <formula>x=\frac{n}{15}</formula>, seu formulam <formula>x=\frac{n}{15}</formula> valere tam pro
+            <lb/>momento culminationis Solis ficti, quam pro momento culminationis Solis Veri, adeoque
+            <lb/><formula>n+\frac{px}{24}</formula> reipsa esse debere formulam pro <hi rend="u">momento culminationis Solis Veri</hi>, quod sine
+            <lb/>assumpto, superius dicto <hi rend="u">Supposito</hi>, ab Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s non concesso, non facile est demonstrare<unclear reason="binding"><choice><orig>;</orig><reg>.</reg></choice></unclear>
+            <lb/>Hinc intelligimus, errantem Virum doctum, uti erat <abbr>Cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>, non esse facile,
+            <lb/>erroris convincere, atque in rectam deduc<subst><del>i</del><add>ere</add></subst> semitam.
+          </p>
+          <p>
+
+            <lb/>En igitur promissam supra demonstrationem meam, qua arbitror, Methodum Domini <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>
+            <lb/><hi rend="u">directe</hi> erroris convinci, quaque demonstratione <hi rend="u">directe</hi> ostenditur, arcum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris
+            <lb/>15° graduum, dare unam horam temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, seu, quod idem est, arcum <formula>n</formula> qui habetur
+            <lb/>pro <hi rend="u">ipso momento culminationis Solis Veri</hi>, converti debere in tempus in ratione 5°
+            <lb/>ad 1 horam, aut si ita velimus, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis pro <hi rend="u">momento culminationis Solis
+            <lb/>Veri</hi>, non esse aliam, quam sit pro <hi rend="u">momento culminationis Solis ficti</hi>, adeoque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nem temporis reipsa esse: <hi rend="u">differentiam temporis inter culminationem Solis veri, et
+            <lb/>ficti</hi>, quod Sectatores de la Cailliani negare solent. Si ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> per hanc meam demon<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>strationem non convincerentur Sectatores de la Cailliani, tum profecto modum
+            <lb/>nullum video, quo in rectam deduci possent viam.
+          </p>
+          <p>
+            <lb/>Pro hac demonstratione, fingere debemus Hypothesim, ex qua plenam hujus rei lucem consequemur.
+            <lb/><choice><orig>fingo</orig><reg>Fingo</reg></choice> ergo, Solem fictum pro <hi rend="u">momento culminationis Solis Veri</hi>, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero distare arcu
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cis<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> 15° graduum, hosque binos Soles, in hac sua distantia <fw type="catch" place="bottom"><hi rend="u">relativa</hi></fw>
+            <pb facs="3529548" n="172v"/>
+            <fw place="top center">J.</fw>
+            <lb/><hi rend="u">relativa</hi> manere per integram revolutionem diurnam, ut reipsa manent die <date when="1773-11-01">1</date> et <date when="1773-11-02">2<hi rend="sup">da</hi>
+            <lb/>Novembris 1773</date>. <choice><orig>ita</orig><reg>Ita</reg></choice> tamen, ut eodem motu proprio, <unclear reason="illegible">e</unclear>t medio, uterque Sol ab occidente
+            <lb/>in orientem moveatur, dum interea coelum fixarum motu raptus movetur ab
+            <lb/>oriente in occidentem. Consideremus jam Tellurem <formula>T</formula> tanquam <hi rend="u">i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>otam</hi> in figura
+            <lb/>IV<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <figure/> in suos 24 Meridianos, seu horarios, 1, 2, 3, 4 <abbr>etc<choice><orig>:</orig><reg>.</reg></choice></abbr> aut <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <formula>d</formula> <abbr>etc<choice><orig>:</orig><reg>.</reg></choice></abbr> divisam,
+            <lb/>distabit ergo unus meridianus Telluris ab altero pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cise 15° gradibus. Cum igitur
+            <lb/>in Hypothesi nostra Sol fictus <formula>M</formula>, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero <formula>V</formula> pro ipso momento culminationis Solis
+            <lb/>Veri <formula>V</formula>, ponatur distare 15° gradibus, necessario sequitur, ut eo ipso momento, quo
+            <lb/>Sol Verus <formula>V</formula> est in Meridiano Telluris <formula>C,d,T</formula> Sol fictus <formula>M</formula> eodem momento erit
+            <lb/>in Meridiano Telluris <choice><orig><formula>a,b,T</formula></orig><reg>abT</reg></choice> distante <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano <choice><orig><formula>C,d,T</formula></orig><reg><formula>CdT</formula></reg></choice>, 15° gradibus, eodem ergo
+            <lb/>momento, quo Sol Verus <formula>V</formula> culminat in Meridiano <choice><orig><formula>C,d,T</formula></orig><reg><formula>CdT</formula></reg></choice> eodem inquam momento
+            <lb/>Sol fictus <formula>M</formula> culminat in Meridiano <choice><orig><formula>a,b,T</formula></orig><reg><formula>abT</formula></reg></choice> loci illius Telluris, qui <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano
+            <lb/><choice><orig><formula>C,d,T</formula></orig><reg><formula>CdT</formula></reg></choice> distat 15° gradibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris, sed loca Telluris, <subst><del>qui <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano C,d,T</del><add>quorum Meridiani</add></subst>
+            <lb/>distant 15° gradibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris distant <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> se invicem in tempore medio pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cise un<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+            <lb/>hor<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>, ergo distantia Solis Veri et ficti, seu arcus 15° graduum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris interceptus
+            <lb/>inter Solem Verum, et fictum <hi rend="u">pro ipso momento culminationis Solis Veri</hi>, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatur in
+            <lb/>tempore uni hor<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, ergo Sol fictus distans <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> 15° gradibus
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris, distat in tempore medio un<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> hor<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>. Cum autem h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c distantia Solis Veri
+            <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> ficto 15° graduum ponatur per integram revolutionem diurnam manere <hi rend="u">constans</hi>
+            <lb/>necessario sequitur, ut quando Sol Verus motu raptus in occidentem, pervenit ad quem<pc type="hyphenation">-</pc><lb break="no"/>cunque Meridianum Telluris, Sol fictus, eodem motu latus, <subst><del>S</del><add>s</add></subst>emper <choice><orig>Culminabit</orig><reg>culminabit</reg></choice> in
+            <lb/>aliquo Meridiano Telluris distante <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano Solis Veri 15° gradibus, hoc est, in
+            <lb/>tempore medio distante una hora.
+          </p>
+          <p>
+            <lb/>Quod autem distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> locorum, seu Meridianorum Telluris, 15° graduum in tempore
+            <lb/>medio exacte respondeant uni hor<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, ipsis Tyronibus notissimum
+            <lb/>est, nam locus Telluris <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> meo Meridiano distans 15° gradibus, omnino distat un<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+            <lb/>hor<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> temporis <choice><orig>Medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></orig><reg>medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></reg></choice>; ideoque in Geographia, et Astronomia ex data distantia locorum
+            <lb/>in gradibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris, invenimus horam dati loci, respondentem hor<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> respectu mei
+            <lb/>aut alterius loci convertendo gradus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris 15° ad 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> horam, et vicissim, data differen<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tia temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> inter bina loca, invenimus distantiam in gradibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris infe<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rendo ut 1 hora ad 15°. <choice><orig>ergo</orig><reg>Ergo</reg></choice> in Casu nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> hypotheseos distantia Solis ficti, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+            <lb/>Vero 15° graduum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habetur pro <hi rend="u">ipso momento culminationis Solis Veri</hi>
+            <lb/>converti debet in tempus in ratione 15° ad 1 horam.
+            <lb/><del>Nempe hic potest</del>
+          </p>
+          <pb facs="3529549" n="173r"/>
+          <fw type="pageNum" place="bottom right">173</fw>
+          <figure>
+            <p><lb/>Figura I.</p>
+            <p><formula>a</formula> <g ref="#SUN">&#x2609;</g> <formula>b</formula> * <formula>c</formula></p>
+            <figDesc>Kreisdiagramm mit Meridian und den Punkten a, b und c; bei a steht das Sonnenzeichen, bei b ein Stern.</figDesc>
+          </figure>
+          <figure>
+            <p><lb/>Figura II.</p>
+            <p><formula>M</formula> <g ref="#SUN">&#x2609;</g> <formula>V</formula></p>
+            <figDesc>Kreisdiagramm mit Meridian und den Positionen M und V; bei beiden Positionen steht ein Sonnenzeichen.</figDesc>
+          </figure>
+          <figure>
+            <p><lb/>Figura III.</p>
+            <p><formula>x,M,V,Z</formula> <g ref="#SUN">&#x2609;</g></p>
+            <figDesc>Kreisdiagramm mit Meridian und den Positionen x, M, V und Z sowie Sonnenzeichen.</figDesc>
+          </figure>
+          <figure>
+            <p><lb/>Figura IV.</p>
+            <p><formula>24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1</formula>
+              <formula>a,b,c,d,e,f,M,V,Z,S,R,T</formula> <g ref="#SUN">&#x2609;</g> Oriens Tellus Occidens.</p>
+            <figDesc>Geozentrisches Kreisdiagramm mit der Erde T, 24 Stundenmeridianen, drei Sonnenpositionen, einer Fixsternposition und mehrfach eingetragenen 15-Grad-Bögen; links steht „Oriens“, rechts „Occidens“.</figDesc>
+          </figure>
+          <pb facs="3529550" n="173v" type="empty"/>
+          <pb facs="3529551" n="174r"/>
+
+          <p>
+            <lb/>Jam quod in hac hypothesi ficta demonstratum est, facile applicatur ad Casum verum
+            <lb/>nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stionis, quocunque demum arcu <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris supponatur <subst><del><gap/></del><add>d</add></subst>is<subst><del>s</del><add>t</add></subst>are Sol fictus
+            <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Vero pro <hi rend="u">ipso momento culminationis Solis Veri</hi>. Ponatur <abbr>Ex<choice><orig>:</orig><reg>.</reg></choice> Gr<choice><orig>:</orig><reg>.</reg></choice></abbr> Sol fictus dista<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>re <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero culminante gradibus 4°, dico ergo, pro hoc momento Solem fictum
+            <lb/>culminare in Meridiano Telluris distante <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> priore gradibus 4°, sed Meridianus Telluris
+            <lb/>distans <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano altero gradibus 4°, distat in tempore medio 16′ minuta temporis,
+            <lb/>ergo etiam Sol fictus distat <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole Vero 16′ minuta temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, hoc est: 4 gradus
+            <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Solis Veri, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> ficto converti debent in ratione 15° ad 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> horam.
+          </p>
+          <p>
+
+            <lb/>Neque hic obi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ci potest, rationem 15° ad 1 horam esse tempus fixarum, seu primi mobilis<choice><orig>,</orig><reg>.</reg></choice> Etenim
+            <lb/>in figura IV, culminet fixa <formula>S</formula> cum Sole vero <formula>V</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proinde <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Sole ficto <formula>M</formula> pro
+            <lb/>hoc momento distet 15° gradibus, tum certum est, ob motum Solis utriusque proprium
+            <lb/>versus orientem, fixam <formula>S</formula> ante Solem Verum <formula>V</formula> perventuram ad Meridianum <choice><orig><formula>E,Z,f</formula></orig><reg>EZf</reg></choice>
+            <lb break="no"/><choice><orig><formula>T,</formula></orig><reg>T</reg></choice><note type="editorial">Im Manuskript wurde der Buchstabe «f» fälschlicherweise gross geschrieben.</note> seu ad <hi rend="u"><abbr>N<supplied>.</supplied>rum</abbr></hi> 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> qui distat <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> priore 15° gradibus, dumque Sol Verus <formula>V</formula> pervenit ad
+            <lb/><formula>Z</formula> in Meridiano <choice><orig><formula>1.T</formula></orig><reg>1T</reg></choice>, fixa <choice><orig><formula>S,</formula></orig><reg>S</reg></choice> erit in <formula>R</formula>, in Meridiano distante <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano <choice><orig><formula>C,d,T,</formula></orig><reg><formula>CdT</formula></reg></choice> parti<pc type="hyphenation">-</pc><lb break="no"/>bus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris 15°. 2′. 28″. et eodem momento Sol fictus erit in Meridiano <choice><orig><formula>C,d,T</formula></orig><reg><formula>CdT</formula></reg></choice>
+            <lb/>distante <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Meridiano Solis Veri <formula>Z</formula> tantum 15° gradibus, quod ipsum demonstrat, 15° gradibus
+            <lb/>distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Solis Veri, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> ficto, respondere distantiam 15°.2′.28″ Solis ficti <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> stella fixa
+            <lb/>adeoque rationem 15° ad 1 horam esse tempus medium, et non fixarum, aut primi mobilis.
+          </p>
+          <p>
+            <lb/>Atque huic argumento, sive demonstrationi arbitror nihil obi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ci posse: Nam I. <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem
+            <lb/>temporis non <hi rend="u">suppono</hi> esse: differentiam temporis inter culminationes Solis Veri, et
+            <lb/>ficti <hi rend="u">in eodem</hi>, <metamark>+ </metamark><add><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice></add> <hi rend="u">in eodem</hi> Meridiano, quod <hi rend="u">Suppositum</hi> Sectatores de la Cailliani ne<pc type="hyphenation">-</pc><lb break="no"/>gare solent. II. <hi rend="u">directe</hi> ostendo, arcum interceptum inter Solem Verum et fictum
+            <lb/>qui habetur in <hi rend="u">ipso momento culminationis Solis Veri</hi>, converti debere in ratione 15°
+            <lb/> ad 1 horam adeoque esse <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis medi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> pro ipso <hi rend="u">momento culminationis
+            <lb/>Solis Veri</hi>, et non, ut arbitrantur, Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>, pro <hi rend="u">momento culminationis Solis ficti in
+            <lb/>eodem meridiano</hi>. <del>adeoque reipsa esse:</del> III. ostenditur, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nem temporis pro <hi rend="u">momento culminationis Solis Veri</hi> esse prorsus eandem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est, <hi rend="u">pro
+            <lb/>momento culminationis Solis ficti in eodem meridiano</hi>: adeoque reipsa esse: <hi rend="u">differentiam
+            <lb/>temporis inter culminationem Solis Veri, et ficti in eodem meridiano</hi><choice><orig>.</orig><reg>,</reg></choice> quod Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+            <lb/>antea negabant, atque arcum <formula>n</formula> <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>, reipsa <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalere arcui <formula>n+\frac{px}{24}</formula>.
+            <lb/>Denique assertum meum verum fuisse: Argumentis scilicet, Domini <rs key="pers_DE-588-104234059" type="person">de la Lande</rs> erroris
+            <lb/>non convinci doctrinam <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-119174596" type="person">De la Cailli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>. Est enim magnum discrimen inter
+            <lb/>Veritatem mere assertam, et inter Veritatem demonstratam: Vera igitur est Sententia
+            <pb facs="3529552" n="174v"/>
+
+            <lb/>Domini <rs key="pers_DE-588-104234059" type="person">de la Lande</rs>, Vera<choice><orig>,</orig><reg type="deleted"/></choice> Domini <rs key="pers_DE-588-118903217" type="person">Maskelyne</rs>, Vera Domini <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>, Vera et <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr>
+            <lb/><abbr>D.</abbr> <rs key="pers_DE-588-116170654" type="person">Bernoulli</rs>, sed argumenta, sed rationes, sed formul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> analytic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Veritatem
+            <lb/>hanc non demonstrabant, eo, quod, <hi rend="u">Supposito</hi> laborent, ab Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s non concedendo.
+            <lb/>Neque enim arbitror Ratiocinationem vim habere posse demonstrationis, intellectu<unclear reason="binding">m</unclear>
+            <lb/>convincientis, si demonstratio <hi rend="u">Supposito</hi> laboret, quod <hi rend="u">Suppositum</hi> ab Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s no<unclear reason="binding">n</unclear>
+            <lb/>admittitur, ut est, revera <hi rend="u">Suppositum</hi> in hac materia, quod <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio temporis, sit <hi rend="u">diffe<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rentia temporis inter culminationem Solis Veri, et ficti intercedens</hi>. <choice><orig>quod</orig><reg>Quod</reg></choice> ipsum <hi rend="u">Suppo<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>situm</hi> sibi demonstrandum petebant Adversari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>; hoc enim <hi rend="u">Supposito demonstrato</hi>
+            <lb/>nulla superest difficultas admittendi, arcum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris inter Solem Verum, et fictum in<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>terceptum converti debere in ratione 15° ad 1 horam<choice><orig>;</orig><reg>.</reg></choice>
+          </p>
+          <p>
+            <lb/>Et certe, si Dominus <rs key="pers_DE-588-119174596" type="person">de la Caille</rs> agnovisset, aut sibi persuadere potuisset: <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem tempori<unclear reason="binding">s</unclear>
+            <lb/>esse <hi rend="u">differentiam temporis inter culminationem Solis Veri, et ficti in eodem Meridiano</hi>, nunqu<unclear reason="binding">am</unclear>
+            <lb/>asseruisset, aut docuisset, arcum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris interceptum inter Solem Verum, et fictum pro
+            <lb/>momento culminationis Solis Veri, seu differentiam ascensionum rectarum, esse converten<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>dam in tempus medium in ratione 15° 2′. 28″ ad 1 horam; sed Dominus <rs key="pers_DE-588-119174596" type="person">De la Caille</rs>
+            <lb/>viderat, differentiam temporis inter culminationem Solis Veri, et ficti, reipsa esse <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quat<unclear reason="binding">io<pc type="hyphenation">-</pc></unclear>
+            <lb break="no"/><pc type="hyphenation">-</pc>nem pro momento culminationis <hi rend="u">Solis ficti</hi>, <del>et non Solis Veri, </del>quod non qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ritur, adeo<unclear reason="binding">que</unclear>
+            <lb/>sibi persuadere non poterat, reipsa eandem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habetur pro momento <metamark>+</metamark><add>culminatio<unclear reason="binding">nis</unclear></add> Soli<unclear reason="binding">s</unclear>
+            <lb/>ficti; etiam esse, pro momento culminationis Solis Veri, ideo in errorem lapsus, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quat<unclear reason="binding">io</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nem temporis, pro momento culminationis Solis Veri negabat esse: differentiam temporis
+            <lb/>inter culminationem Solis veri, et ficti, perinde, ut accelerationem fixarum pro
+            <lb/>momento culminationis fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> optime sciebat, non esse differentiam temporis inter
+            <lb/>culminationem fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, et Solem medium, utpote qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> differentia reipsa pertineret ad
+            <lb/>culminationem Solis ficti, et non fix<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>.
+          </p>
+          <p>
+            <lb/>Atque his intellectis, arbitror, me sine injuria Virorum Celebrium, errorem Celeberrimi <rs key="pers_DE-588-119174596" type="person">De
+            <lb/>la Caille</rs> demonstrare volentium, asseruisse, eorum argumenta, erroris non convincer<unclear reason="binding">e</unclear>
+            <lb/> <abbr>D.</abbr> <rs key="pers_DE-588-119174596" type="person">de la Caille</rs>, idque ea de causa, quod eorum demonstrationes id <hi rend="u">supponebant</hi>, quod
+            <lb/>erat in qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stione, quodque ipsis demonstrare incumbebat, neque tamen demonstrabant,
+            <lb/>quippe demonstrata Veritate: <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem temporis, esse, <hi rend="u">differentiam temporis inter</hi>
+            <lb/>culminationes Solis Veri, et ficti, nulla jam opus est, demonstratione, sed per sese
+            <lb/>clarum est, arcum interceptum inter Solem Verum, et fictum, reipsa <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalere arcui
+            <lb/><formula>n+\frac{px}{24}</formula> <abbr>Cel<supplied>.</supplied><hi rend="sup u">mi</hi></abbr> <rs key="pers_DE-588-118714570" type="person">Kästneri</rs>, quia <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> momento culminationis Solis Veri, ad momentum culmina<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tionis Solis ficti, reipsa hic arcus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatoris per Meridianum transit, qui est <formula>=\frac{n}{15}</formula>.
+          </p>
+        </div>
+      </div>
+    </back>
+  </text>
+</TEI>

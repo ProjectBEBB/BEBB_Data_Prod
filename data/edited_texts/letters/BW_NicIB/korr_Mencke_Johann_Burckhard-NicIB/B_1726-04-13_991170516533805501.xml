@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516533805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Johann Burkhard Mencke. Basel, 13. April 1726</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516533805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516533805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>S. 89/90: leer</p>
+          <p>Dem Brief war die Entgegnung von Nicolaus I Bernoulli auf die letzte Schrift von Fagnano beigelegt. (L Ia 23:S.71-87 oben)</p>
+        </note>
+        <note type="print">
+          <p>Druck: Acta eruditorum : anno ... publicata. - Lipsiae : Grosse &amp; Gleditsch, 1729, Suppl. 9, S.98-110</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Siehe auch: L Ia 23:S.71-87 oben</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-127724">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 23:S.87 unten-90</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516533805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433442605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057913</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3,5 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basileae</origPlace>
+              <date when="1726-04-13">13. Apr. 1726</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1726-04-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118783181">Mencke, Johann Burkhard</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517056605501" type="prev"/>
+          <ptr target="B_991170517056405501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Mencke_Johann_Burckhard-NicIB" corresp="pers_DE-588-118783181" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Nicolaus I sendet Mencke das Manuskript seiner "Responsio" auf Fagnano zur Publikation.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117498068">Fagnano dei Toschi, Giulio Carlo</persName>
+            <note type="lebensdaten">(1682-1766)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-24" who="SG">Gedruckte Beilage S. 98–110 vollständig eingesetzt, mit vollständigem Zeilenfall nach dem Druck sowie mit Abkürzungs-, NER-, bibliographischem und mathematischem Pretagging versehen; Kollation ausstehend.</change>
+        <change when="2026-06-17" who="NG">Transkription begonnen</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic xml:id="quelle1" url="https://www.e-manuscripta.ch/i3f/v20/3502606/manifest"/>
+  <graphic xml:id="quelle2" url="manifests/M_1726-04-13_991170516533805501-print/info.json"/>
+</facsimile>
+<text>
+
+  <front><div type="editorialNote"><head>Editorische Vorbemerkung</head><p>Dieser Brief ist bereits in gedruckter Form erschienen. Die bibliographischen Angaben zur Druckedition können im Metadaten-Fenster eingesehen werden.</p></div></front><body>
+<div type="letter">
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3502606/canvas/3502607" n="87" source="#quelle1"/>
+  <note hand="pers_DE-588-119166895">Ad Jo. Burch. Menckenium Lipsiam.</note>
+  <opener>Viro Amplissimo, Celeberrimo J.B.M. S.P.D. N.B. Nic. Fil. </opener>
+  <p>
+      <lb/>En <rs type="biblio">Schediasma</rs> continens responsionem meam ad <rs type="biblio">scriptum</rs> ultimum
+      <lb/>Fagnani jam ante aliquot annos contra me in <rs type="biblio">Actis vestris</rs> impressum.
+      <lb/>Moniti vestri <rs type="biblio">Actis</rs> A. 1721. publicatis premissi memor à verborum acerbita<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>te, <del><gap/></del><add>sola usus retorsione</add> magis abstinui quam <rs type="person">Fagnanus</rs>, <rs type="biblio">cuius scriptum</rs>
+      <lb/>felle plenum esse i<del><gap/></del><add>n</add> <rs type="letter">literis</rs> ad <rs type="person">Patruum meum</rs> datis ipse, Vir Amplissime,
+      <lb/>judicasti. Cum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c mea responsio ea qua <rs type="person">Fagnani</rs> <rs type="biblio">scriptum</rs>
+      <lb/>non laboret prolixitate, spero illi non <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>gre locum datum iri in
+      <lb/><rs type="biblio">Actis</rs> vestris. <rs type="person">Patruus</rs> meus nunc quidem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>grotan, sed ut <del><gap/></del><add>speramus</add>,
+      <lb/><del><gap/></del><add><choice><orig>indïes</orig><reg>indies</reg></choice></add> convalescens salutem plurimam Tibi denuntiat; rogatque ut
+      <lb/>solitum numerum <rs type="biblio">exemplarium</rs> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>quorum unum ad me pertinet<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice>
+      <lb/><rs type="biblio">Actorum</rs> inde à mense Junio inclusive Anni 1725. extatium una
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3502606/canvas/3502608" n="88" source="#quelle1"/>
+      <lb/>cum <rs type="biblio">Tabulis</rs> nobis <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>ut <rs type="person">Patruus</rs> <del><gap/></del>in postremis suis <rs type="letter">literis</rs> indicavit<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice>
+      <lb/>deficientibus per Latorem pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentium aut alium <rs type="person">Mercatorum</rs>
+      <lb/>nostratium, mittere <del><gap/></del>mittendorumque pretium ordinarium
+      <lb/>ib ipso recipere v<del><gap/></del><add>el</add>is. </p>
+  <p>Vale. Dab. <rs type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> d. <date when="1726-04-13">13. Apr. 1726</date>.</p>
+
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3502606/canvas/3502609" n="89" type="empty" source="#quelle1"/>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3502606/canvas/3502610" n="90" type="empty" source="#quelle1"/>
+
+
+
+  <p><pb facs="https://iiif.archivelab.org/iiif/s1id13207050$104/canvas" n="98" source="#quelle2"/>
+      <lb/><abbr>NIC.</abbr> BERNOULLI <abbr>PROF.</abbr> <abbr>BAS.</abbr> RESPON<pc type="hyphenation">-</pc><lb break="no"/>SIO ad ea, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="person">JULIUS CAROLUS DE FA<pc type="hyphenation">-</pc><lb break="no"/>GNANIS</rs> edidit in <abbr>Art.</abbr> VI Tomi I <abbr>Supplem.</abbr> Diarii <abbr>Erud.</abbr>
+      <lb/>Itali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, ut <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in <abbr>Sect.</abbr> II Tomi VIII <abbr>Supplem.</abbr> <rs type="biblio"><abbr>Act.</abbr> <abbr>Lips.</abbr></rs>
+      <lb/><abbr>pag.</abbr> 75 ; continens pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter alia novum Theorema pro inte<pc type="hyphenation">-</pc><lb break="no"/>gratione <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationum differentialium secundi gra<pc type="hyphenation">-</pc><lb break="no"/>dus, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nullam constantem differentialem
+      <lb/>supponunt. Nullus dubito, controversiam istam, inter me <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <rs type="person">Fagnanum</rs> <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$105/canvas" n="99" source="#quelle2"/>
+      <lb/>agitatam, occasionem pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>buisse Eruditissimi Comitis <rs type="person">Riccati</rs>
+      <lb/>Animadversionibus editis in <abbr>Sect.</abbr> II <abbr>Tom.</abbr> VIII <rs type="biblio"><abbr>Suppl.</abbr> <abbr>Act.</abbr> <abbr>Erud.</abbr></rs>
+      <lb/><abbr>pag.</abbr> 66, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in <abbr>Act.</abbr> Anni 1723 <abbr>pag.</abbr> 502, in quibus proponit atque
+      <lb/>exemplis optime illustrat Criterium generale, per quod dignosci
+      <lb/>possit, an proposita aliqua <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis secundi ordinis
+      <lb/>assumptionem differentialis constantis supponat aut gigni queat
+      <lb/>nulla usurpata constante. Etenim cum criterium hoc generale
+      <lb/>conveniat cum eadem illa regula a me jam ante subindicata in
+      <lb/>integratione <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis ad Parabolam <choice><orig><formula>a y d d x – a x d d y = </formula>
+      <lb/><formula>z y d y^{2} + y y d d y</formula></orig><reg><formula>a y \, d^2x - a x \, d^2y = z y \, dy^2 + y y \, d^2y</formula></reg></choice> (<abbr>vid.</abbr> <abbr>art.</abbr> V Tomi XXIX <rs type="biblio"><abbr>Diar.</abbr> <abbr>Erud.</abbr> <abbr>Ital.</abbr></rs>) <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>postea sequentibus expressis verbis proposita in <rs type="biblio"><abbr>Act.</abbr> <abbr>Lips.</abbr></rs> 1720
+      <lb/><abbr>pag.</abbr> 309, si dicat, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem suam nullam pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>supponere differen<pc type="hyphenation">-</pc><lb break="no"/>tialem constantem, necesse est, ut ad eandem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem integralem
+      <lb/>perveniam supponendo constantem aut nullam differentialem, aut
+      <lb/>aliquam pro lubitu sive hanc sive illam; cum, inquam, criteri<pc type="hyphenation">-</pc><lb break="no"/>um hoc generale Comitis <rs type="person">Riccati</rs> (consistens in eo, quod si qua<pc type="hyphenation">-</pc><lb break="no"/>cumque usurpata constante eadem semper summatoria nobis oc<pc type="hyphenation">-</pc><lb break="no"/>currat, hoc signum sit ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem propositam differentio-
+      <lb/>differentialem perveniri absque eo, quod necesse fuerit, constan<pc type="hyphenation">-</pc><lb break="no"/>tem adhibuisse) conveniat cum dicta regula, qua tunc pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter alia
+      <lb/>argumenta utebar adversus <rs type="person">Fagnanum</rs> ad ostendendum, non
+      <lb/>posse ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem hanc <formula>X d y^m : y^m d x^n = a/x + b d d x/d x^n + c d d y/d x d y + ∫ </formula>
+      <lb/><formula>f d y / y d x</formula> perveniri sine pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>via positione differentialis alicujus con<pc type="hyphenation">-</pc><lb break="no"/>stantis extra casum, quando c = –b; valde mihi verisimile fit,
+      <lb/><abbr>Ill.</abbr> Comitem suis animadversionibus in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationes differentiales
+      <lb/>secundi gradus objectiones meas contra <rs type="person">Fagnanum</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> regulam
+      <lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dictam ab ipso rejectam nec pro demonstrativo indicio habi<pc type="hyphenation">-</pc><lb break="no"/>tam (<abbr>vid.</abbr> <rs type="biblio"><abbr>Suppl.</abbr> <abbr>Diar.</abbr> <abbr>Ital.</abbr></rs> <abbr>Tom.</abbr> I <abbr>pag.</abbr> 176 177, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>Tom.</abbr> VIII
+      <lb/><rs type="biblio"><abbr>Suppl.</abbr> <abbr>Act.</abbr> <abbr>Lips.</abbr></rs> <abbr>pag.</abbr> 83) firmare atque sic causam meam tacite
+      <lb/>defendere voluisse, pro quo officio ipsi debitas habeo gratias.
+      <lb/>Talem igitur defensorem nactus existimavi, non necesse esse, ut
+      <lb/>vel quicquam opponerem ultimo <rs type="person">Fagnani</rs> scripto locis citatis
+      <lb/>primum Italico sermone in <rs type="biblio"><abbr>Suppl.</abbr> <abbr>Diar.</abbr> <abbr>Ital.</abbr></rs> <abbr>Tom.</abbr> I <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> postea
+      <lb/>latino in <abbr>Tom.</abbr> VIII <rs type="biblio"><abbr>Suppl.</abbr> <abbr>Act.</abbr> <abbr>Lips.</abbr></rs> immediate post <rs type="person">Riccati</rs>anas <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$106/canvas" n="100" source="#quelle2"/>
+      <lb/>animadversiones adversus me evulgato; quamvis viderim mihi
+      <lb/>immerito spiritum contradictionis, acrem stylum, perversam
+      <lb/>verborum interpretationem, logomachias, paralogismos <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>errores objici, quorum omnium reum esse solum <rs type="person">Fagnanum</rs>, in<pc type="hyphenation">-</pc><lb break="no"/>telligentes <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quanimi Lectores facile, ut confido, deprehen<pc type="hyphenation">-</pc><lb break="no"/>dent. Ista fiducia fretus per tanti temporis intervallum silui, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>diutius siluissem, nisi responsionem aliquam meam passim non<pc type="hyphenation">-</pc><lb break="no"/>nullos, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sertim in <rs type="place">Italia</rs>, desiderare mihi nuntiatum fuisset;
+      <lb/>quorum desiderio satisfactum iri credo, si vel unicum illud argu<pc type="hyphenation">-</pc><lb break="no"/>mentum a me in <rs type="biblio"><abbr>Act.</abbr> <abbr>Lips.</abbr></rs> 1720 <abbr>pag.</abbr> 310 <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <abbr>seq.</abbr> prolatum, quod
+      <lb/><rs type="person">Fagnanus</rs> per risum <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ironiam Achillem vocat, revera fortissi<pc type="hyphenation">-</pc><lb break="no"/>mum Achillem, qui Thersitem Fagnaneum ictu pugni interficiat,
+      <lb/>esse ostendere.
+      <lb/>Ante omnia vero statum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stionis denuo rite formabo, <rs type="person">Fa<pc type="hyphenation">-</pc><lb break="no"/>gnanus</rs> enim ad sophisma ignoranti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> elenchi, tanquam ad sa<pc type="hyphenation">-</pc><lb break="no"/>cram anchoram, confugere videtur. Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stio inter nos agitata
+      <lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c est: an supra memorata <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio X d y^m : y^m d x^n = a/x + b d d x/d x^n + <pc type="hyphenation">-</pc><lb break="no"/>c d d y/d x d y + f d y /
+      <lb/>y d x, in qua nulla differentialis primi gradus constans
+      <lb/>ponitur, possibilis sit, nec ne: id est, an detur aliqua Curva,
+      <lb/>cujus coordinat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> x <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> y talem inter se relationem habeant, ut
+      <lb/>quocumque modo ipsarum incrementa vel decrementa momen<pc type="hyphenation">-</pc><lb break="no"/>tanea procedere concipiantur, sive quacunque differentialis pri<pc type="hyphenation">-</pc><lb break="no"/>mi gradus constans esse intelligatur, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dicta <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio semper
+      <lb/>ostendat relationem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est inter secunda differentialia coordi<pc type="hyphenation">-</pc><lb break="no"/>natarum illius Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Nam quemadmodum <abbr>ex. gr.</abbr> ista formula
+      <lb/><formula>ds³ : (dydx − dxd dy)</formula> in qua ds significat elementum ipsius
+      <lb/>Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> nulla differentialis constans ponitur, eandem semper
+      <lb/>dat longitudinem radii circuli osculatoris in quacunque hypothesi
+      <lb/>differentialis constantis; ita etiam, quando in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dicta <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tione controversa nullam differentialem constantem supponi<pc type="hyphenation">-</pc><lb break="no"/>mus, hi characteres ddx <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ddy generalem significationem ob<pc type="hyphenation">-</pc><lb break="no"/>tinent, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> omni hypothesi differentialis constantis convenit.
+      <lb/>Jam vero dixi, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> etiamnum affirmo, propositam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem
+      <lb/>esse impossibilem <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> contradictoriam, si nulla posita differentiali
+      <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$107/canvas" n="101" source="#quelle2"/><lb/>con<pc type="hyphenation">-</pc><lb break="no"/>stante ipsa ddx <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ddy generalem habeant significationem,
+      <lb/>id est, nullam dari Curvam, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationi satisfa<pc type="hyphenation">-</pc><lb break="no"/>ciat in omni hypothesi differentialis constantis, excepto solo casu,
+      <lb/>quando <formula>c = – b</formula>.
+      <lb/>Ad hoc demonstrandum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter alia invicta argumenta ad<pc type="hyphenation">-</pc><lb break="no"/>hibui sequens Lemma: Omnis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis secundi gra<pc type="hyphenation">-</pc><lb break="no"/>dus, in qua dx est variabilis <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dy constans transmutari potest,
+      <lb/>salva <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione integrali, in aliam in qua dx est constans <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dy
+      <lb/>variabilis, scribendo pro ddx hunc valorem <formula>– dx ddy : dy</formula>. Ope
+      <lb/>hujus lemmatis controversa <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio in alias <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalentes, id
+      <lb/>est, semper eidem Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> respondentes <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationes transforma<pc type="hyphenation">-</pc><lb break="no"/>ta, deduxi necessario debere esse <formula>c = – b</formula>. Hanc autem illatio<pc type="hyphenation">-</pc><lb break="no"/>nem <rs type="person">Fagnanus</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipitem vocat <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in purum putum paralogi<pc type="hyphenation">-</pc><lb break="no"/>smum dissolvi ait, nisi probem, quod ex pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>supposita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualitate
+      <lb/>inter ipsas x earumque differentiales ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationes, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dicta ra<pc type="hyphenation">-</pc><lb break="no"/>tione transformatas, pertinentes, etiam ips<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> y earumque diffe<pc type="hyphenation">-</pc><lb break="no"/>rentiales tam prim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quam secund<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, imo vero etiam quantitas
+      <lb/>per f designata, (quid hic sibi velit cum quantitate f, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sicut
+      <lb/>reliqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> per a, b, c, designat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> invariabilis est, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> cur potius hanc
+      <lb/>nominet, quam unam pluresve reliquarum a, b, c, nemo capit)
+      <lb/>vere <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quantur in utraque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione. Sed vereor, ne ipse <rs type="person">Fagna<pc type="hyphenation">-</pc><lb break="no"/>nus</rs> hic variis suis documentis ex Poetarum floribus decerptis ad
+      <lb/>evitandum paralogismum opus habeat. Quid enim sibi volunt
+      <lb/>ista lemmatis verba: salva <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione integrali: quam quod
+      <lb/>adhibita transmutatio differentialis constantis non mutet natu<pc type="hyphenation">-</pc><lb break="no"/>ram Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationi proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> satisfacientis, sed quod eadem
+      <lb/>Curva designetur per utramque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem, propositam nempe <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>illam, in quam proposita transformatur? Quod si ergo eadem
+      <lb/>Curva designatur per utramque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem, annon positis x,
+      <lb/>dx, ddx, utrobique <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualibus, etiam ips<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> y, dy, ddy vere
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quabuntur in utraque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> easdem, non diversas,
+      <lb/>quantitates repr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentabunt?
+      <lb/>Quia vero vim allegati Lemmatis <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> consequenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> illinc de<pc type="hyphenation">-</pc><lb break="no"/>duct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="person">Fagnanus</rs> non percepisse videtur, utriusque veritatem cla<pc type="hyphenation">-</pc><lb break="no"/>rissime demonstrabo. Ut omnis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivocatio tollatur, sit dd nota
+      <lb/>differentialis secundi gradus, ubi nulla primi ordinis constans <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$108/canvas" n="102" source="#quelle2"/>
+      <lb/>ponitur; Dd nota differentialis secundi gradus, quando dx const<pc type="hyphenation">-</pc><lb break="no"/>ans ponitur; Δd similis nota, quando dy, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> δd, quando alia
+      <lb/>quantitas pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter dx <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dy constans ponitur. Sit pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tio universalis <formula>ddy = A ddx + B</formula>, ubi A <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> B significant quantita<pc type="hyphenation">-</pc><lb break="no"/>tes quomodocunque compositas ex x, y, dx, dy <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantibus.
+      <lb/>Vi definitionum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>missarum erit in eadem Curva, cui compe<pc type="hyphenation">-</pc><lb break="no"/>tit ista <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis secundi gradus <formula>ddy = A ddx + B</formula>
+      <lb/>in hypothesi nullius differentialis constantis, erit, inquam, in
+      <lb/>eadem illa Curva <formula>Ddy = B</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>Δdx = – B : A</formula>. Lemmatis autem
+      <lb/>demonstrandi hic est sensus, quod in omni Curva sit <formula>Δdx = – dx </formula>
+      <lb/><formula>Ddy : dy</formula>, sive quod semper <formula>dy Δdx = – dx Ddy</formula>, id quod variis
+      <lb/>modis facillime demonstratur. 1 In omni Curva radius circuli
+      <lb/>osculatoris est = <formula>ds³ : dy Δdx</formula>, ubi ds elementum Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> desi<pc type="hyphenation">-</pc><lb break="no"/>gnat, idem vero radius est etiam = <formula>ds³ : – dx Ddy</formula>, ergo in omni
+      <lb/>Curva <formula>dy Δdx = – dx Ddy</formula>. 2 Quia <formula>Ddy = B</formula>, dividendo per
+      <lb/>dx erit <formula>Ddy : dx = B : dx</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> integrando <formula>dy : dx = ∫ B : dx</formula>,
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio rursus differentiata in hypothesi dy constantis pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>bet <formula>– dy Δdx : dx² = B : dx</formula>, sive <formula>– dy Δdx : dx = B</formula>, sed est
+      <lb/>B = Ddy, unde iterum sequitur, quod <formula>dy Δdx = – dx Ddy</formula>.
+      <lb/>3 Sit proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis <formula>ddy = A ddx + B</formula> integralis <formula>dy = z dx</formula>,
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio in utraque hypothesi ipsius dy <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dx constantis dif<pc type="hyphenation">-</pc><lb break="no"/>ferentiata pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>bet <formula>0 = dzdx + z Δdx = dzdx + dy Δdx : dx</formula>,
+      <lb/>item <formula>Ddy = dzdx</formula>, quo valore ipsius dzdx in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cedente <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tione substituto iterum habebitur <formula>dy Δdx = – dx Ddy</formula>. H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c
+      <lb/>demonstratio convenit
+      <lb/>cum illa quam acutissi<pc type="hyphenation">-</pc><lb break="no"/>mus Geometra <rs type="person">Brook
+      <lb/>Taylor</rs> dedit in <rs type="biblio"><abbr>Method.</abbr>
+      <lb/><abbr>Increment.</abbr></rs> <abbr>p.</abbr> 8. 4 Idem
+      <lb/>Geometrice quoque de<pc type="hyphenation">-</pc><lb break="no"/>monstratur: Exponatur
+      <lb/>Curva qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cunque ABC
+      <lb/>DE, cujus ordinat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in<pc type="hyphenation">-</pc><lb break="no"/>finite propinqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> BN,
+      <lb/>CO, DP, distent pari<pc type="hyphenation">-</pc><lb break="no"/>bus intervallis NO, OP, <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$109/canvas" n="103" source="#quelle2"/>
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vocentur dx, producatur arcus Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> BC donec ordinata
+      <lb/>DP producta occurrat in H, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> erecta ad axem AN normali
+      <lb/>AM, ducantur rect<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> MHE, LCG, IBF, axi AN parallel<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,
+      <lb/>vocenturque IL = CF = HG = ML = dy, erit HD = – Ddy, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>HE = Δdx, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ob similitudinem triangulorum CGD, EHD,
+      <lb/>erit HE : HD :: CG : GD <abbr>i.e.</abbr> Δdx : – Ddy :: dx : dy (pono dy
+      <lb/>pro DG, quia a CF differt quantitate DH infinitesies minore
+      <lb/>quam CF <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> DG), qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> analogia iterum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>bet <formula>dy Δdx = – dx </formula>
+      <lb/><formula>Ddy</formula>. Sufficienter jam his quatuor modis veritatem propositi
+      <lb/>Lemmatis demonstratam existimo; videamus jam, quanam con<pc type="hyphenation">-</pc><lb break="no"/>sequentia hinc deduci possit: h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c tribus tantum characteribus
+      <lb/>sequentibus denotabitur <formula>z = A</formula>, id est, <formula>dy = A dx</formula>; quia enim
+      <lb/><formula>Ddy = B</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>Δdx = – B : A</formula>, substituendo hos valores in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tione Lemmatis habebimus <formula>– B dy : A = – B dx</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> per – B : A
+      <lb/>utrinque dividendo <formula>dy = A dx</formula>. Nascitur itaque ex demonstra<pc type="hyphenation">-</pc><lb break="no"/>tis hoc utilissimum
+      <lb/>Theorema pro integrandis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationibus differentialibus
+      <lb/>secundi gradus, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nullam constantem differentialem
+      <lb/>supponunt.
+      <lb/>In proposita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione neglectis terminis, qui per nulla
+      <lb/>secunda differentialia multiplicantur, mutentur secunda differen<pc type="hyphenation">-</pc><lb break="no"/>tialia in prima, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> habebitur <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis primi gradus,
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> integralis erit.
+      <lb/>Unicus est casus, qui hoc Theorema ad integrationem in<pc type="hyphenation">-</pc><lb break="no"/>eptum reddit, scilicet quando in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione proposita <formula>ddy = </formula>
+      <lb/><formula>A ddx + B</formula>, coefficiens quantitas A jam exprimitur per dy : dx,
+      <lb/>tunc enim ambo membra <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis <formula>dy = A dx</formula> fiunt identica;
+      <lb/>hoc autem casu habebitur <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio integralis, si quantitas B : dx,
+      <lb/>integrari poterit, est enim per superius demonstrata <formula>dy : dx = ∫ </formula>
+      <lb/><formula>B : dx</formula>. Ceterum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>bet hoc Theorema etiam universalissi<pc type="hyphenation">-</pc><lb break="no"/>mum criterium, quo dignosci potest, an aliqua <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio diffe<pc type="hyphenation">-</pc><lb break="no"/>rentialis secundi ordinis nullam differentialem constantem sup<pc type="hyphenation">-</pc><lb break="no"/>ponens possibilis sit nec ne; quando enim in proposita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione
+      <lb/>non est <formula>dy = A dx</formula>, sed ponendo pro dy hunc ejus valorem in
+      <lb/>absurdum delabimur, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio illa erit impossibilis, nec sine
+      <lb/>assumptione differentialis constantis ad illam pervenietur. Sed h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c omnia exemplis illustrabimus. <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$110/canvas" n="104" source="#quelle2"/>
+      <lb/><abbr>Exempl.</abbr> 1 Sit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio a <abbr>Cl.</abbr> Comite <rs type="person">Riccato</rs> proposita <formula>z^m + 1, </formula>
+      <lb/><formula>dx^m ddx + dy^m + 1 dz : z = dy^m ddy</formula>, hujus integralis per no<pc type="hyphenation">-</pc><lb break="no"/>strum Theorema, neglecto termino dy^m + 1 dz : z, atque mu<pc type="hyphenation">-</pc><lb break="no"/>tatis ddx in dx, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ddy in dy, invenietur <formula>z^m + 1 dx^m + 1 = </formula>
+      <lb/><formula>dy^m + 1</formula>, sive <formula>zdx = dy</formula>.
+      <lb/><abbr>Exempl.</abbr> 2 Proponatur ista <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio <formula>x^m ddx = ddy</formula>, per
+      <lb/>Theorematis regulam erit <formula>x^m dx = dy</formula>, sed isto valore ipsius dy
+      <lb/>in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione proposita substituto habebimus <formula>x^m ddx = x^m ddx + </formula>
+      <lb/><formula>m x^m−1 dx^2</formula>, quod non potest esse, nisi sit <formula>m = 0</formula>, hoc autem
+      <lb/>assumtam hypothesin evertit, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> facit <formula>dx = dy</formula>, ut optime etiam
+      <lb/>observatum est a laudato <abbr>Com.</abbr> <rs type="person">Riccato</rs>.
+      <lb/><abbr>Exempl.</abbr> 3 Proponatur <formula>x^m ddx = zddz + dz^2 + zz dz^2</formula>;
+      <lb/>per regulam nostram erit <formula>x^m dx = z dz</formula>; si substituamus igitur
+      <lb/>x^m dx pro z dz, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ejus differentialem <formula>x^m ddx + m x^m−1 dx^2</formula> pro
+      <lb/><formula>zddz + dz^2</formula>, habebimus <formula>x^m ddx = x^m ddx + m x^m−1 dx^2 + </formula>
+      <lb/><formula>x^m dx^2</formula>, unde sequitur debere esse <formula>m − 1 = 2m</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>m = −1</formula>,
+      <lb/>quod iterum convenit cum animadversionibus <rs type="person">Riccati</rs>anis.
+      <lb/><abbr>Exempl.</abbr> 4 Proponatur <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio <formula>ayddx − axddy = zydy + </formula>
+      <lb/><formula>yyddy</formula>, erit per regulam <formula>aydx − axdy = yydy</formula>, sive <formula>(aydx − </formula>
+      <lb/><formula>axdy) : yy = dy</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est differentialis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio Parabol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,
+      <lb/>quam etiam ordinariis methodis inveni in <abbr>Art.</abbr> 5 <abbr>Tom.</abbr> 29 <abbr>Diar.</abbr>
+      <lb/><abbr>Ital.</abbr>
+      <lb/><abbr>Exempl.</abbr> 5 Proponatur <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio <formula>ayddx = (mm − m) y^m−1 </formula>
+      <lb/><formula>dy^2 + Pddy</formula>, quam sibi resolvendam sumsit <rs type="person">Fagnanus</rs> in <abbr>Art.</abbr> 7
+      <lb/><abbr>Tom.</abbr> 31 <abbr>Diar.</abbr> <abbr>Ital.</abbr> Per theorema nostrum habebimus <formula>aydx = </formula>
+      <lb/><formula>Pdy</formula>, sive <formula>adx = Pdy : y</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio iterum differentiata dat
+      <lb/><formula>addx = dydP : y + Pddy : y − Pdy^2 : y^2</formula>, quo valore ipsius
+      <lb/>addx in proposita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatione substituto erit <formula>dydP + Pddy − Pdy^2 : </formula>
+      <lb/><formula>y = (mm − m) y^m−1 dy^2 + Pddy</formula>, sive <formula>dydP − Pdy^2 : y = (</formula>
+      <lb/><formula>mm − m) y^m−1 dy^2</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> per ydy dividendo <formula>dP : y − Pdy : </formula>
+      <lb/><formula>yy = (mm − m) y^m−2 dy</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> integrata pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>bet <formula>P : y = </formula>
+      <lb/><formula>my^m−1 + b</formula>, ubi b significat constantem arbitrariam; quapropter
+      <lb/>necessario <formula>P = my^m + by</formula>, alioqui <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio proposita impossibilis
+      <lb/>est, nec ad illam perveniri potest sine assumptione differentialis
+      <lb/>alicujus constantis. Substituendo igitur my^m + by pro P <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio
+      <lb/>inventa <formula>adx = Pdy : y</formula> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalebit huic <formula>adx = my^m−1 dy + bdy</formula>. <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$111/canvas" n="105" source="#quelle2"/>
+      <lb/>cujus integralis est <formula>ax = y^m + by + g</formula>, ubi per g iterum intelligi<pc type="hyphenation">-</pc><lb break="no"/>tur quantitas constans arbitraria. Non itaque mirandum est,
+      <lb/><rs type="person">Fagnanum</rs> per duplicem differentiationem hujus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis <formula>ax = </formula>
+      <lb/><formula>y^m + by + g</formula> non potuisse redire ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem propositam
+      <lb/><formula>ayddx = (mm − m) y^m−1 dy^2 + Pddy</formula> (<abbr>vid.</abbr> <abbr>art.</abbr> 7 <abbr>Tom.</abbr> 31 <abbr>Diar.</abbr>
+      <lb/><abbr>Ital.</abbr>), nisi in solo casu, ubi <formula>P = my^m + by + k(ax − y^m − by − g)</formula>,
+      <lb/>id est, quia <formula>ax − y^m − by − g = 0</formula>, ubi <formula>P = my^m + by</formula>, solus
+      <lb/>enim iste casus possibilis est, reliqui autem omnes impossibiles
+      <lb/>sunt <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> contradictionem involvunt, adeo ut inconcussa maneat
+      <lb/>veritas illius propositionis, quam Axioma notissimum non nobili<pc type="hyphenation">-</pc><lb break="no"/>ssimum, ut male impressum legitur, appellavi in <abbr>art.</abbr> 5 <abbr>Tom.</abbr> 29
+      <lb/><abbr>Diar.</abbr> <abbr>Ital.</abbr> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in <rs type="biblio"><abbr>Act.</abbr> 1720</rs> <abbr>p.</abbr> 305, nequaquam obstante erronea
+      <lb/><rs type="person">Fagnani</rs> objectione facta in <abbr>art.</abbr> 7 <abbr>Tom.</abbr> 31 <rs type="biblio"><abbr>Diar.</abbr> <abbr>Erud.</abbr> <abbr>Ital.</abbr></rs>
+      <lb/><abbr>Exempl.</abbr> 6 Proponatur <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio inter nos controversa Xd y^m :
+      <lb/>y^m dx^n = a/x + b ddx/dx^2 + c ddy/dxdy + f dy/ydx; per theorema nostrum in<pc type="hyphenation">-</pc><lb break="no"/>venitur <formula>b ddx/dx^2 + c ddy/dxdy = 0</formula>, id est <formula>b + c = 0</formula>, sive <formula>c = – b</formula>. Quod
+      <lb/>erat demonstrandum.
+      <lb/>Ostensa igitur soliditate animadversionis me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ceden<pc type="hyphenation">-</pc><lb break="no"/>tem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem a <rs type="person">Fagnano</rs> propositam, supervacaneum esse
+      <lb/>existimo refutare reliqua a <rs type="person">Fagnano</rs> mihi objecta, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nonnisi
+      <lb/>verborum cavillationes, logomachias, paralogismos (quales
+      <lb/>mihi immerito imputantur) ratiocinia propriis <rs type="person">Fagnani</rs> hypo<pc type="hyphenation">-</pc><lb break="no"/>thesibus contraria, flosculosque Poeticos <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Rhetoricos, loco de<pc type="hyphenation">-</pc><lb break="no"/>monstrationis geometric<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> positos, continere, Lector pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ceden<pc type="hyphenation">-</pc><lb break="no"/>tia intelligens <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> cum reliquis nostris hac de re scriptis conferens
+      <lb/>non difficulter deprehendet.
+      <lb/>Quod vero attinet ad <rs type="person">Fagnani</rs> solutionem hujus Problematis:
+      <lb/>invenire suppositionem differentialis constantis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> integrabi<pc type="hyphenation">-</pc><lb break="no"/>lem reddat hanc <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem <formula>Xrdy^m : dx^m−1 = adz/z + bddx/</formula>
+      <lb/><formula>dx + cddy/dy + fdb/b + gdδ/δ</formula>, ubi X <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Z significant quantitates datas
+      <lb/>quomodocunque per X <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes, r <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> b quantitates datas per <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$112/canvas" n="106" source="#quelle2"/>
+      <lb/>y <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> quantitatem quomodocumque ex variabilibus <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>constantibus compositam, a, b, c, f, g constantes arbitrarias
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dd differentialem secundi gradus: adeo affirmare, eam esse oc<pc type="hyphenation">-</pc><lb break="no"/>cultam imitationem methodi a me exhibit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in <abbr>art.</abbr> 5 <abbr>Tom.</abbr> 29
+      <lb/><abbr>Diar.</abbr> <abbr>Ital.</abbr> Ecce enim quomodo premendo vestigia illius me<pc type="hyphenation">-</pc><lb break="no"/>thodi qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita differentialis constans inveniri queat. Integrando
+      <lb/>propositam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem habetur <formula>∫Xrdy^m : dx^m−1 = alz + bldx + </formula>
+      <lb/><formula>cldy + flb + glδ + lc = logar. z^a dx^b dy^c b^f δ^g ε</formula>, ubi ε sit
+      <lb/>quantitas constans qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita. Patet igitur quantitatem ε talem esse
+      <lb/>debere, ut z^a dx^b dy^c b^f δ^g ε possit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quari quantitāti finit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, in
+      <lb/>qua indices potestatum ipsarum dx <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dy se invicem destruant, <abbr>ex.
+      <lb/>gr.</abbr> ζ z^r s b^t δ^m dx^n dy^−n, ubi r, s, t, k, m, n sint numeri constan<pc type="hyphenation">-</pc><lb break="no"/>tes sed incogniti, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ζ significet quantitatem quomodocumque ex<pc type="hyphenation">-</pc><lb break="no"/>pressam per x <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes; stante igitur pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dicta hypothesi erit
+      <lb/><formula>Xrdy^m : dx^m−1 = dζ/ζ + tdz/z + sdr/r + kdb/b + mdδ/δ + ndx/dx + ndy/dy</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>multiplicando utrinque per ζ z^r p r^−1 dx^n dy^−m (sumo iterum r <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>p pro numeris incognitis sed constantibus) habebitur <formula>ζ z^r p Xdx = ζ z^r p r^−1 </formula>
+      <lb/><formula>dx^n dy^−m in dζ/ζ + tdz/z + sdr/r + kdb/b + mdδ/δ + </formula>
+      <lb/><formula>ndx/dx</formula>
+      <lb/><formula>− ndy/dy</formula>, pro cujus integrali ponatur <formula>∫ζ z^r p Xdx = q ζ z^r p r^−1 dx^n </formula>
+      <lb/><formula>dy^−m</formula>, ut autem posterioris membri differentialis <abbr>i.e.</abbr> <formula>ζ z^r p r^−1 dx^n </formula>
+      <lb/><formula>dy^−m in qr dζ/ζ + qp dz/z − qdr/r + qn dx/dx − qn dy/dy</formula> possit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quari po<pc type="hyphenation">-</pc><lb break="no"/>steriori membro pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cedentis <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis, oportet ut sit <formula>qr = 1; </formula>
+      <lb/><formula>qp = t; −q = s; k = 0; m = 0; qn = n</formula>, id est, <formula>q = −s, r = −1/s, </formula>
+      <lb/><formula>p = −t : s</formula>, unde substitutis his valoribus pro inte<pc type="hyphenation">-</pc><lb break="no"/>grali qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita habebimus <formula>∫ζ^−1/s z^−t/s Xdx = −s ζ^−1/s z^−t/s r^−1 dx^n </formula>
+      <lb/><formula>dy^−m</formula>, ubi notetur, hic <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in similibus casibus, ubi tota integratio
+      <lb/>actu non fit, sed per signum ∫ facienda denotatur, non opus esse
+      <lb/>addere quantitatem aliquam constantem B, ut facit <rs type="person">Fagnanus</rs>,
+      <lb/>quia ipsum signum ∫ satis monere potest, additionem debitam
+      <lb/>quantitatis constantis in actuali integratione non omittendam
+      <lb/>esse. Et cum positum fuerit <formula>z^a dx^b dy^c b^f δ^g ε = ζ z^r s b^t δ^m dx^n </formula><pb facs="https://iiif.archivelab.org/iiif/s1id13207050$113/canvas" n="107" source="#quelle2"/>
+      <lb/><formula>dy^−m. dy^n = ζ z^r s dx^−n dy^m</formula>, erit ε sive quantitas constans supponenda = <formula>ζ </formula>
+      <lb/><formula>z^r−t s b^−f δ^−s dx^−n−b dy^m−c</formula> vel (ponendo t = a, quod fieri
+      <lb/>potest non tantum quia t habet valorem arbitrarium, sed <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> quia ζ
+      <lb/>quomodocumque data esse concipitur per x, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> per consequens
+      <lb/>etiam per z) = <formula>ζ z^r s b^−f δ^−s dx^−n−b dy^m−c</formula>. <abbr>Q. E. I.</abbr> Si quis jam
+      <lb/><rs type="person">Fagnani</rs> solutionem cum ista conferre velit, nullam fere inter
+      <lb/>eas differentiam inveniet, nisi quod mea paulo sit simplicior;
+      <lb/>fundamentum autem solutionis utrobique idem, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> quod liter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/><formula>\zeta</formula>, <formula>s</formula>, <formula>c</formula>, mihi idem significant, quod <rs type="person">Fagnano</rs> respective <formula>A : r</formula>, Θ :
+      <lb/>r, C : r.
+      <lb/>Non abs re erit hic exponere aliam methodum magis sim<pc type="hyphenation">-</pc><lb break="no"/>plicem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sine ulla exponentum incognitorum assumtione filo
+      <lb/>quasi Ariadn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>o nos ducit ad hujus Problematis solutionem. Sit
+      <lb/>iterum, ut supra, <formula>∫Xrdy^m : dx^m−1 = Log. z^a dx^b dy^c b^f δ^g ε</formula>, po<pc type="hyphenation">-</pc><lb break="no"/>natur <formula>z^a dx^b dy^c b^f δ^g ε = V^k</formula>, eritque <formula>Xrdy^m : dx^m−1 = k dV : V</formula>,
+      <lb/>multiplicando per <formula>V = z^a dx^b dy^c b^f δ^g ε</formula>, habemus <formula>XV^k </formula>
+      <lb/><formula>dx^b dy^c b^f δ^g ε = k dV</formula>, ut autem primum hujus
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis membrum integrari possit in quantitatibus per x <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>constantes tantum expressis, oportet assumere <formula>ε = ζ z^r s b^−f δ^−s </formula>
+      <lb/><formula>dx^−n−b dy^m−c</formula>, ubi ζ iterum sit qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cunque quantitas
+      <lb/>per x <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes ad libitum expressa, quo posito erit <formula>ζ z^r s </formula>
+      <lb/><formula>Xdx = k dV</formula>, cujus integralis est <formula>∫ζ z^r s Xdx = kV = kz^a dx^b </formula>
+      <lb/><formula>dy^c b^f δ^g ε = kζ z^r s dx^−n−b dy^m−c</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> quantitas constans
+      <lb/>supponenda sive <formula>ε erit = ζ z^r−t dx^−n−b dy^m−c b^−f δ^−s</formula>; qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> solu<pc type="hyphenation">-</pc><lb break="no"/>tio plane convenit cum priori, in qua s idem denotat, quod in
+      <lb/>ista −k.
+      <lb/>Quamvis autem amb<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> methodi eandem prodant differentia<pc type="hyphenation">-</pc><lb break="no"/>lem constantem supponendam, non tamen existimandum est,
+      <lb/>hanc quantitatem solam esse, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> propositam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem inte<pc type="hyphenation">-</pc><lb break="no"/>grabilem reddat, dantur enim plures ali<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> positiones differentia<pc type="hyphenation">-</pc><lb break="no"/>lis constantis non content<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in formula nostra inventa, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> idem
+      <lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stant, ut jam olim in exemplo particulari ostendi in <abbr>art.</abbr> 5
+      <lb/><abbr>Tom.</abbr> 29 <abbr>Diar.</abbr> <abbr>Ital.</abbr> Et sane proposita <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio facillime ad <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tionem differentialem primi gradus reducitur ponendo hanc
+      <lb/>quantitatem <formula>P dx^{+b} dy^{+c}</formula> constantem, ubi per P intelligo quanti<pc type="hyphenation">-</pc><lb break="no"/>tatem quomodocunque expressam per x, y <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes; faci<pc type="hyphenation">-</pc><pb facs="https://iiif.archivelab.org/iiif/s1id13207050$114/canvas" n="108" source="#quelle2"/>
+      <lb break="no"/>endo enim hanc hypothesin habebimus <formula>dP/P + bδdx/dx + cδdy/dy = 0</formula>, id
+      <lb/>quod propositam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem mutat in hanc <formula>XYdy^n : dx^{n-</formula>
+      <lb/><formula>1} = adz/z + dP/P + fdb/b + gdδ/δ</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> continet tantum differentialia
+      <lb/>primi gradus, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in qua separatio indeterminatarum <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ulterior
+      <lb/>integratio dependet a diversitate valoris ipsius P. In casu speciali
+      <lb/>quando <formula>X=x, Y=1:yy, n=1, z=x, a=1, b=1, c=-1, </formula>
+      <lb/><formula>h=y, f=1, g=0</formula>, separantur indeterminat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ponendo con<pc type="hyphenation">-</pc><lb break="no"/>stantem <formula>Ax^p dx dy</formula> id est <formula>P=Ax^p</formula>, ubi p exponentem arbitrari<pc type="hyphenation">-</pc><lb break="no"/>um, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> A quomodocunque ex y <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantibus compositam quan<pc type="hyphenation">-</pc><lb break="no"/>titatem denotat, eritque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio integralis <formula>(p-1)A^{1:(1-p)}y^{1:(p-1)}</formula>
+      <lb/><formula>x^{-1} = ∫A^{1:(1-p)}y^{(3-2p):(p-1)}dy</formula>. Imo, si dicendum quod res
+      <lb/>est, ille qui proponit inveniendam Curvam satisfacientem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tioni allegat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> generali <formula>XYdy^n : dx^{n-1} = adz/z + bddx/dx + cddy/dy + fdb/b + gdδ/δ</formula>
+      <lb/>nec supponit differentialem aliquam constantem, nec
+      <lb/>ponit <formula>c = – b</formula>, similis est illi, qui proponeret inveniendum ali<pc type="hyphenation">-</pc><lb break="no"/>quem numerum unitate <abbr>ex. gr.</abbr> majorem alio numero, nec diceret
+      <lb/>quem numerum intelligat per istum alium numerum; nam
+      <lb/>quemadmodum in hoc casu nullus esset numerus, qui qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stioni
+      <lb/>non satisfaceret, ita <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> in illo casu nulla est Curva, nullaque
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio integralis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proposit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationi differentio-diffe<pc type="hyphenation">-</pc><lb break="no"/>rentiali non satisfaciat, quippe pro qualibet Curva proposita ipsi
+      <lb/>conveniens positio differentialis constantis inveniri potest. Sit
+      <lb/>enim <formula>dy = Bdx</formula> (ubi per B intelligo quantitatem quomodocunque
+      <lb/>expressam per x, y <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes) <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio differentialis primi
+      <lb/>gradus Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cujuscunque; ajo hanc ipsam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem <formula>dy = </formula>
+      <lb/><formula>Bdx</formula> esse integralem s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pe allegat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis a <rs type="person">Fagnano</rs> propo<pc type="hyphenation">-</pc><lb break="no"/>sit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, si nempe pro differentiali constante assumatur <formula>ζY^s b^{-f}δ^{-g}</formula>
+      <lb/><formula>dx^{-b-c}B^{sn-c}</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> assumtio semper possibilis est, excepto s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pe
+      <lb/>memorato casu quando <formula>c = – b</formula>, adeo ut nova ratione probata
+      <lb/>sit veritas asserti mei, quod Problema <rs type="person">Fagnani</rs>, si modo sit distinct<pc type="hyphenation">-</pc><lb break="no"/>um Problema, quod aliquam vel aliquas Curvas, ex omnibus <pb facs="https://iiif.archivelab.org/iiif/s1id13207050$115/canvas" n="109" source="#quelle2"/>
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in mundo existunt, seligendas vel inveniendas proponat,
+      <lb/>necessario supponat aliquam differentialem constantem vel c
+      <lb/>esse = – b.
+      <lb/>Ceterum recte observatum est a <rs type="person">Fagnano</rs>, posse formulam
+      <lb/>inventam differentialis constantis etiam inservire resolvend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>huic <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationi <formula>XYdxdy^n : dω^n = adz/z + bddω/dω + cddy/dy + fdb/b + </formula>
+      <lb/><formula>gdδ/δ</formula>, cujus integralis invenitur <formula>∫ζ^{-1:s}z^{-a:s}Xdx = -sζ^{-1:s}z^{-a:s}Y^{-1}dω^n dy^{-n}</formula>
+      <lb/>posita constante <formula>ε = ζY^s b^{-f}δ^{-g}dω^{-sn-b}dy^{sn-c}</formula>; in
+      <lb/>casu igitur particulari hujus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationis <formula>dxdω : εdy = </formula>
+      <lb/><formula>adx/x - ddω/dω + ddy/y</formula> (in qua nulla differentialis constans ponitur, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ubi ε signi<pc type="hyphenation">-</pc><lb break="no"/>ficat radium circuli osculatoris datum per x <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> constantes, <formula>dω² = </formula>
+      <lb/><formula>dx² + dy²</formula>, <formula>a=1</formula>, quando ordinat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in puncto quodam
+      <lb/>coeunt, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>=0</formula>, quando sunt parallel<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>) habebimus ponendo <formula>X=1:ε, </formula>
+      <lb/><formula>Y=1, n=-1, z=x, b=-1, c=1, f=0, g=0, ζ=1, s=-1</formula>, pro integrali qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita <formula>∫x^a </formula>
+      <lb/><formula>dx/ε = x^a dy:dω</formula> (omitto additionem constantis ad quantitatem <formula>∫</formula>
+      <lb/><formula>x^a dx/ε</formula> ob rationem supra indicatam)
+      <lb/>quam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem debita cautela tractando, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> substituendo pro
+      <lb/>dω ejus valorem, obtinebitur <formula>dy = dx[(∫x^a dx/ε):(x^{2a}-(∫</formula>
+      <lb/><formula>x^a dx/ε)^2)]^{1:2}</formula>, alia <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio quam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in <rs type="person">Fagnani</rs> scripto erronee
+      <lb/>impressa legitur.
+      <lb/>Absolutis nunc omnibus, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> neglectis multis aliis respon<pc type="hyphenation">-</pc><lb break="no"/>denda <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> monenda esse duxi, liceat mihi addere querelam de iniqua censura Abbatis <rs type="person">Lioni</rs>, Autoris <rs type="biblio">Supplementorum Diarii Italici</rs>,
+      <lb/>qui, quamvis in his rebus non versatus, non dubitavit <rs type="person">Fagnani</rs>
+      <lb/>scripto pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter alia hanc epicrisin subjungere: <quote>Frattanto potrà con
+      <lb/>piacere osservarsi dal Lettore in questa Difesa del <abbr>Sig.</abbr> Conte de <rs type="person">Fa<pc type="hyphenation">-</pc><pb facs="https://iiif.archivelab.org/iiif/s1id13207050$116/canvas" n="110" source="#quelle2"/>
+      <lb break="no"/>gnani</rs> la moderazione, degna veramente d’un uomo nobile e
+      <lb/>dotto, che egli usa nel trattare la sua causa, e nel rispondere alle
+      <lb/>ultime dure ed acerbe espressioni del suo Oppositore.</quote> Ego qui<pc type="hyphenation">-</pc><lb break="no"/>dem <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> alii neque hanc moderationem <rs type="person">Fagnani</rs>, neque duritiem
+      <lb/>aut acerbitatem in expressionibus meis invenire possumus, nisi
+      <lb/><rs type="person">Fagnanus</rs> (cui ultimis meis verbis ulcus tactum est) aliquam du<pc type="hyphenation">-</pc><lb break="no"/>ritiem velit latere in adverbio centies, pro quo substituat si velit
+      <lb/>s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pius. Sane ad manus mihi sunt liter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Celeberrimorum Virorum,
+      <lb/>qui tum expressiones meas modestissimas appellarunt, tum <rs type="person">Fa<pc type="hyphenation">-</pc><lb break="no"/>gnani</rs> scriptum Lipsi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> impressum (in quo tamen multa expressi<pc type="hyphenation">-</pc><lb break="no"/>ones in <rs type="biblio"><abbr>Suppl.</abbr> <abbr>Diar.</abbr> <abbr>Ital.</abbr></rs> occurrentes correct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt) felle plenum
+      <lb/>esse deprehenderunt; adeo ut a Collectoribus Actorum dubita<pc type="hyphenation">-</pc><lb break="no"/>tum fuerit, an esset <rs type="biblio">Actis</rs> inserendum. Si Lectoris interest, ap<pc type="hyphenation">-</pc><lb break="no"/>ponerem hic longum indicem, excerptum ex <rs type="person">Fagnani</rs> ultima
+      <lb/>defensione, exemplorum istius moderationis, digne scilicet
+      <lb/>homine nobili <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> docto. Sin autem quis sit, qui judicare velit, uter
+      <lb/>nostrum magis sectatus sit tam veritatem quam modestiam, illius
+      <lb/>judicium, si scripta nostra attente perlegerit, impavidus expecto,
+      <lb/>non dubitans, pronunciatum iri illud Poet<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>: Dat veniam corvis,
+      <lb/>vexat censura columbas.</p>
+
+</div>
+</body>
+</text>
+</TEI>

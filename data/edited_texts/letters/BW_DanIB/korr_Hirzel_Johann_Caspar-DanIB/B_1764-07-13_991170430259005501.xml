@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430259005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Hans Caspar Hirzel. Basel, 13. Juli 1764</title>
+          <title type="alt">1764.07.13: Bernoulli, Daniel (1700-1782) an Hirzel, Johann Caspar ()</title>
+          <title type="alt">000055085</title>
+          <title type="alt">1764-07-13_Bernoulli_Daniel-Hirzel_Johann_Caspar</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430259005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430259005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Hirzel, Johann Caspar (1725-1803)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms FA Hirzel 230, Nr.135</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430259005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972407017405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055085</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basel</origPlace>
+              <date when="1764-07-13">den 13.ten jul. 1764</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1764-07-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119020890">Hirzel, Johann Caspar</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430259405501" type="prev"/>
+          <ptr target="B_991170430114905501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Hirzel_Johann_Caspar-DanIB" corresp="pers_DE-588-119020890" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-135542146">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1751-1834)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120475030">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1759-1789)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136318541">Bernoulli, Nikolaus</persName>
+            <note type="lebensdaten">(1754-1841)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-30" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-06-30" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-06-30" who="RG">NER Erkennung</change>
+        <change when="2024-03-08" who="RG">Orte wurden referenziert, kleinere Anpassungen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/4175541/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="4175559" n="1"/>
+  <opener><salute>HochEdelgebohrner HochGelahrter</salute></opener>
+  <opener><salute>Insonders HochzuVerehrender Herr!</salute></opener>
+  <p>Ich habe den überschickten zwejten theil der Vortreflichen Abhandlungen Ihrer Prejsswürdigen Naturforschenden Geselschaft sampt dem verbindlichen Schreiben, mit welchem Ew. HEdGb. solchen zu begleiten beliebt haben, richtig empfangen. Bejde haben mein Hertz mit erkentlichkeit und Verehrung von newem angefült; Ich ersuche demnach Ew. HEdGb meiner immerwährenden Hochachtung und gäntzlichen ergeben heit für dero Verdienst-volle person versichert zu sejn und zugleich die erleüchtete Gesellschafft, welche mir so viele güte bezeüget, dieser meiner nehmlichen ehrerbietigsten Gesinnungen zu versicheren.</p>
+  <p>Wan die verfertigte plans so vielen schwürigkeiten unterworffen, so solte man wenigstens die mortalitets Listen, zum besten der gantzen menschlichkeit und insonderheit unseres werthen Vatterlands, trachten genaw zu verfertigen; die publication derselben könte keinen anstoss lejden. Wie nützlich wäre es, wan man <pb facs="4175560" n="2"/> von jedem clima die Verhältniss der kranckheiten wüste, welche die menschen wegraffen und darauss die morbos endemios recht bestimmen könte; unter diesem nammen wären alle die kranckheiten zu begrejffen, welche in einer grösseren Verhältniss als an derer orten die einwohner überfallen und hinreissen. Mich dunckt zum exempel dass in unserem <rs key="place_GEO-2661604" type="place">Basel</rs> mehr leüt von schlagflüssen überfallen werden als anderer orten; Wäre diese muhtmassung gegründet, so müste man auff die ursach bedacht sejn und alles wohl untersuchen; doch ist auch hierbej zu beobachten, dass alle Stätte, welche auss nicht alzuvielen und zwar unveränderlichen Familien bestehen, nach Verlauff vieler jahren mit einer erblichen und praedominierenden beschaffenheit behafftet werden. So haben wir alhier ansehenliche familien, darin die schlag flüsse gemeiner sind als in anderen. In unserer Statt gibt es viele krumme und bucklichte leüt, da ich in der volckreicher Statt <rs key="place_GEO-498817" type="place">Petersburg</rs> mich nicht erinnere einen eintzigen solchen menschen gesehen zu haben. Die pocken sind zwar in gantz <rs key="place_KON-europa" type="place">Europa</rs> gemein, doch scheinen sie in vielen stucken anderst geartet zu sejn in unseren <rs key="place_VER-basela" type="place">landen</rs> als in <rs key="place_GEO-2643743" type="place">Londres</rs>; In dieser volckreichen Statt ist es gar selten, dass in einem jahr weniger als der zwantzigste theil aller sterbenden von den pocken sterben; in einigen jahren aber wird so gar der sechste oder wenigstens der siebende theil von dieser eintzigen kranckheit weggerissen; überhaupt giltet es in heütigen Zeiten den ejlfften theil und beobachtet man, von 10 zu 10 jahren, dass diese lejdige kranckheit immer gefährlicher wird, welcher die einwohner zu letst getzwungen ihre Zuflucht zur einpfropff ung zu nemmen. <pb facs="4175561" n="3"/> In <rs key="place_GEO-2988507" type="place">Paris</rs> muss diese kranckheit eine andere Verbindung mit dem Alter haben, als in unseren <rs key="place_VER-basela" type="place">landen</rs>, alwo gar selten leüte nach ihrem 24ten jahr solcher noch unterworffen sind, da doch das grawe alter von 60 biss 70 und mehr jahren in <rs key="place_GEO-2988507" type="place">Paris</rs> gar offt darvon noch überfallen wird. Mein älterer <rs key="pers_DE-588-117589136" type="person">Bruder</rs> hat <rs key="pers_DE-588-116170654 pers_DE-588-135542146 pers_DE-588-136318541 pers_DE-588-120475030" type="person">4 Söhne</rs> durch die einpfropffung von dieser gefahr befrejet und zwar seinen <rs key="pers_DE-588-120475030" type="person">jüngsten sohn</rs> in diesem letsten monat in welchem ein anderer <rs type="person">Neveu</rs> hat sterben müssen von den natürlichen pocken. Solte man in <rs key="place_GEO-2657896" type="place">Zürich</rs> bereits eine samlung von beobachtungen über die pocken und dem alter, in welchem man darvon überfallen werden, haben, so wünschte ich communication darvon zu er= halten. Die zunehmende alters schwachheiten haben mich verhindert der werthesten und Hochgeschätzten Schintznacher Versamlung bejzuwohnen. Ich schätze mich wahrhafftig glücklich dass ich wenigstens einmahl diese aussnehmende ehr genossen. Ich habe sie gesehen und werde sie lebens länglich verehren. Gott erhalte die sämtliche MitGlieder bej den Ejdgenossischen Gesinnungen, welche mich so sehr gerühret und erbawet haben. Ist es mir möglich, so werde ich noch einmahl kommen, Ihnen mündlich meine Verehrung zu bezeügen. Insonderheit wurde es mir sehr erfreülich sejn Ew. HEdgb. auffwarten zu können und dieselbe der immerwährenden Hochachtung zu versicheren mit welcher ich die ehr habe stäts zu verbleiben Ewer HochEdelgebohren Meines HochzuVerehrenden Herrn Gehorsamster Diener <rs key="pers_DE-588-118656503" type="person">Daniel Bernoullj</rs></p><closer><dateline><rs key="place_GEO-2661604" type="place">Basel</rs> den <date when="1764-07-13">13ten. jul. 1764</date></dateline></closer> <pb facs="4175562" n="4"/> <closer><address><addrLine>Adresse (mit Siegel): Monsieur Monsieur <rs key="pers_DE-588-119020890" type="person">Hirzel</rs>, tres Celebre Docteur en Medecine et Archiatre à <rs key="place_GEO-2657896" type="place">Zuric</rs>.</addrLine></address></closer>
+  <postscript><p>Wan die verfertigte plans so vielen schwürigkeiten unterworffen, so solte man wenigstens die mortalitets Listen, zum besten der gantzen menschlichkeit und insonderheit unseres werthen Vatterlands, trachten genaw zu verfertigen; die publication derselben könte keinen anstoss lejden. Wie nützlich wäre es, wan man von jedem clima die Verhältniss der kranckheiten wüste, welche die menschen wegraffen und darauss die morbos endemios recht bestimmen könte; unter diesem nammen wären alle die kranckheiten zu begrejffen, welche in einer grösseren Verhältniss als an derer orten die einwohner überfallen und hinreissen. Mich dunckt zum exempel dass in unserem <rs key="place_GEO-2661604" type="place">Basel</rs> mehr leüt von schlagflüssen überfallen werden als anderer orten; Wäre diese muhtmassung gegründet, so müste man auff die ursach bedacht sejn und alles wohl untersuchen; doch ist auch hierbej zu beobachten, dass alle Stätte, welche auss nicht alzuvielen und zwar unveränderlichen Familien bestehen, nach Verlauff vieler jahren mit einer erblichen und praedominierenden beschaffenheit behafftet werden. So haben wir alhier ansehenliche familien, darin die schlag flüsse gemeiner sind als in anderen. In unserer Statt gibt es viele krumme und bucklichte leüt, da ich in der volckreicher Statt <rs key="place_GEO-498817" type="place">Petersburg</rs> mich nicht erinnere einen eintzigen solchen menschen gesehen zu haben. Die pocken sind zwar in gantz <rs key="place_KON-europa" type="place">Europa</rs> gemein, doch scheinen sie in vielen stucken anderst geartet zu sejn in unseren <rs key="place_VER-basela" type="place">landen</rs> als in <rs key="place_GEO-2643743" type="place">Londres</rs>; In dieser volckreichen Statt ist es gar selten, dass in einem jahr weniger als der zwantzigste theil aller sterbenden von den pocken sterben; in einigen jahren aber wird so gar der sechste oder wenigstens der siebende theil von dieser eintzigen kranckheit weggerissen; überhaupt giltet es in heütigen Zeiten den ejlfften theil und beobachtet man, von 10 zu 10 jahren, dass diese lejdige kranckheit immer gefährlicher wird, welcher die einwohner zu letst getzwungen ihre Zuflucht zur einpfropff ung zu nemmen. In <rs key="place_GEO-2988507" type="place">Paris</rs> muss diese kranckheit eine andere Verbindung mit dem Alter haben, als in unseren <rs key="place_VER-basela" type="place">landen</rs>, alwo gar selten leüte nach ihrem 24ten jahr solcher noch unterworffen sind, da doch das grawe alter von 60 biss 70 und mehr jahren in <rs key="place_GEO-2988507" type="place">Paris</rs> gar offt darvon noch überfallen wird. Mein älterer <rs key="pers_DE-588-117589136" type="person">Bruder</rs> hat <rs key="pers_DE-588-116170654 pers_DE-588-135542146 pers_DE-588-136318541 pers_DE-588-120475030" type="person">4 Söhne</rs> durch die einpfropffung von dieser gefahr befrejet und zwar seinen <rs key="pers_DE-588-120475030" type="person">jüngsten sohn</rs> in diesem letsten monat in welchem ein anderer <rs type="person">Neveu</rs> hat sterben müssen von den natürlichen pocken. Solte man in <rs key="place_GEO-2657896" type="place">Zürich</rs> bereits eine samlung von beobachtungen über die pocken und dem alter, in welchem man darvon überfallen werden, haben, so wünschte ich communication darvon zu er= halten. Die zunehmende alters schwachheiten haben mich verhindert der werthesten und Hochgeschätzten Schintznacher Versamlung bejzuwohnen. Ich schätze mich wahrhafftig glücklich dass ich wenigstens einmahl diese aussnehmende ehr genossen. Ich habe sie gesehen und werde sie lebens länglich verehren. Gott erhalte die sämtliche MitGlieder bej den Ejdgenossischen Gesinnungen, welche mich so sehr gerühret und erbawet haben. Ist es mir möglich, so werde ich noch einmahl kommen, Ihnen mündlich meine Verehrung zu bezeügen. Insonderheit wurde es mir sehr erfreülich sejn Ew. HEdgb. auffwarten zu können und dieselbe der immerwährenden Hochachtung zu versicheren mit welcher ich die ehr habe stäts zu verbleiben Ewer HochEdelgebohren Meines HochzuVerehrenden Herrn <rs key="place_GEO-2661604" type="place">Basel</rs> den 13ten. jul. 1764 Gehorsamster Diener <rs key="pers_DE-588-118656503" type="person">Daniel Bernoullj</rs> Adresse (mit Siegel): Monsieur Monsieur <rs key="pers_DE-588-119020890" type="person">Hirzel</rs>, tres Celebre Docteur en Medecine et Archiatre à <rs key="place_GEO-2657896" type="place">Zuric</rs>. </p></postscript>
+</div>
+</body>
+</text></TEI>

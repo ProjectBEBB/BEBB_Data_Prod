@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516644905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean-Marie Bruyset père und Jean-Marie Bruyset fils an Johann II Bernoulli. Lyon,
+                        22. Mai 1773</title>
+          <title type="alt">Jean Marie Père et fils Bruyset an
+                        Johann II Bernoulli. Lyon, 22. Mai 1773</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516644905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516644905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Bruyset, Jean Marie Père et fils </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf der Adressseite Bemerkung von anderer Hand:
+                        "Bruyset, Libraire, Lyon 1773"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24391">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.20</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516644905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433590305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058068</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>24,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Lyon</origPlace>
+              <date when="1773-05-22">le 22.e may
+                                1773</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1037563018">Bruyset, Jean-Marie père</persName>
+          <persName key="pers_DE-588-1037587936">Bruyset, Jean-Marie fils</persName>
+          <placeName key="place_GEO-2996944" ref="https://d-nb.info/gnd/4036770-8">Lyon</placeName>
+          <date when="1773-05-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann II</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516997905501" type="prev"/>
+          <ptr target="B_991170516644805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Bruyset_Jean_Marie_pere-JohIIB" corresp="pers_DE-588-1037563018" type="Korrespondenz"/>
+          <ptr target="korr_Bruyset_Jean_Marie_fils-JohIIB" corresp="pers_DE-588-1037587936" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>B. kündigt die Übersendung von 6 Exemplaren der Übersetzung von Eulers Elémens
+                    d'Algebre (8°, 2 vol.) durch Joh. III B. an</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-29" who="SG">separated correspondence links for Jean-Marie Bruyset père et fils</change>
+        <change when="2005-10-04" who="FN SG">kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1064418/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1064419" n="1"/>
+  <opener><rs type="place" key="place_GEO-2661604">Basle</rs> M. <rs type="person" key="pers_DE-588-117589136">Bernoulli</rs>
+      <lb/><dateline><rs type="place" key="place_GEO-2996944">Lyon</rs> le <date when="1773-05-22">22.<hi rend="sup">e</hi> may 1773</date></dateline>
+      <lb/>Monsieur,</opener>
+  <p>Nous nous sommes empressés de remplir les intentions de Monsieur
+      <lb/>votre <rs type="person" key="GND">fils</rs> en vous expédiant par la Messagerie de <rs type="place" key="place_GEO-2973783">Strasbourg</rs> un ballotin
+      <lb/>marqué M. B. Libri <rs type="place" key="place_GEO-2661604">Basle</rs>, contenant six exemplaires en feuilles de
+      <lb/>sa traduction des Élémens d’Algebre de M.<hi rend="sup">r</hi> <rs type="person" key="pers_DE-588-118531379">Euler</rs> 8.<hi rend="sup">o</hi> 2 vol. Peut être vous
+      <lb/>aurat’il déjà prévenu de leur destination, il ne seroit cependant pas étonnant
+      <lb/>qu’il ne l’eût pas encore fait. Il ne sait pas que l’ouvrage est fini &amp; nous
+      <lb/>ne le lui apprendrons qu’en lui annonçant le départ des exemplaires que
+      <lb/>nous comptons lui envoyer à <rs type="place" key="place_GEO-2950159">Berlin</rs> dans le courant de la semaine prochaine.</p>
+  <p>Nous saisissons avec empressement cette occasion de vous assurer de la
+      <lb/>sincere &amp; respectueuse considération avec laquelle nous avons l’honneur
+      <lb/>d’être,</p>
+  <closer>Monsieur,
+      <lb/>Vos trés humbles &amp; trés ob. serv.<hi rend="sup">s</hi>
+      <lb/><rs type="person" key="pers_DE-588-1037563018">Jean Marie Bruyset Pere</rs> &amp; <rs type="person" key="pers_DE-588-1037587936">fils</rs>
+<pb facs="1064420" n="2" type="empty"/>
+<pb facs="1064421" n="3" type="empty"/>
+<pb facs="1064422" n="4"/>
+    <address><addrLine>Monsieur</addrLine>
+      <addrLine>Monsieur <rs type="person" key="pers_DE-588-117589136">Bernoully</rs> Membre de</addrLine>
+      <addrLine>diverses Académies</addrLine>
+      <addrLine>A <rs type="place" key="place_GEO-2661604">Basle</rs></addrLine></address></closer>
+</div>
+</body>
+</text></TEI>

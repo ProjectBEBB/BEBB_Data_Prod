@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524790405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 30. November 1776</title>
+          <title type="alt">1776.11.30: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079640</title>
+          <title type="alt">1776-11-30_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524790405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524790405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+        <note type="print">
+          <p>Druck t[eil]w., franz. Übers.: Recueil pour les astronomes / par M. Jean Bernoulli. - Berlin. - Suppl.: Nouvelles littéraires de divers pays ... - 2(1777), [S.] 8-9</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128979">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.160</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524790405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440052105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079640</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Wien]</origPlace>
+              <date when="1776-11-30">die 30 Nov. 1776</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1776-11-30">die 30 Nov. 1776</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524790505501" type="prev"/>
+          <ptr target="B_991170524790305501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1421664305">Rain, Ignaz von</persName>
+            <note type="lebensdaten">(1737-XXXX)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1421664038">Scheuten, Abraham</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-142166464X">Taucher, Franz</persName>
+            <note type="lebensdaten">(1738-1820)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell apologises for delaying replies because of poor health, travel in Hungary, and unwelcome official business. He thanks Johann III Bernoulli for three copies of the Nouvelles littéraires, forwards copies to Fixlmillner and Weiss, and promises material on astronomy in the Habsburg lands for the continuation of Bernoulli's journal. Hell announces an appendix to the Vienna ephemerides presenting his theory of the aurora borealis. He doubts the predicted transit of a satellite of Venus across the Sun on 1 June 1777 and criticises the publication of Scheuten's supposed observation. Hell reports personnel changes at the Vienna observatory after former Jesuits Rain and Gussmann left for teaching posts in Lviv, and supplies observations of eclipses of Jupiter's satellites from Vienna and Trnava while identifying errors in some recorded times.</p>
+
+        <p>Maximilian Hell entschuldigt seine verspäteten Antworten mit schlechter Gesundheit, Reisen in Ungarn und unangenehmen Amtsgeschäften. Er dankt Johann III Bernoulli für drei Exemplare der Nouvelles littéraires, leitet Exemplare an Fixlmillner und Weiss weiter und verspricht für die Fortsetzung von Bernoullis Zeitschrift Nachrichten über die Astronomie in den habsburgischen Ländern. Hell kündigt einen Anhang zu den Wiener Ephemeriden mit seiner Theorie des Nordlichts an. Er bezweifelt den vorausgesagten Durchgang eines Venusmondes vor der Sonne am 1. Juni 1777 und kritisiert die Veröffentlichung von Scheutens angeblicher Beobachtung. Nach dem Wechsel der ehemaligen Jesuiten Rain und Gussmann auf Lehrstühle in Lemberg berichtet Hell über personelle Veränderungen an der Wiener Sternwarte. Er übermittelt Beobachtungen von Verfinsterungen der Jupitermonde aus Wien und Trnava und weist auf Fehler in mehreren Zeitangaben hin.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Fachbegriffe und offene Aussagen mit XML-Kommentaren versehen. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-03" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529710/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+
+<pb facs="3529711" n="160r"/>
+<opener rend="center"><salute rend="center">
+<lb/>Illustri, Doctissimo, ac Celeberrimo Domino
+<lb/>Domino <rs type="person" key="pers_DE-588-116170654">Bernoullio</rs> <rs type="organisation" key="org_DE-588-15514-7">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>Scientiarum Berolinensis</rs> Socio, et
+<lb/>Astronomo longe celeberrimo <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice>
+<lb/>
+<lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs> <abbr>S. P. D.</abbr>
+</salute></opener>
+            <p><lb/>Non sine rubore confiteor negligentiam meam, qua ad ternas pretiosis<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>simas Tuas Vir celeberrime <rs type="lostletter">litteras</rs> responsum hucusque distuli;
+<lb/>etsi enim partim valetudinis infirmioris, partim itinerum per
+<lb/><rs type="place" key="place_VER-ungarn">Ungariam</rs> factorum, partim etiam negotiorum mihi minime
+<lb/>gratorum causa <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> commercio litterario impeditus fuerim, oporte<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>bat me tamen acceptarum Tuarum <rs type="lostletter">litterarum</rs> saltem mentionem,
+<lb/>vel tribus, ut ajunt, verbis facere, quod ipsum nunc occupatissimus
+<lb/>licet, facio, dum proxime fusi<del>us</del><add>or</add>ibus, quas ad <choice><orig>TE</orig><reg>Te</reg></choice> Vir humanissime
+<lb/>paro <rs type="letter">litteris</rs>, statum Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> austriac<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, et Regnorum h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>reditariorum
+<lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentem, et futurum descripturus sum.
+</p><p><lb/>Exemplaria terna excellentissimi atque utilissimi opusculi, <rs type="biblio">Nouvelles
+<lb/>Litteraires</rs>, mihi reddita significo, pro quibus Tibi maximas ago gratias,
+  <lb/>easdem reddunt amici nostri <abbr>R. D.</abbr> <rs type="person" key="pers_DE-588-116586621">Fixlmillner</rs>, et <abbr>R. D.</abbr> <rs type="person" key="pers_DE-588-119201976">Weiss</rs> Astro<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nomi, quibus inscripta <rs type="biblio">Exemplaria</rs> reddenda curavi. Hortor <choice><orig>TE</orig><reg>Te</reg></choice>
+<lb/>itaque, <add>atque</add> oro maxime, ut promissam continuationem utilissimi hujus
+<lb/><rs type="biblio">Diari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <abbr>astron.</abbr></rs> porr<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> prosequaris, utque eam prosequi valeas, operam
+<lb/>dabo, ut quidquid ad meam pervenerit notitiam de Re astronomica,
+  <lb/><choice><orig>TEcum</orig><reg>Tecum</reg></choice> commune faciam quantocyus; ea de Causa, fusam, ut dixi,
+<lb/>status astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Regnorum h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>reditariorum austriacorum descriptio<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>nem proxime, una cum meis <rs type="biblio">Ephemeridibus anni <date when="1777">1777</date></rs><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> transmittam;
+<lb/>si opusculum germanicum (<rs type="biblio"><choice><orig>das</orig><reg>Das</reg></choice> gelehrte Oesterreich</rs>) quod nunc sub pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>lo
+<lb/>est, et cum fine anni perfectum speratur, paratum ad id tempus fuerit, illud
+<pb facs="3529712" n="160v"/>
+<lb/>quoque adjungam, usui fortassis Tibi futurum.
+</p>
+<p>
+<lb/><rs type="biblio">Appendicem mearum <rs type="biblio">Eph. <date when="1777">1777</date><choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs> feci Theoriam meam <hi rend="u">Auror<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Borealis</hi></rs>,
+<lb/>quam ductu mearum observationum in <rs type="place">Zona frigida</rs> spatio unius an<unclear reason="binding">ni</unclear>
+<lb/>factarum, veram arbitror. Facio quoque mentionem Satellitis Veneri<unclear reason="binding">s</unclear>
+<lb/>quem <abbr>cel.</abbr> <abbr>D.</abbr> <rs type="person" key="pers_DE-588-118568876">Lambert</rs> in <rs type="biblio">Eph. Berol. ad an. <date when="1777">1777</date> et <date when="1778">1778</date></rs> promulgav<unclear reason="binding">it</unclear>
+<lb/>transiturum ante discum Solis die <date when="1777-06-01">1 Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1777</date>, si nempe realis est,
+<lb/>et ejus <rs type="biblio">Tabul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> cum c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>lo congruant; id unum opt<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>ssem, ut <rs type="letter">litteras</rs> Do<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>mini <rs type="person" key="pers_DE-588-1421664038">Scheutten</rs> in <rs type="biblio">Eph. anni <date when="1778">1778</date></rs> in publicum productas, silentio
+<lb/>suppressisset; videri enim posset, quasi hac unica Domini <rs type="person" key="pers_DE-588-1421664038">Scheutten</rs>, nescio
+<lb/>qua visione, imperitiam, aut saltem negligentiam omnium Astronom<unclear reason="binding">o<pc type="hyphenation">-</pc></unclear>
+  <lb break="no"/><pc type="hyphenation">-</pc>rum Transitum Veneris <date>die 6 Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> per orbem universum observan<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tium, accusare vellet.
+</p><p><lb/>Bini, quos in fronte mearum <rs type="biblio">Eph. anni <date when="1776">1776</date></rs> legisti, Astronomi, <abbr>R. D.</abbr> <rs type="person" key="pers_DE-588-1421664305">de
+<lb/>Rain</rs>, et <abbr>R. D.</abbr> <rs type="person">Gusmann</rs>, anno eodem <rs key="org_DE-588-90532-X" type="organisation">Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Viennensi</rs> vale dix<del>i</del><add>er<unclear reason="binding">am</unclear></add>
+<lb/>ambo <rs type="place" key="place_GEO-702550">Leopolim</rs> (<rs type="place" key="place_GEO-702550">Lemberg</rs>) in <rs type="place" key="place_GEO-562153">Poloniam austriacam</rs> profecti Cathedra<unclear reason="binding">s</unclear>
+<lb/>Philosophicas, abject<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> astronomi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>, suscep<choice><orig><g ref="#ehat">ê</g></orig><reg>e</reg></choice>re, D<supplied>.</supplied><hi rend="sup u">us</hi> <rs type="person" key="pers_DE-588-1421664305">Rain</rs> Mat<unclear reason="binding">he</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>maticam, Physicam autem <abbr>D.</abbr> <rs type="person">Gusmann</rs>, horum amborum loco unicus
+<lb/>mihi datus est Adjunctus <abbr>D.</abbr> <rs type="person">Antonius Ma<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>r</rs> ex Jesuita quidem, sed
+<lb/>in calculis astronomicis primum instruendus; at de his alias.
+</p>
+
+<p><lb/>Mandato Tuo obsequens apertas Tuas ad <abbr>R. D.</abbr> <rs type="person" key="pers_DE-588-116586621">Fixlmillner</rs> datas <rs type="lostletter">litteras</rs> legi
+  <lb/>nescio, an intentionem Tuam assecutus sim, dum suspicor, <choice><orig>TE</orig><reg>Te</reg></choice> hac lecti<unclear reason="binding">o</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ne mihi indicare voluisse, si quas haberem correspondentes <abbr>observ.</abbr> <abbr>Sate<unclear reason="binding">l.</unclear></abbr>
+<lb/>Jovis Domino <rs type="person" key="pers_DE-588-116586621">Fixlmillnero</rs> <rs type="biblio">recensitas</rs>, easdem Tibi communis facerem
+<lb/>sunt autem dierum <date>22</date> et <date>24 Sept.</date><supplied>,</supplied> <date>1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> et <date>8 <abbr>octob.</abbr></date> anni <date when="1775">1775</date>, ex his me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> bin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>sunt sequentes:
+  <table rows="2" cols="4">
+    <row>
+      <cell rend="align-right">die 22 sept. <abbr>Im.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> h.</cell>
+      <cell rend="align-right">16.</cell>
+      <cell rend="align-right">31′.</cell>
+      <cell rend="align-right">26″.</cell>
+    </row>
+    <row>
+      <cell rend="align-right">1 <abbr>oct.</abbr> − − − − </cell>
+      <cell rend="align-right">12,</cell>
+      <cell rend="align-right">56.</cell>
+      <cell rend="align-right">8.</cell>
+    </row>
+  </table>
+</p>
+<p>
+<lb/>Ex <rs type="place" key="place_GEO-3057124">Tyrnaviensibus</rs>, quas in <rs type="biblio">Ephemeridibus meis <abbr>A.</abbr> <date when="1777">1777</date></rs> insertas leges sunt:
+  <table rows="3" cols="5">
+    <row>
+      <cell rend="align-right">22 <abbr>sept.</abbr> <abbr>Im.</abbr> I<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>h.</abbr></cell>
+      <cell rend="align-right">16.</cell>
+      <cell rend="align-right">36′.</cell>
+      <cell rend="align-right">3″.</cell>
+      <cell><rs type="person" key="pers_DE-588-119201976"><abbr>D.</abbr> Weiss.</rs>.</cell>
+    </row>
+    <row>
+      <cell rend="align-right">1 <abbr>oct.</abbr> − − − −<unclear reason="illegible"><hi rend="sup">*</hi></unclear></cell>
+      <cell rend="align-right">12.</cell>
+      <cell rend="align-right">58.</cell>
+      <cell rend="align-right">54.</cell>
+      <cell><rs type="person" key="pers_DE-588-142166464X">D. Taucher</rs> Adjunctus <abbr>Astr.</abbr>
+      </cell>
+    </row>
+    <row>
+      <cell rend="align-right">8 <abbr>oct.</abbr> − − − −</cell>
+      <cell rend="align-right">14.</cell>
+      <cell rend="align-right">56.</cell>
+      <cell rend="align-right">23.</cell>
+      <cell><rs type="person" key="pers_DE-588-142166464X">D. Taucher</rs> idem.
+      </cell>
+    </row>
+  </table>
+</p>
+<p>
+<lb/>Sed ex his diei <date>1 <abbr>oct.</abbr></date> manifeste erronea est saltem 2′<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> diei 8<supplied>.</supplied><hi rend="sup u">v<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> videtur bona. <choice><orig>diei</orig><reg>Diei</reg></choice> 2<unclear reason="illegible">4</unclear><unclear>.</unclear><hi rend="sup u">t<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>
+<lb/><abbr>Sept.</abbr> nullam habeo correspondentem.
+</p>
+
+ <closer>
+   <salute><lb/>Vale interea Vir <abbr>celeb.</abbr> juxta ac humanissi<unclear reason="binding">me</unclear>
+<lb/>meque Tibi comendatum habe.
+</salute><dateline><lb/>h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c raptim die <date when="1776-11-30">30 <abbr>Nov.</abbr> 1776</date>.
+</dateline></closer>
+</div>
+
+
+    </body>
+  </text>
+</TEI>

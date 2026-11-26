@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430197405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Johannes Gessner. Ohne
+                        Ort, Oktober 1759</title>
+          <title type="alt">1759.10: Bernoulli, Johann
+                        (1710-1790) an Geßner, Johannes (1709-1790)</title>
+          <title type="alt">000058428</title>
+          <title type="alt">1759-10_Bernoulli_Johann-Ge_ner_Johannes</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430197405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430197405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Gessner, Johannes (1709-1790) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms M 18.15</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430197405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406849005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058428</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1759-10">[1759.10.00]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1759-10"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119331136">Geßner, Johannes</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516767305501" type="prev"/>
+          <ptr target="B_991170430197305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Gessner_Johannes-JohIIB" corresp="pers_DE-588-119331136" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1208734237">Dollfus, Johann</persName>
+            <note type="lebensdaten">(1729-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1359323899">Dollfus, Marie Madeleine</persName>
+            <note type="lebensdaten">(1733-1772)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914148">Gessner-Escher, Katharina</persName>
+            <note type="lebensdaten">(1709-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118560166">Karl Friedrich</persName>
+            <note type="lebensdaten">(1728-1811)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118714570">Kästner, Abraham Gotthelf</persName>
+            <note type="lebensdaten">(1719-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568876">Lambert, Johann Heinrich</persName>
+            <note type="lebensdaten">(1728-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Serafin, Dominique de</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-138483922">Spleiß, Thomas</persName>
+            <note type="lebensdaten">(1705-1775)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/4878282/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/4878282/canvas/4898968" n="1"/>
+  <p> J’ai reçû, Monsieur mon cher ami, vôtre lettre du 19. 7bre et toutes celles que je reçois de vous me font un plaisir bien sensible; elles sont toutes marquées au coin de cette véritable amitié, de ce caractère d’esprit et de coeur qui vous distingue si bien du commun des hommes et qui depuis que j’ai le bonheur de vous connoitre vous ont tellement gagné mon amitié et mon estime (si on peut l’appeller un gain) qu’il n’y a que la mort qui puisse y apporter le moindre changement. </p>
+  <p> Rien n’est plus raisonnable ni plus consolant que la reflexion que vous faites à l’occasion de la maladie et de la mort de feu M. de Maupertuis; c’est sans doute avec les mourrants qu’on peut apprendre à mourir, cette occasion m’a fourni une leçon bien ample; Dieu veuille que j’en profite de plus en plus et que les longues souffrances et la mort de mon cher ami m’ayent appris non seulement à mourir mais aussi à bien vivre aussi longtems qu’il plaira à la Provi dence de m’accorder la vie. </p>
+  <p> Mon <rs type="person" key="pers_DE-588-1208734237">Neveu</rs> et sa <rs type="person" key="pers_DE-588-1359323899">femme</rs> se sont fort loués de la reception tout à fait polie et gracieuse que vous leur avés faite et je vous en rens mille graces. </p>
+  <p> L’accident arrivé à Me. Gesner m’a fait beaucoup de peine; <pb facs="https://www.e-manuscripta.ch/i3f/v20/4878282/canvas/4898969" n="2"/> il est heureux cependant qu’il n’ait pas eu de plus mauvaises suites et qu’elle en soit parfaitement rétablie; Dieu la garde de tout autre malheur et la conserve aussi bien que vous mon cher ami, pendant une longue suite d’années en parfaite santé et en prospérité. </p>
+  <p> Si vous voyés le S. Seraphin je vous prie de le saluer de ma part et de lui dire que j’ai reçû sa lettre qui me servira de reçû. il auroit bien fait de stipuler en quelles espèces et sur quel pied les 100 devoient lui être payés, car dans les Etats du Marggrave si on dit simplement 100 , l’Ecû neuf est compté pour <formula>40\frac{1}{2}</formula> btz et il a même ce cours ici à Bâle, contre ce qu’on appelle de la monoye nouvelle. </p>
+  <p> Sur ce que vous me dites, je doute que M. Spleiss, qui a deja un établissement chès lui et qui n’est plus dans sa première jeunesse accepte les conditions que lui offre la Société Impériale d’Augsbourg; mais il me semble que ce seroit bien le fait de M. Lambert, qui n’a rien à perdre et qui par conséquent ne devroit pas être fort difficile; d’autre côté il seroit aussi trés fort lui même le fait de la Société, il a beaucoup de talents, de la saga cité, il est encore jeune et il est à présumer qu’il se perfectionnera de plus en plus; cependant ne trouvés vous pas qu’il abonde un peu en son sens? </p>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/4878282/canvas/4898970" n="3"/>
+  <p> Je ne crois pas que M. Euler ait encore trouvé un ouvrier qui ait pû lui faire un telescope suivant la nouvelle construction qu’il propose dans les mémoires de l’Académie; M. de Maupertuis qui prenoit cette affaire fort à coeur trouvoit que M. Euler ne la prenoit pas assés à coeur et qu’il craignoit trop la dépense quoiqu’il lui ait offert de l’argent de l’Academie tant qu’il en voudroit et qu’il en faudroit pour venir à bout de son entreprise. </p>
+  <p> Voudriés vous bien me dire si on trouve le cours de Mathematiques de M. Kaestner à Zuric ou bien si vous pourriés m’en procurer un Exemplaire; combien il aura de parties et quel en est le prix. </p>
+  <p> On a jugé à propos de donner une autre forme à notre Catalogue des Professeurs et on souhaite qu’il soit repandu dans le public, c’est pourquoi je prens la liberté d’en joindre ici deux exemplaires. </p>
+  <p> Oserois je, mon cher ami, avant que de finir ma lettre vous faire une prière; vous avés la bonté de m’en voyer les Dissertations que vous soutenés annuellement et vous n’ignorés pas sans doute le cas que j’en fais; or il m’en manque quelques unes et si vous aviés un exemplaire de reste de celles qui me manquent vous m’obligeriés beaucoup si vous vouliés bien m’en regaler. Voici celles que j’ai suivant les années de leur impression. 1742 - 1749 inclus. 1751 - - - - 1755 incl. 1757 et 58. </p>
+  <p> Adieu mon cher ami, portés vous bien et aimés moi toujours. J. Bernoulli </p>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/4878282/canvas/4898971" n="4" type="empty"/>
+</div>
+</body>
+</text></TEI>

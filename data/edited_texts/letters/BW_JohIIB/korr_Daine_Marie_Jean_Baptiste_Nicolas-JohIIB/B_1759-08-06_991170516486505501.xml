@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516486505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Marius-Jean-Baptiste-Nicolas Daine an Johann II Bernoulli. Paris, 06. August 1759</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516486505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516486505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136056">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.947-948</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516486505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433584905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058294</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1759-08-06">ce 6 aoust 1759</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1156741289">Daine, Marius-Jean-Baptiste-Nicolas</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1759-08-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516486605501" type="prev"/>
+          <ptr target="B_991170516486205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Daine_Marie_Jean_Baptiste_Nicolas-JohIIB" corresp="pers_DE-588-1156741289" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Bezieht sich auf den Tod Maupertuis'</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-08" who="NG">transkribieren angefangen</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694452/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3694453" n="947"/>
+  <opener>
+      <lb/><dateline><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Paris</rs> ce <date when="1759-08-06">6 aoust 1759</date>.</dateline>
+  </opener>
+  <p>
+      <lb/><rs type="letter">Vôtre lettre</rs> du <date when="1759-07-20">20 Juillet</date>, Monsieur, me
+      <lb/>préparoit a l’affreuse nouvelle que j’ay
+      <lb/>appris depuis et qui me penétre de la
+      <lb/>plus vive douleur. Nous avons donc
+      <lb/>perdu ce<del><gap/></del><add>t</add> cher et illustre ami, que son
+      <lb/>âge et la forçe de son temperamment
+      <lb/>sembloient nous promettre plus longtemps!
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> y a peu d’hommes que j’aye autant
+      <lb/>aimé et qui m’ayent parû aussi dignes
+      <lb/>de l’être, <rs type="biblio">sa mémoire</rs> me sera toujours
+      <lb/>chére, et si le temps adoucit mon
+      <lb/>affliction, je suis bien sûr qu’il ne
+      <lb/>l’eteindra pas. Je la mêle a la vôtre,
+      <lb/>Monsieur, vous avéz recueilli ses
+      <lb/>derniers soupris, vous luy avéz rendu
+      <lb/>les derniers devoirs et tous les soins
+      <lb/>que vous avéz pris <del><gap/></del> dans ces
+      <lb/>tristes momens et dans le cours de la
+      <lb/>maladie, qui ont dû couter beaucoup
+      <lb/>a vôtre sensibilité, ne peuvent qu’être
+<pb facs="3694454" n="948"/>
+      <lb/>infiniment precieux a la mienne et a
+      <lb/>tous ceux qui sçavent aimer.
+      <lb/>Je n’ose écrire a Madame de
+      <lb/>Maupertuis, il est trop tôt; je n’ay
+      <lb/>pas le bonheur de la connoître person<pc type="hyphenation">-</pc><lb break="no"/>nellement, mais je seray toute ma vie
+      <lb/>attaché a la vertueuse et tendre Eleonor,
+      <lb/>C’est ainsi que son mary la nommoit
+      <lb/>dans les lettres qu’il m’écrivoit. Je vous
+      <lb/>seray obligé, Monsieur, quand cela
+      <lb/>se pourra de vouloir bien luy présenter
+      <lb/>mes respects et luy témoigner mes
+      <lb/>sentimens, et d’être toujours bien
+      <lb/>persuadé de la sincérité de ceux avec
+      <lb/>lesquels j’ay l’honneur d’être Monsieur
+  </p>
+  <closer> <lb/>Vôtre très humble et très obeissant serviteur
+      <lb/>D’Aine</closer>
+</div>
+</body>
+</text>
+</TEI>

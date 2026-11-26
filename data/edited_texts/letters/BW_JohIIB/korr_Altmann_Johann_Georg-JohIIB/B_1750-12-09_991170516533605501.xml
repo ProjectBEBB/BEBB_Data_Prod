@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516533605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Georg Altmann an Johann II Bernoulli. Bern, 09. Dezember 1750</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+          <persName key="pers_f500_0006">
+            <surname>Gabbe</surname>
+            <forename>Nils</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516533605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516533605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Johann II B. hat Maupertuis kontaktiert. Altmann will sich vorstellen. Er beruft sich auf seinen Briefwechsel mit Varenne de Beost der ebenfalls "naturaliste" ist</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-49756">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 677:Bl.109</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516533605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433445205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057915</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berne</origPlace>
+              <date when="1750-12-09">ce 9 xbre 1750 (9. Dezember 1750)</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117761419">Altmann, Johann Georg</persName>
+          <placeName key="place_GEO-2661552" ref="https://d-nb.info/gnd/4005762-8">Bern</placeName>
+          <date when="1750-12-09"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516533705501" type="prev"/>
+          <ptr target="B_991170516533505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Altmann_Johann_Georg-JohIIB" corresp="pers_DE-588-117761419" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Varenne de Béost</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-27" who="SG">Manuelle Prüfung der Transkription</change>
+        <change when="2026-06-22" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2026-04-13" who="NG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1588345/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+
+<pb facs="1587037" n="109r"/>
+
+  <opener><dateline><date when="1750-12-09">9 Dec. 1750</date>.</dateline>
+      <lb/><salute>Monsieur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> trés honoré Ami.</salute></opener>
+  <p>
+      <lb/>C’est un effet de Votre bonté, que Vous voulés bien
+      <lb/>Vous interesser auprés <abbr>Monsr.</abbr> <rs type="person">de Maupertuis</rs>, et je
+      <lb/>n’en doute pas, que par votre Canal, <abbr>Mr.</abbr> <rs type="person">Maupertuis</rs>
+      <lb/>me fera l’honneur de me proposer. Pour repondre
+      <lb/>à la question que vous me faites, j’ai l’honneur
+      <lb/>de vous dire, que l’on m<supplied>’</supplied>a fait la proposition à
+      <lb/><rs type="place">Francfort</rs> l’ann <date>1743</date>. <choice><orig>mais</orig><reg>Mais</reg></choice> je ne crois pas, que
+      <lb/>ce <rs type="person">Baron Prussien</rs>, avec le quel j’avois fait connoissance
+      <lb/>aie jamais fait mention de moi à <rs key="place_GEO-2950159" type="place">Berlin</rs>, puisque
+      <lb/>je l’ai <choice><orig>prie</orig><reg>prié</reg></choice> de ne point se donner la peine de
+      <lb/>parler de moi.</p>
+  <p><lb/>Je suis en correspondance avec <abbr>Monsr.</abbr> <rs type="person">de Beost</rs>, et il est
+      <lb/>vrai, qu<supplied>’</supplied>il m<supplied>’</supplied>a <choice><orig>tarabuste</orig><reg>tarabusté</reg></choice> au Sujet des dés de <rs type="place">Baden</rs>,
+      <lb/>et comme il est grand naturaliste, il se proposoit
+      <lb/>d’ecrire une <rs type="biblio">dissertation</rs> sur le Sujet, et il <choice><orig>à</orig><reg>a</reg></choice>
+      <lb/>meme <choice><orig>acheve</orig><reg>achevé</reg></choice> la pièce, que je n’ai jamais vu,
+
+<pb facs="1587038" n="109v"/>
+      <lb/>et je crois que c’est cette meme <rs type="biblio">dissertation</rs>, qui <choice><orig>à</orig><reg>a</reg></choice>
+      <lb/><choice><orig>donne</orig><reg>donné</reg></choice> occasion à <abbr>Monsr.</abbr> l’<rs type="person">ambassadeur</rs> de me dire
+      <lb/>qu<supplied>’</supplied>il verroit avec plaisir quelque petite <rs type="biblio">piece</rs> de
+      <lb/>ma façon sur cette question. J’ai l’honneur d’estre
+      <lb/>avec la plus parfaite estime, et un entier devouement
+  </p>
+
+  <closer>
+      <lb/>Monsieur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> trés honoré Ami
+      <lb/>Votre trés humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> trés
+      <lb/>obeissant Serviteur
+      <lb/>Altmann.
+    <dateline><lb/><rs type="place">Berne</rs>
+      <lb/>ce <date when="1750-07-09">9 xbre</date>
+      <lb/>1750.</dateline>
+  </closer>
+</div>
+</body>
+</text>
+</TEI>

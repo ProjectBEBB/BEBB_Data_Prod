@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517066705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Nicolaus I Bernoulli. Genf, 26. September 1741</title>
+          <title type="alt">1741.09.26: Cramer, Gabriel (1704-1752) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059082</title>
+          <title type="alt">1741-09-26_Cramer_Gabriel-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517066705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517066705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren. Auf fo.2v ein eigenhändiger Zusatz von Nic. I B.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24309">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.67</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517066705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433684005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059082</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Geneve</origPlace>
+              <date when="1741-09-26">ce 26 Sept. 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1741-09-26"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517066905501" type="prev"/>
+          <ptr target="B_991170517066505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-22" who="SG FN">kollationieren begonnen</change>
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-23" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-07-23" who="RG">Mathematische Formeln (etc.) angepasst.</change>
+        <change when="2025-07-22" who="RG">&amp; mit etlig ersetzt, ausser in den Formeln</change>
+        <change when="2023-09-29" who="RG">Personen und Orte ausgezeichnet</change>
+        <change when="2023-09-21" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+
+        <change when="2023-09-21" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change when="2023-09-14" who="RG">"prev" und "next" in correspContext eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063424/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063425" n="1"/>
+  <p>
+      <lb/>Pardonnez-moi, Monsieur, ma lenteur <choice><orig>a</orig><reg>à</reg></choice> vous repondre. Elle
+      <lb/>ne repond point à la vivacité de mon zele, ni à mon empressement à jouir
+      <lb/>du bonheur que vous me permettez de m’entretenir avec vous. C’est une
+      <lb/>Suite des distractions continuelles que me causent des affaires peu importantes
+      <lb/>mais indispensables.
+  </p>
+  <p>
+      <lb/>La manière dont je m’y prens dans le petit <rs type="biblio">Traitté</rs> ebauché dont je vous
+      <lb/>parlois, pour reduire l’equation generale <choice><orig><formula>ay^{3}+bxyy+cx^{2}y+dx^{3}+ey^{2}+fxy+gx^{2}</formula></orig><reg><formula>ay^{3}+bxy^{2}+cx^{2}y+dx^{3}+ey^{2}+fxy+gx^{2}</formula></reg></choice>
+      <lb break="no"/><formula>+hy+ix+k=0</formula>, des Lignes du 3.<hi rend="sup">e</hi> Ordre, aux 4 Classes de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>, con<pc type="hyphenation">-</pc><lb break="no"/>siste en deux transformations successives, dont la premiére distingue la
+      <lb/>1.<hi rend="sup">e</hi> Classe des trois autres, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la seconde donne les équations les plus simples,
+      <lb/>qui sont justement celles de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>.
+  </p>
+  <p>
+      <lb/><figure facs="../images/figures/1063425_01.png"/> Soit <formula>AB=x</formula>, <formula>BC=y</formula>. Je change d’abord les ordonnées
+      <lb/><formula>CB</formula> en d’autres <formula>CD</formula> (<formula>u</formula>), faisant <formula>CD:DB:BC=1:p:q</formula>,
+      <lb/>ce qui donne <formula>AB(x)=AD(z)+DB(pu)</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>BC(y)=qu</formula><supplied>.</supplied>
+      <lb/>Ces valeurs substituées dans l’equation generale, la changent
+      <lb/>en une autre, où la plus haute puissance <del>de </del>(<formula>u^{3}</formula>) des ordonnées <del><gap/></del><add>a</add> pour coefficient
+      <lb/><formula>aq^{3}+bq^{2}p+cqp^{2}+dp^{3}</formula>. Si l’on veut que les ordonnées <add><formula>CD</formula></add> soient paralleles à la derniere
+      <lb/>direction de la Courbe, il faut que ce terme disparoisse. Qu’on fasse donc <formula>aq^{3}+bq^{2}p+cqp^{2}</formula>
+      <lb break="no"/><formula>+dp^{3}=0</formula>, ce qui determinera le raport de <formula>p</formula> à <formula>q</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la position de l’ordonnée principale <formula>AE</formula>.
+      <lb/>Si cette equation a 3 racines egales l’equation generale prend cette forme
+      <lb/><formula>Bu^{2}+(Dz+E)u+Fz^{3}+Gz^{2}+Hz+1=0</formula> <subst><del><gap/></del><add>q</add></subst>ui renferme les 3 dernières classes de <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Neuton</rs>.
+      <lb/>Si elle a <subst><del><gap/></del><add>des</add></subst> racines inegales (je comprens ici tant le cas où elles sont toutes trois
+      <lb/>inégales, que celui <choice><orig>ou</orig><reg>où</reg></choice> d<subst><del>é</del><add>e</add></subst>ux sont égales, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> celui <choice><orig>ou</orig><reg>où</reg></choice> deux sont imaginaires) l’<abbr>equat.</abbr> <choice><abbr>g.nale</abbr><expan>générale</expan></choice>
+      <lb/>prend cette forme <choice><orig><formula>(Az+B)u^{2}+(Czz+Dz+E)u+Fz^{3}+Gz^{2}+Hz+1=0</formula></orig><reg><formula>(Az+B)u^{2}+(Cz^{2}+Dz+E)u+Fz^{3}+Gz^{2}+Hz+1=0</formula></reg></choice>, qui renferme
+      <lb/>toutes les courbes de la première classe, comme on le va voir, en reduisant cette équa<pc type="hyphenation">-</pc>
+<pb facs="1063426" n="2"/>
+      <lb break="no"/>tion <choice><orig>a</orig><reg>à</reg></choice> sa forme la plus simple<supplied>.</supplied>  <subst><del>c</del><add>C</add></subst>ela se fera en donnant une autre position
+      <lb/>à la ligne des abscisses. Soit donc <formula>FG</formula> (<formula>t</formula>) l’abscisse, <formula>GC</formula> (<formula>v</formula>) l’ordonnée, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> soit
+      <lb/><figure facs="../images/figures/1063426_01.png"/> <formula ana="corr">FG:FH:HG=1:r:s</formula>. Donc <formula>AD(z)=AI(n)+ID</formula> ou <formula>FH</formula> (<formula ana="corr">rt</formula>)
+      <lb/>et <formula>DC(u)=DH</formula> ou <formula>FI(m)+HG(st)+GC(v)</formula>, ce qui
+      <lb/>etant substitué dans l’equation <choice><orig><formula>(Az+B)u^{2}+\mathrm{\;\&amp;c}</formula></orig><reg><formula>(Az+B)u^{2}+\mathrm{\;etc.}</formula></reg></choice>, la change
+      <lb/>en celle ci<supplied>:</supplied> <choice><orig><formula>Artv^{2}+(2Ars+Crr)t^{2}v+(Ars^{2}+Cr^{2}s+Fr^{3})t^{3}</formula></orig><reg><formula>Artv^{2}+(2Ars+Cr^{2})t^{2}v+(Ars^{2}+Cr^{2}s+Fr^{3})t^{3}</formula></reg></choice>
+      <lb/><formula>(+An+B)v^{2}+(2Ans+2Amr+2Bs+2Cnr+Dr)tv+(2Amrs+</formula>
+      <lb/><formula>Ans^{2}+Bs^{2}+2Cnrs+Cmr^{2}+Drs+3Fnr^{2}+Gr^{2})t^{2}+(2Amn+2Bm+</formula>
+      <lb/><formula>Cn^{2}+Dn+E)v+(Am^{2}r+2Amns+2Bms+Cn^{2}s+2Cmnr+Dmr+Dns+Es+3Fn^{2}r+2Gnr+Hr)t</formula>
+      <lb/><formula>+Am^{2}n+Bm^{2}+Cmn^{2}+Dmn+Em+Fn^{3}+Gn^{2}+Hn+1=0</formula>. Faites <choice><orig><formula>2Ars+Crr=0</formula></orig><reg><formula>2Ars+Cr^{2}=0</formula></reg></choice>
+      <lb/>ou <formula>r:s=-2A:C</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le second terme s’evanouira. Faites <formula>An+B=0</formula>, ou <formula>n=-B:A</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le 4.<hi rend="sup">e</hi>
+      <lb/>terme s’evanouira aussi, le 5.<hi rend="sup">e</hi> etant rédui<subst><del><gap/></del><add>te</add></subst> à <formula>(2Amr+2Cnr+Dr)v</formula>. Faites enfin
+      <lb/><formula>2Am+2Cn+D=0</formula>, ou <formula>m=-(2Cn+D):2A</formula> et ce 5.<hi rend="sup">e</hi> s’evanouissant, toute l’equation
+      <lb/>sera reduite à <choice><orig><formula>Artv^{2}+(Ars^{2}+Cr^{2}s+Fr^{3})t^{3}+(2Cnrs+Drs+3Fnrr+Grr)tt+(Cnn+Dn+E)v</formula></orig><reg><formula>Artv^{2}+(Ars^{2}+Cr^{2}s+Fr^{3})t^{3}+(2Cnrs+Drs+3Fnr^{2}+Gr^{2})t^{2}+(Cn^{2}+Dn+E)v</formula></reg></choice>
+      <lb/><formula>+(Am^{2}r+Cn^{2}s+Dns+Es+3Fn^{2}r+2Gnr+Hr)t+Cmn^{2}+Dmn+Em+Fn^{3}+Gn^{2}+Hn+1=0</formula>
+      <lb/>à laquelle on peut donner cette forme <formula>tv^{2}-\alpha ^{3}-\beta t^{2}+\epsilon v-\gamma t-\delta=0</formula>, ou (mettant
+      <lb/><formula>x</formula> pour <formula>t</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>y</formula> pour <formula>v</formula>) <choice><orig><formula>xyy+\epsilon y=\alpha x^{3}+\beta x^{2}+\gamma x+\delta</formula></orig><reg><formula>xy^{2}+\epsilon y=\alpha x^{3}+\beta x^{2}+\gamma x+\delta</formula></reg></choice>, ce qui est la 1.<hi rend="sup">e</hi> Classe de <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>.
+  </p>
+  <p>
+      <lb/>Cet Auteur examine dans les 4 l.<hi rend="sup">ers</hi> Numeros de cette Classe les Courbes dont l’equation
+      <lb/>generale, donne à celleci <formula>aq^{3}+bq^{2}p+cqp^{2}+dp^{3}=0</formula> trois racines réelles inégales.
+  </p>
+  <p>
+      <lb/>Mais si cette <choice><orig><formula>eq:aq^{3}+\mathrm{\;\&amp;c}</formula></orig><reg><formula>eq:aq^{3}+\mathrm{\;etc.}</formula></reg></choice> a deux racines imaginaires, on determiner a la raison
+      <lb/>de <formula>p</formula> à <formula>q</formula>, par le moien de la racine réelle, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> alors les 2 racines imaginaires doivent
+      <lb/>rester dans l’equation qui se fera des plus hauts termes <formula>tv^{2}=t^{3}</formula>. Donc l’equation
+      <lb/><formula>v^{2}-\alpha t^{2}=0</formula> a deux racines <formula>v=t\sqrt{\alpha}</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>v=-t\sqrt{\alpha}</formula>, imaginaires, ce qui ne peut ètre à moins
+      <lb/>que <formula>{\alpha}</formula> ne soit négatif. C’est le cas que <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> examine dans les <abbr>N.<hi rend="sup">os</hi></abbr> 5 <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 6.
+  </p>
+  <p>
+      <lb/>Si cette <abbr>equat<supplied>.</supplied></abbr>: <formula>aq^{3}+bq^{2}p+cqp^{2}+dp^{3}=0</formula> a deux racines égales, la raison de <formula>p</formula> à <formula>q</formula>
+      <lb/>sera determinée par la 3.<hi rend="sup">e</hi> racine inegale, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dans l’<abbr>eq.</abbr> faite des plus hauts termes, <formula>v^{2}-\alpha t^{2}=0</formula>,
+      <lb/>il doit rester les deux racines ègales. Or ces racines sont <formula>v=t\sqrt{\alpha}</formula>, <formula>v=-t\sqrt{\alpha}</formula>, qui ne
+      <lb/>peuvent étre ègales, à moins que <formula>{\alpha}</formula> ne soit <formula>=0</formula>. C’est ce que <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> detaille
+      <lb/>dans les<abbr> N.<hi rend="sup">os</hi></abbr> 7, 8, 9, 10, 11.
+  </p>
+<note hand="pers_DE-588-119166895">
+    <lb/>Si tres radices sint <formula>\beta p</formula>, <formula>\gamma p</formula>, <formula>\delta p</formula> et pro <formula>q</formula> substituatur <formula>\delta p</formula>, invenietur <formula>A=</formula>
+    <lb/><choice><orig><formula>\overline{\beta\delta\delta+\gamma\delta\delta-\delta^{3}-\beta\gamma\delta}\cdot app</formula></orig><reg><formula>(\beta\delta^{2}+\gamma\delta^{2}-\delta^{3}-\beta\gamma\delta) ap^{2}</formula></reg></choice>, <choice><orig><formula>C=\overline{\beta\delta\delta+\gamma\delta\delta-2\beta\gamma\delta}\cdot ap</formula></orig><reg><formula>C=(\beta\delta^{2}+\gamma\delta^{2}-2\beta\gamma\delta) ap</formula></reg></choice>, <formula>F=-\alpha\beta\gamma\delta</formula>,
+    <lb/>et <formula>\alpha=</formula> quadrato quantitatis <choice><orig><formula>\frac{apr\delta\delta\cdot\beta-\gamma}{2A}</formula></orig><reg><formula>\frac{apr\delta^{2}(\beta-\gamma)}{2A}</formula></reg></choice>.
+</note>
+<pb facs="1063427" n="3"/>
+  <p>
+      <lb/>Enfin si l’<abbr>eq.</abbr> <formula>aq^{3}+bq^{2}p+cqp^{2}+dp^{3}=0</formula> a trois racines <subst><del><gap/></del><add>é</add></subst>gales, la raison de <formula>p</formula> à <formula>q</formula>
+      <lb/>ne pouvant étre determinée que par cette racine triple, la transformée aura
+      <lb/>cette forme <choice><orig><formula>Buu+(Dz+E)u+Fz^{3}+Gz^{2}+Hz+1=0</formula></orig><reg><formula>Bu^{2}+(Dz+E)u+Fz^{3}+Gz^{2}+Hz+1=0</formula></reg></choice>. Qu’on fasse <formula>z=n+rt</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>u=st+r</formula>,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’equation se reduira à <choice><orig><formula>Bvv+(2Bs+Dr)tv+(Dn+E)v+Fr^{3}t^{3}+(Bss+Drs+3Fnr^{2}+Gr^{2})t^{2}</formula></orig><reg><formula>Bv^{2}+(2Bs+Dr)tv+(Dn+E)v+Fr^{3}t^{3}+(Bs^{2}+Drs+3Fnr^{2}+Gr^{2})t^{2}</formula></reg></choice>
+      <lb/><formula>+(Dns+Es+3Fn^{2}r+Gnr+Hr)t+Fn^{3}+Gn^{2}+Hn+1=0</formula>. Faites <formula>2Bs+Dr=0</formula>, ou <formula>r:s=-2B:D</formula>
+      <lb/>et <formula>Dn+E=0</formula>, ou <formula>n=-E:D</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> le 2.<hi rend="sup">d</hi> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 3.<hi rend="sup">e</hi> terme s’evanouissant, l’<abbr>eq.</abbr> se reduira à
+      <lb/><choice><orig><formula>Bvv+Fr^{3}t^{3}+(-Drs+3Fnr^{2}+Gr^{2})t^{2}+(3Fn^{2}r+Gnr+Hr)t+Fn^{3}+Gn^{2}+Hn+1=0</formula></orig><reg><formula>Bv^{2}+Fr^{3}t^{3}+(-Drs+3Fnr^{2}+Gr^{2})t^{2}+(3Fn^{2}r+Gnr+Hr)t+Fn^{3}+Gn^{2}+Hn+1=0</formula></reg></choice>, à laquelle
+      <lb/>on peut donner cette forme <choice><orig><formula>vv-\alpha t^{3}-\beta t^{2}-\gamma t-\delta=0</formula></orig><reg><formula>v^{2}-\alpha t^{3}-\beta t^{2}-\gamma t-\delta=0</formula></reg></choice>. C’est la 3.<hi rend="sup">e</hi> Classe de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>
+      <lb/>qui lui donne cinq Courbes, <abbr>N.<hi rend="sup">o</hi></abbr> 13.
+  </p>
+  <p>
+      <lb/>Mais si <formula>B</formula> se trouve égal<del>e</del> à zero, faites seulement <formula>z=n+t</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’<abbr>eq.</abbr> se reduira
+      <lb/>à <formula>Dtv+(Dn+E)v+Ft^{3}+(3Fn+G)t^{2}+(3Fn^{2}+2Gn+H)t+Fn^{3}+Gn^{2}+Hn+1=0</formula>, ou
+      <lb/>faisant <formula>Dn+E=0</formula>, c’est à dire <formula>n=-E:D</formula>, le second terme s’evanouira, et l’<abbr>Eq.</abbr> prendra
+      <lb/>cette forme <formula>tv-\alpha t^{3}-\beta t^{2}-\gamma t-\delta=0</formula>, qui est la 2.<hi rend="sup">e</hi> Classe de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>. <abbr>N.<hi rend="sup">o</hi></abbr> 12.
+  </p>
+  <p>
+      <lb/>Enfin si <formula>B</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>D</formula> sont <formula>=0</formula>, l’equation <formula>Ev+Fz^{3}+Gz^{2}+Hz+1=0</formula>, represente la Courbe
+      <lb/>unique de la 4.<hi rend="sup">e</hi> Classe de <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>. <abbr>N.<hi rend="sup">o</hi></abbr> 14.
+  </p>
+  <p>
+      <lb/>Il y a, comme vous le voiés, Monsieur, bien du raport entre cette maniére
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> celle que vous avez emploiée, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> j’ai peut étre eu tort de dire que la mienne etoit
+      <lb/>un peu plus courte. Cependant comme elle méne bien directement aux quatre
+      <lb/>Classes de <rs key="pers_DE-588-118587544" type="person">Newton</rs>, elle peut avoir son utilité.
+  </p>
+  <p>
+      <lb/>Je vous prie toujours de vouloir bien me communiquer, ce que vous trouverés
+      <lb/>en éclaircissement sur la Methode de sommer la suite <choice><orig><formula>\frac{1}{1}+\frac{1}{4}+\frac{1}{9}\mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1}+\frac{1}{4}+\frac{1}{9}\mathrm{\;etc.}</formula></reg></choice>. Votre
+      <lb/>Methode m’a été communiquée par <abbr>M.</abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> quand il fut de retour de
+      <lb/>ses voyages. Elle n’a point cet inconvenient. Elle renferme même une belle
+      <lb/>methode pour la reduction des suites, dont on connoit le raport d’un Terme à ceux
+      <lb/>qui le précedent, <subst><del><gap/></del><add>à l’</add></subst>integration d’une <del><gap/></del>equation differentielle. Mais elle
+      <lb/>est un peu longue. Si par malheur vous l’aviez égarée, je puis, quand il vous
+      <lb/>plaira, vous en envoier une Copie.
+  </p>
+  <closer>
+  <salute>
+      <lb/>J’ai l’honneur d’etre, avec un entier devouement
+      <lb/>Monsieur
+      <lb/>Votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très
+      <lb/><abbr>obeiss.<hi rend="sup">t</hi></abbr> Serviteur
+  </salute>
+  <signed><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs></signed>
+  <dateline>
+      <lb/>Geneve ce <date when="1741-09-26">26 <abbr>Sept.</abbr> 1741</date>
+  </dateline>
+  </closer>
+<pb facs="1063428" n="4"/>
+  <closer>
+    <address>
+      <addrLine>Monsieur</addrLine>
+      <addrLine>Monsieur Nicolas Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></addrLine>
+      <addrLine>Docteur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Professeur en Droit,</addrLine>
+      <addrLine><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> Basle</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

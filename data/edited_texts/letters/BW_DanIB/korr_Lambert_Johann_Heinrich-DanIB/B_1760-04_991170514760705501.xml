@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514760705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Heinrich Lambert an Daniel I Bernoulli. Augsburg, April 1760</title>
+          <title type="alt">1760.04: Lambert, Johann Heinrich (1728-1777) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055178</title>
+          <title type="alt">1760-04_Lambert_Johann_Heinrich-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514760705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514760705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Lambert, Johann Heinrich (1728-1777)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf "A M.r D. Bernoulli à Bâle"</p>
+        </note>
+        <note type="print">
+          <p>Druck in: Correspondance entre Daniel Bernoulli et Jean-Henri Lambert, publ. par R. Radelet-de Grave et V. Scheuber, in: Annexe aux Actes du Colloque J.-H. Lambert, Paris (Editions Ophrys), 1979, pp.71-72</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-121044">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 732***:Bl.39r oben-39v Mitte</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514760705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432846005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055178</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>22,5</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Augsburg]</origPlace>
+              <date when="1760-04">du avril 1760.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118568876">Lambert, Johann Heinrich</persName>
+          <placeName key="place_GEO-2954172" ref="https://d-nb.info/gnd/4003614-5">Augsburg</placeName>
+          <date when="1760-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514760805501" type="prev"/>
+          <ptr target="B_991170514760605501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Lambert_Johann_Heinrich-DanIB" corresp="pers_DE-588-118568876" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118162217">Micheli du Crest, Jacques Barthélemi</persName>
+            <note type="lebensdaten">(1690-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12147688X">Respinger, Johann Heinrich</persName>
+            <note type="lebensdaten">(1709-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+            <note type="lebensdaten">(1672-1733)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-02-20" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-20" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-20" who="RG">NER Erkennung</change>
+        <change when="2024-08-02" who="RG">Personen und Orte referenziert</change>
+        <change when="2024-08-02" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-08-02" who="RG">Kleinere Anpassungen</change>
+        <change when="2024-08-02" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3350734/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3350735" n="39r"/>
+  <opener>
+    <salute>
+      <lb/>A Mr. <rs key="pers_DE-588-118656503" type="person">D. Bernoulli</rs> <del>de </del>à <rs key="place_GEO-2661604" type="place">Bâle</rs>
+    </salute>
+  </opener>
+  <opener>
+    <dateline>
+      <lb/>du <date when="1760-04">avril 1760</date>
+    </dateline>
+  </opener>
+  <p>
+      <lb/>J’espere, Que Vous aurez reçu en son tems, la Lettre, que j’avois pris la
+      <lb/>liberté de Vous écrire au mois d’octobre passé, et qui renfermoit
+      <lb/>les experiences que Vous m’aviez demandées.
+  </p>
+  <p>
+      <lb/>Ma Photometrie venant de quitter la presse, je me hâte avec plaisir
+      <lb/>de Vous en offrir l’exemplaire cy joint, et de la soumettre à
+      <lb/>Votre jugement, que je respecte infiniment.
+  </p>
+  <p>
+      <lb/>Le premier chapitre<del><gap/></del> expose les principes et<del><gap/></del> les
+      <lb/>difficultés, et le troisieme <del><gap/></del>les assujettit à un examen
+      <lb/>aussi rigide, que j’ai pu<del><gap/></del> l’imaginer. La seconde partie contient
+      <lb/>les experiences que j’ai faites par le verre. Je serai charmé
+      <lb/>Monsieur, si vous vouliez vous donner la peine de les
+      <lb/>examiner, et Vos Sentimens ladessus ne pourront, que m’être
+      <lb/>extremement estimables. Vous <add>en </add>trouverez l’ordre et la liaison
+      <lb/>changés de fond en comble, et toute differente de celle de la
+      <lb/>premiere ebauche, que <del><gap/></del><add>j’aurois</add> destiné à tout autre but si j’etois
+      <lb/>resté plus long tems à <rs key="place_GEO-2918632" type="place">Goetingue</rs>.
+  </p>
+  <p>
+      <lb/>Ce qui y paroitra de plus nouveau c’est la methode de determiner
+      <lb/>le degré de la blancheur de chaque corps, qui se trouve Theoreme
+      <lb/>35. et ses consequences, dont je Vous avois communiqué<del><gap/></del> quelques
+      <lb/>resultats dans ma précedente, mais alors ils n’etoient encore que
+      <lb/>simplement ebauchés.
+  </p>
+  <p>
+      <lb/>M<hi rend="sup">r</hi>. le D<hi rend="sup">r</hi>. <rs key="pers_DE-588-12147688X" type="person">Respinguer</rs> aura sans doute reçu ma Dissertation sur
+      <lb/>l’effet de la lune <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. et j’espere qu’elle sera encore venue à tems
+      <lb/>pour le 4. Tome des actes. Le défaut d’un plus grand nombre
+      <lb/>d’années<del><gap/></del> m’a fait perdre l’esperance de la pousser
+      <lb/>plus loin, mais je ne lai point encore perdu de vue, et j’en
+      <lb/>reprendrai le fil, desque je me trouverai <del><gap/></del>vis à vis du loisir
+      <lb/>qu’il y faut.
+  </p>
+<pb facs="3350736" n="39v"/>
+  <p>
+      <lb/>Si on peut prouver par la théorie, que le barometre doit etre plus
+      <lb/>bas, lorsque la ☽ est dans les equinoxes que lorsqu’elle est dans les
+      <lb/>tropics, et que la difference surpasse celle de l’apogée au perigée
+      <lb/>le resultat de ma dissertation pourra être de quelque usage. Mais il
+      <lb/>y faudra une longue suite d’années.
+  </p>
+  <p>
+      <lb/>Plus j’examine les observations <add>barom.</add> de M<hi rend="sup">r</hi>. <rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> faites à <rs key="place_GEO-2657896" type="place">Zuric</rs>
+      <lb/>et sur le <rs key="place_STR-gottha" type="place">S. Gotthard</rs> plus je les trouve contraires à toutes les
+      <lb/>autres experiences de même nature, que j’ai pu ramasser. Les
+      <lb/>differences des hauteurs barom. de l’un<del>e</del> et l’autre de ces endroits
+      <lb/>sont de beaucoup trop variables, pour ne pas croire, qu’il y
+      <lb/>avoit <add>eu </add>quelque defaut dans les barometres. J’ai trouvé, que M<hi rend="sup">r</hi>.
+      <lb/><rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> comparoit bien souvent les hauteurs du matin de
+      <lb/>l’un des deux endroits à celles du soir de l’autre, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. S’il y avoit
+      <lb/>moien de faire porter un barom. sur le <rs key="place_STR-gottha" type="place">St. Gotthard</rs>, et
+      <lb/>de le faire observer trois fois par jour par les P. Capucins
+      <lb/>qui y sont, je suis bien assuré, qu’on trouveroit des resultats
+      <lb/><add>bien</add> moins anomales, en les comparant aux observations faites à la
+      <lb/><rs type="place">Fernère</rs> ou à <rs key="place_GEO-2661604" type="place">Bâle</rs>, et<del><gap/></del> le fruit, qu’en retireroit la
+      <lb/>Physique <del>est </del>seroit des plus grands <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> des plus manifestes.
+  </p>
+  <p>
+      <lb/>M<hi rend="sup">r</hi>. <rs key="pers_DE-588-118162217" type="person">Micheli du Crest</rs> regalera bereichern les actes Helvetiques de
+      <lb/>nouvelles experiences sur les oscillations du Pendule dans le vuide,
+      <lb/>àmoins qu’il ne juge à propos de les supprimer du commence<pc type="hyphenation">-</pc><lb break="no"/>ment, et d’y suborner les conclusions, qu’il en tirera.
+  </p>
+  <p>
+      <lb/>J’ai l’honneur d’être avec un<del>e</del> parfait respect <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.
+  </p>
+</div>
+</body>
+</text></TEI>

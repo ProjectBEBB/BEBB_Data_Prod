@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516848405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 28. Oktober 1755</title>
+          <title type="alt">1755.10.28: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058751</title>
+          <title type="alt">1755-10-28_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516848405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516848405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131663">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.186-187</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516848405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433697605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058751</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>19</height><width>11,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1755-10-28">ce 28ieme Ocotbre 1755</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1755-10-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516848505501" type="prev"/>
+          <ptr target="B_991170516848305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+            <note type="lebensdaten">(1711-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121703592">Merian, Hans Rudolf</persName>
+            <note type="lebensdaten">(1690-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1035424398">Ortmann, Andreas</persName>
+            <note type="lebensdaten">(1724-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118627813">Voltaire</persName>
+            <note type="lebensdaten">(1694-1778)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587194/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3587195" n="186r"/>
+  <p> Monsieur </p>
+  <p> J’ai expédié à Mr. <rs key="pers_DE-588-1035424398" type="person">Ortmann</rs> le e pacquet de livres que j’ai achetés pour lui à l’auction de <rs type="person">Néaulme</rs>: Les volumes des Mémoi res pour Vous et pour Monsieur votre <rs type="person" key="pers_DE-588-118656503">frere</rs> ont été expédiés aussi par Mr. <rs key="pers_DE-588-119353210" type="person">Formey</rs> à l’adresse que vous m’avés indiquée. </p>
+  <p> Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs> impatiente les gens. A tout moment il vient, et ne vient pas: il auroit fait plus sagement de ne pas fixer le terme précis de son arrivée, s’il ne vouloit pas s’y conformer. </p>
+  <p> Je vous félicite de tout mon coeur, Monsieur, de l’heu reux accouchement de Madame votre <rs type="person" key="pers_DE-588-1089911661">Epouse</rs>. Notre ville lui doit savoir bon gré de nous donner tant de <rs key="pers_DE-588-120475030" type="person">Bernouilly</rs>. Puissiés Vous, Monsieur, voir fleurir et prospérer votre belle famille jusqu’aux termes les plus reculés de la vie humaine. </p>
+  <p> Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> est parfaitement retabli, et mieux que jamais, nouvelle dont je Vous fais part avec le plus grand plaisir, parce que je sais qu’elle Vous en causera infiniment. </p>
+  <p> Je viens de recevoir la <rs type="biblio">pucelle</rs> de <rs key="pers_DE-588-118627813" type="person">Voltaire</rs>, ouvrage plein d’esprit, d’impiété et de polissoneries. C’est une imita tion de l’<rs type="person">Arioste</rs>. Si je dois en juger par mes lumieres qui sont fort courtes, et par mon goût qui n’est pas des meilleurs, V.a assés bien imité; mais il est au dessous de l’original. Au reste tous les saints <pb facs="3587196" n="186v"/> du Paradis y sont tournés en ridicule et pis encore. J’ai l’honneur d’être avec un respectueux dévouement Monsieur Votre très humble et très obéissant Serviteur <rs key="place_GEO-2950159" type="place">Berlin</rs> ce 28 ieme Merian Octobre 1755 </p>
+  <p>P. S. Mr. <rs key="pers_DE-588-1035424398" type="person">Ortmann</rs> aura la bonté de payer à mon <rs type="person" key="pers_DE-588-121703592">pere</rs> ce que j’ai déboursé pour lui: je lui fais bien mes complimens et j’attends de ses nouvelles. </p>
+<pb facs="3587197" n="187r" type="empty"/><pb facs="3587198" n="187v"/></div>
+</body>
+</text></TEI>

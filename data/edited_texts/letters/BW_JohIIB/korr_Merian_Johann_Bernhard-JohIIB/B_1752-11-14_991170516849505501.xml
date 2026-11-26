@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516849505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 14. November 1752</title>
+          <title type="alt">1752.11.14: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058740</title>
+          <title type="alt">1752-11-14_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516849505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516849505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Spuren von einer roten Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131666">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.167-168</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516849505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433698305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058740</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1752-11-14">ce 14iême Novembre 1752</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1752-11-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516849605501" type="prev"/>
+          <ptr target="B_991170516849405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913958">Béguelin</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-130449903">Elsner, Jakob</persName>
+            <note type="lebensdaten">(1692-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+            <note type="lebensdaten">(1711-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118541013">Gottsched, Johann Christoph</persName>
+            <note type="lebensdaten">(1700-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117528854">König, Samuel</persName>
+            <note type="lebensdaten">(1712-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118726102">La Mettrie, Julien Offray de</persName>
+            <note type="lebensdaten">(1709-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104234059">Lalande, Joseph Jérôme Le Français de</persName>
+            <note type="lebensdaten">(1732-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+            <note type="lebensdaten">(1723-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1015904726">Passavant, Daniel</persName>
+            <note type="lebensdaten">(1722-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119485338">Schmettau, Samuel von</persName>
+            <note type="lebensdaten">(1684-1751)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-11-20" who="RG">Briefstruktur (pb, lb, etc.) ergänzt, sowie kleinere Anpassungen</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587224/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3587225" n="167r"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur
+  </salute>
+  </opener>
+  <p>
+      <lb/>Je suis veritablement sensible aux tristes pertes que vous faites coup sur coup;
+      <lb/>puisse celle de votre enfant être la derniére; puisse la mort et le sepulcre
+      <lb/>rassasiés nous épargner à vous et moi celle que vous semblés présager.
+  </p>
+  <p>
+      <lb/>Je ne scài Monsieur, si dans ma derniére je me suis expliqué assés
+      <lb/>clairement sur les raisons qui m’ont engagé à rompre une lance dans l’<pc type="hyphenation"></pc><lb break="no"/>affaire de <abbr>M.</abbr> <rs type="person" key="pers_DE-588-117528854">K.</rs> Je croyois avoir donné à entendre<del><gap/></del> que
+      <lb/>je l’ai fait par un juste égard pour <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> qui le souhaitoit. Ce
+      <lb/>motif devoit me disculper au près de vous; il doit me justifier auprès de
+      <lb/>mon <rs type="person">pére</rs> auquel vous aurés la bonté de le faire valoir ce qu’il vaut. Je
+      <lb/>me flatte qu’il considérera les circonstances où je me trouve et<del><gap/></del> ce que
+      <lb/>mon honneur et mon devoir exigent sans parler même de vues moins nobles.
+      <lb/>Ce n’est pas que j’aye actuellement le dessein de pousser la dispute plus
+      <lb/>loin; je me contenterai volontiers du pas que j’ai fait; mais aussi il me
+      <lb/>suffira d’un signal de <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> pour rentrer en campagne et pour
+      <lb/>verser dans sa cause jusqu’à la derniére goutte de mon encre. C’est le
+      <lb/>moins que je doive à un homme illustre que je regarde comme un second
+      <lb/>pere et je serois très mortifié qu’il conçut le moindre doute de mes sincéres
+      <lb/>dispositions à cet égard. J’ai été si indigné des libelles infames qui courent
+      <lb/>depuis quelque tems sur son conte que les mains m’ont cent fois démangé,
+      <lb/>et que cent fois j’ai été tenté de ne faire aucun quartier aux auteurs de
+      <lb/>ces écrits scandaleux. Insensible aux sottises qu’on m’y dit (car vous
+      <lb/>remarquerés que je ne suis oublié dans aucune des pasquinades dont
+      <lb/><rs type="person" key="pers_DE-588-117528854">Koenig</rs> inonde la <abbr>r. p.</abbr> des <rs type="letter">lettres</rs>, avant que je lui en aye donné la moindre
+      <lb/>occasion) j’etois uniquement zélé pour la gloire de notre digne <rs type="person" key="pers_DE-588-118731998">président</rs>.
+      <lb/>Le <rs type="person">roi</rs> depuis quelques semaines a défendu sous des peines trés rigoureuses
+      <lb/>la publication et le débit de tout ce qui pourroit être injurieux à notre
+      <lb/>égard. La <rs type="letter">lettre</rs> à <abbr>M.</abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> est la seule réponse que j’aye faite; vous
+      <lb/>devés l’avoir reçue de mon <rs type="person">pere</rs> à qui j’en ai adressé une 12 aine d’exemplaires.
+      <lb/>Les premiers paragraphes regardent les <rs type="person">Gottsched</rs> et quelques magisters afamés
+      <lb/>de <rs key="place_GEO-2879139" type="place">Leipzig</rs> et de <rs key="place_GEO-2911298" type="place">Hambourg</rs> dont les plumes, semblables aux femmes publiques,
+      <lb/>se prostituent au plus ofrant, corbeaus qui croassent eternellement autour
+      <lb/>de notre <rs type="organisation">Academie</rs>. Nous n’avons pas jugé la politesse de mise avec cette
+      <lb/>gueusaille là qui<del><gap/></del> à l’ordinaire n’en devient que plus insolente; il falloit
+      <lb/>les traiter comme des insectes qu’on écrase en passant ou comme des chiens enragés
+      <lb/>à qui on lache un coup de pistolet. Le reste regarde <abbr>M.</abbr> <rs type="person" key="pers_DE-588-117528854">K.</rs> avec lequel j’ai
+<pb facs="3587226" n="167v"/>
+      <lb/>gardé les ménagemens que ma défense permettoit. S’il se croit lézé par mon écrit
+      <lb/>il n’a qu’à s’en prendre à lui même. Nos <rs type="letter">lettres</rs> ont eu assés de succès; elles ont
+      <lb/>êté favorablement reçues du <rs type="person">roi</rs> qui ap prouve fort qu’on défende l’honneur de
+      <lb/>l’<rs type="organisation">academie</rs> et de son <rs type="person" key="pers_DE-588-118731998">président</rs>: elles ont été goutées à la cour et en ville, elles
+      <lb/>ont réduit les gazettiers à changer leurs injures en plaintes et ont fait rentrer
+      <lb/>dans la coquille quelques nigauds qui me croyant abismé par l’appel et les
+      <lb/>autres libelles commençoient à vouloir me montrer les cornes. Mon style a donné
+      <lb/>à ces bonnes ames une terreur des plus paniques; on m’est venu rendre visite
+      <lb/>et mes ennemis sont dévenus mes courtisans. Tout cecy sans vanité, Monsieur,
+      <lb/>je ne sai que trop que les reputations se perdent plutôt qu’elles ne s’<del>e</del><pc type="hyphenation"></pc><lb break="no"/><del><gap/></del>acquierent par les querelles,<del><gap/></del> de cette nature surtout qui n’ont
+      <lb/>pour objet que des procédés. Mais je crois être assés revenu du desir de l’i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ortalité.
+      <lb/>Mourir et vivre et honnéte philosophe avec un partage mediocre de biens
+      <lb/>et de reputation est peut être le sort le plus doux qui puisse nous echeoir
+      <lb/>dans cette vallée de larmes. Je pense que je serai assés tranquille sur le reste
+      <lb/>et que je ne m’embarasserai pas plus qu’un autre d’éterniser les letres de
+      <lb/>l’alfabet qui composent mon nom.
+  </p>
+  <p>
+      <lb/>Je conviens avec vous <abbr>Mr.</abbr> qu’on auroit pu donner un meilleur tour à
+      <lb/>notre jugement; et j’en ai pensé ainsi dès le commencement. On l’auroit
+      <lb/><abbr>p. e.</abbr> apellé <hi rend="u">declaration</hi>. Cependant le fond de la cause n’en est pas plus
+      <lb/>mauvais pour cela et vous verrés que le tour souffre une interpretation favorable.
+  </p>
+  <p>
+      <lb/>La paix est une chose très excellente; je sais à peu près ce qu’on peut
+      <lb/>dire sur ce sujèt, mais il y a des occasions où elle n’est ni possible ni honorable.
+      <lb/>Une guerre honete vaut à tout prendre mieux qu’une paix déshonnéte.
+      <lb/>Vous êtes trop équitable<supplied>,</supplied> Monsieur<supplied>,</supplied> et trop ami de <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> pour désapprouver
+      <lb/>que je demeure attaché à sa cause dans un tems sur tout où sa maladie
+      <lb/>ne lui permet pas de travailler autant qu’il voudroit; vous serés au contraire le
+      <lb/>prémier à m’y exhorter. Cependant au milieu du tumulte des armes je conserve
+      <lb/>des sentimens pacifiques et le coeur reconviliable prêt à fermer le temple
+      <lb/>de Janus et à préférer l’olive au laurier, bon diable au demeurant, ne
+      <lb/>souhaitant du mal à personne et de la meilleure humeur de monde quoique
+      <lb/>tout criblé d’injures.
+  </p>
+  <p>
+      <lb/>S’il etoit possible que les bontés de <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> <add>pour moi</add> reçussent de l’augmentation,
+      <lb/><choice><sic>elle</sic><corr>elles</corr></choice> se seroient augmentées depuis vette histoire là. Sa santé est toujours
+      <lb/>chancelante. Il reçoit les plus éclatantes marques de distinction et de faveur
+      <lb/>du <rs type="person">roi</rs> qui vient rarement à <rs key="place_GEO-2950159" type="place">Berlin</rs> sans lui faire visite et qui vient
+      <lb/>de <del><gap/></del><add>lui</add> donner une marque de son estime dont l’histoire du monde n’a peut
+      <lb/>être point d’exemple.
+  </p>
+<pb facs="3587227" n="168r"/>
+  <p>
+      <lb/>Vous savés peut être qu’on a inséré dans les principaux journaux de la <rs key="place_VER-hollan" type="place">Hollande</rs>
+      <lb/>une prétendue <rs type="letter">lettre</rs> d’un academicien de <rs key="place_GEO-2950159" type="place">berlin</rs> à un academicien de <rs key="place_GEO-2988507" type="place">paris</rs> dans
+      <lb/>laquelle <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> est traité co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e le dernier des hommes, il y est dit qu’il dés<pc type="hyphenation">-</pc><lb break="no"/>honore et qu’il tyrannise l’<rs type="organisation">Academie</rs> et que sans le <rs type="person">roi</rs> touts les academiciens
+      <lb/>déserteroient. Depuis hier il paroit icy une refutation que je joindrai sous cette
+      <lb/>enveloppe si mon copiste peut m’on livrer la copie avant le départ de la
+      <lb/>poste. Je vous laisse à déviner l’auteur. Faites surtout attention à un passage
+      <lb/>sousligné et je suis persuadé que vous tomberés de votre haut.
+  </p>
+  <p>
+      <lb/>Nos <rs type="biblio">mémoires</rs> ont quitté la presse; ils sont précédés d’une partie historique
+      <lb/>qui contient l’eloge de <abbr>M.</abbr> de la <rs type="person" key="pers_DE-588-118726102">Mettrie</rs>, le remerciment de <abbr>M.</abbr> de <rs key="pers_DE-588-104234059" type="person">la lande</rs>,
+      <lb/>la réponse de <abbr>M.</abbr> de <rs type="person">M.</rs>, une harangue de <abbr>Mr.</abbr> <rs key="pers_DE-588-119353210" type="person">Formey</rs>, les éloges du feldmarschal
+      <lb/><abbr>de</abbr> <rs key="pers_DE-588-119485338" type="person">Schmettau</rs> et du Docteur <rs key="pers_DE-588-130449903" type="person">Elsner</rs>; enfin le jugement de l’Academie. La
+      <lb/>classe mathematique contient toutes les observations de <rs key="pers_DE-588-104234059" type="person">La Lande</rs> correspondantes
+      <lb/>avec celles du <rs key="place_WEI-kaphof" type="place">Cap</rs>. Notre classe fournit un mémoire de <abbr>M.</abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> sur <unclear reason="lost">l’</unclear><pc type="hyphenation"></pc><lb break="no"/>origine des forces dont je vous ai parlé; un de <abbr>Mr.</abbr> <rs type="person" key="pers_DE-588-1089913958">Beguelein</rs> sur <unclear reason="lost">l’art</unclear>
+      <lb/>de deviner les pensées d’autrui à l’aide de la metaphysique fort jolient
+      <lb/>ecrit, et deux de moi. La classe des belles lettres ne donne rien que la
+      <lb/><rs type="letter">lettre</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> à <abbr>M.</abbr> <rs key="pers_DE-588-116892021" type="person">Merian</rs>.
+  </p>
+  <p>
+      <lb/>Vous aurés trouvé des fautes de style dans la traduction françoise de ma <rs type="letter">lettre</rs>;
+      <lb/>j’ai été obligé de la faire à la hate; il y a dans le dernier paragraphe
+      <lb/>le mot de rabuliste qui n’est pas françois; mais je substituerai dans
+      <lb/>une nouvelle édition celui d’avocat à cause perdue. On la réimprime
+      <lb/>actuellement à <rs key="place_GEO-2988507" type="place">paris</rs> où j’espére qu’on corrigera sans mon avertissement
+      <lb/>qui viendroit trop tard.
+  </p>
+  <p>
+      <lb/>Les <rs type="letter">lettres</rs> de <abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">M.</rs> qui paroissent, vont lui attirer de nouveaux
+      <lb/>troubles, et soulever contre lui tous les docteurs<del><gap/></del> scientifiques
+      <lb/>de l’<rs key="place_KON-deutsch" type="place">allemagne</rs> qui n’entendent point railleries sur les matiéres qu’<pc type="hyphenation"></pc><lb break="no"/>on y traite. Mes deux mémoires auront le même sort.
+  </p>
+  <p>
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-1015904726" type="person">Passavant</rs> paroit jusqu’icy assés s’accommoder chez le Ministre
+      <lb/>de <rs key="place_VER-sachse" type="place">Saxe</rs>; il n’y a présque rien à faire, une <rs type="letter">lettre</rs> par sémaine est
+      <lb/>souvent son unique occupation: ce qui lui laisse le tems de faire encore
+      <lb/>par cy par là quelque guerison desesperée.
+  </p>
+  <closer>
+  <salute>J’ai l’honneur d’être
+      <lb/>avec un dévouement sans reserve<supplied>,</supplied> Monsieur, votre trés humble
+      <lb/>et trés obeissant Serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-116892021" type="person"><abbr>J<supplied>.</supplied> B<supplied>.</supplied></abbr> Merian</rs>
+  </signed>
+  <dateline>
+    <rs key="place_GEO-2950159" type="place">Berlin</rs> ce <date when="1752-11-14">14<hi rend="sup">ième</hi> Novembre 1752</date>.
+  </dateline>
+  </closer>
+<pb facs="3587228" n="168v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs type="person" key="pers_DE-588-117589136">Bernoully</rs> trés célébre professeur</addrLine>
+      <addrLine>en mathematiques <abbr>etc<supplied>.</supplied></abbr></addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice></addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Basle</rs></addrLine>
+      <addrLine>en <rs key="place_VER-schweiz" type="place">Suisse</rs></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

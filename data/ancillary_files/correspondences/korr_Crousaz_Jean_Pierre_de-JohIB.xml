@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="korr_Crousaz_Jean_Pierre_de-JohIB" type="Korrespondenz">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Korrespondenz zwischen Johann I Bernoulli (1667-1748) und Jean Pierre de Crousaz (1663-1750)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+                <pubPlace>Basel</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2023-09-29"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+                <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#correspondence" target="#Korrespondenz"/>
+            </textClass>
+            <langUsage>
+                <language ident="">placeholder</language>
+            </langUsage>
+            <correspDesc>
+                <correspContext>
+                    <ref target="BW_JohIB"/>
+                </correspContext>
+                <correspAction type="Korrespondenz">
+                    <persName key="pers_DE-588-118509969" role="main">Bernoulli, Johann I (1667-1748)</persName>
+                    <persName key="pers_DE-588-100097413">Crousaz, Jean Pierre de (1663-1750)</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <textClass/>
+        </profileDesc>
+        <revisionDesc status="generated">
+            <listChange>
+                <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+                <change when="2026-10-25" who="SG">Einleitungsentwurf nach dem Vorbild der Stirling-Einführung vorbreitet.</change>
+                <change when="2023-09-29" who="MW">generated from template</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="crousaz-einfuehrung" xml:lang="de">
+                <head>Einführung zur Korrespondenz zwischen Johann I Bernoulli und Jean-Pierre de Crousaz</head>
+
+                <div xml:id="crousaz-biographische-einordnung">
+                    <head>Die Korrespondenten und ihre Beziehung</head>
+                    <p>Der Briefwechsel zwischen dem Lausanner Philosophen und Mathematiker <rs type="person" key="pers_DE-588-100097413">Jean-Pierre de Crousaz</rs> und dem Basler Mathematiker <rs type="person" key="pers_DE-588-118509969">Johann I Bernoulli</rs> verbindet Fragen mathematischer Forschung mit denen der Lehre, der Logik und der Naturerkenntnis. Im ersten erhaltenen <rs type="letter" key="B_991170514976905501">Brief vom 5. Oktober 1712</rs> übersendet Crousaz seine Logik und bittet Bernoulli um ein Urteil. Dessen mathematische Denkweise soll ihm als Massstab dafür dienen, ob die von ihm empfohlenen Wege zu klaren und sicheren Erkenntnissen führen. Bernoulli antwortet am <rs type="letter" key="B_991170514976805501">20. Oktober 1712</rs> mit einer Würdigung der klaren Sprache und schlüssigen Darstellung, betont jedoch, das Werk bisher nur flüchtig gelesen zu haben.</p>
+                    <p>Crousaz hebt Bernoullis wissenschaftlichen Rang immer wieder hervor und beschreibt seine eigene Aufgabe als die eines Vermittlers, der einem grösseren Leserkreis den Zugang zu dessen Arbeiten erleichtern möchte. Diese Selbstbeschreibung prägt besonders den <rs type="letter" key="B_991170514975505501">Brief vom 10. November 1717</rs>, mit dem er ihm sein Werk <hi rend="i">La Géométrie des lignes et des surfaces</hi> übersendet. Zugleich bringt er eigene Überlegungen, Einwände und Versuche in den Austausch ein. So prüft er am <rs type="letter" key="B_991170514975705501">16. März 1717</rs> die Darstellung von Extremwertaufgaben bei Guisnée und veranlasst Bernoulli zu einer ausführlichen <rs type="letter" key="B_991170514975605501">Stellungnahme vom 8. Mai</rs>. In ihrem Austausch erörtern beide, wie sich mathematische Verfahren begründen und verständlich darstellen lassen.</p>
+
+                </div>
+                <div xml:id="crousaz-ueberlieferung-verlauf">
+                    <head>Überlieferung und Verlauf des Briefwechsels</head>
+                    <p>Der hier edierte Bestand umfasst 45 Briefe vom <rs type="letter" key="B_991170514976905501">5. Oktober 1712</rs> bis zum <rs type="letter" key="B_991170430085405501">28. Juli 1724</rs>, davon 25 von Crousaz und 20 von Johann I Bernoulli. Er bildet den gegenwärtig erschlossenen Bestand ab. Aus seinem zeitlichen Umfang allein lässt sich weder auf die Vollständigkeit des ursprünglichen Austauschs noch auf den Zeitpunkt des Endes der persönlichen Beziehung schliessen.</p>
+                    <p>Die Korrespondenz begleitet mehrere Arbeiten Crousaz’ von der Zusendung bis zur Besprechung: seine Logik, Geometrie, den <hi rend="i">Traité du beau</hi> und den Kommentar zu l’Hôpitals Analysis. Zwischen diesen Werkbesprechungen entwickeln sich ausführliche Diskussionen einzelner mathematischer und physikalischer Fragen. Die Briefe von 1724 verbinden die fortgesetzte Buchkritik mit der Beratung über Crousaz’ Berufung nach Groningen und den von ihm gewünschten philosophischen Doktorgrad. Vgl. die Briefe vom <rs type="letter" key="B_991170514973105501">16. Mai</rs>, <rs type="letter" key="B_991170514973005501">3. Juni</rs>, <rs type="letter" key="B_991170514972905501">9. Juni</rs> und <rs type="letter" key="B_991170430086705501">14. Juni 1724</rs>.</p>
+
+                </div>
+                <div xml:id="crousaz-wissenschaftlicher-inhalt">
+                    <head>Wissenschaftlicher Inhalt der Korrespondenz</head>
+                    <div xml:id="crousaz-logik-vermittlung">
+                        <head>Mathematik, Logik und die Vermittlung sicheren Wissens</head>
+                        <p>Die Frage nach dem Nutzen mathematischer Denkweisen reicht über einzelne Rechenverfahren hinaus. Schon zu Beginn des Austauschs stellt Crousaz zur Diskussion, ob mathematische Übung das Studium der Logik ersetzen könne. Seine späteren Briefe fragen wiederholt danach, wie Begriffe geklärt, Beweise geordnet und anspruchsvolle Gegenstände einem grösseren Leserkreis zugänglich gemacht werden können. Am <rs type="letter" key="B_991170514974405501">26. September 1719</rs> lobt er Bernoullis Darstellung der Pendelbewegung gerade dafür, dass die Beweisführung den Leser auf einem verständlichen Weg zur Einsicht führe. Mathematische Erkenntnis und ihre Vermittlung werden so gemeinsam zum Gegenstand des Briefwechsels.</p>
+
+                    </div>
+                    <div xml:id="crousaz-analysis">
+                        <head>Grundlagen und Vermittlung der neuen Analysis</head>
+                        <p>Ein Schwerpunkt ist die begriffliche Grundlage der Infinitesimalrechnung. In den Briefen vom <rs type="letter" key="B_991170514974805501">1. März</rs> und <rs type="letter" key="B_991170514974705501">13. April 1719</rs> verständigen sich beide über eine relative Bedeutung des Endlichen und Unendlichen: Die Bezeichnungen sollen aus Grössenverhältnissen heraus verstanden werden. Daneben erörtern sie Differentiale verschiedener Ordnungen, Extremwertaufgaben und den Nutzen algebraischer Umformungen. Im Austausch vom <rs type="letter" key="B_991170514974305501">14.</rs> und <rs type="letter" key="B_991170514974205501">28. August 1720</rs> wird etwa geprüft, ob die Beseitigung von Wurzelzeichen eine Rechnung tatsächlich erleichtert. Wiederkehrend ist die Frage, ob ein formal mögliches Verfahren auch zum Verständnis und zur Lösung des gestellten Problems beiträgt.</p>
+
+                    </div>
+                    <div xml:id="crousaz-naturphilosophie">
+                        <head>Mechanik, Experimente und Naturerklärung</head>
+                        <p>Mathematische Argumente werden im Briefwechsel mit der Erklärung von Naturerscheinungen verbunden. Zur Sprache kommen unter anderem Pendelbewegung, Schiffsmanöver und die Entstehung der Farben. Besonders anschaulich ist Crousaz’ <rs type="letter" key="B_991170514975005501">Bericht vom 6. Januar 1719</rs> über eigene Versuche mit farbigen Schatten. Bernoulli fragt in seiner <rs type="letter" key="B_991170514974905501">Antwort vom 1. Februar</rs>, ob die beobachteten Farben zusammengesetzt oder homogen seien, und schlägt eine Prüfung mit dem Prisma vor. Die Briefe zeigen damit auch, wie Beobachtungen beschrieben, Deutungen zur Diskussion gestellt und weitere Versuche entworfen werden. Ihre Stellungnahmen zu Newton sind dabei auf die jeweiligen Gegenstände zu beziehen: In der Frage der Kometenbewegung hält Bernoulli am <rs type="letter" key="B_991170514974505501">18. Juli 1719</rs> Newtons Erklärung für wahrscheinlicher als diejenige seines Bruders Jacob.</p>
+                        <p>In der Diskussion über die Gravitation geht es auch darum, was eine physikalische Erklärung leisten soll. Crousaz fragt am <rs type="letter" key="B_991170514973505501">25. September 1722</rs>, ob der Rückgriff auf eine fortwährende unmittelbare Einwirkung Gottes die Planetenbewegung überhaupt erkläre. Bernoulli unterscheidet in seiner <rs type="letter" key="B_991170514973405501">Antwort vom 11. November</rs> zwischen Newton und dessen Anhängern. Er hebt hervor, dass Newton die Ursache der Anziehung offenlasse, und stellt einer fortwährenden unmittelbaren göttlichen Lenkung der Planeten die Wirkung eines allgemeinen Naturgesetzes gegenüber.</p>
+
+                    </div>
+                    <div xml:id="crousaz-buchkritik-anerkennung">
+                        <head>Crousaz’ Kommentar und Bernoullis Autorschaftsansprüche</head>
+                        <p>Die Besprechung gedruckter und geplanter Werke verbindet mathematische Fragen mit den Bedingungen gelehrter Veröffentlichung. Crousaz berichtet über Druckfehler, fehlende Abbildungen und die Schwierigkeiten, ein fern vom Autor gedrucktes Werk zu beaufsichtigen.</p>
+                        <p>Crousaz’ <rs type="biblio" key="biblio_8F9PQT7E"><hi rend="i">Commentaire sur l’analyse des infiniment petits</hi></rs> (1721) ist ein eigenständiges Buch mit ausführlichen Erläuterungen zu l’Hôpitals <rs type="biblio" key="biblio_6EAMFGYN"><hi rend="i">Analyse des infiniment petits</hi></rs> (1696). Crousaz möchte den Zugang zu diesem Lehrbuch der Differentialrechnung erleichtern, indem er mathematische Begriffe erklärt, Rechenschritte ausführt und Beweise erläutert. Am <rs type="letter" key="B_991170514973605501">24. Juni 1722</rs> schickt er Bernoulli sein Buch und bezeichnet im Begleitbrief das zugrunde liegende Lehrbuch als eher Bernoullis als l’Hôpitals Werk.</p>
+                        <p>Bernoulli antwortet am <rs type="letter" key="B_991170430087405501">15. Juli 1722</rs> mit einer ausführlichen Kritik. Er beanstandet, dass Crousaz’ Erklärungen das Verständnis der unendlich kleinen Grössen stellenweise erschwerten. So wendet er sich gegen die Vorstellung, durch fortgesetzte Teilung eines Körpers zu einer Fläche zu gelangen: Die Teile eines Körpers blieben Körper, ebenso wie die Teile einer Fläche Flächen blieben. Neben begrifflichen Einwänden und einzelnen Rechenfehlern kritisiert Bernoulli die Zuschreibung mathematischer Ergebnisse. Crousaz erkenne Bernoullis Anteil an l’Hôpitals Lehrbuch im persönlichen Brief an, würdige ihn in der gedruckten Vorrede jedoch nicht entsprechend. Crousaz nennt Bernoulli bei der Lösung der im Lehrbuch behandelten Aufgabe zur kürzesten Dämmerung ausdrücklich als Urheber. Gesucht sind für einen Ort gegebener geographischer Breite die Tage im Jahr, an denen die Abenddämmerung am kürzesten dauert.<note type="comment" resp="SG"><rs type="biblio" key="biblio_8F9PQT7E">Crousaz, <hi rend="i">Commentaire sur l’analyse des infiniment petits</hi></rs>, 1721, p. 155, «Exemple XIII», zu <rs type="biblio" key="biblio_6EAMFGYN">l’Hôpital, <hi rend="i">Analyse des infiniment petits</hi></rs>, art. 61, p. 52. Crousaz erläutert die Aufgabe am Beispiel von Paris und schreibt die Lösung «M. Bernoulli, aujourd’hui Professeur à Bâle» zu. Vgl. <ref target="https://www.e-rara.ch/zut/content/pageview/1090567">Digitalisat, p. 155</ref>.</note> Bernoulli wendet ein, gerade die ausdrückliche Zuschreibung nur dieser Lösung erwecke den Eindruck, die übrigen Ergebnisse stammten nicht von ihm.</p>
+                        <p>In seiner <rs type="letter" key="B_991170514973505501">Antwort vom 25. September 1722</rs> dankt Crousaz für Bernoullis aufrichtige und herzliche Schreibweise, die er als Zeichen wahrer Freundschaft versteht. Er erklärt, Bernoullis Anteil für allgemein bekannt gehalten und deshalb auf eine ausdrückliche Würdigung verzichtet zu haben. Um das Versäumte nachzuholen, kündigt er einen Auszug aus seinem Werk in der <hi rend="i">Bibliothèque germanique</hi> an, in dem er diesen Anteil öffentlich hervorheben will. Bernoulli begrüsst das Vorhaben am <rs type="letter" key="B_991170514973405501">11. November 1722</rs>: Eine solche Klarstellung könne verhindern, dass englische Gegner Crousaz’ Kommentar gegen seine Ansprüche auf wissenschaftliche Anerkennung verwendeten.</p>
+                        <p>1723 erscheint in der <hi rend="i">Bibliothèque germanique</hi> eine anonyme Rezension von Crousaz’ <hi rend="i">Commentaire</hi>. Die Redaktion hält gleich zu Beginn fest, Bernoulli beanspruche das kommentierte Werk für sich; seine Urheberschaft an mehreren darin enthaltenen Sätzen werde nicht bestritten. Zugleich erklärt sie, nicht auf die Auseinandersetzungen eingehen zu wollen, die zu persönlichen Streitigkeiten geführt hätten. Sie macht damit seinen Anspruch öffentlich und erkennt einzelne Beiträge an, ohne sich seine weitergehenden Ansprüche vorbehaltlos zu eigen zu machen.<note type="comment" resp="SG">Anonyme Besprechung von Jean-Pierre de Crousaz, <hi rend="i">Commentaire sur l’Analyse des Infiniment petits</hi>, in: <hi rend="i">Bibliothèque germanique ou Histoire littéraire de l’Allemagne, de la Suisse, et des Pays du Nord</hi>, t. VI, Amsterdam: Pierre Humbert, 1723, art. V, pp. 98–113, hier p. 98: «au moins M. Bernoulli le revendique» und «on ne disconvient pas qu’il ne soit l’Auteur de plusieurs Propositions qu’on y lit, &amp; qu’on y admire». Vgl. <ref target="https://www.digitale-sammlungen.de/en/view/bsb10731428?page=104">Digitalisat, p. 98, Scan 104</ref>.</note></p>
+                        <p>Am <rs type="letter" key="B_991170514973105501">16. Mai 1724</rs> übersendet Crousaz Bernoulli die Neuausgabe des <hi rend="i">Traité du beau</hi>. Darin würdigt er Johann Bernoullis Lösung zum Schwingungszentrum und hebt ihre Eleganz, Kürze und Einsichtigkeit hervor. Das Lob steht in Band I, Kapitel IX, S. 380–381, im Zusammenhang mit der Theorie zusammengesetzter Pendel.<note type="comment" resp="SG">Jean-Pierre de Crousaz, <hi rend="i">Traité du beau</hi>, nouvelle édition, Amsterdam: L’Honoré &amp; Chatelain, 1724, t. I, chap. IX: «De la Beauté des Sciences», pp. 380–381. Auf p. 380 bezeichnet «M. Bernoulli l’aîné» Jacob, auf p. 381 «M. Bernoulli présentement Professeur à Bale» Johann I. Vgl. <ref target="https://books.google.ch/books?id=nUU8AAAAcAAJ&amp;pg=PA381">Digitalisat, p. 381</ref>.</note> Bernoulli dankt dafür am <rs type="letter" key="B_991170514973005501">3. Juni 1724</rs>, erklärt aber zugleich, bei seiner ersten Durchsicht die nach früheren Zusagen erhoffte Klarstellung zu bestimmten Stellen des <hi rend="i">Commentaire</hi> nicht gefunden zu haben. Er fürchtet weiterhin, englische Gegner könnten daraus Argumente gegen seine Ansprüche auf mathematische Entdeckungen gewinnen. Das Lob einer mechanischen Leistung erfüllt für ihn somit nicht die Erwartung, dass auch sein Anteil an l’Hôpitals Lehrbuch öffentlich klargestellt werde.</p>
+                        <p>Am <rs type="letter" key="B_991170514972905501">9. Juni 1724</rs> verweist Crousaz seinerseits darauf, seiner Bewunderung für Bernoulli bereits in der <hi rend="i">Bibliothèque germanique</hi> Ausdruck gegeben zu haben. Der Brief nennt den Beitrag nicht näher. Die Rezension von 1723 kommt als Bezug dieser Aussage und der früheren Ankündigung in Betracht; eine Verfasserschaft oder Einsendung durch Crousaz ist aus dem anonymen Druck allein nicht gesichert. In Crousaz sucht Bernoulli einen Verbündeten, dessen öffentliches Zeugnis seine Autorschaftsansprüche stützen soll.<note type="comment" resp="SG">Ein vergleichbares Anliegen verfolgt Bernoulli gegenüber Montmort. Im <rs type="letter" key="B_991170514994705501">Brief vom 21. Mai 1718</rs> begründet er seinen ausführlichen Bericht über die Ansprüche auf seine Entdeckungen ausdrücklich mit Montmorts geplanter <hi rend="i">Histoire de la Géométrie</hi> und schickt ihm vertrauliche Auszüge aus früheren Briefen an Varignon. Montmort unterscheidet in seiner <rs type="letter" key="B_991170514994605501">Antwort vom 26. Juni 1718</rs> zwischen seiner persönlichen Überzeugung und den Beweisen, die er als Historiker benötige, und empfiehlt die Veröffentlichung von Bernoullis alten Vorlesungen.</note></p>
+
+
+                    </div>
+                </div>
+                <div xml:id="crousaz-groninger-nachfolge">
+                    <head>Akademische Beziehungen und die Groninger Nachfolge</head>
+                    <p>Die Korrespondenz begleitet auch Crousaz’ Berufung nach <rs type="place" key="place_GEO-2755251">Groningen</rs>. Dort übernahm er 1724 nach längerer Vakanz den zuvor von <rs type="person" key="pers_DE-588-118509969">Johann I Bernoulli</rs> besetzten mathematischen Lehrstuhl, den er bis 1726 innehatte.<note type="comment" resp="SG">W. J. A. Jonckbloet, <hi rend="i">Gedenkboek der Hoogeschool te Groningen</hi>, Groningen 1864, p. 304; W. B. S. Boeles, <hi rend="i">Levensschetsen der Groninger hoogleeraren</hi>, im Anhang desselben Bandes, pp. 65–66.</note> Bernoulli bezeichnet ihn im <rs type="letter" key="B_991170514973005501">Brief vom 3. Juni 1724</rs> ausdrücklich als seinen Nachfolger auf diesem Lehrstuhl. Zugleich warnt er ihn vor theologischen Gegnern und berichtet von seinen eigenen früheren Konflikten in Groningen. Crousaz bestätigt am <rs type="letter" key="B_991170514972905501">9. Juni 1724</rs> die Annahme der Berufung, dankt für Bernoullis Ratschläge und kündigt an, den Vorgänger in seiner Antrittsvorlesung zu würdigen. Die institutionelle Nachfolge ist damit zugleich Gegenstand persönlicher Beratung und öffentlicher wissenschaftlicher Anerkennung.</p>
+                    <p>Crousaz trat in Groningen als Professor für Mathematik und Philosophie auf. Seine am 19. Oktober 1724 gehaltene Antrittsrede behandelt den wechselseitigen Zusammenhang von Logik, Physik und Mathematik.<note type="comment" resp="SG">Jean-Pierre de Crousaz, <hi rend="i">De logicae cum physica, et de matheseos cum utraque, ac utriusque cum mathesi reciproco nexu. Oratio inauguralis</hi>, Groningen: Georg Spandaw und Johann à Velsen, 1724. Titelblatt und Titel nennen den 19. Oktober 1724 als Datum und bezeichnen Crousaz als Professor der Mathematik und Philosophie.</note> Die Groninger Berufung bietet deshalb einen Ansatzpunkt, um den Austausch über mathematische Lehre mit den naturphilosophischen und methodischen Fragen der Korrespondenz zu verbinden.</p>
+
+
+                </div>
+                <div xml:id="crousaz-quellen-redaktion">
+
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

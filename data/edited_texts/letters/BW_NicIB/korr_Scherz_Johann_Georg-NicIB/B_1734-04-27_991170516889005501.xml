@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516889005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Georg Scherz an Nicolaus I Bernoulli.
+            Straßburg, 27. April 1734</title>
+          <title type="alt">1734.04.27: Scherz, Johann Georg
+            (1678-1754) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059434</title>
+          <title type="alt">1734-04-27_Scherz_Johann_Georg-Bernoulli_Nicolaus</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516889005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516889005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Scherz, Johann Georg (1678-1754) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39679">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.245</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516889005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433675705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059434</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>22</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Arge.</origPlace>
+              <date when="1734-04-27">d. 27 April.
+              1734</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117222267">Scherz, Johann Georg</persName>
+          <placeName key="place_GEO-2973783" ref="https://d-nb.info/gnd/4057878-1">Straßburg</placeName>
+          <date when="1734-04-27"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516889105501" type="prev"/>
+          <ptr target="B_991170517163805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Scherz_Johann_Georg-NicIB" corresp="pers_DE-588-117222267" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Empfehlungsschreiben für den Sohn von Johann Georg Scherz</p>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-03-20" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1362224/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1362225" n="1"/>
+  <opener><salute rend="center"><lb/>Vir Consultissime at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Excellentissime,
+      <lb/>Fautor Honoratissime <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr></salute></opener>
+  <p><lb/>Celebritas Nominis Tui, mea<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> in <rs type="person">fili<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice></rs>
+      <lb/>pietas incitat me, ut per hasce labo<pc type="hyphenation">-</pc><lb break="no"/>ribus Tuis gravissimis obstrepam.
+      <lb/>Qui has affert, est mihi <rs type="person">filius</rs> natu
+      <lb/>major. Ille hactenus, pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter studium
+      <lb/>Juris, Mathesin singulariter excoluit,
+      <lb/>et quidem eo cum successu, ut multis
+      <lb/>in e<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> aliquid pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stitisse videretur.
+      <lb/>Cum ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> nunc optet admitti ad
+      <lb/>majora, ut ita loquar, mysteria,
+      <lb/>sciamus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ad illa non per alios, quam
+      <lb/>per Celeberrimos <rs type="person">Bernoullios</rs> aditum
+      <lb/>patere, eundem, ut felicitatis hujus
+<pb facs="1362226" n="2"/>
+      <lb/>compos reddatur, ad Vos mitto. Ro<pc type="hyphenation">-</pc><lb break="no"/>go ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Te, Vir Excellentissime, obse<pc type="hyphenation">-</pc><lb break="no"/>cro<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>, ut <rs type="person">juvenem</rs> huncce consiliis Tuis
+      <lb/>juves, ei<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> viam ad sublimem illam,
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> propria Vobis dos est, Mathesin
+      <lb/>pandas. Nec ille, nec ego quicquam
+      <lb/>in nobis desiderari patiemur, quod
+      <lb/>Gratitudo requirit. Uti ab Hu<pc type="hyphenation">-</pc><lb break="no"/>manitate Tua precibus <rs key="pers_DE-588-117222267" type="person">Patris</rs>,
+      <lb/><rs type="person">filii</rs> salutem ex debito curantis,
+      <lb/>datum iri spero, ita de officiis
+<pb facs="1362228" n="3"/>
+      <lb/>meis, <rs type="person">filii<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice></rs> obsequio Te cer<pc type="hyphenation">-</pc><lb break="no"/>tissimum reddo. </p>
+  <closer>Vale, Vir Ex<pc type="hyphenation">-</pc><lb break="no"/>cellentissime, et fave <lb/>Tuo ex asse <lb/><signed><rs key="pers_DE-588-117222267" type="person"
+              >Joh. Georgio Scherzio</rs></signed>, <lb/><abbr>Fac.</abbr>
+          <abbr>Jurid.</abbr> Seniori <lb/>et Capituli Thomani Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>posito.<note type="comment"
+            resp="SG">Propst des Thomas-Kapitels.</note>
+      <lb/><dateline><rs type="place" key="place_GEO-2973783">Arge.</rs>
+      <lb/><abbr>d.</abbr>
+            <date when="1734-04-27">27. <abbr>April.</abbr>
+      <lb/>1734</date>.</dateline>
+    <address>
+<pb facs="1362229" n="4"/>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-119166895" type="person">Bernoulli</rs></addrLine>
+      <addrLine>Docteur et Professeur</addrLine>
+      <addrLine>en droit tres-celebre <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Basle</rs>.</addrLine>
+    </address></closer>
+</div>
+<div type="translation" xml:id="B_991170516889005501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1362225" n="1" /> <p>Hochgelehrter und vortrefflicher Herr,<lb type="forced"/>hochverehrter Gönner etc.!</p>
+<p>Dein berühmter Name und meine Liebe zu meinem Sohn ermutigen mich, Dich mit diesen Zeilen bei Deinen wichtigen Arbeiten zu unterbrechen. Der Überbringer dieses Briefes ist mein ältester Sohn. Neben dem Studium der Rechte hat er sich bisher besonders der Mathematik gewidmet, und zwar mit solchem Erfolg, dass er nach dem Urteil vieler darin schon Beachtliches geleistet hat. Nun möchte er gewissermassen in ihre höheren Geheimnisse eingeweiht werden. Da wir wissen, dass der Zugang dazu nur über die hochberühmten Bernoulli führt, schicke ich ihn zu Euch, damit ihm dieses Glück <pb facs="1362226" n="2" /> zuteilwerde. Ich bitte Dich deshalb, vortrefflicher Herr, ja ich beschwöre Dich, diesem jungen Mann mit Deinem Rat beizustehen und ihm den Weg zu jener höheren Mathematik zu eröffnen, die Eure besondere Begabung ausmacht. Weder er noch ich werden es an etwas fehlen lassen, was die Dankbarkeit verlangt. Wie ich von Deiner Freundlichkeit erhoffe, dass sie die Bitte eines Vaters erhört, der seiner Pflicht gemäss für das Wohlergehen seines Sohnes sorgt, so versichere ich Dich meiner Dienste <pb facs="1362228" n="3" /> und der Ergebenheit meines Sohnes.</p>
+<p>Lebe wohl, vortrefflicher Herr, und bleibe gewogen<lb type="forced"/>Deinem Dir ganz ergebenen<lb type="forced"/>Johann Georg Scherz,<lb type="forced"/>Senior der Juristischen Fakultät<lb type="forced"/>und Propst des Thomaskapitels.<lb type="forced"/>Strassburg,<lb type="forced"/>27. April<lb type="forced"/>1734.</p>
+<p><pb facs="1362229" n="4" /> An Herrn<lb type="forced"/>Herrn Bernoulli,<lb type="forced"/>den hochberühmten Doktor und Professor<lb type="forced"/>der Rechte etc.,<lb type="forced"/>in<lb type="forced"/>Basel.</p></div>
+<div type="translation" xml:id="B_991170516889005501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1362225" n="1" /> <p>Most learned and distinguished sir,<lb type="forced"/>my greatly honoured patron, etc.,</p>
+<p>The renown of your name and my affection for my son encourage me to interrupt your important work with these lines. The bearer is my eldest son. Alongside his legal studies, he has devoted particular attention to mathematics, with such success that many consider him already to have achieved something of substance in it. He now wishes to be admitted, so to speak, to its higher mysteries. Knowing that access to them is possible only through the celebrated Bernoullis, we send him to you so that he may enjoy this good fortune. <pb facs="1362226" n="2" /> I therefore ask you, distinguished sir, indeed I implore you, to assist this young man with your advice and open his way to that higher mathematics which is your family’s special gift. Neither he nor I will be found wanting in anything that gratitude requires. Just as I trust your kindness will grant the request of a father doing his duty in caring for his son’s welfare, so I assure you of my services <pb facs="1362228" n="3" /> and my son’s devotion.</p>
+<p>Farewell, distinguished sir, and think kindly of<lb type="forced"/>your wholly devoted<lb type="forced"/>Johann Georg Scherz,<lb type="forced"/>Senior of the Faculty of Law<lb type="forced"/>and Provost of the Chapter of St Thomas.<lb type="forced"/>Strasbourg,<lb type="forced"/>27 April<lb type="forced"/>1734.</p>
+<p><pb facs="1362229" n="4" /> To Monsieur<lb type="forced"/>Monsieur Bernoulli,<lb type="forced"/>the celebrated Doctor and Professor<lb type="forced"/>of Law, etc.,<lb type="forced"/>in<lb type="forced"/>Basel.</p></div>
+</body>
+</text></TEI>

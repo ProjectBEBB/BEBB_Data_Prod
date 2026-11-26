@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430081205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Jean Jallabert. Basel, 28. September 1742</title>
+          <title type="alt">1742.09.28: Bernoulli, Daniel (1700-1782) an Jallabert, Jean (1712-1768)</title>
+          <title type="alt">000055124</title>
+          <title type="alt">1742-09-28_Bernoulli_Daniel-Jallabert_Jean</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430081205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430081205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Jallabert, Jean (1712-1768)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, Societé d'Histoire</repository>
+            <idno type="callNumber">243</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430081205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406973805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055124</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1742-09-28">ce 28. 7bre 1742</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1742-09-28"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430083405501" type="prev"/>
+          <ptr target="B_991170430080005501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Jallabert_Jean-DanIB" corresp="pers_DE-588-100289665" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-140737529">Buxtorf, August Johann</persName>
+            <note type="lebensdaten">(1696-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116472448">Castillon, Giovanni Francesco Mauro Melchiorre</persName>
+            <note type="lebensdaten">(1708-1791)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118561448">Kepler, Johannes</persName>
+            <note type="lebensdaten">(1571-1630)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1397678526">Malvesin, Pierre</persName>
+            <note type="lebensdaten">(1681-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-03-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-03-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <p> Quoique ce ne soit peutetre qu’une equivoque qui m’ait procuré l’honneur de votre derniere lettre, je ne laisse pas, Monsieur mon cher amj, d’y etre tres sensible; je ne le suis pas moins aux politesses et marques d’amitié dont elle est remplie. Vous me parlez des observations que vous avez faites, vous et Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>, sur la comete. Si je connois l’exactiude de Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>, je connois encore d’avantage sa grande penetration; c’est pourquoi je ne souhaite pas tant ses observations, qu’il seroit apparement trop prolixe de transcrire, que les consequences qu’il en a tirées. Cependant si Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> n’a point publié ses observations et qu’il veuille bien me permettre que je les envoye à <rs key="place_GEO-498817" type="place">Petersbourg</rs> pour etre inserées dans le premier tome des memoires qui ne tardera gueres à etre imprimé, il m’obligera: je les accompagnerai de quelques reflexions dans l’unique dessein de rendre à Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> toute la justice qu’il merite et de temoigner au public combien je respecte son merite. Vous me demandez mon sentiment sur la formation de la queue des cometes: mais à vous dire le vrai, je n’ai rien qui me satisfasse et la theorie de Mr. <rs key="pers_DE-588-118587544" type="person">Newton</rs> sur ce point me satisfait encore moins. vos difficultés contre le sentiment de Mr. <rs key="pers_DE-588-118587544" type="person">Newton</rs> sont sans doute tres fortes et il y en a encore d’autres. la lumiere de la queue me paroit trop vife pour pouvoir etre causée par les vapeurs qui sortent de la comete, d’autant que les rayons du soleil doivent percer librement ces vapeurs et n’y causer aucune lumiere; et quand meme ces vapeurs seroient trop epaisses pour donner un libre passage aux rayons du soleil, je ne vois pas comment ces rayons puissent se rompre ou se reflechir, pour parvenir precisement à la terre; il me paroit qu’il ne devroit y avoir qu’une seule position pour que cela puisse arriver tout comme l’arc-en-ciel ne se montre que sous un certain angle. je croirois plutot que la lumiere de la queue est une lumiere propre et non empruntée et qu’elle est causée par un embrasement reel de la surface de la comete. ce sentiment me paroit aussi plus conforme à l’enorme longueur de la queue, car chaque etincelle peut conserver longtems sa lumiere. Dans le sentiment de <rs key="pers_DE-588-118587544" type="person">Newton</rs> c’est une autre difficulté, que le corps de la comete empecheroit les rayons du soleil d’eclairer les vapeurs qui sortiroient de la comete, pendant que nous voyons la queue contigue avec le corps de la comete. Au reste je ne doute pas que le soleil n’ait une atmosphere, qui s’etend bien au delà du systeme planetaire et je crois d’avoir si bien etabli la verité de ce sentiment dans ma piece sur l’inclinaison des orbites des planetes, qu’on ne sauroit plus le revoquer en doute; c’est à cette atmosphere qu’on doit attribuer la presque coincidence des dites orbites, leur figure presque circulaire, l’ellipticité presque parabolique des orbites des cometes et un grand nombre d’autres phenomenes: j’ai demontré aussi que cette atmosphere est d’une nature bien differente de celle de la terre; notre air est le plus dense à la surface de la terre et se rarefie à mesure qu’il s’en eloigne; il n’en est pas de meme de l’atmosphere solaire, parceque la chaleur du soleil rarefie en meme tems les parties qui sont plus proches et de là on peut expliquer quelques autres phenomenes sur la queue des cometes. L’opinion de <rs key="pers_DE-588-118561448" type="person">Kepler</rs> ne me paroit guere plus vraisemblable que celle de Mr. <rs key="pers_DE-588-118587544" type="person">Newton</rs>. je ne vous donne pas la mienne non plus pour beaucoup mieux fondée; je reponds simplement à ce que vous me demandez; je serai charmé de savoir aussi votre sentiment et celui de Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs>. Je viens à l’autre question que vous me formez, dans laquelle il n’y a aucune incertitude. Les vibrations d’une corde peuvent se faire d’une infinité de manieres. En voici les figures. La premiere figure donne le son fondamental, la seconde son octave, la troisieme sa douzieme; s’il se formoit trois noeuds, la chorde donneroit la double octave, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. Les distances des noeuds ne sont pas des parties insensibles, mais elles vont dans cette progression depuis la premiere figure 1, <formula>\frac{1}{2},\frac{1}{3},\mathrm{\&amp;c.}</formula> et les oscillations se forment à la maniere de la 1ere... ou de la seconde ou de la 3e. figure selon l’endroit où vous donnez le coup d’archet et que vous le donnez fortement; l’inertie des parties de la corde est cause, que la chorde ne fait pas toujours toute entiere ses vibrations; ces vibrations peuvent se faire en meme tems suivant differentes figures de sorte qu’on peut entendre en meme tems plusieurs sons differens tout cela peut se distinguer à l’oeil dans des cordes tres longues et peut se demontrer mechaniquement; ce que Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs> dit n’est pas contraire à ce que je viens de marquer. il ne parle pas des differences des sons telles que l’octave, la 12 e, la 15 e, mais d’une difference qui peut aller à un demi quart de ton et cette difference part veritablement de la raison qu’il dit. je viens de travailler à une piece sur les sons qu’on peut tirer des lames à ressort, où il se fait tout à fait la meme chose; prenez un morceau d’une aiguille à tricotter long de 4, 5 ou 6 pouces et plantez l’une des extremites dans une planche et faites la tremousser; vous entendrez un son fort distinct. mais ses oscillations se forment encore de plusieurs facons; les figures ci jointes en marquent les deux principales: ab est l’aiguille droite et ac ou bien adc la figure de l’aiguille dans ses vibrations et si vous frisez avec le doigt la pointe en b vous entendrez distinctement les deux sons à la fois; j’ai trouvé moyen de calculer chaque son et je les ai trouvés par experience exactement tels que la theorie me les avoit enseignés. c’est peutetre le probleme de mechanique des plus difficiles qu’on ait encore resolus d’autant que l’equation generale de la courbure de l’aiguille est necessairement des differentielles du quatrieme ordre. je ne sai, Mon cher Amj, si je me suis assez expliqué; c’est une matiere qui demanderoit un traitté et non une lettre: et elle est sans contestation et purement mechanique. vous voyez, si je me suis assez expliqué, la reponse aux questions que vous me formez. </p>
+  <p> Je voudrois bien savoir de quelles experiences vous parlez touchant l’action des rayons rassemblés par les miroirs ardens et si l’on a pû remarquer une impulsion; j’ai voulu faire cette experience à <rs key="place_GEO-498817" type="place">Petersbourg</rs> avec une balance extremement mobile; mais elle ne m’a pas reüssi. J’ai recu les dissertations de <rs key="place_GEO-2992166" type="place">Montpellier</rs>. Vous aurez aussi recu la laine, que j’ai remis à mon <rs key="pers_DE-588-117589136" type="person">frere</rs>; le prix valoit precisement celui des deux billets de lotterie. marquez moi, s. v. p. si cette lotterie s’est actuellement tirée. Si vous ecrivez à Mr. <rs key="pers_DE-588-116472448" type="person">Castillon</rs> de <rs key="place_GEO-2658145" type="place">Vevey</rs>, je vous prie de luj faire mes complimens et de luj demander des nouvelles d’une montre que je luj ai envoyée à faire racommoder il y a fort longtems. elle est à Mr. le Ministre <rs key="pers_DE-588-140737529" type="person">Buxtorf</rs> que vous connoissez et qui est fort de mes amis; quand elle sera racommodée, Mr. <rs key="pers_DE-588-116472448" type="person">Castillon</rs> pourra me l’envoyer par la messagerie et vous me feriez plaisir de faire payer à l’ouvrier ce qui lui faudra et à Mr. <rs key="pers_DE-588-116472448" type="person">Castillon</rs> les petits fraix qu’il, pourra avoir faits. il me sera facile de vous faire rembourser par Mr. <rs key="pers_DE-588-1397678526" type="person">Malvesin</rs>. Est ce que Mr. <rs key="pers_DE-588-116472448" type="person">Castillon</rs> est deja fort avancé avec son Commentaire sur l’arithmetique universelle de <rs key="pers_DE-588-118587544" type="person">Newton</rs>; je ne l’ai pas oublié soit pour <rs key="place_GEO-498817" type="place">Petersbourg</rs> soit pour <rs key="place_GEO-2950159" type="place">Berlin</rs>, mais le tems n’est pas encore propre pour faire aucune proposition et je voudrois bien qu’il eut publié auparavant son commentaire pour pouvoir le servir avec plus d’efficace. tous vos amis vous font leurs complimens et moi je suis toujours tres parfaitement Monsieur mon cher Amj votre tres humble et tres obéissant serviteur <rs key="place_GEO-2661604" type="place">Bale</rs> ce 28. 7bre 1742 <rs key="pers_DE-588-118656503" type="person">Daniel Bernoullj</rs> </p>
+</div>
+</body>
+</text></TEI>

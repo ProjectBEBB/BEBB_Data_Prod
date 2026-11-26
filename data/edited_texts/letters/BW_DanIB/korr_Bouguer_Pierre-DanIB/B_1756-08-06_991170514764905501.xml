@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514764905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Bouguer an Daniel I Bernoulli. Paris, 06. August 1756</title>
+          <title type="alt">1756.08.06: Bouguer, Pierre (1698-1758) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000054807</title>
+          <title type="alt">1756-08-06_Bouguer_Pierre-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514764905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514764905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bouguer, Pierre (1698-1758)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Brief am oberen Rand beschnitten. Nur Teile der Adresse betroffen. Neben der Adresse Rest einer schriftlichen Rechnung. Am Briefkopf alte Nummer "122"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-143160">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 680:Bl.237-238</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514764905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432850905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054807</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>22,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris rüe des Postes</origPlace>
+              <date when="1756-08-06">le 6 aoust 1756</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117622974">Bouguer, Pierre</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1756-08-06"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514765005501" type="prev"/>
+          <ptr target="B_991170430097605501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bouguer_Pierre-DanIB" corresp="pers_DE-588-117622974" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117648388">Cassini, Jacques</persName>
+            <note type="lebensdaten">(1677-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116821833">Grandjean de Fouchy, Jean Paul</persName>
+            <note type="lebensdaten">(1707-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117547786">Godin, Louis</persName>
+            <note type="lebensdaten">(1704-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118778390">La Condamine, Charles-Marie de</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118729438">Ludwig</persName>
+            <note type="lebensdaten">(1710-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11900643X">Picard, Jean</persName>
+            <note type="lebensdaten">(1620-1682)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-16" who="SG NG">Kollationieren begonnen</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-01-29" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-01-29" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-01-29" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3832509/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+
+<pb facs="3832510" n="237r"/>
+  <p><lb/>Vous sçavez peut être déja, Monsieur et bon ami, si
+      <lb/>vôtre <rs type="biblio">piece</rs> a été remise à <abbr>M.</abbr> <rs key="pers_DE-588-116821833" type="person">de Fouchy</rs>; mais en
+      <lb/>tout cas voicy ce qui doit vous en instruire parfaitement.
+      <lb/>On n’a jusqu’aujourdhuy <choice><orig>reçeu</orig><reg>receu</reg></choice> que trois pieces. L’un<del><gap/></del>e
+      <lb/>a pour devise <hi rend="u"><foreign xml:lang="lat">plenis trajiciens</foreign></hi> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr>, la seconde
+      <lb/><hi rend="u"><foreign xml:lang="lat">insequitur clamorque</foreign></hi> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> et la troisieme <hi rend="u"><foreign xml:lang="lat">Qui dubiis
+      <lb/>ausus committere flatibus alnum</foreign></hi> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr></p>
+  <p><lb/>Je ne puis nullement approuver ce que vous me faites
+      <lb/>l’honneur de <add>me</add> marquer que le <rs type="biblio">mémoire</rs> que vous nous
+      <lb/>enverriez sur les boussoles d’inclinaison <del><gap/></del>mériteroit <del><gap/></del><add>tout au plus de</add>
+      <lb/>paroistre <del><gap/></del>dans quelque journal. Jusqu’à present on
+      <lb/>a donné à ces aiguilles une forme très imparfaite; il
+      <lb/>seroit donc très utile de mettre tous les Artistes en etat
+      <lb/>d’en construire de meilleures, et les Physiciens de faire
+      <lb/>de bonnes observations. Peut-on imaginer un objet plus
+      <lb/>important et qui mérite davantage d’entrer dans nos
+<pb facs="3832511" n="237v"/>
+      <lb/><rs type="biblio">Mémoires</rs>? Defaites<choice><orig> </orig><reg>-</reg></choice>vous, je vous en prie, de cette
+      <lb/>maniere trop modeste de penser au sujet de vos
+      <lb/>productions; et ne nous privez pas par une espece
+      <lb/>de vol, de toutes les lumieres que vous pouvez nous
+      <lb/>donner mieux que personne<del><gap/></del>. Quelque chose est-il
+      <lb/>utile <del><gap/></del>et n’est-il pas suffisament <del><gap/></del><add>s</add>çeu? il n’y a
+      <lb/>point à ballancer, on est obligé de le communiquer.
+      <lb/>C’est là la regle qui doit determiner le bon citoyen,
+      <lb/>l’ami du bien public. Le <rs type="biblio">mémoire</rs> que vous nous enverrez
+      <lb/>mettra en valeur l’adresse de l’Artiste qui travaille<del><gap/></del>
+      <lb/>sous vos yeux, et je suis sûr que plusieurs personnes
+      <lb/>voudront ensuite avoir de ses aiguilles.</p>
+  <p><lb/>Votre expérience sur le canard meriteroit d’être repetée
+      <lb/>et c’est encore ce que vous devez faire plustôt que d’en
+      <lb/>laisser le soin à quelqu’autre. C’est par cette raison que
+      <lb/>je n’en ai point parlé icy.</p>
+  <p><lb/><abbr>M.</abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> est actuellement à <rs key="place_GEO-2988507" type="place">Paris</rs>, mais
+      <lb/>il n’a point encore fait usage de son droit d’assister à<del><gap/></del>
+      <lb/>nos Assemblées. <choice><orig>il</orig><reg>Il</reg></choice> y a environ trois semaines qu’il a, pendant
+      <lb/>meme son absence <del><gap/></del><add><choice><orig>eté</orig><reg>été</reg></choice></add> <choice><sic>réïteingré</sic><corr>réïntegré</corr></choice> chez nous, de même
+<pb facs="3832512" n="238r"/>
+      <lb/>que <abbr>M.</abbr> <rs key="pers_DE-588-117547786" type="person"><choice><orig>godin</orig><reg>Godin</reg></choice></rs>. <choice><orig>une</orig><reg>Une</reg></choice> <rs type="letter">lettre</rs> du <rs key="pers_DE-588-118729438" type="person">Roy</rs> en fit l’affaire et
+      <lb/>la chose ne fut point mise à la deliberation de la
+      <lb/>compagnie qui ecouta avec respect les intentions du
+      <lb/>Souverain. <abbr>M.</abbr> <rs key="pers_DE-588-117547786" type="person"><choice><orig>godin</orig><reg>Godin</reg></choice></rs> a profité de cette grace; il nous
+      <lb/>est venu depuis ce temps, mais pour le <rs type="person">président</rs>
+      <lb/>de l’<rs type="organisation">Academie de Berlin</rs> s’est tenu à l’ecart. <abbr>M.</abbr> <rs key="pers_DE-588-118778390" type="person">de
+      <lb/>la Condamine</rs> est de retour de <rs key="place_GEO-3169070" type="place">Rome</rs>, mais nous ne
+      <lb/>l’avons point encore vû et je ne sçai s’il est venu
+      <lb/>à <rs key="place_GEO-2988507" type="place">Paris</rs>, ou s’il sera allé tout droit epouser sa <rs type="person">niece</rs>
+      <lb/>dont il etoit fort amoureux, et avec laquelle il peut maintenant
+      <lb/>se lier en ayant obtenu les dispenses du <rs type="person">pape</rs>.</p>
+  <p><lb/><choice><orig>une</orig><reg>Une</reg></choice> autre nouvelle qui vous interessera peut être
+      <lb/>davantage; c’est que l’<rs type="organisation">Academie</rs> veut dissiper les
+      <lb/>doutes qu’on a suscités tant de fois au sujet de la
+      <lb/>grandeur d<del><gap/></del><add>u</add> degré du meridien aux environs de <rs key="place_GEO-2988507" type="place">Paris</rs>.
+      <lb/>Vous sçavez que plusieurs sçavans sont restés attachés
+      <lb/>à la mesure geodésique executée par <add>M.</add> <rs key="pers_DE-588-11900643X" type="person">Picard</rs>, <del><gap/></del><add>malgré</add>
+      <lb/>la prétension <add>contraire</add> de <abbr>M.<hi rend="sup">rs</hi></abbr> <rs key="pers_DE-588-117648388" type="person">Cassinis</rs>. L’<rs type="organisation">Academie</rs> nous a
+      <lb/>nommés au nombre de huit et nous a distribué en
+      <lb/>deux bandes pour décider la chose pour ainsi dire
+<pb facs="3832513" n="238v"/>
+    contradictoirement: nous devons mesurer une base, et en partir pour parvenir à un coté non equivoque des triangles de Mr. <rs key="pers_DE-588-11900643X" type="person">Picard</rs>. Ce premier côté est, si je ne me trompe, la distance de la tour de <rs type="place">Monthleri</rs> au clocher d’un Village qui se nomme <rs type="place">Brie comte Robert</rs>; et cette détermination nous fera connoistr de quel part est l’erreur ou la difference qui partage les anciens géodesistes. Excusez mon barbouillage. Jai voulu que cette lettre partît pour vous tirer d’inquietude au sujet de votre piece, et cela est-i cause que je vous ecris avec la plus grande précipitation. Je vous salue une infinité de fois et je vous exhorte à m’aimer toujours. à <rs key="place_GEO-2988507" type="place">Paris</rs> <rs key="place_STR-ruedepos" type="place">rue des Postes</rs> le 6 aoust 1756 <rs key="pers_DE-588-117622974" type="person">Bouguer</rs> [Adresse wie bei den vorhergehenden Briefen.] </p>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430087405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean-Pierre de Crousaz. Basel, 15.
+            Juli 1722</title>
+          <title type="alt">000055794</title>
+          <title type="alt">1722-07-15_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430087405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430087405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli
+            Werkausgabe: Op. XXVI Op. LXXI Op. 123</p>
+        </note>
+        <note type="print">
+          <p>Druck in: Teildruck in: Joh.I B. Opera, t.IV, pp.160-168</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://www.ub.unibas.ch/bernoulli/index.php/1722-07-15_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de">
+          <msIdentifier source="BIBB">
+            <repository>Lausanne, Privatbesitz Mlle de Crousaz</repository>
+            <idno type="callNumber">Unbekannt</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430087405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406890105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055794</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1722-07-15">ce 15 juillet
+              1722</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1722-07-15"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514973605501" type="prev"/>
+          <ptr target="B_991170514973505501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Seit seinem letzten Brief hat Joh. B. drei oder vier weitere Gichtanfälle gehabt, die ihm
+          jedes anstrengende Nachdenken und insbesondere mathematische Überlegungen verboten haben.
+          Dies raten auch die Ärzte. Deshalb hat er auf Crousaz' vorletzten Brief von 1721 03 17
+          nicht geantwortet. Diesen Sommer will er die Bäder von Pfefers [Fefres] besuchen und hat
+          aus diesem Grund eine kleine Reise nach Mulhouse gemacht, um von den Geschäften und dem
+          Haushalt fern zu sein. Das kleine Paket hat er im Auftrag Crousaz' nach Durlach
+          weitergeleitet. [Es folgt nun eine längere kritische Stellungnahme zu Crousaz' Discours
+          sur le principe ... du mouvement und seinem Commentaire sur l'analyse des infiniments
+          petits, die in Joh. B. Opera t.IV, pp.160-168 abgedruckt ist.] Joh. B. wirft Crousaz
+          schliesslich vor, dass er, obwohl er in seinen Briefen an ihn betont hat, die Analyse des
+          infiniment petits sei nicht weniger ein Werk L'Hôpitals als Joh. B.s, im Vorwort seines
+          Commentaire alle Ehre L'Hôpital gibt und ihn völlig ausschliesst. Wenn er schliesslich
+          z.B. auf p.155 sagt, die Lösung des Problems der kürzesten Dämmerung sei diejenige des
+          Herrn Bernoulli, der heute Professor in Basel ist, so bedeutet doch dies, dass alles
+          andere im Buch nicht von ihm ist. Gerade wegen der Angriffe der Engländer, Keills und
+          Taylors u.a., muss Joh. B. darauf Wert legen, dass die Analyse ein von ihm inspiriertes
+          Werk ist. Burckhardt hat dies in seiner Apologie gegen Taylor gezeigt. Joh. B. führt dann
+          u.a. an, dass z.B. Saurin im JS von 1702 die Lösung des Problems aus art.163 der Analyse
+          l'Hôpital zuschreibt, was er dann öffentlich in den AE 1704 widerlegt hat. Gamaches Werk
+          hat er nicht gesehen.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089632444">Burckhardt, Johannes</persName>
+            <note type="lebensdaten">(1691-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118524844">Descartes, René</persName>
+            <note type="lebensdaten">(1596-1650)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117672491">Gamaches, Étienne-Simon de</persName>
+            <note type="lebensdaten">(1672-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100814891">L'Hôpital, Guillaume François Antoine de</persName>
+            <note type="lebensdaten">(1661-1704)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117619515">Saurin, Joseph</persName>
+            <note type="lebensdaten">(1655-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-19" who="SG">Textnahe Ansicht noch nicht überprüft; bildgestützter Zeilenfall mangels Digitalisat offen. Transkription unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1722-07-15_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de"/>
+      </change>
+        <change when="2010-02-10" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="http://fakeURL.com"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1722-07-15_Bernoulli_Johann_I-Crousaz_Jean_Pierre_de">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+
+
+<pb/>
+        <opener>
+          <salute> Monsieur </salute>
+        </opener>
+  <p>Depuis ma derniere <rs type="letter" key="B_991170514973805501">lettre</rs> que je me donnai l’honneur de Vous ecrire etant au lit,
+          indisposé de la goute, j’en eus encore 3 ou 4 attaques assez violentes, ce qui affoiblit
+          tellement mes forces, que je suis obligé de congedier (au moins pour quelque temps) les
+          fortes meditations et tout ce qui attache l’esprit, particulierement l’etude des
+          mathematiques; c’est aussi ce que les <rs type="person">medecins</rs> me conseillent. Voila la raison pourquoi je
+          n’ai pas repondu à Votre <rs type="letter" key="B_991170514973705501">penultieme</rs> du 17. Mars dernier. Je me suis proposé de me servir cet été des eaux de <rs type="place" key="place_GEO-2659224">Pfefers</rs>, je ferai pour
+          cela un petit voyage à <rs type="place" key="place_GEO-2991214">Mulhouse</rs> à cinq lieues d’ici pour m’eloigner un peu des affaires et
+          des soins de la maison.
+          <note type="editorial">Der folgende Text bis «que Vous me faites dans Vôtre lettre» ist
+            mit einer kurzen Auslassung abgedruckt als: Joh. I B. Op. CLXIX, <hi rend="u"><rs type="biblio" key="biblio_9NAYSYI9">Extrait
+              d’une lettre à l’Auteur du Commentaire sur l’Analyse des infiniment petits de M. le
+              Marquis de l’Hopital Imprimé à Paris, en 1721</rs></hi>, in: <hi rend="u">Opera</hi> IV,
+            pp. 160–168.</note>J’ai reçû Monsieur Votre <hi rend="u"><rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs> sur
+            l’Analys</hi>e<hi rend="u"> etc.</hi> et Votre <rs type="biblio" key="biblio_YN5L7UX3">Discours sur le mouvement</rs>, je Vous en rends mille graces: J’ai envoyé aussi
+          tot à <rs type="place" key="place_GEO-2934469">Dourlac</rs><note type="comment" resp="pers_DE-588-117433391X">Durlach bei Karlsruhe war Residenz der Markgrafen von
+            Baden-Durlach.</note> le petit paquet que Vous y aviez joint, j’espere qu’il y sera
+          arrivé. En lisant le <rs type="biblio" key="biblio_YN5L7UX3">Discours sur le mouvement</rs>, j’ai bien remarqué qu’il est ecrit avec
+          beaucoup d’elegance et de force; mais je n’y ai point trouvé de nouvelle invention, comme
+          je croyois qu’on avoit exigé de ceux qui voudront pretendre à remporter quelque prix: Vos
+          pensées <pb/> tant sur le corps que sur le mouvement ne sont pas de nouvelle date, elles
+          sont la plus part prises des opinions de <hi rend="u"><rs type="person" key="pers_DE-588-118524844">Descartes</rs></hi>, qui fait comme Vous
+          consister l’Essence des corps dans la seule étendue, et celle du mouvement dans
+          l’application successive de leurs surfaces aux surfaces des corps contigus; Vous avez
+          aussi presque les memes sentiments avec M. <rs type="person" key="pers_DE-588-118524844">Descartes</rs> sur la quantité et sur la
+          communication du mouvement; Il est vrai que Vous paraphrasez tres bien cet <rs type="person" key="pers_DE-588-118524844">Auteur</rs> et que
+          Vous mettez son systeme dans un beau jour, quoique Vous le refutiez aussi sur quelques
+          points, comme par ex. sur les causes occasionelles. Cependant les Anglois ne Vous
+          passeront pas tout ce que Vous dites sur l’essence du corps et du mouvement, pour ce qui
+          est de la quantité pretendue permanente du mouvement et de sa communication que <rs type="person" key="pers_DE-588-118524844">Descartes</rs>
+          en deduit, les regles qu’il donne sont absolument fausses, on en peut demontrer
+          geometriquement la fausseté. </p>
+  <p>Je ne suis pas assez presomptueux pour croire que j’aurois pu ecrire une aussi belle
+          piece que la Votre, car je n’ai pas le don de l’eloquence; mais je souhaiterois qu’on
+          proposat une autre fois quelque question determinée prise de la physique resoluble par la
+          Geometrie, où il ne faille que de l’adresse à mediter et à inventer; peutetre aurois-je le
+          bonheur d’y reussir autant qu’un autre.</p>
+  <p>L’état de ma santé ne me permet pas de lire avec beaucoup d’attachement Votre <rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs>
+          sur <hi rend="u">l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse des infiniment petits</rs></hi>: j’ai pourtant parcouru (avant que de le donner au relieur) la Dedicace,
+          la preface et les deux Discours preliminaires; <pb/> Le second de ces discours eclaircit
+          fort bien le Calcul des puissances, tout y va bien à quelques fautes prés, soit de calcul
+          soit d’impression; Il y a aussi de belles remarques sur les infiniment petits dans le
+          premier Discours, mais il semble qu’en voulant eclaircir la nature de ces infiniment
+          petits avec trop de soin Vous la rendez moins intelligible à ceux qui ne sont pas
+          accoutumés à de longues explications, surtout si ces explications elles memes leur
+          paroissent plus obscures que la matiere à expliquer. En effet c’est quelque chose de
+          choquant que de dire (p. 5) qu’<hi rend="u">un solide, un Parallelepipede par exemple peut
+            étre divisé et subdivisé dans sa hauteur tellement qu’on viendra enfin à une surface
+            dont la hauteur sera infiniment petite</hi> etc. Car par la division des corps
+          quelqu’infinie qu’elle soit, on ne parviendra jamais à des surfaces; les parties d’un
+          corps quoi qu’infiniment petites sont toujours des corps, comme les parties d’une surface
+          sont toujours surfaces et les parties d’une ligne sont toujours lignes; n’etant pas
+          possible qu’un genre de quantité puisse étre changé par la division en un autre genre de
+          quantité: Vous auriez donc mieux fait à mon avis de garder le mot de <hi rend="u"
+            >tranches</hi>, et de dire qu’<hi rend="u">on viendra enfin à une tranche dont la
+            hauteur sera infiniment petite</hi> etc. Vos autres façons de parler <hi rend="u">les
+            surfaces sont par rapport au parallelepipede des infiniment petits</hi> etc. <hi
+            rend="u">Ce Parallelogramme infiniment petit par rapport au parallelepipede</hi> etc. me
+          paroissent tres dures pour une oreille geometrique, et peu capables de former un
+          commençant à avoir des idées nettes sur le sujet qu’on veut traiter; elles jettent plutot
+          dans l’erreur et dans le prejugé où on est avant que d’etre Geometre, comme si le corps
+          étoit composé de surfaces, la surface composée de lignes, et la ligne composée de points,
+          préjugé fort difficile à detruire dans les jeunes gens et qui les empeche de comprendre
+          les demonstrations sur les figures Geometriques, car qu’est ce qui les trouble davantage
+          que quand ils ne sçavent pas distinguer par exemple la surface d’avec les lignes qui la
+          terminent: Il ne faudroit donc pas se servir de ces façons de parler qui nourrissent les
+          prejugés, au lieu qu’on devroit les detruire. <pb/></p>
+  <p>Pag. 7. Pour demontrer que la circonference d’un polygone infinilateral inscrit dans le
+          cercle, est egale à la circonference du cercle, Vous dites que <hi rend="u">chaque coté du
+            polygone etant la corde d’un arc de cercle, la difference qu’il y a entre un arc et sa
+            corde diminue toujours à proportion que cette corde devient plus petite</hi>; ce qui est
+          tres vrai, comme aussi ce qui suit qu’<hi rend="u">on pourra donc multiplier tellement les
+            cotés d’un polygone inscrit ou circonscrit, qu’il sera enfin permis de compter pour rien
+            la difference d’un de ces cotés avec l’arc qui lui repond</hi>, tout cela est vrai, mais
+          la consequence que Vous en tirez n’est pas legitime, sçavoir que la circonference du
+          polygone devient egale à celle du cercle, car il ne suffit pas de faire voir que la
+          difference qu’il y a entre un arc de cercle et sa corde diminue à l’infini, pour en
+          conclure que les deux circonferences deviennent égales, autrement Vous pouriez conclure
+          avec le meme droit que la base <formula>AB</formula> d’un triangle rectangle <figure facs="../images/figures/Spezial_B_1722-07-15_991170430087405501_S304_01.png"><figDesc>Dreieck ABC mit parallelen Teilstrecken nm am linken Rand der Lausanner Handschrift, IS 2024/XII, p. 304.</figDesc></figure>
+          <formula>ABC</formula> est egale à l’hypotenuse <formula>AC</formula>, de ce qu’etant
+          divisé l’une et l’autre par des paralleles <formula>nm</formula>, <formula>nm</formula>,
+            <formula>nm</formula>, etc., je Vous fai voir que plus est grand le nombre des parties,
+          et plus petite sera la difference qu’il y a entre une des parties <formula>mm</formula> et
+          une des parties <formula>nn</formula>, <hi rend="u">on pourra donc multiplier tellement
+            les parties de la base et de l’hypotenuse, qu’il sera enfin permis de compter pour rien
+            la difference d’une des parties </hi><formula>mm</formula><hi rend="u"> avec une des
+            parties</hi>
+          <formula>nn</formula>; mais celui qui en voudroit inferer que l’hypotenuse
+            <formula>AC</formula> deviendra egale à la base <formula>AB</formula>, se tromperoit
+          extremement; Vous voyez Monsieur qu’il faut encore autre chose pour prouver que la
+          circonference du polygone infinilateral devient egale à celle du cercle, c’est qu’il faut
+          faire voir que non seulement la difference entre l’arc et la corde s’evanouit, car cela
+          arrive aussi ici entre <formula>mm</formula> et <formula>nn</formula>, mais que de plus la
+          raison qu’il y a entre l’arc et la corde devient infiniment peu differente de la raison
+          d’egalité, ce qui n’arrive pas à la raison entre <formula>mm</formula> et
+            <formula>nn</formula> qui demeure constamment la meme, en quelque grand nombre de
+          parties, que soient divisées les lignes <formula>AB</formula> et <formula>AC</formula>. </p>
+  <p>P. 8. Vous dites que <hi rend="u">l’angle est sans aucune epaisseur à sa naissance</hi>,
+          je n’ai jamais oui parler de <hi rend="u">l’epaisseur</hi> de l’angle, je ne sçai non plus
+          ce que c’est qu’un angle <hi rend="u">naissant</hi>, les cotés d’un angle peuvent étre
+          naissant lorsqu’ils deviennent finis d’infiniment petits qu’ils étoient, mais l’angle lui
+          meme demeure toujours d’une meme grandeur. Vous ne concevez, dites Vous, <pb/> point de
+          ligne sans largeur, mais moi au contraire je ne conçois point de ligne avec largeur; car
+          je vous prie dites moi qu’est ce que c’est qu’une ligne avec largeur? c’est une chimere,
+          c’est une contradiction, c’est comme si vous disiez <hi rend="u">c’est une ligne qui est
+            surface</hi>; ou <hi rend="u">c’est une surface qui est corps</hi>; je comprends bien
+          que Vous voulez insinuer qu’il n’y a point de ligne geometrique, qui soit sans largeur,
+          mais la possibilité ou l’impossibilité de l’existence ne doit pas regler nos idées, je
+          dois concevoir les choses selon leur definition; or on definit la ligne que c’est une
+          grandeur qui a une seule dimen<pc type="hyphenation">-</pc><lb break="no"/>sion, je ne me mets pas en peine si une telle grandeur peut
+          exister ou non, ni si je la puis imaginer ou non; imaginer et concevoir sont choses
+          differentes; on doit concevoir une chose selon ce qu’elle est, mais l’imagination se la
+          represente selon qu’elle frappe les sens comme Vous sçavez mieux que moi, Vous qui avez
+          fait une si excellente <rs type="biblio">Logique</rs>. </p>
+  <p>P. 11 au commencement et dans la suite Vous parlez Monsieur de <hi rend="u">multiplier
+            </hi><formula>AB</formula><hi rend="u"> par</hi>
+          <formula>BC</formula>, c’est à dire, un rectangle par une ligne, et Vous dites qu’<hi
+            rend="u">on aura le rectangle</hi>
+          <formula>BD</formula>; pardon Monsieur, c’est là encore une façon de parler contre l’usage
+          des Geometres, car Vous sçavez que chez Eux <hi rend="u">multiplier un rectangle par une
+            ligne, c’est faire un parallelepipede</hi> et non pas un autre rectangle; il ne Vous est
+          pas inconnû que dans l’algebre on augmente les dimensions par la multiplication et on les
+          diminue par la division, tellement que le produit est la somme des dimensions des deux
+          multiplicateurs, et le quotient la difference des dimensions du dividende et du diviseur.
+          Il est vrai que Vous Vous expliquez sur ce que Vous entendez par <hi rend="u">multiplier
+            le rectangle </hi><formula>AB</formula><hi rend="u"> par la ligne</hi>
+          <formula>BC</formula>, en disant que c’est <hi rend="u">placer successivement
+            </hi><formula>AB</formula><hi rend="u"> sur la ligne </hi><formula>BC</formula><hi
+            rend="u">, autant de fois que la base se trouve dans cette ligne</hi>, cela va bien,
+          cependant les commençants et les foibles esprits qui ont appris à avoir des idées de ces
+          multiplications et divisions des dimensions selon la maniere ordinaire, pourroient ici se
+          confondre au lieu de s’eclaircir sur les infiniment petits de touts les genres: Vous <pb/>
+          auriez peut etre mieux fait de Vous exprimer ainsi: <hi rend="u">Si on multiplie
+            </hi><formula>AB</formula><hi rend="u"> par le nombre de fois que sa base
+            </hi><formula>Bm</formula><hi rend="u"> se trouve dans la ligne
+            </hi><formula>BC</formula><hi rend="u">, on aura le rectangle</hi>
+          <formula>BD</formula> etc. En parlant
+          ainsi Vous ne Vous seriez pas ecarté de la maniere ordinaire de parler des Algebristes. </p>
+  <p>Vers la fin de la meme page Vous concluez sans aucune restriction que <hi rend="u">si la
+            hauteur </hi><formula>E</formula><hi rend="u"> du rectangle
+            </hi><formula>AB</formula><hi rend="u"> étoit infinie, quoique la base
+            </hi><formula>Bm</formula><hi rend="u"> fut infiniment petite, ce Rectangle ne
+            laisseroit pas d’étre une quantité finie</hi>, pour moi, je crois qu’à parler
+          generalement cela ne peut pas étre soutenu, à moins qu’on ne suppose que la raison entre
+          la hauteur <formula>E</formula> et la ligne <formula>BC</formula> est comparable à la
+          raison entre la meme ligne <formula>BC</formula> et la base <formula>Bm</formula>; car
+          d’ailleurs la premiere raison pourroit étre infiniment ou plus grande ou plus petite que
+          la seconde raison. </p>
+  <p>Ce que j’ai remarqué sur la page 11 touchant Votre maniere de multiplier se doit aussi
+          entendre sur ce que Vous dites page 13 des divisions: ainsi je n’approuve pas cette façon
+          de parler, <hi rend="u">Le rectangle </hi><formula>BD</formula><hi rend="u"> divisé par le
+            rectangle </hi><formula>AB</formula><hi rend="u"> donne pour quotient la Ligne</hi>
+          <formula>BC</formula>, car la division d’un rectangle par un autre rectangle donne pour
+          quotient non pas une ligne mais un nombre. </p>
+  <p><hi rend="u">L’infiniment petit</hi>, dites Vous au meme endroit, <hi rend="u">du premier
+            genre </hi><formula>AB</formula><hi rend="u"> divisé par l’infiniment petit du meme
+            genre </hi><formula>Bm</formula><hi rend="u">, donne pour quotient
+            </hi><formula>E</formula><hi rend="u"> un infiniment petit du second</hi>, point du
+          tout! Si les deux infiniment petits du premier genre sont des grandeurs homogenes, comme
+          ligne et ligne, ou surface et surface etc. que l’on peut exprimer par
+            <formula>dx</formula> et <formula>dy</formula>, alors la division de l’une par l’autre
+            (<formula>\frac{dx}{dy}</formula> ou <formula>\frac{dy}{dx}</formula>) donne un nombre
+          fini bien loin de donner un infiniment petit du second genre; si l’un des infiniment
+          petits du premier genre marque une surface (<formula>zdx</formula>) et l’autre une ligne
+            <formula>dy</formula>, alors la division de celuilà par celuici
+            (<formula>\frac{zdx}{dy}</formula>) donnera une ligne finie, et point du tout un
+          infiniment petit du second genre, ainsi des autres. Je ne sçaurois souffrir ce que Vous
+          ajoutez (pardonnez moi ma franchise) <hi rend="u">que</hi>
+          <formula>E</formula> qui est une ligne <hi rend="u">est infiniment petit en comparaison
+            de</hi>
+          <formula>AB</formula> qui est un rectangle, dites moi de grace qui est ce de touts les
+          Geometres qui ait jamais comparé ensemble une ligne et un <pb/> rectangle, qui sont des
+          grandeurs heterogenes? j’aimerois autant une comparaison entre le son et la couleur, ou
+          entre un temps et un poids; que diriez Vous Monsieur si quelqu’un Vous disoit que la
+          longueur d’une aune est infiniment petite en comparaison de la longueur d’un siecle? en
+          verité Votre comparaison ne va gueres mieux. </p>
+  <p>Vous continuez dans la meme page Vos locutions impropres, en prenant la base du
+          parallelepipede pour son infiniment petit, comme si un rectangle qui est une surface
+          pouvoit etre l’element d’un parallelepipede qui est un solide. </p>
+  <p>Ce que Vous dites Monsieur aprez cela sur les multiplications et divisions des infiniment
+          petits de differens genres, n’est pas bien conforme aux idées que j’en ai, par exemple à
+          la page 14 Vous voulez que <hi rend="u">si on divisoit un infiniment petit du premier
+            genre par un infiniment petit du troisieme, on auroit pour quotient un infiniment petit
+            du second multiplié par un infiniment petit du premier</hi>, mais quant à moi, je
+          prétens qu’une telle division produiroit pour quotient une quantité infiniment-infinie,
+          c’est à dire, infinie du second genre, tant s’en faut que le quotient puisse étre, comme
+          Vous dites, un infiniment petit du second genre multiplié par un infiniment petit du
+          premier: voici ma preuve sans tant de façon des rectangles et des parallelepipedes; soit
+            <formula>a</formula> une ligne finie, <formula>adx</formula> un infiniment petit du
+          premier genre, <formula>dddy</formula> un infiniment petit du troisième genre, il faut
+          prouver que <formula>\frac{adx}{dddy}</formula> est un infiniment grand du second genre;
+          pour cette fin soit <formula>\frac{adx}{dddy}</formula> nommé <formula>Z</formula>, donc
+            <formula>adx=Zdddy</formula>, donc <formula>dx.dddy::Z.a</formula> or
+            <formula>dx</formula> est infini-infiniment plus grand que <formula>d^{3}y</formula>,
+          donc aussi <formula>Z</formula>, qui est le quotient de la division sera infini-infiniment
+          plus grand que <formula>a</formula> qui est une ligne finie, et partant
+            <formula>Z</formula> sera un infiniment grand du second genre: Ce qu’il falloit
+          demontrer. C’est de cette maniere aisée qu’on peut determiner toutes Vos multiplications
+          et divisions des differents genres d’infiniment petits; ensorte que je ne conçois pas,
+          pourquoi Vous marchiez par tant de détours, pour mener Vôtre Lecteur à l’intelligence des
+          differentielles, qui n’est pas à beaucoup prés si difficile, que Vous voulez faire
+          accroire. </p>
+  <p><pb/> P. 15, au commencement de la page, Vous faites derechef une comparaison entre des
+          grandeurs heterogenes en disant que <hi rend="u">les lignes qui ferment un triangle
+            infiniment petit, sont des grandeurs infiniment petites en comparaison de la surface de
+            ce triangle</hi>; par ces paroles Vous entendez sans doute quelque chose de different de
+          ce que les termes signifient ordinairement, car Vous remarqués fort bien Vous meme à la
+          page suivante que <hi rend="u">toute comparaison doit rouler sur des choses de meme
+            genre</hi>, j’avoue donc que je ne comprens pas le veritable sens que Vous donnés à la
+          susdite comparaison entre les lignes et la surface de votre triangle, comment voulez vous
+          donc qu’un Ecolier le comprenne? outre cela l’aire d’un triangle peut étre infiniment
+          petite, sans qu’il soit besoin pour cela que touts ses 3 cotés soient aussi infiniment
+          petits, car concevez un triangle par exemple isocele dont l’angle du sommet soit
+          infiniment aigu, Vous voyez que l’aire en sera infiniment petite quand meme les deux
+          jambes sont d’une longueur finie. </p>
+  <p>P. 22, <hi rend="u">ligne derniere</hi>; il y a faute de calcul, car à la place de
+            <formula>+dx^{2}</formula> il faut ecrire <formula>-dx^{2}</formula>, cette faute
+          quoique legere influe pourtant sur ce qu’il y a à la page suivante, où Vous dites, <hi
+            rend="u">donc </hi><formula>dx^{2}=dy^{2}</formula><hi rend="u"> et
+            </hi><formula>dx=dy</formula>, puisqu’il faudroit conclure
+            <formula>-dx^{2}=dy^{2}</formula>
+          <hi rend="u">donc</hi>
+          <choice><orig><formula>dx\sqrt{}-1=dy</formula></orig><reg><formula>dx\sqrt{-1}=dy</formula></reg></choice>, c’est à dire une grandeur reelle egale à une
+          imaginaire, ce qui jetteroit encore dans de plus grandes erreurs et contradictions que
+          celles que Vous marqués: cette meme faute de calcul fait qu’il est faux ce que Vous dites
+          peu aprés, que <hi rend="u">Dans les cas où </hi><formula>dx</formula><hi rend="u"> seroit
+            </hi><formula>=dy</formula><hi rend="u">, alors </hi><formula>adx-2xdx</formula><hi
+            rend="u"> seroit tres parfaitement</hi>
+          <formula>=2ydy</formula>, il faudroit dire que <hi rend="u">Dans les cas où
+            </hi><formula>-dx^{2}</formula><hi rend="u"> seroit </hi><formula>=dy^{2}</formula><hi
+            rend="u">, alors </hi><formula>adx-2xdx</formula><hi rend="u"> seroit
+            tres-parfaitement</hi>
+          <formula>=2ydy</formula>, mais puisqu’il est impossible que <formula>-dx^{2}</formula><hi
+            rend="u"> soit </hi><formula>=dy^{2}</formula> il faut conclure que ces cas ne peuvent
+          pas arriver où <formula>adx-2xdx</formula> soit tres parfaitement
+          <formula>=2ydy</formula>, à sçavoir dans le sens que Vous le prenez; ce que vous dites
+          dans le paragraphe suivant participe encore de la meme faute. </p>
+  <p>Voila Monsieur mes remarques que je Vous ai bien voulu communiquer, puisque Vous avez
+          temoigné envie de les voir; j’espere que Vous les prendrez en bonne part, d’autant plus
+          que Vous pouvez étre assuré que je souhaiterois de tout mon coeur, que Vous m’<pb/>eussiez
+          fait voir Votre <rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs> en manuscrit avant que de le faire imprimer comme Vous me
+          l’aviez proposé il y a quelques années; peutetre mes avis ne Vous auroient-ils pas été
+          inutiles: Je croi que mes remarques Vous feront assez connoitre, que Vous auriez dû
+          changer plusieurs de vos manieres de commenter, et leur donner un autre tour, de peur que
+          les ignorants ou ceux qui haissent les nouveaux calculs ne prennent Vos explications dans
+          un mauvais sens, et ne cherchent par là occasion de decrier l’Analyse des infiniment
+          petits, ce qui seroit bien eloigné du but que Vous vous étes proposé en faisant ce
+          <rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs>.</p>
+  <p>Quant au reste Monsieur Vous me faites bien de l’honneur dans Votre derniere <rs type="letter" key="B_991170514973605501">Lettre</rs> de reconnoitre et d’avouer que cette <rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> que
+          Vous avez commentée <hi rend="u">est moins l’<rs type="biblio" key="biblio_6EAMFGYN">Ouvrage</rs> de M. le M. <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs> que le
+            mien</hi>, je veux croire que Vous parlés de la sorte non point par complaisance mais
+          parce que Vous en étes entierement convaincu par des preuves incontestables qui sont
+          publiques, Vous en aurez vû bon nombre dans les <rs type="biblio" key="biblio_AHE68U6J">Actes</rs> de <rs type="place" key="place_GEO-2879139">Leipsic</rs> surtout dans ceux de
+          l’année passée au mois de Juin ou dans celui de Mai (car je ne m’en souviens pas bien) où
+          il y a une <rs type="biblio" key="biblio_VNIR9DW7">piece</rs> d’un nommé M. <rs type="person" key="pers_DE-588-1089632444">Bourcard</rs><note type="comment" resp="SG">Die Antwort auf Brook Taylors Angriffe erschien unter dem Namen von Bernoullis Schüler Johannes Burckhardt. Bernoulli hatte dieses Vorgehen bewusst gewählt, um nicht selbst öffentlich auf die Polemik antworten zu müssen. Er stellte Dokumente und Argumente bereit und organisierte die Veröffentlichung. Bereits in seinem <rs type="letter" key="B_991170516665605501">Brief</rs> an Varignon vom 31. Dezember 1720 kündigte er an, seine Antwort werde nicht unter seinem Namen erscheinen. Vgl. auch seine <rs type="letter" key="B_991170430101505501 B_991170516536605501">Briefe</rs> an Bilfinger vom 19. Februar und an Wolff vom 10. April 1721. Burckhardts Anteil an der endgültigen Textfassung bleibt unklar.</note>, dans laquelle on cite plusieurs <rs type="letter" key="B_991170514994605501 B_991170514994405501 B_991170514911405501 B_991170514911305501 B_991170514911205501 B_991170514910505501 B_991170514810505501 B_991170514809705501">lettres</rs>
+          autentiques<note type="comment" resp="SG">Die Briefauszüge sind selektiv wiedergegeben. In seinem <rs type="letter" key="B_991170514994605501">Brief</rs> vom 26. Juni 1718 bezeichnet sich Montmort als Privatperson hinreichend unterrichtet, schränkt aber ein: «Mais comme historien je ne le suis peutestre pas assez». Der <rs type="biblio" key="biblio_VNIR9DW7">Druck</rs> (S. 224) lässt sowohl die einleitende Einschränkung «Comme particulier» als auch diesen anschliessenden Vorbehalt weg; Montmorts Zustimmung erscheint dadurch uneingeschränkter als im vollständigen Brief.</note> qui ne laissent aucunement douter de la verité du compliment que Vous me
+          faites dans Vôtre <rs type="letter" key="B_991170514973605501">Lettre</rs>;<note type="editorial">Bis Hier endet die Passage, abgedruckt
+            als: Joh. I B. Op. CLXIX, <hi rend="u"><rs type="biblio" key="biblio_9NAYSYI9">Extrait d’une lettre à l’Auteur du Commentaire
+              sur l’Analyse des infiniment petits de M. le Marquis de l’Hopital Imprimé à Paris, en
+              1721</rs></hi>, in: <hi rend="u">Opera</hi> IV, pp. 160–168.</note> Vous me direz Monsieur
+          que ce n’est pas un compliment; est ce donc un aveu sincere? je croi que c’est l’un et
+          l’autre ensemble, n’étant point incompatible qu’on fasse un aveu sincere par maniere de
+          compliment; Mais d’où vient Monsieur que Vous n’avez pas fait le meme aveu dans la <rs type="biblio" key="biblio_8F9PQT7E">preface</rs>
+          de votre <rs type="biblio" key="biblio_8F9PQT7E">Livre</rs>, ce qui m’auroit été cent fois plus hono<pb/>rable? D’où vient que Vous
+          attribuez dans vôtre <rs type="biblio" key="biblio_8F9PQT7E">preface</rs> tout l’honneur de cet <rs type="biblio" key="biblio_6EAMFGYN">Ouvrage</rs> au seul M. <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs> à mon
+          entiere exclusion? Bien plus, non content de le traiter d’<rs type="person" key="pers_DE-588-100814891">Auteur</rs> et de nommer cet <rs type="biblio" key="biblio_6EAMFGYN">ouvrage</rs>
+          le Sien, Vous insinuez assez ouvertement et presque positivement que je n’y ai point de
+          part; voyez la page 155 où je suis tombé comme par hazard en feuilletant votre <rs type="biblio" key="biblio_8F9PQT7E">livre</rs>, vous
+          y dites, en parlant de la Solution du probleme du plus petit crepuscule, que <hi rend="u"
+            >cette Solution est de M. <rs type="person" key="pers_DE-588-118509969">Bernoulli</rs>, aujourdhui Professeur à <rs type="place" key="place_GEO-2661604">Bale</rs></hi>; que voulez vous
+          dire par là autre chose sinon qu’il n’y a point d’autre Solution dans le livre de
+          l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> qui soit de moi que celle du crepuscule? c’est assurement une consequence qui
+          decoule naturellement de Votre proposition: Sans façon Monsieur, Vous auriez mieux fait de
+          Vous taire ici comme ailleurs du nom du <rs type="person" key="pers_DE-588-118509969">veritable Auteur</rs> des Solutions contenues dans
+          l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs>, car en m’attribuant celleci Vous me derogez toutes les autres. Ne pensez pas
+          que je Vous parle sur ce chapitre par un motif d’ambition ou de vaine gloire; j’y suis
+          obligé par la presente conjoncture de nos affaires, où quelques envieux Anglois <rs type="person" key="pers_DE-588-124275087">Keil</rs>,
+          <rs type="person" key="pers_DE-588-118801481">Taylor</rs> etc. tachent de fletrir ma reputation voulant insinuer que l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> des infiniment
+          petits étoit un ouvrage au dessus de ma portée, et que je n’entendois pas seulement la
+          nature des differences secondes bien loin de pouvoir étre l’auteur du livre de l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs>;
+          c’est ce qui a induit le susdit Mr. <rs type="person" key="pers_DE-588-1089632444">Bourcard</rs> à faire mon apologie par une Lettre adressée
+          à M. <rs type="person" key="pers_DE-588-118801481">Taylor</rs>, où il a, comme je Vous ai déja marqué, tres bien demontré à quel titre de
+          droit je puis revendiquer l’<rs type="biblio" key="biblio_6EAMFGYN">ouvrage</rs> de M. <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs>; mais quand ces Antagonistes
+          Anglois verront paroitre Votre <rs type="biblio" key="biblio_8F9PQT7E">livre</rs> dans le temps qu’ils me disputent avec tant de
+          ferveur mon droit, quel effet croyez vous que fera Votre <rs type="biblio" key="biblio_8F9PQT7E">livre</rs> lors qu’ils y verront que
+          Vous étes leur Partisan, vous qui étes <rs type="place" key="place_VER-eidgen">Suisse</rs> comme moi et par consequent mon compatriote?
+          quel sujet de triomphe n’en tireront-<pb/>ils pas? Il est vrai que je ne m’en soucie pas
+          beaucoup, car la verité est déja assez au jour et ne manquera pas tot ou tard de passer
+          partout, <hi rend="u">tandem bona causa triumphat</hi>: Ce dont je m’étonne le plus, c’est que je voi que Vous affectez d’ignorer
+          ce qui seroit<note type="editorial">Im Manuskript steht «feroit».</note> en ma faveur, en
+          voici un exemple; Mr. <rs type="person" key="pers_DE-588-117619515">Saurin</rs> parlant dans le <rs type="biblio" key="biblio_X8E4IGQY">Journal des Sçavants</rs> de 1702<note type="comment" resp="SG">Saurin schreibt die Lösung l’Hôpital zu und lobt dessen «addresse» und «facilité qui luy est particulière» (p. 526). Bernoullis Aussage, Saurin habe allein l’Hôpital zur Lösung befähigt erklärt, verschärft den Wortlaut des gedruckten Lobes.</note> (dont Vous faites mention à la page 291)<note type="comment" resp="SG">Crousaz verweist auf p. 291 seines <rs type="biblio" key="biblio_8F9PQT7E"><hi rend="i">Commentaire</hi></rs> auf Saurins Anwendungen der Differentiation zur Tangentenbestimmung im Journal von 1702 und in den Mémoires von 1716. Eine ausdrückliche Aussage zur Urheberschaft der Regel enthält dieser Absatz nicht.</note> de la Solution du probleme proposé dans l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs>
+          des infin. pet. art. 163 et l’ayant attribuée à
+          Mr. <rs type="person" key="pers_DE-588-100814891">de l’Hop.</rs> d’une maniere qui me faisoit également de l’injustice et de l’injure, de
+          l’injustice, par ce qu’il m’ôtoit et attribuoit à un autre ce qui m’étoit dû; de l’injure,
+          parce qu’il prononçoit que le seul M. <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs> avoit été capable de resoudre ce
+          probleme, je me trouvai obligé de dire publiquement ce qui en étoit et de montrer que M.
+          <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs> n’avoit pas trouvé la solution inserée dans l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs>, et n’avoit pas meme
+          été capable de la trouver, puisque je l’avois laissé croupir prés de deux ans dans son
+          travail sans avoir pu reussir, jusqu’à ce que m’ayant prié et sollicité instamment par
+          plusieurs <rs type="letter" key="B_991170514910505501 B_991170514910205501 B_991170514909505501">lettres</rs>,<note type="comment" resp="SG">Die hier einschlägige erhaltene Briefreihe reicht vom <rs type="letter" key="B_991170514910905501">Brief</rs> l’Hôpitals vom 20.–27. Juni 1693 bis zu Bernoullis Mitteilung der Regel und der beiden Beispiele im <rs type="letter" key="B_991170514811805501">Brief</rs> vom 22. Juli alten Stils / 1. August 1694. Damit ist gut ein Jahr belegt; die Angabe «prés de deux ans» wird durch diese Folge allein nicht bestätigt. Frühere, nicht erhaltene Vorgänge sind dadurch nicht ausgeschlossen. Drucknachweis: <rs type="biblio" key="biblio_S6CEMK2R"><hi rend="i">Der Briefwechsel von Johann I Bernoulli</hi></rs>, Bd. 1 (1955), Nr. 11, p. 173, und Nr. 28, pp. 235–236.</note> je luy ai enfin communiqué ma
+          solution qui est dans l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> art. 163 avec les memes exemples des articles 164 et 165;
+          j’en fis l’histoire (quoique modestement) dans les <rs type="biblio" key="biblio_W9PPY3FQ">Actes</rs> de <rs type="place" key="place_GEO-2879139">Leipsic</rs> 1704 du mois
+            d’Aoust, où je fai voir aussi l’obligation où
+          l’on est d’en venir à une seconde differentiation, j’en donne quelques exemples; Vous
+          devez avoir lû cette <rs type="biblio" key="biblio_W9PPY3FQ">piece</rs>-là puisque Vous lisez les Journeaux de <rs type="place" key="place_GEO-2879139">Leipsic</rs>, au moins Vous
+          ne pouvez pas l’ignorer, puisque M. <rs type="person" key="pers_DE-588-117619515">Saurin</rs> en fait mention dans les <rs type="biblio" key="biblio_VNFT4WKL">Memoires</rs> de 1716 que
+          Vous citez: Or j’avois si bien convaincu M. <rs type="person" key="pers_DE-588-117619515">Saurin</rs> par des Extraits de <rs type="letter" key="B_991170514910905501 B_991170514910505501 B_991170514910305501 B_991170514910205501 B_991170514909505501 B_991170514811905501 B_991170514811705501">Lettres</rs> de M. <rs type="person" key="pers_DE-588-100814891">de
+          l’Hopital</rs><note type="comment" resp="SG">Bernoulli gibt die sieben hier verlinkten l’Hôpital-Briefe in seinem <rs type="letter" key="B_991170517262305501">Brief</rs> an Varignon vom 18. Juli 1705 auszugsweise wieder und bittet diesen ausdrücklich, die Stellen Saurin zu zeigen. Drucknachweis: <rs type="biblio" key="biblio_2EQN5XMR"><hi rend="i">Der Briefwechsel mit Pierre Varignon</hi></rs>, Bd. 3 (1992), Nr. 83, pp. 169–171. Den letzten Auszug datiert Bernoulli dort irrtümlich auf den 8. August 1694; er stammt aus l’Hôpitals <rs type="letter" key="B_991170514811705501">Brief</rs> vom 18. August 1694. Es handelt sich um einen Datierungsfehler, nicht um eine Kalenderumrechnung (ebd., p. 171, Anm. 14).</note>, que la Regle donnée dans l’art. 163 de l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> étoit venue de moi, que M.
+          <rs type="person" key="pers_DE-588-117619515">Saurin</rs> l’a reconnû ingenument dans la seconde partie de son <rs type="biblio" key="biblio_VNFT4WKL">ecrit</rs> inseré dans les <rs type="biblio" key="biblio_VNFT4WKL">Memoires</rs>
+          de 1716.<note type="comment" resp="SG">Saurin übernimmt in seinem <rs type="biblio" key="biblio_VNFT4WKL">Aufsatz</rs>, pp. 288–289, die Zuordnung der Regel zu Bernoulli, verweist jedoch auf dessen Bericht von 1704 und druckt keine l’Hôpital-Briefe ab. Die Anerkennung der Urheberschaft ist von seinem eigenen Anspruch hinsichtlich der wiederholten Anwendung der Regel zu unterscheiden. Bereits in seinem Brief an Varignon vom 10. Juni 1705 hatte Saurin Bernoullis Urheberschaft für glaubhaft erklärt: «je suis persuadé qu’il dit vrai» (Drucknachweis: <rs type="biblio" key="biblio_2EQN5XMR">Briefedition</rs>, Nr. 82a, p. 166). Diese Äusserung liegt vor Bernoullis Auszugsdossier vom 18. Juli 1705; ein erstmaliges Überzeugtwerden durch diese Auszüge ist damit nicht belegt. Der Akademiejahrgang 1716 erschien 1718.</note>
+  </p>
+  <p>Vous y aurez donc lû cet aveu de M. <rs type="person" key="pers_DE-588-117619515">Saurin</rs>, ce qui devoit Vous suffire pour m’approprier
+          la dite Regle, Vous n’auriez <pb/> pas risqué d’encourir la disgrace des Defenseurs de M.
+          <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs> puisque Vous n’auriez fait que suivre l’exemple de M. <rs type="person" key="pers_DE-588-117619515">Saurin</rs> le plus zelé et
+          le plus attaché des Partisans de M. le Marquis <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs>. Je passe sous silence
+          plusieurs autres articles particulierement les 166, 167 et 168 qui sont de moi de toute
+          notorieté puisque je les ai publiés longtemps avant l’impression de l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs> des infin.
+          pet., voyez les <rs type="biblio" key="biblio_FNYP722C">Act.</rs> de <rs type="place" key="place_GEO-2879139">Leipsic</rs> de 1695, mois d’Aoust,<note type="comment" resp="SG">Bernoulli hatte den Satz über die Summe bzw. Differenz zweier Evolventen und die beiden anschliessenden Folgerungen bereits in seiner <hi rend="i">Meditatio de dimensione linearum curvarum per circulares</hi>, <hi rend="i">Acta eruditorum</hi>, August 1695, pp. 374–375, veröffentlicht. Sie entsprechen inhaltlich den Artikeln 166–168 der <hi rend="i">Analyse des infiniment petits</hi> (1696), pp. 146–148.</note> les quels donc en m’attribuant comme à leur <rs type="person" key="pers_DE-588-118509969">veritable Auteur</rs> Vous n’auriez
+          pas fait plus de tort à M. <rs type="person" key="pers_DE-588-100814891">de l’Hopital</rs>, que lorsque Vous avez trouvé bon de m’attribuer
+          la seule solution du plus petit crepuscule, sans doute par la raison que Vous avez trouvé
+          cette solution publique sous mon nom dans le <rs type="biblio" key="biblio_QI6CIYPK">Journal des sçavants</rs>. Cependant Monsieur je
+          ne veux pas approfondir les raisons que Vous avez eues de dissimuler que Vous aviez en
+          composant Votre <rs type="biblio" key="biblio_8F9PQT7E">Livre</rs>, la moindre connoissance de ce qui m’appartenoit de tout ce qu’il y
+          a dans le Livre de l’<rs type="biblio" key="biblio_6EAMFGYN">Analyse</rs>, excepté l’unique solution du crepuscule, j’ai trop de
+          discretion pour Vous questionner là dessus: Ainsi n’en parlons plus. </p>
+  <p>Je n’ai rien vû de ce que M. <rs type="person" key="pers_DE-588-117672491">de Gamache</rs> a ecrit contre Vous, je serois curieux de le
+          lire, comme aussi Vôtre <rs type="biblio">refutation</rs>. </p>
+        <closer>
+          <salute>Je me recommende à la continuation de l’honneur de
+          Vôtre Bienveuillance, Vous priant d’etre persuadé que je ne cesserai jamais d’etre avec
+          toute l’estime que je Vous dois Monsieur Votre tres humble et tres-obeissant Serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-118509969">J.
+          Bernoulli</rs>. </signed>
+                  <dateline><rs type="place" key="place_GEO-2661604">Bâle</rs> ce 15. Juillet 1722. </dateline>
+        </closer>
+
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

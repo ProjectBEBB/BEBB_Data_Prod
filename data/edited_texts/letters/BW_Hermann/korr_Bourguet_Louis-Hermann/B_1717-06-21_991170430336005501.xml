@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430336005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacob Hermann an Louis Bourguet. Frankfurt (Oder), 21. Juni 1717</title>
+          <title type="alt">1717.06.21: Hermann, Jacob (1678-1733) an Bourguet,
+            Louis (1678-1742)</title>
+          <title type="alt">000059662</title>
+          <title type="alt">1717-06-21_Hermann_Jacob-Bourguet_Louis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430336005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430336005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Bourguet, Louis (1678-1742)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf dem Briefkopf mit Bleistift: "21 Juin 1717". Bleistiftmarkierungen im Text. Textverlust durch abgrissenes Siegel. Antwortvermerk Bourguets auf der letzten Textseite: "Rep le 4: Maÿ 1718". Adresse mit Postvermerk "francò p. Nürnberg" und Siegelspuren. P.S. auf der Adressseite.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Neuchâtel BPU, Ms</repository>
+            <idno type="callNumber">1272/5, fo.67-68</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430336005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406839205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059662</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Fforth</origPlace>
+              <date when="1717-06-21">ce 21 Juin 1717.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="place_GEO-2925535" ref="https://d-nb.info/gnd/4018122-4">Frankfurt (Oder)</placeName>
+          <date when="1717-06-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116298553">Bourguet, Louis</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430336105501" type="prev"/>
+          <ptr target="B_991170430335905501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Bourguet_Louis-Hermann" corresp="pers_DE-588-116298553" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118652443">Barbeyrac, Jean</persName>
+            <note type="lebensdaten">(1674-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118941941">Conti, Antonio</persName>
+            <note type="lebensdaten">(1677-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118538535">Georg</persName>
+            <note type="lebensdaten">(1660-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104292334">Nigrisoli, Francesco Maria</persName>
+            <note type="lebensdaten">(1648-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100814832">Raphson, Joseph</persName>
+            <note type="lebensdaten">(1648-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119543885">Riccati, Jacopo</persName>
+            <note type="lebensdaten">(1676-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118802410">Toland, John</persName>
+            <note type="lebensdaten">(1670-1722)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117596027">Zendrini, Bernardino</persName>
+            <note type="lebensdaten">(1679-1747)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10-02" who="MS">Korrekturen durch Autor eingebaut</change>
+        <change when="2022-10-14" who="MS">note type="editorial" in type="comment", Bemerkungen von fremder Hand, kleinere Tags, Digitalisate eingebaut</change>
+        <change when="2022-08-24" who="MS">Header angepasst, Seitennummerierung</change>
+        <change when="2019-07-31" who="MS">Werk- und Personenrecherche, Toland getagt und BIBB aktualisiert, Personenrecherche Mathemariker und Cousin von Bourguet</change>
+        <change when="2019-07-26" who="MS">BIBB aktualisiert, Brief- und Werktags eingefügt, Werk- und Briefrecherchen</change>
+        <change when="2018-09-27" who="SG MS">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile><graphic url="manifests/M_1717-06-21_991170430336005501"/></facsimile><text><body><div type="letter">
+<pb facs="991170430336005501_01" n="67r"/>
+  <opener><salute>Monsieur et tres cher Amy</salute></opener>
+  <p><lb/>Il n’y a que 4 ou 5 jours que Votre chere <rs type="lostletter">lettre</rs> du <date when="1717-04-28">28 Avril</date> dernier m’a eté remise entre les mains. J’ay fort bien
+      <lb/>receue aussi <rs type="lostletter">celle qui la precede</rs> datée du <date when="1717-01-08">8 <abbr>Janv.</abbr></date> mais il ne m’a pas été possible de Vous faire reponce plutot <choice><orig>a</orig><reg>à</reg></choice> cause
+      <lb/>de la penible charge de Recteur de cette <rs type="organisation" key="org_DE-588-2024330-3">Université</rs> qu’il m’a falu soutenir cet hiver. J’en suis quitte maintenant graces
+      <lb/>à Dieu et je commence un peu à respirer. Mais pour venir à Votre <rs type="lostletter">lettre</rs> du 8 <abbr>Janv.</abbr> je ne merite pas les remerciments que
+      <lb/>Vous me faites pour <add>aus</add>si peu de chose que d’un exemplaire de ma <rs key="biblio_WS22BVK4" type="biblio"><hi rend="u">Phoronomie</hi></rs>; et je Vous suis plutôt obligé de l’indul<pc type="hyphenation">-</pc><lb break="no"/>gence avec la quelle Votre amitié Vous fait passer sur tous les defauts qui se peuvent rencontrer dans mon <rs key="biblio_WS22BVK4" type="biblio">ouvrage</rs>
+      <lb/>et dont moy meme j’ay deja decouvert une partie. Presque dans toutes les lettres que j’ai receues de <rs key="place_GEO-2988507" type="place">Paris</rs> on me
+      <lb/>temoigne en quelque maniere du deplaisir que j’ay traité mes matieres par la metode sintetique qu’ils croient trop
+      <lb/>embarassée, cependant il n’est pas vray que j’aye tenu la seule voye de la sinthese comme ces Messieurs le pensent,
+      <lb/>mais le plus souvent j’ay employé la methode analytique sans qu’ils s’en soyent apercu à cause que j’ay <choice><orig>procede</orig><reg>procedé</reg></choice> par
+      <lb/>voye de geometrie lineaire pa<subst><del><gap/></del><add>rce</add></subst> qu’elle mene le plus souvent à des constructions beaucoup plus elegantes que
+      <lb/>celles que l’algebre fournit, comme il seroit aisé à le prouver si cela etoit necessaire: d’ailleurs je ne pense pas etre
+      <lb/>prevenu pour mon <rs key="biblio_WS22BVK4" type="biblio">livre</rs>, en disant que je le croi assez clair pour etre entendu de tout lecteur attentif qui entende
+      <lb/>un peu de Geometrie et j<supplied>’</supplied>espere que ceux meme qui le croient obscur avant que de l’avoir leu, changeront de sentiment
+      <lb/>dés la premiere lecture. Mais pour contenter tout le monde autant que cela se peut, je suis presque resolu de composer
+      <lb/>un corps complet de l’analyse des infini et de l’usage de cette Analise dans la resolution de toutes sortes de Problemes
+      <lb/>et surtout<add> de</add> tous ceux qui sont dans mon <rs key="biblio_WS22BVK4" type="biblio">livre</rs> avec beaucoup d’autres sur la meme matiere et <subst><del>beaucoup</del><add>sur</add></subst> d’autres
+      <lb/>sujets, en un mot, mon dessein est de faire voir l’utilité des nouvelles methodes dans toutes les parties des mathematiques,
+      <lb/>mais comme c’est un dessein de longue haleine, je n’y commenceray pas <choice><orig>a</orig><reg>à</reg></choice> mettre la main avant que d’avoir donné
+      <lb/>ma <rs type="biblio">dissertation</rs> sur la Dinamique de feu <abbr>M.</abbr> de <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> qui n’est point encore en etat d’aller sous la presse <choice><orig>a</orig><reg>à</reg></choice> cause
+      <lb/>de mille empechements que je rencontre ici dans mes etudes, outre que je n’ay pas les <rs type="keyword">Actes de <rs key="place_GEO-2879139" type="place">Leipsic</rs></rs> dont j’aurois bien
+      <lb/>besoin ayant laissé mon <choice><abbr>exempl.</abbr><expan>exemplaire</expan></choice> de ces <rs type="keyword">Actes</rs> à <rs key="place_GEO-3171728" type="place">Padoue</rs> en partant d’<rs key="place_KON-italie" type="place">Italie</rs>, et que je ne sais <rs type="place" key="place_GEO-2925535">ici</rs> Personne qui
+      <lb/>les possede et qui me les pourroit preter, mais j<supplied>’</supplied>espere de les recevoir au premier Jour de <rs key="place_GEO-2879139" type="place">Leipsic</rs>. Dés que ma <rs type="biblio">Disser<pc type="hyphenation">-</pc><lb break="no"/>tation</rs> sur cette matiere sera imprimée j’auray soin d’envoyer un <rs type="biblio">exemplaire</rs> à <rs key="place_GEO-2925533" type="place"><choice><abbr>Ffort</abbr><expan>Francfort</expan></choice> sur le Main</rs> pour Vous suivant
+      <lb/>l’adresse que Vous m’avez donnée. Au reste je Vous prie Monsieur, de ne rien dire à personne <subst><del>sur</del><add>de</add></subst> mon dessein sur l’Analise
+      <lb/>des infinis.</p>
+<pb facs="991170430336005501_02" n="67v"/>
+  <p><lb/>Je n’ay pas encore veu les dernier Tomes du <rs type="keyword">Journal de <rs key="place_GEO-3164603" type="place">Venize</rs></rs> et parconsequent <rs key="biblio_DHVYFVAZ" type="biblio">la derniere réponce</rs><note type="comment">Handelt sich um den folgenden Artikel in den GLI: 1716 Bd. 24: Risposta al Conte Jacopo Riccato, ec. Articolo IV S. 1 105 Online: http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3ATO00185038_41500&amp;mode=all&amp;teca=MagTeca+-+ICCU&amp;fulltext=1 Reagiert auf einen Artikel von Riccati in GLI Band 21, Artikel VIII. </note> non plus de <abbr>Mr.</abbr>
+      <lb/><rs key="pers_DE-588-119166895" type="person">Nicolas Bernoulli</rs> à <abbr>M.</abbr> le Comte <rs key="pers_DE-588-119543885" type="person">Riccato</rs>, mais je me figure bien que <rs key="biblio_DHVYFVAZ" type="biblio">cette derniere reponce</rs> sera dans le meme stile que
+      <lb/>les precedentes<note type="comment">Handelt sich um <rs type="biblio">Op. 85</rs>, <rs type="biblio">Op. LXXXVI</rs>, <rs type="biblio">Op. LXXXVIII</rs> und <rs type="biblio">Annotazioni sopra lo Schediasma de Jacopo Riccato</rs>.</note>. Il y dit que ma solution de §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> XIII <abbr>p.</abbr> 398 et §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 167-170 <choice><abbr>inclusiv.<hi rend="sup">t</hi></abbr><expan>inclusivement</expan></choice> <abbr>pag.</abbr> 78 et 79<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <rs key="biblio_WS22BVK4" type="biblio"><hi rend="u"><choice><abbr>Phoron.</abbr><expan>Phoronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></expan></choice></hi></rs> lui paroit plutot
+      <lb/>directe qu’inverse, la meme chose me fut ecrite par lui dans <rs key="B_991170516908405501" type="letter">une</rs> de ses lettres, mais je lui ay fort bien fait remarquer
+      <lb/>que l’expression de <formula>G</formula> dans <rs key="biblio_WS22BVK4" type="biblio">l<supplied>’</supplied>article 169</rs> etant generale pour toutes les courbes algebriques et <choice><orig>l’egalite</orig><reg>l’egalité</reg></choice> du <rs key="biblio_WS22BVK4" type="biblio">§<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 168</rs> celle
+      <lb/>de toutes les courbes algebriques j’ay donné tout ce que <abbr>M.</abbr> <rs key="pers_DE-588-119543885" type="person">Riccato</rs> a promis de moi; outre cela la formule du <rs key="biblio_WS22BVK4" type="biblio">§<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 169</rs>
+      <lb/>peut toujours etre reduite <choice><orig>a</orig><reg>à</reg></choice> une echelle quelconque donnée de forces centrales pourvu que cette echelle appartienne
+      <lb/>à quelque courbe algebraique. Je le lui ay fait voir dans un <rs type="biblio">exemple</rs> que <abbr>M.</abbr> <rs key="pers_DE-588-118509969" type="person">Bernoulli</rs> lui meme m’avoit fourni,
+      <lb/>mais <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person">Nicolo <choice><abbr>Bern.</abbr><expan>Bernoulli</expan></choice></rs> n’aura eu garde d’en parler dans sa <rs type="biblio">reponce</rs>. Au reste j’observe depuis quelque tems que ce <rs key="pers_DE-588-119166895" type="person">scavant</rs>
+      <lb/>et <abbr>M.</abbr> son <rs key="pers_DE-588-118509969" type="person">oncle</rs> ne sont pas toujour heureux dans leurs Critiques, car ils ont été relancé de la bonne sorte par
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> dans la seconde partie du VIII<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">e</hi> Tome du nouveau <rs type="keyword">Journal Litteraire</rs> de <rs key="place_GEO-2747373" type="place">la Haye</rs> <rs key="biblio_9PZKZ4AA" type="biblio"><abbr>pag.</abbr> 418 <abbr>suiv.</abbr></rs><note type="comment">John Keill: Defense du chevalier Newton. Dans laquelle on répond aux Remarques de Messieurs Jean <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Nicolas Bernoully, insérées dans les Memoires de l’Académie Royale des Sciences pour les années 1710. <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 1711. par Jean Keil, Professeur d’Astronomie à Oxford. In: Journal Literaire, 1716, Band VIII, Teil 1, Art. XXII, S. 418-433. Online: https://books.google.fr/books?id=V2gHAAAAQAAJ&amp;hl=fr&amp;pg=PA418#v=onepage&amp;q&amp;f=false. </note> au sujet d’une
+      <lb/>certaine erreur <choice><orig>ou</orig><reg>où</reg></choice> ils pretendoient que <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> etoit tombé en se servant de ses suites convergentes dans la determination
+      <lb/>du rapport de la resistance qu’un mobile soufre sur chaque point d’une courbe quelconque, à la force de la pesanteur, comme
+      <lb/>Vous l’aurez deja peu voir. Vous aurez vu de meme en cas que ce <rs type="keyword">tome</rs> Vous soit deja <choice><orig>tombe</orig><reg>tombé</reg></choice> entre les mains que ce meme
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> en chemin faisant m’a pincé aussi en tachant de persuader au public que je me suis servi dans ma <rs key="biblio_WS22BVK4" type="biblio">Phoronomie</rs>
+      <lb/>d’un certain theoreme <abbr>pag.</abbr> 71, <formula>g=\frac{dp}{p^{3}dz}</formula>, qu’il avoit deja donné dans les <rs type="keyword">Transactions Anglicanes de 1708</rs>, sans faire
+      <lb/>mention qu’il en fut l’auteur. Me voyant ainsi accusé de <hi rend="u">plagiat</hi>, je n’ay pas jugé <choice><orig>a</orig><reg>à</reg></choice> propos de me taire, c’est pourquoy
+      <lb/>j’ay <choice><orig>envoye</orig><reg>envoyé</reg></choice> l’autre jour un <rs key="biblio_SIZ8F39J" type="biblio">memoire</rs> en <rs key="place_VER-hollan" type="place"><choice><orig>hollande</orig><reg>Hollande</reg></choice></rs> pour etre inseré au <rs type="keyword"><abbr>Journ.</abbr> Litteraire</rs> pour me justifier de cette
+      <lb/>accusation mal fondée en montrant que n’ayant pas vu jusque là la <rs type="biblio"><choice><orig>transaction</orig><reg>Transaction</reg></choice></rs> citée par <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> je n’avois
+      <lb/>pas pu le Citer comme Auteur du <rs type="biblio">theoreme</rs> en question, sur tout l’ayant deja donné dans le <rs type="keyword">Journal de <rs key="place_GEO-3164603" type="place">Venize</rs></rs>
+      <lb/>en 1711 <rs key="biblio_NEIXIEG8" type="biblio"><abbr>Tom.</abbr> VII <abbr>pag.</abbr></rs><note type="editorial">Im Brief befindet sich hier eine Lücke. Jakob Hermann hat offensichtlich vergessen die entsprechende Seitenzahl nachzutragen.</note> j’y fais voir de plus que je l’ay tiré d’une maniere entierement differente de celle de <abbr>M.</abbr>
+      <lb/><rs key="pers_DE-588-124275087" type="person">Keil</rs> de mes principes et qu’en suivant ces principes je ne pouvois absolument pas manquer de tomber dans le
+      <lb/><rs type="biblio">theoreme</rs> en question au lieu que lui <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> n’y paroit arrivé que par hazard à force de proportions à peu pres
+      <lb/>de la maniere que je l’ay demontré dans le <rs type="keyword">Giornale de’ letterati</rs> ci dessus cité. Je le sers en suite d’une bonne
+      <lb/>retorsion au sujet de sa <rs key="biblio_6FTANHDW" type="biblio">solution</rs> du probleme de la plus vite descente, dans la quelle <rs key="biblio_6FTANHDW" type="biblio">solution</rs> il s’est servi d’un
+      <lb/><rs type="biblio">Lemme</rs> de<add> feu</add> <abbr>M.</abbr> <rs key="pers_DE-588-118509950" type="person">Bernoulli</rs> sans le nommer et d’une <rs type="biblio">proposition</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-118639749" type="person">Huguens</rs> sans faire mention de lui non plus
+      <lb/>quoy qu’il ne pourra nier d’avoir veu les endroits <choice><orig>ou</orig><reg>où</reg></choice> il a emprunté ces choses là. Me voila donc, mon cher Monsieur,
+      <lb/>embarqué dans une dispute de la quelle je ne m’attendois pas. Pour ce qui<supplied> [est]</supplied> de la dispute contre feu <abbr>M.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibniz</rs> que ce <rs key="pers_DE-588-124275087" type="person">Keil</rs> a
+      <lb/>poursuivie jusqu<supplied>’</supplied>ici je ne vois pas comment il la pourra continuer apres la mort de la partie adverse, et ainsi je serois disposé <choice><orig>a</orig><reg>à</reg></choice> juger
+      <lb/>la dispute finie. Cependant on me mande de <rs key="place_GEO-2988507" type="place">Paris</rs> qu’un certain Anglois nommé <abbr>M.</abbr> <rs key="pers_DE-588-100814832" type="person">Raphson</rs> fait imprimer une <rs key="biblio_X4XGY28E" type="biblio">histoire de la decou<pc type="hyphenation">-</pc><lb break="no"/>verte de la methode des fluxions</rs><note type="comment">Raphson, Joseph, The History of Fluxions, shewing in a compendious Manner the first Rise of, and various Improvements made in that incomparable Method, London (W. Pearson) 1715. Online:http://find.galegroup.com/ecco/retrieve.do?inPS=true&amp;prodId=ECCO&amp;userGroupName=unibas&amp;tabID=T001&amp;bookId=0511000200&amp;resultListType=RESULT_LIST&amp;contentSet=ECCOArticles&amp;showLOI=&amp;docId=CW3308233974&amp;docLevel=FASCIMILE&amp;workId=CW108233974&amp;relevancePageBatch=CW108233974&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;callistoContentSet=ECLL&amp;docPage=article&amp;hilite=y.</note> qui ne donnera apparemment pas gain de cause à feu <abbr>M.</abbr> de <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>. Cet <rs key="pers_DE-588-118571249" type="person">Illustre defunt</rs> se proposa aussi
+      <lb/>avant de mourir de publier un commerce de lettres par le quel il vouloit refuter les arguments des Anglois contre ses droits à l’invention du
+<pb facs="991170430336005501_03" n="68r"/>
+      <lb/>calcul differentiel, mais helas sa mort nous prive d’une piece excellente sur ces matieres. Si je seray assez heureux de<add> pouvoir</add> recouvrer quelques
+      <lb/>memoires sur l<subst><del>a</del><add><supplied>’</supplied>h</add></subst>istoire de cette decouverte du calcul differentiel je prendray avec plaisir la defence de sa cause, mais <choice><orig>a</orig><reg>à</reg></choice> l’heure qu’il est
+      <lb/>je ne suis pas assez instruit pour pouvoir refuter avec succes les arguments que <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> a tirés du <rs key="biblio_JC7Z8EFJ" type="biblio"><hi rend="u">Commercium epistolicum</hi></rs>.</p>
+  <p><lb/>Pour ce qui est de Votre systeme de la pesanteur, Vous derivez, Monsieur, l’origine de la pesanteur du mouvement du Soleil
+      <lb/>dans la pensée que ce mouvement sur son centre doit aussi entrainer et faire mouvoir les Planetes dans leurs orbites fixes et determiner
+      <lb/><add>tous </add>les corps de ces globes <choice><orig>a</orig><reg>à</reg></choice> un mouvement par le <choice><abbr>mouvem.<hi rend="sup">t</hi></abbr><expan>mouvement</expan></choice> circulaires des Planettes autour de leur centre, et c’est là à ce que Vous me
+      <lb/>dites cette sollicitation dont je parle dans mon <rs key="biblio_WS22BVK4" type="biblio">Livre</rs><note type="comment">Na. 022.</note>; ne Vous scandalisez pas, je Vous en prie, si je Vous dis que je n’entend pas assez
+      <lb/>bien Votre pensée. I. Vous paroissez soutenir que de ce que le soleil tourne autour de son centre il oblige aussi les planettes <choice><orig>a</orig><reg>à</reg></choice> rouler
+      <lb/>dans leurs orbites, je ne vois pas quelle connexion il y a entre le mouvement du ☉ et celui des Planetes, car le premier se fait si je me
+      <lb/>souviens bien en<del> <gap/></del> <formula>27\frac{1}{2}</formula> jours, au lieu que les Planettes employent incomparablement plus de tems <choice><orig>a</orig><reg>à</reg></choice> faire leurs tours surtout
+      <lb/>saturne et Jupiter, et partant il n’est pas clair comment cet exemple se peut comparer avec un Navire dont touttes les parties
+      <lb/>prennent une meme direction avec le total parce que<choice><sic> que</sic><corr type="deleted"/></choice> ce sont des parties <choice><orig>liees</orig><reg>liées</reg></choice> entre elles qui doivent necessairement participer
+      <lb/>le meme mouvement <choice><orig>qu’a</orig><reg>qu’à</reg></choice> le tout. II. Je ne vois pas non plus comment le soleil qui tourne autour de son centre determine
+      <lb/>aussi les Planettes à tourner autour des leurs. III. Quand meme je comprendrois comment le tournoyement des Planettes autour
+      <lb/>de leurs centres depend de celui du soleil, je ne me verrois pas plus avancé pour cela à comprendre comment le mouvement Circulaire
+      <lb/>de chaque Planette peut etre la cause que chaque corps qui est detaché de la planete est obligé de s’aprocher du centre de la plane<pc type="hyphenation">-</pc><lb break="no"/>te et en cas qu<supplied>’</supplied>il soit retenu par quelque empechement<del> <gap/></del> de faire effort pour descendre dans le quel effort
+      <lb/>principalement consiste ce que j’appelle solicitation de la gravité. Je Vous prie donc Monsieur, de me developper un peu
+      <lb/>plus Vot[re theo]rie<note type="editorial">Papierschaden wegen abgerissenem Siegel.</note> qui peut etre d’ailleurs fort bonne quoyque je ne l’entende pas à l’heure qu<supplied>’</supplied>il est.</p>
+  <p><lb/>Pour [retourner] <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> De <rs key="pers_DE-588-118571249" type="person">Leibniz</rs>, ses papiers et sa Bibliotheque ont eté legués par <rs type="biblio">testament</rs> au <rs key="pers_DE-588-118538535" type="person">Roy d’<rs key="place_VER-englan" type="place">An<pc type="hyphenation">-</pc><lb break="no"/>gleterre</rs></rs> a<supplied>insi je ne</supplied> sais pas à qui m’adresser pour avoir les memoires<note type="comment">Handelt sich um <rs type="biblio" key="BiblioID"/> und <rs type="biblio" key="BiblioID"/>.</note> que je souhaiterois pour en faire usage
+      <lb/>dans la <rs type="biblio">defense</rs> que je Voudrois composer pour lui. Je n’ay encore rien vu de <rs type="keyword">l’Histoire Critique de la Nouvelle
+      <lb/><abbr>republ.</abbr> des lettres</rs>, car je vis ici dans un <rs type="place">pais</rs> si disgracié pour les lettres qu’on n’y voit presque rien de bon à moins
+      <lb/>de le faire venir expres: c’est pourquoy je n’ai pas vu la <rs key="biblio_R2T3L7Y2" type="biblio">critique</rs> de <rs key="pers_DE-588-118802410" type="person">l’anonime</rs> de <rs key="place_GEO-2950159" type="place">Berlin</rs> du <rs type="biblio">Systeme de l’harmonie preetablie</rs>
+      <lb/>de <abbr>M.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnit<add>z</add></rs>, mais je suis ravi que Vous avez formé le dessein de le refuter et de mettre d’ailleurs le systeme de notre <rs key="pers_DE-588-118571249" type="person">Amy</rs> en son jour, Vous
+      <lb/>obligerez beaucoup les bons connoisseurs cependant Vous pouvez conter que je tiendray <choice><abbr>entieremt</abbr><expan>entierement</expan></choice> secret ce que Vous m’avez confié <choice><orig>la</orig><reg>là</reg></choice> dessus.</p>
+  <p><lb/>Je pense que <abbr>M.</abbr> <rs key="pers_DE-588-117596027" type="person">Zendrini</rs> est presentement à <rs key="place_GEO-3169070" type="place">Rome</rs> et que c’est peut etre une raison pourquoy il ne Vous a pas ecrit depuis long tems, on
+      <lb/>m’a mandé aumoins de <rs key="place_GEO-3169070" type="place">Rome</rs> qu’il y devoit venir de meme que d’autres Matematiciens pour le sujet de la celebre controverse entre les Villes
+      <lb/>de <rs key="place_GEO-3181928" type="place">Boulogne</rs> et <rs key="place_GEO-3177090" type="place">Ferrare</rs> sur l’introduction del <rs key="place_GEW-renoaa" type="place">Reno</rs> in <rs type="place">Pò grande</rs>.<note type="comment"></note> Je verray volontier la derniere <rs key="biblio_NKIAVXJY" type="biblio">piece</rs> de <abbr>Mr.</abbr> l’Abbé <rs key="pers_DE-588-118941941" type="person">Conti</rs> contre <abbr>Mr.</abbr>
+      <lb/><rs key="pers_DE-588-104292334" type="person">Nigrisoli</rs>, il est encore en <rs key="place_VER-englan" type="place">Angleterre</rs> <choice><orig>ou</orig><reg>où</reg></choice> il est devenu, dit-on, Anglois jusques à la moëlle des os, depuis qu’il y est je ne lui ai point écrit.
+      <lb/>On vient donc d’appeller <abbr>Mr.</abbr> <rs key="pers_DE-588-118652443" type="person">Barbeyrac</rs> à <rs key="place_GEO-2755251" type="place">Groningue</rs> pour remplir une chaire en Droit, et on<add> y</add> a voulu rappeller <abbr>M.</abbr> <rs key="pers_DE-588-118509969" type="person">Bernoulli</rs> po[u]r les Mathemati<pc type="hyphenation">-</pc><lb break="no"/>ques, mais qu’il n’y veut pas aller; si une pareille vocation m’etoit adressée avec un gage tant soit peu plus fort que celui que j’ay <rs key="place_GEO-2925535" type="place">ici</rs> je me pourrois
+      <lb/>bien determiner <choice><orig>a</orig><reg>à</reg></choice> l’acepter quoy que j’aye refusé de retourner à <rs key="place_GEO-3171728" type="place">Padoue</rs> <choice><orig>ou</orig><reg>où</reg></choice> j’aurois pû etre rappellé; car il n<supplied>’</supplied>y a <rs key="place_GEO-2925535" type="place">ici</rs> aucun agrement imagina<pc type="hyphenation">-</pc><lb break="no"/>ble pour un homme de lettres au contraire mille sujets de chagrin. Le papier est plein, c’est pourquoy je finis Vous protestant que je
+      <lb/>reste toujour et avec une parfaite estime</p>
+  <closer><lb/>Monsieur
+      <lb/>Votre tres humble et tres obeissant serviteur
+      <lb/><signed><rs key="pers_DE-588-119112450" type="person"><abbr>J</abbr>Hermann</rs></signed>
+<dateline><lb/><rs key="place_GEO-2925535" type="place"><choice><abbr>Fforth</abbr><expan>Francforth</expan></choice></rs> ce <date when="1717-06-21">21 Juin 1717</date>.</dateline></closer>
+<note hand="pers_DE-588-116298553"><abbr>Rep</abbr> le <rs type="letter"><date when="1719-05-04">4<choice><orig><g ref="#nddot">:</g></orig><reg/></choice> Maÿ 1719<choice><orig><g ref="#nddot">:</g></orig><reg/></choice></date></rs></note>
+<pb facs="991170430336005501_04" n="68v"/>
+  <postscript><p><lb/><abbr>P. S.</abbr> J’ay donné <choice><orig>a</orig><reg>à</reg></choice> la poste de <rs key="place_VER-schles" type="place"><choice><orig>silesie</orig><reg>Silesie</reg></choice></rs> la <rs type="letter">lettre</rs> que j’ay trouvée dans la <rs type="letter">Votre</rs> du 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><hi rend="sup">e</hi> Janvier et qui etoit destinée <choice><orig>a</orig><reg>à</reg></choice> <rs type="person">un de
+        <lb/>Vos Cousins</rs> en sorte que je ne puis pas douter qu<supplied>’</supplied>elle lui soit bien parvenue.</p></postscript>
+  <closer><address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-116298553" type="person">Louis Bourguet</rs> <subst><del><gap/></del><add>Célébre</add></subst></addrLine>
+      <addrLine>Philosophe</addrLine>
+      <addrLine>A <hi rend="u"><rs key="place_GEO-2659496" type="place">Neufchatel</rs> en <rs key="place_VER-schweiz" type="place"><choice><orig>suisse</orig><reg>Suisse</reg></choice></rs></hi><note type="editorial">Postvermerk: «franc<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> <rs key="place_GEO-2861650" type="place">Nürnberg</rs>».</note></addrLine></address></closer>
+</div></body></text></TEI>

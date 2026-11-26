@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517163205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Benedict Staehelin an Nicolaus I Bernoulli. Basel, 24. April 1710</title>
+          <title type="alt">1710.04.24: Staehelin, Bénoît (1695-1750) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059504</title>
+          <title type="alt">1710-04-24_Staehelin_Beno_t-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517163205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517163205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Stehelin, Benedikt (1695-1750)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23600">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.52</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517163205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433813105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059504</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 ¼ S.<dimensions unit="cm"><height>22,5</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1710-04-24">8.vo Calend. Maij An: 1710</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117652245">Staehelin, Benedict</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1710-04-24"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517163405501" type="prev"/>
+          <ptr target="B_991170517163105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Stehelin_Benedikt-NicIB" corresp="pers_DE-588-117652245" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Stehelin dankt für den Brief an seinen Vater, Er lässt Malebranche und Varignon grüssen.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1156361664">Bernoulli, Magdalena</persName>
+            <note type="lebensdaten">(1689-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100068995">Canepari, Pietro Maria</persName>
+            <note type="lebensdaten">(ca. Ende 16. Jh./Anfang 17. Jh.)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Fritsch, Buchhändler in Bern</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118576682">Malebranche, Nicolas</persName>
+            <note type="lebensdaten">(1638-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121297829">Staehelin, Johann Heinrich</persName>
+            <note type="lebensdaten">(1668-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-07-10" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-07-10" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-20" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1040069/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1040070" n="1"/>
+
+  <opener><salute rend="center"><lb/>Viro Juveni Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stantissimo
+      <lb/><rs key="pers_DE-588-119166895" type="person"><choice><orig>NICOLAO</orig><reg>Nicolao</reg></choice> <choice><orig>BERNOULLIO</orig><reg>Bernoullio</reg></choice></rs> <abbr>J. U. C.</abbr>
+      <lb/>Consobrino Suo Carissimo
+      <lb/><abbr>S. P. D.</abbr>
+      <lb/><rs key="pers_DE-588-117652245" type="person">Benedictus Stehelius</rs>.</salute></opener>
+  <p><lb/><rs key="B_991170517163305501" type="letter">Tuas</rs>, Consobrine Optime, accepit <rs key="pers_DE-588-121297829" type="person">Pater</rs> meus <rs key="B_991170517163305501" type="letter">litteras</rs>
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ex iis sane non parum l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>titi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cepit, quippe
+      <lb/>qui Te diligit plurimum <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dilexit semper, ac de
+      <lb/>pristino suo in Te amore remisisse, aliquid haud
+      <lb/>velim dubites. <rs key="pers_DE-588-1333493304" type="person">Mater</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> reliqui <rs type="person">Fratres</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <rs type="person">Sorores</rs>
+      <lb/>optime se habent, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ut felix faustum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> sit iter quod
+      <lb/><del><gap/></del>paras, optant. <rs key="B_991170517163305501" type="letter">Litteris</rs> Tuis jucundissimis
+      <lb/>Ipse respondisset <rs key="pers_DE-588-121297829" type="person">Pater</rs>, nisi tum privata tum publica,
+      <lb/>ut Tu Ipse non ignoras, Eum negotia distractum
+      <lb/>haberent. Ceterum quod ad semina attinet qu<del><gap/></del><add><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></add> Tibi
+      <lb/><rs type="person">Soror</rs> Tua Carissima misit, nihil est quod gratias
+      <lb/>agas, si est quod Tibi aliud officium pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stare possit,
+      <lb/>id minime recusat<del><gap/></del>. Interim sententiam
+      <lb/>Tuam <rs key="pers_DE-588-121297829" type="person">Pater</rs> valde approbat, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Deum precatur ut
+      <lb/>iter quod ingredi jamjam in animo habes, prosperum
+      <lb/>ac felix reddat. Permitte<del><gap/></del> etiam<supplied>,</supplied> Consobrine suavissime<supplied>,</supplied>
+      <lb/>ut <rs key="pers_DE-588-121297829" type="person">Patris</rs> mei Optimi votis mea etiam jungam, <del><gap/></del><add>rogans</add> ut
+      <lb/>nos carissima Tua pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentia non diu prives, <del><gap/></del><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>itinere hoc feliciter peracto brevi Tibi prosper<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>reditum gratulemur. </p><closer><choice><orig>VALE</orig><reg>Vale</reg></choice>, Consobrine Optime. Et me
+      <lb/>Ama. <dateline>Dabam <rs key="place_GEO-2661604" type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1710-04-24">8.<hi rend="sup"><hi rend="u">vo</hi></hi> <abbr>Calend.</abbr> Mai<del><gap/></del><add>j</add><choice><orig>:</orig><reg>.</reg></choice> <abbr>An<choice><orig>:</orig><reg>.</reg></choice></abbr> 1710</date>.</dateline></closer>
+<pb facs="1040071" n="2"/>
+  <postscript>
+    <p>Sit<note type="editorial">Das P. S. stammt von <rs key="pers_DE-588-121297829" type="person">Johann Heinrich Stehelin</rs>.</note> tibi eunti et redeunti Comes Salus. Viros Reverendos et Clarissimos
+        <lb/><rs key="pers_DE-588-118576682" type="person">Malebrancium</rs> si adhuc in vivis est, et <rs key="pers_DE-588-119062372" type="person">Varignonium</rs> meo nomine
+        <lb/>saluta. <rs key="place_GEO-2661552" type="place">Bern<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> apud <rs type="person">Fritshium</rs> venale prostat <rs key="pers_DE-588-100068995" type="person">Caneparii</rs> <rs type="biblio">Opus de Atramentis</rs>
+        <lb/>in <abbr>4.<hi rend="sup">o</hi></abbr> <rs key="place_GEO-3164603" type="place">Venet<choice><orig>:</orig><reg>.</reg></choice></rs> ibi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>, quod si pro co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>odo pretio mihi comparare poteris, rem
+        <lb/>mihi facies gratissimam. Vale iterum at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> iterum.
+        <lb/><abbr>S. T. T.</abbr>
+        <lb/><rs key="pers_DE-588-121297829" type="person">Stehelius</rs> <abbr>Med<choice><orig>:</orig><reg>.</reg></choice></abbr></p>
+  </postscript>
+<pb facs="1039655" type="archival"/> <pb facs="1039653" type="archival"/>
+</div>
+</body>
+</text></TEI>

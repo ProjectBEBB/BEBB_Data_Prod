@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524790705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 11. Juli 1774</title>
+          <title type="alt">1774.07.11: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079637</title>
+          <title type="alt">1774-07-11_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524790705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524790705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Mit einem Briefumschlag mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128973">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.156-157</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524790705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440050605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079637</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1774-07-11">11 Julij 1774</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1774-07-11">11 Julij 1774</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524790805501" type="prev"/>
+          <ptr target="B_991170524790605501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1421675358">Bode, Johanna Christiana</persName>
+            <note type="lebensdaten">(1754-1782)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell thanks Johann III Bernoulli and the Berlin Academy of Sciences for the Berlin ephemerides, praising their discussions of the micrometer, catalogue of fixed stars, and contributions by Lambert and Lexell. He predicts that French astronomers, especially Lalande, may ignore the work because it rejects Lalande's treatment of Mayer's parallax formula. Hell comments on improved methods for determining longitude and latitude, including his own method using only a telescope. He describes the continuing personal and scholarly consequences of the suppression of the Jesuit order, including displaced colleagues, lost resources, financial concerns, and damage to his health. Hell reports another proposed reform of the University of Vienna and rumours of a new academy of sciences, congratulates Bode on his ephemeris work and forthcoming marriage, and sends greetings to Lambert.</p>
+
+        <p>Maximilian Hell dankt Johann III Bernoulli und der Berliner Akademie der Wissenschaften für die Berliner Ephemeriden. Er lobt die Ausführungen zum Mikrometer, den Sternkatalog und die Beiträge Lamberts und Lexells. Hell vermutet, französische Astronomen, insbesondere Lalande, könnten das Werk verschweigen, weil es Lalandes Behandlung von Mayers Parallaxenformel verwirft. Er äussert sich zu verbesserten Methoden der Längen- und Breitenbestimmung, darunter seine eigene Methode allein mithilfe eines Fernrohrs. Hell schildert die anhaltenden persönlichen und wissenschaftlichen Folgen der Aufhebung des Jesuitenordens: vertriebene Kollegen, verlorene Hilfsmittel, finanzielle Sorgen und gesundheitliche Belastungen. Er berichtet über eine weitere geplante Reform der Universität Wien und Gerüchte über eine neue Akademie der Wissenschaften, gratuliert Bode zu seiner Arbeit an den Ephemeriden und seiner bevorstehenden Heirat und grüsst Lambert.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Fachbegriffe und offene Aussagen mit XML-Kommentaren versehen. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-28" who="CG SG">Kollationieren abgeschlossen</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-28" who="SG">Maschinell transkribiert.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529647/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+
+       <div type="letter">
+
+
+
+
+
+
+
+<pb facs="3529648" n="156r"/>
+
+<opener rend="center"><salute rend="center">
+<lb/>Celeberrimo, ac doctissimo Domino Domino
+<lb/><rs type="person" key="pers_DE-588-116170654">Bernoullio</rs> Astronomo longe profundissimo <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice>
+<lb/>
+<lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs>, <abbr>S. P. D.</abbr>
+</salute></opener>
+<p><lb/>Pretiosissimum Munus excellentissimarum <rs type="biblio">Ephemeridum</rs> die <date when="1774-04-20">20 Aprilis</date>
+<lb/>ad me datum, <date>sub finem Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Clarissimo <rs type="person" key="pers_DE-588-137065051">Schwediauer</rs> mihi
+<lb/>tandem redditum est; Impar sum referendis grati<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s tum Tibi Vir
+<lb/>celeberrime, tum <rs type="organisation" key="org_DE-588-15514-7">Illustrissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> pro tanto
+<lb/>erga me affectu; utinam gratum meum erga celeberrimam hanc
+<lb/><rs type="organisation" key="org_DE-588-15514-7">Scientiarum Societatem</rs> animum opere testari valeam, operam certe
+<lb/>dabo, ut tantum in me collatum beneficium non supervacaneum fuisse
+<lb/>orbis litteratus intelligat.
+</p>
+<p>
+<lb/>Egregium hoc <rs type="biblio">Ephemeridum opus</rs> maximam iterum Gallorum excitabit
+<lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mulationem; dabunt Galli operam, ut quemadmodum egregiam suam
+<lb/>Transitus Veneris observationem, meamque <rs type="biblio">de Parallaxi solis disser<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tationem</rs>, atque postremas <rs type="biblio">Ephemerides meas</rs>, aliaque opera mea sibi
+<lb/>haud grata, alto suppresserunt silentio,ita de Berolinensibus hisce
+<lb/>sileant <rs type="biblio">Ephemeridibus</rs>, cumprimis <rs type="person" key="pers_DE-588-104234059">de la Landius</rs>, cujus formul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>parallaxeos <rs type="person" key="pers_DE-588-118579576">Mayerian<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> erronea impugnatio <rs type="biblio">pagina 129</rs>, itemque
+<lb/><rs type="biblio">pagin<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> 167</rs> aperte falsa declaratur, eademque in <rs type="biblio">Actis Göttingensibus
+<lb/><abbr>Tomo</abbr> IV.</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> <rs type="person" key="pers_DE-588-118714570">Kaestnero</rs> egregie refutatur; Hujus Celeberrimi
+<lb/>Viri ibidem de Astronomia <rs type="person" key="pers_DE-588-104234059">de la Landi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> lata sententia, quam
+<lb/><hi rend="u">disjecta membra Urani<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> compellat, haud <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quis accipietur oculis.
+</p>
+<p>
+ <lb/>Partem secundam harum excellentium <rs type="biblio">Ephemeridum</rs> Astronomis jucundissimam
+<lb/>utilissimamque censeo, egregi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt Tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> de usu Micrometri <choice><orig>comenta</orig><reg>commenta</reg></choice><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tiones, maximique usus <rs type="biblio">Catalogus fixarum</rs> in usum determinandorum
+<lb/>Micrometrorum concinnatus. Eodem modo <abbr>Cel.</abbr> Virorum <rs type="person" key="pers_DE-588-118568876">Lamberti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>,
+<lb/>et <rs type="person" key="pers_DE-588-100189180">Lexelli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> utilissima sunt <rs type="biblio">Additamenta</rs>; in his <del>sus </del>quidem <abbr>Cel.</abbr> <rs type="person" key="pers_DE-588-100189180">Lexellius</rs>
+<lb/><abbr>pag.</abbr> 179 dubia mea in <rs type="biblio"><abbr>Ephem.</abbr> meis <date when="1767">1767</date></rs> contra parallacticam Methodum
+<pb facs="3529649" n="156v"/>
+<lb/>eruendi differentias Meridianorum ex Eclipsibus solis proposita<del>m</del> non
+<lb/>probat, sed animadvertere debebat, me ibidem de ordinari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s illuc usque
+<lb/>cognitis methodis disseruisse, non ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> de novis recens inventis, et
+<lb/>magis elaboratis; Methodi etenim Astronomic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> singulis annis perfectio<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>res redduntur, dubi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>sque certiores surrogantur, quemadmodum ipse
+<lb/>methodum <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> satellibus Jovis eruendi Differentias Meridianorum, itemque
+  <lb/>Elevationem Poli accuratiori methodo definiendam proposui, facillima<unclear reason="binding">s</unclear><pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>que ope solius Tubi, sin<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> ullo Quadrante in partes diviso, doceo in
+<lb/><rs type="biblio">opusculo</rs>, quod nunc sub pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>lo est.
+</p>
+
+<p>
+<lb/>Revolutio <rs key="org_DE-588-80092-2" type="organisation">Ordinis</rs> mei rerum mearum, studiorumque ingentem stragem fecit,
+<lb/>laborum soci<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> dispersi, Adjumenta studiorum sublata, his success<choice><orig><g ref="#ehat">ê</g></orig><reg>e</reg></choice>re
+<lb/>animus amaritudine plenus, cur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rerum necessariarum Vict<choice><orig><g ref="#uhat">û</g></orig><reg>u</reg></choice>s, et
+<lb/>Vestit<choice><orig><g ref="#uhat">û</g></orig><reg>u</reg></choice>s; dispersorum modo barbaro, et ipsi legi natur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> adverso pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sorum sociorum ex tota pene <rs type="place" key="place_KON-europa">Europa</rs> ad me libelli, litter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>que supli<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ces, quibus miseri<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s suis levamen qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>runt <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice> h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c et similia
+<lb/>fortissimum quemvis animum dei<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ciunt, suaque privant quiete.
+</p>
+
+<p>
+<lb/>Infirmior valetudo Tua multum me solicitum reddit, nollem mihi tantum amicum
+<lb/>nollem Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tantum lumen, atque Decus tam mature ereptum;
+<lb/>faxit Deus, ut pristin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> valetudini restitutum esse propediem intelligam.
+</p>
+<p>
+<lb/><rs key="org_DE-588-2024703-5" type="organisation">Universitati nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> nova studiorum reformatio iterum imminet, suntque
+<lb/>indicia qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>piam instituend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quoque hic loci <rs type="organisation">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cujuspiam
+<lb/>scientiarum</rs>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ubi in publicum prodierint, Tecum communia faciam.
+</p>
+
+<p>
+<lb/>Salutem impartior doctissimo <abbr>D.</abbr> <rs type="person" key="pers_DE-588-116215372">Bode</rs>, Eique duplici nomine gratulor, et de
+<lb/>perfuncto labore Calculorum Ephemeridum, et de socia laborum Astrono<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>micorum, Nepte <abbr>Cel.</abbr> <rs type="person">Kirchi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> Astronomi sibi matrimonio jungenda.
+<lb/>Celeberrimus Abbas <rs type="person" key="pers_DE-588-118532340">de Felbiger</rs>, cujus pererudita Amicitia hic <rs type="place" key="place_GEO-2761369">Vien<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>n<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> plurimum recreor, salute plurima un<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> mecum reveretur cele<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>berrimum <rs type="person" key="pers_DE-588-118568876">Lambertium</rs>, de quo nobis plurima, atque frequens sermoci<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>natio est.
+</p>
+<closer><salute><lb/>Valetudinem Tuam cura diligenter, et me Tuos inter censere perge amicos.
+</salute><dateline><lb/>dabam <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1774-07-11">11 Juli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1774</date>.
+</dateline></closer>
+<pb facs="3529650" n="157r" type="empty"/>
+<pb facs="3529651" n="157v"/>
+<address>
+
+<addrLine>A Monsieur</addrLine>
+<addrLine>Monsieur <rs type="person" key="pers_DE-588-116170654">Bernoulli</rs> Astronome</addrLine>
+<addrLine>tres celebre de l’Académie</addrLine>
+<addrLine>Royale des <choice><orig>Sçiences</orig><reg>Sciences</reg></choice> de <rs type="place" key="place_GEO-2950159">Berlin</rs>.</addrLine>
+<addrLine>à</addrLine>
+<addrLine><rs type="place" key="place_GEO-2950159"><hi rend="u">Berlin</hi></rs></addrLine>
+</address>
+</div>
+
+
+    </body>
+  </text>
+</TEI>

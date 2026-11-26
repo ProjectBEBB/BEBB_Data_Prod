@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517063405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus II Bernoulli an Nicolaus I Bernoulli.
+            Venedig, 14. Juni 1720</title>
+          <title type="alt">1720.06.14: Bernoulli, Nicolas
+            (1695-1726) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059008</title>
+          <title type="alt">1720-06-14_Bernoulli_Nicolas-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition
+            der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517063405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517063405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Nicolaus II (1695-1726) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegelspuren</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24276">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.35</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517063405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433817505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059008</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>23,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Venedig</origPlace>
+              <date when="1720-06-14">den 14ten
+              1720</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus II</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1720-06-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus I</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517063605501" type="prev"/>
+          <ptr target="B_991170517062905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Nicolaus_II-NicIB" corresp="pers_DE-588-117589144" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170517063605501" type="prev"/>
+          <ptr target="B_991170517005805501" type="next"/>
+          <ptr target="BW_NicIIB" corresp="pers_DE-588-117589144" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Nicolaus_I-NicIIB" corresp="pers_DE-588-119166895" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1153514060">Bernoulli, Anna Katharina</persName>
+            <note type="lebensdaten">(1698-1780)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913338">Bernoulli, Benedict</persName>
+            <note type="lebensdaten">(1692-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156361664">Bernoulli, Magdalena</persName>
+            <note type="lebensdaten">(1689-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1216205728">Bernoulli, Anna Maria</persName>
+            <note type="lebensdaten">(1681-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089924429">Bernoulli, Ursula</persName>
+            <note type="lebensdaten">(1665-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+            <note type="lebensdaten">(1688-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1343364833">Fabris, Francesco</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1037587715">Hertz, Giovanni Gabriele</persName>
+            <note type="lebensdaten">(-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102552517">Michelotti, Pietro Antonio</persName>
+            <note type="lebensdaten">(1673-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Planta, Kaufmann in Venedig</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117260266">Stirling, James</persName>
+            <note type="lebensdaten">(1692-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121710742">Vezzi, Giovanni</persName>
+            <note type="lebensdaten">(1687-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117596027">Zendrini, Bernardino</persName>
+            <note type="lebensdaten">(1679-1747)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-20" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-20" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-20" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063158/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063159" n="1"/>
+  <p> <rs key="place_GEO-3164603" type="place">Venedig</rs> den 14. Junii 1720 </p>
+  <p>Mon tres cher <rs key="pers_DE-588-119166895" type="person">Cousin</rs> </p>
+  <p>Niemahlen hab ich von Euch keine angenehmere Zeitung empfangen als die Ihr mir in Euerem Brief vom 29ten passato überschrieben, von Euerem vergangenen montag 8 tag celebrirten heurath. Es ist mir in einem brief so mir mein Bruder geschrieben zugleich auch meiner schwester Vermählung gemeldet worden; also dass ich es billich für ein gut augurium zu halten habe, dass die allerersten brief die ich von <rs key="place_GEO-2661604" type="place">Basel</rs> bekommen mir so erfreuliche Zeitungen gemeldet haben. Wünsche allso den neuverlobten (in specie Euch <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> der neuen Frl. <rs type="person">Baas</rs> Doctorin) zu Ihrer getroffenen Verlobnus viel glück <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Heyl; Gott den allerhöchsten bittende dass er Euch mit allem erwünschten segen von oben herab zu Euren und der Eurigen trost benedeyen wolle, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> es Euch an wohl gerathenen schönen <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> manchen öhl=zweigen umb Euern tisch här nicht wolle fehlen lassen. Ich zweifle nicht dass Ihr nicht das Eurige dazu soviel immer möglich werdet beytragen; dazu ermahne ich Euch zum ersten, zum andern <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> zum dritten mahl wie recht ist. Recom mendire <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> empfehle mich anbey in der Frl. <rs type="person">Baas</rs> Drin <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Eure gute gunst <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> wohlgewogenheit. H. <rs key="pers_no_GND_id" type="person">Planta</rs> sulla <rs type="place">Riva de’Schiavoni</rs> habe ich gewusstes paquet zugestellt, welcher es auch allbereyt spedirt hatt. H. <rs key="pers_DE-588-117260266" type="person">Stirling</rs> ist noch allhier zu <rs key="place_GEO-3164603" type="place">Venedig</rs>, wird aber morgen oder übermorgen von hier nach <rs key="place_GEO-3165524" type="place">Turin</rs> verreisen. Ich bin schon 4 mahl bei Ihm gewesen, habe Ihn aber niemahlen angetroffen. Und Er ist einmahl zu dem <rs key="pers_DE-588-121710742" type="person">Vezzi</rs> gekommen mich dort zu suchen; ich hab aber weiter nicht mit Ihm können reden als nur Ihm sagen ich werde wieder zu Ihm gehen, habe Ihn aber, wie ich sage, nicht angetroffen. Vor etwa 8 tagen habe H. <rs key="pers_DE-588-117596027" type="person">Zendrini</rs> bey H. <rs key="pers_DE-588-1037587715" type="person">G. Herz</rs> angetroffen, der mir gesagt, dass man Euer schediasma noch zu hart findet <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> es in denen terminis nicht wolle trucken lassen, Er hatt mich deswegen gebetten es Euch zu berichten. Was im übrigen mich anbelangt geht es mir all hier gantz wohl. Der H. <rs key="pers_DE-588-121710742" type="person">Vezzi</rs> thut mir alle höf lichkeit die ich mir wünschen kan. Von meinem Vatter könt Ihr wan es Euch beliebt weitläufiger vernemmen wie es mir geht. Der H. <rs key="pers_DE-588-102552517" type="person">Michelotti</rs>, <rs key="pers_DE-588-11887733X" type="person">Poleni</rs>, <rs type="person" key="pers_DE-588-1343364833">Fabris</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> alle miteinander die Ihr allhier kennet si consolano con Vossastrissima intorno all’inito Matrimonio. Bitte der Frau Mutter, der Frl. <rs type="person">Baass</rs> Drin- <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> der Jfr. Schwester meinen respect zu vermelden <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Euren Bruder <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> H. Dr. <rs key="pers_DE-588-140736662" type="person">Christ</rs> zu grüssen. Wir bleiben <abbr>M. T. C. C. V. T. H. E. T. O. S.</abbr> <rs key="pers_DE-588-117589144" type="person">N. Bernoulli</rs> <pb facs="1063160" n="2"/> Adresse: Monsieur Monsieur <rs key="pers_DE-588-117589144" type="person">Bernoulli</rs> Docteur en Droit a <rs key="place_GEO-2661604" type="place">Bâle</rs>. </p>
+</div>
+</body>
+</text></TEI>

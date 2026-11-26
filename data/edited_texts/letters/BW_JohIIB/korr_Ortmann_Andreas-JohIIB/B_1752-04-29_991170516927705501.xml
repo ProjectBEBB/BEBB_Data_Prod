@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516927705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Andreas Ortmann an Johann II Bernoulli. Berlin, 29. April 1752</title>
+          <title type="alt">1752.04.29: Ortmann, Andreas (1724-1799) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058821</title>
+          <title type="alt">1752-04-29_Ortmann_Andreas-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516927705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516927705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Ortmann, Andreas (1725-1799)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Kopie von Bl.204-214, siehe Signatur L Ia 768:Bl.358-366</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128352">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 713:Bl.209-210</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516927705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433551905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058821</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1752-04-29">ce 29.e Avril. 1752.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1035424398">Ortmann, Andreas</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1752-04-29"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516927805501" type="prev"/>
+          <ptr target="B_991170516927605501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Ortmann_Andreas-JohIIB" corresp="pers_DE-588-1035424398" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1048572293">Clavel, Jacques Abram Daniel</persName>
+            <note type="lebensdaten">(1717-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Pfautz</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+            <note type="lebensdaten">(1723-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1101483857">Ortmann, Jeremias</persName>
+            <note type="lebensdaten">(1702-1784)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104208082">Ponickau, Johann August von</persName>
+            <note type="lebensdaten">(1718-1802)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3514571/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3514572" n="209r"/>
+  <p> Monsieur. </p>
+  <p>Des raisons d’oeconomie nous aiant empechés de passer par Dresde, nous avons envoyé d’ici la Lettre que Vous nous aviez donnée pour Mr. de Ponicau; celle que Vous avez bien voulû ecrire a Mr. de Mauperthuis a eté de plus d’utilité pour nous, nous en avons eté reçus au mieux et nous avons diné chez Lui en grande et belle Compagnie. Mais je Vous avoue que j’ay eté effrayé de voir Mr. de Mauperthuis, il m’a parû vie[li]lli de vingt ans depuis le tems que je ne l’ay vû. Il paroit plus indisposé qu’il ne le dit il a un crache ment de sang fort frequent. d’ailleurs la maniere dont il se gouverne n’est guerre propre a le remettre. Il ne mange point de ragout [de] <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514571/canvas/3514573" n="209v"/> crainte que cela ne lui cause trop d’echauf fement, mais il boit du vin d’hongrie et il se gorge de sa lade. Il a commencé le premier a me parler de Mr. de Brenles, J’en ayt fait l’eloge autant que je l’ay pû sans me rendre suspect de trop d’amitié pour Mr. de Brenles, ou de trop de prevention pour moi a juger de choses au dessus de ma por tée; Sur ce que je dis, que Vous n’aviez pas voulû recomman der Mr. de Brenles par rapport a sons savoir, ne le connois sant que du coté de l’Esprit, Mr. de Mauperthuis me repondit qu’il lui avoit parû que Vous n’aviez pas eté bien aise d’etre chargé de cette commission; Comme je ne scavois pas ce que Vous aviez ecrit a Mr. de Mauperthuis, je ne pus re pliquer a celu[i] autre chose, si non que vous aviez dit a Mr. de Brenles de composer une piece, pour la lui faire voir. Ainsi je crois qu’il faudroit avant tout Lui faire voir cette piece. </p>
+  <p> Je n’ay pas encore gait parlé de l’affaire de faesi l’occasion ne s’etant pas presentée. </p>
+  <p> Joubliois presque de Vous dire Monsieur que je desespere presque de voir entrer Mr. de Brenles <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514571/canvas/3514574" n="210r"/> dans l’Academie. Il y a actuellement plusieurs scavants ici, tous connus par quelques ouvrages, qui briquent des places a l’academie et Vous scavez que les absents ont toujours tort; Vous ne deviez d’ailleurs pas me charger de cette affaire, il semble, qu’il est dit, que toute ce que j’entreprens soit pour moi soit pour d’autres doit manquer. Je crains fort que ceci ne soit encore verifié par rapport a la priere que j’ay faite a mon Pere de me laisser plus longtems ici. En tout cas je suis preparé a partir quand il voudra, pour aller achever a Bale mon Cours d’ennuy et de melancholie, que j’y ay deja si heureu sement commencé, au lieu que je pourrois vivre ici le plus agreablement du monde, sans qu’il m’en coutat beaucoup plus qu’a Bâle. </p>
+  <p> Je Vous annonce pour quinze jours d’ici une troupe de Zuriquois et avec eux une Lettre de Mon ami Merian; Mr. Fautz Vous fait mille compliments. </p>
+  <p> Adieu Monsieur, presentez s’il Vous plait mes respects a Madame Bernoulli, et croyez moi quamd même les apparences y seroient contraires, comme toujours Votre tres humble et tres obeissant Serviteur Berlin ce 29e. Avril 1752 Ortmann <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514571/canvas/3514575" n="210v"/> [Adresse (mit Siegel): A Monsieur Monsieur Bernoulli Professeur en Mathematiques <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. a Bâle. ] </p>
+</div>
+</body>
+</text></TEI>

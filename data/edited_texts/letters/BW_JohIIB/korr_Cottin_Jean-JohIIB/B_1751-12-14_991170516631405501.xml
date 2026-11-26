@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516631405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Jean Cottin. Basel, 14. Dezember 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516631405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516631405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-122915">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 732:Bl.239</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516631405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433589705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058257</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl. (1 S. beschrieben)<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1751-12-14">ce 14. Xbre 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1751-12-14"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1107785383">Cottin, Jean</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516631505501" type="prev"/>
+          <ptr target="B_991170516631305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cottin_Jean-JohIIB" corresp="pers_DE-588-1107785383" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-07" who="NG">transkribiert</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3388285/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3388286" n="239r"/>
+  <opener><lb/><dateline>Bâle ce 14. Xbre 1757</dateline></opener>
+  <p>
+      <lb/>Je ne sai que penser<supplied>,</supplied> Monsieur<supplied>,</supplied> de vôtre silence, après que vous
+      <lb/>m’avés promis il y a près de 2 mois, de me marquer dans la huitaine
+      <lb/>l’avis que vous attendés touchant la bourgeoisie en question et
+      <lb/>après la <rs type="letter">lettre</rs> que j’ai eu l’honneur de vous ecrire depuis pour vous
+      <lb/>prier de ne me <add>pas</add> laisser p<del><gap/></del><add>lu</add>s longtêmps dans l’incertitude de ce que je
+      <lb/>dois faire; je ne saurois concilier cette lenteur avec l’empressement
+      <lb/>que vous me marquiés de voir cette affaire finie. <choice><orig>seroit</orig><reg>Seroit</reg></choice> ce que la
+      <lb/>mort de <del><gap/></del><abbr>M.</abbr> <rs type="person">de Vincent</rs> eut fait abandonner ce projet ou qu’au moins
+      <lb/>vous voulussiés me dispenser de m’y employer davantage, de quoi
+      <lb/>je ne serois pas faché, non que je ne sois charmé de rendre tous les
+      <lb/>services qui dependent de moi à <abbr>Mad.</abbr> <rs type="person">de Vincent</rs>, et a vous<supplied>,</supplied> <choice><orig>monsieur</orig><reg>Monsieur</reg></choice><supplied>,</supplied>
+      <lb/>qui m’aviés parû vous interesser dans cette affaire. <choice><orig>mais</orig><reg>Mais</reg></choice> c’est
+      <lb/>que j’ai naturellement de l’aversion, pour toutes celles qui
+      <lb/>trainent trop en long<add>u</add>eur, et quand je me charge d’une commission
+      <lb/>je suis bien aise de <del><gap/></del> m’en acquiter de mon mieux et le plus
+      <lb/>vite que je puis, pour ne pas trop accumuler mes occupations.
+      <lb/>D’ailleurs je ne sais plus que dire aux differentes personnes que
+      <lb/>j’emplo<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e pour cette commission; A<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>és donc la bonté de me faire
+      <lb/>ecrire au moins par quelqu’un de vos Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>is afin que je sache à
+      <lb/>quoi j’en suis. <choice><orig>si</orig><reg>Si</reg></choice> je ne reçois point de vos nouvelles avant Noel
+      <lb/>je regarderai vôtre silence co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e une decharge de ma Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ission
+      <lb/>et en consequence je contremanderai tout ce qui a été fait jusqu’ici
+      <lb/>a ce sujet, j’ai l’honneur d’être tres parfaitement <supplied>,</supplied>Monsieur<supplied>,</supplied> </p>
+  <closer>vôtre
+      <lb/><abbr>tr.</abbr> <abbr>h.</abbr> et très obeïssant serviteur.
+      <lb/><signed> <rs type="person"><abbr>J<supplied>.</supplied></abbr> Bernoully</rs></signed>
+  </closer>
+<pb facs="3388287" n="239v" type="empty"/>
+</div>
+</body>
+</text>
+</TEI>

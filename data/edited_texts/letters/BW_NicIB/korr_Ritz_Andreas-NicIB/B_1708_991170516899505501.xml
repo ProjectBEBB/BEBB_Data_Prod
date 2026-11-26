@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516899505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Andreas Ritz. Ohne Ort,
+            1708</title>
+          <title type="alt">1708: Bernoulli, Nicolaus (1687-1759) an Ritz, Andreas
+            (1684-1767)</title>
+          <title type="alt">000059429</title>
+          <title type="alt">1708_Bernoulli_Nicolaus-Ritz_Andreas</title>
+          <title level="s">Basler Edition der
+            Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516899505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516899505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Ritz, Andreas (1684-1767) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Das im Brief erwähnte Dekanat von Joh. I B. war
+          1707/8</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23493">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.1v-2r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516899505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433521005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059429</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,5 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1708">[1708]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne
+            Ort</placeName>
+          <date when="1708"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1012090132">Ritz, Andreas</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430457405501" type="prev"/>
+          <ptr target="B_991170516899405501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Ritz_Andreas-NicIB" corresp="pers_DE-588-1012090132" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Nicolaus I Bernoulli erläutert Andreas Ritz die Kosten und Modalitäten seiner in Abwesenheit bevorstehenden Basler Magisterpromotion, nennt die am Vortag erfolgte gemeinsame Promotion dreier Brüder Zwinger und beschreibt die Rechte eines Magisters. Anschliessend präzisiert er seinen Wunsch nach jahrgangsweise geordneten Verzeichnissen Verstorbener, aus denen sich die erreichten Lebensalter berechnen lassen sollen, und fügt ein Tabellenschema bei.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104222069">Im Hoff, Samuel</persName>
+            <note type="lebensdaten">(1679-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118088440">Wolleb, Daniel</persName>
+            <note type="lebensdaten">(1692-1763)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-25" who="SG">Grundkommentierung vorbereitet</change>
+        <change when="2026-08-25" who="SG">NER</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-13" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039098/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+
+<pb facs="1039099" n="1v"/>
+  <opener>Ad <rs key="pers_DE-588-1012090132" type="person">Andream Ritsium</rs>, <rs key="place_GEO-2658822" type="place">Sangallum</rs>.</opener>
+  <p><lb/>Est quod et Tibi gratuler de felici tuo <rs key="place_GEO-2658822" type="place">Sangallum</rs> adventu, et mihi de propensa tua in me voluntate,
+      <lb/>quam tam luculentis Amiciti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> testimoniis hactenus mihi probatam dedisti. Grates quas agis pro exhibitis
+      <lb/>tibi <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me officiis, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tamen pauca admodum esse scio, in sinum tuum refundo, et vicissim gratias, quas
+      <lb/>pro favore et amore tuo tibi debeo, non tam verbis persolvo, quam <add>in</add> continuo tibi inserviendi studio pa<pc type="hyphenation">-</pc><lb break="no"/>ratas sisto, quod ut ulteriori verborum ambage tibi demonstrem supervacuum esse judico, qualis
+      <lb/>enim sit animus erga te meus satis ut puto nosti, quemadmodum et ego de amicitia tua, quam
+      <lb/>nec inane nomen esse nec futuram spero, sum persuasissimus. Sex illos florenos <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Dno</abbr> <rs key="pers_DE-588-104222069" type="person">Im Hof</rs>
+      <lb/>acceptos pro te <rs key="pers_DE-588-118509969" type="person">Patruo</rs> meo exsolvi, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> pecuni<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>a ideo solvenda fuit, quia non pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sens,
+      <lb/>uti alias requiritur, sed absens promoveberis, pro quo privilegio in superioribus Facultatibus
+      <lb/>duplum ordinari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> exposcunt; imo etiam ipse Doctor <rs key="pers_DE-588-118088440" type="person">Wollebius</rs>, quem procul dubio bene
+      <lb/>nosti, et qui sub camino titulo Magisterii insignitus fuit, Facultati Philosophic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> 18 Imperiales
+      <lb/>persolvere debuit; memini etiam te ipsum <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>nisi fallor<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> de 18 Imperialibus et de sex florenis lo<pc type="hyphenation">-</pc><lb break="no"/>cutum fuisse, quin et illud quod <abbr>Cl.</abbr> <rs key="pers_DE-588-118509969" type="person">Patruus</rs> meus ultra su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>am jam expensam nihil amplius
+      <lb/>requiri dixerit, quod tamen ille, ut facile conjicere potui et ipse mihi fassus est, de ordinariis
+      <lb/>sumtibus non cogitans de extraordinariis intellexit. Solutionem igitur eo minus etiam distuli,
+      <lb/>quoniam tentaminis tibi facta est gratia, et metuendum erat, ne <rs type="person">Promotor</rs>, nisi pecunia solve<pc type="hyphenation">-</pc><lb break="no"/>retur, nomen tuum in <rs type="biblio">Progra<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ate</rs> omitteret, cum <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> contra hic tibi jam continget honor, quod
+      <lb/>primo loco inter <rs type="person">Candidatos</rs> etiam ante illos, qui jam ante semestre examinati et admissi fue<pc type="hyphenation">-</pc><lb break="no"/>runt, collocaberis. <date>Heri</date> trium <rs type="person">Zwingerorum</rs> promotio celebrata fuit, quam vestra brevi se<pc type="hyphenation">-</pc>
+
+      <lb break="no"/>quetur. Privilegia Magistrorum, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tibi perscribi cupis, consistunt, quantum quidem scio, in ju<pc type="hyphenation">-</pc><lb break="no"/>re superiorem cathedram conscendendi, in publicis disputationibus pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sidendi, tecto capite opponen<pc type="hyphenation">-</pc><lb break="no"/>di, liberales artes docendi, aureos a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ulos gestandi, apud nos quoque collegia privata instituere
+      <lb/>aut ad Professionem Philosophicam aspirare nemini licet nisi Doctoribus Philosohi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sive <abbr>L. A.</abbr>
+      <lb/>Magistris. Alia privilegia, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quidem alicujus momenti sint, non scio, nisi et hoc inter
+      <lb/>privilegia Magistrorum velis numerare, quod Magister possit magister bibere, sed cum
+      <lb/>hoc jure et alii utantur, vides quid de illo sentiendum sit. Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> de <rs type="biblio">catalogo mortuorum</rs>
+
+<pb facs="1039100" n="2r"/>
+      <lb/>coram locutus sum, ea breviter huc redeunt, quod scire vellem quoto quisque <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tatis su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o ex om<pc type="hyphenation">-</pc><lb break="no"/>nibus illis, qui eodem a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>o nati sunt, iterum denatus sit, in quem finem <rs type="biblio">catalogus</rs> in hunc mo<pc type="hyphenation">-</pc><lb break="no"/>dum confici potest; ubi, ut vides, tales a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>i seligi debent,
+      <lb/>ut nemo eorum, qui illis annis lucem primum viderunt,
+      <lb/>amplius superstes esse possit. Ignosce autem qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so,
+      <lb/>Amice charissime, quod tam libere tecum ago, et tibi
+      <lb/>nedum aliis laborem hunc impono, tribuas hoc velim
+      <lb/>Amiciti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, cujus intuitu et ego ad qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet
+      <lb/>officia me tibi paratissimum esse spondeo. Vale.
+  </p>
+  <p>
+    <table>
+      <row role="label">
+        <cell role="label" cols="3">Nati</cell>
+        <cell role="label" cols="2">Denati</cell>
+      </row>
+      <row role="data">
+        <cell role="data">1616<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></cell>
+        <cell role="data"><date>2. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Titius</rs></cell>
+        <cell role="data"><date>1620</date></cell>
+        <cell role="data"><date>17. <abbr>Jan.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>7. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Joha<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es</rs></cell>
+        <cell role="data"><date>1657</date></cell>
+        <cell role="data"><date>18. Xbris</date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>24. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Petrus</rs></cell>
+        <cell role="data"><date>1634</date></cell>
+        <cell role="data"><date>2. <abbr>Jun.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>25. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Catharina</rs></cell>
+        <cell role="data"><date>1618</date></cell>
+        <cell role="data"><date>30. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>12. <abbr>Aug.</abbr></date></cell>
+        <cell role="data"><rs type="person">Anna</rs></cell>
+        <cell role="data"><date>1617</date></cell>
+        <cell role="data"><date>5. <abbr>Apr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>16. 8bris</date></cell>
+        <cell role="data"><rs type="person">Paulus</rs></cell>
+        <cell role="data"><date>1680</date></cell>
+        <cell role="data"><date>1. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1617<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date></cell>
+        <cell role="data"><date>13. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">M<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vius</rs></cell>
+        <cell role="data"><date>1628</date></cell>
+        <cell role="data"><date>25. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>16. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">Jacobus</rs></cell>
+        <cell role="data"><date>1639</date></cell>
+        <cell role="data"><date>12. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>18. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Maria</rs></cell>
+        <cell role="data"><date>1667</date></cell>
+        <cell role="data"><date>16. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1619<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date></cell>
+        <cell role="data"><date>1. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Cajus</rs></cell>
+        <cell role="data"><date>1691</date></cell>
+        <cell role="data"><date>24. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"/>
+        <cell role="data"><date>2. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Sophia</rs></cell>
+        <cell role="data"><date>1699</date></cell>
+        <cell role="data"><date>30. <abbr>Apr.</abbr></date></cell>
+      </row>
+    </table>
+
+  </p>
+
+  <closer>Vale.</closer>
+</div>
+<div type="translation" xml:id="B_991170516899505501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039099" n="1v" /> <p>An Andreas Ritz in St. Gallen.</p>
+<p>Ich darf Dir zu Deiner glücklichen Ankunft in St. Gallen gratulieren und mich selbst darüber freuen, wie sehr Du mir zugetan bist. Das hast Du mir bisher mit so deutlichen Zeichen Deiner Freundschaft bewiesen. Deinen Dank für meine Dienste, von denen ich weiss, dass es nur sehr wenige waren, kann ich nur mit Dank erwidern. Den Dank, den ich Dir für Dein Wohlwollen und Deine Zuneigung schulde, will ich Dir weniger mit Worten abstatten als durch meine beständige Bereitschaft, Dir zu helfen. Darüber brauche ich, wie ich glaube, keine weiteren Worte zu verlieren. Du weisst wohl hinreichend, wie ich zu Dir stehe, ebenso wie ich fest von Deiner Freundschaft überzeugt bin, die, wie ich hoffe, weder jetzt noch künftig ein blosses Wort ist. Die sechs Gulden, die ich von Herrn Im Hof erhalten habe, habe ich in Deinem Namen meinem Onkel väterlicherseits bezahlt. Dieser Betrag war zu entrichten, weil Dir der Grad in Abwesenheit verliehen werden wird, obwohl man gewöhnlich anwesend sein muss. Für dieses Vorrecht verlangen die höheren Fakultäten das Doppelte der üblichen Summe. Sogar Doktor Wollebius, den Du zweifellos gut kennst und der den Magistertitel «sub camino» erhielt, musste der Philosophischen Fakultät achtzehn Reichstaler bezahlen. Ich erinnere mich auch, dass Du selbst, wenn ich mich nicht täusche, von achtzehn Reichstalern und sechs Gulden gesprochen hast. Ebenso erinnere ich mich an die Aussage meines angesehenen Onkels, über die bereits ausgegebene Summe hinaus werde nichts mehr verlangt. Wie ich leicht vermuten konnte und er mir selbst eingestand, meinte er damit aber die ordentlichen Kosten und dachte nicht an die ausserordentlichen. Ich habe mit der Zahlung auch deshalb umso weniger gezögert, weil Dir das Tentamen erlassen wurde und zu befürchten war, dass der Promotor Deinen Namen ohne die Zahlung in der gedruckten Ankündigung weglassen würde. Nun dagegen wird Dir die Ehre zuteil, an erster Stelle unter den Kandidaten zu stehen, sogar vor denen, die bereits vor einem halben Jahr geprüft und zugelassen wurden. Gestern fand die Promotion der drei Zwinger statt; Eure wird bald folgen. Die Vorrechte der Magister, über die Du Näheres wissen möchtest, bestehen meines Wissens im Recht, das obere Katheder zu besteigen, öffentliche Disputationen zu leiten, mit bedecktem Haupt als Opponent aufzutreten, die freien Künste zu lehren und goldene Ringe zu tragen. Bei uns darf ausserdem nur ein Doktor der Philosophie beziehungsweise Magister der freien Künste private Lehrveranstaltungen abhalten oder sich um eine philosophische Professur bewerben. Andere Vorrechte von einigem Gewicht kenne ich nicht, es sei denn, Du möchtest auch dazu rechnen, dass ein Magister meisterlich trinken darf. Da aber auch andere von diesem Recht Gebrauch machen, siehst Du, was davon zu halten ist. Was ich Dir mündlich über das Sterbeverzeichnis <pb facs="1039100" n="2r" /> gesagt habe, lässt sich kurz so zusammenfassen: Ich möchte wissen, in welchem Lebensjahr jeder Einzelne von allen, die im selben Jahr geboren wurden, wieder gestorben ist. Zu diesem Zweck kann das Verzeichnis nach dem folgenden Muster angelegt werden. Wie Du siehst, müssen die Geburtsjahre so gewählt werden, dass niemand von den damals Geborenen noch am Leben sein kann. Verzeih mir bitte, mein lieber Freund, dass ich so frei mit Dir umgehe und Dir, ja auch anderen, diese Arbeit aufbürde. Schreibe das bitte unserer Freundschaft zu. Ihretwegen verspreche auch ich Dir, jederzeit zu jedem Dienst bereit zu sein. Lebe wohl.</p>
+<p><table>
+      <row role="label">
+        <cell role="label" cols="3">Geboren</cell>
+        <cell role="label" cols="2">Gestorben</cell>
+      </row>
+      <row role="data">
+        <cell role="data">1616<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></cell>
+        <cell role="data"><date>2. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Titius</rs></cell>
+        <cell role="data"><date>1620</date></cell>
+        <cell role="data"><date>17. <abbr>Jan.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>7. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Joha<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es</rs></cell>
+        <cell role="data"><date>1657</date></cell>
+        <cell role="data"><date>18. Xbris</date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>24. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Petrus</rs></cell>
+        <cell role="data"><date>1634</date></cell>
+        <cell role="data"><date>2. <abbr>Jun.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>25. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Catharina</rs></cell>
+        <cell role="data"><date>1618</date></cell>
+        <cell role="data"><date>30. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>12. <abbr>Aug.</abbr></date></cell>
+        <cell role="data"><rs type="person">Anna</rs></cell>
+        <cell role="data"><date>1617</date></cell>
+        <cell role="data"><date>5. <abbr>Apr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>16. 8bris</date></cell>
+        <cell role="data"><rs type="person">Paulus</rs></cell>
+        <cell role="data"><date>1680</date></cell>
+        <cell role="data"><date>1. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1617<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></date></cell>
+        <cell role="data"><date>13. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">M<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vius</rs></cell>
+        <cell role="data"><date>1628</date></cell>
+        <cell role="data"><date>25. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>16. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">Jacobus</rs></cell>
+        <cell role="data"><date>1639</date></cell>
+        <cell role="data"><date>12. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>18. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Maria</rs></cell>
+        <cell role="data"><date>1667</date></cell>
+        <cell role="data"><date>16. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1619<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></date></cell>
+        <cell role="data"><date>1. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Cajus</rs></cell>
+        <cell role="data"><date>1691</date></cell>
+        <cell role="data"><date>24. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>2. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Sophia</rs></cell>
+        <cell role="data"><date>1699</date></cell>
+        <cell role="data"><date>30. <abbr>Apr.</abbr></date></cell>
+      </row>
+    </table></p>
+<p>Lebe wohl.</p></div>
+<div type="translation" xml:id="B_991170516899505501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039099" n="1v" /> <p>To Andreas Ritz in St Gallen.</p>
+<p>I have reason both to congratulate you on your safe arrival in St Gallen and to rejoice in your affection for me, which you have shown so clearly in your many tokens of friendship. Your thanks for the services I have done you, few though I know them to have been, prompt me to thank you in turn. For the goodwill and affection you have shown me, I offer my own thanks less in words than in a constant readiness to help you. I think there is no need to explain this at greater length: you know well enough, I believe, how I feel towards you, just as I am fully convinced of your friendship, which I trust is not, and never will be, an empty word. I paid my paternal uncle the six gulden received from Mr Im Hof on your behalf. This sum was due because your degree will be conferred in your absence, although candidates are normally required to be present. For this privilege the higher faculties charge twice the usual sum. Even Doctor Wollebius, whom you undoubtedly know well and who received his master’s title «sub camino», had to pay the Faculty of Philosophy eighteen imperial thalers. Unless I am mistaken, I also remember you yourself speaking of eighteen imperial thalers and six gulden. I likewise recall my distinguished uncle’s statement that nothing more was required beyond the sum already spent. As I could readily surmise, and as he himself admitted to me, he meant the ordinary expenses and had not thought of the extraordinary ones. I was all the less inclined to delay payment because you had been excused the tentamen, and there was a risk that without payment the promotor would omit your name from the printed announcement. Now, on the contrary, you will have the honour of being placed first among the candidates, even before those who were examined and admitted six months ago. The three Zwingers received their degrees yesterday; your ceremony will follow soon. As far as I know, the privileges of masters, which you ask me to describe, consist in the right to ascend the upper cathedra, preside over public disputations, act as an opponent with one’s head covered, teach the liberal arts, and wear gold rings. Here, too, no one may give private courses or seek a professorship in philosophy unless he is a Doctor of Philosophy or Master of the Liberal Arts. I know of no other privileges of any consequence, unless you wish to count the right of a master to drink like a master. Since others exercise this right too, however, you can see what it is worth. What I told you in person about the register of deaths <pb facs="1039100" n="2r" /> can be summed up briefly: I should like to know in which year of life each person among all those born in the same year subsequently died. For this purpose, the register can be arranged according to the following model. As you see, the birth years must be chosen so that none of those born in them can still be alive. Please forgive me, my dear friend, for taking such liberties with you and imposing this work on you, and indeed on others. Attribute it, I ask, to our friendship, in whose name I too promise to be entirely ready to do you any service. Farewell.</p>
+<p><table>
+      <row role="label">
+        <cell role="label" cols="3">Born</cell>
+        <cell role="label" cols="2">Died</cell>
+      </row>
+      <row role="data">
+        <cell role="data">1616<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></cell>
+        <cell role="data"><date>2. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Titius</rs></cell>
+        <cell role="data"><date>1620</date></cell>
+        <cell role="data"><date>17. <abbr>Jan.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>7. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Joha<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es</rs></cell>
+        <cell role="data"><date>1657</date></cell>
+        <cell role="data"><date>18. Xbris</date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>24. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Petrus</rs></cell>
+        <cell role="data"><date>1634</date></cell>
+        <cell role="data"><date>2. <abbr>Jun.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>25. <abbr>Maj.</abbr></date></cell>
+        <cell role="data"><rs type="person">Catharina</rs></cell>
+        <cell role="data"><date>1618</date></cell>
+        <cell role="data"><date>30. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>12. <abbr>Aug.</abbr></date></cell>
+        <cell role="data"><rs type="person">Anna</rs></cell>
+        <cell role="data"><date>1617</date></cell>
+        <cell role="data"><date>5. <abbr>Apr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>16. 8bris</date></cell>
+        <cell role="data"><rs type="person">Paulus</rs></cell>
+        <cell role="data"><date>1680</date></cell>
+        <cell role="data"><date>1. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1617<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></date></cell>
+        <cell role="data"><date>13. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">M<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vius</rs></cell>
+        <cell role="data"><date>1628</date></cell>
+        <cell role="data"><date>25. <abbr>Aug.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>16. <abbr>Jan.</abbr></date></cell>
+        <cell role="data"><rs type="person">Jacobus</rs></cell>
+        <cell role="data"><date>1639</date></cell>
+        <cell role="data"><date>12. <abbr>Mart.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>18. <abbr>Febr.</abbr></date></cell>
+        <cell role="data"><rs type="person">Maria</rs></cell>
+        <cell role="data"><date>1667</date></cell>
+        <cell role="data"><date>16. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data"><date>1619<choice><orig><g ref="#ndot">.</g></orig><reg /></choice></date></cell>
+        <cell role="data"><date>1. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Cajus</rs></cell>
+        <cell role="data"><date>1691</date></cell>
+        <cell role="data"><date>24. <abbr>Febr.</abbr></date></cell>
+      </row>
+      <row role="data">
+        <cell role="data" />
+        <cell role="data"><date>2. <abbr>7bris</abbr></date></cell>
+        <cell role="data"><rs type="person">Sophia</rs></cell>
+        <cell role="data"><date>1699</date></cell>
+        <cell role="data"><date>30. <abbr>Apr.</abbr></date></cell>
+      </row>
+    </table></p>
+<p>Farewell.</p></div>
+</body>
+</text></TEI>

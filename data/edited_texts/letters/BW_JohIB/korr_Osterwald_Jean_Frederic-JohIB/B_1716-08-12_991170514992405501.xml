@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170514992405501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean Frédéric Ostervald. Basel,
+            12. August 1716</title>
+          <title type="alt">000056829</title>
+          <title type="alt">1716-08-12_Bernoulli_Johann_I-Osterwald_Jean_Frederic</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514992405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514992405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Osterwald, Jean Frédéric (1663-1747) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Die letzten 4 Zeilen eigenhändig. Das dem Brief beigebundene
+            fo. 222 (11 x 16,5 cm) trägt eine biographische Notiz zu Osterwald von der Hand Joh. III
+            B.s.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-42573">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 674:Bl.221-222</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514992405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433081405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056829</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,25 S.<dimensions unit="cm"><height>21</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1716-08-12">a.d. XII. Aug.
+                1716</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1716-08-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-12364433X">Ostervald, Jean Frédéric</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514992505501" type="prev"/>
+          <ptr target="B_991170514992305501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Osterwald_Jean_Frederic-JohIB" corresp="pers_DE-588-12364433X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. sendet eine "Descriptio Carolinae" zurück und verspricht, die ihm von Osterwald
+          übersandte Schrift über ein Perpetuum mobile, welche er heute erhalten hat, zu lesen.</p>
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1716-08-12_Bernoulli_Johann_I-Osterwald_Jean_Frederic"/>
+      </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1417056/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1716-08-12_Bernoulli_Johann_I-Osterwald_Jean_Frederic">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1417057" n="221r"/> Viro Venerando ac Celeberrimo </p>
+  <p>Joh. Frider. Ostervaldio </p>
+  <p>Theologo Solidissimo, </p>
+  <p>Pastori </p>
+  <p>animarum Vigilantissimo </p>
+  <p>S. P. D.</p>
+  <p>Nescio sane quid boni abs me acceperis aut ego Tibi fecerim dederimve, de quo gratias
+            referas;<note type="editorial">Johann Bernoulli antwortet vielleicht auf den Brief
+            Osterwalds von <rs key="B_991170514992505501" type="letter">1716.06.26</rs>.
+            Er reagiert auch auf eine Sendung Osterwalds, die er soeben erhalten hat.</note> nisi
+          hac Tua urbanitate id forsan efficere contendas, ut me mei erga Te officii commonefacere
+          et memorem reddere velis. Sed patere ut dicam nunquam fore ut obliviscar quantum Tibi
+          debeam, quod concesseris facultatem veniendi in notitiam amicitiamque Tuam, qua certe
+          nihil jucundius nihil exoptatius contingere mihi potuisset; ut mihi semper magno honori
+          duxi, si quem novum acquisivi Fautorem sive de republica Litteraria sive de Ecclesia bene
+          meritum, ita nunc laetandi causam habeo eo majorem quod Te de utraque tam egregie meritum
+          Fautorum meorum numero accessisse videam. Credas quaeso, Vir plurimum Venerande, quod
+          citra fucum dixerim, me perquam magni facere non tantum Tuam benevolentiam, qua forte
+          indignus sum, <pb facs="1417059" n="221v"/> sed praecipue candorem, integritatem ac pietatem,
+          cum profunda Eruditione conjunctam, quam in Te cum nobis adesses observare et admirari
+          mihi licuit. Plura non addo ne modestiae Tuae gravis fiam; neve genio meo vim inferam,
+          utpote qui plura cogitare quam verbis exprimere soleo. Hoc tamen praeterire non possum, si
+          vel maxime id mihi succenseres, quam diu scilicet non habemus tui similes, neminem fore
+          qui nostratibus satis inspirabit recti justique amorem. Deus Te servet incolumem, ac per
+          longos annos superstitem, magno Ecclesiae bono, bonorumque omnium solatio et gaudio. Vale
+          Vir Venerande, mihique favere perge. </p>
+  <p>Dabam Basileae a. d. XII. Aug. 1716.</p>
+  <p>P. S. Remitto cum plurima gratiarum actione curiosissimam illam ac lectu dignissimam
+          descriptionem Carolinae.<note type="editorial">Dieses Werk konnte bisher nicht
+            identifiziert werden.</note> Ex ejus Lectione summam percepi voluptatem; si quid in me
+          est, quo Tibi rem gratam praestare possim, jube et deprehendes me ad quodvis officii genus
+            paratissimum.<note type="editorial">Ab hier eigenhändig.</note> Legam, ubi per otium
+          licuerit, scriptum de Mobili perpetuo,<note type="editorial">Welche der zahlreichen
+            Publikationen zum Perpetuum mobile aus den Jahren 1715/16 von Osterwald übersandt wurde,
+            konnte nicht festgestellt werden.</note> quod hoc ipso die hisce sum scriptis missu Tuo
+          accepi. Remittam perlectum, mentemque meam de eo aperiam. </p>
+        <pb facs="1417060" type="archival"/>
+        <pb facs="1417061" type="archival"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516899405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Andreas Ritz. Ohne Ort,
+            1708</title>
+          <title type="alt">1708: Bernoulli, Nicolaus (1687-1759) an Ritz, Andreas
+            (1684-1767)</title>
+          <title type="alt">000059430</title>
+          <title type="alt">1708_2_Bernoulli_Nicolaus-Ritz_Andreas</title>
+          <title level="s">Basler Edition der
+            Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516899405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516899405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Ritz, Andreas (1684-1767) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Antwortet auf Brief von Ritz und bezieht sich auf seinen
+            ersten Brief</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23494">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.2r-v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516899405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433525005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059430</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1708">[1708?]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne
+            Ort</placeName>
+          <date when="1708"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1012090132">Ritz, Andreas</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516899505501" type="prev"/>
+          <ptr target="B_991170516889305501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Ritz_Andreas-NicIB" corresp="pers_DE-588-1012090132" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Nicolaus I Bernoulli antwortet auf einen verlorenen Brief von Andreas Ritz und erörtert weitere Kosten von Ritz’ Basler Magisterpromotion. Er erläutert, weshalb die von Ritz gelieferten Sterbedaten für seine Untersuchung noch nicht genügen, und legt einen gleichzeitig verfassten Brief an Johann Jacob Zörnlin bei, von dem er ältere Jahrgangslisten Verstorbener erbittet. Zum Schluss wünscht er Ritz Segen für dessen bevorstehende Reise in die Pfalz und die Leitung seiner Gemeinde.</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-104222069">Im Hoff, Samuel</persName>
+            <note type="lebensdaten">(1679-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Zörnli</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-25" who="SG">Grundkommentierung vorbereitet</change>
+        <change when="2026-08-25" who="SG">NER</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-11" who="RG">NER Erkennung</change>
+        <change when="2026-03-13" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039103/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+
+<pb facs="1039104" n="2r"/>
+  <note hand="pers_DE-588-119166895">Ad eundem.</note>
+  <opener><lb/><salute>Amice dilecte</salute>.</opener>
+  <p><lb/><rs type="lostletter">Literas</rs> tuas humanissimas ante <date>quatriduum</date> scriptas <date>nudius tertius</date> accepi, ex quibus lubens intellexi, ra<pc type="hyphenation">-</pc>
+
+      <lb break="no"/>tiones solutionis sex florenorum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me allatas tibi satisfecisse. Thalerum quem <rs type="person">Pedellus</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me etiam exegit
+      <lb/>nondum solvi, quia hoc ipsius petitum nimis impudenter fieri, su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>amque nimis magnam esse existima<pc type="hyphenation">-</pc><lb break="no"/>bam, quum neminem in specie tuo nomine invitare necesse habuit, nisi quos ex officio omnium Can<pc type="hyphenation">-</pc><lb break="no"/>didatorum nomine invitare debuit, ut Scholarchas, Professores, Pastores, <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice> quare dimidio thalero illum
+      <lb/>contentum esse posse judico, quem ipsi ulterius instanti solvam, nisi jam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Dnis</abbr> Scholarchis pro
+      <lb/>te acceperit florenum, <abbr>Ampl.</abbr> <abbr>n.</abbr> <abbr>Dn.</abbr> <rs type="person">Sch.</rs> singulis Magistris recens promotis florenum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>mii
+      <lb/>loco dant, saltem <rs key="place_GEO-2661604" type="place">Basileensibus</rs>, et ni fallor etiam extraneis; quod si igitur cognovero hunc flore<pc type="hyphenation">-</pc><lb break="no"/>num etiam extraneis dari, et <rs type="person">Pedellum</rs> illum, qui tibi debetur, dolose retinuisse, ipsi quidem
+      <lb/>dictum florenum relinquam, sed ultra hoc nihil amplius <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me consequetur. Memini me etiam,
+      <lb/>cum gradum capiebam, <rs type="person">Pedello</rs> florenum meum, quem <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Dnis</abbr> <rs type="person">Schol.</rs> acceperat, pro invitatione
+      <lb/>reliquisse. Gratias tibi ago pro suscepto labore in excerpendo <rs type="biblio">catalogo</rs>, quem mihi misisti, in quo
+
+      <lb/>nihil desidero, nisi quod non fuerit electus annus antiquior <abbr>ex. gr.</abbr> annus 1600<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> aut 1610<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> vel alius
+      <lb/>loco annorum 1630 et 1640, scire etenim non possum, quamdiu singuli, qui his annis nati sunt, vi<pc type="hyphenation">-</pc><lb break="no"/>xerint, quia quidam eorum adhuc supersunt, ideo <abbr>Dn.</abbr> <rs key="pers_resource_000069" type="person">Jacobo Zörnlino</rs>, ut monuisti, <rs type="letter">literas</rs> hasce
+      <lb/>inclusas scripsi, quibus illum rogo, ut non dedignetur aliquot pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea annorum <rs type="biblio">catalogum</rs> conficere<supplied>,</supplied>
+
+<pb facs="1039105" n="2v"/>
+      <lb/>quid autem h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c tua verba: et ipse <rs type="letter">literis</rs> <hi rend="u">duabus</hi> ab ipso petere poteris; velint, non percipio. Honorari<pc type="hyphenation">-</pc><lb break="no"/>um, de quo scribis, pro labore quem gravem esse facile video, ipsi persolvere, uti par est, non cessabo,
+      <lb/>vel tu ipse Dominum <rs key="pers_resource_000069" type="person">Zörnlium</rs> haud gravate, quod <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> te amic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> efflagito, pro opera, quam forte jam
+      <lb/>in se suscepit vel adhuc suscipiet, meo nomine remuneraberis, quod expenderis lubentissime <abbr>Dno</abbr>
+      <lb/><rs key="pers_DE-588-104222069" type="person">Im Hof</rs> refundam. C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum propositum tuum iter in <rs type="place">Palatinatum</rs> felix esse jubeat <abbr>D. O. M.</abbr>
+
+      <lb/>et spiritus sui <choice><abbr>SSti</abbr><expan>Sancti</expan></choice> <foreign xml:lang="grc">χαρίσματα</foreign><note type="editorial">χαρίσματα ist das Plural von χάρισμα; es bedeutet «Gabe der Gnade», «Charisma», «geistliche Gabe».</note> in te augeat, quo Ecclesi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tibi co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>issa est, guberna<pc type="hyphenation">-</pc><lb break="no"/>tionem ita possis instituere, ut illa ad altissimi sui nominis gloriam, tuam salutem, et ipsius
+      <lb/>Ecclesi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in fide Christiana incrementum cedat longe latissimum! </p><closer><salute>Vale et memori<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> com<pc type="hyphenation">-</pc><lb break="no"/>mendatum habe Amicum tuum obsequentissimum</salute> <signed><rs key="pers_DE-588-119166895" type="person">NB.</rs></signed></closer>
+</div>
+<div type="translation" xml:id="B_991170516899405501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039104" n="2r" /> <p>Mein lieber Freund!</p>
+<p>Deinen freundlichen, vor vier Tagen geschriebenen Brief erhielt ich vorgestern. Daraus habe ich gern erfahren, dass Dich meine Begründung für die Zahlung der sechs Gulden überzeugt hat. Den Taler, den der Pedell ebenfalls von mir verlangt hat, habe ich noch nicht bezahlt. Seine Forderung erschien mir allzu unverschämt und der Betrag zu hoch. Schliesslich musste er niemanden eigens in Deinem Namen einladen, sondern nur die Schulherren, Professoren, Pfarrer und die übrigen Personen, die er ohnehin von Amts wegen im Namen aller Kandidaten einzuladen hatte. Meiner Ansicht nach kann er sich deshalb mit einem halben Taler begnügen. Diesen werde ich ihm bezahlen, falls er weiter darauf besteht, es sei denn, er hat von den Herren Schulherren bereits einen Gulden für Dich erhalten. Die hochangesehenen Herren Schulherren schenken nämlich jedem frisch promovierten Magister einen Gulden, jedenfalls den Baslern und, wenn ich mich nicht irre, auch den Auswärtigen. Sollte ich also erfahren, dass dieser Gulden auch Auswärtigen zusteht und der Pedell den für Dich bestimmten unrechtmässig einbehalten hat, werde ich ihm den Gulden zwar lassen; darüber hinaus bekommt er von mir aber nichts. Ich erinnere mich, dass auch ich bei meiner Gradverleihung dem Pedell den Gulden, den er für mich von den Schulherren erhalten hatte, für die Einladungen überliess. Ich danke Dir für die Mühe, die Du Dir mit dem Auszug aus dem Verzeichnis gemacht hast, den Du mir geschickt hast. Daran fehlt mir nur, dass nicht ein früherer Jahrgang gewählt wurde, etwa 1600, 1610 oder ein anderer anstelle der Jahre 1630 und 1640. Ich kann nämlich nicht wissen, wie lange die einzelnen in diesen Jahren Geborenen gelebt haben, weil manche noch am Leben sind. Deshalb habe ich, wie Du vorgeschlagen hast, den beiliegenden Brief an Herrn Jakob Zörnlin geschrieben und ihn gebeten, auch noch für einige weitere Jahre ein Verzeichnis anzufertigen. <pb facs="1039105" n="2v" /> Was Du aber mit den Worten «Du kannst ihn auch selbst mit zwei Briefen darum bitten» meinst, verstehe ich nicht. Das Honorar, von dem Du schreibst, werde ich ihm selbstverständlich für seine Arbeit bezahlen, deren Umfang ich mir gut vorstellen kann. Oder vielleicht wärst Du selbst so freundlich, Herrn Zörnlin in meinem Namen für die Arbeit zu entschädigen, die er womöglich schon übernommen hat oder noch übernehmen wird. Darum bitte ich Dich freundschaftlich. Den von Dir ausgelegten Betrag werde ich Herrn Im Hof sehr gern erstatten. Im Übrigen möge der allgütige und allmächtige Gott Deine geplante Reise in die Pfalz gelingen lassen und die Gaben seines Heiligen Geistes in Dir mehren. So mögest Du die Dir anvertraute Gemeinde derart leiten, dass es seinem höchsten Namen zur Ehre, Dir zum Heil und der Gemeinde zu möglichst grossem Wachstum im christlichen Glauben gereicht!</p>
+<p>Lebe wohl und behalte Deinen Dir sehr ergebenen Freund N. B. in guter Erinnerung.</p></div>
+<div type="translation" xml:id="B_991170516899405501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039104" n="2r" /> <p>My dear friend,</p>
+<p>I received your kind letter, written four days ago, the day before yesterday. I was glad to learn from it that you were satisfied with my reasons for paying the six gulden. I have not yet paid the thaler which the university beadle also demanded of me. I thought his demand far too impudent and the amount excessive, since he did not have to invite anyone specifically on your behalf, only the school governors, professors, ministers and others whom his office already required him to invite on behalf of all the candidates. I therefore think he can be satisfied with half a thaler, which I shall pay if he continues to insist, unless he has already received a gulden for you from the school governors. Those distinguished gentlemen give each newly admitted master a gulden as a reward, at least those from Basel and, unless I am mistaken, outsiders too. If I learn that this gulden is also given to outsiders, and that the beadle has dishonestly kept the one due to you, I shall let him retain it, but he will get nothing more from me. I remember that when I took my degree, I too left the beadle the gulden he had received for me from the school governors as payment for the invitations. Thank you for the trouble you have taken in extracting the register you sent me. My only reservation is that an earlier year was not chosen, for example 1600, 1610 or another instead of 1630 and 1640. I cannot determine how long each person born in those years lived, because some of them are still alive. As you suggested, I have therefore written the enclosed letter to Mr Jakob Zörnlin, asking him to be so kind as to compile a register for several additional years. <pb facs="1039105" n="2v" /> I do not, however, understand what you mean by the words «you can also ask him yourself in two letters». I shall certainly pay him the fee you mention, as is proper for work which I readily appreciate is substantial. Or perhaps you yourself would kindly compensate Mr Zörnlin on my behalf for the work he may already have undertaken or will undertake. I ask this of you as a friend, and shall gladly reimburse Mr Im Hof for whatever you spend. May God, most good and almighty, grant success to your intended journey to the Palatinate and increase in you the gifts of his Holy Spirit. May you thus guide the congregation entrusted to you so that it brings glory to his most exalted name, salvation to you, and the greatest possible growth in Christian faith to the congregation itself.</p>
+<p>Farewell, and keep your devoted friend N. B. in your thoughts.</p></div>
+</body>
+</text></TEI>

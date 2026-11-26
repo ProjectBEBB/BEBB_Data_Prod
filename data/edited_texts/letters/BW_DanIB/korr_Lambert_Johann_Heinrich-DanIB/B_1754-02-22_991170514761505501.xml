@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514761505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann Heinrich Lambert. Basel, 22. Februar 1754</title>
+          <title type="alt">1754.02.22: Bernoulli, Daniel (1700-1782) an Lambert, Johann Heinrich (1728-1777)</title>
+          <title type="alt">000055170</title>
+          <title type="alt">1754-02-22_Bernoulli_Daniel-Lambert_Johann_Heinrich</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514761505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514761505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Lambert, Johann Heinrich (1728-1777)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von der Hand Dan. B.s "22 fevr. 1754"</p>
+        </note>
+        <note type="print">
+          <p>Druck: Correspondance entre Daniel Bernoulli et Jean-Henri Lambert, publ. par R. Radelet-de Grave et V. Scheuber, in: Annexe aux Actes du Colloque J.-H. Lambert, Paris (Editions Ophrys), 1979, pp.15-17</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.124-125</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514761505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432845405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055170</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1754-02-22">ce 22 fevr. 1754</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1754-02-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118568876">Lambert, Johann Heinrich</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514761605501" type="prev"/>
+          <ptr target="B_991170514761405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Lambert_Johann_Heinrich-DanIB" corresp="pers_DE-588-118568876" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117631655">L'Isle, Joseph Nicolas de</persName>
+            <note type="lebensdaten">(1688-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118685783">Fahrenheit, Daniel Gabriel</persName>
+            <note type="lebensdaten">(1686-1736)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118162217">Micheli du Crest, Jacques Barthélemi</persName>
+            <note type="lebensdaten">(1690-1766)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12147688X">Respinger, Johann Heinrich</persName>
+            <note type="lebensdaten">(1709-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118749420">Réaumur, René Antoine Ferchault de</persName>
+            <note type="lebensdaten">(1683-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+            <note type="lebensdaten">(1672-1733)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-03-29" who="NG">Tagging</change>
+        <change when="2026-02-20" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-20" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-20" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5997718/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="5997719" type="archival"/><pb facs="5997720" type="archival"/><pb facs="5997721" n="124r"/><p>22 fevr. 1754</p>
+  <p>Monsieur,</p>
+  <p>J’ai lu avec beaucoup de plaisir vos reflexions sur l’atmosphere de l’air et je suis charmé de voir que vous faites quelque cas de celles que j’ai exposées dans le <rs type="biblio">premier tome</rs> des actes helvetiques. </p>
+  <p> Il me semble, Monsieur, que votre intention est en particulier de donner une loy entre la diminution des plus grandes variations barometriques et l’elevation du lieu par dessus la surface de la mer pour un meme climat. Vos hypotheses me paroissent fort ingenieuses et tous vos raisonnemens bien fondés; mais comme elles renferment plu sieurs determinations arbitraires, il me semble que les deux cas que vous alleguez pour les confirmer, ne peuvent encor etre censés suffisans. Vous pourriez apparemment trouver quelques exemples dans les ouvrages de <abbr>Mr.</abbr> Scheuch zer et voir si vos hypotheses en sont aussi confirmées, car les pays où <abbr>Mr.</abbr> <rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> a fait ses observations, sont situés à peu prés au meme climat. Je n’ai pas ac tuellement le tems de consulter ces ouvrages; mais il me semble que <abbr>Mr.</abbr> <rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> parle quelque part de la plus grande variation barometrique au mont de <rs key="place_STR-gottha" type="place">St. Gothard</rs>, dont il a aussi marqué la hauteur barometrique moyenne. Il faut beaucoup de tems pour connoitre les <pb facs="5997722" n="124v"/>plus grandes variations barometriques en differens lieux; mais lorsque ces lieux sont dans un meme climat et qu’ils ne sont pas extremement eloignés, les variations qui se font en differens endroits suivront constamment la meme proportion; il n’y auroit donc qu’à convenir avec des amis demeurant sur differentes hauteurs d’observer la variation barometrique reguliere ment à midi et ces variations comparées avec les votres observées aux memes jours vous donneront la variation totale sur ces hauteurs en supposant celle de <rs key="place_GEO-2661169" type="place">Coire</rs> 17. mais comme il arrive rarement que les hauteurs barome triques absolues soyent entierement les memes aux memes endroits en differens barometres, il seroit bon de construire tous ces barometres à <rs key="place_GEO-2661169" type="place">Coire</rs> et d’examiner prealablement, s’ils different entre eux et de combien. Voici à present, Monsieur, quelques reflexions sur vos hypotheses. Soit <formula>M N</formula> une colonne verticale d’air indefinie. <formula>A B</formula> le niveau de la mer: <formula>C D</formula> la separation de l’atmosphere variable d’avec l’invariable; Vous faites <formula>M P</formula> de 1200 toises et vous supposéz que la hauteur barometrique pour <formula>C D</formula> est de 6 6 plus bas que pour <formula>A B</formula>. aprez cela vous conside rez le barometre transporté au ni veau de <formula>E F</formula> et qu’à ce niveau la hauteur moyenne du barometre soit = 6" et enfin vous supposez que que la plus grande variation pour <formula>A B</formula> sera à la plus grande variation pour <formula>E F</formula> comme <formula>28-{21\frac{1}{2}}</formula> est à <formula>6-{21\frac{1}{2}}</formula>, c’est à dire, comme le poids de la colonne d’air <formula>P M</formula> au poids <pb facs="5997723" n="125r"/>de la colonne d’air <formula>P2</formula>, ce qui donne <formula>x=\frac{46-86}{13}</formula> en prenant <formula>2"</formula> pour la variation totale en <formula>A B</formula>. Vous deduisez le haussement du mercure dans le barometre d’une accumulation d’air dans la colonne <formula>P M</formula> causé par une augmentation de froid et vous supposez cette augmentation de froid repandue egale ment dans toute la hauteur <formula>P M</formula>. Cette derniere supposi tion me paroit la moins susceptible de demonstration et il seroit surprenant, qu’immediatement au dessous de <formula>C D</formula> les variations du froidt et du chaud fussent aussi grandes qu’elles sont à la surface de la mer et qu’immediatement au dessus de <formula>C D</formula> ces variations fussent absolument nulles. Cette supposition seroit tout à fait insoute nable en plein air, mais peut etre s’eloigne-t-elle moins de la verité dans un air qui environne immediatement les montagnes sur lesquelles on s’eleve. Un autre point qui me paroit contraire à votre hypothese, est que vous sup posez un barometre ne devoir plus souffrir aucune varia tion au dessus de <formula>C D</formula>: car quand meme la chaleur de l’air au dessus de <formula>C D</formula> seroit invariable tout à fait, ne se pourroit il pas faire, qu’une grande masse d’air entre <formula>C D</formula> et <formula>A B</formula> venant à s’echauffer poussat en haut la separation <formula>C D</formula> et si cela etoit un barometre mis en <formula>C D</formula> en devroit monter malgré l’uniformité de chaleur dans cette region, pendant que le barometre descendroit au niveau de la mer.. Il est vrai que votre formule s’ac corde parfaitement bien avec les deux observations que vous citez, mais outre qu’il pourroit y avoir du hazard dans cet accord, vous auriez pu supposer la hauteur <formula>P M</formula> plus ou moins grande que 1200 toises; vous auriez aussi pu changer un peu la plus grande variation totale que vous supposez de deux pouces et par là vous auriez toujours pû faire convenir votre formule avec vos deux observations, quelles qu’elles eussent eté. Il seroit donc à souhaiter que vous fussiez à meme de ramasser plus d’observations pour confirmer d’avantage votre loy sur les plus grandes variations <pb facs="5997724" n="125v"/>barometriques pour votre climat. Ce seroit grand dommage si vous vous arretiez en si beau chemin et vous principes sont trop fondés pour douter qu’un grand nombre d’observations ne vous menat à une plus grande per fection et certitude. Si vous voulez vous donner la peine, Monsieur, d’observer à midi pendant tous les jours des mois de mars et d’avril la hauteur barometrique jusqu’à des quarts de ligne, je ferai les memes observations et nous pourrons nous les communiquer. ajoutez y les observations thermometriques pour le soleil levant, à midi et au moment du coucher du soleil et marquez moi ensuite de quel thermo metre vous vous etes servi, de celui de <abbr>Mr.</abbr> de <rs key="pers_DE-588-118749420" type="person">Reaumur</rs> ou de <rs key="pers_DE-588-118685783" type="person">Fahrenheidt</rs> ou de <rs key="pers_DE-588-117631655" type="person">Delisle</rs> ou de <abbr>Mr.</abbr> du <rs key="pers_DE-588-118162217" type="person">Cret</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. et com ment vous avez placé le thermometre. Je pourrai bien con tinuer dans le <rs type="biblio">second tome des Actes Helvetiques</rs> mes re flexions et si je le fais je ferai usage de la <rs type="letter">lettre</rs> que vous m’avez fait l’honneur de m’ecrire. mais si vous vou liez donner à votre nouvelle theorie la forme d’une disser tation, on seroit charmé d’en orner nos Actes; vous n’au riez qu’à adresser cette dissertation à <abbr>Monsr.</abbr> <rs key="pers_DE-588-12147688X" type="person">Respinger</rs> <rs type="person">Docteur</rs> en Medecine et <rs type="person">Secretaire</rs> de la Societé litteraire Helvetique.</p>
+  <p> J’ai l’honneur d’etre avec toute l’estime et considera tion possible, Monsieur, Votre tres humble et tres <rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1754-02-22">22. fevr. 1754</date> obéissant serviteur <rs key="pers_DE-588-118656503" type="person">Daniel Bernoulli</rs> </p>
+<pb facs="5997725" type="archival"/></div>
+</body>
+</text></TEI>

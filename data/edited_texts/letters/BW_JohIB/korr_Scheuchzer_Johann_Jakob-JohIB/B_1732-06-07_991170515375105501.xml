@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170515375105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jacob Scheuchzer an Johann I Bernoulli. Zürich,
+            07. Juni 1732</title>
+          <title type="alt">000057454</title>
+          <title type="alt">1732-06-07_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_resource_000076">
+            <surname>Mazzei</surname>
+            <forename>Elena</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515375105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515375105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-13385">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 667, Nr. 165*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515375105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433189705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057454</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Zuric</origPlace>
+              <date when="1732-06-07">ce 7. Juin
+              32</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1732-06-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515375205501" type="prev"/>
+          <ptr target="B_991170515375005501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-JohIB" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-132501279">Burckhardt, Hieronymus</persName>
+            <note type="lebensdaten">(1680-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-137427328">Cramer, Johann Rudolf</persName>
+            <note type="lebensdaten">(1678-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100704492">Wettstein, Johann Jakob</persName>
+            <note type="lebensdaten">(1693-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1055606939">Wettstein, Johann Rudolf</persName>
+            <note type="lebensdaten">(1663-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-26" who="SG">Anrede und Seitenanker am Manuskript geprüft</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1732-06-07_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I"/>
+      </change>
+        <change>Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/651953/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1732-06-07_Scheuchzer_Johann_Jakob-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+<pb facs="651955" n="1"/>
+
+<opener>
+<salute>
+
+<lb/>Monsieur et tres honoré Amy. </salute>
+</opener>
+  <p>J’avois l’honneur de vous donner advis dans ma derniere d’une Apologie et declaration,
+          laquelle circule ici: J’ay vu cette semaine ces pieces justificatives, comme elles ont eté
+          communiquées par le Pere du D. <rs type="person" key="pers_DE-588-100704492">W....n</rs> à M. le Prof. Cramer. Deux Lettres du dit Pasteur
+          sont datées le 24 et 27. May, il s’y montre fier, et dit, que le tour est à cette heure à
+          luy et à son fils. Les encloses sont </p>
+  <p>1. Audience et justification du 25. sept. et 9. Oct. 1731. </p>
+  <p>2. Apologie fort ample. </p>
+  <p>3. Supplique faite au Magistrat le 22 sept. 31 par <rs type="person" key="pers_DE-588-100704492">W....n</rs>. </p>
+  <p>4. Rapport de Mess.<hi rend="sup">rs</hi> les <rs type="organisation" key="org_DE-588-1318330378">XIII</rs> sur les griefs et declaration de
+          <rs type="person" key="pers_DE-588-100704492">W....n</rs> du 7. Nov.</p>
+  <p>5. Consultation de Mess.<hi rend="sup">rs</hi> les <rs type="organisation" key="org_DE-588-1318330378">XIII</rs> et Deputés du 5 Dec. </p>
+  <p>6. Confession de <rs type="person" key="pers_DE-588-100704492">W.....n</rs> lue le 22. Dec. </p>
+  <p>7. Extrait du Protocol du Magistrat du 24. Mars 1732.</p>
+  <p>8. Lettre du vieux Pasteur à M.<hi rend="sup">r</hi> l’Antistes Burcard du 25. Avr.
+          1732.</p>
+  <p>La confession me semble specielle et orthodoxe. Mais c’est une confession des dogmes, et
+          non pas des erreurs, qui
+<pb facs="651956" n="2"/>
+ luy ont eté imputées. Il refute par cy
+          par là quelques endroits des Actes publiés par le Ministere, comme aussi la maniere du
+          Procés intenté contre luy. Et je vois bien, que la non-communication de la Confession
+          speciale a donné occasion au Ministere d’ecrire aux trois autres Ministeres de la Suisse.
+          Mais je ne vois pas encore les raisons, qui ont porté Leurs Exc.<hi rend="sup">es</hi> de
+          Basle à la mefiance envers la Faculté de Theologie. Peut etre qu’on a voulu couper tout
+          court, et etouffer le feu, eviter les contradictions. Avec tout cela souffre l’interieur
+          de votre Etat, et de l’Academie, et les animosités doivent s’augmenter plus que diminuer.
+          Ignis sub cinere doloso. Cependant les Lettres des trois Ministeres seront arrivées à
+          <rs type="place" key="place_GEO-2661604">Basle</rs>, et la Faculté Theologique s’y trouve appuyée. Avec tout cela l’intention de M.<hi
+            rend="sup">r</hi> <rs type="person" key="pers_DE-588-100704492">W....n</rs> sera d’attaquer en front ses adversaires, et de leur intenter
+          un procés, ce qu’il pourra executer fort aisement. La rehabilitation faite sans avoir
+          avoué ses erreurs, luy soutenu par son Eveque, il aura beau jeu, les Actes publiés contre
+          luy seront par terre, refutés dejà par son installation, par l’avancement à l’occasion des
+          vacances. Et que direz vous, si pour couronner le Confesseur sans confession sera une fois
+
+<pb facs="651957" n="3"/>
+ elu Professeur en Theologie à Basle. Pour parler ouvertement
+          je ne vois pour Mess.<hi rend="sup">rs</hi> les Theologiens d’autre ressource, que la
+          resignation jointe à une Protestation, et cette mesme resolution ouvrira la porte aux
+          avancements de <rs type="person" key="pers_DE-588-100704492">W....n</rs>. Pardonnez moy, Mons.<hi rend="sup">r</hi> si j’avance trop dans mes
+          reflexions et predictions, qui pourtant ne sont pas fondées sur les principes de
+          l’Astrologie. </p>
+  <p>Au reste je vous recommende à la Protection de Dieu etant avec sincerité et respect
+          Monsieur votre tresh. et tres ob.<hi rend="sup">t</hi> serv.<hi rend="sup">tr</hi> J. J.
+          Scheuchzer. </p>
+  <p>Zuric ce 7. Juin 32.</p>
+  <p>
+<pb facs="651958" n="4"/>
+ A Monsieur</p>
+  <p>Monsieur le Docteur Jean Bernoulli</p>
+  <p>Prof.<hi rend="sup">r</hi> des Mathematiques tres celebre</p>
+  <p>et Membre des plus illustres Academies</p>
+  <p>de l’<rs type="place" key="place_KON-europa">Europe</rs></p>
+  <p>à </p>
+  <p>Basle </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170491264205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Ohne Ort, 1744</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170491264205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170491264205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Seitenanfang von Bl.70 mit Bleistift: "[Acta Helv. III 233]"; im Standortverzeichnis zu "Versuche mit der Magnetnadel" die Anmerkung "= Ausz.a. Dr."</p>
+          <p>Hier sind unter dem Titel "Extraits des lettres de M. Daniel Bernoulli à son neveu sur des matieres des physiques" [Vorblatt im Originalband] diverse undatierte Exzerpte aus Briefen von Dan. B. an Joh. III B. zusammengefasst</p>
+        </note>
+        <note type="print">
+          <p>Auszug aus Druck: Acta Helv. III 233 oder "Mém. de l'acad. des sc. ... [?] 1754." [??]</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Auszug, siehe auch Signatur L Ia 752:Bl.403 (Hinweis auf übergeordneter Karte)</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200370">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.66, 68-77</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170491264205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972425614405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000234521</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>11 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date notAfter="1782" notBefore="1744">[zwischen 1744 und 1782]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date notAfter="1782" notBefore="1744"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pythonPlaceholderContent">pythonPlaceholderContent</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170491263405501" type="prev"/>
+          <ptr target="B_991170491265905501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170491263405501" type="prev"/>
+          <ptr target="B_991170491265905501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Bl. 77 ist ein unbeschriebenes Blatt</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-08-20" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-08-14" who="SG CG">Kollationieren begonnen</change>
+        <change when="2026-08-07" who="CG">maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5997688/manifest"/>
+</facsimile>
+<text>
+<body>
+
+
+<pb facs="5997689" n="66r"/>
+<head><lb/>Extrait des Remarques du <date>15 Aout</date>.</head>
+<p><lb/>Quant à vos expériences sur les barres magnétiques
+<lb/>je suis surpris que vous n’ayés pas pu en faire
+<lb/>faire à <rs key="place_GEO-2950159" type="place">Berlin</rs>; Vous savés sans doute comment
+<lb/>il faut les frotter pour leur donner peu à peu
+<lb/>beaucoup de vertu magnétique. Voici ce que Vous
+<lb/>pourriés essayer; quelle est la position la plus
+<lb/>avantageuse des deux barres magnétiques et des
+<lb/>deux petites barres de fer? on pourroit d<supplied>’</supplied>abord
+<lb/>éloigner les deux barres magnétiques et ensuite
+<lb/>les aprocher peu à peu; après quoi on placeroit
+<lb/>les petites barres de fer jusqu’à deborder les barres
+<lb/>magnétiques et ensuite on remarqueroit la position
+<lb/><choice><orig>ou</orig><reg>où</reg></choice> elles commencent à marquer quelque effet et
+<lb/>comment cet effet augmente en les tirant peu à
+<lb/>peu vers le milieu; on pourra encore faire
+<lb/>une autre espece d’experiences; ce sera en
+<lb/>couvrant les 4 barres d’une feuille de papier
+<lb/>sur la quelle on semeroit ou éparpilleroit de la
+<lb/>limaille de fer, cette limaille prendra la figure
+<lb/>de quelque double tourbillon, surtout si on ébranle
+<lb/>legerement par quelques coups de <choice><orig>doit</orig><reg>doigt</reg></choice> tout le
+<lb/>sisteme, et il seroit bon de faire dessiner ces
+<lb/>tourbillons pour les différentes configurations des
+<pb facs="5997690" n="66v"/>
+<lb/>barres: si Vous n’étes pas à même de Vous
+<lb/>procurer de ces barres magnétiques, je pourrois
+<lb/>moi même faire là dessus quelque <rs type="biblio">Mémoire</rs>
+<lb/>pour <rs key="place_GEO-498817" type="place">Pétersbourg</rs><choice><orig>;</orig><reg>.</reg></choice><del><gap/></del>
+</p>
+<div>
+<pb facs="5997691" n="68r"/>
+<head><lb/>A.</head>
+<p>
+<figure facs="../images/figures/5997691_01.png"><figDesc>Skizze einer horizontalen Nadel über einem halbkreisförmigen Bogen.</figDesc></figure></p>
+<p rend="hanging"><lb/>1. Une aiguille aimantée si on la met dans le plan du
+<lb/>meridien magnétique, soutenue horizontalement sur deux
+<lb/>pivots à l’endroit de son centre de gravité ne conserve pas
+<lb/>sa position horizontale mais<del><gap/></del> s’incline sous un angle
+<lb/>qui est différent pour les différens lieux de la Terre.</p>
+<p rend="hanging"><lb/>2. Or une aiguille quelconque, ayant sa pesanteur distribuée
+<lb/>dans toute sa longueur s’abaisse un peu par <unclear reason="illegible">s</unclear>es <choice><orig>extremites</orig><reg>extremités</reg></choice>
+<lb/>quand on la souleve par le milieu, où est le centre
+<lb/>de gravité, on le remarque facilement en faisant
+<lb/>l’expérience sur une barre un peu longue située sur
+<lb/>un plan horizontal; et les rapports de ces baissemens
+<lb/><del><gap/></del><add>aux</add> longueurs<del><gap/></del> croissent en raison des biquarrés
+<figure facs="../images/figures/5997691_02.png"><figDesc>Skizze einer horizontalen Stange.</figDesc></figure>
+  <figure facs="../images/figures/5997691_03.png"><figDesc>Skizze einer grösseren horizontalen Stange.</figDesc></figure>
+<lb/>si j’ai une barre <formula>ab</formula> longue de 3 pieds située sur un plan
+<lb/>horizontal et que je puisse élever son centre de gravité
+<lb/>de <formula>cd = 1\ \text{ligne}</formula> avant que les extrémités <formula>a</formula> et <formula>b</formula>
+<lb/>quittent le plan; je dis que pour que la même
+<lb/>chose ait lieu pour la barre <formula>AB</formula> longue de 6 pieds
+  <lb/>il faudra élever <formula>C</formula> de 16 lignes</p>
+  <p rend="hanging"><lb/><lb/>3. Mais cet effet de la pesanteur d’une aiguille ne sauroit
+<pb facs="5997692" n="68v"/>
+<lb/>être le même pour les différentes inclinaisons de
+<lb/>l’aiguille,<del> il faut donc tacher de savoir</del> de façon
+<lb/>que non seulement l’aiguille <add>aimantée</add> indiquera une inclinaison
+<lb/>un peu différente de la veritable mais cette différence
+<lb/>ne seroit pas la même si <del><gap/></del><add>cette </add>inclinaison veritable
+<lb/>étoit plus grande ou plus petite. Il faut donc
+<lb/>tacher de rendre cette différence nulle et d’apprécier
+    <lb/>les aberrations causées par la pesanteur de l’aiguille.</p>
+  <p rend="hanging"><lb/><lb/>4. Pour cet effet, <abbr>M.</abbr> <rs key="pers_DE-588-118656503" type="person">D.<hi rend="sup">.</hi> B.</rs> avant d’aimanter ses aiguilles
+<lb/>les prépare de <add>la</add> maniere que suit.</p>
+<p><lb/>Il applique au milieu de l’aiguille un index de cuivre
+<lb/>mince et qui a environ la huitieme partie de la
+<lb/>longueur de l’aiguille; cet index tourne autour d’un
+<lb/>des pi<del><gap/></del><add>v</add>ots <add><formula>C</formula>, <formula>c</formula></add> qui forment l’axe de l’aiguille et sa
+<figure facs="../images/figures/5997692_01.png"><figDesc>Schmale senkrechte Nadel beziehungsweise Achse mit mittiger Querstrich-Markierung und Buchstabenbeschriftung.</figDesc></figure>
+<lb/><add>pointe</add> aboutit à un cercle <del><gap/></del><add>de cuivre mince <formula>abd</formula> (Fig. 1.<hi rend="sup">e</hi>)</add> divisé en degrés et
+<lb/><del><gap/></del>fixé à l’aiguille et ayant pour centre le
+<lb/>même pivot. L’origine des divisions est verticalem.<hi rend="sup">t</hi>
+<lb/>sous le centre et en supposant l’aiguille bien équilibrée
+<lb/><add>pour la situation horizontale</add> auparavant et l’index et le cercle duement appliqués
+<lb/>il faudra que <del><gap/></del>l’aiguille conserve la situation horizontale
+<lb/>en mettant l’index sur <formula>0</formula> et si cela n’avoit pas lieu
+<lb/>il faudroit l’obtenir en <del><gap/></del><add>diminuant</add> <del><gap/></del>la pesanteur d’une
+<lb/>des branches de l’aiguille. </p>
+<pb facs="5997693" n="69r"/>
+ <p rend="hanging"><lb/><lb/>5. Voyons à présent ce qui doit arriver quand on
+<lb/>donne une certaine inclinaison à l’aiguille:
+<lb/>On a pu remarquer que le but de l’index est de
+<lb/>prévenir <add>par sa pesanteur</add> l’élévation du centre de gravité au dessus du
+<lb/>plan qui passe par les bouts de l’aiguille.</p>
+  <p><lb/>Or sous un angle <add>quelcon<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice></add> <formula>\varphi</formula> cet<del><gap/></del> effet de la <figure facs="../images/figures/5997693_01.png"><figDesc>Kraftskizze: waagrechte und schräg gestrichelte Richtungen, ein Winkel φ sowie zwei nach unten gerichtete Gewichtspfeile; Beschriftung P.</figDesc></figure>
+<lb/>pesanteur (que nous nommerons <formula>P</formula>
+<lb/>pour la situation horizontale) devient
+    <lb/>moindre et <choice><orig><formula>= P\times \mathrm{cos.}\varphi</formula></orig><reg><formula>= P\cdot \cos\varphi</formula></reg></choice><del><gap/></del> en supposant la pesanteur
+<lb/>également distribuée par toute l’aiguille; Il ne faudra
+<lb/>donc plus lui opposer tout le poids <add><formula>P</formula></add> de l’index mais
+    <lb/><abbr>seulem.<hi rend="sup">t</hi></abbr> le poids <choice><orig><formula>P\times \mathrm{cos.}\varphi</formula></orig><reg><formula>P\cdot \cos\varphi</formula></reg></choice> ce qu’on obtient en mettant
+   <lb/>l’index sur la division qui répond à l’angle <formula>\varphi</formula>.</p>
+  <p rend="hanging"><lb/><lb/><add>6<supplied>.</supplied></add> Mais on sent bien qu’il est presque impossible de
+<lb/>trouver des aiguilles assez parfaites pour satisfaire
+<lb/>à cette condition et il faut donc commencer par
+<lb/>voir sur quelles divisions <del><gap/></del>on doit mettre l’index pour
+<lb/>que l’aiguille se tienne en repos sous l’inclinaison par
+<lb/><abbr>Ex.</abbr> de 5°, 10°, 15°, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> et construire ainsi une petite
+<lb/>Table des résultats de ces Expériences. On fera bien
+<lb/>même de vérifier cette Table toutes les fois qu’on voudra
+<lb/>faire des experiences <del><gap/></del>sur l’inclinaison magnetique après
+<lb/>avoir été longtemps sans se servir de l’aiguille ou
+<pb facs="5997694" n="69v"/>
+<lb/>après l’avoir transportée; parceque peu de chose
+    <lb/>suffit pour <del><gap/></del>changer la place du centre de gravité.</p>
+  <p rend="hanging"><lb/><lb/>7. Tout étant ainsi preparé on aimante l’aiguille<supplied>,</supplied> <metamark/><add><lb/>on la met exactement dans le plan du Méridien magnétique
+  <lb/>qu’on connoit par la déclinaison<choice><orig>.</orig><reg type="deleted"/></choice></add> et on
+<lb/>remarque à quel degré elle s’incline, après avoir mis dans
+<lb/>l’incertitude où on est, l’index sur <formula>0</formula>. Ayant vu ainsi quelle
+<lb/>est environ l’inclinaison on met l’index sur le même degré
+<lb/>qu’indiquoit l’aiguille; celle<add><supplied>-</supplied>ci</add> changera de place; on
+<lb/>remarquera de nouveau le degré qu’elle indique et on
+<lb/>mettra l’index sur ce <add>même</add> degré; de cette maniere on
+<lb/>approchera toujours du vrai équilibre et quand on sera
+<lb/>parvenu à faire indiquer à l’aiguille et à l’index deux
+<lb/>nombres de degrés qui se répondent dans la petite
+<lb/>Table <del><gap/></del><add>de</add> correction qu’on s’est formée, on sera
+<lb/>sûr que l’aiguille est en équilibre par elle même
+<lb/>et qu’il faut attribuer purement à la vertu
+    <lb/>magnétique l’inclinaison qu<supplied>’</supplied>elle marque.</p>
+  <p rend="hanging"><lb/><lb/>8. On monte la machine sur un pied quarré auquel est inscrit un
+<lb/>cercle de cuivre gradué; quand on a mis un des <choice><orig>cotés</orig><reg>côtés</reg></choice> du quarré <del><gap/></del><add>dans</add> la
+<lb/>direction de la méridienne on peut laisser le pied avec la plaque gradué<unclear reason="lost">e</unclear>
+<lb/>immobile et changer néanmoins la direction du limbe et de l’aiguille
+<lb/>parcequ<supplied>’</supplied>elle est portée sur un montant qui se termine dans
+<lb/>le pied par un noyau mobile horizontalement. <abbr><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice>.</abbr> en mettant
+    <lb/>l’aiguille dans le plan de <metamark/><add>l’axe horizontale de</add> l’equateur magnétique, elle reste horizontale.
+</p>
+</div>
+<div>
+<pb facs="5997695" n="70r"/>
+  <note type="archival" hand="unknown">[//Acta Helv. III 233]</note>
+<lb/><head>B</head>
+<p><lb/>J’ai toujours regardé comme extrémement importantes
+<lb/>les observations qu’on fait sur la déclinaison et sur
+<lb/>l’inclinaison des boussoles et ce n’est pas sans regret
+<lb/>que je remarque qu’on porte si peu d’exactitude à
+<lb/>observer l’inclinaison; C’est donc pour remedier à ce
+<lb/>défaut que j’ose vous prier, Messieurs, de vouloir bien
+<lb/>inserer dans votre journal les remarques que j’ai
+<lb/>faites sur cette matiere.</p>
+<p><lb/>Les boussoles d’inclinaison telles qu’on les a faites
+<lb/>jusqu’ici sont si défectueuses qu’on ne sauroit s’en
+<lb/>ser<del><gap/></del><add>v</add>ir avec tant soit peu de précision. <abbr>M.<hi rend="sup">rs</hi></abbr> <rs key="pers_DE-588-117553239" type="person">Graham</rs>
+<lb/>et <rs type="person">Musschenbroeck</rs> qu’il suffit de nommer, n’ont
+<lb/>jamais pu réussir malgré toutes leurs attentions
+<lb/>et toute leur habileté, à leur donner ce degré de
+<lb/>perfection qui est requis pour faire de bonnes
+<lb/>observations. Ces considérations jointes à l’importance
+  <lb/>de la matiere ont engagé <abbr>M.<hi rend="sup">rs</hi></abbr> de l’<rs type="organisation"><abbr>Acad.<hi rend="sup">e</hi></abbr> <abbr>R.<hi rend="sup">e</hi></abbr>
+<lb/>des <abbr>Sc.</abbr></rs> à proposer la perfection des boussoles
+<lb/>d’inclinaison pour le sujet d’un de leurs prix
+<lb/>qu’ils distribuent tous les ans; la <rs type="biblio">piece</rs> couronnée
+<lb/>semble renfermer tout ce que cette illustre
+<lb/>Compagnie pouvait attendre sur ce sujet. On
+<lb/>y démontre clairement les causes qui ont du
+<lb/>nécessairement empêcher jusqu’ici les ouvriers
+<pb facs="5997696" n="70v"/>
+<lb/>les plus exacts et les plus entendus de faire des
+<lb/>boussoles d’inclinaison telles qu’on les souhaite
+<lb/>et qui s’accordent en tout tems et en tout lieu
+<lb/>parfaitement entre elles; il n’etoit plus difficile
+<lb/>après cela d’enseigner les mesures qu’il faut
+<lb/>prendre pour y réussir; aussi puis-je assurer
+<lb/>par l’experience que j’en ai faite, qu’en suivant
+<lb/>les principes exposés dans la dite piece victorieuse,
+<lb/>on fera des boussoles d’inclinaison avec toute la
+<lb/>précision désirable. Ne doit-on pas être surpris
+<lb/>après cela, qu’on se donne si peu de soin de
+<lb/>profiter dans le public de<del><gap/></del> découvertes si utiles
+<lb/>et payées avec tant de munificence? On cite
+<lb/>dans les ouvrages des savans les boussoles d’
+<lb break="no"/>inclinaison faites par <abbr>M.</abbr> <rs type="person">de Magny</rs> comme les plus
+<lb/>excellentes qu’on fasse dans ces tems. Cependant je
+<lb/>vois par l<del><gap/></del><add>a</add> rélation de certaines expériences
+<lb/>qu<supplied>’</supplied>elles sont encore fort défectueuses. Je n’alléguerai
+<lb/>qu’un exemple pour vérifier ce que je viens de
+<lb/>dire. Il y a dans les Mémoires de l’<abbr>Acad.<hi rend="sup">e</hi></abbr> <abbr>R.</abbr> des <abbr>Sc.</abbr>
+  <lb/>pour l’année <date when="1751">1751</date> un <rs type="biblio">mémoire</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> l’Abbé <rs key="pers_DE-588-119174596" type="person">de
+<lb/>la Caille</rs> du quel tout le monde connoit
+<lb/>l’exactitude à faire ces observations. Ce <rs type="biblio">mémoire</rs>
+<pb facs="5997697" n="71r"/>
+<lb/>renferme des observations physiques faites au <rs key="place_WEI-kaphof" type="place">Cap de
+<lb/>bonne esperance</rs>. Voici comme il parle <abbr>p.</abbr> 455<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> à
+  <lb/>l’égard <add>de</add> <seg type="transposition"><del><gap/></del><add>l</add>’inclinaison de la boussole</seg><supplied>.</supplied><note type="editorial">Die hier referenzierte Stelle wurde in der Abschrift nicht wiedergegeben. Eine Unterstreichung im vorangehenden Satz diente wohl dazu, auf die Lücke aufmerksam zu machen.</note>
+<lb/>On voit par cet <rs type="biblio">extrait</rs>, que la boussole differoit
+<lb/>d’elle même jusqu’à 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° en renversant simplement
+<lb/>la position de l’instrument, preuve certaine de la
+<lb/>défectuosité de la Boussole, car il est <choice><orig>sur</orig><reg>sûr</reg></choice> qu’une
+<lb/>aiguille parfaitement bien construite doit montrer
+<lb/>la même inclinaison dans les deux positions
+<lb/>opposées de l’instrument prises dans le Méridien
+<lb/>magnétique. Voici à présent les considérations à
+<lb/>faire sur les boussoles d’inclinaison. Il est bon de
+<lb/>leur donner la figure d’une navette de tisserand
+<lb/>ou celle d’un fuseau applati terminé par<del><gap/></del>
+<lb/>deux pointes; la longueur pourra être depuis <measure>4</measure>
+<lb/>pouces jusque à <measure>12</measure> ou <measure>16 pouces</measure>; mais je prefere
+<lb/>les longues aiguilles pour faire plus sensibles les
+<lb/>degrés du <choice><sic>limbé</sic><corr>limbe</corr></choice> gradué. Je n’ai trouvé absolument
+<lb/>aucun inconvénient à leur donner <measure>16 pouces</measure> de
+<lb/>longueur, <measure>3 lignes</measure> de largeur au milieu et environ
+<lb/><measure>1 l.</measure> d’épaisseur. Une telle aiguille pesera autour
+<lb/>de <measure>1000 grains</measure>. Ces aiguilles sont soutenues par
+<lb/>deux petits tourillons placés exactement au milieu
+<lb/>de chaque <choice><orig>coté</orig><reg>côté</reg></choice> applati; il faut être attentif à
+<pb facs="5997698" n="71v"/>
+<lb/>mettre les axes des deux tourillons parfaitement
+<lb/>dans une même ligne droite exactement perpendi<pc type="hyphenation">-</pc><lb break="no"/>culaire au plan de rotation ou au plan vertical
+<lb/>qui passe par les deux pointes de l’aiguille; à les
+<lb/>faire parfaitement ronds et tout à fait également
+<lb/>épai<del><gap/></del><add>s</add>; Cette épaisseur sera d’environ une demi ligne
+<lb/>pour les plus grandes aiguilles. Les tourillons sont
+<lb/>posés sur deux morceaux de glace, qu’on aura
+<lb/>grand soin de mettre exactement dans un même
+<lb/>plan horizontal et qui laissent un petit
+<lb/>intervalle entre eux pour donner un passage libre
+<lb/>à l’aiguille. Il est encore bon de prendre garde
+<lb/>que l’aiguille jusques là n’ait pas la moindre
+<lb/>vertu magnétique. Après toutes ces précautions
+<lb/>connues on s’applique à équilibrer l’aiguille
+<lb/>et on tache de la rendre telle qu’elle soit
+<lb/>absolument indifférente à toutes les positions
+<lb/>quelque inclinaison qu’on lui donne. S’il étoit
+<lb/>possible de satisfaire à cette derniere condition,
+<lb/>il n’y auroit rien à désirer sur la construction
+<lb/>parfaite des boussoles; mais la raison et l’expérience
+<lb/>montrent également qu’il est impossible de la
+<lb/>remplir avec une précision suffisante, quoiqu’il
+<pb facs="5997699" n="72r"/>
+<lb/>soit de la derniere facilité d’y arriver fort prés:
+<lb/>il faudroit placer le centre de gravité de
+<lb/>l’aiguille exactement dans l’axe commun des
+<lb/>Tourillons; On sent bien qu’une exactitude
+<lb/>géométrique n’est pas possible et on remarquera
+<lb/>que la centieme partie d’une ligne de défaut
+<lb/>de coincidence peut déja causer des erreurs
+<lb/>très considérables et d’autant plus considérables
+<lb/>que la force directrice ou la force magnétique
+<lb/>est plus petite. Mais supposé la dite coincidence
+<lb/>parfaite pour une position de l’aiguille, je dis
+<lb/>qu’elle ne sera plus telle pour toute autre position,
+<lb/>car toute aiguille portée sur des tourillons se
+<lb/>courbe par son propre poids plus ou moins
+<lb/>suivant qu’elle est plus ou moins horizontale;
+<lb/>Cette courbure fait changer l’aiguille de
+<lb/>figure et place différemment son centre de
+<lb/>gravité, lequel par conséquent ne sauroit
+<lb/>demeurer exactement placé dans l’axe des
+<lb/>tourillons. On n’a qu’à poser une verge de fer
+<lb/>un peu longue sur une table et l’elever par
+<lb/>le milieu et on remarquera qu’on pourra
+<lb/>élever sensiblement la verge avant que ses
+<pb facs="5997700" n="72v"/>
+<lb/>extrémités s’élevent: Quelles difficultés l’illustre
+<lb/><abbr>M.</abbr> <rs key="pers_DE-588-117622974" type="person">Bouguer</rs> envoyé au <rs key="place_VER-peruab" type="place">Perou</rs> avec d’<rs type="person">autres
+<lb/>académiciens</rs> n’avoit-il pas à surmonter pour
+<lb/>remédier à l’inflexion des instrumens astronomiques
+<lb/>dont il se servoit et qu’il remarquoit se courber
+<lb/>par leur propre poids. Cette inflexion quoique
+<lb/>imperceptible aux sens n’est cependant que trop
+<lb/>suffisante pour déranger l’inclinaison des aiguilles;
+<lb/>il est vrai qu’elle est d’autant plus petite que
+<lb/>l’aiguille est plus courte, puisqu’elle diminue
+<lb/>en raison biquarrée des longueurs; mais d’un
+<lb/>autre côté en diminuant la longueur on doit
+<lb/>aussi diminuer l’épaisseur et de là on augmente
+<lb/>l’inflexion; on diminue aussi la force directrice
+<lb/>de l’aiguille, ce qui est de conséquence et enfin
+<lb/>les divisions du limbe deviennent trop petites
+<lb/>et indépendamment de ces grands inconvéniens
+<lb/>l’inflexion dérange encore sensiblement l’inclinaison.
+<lb/>Ainsi l’équilibrement parfait des aiguilles
+<lb/>absolument requis est en même tems absolument
+<lb/>impossible. Il faut donc nécessairement en venir
+<lb/>à quelque nouveau principe pour faire de
+<lb/>bonnes boussoles d’inclinaison. L’<rs type="person">auteur</rs> du
+<pb facs="5997701" n="73r"/>
+<lb/><rs type="biblio">mémoire</rs> cité ci<choice><orig> </orig><reg>-</reg></choice>dessus nous a donné ce principe,
+<lb/>que je puis assurer être parfaitement bon.
+<lb/><quote><hi rend="u">C’est d’imaginer une construction en vertu de
+<lb/>la quelle l’aiguille aimantée montre toujours
+<lb/>la même inclinaison qu’elle montreroit si elle
+<lb/>n’avoit aucune vertu magnétique et qu’elle fut
+<lb/>uniquement déterminée par l’action de la pesanteur.</hi></quote>
+<lb/>Il est bien clair, qu’une aiguille qui avant d’être
+<lb/>aimantée inclineroit de 30 degrés, <del>et</del>garderoit
+<lb/>cette inclinaison, après être aimantée si la
+<lb/>vraie inclinaison est pareillement de 30<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>°
+<lb/>et qu’au contraire la même aiguille ne pourroit
+  <lb/>garder l’inclinaison de 30<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>° si la vraie inclinaison
+  <lb/>de l’aiguille aimantée n’est pas de 30°. C’est
+<lb/>uniquement la coincidence entre la position
+<lb/>naturelle de l’aiguille due à l’action de la
+<lb/>pesanteur et sa position due à la seule vertu
+<lb/>magnétique, qui peut nous assurer de la vraie
+<lb/>inclinaison magnétique.</p>
+<p><lb/>Voici à présent la méthode la plus exacte
+<lb/>pour arriver à la <add>dite</add> coincidence. Il faut faire
+<lb/>un cercle de laiton d’environ <measure>4 pouces</measure> de
+<lb/>Diametre et le graduer ou le diviser en 360°; ce
+<pb facs="5997702" n="73v"/>
+<lb/>petit cercle ne doit pas être cha<del><gap/></del><add>r</add>gé de matiere
+<lb/>inutilement: On l’applique ensuite à celui des côtés
+<lb/>applatis de l’aiguille qui regarde le <choice><orig>coté</orig><reg>côté</reg></choice> gradué
+<lb/>du limbe, de maniere que le centre du cercle
+<lb/>soit dans l’axe des tourillons et que la ligne tirée
+<lb/>depuis l’axe des tourillons perpendiculairement à
+<lb/>la longueur de l’aiguille passe par 0 ou par le
+<lb/>commencement du premier degré. Après cela on
+<lb/>applique au tourillon du même côté une petite
+<lb/>aiguille semblable à celles qui marquent les
+<lb/>minutes dans une montre, qu’on puisse tourner
+<lb/>autour du tourillon sans pourtant qu’elle tourne
+<lb/>d’elle même par son propre poids: je l’appellerai
+<lb/><hi rend="u">l’aiguille d’équation</hi>; son poids ne doit faire que
+<lb/>la centieme partie environ de celui de la
+<lb/>grande aiguille. Après ces préliminaires on
+<lb/>place l’aiguille d’équation sur <measure>0</measure> et on pose la
+<lb/>grande aiguille sur ses supports et on l’équilibre
+<lb/>de façon qu’elle reste dans sa position horizontale
+<lb/>ou qu<supplied>’</supplied>elle prenne cette position d’elle même par
+<lb/>des balancements successivement diminués; cet
+<lb/>équilibrement horizontal, qui est tout à fait
+<lb/>facile, doit être fort fin, c’est à dire, tel qu’une
+<pb facs="5997703" n="74r"/>
+<lb/>très petite force détourne la grande aiguille
+<lb/>considérablement de sa position horizontale; on la
+<lb/>reconnoitra par la lenteur des balancemens, qui
+<lb/>doivent durer <measure>10</measure>, <measure>15</measure> ou <measure>20 secondes</measure> suivant la
+<lb/>grandeur des aiguilles. Dans cet état on pourra
+<lb/>par le moyen de <hi rend="u">l’aiguille d’équation</hi> donner
+<lb/>à la grande aiguille telle position qu’on
+<lb/>souhaite, c’est à dire, lui donner une telle
+<lb/>inclinaison qu’on se propose: Je demande donc
+<lb/>qu’on examine <del>dabord</del>successivement sur quels
+<lb/>degrés il faille mettre la petite aiguille d’
+<lb break="no"/>équation pour faire incliner la grande aiguille
+<lb/>de <measure>5</measure>, <measure>10</measure>, <measure>15</measure>, <measure>20</measure> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> degrés à compter depuis la
+<lb/>position horizontale jusqu’à ce qu’on ait fait
+<lb/>faire tout le tour à la grande aiguille et on
+<lb/>fera pour toutes les aiguilles qu’on voudra
+<lb/>construire une note de ces observations<del><gap/></del> que
+<lb/>j’appellerai <hi rend="u">table d’équations</hi>: la petite
+<lb/>aiguille ne repondra pas exactement à la grande
+<lb/>et il pourra arriver par exemple, qu’il faille
+<lb/>placer l’aiguille d’équation sur <measure>11°</measure><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> ou <measure>12°</measure><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> pour
+<lb/>tenir la grande aiguille dans une inclinaison
+<pb facs="5997704" n="74v"/>
+<lb/>de <measure>10°</measure>. Mais cette desharmonie ne dérogera en
+<lb/>rien à la perfection de l’instrument, pourvu
+<lb/>qu’on ait une bonne <hi rend="u">table d’équations</hi>. Après
+<lb/>toutes ces préparations il faut aimanter la
+<lb/>grande aiguille; à cet égard il convient de lui
+<lb/>donner le plus de vertu magnétique qu’il se
+<lb/>pourra par le moyen d’un bon aiman artificiel;
+<lb/>il faut aussi prendre garde que les deux poles
+<lb/>magnétiques soyent exactement placés dans la
+<lb/>ligne qui passe par les deux pointes de l’aiguille.
+<lb/>Celle<choice><orig></orig><reg>-</reg></choice>ci doit être d’un acier bien trempé, tant
+<lb/>afin qu’elle garde mieux sa vertu qu’afin
+<lb/>qu’elle retienne parfaitement sa premiere
+<lb/>figure, puisque le moindre dérangement la
+<lb/>rendroit fautive. Je <del>ne</del>puis assurer qu’une
+<lb/>telle boussole d’inclinaison aura toute la
+<lb/>perfection qu’on peut désirer. Dans l’usage
+<lb/>de cette boussole il faudra tourner l’aiguille
+<lb/>d’équation jusqu’à ce qu’on obtienne la
+<lb/>coincidence entre les deux aiguilles marquée
+<lb/>dans la <hi rend="u">table d’équations</hi> et alors la grande
+<lb/>aiguille montrera au juste la vraie inclinaison,
+<pb facs="5997705" n="75r"/>
+<lb/>si on met le limbe gradué dans le plan
+<lb/>vertical du Méridien magnétique. La nouveauté,
+<lb/>l’exactitude et l’utilité de cet instrument
+<lb/>m’engageront dans la premiere lettre que j’aurai
+<lb/>le loisir de Vous écrire, à faire plusieurs
+<lb/>remarques méchaniques et physiques tant
+<lb/>sur l’instrument lui même tel que je l’ai
+<lb/>décrit, que sur les déclinaisons et inclinaisons
+<lb/>des Boussoles. J’ai <unclear>...</unclear>
+</p>
+</div>
+<div>
+<pb facs="5997706" n="75v"/>
+  <lb/><note hand="pers_DE-588-116170654" type="archival">C</note>
+  <head rend="center">
+<lb type="forced"/>Démonstration
+<lb type="forced"/>d’un
+<lb type="forced"/>Théoreme de <abbr>M.</abbr> <rs key="pers_DE-588-118656503" type="person"><abbr>D.</abbr> Bernoulli</rs>,
+<lb type="forced"/>cité dans les <rs type="biblio">Mém. de l’Acad<supplied>.</supplied><hi rend="sup">e</hi>
+<lb type="forced"/>des Sc. <abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr> 1754.</rs></head>
+
+<div><lb/><head rend="center"><hi rend="u">Théoreme.</hi></head>
+<p><quote><hi rend="u"><lb/>Le rayon est à la <g ref="#C">c</g>otangente de l’inclinaison
+<lb/>observée dans le Méridien magnétique, comme
+<lb/>le cosinus de l’azimut magnétique, selon
+<lb/>le quel on a dirigé la boussole d’Inclinaison,
+<lb/>est à la cotangente de l’inclinaison qu’on
+<lb/>doit observer dans cet azimut<del><gap/></del>.</hi></quote>
+</p>
+</div>
+<div>
+<head><lb/><hi rend="u">Démonstration</hi>.</head>
+  <figure facs="../images/figures/5997706_01.png"><figDesc></figDesc></figure>
+<p>
+<lb/>Supposons l’aiguille d’abord placée dans le
+<lb/>Méridien magnétique et forcée par le
+<lb/>Courrant magnétique à prendre la direction
+<lb/><formula>AC</formula>. On voit que la force qui l’oblige à cette
+<lb/>inclinaison se décompose en deux autres
+<lb/><formula>BC</formula> et <formula>AB</formula> dont la premiere est utile et
+<lb/>dont l’autre au contraire tend à remettre l’
+<lb break="no"/>aiguille dans la position horizontale. Si nous
+<lb/>nommons <formula>A</formula> l’angle d’inclinaison <formula>CAB</formula> il est
+<pb facs="5997707" n="76r"/>
+<lb/>clair que ces deux forces <formula>BC</formula> et <formula>AB</formula> sont
+  <lb/>toujours entr’elles en raison de <choice><orig><formula>\mathrm{sin.} A \mathrm{à} \mathrm{cos.} A</formula></orig><reg><formula>\sin A : \cos A</formula></reg></choice>.
+<lb/>Imaginons<choice><orig> </orig><reg>-</reg></choice>nous à présent qu’on mette l’aiguille
+<lb/>dans un autre plan que celui du méridien
+<lb/>magnétique et faisant avec ce dernier
+<lb/>un angle azimuthal <formula>Z</formula>. <del><gap/></del><add>N</add>ommons <formula>x</formula> l’angle
+<lb/>d’inclinaison qui résultera de cette nouvelle
+<lb/>position et voyons quelles forces obligent
+<lb/>l’aiguille à prendre la direction qu’elle aura.
+<lb/>Le courrant magnétique ayant une
+<lb/>largeur considérable agira de la même
+<lb/>maniere qu’auparavant sur tout<del>e</del>s les
+<lb/>points de l’aiguille <formula>ACa</formula>; de façon que
+<lb/>cette action sera pareillement égale à la
+  <lb/>force <formula>CB</formula> et exprimée par <choice><orig><formula>\mathrm{sin.} A</formula></orig><reg><formula>\sin A</formula></reg></choice>. Il
+<lb/>n’en est pas de même de la force qui
+<lb/>tend à remettre l’aiguille dans sa
+<lb/>position horizontale; car si <formula>ABD</formula> représente
+<lb/>l’angle azimuthal <formula>Z</formula>, la puissance qui
+<lb/>tend à rendre l’aiguille <formula>aCB</formula> parallele à
+<pb facs="5997708" n="76v"/>
+<lb/>l’horizon pourra être encore décomposée
+<lb/>en deux autres; <del>dont </del>l’une ne tend qu’à
+<lb/>mouvoir ou pousser le centre (où si l’on veut,
+<lb/>toute la longueur de l’aiguille vers la
+<lb/>gauche ou la droite, sans faire d’effet
+<lb/>relativement à l’inclinaison, et cette force
+<lb/>par consequent est nulle; l’autre s’exprime
+  <lb/>par <choice><orig><formula>DB = \mathrm{cos.} A \times \mathrm{cos.} Z</formula></orig><reg><formula>DB = \cos A \cdot \cos Z</formula></reg></choice>. Or nous avons
+<lb/>remarqué que la force utile qui fait
+<lb/>incliner l’aiguille est toujours à la force
+<lb/>qui s’oppose à l’inclinaison<choice><orig>:</orig><reg>,</reg></choice> comme le
+<lb/>sinus de l’angle d’inclinaison est au
+<lb/>cosinus de cet angle. On a donc<del> cette</del>
+  <lb/><choice><orig><formula>\mathrm{sin.} x : \mathrm{cos.} x :: \mathrm{sin.} A : \mathrm{cos} A \times \mathrm{cos} Z</formula></orig><reg><formula>\sin x . \cos x : \sin A . \cos A \cdot \cos Z</formula></reg></choice>
+  <lb/>ou <choice><orig><formula>1 : \frac{\mathrm{cos.} x}{\mathrm{sin.} x} :: 1 : \frac{\mathrm{cos.} A}{\mathrm{sin.} A}\times \mathrm{cos.} Z</formula></orig><reg><formula>1 : \frac{\cos x}{\sin x} :: 1 : \frac{\cos A}{\sin A}\cdot \cos Z</formula></reg></choice> donc
+  <lb/><choice><orig><formula>\mathrm{cot.} x = \mathrm{cot.} A \times \mathrm{cos.} Z</formula></orig><reg><formula>\cot x = \cot A \cdot \cos Z</formula></reg></choice> d’où l’on tire cette
+<lb/>analogie
+  <lb/><choice><orig><formula>1 . \mathrm{cot.} A :: \mathrm{cos.} Z : \mathrm{cot.} x</formula></orig><reg><formula>1 . \cot A : \cos Z . \cot x</formula></reg></choice><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> qui est celle
+<lb/>qu’il falloit démontrer.
+<pb facs="5997709" n="77r" type="empty"/>
+<pb facs="5997710" n="77v" type="empty"/>
+<pb facs="5997711" type="archival"/>
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

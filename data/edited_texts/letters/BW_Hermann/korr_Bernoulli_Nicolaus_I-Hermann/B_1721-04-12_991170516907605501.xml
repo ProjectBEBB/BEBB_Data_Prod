@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516907605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Jacob Hermann. Basel, 12. April 1721</title>
+          <title type="alt">1721.04.12: Bernoulli, Nicolaus (1687-1759) an Hermann, Jacob (1678-1733)</title>
+          <title type="alt">000059140</title>
+          <title type="alt">1721-04-12_Bernoulli_Nicolaus-Hermann_Jacob</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516907605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516907605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Nicolaus I (1687-1759)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23367">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.92v-95r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516907605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433540605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059140</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>5 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basileae</origPlace>
+              <date when="1721-04-12">d. 12. Apr. 1721</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1721-04-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516907705501" type="prev"/>
+          <ptr target="B_991170516907505501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Nicolaus_I-Hermann" corresp="pers_DE-588-119166895" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170516907705501" type="prev"/>
+          <ptr target="B_991170516907505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Hermann_Jacob-NicIB" corresp="pers_DE-588-119112450" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116082356">Battier, Johann Jakob</persName>
+            <note type="lebensdaten">(1664-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1216205728">Bernoulli, Anna Maria</persName>
+            <note type="lebensdaten">(1681-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+            <note type="lebensdaten">(1688-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1048628825">Hermann, Germanus</persName>
+            <note type="lebensdaten">(1648-1729)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089870078">Tonjola, Johannes</persName>
+            <note type="lebensdaten">(1663-1746)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-02-28" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2024-12-19" who="MK">Tagging, Vorbereitung Kollationieren</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038157/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1038158" n="92v"/>
+  <opener>Eidem.</opener>
+  <p><lb/>Annus iterum jam fere abiit ex quo postrema<del><gap/></del> Tua<del><gap/></del> <rs type="letter">epistola<del><gap/></del></rs> una
+      <lb/>cum exemplo dissertationis tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="biblio" key="biblio_LT8X8F7G">de Mensura Virium</rs>, pro quo debitas
+      <lb/>ago gratias, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>Rev.</abbr> <abbr>D.</abbr> <rs type="person" key="pers_DE-588-1048628825">Patre</rs> <add>Tu</add>o mihi tradita fuit. Doleo certe, me
+      <lb/>usque adeo negligentem fuisse, ut debiti mei oblitus esse Tibi jure
+      <lb/>videri possim. <del><gap/></del>Causam tamen
+      <lb/>tam diuturni silentii ne conjice qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so in meram culpam oblivio<pc type="hyphenation">=</pc><lb break="no"/>nis; varia <del><gap/></del>interim mihi acciderunt, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et negligen<pc type="hyphenation">=</pc><lb break="no"/>tiam meam auxerunt, et me <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> studio rei nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mathematic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/><del><gap/></del>fere abduxerunt<add>;</add> <del><gap/></del>Illo ipso tem<pc type="hyphenation">=</pc><lb break="no"/>pore, quo tua <del><gap/></del>mihi reddita erat <rs type="letter">epistola</rs>,
+      <lb/>sponsus eram cum honestissima virgine <rs type="person" key="pers_DE-588-117589144">Anna Maria Birria</rs>
+      <lb/>sorore Tui quondam <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>ni fallor<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> in itinere <rs type="person">socii</rs>, in cujus nunc
+      <lb/>matrimonio <del><gap/></del>ex voto et satis contentus vivo, pater <del><gap/></del><add>quidem</add>
+      <lb/>factus ante mensem <rs type="person">filioli</rs>, sed paucis <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nativitate horis iterum
+      <lb/>denati. Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> rebus mathematicis cogitationes meas quoque aver<pc type="hyphenation">=</pc><lb break="no"/>terunt du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Cathedr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Juris vacantes <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> morte Virorum <abbr>Consult.<hi><unclear>rum</unclear></hi></abbr>
+      <lb/><rs type="person">Burcardi</rs> et <rs type="person" key="pers_DE-588-116082356">Battierii</rs>, in quorum locum successerunt <abbr>D.</abbr> <rs type="person" key="pers_DE-588-1089870078">Tonjola</rs>
+      <lb/>et <abbr>D.</abbr> <rs type="person" key="pers_DE-588-140736662">Christ</rs>; Inter competitores nomen ego quoque sed frustra
+      <lb/>professus <del><gap/></del>eram, in ternarium quidem assumtus in priore
+      <lb/>Electione, sed in posteriore <add>propter amicorum paucitatem</add> ab eodem exclusus. Pro gratula<pc type="hyphenation">=</pc><lb break="no"/>tione et voto quo meum in <rs type="place">Patriam</rs> reditum prosecutus es,
+      <lb/>gratias ago maximas, tibique vicissim omnia felicia appre<pc type="hyphenation">=</pc><lb break="no"/>cor. Gaudeo quod non offensus fueris per ea qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> dixi in for<pc type="hyphenation">=</pc>
+<pb facs="1038159" n="93r"/>
+      <lb break="no"/>mulam Tuam <formula>lc-la=\int qq\,dy\,:\,(y+p\int p\,dy)</formula>, quam dedisti pro constructio<pc type="hyphenation">=</pc><lb break="no"/>ne <rs type="keyword">Problematis Trajectoriarum</rs>; vidi haud pridem in <rs type="biblio">additamento</rs> solutionis
+      <lb/>T<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quomodo h<choice><orig><g ref="#an">ā</g></orig><reg>an</reg></choice>c formulam applicasti exemplo <rs type="person" key="pers_DE-588-118571249">Leibnitii</rs> <rs type="person">Anglis</rs> pro<pc type="hyphenation">=</pc><lb break="no"/>posito quam applicationem, ut verum fatear, divinando nunqu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/><del><gap/></del>assecutus fuissem, intelligo tamen quod illa recto
+      <lb/>sensu sumta ad Curvas similes sese extendat; At in eo <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Te dissentio,
+      <lb/>quando dicis meam solutionem non magis pro generali solutione <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+      <lb/>me dari potuisse, quam tuam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Te; licet enim meam <del><gap/></del><add>tantum pro tentamine</add> so<pc type="hyphenation">=</pc><lb break="no"/>lution<add>i</add>s generalis dederim <add>propter usum ejus in praxi nonnunquam impeditum</add><supplied>;</supplied> <del><gap/></del>theoretice tamen vera et generalis
+      <lb/>est, cum Tua generaliter intellecta ad falsa et absurda deducat.
+      <lb/>Doleo autem vehementer <del><gap/></del>de hac solutione inter Te et Pa<pc type="hyphenation">=</pc><lb break="no"/>truum ejusve <rs type="person">Filium</rs> paulo acrius, quam amicos decet, disputatum
+      <lb/>fuisse<del><gap/></del>, sed simul credo et spero nihil inde mutu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vestr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> amiciti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>derogatum iri, persuasus non litigandi sed veritatis studio<del><gap/></del>
+      <lb/>ea qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> utrinque dicta sunt dicta fuisse, et neutrum alterius
+      <lb/>mentem recte percepisse; dubiorum itaque nebula dissipata Vos
+      <lb/>ad serenam animorum concordiam redituros esse <del><gap/></del><add>non</add> dubito.
+      <lb/>Recte respondes ad ea qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> monui circa id, quod in <rs type="biblio" key="biblio_WS22BVK4"><abbr>Phor.</abbr></rs> <abbr>pag.</abbr> 46<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+      <lb/>Hyperbolam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quilateram <rs type="keyword">Catenariam</rs> esse scripsisti, quando di<pc type="hyphenation">=</pc><lb break="no"/>rectiones gravium ad centrum finit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> convergunt;
+      <lb/>sed videris simul agnoscere, Te loco horum verborum, Catena<pc type="hyphenation">=</pc><lb break="no"/>ria <hi rend="u">erit</hi> hyperbola <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quilatera, rectius scripturum fuisse
+      <lb/>Catenaria <hi rend="u">nonnunquam esse poterit</hi> hyperbola <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quilatera
+      <lb/>in casu nempe quando gravitas caten<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est ad tensionem ejus <add>in singulis punctis</add> ut
+      <lb/>longitudo ejus ad distantiam cujusque puncti <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> centro gravium;
+      <lb/>et fateberis quoque ultro nihilominus corrigi debere verba
+<pb facs="1038160" n="93v"/>
+      <lb/>ista qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habes in <abbr>Append.</abbr> <abbr>pag.</abbr> 382. <quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Generalius, si directiones gra<pc type="hyphenation">=</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>vium convergunt in punctum, absciss<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>que sumantur in axe ab hoc
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>centro gravium, erit <formula>h=ax\,dx+ay\,dy\,:\,x\,dy-y\,dx</formula>, et hujus <unclear>ac</unclear> alte<pc type="hyphenation">=</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>rius <del><gap/></del><formula>dt=h\,dq\,:\,k</formula> ope, in suppositione <formula>dq=ds</formula> invenissemus <formula>t=</formula>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><formula>\sqrt{xx+yy}</formula>, et <formula>yy=xx-aa</formula></quote>; h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c enim generaliter vera non sunt,
+      <lb/>nec invenitur <formula>t=\sqrt{xx+yy}</formula>, sed <formula>t=c-a+\sqrt{xx+yy}</formula>, posita
+      <lb/>nempe distantia infimi catenari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> puncti <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> centro gravium =
+      <lb/><formula>a</formula>, et tensione curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in hoc puncto <formula>= c</formula>, nec prodit <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio
+      <lb/>hyperbol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quilater<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>yy=xx-aa</formula>, nisi quando <formula>a=c</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>conditio etiam addi debuisset in pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cedentibus, ubi h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c habentur:
+      <lb/><quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Propterea est hyperbola <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quilatera Catenaria, si gravium
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>directiones in centro hyperbol<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> concurrere supponuntur, ut
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>supra circa finem §<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 106<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> sine demonstratione dictum est.</quote>
+      <lb/>Vides igitur quomodo inductus fuerim, ut crederem Te hunc ca<pc type="hyphenation">=</pc><lb break="no"/>sum particularem pro generali Problematis solutione dedisse;
+      <lb/>quamvis autem non amplius circa rem ipsam dissentiamus,
+      <lb/>unum tamen adhuc monere mihi liceat, me nempe mirari,
+      <lb/>quod neges, hyperbolam augendo distantiam centri hyperbo<pc type="hyphenation">=</pc><lb break="no"/>l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> usque in infinitum abire debere in lineam rectam, credo
+      <lb/>Tibi h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c ex inadvertentia excidisse, nonne etiam Catenaria
+      <lb/>vulgaris posita tensione infinita abit in lineam rectam?
+      <lb/>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum recte se habet <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio generalis <formula>dy=acdz\,:\,\sqrt{}(\overline{c+}</formula>
+      <lb/><choice><orig><formula>\overline{\int g\,dz}^{2}\times zz,-aacc)</formula></orig><reg><formula>dy=acdz\,:\,\sqrt{}\left(\overline{c+}\int g\,dz\right)^{2}\times zz,-aacc}</formula></reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tamen brevius ita scribi posset <formula>dy=</formula>
+      <lb/><formula>acdz\,:\,\sqrt{}\left(zz\overline{\int g\,dz}^{2}-aacc\right)</formula> additio enim quantitatis constantis
+      <lb/>fit demum post factam integrationem ipsius <formula>\int gdz</formula>. In similem
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem jam olim incidi pro hypothesi gravitatis propor<pc type="hyphenation">=</pc>
+<pb facs="1038161" n="94r"/>
+      <lb break="no"/>tionalis cuilibet dignitati distanti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> punctorum <del><gap/></del>curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+      <lb/>centro gravium <choice><abbr>h. e.</abbr><expan>hoc est</expan></choice> quando ponitur <choice><orig><formula>g=\frac{\overline{xx+yy}^{\frac{1}{2}n}}{a^{n}}</formula></orig><reg><formula>g=\frac{(xx+yy)^{\frac{1}{2}n}}{a^{n}}</formula></reg></choice>. En autem
+      <lb/>calculum meum pro hypothesi generali, <del><gap/></del>pono gravi<pc type="hyphenation">=</pc><lb break="no"/>tatem elementi Curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>= dp</formula>, <add>et</add> per resolutionem potentiarum
+      <lb/>in potentias laterales <del><gap/></del><add>secundum</add> methodum <rs type="person" key="pers_DE-588-118509969">Patrui</rs> in <abbr>dissert.</abbr> <rs type="biblio" key="biblio_I2Z37CBH">de Motu
+      <lb/><abbr>Musc.</abbr></rs> invenio <del><gap/></del>tensionem infimi catenari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> puncti, quam
+      <lb/>tu appellas <formula>c=\frac{dy}{dx}\int\frac{x\,dp}{\sqrt{xx+yy}}-\int\frac{y\,dp}{\sqrt{xx+yy}}</formula>,<note type="editorial">Korrektur in der Formel, ein «x» wurde gestrichen.</note> quam <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem
+      <lb/>sic resolvo: Multiplicando per <formula>dx</formula> et integrando habetur
+      <lb/><formula>cx-ac=y\int\frac{x\,dp}{\sqrt{xx+yy}}-x\int\frac{y\,dp}{\sqrt{xx+yy}}</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <del><gap/></del>du<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationes
+      <lb/>inter se comparat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> dant <formula>\int\frac{x\,dp}{\sqrt{xx+yy}}=\frac{ac\,dx}{x\,dy-y\,dx}</formula>; <add>s</add>i jam ponatur
+      <lb/><formula>dp=g\,ds</formula>, et differentiemus sumendo <formula>x\,dy-y\,dx</formula> constantem, habe<pc type="hyphenation">=</pc><lb break="no"/>bimus <formula>\frac{gx\,ds}{sqrt{xx+yy}}=\frac{ac\,ddx}{x\,dy-y\,dx}</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio substituendo pro
+      <lb/><formula>ddx</formula> ejus valorem <formula>\frac{ds\,dds}{x\,dx+y\,dy}</formula> <del><gap/></del>mutatur in hanc <formula>\frac{gx\,dx+gy\,dy}{\sqrt{xx+yy}}</formula>
+      <lb/><formula>= \frac{acd\,ds}{xdy-ydx}</formula>, cujus integralis est <formula>\int\frac{gx\,dx+gy\,dy}{\sqrt{xx+yy}}=\frac{ac\,ds}{x\,dy-y\,dx}</formula>,
+      <lb/>sive (ponendo <formula>z</formula> pro <formula>\sqrt{xx+yy}</formula>, et <formula>du</formula> pro <formula>\sqrt{}ds^{2}-dz^{2}</formula>) <formula>\int g\,dz=\frac{ac\,ds}{z\,du}</formula>
+      <lb/><formula>=\frac{ac\sqrt{}du^{2}+dz^{2}}{z\,du}</formula>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> reducitur ad hanc <choice><orig><formula>du=\frac{ac\,dz}{\sqrt{}zz\overline{\int g\,dz}^{2}-aacc}</formula></orig><reg><formula>du=\frac{ac\,dz}{\sqrt{}zz\left(\int g\,dz\right)^{2}-aacc}</formula></reg></choice>,
+      <lb/>prorsus ut Tu invenisti.</p>
+  <p><lb/>Legi in <rs type="biblio">Actis <abbr>Erudit.</abbr></rs> <abbr>Mens.</abbr> <date><abbr>Aug.</abbr> 1719<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> sed non examinavi constructionem
+      <lb/>Tuam linearem Problematis de invenienda Curva projectorum in medio
+      <lb/>resistente secundum quamcunque multiplicat<add>a</add>m rationem celeritatum
+      <lb/>actualium, hoc autem observavi, solutionem Tuam exhibitam in
+<pb facs="1038162" n="94v"/>
+      <lb/><rs type="biblio"><abbr>Phor.</abbr></rs> <abbr>pag.</abbr> 354<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <del><gap/></del>pro casu particulari resistenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> propor<pc type="hyphenation">=</pc><lb break="no"/>tionalis quadrato velocitatis coincidere prorsus cum illa quam <rs type="person" key="pers_DE-588-118509969">Patruus</rs>
+      <lb/>et ego invenimus. <rs type="biblio">Problema Taylorianum</rs> de integra<add>n</add>da hac
+      <lb/>quantitate <formula>z^{\frac{\delta}{\lambda}\eta-1}\,dz\;:\;(e+fz^{\eta}+gz^{2\eta})</formula> <rs type="place" key="place_GEO-3171728">Patavii</rs> sero accepi, et bre<pc type="hyphenation">=</pc><lb break="no"/>vi post <rs type="biblio">solutionem meam</rs> <del><gap/></del>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicavi cum <rs type="person" key="pers_DE-588-118509969">Patruo</rs> et <rs type="person" key="pers_DE-588-117601020">Monmor<pc type="hyphenation">=</pc><lb break="no"/>tio</rs>, <del><gap/></del>in qua eodem fere modo quo <rs type="person" key="pers_DE-588-118509969">Patruus</rs> sed
+      <lb/>retrogrado ordine differentialem propositam reduxi, diminuendo
+      <lb/>semper <add>usque ad dimidium numerum</add> dimension<del><gap/></del><add>um</add> denominatoris fractionis reducend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, usque dum
+      <lb/>pervenimus ad fractiones hanc formam habentes <formula>\frac{Ex\,dx+F\,dx}{xx+Gx+H}</formula>.
+      <lb/>Verum est quod observas, posse formulam istam <formula>x^{\pm r}dx\,:\,(e+fx+gxx)</formula>
+      <lb/>per simplicem divisionem reduci et deprimi ad <formula>(\alpha+\beta x)\,dx\,:\,(e+fx+</formula>
+      <lb/><formula>gxx)</formula> sed propt<add>er</add>ea non sequitur inutilem esse propositionem <abbr>V.<hi rend="sup">am</hi></abbr>
+      <lb/><rs type="person" key="pers_DE-588-118509969">Patrui</rs>, qui uniformitatis gratia divisionem ab eodem denominatoris
+      <lb/>membro semper incipere voluit. <del><gap/></del>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terum licet
+      <lb/>solutio Tua in modo procedendi differat <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nostra, <del><gap/></del>existimo
+      <lb/>tamen, eundem semper esse laborem quocunque modo reductio insti<pc type="hyphenation">=</pc><lb break="no"/>tuatur, sive Tuo, sive meo, sive <rs type="person" key="pers_DE-588-118509969">Patrui</rs>. Theoremata <add>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></add> <rs type="person" key="pers_DE-588-118509969">Patruus</rs>
+      <lb/>solutioni su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> annexuit in generaliori quoque sensu demonstravi,
+      <lb/><del><gap/></del>pleraque eorum deduci etiam possunt ex <rs type="person" key="pers_DE-588-118587544">Newtoni</rs>
+      <lb/><abbr>Quadrat.</abbr> <abbr>Curv.</abbr> <rs type="biblio" key="biblio_4Q4NZE56"><abbr>Prop.</abbr> 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et 7</rs>. Non dubito posse <formula>\int z^{\frac{\delta}{\lambda}\eta-1}\,dz\;:\;(e+fz^{\eta}+gz^{2\eta})^{n}</formula>
+      <lb/>reduci ad <formula>\int z^{\frac{\delta}{\lambda}\eta-1}dz\;:\;(e+fz^{\eta}+gz^{2\eta})</formula> posito pro <formula>n</formula> numero integro,
+      <lb/>et proinde hanc formulam quadrabilem esse per circulum et hy<pc type="hyphenation">=</pc><lb break="no"/>perbolam, sicuti <formula>\int z^{\frac{\delta}{\lambda}\eta-1}\,dz\;:\;(e+fz^{\eta})^{n}</formula>. Quod attinet ad bina
+      <lb/>Problemata <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Te proposita, existimo difficultatem posterioris multo
+      <lb/>majorem esse quam prioris, in illius solutionem nondum serio inquisi<pc type="hyphenation">=</pc><lb break="no"/>vi, prius autem <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> vestigio solvi methodo directa, et solutum co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uni<pc type="hyphenation">=</pc>
+<pb facs="1038163" n="95r"/>
+      <lb break="no"/>cavi cum nostro (oli<add>m</add> eheu!) <rs type="person" key="pers_DE-588-117601020">Monmortio</rs>, cujus <del><gap/></del>inopinata mors et
+      <lb/>mihi lachrymas expressit, et etiam num me dolore afficit.</p>
+  <closer>Vale et me
+      <lb/>amare perge. <dateline>Dabam <rs type="place" key="place_GEO-2661604">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <abbr>d.</abbr> <date when="1721-04-12">12. <abbr>Apr.</abbr> 1721</date>.</dateline></closer>
+</div>
+</body>
+</text></TEI>

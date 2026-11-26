@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430196405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Jean Jallabert. Basel, 09. April 1740</title>
+          <title type="alt">1740.04.09: Bernoulli, Johann (1710-1790) an Jallabert, Jean (1712-1768)</title>
+          <title type="alt">000058464</title>
+          <title type="alt">1740-04-09_Bernoulli_Johann-Jallabert_Jean</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430196405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430196405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Jallabert, Jean (1712-1768)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, Societé d'Histoire</repository>
+            <idno type="callNumber">Nr.243, fo.75-76</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430196405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406850905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058464</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1740-04-09">ce 9. Avril 1740</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1740-04-09"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516763305501" type="prev"/>
+          <ptr target="B_991170516764605501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Jallabert_Jean-JohIIB" corresp="pers_DE-588-100289665" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117648388">Cassini, Jacques</persName>
+            <note type="lebensdaten">(1677-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-138875073">Jallabert, François</persName>
+            <note type="lebensdaten">(1740-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118572210">Leupold, Jacob</persName>
+            <note type="lebensdaten">(1674-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Plantamour-Jallabert, Marie-Aymeé</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-16" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-16" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-16" who="RG">NER Erkennung</change>
+        <change when="2023-10-06" who="RG">"next" Element ergänzt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <p> Je vous aurois répondu plûtôt peutétre, mon cher Ami, si je n’avois été à <rs key="place_GEO-2991214" type="place">Mulhouse</rs>, d’où je ne suis de retour que ds. avanthier. Je vous suis fort obligé de l’exactitude avec laquelle vous avés bien voulu faire ma commission. J’ai bien crù que je ne pourrois pas m’adresser mieux qu’à vous et je ne me suis pas trompé; vous me ferés plaisir de m’envoyer ma veste dès que vous l’aurés reçue. Je vous ai déjà prié de me dire si vous voulés étre payé ici ou à <rs key="place_GEO-2660646" type="place">Genève</rs>. </p>
+  <p> Je ne suis point surpris que vous n’ayés pas pu ébranler Mr. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> par la peinture que vous lui avés faite du plaisir de coucher deux; ce plaisir n’est pas assés particulier à l’état du mariage; attendés encore 5 ou 6 mois et parlés lui alors du plaisir d’entendre crier les petits enfans, je ne doute point que cela ne le tente. faites lui je vous prie mes compl. </p>
+  <p> Je vous dirai bien entre nous que j’ai vu l’Examen desinteressé dont vous me parlés, mais j’ai de certaines raisons pour souhaiter que l’on ne le sache pas, gardés vous donc bien que mon <rs key="pers_DE-588-118509969" type="person">Père</rs> ou mon <rs key="pers_DE-588-118656503" type="person">frère</rs> aprenne ce que je viens de vous dire; ce petit livre me paroit bien écrit et avec beaucoup d’impartialité; je sai qu’il a fait et qu’il fait encore grand bruit à <rs key="place_GEO-2988507" type="place">Paris</rs>, cele me fait espérer, que l’auteur, quel qu’il soit, ne poutra pas toujours resister à la tentation de se faire connoitre et que tot ou tard il se découvrira, car je ne vois pas quelle raison il peut avoir pour vouloir etre caché voyant combien son livre est généralement gouté, il a si bien menagé les deux partis, qu’assurément ni l’un ni l’autre ne peut se trouver choqué. Il est vrai qu’il paroit pancher du coté de Mr. <rs key="pers_DE-588-117648388" type="person">Cassini</rs>, mais on remarque à travers tout cela tant de ménagement pour Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> qu’on diroit qu’il ne demandoit pas mieux que de pouvoir se determiner en sa faveur, c’est ce qui me fait douter que Mr. <rs key="pers_DE-588-117648388" type="person">Cassini</rs> soit lui même l’auteur de cet ouvrage comme vous paroissés le soupçonner, il est difficile d’écrire avec autant de moderation quand on est aussi interessé qu’il l’est dans cette affaire; je ne vois pas même de raison pour croire que l’auteur soit plûtôt des amis de Mr. <rs key="pers_DE-588-117648388" type="person">Cassini</rs> que de Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>, on remarque seulement qu’il a plus de penchant pour l’opinion du premier que pour celle du second. Je sai au reste que bien des gens en <rs key="place_VER-frankr" type="place">France</rs> ont attribué ce livre à mon <rs key="pers_DE-588-118509969" type="person">Père</rs>, je vous dirai même que vôtre Correspondent Mr. de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> n’a pas fait façon de lui en écrire à lui même et de lui en demander la confidence. Je ne sai si mon <rs key="pers_DE-588-118509969" type="person">Père</rs> lui répondra si tôt, mais je sai bien qu’aprés qu’il l’aura fait Mr. de <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> n’en sera pas plus savant qu’auparavant. </p>
+  <p> Un de mes amis a <rs key="pers_DE-588-118572210" type="person">Leupoldi</rs> Theatrum Machinarum generale in fo., si c’est celui que vous souhaités vous pouvés l’avoir pour 4 florins ou 10 francs argent de <rs key="place_VER-frankr" type="place">France</rs>, c’est un livre different du Theatrum Machinarum Speciale <rs key="pers_DE-588-118572210" type="person">Leupoldi</rs>, ce dernier a plusieurs Tomes. </p>
+  <p> Adieu Mon cher Ami. Tout le monde vous fait ses compl. et moi je suis plus que tout le monde votre très humble et très obeissant Serviteur <rs key="pers_DE-588-117589136" type="person">Bernoullj</rs> <rs key="place_GEO-2661604" type="place">Bâle</rs> ce 9. Avril 1740 Adresse: Monsieur Monsieur <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> Professeur en Philosophie et Mathématique, de l’Academie des Sciences de <rs key="place_GEO-3181928" type="place">Bologne</rs> à <rs key="place_GEO-2660646" type="place">Genève</rs>. </p>
+</div>
+</body>
+</text></TEI>

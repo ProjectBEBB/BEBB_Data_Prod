@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514975305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean-Pierre de Crousaz an Johann I Bernoulli. Lausanne,
+            08. Juli 1718</title>
+          <title type="alt">000055776</title>
+          <title type="alt">1718-07-08_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514975305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514975305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Signatur eigenhändig. Letzte Seite
+          leer</p>
+          <p>Original</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.76-77</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24630">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.10*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514975305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432937805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055776</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Lausanne</origPlace>
+              <date when="1718-07-08">8e Juillet
+              1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1718-07-08"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514975405501" type="prev"/>
+          <ptr target="B_991170514975205501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Crousaz antwortet auf einen [nicht erhaltenen] Brief, den Joh. B. ihm in der
+          Angelegenheit Battier geschrieben hat. Er wird sich aus Hochachtung gegenüber dem Vater
+          gerne um den jungen Battier, der sich in Lausanne aufhält, kümmern. Bisher war er
+          abgehalten, da der Disput um die Konsensformel ihn sehr in Anspruch nahm. Crousaz
+          erläutert nun ausführlich die Ansichten der Académie de Lausanne und berichtet von seinen
+          eigenen Schwierigkeiten mit den Lausanner Kollegen. Man hat die Ironie nicht erkannt und
+          ihm z.B. ernsthaft unterstellt, in der Einleitung zu seiner Géométrie gefordert zu haben,
+          dass die Pfarrer mit dem Kompass in der Hand zu unterrichten hätten und dass man den
+          Euklid an die Stelle der Bibel setzen müsse. Er musste sich nach Bern begeben, um sich zu
+          verteidigen. Doch fand er dort unter den Politikern hochgebildete Leute, die ihn
+          unterstützten.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-141546573">Battier, Christoph</persName>
+            <note type="lebensdaten">(1699-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116082356">Battier, Johann Jakob</persName>
+            <note type="lebensdaten">(1664-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118638955">Euclides</persName>
+            <note type="lebensdaten">(ca. v3. Jh.)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118505084">August</persName>
+            <note type="lebensdaten">(1670-1733)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1718-07-08_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2009-10-15" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074467/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1718-07-08_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+  <pb facs="1074469" n="1"/>
+        <opener>
+          <dateline>
+
+<lb/> à <rs type="place" key="place_GEO-2659994">Lausanne</rs> 8.<hi rend="sup">e</hi> Juillet 1718</dateline>
+          <salute>
+<lb/>Monsieur </salute>
+        </opener>
+  <p>
+<lb/>Je vous dois reponse depuis longtems sur la <rs type="letter">lettre</rs> que vous m’avés fait l’honneur
+<lb/> de
+          m’écrire au sujet de Mons.<hi rend="sup">r</hi> <rs type="person" key="pers_DE-588-141546573">Batier</rs>;<note type="comment" resp="SG">Der erwähnte Brief Johann I Bernoullis ist im bisher geprüften Bestand nicht nachgewiesen. Vermutlich handelte es sich um ein Empfehlungsschreiben für <rs type="person" key="pers_DE-588-141546573">Christoph Battier</rs>, der sich im Sommer 1718 in Lausanne aufhielt. Vgl. <rs type="biblio" key="biblio_6E3KU9EA">Matrikel Basel</rs>, Bd. IV, p. 414, Nr. 2406.</note>la
+          parfaite estime que j’ai pour
+<lb/> Monsieur son illustre <rs type="person" key="pers_DE-588-116082356">Pere</rs>, et la gloire que je trouve à
+          vous donner des
+<lb/> marques de mon empressement, feront que je ne negligerai aucune occasion
+
+<lb/>          de lui être de quelque usage, et c’est un devoir dont je me promets de
+<lb/> m’aquiter souvent
+          au retour de la campagne où je vais passer nos vacances:
+<lb/> Je veux être avec lui sur le pié
+          d’une familiarité qui lui aprene à
+<lb/> commercer avec les personnes d’un certain age et d’un
+          certain ordre, et je me
+<lb/> reserverai pourtant quelque autorité pour lui donner utilement les
+          avis
+<lb/> dont il a besoin, car il est un peu jeune et même un peu étourdi: Comme
+<lb/> il y a peu
+          d’étrangers à <rs type="place" key="place_GEO-2659994">Lausanne</rs>, et que la plûpart de nos Etudians se
+<lb/> destinent au Ministere, nous
+          n’avons pas de peine à les tenir dans une
+<lb/> exacte discipline. Diverses occupations des plus
+          pressantes m’ont empêché
+<lb/> jusqu’ici de lui être utile comme je l’aurois souhaité et de vous
+          repondre
+<lb/> plutôt. Nos disputes au sujet de la formule du <hi rend="u"><rs type="biblio" key="biblio_Q47BCUD6">Consensus</rs></hi><note type="comment" resp="SG">Die Formula Consensus war ein 1675 angenommenes reformiertes Bekenntnis, dessen Unterzeichnung für Pfarrer und Professoren vorgesehen war. Im Waadtland versuchten einige Theologiekandidaten, bei ihrer Unterschrift Vorbehalte anzubringen. Crousaz berichtet hier von einer Berner Regelung, nach der die Unterschrift weiterhin verlangt, aber als Verpflichtung verstanden werde, den Artikeln nicht entgegenzutreten. Vgl. <rs type="biblio" key="biblio_GUKNTU7X">Fatio, «Formula Consensus»</rs>.</note> m’ont
+          fait
+<lb/> perdre bien du tems: Le <rs type="organisation">Clergé</rs> de <rs type="place" key="place_GEO-2661552">Berne</rs> s’est un peu trop piqué sur cette <pb
+            facs="1074470" n="2"/>
+<lb/> affaire; La sagesse de <rs type="organisation">LL. EE.</rs><note type="comment" resp="pers_DE-588-117433391X">LL. EE. =
+            Leurs Excellences</note> a trouvé moien de le contenter, en ordonnant
+<lb/> qu’on continueroit
+          de signer, et en même tems a mis en repos nos candidats,
+<lb/> en assurant que cette signature
+          n’emporte autre chose qu’un engagement à ne
+<lb/> pas contrarier les articles contenus dans
+          cette <rs type="biblio" key="biblio_Q47BCUD6">formule</rs>: L’<rs type="organisation" key="org_DE-588-84164-X">Académie</rs> de <rs type="place" key="place_GEO-2659994">Lausanne</rs>
+<lb/> avoit trois vûes dans cette affaire, la premiere
+          regardoit les Libertins, à qui
+<lb/> l’on étoit bien aise d’enlever un pretexte qu’ils aiment à
+          alleguer, savoir que
+<lb/> la politique est la mere de la Religion: Nous étions bien aises
+          encore de
+<lb/> degager la Religion de divers articles fort contestés entre nous, et par
+          consequent
+<lb/> difficiles à établir en disputant contre les Libertins. Pour ce qui est des
+          Catholiques
+<lb/> Romains, ils nous pressent terriblement, quand ils nous disent que, par nôtre
+          propre
+<lb/> conduite nous avouons la necessité d’un Tribunal qui
+<lb/> juge en dernier ressort dans
+          l’Eglise. Enfin, Monsieur, il nous paroissoit qu’il
+<lb/> auroit été glorieux aux Cantons
+          Evangeliques, et de la derniere importance
+<lb/> pour tout le parti Protestant de faire une
+          demarche qui facilitât la réunion
+<lb/> des Lutheriens, si necessaire dans le deplorable état où
+          se trouve l’<rs type="place" key="place_VER-heilig">Allemagne</rs> par le
+<lb/> changement de Religion du <rs type="person" key="pers_DE-588-118505092">Prince Electoral</rs> de <rs type="place" key="place_VER-sachse">Saxe</rs>.<note
+            type="comment" resp="pers_DE-588-117433391X">Kurprinz <rs type="person" key="pers_DE-588-118505092">Friedrich von Sachsen</rs> war 1712 in <rs type="place" key="place_GEO-3181928">Bologna</rs> zum katholischen
+            Glauben konvertiert. Diese Konversion war erst 1717 anlässlich seiner Verlobung mit
+            Erzherzogin <rs type="person" key="pers_DE-588-11917426X">Maria Josepha von Österreich</rs> bekannt geworden.</note> Cette réunion est
+
+<lb/>          encore bien loin, quoi que si necessaire, si l’on en doit juger par ce qui s’est
+<lb/> passé
+          dans nôtre <rs type="place" key="place_VER-bernka">Canton</rs>, où les coeurs les plus pacifiques ont été traittés
+<lb/> de perturbateurs du
+          repos public, par ceux là même qui devroient
+<lb/> se faire une gloire de les regarder comme
+          freres: Je suis un exemple digne de
+<lb/> memoire de l’<hi rend="u">odium Theologicum</hi>, la
+          posterité aura peine à croire que, dans une
+<lb/> <rs type="organisation">Academie</rs> entiere qui se pique de donner des
+          Loix en matiere de Religion,
+<lb/> il ne se soit pas trouvé une seule personne qui n’ait d’abord
+          pris à la lettre
+<lb/> mes <rs type="biblio" key="biblio_XZEQE9P8">nouvelles Maximes</rs>,<note type="comment" resp="pers_DE-588-117433391X"><rs type="person" key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</rs>,
+            Nouvelles maximes sur l’éducation des enfans, Amsterdam 1718 </note> et qui, pressé sur
+          l’absurdité de cette interpretation, ne
+<lb/> se soit enfin reduit à dire que l’ironie ne peut
+          être aperçue que par les plus
+<lb/> grans genies:<note type="comment" resp="SG">In den <hi rend="i">Nouvelles maximes</hi> kritisierte Crousaz zeitgenössische Erziehungspraktiken, indem er sie scheinbar empfahl und dadurch ihre Folgen vor Augen führte. Die Satire stiess bei Berner Theologen und Magistraten auf Anstoss; die Auseinandersetzung fiel in eine Zeit bereits bestehender Spannungen um die Formula Consensus. Zu Inhalt und Rezeption vgl. <rs type="biblio" key="biblio_22YT7WMD">Sylvie Moret Petrini</rs>, pp. 129–131.</note> Voila qui va de pair avec les Portugais, qui
+          mirent une
+<lb/> cavale à l’<rs type="organisation" key="org_resource_000010">Inquisition</rs><note type="comment" resp="SG">In einem weiteren Brief erläuterte Crousaz den Vergleich: Die portugiesische Inquisition habe eine Stute für eine Hexe gehalten. Die Vorlage dieser Erzählung ist bislang nicht ermittelt. Vgl. Crousaz an Firmin Abauzit, 4. August [1718], BCUL, IS 2024 I/103.</note>, et le <rs type="place" key="place_VER-schwyz">canton de Schwits</rs>, qui vouloit faire brûler des
+            marionettes.<note type="comment" resp="SG">In einem weiteren Brief schrieb Crousaz, die Einwohner von Schwyz hätten Marionetten für Teufel und den Puppenspieler für einen Zauberer gehalten. Eine ähnliche Geschichte über den Puppenspieler Brioché ist in einem Druck von 1704 überliefert; sie nennt jedoch keinen bestimmten Kanton. Ob Crousaz diese Erzählung kannte, ist nicht nachgewiesen. Vgl. Crousaz an Firmin Abauzit, 4. August [1718], BCUL, IS 2024 I/103; <hi rend="i">Combat de Cyrano de Bergerac avec le singe de Brioché</hi>, nachgedruckt in: Édouard Fournier (Hg.), <hi rend="i">Variétés historiques et littéraires</hi>, Bd. I, pp. 281–282.</note>
+<lb/> Oserai-je vous le dire, Monsieur,
+          et pourés vous le croire, ils ont hardiment
+<lb/> publié que dans l’Epitre dedicatoire de ma
+            <rs type="biblio" key="biblio_KSGKZ644">Geometrie</rs>,<note type="comment" resp="SG">In der Widmung seiner <rs type="biblio" key="biblio_KSGKZ644">Géométrie</rs> betonte Crousaz den Nutzen mathematischer Schulung für Theologen und Prediger: Sie fördere Genauigkeit und sichere Beweisführung. Er schränkte jedoch ausdrücklich ein, das Studium der Mathematik allein mache keinen ausgezeichneten Theologen. Vgl. <rs type="biblio" key="biblio_KSGKZ644">Géométrie</rs>, Widmung, pp. V–VII, bes. p. VI. Gegenüber Béat-Louis von Muralt erläuterte er später, er habe in der Widmung nur kurz den Nutzen des geometrischen Denkens für die Predigt erwähnt; daraus habe man ihm die Absicht unterstellt, den Zirkel an die Stelle der Heiligen Schrift zu setzen. Vgl. Crousaz an de Muralt, 26. August [1718], BCUL, IS 2024 I/109. Crousaz berichtete 1719, die Kritik an der Widmung habe ihn veranlasst, die wichtigsten Wahrheiten der Religion in Predigten darzulegen. Vgl. seinen <rs type="letter" key="B_991170514974405501">Brief an Johann I Bernoulli vom 26. September 1719</rs>.</note> j’insinuois
+          ouvertement
+<lb/> que les Predicateurs devoient instruire le compas à la main, et substituer
+          <rs type="person" key="pers_DE-588-118638955">Euclide</rs>
+<lb/> à l’<rs type="biblio">Ecriture S.<hi rend="sup">te</hi></rs> et que je ne pretendois pas moins qu’abolir
+          tous nos Mysteres.
+<lb/> Averti de tous ces bruits, je me suis rendu à <rs type="place" key="place_GEO-2661552">Berne</rs> pour expliquer mes
+          <rs type="biblio">ouvrages</rs> <pb facs="1074471" n="3"/>
+<lb/> à ceux qui ne les entendoient pas; mais à mon arrivée
+          j’ai trouvé que ceux
+<lb/> qui avoient fait le plus de bruit contre moi, avouoient qu’ils
+          n’avoient pas
+<lb/> encore lû mes <rs type="biblio">Livres</rs>. Vous ne sauriés jamais vous imaginer, Monsieur, la
+
+<lb/>          prodigieuse difference qu’il y a entre le <rs type="organisation">Clergé</rs> de cette <rs type="place" key="place_GEO-2661552">Capitale</rs> et le reste de
+<lb/> ses
+          habitans; il faut la voir de ses yeux pour la croire: Parmi ceux qu’on
+<lb/> apelle Politiques
+          il se trouve des gens d’une grande erudition et
+<lb/> une infinité d’un gout exquis, d’un
+          discernement trés juste, d’une conversation
+<lb/> charmante, également éloignés des vices et des
+          prejugés; si j’étois plus jeune,
+<lb/> il n’y a point de mouvement que je ne me donnasse pour me
+          procurer la
+<lb/> douceur de passer le reste de mes jours avec des esprits et des coeurs si bien
+          faits. Si
+<lb/> les affaires qu’un petit nombre de zelés tâchent de me susciter parviennent
+          jusqu’<pc type="hyphenation">-</pc><lb break="no"/>aux Journalistes, ils s’en feront une fête, et ne manqueront pas d’en regaler la
+
+<lb/>          Rep. des Lettres, à la gloire de qui le public en jugera, vous le devinés bien. Si
+<lb/> le
+          nombre de mes protecteurs ne passoit pas infiniment le nombre de ceux qui
+<lb/> me traversent,
+          il faudroit me rabatre uniquement sur les Mathematiques, encore
+<lb/> devrois je m’abstenir de
+          Preface et d’Epitre dedicatoire dans les ouvrages que je
+<lb/> donnerai sur ces matieres. Voila,
+          Monsieur, des nouvelles d’un genre bien nouveau.
+</p>
+        <closer>
+          <salute>
+<lb/> C’est avec l’estime la plus parfaite et
+          le zele le plus animé que j’ai l’honneur
+<lb/> d’être
+<lb/> Monsieur
+<lb/> Vôtre tres humble et tres
+
+<lb/>          obeïssant serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-100097413">
+<lb/>J. P. De Crousaz</rs> </signed>
+        </closer>
+      <pb facs="1074472" n="4" type="empty"/></div>
+
+
+    </body>
+  </text>
+</TEI>

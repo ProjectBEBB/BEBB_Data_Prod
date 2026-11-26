@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516899705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Jeremias Raillard. Ohne Ort, 24. Februar 1717</title>
+          <title type="alt">1717.02.24: Bernoulli, Nicolaus (1687-1759) an Raillard, Jeremias (1691-1744)</title>
+          <title type="alt">000059427</title>
+          <title type="alt">1717-02-24_Bernoulli_Nicolaus-Raillard_Jeremias</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516899705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516899705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Raillard, Jeremias (1691-1744)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Datum mit anderer Tinte nachgetragen</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39678">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.136:2v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516899705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433523305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059427</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>20</height><width>14,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1717-02-24">24. Febr. 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1717-02-24"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516899805501" type="prev"/>
+          <ptr target="B_991170516899605501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Raillard_Jeremias-NicIB" corresp="pers_DE-588-1132220874" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-05-11" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-03-13" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1362219/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1362220" n="1"/>
+  <note hand="pers_DE-588-135542286">Ad <rs key="pers_DE-588-1132220874" type="person">D. Raillardum</rs>.</note>
+  <opener><lb/><salute>Vir Clarissime et Doctissime, Amice plurimum honorande.</salute></opener>
+  <p><lb/>Vellem equidem et ego, ut occasio minus tristis Tibi affuisset,<del><gap/></del>
+      <lb/><rs type="letter">literis Tuis</rs> <add>me</add> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>veniendi, et ut <del><gap/></del>mihi animo magis l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>to responsio<pc type="hyphenation">-</pc><lb break="no"/>nem ad Te dare liceret. Sed quia Dei voluntate factum est, ut
+      <lb/>luctus <del><gap/></del><add>quem</add> ex morte <rs key="pers_DE-588-135542286" type="person">Parentis <add>mei</add></rs> concepi, Te participem esse<del><gap/></del>
+      <lb/>mihi <del><gap/></del>significares, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quum est, ut pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sentibus debita, sed tristi,
+      <lb/>gratiarum actione erga Te defungar. Rem <del><gap/></del>fecisti amico dign<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/>mihique gratissimam, dum <del><gap/></del><add>me monuisti</add> tanto luctu<add>i</add> <del><gap/></del>lacrymis, ut
+      <lb/>vere dicis, majori silentium <del><gap/></del>optime convenire, <add>dumque</add> mihi<del><gap/></del>
+      <lb/>ad justissimum dolorem aliquando vincendum fortem animum
+      <lb/><add>quo certe opus habeo</add> precatus es. Quod <del><gap/></del><add>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terea</add> tam honorifice de defuncto <rs key="pers_DE-588-135542286" type="person">Patre meo</rs>
+      <lb/>senseris, non minores ago gratias;<del><gap/></del> et
+      <lb/>est quod solatium mihi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>beat, si alii viri boni Tui similes et Pa<pc type="hyphenation">-</pc><lb break="no"/>tri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> amantes mecum lugeant, licet jactura quam fecit <rs key="place_VER-basela" type="place">Patria</rs>
+      <lb/><choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>si modo fecit<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> minime sit comparanda cum ea quam fecimus ego
+      <lb/>et <rs type="person">familia</rs> <del><gap/></del>mea. Parum enim prodesse potuit <abbr>Reip.</abbr> <rs key="pers_DE-588-135542286" type="person">Pater</rs>,
+      <lb/><del><gap/></del><add>cujus</add> voluntas <add>in Patriam prona</add>, <del><gap/></del><add>qualem</add> certe habuit, ob eam ipsam quam di<pc type="hyphenation">-</pc><lb break="no"/>cis corruptionem, s<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>pius successu caruit. At ego sane multum
+      <lb/>perdidi, et quotidie experior quam <del><gap/></del>rare reddant
+      <lb/>vulnus meum ea qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> dixisti negotia <add>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sertim</add> sub initium muneris<del><gap/></del>
+      <lb/><del><gap/></del>fastidiosa, absentia <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> propinquis, familiaribus et amicis,
+      <lb/>et vita, quam hic dego, fere solitaria. Vix enim est unus aut alter
+      <lb/>cum quo familiariter vivere possim, et plerique <rs type="person">Professores</rs> nostri
+      <lb/>mihi sunt barbari aut ego illis. In id tamen enitar, ut animum
+      <lb/>erigam et dolorem vincam.</p>
+  <closer>Tu autem Vale et literis Tuis primas
+      <lb/>secuturis exhilara amicum Tuum
+      <lb/><signed><rs key="pers_DE-588-119166895" type="person">NB.</rs></signed>
+  <dateline><date when="1717-02-24">24. <abbr>Febr.</abbr> 1717.</date></dateline>
+  </closer>
+</div>
+<div type="translation" xml:id="B_991170516899705501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1362220" n="1" /> <p>Hochangesehener und hochgelehrter Herr, sehr verehrter Freund!</p>
+<p>Auch ich wünschte, ein weniger trauriger Anlass hätte Dich dazu bewogen, mir mit Deinem Brief zuvorzukommen, und ich könnte Dir froheren Herzens antworten. Doch da es nach Gottes Willen so gekommen ist und Du mir Deine Anteilnahme an meiner Trauer um den Tod meines Vaters ausgesprochen hast, möchte ich Dir mit diesen Zeilen den gebührenden, wenn auch von Trauer erfüllten Dank abstatten. Du hast als wahrer Freund gehandelt und mir sehr wohlgetan: Du hast mich daran erinnert, dass angesichts einer so grossen Trauer, die, wie Du richtig sagst, selbst für Tränen zu tief ist, Schweigen am angemessensten sei. Zugleich hast Du mir die Kraft gewünscht, die ich tatsächlich brauche, um meinen nur allzu berechtigten Schmerz eines Tages zu überwinden. Nicht weniger danke ich Dir für die ehrenden Worte über meinen verstorbenen Vater. Es tröstet mich, wenn andere rechtschaffene und ihrer Heimat verbundene Männer wie Du mit mir trauern. Freilich lässt sich der Verlust, den das Gemeinwesen erlitten hat, sofern man überhaupt von einem solchen sprechen kann, keineswegs mit dem vergleichen, den meine Familie und ich erlitten haben. Mein Vater konnte dem Gemeinwesen nämlich nur wenig nützen: Sein Wille, sich für die Heimat einzusetzen, an dem es ihm gewiss nicht fehlte, blieb gerade wegen der von Dir erwähnten Verderbtheit allzu oft ohne Erfolg. Ich aber habe sehr viel verloren. Täglich erfahre ich, wie sehr all das, was Du genannt hast, meine Wunde <supplied>vertieft</supplied>: die lästigen Amtsgeschäfte, besonders zu Beginn einer neuen Tätigkeit, die Trennung von Verwandten, vertrauten Menschen und Freunden sowie das fast einsame Leben, das ich hier führe. Es gibt kaum einen oder zwei Menschen, mit denen ich vertrauten Umgang pflegen könnte. Die meisten unserer Professoren bleiben mir fremd, oder ich bleibe es ihnen. Dennoch will ich versuchen, wieder Mut zu fassen und den Schmerz zu überwinden.</p>
+<p>Du aber lebe wohl und erfreue durch weitere Briefe nach diesem ersten<lb type="forced"/>Deinen Freund<lb type="forced"/>N. B. 24. Februar 1717.</p></div>
+<div type="translation" xml:id="B_991170516899705501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1362220" n="1" /> <p>Distinguished and learned sir, my much-respected friend,</p>
+<p>I too wish that a less sorrowful occasion had prompted you to write before I did, and that I could answer you with a lighter heart. Yet since events have taken this course by God’s will, and you have expressed your sympathy in my grief at my father’s death, I must offer you in these lines the thanks I owe you, though they are filled with sadness. You acted as a true friend and gave me great comfort when you reminded me that silence best befits grief so great that, as you rightly say, it is beyond tears, and when you wished me the strength I certainly need to overcome, in time, a sorrow for which I have every reason. I am no less grateful for the honourable terms in which you spoke of my late father. It gives me comfort that other good men like you, devoted to their country, should mourn with me. Yet the loss suffered by the commonwealth, if indeed it has suffered one, cannot begin to compare with that suffered by my family and me. My father was able to do little for the commonwealth: his willingness to serve his country, which he certainly possessed, too often came to nothing because of the very corruption you mention. I, however, have lost a great deal. Every day I experience how much all the things you named <supplied>aggravate</supplied> my wound: the irksome business of office, especially on first taking up a post, separation from relatives, companions and friends, and the almost solitary life I lead here. There are scarcely one or two people with whom I can enjoy close companionship. Most of our professors are strangers to me, or I am a stranger to them. Nevertheless, I shall try to take heart and overcome my grief.</p>
+<p>Farewell, then, and let further letters following this first one cheer<lb type="forced"/>your friend<lb type="forced"/>N. B. 24 February 1717.</p></div>
+</body>
+</text></TEI>

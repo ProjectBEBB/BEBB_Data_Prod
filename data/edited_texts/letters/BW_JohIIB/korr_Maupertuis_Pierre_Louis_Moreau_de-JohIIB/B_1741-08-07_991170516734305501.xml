@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516734305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Louis Moreau de Maupertuis an Johann II Bernoulli. Paris, 07. August 1741</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516734305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516734305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+        <note type="relatedItem">
+          <p n="MARC-533">"Copie de lettre", siehe Signatur UBH L Ia 768:Bl.120-121</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136454">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 708:Bl.64</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516734305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433575205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058585</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Blatt (2 beschriebene S.)<dimensions unit="cm"><height>23,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>De Paris</origPlace>
+              <date when="1741-08-07">7 Aoust 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1741-08-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516734405501" type="prev"/>
+          <ptr target="B_991170516734205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Maupertuis_Pierre_Louis_Moreau_de-JohIIB" corresp="pers_DE-588-118731998" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117762210">Aiguillon, Anne-Charlotte de Crussol-Floren de</persName>
+            <note type="lebensdaten">(1700-1772)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913494">Battier, Dorothea</persName>
+            <note type="lebensdaten">(1704-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108991332X">Falkner, Dorothea</persName>
+            <note type="lebensdaten">(1673-1764)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-07-13" who="SG">Tagging</change>
+        <change when="2026-07-02" who="CG SG">Transkription</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3699772/manifest"/>
+</facsimile>
+<text>
+<body>
+  <div type="letter">
+  <p>
+<pb facs="3699773" n="64r"/>
+      <lb/>Enfin<supplied>,</supplied> mon cher amy<supplied>,</supplied> aprés bien des Aventures
+      <lb/>tant bones que mauvaises, me voicy de retour dans
+      <lb/>ma patrie d’<choice><orig>ou</orig><reg>où</reg></choice> on ne me fera pas sortir si facilment
+      <lb/>desormais. Tous les projets scientifiques ont abouti
+      <lb/>à me faire courir la pretantaine et enfin me faire
+      <lb/>prendre dans une Armée <choice><orig>ou</orig><reg>où</reg></choice> je ne devois point
+      <lb/>etre. <choice><orig>peut</orig><reg>Peut</reg></choice> etre tout cela ira<choice><orig> </orig><reg>-</reg></choice>t<choice><orig> </orig><reg>-</reg></choice>il mieux un jour, mais
+      <lb/>je ne crois pas qu<supplied>’</supplied><unclear>on</unclear> fasse grand chose en <rs type="place">prusse</rs> pour
+      <lb/>les sciences que la paix ne soit faitte, Alors je ne doute
+      <lb/>pas que l’Ardeur qu’a le <rs type="person">Roy</rs> pour la Gloire; se tourn<unclear>ant</unclear>
+      <lb/>vers cet objet, il ne puisse faire de grands etablissements
+      <lb/>à <rs type="place">Berlin</rs>: et nous verrons ce que deviendront toutes
+      <lb/>les paroles que <choice><abbr>S. M.</abbr><expan>Sa Majesté</expan></choice> m’a fait vous porter. Ce qu’il y a de
+      <lb/>seur c’est qu’un grand <rs type="person">Roy</rs> me <unclear>mettoit</unclear> à portée
+      <lb/>de vous procurer quel<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> place avantageuse, mes sentimens
+      <lb/>et mon ardeur pour vous servir ne feroient qu<supplied>’</supplied>eclater
+      <lb/>par <choice><orig>la</orig><reg>là</reg></choice>, mais <del><gap/></del>seroient toujours que les mesmes qu’il
+      <lb/>sert lors qu’ils demeurent les plus <choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>mportants et <unclear>les plus</unclear>
+      <lb/>steriles. Dittes la mesme chose <choice><orig>a</orig><reg>à</reg></choice> votre <rs type="person">frere</rs> à qui
+      <lb/>je n’ay pas le temps d<supplied>’</supplied>ecrire. <choice><orig>j</orig><reg>J</reg></choice>’ay <choice><orig>eté</orig><reg>été</reg></choice> depuis mon
+      <lb/>arrivée accablé d<supplied>’</supplied>un si grand nombre de <unclear><gap/></unclear>ittes,<del><gap/></del>
+      <lb/>que je n’ay pas eu un moment à moy. La cour, la ville
+      <lb/>tout s<supplied>’</supplied>est interessé a mon aventure, et m’ont fait voir
+<pb facs="3699774" n="64v"/>
+      <lb/>que j’aurois bien de la peine à trouver ailleurs ce que
+      <lb/>je trouva icy.</p>
+  <p><lb/>Adieu<supplied>,</supplied> mon cher amy<supplied>,</supplied> aimés moy toujours<supplied>,</supplied> faittes
+      <lb/>mes respects <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> votre <rs type="person">pere</rs> et <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.<hi rend="sup">es</hi></abbr> votre Mere et Soeu<unclear reason="lost">r.</unclear></p>
+  <p><lb/>Envoyés<choice><orig> </orig><reg>-</reg></choice>moy s’il vous plait 2 <abbr>Exempl.</abbr> par 2 postes
+      <lb/>consecutives de <rs type="biblio">l’origine des langues</rs> qui ne soyent
+      <lb/>point pliés que comme le doit etre la brochure afin
+      <lb/>qu’on les puisse rellier.</p>
+  <closer><lb/><dateline>De Paris <date when="1741-08-07">7 Aoust 1741</date>.</dateline></closer>
+  <postscript><p><lb/>Je pars demain pour aller passer 8 jours à <measure>80 lieues</measure>
+        <lb/>d<supplied>’</supplied>icy c’est un voyage que je n’ay peu refuser à <abbr>M.<hi rend="sup">e</hi></abbr>
+        <lb/>la Duchesse d’Aiguillon avec qui et chez qui je vas<supplied>.</supplied>
+        <lb/><choice><orig>je</orig><reg>Je</reg></choice> seray de retour aussitost que ma lettre<supplied>.</supplied></p></postscript>
+  </div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517022005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Rémond de Montmort. Basel, 02. April 1714</title>
+          <title type="alt">1714.04.02: Bernoulli, Nicolaus (1687-1759) an Montmort, Pierre Rémond de (1678-1719)</title>
+          <title type="alt">000059327</title>
+          <title type="alt">1714-04-02_Bernoulli_Nicolaus-Montmort_Pierre_Remond_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517022005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517022005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>fo.214v leer</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23448">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.213-214</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517022005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433682205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059327</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1714-04-02">ce 2. Avril. 1714</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1714-04-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517022205501" type="prev"/>
+          <ptr target="B_991170517021905501" type="next"/>
+
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120052539">Bignon, Jean Paul</persName>
+            <note type="lebensdaten">(1662-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Boursault, Père, Theatiner</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Faesch, Basler, der 1714 mit Joachim Lüdi in Paris ist</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914237">Lüdi, Joachim</persName>
+            <note type="lebensdaten">(1675-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155965140">Apoil de Romicourt, Françoise Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Vaillant, Buchhändler in London</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 2); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-04-25" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-04-25" who="SG FN">Kollationieren begonnen</change>
+        <change when="2025-04-08" who="SG">Tagging</change>
+        <change when="2024-11-07" who="RG">Lb/ eingefügt sowie kleinere Anpassungen</change>
+        <change when="2024-09-20" who="RG">pb eingefügt</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-06-27" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-05-05" who="MS">Platzhalter eingefügt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038743/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1038744" n="213r"/>
+  <opener>
+  <salute>
+      <lb/>Monsieur.
+  </salute>
+  </opener>
+  <p>
+      <lb/>Le porteur de la presente<supplied>,</supplied> <abbr>Mr.</abbr> <rs type="person">Fesch</rs> de <rs key="place_GEO-2661604" type="place">Bâle</rs><supplied>,</supplied> Vous remettra de ma
+      <lb/>part et de celle de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> un paquet, dans lequel il y a 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> exemplai<pc type="hyphenation">-</pc><lb break="no"/>res de l’<rs type="biblio" key="biblio_RTB4565Q">Essa<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> d’une nouvelle theorie de la man<choice><orig><g ref="#oe">œ</g></orig><reg>oe</reg></choice>uvre des Vaisseaux</rs>
+      <lb/>qui vient de sortir de la presse<choice><orig>,</orig><reg>;</reg></choice> Vous en garderés un pour Vous, et
+      <lb/>ferés tenir les deux autres<supplied>,</supplied> s’il Vous plait<supplied>,</supplied> à <abbr>Msr.</abbr> l’Abbé <rs key="pers_DE-588-120052539" type="person">Bignon</rs> et à
+      <lb/><abbr>Mr.</abbr> le Chevalier <rs key="pers_DE-588-102079056" type="person">Renau</rs>. J’a<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <choice><orig>recû</orig><reg>reçu</reg></choice> il y a peu de jours les deux exem<pc type="hyphenation">-</pc><lb break="no"/>plaires de Vôtre <rs type="biblio" key="biblio_69NKSR46">Livre</rs> et la <rs type="biblio" key="biblio_J9ET8WDV">Mechanique du feu</rs>, dont il Vous a plû
+      <lb/>me faire present, ce dernier <rs type="biblio">Livre</rs> est fort curieux, je Vous en re<pc type="hyphenation">-</pc><lb break="no"/>mercie infiniment aussi bien que de deux exemplaires de Vôtre <rs type="biblio" key="biblio_69NKSR46">Livre</rs><unclear reason="lost">,</unclear>
+      <lb/>j’en ai do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é un de Vôtre part à mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, qui Vous en fait ses tres
+      <lb/>humbles remerciments. Je croi qu’il sera inutile de Vous dire, com<pc type="hyphenation">-</pc><lb break="no"/>bien nous Vous so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es obligés<supplied>,</supplied> mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> et sur tout moy<supplied>,</supplied> de la men<pc type="hyphenation">-</pc><lb break="no"/>tion tres honorable que Vous faites de nous dans l’avertissement<note type="comment">Essay d’analyse, 1713, pp. xxv–xlij.</note>,
+      <lb/>j’espere, que Vous Vous persuaderés aisément, que nous en aurons
+      <lb/>toujours une parfaite reco<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oissance. Je n’ai pas eû le temps jusqu’
+      <lb break="no"/>à present de lire Vôtre <rs type="biblio" key="biblio_69NKSR46">nouvelle edition</rs> avec soin, je n’ai fait que
+      <lb/>la parcourir fort avidement. J’ai observé en passant quelque in<pc type="hyphenation">-</pc><lb break="no"/>exactitude page 99<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et <abbr>pag.</abbr> 400. Vous avés dit page 99<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> qu’on trou<pc type="hyphenation">-</pc><lb break="no"/>vera ma formule <add>du Pharaon</add> dans ma <rs key="B_991170517024105501" type="letter">Lettre</rs> du 26<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>fevr.</abbr> 1711<choice><orig>.</orig><reg>,</reg></choice> laquelle pour<pc type="hyphenation">-</pc><lb break="no"/>tant y est omise<choice><orig>,</orig><reg>;</reg></choice> Vous <choice><orig>auries</orig><reg>auriés</reg></choice> bien fait d’y inserer cette formule
+      <lb/>et les deux que j’ai données sur la <rs type="keyword">Bassete</rs>, Vous l’auriés pû faire
+      <lb/>sans toucher <del><gap/></del><add>le</add>s contestations que nous avons eû ensemble à l’oc<pc type="hyphenation">-</pc><lb break="no"/>casion de Vos petites formules <del><gap/></del><add>et</add> de celles de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, lesquelles
+      <lb/>Vous avés bien fait d’omettre. <rs type="biblio">Page 400<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs> avés Vous fait mention
+      <lb/>de <rs type="letter">trois de mes Lettres</rs><unclear reason="illegible">,</unclear> dont il me semble <choice><sic>ques</sic><corr>que</corr></choice> <choice><sic>le</sic><corr>les</corr></choice><note type="editorial">t.</note> dates sont
+      <lb/>mal posées, entre autres Vous faites mention d’une du <rs key="B_991170517023505501" type="letter">5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>sept.</abbr>
+      <lb/>1712</rs>, or il n’y a point de mes Lettres sous cette date dans Vôtre
+      <lb/><rs type="biblio" key="biblio_69NKSR46">livre</rs>. J’aurois aussi souhaité, que Vous m’eussié<add>s</add> averti de
+      <lb/>ce, que Vous avés <choice><orig>insere</orig><reg>inseré</reg></choice> dans Vos Lettres <abbr>pag.</abbr> 358<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et <abbr>pag.</abbr> 398<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+<pb facs="1038745" n="213v"/>
+      <lb/>et <abbr>suiv.</abbr> pour y pouvoir repondre quelque chose<choice><orig>,</orig><reg>;</reg></choice> je ne sçai ce que le Public en
+      <lb/>jugera, quand il verra que je suis muët sur tant de belles choses que Vous m’y
+      <lb/>avés dites; du moins n’auriés<choice><orig> </orig><reg>-</reg></choice>Vous pas mal fait de ne donner à mes réponses que
+      <lb/>le nom d’extrait, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous avés fait <rs type="biblio">page 401</rs><choice><orig>.</orig><reg>,</reg></choice> où vous avés mis un extrait de
+      <lb/>ma <rs key="B_991170517022605501" type="letter">lettre</rs> du 9.<hi rend="sup">me</hi> 7<hi rend="sup">bre</hi> 1713. Au reste<supplied>,</supplied> je ne puis qu’étre content de ce que
+      <lb/>Vous avés fait à mon égard. Je trouve Vôtre avertissement <abbr>extremem.<hi rend="sup">t</hi></abbr>
+      <lb/>bien fait<choice><orig>,</orig><reg>;</reg></choice> quand j’aurai du loisir<supplied>,</supplied> j’examinerai avec soin Vôtre <rs type="biblio">Livre</rs>.
+      <lb/>Outre les exemplaires du <rs type="biblio" key="biblio_RTB4565Q">livre</rs> de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> il y a dans le paquet le traité
+      <lb/>de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> <rs type="biblio"><choice><orig>de</orig><reg>De</reg></choice> arte combinatoria</rs>, les theses de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> <rs type="biblio" key="biblio_WIW87HR7"><choice><orig>de</orig><reg>De</reg></choice> nutritione</rs>,
+      <lb/>et les <rs type="biblio"><choice><orig>animadversiones</orig><reg>Animadversiones</reg></choice> de feu mon <rs key="pers_DE-588-118509950" type="person">oncle</rs> in <abbr>C.</abbr> <abbr>Geom.</abbr></rs><supplied>;</supplied> ce sont les seuls exemplaires
+      <lb/>que j’ai pû trouver. J’espere que Vous <del><gap/></del><add>aurés</add> enfin reçu le <rs type="biblio" key="biblio_WPXENY2H">traité de Arte
+      <lb/>Conjectandi</rs> avec le <rs type="biblio">Poeme François</rs> et le <rs type="biblio">Sermon funebre</rs> de feu mon <rs key="pers_DE-588-118509950" type="person">Oncle</rs>.
+      <lb/>Vous aurés aussi reçû ma <rs key="B_991170517022305501" type="letter">lettre</rs> du 20<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>fevr.</abbr> laquelle j’ai adressée à l’hôtel
+      <lb/>de Brac. Je vous y ai mandé entre autres que je voulois envoyer un
+      <lb/>exemplaire de Vôtre <rs type="biblio" key="biblio_69NKSR46">Livre</rs> à <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>, ce que je ferai quand j’au<pc type="hyphenation">-</pc><lb break="no"/>rai appris de Vous, que Vous Lui n’en avés pas deja envoyé un<choice><orig>,</orig><reg>;</reg></choice> Vous
+      <lb/>m’obligerés, si Vous voulés avoir la bonté de m’envoyer alors un ou
+      <lb/>deux autres exemplaires, pour en faire plaisir en cas de besoin à quel<pc type="hyphenation">-</pc><lb break="no"/>que ami. Je viens de recevoir tout presentement une tres longue
+      <lb/><rs type="letter" key="B_991170517024305501">lettre</rs> de <abbr>Mr.</abbr> de <rs key="pers_DE-588-117586765" type="person">Moivre</rs>, dans laquelle il m’écrit et promet mer<pc type="hyphenation">-</pc><lb break="no"/>veilles de la generalité de ses methodes, il donne une <rs type="biblio"><choice><sic>solutione</sic><corr>solution</corr></choice></rs>
+      <lb/>generale du Probleme de la poulle par ses methodes, il me dit
+      <lb/>qu’il avoit <del><gap/></del><add>inventé</add> une espéce particuliére d’algebre pour ces sor<pc type="hyphenation">-</pc><lb break="no"/>tes de Problemes, et il assure qu’il n’y a presque point de Pro<pc type="hyphenation">-</pc><lb break="no"/>bléme qui regarde le hazard, qu’il ne puisse reduire à des sui<pc type="hyphenation">-</pc><lb break="no"/>tes qui seront toujours so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ables, si le Probleme peut se resoudre
+      <lb/>par des nombres exacts. Je n’ai pas encore lû <rs type="biblio">sa solution</rs>
+<pb facs="1038746" n="214r"/>
+      <lb/>du Probleme de la poulle. Il promet une <rs type="biblio">nouvelle edition</rs> de son
+      <lb/>traité <rs type="biblio" key="biblio_B3FWTFFK"><choice><orig>de</orig><reg>De</reg></choice> mensura sortis</rs>, qu’il augmentera de beaucoup, il attend pour
+      <lb/>cela la <rs type="biblio">nouvelle edition de Vôtre Livre</rs>. Je Vous ferai part ici en con<pc type="hyphenation">-</pc><lb break="no"/>fidence de ce qu’il m’a ecrit touchant votre personne. Voici ce qu’il
+      <lb/>m’a repondu sur Vos remarques, que je lui avois co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquées. "Je ne m’<pc type="hyphenation"></pc><lb break="no"/>arréte point <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <rs type="organisation" key="org_DE-588-39272-8">Notre Societé</rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> Je viens de recevoir <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. obligeante<supplied>"</supplied><supplied>;</supplied>
+      <lb/>je trouve ici ajoutés aprés la <rs type="letter">lettre</rs> écrite ces mots: <hi rend="u">dans un sens</hi>, qui m’<pc type="hyphenation"></pc><lb break="no"/>ont fait rire. Je suis pressé de finir. Je prends la <choice><orig>liberte</orig><reg>liberté</reg></choice> de Vous recom<pc type="hyphenation">-</pc><lb break="no"/>mander le <rs type="person">po<add>r</add>teur</rs> de la presente, et toute sa compagnie, ce sont des jeunes
+      <lb/><rs type="person">gens</rs> des familles les plus considerables de <rs key="place_GEO-2661604" type="place">nôtre ville</rs>, et tous de mes amis, et
+      <lb/><abbr>Mr.</abbr> <rs type="person">Fesch</rs> en particulier<choice><orig>,</orig><reg>;</reg></choice> Vous m’obligerés si Vous pouvés faire quelque
+      <lb/>chose pour son plaisir, et lui procurer l’entrée dans quelques cabinets de me<pc type="hyphenation">-</pc><lb break="no"/>dailles dont il est fort curieux. Je fais mes treshumbles baisemains à <abbr>Mad.</abbr>
+      <lb/>de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs> et à tous <rs type="person">nos amis</rs>.
+  </p>
+  <closer>
+  <salute>Je suis de tout mon coeur, Monsieur, Vôtre <unclear><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></unclear>
+  </salute>
+  </closer>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> <abbr>Mr.</abbr> de <rs key="pers_DE-588-117586765" type="person">Moivre</rs> me mande, qu’il avoit<supplied>,</supplied> il y a <add>plus de</add> 10<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> mois<supplied>,</supplied> remis à <abbr>Mr.</abbr>
+        <lb/><rs type="person">Vaillant</rs> Libraire, et celui<choice><orig></orig><reg>-</reg></choice>ci au <abbr>P.</abbr> <rs type="person">Boursaut</rs> Theatin 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> exemplaires
+        <lb/>du <rs type="biblio">Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ercium</rs> destinés pour moi et adressés à Vous. Je Vous prie de
+        <lb/>Vous en informer. Un de la compagnie de <abbr>Mr.</abbr> <rs type="person">Fesch</rs><supplied>,</supplied> nommé <abbr>Mr.</abbr>
+        <lb/><rs key="pers_DE-588-1089914237" type="person">Ludin</rs><supplied>,</supplied> s’en retournera à <rs key="place_GEO-2661604" type="place">Bâle</rs> avant Pentecôte<choice><orig>,</orig><reg>;</reg></choice> si Vous avés
+        <lb/>quelque chose à m’envoyer, Vous pourrés le faire par cette
+        <lb/>occasion.
+    </p>
+  </postscript>
+  <closer>
+  <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1714-04-02">2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Avril<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1714</date>.
+  </dateline>
+  </closer>
+<pb facs="1038747" n="214v" type="empty"/>
+</div>
+
+
+</body>
+</text></TEI>

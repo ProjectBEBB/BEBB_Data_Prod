@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430378805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Joseph Nicolas de L'Isle an Daniel I Bernoulli. Paris, 21. Juni 1748</title>
+          <title type="alt">1748.06.21: L'Isle, Joseph Nicolas de (1688-1768) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000054846</title>
+          <title type="alt">1748-06-21_L_Isle_Joseph_Nicolas_de-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430378805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430378805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Delisle, Joseph Nicolas (1688-1768)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Paris Observatoire</repository>
+            <idno type="callNumber">Unbekannt</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430378805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406986105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054846</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A paris</origPlace>
+              <date when="1748-06-21">Le 21. Juin 1748</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117631655">L'Isle, Joseph Nicolas de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1748-06-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514632405501" type="prev"/>
+          <ptr target="B_991170430377605501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Delisle_Joseph_Nicolas-DanIB" corresp="pers_DE-588-117631655" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117623687">Bradley, James</persName>
+            <note type="lebensdaten">(1693-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10427252X">Calandrini, Jean Louis</persName>
+            <note type="lebensdaten">(1703-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11852092X">Clairaut, Alexis Claude</persName>
+            <note type="lebensdaten">(1713-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116821833">Grandjean de Fouchy, Jean Paul</persName>
+            <note type="lebensdaten">(1707-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117636169">Le Monnier, Pierre-Charles</persName>
+            <note type="lebensdaten">(1715-1799)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-14" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-06-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-06-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-06-11" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://bibnum.obspm.fr/iiif/2/11208/manifest"/>
+</facsimile><text>
+<body>
+
+
+
+
+<div type="letter">
+<pb facs="p1" n="1r"/>
+<opener><dateline>
+<lb/>A <rs key="place_GEO-2988507" type="place">Paris</rs> Le 21. Juin 1748
+</dateline>
+<salute>
+<lb/>A Monsieur <rs key="pers_DE-588-118656503" type="person">Daniel Bernoulli</rs>
+<lb/>à <rs key="place_GEO-2661604" type="place">Basle</rs>.
+Monsieur
+</salute></opener>
+<p>
+<lb/>Qoy qu’il y ait fort longtems que je vous ai donné
+<lb/>aucun signe de Vie, je vous prie d’etre persuadé
+<lb/>que vous ne m’en avez pas eté moins present à l’Esprist
+<lb/>depuis tant d’années que nous ne nous sommes point
+<lb/>Vûs ny Ecrit; vous n’avez pas ignoré ou du moins
+<lb/>vous avez bien dû vous douter de tous les embarras
+<lb/>que j’ay dû avoir à <rs key="place_GEO-498817" type="place">Petersbourg</rs>, avant d’en sortir
+<lb/>et vous pouvez bien vous imaginer l’occupation
+<lb/>que j’ay eû depuis mon retour à <rs key="place_GEO-2988507" type="place">Paris</rs> à renouveller
+<lb/>mes enciennes conoissances et en faire de nouvelles
+<lb/>dans l’accademie que j’ay trou vée presque toute
+<lb/>renouvellée; je lai Trouvé remplye de personnes
+<lb/>d’un merite distingué pleins de vigueur et avec
+<lb/>lesquels jl me paroitt fort aisé de vivre en
+<lb/>bonne union, et davoir une societé aussi agreable
+<lb/>qu’utile c’est ce qu’une plus longue experience Pourra
+<lb/>m’apprendre; jl ma aussi parû que mes enciennes
+<lb/><abbr>Connoissces.</abbr> etoient bien aises de mon retour; j’ay
+<lb/>retrouvé dans la plus part la meme Amitié
+<lb/>qu’ils ont ûs precedement pour moy. jl ne tiendra
+<lb/>pas à moy quelle ne se conserve tout le reste de ma
+<lb/>vie que je vais emploier à la Cultiver et à User
+<lb/>du Repos que je me procurerai pour moccuper
+<lb/><abbr>uniquemt.</abbr> de mon travail en profitant de toutes
+<pb facs="p2" n="1v"/>
+<lb/>les acquisitions que j’ai faites jusquici sans en avoir
+<lb/>pû encore presque pû enfaire {*} usage, un des meilleurs
+<lb/>moyens pour les publier me paroist etre de reprendre
+<lb/>ici le fil des memoires dont j’ay donné Le premier tome
+<lb/>à <rs key="place_GEO-498817" type="place">Petersbourg</rs> que vous n’avez pas désaprouvé. Sauf à donner
+<lb/>aussi dans les me- moires de l’accademie le prècis de ce
+<lb/>qu’il y aura de plus nou veau ou de plus utile; mais cela
+<lb/>ne paroit pas devoir m’empecher de publier des <abbr>mem.</abbr>
+<lb/>particuliers sur[l’]astronomie, la <abbr>Geogr.</abbr> et la <abbr>Phys.</abbr>
+<lb/>à l’instar de mon premier tome; d’autant plus que
+<lb/>Les matieres que je me propose de traiter me paroissent le
+<lb/>devoir etre avec plus d’etendüe &amp; de detail que les <abbr>mem.</abbr>
+<lb/>de l’<abbr>accad.</abbr> ne le peuvent comporter; je vous en entretiendrai
+<lb/>dans la suite; mais en <abbr>attendt.</abbr> jay l’honneur de Vous
+<lb/>en envoier une petite piece particuliere, que je ne sçai
+<lb/>comment je me suis engagé d’ecrire et de faire jmprimer;
+<lb/>quoy qu’il en soit j’ay crû <abbr>principalemt.</abbr> la devoir
+<lb/>soumettre à Votre Jugement; vous y verrez d’abord dans
+<lb/>quel Esprist elle á eté Ecrite jay û en cela plusieurs
+<lb/>vües que je n’ay pû detailler &amp; qui doivent concourit
+<lb/>à quelque avantage dans lastronomie <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. ce sera <abbr>principalemt.</abbr>
+<lb/>pour determiner prè cisement la parallaxe de la lune ou
+<lb/>sa distance à la terre lors que l’on aura des observations
+<lb/>fort precises de cette prochaine Eclipse du soleil dans
+<lb/>les lieux où elle sera annulaire; et jespe re que les
+<lb/>astronomes qui la verront telle, y feront tout ce qu’ils pourront
+<lb/>aprés l’avertissemt. que je leurs {*} en donne; je compte un
+<lb/>peu sur ceux de la Societé <abbr>R.</abbr> de <rs key="place_VER-preuss" type="place">Prusse</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c., mais prin cipalt.
+<lb/>sur <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117636169" type="person">Le Monnier</rs> qui ayant û envie depuis
+<pb facs="p3" n="2r"/>
+<lb/>Longtems d’aller en <rs key="place_VER-englan" type="place">Angleterre</rs>, a priscette occasion
+<lb/>pour se transporter en <rs key="place_VER-scotland" type="place">Ecosse</rs>, doù nous pouvons
+<lb/>parconsequent Esperer les plus Exac tes observations.
+<lb/>Vous verrez aussi par mon memoire de quel[le] utilité
+<lb/>pourés [sic!] etre les recherches plus precises que l’on
+<lb/>feroit sur les diametres apparens du soleil et de la lune et sur les
+<lb/>apparences Physiques qui accompagnent les Eclipses
+<lb/>du soleil, soit reelles ou artificielles; tout cela peut
+<lb/>servir à La Prèci sion de l’astronomie et je voudrois que
+<lb/>cela pût contribuer à faire connoître la Veritable
+<lb/>Cause de l’anneau Lumineux qui paroist dans les
+<lb/>Eclipses totales du soleil ou amoins à deter miner de quelle
+<lb/>maniere la lumiere agit pour produire cette ap parence
+<lb/>singuliere et les couleurs qui laccompagnent sans que
+<lb/>Lon y puisse soupçonner de refraction: à legard des
+<lb/>diametres apparens du soleil, outre ce que j’ay annoncé
+<lb/>dans mon avertis semt. p. 18. que je les avois observéz
+<lb/>jl y à 30 a ns avec de plus longues que L’on n’y en avoit
+<lb/>encore employé jusqualors; je voulois dire des
+<lb/>Lunettes de 15. et 20. pieds je me suis pre paré à
+<lb/>observer sur la fin de ce mois le diametre apogée du soleil avec une lunette
+<lb/>de 33. pieds et de le determiner Encore d’un[e] autre
+<lb/>maniere qui n’a pas encore etée pratiquée, et cela
+<lb/>afin de determiner autant qu’il me sera possible
+<lb/>ce que la differente Longueur des lunette[s] et les autres
+<lb/>Circon stances de l’observation et des Instrumens y doivent
+<lb/>produire. je vous menderai ce que j’aurai trouvé, je
+<lb/>serois bien aise quil y ut quelque mathematicien
+<lb/>ou astronome à <rs key="place_GEO-2661604" type="place">Vasle</rs> et dans les environs qui pût
+<lb/>observer Exactement l’Eclipse du soleil prochaine; je
+<pb facs="p4" n="2v"/>
+<lb/>vous prie de m’informer si <abbr>Mrs.</abbr> <rs key="pers_DE-588-10427252X" type="person">Calandrin</rs> <rs type="person">de Cheseaux</rs>
+<lb/>ou d’autres en veulent bien prendre la peine et la recommander
+<lb/>aux autres de leur <abbr>Connoissce.</abbr> dans lequel cas Vous
+<lb/>m’obligerés de vouloir bien en recueillir les principa les
+<lb/>observations pour me les envoyer. je vous marquerai
+<lb/>l’u sage que j’en ferais[sic!]. j’ay recu avec bien du plaisir
+<lb/>les complimens que vous m’avez fait faire par <abbr>M<hi rend="sup">r</hi>.</abbr>
+<lb/><rs key="pers_DE-588-11852092X" type="person">Clairaut</rs>; mais je [n’ai] pas eû alors le tems de vous Ecrire pour vous en
+<lb/>remer cier. Je vous fais en revanche les miens sur la
+<lb/>1 mort de <abbr>M<hi rend="sup">r</hi>.</abbr> Votre <rs key="pers_DE-588-118509969" type="person">Pere</rs>; j’ay eté faché que vous n’ayez
+<lb/>pas envoié à <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-116821833" type="person">de Fouchi</rs> les memoires qu’il vous avoit
+<lb/>demandé pour son Eloge; mais à ce deffaut, que vous
+<lb/>reparerez aisement par la suite, j’ay vû avec Plaisir celui
+<lb/>qui a eté mis dans le mercure Fran cois. aussitôt que
+<lb/>j’ay appris cette mort à la lecture de la lettre par
+<lb/>Laquelle vous en avez donné <abbr>connoissce.</abbr> à l’accade mie
+<lb/>j’ay souhaité et Esperé que lon vous y donnat sa
+<lb/>place d’associé Etranger et jay Eû la satisfaction
+<lb/>de voir dans l’Election qui s’en fit avanthier (le
+<lb/>19. Juin) que vous avez eu la Pluralité des voix. Votre Concurent
+<lb/>a eté <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117623687" type="person">Bradley</rs> qui aurá <abbr>apparemt.</abbr>
+<lb/>La 2e. Place vacante d’associé Etrenger. je vous prie
+<lb/>de me dire si la Bibliotheque Italique á eté con tinuée
+<lb/>au dela du 18e. <abbr>Vol.</abbr> qui a Parû en 1734 et si au deffaut
+<lb/>de ce journal il y en a û quelque autre qui luy á
+<lb/>succedé. Mon adresse est au <rs type="place">Colege Royal</rs> <rs type="place">place
+<lb/>Cambrai</rs> a <rs key="place_GEO-2988507" type="place">Paris</rs>.
+</p>
+<closer><salute>
+Je suis avec le plus sincere
+<lb/>attachement
+<lb/>Monsieur
+Votre tres humble et tres
+<lb/>obéissant Serviteur
+</salute>
+<signed>
+<lb/><rs key="pers_DE-588-117631655" type="person">De L’Isle</rs>
+</signed></closer>
+</div>
+</body>
+</text>
+</TEI>

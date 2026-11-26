@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517068105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 30. Juni 1741</title>
+          <title type="alt">1741.06.30: Bernoulli, Nicolaus (1687-1759) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000059077</title>
+          <title type="alt">1741-06-30_Bernoulli_Nicolaus-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517068105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517068105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Das Tagesdatum ist von "29." in "30." korrigiert</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23341">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.43r-43v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517068105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433685705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059077</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,75 S.<dimensions unit="cm"><height>21,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1741-06-30">ce 30. Juin 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1741-06-30"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517068405501" type="prev"/>
+          <ptr target="B_991170517067905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-NicIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542472">Bernoulli, Nikolaus</persName>
+            <note type="lebensdaten">(1687-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; Brieftext unverändert</change>
+        <change when="2026-05-21" who="SG FN">kollationieren abgeschlossen</change>
+
+        <change when="2026-04-24" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-07-21" who="RG">Code durchgeschaut, ergänzt, korr., zudem die Zeilenabstände des Genfer Exemplars angepasst</change>
+        <change when="2023-09-11" who="RG">Zeilabstände eingefügt, und &amp; ergänzt</change>
+        <change when="2023-09-11" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="0/45" n="65r"/>
+  <p>
+      <lb/>Voici, Monsieur, les articles que j’ai tirés des <rs type="biblio">cahiers</rs> de feu
+      <lb/>mon <rs type="person" key="pers_DE-588-118509950">Oncle</rs>, je Vous laisse le maitre d’en choisir ceux qui pour<pc type="hyphenation">-</pc><lb break="no"/>ront servir à augmenter ses Posthuma. J’aurois souhaité que
+      <lb/>j’eusse trouvé quelque chose de plus considerable, mais on n’écrit
+      <lb/>pas toujours pour les savants, il suffit qu’on instruise les moins
+      <lb/>avancés. J’avois cru pouvoir achever plutôt cet extrait, mais
+      <lb/>outre que fort souvent j’ai été obligé d’interrompre le travail,
+      <lb/>il m’a fallu plus de temps et plus de peine que je n’avois pensé
+      <lb/>pour examiner les calculs de mon <rs type="person" key="pers_DE-588-118509950">Oncle</rs>, pour dresser les remar<pc type="hyphenation">-</pc><lb break="no"/>ques que j’ai jointes à la fin de plusieurs articles, et pour faire
+      <lb/>par ci par là quelques petits changements. Si Vous, Monsieur,
+      <lb/>vouliés prendre la peine de joindre de semblables remarques
+      <lb/>à toutes les autres pieces, particulierement à celles qui seront
+      <lb/>tirées des <rs type="biblio">Actes de Leipsic</rs>, non seulement Vous rendriés un
+      <lb/>grand service au Public, mais Vous <choice><sic>ôtierés</sic><corr>ôteriés</corr></choice> à Messieurs de
+      <lb/><rs key="place_GEO-2879139" type="place">Leipsic</rs> le sujet de se plaindre, puisqu’alors ils ne pourroient
+      <lb/>pas dire, qu’on n’avoit fait que copier leurs <rs type="biblio">Actes</rs>. J’avois
+      <lb/>oublié de mettre sur la <rs type="biblio">Liste des Ouvrages</rs> de feu mon <rs type="person" key="pers_DE-588-118509950">Oncle</rs> celui
+      <lb/>qui avoit été composé le premier il y a passé 60<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> ans, savoir
+      <lb/><rs type="biblio">Tabulas Gnomonicas Universales</rs> avec leur explication. Je ne sai
+<pb facs="0/46" n="65v"/>
+      <lb/>pas pourquoi il n’a jamais executé le dessein qu’il avoit eu de les
+      <lb/>faire imprimer, ce seroit do<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>age si le grand travail qu’il a eu à
+      <lb/>calculer ces Tables alloit perir, mais cependant je ne croi pas que
+      <lb/><abbr>Mrs.</abbr> <rs type="person">Cramer</rs> et <rs type="person">Philibert</rs> les voudront imprimer avec les autres
+      <lb/>Ouvrages, puisqu’il seroit plus convenable de les imprimer à part
+      <lb/>dans un petit Volume in 8.<hi rend="sup">vo</hi><supplied>,</supplied> c’est ce que peut étre je ferai executer
+      <lb/>ici par un de nos Libraires. Je ne sai non plus s’il est à propos d’y
+      <lb/>joindre un autre <rs type="biblio">Ecrit</rs> de mon <rs type="person" key="pers_DE-588-118509950">Oncle</rs>, dont je croi que Vous avés une
+      <lb/>copie, savoir celui qui contient le denombrement de 33<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> lignes du
+      <lb/>3.<hi rend="sup">me</hi> ordre, dont les équations sont exprimées seulement par deux
+      <lb/>ou trois termes. Mon <rs type="person" key="pers_DE-588-135542472">Cousin</rs> le fils de feu de mon <rs type="person" key="pers_DE-588-118509950">Oncle</rs> m’a dit, qu’on
+      <lb/>lui avoit demandé une copie des Lettres de son <rs type="person" key="pers_DE-588-118509950">Pere</rs>. Il y a peu de
+      <lb/>chose dans ces lettres qu’on ne trouve déja dans les autres écrits, la
+      <lb/>plûpart du reste est ou peu considerable, ou regarde des personalités,
+      <lb/>que je ne serois pas d’avis de faire imprimer, tandis que certaines
+      <lb/>considerations (que peutétre Vous n’ignorés pas) subsisteront.
+  </p>
+  <closer>
+  <salute>
+      <lb/>Je Vous prie de faire mes complimens à <abbr>Mr.</abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> et d’étre
+      <lb/>persuadé, que je continue d’étre avec un attachement sincere<supplied>,</supplied>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Vôtre très humble et très-
+      <lb break="no"/>obeissant serviteur
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-119166895" type="person"><abbr>N<supplied>. </supplied></abbr>Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+  </signed>
+  <dateline>
+      <lb/>à <rs key="place_GEO-2661604" type="place">Bâle</rs> ce <date when="1741-06-30">30. Juin 1741</date>.
+  </dateline>
+  </closer>
+<pb facs="0/47" n="66r"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> On me feroit un plaisir de me renvoyer mon <rs type="biblio">écrit</rs>
+        <lb/>après l’avoir copié. Je Vous prie de corriger les Figures
+        <lb/>qui ne sont pas exactement tracées.
+    </p>
+  </postscript>
+<pb facs="0/48" n="66v" type="empty"/>
+</div>
+</body>
+</text></TEI>

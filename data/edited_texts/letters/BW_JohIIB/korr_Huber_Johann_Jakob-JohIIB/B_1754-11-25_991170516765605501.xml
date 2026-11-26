@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516765605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jakob Huber an Johann II Bernoulli.
+                        London, 25. November 1754</title>
+          <title type="alt">1754.11.25: Huber, Johann
+                        Jakob (1733-1798) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058454</title>
+          <title type="alt">1754-11-25_Huber_Johann_Jakob-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516765605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516765605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Huber, Johann Jakob (1733-1798) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-135604">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 696:Bl.165-166</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516765605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433577105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058454</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>22,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Londres</origPlace>
+              <date when="1754-11-25">25. Nov.
+                                1754</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="place_GEO-2643743" ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+          <date when="1754-11-25"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516765705501" type="prev"/>
+          <ptr target="B_991170452965305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-JohIIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-102620776">Grischow, Augustin Nathanael</persName>
+            <note type="lebensdaten">(1726-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119174596">La Caille, Nicolas Louis de</persName>
+            <note type="lebensdaten">(1713-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104234059">Lalande, Joseph Jérôme Le Français de</persName>
+            <note type="lebensdaten">(1732-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117636169">Le Monnier, Pierre-Charles</persName>
+            <note type="lebensdaten">(1715-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140645292">Wettstein, Johann Kaspar</persName>
+            <note type="lebensdaten">(1695-1760)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-11-28" who="RG">Grobe Ergänzungen, Zeilenabstände, PB-Einfügen, etc.</change>
+        <change when="2025-11-28" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-11-28" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-11-28" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3682367/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3682368" type="archival"/> <pb facs="3682369" type="archival"/> <pb facs="3682370" n="165r"/>
+
+  <opener>
+  <salute>
+      <lb/>Monsieur,
+  </salute>
+  </opener>
+  <p>
+      <lb/>Je suis sensible, comme je le dois, à l’honneur que vous me
+      <lb/>faites, de me proposer la place d’astronome dans l’<rs type="organisation">Academie
+      <lb/>Royale</rs> de <rs key="place_GEO-2950159" type="place">Berlin</rs>, sur ce que Monsieur de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>
+      <lb/>vous a demandé un sujet propre pour la remplir: je n’ai
+      <lb/>garde de rejetter les offres, que vous avez la bonté de me faire
+      <lb/>dans les termes les plus obligeants, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je les accepte avec d’autant
+      <lb/>plus de plaisir que, suivant ce que vous me dites, cela ne
+      <lb/>m’empechera pas de prolonger mon sejour à <rs key="place_GEO-2643743" type="place">Londres</rs>. Je
+      <lb/>souhaite de pouvoir remplir en son temps ma fonction d’Aca<pc type="hyphenation">-</pc><lb break="no"/>demicien d’une maniere qui reponde à vos attentes, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je
+      <lb/>vous promets, Monsieur, que je ne negligerai rien pour y
+      <lb/>parvenir.
+  </p>
+  <p>
+      <lb/>Comme vous ne faites aucune mention du temps, je suppose
+      <lb/>qu’on m’accorde la liberté de me retirer lorsque les circonstances
+      <lb/>le demanderont: il est bien sûr que je demeurerai aussi
+      <lb/>long-temps qu’il me sera possible, puisqu’en effet je serai
+      <lb/>là dans mon element, comme vous l’avez remarqué. Pour
+      <lb/>ce qui regarde les appointements, je ne puis mieux faire,
+      <lb/>Monsieur, que de m’en rapporter à vous, sachant combien
+      <lb/>vous avez mes interets à coeur; je vous prie donc de regler
+      <lb/>cet article, de même que celui des fraix du voyage, comme
+      <lb/>vous le jugerez convenable.
+  </p>
+<pb facs="3682371" n="165v"/>
+  <p>
+      <lb/>Puisque vous savez, Monsieur, que l’Etude de l’Astronomie
+      <lb/>exige, de celui qui la cultive, bien plus de dépenses que ne font
+      <lb/>d’autres Etudes, permettez moi de vous demander, s’il ne vous
+      <lb/>semble pas qu’on devroit avoir égard à cette difference dans les
+      <lb/>appointements des Academiciens: Si la chose vous paroissoit
+      <lb/>telle, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que vous voulussiez bien en marquer un mot à Monsieur
+      <lb/>de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>, je ne doute pas qu’il ne fut du même avis.
+  </p>
+  <p>
+      <lb/>Au reste, Monsieur, je vous fais mes très humbles remerciments
+      <lb/>de ce que vous voulez avoir la bonté de recommender ma perso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e
+      <lb/>en particulier à ce digne <rs key="pers_DE-588-118731998" type="person">President</rs> de l’<rs type="organisation">Academie</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de ce que
+      <lb/>vous vous interessez si genereusement pour moi dans toute cette
+      <lb/>affaire; je saisirai avec empressement toutes les occasions de
+      <lb/>vous en temoigner ma juste reconnoissance.
+  </p>
+  <closer>
+  <salute>
+      <lb/>J’ai l’honneur d’être très parfaitement,
+      <lb/>Monsieur,
+      <lb/>votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/>très obéissant serviteur,
+  </salute>
+  <signed>
+      <lb/><rs key="pers_DE-588-13763868X" type="person"><abbr>J.</abbr> <abbr>J.</abbr> Huber, fils</rs>.
+  </signed>
+  <dateline>
+      <lb/><rs key="place_GEO-2643743" type="place">Londres</rs>, le <date when="1754-11-25">25.<hi rend="sup">e</hi> Novembre
+      <lb/>1754</date>
+  </dateline>
+  </closer>
+<pb facs="3682372" n="166r"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> Je viens d’aprendre ici que l’Observatoire de <rs key="place_GEO-2950159" type="place">Berlin</rs> n’est
+        <lb/>pas bien fourni d’Instruments astronomiques: on me cita en
+        <lb/>preuve de cela, que M. <rs key="pers_DE-588-104234059" type="person">De la Lande</rs> avoit eté obligé de faire
+        <lb/>transporter un Quart-de-cercle de <rs key="place_GEO-2988507" type="place">Paris</rs> à <rs key="place_GEO-2950159" type="place">Berlin</rs>, pour faire en
+        <lb/>ce dernier endroit des Observations correspondantes à celles de
+        <lb/><abbr>M.</abbr> <rs key="pers_DE-588-119174596" type="person">De la Caille</rs> au <rs key="place_WEI-kaphof" type="place">Cap de bonne Esperance</rs>: Là-dessus je me
+        <lb/>souvins aussi d’avoir vu un Memoire de M. <rs key="pers_DE-588-117636169" type="person">le Monnier</rs>, parmi
+        <lb/>ceux de l’<abbr><rs type="organisation">Acad.</rs></abbr> de <rs key="place_GEO-2988507" type="place">Paris</rs> 1749, où il est dit, qu’avant les observations
+        <lb/>de <abbr>M.</abbr> <rs key="pers_DE-588-104234059" type="person">De la Lande</rs> il y avoit eu une erreur de 4 minutes dans la
+        <lb/>détermination de la latitude de <rs key="place_GEO-2950159" type="place">Berlin</rs>. Je suis sûr d’avoir
+        <lb/>déterminé la latitude de <rs key="place_GEO-2661604" type="place">Bâle</rs> plus exactement que cela, avec
+        <lb/>le petit Quart-de-cercle que j’ai fait faire, ainsi vous jugez bien,
+        <lb/>Monsieur, que je ne trouverois pas à <rs key="place_GEO-2950159" type="place">Berlin</rs> ce que je cherche;
+        <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je vous avouë que cela m’a fait de la peine: mais je fus
+        <lb/>bien consolé, lorsque j’apris de <abbr>Mons.<hi rend="sup">r</hi></abbr> le Chapelain <rs key="pers_DE-588-100704492" type="person">Wetstein</rs>,
+        <lb/>qu’on avoit chargé il-y-a quelques années un certain <abbr>M.</abbr> <rs key="pers_DE-588-102620776" type="person">Griscow</rs>,
+        <lb/>de faire emplette en <rs key="place_VER-englan" type="place">Angleterre</rs> d’Instruments astronomiques
+        <lb/>pour l’<rs type="organisation">Observatoire Royal</rs> de <rs key="place_GEO-2950159" type="place">Berlin</rs>; on me dit cependant que
+        <lb/>cela ne fut pas executé. Si l’on vouloit au jourd’hui me
+        <lb/>confier cette Commission, je me flate de l’effectuer d’une maniere
+        <lb/>qu’on en seroit content, puisque je connois tout ce qu’il-y-a de
+        <lb/>plus habile parmi les Artistes en ce genre.
+    </p>
+  </postscript>
+<pb facs="3682373" n="166v" type="empty"/>
+</div>
+</body>
+</text></TEI>

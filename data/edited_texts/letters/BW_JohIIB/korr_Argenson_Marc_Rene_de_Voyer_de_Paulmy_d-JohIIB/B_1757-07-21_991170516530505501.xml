@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516530505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Marc René de Voyer de Paulmy d'Argenson an Johann II Bernoulli. Les Ormes, 21. Juli 1757</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516530505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516530505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von der Hand Joh. III B.s: "(Réponse à la Lettre n°.17 Cayer A)"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-49800">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 677:Bl.186</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516530505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433445905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057946</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Aux Ormes St. Martin</origPlace>
+              <date when="1757-07-21">ce 21. juillet 1757</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116340134">Argenson, Marc René de Voyer de Paulmy d'</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4831342-7">Les Ormes</placeName>
+          <date when="1757-07-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516530605501" type="prev"/>
+          <ptr target="B_991170516530405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Argenson_Marc_Rene_de_Voyer_de_Paulmy_d-JohIIB" corresp="pers_DE-588-116340134" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Dank für ein teilnehmendes Schreiben</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-27" who="SG">Manuelle Prüfung der Transkription</change>
+        <change when="2026-06-01" who="NG">Korrigiert</change>
+        <change when="2026-05-08" who="NG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1588565/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1587192" n="186r"/>
+  <opener><dateline>Aux Ormes <rs type="place">St. Martin</rs> <date when="1757-07-21">ce 21. juillet 1757</date></dateline></opener>
+    <note type="archival" hand="unknown">(Réponse à la <rs type="letter">lettre no. 17. Cayer A.</rs>)</note>
+  <p>
+      <lb/>Les complimens d’un homme tel que vous, Monsieur,
+      <lb/>sont des conseils et des leçons <choice><orig>ou</orig><reg>où</reg></choice> je n’y ai qu’<choice><orig>a</orig><reg>à</reg></choice> profiter.
+      <lb/>J’ay connu les grandes places pour ce qu’elles etoient
+      <lb/>avant d’en etre honoré, j’ay desiré plus d’une fois
+      <lb/>la >transquilité et le repos avant de les avoir obtenus,
+      <lb/><choice><orig>J</orig><reg>j</reg></choice>’ay grand regret d’avoir deplû <choice><orig>a</orig><reg>à</reg></choice> mon maitre
+      <lb/><del><gap/></del>parceque je luy suis sincerement attaché.
+      <lb/><choice><orig>vous</orig><reg>Vous</reg></choice> pourrez d’apres cela, Monsieur, fixer vos idées
+      <lb/>sur ce que vous devez penser de ma situation, mais
+      <lb/>ce que vous ne pourrez jamais trop vous persuader,
+      <lb/>c’est la verité de ma reconnoissance des sentimens que
+      <lb/>vous me temoignez, le desir que j’ay de meriter
+      <lb/>toujours votre estime et la consideration avec laquelle
+      <lb/>je suis et je seray toute ma vie, Monsieur, votre
+      <lb/>tres humble et tres Obeissant Serviteur</p>
+
+  <closer><signed><abbr>M</abbr> d’Argenson</signed>
+
+    <note><abbr>M.</abbr> Bernoully <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Bâle</rs>.</note></closer>
+
+<pb facs="1587193" n="186v" type="empty"/>
+
+</div>
+</body>
+</text>
+</TEI>

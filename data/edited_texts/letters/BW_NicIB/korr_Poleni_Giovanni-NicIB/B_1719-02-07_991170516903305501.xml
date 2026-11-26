@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170516903305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Giovanni Poleni. Venedig, 07. Februar 1719</title>
+          <title type="alt">Nicolaus I Bernoulli an Giovanni Poleni. Venedig, 7. Februar 1719</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516903305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516903305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Poleni, Giovanni (1683-1761)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf demselben Blatt Brief an Poleni vom 20. Mai 1719. Auf jenen und nicht auf den vorliegenden Brief bezieht sich wohl der eigenhändige Vermerk am Kopf des Blattes "H. Michel. dictiert". Der Vermerk hat die gleiche Tinte wie der zweite Brief</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23480">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.283r oben</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516903305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433522005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059391</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>0,5 S.<dimensions unit="cm"><height>20,5</height><width>15</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Venezia</origPlace>
+              <date when="1719-02-07">7. Febbrajo 1718. Mor. Ven.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1719-02-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516903405501" type="prev"/>
+          <ptr target="B_991170516903205501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Poleni_Giovanni-NicIB" corresp="pers_DE-588-11887733X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ita">Italienisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-102552517">Michelotti, Pietro Antonio</persName>
+            <note type="lebensdaten">(1673-1740)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024" who="SG">erneut kollationiert</change>
+        <change when="2022-11-08" who="EK">transformation xml</change>
+        <change when="2005-12-12" who="FN SG">transkribiert und kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1039025/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039026" n="283r"/>
+  <opener>À <abbr>Mr.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs>.</opener>
+  <p>Hò ricevuto hieri il <rs type="letter">Letterone</rs> dentro il compitissimo <rs type="letter" key="B_991170516903405501">foglio</rs>
+      <lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill<supplied>.</supplied>ma</abbr><expan>Illustrissima</expan></choice>. Le rendo mille grazie della pronta spedizione
+      <lb/>del medesimo, e nel medesimo tempo la assicuro, che preme
+      <lb/>ugualmente à me la conservazione della salute di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill<supplied>.</supplied>ma</abbr><expan>Illustrissima</expan></choice>
+      <lb/>che della mia; la onde desidero di vederla non che di udirla
+      <lb/>ben presto liberata dal male (forse picciolo) che la aggrava.
+      <lb/>Il <abbr>Sig.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-102552517" type="person">Michelotti</rs> mi prega avanzi à <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> gli suoi rispet<pc type="hyphenation">-</pc><lb break="no"/>ti e la ringrazii degli suoi cortesi saluti, soggiungendomi le
+      <lb/>scriva essere egli desideroso di ubbidire alli di Lei comandi<supplied>.</supplied></p>
+  <closer>Lo stesso desiderio io nudrisco nell’animo mio e mi dichiaro
+      <lb/>con tutto il rispetto di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>S.</abbr><expan>Signoria</expan></choice> <choice><abbr>Ill<supplied>.</supplied>ma</abbr><expan>Illustrissima</expan></choice> <choice><abbr>Div<supplied>.</supplied><hi rend="sup">mo</hi></abbr><expan>Divotissimo</expan></choice> <abbr>Obblig.<hi rend="sup">mo</hi></abbr> <abbr>Serv.<hi rend="sup">re</hi></abbr> <rs key="pers_DE-588-119166895" type="person">NB</rs>.
+      <lb/><dateline><rs key="place_GEO-3164603" type="place">Venezia</rs> <date when="1719-02-07">7. Febbra<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>o<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1718<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <choice><abbr>Mor.</abbr><expan>More</expan></choice> <choice><abbr>Ven.</abbr><expan>Veneto</expan></choice></date></dateline></closer>
+</div>
+</body>
+</text></TEI>

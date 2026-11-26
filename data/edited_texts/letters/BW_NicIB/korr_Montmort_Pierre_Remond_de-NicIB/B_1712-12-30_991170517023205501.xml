@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517023205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Rémond de Montmort. Brüssel, 30. Dezember 1712</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517023205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517023205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Die Druckfassung in Pierre Remond de Montmorts Essay d'Analyse sur les Jeux des Hazard, 2. Aufl., Paris 1713, enthält auf pp.381-386 die im Entwurf nicht niedergeschriebenen Probleme. Nach dem Brieftext finden sich im Entwurf auf fo. 205v die Worte "Je vous envoye etc." sowie am Kopf der Seite vier Zeilen und das Datum "23. Janv. 1713" eines Briefes von Nic.I B. an Pierre Remond. Dessen Text ist dann ebenfalls abgedruckt in: Pierre Remond de Montmort, Essay d'Analyse sur les Jeux de Hazard, Paris (2) 1713, pp. 388-393</p>
+        </note>
+        <note type="print">
+          <p>Druck: Pierre Remond de Montmort, Essay d'Analyse sur les Jeux de Hazard, Paris (2) 1713, pp.375-381</p>
+        </note>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Druck</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Basel UB, L Ia 48:Bl.12-15</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23443">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.203v-205</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517023205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433678305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059312</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4,5 S.<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Brusselles</origPlace>
+              <date when="1712-12-30">le 30me xbre 1712</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2800866" ref="https://d-nb.info/gnd/4008460-7">Brüssel</placeName>
+          <date when="1712-12-30"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517023405501" type="prev"/>
+          <ptr target="B_991170517023305501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156687535">Cuvier de Montsoury, Pierre</persName>
+            <note type="lebensdaten">(-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+
+        <change when="2025-02-25" who="SG FN">Kollationieren fortgeführt</change>
+        <change when="2025-02-20" who="SG">Formeln vorbereitet.</change>
+        <change when="2025-02-20" who="SG FN">Kollationieren fortgeführt.</change>
+        <change when="2025-02-18" who="SG FN">Kollationieren begonnen. Die nur im Druck überlieferten Passagen wurden dabei noch ausgelassen.</change>
+        <change when="2025-02-18" who="SG">Weiter ab Druck pb und Zeilenfall eingefügt.</change>
+        <change when="2024-12-03" who="SG">ab Druck transkribiert, Zeilenfall eingefügt, getagt</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic xml:id="quelle1" url="https://www.e-manuscripta.ch/i3f/v20/1038700/manifest"/>
+  <graphic xml:id="quelle2" url="https://www.e-rara.ch/i3f/v20/2701373/manifest"/>
+</facsimile>
+<text>
+  <front><div type="editorialNote"><head>Editorische Vorbemerkung</head><p>Dieser Brief wurde anhand zweier Textzeugen ediert, da unsere Leithandschrift, ein Entwurf von Nic. I Bernoulli, Lücken aufweist. Die fehlenden Passagen sind in der gedruckten Version des Briefes überliefert, der in Montmorts zweiter Ausgabe des Essay d’analyse, 1713, pp. <ref target="https://www.e-rara.ch/zut/content/zoom/2701807">375–387</ref> abgedruckt ist. Es handelt sich um die Passage, die auf p. 377, Zeile 21 mit «de suivre la maxime» beginnt und p. 378, Zeile 21 mit «fausses, ce qui est impossible;» endet sowie dem letzten Teil des Briefes.  Diese Druckfassung basiert auf der mittlerweile verlorenen Abfertigung, die sich im Nachlass Montmorts befand. Aus dem Vergleich der erhaltenen Passagen mit der Druckversion wird deutlich, dass letztere nur sehr leicht von Bernoullis Original abweicht, da der Setzer unter Montmorts Aufsicht kleinere sprachliche Anpassungen vornahm. Die verlorenen Passagen wurden aus der Druckfassung ergänzt, im edierten Text integriert und entsprechend gekennzeichnet, um ihre Herkunft transparent zu machen. https://www.e-rara.ch/zut/content/zoom/2701807</p></div></front><body>
+<div type="letter">
+<pb facs="1038701" n="203v" source="#quelle1"/>
+
+  <p><lb/>Je n’ai <choice><orig>recû</orig><reg>reçu</reg></choice> Vôtre derniere <rs type="letter" key="B_991170517023505501">Lettre</rs><del><gap/></del> du <date when="1712-09-05"><hi rend="sup">5</hi> 7<hi rend="overline">bre</hi></date> que le <date when="1712-11-27">27<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> du mois
+      <lb/>de <del><gap/></del><add>Novembre</add></date>, elle avoit été envoyée à <rs key="place_GEO-2643743" type="place">Londres</rs> dans le temps de mon retour d’
+      <lb/><rs key="place_VER-englan" type="place">Angleterre</rs> en <rs key="place_VER-hollan" type="place">Hollande</rs>, <add>et <choice><orig>renvoyee</orig><reg>renvoyée</reg></choice> de <rs key="place_GEO-2643743" type="place">Londres</rs> en <rs key="place_VER-hollan" type="place">Hollande</rs></add><choice><orig>.</orig><reg>,</reg></choice> Ce long retardement a aussi fait retarder <del><gap/></del>ma reponse
+      <lb/>que voicy. Je <del><gap/></del>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ence par <del><gap/></del>ce qui regarde nôtre dispu<pc type="hyphenation">-</pc><lb break="no"/>te sur le <rs type="keyword">her</rs>. Je n’ai pas le même sujet, Monsieur, d’admirer et d’applaudir
+      <lb/>aux reponses de <abbr>Mr.</abbr> <rs key="pers_DE-588-115598157X" type="person">de Waldegrave</rs>, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e a fait <abbr>Mr.</abbr> l’<choice><orig>Abbe</orig><reg>Abbé</reg></choice> <rs key="pers_DE-588-1156687535" type="person">d’Orbais</rs><choice><orig>,</orig><reg>.</reg></choice><del><gap/></del>
+      <lb/>Je sçais tres bien que tous les raisonnements que
+      <lb/>Paul peut faire pour se determiner à un parti, Pierre les peut <seg type="transposition">aussi faire</seg>
+      <lb/><unclear>p</unclear>our tourner ce parti au desavantage de Paul, mais non obstant cela<supplied>,</supplied> je
+      <lb/><unclear>d</unclear>is que P<del><gap/></del><add>au</add>l ne fait pas si bien en <del><gap/></del>suivant la maxime de garder
+      <lb/>le sept<supplied>,</supplied> qu’en suivant la maxime de changer au sept; En voicy les raisons:
+      <lb/><unclear>S</unclear>’il etoit impossible de decider ce Probleme, Paul ayant un sept ne sçau<pc type="hyphenation">-</pc><lb break="no"/>roit quel parti prendre, et pour se debarrasser il se co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ettroit au pur
+      <lb/>hazard<choice><orig>,</orig><reg>;</reg></choice> par ex. il mettroit dans un sac un égal nombre de jetons blancs
+      <lb/><unclear>e</unclear>t de jetons noirs, dans le dessein de se tenir au 7 s’il tire un blanc,
+      <lb/><unclear>e</unclear>t de changer au sept, s’il tire un noir; Il mettroit<supplied>,</supplied> dis<choice><orig> </orig><reg>-</reg></choice>je<supplied>,</supplied> un égal nom<pc type="hyphenation">=</pc><lb break="no"/><unclear>b</unclear>re de blancs et de noirs, car s’il mettoit un nombre inegal<supplied>,</supplied> il seroit plus
+      <lb/>porté pour un parti que pour l’autre, ce qui est contre l’h<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>pothese;
+      <lb/>Pierre ayant un huict feroit la même chose pour voir s’il doit
+      <lb/>changer ou non. Or ch<add>a</add>que joueur Paul et Pierre ayant la maxime
+      <lb/>de se co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ettre ainsi au hazard, le sort de Paul sera <formula>\frac{774}{50 \cdot 51}</formula> qui est
+      <lb/>moindre que <formula>\frac{780}{50 \cdot 51}</formula>, qui est le sort de Paul lorsqu’il change au sept;
+      <lb/>D’où il suit que Paul prend un mauvais parti quand il se co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et au hazard,
+      <lb/>et qu’il a un meilleur sort en changeant au sept. Donc il est decidé que
+      <lb/>Paul doit changer au sept. En voicy une autre demonstration qui est fon<pc type="hyphenation">=</pc><lb break="no"/><unclear>dée</unclear> sur le cercle même <del><gap/></del>qu’on m’oppose. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e on peut toujours demontrer
+      <lb/><choice><orig>quel</orig><reg>quelque</reg></choice> parti que Paul prenne<supplied>,</supplied> que c’est un mauvais parti<supplied>,</supplied> et qu’il auroit mie<unclear reason="lost">ux</unclear>
+      <lb/>fait s’il eust pris le parti contraire, il vaut mieux de prendre le parti <choice><orig>ou</orig><reg>où</reg></choice>
+      <lb/>l’on risque le moins, or Paul en changeant au sept ne risque que <formula>\frac{36}{50 \cdot 51}</formula><supplied>,</supplied>
+<pb facs="1038702" n="204r" source="#quelle1"/>
+      <lb/>au lieu qu’en gardant le sept il risque <formula>\frac{60}{50 \cdot 51}</formula>, donc il vaut mieux de
+      <lb/>changer au sept. Le raiso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ement qui m’a conduit à la solution que je Vous ai en<pc type="hyphenation">-</pc><lb break="no"/>voyée dans ma <rs type="letter">Lettre</rs> du...<supplied>,</supplied><note type="editorial">In der gedruckten Fassung wurden die Auslassungspunkte durch «10 Novembre 1711» ersetzt.</note> n’est gueres different de celui que je viens de faire. Avant
+      <lb/>que de Vous l’exposer je veux que Vous m’accordiez ce qui suit: Je tiens pour
+      <lb/>demontré que si Paul se tient ou <choice><orig>a</orig><reg>à</reg></choice> la maxime de se tenir au sept, Pierre doit
+      <lb/>se tenir au huict; de même que si Paul se tient ou <choice><orig>a</orig><reg>à</reg></choice> la maxime de se tenir
+      <lb/>au huict seulement, Pierre doit changer au huict. Donc si l’on a demontré
+      <lb/>que Pierre doit ou se tenir au sept ou changer, on a aussi demontré que
+      <lb/>Pierre doit ou se tenir ou changer au huict; et si l’on est convaincu qu’
+      <lb/>il est vrai que Paul doit se tenir au sept<supplied>,</supplied> par <abbr>ex.</abbr><supplied>,</supplied> on est aussi convaincu
+      <lb/>qu’il est vray que Pierre doit se tenir au huict, mais on ne peut pas fai<pc type="hyphenation">=</pc><lb break="no"/>re le retour de Pierre à Paul, et en prenant pour fondement que Pierre
+      <lb/>se tient au huict, on ne peut pas<supplied>,</supplied> dis-je<supplied>,</supplied> en aucune maniere en tirer
+      <lb/>la conclusion, donc il est vray que Paul doit changer au sept; car
+      <lb/>s’il est certain que Paul doit se tenir au sept, je ne dois plus chercher
+      <lb/>par une autre voye ce qu’il doit faire, parceque je le sçai deja, <unclear reason="lost">et</unclear>
+      <lb/>un homme est ridicule, qui sçachant qu’il doit faire une chose,
+      <lb/>veut encore douter et chercher par d’autres voyes <choice><orig>si la</orig><corr>s’il la</corr></choice> doit faire
+      <lb/>ou non. Cela posé<supplied>,</supplied> voici co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent j’ai raisonné: Paul ayant le
+      <lb/>dessein <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701809" n="377" source="#quelle2"/>
+      <lb/><note type="editorial">Der folgende Abschnitt bis «donc il y a eu une faute dans le raisonnement» findet sich nicht in der Entwurfsfassung und wurde aus der gedruckten Version ab p. 377, Zeile 21 bis p. 378, Zeile 21, transkribiert.</note>
+      <lb/>de suivre la maxime de garder le sept, examine ce
+      <lb/>qui lui peut arriver de pis par rapport au parti que Pierre
+      <lb/>prendra; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il trouve que le pis est quand Pierre se tient
+      <lb/>au huit, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’alors son sort sera au sort de Pierre comme
+      <lb/>2828 à 2697, ou qu’en nommant l’argent du jeu I, son
+      <lb/>esperance sera <formula>\frac{2828}{5525}</formula>. Ensuite il examine aussi ce qui lui
+      <lb/>peut arriver de pis lorsqu’il suit la maxime de changer au
+      <lb/>sept, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il trouve que le pis est lorsque Pierre suit la maxi<pc type="hyphenation">-</pc><lb break="no"/>me de changer au huit, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’alors son sort sera aussi <formula>\frac{2828}{5525}</formula>:
+      <lb/>Donc le sort de Paul, en suivant la maxime de garder
+      <lb/>le sept, est au moins <formula>\frac{2828}{5525}</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il est quelque chose de plus
+      <lb/>lorsque Pierre suit la maxime de se tenir à une autre carte
+      <lb/>qu’à un huit. De même le sort de Paul, en suivant la maxi<pc type="hyphenation">-</pc><lb break="no"/>me de changer au sept est plus que <formula>\frac{2828}{5525}</formula>, lorsque Pierre
+      <lb/>a la maxime de se tenir à une autre carte qu’à un neuf:
+      <lb/>Donc le sort de Paul est toujours au moins <formula>\frac{2828}{5522}</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ce
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701810" n="378" source="#quelle2"/>
+      <lb/>qui le doit porter à suivre une maxime plûtôt que l’autre,
+      <lb/>est le risque que Pierre court en ne rencontrant pas juste.
+      <lb/>Or ce risque est plus grand lorsque Paul change au sept, que
+      <lb/>lorsqu’il se tient au sept: donc Paul doit changer au sept
+      <lb/>plûtôt que s’y tenir; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par consequent Pierre doit avoir la
+      <lb/>maxime de changer au huit; mais on ne peut pas re<pc type="hyphenation">-</pc><lb break="no"/>tourner de Pierre à Paul, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> dire; donc Paul doit avoir
+      <lb/>la maxime de garder le sept. Ce cercle choque la Logique,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> il est impossible qu’il soit un bon raisonnement: une pro<pc type="hyphenation">-</pc><lb break="no"/>position dont on tire une absurdité est fausse; or en tirer
+      <lb/>sa contradictoire est en tirer une absurdité; donc la pro<pc type="hyphenation">-</pc><lb break="no"/>position est fausse, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par consequent sa contradictoire est
+      <lb/>vraie. Or dans notre cas sa contradictoire ne sçauroit être
+      <lb/>vraie non plus, à cause du même cercle; donc ce cercle
+      <lb/>est ridicule <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un faux raisonnement. On tire de la propo<pc type="hyphenation">-</pc><lb break="no"/>sition <formula>A</formula> sa contradictoire <formula>B</formula>; donc la proposition <formula>A</formula> est
+      <lb/>fausse, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la proposition <formula>B</formula> est vraie. De même on tire de
+      <lb/>la proposition <formula>B</formula> sa contradictoire <formula>A</formula>; donc <formula>B</formula> est fausse <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>
+      <lb/><formula>A</formula> vraie; donc ce cercle démontre que deux propositions
+      <lb/>contradictoires sont <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> toutes deux vraies <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> toutes deux
+      <lb/>fausses, ce qui est impossible;
+<pb facs="1038702" n="204r" source="#quelle1"/>
+      <lb/>donc il y a une faute dans le raiso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ement, et je n’ai point
+      <lb/>eû tort <del><gap/></del><add>lorsque j<supplied>’</supplied>ai dit</add> que nos Messieurs supposent deux choses
+      <lb/>contradictoires à la fois en faisant le cercle. En un mot quand même
+      <lb/>il ne seroit pas vray que Paul fait mieux de changer que de s’y tenir,
+      <lb/>ce ne seroit pas <del><gap/></del>leur cercle qui le demontreroit. Je <choice><orig>croi</orig><reg>crois</reg></choice> que
+      <lb/>Vous tomberez d’accord de ceci<supplied>,</supplied> et tiendrez <del><gap/></del><add>cette</add> reponse<del><gap/></del> suffisante<del><gap/></del> au<unclear>x</unclear>
+      <lb/>objections <del><gap/></del>que <abbr>Mr.</abbr> <rs type="person">de W.</rs> et <abbr>Mr.</abbr> l<supplied>’</supplied>A. <rs key="pers_DE-588-1156687535" type="person">d<supplied>’</supplied> O.</rs> m’ont faites.
+      <lb/>Je salue tres humblement ces Messieurs et je les remercie de la bonne
+      <lb/>opinion qu’ils <del><gap/></del>ont de moy,  mais je Vous prie de leur dire et
+    de Vous ressouvenir aussi Vous même, que je Vous ai prié d’épargner Vos
+      <lb/>louange<unclear reason="lost">s</unclear>, quoiqu’il soit plus difficile de convaincre les gens du tort qu’ils <unclear reason="lost">ont</unclear>
+      <lb/><add><unclear reason="lost">qu</unclear>and ils nous</add> <del><gap/></del>attribu<del><gap/></del><add>e</add>nt des louanges indues, qu<del>’</del>e<del>n</del> quand ils soutienne<add>n</add>t <del><gap/></del><add>quelque chose</add>
+<pb facs="1038703" n="204v" source="#quelle1"/>
+      <lb/>en matiere de Philosophie que nous croyons être fausse, je ne veux pourtant
+      <lb/>pas étre obligé de faire le premier, il me suffit de les avoir repris une seule fois
+      <lb/>pour toutes.</p>
+  <p><lb/>Je suis bien aise que Vous ayez <choice><orig>recû</orig><reg>reçu</reg></choice> le <rs type="biblio">livre</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> de <rs type="biblio"><hi rend="u">Mensura sortis</hi></rs>; il
+      <lb/>est vray que <add>presque</add> tous les Problêmes qui y sont proposés sont resolus ou dans Vôtre
+      <lb/><rs type="biblio">Livre</rs> ou dans nos Lettres. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e je sçavois que <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> attendoit avec impa<pc type="hyphenation">-</pc><lb break="no"/>tience le jugement que Vous ferez sur son <rs type="biblio">Livre</rs>, j’ai pris la liberté de Luy en<pc type="hyphenation">-</pc><lb break="no"/>voyer les principales de Vos remarques. J’en toucherai icy quelques<choice><orig> </orig><reg>-</reg></choice>unes. Le <abbr>Prob.</abbr> 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> est un cas particulier du 2. qui est resolu <del><gap/></del>à la page
+      <lb/>177<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> de Vôtre <rs type="biblio">Livre</rs> dans le cas de <formula>a = b</formula>, et ainsi j’aimerois mieux <del><gap/></del>tirer
+      <lb/>la solution <del><gap/></del>du <abbr>Probl.</abbr> 1<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> de la formule generale <del><gap/></del>qui exprime
+      <lb/>tous les termes du binome <formula>a + b</formula> élevé à une puissance quelconque, que
+      <lb/>de la formule <choice><orig><formula>\overline{m-1}^{p-q}\times \frac{p\cdot p - 1\cdot p-2\cdot}{1 \cdot 2 \cdot 3},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>(m-1)^{p-q} \frac{p (p - 1) (p-2)\cdot}{1 \cdot 2 \cdot 3},\mathrm{\;etc.}</formula></reg></choice> Les limites que l’<rs type="person">Auteur</rs> donne
+      <lb/>pour les <abbr>Probl.</abbr> 5<choice><orig>.</orig><reg>,</reg></choice> 6<choice><orig>.</orig><reg>,</reg></choice> 7<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> sont <del><gap/></del><add>assés</add> justes quand <formula>q</formula> est un <seg type="transposition">grand
+      <lb/>nombre</seg><choice><orig>,</orig><reg>.</reg></choice> <del><gap/></del><add>N</add>ous sçavons d’ailleurs qu’on peut parier avec avantage d’ame<pc type="hyphenation">-</pc><lb break="no"/>ner <supplied rend="brackets">7</supplied> sonnés en 25 coups<supplied>,</supplied> et qu’il y auroit du desavantage de l’entrepren<pc type="hyphenation">-</pc><lb break="no"/>dre en 24 coups, or multiplions 35 qui est ici <add>la valeur de</add> <formula>q</formula> par <del><gap/></del><formula>0.693</formula> qui
+      <lb/>est le premier limite marqué par l’<rs type="person">Auteur</rs> et nous trouverons <formula>24.255</formula><supplied>;</supplied>
+      <lb/>je n’ai point <del><gap/></del>examiné les formules que Vous donnez à l’occasion du <abbr>Prob.</abbr> II<supplied>;</supplied>
+      <lb/>la remarque que Vous faites <del><gap/></del>qu’on peut trouver la solution generale
+      <lb/>de ce <abbr>Probl.</abbr> en cherchant les so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es des nombres figurés interposés
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e l’on voudra<supplied>,</supplied> est tres juste<choice><orig>,</orig><reg>;</reg></choice> j’aurois resolû ce Probleme par la
+      <lb/>meme maniére, <del><gap/></del><add>ou</add> par celle qui m’a servi à trouver les Problemes sur
+      <lb/><choice><sic>les</sic><corr>le</corr></choice> <rs type="keyword">Pharaon</rs> et la <rs type="keyword">Bassete</rs>, qui <del><gap/></del>ne sont qu’un cas particulier de
+      <lb/>celui<choice><orig> </orig><reg>-</reg></choice>ci<note type="editorial">In der Druckfassung steht hier zusätzlich «considéré généralement»</note>. Je ne croi pas qu’on puisse trouver la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de suites tels que<note type="editorial">pareilles à celles que</note>
+      <lb/><unclear>V</unclear>ous avez <del><gap/></del>données dans le <abbr>Coroll.</abbr> de la page 157<note type="editorial">Im Druck steht zusätzlich dazu eine Fussnote (Voyés page 218)</note>.</p>
+  <p><lb/><unclear>V</unclear>ous avez fort bien resolu les Problêmes des boulles <del><gap/></del><add>pour</add> les cas <note>im Druck: où</note>lorsqu’il
+      <lb/>manque un point à l’un des Joueurs, et à l’autre un <del><gap/></del>nombre de points quelconque<unclear>.</unclear>
+      <lb/>Je me souviens que <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> m’a dit lorsque j’etois à <rs key="place_GEO-2643743" type="place">Londres</rs><supplied>,</supplied> qu’il avoit
+      <lb/>la solution generale de ce Probleme<supplied>.</supplied> Le <abbr>Coroll.</abbr> 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <quote><hi rend="u"><foreign xml:lang="lat">Si dexteritates <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></foreign></hi></quote> n’est pas
+      <lb/><unclear>p</unclear>lus difficile que lorsqu’on suppose les forces égales; j’ai trouvé que si le
+      <lb/>nombre des boulles de Paul est <formula>m</formula>, le nombre des boulles de Pierre <formula>n</formula>, leurs
+      <lb/>forces co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <formula>a</formula> à <formula>b</formula>, la probabilité que Paul gagnera dans un seul tour
+<pb facs="1038704" n="205r" source="#quelle1"/>
+      <lb/>un nombre de points do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>é <formula>q</formula> <del><gap/></del>précisément ni plus ni moins<supplied>,</supplied> sera
+      <lb/><choice><orig><formula>\frac{nb}{\overline{m-q}\cdot a+nb} \times \frac{ma}{ma+nb} \times \frac{\overline{m-1}\cdot a}{\overline{m-1}\cdot a+nb} \times \frac{\overline{m-2}\cdot a}{\overline{m-2}\cdot a+nb} \times \frac{\overline{m-3}\cdot a}{\overline{m-3}\cdot a+nb} \times \mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{nb}{(m-q)\cdot a+nb} \, \frac{ma}{ma+nb} \, \frac{(m-1) a}{(m-1)\cdot a+nb} \, \frac{(m-2) a}{(m-2)\cdot a+nb} \, \frac{(m-3) a}{(m-3)\cdot a+nb} \cdot \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> il faut prendre aut<unclear reason="lost">ant</unclear>
+      <lb/>de produits qu’il y a d’unités dans <formula>q + 1</formula>.</p>
+
+  <p><lb/>Vôre formule <choice><orig><formula>q \cdot q-1 \cdot q-2 \,\mathrm{\&amp;c} \begin{array}{c}
+    p \\[-0.5em]
+    \mathrm{▭} \\[-0.5em]
+    q
+    \end{array}
+    \times \overline{f-q}^{p-q}</formula></orig><reg><formula>q  (q-1)  (q-2) \cdots {p \choose q} (f-q)^{p-q}</formula></reg></choice> <del><gap/></del>ou plus simplement <choice><orig><formula>\overline{f-q}^{p-q}</formula></orig><reg><formula>(f-q)^{p-q}</formula></reg></choice> multiplié par
+      <lb/>autant de produits <choice><orig><formula>p \cdot p-1 \cdot p-2 \cdot p-3\mathrm{\;\&amp;c.}</formula></orig><reg><formula>p  (p-1)  (p-2)  (p-3)\mathrm{\;etc.}</formula></reg></choice> qu’il y a d’unités dans <formula>q</formula>, pour exprimer <add>le nombre des cas</add> pour amener
+      <lb/>avec un nombre quelconque de dez<supplied>,</supplied> un <seg type="transposition">nombre <del><gap/></del><add>determiné</add></seg> de differentes faces ni plus ni moins,
+      <lb/>est tres juste, mais ce Probleme n’est pas le même que le 18. <abbr>Probl.</abbr> de <abbr>Mr<supplied>.</supplied></abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs>,
+      <lb/>car quand on se propose <del><gap/></del>d’amener par <abbr>ex.</abbr> en 8 coups un as et un deux, on
+      <lb/>a aussi gagné quand on amene plusieur<add>s</add> fois un as et un <choice><sic>dez</sic><corr>deux</corr></choice>, or ces cas sont exclus
+      <lb/>dans Vôtre Probléme. La proprieté que vous observez dans les bandes horizonta<pc type="hyphenation">-</pc><lb break="no"/>les<supplied>,</supplied> qu’elles servent pour exprimer tous les coups differents qu’il y a pour
+      <lb/>amener un nombre determiné de faces <del><gap/></del>differentes ni plus ni moins, est tres belle,
+      <lb/>on la tire aisement de la <abbr>prop.</abbr> 32<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> de Vôtre <rs type="biblio">Livre</rs></p>
+
+  <p><lb/>La methode de <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> <del><gap/></del>pour la durée des parties que l’on joue en
+      <lb/>rabattant est tres naturelle<del><gap/></del>, <del><gap/></del>et<del><gap/></del> fondée sur ce qu’il fa<unclear>u</unclear>t
+      <lb/>toujours retrancher les cas par lesquels il peut arriver qu’un des joueurs<unclear><del><gap/></del></unclear>
+      <lb/>gagne<del><gap/></del> les écus de l’autre, la methode quand le nombre des ecus de l’un et de
+      <lb/>l’autre est égal<supplied>,</supplied> n’est differente de celle qu’il employe quand le nombre de <unclear reason="lost">leurs</unclear>
+      <lb/>écus est inegal<supplied>,</supplied> que dans ce que qu’on fait dans la premiere deux operations à <unclear reason="lost">la</unclear>
+      <lb/>fois à cause de l’égalité qu’il y a de part et d’autre.</p>
+
+  <p><lb/>Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous souhaitéz fort de voir ma methode et mes demonstrations pour
+      <lb/>la poulle, j’ai differé un peu cette réponse, que je Vous aurois envoyé<add>e</add> <unclear>sans</unclear>
+      <lb/>cela de la <rs key="place_VER-hollan" type="place">Hollande</rs>, pour me donner le loisir de rappeller mes idées et d<unclear reason="lost">e</unclear>
+      <lb/>me mettre en état de Vus contenter entierement; <del><gap/></del><choice><sic>cest </sic><corr type="deleted"/></choice>cette solution
+    <del><gap/></del>des trois Problémes sur la poulle que Vous m’<choice><orig>aves</orig><reg>avés</reg></choice> proposés, <add>est une</add> que je prefere à tout ce que j’ai <choice><orig>trouve</orig><reg>trouvé</reg></choice>
+      <lb/>jusqu’ici dans ces matiéres.<note type="editorial">Diese stark korrigierte Passage wurde im Druck etwas anders umgesetzt, vermutlich gemäss der Abfertigung, die als Vorlage diente: «C’est cette solution des trois Problêmes que vous m’avés proposés sur la poulle que je préfere à tout ce que j’ai trouvé jusqu’ici dans ces matieres.»</note> Voici les raiso<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ements que j’ai faits pour
+      <lb/>venir à bout de ces trois Problemes<choice><orig>,</orig><reg>;</reg></choice> je vous les propose methodiqueme<unclear reason="lost">nt</unclear>
+      <lb/>et tout à long dans les 2 Tables suivantes,  pour me rendre plus i<unclear reason="lost">ntelli</unclear><pc type="hyphenation">-</pc><lb break="no"/>gible <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.  <hi rend="u">À <rs key="place_GEO-2800866" type="place">B<add>r</add>usselles</rs> le 30<hi rend="sup">me</hi> Xbre. <hi rend="sup">1712</hi></hi>.</p>
+
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701813" n="381" source="#quelle2"/>
+  <p>Probleme 1<note type="editorial">Nic. I B.s Ausführungen zu Probleme 1, 2, und 3 sind nur im Druck überliefert. In der vorletzten Zeile ist von «les deux tables suivantes» die Rede, auch diese sind nur im Druck erhalten, die erste auf p. 387 und die zweite auf p. 388.</note></p>
+
+  <p><lb/>Plusieurs Joueurs dont le nombre est <formula>n + 1</formula> jouent une poulle, on
+      <lb/>demande quelle est la probabilité que chacun
+      <lb/>a de gagner la poulle.</p>
+
+  <p><lb/>Solution. Soit appelé <formula>t</formula> l’esperance de gagner qu’a
+      <lb/>un des deux qui entrent les premiers au jeu, <formula>u</formula> l’esperance
+      <lb/>qu’a celui qui entre le second au jeu, <formula>x</formula> l’esperance du troi<pc type="hyphenation">-</pc><lb break="no"/>siéme, <formula>y</formula> celle du quatriéme, <formula>z</formula> celle du cinquiéme, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. Soit
+      <lb/>appellé de plus <formula>a</formula> l’esperance de gagner la poulle qu’a un
+      <lb/>Joueur qui entre au jeu, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui joue contre un qui n’a point
+      <lb/>encore gagné de parties; <formula>b</formula> l’esperance de celui qui entre au
+      <lb/>jeu <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qui joue contre un qui vient de gagner une partie; <formula>c</formula>
+      <lb/>l’esperance de celui qui joue contre un qui vient de gagner
+      <lb/>deux parties; <formula>d</formula> l’esperance de celui qui joue contre un qui
+      <lb/>vient de gagner trois parties, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> Soit appellé encore <formula>p</formula> le
+      <lb/>sort ou l’esperance de celui qui sort du jeu laissant un Joueur
+      <lb/>qui a gagné une partie; <formula>q</formula> le sort de celui qui sort du jeu
+      <lb/>laissant un Joueur qui a deux parties; <formula>r</formula> le sort de celui qui
+      <lb/>sort du jeu laissant un Joueur qui a trois parties, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> Ceci
+      <lb/>posé on aura les équations suivantes marquées N<hi rend="sup">o</hi> 1, N<hi rend="sup">o</hi>
+      <lb/>2, N<hi rend="sup">o</hi> 3, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> jusqu’à N<hi rend="sup">o</hi> 10 dans la Table 1<hi rend="sup">re</hi>. L’équation
+      <lb/>marquée N<hi rend="sup">o</hi> 1, est évidente; car les sorts ou les esperances
+      <lb/>de tous les Joueurs prises ensemble doivent faire 1 ou une
+      <lb/>certitude entiere: les autres équations se trouvent de la
+      <lb/>maniere que je vais expliquer. Entre les équations mar<pc type="hyphenation">-</pc><lb break="no"/>quées N<hi rend="sup">o</hi> 2, on trouve, par exemple <formula>z = \frac{1}{8} e + \frac{1}{8} d + \frac{1}{4} c</formula>
+      <lb break="no"/><formula>+ \frac{1}{2} b</formula>; car celui qui entre le cinquiéme au jeu jouera con<pc type="hyphenation">-</pc><lb break="no"/>tre un qui aura gagné ou 4, ou 3, ou 2, ou 1 partie; or
+
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701814" n="382" source="#quelle2"/>
+
+      <lb/>il y a <formula>\frac{2}{16}</formula> ou <formula>\frac{1}{8}</formula> à parier que l’un ou l’autre des deux premiers
+      <lb/>Joueurs gagne quatre parties de suite; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>\frac{1}{8}</formula> de probabi<pc type="hyphenation">-</pc><lb break="no"/>lité qu’il jouera contre un qui a gagné trois parties, <formula>\frac{1}{4}</formula>
+      <lb/>qu’il jouera contre un qui a gagné deux parties, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>\frac{1}{2}</formula>,
+      <lb/>qu’il jouera contre un qui a gagné une partie; donc son
+      <lb/>sort ou <formula>z = \frac{1}{8} e + \frac{1}{8} d + \frac{1}{4} c + \frac{1}{2} b.</formula> Entre les équations N<hi rend="sup">o</hi> 3,
+      <lb/>on trouve, par exemple, <choice><orig><formula>c = \frac{1}{2} r + \overline{\frac{1}{4} + \frac{1}{8} + \frac{1}{16}....}</formula><lb break="no"/><formula>\overline{\frac{1}{2^n}}\times p + \frac{1}{2^n} \times 1</formula></orig>
+        <reg><formula>c=\frac{1}{2}r+\left(\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot 1</formula></reg></choice>; car il y a <formula>\frac{1}{2}</formula> à parier qu’un Joueur qui en<pc type="hyphenation">-</pc><lb break="no"/>tre nouvellement au jeu ne gagnera aucune partie, <formula>\frac{1}{4}</formula>
+      <lb/>qu’il n’en gagnera qu’une, <formula>\frac{1}{8}</formula> qu’il n’en gagnera que deux, <formula>\frac{1}{16}</formula>
+      <lb/>qu’il n’en gagnera que trois, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <formula>\frac{1}{2^n}</formula> qu’il gagnera toutes les
+      <lb/>parties qu’il faut moins une, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> encore <formula>\frac{1}{2^n}</formula> qu’il gagnera
+      <lb/>toutes les parties qu’il faut; s’il n’en gagne aucune, il laisse
+      <lb/>un Joueur qui a gagné trois parties, puisqu’on suppose dans
+      <lb/>cet exemple qu’il joue contre un Joueur qui a déja gagné
+      <lb/>deux parties; s’il en gagne quelques-unes, mais non pas
+      <lb/>toutes celles qu’il lui faut, il sort du jeu, laissant un Joueur qui
+      <lb/>a gagné une partie; donc son sort ou <formula>c</formula> est <choice>
+        <orig>
+          <formula>= \frac{1}{2} r + \overline{\frac{1}{4} + \frac{1}{8}}</formula>
+          <lb break="no"/>
+          <formula>\overline{+ \frac{1}{16} +...\frac{1}{2^n}}\times p + \frac{1}{2^n} \times 1</formula></orig>
+        <reg>
+          <formula>=\frac{1}{2}r+\left(\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot 1</formula></reg></choice>. Les équations, N<hi rend="sup">o</hi> 4, se trou<pc type="hyphenation">-</pc><lb break="no"/>vent par un pareil raisonnement; car un Joueur qui sort du
+      <lb/>jeu laissant, par exemple, un Joueur qui a gagné une par<pc type="hyphenation">-</pc><lb break="no"/>tie, acquiert l’esperance ou de celui qui entre le second
+      <lb/>au jeu, ou de celui qui entre le troisiéme, ou de celui qui
+      <lb/>entre le quatriéme, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> selon que le Joueur qu’il a laissé
+      <lb/>au jeu gagne ou une, ou deux, ou trois, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. parties
+      <lb/>moins qu’il ne lui faut pour gagner la poulle. Les
+      <lb/>équations, N<hi rend="sup">o</hi> 5, se trouvent par la soustraction des équa<pc type="hyphenation">-</pc><lb break="no"/>tions N<hi rend="sup">o</hi> 3; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> celles N<hi rend="sup">o</hi> 6, par la soustraction des équations
+      <lb/>N<hi rend="sup">o</hi> 4. Les équations, N<hi rend="sup">o</hi> 7 se trouvent en substituant
+      <lb/>dans les équations, N<hi rend="sup">o</hi> 5, les valeurs trouvées dans les
+      <lb/>équations N<hi rend="sup">o</hi> 6. Les équations, N<hi rend="sup">o</hi> 8, se trouvent en cher<pc type="hyphenation">-</pc><lb break="no"/>chant les valeurs de <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <choice><orig><formula>d,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>d,\mathrm{\;etc.}</formula></reg></choice> par les équations N<hi rend="sup">o</hi> 2;
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ces valeurs étant substituées dans les équations N<hi rend="sup">o</hi> 5,
+      <lb/>on aura les équations N<hi rend="sup">o</hi> 9, qui étant comparées avec
+
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701815" n="383" source="#quelle2"/>
+
+    les équations N<hi rend="sup">o</hi> 7, donnent les équations N<hi rend="sup">o</hi> 10, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ces dernières équations fournissent mon premier Théorème.
+
+    Problême 2
+
+    Étant posé ce que dans le Problême précédent, on demande quel
+    est l’avantage ou le désavantage de chaque Joueur.
+
+    Solution. Comme je me suis servi des lettres <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <choice><orig><formula>d,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>d,\mathrm{\;etc.}</formula></reg></choice>, <formula>p</formula>, <formula>q</formula>, <formula>r</formula>, <choice><orig><formula>s,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>s,\mathrm{\;etc.}</formula></reg></choice>, <formula>t</formula>, <formula>u</formula>, <formula>x</formula>, <formula>y</formula>, <choice><orig><formula>z,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>z,\mathrm{\;etc.}</formula></reg></choice>, pour exprimer les différentes probabilités que les Joueurs ont de gagner selon les différents états dans lesquels ils se peuvent trouver; ainsi je me servirai des mêmes lettres majuscules <formula>A</formula>, <formula>B</formula>, <formula>C</formula>, <choice><orig><formula>D,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>D,\mathrm{\;etc.}</formula></reg></choice>, <formula>P</formula>, <formula>Q</formula>, <formula>R</formula>, <choice><orig><formula>S,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>S,\mathrm{\;etc.}</formula></reg></choice>, <formula>T</formula>, <formula>U</formula>, <formula>X</formula>, <formula>Y</formula>, <choice><orig><formula>Z,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>Z,\mathrm{\;etc.}</formula></reg></choice>, pour exprimer la portion que chaque Joueur peut prétendre dans ces différents états. Je suppose aussi qu’on ne met au jeu que lorsqu’on vient de perdre contre un Joueur, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> j’appelle cette mise <formula>1</formula>. En suivant des raisonnements semblables à ceux qu’on a faits dans le Problême précédent, on aura les équations marquées N<hi rend="sup">o</hi> 1, N<hi rend="sup">o</hi> 2, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c., jusqu’à N<hi rend="sup">o</hi> 13 de la Table <hi rend="sup">2ᵉ</hi>. Dans les équations N<hi rend="sup">o</hi> 2, on a, par exemple, <choice><orig><formula>Y = \frac{1}{4} D + \frac{1}{4} \times \overline{C + c} +</formula><lb break="no"/><formula>\frac{1}{2} \times \overline{B + 2b}</formula></orig><reg><formula>Y = \frac{1}{4} D + \frac{1}{4}(C + c) + \frac{1}{2}(B + 2b)</formula></reg></choice>; car si celui qui entre le quatrième au jeu est obligé de jouer contre un qui a gagné trois parties, son espérance est <formula>D</formula>; s’il est obligé de jouer contre un qui a gagné deux parties, son espérance est <formula>C + c</formula>; j’ajoute <formula>c</formula> à <formula>C</formula>, puisque celui qui entre le quatrième trouve trois écus mis au jeu, au lieu que <formula>C</formula> est l’espérance de celui qui joue contre un Joueur qui a deux parties dans la supposition qu’il n’y ait que deux écus au jeu; car les lettres <formula>A</formula>, <formula>B</formula>, <formula>C</formula>, <formula>D</formula>, <choice><orig><formula>E,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>E,\mathrm{\;etc.}</formula></reg></choice>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>P</formula>, <formula>Q</formula>, <formula>R</formula>, <choice><orig><formula>S,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>S,\mathrm{\;etc.}</formula></reg></choice>, signifient les sorts des Joueurs dans les premières entrées <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> sorties. Il faut donc ajouter à <formula>C</formula> la portion qu’il peut prétendre de cet écu de surplus; ou comme dans cet état la probabilité de gagner la poulle ou de gagner cet écu, est <formula>c</formula>, cette portion fera <choice><orig><formula>c \times 1</formula></orig><reg><formula>c \cdot 1</formula></reg></choice>.
+
+    Ainsi s’il joue contre un Joueur qui n’a gagné qu’une partie, il faut ajouter à l’espérance <formula>B</formula> encore <formula>2b</formula>, car il trouve deux écus de plus au jeu que ne trouve celui qui joue contre
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701816" n="384" source="#quelle2"/>
+    un Joueur qui a gagné une partie, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la probabilité de gagner ces deux écus est <formula>b</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par conséquent la portion qu’il peut prétendre est <choice><orig><formula>b \times 2</formula></orig><reg><formula>b \cdot 2</formula></reg></choice>. Le raisonnement qu’on fait pour les équations N<hi rend="sup">o</hi> 3 <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> N<hi rend="sup">o</hi> 4 est tout à fait pareil à celui qu’on vient de faire pour celles de N<hi rend="sup">o</hi> 2, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’on a fait pour les équations N<hi rend="sup">o</hi> 3 <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> N<hi rend="sup">o</hi> 4 du Problême précédent. Les équations N<hi rend="sup">o</hi> 5 <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> N<hi rend="sup">o</hi> 6 se trouvent comme dans le Problême précédent. Les équations N<hi rend="sup">o</hi> 7 se trouvent en substituant la première équation de N<hi rend="sup">o</hi> 3, Table 1<hi rend="sup">re</hi>, dans les équations N<hi rend="sup">o</hi> 5. Les équations N<hi rend="sup">o</hi> 8 se trouvent en substituant la première équation de N<hi rend="sup">o</hi> 4, Table 1<hi rend="sup">re</hi>, dans les équations N<hi rend="sup">o</hi> 6. Les équations N<hi rend="sup">o</hi> 9 se trouvent en substituant les équations N<hi rend="sup">o</hi> 8 dans les équations N<hi rend="sup">o</hi> 7. Les équations N<hi rend="sup">o</hi> 10 se trouvent en cherchant les valeurs de <formula>A</formula>, <formula>B</formula>, <formula>C</formula>, <choice><orig><formula>D,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>D,\mathrm{\;etc.}</formula></reg></choice> par les équations N<hi rend="sup">o</hi> 2 de la Table 1<hi rend="sup">re</hi> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 2, ou N<hi rend="sup">o</hi> 2 de la Table 2<hi rend="sup">e</hi>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> N<hi rend="sup">o</hi> 8 de la Table 1<hi rend="sup">re</hi>; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ces valeurs étant substituées dans les équations N<hi rend="sup">o</hi> 5, on a les équations N<hi rend="sup">o</hi> 11, qui comparées avec les équations N<hi rend="sup">o</hi> 9, forment les équations N<hi rend="sup">o</hi> 12; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ces équations N<hi rend="sup">o</hi> 12, comparées avec les équations N<hi rend="sup">o</hi> 10 de la Table 1<hi rend="sup">re</hi>, donnent les équations N<hi rend="sup">o</hi> 13, qui fournissent mon second Théorème.
+  </p>
+
+  <p>
+    Problême 3
+
+    Étant posé ce que ci-devant, on demande quelle probabilité il
+    y a que la poulle sera gagnée précisément après
+    un nombre de coups donné.
+
+    Solution. Soient exprimées par cette suite de lettres <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <formula>d</formula>, <formula>e</formula>, <choice><orig><formula>f,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>f,\mathrm{\;etc.}</formula></reg></choice> les probabilités qu’il y a que la poulle sera finie précisément en <formula>n</formula>, <formula>n + 1</formula>, <formula>n + 2</formula>, <choice><orig><formula>n + 3,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>n + 3,\mathrm{\;etc.}</formula></reg></choice> coups. Il est évident qu’il faut au moins <formula>n</formula> coups, puisqu’il faut gagner <formula>n</formula> parties de suite, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que la probabilité pour qu’un des deux premiers Joueurs gagne d’abord les <formula>n</formula> parties est <formula>\frac{1}{2^{n-1}}</formula>; car il y a pour chacun des deux premiers Joueurs <formula>\frac{1}{2^n}</formula> à parier; donc <formula>a</formula> sera <formula>=\frac{1}{2^{n-1}}</formula>. Les valeurs des autres lettres se trouvent toutes d’une même manière; par exemple, le sixième terme <formula>f</formula> est égal à <formula>\frac{1}{2}e + \frac{1}{4}d + \frac{1}{8}c</formula>
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701817" n="385" source="#quelle2"/>
+    <choice><orig><formula>+\frac{1}{16}b + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>+\frac{1}{16}b + \mathrm{\;etc.}</formula></reg></choice> où il faut toujours prendre autant de termes précédents qu’il y a d’unités dans <formula>n - 1</formula>; d’où il suit que le premier terme étant donné, on aura tous les suivants. J’en donnerai la démonstration dans un exemple particulier, parce que ce sera la même pour tous les autres cas. Soit, par exemple, le nombre des Joueurs <formula>=5</formula>; on demande quelle probabilité il y a que le jeu sera fini en dix coups précisément. Il est évident que celui qui doit gagner la poulle au 10<hi rend="sup">e</hi> coup, doit entrer au jeu après le 6<hi rend="sup">e</hi> coup, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> qu’il doit gagner quatre coups de suite. Or il peut entrer au jeu trouvant un Joueur qui a gagné ou <formula>1</formula>, ou <formula>2</formula>, ou <formula>3</formula> parties; s’il trouve un Joueur qui ait gagné une partie, il y a autant à parier que la poulle sera décidée au 9<hi rend="sup">e</hi> coup, qu’il y a à parier après qu’il a vaincu son adversaire qu’il la gagnera lui-même au 10<hi rend="sup">e</hi> coup; donc avant qu’il ait gagné son adversaire la probabilité qu’il gagnera la poulle sera la moitié de cette espérance, c’est-à-dire <formula>\frac{1}{2} f</formula> (j’appelle <choice><orig><formula>g, f, e, d, c,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>g, f, e, d, c,\mathrm{\;etc.}</formula></reg></choice>, la probabilité qu’on gagnera la poulle au 10<hi rend="sup">e</hi>, 9<hi rend="sup">e</hi>, 8<hi rend="sup">e</hi>, 7<hi rend="sup">e</hi>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. coup). Si l’on trouve en entrant au jeu un Joueur qui a deux parties, il y a autant à parier que son adversaire entrera au 8<hi rend="sup">e</hi> coup, qu’il y a à parier après qu’il aura vaincu deux de ses adversaires, qu’il gagnera lui-même au 10<hi rend="sup">e</hi> coup, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> comme la probabilité qu’il gagne deux Joueurs de suite est <formula>\frac{1}{4}</formula>, la probabilité qu’il gagnera la poulle au 10<hi rend="sup">e</hi> coup sera dans ce cas-ci <formula>=\frac{1}{4}e</formula>. Si en entrant au jeu il trouve un Joueur qui ait gagné trois parties, il y a autant à parier que son adversaire gagnera au 7<hi rend="sup">e</hi> coup, qu’il y aura à parier qu’après avoir gagné ses trois premiers adversaires, il gagnera encore le quatrième. Or il y a <formula>\frac{1}{8}</formula> à parier qu’il gagne trois adversaires de suite; donc sa probabilité de gagner la poulle au 10<hi rend="sup">e</hi> coup dans ce cas-là sera <formula>=\frac{1}{8}d</formula>; donc toutes ces trois probabilités prises ensemble font <formula>g = \frac{1}{2} f + \frac{1}{4} e + \frac{1}{8} d</formula>;
+
+    Ce qu’il falloit démontrer. On démontre de la même manière que <formula>f = \frac{1}{2}e + \frac{1}{4}d + \frac{1}{8}c</formula>; <formula>e = \frac{1}{2}d + \frac{1}{4}c + \frac{1}{8}b</formula>; <formula>d = \frac{1}{2}c + \frac{1}{4}b + \frac{1}{8}a</formula>; <formula>c = \frac{1}{2}b + \frac{1}{4}a</formula>; <formula>b = \frac{1}{2}a</formula>. Or <formula>a</formula> dans le cas de cinq Joueurs est <formula>=\frac{1}{2^{n-1}}=\frac{1}{8}</formula>; donc <formula>b=\frac{1}{16}</formula>, <formula>c=\frac{2}{32}=\frac{1}{16}</formula>, <formula>d=\frac{4}{64}=\frac{1}{16}</formula>, <formula>e=\frac{7}{128}</formula>, <formula>f=\frac{13}{256}</formula>, <choice><orig><formula>g=\frac{24}{512}=\frac{3}{64},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>g=\frac{24}{512}=\frac{3}{64},\mathrm{\;etc.}</formula></reg></choice> Ce
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701818" n="386" source="#quelle2"/>
+    qu’il falloit trouver. La somme d’autant de ces termes <choice><orig><formula>a, b, c, d, e, f,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>a, b, c, d, e, f,\mathrm{\;etc.}</formula></reg></choice>, qu’il y a d’unités dans <formula>p</formula>, exprimera la probabilité que la poulle sera finie au moins en <formula>n + p - 1</formula> coups. Si l’on veut avoir une formule pour exprimer cette somme, on aura, en mettant <formula>p</formula> pour le nombre des termes, <choice><orig><formula>\frac{p+1}{1\cdot 2^n} - \frac{p-n\cdot p-n+3}{1\cdot 2\cdot 2^{2n}} + \frac{p-2n\cdot p-2n+1\cdot p-2n+5}{1\cdot 2\cdot 3\cdot 2^{3n}} -</formula><lb break="no"/><formula>\frac{p-3n\cdot p-3n+1\cdot p-3n+2\cdot p-3n+7}{1\cdot 2\cdot 3\cdot 4\cdot 2^{4n}} + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{p+1}{1\cdot 2^n} - \frac{(p-n)(p-n+3)}{1\cdot 2\cdot 2^{2n}} + \frac{(p-2n)(p-2n+1)(p-2n+5)}{1\cdot 2\cdot 3\cdot 2^{3n}} - \frac{(p-3n)(p-3n+1)(p-3n+2)(p-3n+7)}{1\cdot 2\cdot 3\cdot 4\cdot 2^{4n}} + \mathrm{\;etc.}</formula></reg></choice> pour l’expression de cette formule; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> la formule pour exprimer un terme quelconque de cette suite <choice><orig><formula>a, b, c, d, e,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>a, b, c, d, e,\mathrm{\;etc.}</formula></reg></choice>, dont le quantième est <formula>p</formula>, sera <choice><orig><formula>\frac{1}{2^n} - \frac{p-n+1}{1\cdot 2^{2n}} + \frac{p-2n\cdot p-2n+3}{1\cdot 2\cdot 2^{3n}} -</formula><lb break="no"/><formula>\frac{p-3n\cdot p-3n+1\cdot p-3n+5}{1\cdot 2\cdot 3\cdot 2^{4n}} + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{2^n} - \frac{p-n+1}{1\cdot 2^{2n}} + \frac{(p-2n)(p-2n+3)}{1\cdot 2\cdot 2^{3n}} - \frac{(p-3n)(p-3n+1)(p-3n+5)}{1\cdot 2\cdot 3\cdot 2^{4n}} + \mathrm{\;etc.}</formula></reg></choice> On trouvera aisément la démonstration de ces formules, en supposant que le numérateur de chaque terme de cette suite <choice><orig><formula>a, b, c, d,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>a, b, c, d,\mathrm{\;etc.}</formula></reg></choice>, soit la somme de tous les précédents, au lieu qu’il n’est que la somme d’autant de précédents qu’il faut gagner de parties de suite moins une, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> en retranchant ensuite ce que par cette considération on aura pris de trop. Je crois vous devoir avertir ici en passant que dans ma Lettre du 10<hi rend="sup">e</hi> Novembre <hi rend="sup">1711</hi>, j’ai appelé <formula>p</formula> ce que j’appelle ici <formula>n + p - 1</formula>.
+
+<pb facs="1038704" n="205r" source="#quelle1"/>
+      <lb/>Voila<supplied>,</supplied> Monsieur<supplied>,</supplied> tout ce que j’ai à Vous co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquer de ma methode pour la poulle<choice><orig>,</orig><reg>;</reg></choice>
+      <lb/>j’espere que Vous en serez content. Je n’ai point co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué cette methode à <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivr<unclear reason="lost">e,</unclear></rs>
+      <lb/>je crois que s’il l’avoit veue il auroit reconnu que celle qu’il a employée dans son <rs type="biblio">Liv<unclear reason="lost">re</unclear></rs>
+      <lb/>pour le cas de trois joueurs est tout à fait inutile pour les cas d’un plus grand nombre<note type="editorial">Weiser</note>
+<pb facs="1038705" n="205v" source="#quelle1"/>
+      <lb/><note type="editorial">Zu Beginn der Seite steht noch ein Fragment des Briefes xxx </note>de joueurs, et qu’ainsi ses methodes n’ont pas toujours l’avantage d’être aussi gene<pc type="hyphenation">-</pc><lb break="no"/>rales qu’il pense. <add>Je ne sçai pas si <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> a eu dessein dans sa preface de Vous faire autant de reproches que Vous croyez<choice><orig>,</orig><reg>;</reg></choice> pour moi<supplied>,</supplied> je tiens</add> <del><gap/></del><choice><orig>Les</orig><reg>les</reg></choice> methodes que Vous avez
+      <lb/>données dans Vôtre Livre <del><gap/></del>assés suffisantes pour resoudre tous les
+      <lb/>Problemes generaux de <abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs>, qui la pluspart ne different des Vôtres
+      <lb/>que dans la generalité des expressions algebriques, et je <del><gap/></del>suis persuadé que
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-117586765" type="person">de Moivre</rs> luy<choice><orig></orig><reg>-</reg></choice>même Vous fera la justice de <del><gap/></del><add>reco<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oitre</add> que Vous avez<del><gap/></del>
+      <lb/>poussé cette matiére beaucoup plus loin que n’ont fait Mr. <rs key="pers_DE-588-118639749" type="person">Huyguens</rs> et Mr<supplied>.</supplied>
+      <lb/><rs type="person">Pascal</rs>, qui n’ont donné que les premiers elemens de la science du hazard, et
+      <lb/>qu’apres eux <add>V</add>ous ayés été le premier qui ait publié des methodes generales pour ce calcul<choice><orig>,</orig><reg>.</reg></choice>
+      <lb/>Un Jesuite no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>é <rs key="pers_DE-588-119268612" type="person">Caramuel</rs>, que j’ai cité dans ma <rs type="biblio">these</rs>, a voulu pousser ces matiéres et même
+      <lb/>critiquer Mr. <rs key="pers_DE-588-118639749" type="person">Huyguens</rs> dans <del><gap/></del>le traité <del><gap/></del>qu’il no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <del><gap/></del><rs type="biblio"><foreign xml:lang="grc">KYBETA</foreign></rs>, et qu’il a
+      <lb/>inseré dans ses grands ouvrages de Mathematique, mais co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e tout ce qu’il donne n’est qu’
+      <lb/>un amas de paralogismes, je ne le compte pour rien.
+      <lb/><note hand="pers_DE-588-119166895">Je Vous envoye <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></note>
+  </p>
+
+<pb facs="https://www.e-rara.ch/i3f/v20/2701373/canvas/2701822" n="387" source="#quelle2"/>
+<p>TABLE I.
+  <lb type="forced"/>N<hi rend="sup">o</hi> 1.
+  <choice><orig><formula>t+t+v+x+y+z+\mathrm{\;\&amp;c.}=1</formula></orig><reg><formula>t+t+v+x+y+z+\mathrm{\;etc.}=1</formula></reg></choice>
+  <lb type="forced"/>N<hi rend="sup">o</hi> 2.
+
+  <lb type="forced"/><choice><orig><formula>
+    \begin{array}{ccccccc}
+    t &amp; t &amp; v &amp; x &amp; y &amp; z &amp; \\
+    \Vert &amp; \Vert &amp; \Vert &amp; \Vert &amp; \Vert &amp; \Vert &amp; \\
+    a &amp; a &amp; b &amp; \frac{1}{2}c+\frac{1}{2}b &amp; \frac{1}{4}d+\frac{1}{4}c+\frac{1}{2}b &amp; \frac{1}{8}e+\frac{1}{8}d+\frac{1}{4}c+\frac{1}{2}b &amp; \mathrm{\&amp;c.}
+    \end{array}
+  </formula></orig><reg><formula>
+    \begin{array}{lll}
+    t=a &amp; t=a &amp; v=b \\
+    x=\frac{1}{2}c+\frac{1}{2}b &amp; y=\frac{1}{4}d+\frac{1}{4}c+\frac{1}{2}b &amp; z=\frac{1}{8}e+\frac{1}{8}d+\frac{1}{4}c+\frac{1}{2}b\;\mathrm{etc.}
+    \end{array}
+  </formula></reg></choice>
+</p>
+<p>N<hi rend="sup">o</hi> 3. Entre
+
+  <lb type="forced"/><choice><orig><formula>
+    \begin{array}{r|c}
+    0 &amp; a \\ 1 &amp; b \\ 2 &amp; c \\ 3 &amp; d \\ 4 &amp; e \\ \vdots &amp; \vdots
+    \end{array}
+    \quad
+    \left.\begin{aligned}
+    a &amp;=\overline{\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\mathinner{\ldotp\ldotp\ldotp\ldotp}\frac{1}{2^n}}\times p+\frac{1}{2^n}\times1 \\
+    b &amp;=\overline{\frac{1}{2}\times q+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\ldots\frac{1}{2^n}}\times p+\frac{1}{2^n}\times1 \\
+    c &amp;=\overline{\frac{1}{2}\times r+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\ldots\frac{1}{2^n}}\times p+\frac{1}{2^n}\times1 \\
+    d &amp;=\overline{\frac{1}{2}\times s+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\ldots\frac{1}{2^n}}\times p+\frac{1}{2^n}\times1
+    \end{aligned}\right\}
+  </formula></orig><reg><formula>
+    \begin{array}{r|c}
+    0 &amp; a \\ 1 &amp; b \\ 2 &amp; c \\ 3 &amp; d \\ 4 &amp; e \\ \vdots &amp; \vdots
+    \end{array}
+    \quad
+    \left.\begin{aligned}
+    a &amp;=\left(\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot1 \\
+    b &amp;=\left(\frac{1}{2}q+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot1 \\
+    c &amp;=\left(\frac{1}{2}r+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot1 \\
+    d &amp;=\left(\frac{1}{2}s+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{2^n}\right)p+\frac{1}{2^n}\cdot1
+    \end{aligned}\right\}
+  </formula></reg></choice>
+</p>
+<p>N<hi rend="sup">o</hi> 4. Sort
+  <lb type="forced"/><choice><orig><formula>
+    \begin{array}{r|c}
+    1 &amp; p \\ 2 &amp; q \\ 3 &amp; r \\ 4 &amp; s \\ \vdots &amp; \vdots
+    \end{array}
+    \quad\begin{aligned}
+    p &amp;=\frac{1}{2^{n-1}}\times v+\frac{1}{2^{n-2}}\times x+\frac{1}{2^{n-3}}\times y+\frac{1}{2^{n-4}}\times z+\ldots \\
+    q &amp;=\frac{1}{2^{n-2}}\times x+\frac{1}{2^{n-3}}\times y+\frac{1}{2^{n-4}}\times z+\ldots \\
+    r &amp;=\frac{1}{2^{n-3}}\times y+\frac{1}{2^{n-4}}\times z+\ldots \\
+    s &amp;=\frac{1}{2^{n-4}}\times z+\ldots
+    \end{aligned}
+  </formula></orig><reg><formula>
+    \begin{array}{r|c}
+    1 &amp; p \\ 2 &amp; q \\ 3 &amp; r \\ 4 &amp; s \\ \vdots &amp; \vdots
+    \end{array}
+    \quad\begin{aligned}
+    p &amp;=\frac{1}{2^{n-1}}v+\frac{1}{2^{n-2}}x+\frac{1}{2^{n-3}}y+\frac{1}{2^{n-4}}z+\cdots \\
+    q &amp;=\frac{1}{2^{n-2}}x+\frac{1}{2^{n-3}}y+\frac{1}{2^{n-4}}z+\cdots \\
+    r &amp;=\frac{1}{2^{n-3}}y+\frac{1}{2^{n-4}}z+\cdots \\
+    s &amp;=\frac{1}{2^{n-4}}z+\cdots
+    \end{aligned}
+  </formula></reg></choice>
+</p>
+<p><choice><orig><formula>
+    \begin{array}{lll}
+    a-b=\frac{1}{2}p-\frac{1}{2}q &amp; =\frac{1}{2^n}\times v &amp; =t-v \\
+    b-c=\frac{1}{2}q-\frac{1}{2}r &amp; =\frac{1}{2^{n-1}}\times x &amp; =2v-2x \\
+    c-d=\frac{1}{2}r-\frac{1}{2}s &amp; =\frac{1}{2^{n-2}}\times y &amp; =4x-4y \\
+    \mathrm{N}^{\mathrm{o}}\,5. &amp; \mathrm{N}^{\mathrm{o}}\,7. &amp; \mathrm{N}^{\mathrm{o}}\,9.
+    \end{array}
+  </formula></orig><reg><formula>
+    \begin{array}{lll}
+    a-b=\frac{1}{2}p-\frac{1}{2}q &amp; =\frac{1}{2^n}v &amp; =t-v \\
+    b-c=\frac{1}{2}q-\frac{1}{2}r &amp; =\frac{1}{2^{n-1}}x &amp; =2v-2x \\
+    c-d=\frac{1}{2}r-\frac{1}{2}s &amp; =\frac{1}{2^{n-2}}y &amp; =4x-4y \\
+    \mathrm{N}^{\mathrm{o}}\,5. &amp; \mathrm{N}^{\mathrm{o}}\,7. &amp; \mathrm{N}^{\mathrm{o}}\,9.
+    \end{array}
+  </formula></reg></choice>
+  <lb type="forced"/>N<hi rend="sup">o</hi> 6.
+  <choice><orig><formula>
+    \left.\begin{aligned}
+    p-q &amp;=\frac{1}{2^{n-1}}\times v \\
+    q-r &amp;=\frac{1}{2^{n-2}}\times x \\
+    r-s &amp;=\frac{1}{2^{n-3}}\times y
+    \end{aligned}\right\}
+  </formula></orig><reg><formula>
+    \left.\begin{aligned}
+    p-q &amp;=\frac{1}{2^{n-1}}v \\
+    q-r &amp;=\frac{1}{2^{n-2}}x \\
+    r-s &amp;=\frac{1}{2^{n-3}}y
+    \end{aligned}\right\}
+  </formula></reg></choice>
+</p>
+<p>N<hi rend="sup">o</hi> 8.
+
+  <formula>
+    \begin{aligned}
+    a &amp;=t \\
+    b &amp;=v \\
+    c &amp;=2x-b=2x-u \\
+    d &amp;=4y-c-2b=4y-2x-v
+    \end{aligned}
+  </formula>
+  <lb type="forced"/>N<hi rend="sup">o</hi> 10.
+  <choice><orig><formula>
+    \left.\begin{aligned}
+    v &amp;=t\times\frac{2^n}{1+2^n} \\
+    x &amp;=v\times\frac{2^n}{1+2^n} \\
+    y &amp;=x\times\frac{2^n}{1+2^n}
+    \end{aligned}\right\}
+  </formula></orig><reg><formula>
+    \left.\begin{aligned}
+    v &amp;=t\,\frac{2^n}{1+2^n} \\
+    x &amp;=v\,\frac{2^n}{1+2^n} \\
+    y &amp;=x\,\frac{2^n}{1+2^n}
+    \end{aligned}\right\}
+  </formula></reg></choice>
+</p>
+
+</div>
+</body>
+</text>
+</TEI>

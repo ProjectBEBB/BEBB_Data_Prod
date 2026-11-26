@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517018605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Rémond de Montmort an Nicolaus I Bernoulli. Paris, 11. April 1719</title>
+          <title type="alt">1719.04.11: Montmort, Pierre Rémond de (1678-1719) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059361</title>
+          <title type="alt">1719-04-11_Montmort_Pierre_Remond_de-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517018605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517018605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Am Briefkopf eigenhändige Bemerkung von Nic.I B. "empfg. den 7. d. Maij". Auf der Adressseite einige Formeln</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39638">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.205</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517018605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433691705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059361</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1719-04-11">ce 11 Avril 1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1719-04-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517018705501" type="prev"/>
+          <ptr target="B_991170517018505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913338">Bernoulli, Benedict</persName>
+            <note type="lebensdaten">(1692-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119408007">Cassini, Giovanni Domenico</persName>
+            <note type="lebensdaten">(1625-1712)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Cognet, Mlle</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118720066">Halley, Edmond</persName>
+            <note type="lebensdaten">(1656-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100814891">L'Hôpital, Guillaume François Antoine de</persName>
+            <note type="lebensdaten">(1661-1704)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155965140">Apoil de Romicourt, Françoise Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117625493">Sherard, William</persName>
+            <note type="lebensdaten">(1659-1728)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117260266">Stirling, James</persName>
+            <note type="lebensdaten">(1692-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118626574">Vergilius Maro, Publius</persName>
+            <note type="lebensdaten">(v70-v19)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089923198">Verzaglia, Giuseppe</persName>
+            <note type="lebensdaten">(1669-1728)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 6); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-11-24" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2025-11-17" who="SG SW">Kollationieren begonnen</change>
+        <change when="2025-11-17" who="SG">Tagging und Formeln</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-09-23" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-06-10" who="MS">Mathe getagt, Platzhalter eingesetzt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1361949/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+<pb facs="1361950" n="1"/>
+  <opener><lb/><dateline>A <rs key="place_GEO-2988507" type="place">Paris</rs> ce <date when="1719-04-11">11 Avril 1719</date></dateline> <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> den <date when="1719-05-07">7.<hi rend="sup">ten</hi> Ma<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>.</date></foreign></note>
+      <lb/><salute>Monsieur</salute></opener>
+  <p><lb/>Je ne <choice><orig>recois</orig><reg>reçois</reg></choice> point de lettres qui me fassent autant de plaisir que
+      <lb/>les vostres<supplied>,</supplied> car outre que les marques de vostre souvenir et les assurances de vostre
+      <lb/>amitié me sont tres cheres<supplied>,</supplied> elles sont toujours remplies de mil belles choses.
+      <lb/>Je vais repondre <choice><orig>a</orig><reg>à</reg></choice> vostre <rs type="letter">derniere</rs> du <date when="1719-02-11">11 fevrier</date><supplied>,</supplied> ensuitte je vous ferai part de
+      <lb/>quelques <choice><orig>nouveautes</orig><reg>nouveautés</reg></choice>.</p>
+  <p><lb/><choice><orig>dans</orig><reg>Dans</reg></choice> l’index <formula>\frac{\delta}{\lambda}q-1</formula> la fraction <formula>\frac{\delta}{\lambda}</formula> multiplie le nombre <formula>q</formula> seulement<supplied>.</supplied></p>
+  <p><lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs> n<supplied>’</supplied>a pas rendu un bon office <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi>r</hi></abbr> <rs key="pers_DE-588-117260266" type="person">Sterling</rs> en inserant dans
+      <lb/>son <rs type="biblio">livre</rs> ces paroles <quote rend="unmarked"><foreign xml:lang="lat">unde non video qua ratione quis possit fluxionum
+      <lb/>Methodi inventionem sibi arrogare et non etiam inventionem</foreign></quote>. Il est
+      <lb/>certain que les suittes de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> n<supplied>’</supplied>ont qu<supplied>’</supplied>un rapport tres indirect
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> la Methode des fluxions<supplied>.</supplied></p>
+  <p><lb/>J<supplied>’</supplied>ay fait part <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> de tout ce qu<supplied>’</supplied>il y a dans vostre <rs type="letter">lettre</rs> sur <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs><supplied>.</supplied>
+      <lb/>Je vous suis tres <choice><orig>oblige</orig><reg>obligé</reg></choice> de m<supplied>’</supplied>avoir <del><gap/></del><add>donné communication</add> de l<supplied>’</supplied>analyse du <abbr>prob.</abbr> <choice><orig>propose</orig><reg>proposé</reg></choice>
+      <lb/><del><gap/></del><add><choice><orig>a</orig><reg>à</reg></choice></add> <abbr>M<supplied>.</supplied></abbr> vostre <rs key="pers_DE-588-118509969" type="person">Oncle</rs> par <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs><supplied>;</supplied> elle est tres belle et tres simple<supplied>.</supplied>
+      <lb/>Je vous avouerai pourtant qu<supplied>’</supplied>il y a des choses que <choice><orig>Je</orig><reg>je</reg></choice> n<supplied></supplied>entends pas<supplied>,</supplied>
+      <lb/>parce qu<supplied>’</supplied>elles ne sont pas demontrées et que j<supplied>’</supplied>ay été obligé d<supplied>’</supplied>en supposer
+      <lb/>la verité n<supplied>’</supplied>ayant ni l’habileté ni le loisir <del><gap/></del><add>necessaire pour m<supplied>’</supplied>en assurer par moi meme</add><supplied>.</supplied> Si quelque
+      <lb/>Jour <choice><orig>a</orig><reg>à</reg></choice> vostre loisir vous voulez m<supplied>’</supplied>envoyer l’analyse plus au long<supplied>,</supplied>
+      <lb/>en me faisant voir ce que je ne <choice><orig>scai</orig><reg>sçai</reg></choice> pas<supplied>,</supplied> comment <choice><orig><formula>\frac{qr\,dy}{ds}=uu</formula></orig><reg><formula>\frac{qr\,dy}{ds}=u^{2}</formula></reg></choice>, <choice><orig><formula ana="corr">q\,dx\pm R\,ds</formula>
+      <lb break="no"/><formula>=u\,du</formula></orig><reg><formula>q\,dx\pm R\,ds=u\,du</formula></reg></choice> et <choice><orig><formula>r=dy\times\frac{\overline{1+pp}\times\sqrt{1+pp}}{dp}</formula></orig><reg><formula>r=dy\frac{(1+p^{2})\sqrt{1+p^{2}}}{dp}</formula></reg></choice><supplied>,</supplied> <add>vous m<supplied>’</supplied>obligerez beaucoup</add><supplied>.</supplied> Je vous conseille plustost d<supplied>’</supplied>envoyer
+      <lb/>au <rs type="biblio">Journal de <rs key="place_GEO-2879139" type="place">Leipsic</rs></rs> Vostre <rs type="biblio">solution</rs><supplied>,</supplied> <choice><orig>Ainsi</orig><reg>ainsi</reg></choice> que celle dont vous
+      <lb/>me parlez, <choice><orig>ou</orig><reg>où</reg></choice> sans la consideration de la similitude des courbes vous
+      <lb/>resolvez generalement le <abbr>prob.</abbr> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>.</p>
+  <p><lb/>Je n<supplied>’</supplied>ai point encore <choice><orig>recu</orig><reg>reçu</reg></choice> les <rs type="biblio">livres</rs> que vous avez eu la bonté de
+      <lb/>m<supplied>’</supplied>envoyer par <rs key="place_GEO-2661604" type="place">Basle</rs>. <choice><orig>comme</orig><reg>Comme</reg></choice> <choice><orig>Je</orig><reg>je</reg></choice> crois que vous n<supplied>’</supplied>avez pas <choice><orig>recu</orig><reg>reçu</reg></choice> les <rs type="biblio">miens</rs>
+      <lb/>que j<supplied>’</supplied>ay <choice><orig>adresses</orig><reg>adressés</reg></choice> pour vous <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs>.</p>
+  <p><lb/>Vostre <rs type="biblio">original</rs> de <rs key="pers_DE-588-1089923198" type="person">Verzaglia</rs> a donc quitté <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> pour vous attaquer.
+      <lb/><choice><orig>a</orig><reg>A</reg></choice> vostre place<supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> le laisserois abboyer sans daigner lui repondre. Il n<supplied>’</supplied>y a
+      <lb/>que des injures <choice><orig>a</orig><reg>à</reg></choice> gagner avec luy. J<supplied>’</supplied>en juge par celles qu<supplied>’</supplied>il a dittes <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>
+      <lb/>et par tout ce que vous m<supplied>’</supplied>avez <del><gap/></del><add>appris</add> de son caractere.</p>
+<pb facs="1361951" n="2"/>
+  <p><lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> et <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> m<supplied>’</supplied>ont envoyé chacun leur
+      <lb/><rs type="biblio">solution</rs> du <abbr>prob.</abbr> de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs><supplied>.</supplied> Voicy <rs type="biblio">celle</rs> de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> que vous
+      <lb/>entendrez sans doutte mieux que moy. <choice><orig>la</orig><reg>La</reg></choice> datte de la <rs type="letter">lettre</rs> est du <date when="1719-01-09">9 fevrier</date><supplied>.</supplied>
+      <lb/><abbr>Vid.</abbr> <rs type="biblio"><abbr>Phil.</abbr> <abbr>nat.</abbr> <abbr>princ.</abbr> <abbr>math.</abbr> <abbr>lib.</abbr></rs> 2<choice><orig>.</orig><reg>,</reg></choice> <abbr>prop.</abbr> 10<choice><orig>.</orig><reg>,</reg></choice> <abbr>ed.</abbr> <abbr>nov.</abbr></p>
+  <p><lb/><quote rend="unmarked"><foreign xml:lang="lat">Si dicantur <formula>ABx</formula><supplied>,</supplied> <formula>BG </formula>, <del><gap/></del><formula>d-z</formula> (existente <formula>d</formula> line<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> determinat<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>pro lubitu sumpt<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>)<supplied>,</supplied> curva <choice><orig><formula>FG,S</formula></orig><reg><formula>FGS</formula></reg></choice>, erunt <formula>P=d-z</formula>, <formula>Q=\frac{\dot{z}}{\dot{x}}</formula>, <choice><orig><formula>R</formula>
+      <lb break="no"/><formula>=\frac{\ddot{z}}{2\dot{x}^{2}}</formula></orig><reg><formula>R=\frac{\ddot{z}}{2\dot{x}^{2}}</formula></reg></choice><supplied>,</supplied> <formula>S=\frac{\dddot{z}}{6\dot{x}^{3}}</formula> adeoque <choice><orig><formula ana="corr">1+QQ=\left(1+\frac{\dot{z}\dot{z}}{\dot{x}\dot{x}}\right)=\frac{\dot{s}\dot{s}}{\dot{x}\dot{x}}</formula></orig><reg><formula>1+Q^{2}=\left(1+\frac{\dot{z}^{2}}{\dot{x}^{2}}\right)=\frac{\dot{s}^{2}}{\dot{x}^{2}}</formula></reg></choice>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><orig><formula>\frac{S}{R\sqrt{1+QQ}}</formula></orig><reg><formula>\frac{S}{R\sqrt{1+Q^{2}}}</formula></reg></choice><supplied>,</supplied>
+      <lb/>cui <abbr><choice><orig><g ref="#pro">&#xA753;</g></orig><reg>pro</reg></choice>portionalis</abbr> est medii densitas <formula ana="corr">=\frac{\dddot{z}}{2\ddot{z}\dot{s}}</formula><note type="editorial">Setzt man die zuvor angegebenen Definitionen von <formula>R</formula> und <formula>S</formula> in den Ausdruck links vom Gleichheitszeichen ein, ergibt sich im Nenner der Faktor 3. Für die Proportionalität zur Dichte des Mediums ist die Abweichung um einen konstanten Faktor unerheblich.</note><supplied>,</supplied> ergo si sit <formula>\frac{\dddot{z}}{2\ddot{z}\dot{s}}</formula> quantitas
+      <lb/>data<supplied>,</supplied> erit <formula ana="corr">PG</formula> trajectoria qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita<supplied>.</supplied>
+      <lb/>Sit itaque <formula>a</formula> quantitas determinata atque erit <formula>\frac{a\dddot{z}}{\ddot{z}\dot{s}}=1</formula>
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio ad curvam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sitam<supplied>,</supplied>
+      <lb/>fiat <choice><orig><formula>\dot{z}=\frac{rr-1}{2r}\dot{x}</formula></orig><reg><formula>\dot{z}=\frac{r^{2}-1}{2r}\dot{x}</formula></reg></choice> et per analysim invenietur <choice><orig><formula ana="corr">\dot{x}=\frac{4arr\dot{r}+4a\dot{r}}{r^{4}-1+4nr^{2}+4ur^{2}}</formula></orig><reg><formula>\dot{x}=\frac{4ar^{2}\dot{r}+4a\dot{r}}{r^{4}-1+4nr^{2}+4ur^{2}}</formula></reg></choice><note type="editorial">Im letzten Term des Nenners scheint der Exponent 4 gestrichen und darüber eine kleine 2 eingetragen worden zu sein. Bernoulli gibt in seiner Antwort vom 13. Mai 1719 ebenfalls <formula>4ur^{2}</formula> an.</note>
+      <lb/>existente <formula>\dot{u}=\frac{\dot{r}}{r}</formula>.</foreign></quote></p>
+  <p><lb/>Il me promet de m<supplied>’</supplied>envoyer son <rs type="biblio">analyse</rs> plus au long.</p>
+  <p><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> m<supplied>’</supplied>a fait part de sa solution dans sa derniere
+      <lb/><rs type="letter">lettre</rs> qui est du <date when="1719-01-26">26 janvier</date>.</p>
+  <p><lb/>Je <choice><orig>recus</orig><reg>reçus</reg></choice> il y a deux jours une longue <rs type="letter">lettre</rs> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><supplied>,</supplied> de laquelle
+      <lb/><choice><orig>Je</orig><reg>je</reg></choice> vais vous entretenir.</p>
+  <p><choice><orig>d</orig><reg>D</reg></choice><supplied>’</supplied>abord<supplied>,</supplied> il me fait part de sa Methode de trouver l<supplied>’</supplied>integrale de
+      <lb/>la quantité <formula>\frac{\dot{z}z^{\frac{\delta}{\lambda}q-1}}{e+fz^{q}+gz^{2q}}</formula> et il me l<supplied>’</supplied>explique tout au long <del><gap/></del><add>et j<supplied>’</supplied>en</add> suis
+      <lb/>tres content. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> dans son <rs type="biblio">traitté de quadratura curvarum</rs>
+      <lb/>s<supplied>’</supplied>est <del><gap/></del><add>bo</add>rné au cas <choice><orig>ou</orig><reg>où</reg></choice> <choice><orig><formula>f\gt 2\sqrt{}eg</formula></orig><reg><formula>f\gt 2\sqrt{eg}</formula></reg></choice><supplied>,</supplied> puisqu<supplied>’</supplied>il y fait <choice><orig><formula>\sqrt{ff-4eg}=p</formula></orig><reg><formula>\sqrt{f^{2}-4eg}=p</formula></reg></choice>. <choice><orig>il</orig><reg>Il</reg></choice> ne dit rien
+      <lb/>des autres cas<supplied>,</supplied> qui paroissent plus difficiles et plus curieux<supplied>;</supplied> la methode
+      <lb/>de <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> s<supplied>’</supplied>estend <choice><orig>a</orig><reg>à</reg></choice> tout. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> en ne decomposant l<supplied>’</supplied>element
+      <lb/><formula>\frac{dx}{x^{4}+a^{4}}</formula> qu<supplied>’</supplied>en deux binomes seulement n<supplied>’</supplied>a pu manquer de tomber dans
+      <lb/>des <choice><orig>quantites</orig><reg>quantités</reg></choice> imaginaires<supplied>.</supplied> <choice><orig>il</orig><reg>Il</reg></choice> auroit pu <choice><orig>soupconner</orig><reg>soupçonner</reg></choice> que d<supplied>’</supplied>autres diviseurs
+      <lb/>tels par <abbr>Ex<supplied>.</supplied></abbr> que <choice><orig><formula>xx+ax\sqrt{}2+aa</formula></orig><reg><formula>x^{2}+ax\sqrt{2}+a^{2}</formula></reg></choice>, et <choice><orig><formula>xx-ax\sqrt{}2+aa</formula></orig><reg><formula>x^{2}-ax\sqrt{2}+a^{2}</formula></reg></choice> etant <choice><orig>multiplies</orig><reg>multipliés</reg></choice>
+      <lb/>ensemble rendoient le binome <formula>a^{4} + x^{4}</formula>.</p>
+  <p><lb/>Voicy comme il finit sa <rs type="letter">lettre</rs>.</p>
+  <p><lb/>Je pourrois aussi proposer <choice><orig>a</orig><reg>à</reg></choice> mon tour quelques problemes qui ne seroient
+      <lb/>peutestre pas indignes de la curiosité des Geometres<supplied>.</supplied></p>
+  <p>J<supplied>’</supplied>attend avec impatience la <rs type="letter">lettre</rs> que vous me promettez<supplied>,</supplied> mon adresse est <rs key="place_STR-stsperesparis" type="place">rüe des <abbr>Sts<supplied>.</supplied></abbr> Peres</rs>.</p>
+<pb facs="1361953" n="3"/>
+  <p><choice><orig>l</orig><reg>L</reg></choice>’aire d<supplied>’</supplied>une courbe etant <formula>axy+bx^{c}y^{e}</formula><supplied>,</supplied> <choice><orig>ou</orig><reg>où</reg></choice> <formula>a</formula> et <formula>b</formula> sont des <choice><orig>quantite</orig><reg>quantités</reg></choice>
+      <lb/>constantes<supplied>,</supplied> <formula>c</formula> et <formula>e</formula> des nombres aussi <choice><sic>quelconque</sic><corr>quelconques</corr></choice><supplied>,</supplied> trouver la courbe <choice><orig>a</orig><reg>à</reg></choice> qui cette
+      <lb/>aire convient. Je dis qu’on peut trouver une equation de la courbe
+      <lb/>en termes finis et que cette courbe sera toujours Geometrique pourvu que <formula>c</formula> et <formula>e</formula>
+      <lb/>soient des exposants rationels positifs ou negatifs<supplied>.</supplied> On demande donc
+      <lb/>l<supplied>’</supplied>equation de cette courbe<supplied>.</supplied></p>
+  <p><lb/>Voicy un autre probleme qui n<supplied>’</supplied>est pas moins curieux que le precedent
+      <lb/><quote><hi rend="u">et qui paroist plus difficile<supplied>,</supplied> <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> de trouver des courbes algebriques<supplied>,</supplied> dont la
+      <lb/>quadrature indefinie depende de la quadrature du cercle ou de l’hyperbole
+      <lb/>ou de telle autre courbe qu<supplied>’</supplied>il vous plaira et qui aient nonobstant cela
+      <lb/>un ou deux ou trois <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> arcs differens absolument rectifiables independamment
+      <lb/>de la quadrature de la courbe de la quelle leur rectification indefinie
+      <lb/>depend</hi></quote><supplied>;</supplied> et il adjoute <quote rend="unmarked"><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs type="person">Bernoulli</rs> et <abbr>M.</abbr> le <abbr>M.</abbr> de <rs key="pers_DE-588-100814891" type="person">l’Hopital</rs> ont bien
+      <lb/>assigné dans la parabole deux differens arcs<supplied>,</supplied> dont la difference est égale
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> une ligne droitte donnée<supplied>,</supplied> mais ils n<supplied>’</supplied>ont pas <choice><orig>determines</orig><reg>determinés</reg></choice> un seul arc
+      <lb/>rectifiable.</quote></p>
+  <p><lb/>J’approuve fort l<supplied>’</supplied>usage de proposer des problemes pourvu que cela se fasse
+      <lb/>par invitation et non par forme de defy, pourvu qu’on ne veuille pas en
+      <lb/>rien <unclear reason="lost">con</unclear>clure contre les Geometres qui n<supplied>’</supplied>en donnent pas la solution.
+      <lb/><choice><orig>l</orig><reg>L</reg></choice><supplied>’</supplied>emulation est la mere des decouvertes.</p>
+  <p><lb/>J<supplied>’</supplied>ay <choice><orig>recu</orig><reg>reçu</reg></choice> l’<rs type="biblio">Astronomie</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs> et je l<supplied>’</supplied>ai parcouru<supplied>;</supplied> c<supplied>’</supplied>est un in 8.<hi rend="sup">o</hi> d<unclear reason="lost">e</unclear> 600 pages<supplied>,</supplied>
+      <lb/>elle me paroist ecritte avec beaucoup d’ordre et de netteté. <choice><orig>il</orig><reg>Il</reg></choice> met dans sa preface <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-118720066" type="person">Halley</rs> au dessus de tous les Astronomes qui ont jamais été<supplied>,</supplied> meme des <rs key="pers_DE-588-118639749" type="person">Huygens</rs> et des
+      <lb/><rs key="pers_DE-588-119408007" type="person">Cassini</rs><supplied>,</supplied> ce qui est bien extravagant<supplied>;</supplied> mais outre cette faute<supplied>,</supplied> qui est du genie de sa <rs type="place">nation</rs><supplied>,</supplied>
+      <lb/>il y en a d’autres dont vous vous appercevrez mieux que moy qui suis un tres mince
+      <lb/>Astronome. Vous verrez qu<supplied>’</supplied>il se blouse au sujet des parallaxes en prenant le diametre
+      <lb/>entier des Planettes au lieu de leur demi diametres.</p>
+  <p><lb/>On imprime <del><gap/></del><add><choice><orig>a</orig><reg>à</reg></choice></add> <rs key="place_GEO-2643743" type="place"><choice><orig>londres</orig><reg>Londres</reg></choice></rs> des <rs type="biblio">tables Astronomiques</rs> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118720066" type="person">Halley</rs> et les <rs type="biblio">voyages</rs> de
+      <lb/><rs key="pers_DE-588-117625493" type="person">Sherard</rs><supplied>;</supplied> on assure que ce sera un <rs type="biblio">livre</rs> fort curieux<supplied>;</supplied> c<supplied>’</supplied>est dommage qu<supplied>’</supplied>on ne puisse
+      <lb/>vous rien envoyer qu<supplied>’</supplied>avec des longueurs infinies et que meme on ne puisse vous
+      <lb/>faire tenir des lettres que par de longs circuits.</p>
+  <p><lb/>Je ne <choice><orig>scai</orig><reg>sçai</reg></choice> si je vous ai dit que le pauvre <abbr>M.</abbr> de <rs key="pers_DE-588-115598157X" type="person">Waldegrave</rs> avoit eu il y a 6 mois
+      <lb/>une 3<hi rend="sup">eme</hi> attaque d’apoplexie et qu<supplied>’</supplied>il en est <choice><orig>reste</orig><reg>resté</reg></choice> fort incommodé<supplied>;</supplied> il vous remercie
+      <lb/>ainsi que <abbr>M<supplied>.</supplied><hi rend="sup">lle</hi></abbr> <rs type="person">Cognet</rs><supplied>,</supplied> <abbr>Mad.<hi rend="sup">e</hi></abbr> de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs> et mon <rs type="person">fils</rs>. <choice><orig>nous</orig><reg>Nous</reg></choice> ne parlons jamais de
+      <lb/>vous qu<supplied>’</supplied>avec un ressouvenir agreable. Vostre petit <rs type="person">camarade</rs> devient grand et me
+      <lb/>recita hyer 100 vers de <rs key="pers_DE-588-118626574" type="person">Virgile</rs><supplied>.</supplied></p>
+  <p><lb/>Annoncez<supplied>,</supplied> s<supplied>’</supplied>il vous plaist<supplied>,</supplied> les deux <abbr>prob.</abbr> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> aux <rs type="person">Geometres</rs> d<supplied>’</supplied><rs key="place_KON-italie" type="place">Italie</rs> de
+      <lb/>vostre connoissance<supplied>,</supplied> surtout <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> que je vous prie d<supplied>’</supplied>assurer de mes obeissances<supplied>;</supplied>
+      <lb/>quoyque tres dissipé <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs><supplied>,</supplied> <choice><orig>J</orig><reg>j</reg></choice><supplied>’</supplied>ay commencé <choice><orig>a</orig><reg>à</reg></choice> lire son <rs type="biblio">livre de motu aqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mixto</rs><supplied>,</supplied>
+      <lb/>qui m<supplied>’</supplied>a paru tres neuf et tres <choice><orig>scavant</orig><reg>sçavant</reg></choice>.</p> <closer><salute>A Dieu<supplied>,</supplied> je vous embrasse mil et mil fois</salute> <signed><rs key="pers_DE-588-117601020" type="person">Remond de Monmort</rs></signed>
+<pb facs="1361954" n="4"/>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-1089913338" type="person"><abbr>Ben.</abbr> Bernoulli</rs></addrLine>
+      <addrLine><abbr>M.d.S.E<supplied>.</supplied></abbr></addrLine>
+      <addrLine><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2661604" type="place">Basle</rs>.</addrLine></address></closer>
+  <note hand="pers_DE-588-119166895"><formula ana="corr">n=\frac{-e}{ac-ae+e}</formula>, <choice><orig><formula>x^\frac{cn}{e}y^{n}\times\overline{\frac{axy}{n+1}+\frac{bex^{c}y^{e}}{n+e}}=</formula></orig><reg><formula>x^\frac{cn}{e}y^{n}\left(\frac{axy}{n+1}+\frac{bex^{c}y^{e}}{n+e}\right)=</formula></reg></choice> constanti, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <lb/>cujus area <formula>axy+bx^{c}y^{e}</formula>.</note>
+</div>
+
+
+</body>
+</text></TEI>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514767705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann III Bernoulli. Basel,
+                        1766</title>
+          <title type="alt">1766: Bernoulli, Daniel (1700-1782) an
+                        Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000054760</title>
+          <title type="alt">1766_Bernoulli_Daniel-Bernoulli_Johann</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514767705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514767705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs>
+                    (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von anderer Hand: "s.d." und "Pour M.r
+                        Bernoullj à Berlin"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200193">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.42-43</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514767705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432854205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054760</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>18,5</height><width>12</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1766">[1766]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1766"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514767105501" type="prev"/>
+          <ptr target="B_991170514768105501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-DanIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514767105501" type="prev"/>
+          <ptr target="B_991170514768105501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Daniel_I-JohIIIB" corresp="pers_DE-588-118656503" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117632511">Deparcieux, Antoine</persName>
+            <note type="lebensdaten">(1703-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568698">Lagrange, Joseph Louis de</persName>
+            <note type="lebensdaten">(1736-1813)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118568876">Lambert, Johann Heinrich</persName>
+            <note type="lebensdaten">(1728-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117544906">Marggraf, Andreas Sigismund</persName>
+            <note type="lebensdaten">(1709-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1026882826">Muret, Jean-Louis</persName>
+            <note type="lebensdaten">(1715-1796)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118603426">Rousseau, Jean-Jacques</persName>
+            <note type="lebensdaten">(1712-1778)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1060062828">Zuberbühler, Johann Jakob</persName>
+            <note type="lebensdaten">(1723-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118814834">Süssmilch, Johann Peter</persName>
+            <note type="lebensdaten">(1707-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117565849">Wargentin, Pehr</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-22" who="SG CG">Kollationieren abgeschlossen.</change>
+        <change when="2026-10-14" who="SG">Briefstruktur und Normalisierungen nachbearbeitet.</change>
+        <change when="2026-10-01" who="SG">Vorbereitung für die Kollation erweitert: Zeilenfall und Worttrennungen bildgestützt überprüft sowie Normalisierungen, mathematische Auszeichnungen und Entitäten-Pretagging ergänzt.</change>
+        <change when="2026-09-24" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-05-07" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-26" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-26" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994692/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+
+  <pb facs="5994693" n="42r"/>
+
+  <note hand="unknown"><abbr>S. d.</abbr></note>
+<opener>Pour <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118656503" type="person">Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> à <rs key="place_GEO-2950159" type="place">Berlin</rs>.</opener>
+  <p>
+      <lb/>Vous avez oublié, Monsieur mon tres cher Neveu,
+      <lb/>d’ajouter les papiers au paquet que vous avez envoyé ici.
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> ne serai pas faché que vous les gardiez, pourvû
+      <lb/>que je puisse etre sûr, que personne n’en puisse jamais
+      <lb/><del>en </del>faire un usage public. <choice><orig>cela</orig><reg>Cela</reg></choice> n’arrive que trop sou<pc type="hyphenation">-</pc><lb break="no"/>vent. <choice><orig>c</orig><reg>C</reg></choice>’est la derniere des injustices; car, entre amis, on ha<pc type="hyphenation">-</pc><lb break="no"/>zarde des idées et des expressions, qu’on suppose ne devoir
+      <lb/>jamais transpirer et dans cette supposition on dit des choses
+      <lb/>qu’on n’a pas examinées et qui sont fausses. <choice><orig>cela</orig><reg>Cela</reg></choice> m’est arrivé,
+      <lb/>je crois, dans mon petit <rs type="biblio">commentaire</rs> sur la machine de
+      <lb/><rs key="place_GEO-2657896" type="place">Zuric</rs>. <choice><orig>j</orig><reg>J</reg></choice>’ai dit qu’il falloit retre<subst><del><gap/></del><add>c</add></subst>ir peu à peu le conduit
+      <lb/>des eaux; cela est vrai, mais je n’ai pas marqué la vraie
+      <lb/>loi pour cela. <choice><orig>je</orig><reg>Je</reg></choice> <choice><orig>trouvé</orig><reg>trouve</reg></choice> à present, aprez un examen
+      <lb/>plus mûr, que si on v<subst><del>vouloit</del><add>eut</add></subst> porter les eaux à la hauteur
+      <lb/>de <measure>32 pieds</measure>, le premier et le dernier tour doivent etre
+      <lb/>en raison de 3 à 2 et que le premier tour doit à chaque
+      <lb/>revolution se remplir d’un tiers; ce tiers d’eau etant par<pc type="hyphenation">-</pc><lb break="no"/>venu dans le dernier tour, en remplira precisement la
+      <lb/>moitié, pendant que les deux tiers du premier tour remplis
+      <lb/>d’air, sont egaux en capacité au dernier tour<choice><orig>,</orig><reg>;</reg></choice> mais comme
+      <lb/>l’air est condensé au double dans ce dernier tour, il servira
+      <lb/>precisement à remplir l’autre moitié de ce dernier tour.
+      <lb/>Là<choice><orig> </orig><reg>-</reg></choice>dessus il vous sera facile de marquer ces proportions
+      <lb/>pour telle autre hauteur qu’on se propose et par laquelle il
+      <lb/>faut toujours commencer à regler toute la machine. Si la
+      <lb/>hauteur, à laquelle on pretend elever les eaux, est generalement
+      <lb/><formula>=B</formula> exprimée en pieds, il faudra faire la capacité du premier
+      <lb/>tour à celle du dernier tour comme <formula>64+B</formula> à <formula>64</formula> et puiser
+      <lb/>à chaque revolution <formula>\frac{32}{64+B}</formula> de la capacité du premier tour.
+      <lb/><choice><orig>ensuite</orig><reg>Ensuite</reg></choice> de quoi les tours moyens doivent diminuer uniformement.
+    <pb facs="5994694" n="42v"/>
+    <lb/>C’est ici la remarque fondamentale qui vous guidera dans
+      <lb/>toutes vos recherches. La machine elle<choice><orig> </orig><reg>-</reg></choice>meme est la plus ingeni<pc type="hyphenation">-</pc><lb break="no"/>euse qui soit parvenue à ma connoissance et à mon avis
+      <lb/>tres digne d’etre examinée avec le plus grand soin. J’ai
+      <lb/><choice><orig>eté</orig><reg>été</reg></choice> charmé d’aprendre que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11879941X" type="person">Sulzer</rs>, dont je respecte les
+      <lb/>lumieres, aprouve mon idée de conduire le canal autour
+      <lb/>d’un tambour: je pense aussy que c’est le seul moyen d’exe<pc type="hyphenation">-</pc><lb break="no"/>cuter la machine en grand. <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11879941X" type="person">Sulzer</rs> est fort en etat
+      <lb/>de faire executer l’idée des rames pendantes sans que ni
+    <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118568698" type="person">de la Grange</rs> ni <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118568876" type="person">Lambert</rs> y concourre; il n’y a qu’à
+      <lb/>lire attentivement mon <rs type="biblio">memoire</rs> et executer exactement
+      <lb/>le jeu que je demande dans les rames. <choice><orig>je</orig><reg>Je</reg></choice> ne demanderois
+      <lb/>d’abord qu’un essay de deux rames sur un petit navire ou
+      <lb/>chaloupe. Je suis faché que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118568698" type="person">de la Grange</rs> n’aime
+      <lb/>que les mathematiques abstraites; Ce malheureux defaut
+      <lb/>est ordinaire aux grands Geometres; cependant <rs key="pers_DE-588-118587544" type="person">Newton</rs>
+      <lb/>et <rs key="pers_DE-588-118639749" type="person">Huguens</rs> etoient bien eloignés de l’avoir. </p>
+  <p>
+      <lb/>Ne regrettez pas la peine que <subst><del><gap/></del><add>les</add></subst> experiences balistiques
+      <lb/>vous ont donnée, quand meme le succés de ces experiences n’ont
+      <lb/>pas repondu à votre attente; ce n’est que par une suite de
+      <lb/>mauvais succés qu’on devient habile; j’espere que votre <rs type="biblio">me<pc type="hyphenation">-</pc><lb break="no"/>moire</rs> sur la force des fils et des poutres vous dedommagera.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> se pourroit, que l’axe du ressort se soit courbé et trop
+      <lb/>fortement pressé contre le tuyau: La matiere n’est pas
+      <lb/>assez importante pour que vous vous donniez encore beaucoup de
+      <lb/>peine; la machine etoit plutot imaginée pour une ecole mili<pc type="hyphenation">-</pc><lb break="no"/>taire que pour une <rs type="organisation">Academie</rs>. Sans doute que ma solution
+      <lb/>du probleme VI. est fort preferable à celle de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>; si vous
+      <lb/>pensez là<choice><orig> </orig><reg>-</reg></choice>dessus comme moi, ne vous faites point de peine de
+      <lb/>la donner pour la votre, aprez avoir donné celle de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs> en
+      <lb/>ajoutant, que vous n’avez trouvé la votre que longtems aprez.
+      <lb/>Je crois comme vous que l’<rs type="organisation"><abbr>Acad.<hi rend="sup">e</hi></abbr></rs> de <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> me payera ma
+      <lb/>pension; mais je doute, si elle me la payera avec cette exactitude
+    <pb facs="5994695" n="43r"/>
+    <lb/>que je demande absolument et je n’enverrai plus de memoires
+      <lb/>avant que d’avoir <choice><orig>recu</orig><reg>reçu</reg></choice> ma premiere année, d’autant
+      <lb/>que cette petite pension n’est peut<choice><orig/><reg>-</reg></choice>etre pas le quart de ce qu’un
+      <lb/>Libraire payeroit à un <rs key="pers_DE-588-118603426" type="person">Rousseau</rs>, qui n’a que le don de debiter
+      <lb/>tres elegamment de grandes absurdités. Je n’ai que les deux
+    <lb/>premiers volumes des <rs type="biblio">melanges</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11850178X" type="person">D<supplied>’</supplied>Alembert</rs>; cet homme n’a
+      <lb/>fait que me piller, ou refuter ou critiquer et quoi qu’il m’ait <add>fait</add>
+      <lb/>bien de l’honneur par là, j’avoue que de mon coté j’ai pris
+      <lb/>un grand degout pour toutes ses productions et que je me suis
+      <lb/>proposé de ne plus rien lire qui parte de sa venimeuse plume.
+    <lb/><choice><orig>il</orig><reg>Il</reg></choice> a refuté toute mon <rs type="biblio"><choice><orig>hydrodinamique</orig><reg>Hydrodinamique</reg></choice></rs> d’un bout à l’autre et il est
+      <lb/><choice><orig>sur</orig><reg>sûr</reg></choice> qu’il ne l’a jamais lue avec toute l’attention requise; son
+      <lb/>grand art etoit de me supposer un sens different de celui que
+      <lb/>j’expliquois fort clairement, ensuite de me refuter et enfin de
+      <lb/>donner ma solution pour la sienne en reprenant le vrai sens
+      <lb/>de la proposition. <choice><orig>mais</orig><reg>Mais</reg></choice> comme je me suis proposé de vivre
+      <lb/>bien avec tout le monde j’espere que vous ne direz à personne
+      <lb/>ce que je vous dis ici: il me semble que l’<rs type="organisation"><abbr>Acad.<hi rend="sup">e</hi></abbr> de Paris</rs>
+      <lb/>n’a plus aucun droit sur mon grand <rs type="biblio">memoire</rs> qui auroit pû
+      <lb/>etre imprimé depuis 1753; mon dessein, en vous l’envoyant
+      <lb/>etoit de vous donner occasion de donner differens <rs type="biblio">memoires</rs> en
+      <lb/>votre nom, tel que sur l’œconomie des forces animales, sur la
+      <lb/>vraie maniere d’envisager l’action des rames <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> <choice><orig>cette</orig><reg>Cette</reg></choice> idée n’a
+      <lb/>plus lieu à present que vous avez commencé à lire le <rs type="biblio">memoire</rs>
+      <lb/>sous mon nom; mais vous etes toujours le maitre d’en faire tel
+      <lb/>usage, que vous trouverez convenable. Si vous vouliez le
+      <lb/>faire imprimer à part, on pourroit y joindre un autre <rs type="biblio">memoire</rs>
+      <lb/>qui a remporté le prix sur les courans de 1751 avec <rs type="biblio">un troisi<pc type="hyphenation">-</pc><lb break="no"/>eme de 1757 sur la diminution des roulis et tangages des vaisseaux</rs>.
+  </p>
+  <p>
+      <lb/>J’aprouve fort votre idée d’etudier la chymie sous la direction
+      <lb/>de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117544906" type="person">Marggraf</rs>, qui s’est rendu fort celebre dans cette science.
+    <lb/><rs key="pers_DE-588-118587544" type="person">Newton</rs> l’aimoit beaucoup; il a etabli <choice><sic>de</sic><corr>des</corr></choice> principes excellens
+      <lb/>par ses attractions et repulsions; mais je ne sache pas, qu’il se
+      <lb/>soit autrement distingué et cela devroit decourager ceux, qui
+    <pb facs="5994696" n="43v"/>
+    <lb/>pretendent d’apliquer la geometrie à la chymie: j’ai eu quel<pc type="hyphenation">-</pc><lb break="no"/>quefois l’idée, que les objets odoriferans pourroient bien agir
+      <lb/>par <subst><del><gap/></del><add>des</add></subst> vibrations d’une atmosphere, comme la lumiere et le
+      <lb/>son; je ne <choice><orig>scai</orig><reg>sçai</reg></choice> si un grand miroir ardent concave ne pourroi<unclear reason="binding">t</unclear>
+      <lb/>pas augmenter l’odeur dans son foyer: je crois bien que non, mais
+      <lb/>je souhaiterois cependant qu’on l’essayat. Mon <rs key="pers_DE-588-117589136" type="person">frere</rs> me dit que
+    <lb/>Vous lui parlez d’une seconde edition de mon <rs type="biblio"><choice><orig>hydrodinamique</orig><reg>Hydrodinamique</reg></choice></rs> faite
+      <lb/>à <rs key="place_GEO-2973783" type="place">Strasbourg</rs>; je n’en ai jamais rien entendu. <choice><orig>les</orig><reg>Les</reg></choice> ouvrages de mathe<pc type="hyphenation">-</pc><lb break="no"/>matique ne se debitent pas si vite; il me dit aussi que vous sou<pc type="hyphenation">-</pc><lb break="no"/>haiteriez qu’on fit une seconde edition de la dissertation de <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-118656503" type="person">Nicolas Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>, <rs type="biblio">de usu artis conjectandi in jure</rs>. <choice><orig>il</orig><reg>Il</reg></choice> est sûr
+      <lb/>qu’aucun Imprimeur de <rs key="place_GEO-2661604" type="place">Bale</rs> ou marchand libraire n’auroit le
+      <lb/>courage d’entreprendre cette edition. Si les libraires de <rs key="place_GEO-2950159" type="place">Berlin</rs>
+      <lb/>etoient plus determinés, il me semble que vous feriez fort bien de
+      <lb/>la procurer. Vous le feriez avec des notes qui seroient
+      <lb/>fort utiles; <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119166895" type="person">Nicolas Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> manquoit de bonnes listes
+      <lb/>mortuaires: d’ailleurs il auroit pu choisir d’autres aplications.
+      <lb/>Vous pourriez ajouter à cette <rs type="biblio">seconde edition</rs> <choice><sic>celle</sic><corr>celles</corr></choice> de vos theses,
+      <lb/>que vous avez soutenues ici. Vous etes au fait de ces matieres.
+      <lb/><rs key="pers_DE-588-118814834" type="person">Susmilch</rs> a ramassé un grand nombre d’observations et les
+      <lb/>a recherché<subst><del>s</del><add>es</add></subst> avec quelque gout; mais ses raisonnemens
+      <lb/>et les consequences qu’il tire de ses observations, sont
+      <lb/>tres peu de chose; <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117632511" type="person">de Parcieux</rs> n’a pas fait non plus
+      <lb/>tout l’usage qu’il auroit pu des <rs type="biblio">tables</rs> qu’il raporte.
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> ne <choice><orig>scai</orig><reg>sçai</reg></choice> si vous savez, que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117632511" type="person">de Parcieux</rs> a fait une addition
+      <lb/>à son <rs type="biblio">ouvrage</rs>, où il y a de tres bonnes listes du celebre <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-117565849" type="person">Wargentin</rs>; il separe les hommes d’avec les femmes, dont
+      <lb/>la vie moyenne est, pour tous les ages, sensiblement plus
+      <lb/>longue que celle des hommes, difference à laquelle il faudroit
+      <lb/>avoir egard. <choice><orig>nous</orig><reg>Nous</reg></choice> avons en <rs key="place_VER-schweiz" type="place">Suisse</rs> un petit <rs type="biblio">ouvrage</rs> sur ces
+      <lb/>matieres fait par <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1026882826" type="person">Muret</rs>, premier pasteur de <rs key="place_GEO-2658145" type="place">Vevay</rs>, qui me
+      <lb/>paroit fort bon et bien raisonné; tout cela seroit d’un grand secours
+      <lb/>pour faire un bon <rs type="biblio">Commentaire</rs>. <choice><orig>je</orig><reg>Je</reg></choice> ne <choice><orig>scai</orig><reg>sçai</reg></choice> si on continue chez vous
+      <lb/>ces listes; il faudroit leur donner une forme un peu differente; quand vous verrez
+      <lb/>la <rs type="biblio">piece</rs> que j’ai envoyée à <rs key="place_GEO-498817" type="place">Petersbourg</rs> sur la durée moyenne des mariages,
+      <lb/>vous trouverez, que le calcul peut mener bien loin.</p>
+<closer>
+<salute><choice><orig>je</orig><reg>Je</reg></choice> vous embrasse,
+      <lb/>Monsieur mon tres cher <rs key="pers_DE-588-116170654" type="person">Neveu</rs>, et je suis toujours entierement à Vous. </salute><signed><rs key="pers_DE-588-118656503" type="person"><abbr>D. B.</abbr></rs> </signed>
+
+</closer>
+<pb facs="5994697" type="archival"/></div>
+</body>
+</text></TEI>

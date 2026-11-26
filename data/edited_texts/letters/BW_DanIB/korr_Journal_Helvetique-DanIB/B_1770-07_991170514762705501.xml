@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514762705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an unbekannten Empfänger.
+                        Ohne Ort, Juli 1770</title>
+          <title type="alt">Daniel I Bernoulli an die
+                        Redaktion des Journal Helvétique. Basel, Juli 1770 TP</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514762705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514762705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs>
+                    (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Journal Helvétique </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Auf dem Umschlag von der Hand Joh. III B.s: "Anonyme
+                        (Daniel Bernoulli) aux Auteurs du Journal Helvet.e env. 1770". Im Text
+                        bezieht sich Dan. B. auf Auszüge aus Werken Abauzits im Journal Helv. vom
+                        Juli 1770, S. 298</p>
+          <p>Briefrückseite mit Notiz</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200177">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.19r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514762705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432850005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055145</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Basel]</origPlace>
+              <date when="1770-07">[nach Juli
+                                1770]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1770-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514762805501" type="prev"/>
+          <ptr target="B_991170430299005501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Journal_Helvetique-DanIB" corresp="pers_resource_000037" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116238380">Abauzit, Firmin</persName>
+            <note type="lebensdaten">(1679-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2004-02-23" who="FN SG">kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/5994581/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/5994581/canvas/5994582" type="archival"/>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/5994581/canvas/5994583" type="archival"/>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/5994581/canvas/5994584" n="19r"/>
+  <opener>Messieurs.</opener>
+  <p>L’extrait que vous donnez, dans votre journal Helvetique au mois de
+    juillet 1770 pag. 298, des oeuvres diverses de M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs> nouvellement
+    imprimées à <rs key="place_GEO-2643743" type="place">Londres</rs>, occasionne cette lettre, que je me donne l’honneur
+                    de vous ecrire en vous priant de l’inserer de méme dans votre journal.
+                    A fin que le Public soit informé, que c’est à tort, que M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs> accuse
+    M. <rs type="person" key="pers_DE-588-118656503">Daniel Bernoullj</rs> d’erreur sur une matiere fort importante ou, du
+                    moins, à fin, qu’il suspende son jugement. Ce n’est pas cependant de feu M.
+    <rs type="person" key="pers_DE-588-116238380">Abauzit</rs>, que M. <rs type="person" key="pers_DE-588-118656503">Bernoulli</rs> se plaint; c’est plutot de ce que
+    vous vous declarez hautement pour M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs>, quoiqu’avec un compliment
+                    egalement poli pour ces deux auteurs, tout comme si la cause avoit eté
+                    plaidée contradictoirement.</p>
+  <p>Je scai pourtant, Messieurs, que M. <rs type="person" key="pers_DE-588-118656503">Bernoullj</rs> ne
+                    regarde ce procedé de votre part, que comme un excés de confiance pour
+                    M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs>, qu’on a scu vous inspirer. Vous serez donc surpris vous memes,
+        si je vous aprends, que M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs> se trouve dans tout le tort, qu’on peut
+                    avoir. La question n’est pas, si un corps specifiquement plus pesant tombe
+                    plus vite ou, pour me servir des paroles de M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs>, si les aproches de
+                    divers corps vers un meme, ne sont pas toutes egales en tems egaux, quelque
+                    differens qu’ils soyent en densité. Elle consiste simplement à savoir si
+                    M. <rs type="person" key="pers_DE-588-118656503">Bernoullj</rs> a eu tort de suposer qu’un corps plus pesant press d’avantage
+                    la base qui le soutient ou non? Sur cet exposé, vous jugez bien, Messieurs,
+                    que M. <rs type="person" key="pers_DE-588-116238380">Abauzit</rs> eut eté bien eloigné de former sa critique, s’il avoit lu avec
+        attention toute la theorie de M. <rs type="person" key="pers_DE-588-118656503">Bernoulli</rs> sur le flux et reflux de la mer
+                    (theorie adoptée et citée depuis 30 ans par tous les Physiciens geometres) au lieu
+                    de la <hi rend="u">parcourrir</hi> simplement, comme il doit avoir fait selon votre extrait.</p>
+  <closer>J’ai l’honneur etc.</closer>
+
+  <postscript><p>V. Quae <rs type="person" key="pers_DE-588-118587544">Newtonus</rs> habet de densitatibus solis, terrae, saturni et jovis
+                    non aliud indicant, quam proportionem quae iis densitatibus conveniunt si materia cujusvis corporis
+                    uniformis esset: densitates nempe materiae relative non absolute determinantur: voco autem densita-
+                    tem absolutam quae oritur cum illam comparamus cum materia aliqua cognita, veluti
+                    cum densitate aquae. Dicam quid res est. Integra terra definitam habet quantitatem
+                    materiae; ista materia terram componens, si habet diversas densitates, mente transformanda
+                    est in materiam homogeneam ita ut et volumen suum conservet et quantitatem
+                    materiae tum quaeritur an densitas hujus materiae uniformiter in volume terrae distributae ullo modo determinavi
+                    possit relative ad densitatem aquae. De hoc nihil plane innotuit ad huc. Fortasse densitas media
+                    materiae terrestris millies densior est quam materia aquae; fortasse ab hac parum differt
+                    an vero hac de re, ut unquam judicium aliquod ferri possit, aliqua spes est? Mihi
+                    quidem visum est, posse aliquo modo quaestionem decidi, ex variis graduum meridiani terrestri
+                    magnitudinibus collatis cum in aequalibus longitudinibus penduli ad quaevis minuta secunda
+                    vibrantis.</p></postscript>
+
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/5994581/canvas/5994585" type="archival"/>
+</div>
+</body>
+</text></TEI>

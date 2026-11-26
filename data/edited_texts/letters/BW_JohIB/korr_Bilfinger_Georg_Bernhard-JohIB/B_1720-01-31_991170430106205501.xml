@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430106205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Georg Bernhard Bilfinger. Basel, 31. Januar 1720</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430106205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430106205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Abschrift</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Basel Ub, Handschriften</repository>
+            <idno type="callNumber">L Ia 653, Nr.2 und Nr. 3.</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430106205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406976205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055577</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1720-01-31">a.d. XXXI Januarij MDCCXX</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1720-01-31"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118663208">Bilfinger, Georg Bernhard</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430106705501" type="prev"/>
+          <ptr target="B_991170514738705501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bilfinger_Georg_Bernhard-JohIB" corresp="pers_DE-588-118663208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-103769544">Brühl, Johann Benjamin</persName>
+            <note type="lebensdaten">(1691-1763)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100811833">Kraus, Johann Ulrich</persName>
+            <note type="lebensdaten">(1655-1719)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+  <opener>Viro Clarissimo atque Pereximio
+
+  M. Georgio Bernhardo Bülffingero S. P. D. Joh. Bernoullj.</opener>
+
+  <p>Nescio an acceperis, Vir clarissime quas ad Te dedi litteras: Nunc paucis hisce significo, paratam esse vultus mei Iconem quam desiderant Editores novae Bibliothecae; Eam autem Tibi non prius mittam, quam intellexero, quod litterae meae, ad Te recte pervenerint, foret enim injucundum Tibi opinor aeque ac mihi si quoque Effigies ista in itinere periret; Quocirca responsionem exspecto, eam postea brevi dimissurus, Vidi nuper Tomum IV Bibliothecae istius; contemplanti in eo imagines partim a <rs type="person" key="pers_DE-588-103769544">Brühl</rs> partim a Krausio aeri incisas, nulla omnino occurrit quae placeat; caelatura quippe est rudis et crassa, partium proportio parum observata, per totum nulla Elegantia, nitor nullus et ut verbo dicam figurae illae non artificum sed Tyronum opera esse videntur; atque quod pessimum est similitudo personarum quas referre debeat, desideratur, ita judico quia ex depictis viris aliquos novi de facie aliquos aliunde ex effigie; sed ex Bibliothecae iconibus vix cognoscere potuissem nisi nomina adscripta fuissent: Vellem igitur mihi diceres in antecessum utrum Editores Bibliothecae nunc utantur peritiore artifice, nam ut dicam quod sentio non communicabo mei imaginem nisi prius mihi promittas, eam delineandam traditam iri Excellenti alicui Chalcographo, qui et sculpendi et imitandi artem probe calleat. Videas ergo, Vir Clar., num hac de re possis me reddere secorum; alioquin mallem faciem meam non conspici ab Eruditis quam comparere coram illis sub forma indecora et ridicula. Vale et mihi favere perge.</p>
+
+  <closer>Dabam Basileae a. d. XXXI Januarij MDCCXX. <note type="editorial">Von diesem Brief weist die Stokholmer Smmlg. 2 Copien auf die Stuttgarter dagegen kein Original. 1 Copie sehr schlecht.</note></closer>
+</div>
+</body>
+</text>
+</TEI>

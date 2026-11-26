@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517063305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Franz Christ an Nicolaus I Bernoulli. Angers, 29. August 1717</title>
+          <title type="alt">1717.08.29: Christ, Franz (1688-1744) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059042</title>
+          <title type="alt">1717-08-29_Christ_Franz-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517063305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517063305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Christ, Franz (1688-1744) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 5. 7bris"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23542">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.9</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517063305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433693005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059042</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>22,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Angers</origPlace>
+              <date when="1717-08-29">den 29. Augusti, 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Angers</placeName>
+          <date when="1717-08-29"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517063805501" type="prev"/>
+          <ptr target="B_991170517063105501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Christ_Franz-NicIB" corresp="pers_DE-588-140736662" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1141832453">Arnold, John</persName>
+            <note type="lebensdaten">(1688-17XX)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089924429">Bernoulli, Ursula</persName>
+            <note type="lebensdaten">(1665-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Cromwell, Gouverneur</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Grüm, Pfarrer in Strassburg</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117205508">Iselin, Jakob Christoph</persName>
+            <note type="lebensdaten">(1681-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Königseck, Graf von</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+            <note type="lebensdaten">(1691-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-123503094">Schwartz, Nicolaus</persName>
+            <note type="lebensdaten">(-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10068534X">Thurneysen, Emanuel</persName>
+            <note type="lebensdaten">(1687-1739)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-15" who="SG">Englische Arbeitsübersetzung sprachlich überarbeitet und erneut mit dem Ausgangstext abgeglichen; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-15" who="SG">Layout der Arbeitsübersetzungen an Briefkopf, Schluss und Adresszeilen des Originals angeglichen.</change>
+        <change when="2026-09-15" who="SG">Maschinelle englische Arbeitsübersetzung ergänzt; wissenschaftlich ungeprüft und intern.</change>
+        <change when="2025-08-22" who="CG SG">Kollationieren abgeschlossen</change>
+        <change when="2025-08-15" who="CG SG">Kollationieren begonnen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039714/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039715" n="1"/>
+  <opener><lb/><dateline><rs type="place" key="place_GEO-3037656">Angers</rs> den <date when="1717-08-29">29 Augusti, 1717.</date></dateline>
+      <lb/><note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1717-09-05">5. 7bris.</date></note>
+      <lb/><salute>Liebster Fründ</salute></opener>
+  <p><lb/>So bald ich deinen <rs type="letter">brief</rs> geöfnet und aus der überschrift gesehen, daß
+      <lb/>du in <rs type="place" key="place_GEO-2661604">Basel</rs> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>est, hat sich meine freüd verdoplet, weil ich wegen deiner
+      <lb/>a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>äherung gegen mir schon glaubte, ich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> dir; und dieses um so
+      <lb/>viel desto mehr, weil nicht hätte glauben kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, daß du eine solche spatzier<pc type="hyphenation">=</pc><lb break="no"/>reis wurdest kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en oder wollen vorne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. Ich mus beke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, daß ich gleich
+      <lb/>anfangs be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> lesung des <rs type="letter">briefs</rs> gedacht, du habest deinen posten verlassen,
+      <lb/>insonderheit weil ich wuste, aus was für betrachtung du denselbigen
+      <lb/>angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en; vielleicht kan es noch geschehen und könte man zu <rs type="place" key="place_GEO-2661604">Basel</rs> mittel
+      <lb/>finden dich länger aufzuhalten, als du anfangs nicht gedacht. Aufs
+      <lb/>wenigst möchte solches von hertzen wünschen, um mit der ueit be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>
+      <lb/>meiner zuruckkunft daßjenige in <rs type="place" key="place_GEO-2661604">Basel</rs> finden zu kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, was mein
+      <lb/>gröste vergnügung in dieser welt ist. Ich wurde auch alle meine kräften
+      <lb/>anwenden, dich darzu zu bereden, wan sich etwas zeigte, so fern ich
+      <lb/>nicht alle hofnung verloren hätte, wider naher <rs type="place" key="place_GEO-2661604">Basel</rs> zu ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en oder doch
+      <lb/>daselbst mich zu setzen. Weil ich niemand als dich habe, von deme aufrichti<pc type="hyphenation">=</pc><lb break="no"/>gen raht hofen kan, will dir meine gedancken ofenbaren und deiner
+      <lb/>meinung erwarten. Ich bin entschlossen hier und dorten auf meiner reiß
+      <lb/>umzusehen, wo etwan die Vorsehung einen ruh<choice><orig></orig><reg>-</reg></choice> oder vielmehr ar<pc type="hyphenation">=</pc><lb break="no"/>beitsplatz für mich bereitet und werde alsdan trachten meine zeit
+      <lb/>nicht übel anzuwenden. Ich hab <rs type="place" key="place_GEO-2661604">Basel</rs> schier gar aus dem sin geschlagen
+      <lb/>und hätte es auch schon gethan, wan nicht die betrachtung meiner <rs type="person">Eltern</rs>
+      <lb/>und <rs type="person">geschwisterten</rs> mich dahin zu sehen triebe; doch wan ich bedencke,
+      <lb/>daß ich ihnen vielleicht anderstwo eben so viel werde helfen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice>
+      <lb/>mehr als daheim, wird auch diese anzeüchungskraft sehr schwach. Ich hatte
+      <lb/>auch im geringsten keine lust den gradum Doctorat<choice><orig><g ref="#uhat">û</g></orig><reg>u</reg></choice>s anzu ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, weil
+      <lb/>diese gedancken schon damals sich in meinem gemüht fest gesetzet.
+      <lb/>Die ursachen, so mich antreiben, nicht wider zuruck auf <rs type="place" key="place_GEO-2661604">Basel</rs> zu gedencken,
+      <lb/>sind<choice><orig>,</orig><reg type="deleted"/></choice> die umstürtzung unsers Hauses, so mich <foreign xml:lang="lat">levis not<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> macul<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice></foreign> gleichsam
+      <lb/>notieret, die schwärigkeit etwas daselbs durch rechtmässige mittel zu
+<pb facs="1039716" n="2"/>
+      <lb/>erlangen, und die erschrockliche verderbnus, so im geistlichen und weltlichen
+      <lb/>stand i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er zuni<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et. Es duncket mich zeit genug se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, wider zuruck zu
+      <lb/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, wan nirgendswo anzuko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en werde wissen; Vielleicht zeiget die
+      <lb/>zeit eines und das andere und kan man auf nichts gewis bauen,
+      <lb/>gleichwie du ohne zweifel bei deiner abreis von <rs type="place" key="place_GEO-2661604">Basel</rs> nicht geglaubt
+      <lb/>so bald wider dahin zu kehren, um den Doctoratum anzune<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en.
+      <lb/>Ich wünsche dir von hertzen glück darzu und bitte Gott, daß Er dir
+      <lb/>alles ersprießliche wohlergehen wolle widerfahren lassen. Ich bedancke
+      <lb/>mich auch gantz fründlich, daß du theil ni<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>est an unserem unglück;
+      <lb/>und kan ich dir bezeügen, daß vor meiner abreis aus <rs type="place" key="place_GEO-2661604">Basel</rs> nicht wenig
+      <lb/>ku<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er und verdrus empfunden; <del><gap/></del><add>du</add> kanst<del><gap/></del> dir leicht einbilden, wie
+      <lb/>mir müsse zu muht gewesen se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, da ich alle augenblick hab müssen
+      <lb/>in forchten stehen, man werde das haus beschliessen und werde ich mit
+      <lb/>meinen <rs type="person">Eleves</rs> anderstwohin ziehen müssen; bin ich zu einem <rs type="person">verwanten</rs>
+      <lb/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, hab ich nichts als klägten anhören müssen; oft bin ich beschuldiget
+      <lb/>worden, als wan ich an einem oder anderem schuld wäre; ich hab mich aber
+      <lb/>allezeit getröstet und endlich Gott gedanckt, daß er uns gezüchtiget
+      <lb/>damit wir ihn förchten. Ich befinde mich Gott lob sehr wohl hier und
+      <lb/>halten sich meine undergebene sehr wohl. Die <rs type="place" key="place_GEO-3037656">stadt</rs> ist nicht viel be<pc type="hyphenation">=</pc><lb break="no"/>sonders und wurde sie auch allem ansehen nach sehr wenig besucht
+      <lb/>werden, wan die <rs type="organisation">reitschuhl</rs> nicht hier wäre, auf deren sich dißmalen
+      <lb/>gegen 30 fremde befinden, darvon wohl der halbe theil Engelländer
+      <lb/>sind. Das haus da der <rs type="person">bereüter</rs> wohnet ist hart vor der stadt
+      <lb/>be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> dem thor, er kan ohngefehr 16 logieren und sind die übrigen
+      <lb/>verpflichtet in der stadt losamenter zu suchen. Wir wohnen
+      <lb/>in der <rs type="organisation">Academie</rs> oder des <rs type="person">bereiters</rs> haus, da wir auch essen.
+      <lb/>Ein person zahlet monatlich 100 francken, da er al<add>s</add>dan lernet
+      <lb/>reiten, fechten und dantzen. Weil die Gouverneurs diese exercitia
+      <lb/>vergebens erlernen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, so appliciere ich mich auch darauf um
+      <lb/>die zeit zu vertreiben; es kan nichts schaden, wan schon ein Lateini<pc type="hyphenation">=</pc><lb break="no"/>scher reüter weist ein pferd zu tumlen, zudem finde ich diese
+      <lb/>exercitia sehr komlich zu der gesundheit und vertreiben sie
+<pb facs="1039717" n="3"/>
+      <lb/>alle u<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>utzliche feüchtigkeiten. Ich appliciere mich über dis auf die
+      <lb/>Englische sprach und habe ich gute gelegenheit mich darin zu üben;
+      <lb/>die Engelländer so hier sind kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en sich nicht gewöhnen etwas an<pc type="hyphenation">=</pc><lb break="no"/>ders als ihre sprach zu reden, so daß ich gleichsam in <rs type="place" key="place_VER-englan">Engelland</rs>
+      <lb/>mich befinde; ich habe einen meister geno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en<supplied>,</supplied> die außsprach recht
+      <lb/>zu erlernen und fange ich an zu reden; sie leihen mir überdis
+      <lb/>underschiedliche bücher, so daß ich mich in dieser sprach wohl stärcke.
+      <lb/>Herren <rs type="person">Schwartzen</rs> bin für sein angedencken und grus sehr verpflichtet,
+      <lb/>man hatte mir hofnung gemacht, ich werde ihn in <rs type="place" key="place_GEO-2660646">Genf</rs> antrefen, so
+      <lb/>mich sehr wurde gefreüet haben, bitte ihm hinwiderum meinen <abbr>fr.</abbr>
+      <lb/>grus zu vermelden, wie auch anderen guten fründen, insonderheit
+      <lb/>Herren <rs type="person">Raillard</rs>, deme mit nächstem schreiben werde. Für die mir
+      <lb/>überschriebenen zeitungen sage schönsten danck und bitte fortzufahren,
+      <lb/>wan es die zeit zulasset. Möchte wissen, wer naher <rs type="place" key="place_GEO-2973783">Straßburg</rs> an
+      <lb/><abbr>H.</abbr> <rs type="person">Grüen</rs> stehl Pfarrer worden, ob des <rs type="person">Helfers</rs> <rs type="person">Sohn</rs> zu St. L.<note type="comment" resp="SG">Kirche St. Leonhard zu Basel.</note> zu <rs type="place" key="place_GEO-2661604">Ba<pc type="hyphenation">=</pc><lb break="no"/>sel</rs> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e, wie es den <rs type="person">Thurneisen</rs> mit ihrem corpus Juris gehe<del><gap/></del>, weil
+      <lb/>verno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, daß sie grossen schaden auf dem wasser gelitten. Ich werde
+      <lb/>noch aufs wenigst bis nach dem neüen Jahr hier bleiben und villeicht
+      <lb/>erst künftigen <date>Mertzen</date> naher <rs type="place" key="place_GEO-2988507">Paris</rs> ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, so daß nicht hofen kan,
+      <lb/>deinen <rs type="person">Vetter</rs> dorten anzutrefen, so gern wünschte; melde mir wan es
+      <lb/>dir beliebt, wie lang er wohl dorten bleiben wird und wo er wohnet.
+      <lb/>Wan du wider in <rs type="place" key="place_KON-italie">Italien</rs> gehest, kanstu vielleicht gesellschaft überko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en<choice><orig>,</orig><reg>.</reg></choice>
+      <lb/>Es sind vor ohngefehr 8 tagen die zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> <rs type="person">Grafen von Königseck</rs> mit
+      <lb/>ihrem <rs type="person">Gouverneur</rs> von hier abgereist, so über <del><gap/></del><add>die</add> <rs type="place" key="place_VER-schweiz">Schweitz</rs> dahin
+      <lb/>wollen; weil Ihr <rs type="person">Gouverneur</rs> von <rs type="place" key="place_GEO-2661035">Delsperg</rs> ist, werden sie mit ihm
+      <lb/>zuerst dahin gehen und vielleicht auf <rs type="place" key="place_GEO-2661604">Basel</rs> ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. Ich hab dem
+      <lb/><rs type="person">Gouverneur</rs> einen <rs type="letter">brief</rs> an den <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">Iselin</rs> mitgeben, den er
+      <lb/>ihm selbsten überlifern will, weil er nohtwendig zu <rs type="place" key="place_GEO-2661604">Basel</rs> zu
+      <lb/>schafen hat. Diese <abbr>HH.</abbr> <rs type="person">Grafen</rs> sind sehr artige und höfliche leüt,
+      <lb/>mit denen sehr wohl umzugehen, und wurde es mich freüen, wan
+<pb facs="1039718" n="4"/>
+      <lb/>du ihre gesellschaft wurdest haben kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en. Du wurdest zugleich von
+      <lb/>ihnen außführlichen bericht erhalten, wie wir hier leben und die zeit
+      <lb/>zubringen. Morgens werden 6 <rs type="person">Engelländer</rs> von hier naher <rs type="place" key="place_KON-italie">Italien</rs>
+      <lb/>abreisen, sie ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en den weg über<choice><orig>,</orig><reg type="deleted"/></choice> <rs key="place_GEO-2990969" type="place">Nantes</rs>, la <rs type="place" key="place_GEO-3006787">Rochelle</rs>, <rs type="place" key="place_GEO-3031582">Bourdeaux</rs>, <rs key="place_GEO-2972315" type="place">Thoulouse</rs>,
+      <lb/><rs type="place" key="place_GEO-2995469">Marseille</rs>, <rs type="place" key="place_GEO-2996944">Lion</rs>, <rs type="place" key="place_GEO-3165524">Turin</rs> <choice><orig><g ref="#und">[und]</g></orig><reg>und</reg></choice> ein <rs type="person">Gouverneur</rs> darunder so <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person">Cromwell</rs> heisset
+      <lb/>ist des <abbr>M.<hi rend="sup">r</hi></abbr> <rs type="person">Arnolds</rs> guter fründ und auch ein <rs type="person">Medicus</rs>, villeicht
+      <lb/>wird er dir zu <rs type="place" key="place_GEO-3171728">Padua</rs> eine visiten ablegen, wan du alsdan wirst
+      <lb/>wider zuruckse<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n. Von hier aus wüste nichts neües zu melden und wäre
+      <lb/>ich aller zeitungen beraubet, wan wir nicht die <rs type="biblio">Holländische</rs> wochentlich
+      <lb/>zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>mal zu lesen überkämen. <foreign xml:lang="lat">Ex Re literaria</foreign> komt mir gar nichts zu
+      <lb/>und ist nicht ein einiger buchhändler hier, der den <rs type="biblio">Journal des Savans</rs>
+      <lb/>oder ein buch von dieser art beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, sie beklagen sich alle, die
+      <lb/>gelehrten se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en hier gar dün gesäet und wolle niemand nichts an<pc type="hyphenation">=</pc><lb break="no"/>wenden. Die <rs type="organisation" key="org_DE-588-2024963-9">Universitet</rs> hier ist nicht viel und gibt es nicht ein
+      <lb/>einzige Bibliotheca publica; das Jus wird von <rs type="person">zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en Professoribus</rs>
+      <lb/>dociert, die zimlich gelehrt sind, insonderheit der <rs type="person">einte</rs>; es ist eine
+      <lb/>Professio Juris vacant<supplied>,</supplied> für die man künftigen <date>Decembre</date> disputieren
+      <lb/>wird und kan jederman dahin aspirieren wan er nur Catholisch ist.
+      <lb/>Es hat einen <rs type="person">jungen menschen</rs> dieser stadt schon das leben gekostet,
+      <lb/>seine fründ munterten ihn auf, er solle auf diese Profession sehen
+      <lb/>und weil er seit etwas zeit nichts in Jure gethan, hat er sich
+      <lb/>so starck tag und nacht darhinder gemacht, daß er in ein
+      <lb/>fieber gefallen und vor 8 tagen gestorben. Ich hofe<del><gap/></del> alsdan meine
+      <lb/>zeit ein und das andere mahl in diesen Disputationen zuzu<pc type="hyphenation">=</pc><lb break="no"/>bringen, um zu sehen, ob ihre<del><gap/></del> manier mit der unserigen überein<pc type="hyphenation">=</pc><lb break="no"/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e. Meine <rs type="person">Eleves</rs> dancken dir für deinen grus und erwideren
+      <lb/>solchen gegen dir. Se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e so gut und versichere meines gehorsams
+      <lb/>deinen Herren <rs type="person">Oncle</rs>, deine <abbr>Fr.</abbr> <rs type="person">Muter</rs> und liebe <rs type="person">angehörige</rs>. Ich
+      <lb/>werde zeit meines lebens verharren</p>
+  <closer>Dein getreüer
+      <lb/><signed><rs type="person">F<supplied>.</supplied> Christ.</rs></signed></closer>
+</div>
+
+<div type="translation" xml:id="B_991170517063305501_trans_en" xml:lang="en" status="unreviewed">
+<p><pb facs="1039715" n="1"/> Angers, 29 August 1717.
+<lb type="forced"/>Dearest friend,</p>
+<p>As soon as I opened your letter and saw from the dateline that you were in Basel, my joy doubled. Knowing that you were nearer to me, I already felt as though I were with you, all the more since I could not have believed that you would be able or willing to undertake such a trip for pleasure. I must confess that, when I first began reading the letter, I thought you had left your post, especially since I knew the considerations that had led you to accept it. Perhaps that may still happen, and means may be found in Basel to detain you longer than you originally intended. At least I would wish it from my heart, so that in time, on my return, I might find in Basel what gives me my greatest happiness in this world. I would do all I could to persuade you if an opportunity arose, had I not lost almost all hope of returning to Basel myself, or at least of settling there.</p>
+<p>Since I have no one but you from whom I can hope for sincere advice, I shall tell you what I am thinking and wait for your advice. I am resolved to look about here and there on my travels for a place where Providence may have prepared a resting place, or rather a place of work, for me. I shall then try to make good use of my time. I have almost put Basel entirely out of my mind, and would already have done so were it not that consideration for my parents and siblings draws my attention back there. Yet when I reflect that I may be able to help them elsewhere just as much as at home, or more, even that tie loses much of its force. I had not the slightest desire to take the doctoral degree either, since these thoughts were already firmly settled in my mind at that time. The reasons that move me not to think of returning to Basel are the ruin of our household, which seems to cast a slight stain on my reputation; the difficulty of obtaining anything there by legitimate <pb facs="1039716" n="2"/> means; and the terrible corruption that continues to increase in both church and civil affairs. It seems to me that it will be time enough to return if I can find no place anywhere else. Perhaps things will become clearer with time; nothing is certain. You yourself doubtless did not expect, when you left Basel, to return so soon to take your doctorate. I congratulate you on it from my heart and pray that God may grant you every success.</p>
+<p>I also thank you most warmly for sharing in our misfortune. I can assure you that before leaving Basel I experienced no little anxiety and distress. You can easily imagine how I must have felt when I lived in constant fear that the house would be closed and I would have to move elsewhere with my pupils. Whenever I visited a relative, I had to hear nothing but complaints. I was often accused of being to blame for one thing or another. Yet I always took comfort and finally thanked God for chastising us so that we might fear him.</p>
+<p>Thank God, I am very well here, and those in my charge behave very well. The town is nothing special and would apparently receive very few visitors were it not for the riding school, which currently has about thirty foreigners, a good half of them English. The house where the riding master lives is just outside the town by the gate. He can lodge about sixteen people; the others must find accommodation in town. We live in the academy, or the riding master’s house, where we also eat. A person pays one hundred francs a month and is then taught riding, fencing and dancing. Since the tutors can learn these exercises free of charge, I too have taken them up to pass the time. Even a man of books can do with knowing how to handle a horse. Moreover, I find these exercises very beneficial to health, and they expel <pb facs="1039717" n="3"/> all superfluous humours.</p>
+<p>I am also studying English and have a good opportunity to practise it. The Englishmen here never seem to get used to speaking any language but their own, so that I am, as it were, in England. I have engaged a teacher to learn the pronunciation properly and am beginning to speak. They also lend me various books, so that I am making good progress in the language. I am very grateful to Mr Schwartz for thinking of me and sending his greetings. I had been given hope that I should meet him in Geneva, which would have delighted me. Please convey my friendly greetings in return, as also to our other good friends, especially Mr Raillard, to whom I shall write shortly. Thank you very much for the news you sent, and please continue when time permits. I would like to know who has become pastor at Strasbourg in Mr Grün’s place; whether the son of the assistant pastor at St Leonhard’s is in Basel; and how the Thurneysen are faring with their <hi rend="i">Corpus juris</hi>, since I have heard that they suffered great losses on the water.</p>
+<p>I shall remain here at least until after the New Year, and perhaps not reach Paris until next March, so that I cannot hope to meet your cousin there, much as I would wish it. Please tell me how long he is likely to remain and where he lives. If you return to Italy, you may find travelling companions. About eight days ago the two Counts of Königsegg left here with their tutor, intending to go there through Switzerland. Since their tutor is from Delémont, they will first go there with him and may come to Basel. I gave the tutor a letter for Dr Iselin, which he intends to deliver himself, as he has business that must be done in Basel. These counts are very agreeable and courteous people, easy to get along with, and I should be glad if <pb facs="1039718" n="4"/> you could have their company. You would also receive a detailed account from them of how we live here and spend our time.</p>
+<p>Tomorrow six Englishmen will leave here for Italy. They are taking the route through Nantes, La Rochelle, Bordeaux, Toulouse, Marseille, Lyon and Turin. One of the tutors among them, called Mr Cromwell, is a good friend of Mr Arnold and also a physician. Perhaps he will visit you at Padua if you have returned by then. I have no news to report from here and would be deprived of all news were we not given Dutch newspapers to read twice a week. I receive nothing at all from the world of learning. There is not a single bookseller here who has obtained the <hi rend="i">Journal des savants</hi> or a book of that kind. They all complain that scholars are thin on the ground here and no one wants to spend money on books.</p>
+<p>The university here amounts to little, and there is not a single public library. Law is taught by two professors who are reasonably learned, one especially so. A law professorship is vacant, for which disputations will be held next December. Anyone may compete for it, provided he is Catholic. It has already cost a young man of this town his life. His friends encouraged him to seek this professorship. Since he had done nothing in law for some time, he applied himself so intensely day and night that he developed a fever and died eight days ago. I hope then to spend some of my time at these disputations to see whether their procedure resembles ours.</p>
+<p>My pupils thank you for your greetings and return them. Be so good as to convey my respects to your uncle, your mother and your dear family. I shall remain throughout my life</p>
+<p>your faithful
+<lb type="forced"/>F. Christ.</p>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517064105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Franz Christ an Nicolaus I Bernoulli. Basel, 13. Januar 1717</title>
+          <title type="alt">1717.01.13: Christ, Franz (1688-1744) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059040</title>
+          <title type="alt">1717-01-13_Christ_Franz-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517064105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517064105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Christ, Franz (1688-1744) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 6.ten Febr."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23540">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.7</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517064105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433692705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059040</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 S.)<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basel</origPlace>
+              <date when="1717-01-13">den 13 Jenner 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1717-01-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517064405501" type="prev"/>
+          <ptr target="B_991170517063805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Christ_Franz-NicIB" corresp="pers_DE-588-140736662" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121435032">Gernler, Johann Heinrich</persName>
+            <note type="lebensdaten">(1664-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089801718">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1662-1717)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1200260074">Lindenmeyer, Johann</persName>
+            <note type="lebensdaten">(1686-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1165250772">Respinger-Battier, Chrischona</persName>
+            <note type="lebensdaten">(1691-1717)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-15" who="SG">Englische Arbeitsübersetzung sprachlich überarbeitet und erneut mit dem Ausgangstext abgeglichen; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-15" who="SG">Layout der Arbeitsübersetzungen an Briefkopf, Schluss und Adresszeilen des Originals angeglichen.</change>
+        <change when="2026-09-15" who="SG">Maschinelle englische Arbeitsübersetzung ergänzt; wissenschaftlich ungeprüft und intern.</change>
+        <change when="2025-08-15" who="CG SG">Tagging und Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039698/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039700" n="1"/>
+  <opener><salute><lb/>Liebster Fründ</salute></opener>
+  <p><lb/>Ich weis nicht, ob ich meinen brief mit freüden oder mitle<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>ds<pc type="hyphenation">=</pc><lb break="no"/>bezeügungen anfangen solle; du meldest mir in deinem ange<pc type="hyphenation">=</pc><lb break="no"/>ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en <rs type="letter">schreiben</rs>, wie wohl deine antrettung von statten gegangen,
+      <lb/>aber indem ich dasselbe empfangen, mus ich mit betrübtem
+      <lb/>hertzen über den todesfahl deines <abbr>H.</abbr> <rs type="person">Vatters</rs> solches durchlesen;
+      <lb/>so daß auf dieser welt keine rechte satte freüd nirgends zu
+      <lb/>finden ist. Ich wünsche dieses einzige, daß, weil der anfang
+      <lb/>deines amtes durch ein so bitteres le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d betrübet worden, du in
+      <lb/>das künftige ein desto festere vergnügung geniessen mögest.
+      <lb/>Se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e auch versicheret, aufs wenigst schliesse ich es gewis, daß
+      <lb/>du zu <rs type="place" key="place_GEO-3171728">Padua</rs> deine zeit besser zubringen werdest, als du
+      <lb/>vielleicht anfangs nicht geglaubet, Gott der<note type="editorial">Abkürzungszeichen für «der».</note> Herr führet die seinen
+      <lb/>durch das le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d zur freüd, auf allen fahl ist es ein geringeres
+      <lb/>in dieser zeit vielem verdrus, müh und traurigkeit under<pc type="hyphenation">=</pc><lb break="no"/>worfen zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n und hingegen die hofnung haben eines bes<pc type="hyphenation">=</pc><lb break="no"/>seren zustand nach diesem l<del><gap/></del><add>e</add>ben zu geniessen. Wan ich nicht
+      <lb/>wuste, daß du dich in diesem trauerfahl wohl werdest
+      <lb/>richten kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en und daß deine wissenschaft und tugend dir
+      <lb/>genugsamen trost an die hand geben werde, so wäre meine
+      <lb/>schuldigkeit dich aufzurichten, wider diesen schwären schlag.
+      <lb/>Der Herr stehe dir be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> und verrichte, was etwan deine schwach<pc type="hyphenation">=</pc><lb break="no"/>heit verhinderet, und verleihe dir in das künftige eine ver<pc type="hyphenation">=</pc><lb break="no"/>gnügung, die dieser traurigkeit entgegen zu setzen
+      <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e. Ich wünsche auch von hertzen, daß du dieses ange<pc type="hyphenation">=</pc><lb break="no"/>trettene amt in allem wohlergehen, guter gesundheit und
+<pb facs="1039701" n="2"/>
+      <lb/>allem wahren nutzen mögest fortsetzen und zu end bringen.
+      <lb/>Es ist inzwischen noch ein ander le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d in deiner verwand<pc type="hyphenation">=</pc><lb break="no"/>schaft, des jungen <abbr>H.</abbr> <rs type="person">Respingers</rs> <abbr>Fr.</abbr> Herren Saltzschreibers
+      <lb/><rs type="person">tochter</rs>, ist vergangene nacht gestorben, nachdem sie das
+      <lb/>todte kind, welches von ihrem schon lang gethanen fahl
+      <lb/>in ihrem leib verschieden, bis an ihren tod be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> sich getragen
+      <lb/>und niemalen genesen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, es solle eins von den
+      <lb/>verwunderlichsten exemplen se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, daß sie ein kind
+      <lb/>so lang getragen. Der allerhöchste wolle allerseits be<pc type="hyphenation">=</pc><lb break="no"/>trübte und insonderheit den allzufrühen <rs type="person">Witwer</rs> mit
+      <lb/>seinem trost heimsuchen. Ich bedancke mich für die
+      <lb/>angenehme erzehlung dessen, so zu <rs type="place" key="place_GEO-3171728">Padua</rs> vorgangen
+      <lb/>und siehe wohl daraus, daß du in nicht geringes
+      <lb/>ansehen ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en kanst, wan du einmahl mit deiner
+      <lb/>rechtschafenen wissenschaft wirst bekant werden, es
+      <lb/>nimt mich wunder, daß die pedanterie noch so sehr
+      <lb/>dort regieret und bild ich mir wohl ein, daß du braf
+      <lb/>hast müssen schwitzen. Neües weis ich von hier nichts
+      <lb/>zu melden, als daß <abbr>H.</abbr> <rs type="person">Lindenme<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>er</rs>, weilen er zu Peter<note type="comment">Peterskirche in Basel.</note>
+      <lb/>wegen <abbr>H.</abbr> <rs type="person">Gernler</rs> und <abbr>H.</abbr> <rs type="person">Huber</rs>, die am Podagram kranck
+      <lb/>sind, hat predigen müssen, eine predig wegen dem
+      <lb/>podagram gehalten, die läppisch genug gestellet und mit
+      <lb/>einem liederlichen gespräch in versen begleitet ist. Schreibe
+      <lb/>mir so oft du zeit hast, ich will auf meiner seit desgleichn
+      <lb/>thun, dismalen kan weiter nicht, als dich versicheren, daß
+      <lb/>dich villeicht niemand mehr liebet als</p>
+  <closer><lb/>Dein<del><gap/></del> getreüer
+      <lb/><signed><rs type="person">F. Christ</rs></signed>
+    <dateline><lb/>Basel den <date when="1717-01-13">13 Je<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er 1717.</date></dateline><note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1717-02-06">6.<hi rend="sup">ten</hi> Febr.</date> </note></closer>
+
+  <postscript><p><lb/>alle gegrüsste lassen dich grüssen.</p></postscript>
+<pb facs="1039702" n="3" type="empty"/>
+<pb facs="1039703" n="4"/>
+  <closer><address>
+      <addrLine>Al <abbr>Illustriss.<hi rend="sup">mo</hi></abbr> <abbr>Sig.<hi rend="sup">re</hi></abbr></addrLine>
+      <addrLine>Il <abbr>Sig.<hi rend="sup">re</hi></abbr> Nicolò Bernoulli</addrLine>
+      <addrLine>Professore nelle Matematiche</addrLine>
+      <addrLine>Al Santo</addrLine>
+      <addrLine>In Padoua.</addrLine>
+    </address></closer>
+</div>
+
+<div type="translation" xml:id="B_991170517064105501_trans_en" xml:lang="en" status="unreviewed">
+<p><pb facs="1039700" n="1"/> Dearest friend,</p>
+<p>I do not know whether to begin with congratulations or condolences. In your welcome letter you tell me how well you have begun in your new post. Yet I read it with a heavy heart at the news of your father’s death. Thus nowhere in this world is true and unalloyed joy to be found. I have this one wish: since the start of your new appointment has been clouded by such bitter sorrow, may you enjoy all the more lasting contentment in future. I am also convinced that your time at Padua will prove more rewarding than you may at first have expected. God the Lord leads his people through sorrow to joy. In any case, the troubles, hardships and sorrows of this life weigh less heavily when we can hope for a better life hereafter. If I did not know that you will be able to bear this bereavement, and that your learning and virtue will provide you with sufficient consolation, it would be my duty to sustain you against this heavy blow. May the Lord stand by you, help you where your own strength fails, and grant you future happiness to compensate for this sorrow. I also hope with all my heart that you may continue in your new post and fulfil its duties with every success, in good health and to <pb facs="1039701" n="2"/> good purpose.</p>
+<p>Meanwhile there has been another sorrow among your relations. Young Mr Respinger’s wife, the daughter of the salt clerk, died last night. The child had died in her womb after a fall she suffered a long time ago. She carried it until her own death, unable to give birth. It is said to be one of the most extraordinary instances of a woman carrying a child for so long. May the Most High comfort everyone who is grieving, especially the husband widowed so soon.</p>
+<p>I thank you for the welcome account of what happened at Padua. I see from it that you can earn considerable respect once people recognise the depth of your learning. I am surprised that pedantry still reigns there so strongly, and can well imagine how hard you had to work. I have no news from here except that Mr Lindenmeyer, having had to preach at St Peter’s in place of Messrs Gernler and Huber, who are ill with gout, delivered a sermon about gout. It is a thoroughly foolish piece and is accompanied by an indecorous dialogue in verse. Write to me as often as you have time; I shall do the same. This time I can do no more than assure you that perhaps no one loves you more than</p>
+<p>your faithful
+<lb type="forced"/>F. Christ
+<lb type="forced"/>Basel, 13 January 1717.</p>
+<p>All those you greeted return your greetings.</p>
+<pb facs="1039702" n="3" type="empty"/> <p><pb facs="1039703" n="4"/> To the most illustrious gentleman,<lb type="forced"/>Mr Nicolò Bernoulli,<lb type="forced"/>Professor of Mathematics,<lb type="forced"/>at the Santo,<lb type="forced"/>in Padua.</p>
+</div>
+</body>
+</text></TEI>

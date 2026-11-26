@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="impressum">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Impressum</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unveröffentlichter Entwurf zur Prüfung. Die technische Übernahme stellt keine Freigabe dar.</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+                <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Von der Herausgeberschaft bereitgestellter Impressumsentwurf. Angaben in eckigen Klammern sind noch zu ergänzen.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+            <change when="2026-11-18" who="SG">Stand des Impressums auf Wunsch von Sulamith Gehr auf den 18. November 2026 gesetzt und für die lokale App- und Daten-XAR-Prüfung vorbereitet. Keine Release- oder Deploymentfreigabe.</change>
+            <change when="2026-11-18" who="SG">Von Sulamith Gehr bestätigte Hostingangaben ergänzt: DMI, Universität Basel; Kontakt Sulamith Gehr.</change>
+            <change when="2026-11-18" who="SG">Von Sulamith Gehr benannte Beteiligte an Entwicklung und technischer Umsetzung sowie den Hinweis auf die für den nächsten Release vorgesehene detaillierte Dokumentation der einzelnen Beiträge ergänzt.</change>
+            <change when="2026-11-18" who="SG">Von Sulamith Gehr bestätigte institutionelle Anschrift, redaktionelle Kontaktperson Sulamith Gehr und E-Mail-Adresse in den Kontaktblock übernommen.</change>
+            <change when="2026-11-18" who="SG">Auf Wunsch von Sulamith Gehr den Datenschutzabschnitt einschliesslich der sichtbaren Ergänzungsfelder aus dem Impressumsentwurf entfernt. Die Prüfung des tatsächlichen Websitebetriebs bleibt ein gesonderter offener Punkt vor Veröffentlichung.</change>
+            <change when="2026-11-18" who="SG">Auf Wunsch von Sulamith Gehr die zusätzliche Zitieranweisung für Einzeltexte durch einen Verweis auf die Zitierempfehlung unterhalb des edierten Brieftextes ersetzt.</change>
+            <change when="2026-11-18" who="SG">Förderhinweis nach den Angaben von Sulamith Gehr und Abgleich mit der BEBB-Projektplanung ergänzt: SAGW-Förderung seit 2021, frühere SNF-Förderung und punktuelle Unterstützung durch die Cogito Foundation für die Edition Johann I Bernoulli–Johann Jakob Scheuchzer. Nicht abschliessend geklärte Fördergrenzen bleiben ungenannt.</change>
+            <change when="2026-11-18" who="SG">Bereitgestellten deutschen Impressumsentwurf technisch in TEI übernommen und mit der Teamseite verlinkt; Wortlaut und offene Ergänzungsfelder beibehalten. Keine inhaltliche Freigabe.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="de">
+        <body>
+            <head>Impressum</head>
+            <p><hi rend="b">Basler Edition der Bernoulli-Briefwechsel (BEBB)</hi></p>
+            <p>Die BEBB erschliesst und ediert die Briefwechsel der Basler Mathematiker Bernoulli sowie den Briefwechsel von Jacob Hermann.</p>
+            <div xml:id="impressum-herausgeberschaft">
+                <head>Herausgeberschaft und Redaktion</head>
+                <p>Die Edition wird von <hi rend="b">Sulamith Gehr und Fritz Nagel</hi> herausgegeben.</p>
+                <p>Sulamith Gehr verantwortet die Projektleitung und redaktionelle Leitung. Fritz Nagel verantwortet die wissenschaftliche Leitung.</p>
+                <p>Die Herausgeberschaft und Bearbeitung der einzelnen Texte sind in den jeweiligen Editionsdaten ausgewiesen. Weitere Angaben zu den Mitwirkenden und ihren Aufgaben enthält die <ref target="team?lang=de">Teamseite</ref>.</p>
+            </div>
+            <div xml:id="impressum-kontakt">
+                <head>Institutionelle Verantwortung und Kontakt</head>
+                <p>Bernoulli-Euler-Zentrum<lb/>Universitätsbibliothek Basel<lb/>Schönbeistrasse 18/20<lb/>4056 Basel</p>
+                <p>Redaktioneller Kontakt: Sulamith Gehr<lb/><ref target="mailto:bebb@unibas.ch">bebb@unibas.ch</ref></p>
+                <p>Hinweise auf Fehler, Ergänzungen und Fragen zur Edition richten Sie bitte an die Redaktion.</p>
+            </div>
+            <div xml:id="impressum-technik">
+                <head>Technische Umsetzung und Betrieb</head>
+                <p>Die Webanwendung verwendet TEI Publisher und die XML-Datenbank eXist-db. Die Editionsdaten sind nach den Richtlinien der Text Encoding Initiative im Format TEI-XML kodiert.</p>
+                <p>Entwicklung und technische Umsetzung<lb/>Sulamith Gehr in Zusammenarbeit mit dem BEBB-Team, Elena Spadini (RISE, heute Universität Bern) und Helena Bermudez-Sabél (Jinntec).</p>
+                <p>Eine vollständige und detaillierte Dokumentation der einzelnen Beiträge (Credits) ist für den nächsten Release vorgesehen.</p>
+                <p>Hosting und technischer Betrieb<lb/>DMI, Universität Basel<lb/>Kontakt: Sulamith Gehr</p>
+                <p>Für die eingesetzte Software gelten die Lizenzbedingungen der jeweiligen Projekte.</p>
+            </div>
+            <div xml:id="impressum-foerderung">
+                <head>Förderung</head>
+                <p>Die BEBB wird seit 2021 von der Schweizerischen Akademie der Geistes- und Sozialwissenschaften (SAGW) gefördert. In früheren Projektphasen wurde sie vom Schweizerischen Nationalfonds (SNF) unterstützt.</p>
+                <p>Die Cogito Foundation unterstützte punktuell die Edition der Korrespondenz zwischen Johann I Bernoulli und Johann Jakob Scheuchzer.</p>
+            </div>
+            <div xml:id="impressum-lizenz">
+                <head>Editionsdaten und Lizenz</head>
+                <p>Die von der BEBB erarbeiteten Editionstexte, Regesten, Kommentare, Einleitungen, Register und TEI-XML-Daten stehen, soweit beim jeweiligen Bestandteil anderslautende Angaben fehlen, unter der Lizenz <hi rend="b">Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</hi>.</p>
+                <p>Die Lizenz gestattet die Weitergabe und Bearbeitung auch für kommerzielle Zwecke. Dabei sind angemessene Urheber- und Quellenangaben zu machen, die Lizenz ist zu verlinken und vorgenommene Änderungen sind kenntlich zu machen. Wer bearbeitete Fassungen öffentlich weitergibt, muss sie unter CC BY-SA 4.0 oder einer von Creative Commons als kompatibel anerkannten Lizenz anbieten. Gesetzlich erlaubte Nutzungen und die Gemeinfreiheit einzelner Bestandteile bleiben unberührt. <ref target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">Lizenzübersicht</ref> · <ref target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">Vollständiger Lizenztext</ref></p>
+            </div>
+            <div xml:id="impressum-quellenangabe">
+                <head>Quellenangabe und Anerkennung der editorischen Arbeit</head>
+                <p>Bei der Weitergabe der Materialien sind die <hi rend="b">Basler Edition der Bernoulli-Briefwechsel (BEBB)</hi> als Quelle sowie die beim verwendeten Text ausgewiesenen Herausgebenden und Bearbeitenden in angemessener Form zu nennen.</p>
+                <p>Werden BEBB-Texte als Grundlage einer neuen Edition oder Publikation übernommen, bitten wir um eine gut sichtbare Anerkennung der zugrunde liegenden editorischen Arbeit und der dafür ausgewiesenen Bearbeitenden. Diese Nennung wünschen wir uns etwa auf dem Titelblatt, wenn die übernommenen Texte die Grundlage der gesamten Publikation bilden, oder an einer dem Umfang der Übernahme angemessenen Stelle, wenn sie nur einen Teil der Publikation ausmachen.</p>
+                <p>Für die Zitation des vorbereiteten Beta-Datensatzes empfehlen wir folgende Angabe.</p>
+                <quote><p>Sulamith Gehr und Fritz Nagel (Hrsg.), <hi rend="i">Basler Edition der Bernoulli-Briefwechsel (BEBB) – Editionsdaten</hi>. Beta-Release, 2026, Zenodo. <ref target="https://doi.org/10.5281/zenodo.24166103">DOI 10.5281/zenodo.24166103</ref>.</p></quote>
+                <p>Eine Zitierempfehlung für den jeweiligen Brief oder Text finden Sie unterhalb des edierten Textes.</p>
+            </div>
+            <div xml:id="impressum-versionen">
+                <head>Versionierte Datenpublikationen</head>
+                <p>Die BEBB bereitet ihre Editionsdaten als versionierte Datenpakete für die Veröffentlichung auf Zenodo vor. Für den Beta-Release ist die Versions-DOI <hi rend="b">10.5281/zenodo.24166103</hi> reserviert. Ihre Registrierung erfolgt mit der Veröffentlichung.</p>
+                <p>Für wissenschaftliche Nachweise ist die DOI der tatsächlich verwendeten Datenversion anzugeben. Zusammen mit der Brief- oder Dokumentkennung ermöglicht sie die eindeutige Zuordnung eines einzelnen Textes zum archivierten Editionsstand.</p>
+            </div>
+            <div xml:id="impressum-bildrechte">
+                <head>Bilddigitalisate und weitere Abbildungen</head>
+                <p>Die in der BEBB angezeigten Bilddigitalisate, Faksimiles, Porträts und weiteren Abbildungen stammen aus den Beständen verschiedener Institutionen sowie aus weiteren Bildquellen.</p>
+                <p>Für ihre Nachnutzung gelten die jeweils ausgewiesenen Rechte-, Lizenz- und Nutzungsangaben der <hi rend="b">bestandshaltenden beziehungsweise bereitstellenden Institutionen und gegebenenfalls weiterer Rechteinhaber</hi>. Dazu können insbesondere die Rechte der Fotografinnen und Fotografen gehören.</p>
+                <p>Massgeblich sind die Angaben zum jeweiligen Bild und die verlinkten Herkunftsnachweise. Freie Bildlizenzen und Kennzeichnungen als gemeinfrei gelten im jeweils ausgewiesenen Umfang.</p>
+                <p>Bei einer Weiterverwendung sind die zugehörigen Herkunfts-, Urheber- und Lizenzangaben zu beachten. Dazu gehören insbesondere die Institution, das konkrete Exemplar beziehungsweise seine Signatur oder Inventarnummer sowie gegebenenfalls die Fotografin oder der Fotograf.</p>
+                <p>Soweit die beabsichtigte Nutzung eine zusätzliche Genehmigung erfordert, ist diese bei der jeweils angegebenen Institution beziehungsweise den ausgewiesenen Rechteinhabern einzuholen.</p>
+            </div>
+            <div xml:id="impressum-stand">
+                <head>Stand des Impressums</head>
+                <p><date when="2026-11-18">18. November 2026</date></p>
+            </div>
+        </body>
+    </text>
+</TEI>

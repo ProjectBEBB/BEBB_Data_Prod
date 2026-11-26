@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514894305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean Jacques de Mairan. Basel, 02. Februar 1734</title>
+          <title type="alt">1734.02.02: Bernoulli, Johann (1667-1748) an Mairan,
+            Jean Jacques de (1678-1771)</title>
+          <title type="alt">000056472</title>
+          <title type="alt">1734-02-02_Bernoulli_Johann-Mairan_Jean_Jacques_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+          <persName key="pers_f500_0007">
+            <surname>Schwizer</surname>
+            <forename>Fabienne</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+          <persName key="pers_f500_0007">
+            <surname>Schwizer</surname>
+            <forename>Fabienne</forename>
+          </persName>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514894305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514894305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Mairan, Jean Jacques Dortous de (1678-1771)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "à Mr. de Mairan"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">BEOL</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Weitere "Copie de lettre" (Auszug), siehe Signatur L Ia 768:Bl.23</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23861">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 661, Nr.44</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514894305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433104705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056472</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>7 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1734-02-02">ce 2. fevr. 1734</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1734-02-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514894405501" type="prev"/>
+          <ptr target="B_991170514894205501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Mairan_Jean_Jacques_Dortous_de-JohIB" corresp="pers_DE-588-11931035X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119408007">Cassini, Giovanni Domenico</persName>
+            <note type="lebensdaten">(1625-1712)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1220706361">Deucher, Johannes</persName>
+            <note type="lebensdaten">(1673-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104363665">Du Halde, Jean Baptiste</persName>
+            <note type="lebensdaten">(1674-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117537373">Frézier, Amédée François</persName>
+            <note type="lebensdaten">(1682-1773)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117547786">Godin, Louis</persName>
+            <note type="lebensdaten">(1704-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-123972469">Larrey, Isaac de</persName>
+            <note type="lebensdaten">(1638-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117679879">Pajot d'Onsenbray, Louis Léon</persName>
+            <note type="lebensdaten">(1678-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12115002X">Roques, Pierre</persName>
+            <note type="lebensdaten">(1685-1748)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10-18" who="RG">"lb/" Eingefügt</change>
+        <change when="2023-12-17" who="RG">"n=..." noch in pb eingefügt</change>
+        <change when="2023-05-01" who="MS">biblio getagt, revisionDesc eingefügt</change>
+        <change when="2022-10-21" who="MS">correspContext eingefügt</change>
+        <change when="2022-05-31" who="MS">unclear eingefügt</change>
+        <change when="2022-05-24" who="MS">Tranformationsfehler "supplied" bereinigt</change>
+        <change when="2022-05-20" who="MS">Abkürzungen ausgezeichnet</change>
+        <change when="2022-04-28" who="MS">Orte ausgezeichnet, Nachkontrolle Normalisierung/Korrektur</change>
+        <change when="2022-03-21" who="MS">Briefstruktur ausgezeichnet</change>
+        <change when="2019-06-13" who="FS SW">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://www.e-manuscripta.ch/i3f/v20/1045577/manifest"/>
+</facsimile>
+  <text>
+    <body>
+      <div type="letter">
+<pb facs="1045578" n="1"/>
+  <opener>
+          <note type="editorial">von der Hand JIB: à Mr. de Mairan // in Original «M. Bern. 2 fevrier 1734»  von der Hand Mairan: Rep. le 12.</note>
+<salute>
+      <lb/>Monsieur
+</salute>
+  </opener>
+  <p>
+      <lb/>Une attaque de goutte douloureuse, que je viens d<supplied>’</supplied>essuyer &amp;
+      <lb/>dont je ne suis pas encore tout à fait quitte, m’a empêché d’<pc type="hyphenation"/>
+      <lb break="no"/>écrire plûtôt, ce que mon <rs key="pers_DE-588-118656503" type="person">Fils</rs> Vous aura mandé dans
+      <lb/>une lettre<note type="editorial">nachgewiesener Brief: DB-Mairan, 1734-xx-xx, ist nicht im BIBB vorhanden</note>, qu’il s’est donné l’honneur de Vous adresser <choice><abbr>p.<hi rend="sup">r</hi></abbr><expan>pour</expan></choice> Vous
+      <lb/>remercier, de ce que Vous l’avés regalé, aussi bien que moi, de
+      <lb/>Vôtre beau <rs key="biblio_ZD9DFX33" type="biblio">Traitté de l’aurore boreale</rs>: Souffrés, <choice><abbr>M.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice>, que je
+      <lb/>joigne ici mes remerciments aux siens; c’est un <rs key="biblio_ZD9DFX33" type="biblio">ouvrage</rs>
+      <lb/>très excellent, dont la lecture m’a fait un plaisir infini,
+      <lb/>car je l’ai lû d’un bout à l’autre avec<del> une</del> <add>toute</add> l’attention,
+      <lb/>que de tels livres méritent. J’admire l’e<add>le</add>gance, l’exactitude
+      <lb/>&amp; l’erudition que vous faites paroitre dans cet <rs key="biblio_ZD9DFX33" type="biblio">ouvrage;</rs>
+      <lb/>vous y montrés que Vous êtes non seulement Physicien
+      <lb/>et astronome, mais aussi tout ensemble Historien, Geographe
+      <lb/>&amp; Chronologiste; le grand nombre d’Auteurs, d’Histories &amp;
+      <lb/>d’anciennes Chroniques, que Vous cités,<note type="editorial">wen zitiert Mairan?</note> marque assés Vôtre
+      <lb/>copieuse connoissance &amp; lecture &amp; que Vous êtes versé en
+      <lb/>tout et partout. Je suis pleinement convaincu, que la
+      <lb/>prodigieuse hauteur de l’aurore boreale est un argument invin<pc type="hyphenation">-</pc><lb break="no"/>cible,<del> de</del> qu’elle n’est pas produite comme les metéores ordinaires,
+      <lb/>par des vapeurs ou exhalaisons, qui sortent de la Terre &amp; qui
+      <lb/>ne s’elèvent qu’à une hauteur de 2 ou 3 liëues tout au
+      <lb/>plus, au lieu que la matière du phénomène en question doit
+      <lb/>occuper une hauteur de plus de 300 lieues par dessus la
+<pb facs="1045579" n="2"/>
+      <lb/>surface de la Terre ce que Vous démontrés fort bien
+      <lb/>conformément à ce que je Vous ai écrit autrefois à l’<pc type="hyphenation">-</pc><lb break="no"/>occasion de la fameuse aurore boreale du 18 <abbr>octob.</abbr> de 1726,<note type="editorial">polarlichter vom 18.10.26</note>
+      <lb/>qui fut vue dans toute l’<rs key="place_KON-europa" type="place">Europe</rs> &amp; peutêtre encore dans
+      <lb/>d’autres Pays hors de l’<rs key="place_KON-europa" type="place">Europe</rs>, marque evidente de son
+      <lb/>grand éloignement; D’où est ce donc qu’on feroit venir
+      <lb/>cette matière aurorifique, puisqu’elle ne vient pas de
+      <lb/>la Terre, c’est sans doute, qu’il faut la faire descendre
+      <lb/>du Ciel, mais se trouve-t-il quelque autre astre que le
+      <lb/>Soleil qui soit à portée &amp; assés propre pour nous l’<pc type="hyphenation"/>
+      <lb break="no"/>envoyer? or son atmosphère lenticulaire, qui se manifeste
+      <lb/>sous la forme de la<del> matiere</del> <add>lumiere</add> zodiacale, que feu <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119408007" type="person">Cassini</rs>
+      <lb/>découvrit le premier, a toutes les qualités necessaires pour
+      <lb/>fournir la matière à la production du phénomène boreal, selon
+      <lb/>que Vous le démontrés fort exactement et en toutes les circon<pc type="hyphenation">-</pc><lb break="no"/>stances qui l’accompagnent; La Theorie, que Vous avés
+      <lb/>inventée pour cela est très ingenieuse &amp; me plait infiniment, d’<pc type="hyphenation"/>
+      <lb break="no"/>autant plus qu’elle rend raison de toutes les particularités, qu’on
+      <lb/>observe dans l’aparition de l’Aurore boreale, sur tout celle, qui la
+      <lb/>fait paroitre ordinairement autour de l’axe de la Terre
+      <lb/>prolongé, quoiqu’ avec un peu de déclinaison vers l’ouest.
+      <lb/>Vous expliqués cette Singularité très clairement par Vôtre Theorie;
+      <lb/>Il me semble que cela seul prouve visiblement le mouvement
+      <lb/>de la Terre, contre le Système de Ptolemée, car si la Terre
+<pb facs="1045580" n="3"/>
+      <lb/>étoit en repos et que par consequent ses poles ne fussent que
+      <lb/>des points imaginaires, quelle connexion ou quelle cause physique
+      <lb/>y auroit il, qui amassat la matière du phénomène autour de ces
+      <lb/>points, plùtôt qu’autour de quelques autres, qui auroient touts
+      <lb/>la même prérogative dans la Supposition de la Terre immobile??
+      <lb/>Mais l’explication, que Vous donnés<supplied>,</supplied> <choice><abbr>M.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice><supplied>,</supplied> (<rs key="biblio_ZD9DFX33" type="biblio"><abbr>Ch.</abbr> 11<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied> <abbr>Sect.</abbr> 3</rs>) m’a
+      <lb/>fait encore un insigne plaisir; Vous y expliqués fort bien, pour<pc type="hyphenation">-</pc><lb break="no"/>quoi, quand la Terre est <del>pro</del><add>p</add>longée dans la matière zodiacale, son
+      <lb/>mouvement diurne doit fixer cette matière vers le Pole &amp; rendre la
+      <lb/>lumière boreale plus visible pour nous: On ne sauroit rien dire
+      <lb/>de plus à propos, que la comparaison que Vous faites (<rs key="biblio_ZD9DFX33" type="biblio"><abbr>p.</abbr> 101<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs>)
+      <lb/>de la Terre énveloppée dans son atmosphère à un navire qui
+      <lb/>fend les eaux, dont la prouë s’en impregnera la première,
+      <lb/>car comme l’axe de la Terre pendant son mouvement annuel
+      <lb/>garde toujours son parallelisme, il est bien visible, que les deux
+      <lb/><del>poles</del> sont<del> toujours</del> alternativement de six mois en six mois comme
+      <lb/>la proue d’un Vaisseau, c’est à dire, que depuis le Solstice <choice><orig>d’Ete</orig><reg>d’Eté</reg></choice> jusqu’<pc type="hyphenation"/>
+      <lb break="no"/>au Solstice d’hyver, le pole boreal de la Terre va au devant &amp;
+      <lb/>à la rencontre de la matière zodiacale &amp; au contraire, c’est le pole
+      <lb/>austral, qui fait cela pendant l’autre Semestre: c’est donc là la
+      <lb/>raison pourquoi nous autres habitans de l’hemisphère boreal
+      <lb/>avons les aurores boreales les plus fréquentes, plus marquées &amp;
+      <lb/>les plus parfaites<del> pendant</del> <add>entre</add> les mois de Juin &amp; de decembre &amp;
+      <lb/>sur tout dans les mois de Septembre &amp; d’octobre, ce que
+      <lb/>confirme Vôtre Tabelle (<rs key="biblio_ZD9DFX33" type="biblio"><abbr>p.</abbr> 231<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs>), comme en effêt la grande
+      <lb/>aurore de 1726 se fit voir dans l’octobre, la raison
+<pb facs="1045581" n="4"/>
+      <lb/>pourquoi ces deux mois sont les plus propres, est manifeste;
+      <lb/>c’est parcequ’on peut demontrer aisément, qu’au mois de
+      <lb/>Septembre le point de rencontre perpendiculaire contre l’air
+      <lb/>solaire commence à être le plus <del><gap/></del>proche du pole
+      <lb/>boreal. Cette consideration me fournit une reflexion, qui
+      <lb/>ne vous déplaira peutêtre pas; c’est de conclure que la figure
+      <lb/>de la Terre et de son atmosphère est un sphéroide allongé,
+      <lb/>car outre qu’un tel sphéroide est plus conforme à la figure d’un
+      <lb/>navire qu’un sphéroide applati, il faut aussi considérer que le point<choice><sic>.</sic><reg type="deleted"/></choice>
+      <lb/>de rencontre <del><gap/></del>perpendiculaire du sphéroide allongé se
+      <lb/>trouve toujours entre le <add>pole </add>boreal et la ligne de direction que le centre
+      <lb/>décrit depuis le solstice d’Eté jusqu’au solstice d’hyver, au lieu que
+      <lb/>le spheroide applati auroit dans ce tems là son point de rencontre
+      <lb/>au dessous du plan de l’Ecliptique, par consequent bien plus eloigné
+      <lb/>du pole boreal que dans le sphéroide allongé. Cette spéculation
+      <lb/>m’a servi l’année passée à faire une Dissertation à l’ocasion d’un
+      <lb/>autre sujet, où j’ai prouvé, que la Terre doit avoir la figure de
+      <lb/>sphéroide oblong, conformément à ce que les mesures actuelles
+      <lb/>prises en <rs key="place_VER-frankr" type="place">France</rs> ont enseigné. Vous verrés, <choice><abbr>M.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice><supplied>,</supplied> ma dissertation,
+      <lb/>si vous ne l’avés pas deja vue et Vous y trouverés mes pensées
+      <lb/>assés semblables aux vôtres, ce qui me cause bien de la joye, voyant
+      <lb/>que nous nous sommes si heureusement rencontrés, sur tout dans la
+      <lb/>comparaison, dont je me suis servi aussi de la Terre se mouvant
+      <lb/>autour du Soleil, à un Navire qui fend les eaux.<note type="editorial">Funktioniert Mairans System? Und ist JIBs Diss wirklich semblable dazu? SW</note>
+  </p>
+  <p>
+      <lb/>Quant au reste, ce que vous dites (<rs key="biblio_ZD9DFX33" type="biblio"><abbr>p.</abbr> 206<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs>) touchant vôtre manière
+      <lb/>de trouver avec beaucoup de justesse &amp; de <choice><orig>facilite</orig><reg>facilité</reg></choice> le lieu des
+<pb facs="1045582" n="5"/>
+      <lb/>Noeuds d’une Planete, par l’Observation de sa plus grande
+      <lb/>déclinaison, sans qu’il soit necessaire de savoir sa
+      <lb/>Longitude actuelle est très solide et conforme aux règles de
+      <lb/>la Trigonometrie sphèrique; Je m’étonne que d’autres astrono<pc type="hyphenation">-</pc><lb break="no"/>mes ne s’en soient pas <del><gap/></del>avisés.<note type="editorial">noeuds nennt man die Schnittpunkte der Bahn eines astronomischen Objektes mit einer Bezugsebene (im Sonnensystem meist die Ekliptikebene), hat Mairan dies als erster postuliert? Check mathematical background. SW</note> Je crois que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117547786" type="person">Godin</rs>,
+      <lb/>à qui vous aviés communiqué cet article et qui vous a dit s’en être
+      <lb/>deja servi pour cet usage, a effectivement employé cette règle
+      <lb/>(quoique sans faire mention d’où il l’avoit) dans les <rs type="keyword">Mémoires</rs>
+      <lb/>de 1730 <abbr>p.</abbr> 29 et 30, où l’opération qu’il fait semble être tirée
+      <lb/>de Vôtre principe.
+  </p>
+  <p>
+      <lb/>Je passe<supplied>,</supplied> <choice><abbr>M.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice><supplied>,</supplied> aux autres points de Vôtre <rs key="B_991170514894405501" type="letter">lettre</rs>: J’ai reçû avec
+      <lb/>les deux exemplaires de Votre excellent <rs key="biblio_ZD9DFX33" type="biblio">ouvrage</rs>, aussi la <rs type="keyword">Connoissance
+      <lb/>des Tems de 1734</rs>, dont je Vous suis bien obligé; pour ce qui est des
+      <lb/>4 volumes des <rs type="keyword">anciens mémoires</rs> et de celui des <rs type="keyword">mémoires de 1731</rs>,
+      <lb/>qui me sont destinés, puis que l’honnêteté ne permet pas de proposer
+      <lb/>à <abbr>M.<hi rend="sup">r</hi></abbr> le <abbr>C.</abbr> <rs key="pers_DE-588-117679879" type="person">d’Onsembrai</rs> de me les envoyer par la poste, à moins que
+      <lb/>cela ne se puisse faire commodément à differentes reprises, après
+      <lb/>que les exemplaires de Vôtre <rs key="biblio_ZD9DFX33" type="biblio">Livre</rs>, destinés à divers endroits, seront
+      <lb/>touts expédiés, il y aura peut être moyen, de me faire tenir mes 5
+      <lb/>volumes, par un nommé <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1220706361" type="person">Deuchert</rs> de <rs key="place_GEO-2661604" type="place">Bâle</rs>,<note type="editorial">wer ist deuchert?</note> qui est
+      <lb/>présentement à <rs key="place_GEO-2988507" type="place">Paris</rs> et que <abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> connoit fort
+      <lb/>bien; comme ce <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1220706361" type="person">Deuchert</rs> doit bien tôt revenir ici, il se
+      <lb/>chargera peutêtre de ces livres sur la recommendation de
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>; Pour envoyer Vôtre <rs key="biblio_ZD9DFX33" type="biblio">ouvrage</rs> à <rs key="place_GEO-498817" type="place">Petersbourg</rs>,
+      <lb/>il n’y a point de meilleure commodité pour cela, qu’en
+<pb facs="1045583" n="6"/>
+      <lb/>l’envoyant d’abord à quelque libraire ou autre Marchand
+      <lb/>à <rs key="place_GEO-2759794" type="place">Amsterdam</rs>, avec recommendation de le faire partir
+      <lb/>incontinent par mer, ce qu’il peut faire presque tous les
+      <lb/>jours, car le commerce entre <rs key="place_GEO-2759794" type="place"><choice><orig>amsterdam</orig><reg>Amsterdam</reg></choice></rs> &amp; <rs key="place_GEO-498817" type="place">Petersbourg</rs> est
+      <lb/>fort fréquent par la navigation.
+  </p>
+  <p>
+      <lb/><rs key="biblio_R49WU9MM" type="biblio"><choice><sic>L’Ouvrge</sic><corr>L’Ouvrage</corr></choice></rs> du <abbr>P.</abbr> <rs key="pers_DE-588-104363665" type="person">Du Halde</rs> sur la <rs key="place_VER-chinas" type="place">Chine</rs> excitera sans doute la
+      <lb/>curiosité des Amateurs. J’ai communiqué à diverses Personnes
+      <lb/>le Plan de cet <rs key="biblio_R49WU9MM" type="biblio">Ouvrage</rs>, que Vous avés eu la bonté de
+      <lb/>m’envoyer: il y en aura peutêtre qui souscriront. L’Editeur
+      <lb/>du Moreri imprimé dans nôtre <rs key="place_GEO-2661604" type="place">ville</rs> s’apelle <rs key="pers_DE-588-12115002X" type="person">Pierre
+      <lb/>Roques</rs>, ministre de nôtre Eglise françoise; il est le seul
+      <lb/>Editeur, qui sans aucun aide a entrepris ce grand
+      <lb/>Ouvrage en y ajoutant une infinité de nouveaux articles:
+      <lb/>C’est un véritable Homme de bien et de mérite et avec cela
+      <lb/>mon bon Ami, témoin ce billet qu’il m’a écrit<note type="editorial">nachgewiesener Brief: écrit Roques an JIB, zu Mairan und moreri</note>, lorsque je lui
+      <lb/>avois demandé en lui envoyant vôtre <rs key="B_991170514894405501" type="letter">lettre</rs>, s’il voudroit bien
+      <lb/>permettre, que je Vous disse son Nom: Ce que j’ai contribué
+      <lb/>à <supplied>[enrichir] </supplied>ce grand Dictionaïre consiste en ce que j’ai prêté à <abbr>M.<hi rend="sup">r</hi></abbr>
+      <lb/><rs key="pers_DE-588-12115002X" type="person">Roques</rs> touts mes Mémoires de l’Academie, pour en tirer les
+      <lb/>extraits des Eloges des Academiciens defunts depuis le
+      <lb/>renouvellement de l’Academie, ce qu’il a executé très
+      <lb/>fidellement; je lui ai communiqué encore d’autres livres de
+      <lb/>ma petite Bibliotheque pour le même dessein, comm<unclear>e</unclear> <abbr>p. ex.</abbr>
+      <lb/>l’<rs key="biblio_AYHQ648B" type="biblio">Histoire d’<rs key="place_VER-englan" type="place">Angleterre</rs></rs> de Larrai, <rs key="biblio_SA7FJ589" type="biblio">le Voyage</rs> de <rs key="pers_DE-588-117537373" type="person">Frezier</rs> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-12115002X" type="person">Roques</rs> vous est bien obligé de la bonne opinion
+<pb facs="1045584" n="7"/>
+      <lb/>que Vous avés de son Moreri, bien differente de celle
+      <lb/>d’un certain envieux Jesuite<note type="editorial">Person: envieux Jesuit dans nôtre voisinage</note> dans nôtre voisinage, qui a critiqué
+      <lb/>grossièrement son travail dans une lettre anonyme<note type="editorial">nachgewiesener Brief Kritik an Roques durch enviuex Jesuit</note>, qu’il a eu l’<pc type="hyphenation"/>
+      <lb break="no"/>effronterie de lui adresser, mais qui ne demeura pas sans une
+      <lb/>solide réponse de la part de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-12115002X" type="person">Roques</rs>.<note type="editorial">rivalität zwischen Roques und einem anderen Jesuit der auch einen Moreri ediert?</note>
+  </p>
+  <p>
+      <lb/>Je suis ravi<supplied>,</supplied> <choice><abbr>M.<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice><supplied>,</supplied> d’aprendre le bon état de Votre santé, je
+      <lb/>fais des voeux pour une longue continuation. Si je ne suis
+      <lb/>pas assés à tems pour Vous faire mon compliment sur la
+      <lb/>nouvelle année, que nous commençames, il y a plus d’un
+      <lb/>mois, soyés assûré, que mes souhaits n’en sont pas moins
+      <lb/>sincères, ni moins fervents. Quant à moi, je commence
+      <lb/>à sentir les infirmités de ma vieillesse, fort content si je
+      <lb/>puis finir mes jours sans inquietude &amp; sans chagrins,
+      <lb/>dont je n’ai eu que trop pendant la durée de 67 ans de
+      <lb/>ma vie. Adieu mon cher Monsieur &amp; comptés sur
+      <lb/>l’attachement <add>sincère</add> avec le quel j’ai l’honneur d’être
+      <lb/>pendant le petit reste de ma vie<supplied>.</supplied>
+  </p>
+  <closer>
+  <salute>
+      <lb/><choice><abbr>Mr.</abbr><expan>Monsieur</expan></choice>
+      <lb/>Votre <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+  </salute>
+<signed>
+      <lb/><rs key="pers_DE-588-118509969" type="person"><abbr>J.</abbr> Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>
+</signed>
+  <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bâle</rs>
+      <lb/>ce <date when="1734-02-02">2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>fevr.</abbr> 1734</date>
+  </dateline>
+  </closer>
+<pb facs="1045586" n="8" type="empty"/>
+</div></body></text></TEI>

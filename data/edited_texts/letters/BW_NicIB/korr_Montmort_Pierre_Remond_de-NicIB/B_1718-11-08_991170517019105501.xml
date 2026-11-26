@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517019105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Rémond de Montmort an Nicolaus I Bernoulli. Paris, 08. November 1718</title>
+          <title type="alt">1718.11.08: Montmort, Pierre Rémond de (1678-1719) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059356</title>
+          <title type="alt">1718-11-08_Montmort_Pierre_Remond_de-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517019105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517019105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändige Bemerkung von Nic.I B. "Empfg. den 26."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39636">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.203</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517019105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433691905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059356</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Paris</origPlace>
+              <date when="1718-11-08">ce 8. 9bre 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1718-11-08"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517019205501" type="prev"/>
+          <ptr target="B_991170517019005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124465641">Craig, John</persName>
+            <note type="lebensdaten">(1663-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 5); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2025-11-27" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-11-26" who="SG">Tagging, Grundkommentieren</change>
+        <change when="2025-11-21" who="JB">Grobes Tagging, Formeln, Seitenumbrüche</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-09-21" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-05-28" who="MS">Platzhalter eingefügt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1361927/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1361928" n="1"/>
+  <opener>
+      <lb/><dateline>A <rs key="place_GEO-2988507" type="place">Paris</rs> ce <date when="1718-11-08">8 <abbr><subst><del><gap/></del><add>9</add></subst>.<hi rend="sup">bre</hi></abbr> 1718</date></dateline> <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> <abbr>den</abbr> <date when="1718-11-26">26.<hi rend="sup">ten</hi></date></foreign></note></opener>
+  <p><lb/>Je <choice><orig>recois</orig><reg>reçois</reg></choice><supplied>,</supplied> Monsieur<supplied>,</supplied> la <rs type="letter" key="B_991170517019205501">lettre</rs> que vous me faistes l’honneur de
+      <lb/>m<supplied>’</supplied>ecrire dattée du <date when="1718-10-15">15 8<hi rend="sup">bre</hi> 1718</date> et j<supplied>’</supplied>y fais reponse sur le champ.</p>
+  <p><lb/>J<supplied>’</supplied>ay <choice><orig>recu</orig><reg>reçu</reg></choice> de vous cette année 5 lettres<supplied>,</supplied> dont voicy les dattes<choice><orig>.</orig><reg>:</reg></choice> <date><rs type="letter" key="B_991170517019805501">1<hi rend="sup">er</hi> Janvier</rs></date><supplied>,</supplied>
+      <lb/><date><rs type="letter" key="B_991170517019605501">18 May</rs></date>, <date><rs type="letter" key="B_991170517019505501">11 Juin</rs></date>, <date><rs type="letter" key="B_991170517019305501">30 Juillet</rs></date>, <date><rs type="letter" key="B_991170517019205501">15 8<hi rend="sup">bre</hi></rs></date>. Ainsi il n<supplied>’</supplied>y en a point de perdües<supplied>.</supplied>
+      <lb/>Je ne puis vous dire avec exactitude <subst><del><gap/></del><add>l</add></subst>es dattes des miennes<supplied>,</supplied> car je n<supplied>’</supplied>en ai
+      <lb/>point gardé de minutes. Je <choice><orig>scai</orig><reg>sçai</reg></choice> seulement, que je vous en écrivis <rs type="lostletter">une
+      <lb/>de plusieurs</rs> pages vers le mois de <date when="1718-05">May</date><supplied>;</supplied> elle a sans doutte <choice><orig>ete</orig><reg>été</reg></choice> perdue<supplied>,</supplied>
+      <lb/>puisque vous ne l<supplied>’</supplied>avez pas encore reçue<supplied>.</supplied> J<supplied>’</supplied>y parlois du her, <choice><orig>Je</orig><reg>je</reg></choice> vous
+      <lb/>exposois mon sentiment sur quelques difficultez que vous m<supplied>’</supplied>avez autrefois
+      <lb/>proposé dans vos <rs type="letter">lettres</rs>. Je vous communiquois <subst><del><gap/></del><add>u</add></subst>ne demonstration
+      <lb/>singuliere d<supplied>’</supplied>un parallogisme (il faut trancher le mot) que j<supplied>’</supplied>ay decouvert
+      <lb/>dans le <rs type="biblio">traitté <choice><orig>de</orig><reg>De</reg></choice> seriebus infinitis</rs> de <add>feu</add> <abbr>Mr.</abbr> Vostre <rs key="pers_DE-588-118509950" type="person">oncle</rs>. Je ne me souviens
+      <lb/>pas de tout ce qui etoit dans cette <rs type="lostletter">lettre</rs><supplied>,</supplied> mais <choice><orig>Je</orig><reg>je</reg></choice> <choice><orig>scai</orig><reg>sçai</reg></choice> qu<supplied>’</supplied>elle etoit pleine
+      <lb/>d’algebre et j<supplied>’</supplied>ose me flatter qu<supplied>’</supplied>elle vous auroit plu. J<supplied>’</supplied>en recouvrerai
+      <lb/>bien une partie<supplied>,</supplied> surtout ce qui concerne quelques nouvelles petittes
+      <lb/>decouvertes que j<supplied>’</supplied>ay faitte sur les suittes infinies<supplied>,</supplied> mais la peine d<supplied>’</supplied>ecrire
+      <lb/>et qui pis est<supplied>,</supplied> de recrire<supplied>,</supplied> me fait trembler et frissonner. <choice><orig>les</orig><reg>Les</reg></choice> copistes
+      <lb/>ne peuvent servir de rien dans nos affaires d’algebre<choice><orig>.</orig><reg>,</reg></choice> c<supplied>’</supplied>est dommage
+      <lb/>pour les paresseux. Je vous en ai écrit <rs type="letter" key="B_991170517019705501">une</rs> dans le mois de <date when="1718-03-28">Mars</date> et
+      <lb/><choice><orig>Je</orig><reg>je</reg></choice> vois par vostre <rs type="letter" key="B_991170517019505501">lettre</rs> du <date when="1718-06-11">11 Juin</date> que vous l<supplied>’</supplied>avez <choice><orig>recue</orig><reg>reçue</reg></choice><supplied>.</supplied> Je vous en
+      <lb/>écrivis encore <rs type="letter" key="B_991170517019405501">une</rs> tres longue <date when="1718-06-28">vers le mois de Juillet</date> peu de jours
+      <lb/>avant une grande maladie<supplied>,</supplied> dont j<supplied>’</supplied>ay pensé mourir<supplied>;</supplied> c’estoit une fievre
+      <lb/>ardente et maligne. Je vous y rapportois tout au long touttes les <choice><abbr>ppoons</abbr><expan>propositions</expan></choice>
+      <lb/>de la <rs type="biblio" key="biblio_WRTZNU9Z">nouvelle edition</rs> du <rs type="biblio" key="biblio_B3FWTFFK">livre</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> sans en excepter aucune<supplied>,</supplied>
+      <lb/>et j<supplied>’</supplied>y faisois par cy par <choice><orig>la</orig><reg>là</reg></choice> quelques remarques. <choice><orig>enfin</orig><reg>Enfin</reg></choice> je vous en
+      <lb/>écrivis <rs type="lostletter">une</rs> il y a <date notBefore="1718-10-29" notAfter="1718-10-31">8 ou 10 jours</date> assez longue et pleine de nouvelles<supplied>.</supplied>
+<pb facs="1361930" n="2"/>
+      <lb/>Si tout cela ne va pas jusqu<supplied>’</supplied><choice><orig>a</orig><reg>à</reg></choice> vous<supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> suis un homme
+      <lb/>perdu<supplied>,</supplied> car le moyen de recommencer <gap/> <note type="editorial">Hier fehlt Fortsetzung des Satzes.</note> J’ay commencé les
+      <lb/>1<hi rend="sup">eres</hi> lignes de cette lettre dans l’<rs type="place">hotellerie de Vieux <choice><orig>maisons</orig><reg>Maisons</reg></choice></rs>
+      <lb/><choice><orig>ou</orig><reg>où</reg></choice> mon <rs type="person">fils</rs> a eu l<supplied>’</supplied>honneur de coucher avec vous<supplied>.</supplied> Je <subst><del><gap/></del><add>sui</add></subst>s <add>venu</add> en poste
+      <lb/>pour un accident arrivé <choice><orig>a</orig><reg>à</reg></choice> ma <rs type="person"><choice><orig>mere</orig><reg>mère</reg></choice></rs> qui a perdu un œil et
+      <lb/>courre risque des deux. <choice><orig>cette</orig><reg>Cette</reg></choice> <choice><orig>annee</orig><reg>année</reg></choice> est fatale pour moy<supplied>;</supplied> nostre
+      <lb/>pauvre ami <abbr>M<hi rend="sup">r</hi></abbr> de <rs key="pers_DE-588-115598157X" type="person">Waldegrave</rs> eust il <date>y a un mois</date> une 3<hi rend="sup">eme</hi>
+      <lb/>rechute d’apoplexie<supplied>,</supplied> cela est horrible <choice><orig>a</orig><reg>à</reg></choice> son age. Je l<supplied>’</supplied><subst><del><gap/></del><add>a</add></subst>vois eu
+      <lb/>deux mois <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2992218" type="place">Monmort</rs> et il s<supplied>’</supplied>y estoit porté <choice><orig>a</orig><reg>à</reg></choice> merveilles. <choice><orig>il</orig><reg>Il</reg></choice> est <choice><orig>a</orig><reg>à</reg></choice> present
+      <lb/>hors de danger<supplied>,</supplied> mais gare une 4<hi rend="sup">eme</hi>. Mandez<choice><orig> </orig><reg>-</reg></choice>moy<supplied>,</supplied> je vous prie<supplied>,</supplied>
+      <lb/>aussi tost que vous aurez <choice><orig>recu</orig><reg>reçu</reg></choice> cette lettre<supplied>,</supplied> si touttes celles<supplied>,</supplied>
+      <lb/>dont je <unclear reason="illegible">v</unclear>ous ai fait <subst><del><gap/></del><add>i</add></subst>cy mention<supplied>,</supplied> sont perdues<supplied>,</supplied> affin que je
+      <lb/>me regle <choice><orig>la</orig><reg>là</reg></choice><choice><orig></orig><reg>-</reg></choice>dessus. <choice><orig>en</orig><reg>En</reg></choice> arrivant icy<supplied>,</supplied> j<supplied>’</supplied>y ay trouvé le <rs type="biblio">livre</rs> de
+      <lb/><abbr>M<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-124465641" type="person">Craige</rs> qu<supplied>’</supplied>on m<supplied>’</supplied>a <choice><orig>envoye</orig><reg>envoyé</reg></choice> d’<rs key="place_VER-englan" type="place">Angleterre</rs><supplied>,</supplied> et quelques cayers
+      <lb/>des <rs type="biblio" key="biblio_SSNXBWSP"><choice><orig>transactions</orig><reg>Transactions</reg></choice></rs>. Je vous en rendrai compte<supplied>.</supplied> <subst><del><gap/></del><add>Je</add></subst> ne puis
+      <lb/>aujourd<supplied>’</supplied>huy<supplied>,</supplied> car il faut que j<supplied>’</supplied>aille dans le moment chez <rs type="person">ma <choice><orig>mere</orig><reg>mère</reg></choice></rs><supplied>,</supplied>
+      <lb/>et la poste part aujourd<supplied>’</supplied>huy.</p> <closer><salute>Je vous embrasse et suis de
+      <lb/>toutte mon ame entierement <choice><orig>a</orig><reg>à</reg></choice> vous. <choice><orig>reponse</orig><reg>Reponse</reg></choice> prompte<supplied>,</supplied> s<supplied>’</supplied>il vous plaist<supplied>,</supplied>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2992218" type="place">Monmort</rs><supplied>,</supplied> <choice><orig>ou</orig><reg>où</reg></choice> je retournerai bientost.</salute>
+      <lb/><signed><hi rend="right"><rs key="pers_DE-588-117601020" type="person">Remond de Monmort</rs></hi></signed>.</closer>
+</div>
+
+
+</body>
+</text></TEI>

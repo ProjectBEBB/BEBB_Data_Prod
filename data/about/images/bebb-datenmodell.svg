@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="630" viewBox="0 0 640 630"
+     role="img" aria-labelledby="bebb-model-title bebb-model-description" xml:lang="de">
+  <title id="bebb-model-title">Datenmodell der BEBB</title>
+  <desc id="bebb-model-description">Der UB-Katalog liefert Briefmetadaten für den TEI-Header.
+    Die Faksimile-Verweise verbinden die Edition über IIIF-Manifeste mit den Digitalisaten
+    von e-manuscripta, BEBB und weiteren Anbietern. Die Register unterstützen die
+    Erschliessung. Die edierten Texte umfassen Briefe, Reden und Reisetagebücher.
+    Die Briefe sind je Hauptkorrespondent nach Briefwechsel und Korrespondenzen
+    geordnet. TEI Publisher stellt die Daten aus eXist-db auf der am DMI betriebenen
+    Webseite dar.</desc>
+
+  <defs>
+    <marker id="bebb-model-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5"
+            orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 10 10">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#555041" stroke-width="1.25"/>
+    </marker>
+  </defs>
+
+  <rect width="640" height="630" fill="#fefefa"/>
+  <g fill="#f2f2f2">
+    <rect x="24" y="22" width="278" height="90" rx="5"/>
+    <rect x="338" y="22" width="278" height="90" rx="5"/>
+    <rect x="24" y="157" width="592" height="271" rx="5"/>
+    <rect x="24" y="490" width="278" height="118" rx="5"/>
+    <rect x="338" y="490" width="278" height="118" rx="5"/>
+  </g>
+  <g fill="#fefefa">
+    <rect x="42" y="205" width="266" height="64" rx="5"/>
+    <rect x="332" y="205" width="266" height="64" rx="5"/>
+    <rect x="42" y="281" width="556" height="129" rx="5"/>
+  </g>
+
+  <g fill="none" stroke="#555041" stroke-width="1.25" marker-end="url(#bebb-model-arrow)">
+    <path d="M163 112v88"/>
+    <path d="M477 112v88"/>
+    <path d="M163 490v-57"/>
+    <path d="M477 428v57"/>
+  </g>
+
+  <g class="diagram-ui" font-family="Avenir, 'Avenir Next', 'Helvetica Neue', Arial, sans-serif"
+     fill="#2d2b26" font-size="17">
+    <g class="diagram-heading" font-family="Garamond, Georgia, 'Times New Roman', serif"
+       font-size="26" font-weight="600">
+      <text x="42" y="56">UB-Katalog</text>
+      <text x="356" y="56">e-manuscripta</text>
+      <text x="42" y="522">Register</text>
+      <text x="356" y="522">BEBB-Webseite</text>
+    </g>
+    <text x="42" y="82">BIBB · Briefmetadaten</text>
+    <text x="356" y="80">Digitale Faksimiles</text>
+    <text x="356" y="101" font-size="15" fill="#555041">BEBB und weitere Anbieter</text>
+
+    <g fill="#555041" font-size="16">
+      <text x="176" y="142">MARC 21</text>
+      <text x="490" y="142">IIIF-Manifeste</text>
+      <text x="176" y="465">Registerbezug</text>
+      <text x="490" y="465">Bereitstellung</text>
+    </g>
+
+    <text x="42" y="187" font-size="20" fill="#ba1e1a">TEI XML</text>
+    <g class="diagram-heading" font-family="Garamond, Georgia, 'Times New Roman', serif"
+       font-size="23" font-weight="600">
+      <text x="59" y="233">Header-Metadaten</text>
+      <text x="349" y="233">Faksimile-Verweise</text>
+      <text x="59" y="311">Edierte Texte</text>
+    </g>
+    <g fill="#555041" font-size="16">
+      <text x="59" y="255">Katalog- und Redaktionsangaben</text>
+      <text x="349" y="255">Zuordnung der Bildseiten</text>
+      <text x="59" y="369">Je Hauptkorrespondent</text>
+    </g>
+    <text x="59" y="337">Briefe · Reden · Reisetagebücher</text>
+    <text x="59" y="392" class="diagram-emphasis" font-size="17"
+          font-weight="700">Briefwechsel → Korrespondenzen → Briefe</text>
+
+    <text x="42" y="548">Personen · Organisationen</text>
+    <text x="42" y="570">Orte · Bibliografie</text>
+    <text x="42" y="590" font-size="15" fill="#555041">GND · GeoNames</text>
+    <text x="356" y="548">eXist-db · TEI Publisher</text>
+    <text x="356" y="570">Hosting am DMI</text>
+  </g>
+</svg>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516721205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 05. März 1763</title>
+          <title type="alt">1763.03.05: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058775</title>
+          <title type="alt">1763-03-05_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516721205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516721205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131639">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.232, 235</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516721205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433556005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058775</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Berlin</origPlace>
+              <date when="1763-03-05">ce 5ieme Mars 1763</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1763-03-05"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516721305501" type="prev"/>
+          <ptr target="B_991170516721105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11865005X">Argens, Jean-Baptiste de Boyer d'</persName>
+            <note type="lebensdaten">(1704-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118667521">Catt, Henri de</persName>
+            <note type="lebensdaten">(1725-1795)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117626953">Decker, Georg Jakob</persName>
+            <note type="lebensdaten">(1732-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11869362X">Friedrich Wilhelm</persName>
+            <note type="lebensdaten">(1744-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1329366921">Andrié, Jean-Henry d'</persName>
+            <note type="lebensdaten">(1693-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1072430797">Andrié, Jean-Henri</persName>
+            <note type="lebensdaten">(1729-1788)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1329370244">Andrié, Jean-Jacques d'</persName>
+            <note type="lebensdaten">(1697-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11870978X">Heinrich</persName>
+            <note type="lebensdaten">(1726-1802)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156409489">Jordan, Johanna</persName>
+            <note type="lebensdaten">(1728-1795)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Schaeffer, Abraham, disputierte am 03.04.1710 in Basel</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Seiler, Vetter von Johann Bernhard Merian</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121297004">Spreng, Johann Jacob</persName>
+            <note type="lebensdaten">(1699-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1060062828">Zuberbühler, Johann Jakob</persName>
+            <note type="lebensdaten">(1723-1803)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3586956/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3586957" n="232r"/>
+  <p> Monsieur, </p>
+  <p> Je ne saurois vous écrire sous de meilleurs auspices. Voici la paix que dans un moment on va proclamer sous mes fenêtres au bruit des trompettes et des tymbales; et les coups de canon que l’on va tirer demain vis à vis de ces mêmes fenêtres me coûteront peut-être quelques vitres, que je payerai avec bien du plaisir. Le <rs type="person" key="pers_DE-588-118535749">Roi</rs> fera son entrée solemnelle le 2 ou le 3ieme du mois prochain. On fait des préparatifs immennses pour le recevoir. Notre ville de <rs key="place_GEO-2950159" type="place">Berlin</rs> va prendre son ancienne splendeur ou plûtôt devenir plus brillante que jamais, </p>
+  <p> Mr. de <rs key="pers_DE-588-118667521" type="person">Catt</rs> a été icy pour quelques jours. Il est reparti pour se rendre auprès de S. M. avec laquelle il reviendra. Vous savés peut-être qu’il est marié avec une Demoiselle <rs type="person">Krehn</rs> dont le pere étoit Suisse, et que vous pouvés avoir connu ou à <rs key="place_GEO-2661604" type="place">Basle</rs>, ou à <rs type="place" key="place_GEO-498817">Pétersbourg</rs>. </p>
+  <p> Les affaires de notre ami <rs key="pers_DE-588-117626953" type="person">Decker</rs> sont en fort bon train. Il a commencé, avec cette année, une gazette françoise, qui prend faveur. Il est chargé de la Direction d’une Imprimerie pour la <rs type="organisation">lotterie Royale</rs> qui vient de s’établir icy sur le modele de celle d’<rs key="place_KON-italie" type="place">Italie</rs>, de <rs type="place" key="place_GEO-2761369">Vienne</rs>, de <rs key="place_GEO-2800866" type="place">Bruxelles</rs>. Vous connoissés, sans doute, Monsieur, cette espece de lotteries par Extraits simples, par ambes, par ternes. Cette commission vaut à <rs key="pers_DE-588-117626953" type="person">Decker</rs> dix ducats par mois, outre les revenans bons. Je l’ai recommandé de mom mieux à Mr. le Marquis <rs type="person" key="pers_DE-588-11865005X">d’Argens</rs>, et à Mr. de <rs key="pers_DE-588-118667521" type="person">Catt</rs>, qui m’ont tous deux promis de lui rendre service; et je crois même que la commission, dont je viens de parler, lui a été donnée à leur recommandation. Je leur ai fait comprendre qu’en toute sorte d’occasion il étoit plus propre qu’aucun autre imprimeur à servir Sa Majesté, parcequ’il sait la langue françoise. <rs type="person">Sa belle mere</rs>, et son dernier enfant, que <rs type="person" key="pers_DE-588-1156409489">ma femme</rs> avoit tenu au baptême, viennent de mourit; mais il lui reste assez de famille. </p>
+  <p><pb facs="3586958" n="232v"/> Je vous suis infiniment obligé, Monsieur, de la bonne opinion que vous voulés bien avoir de moi, et de mon Grec. Je crois en savoir encore assez pour avoir pû remplir cette place; mais elle est très bien tombée, et je suis charmé que Mr. <rs key="pers_DE-588-121297004" type="person">Spreng</rs> soit enfin parvenu à quelque chose. </p>
+  <p> Je ne sais ni l’histoire de Mr. <rs key="pers_no_GND_id" type="person">Schaeffer</rs>, ni celle de Mr. <rs key="pers_DE-588-120435713" type="person">Wagner</rs>, que je suppose être <rs type="person">le fils</rs> du baillif, et mon ancien camarade en Théologie. Je suppose que c’est quelque histoire galante: tous ces candidats se perdent avec les filles. </p>
+  <p> Vous aurés infailliblement le livre de Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs> après la foire de Pâques. Je l’enverrai à <rs key="place_GEO-2879139" type="place">Leipzig</rs>. </p>
+  <p> Nous attendons Mr. <rs key="pers_DE-588-11879941X" type="person">Sulzer</rs> de retour au commencement du printems. La baronnie de <rs type="place">Gorgié</rs> a passé du feu Baron à <rs type="person">son frere</rs>, d’où elle passera <rs type="person">au fils aîné</rs> du dernier, qui est actuellement précepteur de Msgr. le Prince <rs type="person" key="pers_DE-588-11870978X">Henri</rs>, <rs type="person">frere</rs> du <rs type="person" key="pers_DE-588-11869362X">Prince de Prusse</rs>. </p>
+  <p> Le Marquis <rs type="person" key="pers_DE-588-11865005X">d’Argens</rs> m’a confié qu’il il Vous a écrit, par ordre du <rs type="person" key="pers_DE-588-118535749">Roi</rs> pour appeller Mr. votre <rs type="person">fils</rs> à <rs type="organisation">notre Académie</rs>. Vous jugés, Monsieur, combien cette nouvelle m’a fait de plaisir. Je vous prie de faire mille complimens à mon nouveau Collegue. </p>
+  <p> <rs type="person" key="pers_DE-588-1156409489">Ma femme</rs>, fort sensible à l’honneur de votre souvenir, me charge de vous faire ses complimens. Nous aurions grande envie de faire cet été un tour à <rs key="place_GEO-2661604" type="place">Basle</rs>, et nous aurions la plus belle occasion de faire ce voyage avec mon cousin <rs type="person">Seyler</rs> et sa famil le. Cepadant il est encore très incertain si cela pourra avoir lieu: et cela dépendra beaucoup des circonstances. </p>
+  <p> Le tintamarre affreux qui se fait dans ma maison m’oblige de finir. J’ai plus de cinquante personnes à placer, et trois fenêtres à leur donner. Au bruit des tymbales et des trom pettes et plaudente universâ civitate, j’ai l’honneur d’être très pacifiquement, mais très parfaitement Monsieur Votre très humble et très obéissant Serviteur A <rs key="place_GEO-2950159" type="place">Berlin</rs> ce 5 ieme Mars 1763 <rs key="pers_DE-588-116892021" type="person">Merian</rs> </p>
+<pb facs="3586959" n="235r" type="empty"/><pb facs="3586960" n="235v"/></div>
+</body>
+</text></TEI>

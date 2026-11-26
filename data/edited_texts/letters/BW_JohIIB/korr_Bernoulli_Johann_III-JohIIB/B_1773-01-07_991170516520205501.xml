@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516520205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Johann III Bernoulli. Basel, 07. Januar 1773</title>
+          <title type="alt">1773.01.07: Bernoulli, Johann (1710-1790) an Bernoulli, Johann (1744-1807)</title>
+          <title type="alt">000057981</title>
+          <title type="alt">1773-01-07_Bernoulli_Johann-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516520205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516520205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Johann III (1744-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Es handelt sich um ein P.S. auf dem Brief von Dan.B. von 1733 01 07 an Joh. III B.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-200205">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 676:Bl.49v Mitte- 49v unten</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516520205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433430805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057981</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>24</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1773-01-07">ce 7.e de Janv. 1773.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann II</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1773-01-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516520305501" type="prev"/>
+          <ptr target="B_991170516520105501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_III-JohIIB" corresp="pers_DE-588-116170654" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170516520305501" type="prev"/>
+          <ptr target="B_991170524791205501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_II-JohIIIB" corresp="pers_DE-588-117589136" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1014027802">Basler, Jacob</persName>
+            <note type="lebensdaten">(1725-1795)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Beck, Mle</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153514060">Bernoulli, Anna Katharina</persName>
+            <note type="lebensdaten">(1698-1780)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-135542146">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1751-1834)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1299754015">Bernoulli, Maria Margaretha</persName>
+            <note type="lebensdaten">(1717-1773)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156696011">Bernoulli, Veronika</persName>
+            <note type="lebensdaten">(1747-1801)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089876661">Buxtorf, Johann Rudolf</persName>
+            <note type="lebensdaten">(1747-1831)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Commissionaire</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089910525">Decker-Bernoulli, Susanna Margaretha</persName>
+            <note type="lebensdaten">(1770-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136872581">Dollfus, Daniel</persName>
+            <note type="lebensdaten">(1769-1818)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1208734237">Dollfus, Johann</persName>
+            <note type="lebensdaten">(1729-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1359323899">Dollfus, Marie Madeleine</persName>
+            <note type="lebensdaten">(1733-1772)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1024478076">Falkner, Nicolaus</persName>
+            <note type="lebensdaten">(1749-1833)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121213765">Frey, Johannes</persName>
+            <note type="lebensdaten">(1743-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1126979678">Frey, Martin</persName>
+            <note type="lebensdaten">(1751-18XX)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121998630">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1707-1778)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1360248722">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1748-)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136592015">Legrand, Johann Lukas</persName>
+            <note type="lebensdaten">(1755-1836)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-130538795">Mieg, Achilles</persName>
+            <note type="lebensdaten">(1731-1799)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-106374685X">Passavant, Claudius</persName>
+            <note type="lebensdaten">(1709-1778)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1202262600">Respinger, Johann Heinrich</persName>
+            <note type="lebensdaten">(1744-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Ratschreiber, von Basel</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Socin</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117727717">Thurneysen, Johann Jakob</persName>
+            <note type="lebensdaten">(1729-1789)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/5994795/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="5994796" n="49v"/><p>Je ne ve écris ce peu de lignes, mon cher <rs type="person" key="pers_DE-588-116170654">fils</rs>, que pr. vs donner de nos nouvelles, parceque ve. billet du 22 Xbre ne me fournit, pr. ainsi dire, aucune matiere à réponse et que nous sommes d’ailleurs dans les embarras d’un enterremt. nôtre <rs type="person" key="pers_DE-588-1299754015">belle soeur</rs> étant morte avanthier de la maladie que je vs ai marquée derniéremt.; elle sera enterrée domain {*}. il y a de quoi se consoler de cette perte; mais une autre infinimt. plus douloureuse est celle de Me. <rs type="person" key="pers_DE-588-1359323899">Dolfous des 3 Rois</rs> qui est morte depuis ma derne. lettre; vous savés combien elle êtoit chère et necessaire à son <rs type="person" key="pers_DE-588-1208734237">mari</rs> et à sa famille; elle a laissé <rs type="person" key="pers_DE-588-136872581">9 enfans</rs> en vie, jugés de la désolation de ve. pauvre <rs type="person" key="pers_DE-588-1208734237">Cousin</rs>; quant à ma Soeur, Me. <rs type="person" key="pers_DE-588-1153514060">Hammer</rs>, elle s’est remise; le reste de la famille se porte bien, graces à Dieu, à l’exception de mon rhume orde. qui cependt. n’est plus si fort qu’il a êté et dont je ne me plains pas non plus que de mes autres petites incommodités habituelles, parcequ’il semble que nous ayons fait alliance ensemble.-. La lettre du <rs type="person" key="pers_DE-588_118535749">Roi</rs> est bien gracieuse et vs fait beaucoup d’honneur, mais, au reste, qui dit trop ne dit rien.-. Il est vrai que M. <rs type="person">le Rathschreiber</rs> a été fort mal, mais il êtoit déja beaucoup mieux lorsque je vs êcrivis ma derne. lettre c’est pourquoi je ne vs en ai rien dit; cependt. on ne se fie pas trop à son rétablissemt. - .</p>
+  <p>vous auriés bien dû parler vs même au <rs type="person">Commissionnaire des héritiers de feu M. <rs type="person">Socin</rs></rs> pour faire voir que vs prenés quelque interêt aux affaires de vos Compatriotes qui sont en même tems vos parents et vous devriés encore engager ce <rs type="person">Commissionaire</rs> à leur envoyer à bon compte ce qui est dèja réalisé de la succession ou tout au moins à leur écrire, afin qu’il n’ait pas l’air d’avoir oublié sa commission.</p>
+  <p>L’espérance de ve. <rs type="person" key="pers_DE-588-135542146">frère</rs> pour la chaire vacante est bien problématique, non seulement à cause du sort, mais aussi à cause du nombre et de la qualité des Prétendants; ceux qui se sont mis sur les rangs jusqu’à présent sont, outre vôtre <rs type="person" key="pers_DE-588-135542146">frère</rs>, Mrs. le Dr. <rs type="person" key="pers_DE-588-130538795">Mieg</rs>, le Dr. <rs type="person" key="pers_DE-588-106374685X">Passavant</rs>, le Magister <rs type="person" key="pers_DE-588-136592015">Legrand</rs>, le Licentié <rs type="person" key="pers_DE-588-117727717">Thurneysen</rs>, <rs type="person" key="pers_DE-588-1015507883">Legrand</rs> (frère du <rs type="person" key="pers_DE-588-100746535">Professeur</rs>) le Dr. <rs type="person" key="pers_DE-588-1202262600">Respinger fils</rs>, le Candidat <rs type="person" key="pers_DE-588-121213765 pers_DE-588-1126979678">Frey</rs>, le Dr. <rs type="person" key="pers_DE-588-1360248722">Huber</rs> (fils du <rs type="person" key="pers_DE-588-121998630">Profr.</rs> à Cassel) qui est ici depuis quelque tems. auxquels se joindront encore, à ce qu’on dit, Mrs. le Candidat <rs type="person" key="pers_DE-588-1089876661">Buxtorf</rs> et le Licentié <rs type="person" key="pers_DE-588-1024478076">Falcner</rs> qui sont absents.</p>
+  <p>Je me suis adressé, comme vous voyés à mon <rs type="person" key="pers_DE-588-118656503">frère</rs> pr. avoir un plus ample éclaircissemt. au sujet de la mire de la machine ballistique, parceque M. <rs type="person" key="pers_DE-588-1014027802">Basler</rs> n’en avoit plus une idée bien nette. Adieu mon cher <rs type="person" key="pers_DE-588-116170654">fils</rs>, je ne vs parle pas des nouvelles de la ville pr. ne pas empiéter sur les droits de Mle. <rs type="person">Beck</rs>; toute la famille vous salue bien cordialemt. et vous souhaite plus de santé dans cette nouvelle année et dans un grand nombre d’autres que vous n’en avés eu dans les dernières; nous embrassons aussi <rs type="person" key="pers_DE-588-1156696011">Me.</rs> et <rs type="person" key="pers_DE-588-1089910525">Mle. Bernouli</rs> en leur souhaitant une longue continuation de santé et de contentement. Je suis de tout mon coeur vôtre très affectionné père <rs type="person" key="pers_DE-588-117589136">J. B.</rs> Bâle ce 7e. de Janv. 1773</p>
+  <p>La première fois que vs écrivez à quelqu’un de nous, vous pourrés demander un petit billet au <rs type="person">Commissionnaire des héritiers de feu M. <rs type="person">Socin</rs></rs> pr. l’enfermer dans vôtre lettre.</p>
+</div>
+</body>
+</text></TEI>

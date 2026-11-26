@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524791005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 09. November 1772</title>
+          <title type="alt">1772.11.09: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079634</title>
+          <title type="alt">1772-11-09_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524791005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524791005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128975">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.151-152, 180-181</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524791005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440051205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079634</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Vindobonae (Wien)</origPlace>
+              <date when="1772-11-09">9 Nov. 1772</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1772-11-09">9 Nov. 1772</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524791105501" type="prev"/>
+          <ptr target="B_991170524790905501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-128740620">Haller von Hallerstein, Augustin</persName>
+            <note type="lebensdaten">(1703-1774)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell explains that he calculated the Vienna ephemerides alone from 1757 to 1763 and thereafter jointly with the Jesuit Johann Pilgram, while fearing that the crisis of the Jesuit order may end this work. He asks Johann III Bernoulli to postpone his review of recent publications on the solar parallax derived from the 1769 transit of Venus until forthcoming works by Lexell and others, as well as Hell's reply, have appeared. Hell criticises Lexell's treatment of the Kajaani observations and reports their converging estimates of the solar parallax. He sends an autograph letter from Augustin Hallerstein containing a Beijing longitude determination consistent with Pingré's result. In a postscript, Hell uses the external contacts observed at Beijing and Vardø to defend the accuracy of the observations and his argument against the Kajaani determination.</p>
+
+        <p>Maximilian Hell erklärt, dass er die Wiener Ephemeriden von 1757 bis 1763 allein und danach gemeinsam mit dem Jesuiten Johann Pilgram berechnet hat. Er befürchtet, die Krise des Jesuitenordens könne diese Arbeit beenden. Hell bittet Johann III Bernoulli, seine Besprechung neuer Veröffentlichungen zur aus dem Venustransit von 1769 bestimmten Sonnenparallaxe aufzuschieben, bis angekündigte Arbeiten Lexells und weiterer Autoren sowie Hells Antwort erschienen sind. Er kritisiert Lexells Behandlung der Beobachtungen von Kajaani und berichtet über ihre einander angenäherten Werte der Sonnenparallaxe. Hell sendet einen eigenhändigen Brief Augustin Hallersteins mit einer Bestimmung der Länge Pekings, die mit Pingrés Ergebnis übereinstimmt. Im Nachtrag verteidigt er anhand der äusseren Kontakte in Peking und Vardø die Genauigkeit der Beobachtungen und seine Argumentation gegen die Bestimmung von Kajaani.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-04" who="SG">Vollständige Bilder der Hallerstein-Beilage ergänzt.</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Fachbegriffe und offene Aussagen mit XML-Kommentaren versehen. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-08-27" who="SG FN">Kollationieren abgeschlossen.</change>
+        <change when="2026-08-25" who="SG FN">Kollationieren weitergeführt.</change>
+        <change when="2026-08-21" who="SG CG">Kollationieren begonnen.</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-27" who="SG">Maschinell transkribiert.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529671/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+<head>Achtung: Maschinelle Rohtranskription</head>
+<pb facs="3529672" n="151r"/>
+            <note type="archival">9 Nov. 1772</note>
+<opener>
+<salute rend="center">
+<lb/>Viro longe Celeberrimo, doctissimo, clarissimoque
+<lb/><rs key="pers_DE-588-116170654" type="person">Bernoullio</rs> <rs type="organisation" key="org_DE-588-15514-7">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum
+<lb/>Berolinensis</rs> Astronomo longe profundissimo <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice>
+<lb type="forced"/>
+<lb/><rs key="pers_DE-588-119502208" type="person">Maximilianus Hell</rs> <rs type="organisation" key="org_DE-588-80092-2"><abbr>S. J.</abbr></rs> <abbr>S. P. D.</abbr>
+</salute>
+</opener>
+<p><lb/>Fasciculum meum Tibi Vir Celeberrime <date when="1772-07">mense Julio</date> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me transmissum,
+<lb/>redditum esse non dubito, hasque <rs type="biblio">Ephemerides nostras</rs>, benevolo, ut accipias,
+<lb/>animo, amic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> rogo. In primo Excellentis Tui <rs type="biblio">operis Tomo</rs> memini me
+<lb/>legisse opinionem Tuam, qua existimabas calculos nostrarum <rs type="biblio">Ephemeridum</rs>
+<lb/>laborem esse plurium Sociorum; novisse itaque <choice><orig>TE</orig><reg>Te</reg></choice> velim, <rs type="biblio">Ephemerides</rs> ab Anno
+<lb/><date when="1757">1757</date> ad <date when="1763">1763</date> mei unius laborem fuisse, tum ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> obtento Socio Patre <rs type="person" key="pers_DE-588-100235956">Pilgram</rs>
+<lb/>cu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> et calculorum, et aliorum meorum laborum praxim meam co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicaveram,
+<lb/>labore partito <rs type="biblio">Ephemerides</rs> ab Anno <date when="1763">1763</date> ad <date when="1769">1769</date> supputavimus, quemadmodum
+<lb/>ex <hi rend="u">monito</hi> <rs type="biblio">Ephemeridibus</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>figi solito videre poteris; hoc modo exercitatum
+<lb/>jam in calculis et praxi astronomica laborum meorum jam in a<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>um quintum
+<lb/>socium, mihi in <rs key="place_KON-lappla" type="place">Laponiam</rs> evocato <add><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me</add> substitutum causa continuandarum Ephe<pc type="hyphenation">-</pc><lb break="no"/>meridum et observationum surrogaveram, labor ergo <rs type="biblio">Ephemeridum</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> nobis binis
+<lb/>sine adjutorio aliorum perficitur; sin<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> dubio magno nobis forent adjumento
+<lb/>juniores nostri Mathesi operam dantes, quos tamen his calculis studiorum suorum
+<lb/>tempore occupare nefas. <choice><orig>fortassis</orig><reg>Fortassis</reg></choice> sors <rs key="org_DE-588-80092-2" type="organisation">nostri Ordinis</rs>, qui nunc in maxima
+<lb/>Crisi versatur, aut mihi plures dabit socios, aut quod metuo, <rs type="biblio">Cursui Ephemeri<pc type="hyphenation">-</pc><lb break="no"/>dum nostrarum</rs>, meisque c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teris Astronomi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> laboribus finem imponet.
+</p>
+<p><lb/>Cum persuasissimum habeam in Tomo III aut IV<hi rend="sup">o</hi> operis Tui excellentis <rs type="biblio">Recueil
+<lb/>pour les Astronomes</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <choice><orig>TE</orig><reg>Te</reg></choice> recensionem inserendam fore Scriptorum, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ab
+<lb/>Anno <date when="1770">1770</date> hucusque in lucem prodierunt causa definiend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Parallaxeos solis
+<lb/>ex observationibus Transitus Veneris <date when="1769">1769</date>, cujusmodi est: <rs type="biblio"><hi rend="u">Collectio Petropolitana</hi></rs>
+<lb/><choice><orig>item que</orig><reg>itemque</reg></choice> <rs type="biblio">Acta Petropolitan<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, et <rs type="biblio">Parisin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, atque <rs type="biblio"><hi rend="u">Memoires sur<seg type="weiser"> le</seg></hi>
+<pb facs="3529673" n="151v"/>
+<lb/><hi rend="u">le Passage de Venus</hi></rs> <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-104234059" type="person">de la Lande</rs>, meaque <rs type="biblio">de Parallaxi Dissertatio</rs>,
+<lb/>amic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> <choice><orig>TE</orig><reg>Te</reg></choice> monitum volo, ut pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stoleris nova scripta Petropolitanorum, Pari<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sinorum, Anglorum, atque fortassis etiam Suecorum. De nova quapiam
+<lb/><rs type="biblio">dissertatione</rs> <rs key="place_GEO-498817" type="place">Petropoli</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexell</rs> edenda, litteris ipsiusmet <abbr>Cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexell</rs>
+<lb/>edoctus sum, in qua partem operis <rs type="biblio">Collectionis Petropolitan<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> calculos co<unclear reason="binding">m<pc type="hyphenation">-</pc></unclear>
+  <lb break="no"/><pc type="hyphenation">-</pc>plectitur, <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexell</rs> erroneam declarandam esse pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>video; Pars etenim
+<lb/>I<hi rend="sup">a</hi> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="biblio">dissertationis</rs>, qua <rs key="place_GEO-654899" type="place">Cajaneburgensis</rs> <abbr>obs.</abbr> errorem, desumptis elementis
+<lb/><del>x</del>in opere <rs type="biblio"><hi rend="u">Collectionis <abbr>Petrop.</abbr></hi></rs> propositis demonstravi, <abbr>cel.</abbr> Dominum <rs key="pers_DE-588-100189180" type="person">Lexell</rs>
+<lb/>in eas adduxit angustias, quibus fatetur longitudinem <rs key="place_GEO-654899" type="place">Cajaneburgensem</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> se
+<lb/>definitam 1<hi rend="sup">h</hi>. 41′. 53″ esse erroneam; causa autem, quam assert erroris, in reliqua<unclear reason="binding">s</unclear>
+<lb/>omnes l<choice><orig><g ref="#on">ō</g></orig><reg>on</reg></choice>gitudines ibidem determinatas influit adeo, ut si <rs key="place_GEO-654899" type="place">Cajaneburgensis</rs> longi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tudo ex causa <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexell</rs> adducta erronea est, reliqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> omnes longitudines
+<lb/>absurdissimo errore condemnantur, sicque dum <rs key="place_GEO-654899" type="place">Cajaneburgensem</rs> salvam reddere
+<lb/>adlaborat, reliquas omnes absurdas admittere cogatur. Ea de causa cuperem
+<lb/>ut <rs type="biblio">novum scriptum</rs> <abbr>cel.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexelli<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>, quod prope diem Typis exprimendum mihi
+<lb/>significaverat, atque <rs type="biblio">responsum meum</rs> t<del><gap/></del><add>y</add>pis itidem dandum pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stoleris ante, quam
+<lb/>materiam hanc Parallacticam Tuo in <rs type="biblio">opere</rs> pro more Tuo solide pertractas,
+<lb/>ita enim omnibus controversi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s in luce constitutis, suffragium Tuum pro vera
+<lb/>Quantitate Parallaxeos facilius ferre poteris. <abbr>Cel.</abbr> <rs key="pers_DE-588-100189180" type="person">Lexellius</rs>, qui anteha<unclear reason="binding">c</unclear>
+<lb/>justa majorem voluit Parallaxim, nunc me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> accedere sententi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> non dubitat,
+<lb/>quam tamen una, alterave centesima minuendam arbitratur, scilicet <hi rend="u">actualem</hi>
+  <lb/>pro die <date when="1769-06-03">3 Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date> 8″, 52 seu in <abbr>dist.</abbr> Media 8″. 66. Angli nihil quod suam huc<pc type="hyphenation">-</pc><lb break="no"/>usque in medium protulerunt, arbitror attamen, eos non aliam, aut non mul<pc type="hyphenation">-</pc><lb break="no"/>tum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> mea differentem producturos.</p>
+            <p><lb/>Addo <rs type="letter">litteras</rs> Patris nostri <rs key="pers_DE-588-128740620" type="person">Hallerstein</rs> <rs key="place_GEO-1816670" type="place">Pekino</rs> <date when="1770-09-05">5 <abbr><del><gap/></del><add>S</add>ept.</abbr> 1770</date> ad me datas, quibus
+<lb/>novo labore longitudinem Pekinensem indagat; hujus Conclusio cum Conclu<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sione <abbr>Cel.</abbr> <rs key="pers_DE-588-104224533" type="person">Pingré</rs> in <rs type="biblio">Actis Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> proposita egregi<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> consentit<choice><orig>;</orig><reg>.</reg></choice> <abbr>Cel.</abbr> <abbr>D.</abbr>
+<lb/><rs key="pers_DE-588-104224533" type="person">Pingré</rs> longitudinem <rs key="place_GEO-1816670" type="place">Pekinensem</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-2988507" type="place">Parisino</rs> conclusit = 7<hi rend="sup">h</hi>. 36′. 23″. Pater
+<lb/><rs key="pers_DE-588-128740620" type="person">Hallerstein</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-498817" type="place">Petropolitano</rs> definivit = 5<hi rend="sup">h</hi>. 44′ . 22″, cumque <rs key="place_GEO-498817" type="place">Petropolis</rs> sit <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-2988507" type="place">Pari<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>sino</rs> 1<hi rend="sup">h</hi>. 52′. 0″<choice><orig>.</orig><reg>,</reg></choice> erit <rs key="place_GEO-1816670" type="place">Pekinum</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-2988507" type="place">Parisino</rs> 7<hi rend="sup">h</hi>. 36′. 22″. Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unico itaque Tibi Vir
+<pb facs="3529674" n="152r"/>
+<lb/>Celeberrime ipsum <rs type="biblio">autographum Pekinense</rs>, quod <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <choice><orig>TE</orig><reg>Te</reg></choice> descriptum, mihi
+<lb/>amic<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> remittendum oro, fortassis dignum censebis Tuo pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>claro operi
+<lb/>inserendum.
+</p><p><lb/><rs type="biblio">Dissertationem meam de Tempore medio</rs> pro <rs type="biblio"><abbr>Ephem.</abbr> <date when="1773">1773</date></rs> promissam,
+<lb/>differre coactus sum causa <rs type="biblio">Dissertationis</rs> <abbr>cel.</abbr> <abbr>D.</abbr> <rs key="pers_DE-588-104234059" type="person">De La Lande</rs> <rs type="biblio">de Paralla<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>xi Solis</rs>, ad quam <rs type="biblio">responsum meum</rs> Appendicis loco adijciendum censui.
+</p>
+<closer>
+<salute><lb/>Jam Vale Vir celeberrime, et me Tuos inter, ut hactenus dignatus es,
+<lb/>censere perge.
+</salute>
+<dateline><lb/>dabam <rs key="place_GEO-2761369" type="place">Vindobon<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1772-11-09">9 <abbr>Nov.</abbr> 1772</date>.</dateline>
+</closer>
+<postscript><p><lb/><abbr>P. S.</abbr> Cum in <rs type="biblio"><hi rend="u">Addendis</hi></rs> <abbr>pag.</abbr> 118 et 119 ex mora diametri Veneris demonstraverim, mo<pc type="hyphenation">-</pc><lb break="no"/>menta contactus <hi rend="u">interni</hi> <rs key="place_GEO-1816670" type="place">Pekini</rs> proxim<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> vera esse, 21<hi rend="sup">h</hi>. 8′. 43″, erronea autem
+<lb/>21<hi rend="sup">h</hi>. 8′, 24″. <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> Domino <rs key="pers_DE-588-104234059" type="person">De la Lande</rs> assumpta, illud occurrit obi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>ci fortassis posse,
+<lb/>quod in hoc argumento supponantur quoque momenta contactus <hi rend="u">externi</hi> <rs key="place_GEO-1816670" type="place">Pekinensia</rs>
+<lb/>esse proxime vera, de quibus tamen, utpote Contrari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s <rs key="place_GEO-654899" type="place">Cajaneburgensi</rs>, dubitari posset
+<lb/>an sint exacta? idcirco, ut de his Tibi Vir <abbr>cel.</abbr> dubium omne tollam, sequenti
+<lb/>calculo eorundem certitudinem demonstro: Scilicet, certam esse differentiam Meridianor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+<lb/>inter <rs key="place_GEO-1816670" type="place">Pekinum</rs>, et <rs key="place_GEO-2988507" type="place">Parisios</rs> =7<hi rend="sup">h</hi>. 36′. 23″. Si ergo ex momentis contactus externi
+<lb/>eadem h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c longitudinem producatur, argumento erit, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c contactus externi momenta
+<lb/><rs key="place_GEO-1816670" type="place">Pekinensia</rs> esse proxime vera. Jam ver<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> momenta contactus externi <rs key="place_GEO-1816670" type="place">Pekini</rs>
+<lb/>media inter Patris <rs key="pers_resource_000079" type="person">Collas</rs>, et <rs key="pers_resource_000080" type="person">Dollieres</rs> sunt 21<hi rend="sup">h</hi>. 26′. 57″, <rs key="place_GEO-777019" type="place">Word<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>husii</rs> vero sunt
+<lb/>15<hi rend="sup">h</hi>. 45′. 44″<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> effectus Parallaxeos <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>cel.</abbr> <rs key="pers_DE-588-104234059" type="person">De la Lande</rs> in hypothesi actuali 8″, 37
+<lb/>pro <rs key="place_GEO-1816670" type="place">Pekino</rs> supputatus −3′. 51″<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>, pro <rs key="place_GEO-777019" type="place">Wardhus</rs> −3′. 54″<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> igitur
+    <table rows="7" cols="4">
+      <row>
+        <cell rend="align-right">contactus <abbr>extern.</abbr> <rs key="place_GEO-1816670" type="place">Pekini</rs> geocentricus</cell>
+        <cell rend="align-right">21<hi rend="sup">h</hi>.</cell>
+        <cell rend="align-right">23′.</cell>
+        <cell rend="align-right">6″.</cell>
+      </row>
+      <row>
+        <cell rend="align-right"><rs key="place_GEO-777019" type="place">Wardhusi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> − − −</cell>
+        <cell rend="align-right">15.</cell>
+        <cell rend="align-right">41.</cell>
+        <cell rend="align-right">50.</cell>
+      </row>
+      <row>
+        <cell rend="align-right"><rs key="place_GEO-777019" type="place">Wardhus</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-1816670" type="place">Pekino</rs> −</cell>
+        <cell rend="rule-above align-right">5.</cell>
+        <cell rend="rule-above align-right">41.</cell>
+        <cell rend="rule-above align-right">16.</cell>
+      </row>
+      <row>
+        <cell rend="align-right">Est vero <rs key="place_GEO-777019" type="place">Wardhus</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-2988507" type="place">Parisi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s</rs> −</cell>
+        <cell rend="align-right">1.</cell>
+        <cell rend="align-right">55.</cell>
+        <cell rend="align-right">8.</cell>
+      </row>
+      <row>
+        <cell rend="align-right">ergo <rs key="place_GEO-1816670" type="place">Pekinum</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="place_GEO-2988507" type="place">Parisi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s</rs> − −</cell>
+        <cell rend="rule-above align-right">7.</cell>
+        <cell rend="rule-above align-right">36.</cell>
+        <cell rend="rule-above align-right">24.</cell>
+      </row>
+      <row>
+        <cell rend="align-right">Longitudo certa est − − −</cell>
+        <cell rend="align-right">7.</cell>
+        <cell rend="align-right">36.</cell>
+        <cell rend="align-right">23.</cell>
+      </row>
+      <row>
+        <cell rend="align-right">Ergo error observationum − −</cell>
+        <cell rend="rule-above align-right">0.</cell>
+        <cell rend="rule-above align-right">0.</cell>
+        <cell rend="rule-above align-right">1.</cell>
+      </row>
+    </table>
+
+<lb/>Ex his patet contactum externum tam <rs key="place_GEO-1816670" type="place">Pekini</rs>, quam <rs key="place_GEO-777019" type="place">Wordhusi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> exacte observatum esses
+<lb/>firmumque meum esse argumentum in <rs type="biblio"><hi rend="u">Addendis</hi></rs> adductum; atque illa <abbr>pag.</abbr> 32, et 33 me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/><rs type="biblio"><abbr>dissert.</abbr></rs> contra <rs key="place_GEO-654899" type="place">Cajaneburgensem</rs> observationem adducta argumenta certa esse.
+</p></postscript>
+<pb facs="3529675" n="152v" type="empty"/>
+</div>
+<div type="attachment">
+
+<pb facs="3529676" type="archival"/>
+<pb facs="3529677" type="archival"/>
+<pb facs="3529678" n="180r"/>
+<pb facs="3529679" n="180v"/>
+<pb facs="3529680" n="181r"/>
+<pb facs="3529681" n="181v" type="empty"/>
+</div>
+
+
+    </body>
+  </text>
+</TEI>

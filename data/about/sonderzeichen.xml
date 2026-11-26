@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sonderzeichen">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sonder- und Abbreviaturzeichen</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Dokumentationsseite der Bernoulli-Euler-Briefwechsel.</p>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Zusammenstellung der in den Transkriptionen verwendeten Zeichen-Entities, ergänzt um Inhalte und eingebettete Abbildungen aus dem Export der bisherigen Seite <q>Entities</q> im Bernoulli-Wiki.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-20" who="SG">Den nicht schema-konformen Arbeitsstatus für die Releasevalidierung auf <term>draft</term> normalisiert.</change>
+        <change when="2026-08-10">Die getrennte Testübersicht und Wiki-Dokumentation zu einer öffentlichen Infoseite zusammengeführt.</change>
+        <change when="2026-08-10">Wiki-Tabelle mit Transkriptionsbeispielen, Quellen sowie 45 MUFI- und Handschriftenabbildungen übernommen.</change>
+        <change when="2026-08-10">Eigenständiges TEI-Dokument für Tests und die spätere Dokumentation angelegt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="documentation">
+        <head>Sonder- und Abbreviaturzeichen</head>
+        <div type="introduction">
+          <head>Zur Verwendung der Zeichen</head>
+          <p>Diese Übersicht verzeichnet sämtliche in <code>entities.txt</code> definierten Projekt-Entities der BEBB und ihre Zeichenwiedergabe. Die editorischen Regeln und ein Kodierungsbeispiel stehen in den <ref target="documentation#zeichen_und_entities">Editionsrichtlinien</ref>.</p>
+          <p>Die Spalte «Entity» zeigt die Eingabeform im XML, «orig» die Zeichenwiedergabe und «reg» die aufgelöste oder normalisierte Form. Handschriftenbilder, Transkriptionsbeispiele, Quellen und Erläuterungen helfen bei der Identifikation. «Entfällt» bedeutet, dass das Zeichen in der Lesefassung weggelassen wird; «unverändert» bezeichnet eine Zeichenwiedergabe ohne Normalisierung.</p>
+        </div>
+        <div type="entityDocumentation">
+          <head>Übersicht der Zeichen</head>
+          <p>Bilder in der Spalte «orig» dokumentieren typografische MUFI-Referenzformen; die Spalte «Bild» zeigt Handschriftenbefunde. Referenzformen und Handschriftzeichen können von der technischen Zeichenwiedergabe abweichen. Massgeblich für die Auflösung einer Entity ist <code>entities.txt</code>.</p>
+
+
+
+
+
+
+
+          <table>
+            <head>Sonder- und Abbreviaturzeichen mit Bildbeispielen, Transkriptionen und Quellen</head>
+            <row role="label">
+              <cell>Entity</cell>
+              <cell>orig</cell>
+              <cell>reg</cell>
+              <cell>Bild</cell>
+              <cell>Transkription</cell>
+              <cell>Quelle</cell>
+              <cell>Erklärung</cell>
+            </row>
+            <row>
+              <cell>&amp;aacut;</cell>
+              <cell>á</cell>
+              <cell>a</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Normalisierung Diacr. Zeichen Latein</cell>
+            </row>
+            <row>
+              <cell>&amp;Aacut;</cell>
+              <cell>Á</cell>
+              <cell>A</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>&amp;ae;</cell>
+              <cell>æ</cell>
+              <cell>ae</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-19-41.png"/><figDesc>Beleg 1: Ligatur æ in «Litteræ tuæ».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-11-11.png"/><figDesc>Beleg 2: Ligatur æ in «maximæ suæ».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-59-46.png"/><figDesc>Beleg 3: Ligatur æ in «quæ».</figDesc></figure></cell>
+              <cell><list type="simple"><item>Beleg 1: Litter&amp;ae; tu&amp;ae;</item><item>Beleg 2: maxim&amp;ae; su&amp;ae;</item><item>Beleg 3: qu&amp;ae;</item></list></cell>
+              <cell><list type="simple"><item>Beleg 1: <ref target="../letters/B_991170515020205501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 18. Juli 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078628">Digitalisat</ref>).</item><item>Beleg 2: <ref target="../letters/B_991170515020305501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 23. Juni 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078620">Digitalisat</ref>).</item><item>Beleg 3: <ref target="../letters/B_991170515020205501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 18. Juli 1714</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078631">Digitalisat</ref>).</item></list></cell>
+              <cell>Auflösung einer Ligatur (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;AE;</cell>
+              <cell>Æ</cell>
+              <cell>Ae</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-25-17.png"/><figDesc>Beleg 1: Ligatur Æ in «Æquatio».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-39-12.png"/><figDesc>Beleg 2: Ligatur Æ in «Æquiti».</figDesc></figure></cell>
+              <cell><list type="simple"><item>Beleg 1: &amp;AE;quatio</item><item>Beleg 2: &amp;AE;quiti</item></list></cell>
+              <cell><list type="simple"><item>Beleg 1: <ref target="../letters/B_991170514608505501">Johann I Bernoulli an Nicolaus I Bernoulli. Basel, 10. Dezember 1717</ref>, p. 3 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1062983">Digitalisat</ref>).</item><item>Beleg 2: <ref target="../letters/B_991170515150405501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 22. September 1720</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079200">Digitalisat</ref>).</item></list></cell>
+              <cell>Auflösung einer Ligatur (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;agrav;</cell>
+              <cell>à</cell>
+              <cell>a</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-53-52.png"/><figDesc>Beleg 1: a mit Gravis.</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_17-43-4.png"/><figDesc>Beleg 2: a mit Gravis.</figDesc></figure></cell>
+              <cell><list type="simple"><item>Beleg 1: &amp;agrav;</item><item>Beleg 2: &amp;agrav;</item></list></cell>
+              <cell><list type="simple"><item>Beleg 1: <ref target="../letters/B_991170515150405501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 22. September 1720</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079200">Digitalisat</ref>). Zuordnung des Bildausschnitts noch zu prüfen.</item><item>Beleg 2: Bildquelle noch nicht ermittelt.</item></list></cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;Agrav;</cell>
+              <cell>À</cell>
+              <cell>A</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_Agrav_1038136.png"/><figDesc>Beleg 1: Grosses A mit Gravis in «sit. À Tua autem».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_Agrav_1063879.png"/><figDesc>Beleg 2: À am Beginn der italienischen Anschrift «À Sua Eccellenza».</figDesc></figure></cell>
+              <cell><list type="simple"><item>Beleg 1: sit. &amp;Agrav; Tua autem</item><item>Beleg 2: À Sua Eccellenza</item></list></cell>
+              <cell><list type="simple"><item>Beleg 1: <ref target="../letters/B_991170516908205501">Nicolaus I Bernoulli an Jacob Hermann. Ohne Ort, 15. Juli 1716</ref>, Bl. 88v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1038136">Digitalisat</ref>).</item><item>Beleg 2: <ref target="../letters/B_991170517054205501">Pietro Antonio Michelotti an Nicolaus I Bernoulli. Venedig, 20. April 1714</ref>, p. 5 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063879">Digitalisat</ref>).</item></list></cell>
+              <cell>Die Entity normalisiert À zu A (Latein). Im italienischen Bildbeleg bleibt À in beiden Fassungen erhalten; es wird direkt als Zeichen erfasst.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;Ahat;</cell>
+              <cell>Â</cell>
+              <cell>A</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Norm. Diacr. Latein</cell>
+            </row>
+            <row>
+              <cell>&amp;ahat;</cell>
+              <cell>â</cell>
+              <cell>a</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ahat_2228233.png"/><figDesc>Handschriftenbeispiel: a mit Zirkumflex.</figDesc></figure></cell>
+              <cell>&amp;ahat;</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 68r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228233">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;am;</cell>
+              <cell>ā</cell>
+              <cell>am</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_am_1079464.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für am.</figDesc></figure></cell>
+              <cell>j&amp;am;</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 9 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079464">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;an;</cell>
+              <cell>ā</cell>
+              <cell>an</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_17-59-51.png"/><figDesc>Detail: Kürzungszeichen für an in «suppeditant».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_18-0-26.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für an im Wort «suppeditant».</figDesc></figure></cell>
+              <cell>suppedit&amp;an;t</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 71r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228239">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;and;</cell>
+              <cell>&amp;</cell>
+              <cell>and</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_and_1361964.png"/><figDesc>Zeichen für «and» in «parallel, &amp; the triangles».</figDesc></figure></cell>
+              <cell>parallel, &amp;and; the triangles</cell>
+              <cell><ref target="../letters/B_991170517018405501">Pierre Rémond de Montmort an Nicolaus I Bernoulli. Montmort, 8. Juni 1719</ref>, p. 6 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1361964">Digitalisat</ref>).</cell>
+              <cell>Auflösung des &amp;-Zeichens in englischen Texten.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ber;</cell>
+              <cell>ƀ<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-10_2-58-54.png"/><figDesc>MUFI-Referenzform für &amp;ber;.</figDesc></figure></cell>
+              <cell>ber</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-10_2-51-45.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «ber» im Wort «aber».</figDesc></figure></cell>
+              <cell>a&amp;ber;</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 8r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526126">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;C;</cell>
+              <cell>c</cell>
+              <cell>unverändert</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_C_5997706.png"/><figDesc>Historische Form des c in «cotangente».</figDesc></figure></cell>
+              <cell>&amp;C;otangente</cell>
+              <cell><ref target="../letters/B_991170491264205501">«Démonstration d’un Théoreme de M. D. Bernoulli»</ref>, Bl. 75v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/5997706">Digitalisat</ref>).</cell>
+              <cell>Die Entity gibt ein kleines c wieder; ihr Name wird grossgeschrieben.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;con;</cell>
+              <cell>ꝯ</cell>
+              <cell>con</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_con_1079189.png"/><figDesc>Kürzungszeichen für «con» in «convertatur».</figDesc></figure></cell>
+              <cell>&amp;con;vertatur</cell>
+              <cell><ref target="../letters/B_991170515150505501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 10. August 1720</ref>, p. 5 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079189">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;curr_batzen;</cell>
+              <cell></cell>
+              <cell>unverändert</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Batzenzeichen (U+F2F7).</cell>
+            </row>
+            <row>
+              <cell>&amp;curr_floren;</cell>
+              <cell></cell>
+              <cell>unverändert</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Floren- beziehungsweise Guldenzeichen (U+F2E8).</cell>
+            </row>
+            <row>
+              <cell>&amp;curr_lb;</cell>
+              <cell></cell>
+              <cell>unverändert</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_curr_lb_2026-11-17.png"/><figDesc>Handschriftenbeispiel: Pfundzeichen.</figDesc></figure></cell>
+              <cell>3 &amp;curr_lb;</cell>
+              <cell><ref target="../letters/B_991170514764205501">Johann Jakob Huber an Daniel I Bernoulli. London, 1. Juli 1755</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1369586">Digitalisat</ref>).</cell>
+              <cell>Pfundzeichen (U+F2EA); je nach Zusammenhang als Gewichts- oder Währungsangabe verwendet.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;daß;</cell>
+              <cell>daß<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-9_23-6-0.png"/><figDesc>MUFI-Referenzform für &amp;daß;.</figDesc></figure></cell>
+              <cell>daß</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-2_1-39-44.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «daß».</figDesc></figure></cell>
+              <cell>&amp;daß;</cell>
+              <cell>Bildquelle noch nicht ermittelt.</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+
+            <row>
+              <cell>&amp;der;</cell>
+              <cell>der</cell>
+              <cell>der</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-2_1-41-52.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «der».</figDesc></figure></cell>
+              <cell>&amp;der;</cell>
+              <cell>Bildquelle noch nicht ermittelt.</cell>
+              <cell>Auflösung einer Abkürzung mit er-Schnörkel</cell>
+            </row>
+
+            <row>
+              <cell>&amp;die;</cell>
+              <cell>đ</cell>
+              <cell>die</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_die_1078909.png"/><figDesc>Kürzungszeichen für «die» in der Datierung.</figDesc></figure></cell>
+              <cell>Dabam Basil. &amp;die; 9. 8bris 1716.</cell>
+              <cell><ref target="../letters/B_991170515153605501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 9. Oktober 1716</ref>, p. 8 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078909">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;eacut;</cell>
+              <cell>é</cell>
+              <cell>e</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_eacut_3526124_wort.png"/><figDesc>Handschriftenbeispiel: é im Wort «publicé».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_eacut_3526124_detail.png"/><figDesc>Detail: e mit Akut.</figDesc></figure></cell>
+              <cell>public&amp;eacut;</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 7r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526124">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;Eacut;</cell>
+              <cell>É</cell>
+              <cell>E</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_Eacut_3526132.png"/><figDesc>Handschriftenbeispiel: E mit Akut.</figDesc></figure></cell>
+              <cell>&amp;Eacut; multis una resurgo</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 11r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526132">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;egrav;</cell>
+              <cell>è</cell>
+              <cell>e</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_egrav_2228233.png"/><figDesc>Handschriftenbeispiel: e mit Gravis.</figDesc></figure></cell>
+              <cell>&amp;egrav;</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 68r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228233">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;Egrav;</cell>
+              <cell>È</cell>
+              <cell>E</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_Egrav_1078671.png"/><figDesc>Grosses E mit Gravis in «È re quoque».</figDesc></figure></cell>
+              <cell>&amp;Egrav; re quoque esse puto</cell>
+              <cell><ref target="../letters/B_991170515019705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 12. September 1714</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078671">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ehat;</cell>
+              <cell>ê</cell>
+              <cell>e</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ehat_1063875.png"/><figDesc>e mit Zirkumflex im Wort «concepêre».</figDesc></figure></cell>
+              <cell>concep&amp;ehat;re</cell>
+              <cell><ref target="../letters/B_991170517054205501">Pietro Antonio Michelotti an Nicolaus I Bernoulli. Venedig, 20. April 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063875">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;em;</cell>
+              <cell>ē</cell>
+              <cell>em</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-55-24.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «em» im Wort «canalem».</figDesc></figure></cell>
+              <cell>canal&amp;em;</cell>
+              <cell>Bildquelle noch nicht ermittelt.</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;emacron;</cell>
+              <cell>ē</cell>
+              <cell>e</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_emacron_3529598_wort.png"/><figDesc>Wortbeleg: «fuēre» mit Makron über dem e.</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_emacron_3529598_detail.png"/><figDesc>Detail: e mit Makron.</figDesc></figure></cell>
+              <cell>fu&amp;emacron;re</cell>
+              <cell><ref target="../letters/B_991170524791105501">Maximilian Hell an Johann III Bernoulli. Wien, 20. Juli 1772</ref>, Bl. 150v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3529598">Digitalisat</ref>).</cell>
+              <cell>e mit Makron; Normalisierung zu e.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;er;</cell>
+              <cell>◌͛<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-10_3-33-38.png"/><figDesc>MUFI-Referenzform für &amp;er;.</figDesc></figure></cell>
+              <cell>er</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-10_3-29-59.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «er» im Wort «nacher».</figDesc></figure></cell>
+              <cell>nach&amp;er;</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 18r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526146">Digitalisat</ref>).</cell>
+              <cell>Kürzungszeichen für er. Der gepunktete Kreis dient nur der Darstellung des kombinierenden Zeichens.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;en;</cell>
+              <cell>ē</cell>
+              <cell>en</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_en_1079464_wort.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für en im Wort tamen.</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_en_1079464_detail.png"/><figDesc>Detail des Abkürzungszeichens für en.</figDesc></figure></cell>
+              <cell>tam&amp;en;</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 9 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079464">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;esse;</cell>
+              <cell>e&#x0360;e<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-9_22-42-6.png"/><figDesc>MUFI-Referenzform für &amp;esse;.</figDesc></figure></cell>
+              <cell>esse</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-9_21-32-18.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «esse».</figDesc></figure></cell>
+              <cell>&amp;esse;</cell>
+              <cell><ref target="../letters/B_991170516908105501">Jacob Hermann an Nicolaus I Bernoulli. Frankfurt (Oder), 4. September 1716</ref>, p. 3 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063660">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;est;</cell>
+              <cell>&#xE4E9;<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-9_22-41-33.png"/><figDesc>MUFI-Referenzform für &amp;est;.</figDesc></figure></cell>
+              <cell>est</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-9_21-35-48.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «est».</figDesc></figure></cell>
+              <cell>&amp;est;</cell>
+              <cell><ref target="../letters/B_991170516908105501">Jacob Hermann an Nicolaus I Bernoulli. Frankfurt (Oder), 4. September 1716</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063658">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;etlig;</cell>
+              <cell>&amp;</cell>
+              <cell>et</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_etlig_1079464.png"/><figDesc>Handschriftenbeispiel: Ligatur für et.</figDesc></figure></cell>
+              <cell>alienus est &amp;etlig; diversissimus</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 9 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079464">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur (Latein, Französisch)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;Etlig;</cell>
+              <cell>&amp;</cell>
+              <cell>Et</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_Etlig_1039732.png"/><figDesc>Et-Ligatur in «&amp;c.».</figDesc></figure></cell>
+              <cell>comparatur. &amp;Etlig;c.</cell>
+              <cell><ref target="../letters/B_991170517062705501">Franz Christ an Nicolaus I Bernoulli. Utrecht, 17. Oktober 1718</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1039732">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur zu «Et» bei Grossschreibung (Latein, Französisch).</cell>
+            </row>
+
+            <row>
+              <cell>&amp;igrav;</cell>
+              <cell>ì</cell>
+              <cell>i</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_igrav_1361402.png"/><figDesc>i mit Gravis im Wort «quì».</figDesc></figure></cell>
+              <cell>canalibus qu&amp;igrav; dilatantur</cell>
+              <cell><ref target="../letters/B_991170517056105501">Pietro Antonio Michelotti an Nicolaus I Bernoulli. Venedig, 11. März 1718</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1361402">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ihat;</cell>
+              <cell>î</cell>
+              <cell>i</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ihat_3526132.png"/><figDesc>Handschriftenbeispiel für î im Wort «Hîc».</figDesc></figure></cell>
+              <cell>H&amp;ihat;c</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 11r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526132">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;im;</cell>
+              <cell>ī</cell>
+              <cell>im</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_im_1079474.png"/><figDesc>Handschriftenbeispiel: «enim» mit Abkürzungszeichen für «im».</figDesc></figure></cell>
+              <cell>en&amp;im;</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 19 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079474">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;in;</cell>
+              <cell>ī</cell>
+              <cell>in</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Auflösung Abbreviatur</cell>
+            </row>
+            <row>
+              <cell>&amp;j;</cell>
+              <cell>j</cell>
+              <cell>i</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_15-4-32.png"/><figDesc>Handschriftenbeispiel: j im Wort «Junj».</figDesc></figure></cell>
+              <cell>Jun&amp;j;</cell>
+              <cell><ref target="../letters/B_991170515020205501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 18. Juli 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078628">Digitalisat</ref>).</cell>
+              <cell>Normalisierung eines Sonderzeichens</cell>
+            </row>
+
+            <row>
+              <cell>&amp;klammerauf;</cell>
+              <cell>|:</cell>
+              <cell>(</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-19_10-43-27.png"/><figDesc>Handschriftenbeispiel: öffnende Klammer |:.</figDesc></figure></cell>
+              <cell>&amp;klammerauf;quibus</cell>
+              <cell><ref target="../letters/B_991170517057905501">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 28. Dezember 1729</ref>, Bl. 53r (<ref target="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/dao/0/21">Digitalisat</ref>).</cell>
+              <cell>Normalisierung eines Sonderzeichens</cell>
+            </row>
+
+            <row>
+              <cell>&amp;klammerzu;</cell>
+              <cell>:|</cell>
+              <cell>)</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-19_10-44-4.png"/><figDesc>Handschriftenbeispiel: schliessende Klammer :|.</figDesc></figure></cell>
+              <cell>nummi&amp;klammerzu;</cell>
+              <cell><ref target="../letters/B_991170517057905501">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 28. Dezember 1729</ref>, Bl. 53r (<ref target="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/dao/0/21">Digitalisat</ref>).</cell>
+              <cell>Normalisierung eines Sonderzeichens</cell>
+            </row>
+
+
+            <row>
+              <cell>&amp;leftmoon;</cell>
+              <cell>☽</cell>
+              <cell>unverändert</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_leftmoon_3529597.png"/><figDesc>Mondsichelzeichen im Ausdruck «centrorum ☉ et ☽».</figDesc></figure></cell>
+              <cell>centrorum ☉ et &amp;leftmoon; minimam</cell>
+              <cell><ref target="../letters/B_991170524791105501">Maximilian Hell an Johann III Bernoulli. Wien, 20. Juli 1772</ref>, Bl. 150r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3529597">Digitalisat</ref>).</cell>
+              <cell>Mondsichelzeichen U+263D. Die Entity gibt das Zeichen ohne Normalisierung wieder.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ll;</cell>
+              <cell>ƚ</cell>
+              <cell>ll</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ll_1078645.png"/><figDesc>Abkürzungszeichen für «ll» im Wort «ullo».</figDesc></figure></cell>
+              <cell>sine u&amp;ll;o dubio</cell>
+              <cell><ref target="../letters/B_991170515020005501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 3. August 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078645">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abbreviatur zu «ll».</cell>
+            </row>
+
+            <row>
+              <cell>&amp;macute;</cell>
+              <cell>ḿ</cell>
+              <cell>m</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>m mit Akut; Normalisierung zu m.</cell>
+            </row>
+            <row>
+              <cell>&amp;mm;</cell>
+              <cell>m̄</cell>
+              <cell>mm</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-19_10-38-47.png"/><figDesc>Handschriftenbeispiel: Verdopplungsstrich über m im Wort «nummis».</figDesc></figure></cell>
+              <cell>nu&amp;mm;is</cell>
+              <cell><ref target="../letters/B_991170517057905501">Nicolaus I Bernoulli an Gabriel Cramer. Ohne Ort, 28. Dezember 1729</ref>, Bl. 53r (<ref target="https://archives.bge-geneve.ch/ark:/17786/vta4c6c492f3d363e5f/dao/0/21">Digitalisat</ref>).</cell>
+              <cell>Verdopplungszeichen über m; Auflösung zu mm.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;mn;</cell>
+              <cell>m̄</cell>
+              <cell>mn</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_mn_1079460.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für mn.</figDesc></figure></cell>
+              <cell>colu&amp;mn;ellam</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 5 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079460">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;nacute;</cell>
+              <cell>ń</cell>
+              <cell>n</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>n mit Akut; Normalisierung zu n.</cell>
+            </row>
+            <row>
+              <cell>&amp;NB;</cell>
+              <cell>NB</cell>
+              <cell>NB</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_NB_3526147.png"/><figDesc>Handschriftenbeispiel: NB-Ligatur mit folgendem Punkt.</figDesc></figure></cell>
+              <cell>&amp;NB;.</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 18v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526147">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur</cell>
+            </row>
+
+            <row>
+              <cell>&amp;nddot;</cell>
+              <cell>:</cell>
+              <cell>entfällt</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Zahlendoppelpunkt; entfällt in der Lesefassung.</cell>
+            </row>
+            <row>
+              <cell>&amp;ndot;</cell>
+              <cell>.</cell>
+              <cell>entfällt</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ndot_1079483.png"/><figDesc>Zahlpunkt nach «37».</figDesc></figure></cell>
+              <cell>37&amp;ndot;</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 28 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079483">Digitalisat</ref>).</cell>
+              <cell>Zahl- und Formelpunkt; entfällt in der Lesefassung.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;nn;</cell>
+              <cell>n̄</cell>
+              <cell>nn</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_nn_1079474_wort.png"/><figDesc>Handschriftenbeispiel: «annon» mit Abkürzungszeichen für «nn».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_nn_1079474_detail.png"/><figDesc>Detail des Abkürzungszeichens für nn.</figDesc></figure></cell>
+              <cell>a&amp;nn;on</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 19 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079474">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;oacut;</cell>
+              <cell>ó</cell>
+              <cell>o</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_oacut_1078670_wort.png"/><figDesc>Wortbeleg: «veró» mit Akut über dem o.</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_oacut_1078670_detail.png"/><figDesc>Detail: o mit Akut.</figDesc></figure></cell>
+              <cell>ver&amp;oacut; quod attinet</cell>
+              <cell><ref target="../letters/B_991170515019705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 12. September 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078670">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ograv;</cell>
+              <cell>ò</cell>
+              <cell>o</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ograv_1078620_wort.png"/><figDesc>Handschriftenbeispiel: o mit Gravis im Wort «verò».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ograv_1078620_detail.png"/><figDesc>Detail: o mit Gravis im Wort «verò».</figDesc></figure></cell>
+              <cell>ver&amp;ograv;</cell>
+              <cell><ref target="../letters/B_991170515020305501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 23. Juni 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078620">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ohat;</cell>
+              <cell>ô</cell>
+              <cell>o</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_18-7-0.png"/><figDesc>Handschriftenbeispiel: o mit Zirkumflex.</figDesc></figure></cell>
+              <cell>&amp;ohat;</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 73v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228244">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;oe;</cell>
+              <cell>œ</cell>
+              <cell>oe</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_17-43-30.png"/><figDesc>Detail: Ligatur œ in «fœlix».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_18-11-3.png"/><figDesc>Handschriftenbeispiel: Ligatur œ im Wort «fœlix».</figDesc></figure></cell>
+              <cell>&amp;oe;</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 65r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228227">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur</cell>
+            </row>
+
+            <row>
+              <cell>&amp;OE;</cell>
+              <cell>Œ</cell>
+              <cell>Oe</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_OE_1063481.png"/><figDesc>Ligatur Œ in «Œuvres».</figDesc></figure></cell>
+              <cell>Œuvres</cell>
+              <cell><ref target="../letters/B_991170517064005501">Gabriel Cramer an Nicolaus I Bernoulli. Genf, 1. September 1750</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063481">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur. Der französische Bildbeleg zeigt die Zeichenform; im Brief bleibt «Œuvres» unverändert.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;omm;</cell>
+              <cell>ō</cell>
+              <cell>omm</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_omm_1073697.png"/><figDesc>Abkürzung «cōe» für «comme».</figDesc></figure></cell>
+              <cell>c&amp;omm;e je l’ai fait voir</cell>
+              <cell><ref target="../letters/B_991170514979205501">Gabriel Cramer an Johann I Bernoulli. London, 22. Juni 1728</ref>, p. 8 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1073697">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abbreviatur zu «omm».</cell>
+            </row>
+
+            <row>
+              <cell>&amp;omn;</cell>
+              <cell>õ</cell>
+              <cell>omn</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_omn_2026-11-17.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für omn.</figDesc></figure></cell>
+              <cell>&amp;omn;em</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 3 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079458">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;on;</cell>
+              <cell>ō</cell>
+              <cell>on</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_on_1079464_wort.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für on im Wort non.</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_on_1079464_detail.png"/><figDesc>Detail des Abkürzungszeichens für on.</figDesc></figure></cell>
+              <cell>n&amp;on;</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 9 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079464">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;par;</cell>
+              <cell>ꝑ</cell>
+              <cell>par</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_par_1073655.png"/><figDesc>Abkürzungszeichen für «par» in «par ex.».</figDesc></figure></cell>
+              <cell>en bandant &amp;par; ex. 4 Ressorts</cell>
+              <cell><ref target="../letters/B_991170514979305501">Johann I Bernoulli an Gabriel Cramer. Basel, 13. Mai 1728</ref>, p. 6 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1073655">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abbreviatur zu «par».</cell>
+            </row>
+
+            <row>
+              <cell>&amp;per;</cell>
+              <cell>ꝑ</cell>
+              <cell>per</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_per_1079464.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für per.</figDesc></figure></cell>
+              <cell>&amp;per; congelationem</cell>
+              <cell><ref target="../letters/B_991170515107705501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 31. Mai 1724</ref>, p. 9 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079464">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+
+            <row>
+              <cell>&amp;pp;</cell>
+              <cell>ꝛc.</cell>
+              <cell>etc.</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-10_3-15-51.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen mit folgendem Punkt.</figDesc></figure></cell>
+              <cell>&amp;pp;</cell>
+              <cell><ref target="../letters/B_991170514608305501">Johann I Bernoulli an Nicolaus I Bernoulli. Basel, 29. Januar 1718</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1062992">Digitalisat</ref>).</cell>
+              <cell>P-förmiges Kürzungszeichen. Die im Frakturdruck belegte Form «ꝛc.» dient als typographischer Ersatz (<ref target="https://www.jura.uni-heidelberg.de/md/jura/mat/band_2_der_gluecksstern_niebuhrs_varvaro.pdf#page=18">Varvaro, Bd. 2, S. XVIII</ref>). Die Lesefassung löst das Zeichen zu «etc.» auf.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;prae;</cell>
+              <cell>ꝕ</cell>
+              <cell>prae</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-2-23_16-33-1.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «prae».</figDesc></figure></cell>
+              <cell>&amp;prae;</cell>
+              <cell><ref target="../letters/B_991170516536005501">Christian Wolff an Johann I Bernoulli. Marburg, 11. Februar 1724</ref>; genaue Seite noch nicht ermittelt.</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;pro;</cell>
+              <cell>ꝓ</cell>
+              <cell>pro</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_pro_3526139.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für pro.</figDesc></figure></cell>
+              <cell>5. &amp;pro; cento</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 14v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526139">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;qua;</cell>
+              <cell>q̄</cell>
+              <cell>qua</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_qua_1063928.png"/><figDesc>Abkürzungszeichen für «qua» im Wort «æqualis».</figDesc></figure></cell>
+              <cell>æ&amp;qua;lis</cell>
+              <cell><ref target="../letters/B_991170517051905501">Pietro Antonio Michelotti an Nicolaus I Bernoulli. Venedig, 8. August 1715</ref>, p. 6 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063928">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abbreviatur zu «qua».</cell>
+            </row>
+
+            <row>
+              <cell>&amp;que;</cell>
+              <cell>&#xE8BF;<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-9_22-10-7.png"/><figDesc>MUFI-Referenzform für &amp;que;.</figDesc></figure></cell>
+              <cell>que</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-57-47.png"/><figDesc>Beleg 1: Kürzungszeichen für que in «utique».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_17-40-36.png"/><figDesc>Beleg 2: Kürzungszeichen für que.</figDesc></figure></cell>
+              <cell><list type="simple"><item>Beleg 1: uti&amp;que;</item><item>Beleg 2: &amp;que;</item></list></cell>
+              <cell><list type="simple"><item>Beleg 1: <ref target="../letters/B_991170515020205501">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 18. Juli 1714</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1078628">Digitalisat</ref>).</item><item>Beleg 2: Bildquelle noch nicht ermittelt.</item></list></cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;qui;</cell>
+              <cell>ꝗ</cell>
+              <cell>qui</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_qui_3526230.png"/><figDesc>Handschriftenbeispiel: Abkürzungszeichen für qui in antiquitate, mit folgendem Trennstrich.</figDesc></figure></cell>
+              <cell>anti&amp;qui;tate</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 60r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526230">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;quote;</cell>
+              <cell>„</cell>
+              <cell>entfällt</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_18-4-3.png"/><figDesc>Handschriftenbeispiel: Anführungszeichen am Beginn der Zeile «scientiæ quale sit».</figDesc></figure></cell>
+              <cell>&amp;quote;scientiæ quale sit</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 71v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228240">Digitalisat</ref>).</cell>
+              <cell>Historisches Anführungszeichen; entfällt in der Lesefassung. Lange Zitate stehen in <code>&lt;quote type="long"&gt;</code>. Zur Erfassung und Darstellung der Anführungszeichen siehe die <ref target="documentation#zitate">Editionsrichtlinien</ref>.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;rightmoon;</cell>
+              <cell>☾</cell>
+              <cell>unverändert</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Mondsichelzeichen U+263E; unveränderte Zeichenwiedergabe.</cell>
+            </row>
+            <row>
+              <cell>&amp;SUN;</cell>
+              <cell>☉</cell>
+              <cell>unverändert</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_SUN_3529597.png"/><figDesc>Sonnenzeichen in «centrorum ☉ et ☽».</figDesc></figure></cell>
+              <cell>centrorum &amp;SUN; et ☽</cell>
+              <cell><ref target="../letters/B_991170524791105501">Maximilian Hell an Johann III Bernoulli. Wien, 20. Juli 1772</ref>, Bl. 150r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3529597">Digitalisat</ref>).</cell>
+              <cell>Astronomisches Sonnenzeichen (U+2609).</cell>
+            </row>
+
+            <row>
+              <cell>&amp;tur;</cell>
+              <cell>&#xF199;<figure type="mufiReference"><graphic url="images/sonderzeichen/image-2026-8-9_22-13-13.png"/><figDesc>MUFI-Referenzform für &amp;tur;.</figDesc></figure></cell>
+              <cell>tur</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-9_22-14-12.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «tur» im Wort «videtur».</figDesc></figure></cell>
+              <cell>vide&amp;tur;</cell>
+              <cell><ref target="../letters/B_991170516908705501">Nicolaus I Bernoulli an Jacob Hermann. Basel, 27. Dezember 1710</ref>, Bl. 84v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1038118">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;u;</cell>
+              <cell>v</cell>
+              <cell>u</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_18-14-49.png"/><figDesc>Handschriftenbeispiel: historische v-Form für u im Wort «vnderhalb».</figDesc></figure></cell>
+              <cell>&amp;u;nderhalb</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 7v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526125">Digitalisat</ref>).</cell>
+              <cell>Normalisierung nach Lautwert: v wird als u wiedergegeben.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;U;</cell>
+              <cell>V</cell>
+              <cell>U</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_U_3526135.png"/><figDesc>Historische V-Form für U am Anfang von «Under».</figDesc></figure></cell>
+              <cell>&amp;U;nder</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 12v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526135">Digitalisat</ref>).</cell>
+              <cell>Normalisierung nach Lautwert; Grossbuchstabenvariante von &amp;u;.</cell>
+            </row>
+
+            <row>
+              <cell>&amp;uacut;</cell>
+              <cell>ú</cell>
+              <cell>u</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_uacut_1063876.png"/><figDesc>u mit Akut in «perpendicú-».</figDesc></figure></cell>
+              <cell>perpendic&amp;uacut;-</cell>
+              <cell><ref target="../letters/B_991170517054205501">Pietro Antonio Michelotti an Nicolaus I Bernoulli. Venedig, 20. April 1714</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063876">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ugrav;</cell>
+              <cell>ù</cell>
+              <cell>u</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ugrav_2228234.png"/><figDesc>Handschriftenbeispiel: u mit Gravis.</figDesc></figure></cell>
+              <cell>&amp;ugrav;</cell>
+              <cell><ref target="../related_texts/S_991170473467405501">Johann I Bernoulli: Oratio inauguralis in laudem matheseos. Groningen, 28. November 1695</ref>, Bl. 68v (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/2228234">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Latein)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;uhat;</cell>
+              <cell>û</cell>
+              <cell>u</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>Norm. Diacr. Latein</cell>
+            </row>
+            <row>
+              <cell>&amp;um;</cell>
+              <cell>ū</cell>
+              <cell>um</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2025-9-16_14-52-32.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für um in «Tuarum».</figDesc></figure></cell>
+              <cell>Tuar&amp;um;</cell>
+              <cell><ref target="../letters/B_991170515150405501">Pietro Antonio Michelotti an Johann I Bernoulli. Venedig, 22. September 1720</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079200">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;umacron;</cell>
+              <cell>ū</cell>
+              <cell>u</cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell>u mit Makron; Normalisierung zu u.</cell>
+            </row>
+            <row>
+              <cell>&amp;un;</cell>
+              <cell>ū</cell>
+              <cell>un</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_un_1045051.png"/><figDesc>Abkürzungszeichen für «un» in «aucū».</figDesc></figure></cell>
+              <cell>auc&amp;un;</cell>
+              <cell><ref target="../letters/B_991170514802705501">Johann I Bernoulli an Jean Jacques de Mairan. Basel, 18. Dezember 1724</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1045051">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+
+            <row>
+              <cell>&amp;us;</cell>
+              <cell>[us]</cell>
+              <cell>us</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-8-9_22-19-35.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «us» im Wort «conatus».</figDesc></figure></cell>
+              <cell>conat&amp;us;</cell>
+              <cell><ref target="../letters/B_991170516908105501">Jacob Hermann an Nicolaus I Bernoulli. Frankfurt (Oder), 4. September 1716</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063658">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ydots;</cell>
+              <cell>ÿ</cell>
+              <cell>y</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ydots_3526132.png"/><figDesc>Das ÿ in «beÿschrifft».</figDesc></figure></cell>
+              <cell>be&amp;ydots;schrifft</cell>
+              <cell><ref target="../related_texts/S_991170522084805501">Jacob I Bernoulli: Reissbüchlein, 1676–1683</ref>, Bl. 11r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/3526132">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Deutsch)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;und;</cell>
+              <cell>[und]</cell>
+              <cell>und</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_und_1039730.png"/><figDesc>Abkürzungszeichen für «und» zwischen «Anvers» und «wider».</figDesc></figure></cell>
+              <cell>Anvers &amp;und; wider</cell>
+              <cell><ref target="../letters/B_991170517062705501">Franz Christ an Nicolaus I Bernoulli. Utrecht, 17. Oktober 1718</ref>, p. 2 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1039730">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+            <row>
+              <cell>&amp;undlig;</cell>
+              <cell>&amp;</cell>
+              <cell>und</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_undlig_4565636.png"/><figDesc>Zeichen für «und» zwischen «Bouguer» und «Maupert.».</figDesc></figure></cell>
+              <cell>Bouguer &amp;undlig; Maupert.</cell>
+              <cell><ref target="../letters/B_991171579678805501">Anna Barbara Reinhart an Daniel I Bernoulli. Winterthur, Mai 1761</ref>, Bl. 92r (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/4565636">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Ligatur (Deutsch)</cell>
+            </row>
+
+            <row>
+              <cell>&amp;ue;</cell>
+              <cell>uͤ</cell>
+              <cell>ü</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ue_1079581_wort.png"/><figDesc>Handschriftenbeispiel: u mit übergeschriebenem e im Wort «würde».</figDesc></figure><figure type="manuscriptExample"><graphic url="images/sonderzeichen/entity_ue_1079581_detail.png"/><figDesc>Detail: u mit übergeschriebenem e.</figDesc></figure></cell>
+              <cell>w&amp;ue;rde</cell>
+              <cell><ref target="../letters/B_991170514992905501">Nicolaus II Bernoulli an Johann I Bernoulli. Ohne Ort, 5. Juni 1716</ref>, p. 1 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1079581">Digitalisat</ref>).</cell>
+              <cell>Normalisierung diakritischer Zeichen (Deutsch)</cell>
+            </row>
+
+
+            <row>
+              <cell>&amp;ver;</cell>
+              <cell>v͛</cell>
+              <cell>ver</cell>
+              <cell><figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-2-23_16-37-39.png"/><figDesc>Handschriftenbeispiel: Kürzungszeichen für «ver» im Wort «verbleibe».</figDesc></figure></cell>
+              <cell>&amp;ver;bleibe</cell>
+              <cell><ref target="../letters/B_991170514608205501">Johann I Bernoulli an Nicolaus I Bernoulli. Basel, 12. Februar 1718</ref>, p. 4 (<ref target="https://www.e-manuscripta.ch/bau/content/zoom/1063002">Digitalisat</ref>).</cell>
+              <cell>Auflösung einer Abkürzung</cell>
+            </row>
+
+          </table>
+          <div type="additionalExample">
+            <head>Weiteres diakritisches Beispiel</head>
+            <p>Trema, beispielsweise in <mentioned>Poëtis</mentioned>.</p>
+            <figure type="manuscriptExample"><graphic url="images/sonderzeichen/image-2026-7-14_17-47-49.png"/><figDesc>Handschriftenbeispiel für ein Trema.</figDesc></figure>
+          </div>
+        </div>
+        <div type="renderingNotes">
+          <head>Hinweise zur Darstellung</head>
+          <p>Die Darstellung einzelner Zeichen hängt von der verwendeten Schrift und vom Schriftschnitt ab. Zeichen aus der Private Use Area benötigen eine passende Version von Junicode und können in fetten Schriftschnitten fehlen.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

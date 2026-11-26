@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516722705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 11. August 1758</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516722705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516722705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131646">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.204-205</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516722705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433557105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058760</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1758-08-11">ce 11ieme Aout 1758</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1758-08-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516722805501" type="prev"/>
+          <ptr target="B_991170516722605501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913958">Béguelin</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Müller, Mlle</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587026/manifest"/>
+</facsimile>
+<text>
+<body>
+    <div type="letter">
+<pb facs="3587027" n="204r"/>
+  <p>Monsieur, </p>
+  <p> Je cençois que Monsieur <rs key="pers_DE-588-13763868X" type="person">Huber</rs> doit être irrésolu sur le parti qu’il veut prendre; vû les circonstances où nous nous trouvons: apparemment il veut attendre la paix: cela est fort bien; mais il devroit en faire part à Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>. Je ne doute point qu’on ne le revît icy avec plaisir. </p>
+  <p> Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> doit se trouver actuellement en <rs type="place" key="place_VER-schweiz">Suisse</rs>; il y a 4 mois que je n’ai point de ses neuvelles. Je voud rois bien que l’en pût me marquer le lieu de son séjour. Il y a toute apparence qu’il prendra son chemin par <rs key="place_GEO-2661604" type="place">Basle</rs>. </p>
+  <p> Mr. <rs type="person">Harder</rs> se porte très bien; mais il ne peut obtenir la permission d’aller à <rs key="place_GEO-2661604" type="place">Basle</rs>; et c’est ce qui le désole. Il est fort sensible à votre souvenir, et vous fait bien des compli mens. Pour ce qui est de son <rs type="person">fils</rs>, il n’en parle pas. </p>
+  <p> Je n’ai rien perdu, Monsieur, sur le volume de l’<rs type="organisation">Académie</rs> que vous m’avés renvoyé: je l’ai troqué contre un volume qui me manquoit. Ainsi je vous prie de ne me peint ménager par raport à ces sortes de commissions; je m’en acquitterai toujours avec le plus grand plaisir; et je serois bien fâché que vous pûssiés soupçonner <pb facs="3587028" n="204v"/> que rien de ce qui vous regarde pût m’être à charge </p>
+  <p> Je croyois Monsieur votre <rs type="person">fils</rs> âgé de quelques an nées de plus; mais après tout l’âge ne fait pas une difficulté si le mérite ne manque pas; et il n’a jamais manqué dans votre famille. </p>
+  <p> Fortes nascuntur fertibus et bonis. </p>
+  <p>Il est vrai que nous n’avons pas dans notre <rs type="organisation">Académie</rs> ce que l’on apelle Eleves; il ne seroit pour être pas mal que nous en oussions. </p>
+  <p> J’ai lû avec un plaisir infini le <rs type="biblio">Discours</rs> de Monsieur votre <rs type="person">fils</rs>: et je m’en ferai un de le présenter à l’<rs type="organisation">Académie</rs>; Si Mr. votre <rs type="person">fils</rs> jugeoit à propos de le dépeuiller de ce qu’il a de rélatif à la promotion et à la circonstance dans laquelle il a été prononcé, cela vaudroit peut être encore mieux: en peurroit alors le présenter dans toutes les formes et le faire concourir: peut-être aussi cela lui donneroit il occa sion d’étendre les idées qu’il renferme: elles le meritent bien; et je ne vous pas que la question puisse être mieux traitée. Je suis fâché que l’en ait donné au programme un tour si singulier et que l’on ait exigé des détails impos sibles. Ce qui est touché vers la fin du <rs type="biblio">Discours</rs> concer nant les fausses interprétation des dogmes des anciens Phi losophes me paroit fort curieux, et pourroit donner lieu à des développemene intéressans. Si Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>, comme je n’en doute presque plus, passe par <rs key="place_GEO-2661604" type="place">Basle</rs>, je vous conseiller ois, Monsieur, de lui communiquer cette piece: je suis sûr qu’elle sera fort de son geût. </p>
+  <p> Cette lettre vous parviendra par Mademoiselle <rs type="person">Muller</rs>, qui a pris subitement la résolution de partir pour <rs key="place_GEO-2661604" type="place">Basle</rs>. Je ne sais <pb facs="3587029" n="205r"/> si c’est la peur des Cosaques qui la chasse: l’armée Russe est à peu de distance de <rs type="place" key="place_GEO-2925533">Franfort sur l’Oder</rs>; nous prévoyons une bataille prochaine. </p>
+  <p> La famille Beguelin vous fait bien des complimens. J’ai l’honneur d’être avec un parfait dévouement, Monsieur Votre très humble et très obéissant Serviteur <rs key="pers_DE-588-116892021" type="person">Merian</rs> <rs key="place_GEO-2950159" type="place">Berlin</rs> ce 11ieme Aout 1758 <pb facs="3587030" n="205v"/> [Adresse wie üblich]</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516928905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Andreas Ortmann an Johann II Bernoulli. Paris, 10. April 1748</title>
+          <title type="alt">1748.04.10: Ortmann, Andreas (1724-1799) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058809</title>
+          <title type="alt">1748-04-10_Ortmann_Andreas-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516928905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516928905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Ortmann, Andreas (1725-1799)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Kopie von Bl.204-214, siehe Signatur L Ia 768:Bl.358-366</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128350">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 713:Bl.204-207</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516928905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433551105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058809</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1748-04-10">ce 10me Avril. 1748.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1035424398">Ortmann, Andreas</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1748-04-10"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516929005501" type="prev"/>
+          <ptr target="B_991170516928805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Ortmann_Andreas-JohIIB" corresp="pers_DE-588-1035424398" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-11850178X">Alembert, Jean Le Rond d'</persName>
+            <note type="lebensdaten">(1717-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1371546347">Burnaby, John</persName>
+            <note type="lebensdaten">(1701-1774)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118681028">Du Châtelet, Gabrielle Émilie Le Tonnelier de Breteuil</persName>
+            <note type="lebensdaten">(1705-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1398078522">Marschall, Karl von</persName>
+            <note type="lebensdaten">(1723-1796)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118577786">Maria</persName>
+            <note type="lebensdaten">(1703-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11859561X">Pompadour, Jeanne Antoinette Poisson</persName>
+            <note type="lebensdaten">(1721-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116668660">Roy, Pierre Charles</persName>
+            <note type="lebensdaten">(1683-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118627813">Voltaire</persName>
+            <note type="lebensdaten">(1694-1778)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3514547/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3514548" n="204r"/>
+  <p> Monsieur! </p>
+  <p>La joie que Votre derniere vent de me causer, est proportionée au desir que j’ay tousjours eu detre placé aupres de quelque Ministre, et de sortir par cette porte de la miserable Galére des Gens sans vocation, quoique ma situation m’auroit peut etre permis d’y vivre avec moins de honte que tant d’autres, mon humeur et mes sentiments ont tousjours eté in compatibles avec cette Vie indolente. Jugez si je saisis avec empressement l’occasion qui se presente chez Monsieur de <rs type="person" key="pers_DE-588-1371546347">Burnabi</rs>. Vous me marquez que c’est Monsieur de Marechal qui est chargé de cette commission. Si je n’avois craint de l’importuner j’aurois pris la Liberté de Lui ecrire en droiture pour le prier de vouloir bien par sa recommandation faire agrëer mes Services a ce Ministre. Je ne crains point de me reposer de ce soir sur Votre Amitié, elle est assez vive, et j’en ay assez de preuves pour me flatter que Vous Vous en chargerez sans peine. Assurez donc je Vous prie Mr. de Marechal de mes respects, et faites Lui cette priere en mon nom. La maniere obligeante dont il s’est deja emploié pour moi dans une Occasion a peu pres semblable, ne me permet point <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514549" n="204v"/> de douter qu’il ne veuille favoriser mes vües, qu’il sait etre entierement desinterressees; Il ne manquera pas sans doute de considerer, qu’on peut naturellement faire quelque fond sur un home qui cherche a se placer uniquement pour se faire connoitre dans le monde, et pour y acquerir un certain merite. Quoi que mes Lumieres soient bornées et que je ne me flatte point de posseder touttes les Qualites que Mr. de <rs type="person" key="pers_DE-588-1371546347">Burnaby</rs> demande, jose cepandant me promettre tout de mon zele et de l’ardeur avec laquelle je travailleray a meriter sa bienveuillance, et a faire honneur a la recommandation de Mr. de Marechal. Une fluxion a une joue m’aiant empeché de sortir pendant quelques jours, je ne sais point si Mdme= du Chattellet est de retour; Elle Vous a sans doute envoié les vers de Mr. de Voltaire, sur l’ennui a la Cour, et sur les Amours du Roi; Les premiers sont adresses a Mdme= la Dauphine et les Seconds a Mde= de Pompadour. Il s’y exprime un peu librement; Cela a donné occasion a une foule de rimeurs de se dechainer de la maniere <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514554" n="207r"/> la plus vive contre Mr. de Voltaire. Si la bonté des pieces dependoit de leur impertinence, le Poëte Roi remporteroit le prix sur tous les confreres. Il finit une piece qu’il a faite contre Voltaire, par dire; qu’en suivant la justice, il merite la Bastille, et en ne consultant que la charité, on doit lui assigner une place dans les petites maisons. Celui qui a le mieux critiqué Mr. de Voltaire, c’est le spirituel autheur de la Requette du Cure de Fonte nois au Roi, voici come il repond aux vers de Mr. de Voltaire a Mdme= de Pompadour: Quel est le mortel temeraire Qui dans ses vers audacieux Ose relever a nos yeux Ce qui devroit etre un Mistere Les Amours des Rois et des Dieux Ne sont point faits pour le vulgaire Et lorsque dans leur Sanctuaire On porte un regard curieux Respecter leur goût et se taire Est ce qu’on peut faire de mieux. </p>
+  <p>Vous avez sans doute une petite brochure de Mr. d’Alembert de la vie et des ouvrages de feu Mr. Votre Pere. On dit que Mr. Cramer va quiter le prince de Gotha pour retourner a Geneve. Je suis come tousjours avec une Consideration distinguée Monsieur! Votre tres humble et tres Paris ce 10me= Avril 1748 obeissant Serviteur Ortmann P. S. Mdme= Bernoulli trouvera ici mes assurances de respect. <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514555" n="207v" type="empty"/> [Dem Briefe liegt ein Beiblatt bei; siehe folgende Seite.] Beilage zum Briefe Ortmanns an Johann II Bernoulli vom 10. April 1748. </p>
+  <p><pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514550" n="205r"/> Comme Vous me dites Monsieur! que Mr. de <rs type="person" key="pers_DE-588-1398078522">Marechal</rs> est chargé de cette Commission et que mon Pere me marque que c’est Vous a qui on s’est adressé, je ne sais pas positivement pour com bien Mr. de <rs type="person" key="pers_DE-588-1398078522">Marechal</rs> peut entrer dans cette affaire. Autant que j’ay cepandant pu comprendre par la Combinaison de Votre Billet et de la Lettre de mon Pere, c’est Mr. de <rs type="person" key="pers_DE-588-1398078522">Marechal</rs> qui a eté chargé de la part de Mr. de <rs type="person" key="pers_DE-588-1371546347">Burnabi</rs> de lui chercher un Secretaire, et aparement que Mr. de <rs type="person" key="pers_DE-588-1398078522">Marh.</rs> s’est adressé a Vous pour s’en informer. C’est dans cette Idée que j’ecris a Mr. de <rs type="person" key="pers_DE-588-1398078522">Marechal</rs> la lettre que Vous trouverez ci jointe sous cachet volant. Soupposé que Vous jugiez a propos de la lui faire parvenir, je Vous prie de la renvoier a mon Pere, <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514551" n="205v"/> qui la fera tenir a Mr. de <rs type="person" key="pers_DE-588-1398078522">Marechal</rs>, Si non, Vous pourriez la garder et faire usage de celle que j’ay pris la liberté de Vous adresser.</p>
+  <p> Il me sem[b]le come a Vous Monsieur! que cette place me convient fort a tous egards. Si j’avois pu balancer un mo ment de l’accepter, ce que Vous m’en dites suffiroit pour m’y determiner; Quoique ce poste n’ait rien de fort brillant, il reunit cepandant plusieurs avantages que j’aurois eu de la peine a trouver ailleurs. </p>
+  <p> Enfin que Vous diraije Monsieur! la joie que j’en ay, ne peut etre moderée que par la crainte de voir cette affaire encore echoueée come tant d’autres. Jugez quelle sera ma <pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514552" n="206r"/> satisfaction quand je seray tout a fait certain qu’elle a reussie. tout ce que je crains (modestie apart) c’est de pouvoir pas satisfaire aux conditions que Mr. <rs type="person" key="pers_DE-588-1371546347">de Burnabi</rs> demande. Il veut un bon Secretaire qui soit au fait du metier. Et Dieu sait si je le suis. Mais il faudra paier d’effronterie. </p>
+  <p> Je ne Vous fais ni excuses ni remerciments, c’est un Labrinthe ou je me perdrois, puisque je ne saurois jamais Vous exprimer que la moindre partie de ma vive reconnoissance. Ortmann. </p>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3514547/canvas/3514553" n="206v" type="empty"/>
+</div>
+</body>
+</text></TEI>

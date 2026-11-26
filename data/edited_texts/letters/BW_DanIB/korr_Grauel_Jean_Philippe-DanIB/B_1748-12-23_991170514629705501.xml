@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514629705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Philipp Grauel an Daniel I Bernoulli. Straßburg, 23. Dezember 1748</title>
+          <title type="alt">1748.12.23: Grauel, Jean Philippe () an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055078</title>
+          <title type="alt">1748-12-23_Grauel_Jean_Philippe-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514629705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514629705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Grauel, Jean Philippe (1711–1761)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-121874">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Archiv Bernoulli II, Daniel (1700-1782), Nr.3</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514629705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432959605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055078</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 Bl. (6,5 S. beschrieben)<dimensions unit="cm"><height>22,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Strassburg</origPlace>
+              <date when="1748-12-23">den 23. Xbris 1748</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-13847916X">Grauel, Jean Philippe</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4057878-1">Straßburg</placeName>
+          <date when="1748-12-23"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430262005501" type="prev"/>
+          <ptr target="B_991170514764805501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Grauel_Jean_Philippe-DanIB" corresp="pers_DE-588-13847916X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+        <p>Dan. B. hat sich bei Grauel (Instrumentenbauer in Strassburg 1711- 1761) für einen ihm übersandten handschriftlichen Katalog physikalischer Instrumente bedankt. Grauel informiert nun über weitere Details seiner Instrumente. Er wird das Kompliment an Schöpflin ausrichten</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120811723">Hausen, Christian August</persName>
+            <note type="lebensdaten">(1693-1743)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Hummel</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104158255">Müller, Johann Heinrich</persName>
+            <note type="lebensdaten">(1671-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119027275">Nollet, Jean Antoine</persName>
+            <note type="lebensdaten">(1700-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117222267">Scherz, Johann Georg</persName>
+            <note type="lebensdaten">(1678-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118610260">Schöpflin, Johann Daniel</persName>
+            <note type="lebensdaten">(1694-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100277608">Sturm, Johann Christoph</persName>
+            <note type="lebensdaten">(1635-1703)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100865208">Volckamer, Johann Georg</persName>
+            <note type="lebensdaten">(1616-1693)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Wolf, Johann Christian</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-26" who="SG CG">Kollationieren begonnen</change>
+        <change when="2026-03-28" who="NG">Tagging</change>
+        <change when="2026-01-30" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-01-30" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-01-30" who="RG">NER Erkennung</change>
+        <change when="2024-02-26" who="RG">Personen und Orte rs ergänzt, sowie kleinere Verbesserungen</change>
+        <change when="2024-02-26" who="RG">Digitaliste, und lb eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3368038/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3368039" n="1"/>
+  <opener>
+        <salute rend="center">
+      <lb/>Hoch Edel Gebohrener Herr
+      <lb/>Insonders Hoch zu Ehrender Herr Professor!
+        </salute>
+  </opener>
+  <p rend="hanging">
+      <lb/>Ewer Hoch Edel Gebohren haben nicht nöthig mir wegen der co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unicirung
+      <lb/>des <rs type="biblio">Catalogi</rs> einigen danck abzustatten, da ich es vor eine schuldigkeit
+      <lb/>erachte, einem herren vor den ich längstens die gröste Hochachtung in
+      <lb/>meinem gemüth gehäget, auch solche in der that, obschon nur durch eine
+      <lb/>kleine probe, bezeugen zu kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en. <choice><orig>zudem</orig><reg>Zudem</reg></choice> ist die experimental Physique
+      <lb/>da es viel auff handgriffe und guthe instrumenten anko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>t, ein
+      <lb/>solches studium, da man fast nothwendig mit anderen <rs type="person">Liebhaberen</rs>
+      <lb/>bekant se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n muß, nur hätte wünschen mögen <abbr>Ew. H. E. G.</abbr> etwas
+      <lb/>vollko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>eneres vor augen legen zu kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, da aber meine instrumen<pc type="hyphenation">-</pc><lb break="no"/>ten alle aus meinem beutel bezahlen muß, so muß ich manches
+      <lb/>mahl wan ich darin ein ärgeres vacuum als in der antlia er<pc type="hyphenation">-</pc><lb break="no"/>blicke, meine begierden mäßigen lernen <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> allein ich schreite
+      <lb/>zur beantwortung dero mir vorgelegten fragen.
+  </p>
+<pb facs="3368040" n="2"/>
+  <p rend="hanging">
+      <lb/>Meine Recipienten habe (was ich nicht von meinem <rs type="person">antecessore</rs> beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en)
+      <lb/>auff unseren benachbahrten glaßhütten machen laßen, die beste
+      <lb/>welche den Englischen an feine und weise des glaßes wenig nachge<pc type="hyphenation">-</pc><lb break="no"/>ben<supplied>,</supplied> hat mir ein <rs type="person">Pater</rs> auß dem <rs type="place"><choice><orig>gengenbacher</orig><reg>Gengenbacher</reg></choice> Kloster</rs>, der ein guth<unclear reason="illegible">er</unclear>
+      <lb/>Physicus war, von der gedachtem Kloster zuständigen glaßhütte
+      <lb/>verfertigen laßen. Da aber dieser nun sein Kloster verändert,
+      <lb/>so weiss ich nun nicht an wen mich künfftig addressiren werde
+      <lb/>wan mein Vorrath abnimt.
+  </p>
+  <p rend="hanging">
+      <lb/>Die Glaß Kuglen zu den electrischen Experimenten sind schwähr
+      <lb/>also zu beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, daß die <foreign>axis rotationis</foreign> allerorten gleich
+      <lb/>weit von der superficie ist, von den glaßhütten im <rs key="place_VER-elsass" type="place">Elsaß</rs>
+      <lb/>habe keine <add>dergleichen</add> beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en (zumahlen auch alles unser
+      <lb/>weißes glaß hierzu nicht taugt), ich habe deßwegen nach
+      <lb/><rs key="place_GEO-2879139" type="place">Leipzig</rs> als dem Vatterland der Electricit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>t geschrieben und
+      <lb/>von <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-120811723" type="person">Haußen <abbr>Sen.</abbr></rs> zwe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> Kuglen mit zapfen zu beeden
+      <lb/>seiten versehen erhalten, sie waren aber auch ohngleich, und
+      <lb/>ohnbrauchbar deßwegen mich bißhero nur der cylinder bedient.
+      <lb/>Da mir in sonderheit das bein weiße glaß, welches wie Porcelan
+      <lb/>ausiehet guthe dienste gethan, und beßer als alles übrige
+      <lb/>vorgeko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. Indeßen habe eine machine mit einer sehr grosen
+<pb facs="3368041" n="3"/>
+      <lb/>Kugel gesehen, welche, wie es <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119027275" type="person">Nollet</rs> beschreibet, nur von einem
+      <lb/>ordin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ren destillir Kolben gemacht war, davon man den halß
+      <lb/>abgesprengt<choice><orig>.</orig><reg>;</reg></choice> ich will es nechstens auch probiren, dan da kan man
+      <lb/>es beßer mit der <foreign>axi rotationis</foreign> treffen.
+  </p>
+  <p rend="hanging">
+      <lb/>Das instrument <figure/> ist weiter nichts als 2 also zusamen gefügte hohle
+      <lb/>blechene cylindrische can<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>le da<del><gap/></del> an <formula>c</formula> eine schraube die sich auff die
+      <lb/>schraube des dellers der lufftpumpe schicket<supplied>,</supplied> in <formula>a</formula> und <formula>b</formula> passen 2 höltz<unclear reason="illegible">er</unclear><pc type="hyphenation">-</pc><lb break="no"/>ne zapfen, die vornen einen hacken von drat haben, daran man einen
+      <lb/>faden bindet. Wan man auß diesem die lufft pumpet so stößet die
+      <lb/>äusse<del><gap/></del><add>re</add> lufft bede zapfen gegen <formula>e</formula>. Es ist des <rs type="person">Sturmi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> meinung von
+      <lb/>der ursach der electricit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>t zu erklähren, der geglaubet daß durch das
+      <lb/>reiben die wärme des gerieben cörpers die lufft zwischen ihm und
+      <lb/>dem goldblättgen rarefacire, und daß alsdan die äusere lufft das
+      <lb/>goldblättgen antreiben müße <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+  </p>
+  <p>
+      <lb/>Wegen des <foreign>oculi artificialis</foreign> bitte mir noch einen befehl aus, welches
+      <lb/>es se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n soll. Ich habe eines von blech daß die <foreign>ph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>nomena visus <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice>
+      <lb/>cameram obscuram</foreign> wie auch die <foreign>vitia myopias</foreign> und <foreign>presbeias</foreign> vorstellt<supplied>.</supplied>
+      <lb/>Ein anderes von bein und glaß, das die <foreign>structuram oculi anatomi<pc type="hyphenation">-</pc><lb break="no"/>cam</foreign> erleutert, zu <rs key="place_GEO-2861650" type="place">Nürnberg</rs> verfertigt worden, welches <rs type="person">Volck<pc type="hyphenation">-</pc><lb break="no"/>hamer</rs> in einem aparten <rs type="biblio">tractat</rs> beschrieben, und auch in den
+      <lb/><rs type="biblio">Ephemeridibus Natur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> curiosor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> <abbr>Dec.</abbr> III<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied> <abbr>a.</abbr> 7 et 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied> <abbr>Obs.</abbr> 220<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied> <abbr>p.</abbr> 398</rs>
+      <lb/>abgezeichnet, und dan habe noch einige pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>parirte menschen augen,
+      <lb/>fraget sich welches <abbr>E. H<supplied>.</supplied> EG.</abbr> begehren.
+  </p>
+<pb facs="3368042" n="4"/>
+  <p>
+      <lb/>Die <foreign>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>parata organi auditus</foreign> habe einem guthen <rs type="person">Freund</rs> von
+      <lb/><rs key="place_GEO-2879139" type="place">Leipzig</rs> verehrt, und vor mich mehr nicht behalten als ein
+      <lb/><foreign xml:lang="fre">tete coupé</foreign> von <abbr>H<supplied>.</supplied></abbr> <rs type="person">Hu<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>el</rs> <abbr>Seel.</abbr> weil in solchem, soviel als ich
+      <lb/>zu meinen <foreign>demonstrationib<choice><orig><g ref="#us">[us]</g></orig><reg>us</reg></choice></foreign> nöthig habe, genugsam vorhanden,
+      <lb/>ist ihnen dieses anständig, so will es Ihnen auff einige Wochen
+      <lb/>sendten.
+  </p>
+  <p>
+      <lb/>Wegen des <foreign>Telscopii</foreign> habe wegen der abwesenheit meines glaß
+      <lb/>schleiffers, mich noch nicht informiren kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, will es also künfftig
+      <lb/>hin berichten.
+  </p>
+  <p>
+      <lb/>Das <foreign>Vas hydromanticum</foreign> ist nichts anders als eine art der camer<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>Obscur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> deren <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118634771" type="person">Wolf</rs> in seinen <rs type="biblio">Elem. Dioptric<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> §. 470 ge<pc type="hyphenation">-</pc><lb break="no"/>dencket, darin die bilder der objector<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> im waßer zu schwi<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+      <lb/>scheinen. Doch ist das meinige nicht allerdings nach meiner
+      <lb/>idé außgefallen, ich habe es aber, weil es ohne dem nur gespiehlt
+      <lb/>bißhero nicht mögen verbeßeren laßen.
+  </p>
+  <p>
+      <lb/>Bey meldung des schwartzen brettleins aub <abbr>n.<hi rend="sup">o</hi></abbr> 100 Exp a Opticorum ist ein schreib<pc type="hyphenation"></pc><lb break="no"/>fehler vorgegangen den jetzo erst bemercke und soll heysen <hi rend="u">pro Expe<pc type="hyphenation">-</pc><lb break="no"/>rimentis de inflexione luminis</hi> statt infractione. Es hat solches der <abbr>Seel.
+      <lb/>Prof.</abbr> <rs key="pers_DE-588-117222267" type="person">Scherz</rs> verfertigen lassen, ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et viel überein mit demjenigen
+      <lb/>so <rs key="pers_DE-588-118939297" type="person">s’Gravesand</rs> in der neuen edition seiner <rs type="biblio">Physique Tab.</rs> 86 fig. 3
+      <lb/>abmahlet. es ist ein klein brett beygemahlter form, das in der mitten
+      <lb/>ein 4eckend loch a b hat vor welches zwey stuck schährmesser die
+      <lb/>in einer faltze lauffen also kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en geschoben werden, dass wan ihre
+      <lb/>schneiden <abbr>od.</abbr> schärffe zusamen ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, sie nur einen engen spalth <abbr>c</abbr> auss<pc type="hyphenation">-</pc><lb break="no"/>machen, durch welchen man den licht strahl fallen lässet <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.
+  </p>
+<pb facs="3368043" n="5"/>
+  <p>
+      <lb/>Der optische Maass Staab <abbr>ibid. no.</abbr> 105 ist derjenige dessen <rs key="pers_DE-588-104158255" type="person">Müller</rs> in
+      <lb/>seinem <rs type="biblio">collegio Exper.</rs> Tab. 6, 7, 8, 9. öffters gedencket es ist ein <add>4eckender stab</add> von
+      <lb/>4 schuh lang an der einen extremit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>t
+      <lb/>mit einem perpendicular auffgerichteten plano excipiente <abbr>od.</abbr> brett versehen
+      <lb/>und in seine schuh zoll und linien eingetheilt um die focos <abbr>d.</abbr> lentium
+      <lb/>opticorum zu exploriren auch zu anderen experimentis wo ich die distanz
+      <lb/>des objecti der lentis und des excipientis <del>zu </del>accurat zu wissen nöthig
+      <lb/>habe.
+  </p>
+  <p>
+      <lb/>Die prismata betreffend so kan man hier keine andere haben als von
+      <lb/>böhmisch glass welche die glasser die mit bömischer Wahre handlen
+      <lb/>hier in die mess zu bringen pflegen. man bekomt sie unter weilen
+      <lb/>noch so zimlich rein ihre länge sind ohngefehr 7 zoll und die breite 16
+      <lb/><add>Linien </add><del>Zoll </del><add>Pariser Maass</add>, ich habe vor die meinige 3 vor das paar bezahlt Französisch
+      <lb/>geld. Ich habe nach <rs key="place_GEO-2925177" type="place">Freyburg</rs> in die Crystall fabrique geschrieben
+      <lb/>um crystallene zu haben. Man hat mir aber vor das paar
+      <lb/>10 reichsthaler gefordert, ich habe offerirt, ich wollte es geben,
+      <lb/>wan sie solche auff condition sendten wollten, wo sie mir an<pc type="hyphenation">-</pc><lb break="no"/>ständig wären, dan ich mag um dieses geld keine Katz im sack
+      <lb/>kauffen. man hat mir aber geantwortet, sie verfertigten keine
+      <lb/>andern als die express bestellet würden.
+  </p>
+  <p>
+      <lb/>Was <abbr>Ew. H. E. G.</abbr> von dero antlia melden ist ein curiöses ph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>nomenon.
+      <lb/>die antlia deren ich mich <abbr>ord.</abbr> bediene hat keinen indicem (wie dan
+      <lb/>die senguerdische keinen haben) ist auch nicht capabel ein völliges und
+      <lb/>daurhafftes vacuum zu machen. Ich habe aber eine neue hier
+      <lb/>unter der hand daran ich einen indicem machen lasse, und daran
+<pb facs="3368044" n="6"/>
+      <lb/>ich das so sie <del><gap/></del>proponiren probiren will. Dass von dem durch
+      <lb/>das Wasser angefeuchtete leder eine aura elastica kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e auff<pc type="hyphenation">-</pc><lb break="no"/>steigen, zweiffle um so viel weniger, weil schon öffters einen dampff
+      <lb/>unter der glocke wahrgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, der sich in dem Recipienten bey
+      <lb/>warmem wetter und wan das leder sehr nass war, sehen lassen,
+      <lb/>ob aber diese aura elastica nicht gleich der lufft durch anhalten<pc type="hyphenation">-</pc><lb break="no"/>des pumpen könne aussgezogen od. in so weit verringert werden,
+      <lb/>dass ihr<del>e</del> effect nicht mehr sensible, daran zweyffle in etwas.
+      <lb/>Das bestreichen des Recipienten mit Wachss wird in praxi einigen
+      <lb/>Schwiehrigkeiten unter worffen seyn, und wan die aura elastica
+      <lb/>daran schuld ist, so vermuthe dass der effect, wan das leder mit
+      <lb/>benetzt, sensibler wird. Das öhl dörffte wohl in diesem
+      <lb/>fall noch besser reussiren. doch könten die recipienten dardurch
+      <lb/>beschmutzt werden. Doch traue mir nichts hier zu definiren,
+      <lb/>da ich öffters erfahren dass die ratiocinia physica a priore
+      <lb/>in der praxi falsch und anders befunden. Doch ich schliesse
+      <lb/>damit ich dero gedult nicht missbrauche, und versichere nur
+      <lb/>noch dass ich bereit seye auch dero übrige fragen zu beantworten
+      <lb/>deren sie en general meldung thun, um zu erweissen
+      <lb/>mit wie vieler Hochachtung ich verharre
+  </p>
+  <closer>
+        <salute>
+      <lb/>HochEdel Gebohrener
+      <lb/>Insonders HochzuEhrender Herr Professor
+      <lb/>dero gehorsamster Diener
+        </salute>
+        <signed>
+      <lb/><rs key="pers_DE-588-13847916X" type="person">Grauel</rs>
+        </signed>
+        <dateline><rs key="place_GEO-2973783" type="place">Strassburg</rs> <abbr>d.</abbr> <date when="1748-12-23">23 Xbris
+      <lb/>1748</date>
+        </dateline>
+  </closer>
+<pb facs="3368045" n="7"/>
+  <postscript>
+    <p>
+        <lb/><abbr>P. S.</abbr> Der Copist des Catalogi war einer meiner auditorum
+        <lb/>deme nichts bezahlt, nur soll es mir lieb seyn wan er
+        <lb/>keine schreibfehler gemacht, dan ich nicht Zeit gehabt
+        <lb/>ihn zu übersehen. Das <abbr>Compl.</abbr> an <abbr>H.</abbr> <rs key="pers_DE-588-118610260" type="person">Schöpflin</rs> werde,
+        <lb/>sobald ich ihn sehe, aussrichten.
+    </p>
+  </postscript>
+<pb facs="3368046" n="8" type="empty"/>
+</div>
+</body>
+</text></TEI>

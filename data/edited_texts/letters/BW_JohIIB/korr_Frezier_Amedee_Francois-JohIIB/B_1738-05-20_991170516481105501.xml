@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516481105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Amédée François Frézier an Johann II Bernoulli. Landau in der Pfalz, 20. Mai 1738</title>
+          <title type="alt">1738.05.20: Frézier, Amédée François (1682-1773) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058362</title>
+          <title type="alt">1738-05-20_Frezier_Amedee_Francois-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516481105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516481105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Frézier, Amédée François (1682-1773)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit rotem Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128993">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 692:Bl.167-169</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516481105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433707605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058362</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>1 Beilage</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Landau</origPlace>
+              <date when="1738-05-20">20. Mai 1738</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117537373">Frézier, Amédée François</persName>
+          <placeName key="place_GEO-2881646" ref="https://d-nb.info/gnd/4034222-0">Landau in der Pfalz</placeName>
+          <date when="1738-05-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516481205501" type="prev"/>
+          <ptr target="B_991170516481005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Frezier_Amedee_Francois-JohIIB" corresp="pers_DE-588-117537373" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913311">Bernoulli, Jacob</persName>
+            <note type="lebensdaten">(1712-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118201913">Belidor, Bernard Forest de</persName>
+            <note type="lebensdaten">(1697-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1328287793">Danysi, Augustin Auguste Hyacinthe</persName>
+            <note type="lebensdaten">(1698-1777)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1037505107">Dulssecker, Johann Reinhold</persName>
+            <note type="lebensdaten">(1667-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119035146">Karl Wilhelm</persName>
+            <note type="lebensdaten">(1679-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117573752">La Hire, Philippe de</persName>
+            <note type="lebensdaten">(1640-1718)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-05" who="SG">Am Manuskript für die Kollation vorbereitet: Zeilenfall, Textstruktur und Pretagging.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3531631/manifest"/>
+</facsimile><text>
+<body>
+  <div type="letter">
+    <pb facs="3531632" n="167r"/>
+    <opener>
+      <dateline rend="right-block">
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Landau</rs> le <date when="1738-05-20">20 May 1738</date></dateline>
+      <salute>
+        <lb/>Monsieur</salute>
+    </opener>
+    <p>
+      <lb/>Vous avez eu la bonté il y a un an de m’envoyer
+      <lb/>une solution de <abbr>M<supplied>.</supplied></abbr> <rs type="person">Votre Pere</rs> pour trouver l’epaisseur
+      <lb/>qu’il faut donner aux piedroits pour resister <choice><orig>a</orig><reg>à</reg></choice> la
+      <lb/>poussée d’une voute dont l’epaisseur et la charge sont
+      <lb/>donnez que j’ay parfaitement compris, mais voulant
+      <lb/>en donner une aplication <choice><orig>a</orig><reg>à</reg></choice> la pratique pour la faire
+      <lb/>imprimer sous le nom de <abbr>M<supplied>.</supplied></abbr> <rs type="person">votre pere</rs> <choice><orig>a</orig><reg>à</reg></choice> la fin de mon
+      <lb/><rs type="biblio">3<hi rend="sup">e</hi> tome</rs> qui est au tiers imprimé je me suis aperçu
+      <lb/>que vous y suposiez le point d’apuy <formula>F</formula> du levier
+      <lb/>coudé <formula>OFu</formula> donné, ce qui est en question car le point
+      <lb/><formula>O</formula> par <choice><orig>ou</orig><reg>où</reg></choice> vous tirez <choice><orig>a</orig><reg>à</reg></choice> la ligne <formula>LO</formula> la normale <formula>OF</formula> <add>n’est pas determiné</add>; on
+
+      <lb/>peut prendre sur cette ligne un autre point <formula>K</formula> pour
+      <lb/>tirer la normale <formula>KM</formula> et le levier coudé deviendra <formula>KMS</formula>
+      <lb/>au lieu de <formula>OFu</formula> et la base du piedroit sera <formula>MG</formula> au lieu
+      <lb/>de <formula>FG</formula>. <choice><orig>cependant</orig><reg>Cependant</reg></choice> il faut qu’il y ait un des bras du
+      <lb/>levier coudé connu <formula>OF</formula> ou <formula>Fu</formula>
+      <figure/>
+      <lb/>parceque nommant le poid de la voute
+      <lb/><formula>ADEC=P</formula>. <choice><orig>le</orig><reg>Le</reg></choice> sinus de l’angle <formula>ANC</formula>
+      <lb break="no"/><formula>=m</formula> que font les joins extremes <formula>AD</formula>, <formula>CE</formula>
+      <lb/>prolongez. <choice><orig>le</orig><reg>Le</reg></choice> sinus de l’angle <formula>ANp=S</formula>
+      <lb/>et le sinus de l’angle <formula>CNq=r</formula> il faut que
+      <lb/><choice><orig><formula>\frac{rP}{m}\times FO</formula></orig><reg><formula>\frac{rP}{m}\cdot FO</formula></reg></choice> soit <formula>=</formula> au poid du piedroit
+      <lb/>qu<supplied>’</supplied>on apelle <choice><orig><formula>\pi\times Fu</formula></orig><reg><formula>\pi\cdot Fu</formula></reg></choice>. <choice><orig>or</orig><reg>Or</reg></choice> <formula>FO</formula> et <formula>Fu</formula> sont inconnus donc on ne peut
+
+      <pb facs="3531633" n="167v"/>
+      <lb/>se servir de cette solution pour descendre <choice><orig>a</orig><reg>à</reg></choice> la
+      <lb/>pratique sans trouver la position du point d’apuy
+      <lb/><formula>F</formula>, que je vous prie de vouloir bien me determiner
+      <lb/>afin que je puisse venir <choice><orig>a</orig><reg>à</reg></choice> une construction lineaire
+      <lb/>(s’il est possible) <choice><orig>ou</orig><reg>où</reg></choice> il ne soit necessaire d’employer
+      <lb/>que la regle et le compas car vous <choice><orig>scavez</orig><reg>sçavez</reg></choice> que
+      <lb/>mon ouvrage est fait pour les artistes et non
+      <lb/>pour les sçavans.
+    </p>
+    <p>
+      <lb/>Vous avez sans doute apris la mort du <rs type="person">Margrave</rs>
+      <lb/>votre amis. <choice><orig>personne</orig><reg>Personne</reg></choice> n’a <choice><orig>êté</orig><reg>été</reg></choice> plus surpris que moy.
+      <lb/><choice><orig>le</orig><reg>Le</reg></choice> <date when="1738-05-12">12 de ce mois</date> je venois de <rs type="place">Brucsal</rs> <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Carlsroue</rs>
+      <lb/>pour luy faire ma cour et en arrivant à 9 heures
+      <lb/>du matin, on me dit qu’il venoit de mourir il n’y
+      <lb/>avoit qu’environ 5 heures.
+    </p>
+    <p>
+      <lb/><abbr>M<supplied>.</supplied></abbr> Votre <rs type="person">beau<choice><orig> </orig><reg>-</reg></choice>frere</rs> de <rs type="place">Mulhausen</rs> m’avoit
+      <lb/>écrit au mois de <date when="1737-11">novembre dernier</date> pour tacher
+      <lb/>de le faire payer d’un marchand de cette ville
+      <lb/>qui a fait banqueroute et qui s’est accomodé avec
+      <lb/>ses creanciers de payer une partie de ce qu’il leur
+      <lb/>doit en six termes <choice><orig>a</orig><reg>à</reg></choice> chaque foire de <rs type="place">Francfort</rs>.
+      <lb/><choice><orig>j’ay</orig><reg>J’ay</reg></choice> dit <choice><orig>a</orig><reg>à</reg></choice> cet homme de payer son terme échu <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>la derniere foire de <choice><orig>paques</orig><reg>Paques</reg></choice>, il m’a offert de me
+      <lb/>remettre le payement de ce terme, mais comme <abbr>M<supplied>.</supplied></abbr>
+      <pb facs="3531636" n="169r"/>
+      <lb/><rs type="person"><choice><orig>hartmann</orig><reg>Hartmann</reg></choice></rs> (si je ne me trompe) ne m’a pas ecrit pour ce
+      <lb/>sujet depuis la reponce que je luy fis dans le tems
+      <lb/>j’ay <subst><del><gap/></del><add>dit au marchand</add></subst> d’ecrire <choice><orig>a</orig><reg>à</reg></choice> quelqu’un de ses correspondans
+
+      <lb/>pour <del>luy</del> payer <add><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Mulhausen</rs></add> ce terme qui est une fort petite somme.
+
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> ne sçai s’il m’a tenu parole. <choice><orig>si</orig><reg>Si</reg></choice> je puis etre bon <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>quelque chose <choice><orig>a</orig><reg>à</reg></choice> cet officier je m’y interesserai avec
+      <lb/>plaisir parcequ’il vous apartient quoique je n’aye
+      <lb/>pas l’honneur de le connoître.
+    </p>
+    <p>
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> suis bien faché que les incommoditez de <abbr>M<supplied>.</supplied></abbr>
+      <lb/><rs type="person">Votre pere</rs> continuent je vous prie de l’assurer de mes
+      <lb/>respects.
+    </p>
+    <p>
+      <lb/><choice><orig>je</orig><reg>Je</reg></choice> vous avois prié ce me semble de me dire si l’on ne
+      <lb/>pourroit pas determiner les joins extremes <formula>AD</formula>,
+      <lb/><formula>EC</formula> parceque les sinus <hi rend="u"><formula>r</formula></hi> et <hi rend="u"><formula>s</formula></hi> de leurs inclinaisons
+      <lb/>avec l’horison changent considerablement l<supplied>es</supplied>
+      <lb/>epaisseurs des piedroits et si ces angles etoient <abbr>inf<supplied>inimt.</supplied></abbr>
+
+      <lb/>petits la poussée ne pourroit plus etre trouvée parce
+      <lb/>que l’angle <hi rend="u"><formula>m</formula></hi> deviendroit infiniment grand.
+      <lb/><choice><orig>jl</orig><reg>Il</reg></choice> paroit au contraire qu’on peut remonter ces joins
+      <lb/>extremes <choice><orig>ou</orig><reg>où</reg></choice> l’on veut et diminuer infiniment le sinus de
+      <lb/>l’angle <hi rend="u"><formula>m</formula></hi>. <choice><orig>pardonnez</orig><reg>Pardonnez</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> la liberté que je prends. <choice><orig>je</orig><reg>Je</reg></choice> ne
+      <lb/>vous interromprai plus dans vos occupations quand
+      <lb/>vous aurez eu la bonté de me lever la difficulté que je
+      <lb/>trouve à determiner le point <formula>F</formula> ou le levier coudé <formula>OFu</formula>.
+    </p>
+    <closer>
+      <salute>
+        <lb/><choice><orig>j’ay</orig><reg>J’ay</reg></choice> l’honneur d<supplied>’</supplied>etre avec une parfaite consideration
+        <lb/>Monsieur Votre tres humble et tres obeissant
+
+        <lb/>serviteur </salute><signed rend="right"><rs type="person">Frezier</rs></signed>
+    </closer>
+    <pb facs="3531637" n="169v"/>
+    <postscript>
+      <p>
+        <lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person">de la <choice><orig>hire</orig><reg>Hire</reg></choice></rs> dans le <rs type="biblio">memoire de 1712</rs> et <rs type="person">Belidor</rs> qui l’a suivi
+        <lb/>determinent ces joins extremes à 45 degrez fondez sur l’experience
+        <lb/>des ruptures des voutes dont les piedroits sont trop foibles.
+        <lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-1328287793">Danisy</rs> par d<supplied>’</supplied>autres experiences les trouve environ à 24 degrez.
+        <lb/><choice><orig>si</orig><reg>Si</reg></choice> la voute etoit en chainette le joint extreme seroit celuy que la <abbr>perpend<hi rend="sup">re</hi><supplied>.</supplied></abbr>
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> la tangente de cette courbe feroit avec l’horison sur l’imposte.
+
+        <lb/><choice><orig>c’est</orig><reg>C’est</reg></choice> pourquoy j’ay tiré des <rs type="biblio"><choice><orig>actes</orig><reg>Actes</reg></choice></rs> de <rs type="place">Leipsic</rs> la maniere de mener une
+        <lb/>tangente <choice><orig>a</orig><reg>à</reg></choice> la courbe de la Chainette.
+      </p>
+      <p>
+        <lb/><rs type="person">Dulseker</rs> a-t-il remis le <rs type="biblio">secon<hi rend="sup">d</hi> tome</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person">votre frere</rs> de
+        <lb/><rs type="place">Strasbourg</rs>?
+      </p>
+    </postscript>
+
+    <address>
+      <addrLine>
+        <lb/>A Monsieur</addrLine>
+      <addrLine>
+        <lb/>Monsieur <rs type="person"><choice><orig>jean</orig><reg>Jean</reg></choice> Bernoulli</rs></addrLine>
+      <addrLine>
+        <lb/>le fils professeur en droit</addrLine>
+      <addrLine>
+        <lb/><hi rend="u">A <rs type="place">Basle</rs></hi></addrLine>
+    </address>
+  </div>
+</body>
+<back>
+
+  <div type="attachment">
+    <div type="attachment_text">
+    <pb facs="3531634" n="168r"/>
+    <p>
+      <lb/>Un magazin <choice><orig>a</orig><reg>à</reg></choice> poudre dont voicy la
+      <lb/>moitié du profil a <choice><orig>êté</orig><reg>été</reg></choice> elevé <choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Strasbourg</rs>
+      <lb/>en <date when="1732">1732</date> sur les mesures qui sont icy
+      <lb/>cotées et tomba 5 ou 6 heures
+      <lb/>aprés qu’il fut décintré sans autre
+      <lb/>cause que celle de la foiblesse des
+      <lb/>piedroits.
+    </p>
+    <p>
+      <lb/>On demande quelle devoit etre
+      <lb/>leur largeur suivant le
+      <lb/>sisteme de <abbr>M<supplied>.</supplied></abbr> <rs type="person">Bernoulli</rs>
+      <lb/>et le calcul suivi
+      <lb/>jusqu’au bout
+      <lb/>ou en chifres ou
+      <lb/>en caracteres
+      <lb/>algebriques.
+    </p>
+    <figure/>
+    <p>
+      <lb/>Suivant la construction du sisteme de
+      <lb/><abbr>M<supplied>.</supplied></abbr> <rs type="person">de la <choice><orig>hire</orig><reg>Hire</reg></choice></rs> (du <rs type="biblio"><abbr>mem<hi rend="sup">re</hi><supplied>.</supplied></abbr></rs> de l’<rs type="organisation"><abbr>acad<supplied>.</supplied></abbr></rs> 1712)
+      <lb/>le piedroit devoit avoir 10 <abbr>p<hi rend="sup">ds</hi><supplied>.</supplied></abbr> 8 pouces
+      <lb/>au lieu de 9 <abbr>p<hi rend="sup">ds</hi><supplied>.</supplied></abbr> il etoit donc trop
+      <lb/>faible de 20 pouces d’epaisseur.
+    </p>
+    <p>
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> y avoit cependant de plus
+      <lb/>des contreforts de 4 <abbr>p<hi rend="sup">ds</hi><supplied>.</supplied></abbr> de queue
+      <lb/>6 <abbr>p<hi rend="sup">ds</hi><supplied>.</supplied></abbr> d<supplied>’</supplied>epaisseur et ce peut de
+
+      <lb/>dix huit pieds en 18 pieds
+      <lb/>de milieu en milieu de sorte
+      <lb/>qu’il y avoit un tiers de <choice><orig>maconerie</orig><reg>maçonerie</reg></choice>
+      <lb/>sur la longueur des piedroits
+      <lb/>pour les renforcer.
+    </p>
+    <pb facs="3531635" n="168v"/>
+    <figure/>
+    </div>
+  </div>
+</back>
+</text></TEI>

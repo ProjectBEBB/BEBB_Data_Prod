@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516778505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johannes Gessner an Johann II Bernoulli.
+                        Zürich, 31. Januar 1751</title>
+          <title type="alt">1751.01.31: Geßner,
+                        Johannes (1709-1790) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058403</title>
+          <title type="alt">1751-01-31_Ge_ner_Johannes-Bernoulli_Johann</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516778505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516778505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs>
+                    (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Gessner, Johannes (1709-1790) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-137188">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 693:Bl.317</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516778505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433708705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058403</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Tiguri</origPlace>
+              <date when="1751-01-31">31. Jan.
+                                1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119331136">Geßner, Johannes</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1751-01-31"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516778605501" type="prev"/>
+          <ptr target="B_991170430198505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Gessner_Johannes-JohIIB" corresp="pers_DE-588-119331136" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117761419">Altmann, Johann Georg</persName>
+            <note type="lebensdaten">(1695-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118512315">Bodmer, Johann Jakob</persName>
+            <note type="lebensdaten">(1698-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118514881">Breitinger, Johann Jakob</persName>
+            <note type="lebensdaten">(1701-1776)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1046082612">Moula, Frédéric</persName>
+            <note type="lebensdaten">(1703-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121471640">Ramspeck, Jacob Christoph</persName>
+            <note type="lebensdaten">(1722-1797)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117652245">Staehelin, Benedict</persName>
+            <note type="lebensdaten">(1695-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1060062828">Zuberbühler, Johann Jakob</persName>
+            <note type="lebensdaten">(1723-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118802712">Trew, Christoph Jacob</persName>
+            <note type="lebensdaten">(1695-1769)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3713696/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3713697" n="317r"/>
+  <p> Illsutri &amp; Amicissimo Viro D. JOANNI BERNOULLIO Mathematico acutissimo Joh. Gesnerus s. pl. d. </p>
+  <p> Etsi longius servavi silentium, quod exan thematica febri laborans, lecto &amp; sudori regimini affixus at scribendum illibentius adduceres, velim tamen TIBI per suadess amicissime BERNOULLI meum animum frequentius apud TE fuisse, &amp; impr. anni auspicia ac decursum TIBI &amp; illustri familiae faustissimum apprecasse, &amp; pro tua &amp; tuoru olu mitate &amp; perpetua felicitate seria vota fecisse. Ego lente ex progresso febrili accessu reconvalesco, &amp; corpus imprimis impatiens variantis Tempestatis sentio. Ex humanissimis literis &amp; data ad Ill. Maupertuisium epistola cujus copiam benevole communicasti facile intellexi quantum me amas &amp; quantum mei meique honoris rationem habeas. Ego quamvis his ce referendi imparem me sentiam, nunquam tamen animo grato, quod polliceor, deficium. Interim nollem ex ea re simultatem &amp; odium Clariss. Sulzero parari, equidem non ignoro non sem per eandem Cl-Maupertuisij benevolentiam erga D. Sulzerum fuisse, ut forte non levem rationem habuerit de eo negotio silendi. </p>
+  <p> Pergrata mihi est recordatio amicitiae Celeb. D. Moula cui memoriam mei etiam atque etiam commendes, meoque nomine ut salutes rogo. Praeter ea quae in Commentariis Petropolitanis inseruit nihil de eo vidi, aut cognovi nisi quod apud academiam Russicam &amp; Magnates Russiae in honore constituatur. Dignus est cui optima quoque eveniant. </p>
+  <p> Utile imprimis physico studio accidit, quod Illu stris &amp; Celeberrimus Frater animum ad docendum Physicam adduxerit, neque enim mediocria, sed omnino eximia &amp; prae- clara, verbo BERNOULLIANO nomine digna studii hujus incrementa ab Excellentissimo viro expectanda sunt. Eum DEUS diutissime incolumen servet in generi <pb facs="3713698" n="317v"/> humani decus &amp; literarum incrementum. Mihi imprimis hoc suum consilium gratum accidit, quod haec communio literarum faciliorem mihi ad ejus favorem &amp; amicitiam concedat. Dissertationes quae pro vacante cathedra anatomica apud vos habentur lubens mihi compararem. Clariss. &amp; humanis simus D. Ramspeckius interea apud Staehelianos haeredes quaedam mei causa egit. Weimanniano Herbarium pro 64 [ ] tandem concessum fuit antequam consilium Societatis nostrae quae 120 offerebat significare proferam. Icones fungorum &amp; partium ivi inspiciendas concesserunt sed significatione pretii difficultates quaedam enatae, dum pretium utriusque statuebant 150 , quod ego de ambobus, </p>
+  <p> singulis intelligebant. Abstinendum itaque mihi fuit ab emtione in tanto rerum pretio. </p>
+  <p> Veronae parant novam operum Archimedis editio nem graeco-latinam. Novi apud nos parum vel nihil. Famosus adversus Cel. Breitingerum nostrum libellus novum motus excitavit. Cl. Altmannus opusculum de Telluri Badensibus &amp; Montibus Glacialibus conscripsit. Poematis de Diluvio liber I &amp; II Auctore Cl. Bodmero. </p>
+  <p> Vale Vir illustri cum nobiliss. conjuge &amp; splendida familia; mea conjux mecum vos plurimum salutamus; Iterum vale &amp; me ama. Tiguri prid. KAL. Febr. 1751 </p>
+</div>
+</body>
+</text></TEI>

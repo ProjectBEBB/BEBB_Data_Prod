@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514626105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean Baptiste Silva an Daniel I Bernoulli. Paris, 19. Dezember 1740</title>
+          <title type="alt">1740.12.19: Silva, Jean Baptiste (1682-1742) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055299</title>
+          <title type="alt">1740-12-19_Silva_Jean_Baptiste-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514626105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514626105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Silva, Jean-Baptiste (1682-1742)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Die Adressseite (Bl. 80) trägt ein rotes Wachssiegel.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-120146">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 724:Bl.79-80</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514626105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432956105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055299</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 beschriebene S.)<dimensions unit="cm"><height>22,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>De Paris</origPlace>
+              <date when="1740-12-19">ce 19e Xbre 1740</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-121256545">Silva, Jean Baptiste</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1740-12-19"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514626305501" type="prev"/>
+          <ptr target="B_991170514626005501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Silva_Jean-Baptiste-DanIB" corresp="pers_DE-588-121256545" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117509361">Hecquet, Philippe</persName>
+            <note type="lebensdaten">(1661-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-08-20" who="CG">Grundkommentierung</change>
+        <change when="2026-05-29" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-03-31" who="NG">Tagging</change>
+        <change when="2026-02-09" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-09" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-09" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3339952/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3339953" n="79r"/>
+  <opener>
+<salute>
+      <lb/>Monsieur
+</salute>
+  </opener>
+  <p><lb/><choice><orig>j</orig><reg>J</reg></choice>’ay <choice><orig>reçeu</orig><reg>receu</reg></choice> avec beaucoup de reconnoissance les <rs type="lostletter">lettres</rs> que Vous m’avez fait
+      <lb/>l’honneur de m’ecrire en me renvoyant ce qui Vous restoit de mon <rs type="biblio">manuscrit</rs><choice><orig>,</orig><reg>;</reg></choice>
+      <lb/>j’ay lû Vos <rs type="biblio">reflexions</rs> sur la derivation et sur la revulsion avec plus d’admi<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ration que de plaisir, car elles detruisent tout ce que j’avois etabli sur cette
+      <lb/>matiere, et quoy qu’elles ne me convainquent point<supplied>,</supplied> parce que j’ay pour moy
+      <lb/>l’experience de plusieurs siecles et la mienne propre<choice><orig>.</orig><reg>,</reg></choice> elles sont d’une nature
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> ne pouvoir y opposer des raisonnements solides ni des experiences hydrauliques.
+      <lb/><choice><orig>ainsi</orig><reg>Ainsi</reg></choice> le parti le plus raisonable que je puisse prendre est de ne point faire
+    <lb/>reimprimer mon <rs type="biblio" key="biblio_AC2BIWZ4">livre</rs> quelque succes qu’il ait eu, et quoy qu’il n’en reste plus
+      <lb/>un exemplaire depuis plus de six ans. Votre theorie sublime ne s’accorde pas avec
+      <lb/>les sentiments des Medecins<supplied>.</supplied> Ceux<choice><orig> </orig><reg>-</reg></choice>cy<supplied>,</supplied> je l’avoue<supplied>,</supplied> se livrent trop aux conjectures faute
+      <lb/>de mieux, mais les grands Geometres accoutumés <choice><orig>a</orig><reg>à</reg></choice> demontrer, ne peuvent s’accommoder
+      <lb/>de ce qui n’est pas demontré. <choice><orig>peut</orig><reg>Peut</reg></choice> etre aussi que le ressort des Vaisseaux et des parties
+      <lb/>qu’ils traversent, que les puissantes motrices<supplied>,</supplied> qui varient dans le corps humain
+      <lb/>plus aisement que dans ce qui se passe soubs nos yeux<supplied>,</supplied> met <choice><orig>a</orig><reg>à</reg></choice> tout cela quelque
+      <lb/>difference, car il n’est pas douteux qu’<choice><sic>ne</sic><corr>une</corr></choice> saignée du pied remedie infiniment mieux
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> un assoupissement, <choice><orig>a</orig><reg>à</reg></choice> un delire, <choice><orig>a</orig><reg>à</reg></choice> des convulsions que la saignée du bras,
+      <lb/>que celle<choice><orig> </orig><reg>-</reg></choice>cy apaise la tension douloureuse de la matrice, des hommorroides enflammées,
+      <lb/>et que celle du bras augmente l’une et l’autre, qu’<choice><sic>ne</sic><corr>une</corr></choice> saignée du bras faite par megarde
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> une femme qui a ses regles les supprime<choice><orig>.</orig><reg>,</reg></choice> et la rend quelque fois folle, que celle
+      <lb/>du Pied faite dans les memes circonstances l’augmente quelquefois au point de
+      <lb/>procurer des pertes de sang<choice><orig>.</orig><reg>,</reg></choice> que l’on <choice><orig>Voit</orig><reg>voit</reg></choice> toutes ces choses tres frequement.</p>
+<pb facs="3339954" n="79v"/>
+  <p><lb/><choice><orig>j</orig><reg>J</reg></choice>’ay traité de tout cela fort amplement dans le 2<hi rend="sup">e</hi> Volume de mon <rs key="biblio_AC2BIWZ4" type="biblio">traité</rs> en repondant
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <abbr>Mr<supplied>.</supplied></abbr> <rs key="pers_DE-588-117509361" type="person"><choice><orig>hecquet</orig><reg>Hecquet</reg></choice></rs>, et j’ay quelque regret de ne vous l’avoir point envoyé en meme
+      <lb/>tems que le premier. <choice><orig>si</orig><reg>Si</reg></choice> vous etiez un peu libre<supplied>,</supplied> je reparerois cette faute qui<supplied>,</supplied> je
+      <lb/>l’avoue<supplied>,</supplied> me tient au coeur, d’autant mieux qu’il y a quelques calculs qui ont bien
+      <lb/>besoin d’etre reformés. <choice><orig>j</orig><reg>J</reg></choice>’attendra<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> Votre reponse sur cet <rs type="biblio">article</rs> avant que de Vous
+      <lb/>donner des marques de ma reconnoissance. <choice><orig>car</orig><reg>Car</reg></choice> quand meme tout ce que Vous avez
+      <lb/>bien voulu faire <choice><orig>a</orig><reg>à</reg></choice> ma priere me seroit entierement inutile, puisqu’il m’est contraire,
+      <lb/>je ne dois pas etre moins sensible <choice><orig>a</orig><reg>à</reg></choice> tous les soins que Vous <supplied rend="brackets">Vous</supplied> etez donnés et au tems
+      <lb/>que Vous y avez employé. <choice><orig>je</orig><reg>Je</reg></choice> suis avec l’estime la plus parfaite et la plus
+      <lb/>respectueuse</p>
+  <closer>Monsieur
+    <salute>
+      <lb/>Votre tres humble et tres obeissant
+      <lb/>Serviteur <rs key="pers_DE-588-121256545" type="person">Silva</rs>
+    </salute>
+    <dateline>de <rs key="place_GEO-2988507" type="place">Paris</rs> ce <date when="1740-10-19">19<hi rend="sup">e</hi> X<hi rend="sup">bre</hi> 1740</date>
+    </dateline>
+<pb facs="3339955" n="80r" type="empty"/>
+<pb facs="3339956" n="80v"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-118656503" type="person">Daniel Bernouilli</rs> Proffesseur</addrLine>
+      <addrLine>en Anatomie et en Botanique</addrLine>
+      <addrLine><hi rend="u"><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2661604" type="place">Basle</rs>.</hi></addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

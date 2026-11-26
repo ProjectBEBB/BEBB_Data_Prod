@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514764305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Johann Jakob Huber. Basel, 03. April 1755</title>
+          <title type="alt">1755.04.03: Bernoulli, Daniel (1700-1782) an Huber, Johann Jakob (1733-1798)</title>
+          <title type="alt">000055093</title>
+          <title type="alt">1755-04-03_Bernoulli_Daniel-Huber_Johann_Jakob</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514764305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514764305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Huber, Johann Jakob (1733-1798)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39827">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 49 f</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514764305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432849505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055093</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1755-04-03">ce 3. avril 1755</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1755-04-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514764405501" type="prev"/>
+          <ptr target="B_991170514764205501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Huber_Johann_Jakob-DanIB" corresp="pers_DE-588-13763868X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1011995719">Ammersin, Wendelin</persName>
+            <note type="lebensdaten">(1710-1755)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156360374">Dietrich, Johannes</persName>
+            <note type="lebensdaten">(1715-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1123841632">Hautt, Heinrich Ignaz Nikomedes</persName>
+            <note type="lebensdaten">(1711-1772)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-122151550">Huber, Johann Jacob</persName>
+            <note type="lebensdaten">(1704-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-20" who="FN SG">Kollationieren abgeschlossen.</change>
+        <change when="2026-10-06" who="SG">Satzanfänge nach Satzpunkten mit choice/orig/reg normalisiert.</change>
+        <change when="2026-03-29" who="SG">Tagging</change>
+        <change when="2026-03-28" who="NG">Tagging</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-02-23" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-02-23" who="RG">NER Erkennung</change>
+        <change when="2024-03-14" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-03-14" who="RG">Kleinere Anpassungen, Personen und Orte ausreferenziert</change>
+        <change when="2024-03-14" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1369576/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1369577" n="1"/>
+  <p>
+      <lb/>Je reçois toujours, mon cher Monsieur, vos <rs type="letter">lettres</rs> avec ce plaisir que
+      <lb/>la seule amitié peut faire sentir; je compte beaucoup sur celle
+      <lb/>qu’il y a entre nous, sans quoi je n’aurois pas osé differer si longtems
+      <lb/>cette reponse. Je serai charmé d’avoir une bonne montre; je l’aurai, si
+      <lb/>Vous vous chargez de la commission; car Vous avez un certain talent
+      <lb/>naturel pour tout ce qui demande beaucoup de justesse et d’exactitude.
+      <lb/><choice><orig>quel</orig><reg>Quel</reg></choice> bonheur pour l’astronomie de Vous posseder! je ne connois personne
+      <lb/>plus propre que Vous à lu<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> conserver cette préeminence qu’elle s’est
+      <lb/>aquise par dessus les autres sciences. Mais quand Vous aurez <choice><orig>vú</orig><reg>vû</reg></choice> tout ce
+      <lb/>que la pratique renferme de mieux etabli, j’espere que vous tacherez
+      <lb/>de Vous perfectioner dans les theories et les calculs et sur tout dans les loix
+      <lb/>de mechanique. Vos talens n’y sont pas moins propres, mais j’ai remarqué
+      <lb/>que Vous n’y avez pas tout à fait le meme gout. Consultez<choice><orig> </orig><reg>-</reg></choice>Vous vous
+      <lb/>meme sur ce qui pourroit Vous exciter d’avantage ce gout-là. Les
+      <lb/>problemes piquent; ils donnent peu à peu l’esprit de meditation
+      <lb/>et quand vous l’aurez pris, rien ne vous arretera que l’impossible.
+  </p>
+  <p>
+      <lb/>Vous irez donc, Monsieur, à ce que je crois à <rs key="place_GEO-2950159" type="place">Berlin</rs> et je
+      <lb/>ne vous verrai plus que dans <rs type="biblio">les memoires de l’Academie</rs>.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> faut que je sois bien accoutumé aux vicissitudes de ce monde
+      <lb/>pour supporter cette idée; les conditions ne sont pas encore
+      <lb/>bien riantes; mais elles vous laissent le plaisir d’avancer tous
+      <lb/>les ans; c’est le plus grand agrement de la vie, qui surpasse
+      <lb/>certainement celui d’une jouissance prematurée. Vous etes
+      <lb/>faits, Vous et <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>, l’un pour l’autre.
+  </p>
+  <p>
+      <lb/>Vous avez bien fait de communiquer à quelques <choice><sic>ans</sic><corr>uns</corr></choice>
+      <lb/>des <rs type="person">Savans Anglois</rs> ce que j’ai eu l’honneur de <rs type="letter">Vous marquer</rs>
+<pb facs="1369579" n="2"/>
+      <lb/>sur les cylindres de bois electriques. <choice><orig>toutes</orig><reg>Toutes</reg></choice> les choses gagnent
+      <lb/>à passer par leurs mains. La machine que j’ai achetée pour notre
+      <lb/>Cabinet ne me paroit qu’un <foreign xml:lang="ger">küpfflein</foreign> grillé au feu. On
+      <lb/>m’avoit simplement preté le petit <rs type="biblio">traité</rs> sur cette matiere, dont je
+      <lb/>vous ai parlé; je l’ai rendu et je n’ai pas encore pû apprendre
+      <lb/>quel est positivement le titre de ce petit <rs type="biblio">ouvrage</rs> pour pouvoir
+      <lb/>en faire venir un exemplaire.
+  </p>
+  <p>
+      <lb/>Quant aux aiguilles d’inclinaison, <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietrich</rs> s’est avisé
+      <lb/>d’un petit artifice qui vaut mieux que le petit poids regulateur.
+      <lb/><choice><orig>il</orig><reg>Il</reg></choice> met aux tourillons une petite aiguille telle que sont les aiguilles
+      <lb/>à minute des montres en leur laissant assez de frottement pour
+      <lb/>qu’elles ne tournent pas d’elles memes, mais qu’on tourne tres
+      <lb/>facilement avec les doigts; cette petite aiguille s<subst><del><gap/></del><add>u</add></subst>ffit pour
+      <lb/>donner à la grande telle position qu’on veut et un petit cercle de lai<pc type="hyphenation">-</pc><lb break="no"/>ton gradué sert à fixer la position de l’aiguille correctrice pour cha<pc type="hyphenation">-</pc><lb break="no"/>que position de l’aiguille, qui doit montrer la juste inclinaison.
+      <lb/>Cette description Vous suffira. Nous avons remarqué que la plus
+      <lb/>petite inclinaison est dans le plan du meridien magnetique et que
+      <lb/>toutes les aiguilles se mettent verticalement dans un plan per<pc type="hyphenation">-</pc><lb break="no"/>pendiculaire à celui du meridien magnetique. Si on appelle
+      <lb/>angle de declinaison l’angle compris entre le meridien magnetique
+      <lb/>et le plan vertical dans lequel l’aiguille peut tourner, ce sera un
+      <lb/>petit probleme de mechanique que je Vous propose, savoir,
+      <lb/>l’inclinaison <add>naturelle</add> de l’aiguille etant donnée de meme que son angle
+      <lb/>de declinaison, trouver l’inclinaison pour cette declinaison donnée.
+      <lb/>Il semble que la force des boussoles ordinaires est d’autant
+      <lb/>plus grande dans les paÿs differends, que l’inclinaison s’y
+<pb facs="1369580" n="3"/>
+      <lb/>trouve plus petite et que ces boussoles cesseroient de marquer dans
+    <lb/>un paÿs où l’inclinaison seroit de <measure>90 degrés</measure>. <choice><orig>c</orig><reg>C</reg></choice>’est du moins co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>j’explique ce qu’on a observé plusieurs fois dans les navigations,
+      <lb/>savoir que toutes les boussoles d’un vaisseau commençoient à
+      <lb/>devenir folles et qu’à quelques lieues de là elles reprenoient pres<pc type="hyphenation">-</pc><lb break="no"/>que toute leur vigueur. Je ne <choice><orig>scai</orig><reg>sçai</reg></choice>, Monsieur, si je vous ai deja
+      <lb/>marqué une proprieté que j’ai remarquée aux aimans artificiels de
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietrich</rs>, qu’il fait tous d’une figure à peu prés semblable sui<pc type="hyphenation">-</pc><lb break="no"/>vant les trois dimensions. <choice><orig>c</orig><reg>C</reg></choice>’est que les forces de ces aimans suivent
+      <lb/>la raison de leurs surfaces, ou bien que ces forces sont en raison
+      <lb/>des racines cubiques des quarrés de leurs poids. Vous pourrez donc
+      <lb/>facilement comparer les aimans artificiels qu’on fait en <rs key="place_VER-englan" type="place">Angleterre</rs>
+      <lb/>avec ceux de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1156360374" type="person">Dietrich</rs>; il a fait un aiman de <measure><formula>5\frac{1}{2}</formula> onces</measure>, qui
+      <lb/>portoit <measure><subst><del>22</del><add>11</add></subst> livres</measure> et suivant ma regle, un aiman qui seroit 64
+      <lb/>fois plus pesant ou qui peseroit <measure>22 livres</measure>, pourroit porter un
+      <lb/>poids 16 fois plus grand ou <measure>176 livres</measure>. Ayez la bonté de Vous infor<pc type="hyphenation">-</pc><lb break="no"/>mer <add>de</add> la force d’un des meilleurs aimans artificiels faits en <rs key="place_VER-englan" type="place">Angleterre</rs>
+      <lb/>et du poids de cet aiman.
+  </p>
+  <p>
+      <lb/>La difference entre les meilleures lunettes et les moindres est si
+      <lb/>petite et la marchandise si fragile, qu’il ne vaut pas la peine
+      <lb/>d’en faire venir d’<rs key="place_VER-englan" type="place">Angleterre</rs>; je Vous suis cependant bien obligé
+      <lb/>de vos attentions: mandez<choice><orig> </orig><reg>-</reg></choice>moi aussi, mon cher Monsieur, si je
+      <lb/>puis vous etre utile à quelque chose dans ces paÿs; je m’en aqui<pc type="hyphenation">-</pc><lb break="no"/>terai avec ce zele pour vous, que vous me connoissez et avec le
+      <lb/>quel je serai sans cesse,
+  </p>
+  <closer>
+      <lb/>votre tres humble et tres
+      <lb/>obeïssant Serviteur
+      <lb/><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.
+  </closer>
+  <closer>
+        <dateline>
+      <lb/><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1755-04-03">3. avril
+      <lb/>1755</date>.
+        </dateline>
+  </closer>
+  <postscript>
+    <p>
+        <lb/>On me dit que les bonnes montres d’<rs key="place_VER-englan" type="place">Angleterre</rs> sont si excessivement cheres, que
+        <lb/>je suis faché de n’avoir pas eu ces avis plutot. Si par hazard la chose dependoit
+        <lb/>encore de Vous, je Vous prierois de ne donner dans aucun excés. <choice><orig>je</orig><reg>Je</reg></choice> serai charmé
+        <lb/>d’apprendre le succés de la montre à double balancier, quelqu’il soit. Je viens de
+<pb facs="1369581" n="4"/>
+        <lb/>voir la petite <rs type="biblio">brochure sur l’electricité</rs>, que vous souhaitez; elle a <choice><orig>eté</orig><reg>été</reg></choice> im<pc type="hyphenation">-</pc><lb break="no"/>primée à <rs key="place_GEO-2659811" type="place">Lucerne</rs> et je ne doute pas que <abbr>M.<hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-122151550" type="person">Pere</rs> ne puisse la faire faci<pc type="hyphenation">-</pc><lb break="no"/>lement venir. Voici le titre de ce petit <rs type="biblio">ouvrage</rs><choice><orig>.</orig><reg>:</reg></choice> <rs type="biblio">"Brevis relatio de Electricitate
+        <lb/>propria lignorum Authore <abbr>P.</abbr> <rs key="pers_DE-588-1011995719" type="person">Wendelino Ammersin</rs> de <rs key="place_GEO-2659811" type="place">Lucerna Helvetiorum</rs>
+        <lb/><abbr>Ord.</abbr> <abbr>min.</abbr> <abbr>S.</abbr> Francisci <abbr>Conventual.</abbr> <rs key="place_GEO-2659811" type="place">Lucern<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs>, typis <rs type="person" key="pers_DE-588-1123841632">Henrici Ignatii Nicomedis
+        <lb/>Hautt. 1754</rs><supplied>"</supplied>.</rs> <abbr>M.<hi rend="sup">r</hi></abbr> votre <rs key="pers_DE-588-122151550" type="person">Pere</rs> pourroit vous l’envoyer par la poste, car il est tres petit.
+    </p>
+  </postscript>
+  <closer>
+    <address>
+      <addrLine>Pour Monsieur <rs key="pers_DE-588-13763868X" type="person">Huber</rs></addrLine>
+      <addrLine>en <rs key="place_VER-englan" type="place">Angleterre</rs>.</addrLine>
+      <addrLine><abbr>Mons.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-122151550" type="person">Huber le Pere</rs>, que j’assure de mes</addrLine>
+      <addrLine>respects, est prié de lire le <hi rend="u">Postscriptum</hi></addrLine>
+      <addrLine>de cette lettre pour le dernier article.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

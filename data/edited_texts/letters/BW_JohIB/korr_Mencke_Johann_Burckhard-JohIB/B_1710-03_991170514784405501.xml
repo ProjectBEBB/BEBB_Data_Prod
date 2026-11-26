@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514784405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Johann Burkhard Mencke. Basel,
+            März 1710</title>
+          <title type="alt">000056600</title>
+          <title type="alt">1710-03-00_Bernoulli_Johann_I-Mencke_Johann_Burckhard</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514784405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514784405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Mencke, Johann Burckhard (1674-1732) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "Cl. Menckeni filio". Der Tag ist im
+            Datum nicht eingetragen.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-42529">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 674:Bl.142r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514784405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433107905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056600</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1710-03">a.d. Martii
+                MDCCX</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1710-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118783181">Mencke, Johann Burkhard</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430299405501" type="prev"/>
+          <ptr target="B_991170514784305501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Mencke_Johann_Burckhard-JohIB" corresp="pers_DE-588-118783181" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. hat ein Päckchen mit den AE von April 1706 bis Oktober 1709 ohne Begleitbrief und
+          Preisangabe erhalten. Einige ebenfalls darin befindliche AE von 1709 hat er seinem Neffen
+          Nic. I B. weitergeben. Joh. B. möchte die Freundschaft, die er mit dem verstorbenen Vater
+          Otto Mencke gepflegt hat mit dem Sohn fortsetzen und auch weiter Beiträge für die AE
+          liefern. Er hat schon lange nichts mehr von Leibniz gehört. Vielleicht hat dieser seine
+          Briefe nicht erhalten. Er hat von Leibniz erfahren, dass die Berliner Miscellanea im Druck
+          sind. Mencke soll Wolff für die übersandte Abhandlung über den vergangenen Winter
+          danken.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118634771">Wolff, Christian von</persName>
+            <note type="lebensdaten">(1679-1754)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1710-03-00_Bernoulli_Johann_I-Mencke_Johann_Burckhard"/>
+      </change>
+        <change when="2008-09-04">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1416756/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1710-03-00_Bernoulli_Johann_I-Mencke_Johann_Burckhard">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1416757" n="142r"/> Viro Excellentissimo atque Clarissimo </p>
+  <p>Burcardo Menkenio </p>
+  <p>S. P. D. </p>
+  <p>Johannes Bernoulli</p>
+  <p>Ut hisce litteris Te Vir Clarissime compellem causa est fasciculus Actorum quem a Te mihi
+          missum nuper accepi quanquam sine litteris et pretii significatione. Obsecro igitur ut
+          pretium omnium Actorum transmissorum vel quod mallem singulorum annorum quantocyus
+          perscribas, quod statim ac rescivero exolvam pecuniam cui volueris vel hic vel alibi:
+          fuerunt si meministi in fasciculo isto Acta ab Aprili 1706 usque ad 8br 1709 inclusive, et
+          praeterea aliquot ejus anni 1709 menses, quos adgnato meo destinatos credidi eique statim tradidi, qui igitur pariter eorum pretium
+          desiderat, et interim plurimam salutem meis verbis Tibi nunciat. Tanta mihi quondam
+          intercessit amicitia cum Beato Tuo Parente Patrono meo singulari, ut eandem tecum excolere
+          si modo ea me dignum reputes, inter felicitates meas sim repositurus. Nescio autem quo
+          fato factum sit, ut hoc commercium Tecum continuandum post fata Viri Optimi interciderit.
+          Hoc equidem polliceor, nullam posthac in me fore moram, nullum languorem: suppetit certe
+          etiamnum materia, qua Acta vestra subinde augere possim, nec minus acceptabilis eruditis
+          ut spero, quam fuere quae olim communicaveram. Acta interim si mihi mittere continuaveris,
+          rem facies gratissimam, et parata semper pecunia persolvendam. Quid agat quidve valeat
+          Ampl. Leibnitius noster, ab aliquo tempore non audivi; fortasse postremas meas ad se datas
+          non recepit. An viderint lucem Selecta actorum Societatis Berolinensis (quae sub praelo
+          sudare dudum mihi significavit) scire
+          percuperem. Cl. Wolfio pro communicata disputatione eruditissima de Hyeme superiori si per occasionem meo nomine gratias agere et
+          plurimam salutem impertire volueris est quod enixe rogo; Quod tamen litteris ipse faciam
+          prima qualibet occasione. Tu vero Vir Cl. nunc vale et fave. </p>
+  <p>Dabam Basileae a. d. Martii MDCCX </p>
+      </div>
+    </body>
+  </text>
+</TEI>

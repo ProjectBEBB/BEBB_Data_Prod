@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430081105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Joseph Nicolas de L'Isle. Danzig, 17. Juli 1733</title>
+          <title type="alt">1733.07.17: Bernoulli, Daniel (1700-1782) an L'Isle, Joseph Nicolas de (1688-1768)</title>
+          <title type="alt">000054843</title>
+          <title type="alt">1733-07-17_Bernoulli_Daniel-L_Isle_Joseph_Nicolas_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430081105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430081105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Delisle, Joseph Nicolas (1688-1768)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Vermerk "du 17 juillet 1733 recüe le 6 aoust 1733"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Paris Observatoire</repository>
+            <idno type="callNumber">Unbekannt</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430081105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406990105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000054843</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dantzic</origPlace>
+              <date when="1733-07-17">ce 17. juill. 1733</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4011039-4">Danzig</placeName>
+          <date when="1733-07-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117631655">L'Isle, Joseph Nicolas de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430082205501" type="prev"/>
+          <ptr target="B_991170430379505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Delisle_Joseph_Nicolas-DanIB" corresp="pers_DE-588-117631655" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119099292">Bayer, Theophilus Siegfried</persName>
+            <note type="lebensdaten">(1694-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-142873861">Beckenstein, Johann Simon</persName>
+            <note type="lebensdaten">(1648-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117608629">Blumentrost, Laurentius</persName>
+            <note type="lebensdaten">(1692-1755)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Delisle, Mme</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Delisle, Schwester von Joseph Nicolas Delisle</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Gordon, Johannes</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136986412">Gsell, Georg</persName>
+            <note type="lebensdaten">(1673-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116181559">Kirch, Christfried</persName>
+            <note type="lebensdaten">(1694-1740)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117523216">Klein, Jacob Theodor</persName>
+            <note type="lebensdaten">(1685-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117639664">L'Isle de la Croyére, Louis de</persName>
+            <note type="lebensdaten">(1690-1741)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+            <note type="lebensdaten">(1678-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119097060">Maurepas, Jean-Frédéric Phélypeaux de</persName>
+            <note type="lebensdaten">(1701-1781)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+            <note type="lebensdaten">(1672-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Schwartz</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-14" who="SG">Vorbereitendes Tagging und Zeilenfall</change>
+        <change when="2026-06-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-06-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-06-11" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://bibnum.obspm.fr/iiif/2/26247/manifest"/>
+</facsimile><text>
+<body>
+
+
+
+
+
+
+
+<div type="letter">
+<pb facs="p1" n="1"/>
+<p>
+<lb/>Je me donne l’honneur, Monsieur et tres cher Ami, de vous envoyer cette lettre de <rs key="place_GEO-3099434" type="place">Dantzic</rs>
+<lb/>pour vous marquer notre heureuse arrivée en cette ville. Nous ne sommes à la verité
+<lb/>à l’heure, que j’ecris ces mots, qu’aux environs de <rs key="place_GEO-588409" type="place">Reval</rs>, <add>mais</add> passez moi cette façon de parler
+<lb/>en faveur de <rs type="person">Moïse</rs>, qui s’en est servi à l’egard de l’endroit de sa sepulture. Je cherche
+<lb/>à m’amuser pendant notre navigation et je ne saurois trouver de plus agreables
+<lb/>amusemens, que ceux de m’entretenir avec vous. Je vous ferois ici mes remercimens
+<lb/>de toutes les honnetetés et amitiés, que vous m’avez faites pendant mon sejour
+<lb/>en <rs key="place_VER-russia" type="place">Russie</rs>, si vous ne m’en aviez tant fait: elles sont trop grandes pour n’etre
+<lb/>pas parties du coeur d’un veritable ami, ennemi de tout ce qui sent la ceremonie.
+<lb/>Venons plutot à mon voyage, dont je veux vous rendre conte. Mon journal commence par
+<lb/>le depart de chez vous, l’endroit qui m’a eté le plus pretieux à <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> Vous savez, que
+<lb/>de là nous sommes allés dîner chez le Resident, <abbr>M<hi rend="sup">r</hi>.</abbr> <rs type="person">Schwartz</rs>, et que nous nous sommes mis
+<lb/>vers les 5 heures sur son Boyer accompagnés de quelques amis, qui nous ont quittés un peu
+<lb/>au dessous de <abbr>S.</abbr> <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> Etant seuls entre nous autres compagnons de voyage, j’ai ouvert la
+<lb/>lettre, que vous m’avez remise à mon depart à mon adresse. Soyez asseuré, mon
+<lb/>cher Ami, que je m’y conformerai en toutes choses, et je m’accoutumerai dès à present
+<lb/>à suivre la morale, que vous me donnez; mais cela ne m’empechera pas de rendre justive
+<lb/>aux merites, que j’ai trouvés à mes Amis, autant que je le pourrai sans faire l’entendû ni
+<lb/>vouloir paroitre d’etre à portée de juger de trop de choses. Quand je serai à <rs key="place_GEO-2988507" type="place">Paris</rs>, je vous
+<lb/>rendrai conte de tout ce qui s’y passera le plus fidellement du monde. Je sai que
+<lb/>vous avez vos ennemis à <rs key="place_GEO-2988507" type="place">Paris</rs>: mais je ne gaterai pas vos affaires avec eux. Je temoi
+<lb break="no"/>gnerai à tout le monde, combien je vous estime: mais je serai un peu reservé sur notre
+<lb/>amitié, que j’espere devoir etre parfaite et eternelle: il suffira, je pense, pour votre interêt
+<lb/>qu’on ne nous croye Amis qu’autant que la bienseance le demande. je dis pour votre interet
+<lb/>parceque vous serez sans doute bien aise d’aprendre le plus de nouvelles qu’il se pourra et que
+<lb/>je ne pourrois gueres vous en donner, si l’on me croyoit ou savoit; trop attaché à vous.
+<lb/>Je vous dirai encor à l’egard de votre lettre, que je ne passerai pas par <rs key="place_GEO-2950159" type="place">Berlin</rs> suivant
+<lb/>toutes les aparences, et que par consequent je ne pourrai pas m’aquitter de vos
+<lb/>commissions pour cet entroit-là: mais je prierai <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117523216" type="person">Klein</rs> de se charger du soin
+<lb/>de faire tenir ce que vous souhaitez à <abbr>M<hi rend="sup">r</hi>.</abbr> <rs type="person" key="pers_DE-588-116181559">Kircher</rs>: il en aura aparemment fort
+<lb/>souvent l’occasion et comme j’instruirai <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117523216" type="person">Klein</rs> de la maniere
+<lb/>que vous souhaitez que les observations meteorologiques se fassent, celuici pourra
+<lb/>en faire un raport à <abbr>M<hi rend="sup">r</hi>.</abbr> <rs type="person" key="pers_DE-588-116181559">Kircher</rs>. Quand vous parlez, Monsieur, de l’usage de vos
+<lb/>thermometres pour corriger les hauteurs barometriques, il faut convenir d’un terme de
+<lb/>chaleur pour cet effet et je ne sai pas si vous l’avez marqué dans votre memoire,
+<lb/>que vous avez composé ci dessus et que je dois lire à l’Academie de <rs key="place_GEO-2988507" type="place">Paris</rs>; le memoire est
+<lb/>cacheté; je prierai <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117523216" type="person">Klein</rs> et les autres, que je dois instruire, de prendre pour le dit terme [de cha]
+<lb break="no"/>leur celui [qui est] marqué par vous tant mediocre: c’est à dire si la hauteur baro
+<pb facs="p2" n="2"/>
+<lb break="no"/>metrique etoit par <abbr>ex.</abbr> 28 <abbr>pouc.</abbr> dans un tems que le thermometre est à 1500, la veri
+<lb break="no"/>table hauteur barometrique doit etre censée de 28 <abbr>pouc.</abbr> <formula>1\frac{139}{197}</formula> <abbr>lin.</abbr> peitetre que vous
+<lb/>raportez le tout à la chaleur de l’eau bouillante: mais je crois que celle qui est mar
+<lb break="no"/>quée par 1000 est plus naturelle; dites moi ce que vous aurez choisi, parcequ’il est
+<lb/>bon d’en convenir. Voilà, Monsieur, ce que j’ai cru devoir vous repondre à l’egard
+<lb/>de votre memoire. Dés que vous aurez recu ma lettre vous aurez la bonté de me repondre
+<lb/>et d’adresser la reponse à <abbr>Mad<hi rend="sup">elle</hi>.</abbr> votre soeur. Vous aurez aussi la bonté de me marquer toutes les nou
+<lb break="no"/>velles de <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> et de l’Academie. Si <abbr>Mess<hi rend="sup">rs</hi>.</abbr> pour le <rs key="place_WEI-kamtsch" type="place">Kamschatka</rs> sont partis? Si <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-142873861" type="person">Beckenstein</rs>
+<lb/>l’est? S’il y a aparence que <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-119099292" type="person">Bayer</rs> parte bientot? sur quel pied sont les affaires de l’Academie?
+<lb/>si l’on me trouve un peu à redire? Soyez je vous prie ouvert sur cet article; je sai qu’on dira
+<lb/>beaucoup de mal et quelque bien de moi, aussi m’en a-t-on fait
+<lb/>tater de l’un et de l’autre; mais en verité j’ai oublié de tres bon coeur le mal qu’on m’a
+<lb/>fait pendant que j’ai la memoire toute occupée du bien, que j’ai recu à <abbr>S.</abbr> <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs>
+<lb/>Monsieur <rs type="person">G.......</rs> revient il aux conferences depuis mon depart? Quelles pieces ont eté lues à l’Academie?
+<lb/>sur quel pied sont les affaired de l’Academie &amp;c? Voilà bien des questions pour un homme tel que vous
+<lb/>accoutumé à employer toutes les minutes pour l’avancement et le bien des sciences.
+<lb/>Mais vous y repondrez à votre bon loisir et sur tout sans application: car je me pretens pas d’a voir
+<lb/>commerce avec vous autrement que d’ami à ami, ni que nos lettres soyent faites
+<lb/>pour d’autres que nous memes. Quand je voudrai de mon coté que quelquechose vienne
+<lb/>à l’Academie, je prendrai la liberté de vous le dire expressement. Je ne laisserai
+<lb/>pourtant pas de faire, quand je serai à <rs key="place_GEO-2661604" type="place">Bale</rs>, que mes lettres vous soyent aussi
+<lb/>en quelques manieres utiles pourperfectioner les sciences. Mais revenons à nos moutons.
+<lb/>Aprez avoir lû votre memoire, le tems se grossit peu à peu, et nous fumes si bien
+<lb/>bercés toute la nuit, que nous en eumes tout le mal que l’on a coutume de sentir sur la
+<lb/>mer, <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-11931035X" type="person">Mairan</rs> et moi: mais aussi est-ce là le seul tribut que nous avons payé
+<lb/>jusqu’à present à Neptune [cependant nous sommes à l’heure qu’il est (le 5. juill.) à <rs key="place_VER-gotland" type="place">Gott
+<lb break="no"/>land</rs> tout prets à jetter l’ancre pour aller faire de nouvelles provisions]. le matin le
+<lb/>vent nous força de nous retirer dans le port de <rs type="place">Petershof</rs>, où nous restâmes jusqu’à 11 heures
+<lb/>et nous arrivâmes lundi au soir à <rs key="place_GEO-540771" type="place">Cronstatt</rs>. Nous en sommes partis le 27. à 11 <abbr>h.</abbr>
+<lb/>du matin. Sur le soir nous rencontrames la flotte à 4 milles de <rs key="place_GEO-540771" type="place">Cronstatt</rs>. Nous saluames
+<lb/>le vaisseau Admiral en baissant les voiles et par 5. huées des matelots; on nous repondit
+<lb/>par une huée. Notre lieutenant alla faire ses devoirs à l’admiral, pendant que nous louvo
+<lb break="no"/>yions pour ne nous pas eloigner de la flotte: quelque tems aprez l’admiral nous envoya
+<lb/>sa chaloupe pour nous inviter de venir à son bord: nous y allames et ce n’etoit pas sans
+<lb/>bien danser. <abbr>M<hi rend="sup">r</hi>.</abbr> <rs type="person">Gordon</rs> nous fit tous les honneurs et accueils possibles. Aprez cela etant
+<lb/>tous retournés à notre vaisseau nous continuames notre route. Notre navigation a
+<lb/>toujours eté la plus agreable du monde, sans avanture, ne pensant qu’à nous bien
+<lb/>divertir et faisant la meilleure chere du monde; car notre Lieutenant, qui est un homme
+<lb/>riche et genereux, a fait des provisions de toutes les sortes et bien loin de nous ressentir
+<lb/>de la moindre indigence, nous avons à l’ordinaire 6 à 8 plats de viandes chaudes tres
+<lb/>bien apretés. Le tems que nous n’employons pas à dormir ou à manger, nous le passons
+<lb/>à des concerts de musique, y ayant deux Musiciens à notre bord et le lieutenant en
+<lb break="no"/>tendant aussi la musique, à boire du thée et du caffé, ou du bountsch ou enfin à
+<lb/>jouer à l’ombre: quelquesfois je fais quelques observations et experiences concernant la
+<lb/>navigation, dont je vous rendrai conte, lorsque je serai de retour à <rs key="place_GEO-2661604" type="place">Bale</rs>. Aussi
+<lb/>me semble-t-il que ni mon <rs key="pers_DE-588-117589136" type="person">frere</rs> ni moi, ne [nous sommes jamais] si bien
+<pb facs="p3" n="3"/>
+<lb/>porté à <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> que nous nous portons à present. tous les officiers du vaisseau
+<lb/>sont tres obligeants rendant raison de tout ce qu’on leur demande et honnetes à tous egards.
+<lb/>mais surtout notre Lieutenant est l’homme du monde le plus honnete et gracieux,
+<lb/>que vous puissiez, tout francois que vous etes, vous imaginer pour un homme de son genre.
+<lb/>mon <rs key="pers_DE-588-117589136" type="person">frere</rs> vous fait ses respects; faites aussi nos obeissances à <abbr>Mad<hi rend="sup">e</hi>.</abbr> <rs key="pers_no_GND_id" type="person">Delisle</rs>
+<lb/>et à <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117639664" type="person">De la Croyere</rs>, duquel je vous prie de me donner des nouvelles. J’asseure
+<lb/>aussi de mes respects tous mes Amis et Confrères. Dites moi, ce que vous saurez
+<lb/>si Vous plait, de <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117608629" type="person">Bloumentrost</rs>. Enfin, mon Cher, Vous savez ce qu’il m’im
+<lb break="no"/>porte de savoir: Soyez bien persuadé, que s’il est possible de me rendre
+<lb/>digne de votre confiance, par des soins reciproques, je le ferai: Dites à un
+<lb/>chacun ce que votre prudence vous dictera comme venant de ma part et
+<lb/>honorez moi vous meme de vos conseils et de vos instructions. Je ne sai si
+<lb/>je pourrai parler à <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-119097060" type="person">de Maurepas</rs>: mais si je le pourrai: je lui dirai ce que
+<lb/>vous me dites dans votre memoire. Vous eussiez bien fait de me marquer quelques
+<lb/>autres Grands de votre cour, qui ont de l’influence sur les affaires de l’Academie
+<lb/>et de m’instruire de ce que je leur pourrois dire à peu prés pour votre interet.
+<lb/>si vous le jugez encor à propos, vous pourrez le faire dans la premiere lettre
+<lb/>que vous m’ecrirez. Je laisserai ce qui me reste ici de place pour le remplir
+<lb/>à <rs key="place_GEO-3099434" type="place">Dantzic</rs>, où nous esperons d’etre dans 3 ou 4 jours.
+</p>
+<p>
+<lb/>Nous voici enfin à <rs key="place_GEO-3099434" type="place">Dantzic</rs> <add>arrivés le <date when="1733-07-13">13. juillet</date></add>: mais mon Dieu! que le passage de <rs key="place_VER-gotland" type="place">Gottland</rs> à <rs key="place_GEO-3099434" type="place">Dantzic</rs>
+<lb/>nous a couté de peine: nous avons eté dans des frayeurs continuelles et je vous asseure
+<lb/>que des gens des plus determinés y auroient perdu contenance, car l’orage
+<lb/>etoit continuel et des plus forts. d’abord nous commencames par etre extremement
+<lb/>malades et à travailler de l’estomac: mais bientot aprez trop de frayeur
+<lb/>dissipa notre maladie; pour moi il m’impatienta que l’affaire fut faite,
+<lb/>et j’eusse regardé la lame qui nous eut englouti comme un homme
+<lb/>qui est sur la roue regarde le coup de grace. Cependant aprez
+<lb/>tout nous en avons eté quittes pour la peur, effet de la prophetie
+<lb/>par la quelle j’ai commencé cette lettre. Cependant mes hardes ont
+<lb/>beaucoup souffert; car <add>tout</add> etoit sans[sic!] dessous dessus; les portes memes
+<lb/>sortoient de leurs gonds et l’eau entroit par ruisseau dans notre
+<lb/>vaisseau. Vous voyez bien que cette lettre s’enressent: mais
+<lb/>en verité je n’ai pas le tems de copier ce que j’ai deja ecrit.
+</p>
+<p>
+<lb/>Je me suis aquitté de vos commissions pour <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-117523216" type="person">Klein</rs>. tout le monde
+<lb/>me comble d’honnetetés; cependant je vois bien que ce n’est qu’un
+<lb/>effet du sejour que j’ai fait à <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> Je trouve dans toutes
+<lb/>les compagnies beaucoup de peine à combattre les jugemens qu’on y
+<lb/>porte, comme si notre Academie alloit se dissoudre entierement
+<lb/>et il semble, que j’ai bien reuissi à les desabuser. j’attens
+<pb facs="p4" n="4"/>
+<lb/>de vos lettres avec impatience. Voici un billet pour <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-136986412" type="person">Gsell</rs>,
+<lb/>que je vous prie de Lui remettre. Je serai plus long sur le
+<lb/>chapitre de vos commissions dans ma premiere. j’ai apris
+<lb/>ici avec grand chagrin, que le <rs type="person">frere</rs> de <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-142873861" type="person">Beckenstein</rs> est
+<lb/>mort depuis 15 jours: si <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-142873861" type="person">Beckenstein</rs> est encor à <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs>
+<lb/>faites lui mes complimens de condoleance là dessus. J’ai aussi
+<lb/>apris que <abbr>M<hi rend="sup">r</hi>.</abbr> <rs key="pers_DE-588-118607308" type="person">Scheuchzer</rs> est mort et que son <rs type="person">frere</rs> Lui
+<lb/>a succedé: cedé: je Lui enverrai un de vos thermometres.
+</p>
+<closer><salute>
+<lb/>A Dieu, mon cher Monsieur; je suis comme vous savés
+<lb/>avec toute l’affection et estime possibles
+<lb/>Monsieur
+<lb/>votre tres humble et
+<lb/>tres obéissant <abbr>Serv.</abbr>
+</salute>
+<signed>
+<lb/><rs key="pers_DE-588-118656503" type="person">D. Bernoulli</rs>.
+</signed>
+<dateline>
+<lb/><rs key="place_GEO-3099434" type="place">Dantzic</rs> ce <date when="1733-07-17">17. <abbr>juill.</abbr> 1733</date>
+</dateline></closer>
+</div>
+</body>
+</text>
+</TEI>

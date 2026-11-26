@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170429992705501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Johann Jacob Scheuchzer. Basel,
+            02. Oktober 1722</title>
+          <title type="alt">000057275</title>
+          <title type="alt">1722-10-02_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_resource_000076">
+            <surname>Mazzei</surname>
+            <forename>Elena</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Kommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170429992705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170429992705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Auf p.20 befinden sich Adresse und Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Abschrift UB Basel L I a 667, Nr. 32</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://www.ub.unibas.ch/bernoulli/index.php/1722-10-02_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob">
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms. H 321, pp.17-20</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170429992705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406920005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057275</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1722-10-02">ce 2. 8bre
+              1722</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1722-10-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515277005501" type="prev"/>
+          <ptr target="B_991170429992305501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-JohIB" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117629049">Deidier, Antoine</persName>
+            <note type="lebensdaten">(1670-1746)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124799361">Hartsoeker, Nicolas</persName>
+            <note type="lebensdaten">(1656-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117013463">Hottinger, Johann Jakob</persName>
+            <note type="lebensdaten">(1652-1735)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1345651015">Montresse, Pierre</persName>
+            <note type="lebensdaten">(1671-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120970805">Nebel, Wilhelm Bernhard</persName>
+            <note type="lebensdaten">(1699-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12364433X">Ostervald, Jean Frédéric</persName>
+            <note type="lebensdaten">(1663-1747)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120379260">Scheuchzer, Johann</persName>
+            <note type="lebensdaten">(1684-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119356023">Turrettini, Jean Alphonse</persName>
+            <note type="lebensdaten">(1671-1737)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-12209025X">Werenfels, Samuel</persName>
+            <note type="lebensdaten">(1657-1740)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1722-10-02_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob"/>
+      </change>
+        <change>Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/919461/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1722-10-02_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="919476" n="17"/> Monsieur et treshonoré Ami</p>
+  <p>Lorsque Votre derniere avec le Traité sur la Bile des Pestiferés<note type="comment"
+            >Deidier, Antoine, <rs type="biblio" key="biblio_F88F5GVG"><hi rend="u">Expériences sur la bile &amp; les cadavres des
+              pestiferés, ... Accompagnées des lettres du dit Mr. Deidier, de Mr. Montresse, ... et
+              de J. Jac. Scheuchzer ...</hi></rs>, Zuric 1722.</note> arriva ici, j’étois à <rs type="place" key="place_GEO-2991214">Mulhause</rs>
+          prendre les Eaux de <rs type="place" key="place_GEO-2659224">Fefres</rs>,<note type="comment">Bernoulli trank in Mülhausen Wasser aus den Quellen von Pfäfers.</note> d’où je ne suis revenu que depuis peu de temps. J’ai lû les experiences
+          de M. <rs type="person" key="pers_DE-588-117629049">Deidier</rs>, elles me paroissent curieuses:<note type="comment">Zu Deidiers Schrift
+            und Theorie siehe den Brief von <rs key="B_991170515277105501" type="letter"
+              >1722.08.15</rs> sowie Signoli, Michel/Chevé, Dominique/Boëtsch, Gilles/Dutour,
+            Olivier, <rs type="biblio" key="biblio_XQGMUFDT"><hi rend="u">Du corps au cadavre pendant la Grande Peste de Marseille
+              (1720-1722): Des données ostéo-archéologiques et historiques aux représentations
+              sociales d’une épidémie</hi></rs>, in: Bulletins et Mémoires de la Société d’Anthropologie
+            de Paris, Nouvelle Série 10, 1-2 (1998), p. 99-120, hier pp. 114–116.</note> mais les
+          raisonnements que l’Auteur fait là dessus et les conclusions qu’il en tire ne me semblent
+          pas assez convaincantes pour batir un Systeme et une Theorie assurée de la peste, qui
+          puisse fournir une methode infaillible de guerir cette cruelle maladie. Les lettres de Mr.
+            Montresse<note type="comment">Im Zürcher Sammeldruck <rs type="biblio" key="biblio_F88F5GVG"><hi rend="u">Expériences sur la bile &amp; les cadavres des pestiferés</hi></rs> stehen zwei Briefe des Valencer Arztes Pierre de Montresse an Antoine Deidier (S. 31–33 und 61–64).</note> marquent assez qu’il n’accorde pas
+          à Mr. <rs type="person" key="pers_DE-588-117629049">Deidier</rs> les consequences qu’il deduit de ses experiences: En un mot tout me paroit
+          encore extremement obscur, et il me faut bien d’autres preuves que celles de M. <rs type="person" key="pers_DE-588-117629049">Deidier</rs>
+          pour me persuader que la source de la peste vienne uniquement de la bile, accoutumé comme
+          je suis à l’evidence geometrique je n’admets pas aisément de simples conjectures en place
+          de demonstrations, je ne me laisse pas payer de raisonnements faits en l’air, il me faut
+          sur tout de la clarté, il me faut appercevoir clairement comme le jour la connexion de
+          toutes les parties des raisonnements et la necessité des conclusions qu’on en deduit, sans
+          cela j’aime mieux suspendre mon jugement, que d’applaudir temerairement à un discours
+          pompeux et farci de specieuses raisons mais qui au fond ne sont que des apparences creuses
+          sans aucune solidité. Les contestations en France sur la constitution<note
+            type="comment">Mit ‹la constitution› ist die Bulle <hi rend="u">Unigenitus Dei Filius</hi> vom 8. September 1713 gemeint. Papst Clemens XI. verurteilte darin 101 Sätze aus Pasquier Quesnels Betrachtungen zum Neuen Testament.</note> commencent à m’ennuyer
+          egalement, j’en suis si saol que peu s’en faut que je n’en regorge, je regarde ces
+          niaiseries comme les retranchements des orthodoxes dans lesquels <pb facs="919477" n="18"
+          /> ils se battent en desesperés sans en oser sortir et sans risquer leur peau, car de
+          grace dites moi d’où vient que Mr. H. <note type="comment">Vermutlich Johann Jakob Hottinger (1652–1735). Johannes Scheuchzer nennt den Zürcher Theologen in seinem Bericht zum Konsensusstreit vom <rs type="letter" key="B_991170515079905501">14. Juni 1722</rs> ‹M. Hottinguer, notre Theologien›.</note> ni aucun autre de Vos braves Theologiens qui se roidissent
+          si fort pour la defense du formula ne prenne la plume à la main pour refuter l’ecrit de
+          notre M. Werenfels?<note type="comment">Werenfels, Samuel, <rs type="biblio" key="biblio_8879E547"><hi rend="u">Oratio de vero
+              &amp; falso theologorum zelo, Basileae a. MDCCXXII habita ...</hi></rs>, Tubingae
+            1722.</note> Il est vrai qu’on m’a dit que quelqu’un de <rs type="place" key="place_GEO-2658761">Schafouse</rs> a ecrit, qu’on se
+          prepare à <rs type="place" key="place_GEO-2657896">Zuric</rs> à tailler de la besoigne à nos Theologiens qui ont souscrit<note
+            type="editorial">Im Manuskript steht «soucript».</note> le dit Ecrit, mais je prens cela
+          pour de vaines menaces et pour des gasconnades; car assurement M.<hi rend="sup">rs</hi>
+          les Orthodoxes trouveront à qui parler; Ce qui m’étonne le plus c’est que le Clergé de
+          Berne a trouvé le moyen d’enchanter tellement son Magistrat si clairvoyant d’ailleur,
+          qu’il a condescendu avec lui à maintenir sur le Throne ce Tyran de consensus;<note
+            type="comment">Genf verlangte seit 1706 die Unterzeichnung der <hi rend="u"><ref
+                target="https://hls-dhs-dss.ch/de/articles/017201/2007-05-01/">Formula Consensus</ref></hi>
+            nicht mehr. Daraufhin meldeten sich starke Widerstände in der Genf benachbarten, jedoch
+            unter Berner Verwaltung stehenden Waadt. Am 15. April 1722 bestätigte der Berner Grosse
+            Rat mit 72 gegen 62 Stimmen den Beschluss des Kleinen Rates, an der Unterzeichnung
+            der Konsensusformel festzuhalten. Vgl. Moréri, <hi rend="u">Le grand dictionnaire
+              historique</hi> (Basel 1740), Bd. 3, <ref
+              target="https://www.e-rara.ch/download/pdf/27491333.pdf#page=36">S. 306, «Consensus»</ref>.
+            Eine Abordnung hatte in Lausanne für die Einhaltung dieses Beschlusses zu sorgen. Die
+            Waadtländer waren darüber teilweise sehr empört. Vgl. Rudolf Pfister,
+            <hi rend="u">Kirchengeschichte der Schweiz</hi> (Zürich 1985), Bd. 3, S. 11.</note> il y a je croi du mystere politique
+          dans ce manege. J’eus le bonheur de lire à <rs type="place" key="place_GEO-2991214">Mulhause</rs> l’Edition de la Formule avec des
+          notes, qui sont à ce qu’on croit de M. Alphonse Turretin,<note type="comment">Die
+            anonyme französische Fassung der Konsensusformel trägt den Titel <hi rend="u"
+              >Formulaire de consentement des Églises réformées de Suisse, sur la doctrine de la
+              grace universelle, &amp; les matières qui s’y rapportent, comme aussi sur quelques
+              autres articles. Traduit en françois, avec des remarques</hi>. Das Titelblatt nennt
+            weder Druckort noch Erscheinungsjahr; die Angaben [Amsterdam 1722] sind bibliographisch
+            ergänzt (siehe <ref target="https://www.lumieres.unil.ch/fiches/biblio/6444/">Lumières.Lausanne</ref>).
+            Gemäss Haller, Gottlieb
+            Emanuel von (ed.), <rs type="biblio" key="biblio_DP2FJNYD"><hi rend="u">Bibliothek der Schweizer-Geschichte und aller Theile, so
+              dahin Bezug haben</hi></rs>, Teil 3, Bern (R. A. Haller) 1786, <ref
+              target="http://www.e-rara.ch/zut/content/pageview/8381470">p. 183</ref>, liegt die
+            Urheberschaft der Anmerkungen vermutlich bei Jean Barbeyrac (1674–1744), während die
+            Übersetzung vermutlich von Barthélémy Barnaud angefertigt wurde. Siehe Pfister, <hi
+              rend="u">op. cit.</hi>, p. 12.</note> mais elle ne se trouve pas ici à vendre: j’ai
+          aussi lû les vers sur le Trifolium,<note type="comment">Zum «Trifolium» um Samuel Werenfels, Jean-Frédéric Ostervald und Jean-Alphonse Turrettini siehe Scheuchzers Brief vom <rs type="letter" key="B_991170515277105501">15. August 1722</rs>.</note> mais ils sont pitoyables; on y a fait une reponse que je n’ai
+          pas encore vuë. Si M.<hi rend="sup">rs</hi> les orthodoxes s’avisent de faire la guerre
+          par satyres et turlupinades, ils auront du pire, car certainement il y a parmi leurs
+          Antagonistes des Poëtes qui peutetre sont plus salés et plus satyriques que les leurs. </p>
+  <p>Non, Monsieur, je n’ai pas encore vû <hi rend="u">les Remarques sur deux passages d’une
+            These, que M. Bernoulli a fait soutenir par un certain Nebel son Ecolier</hi>,<note
+            type="comment">Nicolaus Hartsoekers <ref target="https://doi.org/10.3931/e-rara-4021"><hi rend="u">Recueil de plusieurs pieces de physique</hi></ref> erschien 1722 bei der Witwe von G. Broedelet und Söhnen in Utrecht. Darin stehen die <rs type="biblio" key="biblio_T8HIIAEH"><hi rend="u">Remarques sur deux passages d’une these que Mr. Bernoulli a fait soûtenir à Bâle par un certain Nebel son écolier</hi></rs> (<ref target="https://www.e-rara.ch/zut/content/pageview/1253115">S. 268</ref>–288). Zum Inhalt und zu Bernoullis handschriftlicher Antwort siehe den <rs type="letter" key="B_991170515277105501">Brief vom 15. August 1722</rs>.</note> on m’en a déja averti de 3 ou 4 differents endroits; si vous
+          aviez le Recueil de <rs type="person" key="pers_DE-588-124799361">Hartsoeker</rs> où ces Remarques se trouvent, Vous me feriez un sensible
+          plaisir de me le preter; on me dit que j’y suis fort mal<pb facs="919478" n="19"/>traité,
+          mais je m’en moque, car l’Auteur n’étant ni Geometre ni Philosophe, quoiqu’il se pique
+          d’étre l’un et l’autre, il me sera aisé de faire voir son ignorance; Il attaque tout le
+          monde, il raille tout le monde, il est le seul Philosophe, si Vous l’en croyez, <rs type="person" key="pers_DE-588-118639749">Huguens</rs>,
+          <rs type="person" key="pers_DE-588-118571249">Leibnits</rs>, <rs type="person" key="pers_DE-588-118587544">Newton</rs> et d’autres grands hommes ne sont que des enfants auprés de Lui, il les
+          traite de haut en bas, et Leur parle comme le Maitre à ses Ecoliers; il me semble qu’il
+          faudroit enfermer cet homme dans les petites maisons comme un insensé dont il faut avoir
+          compassion plutot que de s’en facher. Cependant il est assez hautain pour pretendre d’etre
+          le Moderateur ou l’Arbitre des formules quand il s’agiroit d’en faire dans le Monde
+          Philosophique. </p>
+  <p>Mes compliments à Mr. Vôtre Frere, à qui je souhaite toujours de reussir dans sa brigue
+          pour le greffierat de <rs type="place" key="place_GEO-2661646">Bade</rs>.<note type="comment">Johannes Scheuchzer (1684-1738) hat sich
+            für das Amt des Landschreibers der Grafschaft Baden beworben und die Stelle am 16. Juni
+            1723 erhalten. Siehe dazu den Brief von <rs key="B_991170515279405501"
+              type="letter">1723.06.19</rs>.</note> Je suis avec toute ma sincerité Monsieur Votre
+          treshumble et tres-obeissant Serviteur J. Bernoulli</p>
+  <p>Bâle ce 2. 8bre 1722.</p>
+  <p><pb facs="919479" n="20"/> A Monsieur</p>
+  <p>Monsieur J. J. Scheuchzer</p>
+  <p>tres-Celebre Docteur en medecine</p>
+  <p>et Professur des mathematiques</p>
+  <p>à </p>
+  <p>Zuric </p>
+      </div>
+    </body>
+  </text>
+</TEI>

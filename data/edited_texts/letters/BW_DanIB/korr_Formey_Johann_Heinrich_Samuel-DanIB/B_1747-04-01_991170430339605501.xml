@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430339605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I und Johann II Bernoulli an Jean Henri Samuel Formey. Basel, 01. April 1747</title>
+          <title type="alt">1747.04.01: Bernoulli, Johann (1710-1790) an Formey, Jean Henri Samuel (1711-1797)</title>
+          <title type="alt">000058332</title>
+          <title type="alt">1747-04-01_Bernoulli_Johann-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430339605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430339605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Formey, Johann Heinrich Samuel (1711-1797)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf "Avril 1747". Signiert "les frères Bernoulli"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Berlin, Staatsbibliothek, Sgl. Autographa</repository>
+            <idno type="callNumber">Unbekannt</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430339605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406957805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058332</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>24</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1747-04-01">ce 1. Avril 1747</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1747-04-01"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119353210">Formey, Jean Henri Samuel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516483405501" type="prev"/>
+          <ptr target="B_991170430339505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Formey_Johann_Heinrich_Samuel-JohIIB" corresp="pers_DE-588-119353210" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514630505501" type="prev"/>
+          <ptr target="B_991170429991605501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Formey_Johann_Heinrich_Samuel-DanIB" corresp="pers_DE-588-119353210" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Dankschreiben (auch im Namen seines Bruders Dan. I B.) für die Aufnahme in die Berliner Akademie</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="2024-02-26" who="RG">Kleine Anpassungen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="manifests/M_1747-04-01_991170430339605501"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <pb facs="https://e-editiones.org/canvas/M_1747-04-01_991170430339605501/1" n="1"/><opener><salute>Monsieur,</salute></opener>
+  <p>Nous venons de recevoir les Diplomes de nôtre reception dans l’Académie Royale de <rs key="place_GEO-2950159" type="place">Berlin</rs> avec la lettre, dont vous avés bien voulu les accompagner. Nous sommes infiniment flattés, Monsieur, d’un honneur qui nous met immédiatement sous la protection d’un si grand Monarque et qui nous reunit avec tant de personnes respectables par toutes sortes dendroits sous un Président si bon Connoisseur du vrai mérite, qui nous fait l’honneur d’être de nos Patrons depuis bien des années et que nous osons en même tems appeler <pb facs="https://e-editiones.org/canvas/M_1747-04-01_991170430339605501/2" n="2"/> le meilleur de nos amis sans craindre de manquer ou plûtôt pour ne pas manquer à ce que nous lui devons.</p>
+  <p>Nous vous assurons, Monsieur, et nous vous prions d’assurer de nôtre part M. le Président et ceux qui veulent bien nous agréer pour Collèques que nôtre reconnoissance n’est point au dessous de l’honneur qu’ils nous font et que nous ne negligerons aucune occasion de leur en donner des preuves réelles. Nous saisirons aussi avec empressement toutes celles de vous persuader en particulier de la parfaite considération avec laquelle nous avons l’honneur d’étre Monsieur</p> <closer><dateline>Bâle ce <date when="1747-04-01">1. Avril 1747</date></dateline> <salute>Vos trés humbles et trés obéissants serviteurs les frères Bernoulli.</salute></closer>
+</div>
+</body>
+</text></TEI>

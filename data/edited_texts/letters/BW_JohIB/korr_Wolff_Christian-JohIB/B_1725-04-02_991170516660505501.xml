@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516660505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Christian Wolff an Johann I Bernoulli. Marburg, 02.
+            April 1725</title>
+          <title type="alt">000057853</title>
+          <title type="alt">1725-04-02_Wolff_Christian-Bernoulli_Johann_I</title>
+          <title level="s">Basler Edition
+            der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516660505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516660505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Wolff, Christian (1679-1754) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Letzte Seite leer</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-15941">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 671, Nr.31*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516660505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433423305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057853</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>21,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Marpurgi</origPlace>
+              <date when="1725-04-02">d. 2 April.
+                1725</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118634771">Wolff, Christian von</persName>
+          <placeName key="place_GEO-2873759" ref="https://d-nb.info/gnd/4037446-4">Marburg</placeName>
+          <date when="1725-04-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524875205501" type="prev"/>
+          <ptr target="B_991170516660405501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Wolff_Christian-JohIB" corresp="pers_DE-588-118634771" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118663208">Bilfinger, Georg Bernhard</persName>
+            <note type="lebensdaten">(1693-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-141535504">Golofkin, Alexander</persName>
+            <note type="lebensdaten">(1688-1760)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118592955">Peter</persName>
+            <note type="lebensdaten">(1672-1725)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-29" who="SG">Manuelle deutsche Arbeitsübersetzung von FN vollständig am Ausgangstext geprüft und unmittelbar überarbeitet. Angenommene Verbesserungsvorschläge in den Wortlaut eingearbeitet, fehlende Briefpassagen ergänzt und offene sprachliche, mathematische sowie sachliche Fragen als interne Anmerkungen mit resp="FN" festgehalten. Ausgangstext unverändert; Übersetzung und Anmerkungen weiterhin resp="FN", subtype="internal" und status="unreviewed".</change>
+        <change when="2026-09-16" who="SG">Deutsche Arbeitsübersetzung mit der lateinischen Transkription abgeglichen. 1 interne Verbesserungsvorschläge als note type="internal" mit resp="FN" ergänzt. Verantwortlichkeit der Übersetzung und ihrer Anmerkungen auf FN präzisiert. Übersetzungswortlaut unverändert; redaktionelle Annahme der Vorschläge ausstehend, Status weiterhin unreviewed.</change>
+        <change when="2026-09-16" who="SG">Vorhandene manuelle deutsche Arbeitsübersetzung von Fritz Nagel in Zusammenarbeit mit Sulamith Gehr aus «Briefw JohIB Wolff Dt Uebers Arbeitsversion.sxw» übernommen, einschliesslich der zugehörigen Fussnoten; technische Übernahme als interne, noch zu prüfende Übersetzungsfassung. Offene Stellen der Vorlage und ausstehende Layoutzuordnung als XML-Kommentare dokumentiert.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1725-04-02_Wolff_Christian-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2008-05-08" who="FN SG">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/808427/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1725-04-02_Wolff_Christian-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="808429" n="1"/> Viro Celeberrimo atque Amplissimo </p>
+  <p>Joanni Bernoulli </p>
+  <p>S. P. D. </p>
+  <p>Christianus Wolfius. </p>
+  <p>Ut videas, quomodo mihi cordi sint, quae Filium tuum<note type="comment" resp="pers_DE-588-117433391X">Daniel
+            Bernoulli.</note> tangunt, Vir Celeberrime, ecce Tibi literas<note type="comment" resp="pers_DE-588-117433391X"
+            >Dieser Brief ist nicht erhalten.</note> illustrissimi Dn. Legati!<note type="comment" resp="pers_DE-588-117433391X"
+            >Alexander Golovkin.</note> Cum scripserim, commodum videri, si ad literas filii tui
+          ipsimet respondeat; responsum ignoro: puto tamen fore tale, ut in eo acquiescere possit.
+          Cl. Bülffingerus dubio procul significavit, quod jam abitum meditetur: idem heri
+          significavit Cel. Hermannus,<note type="comment" resp="pers_DE-588-117433391X">Ein Brief Hermanns an Wolff mit dieser
+            Information ist nicht erhalten.</note> qui jam dimissionem a Rege Borussiae<note
+            type="comment" resp="pers_DE-588-117433391X">Friedrich Wilhelm I., König von Preussen.</note> impetravit, antequam
+          Russorum Monarcha<note type="comment" resp="pers_DE-588-117433391X">Peter der Grosse.</note> e vivis excederet.
+          Scripseram ad eum nonnulla de tuis querelis: sed respondet ipse,<note type="comment" resp="pers_DE-588-117433391X">Der
+            Briefwechsel von Jacob Hermann mit Christian Wolff ist nicht erhalten.</note> sibi tecum
+          nullam simultatem publice fuisse, rem fuisse cum filio,<note type="comment" resp="pers_DE-588-117433391X">Nicolaus II
+            Bernoulli.</note> testibus Actis Eruditorum, adversus quem se modeste defenderit.<note
+            type="comment" resp="pers_DE-588-117433391X">Hermann, Jacob, <hi rend="u">Solutio propria duorum problematum
+              geometricorum</hi> (1723) (= <rs type="biblio" key="biblio_BK8NV7LW">Na. 037</rs>).</note> Quodsi inscio exciderint quaedam verba, quae Tibi, Vir
+          celeberrime, displicuerunt, et sibi jam ea displicere nulloque animo aegre faciendi, multo
+          minus injuriandi fuisse prolata. Se enim ingentia in <pb facs="808430" n="2"/> rem
+          mathematicam merita tua etiamnum suspicere et maximi aestimare semperque aestimasse:
+          optasse tantum, ut Cl. filius tuus natu major<note type="comment" resp="pers_DE-588-117433391X">Nicolaus II
+            Bernoulli.</note> talia non publicasset, quae responsionem ab invito extorserint.
+          Consultissimum igitur mihi videtur, ut controversia cum Filio Tuo tandem quiescat, ne
+          exteri inde arripiant ansam triumphandi de Germanis. Video enim et Gallos a morte
+          Leibnitii magis praebere indicia animi erga Germanos alieni, putoque post fata tua non
+          defuturos, qui plura praebituri. Scripseram nuper<note type="comment" resp="pers_DE-588-117433391X">Ein Brief Wolffs
+            an ’sGravesande ist nicht erhalten.</note> Gravesandium in Operum Keillianorum
+            editione<note type="comment" resp="pers_DE-588-117433391X">Keill, John [’sGravesande, G.J. (ed.)], <hi rend="u"
+              >Introductiones ad veram physicam et veran astronomiam. Quibus accedunt Trigonometria.
+              De viribus centralibus. De Legibus attractionis</hi>, Lugduni Batavorum (J. et H.
+            Verbeer) 1725.</note> omisisse scripta eristica: unicum tamen in iis comparet, quod Te
+          tangit, nempe schediasma de problemate inverso virium centralium,<note type="comment" resp="pers_DE-588-117433391X"
+            >Keill, John, <hi rend="u">Johannis Keilii, M. D. &amp; in Academia Oxoniensi
+              Astronomiae Professoris Saviliani, Observationes in ea, quae edidit celeberrimus
+              Geometra Joannes Bernoulli, In Commentariis Physico-Mathematicis Parisiensibus Anno
+              1710 de inverso Problemate virium Centripetarum. Et ejusdem Problematis solutio
+              nova</hi>, in: Keill, John [’sGravesande, G.J. (ed.)], <hi rend="u">Introductiones ad
+              veram physicam et veran astronomiam. Quibus accedunt Trigonometria. De viribus
+              centralibus. De Legibus attractionis</hi>, Lugduni Batavorum (J. et H. Verbeer) 1725,
+            pp. 598–620.</note> quo stricturae in Solutionem tuam Commentariis Academiae Regiae
+          Scientiarum insertam<note type="comment" resp="pers_DE-588-117433391X">Bernoulli, Johann I <rs type="biblio" key="biblio_KWBAKL7T">Op. LXXXVI</rs>, <hi rend="u">Extrait de la Réponse de M. Bernoulli à M. Herman,
+              datée de Basle le 7. Octobre 1710</hi>, in: Mém. Paris 1710 (1712), pp.
+            521–533.</note> continentur. Aequitatis erat, ut vel adjiceret responsionem tuam, vel
+          saltem indicaret, ubi a Te iisdem sit satisfactum. In altero schediasmate de viribus
+            centralibus<note type="comment" resp="pers_DE-588-117433391X">Keill, John, <hi rend="u">Johannis Keillii ex aede
+              christi oxoniensis, a. m. epistola ad Clarissimum Virum Edmundum Hallejum, Geometriae
+              Professorem Savilianum, de legibus virium centripetarum</hi>, in: Keill, John
+            [’sGravesande, G.J. (ed.)], <hi rend="u">Introductiones ad veram physicam et veran
+              astronomiam. Quibus accedunt Trigonometria. De viribus centralibus. De Legibus
+              attractionis</hi>, Lugduni Batavorum (J. et H. Verbeer) 1725, pp. 585–597.</note>
+          legitur accusatio, qua Leibnitius plagii reus sistitur in publicando calculo
+            differentiali:<note type="comment" resp="pers_DE-588-117433391X">op. cit., p. 594.</note> quod occasionem dare
+          poterat distincte ad Commercium literarium<note type="comment" resp="pers_DE-588-117433391X">Collins, John, <hi
+              rend="u">Commercium epistolicum D. Johannis Collins, et aliorum de analysi promota:
+              jussu Societatis regiae in lucem editum</hi>, Londini (Pearson) 1712.</note>
+          respondendi, ne videretur quaesita, sed oblata. Enimvero cum Cl. Bülffingerus prope<pb
+            facs="808431" n="3"/>diem abiturus sit, non video, quemnam huic labori sufficere liceat.
+          Immo praestat non renovare litem. Utilior mihi videretur labor, qui impenderetur,
+          historiae conscribendae, sed tali, unde non modo pateret, quibus luminibus aliquis saltem
+          uti potuerit, si non usus fuerit, verum etiam qualibus artificiis heuristicis. Monmortium
+          huic labori non suffecisse persuasissimus sum,<note type="comment" resp="pers_DE-588-117433391X">Laut einer Notiz in
+            Hist. Paris (1719) 1721, p. 92 arbeitete Montmort an einer «Histoire de la Géometrie».
+            Diese Arbeit führte jedoch zu keiner Publikation. Siehe auch den Brief von Georg
+            Bernhard Bilfinger an Johann Bernoulli von <rs key="B_991170514737905501"
+              type="letter">1723.10.15</rs>.</note> propterea quod metaphysicae de anima principiis
+          non fuerit satis imbutus. Habet enim et ipsa suas leges, quas in operationibus suis
+          violare nequit, atque per eas determinatur actus eorum, quae per facultates fieri possunt.
+          Hac sane via demum demonstrari poterit ingeniorum praestantia, de qua inutiliter nunc
+          controvertitur, et palam futurum est, quinam de eadem ex vano glorientur. Vale, Vir
+          Praestantissime, et fave. </p>
+  <p>Dabam Marburgi d. 2 April. 1725. </p>
+        <pb facs="808432" n="4" type="empty"/>
+      </div>
+
+    </body>
+  </text>
+</TEI>

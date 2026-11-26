@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517063505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Christoph Eglinger. Ohne Ort, 24. Februar 1717</title>
+          <title type="alt">1717.02.24: Bernoulli, Nicolaus (1687-1759) an Eglinger, Christoph ()</title>
+          <title type="alt">000059095</title>
+          <title type="alt">1717-02-24_Bernoulli_Nicolaus-Eglinger_Christoph</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517063505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517063505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Eglinger, Christoph (1686-1733)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Datum mit anderer Tinte</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39559">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.136:2r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517063505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433686105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059095</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>20</height><width>14,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1717-02-24">24. Febr. 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1717-02-24"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1016188056">Eglinger, Christoph</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517065805501" type="prev"/>
+          <ptr target="B_991170517063205501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Eglinger_Christoph-NicIB" corresp="pers_DE-588-1016188056" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-135542286">Bernoulli, Niklaus</persName>
+            <note type="lebensdaten">(1662-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104265264">Morgagni, Giambattista</persName>
+            <note type="lebensdaten">(1682-1771)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-23" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-02-13" who="CG SG">Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1361298/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1361299" n="1"/>
+  <note hand="pers_DE-588-119166895">Ad <abbr>Domin.</abbr> D. <rs key="pers_DE-588-1016188056" type="person">Eglinger</rs>.</note>
+  <opener><lb/><salute>Vir Clarissime et Excellentissime<supplied>,</supplied> Amice charissime.</salute></opener>
+  <p><lb/>Quas ad me consolandum de funesta quam feci jactura ex obitu
+      <lb/><rs key="pers_DE-588-135542286" type="person">Parentis</rs> mei dedisti <rs type="lostletter">literas</rs> mihi fuerunt gratissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, tum quia veter<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice>
+      <lb/>tuum erga me amicum animum abunde mihi probarunt, tum quia
+      <lb/>argumentis ex Religione nostra petitis tristem meum animum<del><gap/></del>
+      <lb/><del><gap/></del>si non penitus erexerunt, non leviter tamen confirmarunt. Spero Divini
+      <lb/>spiritus gratiam, quam tam pio mihi apprecaris voto, suo tempore perfe<pc type="hyphenation">-</pc><lb break="no"/>cturam <add>esse</add>, quod eloquentia tua Christiana ob fragilitatem meam
+      <lb/>fortassis nondum efficere potuit. Vix enim est, ut ex vulnere hoc
+      <lb/>non una ratione gravissimo convalescam, nisi Deus <abbr>O. M.</abbr> opem
+      <lb/>ferat, cujus proinde voluntati ut me unice co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ittam, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quum est.
+      <lb/>Monitum illud <rs key="pers_DE-588-118530577" type="person">Epictetium</rs> <foreign xml:lang="grc">ἀνέχου καὶ ἀπέχου</foreign><note type="editorial">Stoische Lebensregel: «Ertrage und enthalte dich».</note>, quod in memoriam
+      <lb/>mihi revocas ad <foreign xml:lang="grc">πράξιν</foreign> transferre pro viribus conabor, Deum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>precabor, ut ulteriores calamitates quas ob monitum illud ne<pc type="hyphenation">-</pc><lb break="no"/>glectum me meruisse confiteor <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me auferat. Me <del><gap/></del>etiam
+    <lb/>Te <del><gap/></del><add>et</add> <rs key="pers_DE-588-115235079X" type="person">famili<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> Tu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice></rs> honoratissim<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> diutissime incolumem conser<pc type="hyphenation">-</pc><lb break="no"/>vet omnique vera prosperitate beet, et inprimis <add>firma valetudine donet</add> Amplissimos
+    <lb/><abbr>Dnos</abbr> <rs key="pers_DE-588-116082356" type="person">Socerum</rs> et <rs key="pers_DE-588-1074353838" type="person">Prosocerum</rs> Tuum, <del><gap/></del>quibus si <add>data occasione</add> debit<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>obsequii et honoris cultum meo nomine offeres, gratum mihi facies.
+    <lb/>Salutem dic quoque, <add>si</add> placet, <abbr>D.</abbr> <rs type="person">Affini</rs><note type="editorial">Als Schwager kommen sowohl <rs key="Johann Jakob Battier (1701–1771" type="person">Christoph Battier</rs> als auch Johann Jakob Battier (1701–1771) in Betracht.</note> Tuo, cujus ut et Tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> amiciti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>me porro co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endo. Vix quisquam est ex <rs type="person">Professoribus</rs> nostris,
+      <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> quo novi quid tibi non displiciturum sperare liceat, nisi forte
+      <lb/>ab Anatomico nostro <abbr>D.</abbr> <rs key="pers_DE-588-104265264" type="person">Morgagni</rs>, Viro perhumano et mihi ami<pc type="hyphenation">-</pc><lb break="no"/>co. Si quid ab illo vel alio Auctore scitu dignum prodeat tecum co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>u<pc type="hyphenation">-</pc><lb break="no"/>nicab<del><gap/></del><add>i</add>t Tuus, quem ad omnia officia paratum habes,</p>
+  <closer><lb/><signed><rs key="pers_DE-588-119166895" type="person">NB.</rs></signed>
+<dateline><date when="1717-02-24">24. <abbr>Febr.</abbr> 1717</date>.</dateline></closer>
+</div>
+</body>
+</text></TEI>

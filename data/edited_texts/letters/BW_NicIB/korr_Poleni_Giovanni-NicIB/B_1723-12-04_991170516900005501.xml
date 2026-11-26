@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516900005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Giovanni Poleni an Nicolaus I Bernoulli. Padua, 04. Dezember 1723</title>
+          <title type="alt">Giovanni Poleni an Nicolaus I Bernoulli. Padua, 4. Dezember 1723</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516900005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516900005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Poleni, Giovanni (1683-1761)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Word</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39677">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.244</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516900005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433522405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059424</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23,5</height><width>17,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <abbr>Pad.<hi rend="sup">a</hi></abbr>
+              </origPlace>
+              <date when="1723-12-04">4 Dic.<hi rend="sup">e</hi> 1723</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+          <placeName key="place_GEO-3171728" ref="https://d-nb.info/gnd/4044295-0">Padua</placeName>
+          <date when="1723-12-04"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516900105501" type="prev"/>
+          <ptr target="B_991170516899905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Poleni_Giovanni-NicIB" corresp="pers_DE-588-11887733X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ita">Italienisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024" who="SG">erneut kollationiert</change>
+        <change when="2022-11-10" who="EK">transformation xml</change>
+        <change when="2005-12-12" who="FN SG">transkribiert und kollationiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1362213/manifest"/></facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1362214" n="1"/>
+  <opener><abbr>Ill.<hi rend="sup">mo</hi></abbr> <choice><abbr>S.<hi rend="sup">re</hi></abbr><expan>Signore</expan></choice> <choice><abbr>S.<hi rend="sup">re</hi></abbr><expan>Signore</expan></choice> <choice><abbr>P<supplied>.</supplied>rone</abbr><expan>Patrone</expan></choice> <choice><abbr>Col<supplied>.</supplied>mo</abbr><expan>Colendissimo</expan></choice>
+      <lb/><dateline><rs key="place_GEO-3171728" type="place"><abbr>Pad.<hi rend="sup">a</hi></abbr></rs> <date>4 <abbr>Dic.<hi rend="sup">e</hi></abbr> 1723</date>.</dateline></opener>
+  <p>Hò stampate due <rs type="biblio">letterucie</rs>, l’una astronomica, l’altra
+      <lb/>analitica<choice><orig>:</orig><reg>,</reg></choice> e ne hò mandati tre esemplari ad’un’
+      <lb break="no"/><rs type="person">amico</rs> mio di <rs key="place_GEO-6542113" type="place">Brescia</rs>, il quale hà costà corrispondenza
+      <lb/>accioche li faccia à <choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> avere esenti di porto. Uno
+      <lb/>è <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> Lei<choice><orig>;</orig><reg>,</reg></choice> l’altro <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> l’<abbr>Ill.<hi rend="sup">mo</hi></abbr> <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118509969" type="person">Giovanni suo Zio</rs>, ed’
+      <lb break="no"/>il terzo <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> il <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117589144" type="person">Niccolò di Lei Cugino</rs>, ambi Padroni
+      <lb/>miei distinti, cui Ella è pregata di umiliare in mio
+      <lb/>nome li più divoti sinceri rispetti, benignamente
+      <lb/>raccomandandomi alla grazia Loro. Quì non abbiamo
+      <lb/>nello <rs type="organisation" key="org_DE-588-10021039-9">Studio</rs> altra novità, che la vicinanza dell’
+      <lb break="no"/>Ingresso del <abbr>S.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-100345557">Facciolati</rs>, sostituito al <abbr>S.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-1365411451">Cervini</rs>,
+      <lb/>che fù giubilato; e poco alla giubilation sopravisse.
+      <lb/>Neppur di libri èvi cosa alcuna da nuovo, degna di
+      <lb/>riflesso: e circa le chiarle<note type="comment">«chiarle» ist eine seltenere Form für «ciarle» und bedeutet «leeres Gerede».</note>, delle quali da qualche
+      <lb/>tempo quì è abbondànza, anzi che nò; io giudico più
+      <lb/>saggio partito il non abbadarvi. L’onestà, et il
+      <lb/>tempo faran facilmente essi. Ma venghiamo à
+      <lb/><choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice><supplied>,</supplied> come se la passa Ella? egli è ormai molto
+<pb facs="1362216" n="2"/>
+      <lb/>tempo, che non hò vedute di Lei lettere: hò <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice>ò
+      <lb/>il contento di sa<choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice>e che goda buona salute. Buona ed’
+      <lb break="no"/>ottima glela imploro da Iddio Signore Onnipotente
+      <lb/>unita alle più desiderabili felicità <choice><orig>si</orig><reg>sì</reg></choice> al principio
+      <lb/>del nuovo anno che si accosta, come <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> lunga serie
+      <lb/>d’altri, ne quali le avenga tutto ciò, che può
+      <lb/>essere oggetto <choice><sic>della</sic><corr>delle</corr></choice> saggie di Lei idee. Aggradisca
+      <lb/><choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice> questi ossequiosi e sinceri sentimenti dell’
+      <lb break="no"/>animo mio<choice><orig>:</orig><reg></reg></choice> e conservandomi la pretiosa sua
+      <lb/>grazia, continui pure ad’aggradir benignamente
+      <lb/>che io sia tale, qual mi sottoscrivo</p>
+  <closer>Di <choice><abbr>V<supplied>.</supplied></abbr><expan>Vostra</expan></choice> <choice><abbr>S<supplied>.</supplied></abbr><expan>Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">ma</hi></abbr><expan>Illustrissima</expan></choice>
+      <lb/><choice><abbr>Di.<hi rend="sup">mo</hi></abbr><expan>Divotissimo</expan></choice> <choice><abbr>Obbl.<hi rend="sup">mo</hi></abbr><expan>Obbligatissimo</expan></choice> <choice><abbr>serv.<hi rend="sup">e</hi></abbr><expan>servitore</expan></choice> et Amico <unclear reason="illegible">vero</unclear>
+      <lb/><rs key="pers_DE-588-11887733X" type="person">Giovanni Poleni</rs>
+  </closer>
+</div>
+</body>
+</text></TEI>

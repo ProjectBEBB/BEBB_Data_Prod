@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170523990805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Jean Jacques de Mairan. Basel, 21. Januar 1733</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170523990805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170523990805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+        <idno type="BEBB" subtype="former" xml:id="B_991170514760205501">B_991170514760205501</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf "M. Dan. Bernoulli de Basle le 21. janv. 1733"</p>
+          <p>Der Name des Adressaten ergibt sich aus dem Inhalt</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Fotokopie (negativ) findet sich unter Signatur L Ia 53:Nr.19</p>
+        </note>
+        <relatedItem>
+          <bibl>Negative Fotokopie des Briefes, <orgName>Universitätsbibliothek Basel</orgName>, <idno type="callNumber">UBH L Ia 53, Nr. 19</idno>. <ref target="https://swisscollections.ch/Record/991170514760205501">Katalogisat der Fotokopie</ref>.</bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-88576">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Autogr Geigy-Hagenbach 765</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170523990805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972439366205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000307918</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1733-01-21">le 21. janv. 1733</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1733-01-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170429990305501" type="prev"/>
+          <ptr target="B_991170429989505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mairan_Jean_Jacques_Dortous_de-DanIB" corresp="pers_DE-588-11931035X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117631655">L'Isle, Joseph Nicolas de</persName>
+            <note type="lebensdaten">(1688-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117507180">Feuillée, Louis</persName>
+            <note type="lebensdaten">(1660-1732)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-17">Original und negative Fotokopie als Überlieferungszeugen desselben Briefes zusammengeführt; konstituierten Text und Revisionsgeschichte der Fotokopie in den Datensatz des Originals übernommen.</change>
+        <change when="2026-05-04" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-05-04" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-04" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-04" who="RG">NER Erkennung</change>
+        <change when="2026-04-13" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/2541716/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+
+
+<pb facs="2541717" n="1"/>
+    <lb/><note hand="unknown">M. <rs key="pers_DE-588-118656503" type="person"><abbr>Dan.</abbr> Bernoulli</rs> de <rs key="place_GEO-2661604" type="place">Basle</rs>
+    <lb/>le <date when="1733-01-21">21. <abbr>janv.</abbr> <choice><sic>1731</sic><corr>1733</corr></choice></date></note>
+  <opener><lb/>Monsieur</opener>
+  <p><lb/>Il y a <date>dix jours</date>, que je <choice><orig>recus</orig><reg>reçus</reg></choice> Votre beau present,
+      <lb/>je veux dire<supplied>,</supplied> Votre <rs type="biblio">traité de l’aurore boreale</rs>: j’ai
+      <lb/>differé à Vous en temoigner mes remercimens, comme
+      <lb/>j’ai l’honneur de m’en aquiter ici, pour Vous dire
+      <lb/>en meme tems, que je l’ai parcour<del><gap/></del><add>u</add><choice><orig>,</orig><reg type="deleted"/></choice> avec une satisfa<pc type="hyphenation">-</pc><lb break="no"/>ction proportionée à l’avidité, que Votre merite avoit
+      <lb/>fait naitre en moi. Je ne sai, Monsieur, si c’est un
+      <lb/>compliment à faire, mais je vous dirai naïfement,
+      <lb/>que Vous avez surpassé mon attente<choice><orig>,</orig><reg>;</reg></choice> non que
+      <lb/>je n’aye eu lieu de tout attendre de Votre pene<pc type="hyphenation">-</pc><lb break="no"/>tration et de Vos lumieres, mais que la matiere
+      <lb/>ne m’ait pas paru assez fertile ni susceptible
+      <lb/>à faire les experiences necessaires. Mais je vois
+      <lb/>que je me suis trompé: Car tout ce que Vous dites
+      <lb/>a un raport tres lié avec Votre systeme<supplied>,</supplied> et Votre
+      <lb/>theorie m’a paru avoir toute la certitude qu’on
+      <lb/>peut avoir en fait de phisique. Je ne saurois
+      <lb/>plus douter, que l’aurore boreale ne vienne de l’atmo<pc type="hyphenation">-</pc><lb break="no"/>sphere solaire: je suis charmé qu’on puisse demon<pc type="hyphenation">-</pc>
+<pb facs="2541718" n="2"/>
+      <lb break="no"/>trer ainsi que la terre nage dans cette atmo<pc type="hyphenation">-</pc><lb break="no"/>sphere, etant <del><gap/></del>confirmé <add>par là</add> dans l’opinion que j’ai
+      <lb/>toujours eu<del><gap/></del><add>e</add> que tout le systeme des planetes y est
+      <lb/>enveloppé. Vous faites ensuite voir de quelle maniere
+      <lb/>les parties, qui causent la lumiere, peuvent etre chassées
+      <lb/>vers le nord et meme un peu du coté de l’occident,
+      <lb/>et cela par des loix connues dans la mechanique.</p>
+  <p><lb/>Enfin tout sent son Autheur. Je Vous en fais,
+      <lb/>Monsieur, mes complimens, tant pour avoir
+      <lb/>si bien reuissi dans Votre entreprise, qui
+      <lb/>etoit Votre premier but, que <del><gap/></del><add>pour</add> avoir sçu si
+      <lb/>bien appliquer les mathematiques pures; sans
+      <lb/>cette aplication j’aurois presque honte de les aimer;
+      <lb/>mais Vous faites voir qu’elles sont pour le moins
+      <lb/>autant estimables qu’aimables.</p>
+  <p><lb/>Quant à l’atmosphere de l’air, dont Vous parlés aussi,
+      <lb/>on a crû ordinairement que les densités devoient etre
+      <lb/>exprimées par les appliquées d’une logarithmique:
+<pb facs="2541719" n="3"/>
+      <lb/>cela seroit ainsi infailliblement, s’il y avoit dans toute
+      <lb/>l’atmosphere un meme degré de chaleur (pour la diversité
+      <lb/>des forces centrifuges, elle ne sauroit etre d’un grand effet);
+      <lb/>mais l’experience des <del><gap/></del><add>bar</add>ometres fait voir, que cette regle
+      <lb/>est fausse; j’avois donc conçu une autre regle, qui s’est
+      <lb/>confirmée par toutes les experiences, mais surtout par celle
+      <lb/>faite par le P<del><gap/></del><add>ere</add> <rs key="pers_DE-588-117507180" type="person"><del><gap/></del><add>F</add>euillée</rs> sur le <rs key="place_GEB-pteide" type="place">mont Pic</rs>, où ce <rs key="pers_DE-588-117507180" type="person">Pere</rs> etoit
+      <lb/>monté à une tres grande hauteur: j’ai marqué autrefois cette
+      <lb/>regle<supplied>,</supplied> si je ne me trompe<supplied>,</supplied> à <abbr>Mr.</abbr> de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>: la voici!</p>
+
+  <p><lb/>Soit la hauteur du barometre à la surface de la mer <formula>= 1</formula>:
+      <lb/>la hauteur <del><gap/></del>de l’endroit de l’observation par dessus
+      <lb/>cette surface exprimée en pieds de <rs key="place_GEO-2988507" type="place">Paris</rs> <formula> = x</formula>: la hau<pc type="hyphenation">-</pc><lb break="no"/>teur du barometre à cet endroit sera <formula ana="corr">=\frac{2200}{22000+x}</formula><note type="editorial">Korrektur: Unklar ob im Zähler «2200» oder «22000» steht.</note> et par
+      <lb/>consequent la descente <formula>=\frac{x}{22000+x}</formula>.</p>
+
+  <p><lb/>Mon <rs key="pers_DE-588-117589136" type="person">frere</rs> est à <rs key="place_GEO-2661604" type="place">Bale</rs> et il Vous fait ses obeïssances:
+      <lb/>mon <rs key="pers_DE-588-118509969" type="person">Pere</rs> vous les fait de meme: sa goute le tient
+      <lb/>allité et l’a empeché jusqu’à present de s’acquiter
+      <lb/>de ces devoirs envers Vous. Je souhaite que le voyage
+      <lb/>projetté par <abbr>Mess.<hi rend="sup">rs</hi></abbr> de l’<rs type="organisation">Academie</rs> s’execute. En
+      <lb/>ce cas je vous prie de faire en sorte, qu’on se charge
+      <lb/>de quelques thermometres comparés avec celui de <abbr>Mr.</abbr>
+<pb facs="2541720" n="4"/>
+      <lb/><rs key="pers_DE-588-117631655" type="person">De L’isle</rs>: Je Vous prie aussi de me marquer co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent
+      <lb/>on a <choice><orig>recu</orig><reg>reçu</reg></choice> ce thermometre à l’<rs type="organisation">Academie</rs>: Je souhaite
+      <lb/>qu’on rende justice aux merites de <abbr>Mr.</abbr> <rs key="pers_DE-588-117631655" type="person">De L’isle</rs>.
+      <lb/>Il auroit <choice><orig>eté</orig><reg>été</reg></choice> bon de prier <abbr>Mr.</abbr> <rs key="pers_DE-588-117631655" type="person">De L’isle</rs> d’envoyer à
+      <lb/><rs key="place_GEO-2988507" type="place">Paris</rs> une copie des co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>issions qu’on a données aux <rs type="person">Aca<pc type="hyphenation">-</pc><lb break="no"/>demiciens</rs> de <rs type="organisation">Petersbourg</rs> envoyés au <rs key="place_WEI-kamtsch" type="place">Kamtschatka</rs>: Les
+      <lb/>sciences doivent se perfectioner de concert<supplied>,</supplied> et il me semble
+      <lb/>que ce devroit etre là le grand but des Academies, au
+      <lb/>lieu qu<del><gap/></del><add>e</add> jusqu’à present<supplied>,</supplied> à ce qu’il me paroit<supplied>,</supplied>
+      <lb/>il y a eu fort peu de liaison entre Elles: et je crains encor
+      <lb/>pire dans ces troubles de guerre, qui n’a cependant
+      <lb/>rien à faire avec les sciences. Je suis avec la plus
+      <lb/>parfaite estime et un tres sincere attachement<supplied>,</supplied></p>
+  <closer><lb/>Monsieur,
+      <lb/>Votre tres humble et tres
+      <lb/>obeïssant serviteur
+      <lb/><signed><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></signed>
+    <dateline><rs key="place_GEO-2661604" type="place">Bale</rs> ce <date when="1733-01-21">21. <abbr>janv.</abbr> 1733</date>.</dateline> </closer>
+</div>
+</body>
+</text>
+</TEI>

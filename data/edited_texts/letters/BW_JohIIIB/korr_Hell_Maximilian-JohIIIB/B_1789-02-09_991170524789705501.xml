@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524789705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 09. Februar 1789</title>
+          <title type="alt">1789.02.09: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079647</title>
+          <title type="alt">1789-02-09_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524789705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524789705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128966">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.168</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524789705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440048805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079647</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1789-02-09">9 Febr. 1789</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1789-02-09">9 Febr. 1789</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524789805501" type="prev"/>
+          <ptr target="B_991170524789505501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell thanks Johann III Bernoulli for a publication of Wolf's nautical astronomical observations and for distributing Hell's history of Uranus and discussion of the planet's name among members of the Berlin Academy's mathematical class. Hell sends a poetic work by György Alajos Szerdahely, together with separate copies of an elegy annotated by Hell and printed in his astronomical ephemerides for 1789. He outlines the argument of his numismatic and historical notes: Adam must have been the first and greatest astronomer, and Genesis was copied by Moses from an ancient hieroglyphic manuscript transmitted by Adam and the patriarchs through Abraham to Egyptian priests. Hell links this tradition to Greek philosophers educated in Egypt and asks for assessments from the mathematical, astronomical, and historical classes of the Berlin Academy. He also asks Bernoulli to forward a packet to Bode.</p>
+
+        <p>Maximilian Hell dankt Johann III Bernoulli für eine Veröffentlichung von Wolfs nautisch-astronomischen Beobachtungen und dafür, dass er Hells Geschichte des Uranus und seine Erörterung des Planetennamens unter den Mitgliedern der mathematischen Klasse der Berliner Akademie verteilt hat. Hell sendet ein dichterisches Werk von György Alajos Szerdahely sowie Sonderdrucke einer von Hell kommentierten und in seinen astronomischen Ephemeriden für 1789 gedruckten Elegie. Er skizziert die Argumentation seiner numismatischen und historischen Anmerkungen: Adam müsse der erste und grösste Astronom gewesen sein; die Genesis habe Moses aus einer alten hieroglyphischen Handschrift kopiert, die von Adam und den Patriarchen über Abraham an ägyptische Priester gelangt sei. Hell verbindet diese Überlieferung mit den in Ägypten ausgebildeten griechischen Philosophen und bittet die mathematische, astronomische und historische Klasse der Berliner Akademie um Beurteilungen. Bernoulli soll ausserdem ein Paket an Bode weiterleiten.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-18" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2025-05-09">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529580/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+
+
+        <pb facs="3529581" n="168r"/>
+        <opener>
+          <salute rend="center">
+            <lb/>Viro celeberrimo et Illustrissimo Domino
+            <lb/><rs type="person" key="pers_DE-588-116170654">Bernoullio</rs>
+            <lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs>
+            <lb/>salutem.
+          </salute>
+        </opener>
+        <p>
+          <lb/>Maximas Tibi Vir celeberrime ago gratias prim<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>m pro eximio
+          <lb/>Opusculo <rs type="biblio">Observationum Astronomicarum Dantisci factarum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <abbr>D<supplied>.</supplied><hi rend="sup u">no</hi></abbr>
+          <lb/>Wolfio</rs>; dein pro Summa Tua humanitate, qua <rs type="biblio">Historiam Urani<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cum
+          <lb/>Lite mea Astronomorum de Nomine</rs> <date>anno elapso</date> ad Te missam accepisti,
+          <lb/>et inter Socios Classis mathematic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <rs type="organisation" key="org_DE-588-15514-7">Societatis Regi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Scientiarum Be<pc type="hyphenation">-</pc><lb break="no"/>rolinensis</rs> distribuisti.<choice><orig> -</orig><reg type="deleted"></reg></choice> Mitto Tibi nunc altera Vice Opus poëticum
+          <lb/><hi rend="u"><rs type="biblio">Siv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Parnassi Pannoni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></hi> ejusdem <abbr>D<supplied>.</supplied><hi rend="sup u">ni</hi></abbr> <rs type="person" key="pers_DE-588-118162357">Szerdah<choice><orig><g ref="#eacut">é</g></orig><reg>e</reg></choice>ly</rs>, <choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> cujus Libro V<hi rend="sup u">to</hi> ex<pc type="hyphenation">-</pc><lb break="no"/>cerptam Elegiam VII Epidicticam meis notis illustratam etiam meis
+          <lb/><rs type="biblio">Ephemeridibus <abbr>Astron.</abbr> Anni <date when="1789">1789</date></rs> inserui, cujus impressa seorsim exemplaria
+          <lb/>nonnulla huic fasciculo addidi inter intelligentes amicos distribuenda.
+          <lb/>H<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Not<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> memorabilia, eaque nova argumenta continent, quibus
+          <lb/>demonstro: 1<hi rend="sup u">o</hi>: <rs type="person" key="pers_DE-588-118646877">Adamum</rs> primum hominem necessario admittendum esse,
+          <lb/>fuisse etiam <hi rend="u">primum, et maximum Astronomum</hi>: 2<hi rend="sup u">do</hi>: <rs type="biblio">Librum <hi rend="u">Geneseos</hi></rs>
+          <lb/>non esse <hi rend="u">compositum</hi> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person" key="pers_DE-588-118641190">Mose</rs>, sed solum <hi rend="u">copiatum</hi>, et <hi rend="u">descriptum</hi> ex Origi<pc type="hyphenation">-</pc><lb break="no"/>nali manuscripto <hi rend="u">hieroglyphico</hi> ab <rs type="person" key="pers_DE-588-118646877">Adamo</rs>, et Successoribus Patriarchis
+          <lb/>serie <choice><orig>Continua</orig><reg>continua</reg></choice> ad <rs type="person" key="pers_DE-588-118500201">Abrahamum</rs> usque scripto, et Sacerdotibus <rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gypti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s</rs>
+          <lb/>ab <rs type="person" key="pers_DE-588-118500201">Abrahamo</rs> tradito, ab ipsis autem <choice><orig>Conservato</orig><reg>conservato</reg></choice>, et <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person" key="pers_DE-588-118641190">Mose</rs> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>qui ipse <hi rend="u">initia<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tus</hi> erat in Mysteri<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s Sacerdotum <rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gyptiorum</rs><choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> obtentum, et in deserto
+          <lb/><rs type="place" key="place_GEO-6957698">Arabi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> populo Israëlitico vulgatum, et publicatum.<choice><orig> -</orig><reg type="deleted"/></choice> Liber ergo <hi rend="u"><rs type="biblio">Geneseos</rs></hi>
+          <lb/>nec per inspirationem, aut revelationem, aut traditionem <hi rend="u">oretenus</hi> duntaxat
+          <lb/>in populo Israëlitico conservatum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs type="person" key="pers_DE-588-118641190">Mose</rs> scriptus est, sed <hi rend="u">copiatus</hi> tantum
+          <lb/>ex originali manuscripto <hi rend="u">authentico</hi> Sacerdotibus <rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gypti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s</rs> ab <rs type="person" key="pers_DE-588-118500201"><subst><del><gap/></del><add>A</add></subst>brah<unclear reason="illegible">a</unclear>mo</rs>
+          <lb/>tradito, quam traditionem in manuscripto hieroglyphice scriptam narrat
+          <lb/><rs type="person" key="pers_DE-588-118640003">Josephus Flavius</rs>, et ego eam in <rs type="biblio">meis notis</rs> refero, et cum ab eo tempore
+          <lb/>quo <rs type="person" key="pers_DE-588-118500201">Abrahamus</rs> Sacerdotes <rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gyptios</rs> tam in Astronomia, quam in ali<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s scien<pc type="hyphenation">-</pc><lb break="no"/>ti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s, et cumprimis in Religione revelata <rs type="person" key="pers_DE-588-118646877">Adami</rs>, et Patriarch<unclear reason="illegible">a</unclear>rum per signa
+          <lb/>hiero<subst><del><gap/></del><add>g</add></subst>lyphica erudierat, ea de <choice><orig>Causa</orig><reg>causa</reg></choice> <hi rend="u">Usus hieroglyphorum</hi> inter Sacerdotes
+          <pb facs="3529582" type="archival"/>
+          <pb facs="3529583" n="168v"/>
+          <lb/><rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gyptios</rs> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> Tempore <rs type="person" key="pers_DE-588-118500201">Abrahami</rs> introductus, conservatus erat, in quibu<unclear reason="binding">s</unclear>
+          <lb/>eruditi erant <rs type="person" key="pers_DE-588-118801732">Thales Milesius</rs>, <rs type="person" key="pers_DE-588-118597248">Pythagoras</rs>, <rs type="person" key="pers_DE-588-118594893">Plato</rs>, <rs type="person" key="pers_DE-588-11853131X">Eudoxus</rs>, et ali<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>
+          <lb/>Philosophi qui in <rs type="place" key="place_VER-aegypt"><choice><orig><g ref="#AE">Æ</g></orig><reg>Ae</reg></choice>gyptum</rs> harum Scientiarum <choice><orig>Caussa</orig><reg>caussa</reg></choice> profecti has Scien<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tias cum Religione Patriarcharum acceperunt, et in <rs type="place" key="place_VER-griechen">Gr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cia</rs>, atque <rs type="place" key="place_KON-italie">Italia</rs>
+          <lb/>docuerunt.
+        </p>
+
+        <p>
+          <lb/>Si Tibi Vir <abbr>Cel.</abbr> otium fuerit, gratum mihi esset ex Te intelligere, quid
+          <lb/>Classis Mathematica, Astronomica, et Hi<subst><del><gap/></del><add>s</add></subst>torica <choice><abbr>Vr’<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></abbr><expan>Vestr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></expan></choice> <rs type="organisation" key="org_DE-588-15514-7">Societatis Scien<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tiarum</rs> de hac mea materia sentiat? Precor Tibi valetudinem
+          <lb/>optimam, et jucundam, oroque ut me porro Tuos inter amicos censere
+          <lb/>pergas, atque adjectum fasciculum <abbr>cel.</abbr> <abbr>D<supplied>.</supplied><hi rend="sup u">no</hi></abbr> <rs type="person" key="pers_DE-588-116215372">Bodde</rs> meo nomine
+          <lb/>tradas. </p>
+        <closer>Vale iterum.
+
+          <dateline>
+            <lb/><choice><orig>dabam</orig><reg>Dabam</reg></choice> <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1789-02-09">9 <abbr>febr.</abbr> 1789</date>.
+          </dateline>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

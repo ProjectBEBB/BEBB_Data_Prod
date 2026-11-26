@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xml:id="S_991171243790305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Grabschrift für Pierre Louis Moreau de Maupertuis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <author>
+          <persName key="pers_DE-588-000000000">Unbekannt</persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkription</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung<note type="remarkResponsibility">Vorbereitung und Registerverknüpfungen.</note></resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+          <idno type="URLWeb">https://bebb.unibas.ch/related_texts/S_991171243790305501</idno>
+          <idno type="URLXML">https://bebb.unibas.ch/api/document/S_991171243790305501</idno>
+          <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="https://doi.org/10.7891/e-manuscripta-164978">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Archiv Bernoulli III c, Nr.3</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991171243790305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972733725205504</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>20</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date notBefore="1759-07-28">[nach dem 27. Juli 1759]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>Grabinschrift</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Grabesschrift für Pierre Louis Moreau de Maupertuis.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-23" who="SG">Registerverlinkungen ergänzt; erledigte Vorbereitungskommentare bereinigt.</change>
+        <change when="2026-10-05" who="SG">Kollationieren abgeschlossen</change>
+        <change when="2026-10-05" who="SG">Vorbereitung für die Grundkommentierung</change>
+        <change when="2026-10-05" who="SG">Diplomatische Transkription, vorbereitendes Tagging und Zeilenfall; Prüffassung auskommentiert, Kollation ausstehend.</change>
+        <change when="2026-10-05" who="SG">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/4326472/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+
+      <div type="manuscript" xml:lang="lat">
+        <pb facs="4326473" n="1"/>
+
+
+<p rend="center"><lb type="forced"/>Epitaphium praenobilis ac Clarissimi <abbr>D<hi rend="overline">ni</hi></abbr> <rs type="person" key="pers_DE-588-118731998">Petri Ludovici
+<lb type="forced"/>Moreau de Maupertuis</rs> sepulti <rs type="place" key="place_GEO-2660989">Dornaci</rs> in <rs type="organisation"><abbr>Eccl.</abbr> <abbr>paroch.</abbr></rs></p>
+        <p rend="center"><lb/>_________________________________________________</p>
+        <p rend="center">
+<lb type="forced"/>Virtus perennat,
+          <lb type="forced"/>Cetera labuntur.
+          <lb type="forced"/>Vir illustris Genere, Ingenio su<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>us
+          <lb type="forced"/>Dignitate amplissim<choice><orig><g ref="#ugrav">ù</g></orig><reg>u</reg></choice>s,
+          <lb type="forced"/><rs type="person" key="pers_DE-588-118731998">Petrus Ludovicus Moreau de Maupertuis</rs>
+          <lb type="forced"/>ex <rs type="organisation" key="org_DE-588-1022924-3">Collegio XL Academicorum <abbr>Ling.</abbr> <abbr>Franc.</abbr></rs>
+          <lb type="forced"/>Eques auratus <rs type="organisation"><abbr>ord.</abbr> <abbr>Reg.</abbr> <abbr>Boruss.</abbr></rs>
+          <lb type="forced"/>praestantibus meritis dicati,
+<lb type="forced"/><rs type="organisation">Academiarum celebriorum</rs> <rs type="place" key="place_KON-europa">Europae</rs> omnium Socius
+<lb type="forced"/>Ac <rs type="organisation" key="org_DE-588-15514-7">Regiae Berolinensis</rs> Praeses.
+<lb type="forced"/>Natus in Castro <rs type="place" key="place_GEO-2978640"><abbr>St.<hi rend="sup">i</hi></abbr> Mac<subst><del>c</del><add>l</add></subst>ovii</rs> die <date when="1698-09-28">XXVIII <abbr>Sept.</abbr> MDCXCVIII</date>
+<lb type="forced"/>Aetate integra lento morbo consumptus
+<lb type="forced"/>hic ossa sua cond<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> voluit.
+<lb type="forced"/><rs type="person" key="pers_DE-588-115595338X">Catharina Eleonora de Bork</rs> Uxor,
+<lb type="forced"/><rs type="person" key="pers_DE-588-1151669776">Maria</rs> Soror
+<lb type="forced"/>Et <rs type="person" key="pers_DE-588-117589136">Joannes Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> defuncti intimus
+<lb type="forced"/>In cujus aedibus <rs type="place" key="place_GEO-2661604">Basileae</rs> die <date when="1759-07-27">XXVII Julii</date>
+<lb type="forced"/>MDCCLIX decessit,
+<lb type="forced"/>Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unis Desiderii Lenimen
+<lb type="forced"/><abbr>H. M. B. M. P.</abbr>
+        </p>
+        <pb facs="4326474" n="2"/>
+        <p>
+<lb type="forced"/><rs type="person" key="pers_DE-588-118731998">Maupertuis</rs>
+<lb type="forced"/><abbr>Epitaph.</abbr>
+        </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

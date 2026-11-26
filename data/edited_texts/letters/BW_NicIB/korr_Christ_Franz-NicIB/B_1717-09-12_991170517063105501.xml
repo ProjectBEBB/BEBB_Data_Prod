@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517063105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Franz Christ an Nicolaus I Bernoulli. Angers, 12. September 1717</title>
+          <title type="alt">1717.09.12: Christ, Franz (1688-1744) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059043</title>
+          <title type="alt">1717-09-12_Christ_Franz-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517063105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517063105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Christ, Franz (1688-1744) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel. Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 20sten"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23543">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.10</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517063105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433695705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059043</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Angers</origPlace>
+              <date when="1717-09-12">den 12. Septembris. 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Angers</placeName>
+          <date when="1717-09-12"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517063305501" type="prev"/>
+          <ptr target="B_991170517062705501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Christ_Franz-NicIB" corresp="pers_DE-588-140736662" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1079998438">Bogdan, Martin</persName>
+            <note type="lebensdaten">(1679-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1052697623">Effinger, Bernhard</persName>
+            <note type="lebensdaten">(1658-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+            <note type="lebensdaten">(1691-1744)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-15" who="SG">Englische Arbeitsübersetzung sprachlich überarbeitet und erneut mit dem Ausgangstext abgeglichen; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-15" who="SG">Layout der Arbeitsübersetzungen an Briefkopf, Schluss und Adresszeilen des Originals angeglichen.</change>
+        <change when="2026-09-15" who="SG">Maschinelle englische Arbeitsübersetzung ergänzt; wissenschaftlich ungeprüft und intern.</change>
+        <change when="2025-08-22" who="CG SG">Tagging und Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039722/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039724" n="1"/>
+  <opener><lb/><salute>Liebster Fründ</salute></opener>
+  <p><lb/>Du wirsyt seither ohne zweifel meinen <rs type="letter">Brief</rs> empfangen haben, den
+      <lb/>ich dir zur antwort dessen, so du mir aus <rs type="place" key="place_GEO-2661604">Basel</rs> zugeschickt, geschrieben.
+      <lb/>Ich empfange seither einen <rs type="letter">anderen</rs> von dir, in welchem du mir von
+      <lb/>der Profession zu <rs type="place" key="place_GEO-2659994">Losa<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en</rs> meldung thust und mich dieselbige zu hofen
+      <lb/>antreibest. Ich weis wohl, daß es dich rechtschafen erfreüen wurde<del><gap/></del>,
+      <lb/>wan mir ein dergleichen glück zustossen sollte; ich weis aber nicht wie
+      <lb/>ich dißmalen beschafen und kan ich dich versicheren, daß ich erstlich
+      <lb/>nicht glaube, daß man mich dahin berufen werde, und wan es auch
+      <lb/>schon geschehen sollte, so finde keine grosse vergnügung darin. Ich melde
+      <lb/>Herren <abbr>D.</abbr> <rs type="person">Raillard</rs> meine ursachen, die mich abhalten, dahin zu trachten
+      <lb/>und gibe ihm meinen entschlus; ich bin gäntzlich entschlossen, dem
+      <lb/><rs type="person">Junckeren</rs> von <rs type="place" key="place_GEO-2657990">Wildeck</rs> mein versprechen zu halten und durch nichts
+      <lb/>mich lassen abwenden; die gerechtigkeit, mein eigener nutzen und
+      <lb/>i<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>erlicher antrieb bewegen mich, die begird, unsere vorgesetzte
+      <lb/>reisen zu end zu bringen, nicht be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>seits zu setzen. Sollte aber
+      <lb/>hofnung vorhanden se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, daß man so lang warten wollte, bis ich
+      <lb/>wider zuruck wäre, so ich nicht <del><gap/></del>begreifen kan, wurde es mich
+      <lb/>sehr erfreüen, ein dergleichen posten anzutrefen. Ich schreibe dem
+      <lb/><rs type="person">Junckeren</rs> von <rs type="place" key="place_GEO-2657990">Wildeck</rs> und bitte ihn, durch seine <rs type="person">fründ</rs> zu <rs type="place" key="place_GEO-2661552">Bern</rs>
+      <lb/>trachten zuwegen zu bringen, daß die sach aufgeschoben werde und
+      <lb/>glaube ich, daß er mir wohl so viel werde zugefallen thun. Es nimt
+      <lb/>mich underdessen wunder, was Herr <abbr>D.</abbr> <rs type="person">Bogden</rs> dir geantwortet,
+      <lb/>ich hatte die ehr<supplied>,</supplied> das letste mahl zu <rs type="place" key="place_GEO-2661552">Bern</rs> mit ihme zu mittag zu essen,
+      <lb/>worzu wir ihn eingeladen hatten, nachdem er uns die <rs type="organisation">Bibliothec</rs> da<pc type="hyphenation">=</pc><lb break="no"/>selbst gezeiget; ich glaube, daß er wohl auch etwas für mich in
+      <lb/>ansehen des <rs type="person">Junckeren</rs> von <rs type="place" key="place_GEO-2657990">Wildeck</rs> thun wurde, wan er kan. Gott
+      <lb/>richte alles zu einem guten end und vergelte deine treü, die du
+      <lb/>so aufrichtig anzeigest, gegen deinem</p>
+  <closer><lb/>Gehorsamen
+      <lb/><rs type="person">FChrist</rs>
+      <lb/><dateline>Angers den <date when="1717-09-12">12 Septembris 1717.</date></dateline>
+    <note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1717-09-20">20.<hi rend="sup">ten</hi></date></note>
+<pb facs="1039725" n="2"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Bernoulli</addrLine>
+      <addrLine>Docteur en Droit</addrLine>
+      <addrLine>A Basle.</addrLine>
+    </address></closer>
+</div>
+
+<div type="translation" xml:id="B_991170517063105501_trans_en" xml:lang="en" status="unreviewed">
+<p><pb facs="1039724" n="1"/> Dearest friend,</p>
+<p>You will doubtless have received by now the letter I wrote in reply to the one you sent me from Basel. Since then I have received another from you, in which you tell me of the professorship at Lausanne and encourage me to seek it. I know well that it would truly delight you if such good fortune came my way. Yet I do not know what has come over me this time, and I can assure you, first, that I do not believe I shall be appointed, and even if it should happen, I find no great satisfaction in it. I am writing to Dr Raillard to explain why I hesitate to seek it and what I have decided. I am fully resolved to keep my promise to the lord of Wildegg and let nothing turn me aside. A sense of duty, my own interests and my personal inclination all urge me to carry through our planned travels.</p>
+<p>If, however, there were hope that they would wait until I returned, unlikely as that seems to me, it would greatly please me to find such a post. I am writing to the lord of Wildegg and asking him to try, through his friends in Bern, to have the matter postponed. I believe that he will be willing to do me that favour. Meanwhile I would like to know what Dr Bogdan said in reply to you. The last time I was in Bern, I had the honour of dining with him. We had invited him after he showed us the library there. I believe that he too would do something for me out of regard for the lord of Wildegg, if he can. May God bring everything to a good conclusion and reward the loyalty you so sincerely show towards</p>
+<p>your obedient
+<lb type="forced"/>F. Christ
+<lb type="forced"/>Angers, 12 September 1717.</p>
+<p><pb facs="1039725" n="2"/> To Monsieur<lb type="forced"/>Monsieur Bernoulli,<lb type="forced"/>doctor of law,<lb type="forced"/>at Basel.</p>
+</div>
+</body>
+</text></TEI>

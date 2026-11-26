@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516905905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Samuel König. Basel, 21. Oktober 1745</title>
+          <title type="alt">1745.10.21: Bernoulli, Nicolaus (1687-1759) an König, Samuel (1712-1757)</title>
+          <title type="alt">000059157</title>
+          <title type="alt">1745-10-21_Bernoulli_Nicolaus-Koenig_Samuel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516905905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516905905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">König, Samuel (1712-1757)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "à Mr. Koenig Prof. à Franeker."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23374">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:1:Bl.105r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516905905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433542405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059157</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height>21</height><width>16,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Bâle</origPlace>
+              <date when="1745-10-21">ce 21. 8bre 1745</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1745-10-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117528854">König, Samuel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516906005501" type="prev"/>
+          <ptr target="B_991170516905805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Koenig_Samuel-NicIB" corresp="pers_DE-588-117528854" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">Briefstruktur (pb, lb, etc.) ergänzt, sowie kleinere Anpassungen</change>
+        <change when="2025-10-24" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-24" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-24" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038211/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1038212" n="105r"/>
+  <opener>
+      <lb/>à <abbr>Mr.</abbr> <rs key="pers_DE-588-117528854" type="person">Koenig</rs> <abbr>Prof.</abbr> à <rs key="place_GEO-2755845" type="place">Franeker</rs>.
+  <salute>
+      <lb/>Monsieur
+  </salute>
+  </opener>
+  <p>
+      <lb/>Vôtre <rs key="B_991170516906005501" type="letter">Lettre</rs> du <date when="1745-09-06">6.<hi rend="sup">e</hi> <abbr>7<hi rend="sup">bre</hi></abbr></date> n’arriva ici qu’après le départ de <abbr>Mr.</abbr>
+      <lb/>le <abbr>Prof.</abbr> <rs type="person">Wetstein</rs> et me fut rendue par ses parents. <del><gap/></del><add>Pour</add>
+      <lb/><del><gap/></del>satisfaire à vôtre démande <del><gap/></del>
+      <lb/><del><gap/></del>j’ai fait copier <add>de nouveau</add> par un <subst><del><gap/></del><add>d</add></subst>e mes disciples <del><gap/></del>l’une des deux
+      <lb/>piéces, que je Vous avois autre fois envoyées pour <del><gap/></del><add>les</add> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>u<pc type="hyphenation">-</pc><lb break="no"/>nique<subst><del><gap/></del><add>r</add></subst> à <abbr>Mr.</abbr> <rs key="pers_DE-588-116472448" type="person">Castillone</rs>.<del><gap/></del> J’adresse cette
+      <lb/>copie avec la presente <rs type="letter">lettre</rs> à <abbr>Mr.</abbr> le <abbr>Prof.</abbr> <rs type="person">Wetstein</rs>. Je <subst><del><gap/></del><add>ne</add></subst>
+      <lb/><del><gap/></del>vous envoye<del><gap/></del> <add>pas</add> une copie de l’autre piece
+      <lb/>de <rs type="biblio">divisoribus rationalibus</rs>, parce qu’elle se trouve <add>déja</add> imprimée
+      <lb/>par <abbr>Mr.</abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> dans le <rs type="biblio">Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ercium Epistolicum</rs> de <abbr>Mrs.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>
+      <lb/>et <rs type="person" key="pers_DE-588-118509969">Jean Bernoulli</rs>. Au reste je Vous felicite<add><supplied>,</supplied> Monsieur<supplied>,</supplied></add> de ce qu<subst><del>e</del><add>’on</add></subst> vous
+      <lb/>a donné la charge de Professeur à <rs key="place_GEO-2755845" type="place">Franeker</rs>, à quoi <abbr>Mr.</abbr> <rs type="person">Wetstein</rs>
+      <lb/>me dit avoir contribué quelque chose de sa part. Je Vous prie
+      <lb/>aussi de me conserver l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de vôtre amitié et de Vous
+      <lb/>persuader, que je suis avec une consideration parfaite<supplied>,</supplied>
+  </p>
+  <closer>
+      <lb/><abbr>Mr.</abbr> vôtre. <dateline>à <rs key="place_GEO-2661604" type="place">Bâle</rs> ce <date when="1745-10-21">21. 8bre<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1745</date></dateline>.</closer><pb facs="1038213" n="105v" type="empty"/>
+</div>
+</body>
+</text></TEI>

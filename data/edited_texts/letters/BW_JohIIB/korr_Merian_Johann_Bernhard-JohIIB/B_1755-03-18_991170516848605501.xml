@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516848605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Bernhard Merian an Johann II Bernoulli. Berlin, 18. März 1755</title>
+          <title type="alt">1755.03.18: Merian, Johann Bernhard (1723-1807) an Bernoulli, Johann (1710-1790)</title>
+          <title type="alt">000058749</title>
+          <title type="alt">1755-03-18_Merian_Johann_Bernhard-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516848605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516848605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Merian, Johann Bernhard (1723-1807)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mit Oblate</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-131675">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 711:Bl.184</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516848605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433700605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058749</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl.<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berlin</origPlace>
+              <date when="1755-03-18">ce 18ieme Mars 1755</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116892021">Merian, Johann Bernhard</persName>
+          <placeName key="place_GEO-2950159" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+          <date when="1755-03-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516848705501" type="prev"/>
+          <ptr target="B_991170516848505501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Merian_Johann_Bernhard-JohIIB" corresp="pers_DE-588-116892021" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1155275497">Dieterich, Franz</persName>
+            <note type="lebensdaten">(1731-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-13763868X">Huber, Johann Jakob</persName>
+            <note type="lebensdaten">(1733-1798)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117528854">König, Samuel</persName>
+            <note type="lebensdaten">(1712-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117696641">Prémontval, André-Pierre Le Guay de</persName>
+            <note type="lebensdaten">(1716-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118627813">Voltaire</persName>
+            <note type="lebensdaten">(1694-1778)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 2.0</change>
+        <change when="2025-10-31" who="RG">NER Ergänzung 1.0</change>
+        <change when="2025-10-31" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3587316/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3587317" n="184r"/>
+  <p> Monsieur </p>
+  <p> Monsieur de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs> me dit qu’il vous a écrit Samedi passé, touchant l’affaire de Mr. <rs key="pers_DE-588-13763868X" type="person">Huber</rs>. Ainsi je compte, Monsieur, que c’est une chose autant que terminée: et que nous aurons bientôt le plaisir de le voir icy; au moins n’a-t-elle plus trouvé d’obstacle de la part de notre <rs type="person" key="pers_DE-588-118731998">président</rs> dès que je lui ai lû la derniere lettre que Vous m’avés fait l’honneur de m’écrire. Il ne vous a pas d’abord répondu parce qu’eutre son indisposition il étoit surchargé d’occupations: Il se publiera incessamment une nouvelle édition de tous ses ouvrages à <rs type="place">Lien</rs> en 4 volumes in 8ve, dont l’arrangement lui a pris une partie de son tems: Elle sera augmentée de quelques pieces qui n’ont pas encore parû. </p>
+  <p> Je suis bien de votre avis, Monsieur, par raport au[x] satyres et je sais, par expérience, que toutes ne sont pas dans le même goût. Pour ce qui est de mon dernier mémoire que j’ai donné à l’<rs type="organisation">Académie</rs>, il a le destin singulier d’être satyrisé avant qu’il ait paru. Un juif d’icy vient de faire imprimer des <rs type="biblio">Dialogues philosophiques</rs>, qui ne sont pas mal écrits: et si je ne suis pas payé pour les louer: car il annonce au public en termes très exprès que mon mémoire ne vaut rien, ce qui peut bien être, mais ce qu’il n’appartient pas à un juif de dire, qui d’ailleurs ne peut le savoir à moins qu’il ne soit enfant de prefète. Il n’a pas mieux <pb facs="3587318" n="184v"/> traité Mr. de <rs key="pers_DE-588-118627813" type="person">Voltaire</rs>: et il me place immédiatement après lui, ce qui me fait beaucoup d’honneur. Il finit par Monsieur de <rs key="pers_DE-588-117696641" type="person">Prémontval</rs>; mais il le traite avec plus d’égards, en ce qu’au moins il entre dans le détail et le refute dans les fermes. </p>
+  <p> Nous sommes menacés d’une nouvelle attaque de la part de Mr. <rs type="person" key="pers_DE-588-117528854">Koenig</rs>: ce qui est une des raisons qui m’empêcherint vraisblablement de venir, cette année, à <rs key="place_GEO-2661604" type="place">Basle</rs>, quelque envie que j’en eusse. D’ailleurs quelque je fusse extrêmement charmé de revoir mes parens et plusieurs autres personnes que je re- specte et estime; je vous avoue pourtant, Monsieur, que je ba lance toujours à entreprendre ce voyage, quand je considere la longueur du chemin, ce que je pourrois négliger dans ce tems là, et le peu de tems que je pourrois rester; car il ne me conviendroit pas de m’absenter au delà de trois mois. Au reste je Vous prie de garder le silence par raport à ce que je Vous mande touchant <rs type="person" key="pers_DE-588-117528854">Koenig</rs>: en le saura toujours assés à tems lorsqu’il éclatera. La raison pour laquelle je Vous ai fait la même priere par raport à la gratification qui m’a été accerdée, c’est que Vous savés, sans doute, combien il s’est fait de mauvaises plaisanteries sur la derniere augmentation de ma pension dans les pasquinades qui couroient alors, qui ne m’ent point fait de peine, à la vérité, à cause de moi; car je me suis endurci à cet égard, mais à cause de qui Vous savés. Et vous voyés, par l’échantillion de ci dessus, que je ne suis pas encore délivré des persécuteurs. Je me crois irréparable ment brouillé avec toute la troupe des gazétiers et des jour nalistes Germaniques: Depuis près de deux ans je n’ai pas fait imprimer une syllabe; cependant ils sont encore sans cesse a près moi comme une meute de chiens après un lievre: Ils me chicanent et sur ce que j’ai dit, et sur ce que je dirai et sur ce que je ne dirai pas. Mais je prends, si parva licet com ponere magnis, le parti de Mr. de <rs key="pers_DE-588-118731998" type="person">Maupertuis</rs>, c’est de les lais ser aboyer et <pb facs="3587319" n="184ar"/> de ne pas répondre. Je ne sai pas même si je pourrai jamais me résoudre à achever deux discours pour les quels j’ai assemblé des matériaux et que j’avois destinés pour des assemblées publiques, l’un sur la Métaphysique et le Métaphysicien: et l’autre sur les réputations littéraires. M’étant arrivé de lire un lambeau du premier à un connoisseur que je voulois consulter, et qui contenoit justement le paral lele des philosophes anglois, françois et allemands, cet homme qui goutoit ce morceau beaucoup plus qu’il ne vaut, et à qui j’oubliois de recommander le silence, en répéta quelques traits qu’il m’avoit fait l’honneur de retenir dans une compagnie: et voilà déjà l’allarme dans le quartier. On me décrie déjà de vouloir décrier la philosophie Teutonique, ce qui n’est pas vrai: et l’on m’avertit de cent plumes prêtes à me faire ré pentir de la témérité de mon entreprise. H?ier encore en fu mant ma pipe devant la cheminée et relisant mes cahiers, je fus tenté d’en faire un sacrifice à <rs type="person">Vulcain</rs>; et de faire in serer pour la consolation des monades, dasn la gazette le vers d’<rs type="person">Ovide</rs>: Emendaturis ignibus ipse dedi. Il n’y a que l’amour paternel qui m’ait pû retenir; car vous savés que les petites guenons sont les animaux les plus tendrement chéris de leurs parens. </p>
+  <p> Je vous demande excuse pour la lanterne magique, si je ne l[ai pas bien décrite: c’est la plus belle chose du monde. Les princes, les princesses, les Dames de la cour, tout le monde a voulu la voir: et elle a paru fort à son avantage. On en fait faire par-tout: et j’en ai une très belle, moi qui certainement ne suis pas homme à prendre des vessies pour des lanternes. </p>
+  <p> Mr. <rs key="pers_DE-588-118531379" type="person">Euler</rs> a fait offrir au <rs type="person" key="pers_DE-588-1155275497">jeune Dieteric</rs> sa maison et sa table en attendant qu’il trouve mieux. On ecrit que ce <rs type="person" key="pers_DE-588-1155275497">jeune homme</rs> sait toutes les langues, et qu’il fait des vers en Italien et en Arabe. </p>
+  <p> Il vient de naitre icy un monstre par excès d’une espece singuliere: il a les parties genitales doubles: l’une au beau milieu du front[Lücke] elle un oeil bien formé à la Cyclope. Il y a bien des débauchés qui [Lücke] accommoderoi ent fort bien d’une pareille structure. La créature vivoit en [venant] <pb facs="3587320" n="184av"/> au monde, mais on l’étouffa aussi-tôt: telle est la coutume des sages femmes. Je ne sai pas trop si elle n’est contraire à la morale; car enfin quel droit avons nous sur la vie d’un être à cause qu’il ne nous ressemble pas? Mais je sai bien que la physique et la philosophie pourroient profiter en considérant l’accroissement du corps et les progrès de la raison dans de pareilles especes. </p>
+  <p> Je souhaite de tout mon coeur, Monsieur, que l’indis position dont vous parlés sur la fin de votre lettre n’ait point de suite, et j’ai l’honneur d’être avec un parfait dévou ement Monsieur Votre très humble et très obéissant <rs key="place_GEO-2950159" type="place">Berlin</rs> ce 18 ieme Mars 1755 Serviteur <rs key="pers_DE-588-116892021" type="person">Merian</rs> </p>
+</div>
+</body>
+</text></TEI>

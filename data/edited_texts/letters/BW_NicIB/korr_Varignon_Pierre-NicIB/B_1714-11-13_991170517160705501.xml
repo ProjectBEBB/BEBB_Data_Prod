@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517160705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Varignon. Ohne Ort, 13. November 1714</title>
+          <title type="alt">1714.11.13: Bernoulli, Nicolaus (1687-1759) an Varignon, Pierre (1654-1722)</title>
+          <title type="alt">000059529</title>
+          <title type="alt">1714-11-13_Bernoulli_Nicolaus-Varignon_Pierre</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517160705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517160705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Varignon, Pierre (1654-1722) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23514">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.305</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517160705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433810405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059529</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>0,5 S.<dimensions unit="cm"><height>20,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1714-11-13">13. 9bre. 1714.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1714-11-13"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517160905501" type="prev"/>
+          <ptr target="B_991170517160605501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Varignon_Pierre-NicIB" corresp="pers_DE-588-119062372" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+            <note type="lebensdaten">(1688-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Faesch, Basler, der 1714 mit Joachim Lüdi in Paris ist</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089914237">Lüdi, Joachim</persName>
+            <note type="lebensdaten">(1675-1756)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+
+
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1039234/manifest"/></facsimile><text><body><div type="letter">
+<pb facs="1039235" n="305r"/>
+  <opener><lb/>Monsieur</opener>
+  <p><lb/>Je ne doute pas qu’aprés Vôtre heureux (à ce que j’espere) retour à Paris, Vous
+      <lb/>n’ayés recû une visite de Mr. <rs key="pers_DE-588-140736662" type="person">Christ</rs> de Bâle, qui est un
+      <lb/>jeune ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e fort scavant en toutes sortes de sciences, et même dans les Mathematiques,
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e il a concû une haute estime pour Vôtre personne il seroit fort aise d’avoir
+      <lb/>l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de profiter de temps en temps de Vôtre agréable conversation,
+      <lb/>c’est pourquoi je prends la liberté de le reco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ender à Vous,
+      <lb/>et de Vous prier de lui procurer s’il est possible l’entrée dans les <choice><orig>Assembléees</orig><reg>Assemblées</reg></choice>
+      <lb/>de l’Academie, je prendrai tout ce que Vous ferés pour Lui co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e fait
+      <lb/>pour moi même, étant lié avec lui par une fort étroite amitié. Mon
+      <lb/><rs key="pers_DE-588-118509969" type="person">oncle</rs> joindra les reco<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>endations à celles-ci et ainsi je suis persuadé que Monsieur
+      <lb/><rs key="pers_DE-588-140736662" type="person">Christ</rs> aura le même sort qu’ont eû tous ceux, qui sont venus chés Vous de
+      <lb/>nôtre part, et qui se sont tous loués infiniment de Vôtre civilité.
+      <lb/>Mr. Fesch un des compagnons de Mr. <rs key="pers_DE-588-1089914237" type="person">Ludi</rs> qui vient d’arriver tout nouvellement<note type="editorial">Abbreviatur (ent)</note>
+      <lb/>ici, et qui a eprouvé ce bonheur pendant le petit sejour qu’il a fait
+      <lb/>à Paris, Vous en fait les treshumbles remerciments.</p> <closer>Et moi j’ai
+      <lb/>l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur d’etre plein de reco<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oissance et avec beaucoup de vene<pc type="hyphenation">-</pc><lb break="no"/>ration, Monsieur <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.
+<dateline><date when="1714-11-13">13<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 9bre.</date> 1714.</dateline></closer>
+<pb facs="1039236" n="305v" type="empty"/>
+</div></body></text></TEI>

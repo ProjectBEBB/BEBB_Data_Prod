@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170430330805501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann Jacob Scheuchzer an Jacob Hermann. Zürich, 26.
+            Januar 1704</title>
+          <title type="alt">000059942</title>
+          <title type="alt">1704-01-26_Scheuchzer_Johann_Jakob-Hermann_Jacob</title>
+          <title level="s">Basler Edition
+            der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Kommentierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430330805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430330805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119112450" type="person">Jacob Hermann</rs> (1678-1733)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://www.ub.unibas.ch/bernoulli/index.php/1704-01-26_Scheuchzer_Johann_Jakob-Hermann_Jacob">
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms. H.150a, S.327-328</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430330805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406947605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059942</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1,25 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Zürich]</origPlace>
+              <date when="1704-01-26">d. 26. Jan.
+              [1704]</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="place_GEO-2657896" ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+          <date when="1704-01-26"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430331005501" type="prev"/>
+          <ptr target="B_991170430330605501" type="next"/>
+          <ptr target="BW_Hermann" corresp="pers_DE-588-119112450" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-Hermann" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-123624940">Goldmann, Nikolaus</persName>
+            <note type="lebensdaten">(1611-1665)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11757645X">Guglielmini, Domenico</persName>
+            <note type="lebensdaten">(1655-1710)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120311119">Schweitzer, Johann Heinrich</persName>
+            <note type="lebensdaten">(1646-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121297829">Staehelin, Johann Heinrich</persName>
+            <note type="lebensdaten">(1668-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117364177">Sturm, Leonhard Christoph</persName>
+            <note type="lebensdaten">(1669-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118867865">Vallisnieri, Antonio</persName>
+            <note type="lebensdaten">(1661-1730)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118626264">Vauban, Sébastien Le Prestre de</persName>
+            <note type="lebensdaten">(1633-1707)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1704-01-26_Scheuchzer_Johann_Jakob-Hermann_Jacob"/>
+      </change>
+        <change when="2014-08-04">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/818215/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1704-01-26_Scheuchzer_Johann_Jakob-Hermann_Jacob">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="818576" n="327(!)"/> [...] Mons.<hi rend="sup">r</hi> Herman à Basle</p>
+  <p>Vir Celeb. </p>
+  <p>Fautor et Amice honor[atissime]</p>
+  <p>Maxime mihi gratulor de Tuo erga me amore et favore, quem omni officiorum genere demereri
+          studebo, et conservare. Authorum Italicorum<note type="editorial">Scheuchzer bezieht sich
+            auf die Werke italienischer Mathematiker, deren Besorgung Hermann in seinem Brief von
+              <rs key="B_991170430331005501" type="letter">1704.01.23</rs> erbeten
+            hat.</note> gratia scribam ad Amicum quem Patavij<note type="editorial"><rs
+              key="place_GEO-3171728" type="place">Padua</rs>.</note> habeo, ut illos mittat, et
+          justum pro illis pretium indicet.<note type="editorial">Es handelt sich um Antonio
+            Vallisneri (1661-1730), der mit Johann Jakob Scheuchzer im Briefwechsel stand. In seinem
+            Brief von <ref target="http://www.e-manuscripta.ch/zuz/content/pageview/948756"
+              >1704.03.22</ref> gibübersetztt er Auskunft über den Preis der gewünschten
+            Bücher.</note> Nullum ex <pb facs="818577" n="328"/> ijs possideo praeter Guglielminum
+          de Mensura Aquarum Fluentium:<note type="editorial">Guglielmini, Domenico, <hi rend="u"
+              >Aquarum fluentium mensura nova methodo inquisita ...</hi>, Bononiae [Bologna]
+            (Typographia Pisariana) 1690.</note> ita nec Goldmannum habeo, opus quod charta Augusta
+          inprimi jussit Editor Sturmius;<note type="editorial">Goldmann, Nikolaus, <hi rend="u"
+              >Vollständige Anweisung zu der Civil Bau-Kunst ... vermehret, von Leonhard Christoph
+              Sturm ...</hi>, Wolfenbüttel (C. J. Bissmarck) 1696.</note> nec ejus Vaubanium.<note
+            type="editorial">Vauban, Sébastien Le Prestre de, <hi rend="u">Teutsch-Redender Vauban,
+              oder: Vollkommene Unterweisung, alle Plätz, sie seyen Regular, oder irregular, auff
+              die allerneuste Art und Weiss, nach der heutigen Fortifications-Kunst zu befestigen
+              ... Sambt einer Fundamentalen Geometria, oder Feld-Messerey</hi>, [übersetzt von
+            Leonhard Christoph Sturm], Mayntz (L. Bourgeat) 1696.</note> Bernoullij Spinozismi
+          depulsionis Echo<note type="editorial">Bernoulli, Johann I, <hi rend="u">Spinosismi
+              Depulsionis Echo ...</hi>(= <rs type="biblio" key="biblio_MELCB7I5">Nr. 222</rs>).</note> mutuo petij a Clar. Suizero<note type="editorial">Johann
+            Heinrich Schweizer studierte in Bern, Genf, Basel, Strassburg und Heidelberg. 1665-67
+            war er Professor in Hanau, dann 1667-84 Pfarrer in Birmensdorf (ZH). 1684 wurde er als
+            Nachfolger seines Vaters Professor für Griechisch am Carolinum und Chorherr am
+            Grossmünster in Zürich, dann 1691 Schulherr und 1692 Professor für Hebräisch. In Zürich
+            war er aufgrund seiner Sympathien für den Cartesianismus häufigen Anfeindungen und
+            Zensurverfahren ausgesetzt. Er folgte daher im Frühjahr 1705 einem Ruf des Kurfürsten
+            Johann Wilhelm von der Pfalz als erster Pfarrer und Kirchenrat nach Heidelberg. 1705
+            wurde er Dr. theol. h.c. der Universität Basel. Siehe dazu Moser, Christian, <ref
+              target="http://www.hls-dhs-dss.ch/textes/d/D10843.php"><hi rend="u">Schweizer, Johann
+                Heinrich</hi></ref>, in: e-HLS.</note>, et [summa] cum voluptate legi Processum, cui
+          ansam dedit controversia de Corporis peccabilitate: Eandem hanc Bernoullij apologiam
+          possum pet[ere] a possessore, ut protinus Tibi mitterem, sed testatur ille sancte, se
+          elocasse illam, nescire tamen, cui; traditurum mihi statim atque redierit: Grates interim
+          Tibi ago, quas debeo maximas pro binis donarijs egregijs subtilis Tui Ingenij
+            speciminibus,<note type="editorial">Hermann, Jakob, <hi rend="u">Animadversiones circa
+              novissimam regulam in secunda Medicinae mentis editione</hi> (1704) (= <rs type="biblio" key="biblio_GSPBR9I4">Na. 007</rs>).</note> quorum alterum<note type="editorial">Möglicherweise handelt es
+            sich bei diesem zweiten Aufsatz, den Scheuchzer nicht in seine <hi rend="u">Nova
+              Literaria Helvetica</hi> aufgenommen hat, um Jacob Hermann, <hi rend="u">Méthode de
+              déterminer le diamètre de l’arc-en-ciel</hi> (1704) (= <ref
+              target="http://www.ub.unibas.ch/bernoulli/index.php/WerkverzeichnisHermann#Na._006.2C_M.C3.A9thode_de_d.C3.A9terminer_le_diam.C3.A8tre_de_l.27arc-en-ciel_.281704.29."
+              >Na. 006</ref>).</note> oblitus sum inserere Novis ultimis Literarijs.<note
+            type="editorial">Scheuchzer, Johann Jakob (ed.), <hi rend="u">Nova Literaria Helvetica,
+              pro anno 1703 ...</hi>, Tiguri [Zürich] (D. Gessner) 1704.</note> Proximum Catalogum,
+          quem ob concatenata multi generis negotia exarare nondum potui, Scriptorum meorum
+          Mathematicorum mittam.<note type="editorial">Der Empfang dieses Katalogs der
+            mathematischen Bücher aus Scheuchzers Bibliothek wird von Hermann in seinem Brief von
+              <rs key="B_991170430330205501" type="letter">1704.02.06</rs>
+            bestätigt.</note>
+  </p>
+  <p>Gaudeo Te idem mecum sentire circa altimetriam tum Barometricam tum Geometricam. De
+          altero Aetiologiae Tuae Lemmate, quod scil. radij a summis montibus in imas valles reflexi
+          non recta via procedunt sed curva, velim Te paulo latius cog[ita]res, quando quidem enim
+          insigne contra altimetriam Geometricam pugnans pendet momentum,<note type="editorial"
+            >Scheuchzer verspricht sich von Hermanns Hinweis auf die wegen Nichtberücksichtigung der
+            atmosphärischen Refraktion auftretenden Messfehler eine Diskreditierung der bisherigen
+            klassischen trigonometrischen Methoden bei der Höhenmessung zugunsten seiner neuen
+            barometrischen Messmethode.</note> imo vero ἀκριβείᾳ adimitur omnibus modis quibus
+          hactenus uti solebant Geodetae ad montium altitudines mensurandas.<note type="editorial"
+            >Im Manuskript steht «mensurandis». Scheuchzer hatte dieses Wort ursprünglich auf
+            «omnibus modis» bezogen und es beim nachträglichen Einfügen hinter «altitudines» nicht
+            angepasst.</note> Specimen, quod omni studio adhibito in Praegallia valle<note
+            type="editorial">Es handelt sich laut Brief von <rs
+              key="B_991170430330205501" type="letter">1704.02.06</rs> um den Piz delle
+            nuove im <rs key="place_GEB-bergell" type="place">Bergell</rs>.</note> nuper effeci, et
+          subsidio quidem Semicirculi Goniometrici, cui secundarius arcus puncta quoque addit,<note
+            type="editorial">Scheuchzers Halbkreiswinkelmesser besass offenbar einen Nonius.</note>
+          Epistolae huic inclusum vide et judica;<note type="editorial">Diese Beilage mit
+            Scheuchzers Berechnungen ist nicht erhalten.</note> errorem me commisisse in calculo
+          nondum vidi, tu Vir ἐμῷ κεχαρισμένε Θυμῷ lynceos Tuos oculos adhibe. Productum ita mihi
+          videtur excessivum, ut montis hujus imi et aliorum vicinorum altitudines descriptioni
+          Itineris mei<note type="editorial">Scheuchzer, Johann Jakob, <hi rend="u">Οὐρεσιφοίτης
+              Helveticus, sive itineris alpini descriptio physico-medica prima publicae eruditorum
+              συζητήσει subjecta praeside J. Jacobo Scheuchzero, ... respondente Johanne
+              Scheuchzero, Med. Stud. fratre. In Auditorio Aestivo H. L. Q. S. die 9. Octob.</hi>,
+            Tiguri [Zürich] (D. Gessner) 1702.</note> inserere non fuerim ausus. Exerce, rogo, in re
+          tanti momenti Ingenium Tuum, et pressius puto curvitatem lineae radiosae ab ἀκρωρεῖοις in
+          valles tendentis demonstra, imo et genus curvarum, quodnam id esse possit, specifica.<note
+            type="editorial">Scheuchzers viel zu grosse Messresultate bei der Bestimmung von
+            Berghöhen im Bergell lassen sich allerdings nicht durch Berücksichtigung des Einflusses
+            der atmosphärischen Refraktion erklären.</note> Sic, quod dudum in Algebraista
+          desideravi, subtiles alias ad humani Ingenij vires [summas] transcendentes
+            speculationes<note type="editorial">Das ursprünglich hier stehende Wort «cognitio»
+            scheint gestrichen und durch «speculationes» ersetzt worden zu sein.</note>, usui
+          communi adaptas. Vale Vir, etc. </p>
+  <p>d. 26. Jan.<note type="editorial">Das fehlende Jahr im Datum ergibt sich aus der
+            chronologischen Anordnung der Entwürfe Scheuchzers im entsprechenden Band der «Copiae
+            epistolarum», ZB Zürich, Ms H 150a, pp. 327–328.</note>
+  </p>
+  <p>[Signatur J. J. Sch.] </p>
+  <p>D. D. Stehelino<note type="editorial">Johann Heinrich Stehelin (1668-1721) studierte in
+            Basel Philosophie und Medizin. 1690-92 bildete er sich in Paris in Anatomie und Botanik
+            weiter und wurde 1693 zum Dr. med. in Basel. 1697 zog Theodor Zwinger ihn zu einem beim
+            Publikum erfolgreichen Experimentalkolleg bei. Zur Zeit der Verfassung dieses Briefes
+            war Stehelin praktizierender Arzt in Basel und ab 1706 Professor der Eloquenz, ab 1711
+            der Anatomie und der Botanik in Basel. Er führte botanische Exkursionen in die Berge
+            durch und bot chirurgische Kollegien an. Mit Johann Jakob Scheuchzer tauschte er
+            botanische Erkenntnisse und Pflanzen aus.</note> grates ago pro transmissis Chartis
+          variorum fossilium [...bus] etc.<note type="editorial">Es handelt sich vermutlich um
+            Darstellungen von Fossilien, die Johann Heinrich Stehelin mit seinem Brief an Johann
+            Jakob Scheuchzer von <ref
+              target="http://www.e-manuscripta.ch/zuz/content/pageview/956324">1704.01.23</ref>, ZB
+            Zürich, Ms H 340, p. 421, gesandt hatte, die aber in der
+            Stehelin-Scheuchzer-Korrespondenz nicht mehr erhalten sind. </note>
+  </p>
+      </div>
+    </body>
+  </text>
+</TEI>

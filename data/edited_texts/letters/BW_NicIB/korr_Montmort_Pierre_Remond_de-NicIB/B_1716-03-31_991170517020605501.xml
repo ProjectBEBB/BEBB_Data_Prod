@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517020605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Pierre Rémond de Montmort. Ohne Ort, 31. März 1716</title>
+          <title type="alt">1716.03.31: Bernoulli, Nicolaus (1687-1759) an Montmort, Pierre Rémond de (1678-1719)</title>
+          <title type="alt">000059341</title>
+          <title type="alt">1716-03-31_Bernoulli_Nicolaus-Montmort_Pierre_Remond_de</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517020605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517020605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf fo.232r eigenhändig "A Mr. de Monmort" und am Schluss des Textes fo.240v mit anderer Tinte das Datum</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23454">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 21:2:Bl.232r-240v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517020605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433688005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059341</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>18 S.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[S.l.]</origPlace>
+              <date when="1716-03-31">31. Martij 1716</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ohne Ort</placeName>
+          <date when="1716-03-31"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517020705501" type="prev"/>
+          <ptr target="B_991170517020505501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118503863">Archimedes</persName>
+            <note type="lebensdaten">(v287-v212)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118941941">Conti, Antonio</persName>
+            <note type="lebensdaten">(1677-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-126788103">Halke, Paul</persName>
+            <note type="lebensdaten">(1662-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913974">Högger, Anton</persName>
+            <note type="lebensdaten">(1682-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913982">Högger, Johann Jakob</persName>
+            <note type="lebensdaten">(1680-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155965140">Apoil de Romicourt, Françoise Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118820214">Philipp</persName>
+            <note type="lebensdaten">(1674-1723)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 4); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-09-25" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-09-24" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2025-09-22" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2025-09-18" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2025-09-17" who="SG FN">Kollationieren begonnen</change>
+        <change when="2025-01-07" who="RG">Kommentare durch "rs type=" ersetzt, sowie weitere wenige Auszeichnungen.</change>
+        <change when="2025-01-07" who="RG">Lb/ eingefügt sowie kleinere Anpassungen</change>
+        <change when="2025-01-07" who="RG">pb eingefügt</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-07-21" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-05-22" who="MS">Mathe tagen und Platzhalter einfügen abgeschlossen, Personenauflistung</change>
+        <change when="2020-05-15" who="MS">teilweise Mathe getagt, Platzhalter eingefügt</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1038808/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1038809" n="232r"/>
+  <opener>
+      <lb/><note hand="pers_DE-588-119166895">À Mr. de <rs key="pers_DE-588-117601020" type="person">Monmort</rs>.</note>
+  <salute><lb/>Monsieur</salute>
+  </opener>
+  <p>
+      <lb/>Je dois craindre avec raison, <subst><del><gap/></del><add>de ne point obtenir</add></subst> pour cette fois<del><gap/></del>
+      <lb/><subst><del><gap/></del><add>le</add></subst> pardon de mon long silence; mais <choice><orig>scachés</orig><reg>sçachés</reg></choice> s’il vous plait, qu’<pc type="hyphenation"></pc><lb break="no"/>aprés avoir été long temps à me resoudre de répondre à Vôtre <rs key="B_991170517020705501" type="letter">Lettre</rs>
+      <lb/>du <date>14. Novembre 1715</date>.<del><gap/></del> <choice><orig>ce</orig><reg>Ce</reg></choice> n’est pas sans repugnance
+      <lb/>que je Vous écris celle<choice><orig></orig><reg>-</reg></choice><rs type="letter">ci</rs>, ne pouvant pas le faire sans me plain<pc type="hyphenation">-</pc><lb break="no"/>dre de la maniere <subst><del><gap/></del><add>en</add></subst> laquelle Vous avés <subst><del><gap/></del><add>critiqué</add></subst> mes remar<pc type="hyphenation">-</pc><lb break="no"/>ques sur Vos 10<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> theorémes. Vous loués <del><gap/></del>mon exactitude et
+      <lb/>ma sincerité, mais Vous leur donnés en même temps les noms odieux
+      <lb/>de severité, de critiques et de reformes, par lesquels il <subst><del><gap/></del><add>me</add></subst> semble que
+      <lb/>Vous voulés insinuer que je me plais à rafiner sur Vos decouvertes,
+      <lb/>et que je m’efforce <subst><del><gap/></del><add>ordinairement à y</add></subst> trouver quelque chose à corriger. Je Vous proteste,
+      <lb/>Monsieur, qu’en Vous envoyant mes remarques<del><gap/></del> je n’ai pas eu le dessein
+<pb facs="1038810" n="232v"/>
+      <lb/>de critiquer Vos solutions, mais seulement de Vous donner des marques
+      <lb/>claires par lesquelles Vous <choice><sic>pussiés</sic><corr>puissiés</corr></choice> co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oitre que j’avois aussi trouvé les
+      <lb/>mêmes solutions. Il auroit été trop long de Vous envoyer mes methodes,
+      <lb/>c’est pourquoi je me suis contenté<del><gap/></del> de Vous<del><gap/></del>
+      <lb/><del><gap/></del>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquer les formules
+      <lb/>que mes methodes m’ont fournies, et que je n’ai pas tirées, <add>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <seg type="transposition">peutetre Vous le pensés</seg></add><supplied>,</supplied> de<del><gap/></del> Vo<del><gap/></del>s
+      <lb/><add>formules,</add> en les tournant de façon ou d’autre jusqu’à ce qu’elles se soient
+      <lb/>presentées sous une expression plus courte<choice><orig>,</orig><reg>.</reg></choice><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/><del><gap/></del>Je
+      <lb/>ne sçai pas si en ce faisant j’ai merité l’e<subst><del><gap/></del><add>loge</add></subst> d’un critique severe,
+      <lb/>mais <add>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e</add> il Vous plait de rectifier le mot de severité par celui de sin<pc type="hyphenation">-</pc><lb break="no"/>cerité, je croi que ce dernier terme conviendroit mieux à ma ma<pc type="hyphenation">-</pc><lb break="no"/>niere d’agir, que le premier; je Vous avoue, Monsieur, ma
+      <lb/>faute, je ne suis que trop sincere, et je le suis meme tant
+      <lb/>jusqu’à souhaiter que Vous le fussiés autant que moi.
+  </p>
+  <p>
+      <lb/>Car à Vous parler franchement, j’ai de la peine à croire, que Vous
+      <lb/>ayés voulu m’objecter <add>sincerement et</add> tout de bon des choses qui sentent si fort la
+      <lb/>chicane; <del><gap/></del>pardonnés ce terme grossier, c’est
+      <lb/>mon foible d’appeller les choses par leur nom. Je vais pour justi<pc type="hyphenation">-</pc><lb break="no"/>fier ce que je viens d’avancer Vous montrer le tort de Vos objections.
+      <lb/>Vous dites que <subst><del><gap/></del><add>Vôtre</add></subst> solution du 1.<hi rend="sup">er</hi> <abbr>Probl.</abbr> Vous paroit préferable à celle
+      <lb/>que je Vous ai proposée. Pour moi<supplied>,</supplied> je croi qu’aucune ne peut étre pré<pc type="hyphenation">-</pc><lb break="no"/>ferée à l’autre, la mienne n’<subst><del><gap/></del><add>étant</add></subst> autre chose que la Vôtre concuë
+      <lb/>en moins de paroles; Vous convenés aussi que c’est la même chose, mais
+      <lb/>Vous ajoutés, que <del><gap/></del>la Vôtre apprend non seulement, qu’il faut
+      <lb/>employer autant de termes de la bande perpendiculaire <formula>p+q-1</formula>,
+      <lb/>qu’il y a d’unités dans <formula>p</formula>, divisés par le dernier de ces termes, mais
+      <lb/>qu’elle apprend encore la maniere de trouver cette somme; et
+<pb facs="1038811" n="233r"/>
+      <lb/>Vous ajoutés, que c’est justement ce dont il s’agit; si cela est <add>ainsi</add> j’ai co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>is une
+      <lb/>petition de principe et je n’ai point resolu le Probleme. Mais voyons par
+      <lb/>un seul exemple, si c’est avec raison que Vous pretendés cet avantage sur moi.
+      <lb/>Soit à trouver la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de cette suitte <formula>\frac{1}{1}+\frac{5}{9}+\frac{10}{45}+\frac{10}{165}+\frac{5}{495}+\frac{1}{1287}</formula>, où
+      <lb/><formula>p=6</formula>, et <formula>q=9</formula>; je dis <subst><del><gap/></del><add>que pour avoir cette so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e</add></subst> il faut <subst><del><gap/></del><add>diviser</add></subst> la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des 6 premiers termes
+      <lb/>de la 14.<hi rend="sup">e</hi> bande perpendiculaire par 1287<supplied>,</supplied> qui est le dernier de ces 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> termes.
+      <lb/><note type="editorial">Im Manuskript steht hier ein Pluszeichen, das nicht transkribiert wurde.</note>Selon Vous il faut prendre la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> premiers termes de la même ban<pc type="hyphenation">-</pc><lb break="no"/>de perpendiculaire et l’ôter de la 13.<hi rend="sup">e</hi> puissance de 2, et multiplier
+      <lb/>le reste par <choice><orig><formula>\frac{1\cdot2\cdot3\cdot4\ldots8}{6\cdot7\cdot8\cdot9\ldots.13}</formula></orig><reg><formula>\frac{1\cdot2\cdot3\cdot4\cdot\ldots\cdot8}{6\cdot7\cdot8\cdot9\cdot\ldots\cdot13}</formula></reg></choice>; faites en à cette heure Vous même les conclu<pc type="hyphenation">-</pc><lb break="no"/>sions necessaires. En un mot<supplied>,</supplied> il est aussi facile d’ajouter autant de termes
+      <lb/>de la bande <formula>p+q-1</formula> qu’il y a d’unités dans <formula>p</formula>, que d’en ajouter autant qu’il
+      <lb/>y a d’unités dans <formula>q-1</formula>, car <formula>p</formula> et <formula>q</formula> étant deux nombres arbitraires<supplied>,</supplied> <del><gap/></del><formula>p</formula>
+      <lb/>peut <del><gap/></del>étre <del><gap/></del>plus petit que <formula>q-1</formula> aussi
+      <lb/>bien que plus grand.<note type="editorial">Im Manuskript steht hier ein Sonderzeichen, das nicht transkribiert wurde. Es könnte ein Absatzzeichen sein.</note> Mais co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent trouverai<del><gap/></del>-je la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de ces 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> premiers
+      <lb/>termes, c’est ce dont il s’agit? Voici Vôtre Regle qui me l’apprend:<note type="editorial">Im Manuskript steht hier dasselbe Sonderzeichen wie zu Beginn des Satzes, das nicht transkribiert wurde.</note>
+      <lb/>Et quand même <formula>p</formula> est plus grand que <formula>q-1</formula>, <subst><del><gap/></del><add>il y a des cas<supplied>,</supplied> <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> quand</add></subst> l’excés n’est pas fort considera<pc type="hyphenation">-</pc><lb break="no"/>ble, où j’aimerois mieux ajouter autant de termes qu’il y a d’unités
+      <lb/>dans <formula>p</formula>, que d’en ajouter autant qu’il y a d’unités dans <formula>q-1</formula>, et de retran<pc type="hyphenation">-</pc><lb break="no"/>cher cette so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de toute la bande ou de <formula>2^{p+q-2}</formula>, parceque
+      <lb/>l’elevation du nombre 2 à la puissance <formula>p+q-2</formula> pourroit demander un
+      <lb/>plus grand travail que <add><del><gap/></del>ne demanderoit</add> l’addition de quelques termes de plus. Je pourrois
+      <lb/>donc <subst><del><gap/></del><add>soutenir</add></subst> <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>si je voulois chicaner<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> que ma solution est preferable à
+      <lb/>la Vôtre, mais je m’en garde bien, <del><gap/></del>car la Vôtre et la mienne
+      <lb/>ayant toutes deux le même sens<supplied>,</supplied> il seroit ridicule<supplied>,</supplied> si nous nous vou<pc type="hyphenation">-</pc><lb break="no"/>lions quereller sur la maniere d’ajouter un certain <subst><del><gap/></del><add>n</add></subst>ombre de
+      <lb/>termes d’une bande perpendiculaire,<add><del><gap/></del></add> laquelle nous sçavons tous
+      <lb/>deux depuis long temps.
+  </p>
+  <p>
+      <lb/>À l’égard du 2.<hi rend="sup">d</hi> <abbr>Probl.</abbr> mon intention n’a pas été de dire, que Vous n’aviés
+      <lb/>pas remarqué que tous les facteurs du numerateur sont detruits par ceux
+      <lb/>du denominateur, mais seulement<del><gap/></del> d<subst><del><gap/></del><add>e</add></subst> dire, que je ne pouvois pas com<pc type="hyphenation">-</pc>
+<pb facs="1038812" n="233v"/>
+      <lb break="no"/>prendre la raison<supplied>,</supplied> pourquoi Vous avés voulu énoncer Vôtre regle<del><gap/></del>
+      <lb/>de cette maniere <add>plutôt</add> que d’une autre plus simple; Il est vrai que la proprieté
+      <lb/>que Vous avés remarquée est curieuse, mais un petit mot d’avertissem.<hi rend="sup">t</hi>
+      <lb/>auroit <add>été</add> suffisant pour me la faire voir, sans qu’il eut été necessaire<del><gap/></del>
+      <lb/><del><gap/></del>d’énoncer la solution du Probleme<del><gap/></del>
+      <lb/>d’une maniere <subst><del><gap/></del><add>qui</add></subst> me <subst><del><gap/></del><add>pourroit</add></subst> d’abord embarasse<subst><del><gap/></del><add>r</add></subst>. Vous auriés pû
+      <lb/><subst><del><gap/></del><add>remarquer</add></subst> une <seg type="transposition">proprieté semblable</seg> pour le <abbr>Probl.</abbr> 3.<hi rend="sup">e</hi><supplied>,</supplied> sçavoir
+      <lb/>que la bande horizontale du quantiéme <formula>n+1</formula> fournit toutes les solu<pc type="hyphenation">-</pc><lb break="no"/>tions pour toutes les differentes valeurs de <formula>p</formula>, <add>et vous auriés pû dire co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e au <abbr>Probl.</abbr> second que la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e cherchée</add><del> Car <formula>\frac{n}{p-1}+1</formula> </del>est <del> <formula>g</formula></del><note type="editorial">Die Stelle weist zahlreiche Korrekturen auf, die nicht eindeutig nachvollzogen werden können.</note> = à une
+      <lb/>fraction<supplied>,</supplied> dont le numerateur est le produit d’autant de ces quantités
+      <lb/><formula>\frac{n+1}{1}</formula>, <formula>\frac{n+2}{2}</formula>, <formula>\frac{n+3}{3}</formula>, <choice><orig><formula>{n+4}{4}\mathrm{\;\&amp;c.}</formula></orig><reg><formula>{n+4}{4}\mathrm{\;etc.}</formula></reg></choice> qu’il y a d’unités dans <formula>p-1</formula>, et le denominateur
+      <lb/>le produit d’autant de ces mêmes quantités qu’il y a d’unités dans <del><gap/></del><formula>p-2</formula>.
+      <lb/><del><gap/></del>Par <abbr>Ex.</abbr> <choice><orig><formula>\frac{1}{1}+\frac{3}{4}+\frac{6}{10}+\frac{10}{20}+\frac{15}{35} \mathrm{\;\&amp;c} =\frac{1}{0}</formula></orig><reg><formula>\frac{1}{1}+\frac{3}{4}+\frac{6}{10}+\frac{10}{20}+\frac{15}{35} \mathrm{\;etc.} =\frac{1}{0}</formula></reg></choice>; <choice><orig><formula>\frac{1}{1}+\frac{3}{5}+\frac{6}{15}+\frac{10}{35}\mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1}+\frac{3}{5}+\frac{6}{15}+\frac{10}{35}\mathrm{\;etc.}</formula></reg></choice>
+
+      <lb/><formula>=\frac{4}{1}</formula>; <choice><orig><formula>\frac{1}{1}+\frac{3}{6}+\frac{6}{21}+\frac{10}{56}\mathrm{\;\&amp;c}=\frac{10}{4}</formula></orig><reg><formula>\frac{1}{1}+\frac{3}{6}+\frac{6}{21}+\frac{10}{56}\mathrm{\;etc.}=\frac{10}{4}</formula></reg></choice>; <choice><orig><formula>\frac{1}{1}+\frac{3}{7}+\frac{6}{28}+\frac{10}{84}+\frac{15}{210}\mathrm{\;\&amp;c.}=\frac{20}{10}</formula></orig><reg><formula>\frac{1}{1}+\frac{3}{7}+\frac{6}{28}+\frac{10}{84}+\frac{15}{210}\mathrm{\;etc.}=\frac{20}{10}</formula></reg></choice> et ainsi de suite.
+      <lb/>Mais puisque je parle du <abbr>Probl.</abbr> 3.<hi rend="sup">e</hi><supplied>,</supplied> il faut que je me plaigne d’un en<pc type="hyphenation">-</pc><lb break="no"/>droit de Vôtre <rs type="letter">Lettre</rs> qui m’a fait beaucoup de mal. Vous dites que
+      <lb/>cette formule <formula>\frac{n}{p-1}+1</formula> e<subst><del><gap/></del><add>st</add></subst> aussi simple que celle<choice><orig> </orig><reg>-</reg></choice>ci <formula>\frac{d-1}{d-n-1}</formula> que l’on trouve
+      <lb/>en substituant <formula>p</formula> à la place de <formula>d-n</formula> (<subst><del><gap/></del><add>il falloit</add></subst> dire en substituant
+      <lb/><formula>d-n</formula> à la place de <formula>p</formula>) et que <hi rend="u">cela n’avoit pas besoin de reforme</hi>, <choice><orig>Ce</orig><reg>ce</reg></choice> trait
+      <lb/>me blesse terriblement; De grace, dites moi, si Vous pensés tout de bon
+      <lb/>que j’ai <subst><del><gap/></del><add>voulu</add></subst> reformer cet article ou substituer cette formule <formula>\frac{d-1}{d-n-1}</formula>
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e une plus simple à la place de la Vôtre <formula>\frac{n}{p-1}+1</formula>. Vous m’étes assurem.<hi rend="sup">t</hi>
+      <lb/>peu favorable, puisque Vous <choice><orig>Voulés</orig><reg>voulés</reg></choice> tirer <subst><del><gap/></del><add>une telle</add></subst> conclusion de ce qu’en
+      <lb/>parlant du <abbr>Probl.</abbr> 4.<hi rend="sup">e</hi> j’ai dit, que le premier membre<del><gap/></del>
+      <lb/>de ma formule donne justement la solution du <abbr>Probl.</abbr> 3.<hi rend="sup">e</hi><supplied>.</supplied> Ne voyés<choice><orig> </orig><reg>-</reg></choice>
+      <lb break="no"/>Vous pas clairement que mon intention a été seulement de faire
+      <lb/>voir que le premier membre de cette formule <choice><orig><formula>\frac{d-1}{d-n-1}-\frac{n\cdot n+1\cdot n+2 \ldots n+q-1}{d-n-1 \cdot d\cdot d+1\ldots d+q-2}</formula></orig><reg><formula>\frac{d-1}{d-n-1}-\frac{n(n+1)(n+2)\ldots(n+q-1)}{(d-n-1)d(d+1)\ldots(d+q-2)}</formula></reg></choice>
+      <lb/>exprim<subst><del><gap/></del><add>ant</add></subst> la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de tous les termes de la suite en question<del><gap/></del><supplied>,</supplied>
+      <lb/><del><gap/></del>l’autre membre <add>doit exprimer</add> la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de toute la suite moins
+      <lb/>les <formula>q</formula> 1.<hi rend="sup">ers</hi> termes, ou la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de tous les termes qui suivent aprés le
+<pb facs="1038813" n="234r"/>
+      <lb/>quantiéme <formula>q</formula>? Mais Vous me faites encore la même injustice au sujet
+      <lb/>du <abbr>Probl.</abbr> 4.<hi rend="sup">me</hi> en disant, qu’il en est à peu prés de même des deux formules
+      <lb/>du <abbr>prob.</abbr> 4<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> (c’est à dire qu’elles n’avoient pas besoin de reforme) et qu’
+      <lb break="no"/>il semble au contraire que ces deux formules <choice><orig><formula>\frac{n+p-1}{p-1}-\times \frac{n\cdot n+1\cdot n+2\ldots n+p-1}{\overline{p-1}\times n+q\cdot n+q+1 \ldots n+p+q-2}</formula></orig><reg><formula>\frac{n+p-1}{p-1}-\frac{n(n+1)(n+2)\ldots(n+p-1)}{(p-1)(n+q)(n+q+1)\ldots(n+p+q-2)}</formula></reg></choice>
+      <lb/>et <choice><orig><formula>-\times\frac{n-p-1}{p+1}+\frac{q+n-1\cdot q+n-2\ldots q+n-p-1}{\overline{p+1}\times n-1\cdot n-2\ldots n-p}</formula></orig><reg><formula>-\frac{n-p-1}{p+1}+\frac{(q+n-1)(q+n-2)\ldots(q+n-p-1)}{(p+1)(n-1)(n-2)\ldots(n-p)}</formula></reg></choice> soient plus simples que la mienne
+      <lb/><choice><orig><formula>\frac{d-1}{d-n-1}-\frac{n\cdot n+1\cdot n+2\ldots n+q-1}{d-n-1\cdot d\cdot d+1 \ldots d+q-2}</formula></orig><reg><formula>\frac{d-1}{d-n-1}-\frac{n(n+1)(n+2)\ldots(n+q-1)}{(d-n-1)d(d+1)\ldots(d+q-2)}</formula></reg></choice>. Par ces mots <quote><hi rend="u">au contraire</hi></quote> Vous <choice><orig>Voulés</orig><reg>voulés</reg></choice> faire
+      <lb/>entendre que j’ai eu tort de corriger les dites deux formules et d’en
+      <lb/>substituer une autre moins simple, quoique ce ne soient pas ces
+      <lb/>deux formules que Vous m’aviés envoyées, mais deux autres plus
+      <lb/>composées, <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> celles<choice><orig> </orig><reg>-</reg></choice>ci <choice><orig><formula>\frac{np}{p-1}\times \frac{n\cdot n+1\cdot n+2\cdot n+3 \mathrm{\;\&amp;c}}{1\cdot2\cdot3\cdot4 ..\mathrm{\;\&amp;c}}\times\overline{\frac{1\cdot2\cdot3\cdot4\cdot\mathrm{\;\&amp;c}}{n\cdot n+1\cdot n+2 \cdot \mathrm{\;\&amp;c}}-\frac{1\cdot2\cdot3\cdot4 \mathrm{\;\&amp;c}}{n+q\cdot n+q+1\cdot\mathrm{\;\&amp;c}}}</formula></orig><reg><formula>\frac{np}{p-1}\,\frac{n(n+1)(n+2)(n+3)}{1\cdot2\cdot3\cdot4\cdot\mathrm{\;etc.}}\mathrm{\;etc.}\cdot\left(\frac{1\cdot2\cdot3\cdot4\cdot\mathrm{\;etc.}}{n(n+1)(n+2)\cdot \mathrm{\;etc.}}-\frac{1\cdot2\cdot3\cdot4\cdot\mathrm{\;etc.}}{(n+q)(n+q+1)\cdot \mathrm{\;etc.}}\right)</formula></reg></choice>
+      <lb/>et <choice><orig><formula>\overline{\frac{q+n-1\cdot q+n\cdot q+n+1 \cdot \mathrm{\;\&amp;c}}{1\cdot2\cdot3.\cdot \mathrm{\;\&amp;c}}-\frac{n-1\cdot n\cdot n+1\cdot n+2 \mathrm{\;\&amp;c}}{1\cdot2\cdot3\cdot4\cdot \mathrm{\;\&amp;c}}}\times\frac{1\cdot2\cdot3\cdot4\cdot \mathrm{\;\&amp;c}}{n\cdot n+1\cdot n+2\cdot n+3 \mathrm{\;\&amp;c}}</formula></orig><reg><formula>\left(\frac{(q+n-1)(q+n)(q+n+1)\cdot \mathrm{\;etc.}}{1\cdot2\cdot3\cdot\mathrm{\;etc.}}-\frac{(n-1)n(n+1)(n+2)\cdot \mathrm{\;etc.}}{1\cdot2\cdot3\cdot4\cdot\mathrm{\;etc.}}\right)\frac{1\cdot2\cdot3\cdot4\cdot\mathrm{\;etc.}}{n(n+1)(n+2)(n+3)\cdot \mathrm{\;etc.}}</formula></reg></choice><supplied>,</supplied> lesquelles
+      <lb/>avant que j’eusse trouvé la mienne<supplied>,</supplied> me parurent inintellig<subst><del><gap/></del><add>ibl</add></subst>es à
+      <lb/>cause de quelques inexactitudes qui<del><gap/></del> Vous <add>y</add> sont echappées. Car 1.<hi rend="sup">o</hi>
+      <lb/><seg type="transposition">Vous dites</seg> que la 1.<hi rend="sup">re</hi> de ces deux dernieres formules est pour le cas<supplied>,</supplied> lorsque
+      <lb/>le numerateur est plus <del><gap/></del>grand que le denominateur, et la se<pc type="hyphenation">-</pc><lb break="no"/>conde pour le cas<supplied>,</supplied> lorsque le numerateur est plus petit que le denomi<pc type="hyphenation">-</pc><lb break="no"/>nateur; au lieu que la 1.<hi rend="sup">re</hi> doit étre employée lorsque le nume<pc type="hyphenation">-</pc><lb break="no"/>rateur est plus petit que le denominateur, et la seconde lorsqu’il
+      <lb/>est plus grand. 2.<hi rend="sup">o</hi> <seg type="transposition">Vous <choice><orig>Avés</orig><reg>avés</reg></choice></seg> mis <choice><orig><formula>\frac{n}{p-1}\times\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{n}{p-1}\cdot\mathrm{\;etc.}</formula></reg></choice> dans la 1.<hi rend="sup">re</hi> formule au
+      <lb/>lieu de <formula>\frac{p}{p-1}</formula>, ce qui avoit entierement troublé le sens de la formule
+      <lb/>3.<hi rend="sup">o</hi> <seg type="transposition">Vous <choice><orig>Dites</orig><reg>dites</reg></choice></seg> que <formula>n</formula> et <formula>p</formula> expriment ici les mêmes choses que dans
+      <lb/>le Probléme 3.<hi rend="sup">e</hi>, sçavoir <formula>n</formula> le quantiéme de la bande du nume<pc type="hyphenation">-</pc><lb break="no"/>rateur, et <formula>p</formula> la difference de l’ordre du numerateur à celui du dé<pc type="hyphenation">-</pc><lb break="no"/>nominateur; au lieu que dans la seconde formule Vous employés <formula>n</formula>
+      <lb/>pour le quantiéme de la bande du denominateur. À cause donc de
+      <lb/>ces inexactitudes et pour eviter toute ambiguité j’ai trouvé à propos
+      <lb/>de ne point distinguer les cas et de donner aux quanti<subst><del><gap/></del><add>é</add></subst>mes de la bande du
+<pb facs="1038814" n="234v"/>
+      <lb/>numerateur et de celle du denominateur à chacun un nom à part. Ma for<pc type="hyphenation">-</pc><lb break="no"/>mule <choice><orig><formula>\frac{d-1}{d-n-1}-\frac{n\cdot n+1\cdot n+2\ldots n+q-1}{d-n-1\cdot d\cdot d+1\ldots  d+q-2}</formula></orig><reg><formula>\frac{d-1}{d-n-1}-\frac{n(n+1)(n+2)\ldots(n+q-1)}{(d-n-1)d(d+1)\ldots(d+q-2)}</formula></reg></choice> n’est pas differente de ces deux <choice><orig><formula>\frac{n+p-1}{p-1}-\frac{n\cdot n+1\cdot n+2\ldots n+p-1}{p-1\cdot n+q\cdot n+q+1.. n+p+q-2}</formula></orig><reg><formula>\frac{n+p-1}{p-1}-\frac{n(n+1)(n+2)\ldots(n+p-1)}{(p-1)(n+q)(n+q+1)\ldots(n+p+q-2)}</formula></reg></choice>
+      <lb/>et <choice><orig><formula>-\frac{n-p-1}{p+1}+\frac{q+n-1\cdot q+n-2\ldots q+n-p-1}{p+1\cdot n-1\cdot n-2\ldots n-p}</formula></orig><reg><formula>-\frac{n-p-1}{p+1}+\frac{(q+n-1)(q+n-2)\ldots(q+n-p-1)}{(p+1)(n-1)(n-2)\ldots(n-p)}</formula></reg></choice><choice><orig>,</orig><reg>;</reg></choice> s’il y a des cas où<del><gap/></del>
+      <lb/>plus de facteurs se detruisent <del><gap/></del>dans ma formule qu<subst><del><gap/></del><add>e</add></subst> dans les vôtres <choice><orig><g ref="#klammerauf">|:</g></orig><reg>(</reg></choice>ce
+      <lb/>qui pourtant n’ôte rien à sa simplicité<choice><orig><g ref="#klammerzu">:|</g></orig><reg>)</reg></choice> il y en a aussi où plusieurs fa<pc type="hyphenation">-</pc><lb break="no"/>cteurs sont detruits dans Vos formules que dans la mienne. Par <abbr>Ex.</abbr> soit
+      <lb/>à trouver la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des 12<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1.<hi rend="sup">ers</hi> termes de cette suite <formula>\frac{1}{1}+\frac{4}{24}+\frac{10}{300}+\frac{20}{2600}+</formula>
+      <lb/><choice><orig><formula>\frac{35}{17550}+\frac{56}{98280}+\frac{84}{475020}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{35}{17550}+\frac{56}{98280}+\frac{84}{475020}+\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dans laquelle <formula>n=4</formula>, <formula>p=20</formula>, <formula>q=12</formula>, <formula>d=24</formula><supplied>;</supplied>
+      <lb/>ma formule donne <choice><orig><formula ana="corr">\frac{23}{19}-\frac{4\cdot5\cdot6\ldots15}{19\cdot24\cdot25\cdot26\ldots34}=\frac{77219}{366792}</formula></orig><reg><formula>\frac{23}{19}-\frac{4\cdot5\cdot6\cdot\ldots\cdot15}{19\cdot24\cdot25\cdot26\cdot\ldots\cdot34}=\frac{77219}{366792}</formula></reg></choice>, mais la vôtre donne <formula>\frac{23}{19}-</formula>
+      <lb/><choice><orig><formula>\frac{4\cdot5\cdot6\ldots23}{19\cdot16\cdot17\cdot18\ldots34}</formula></orig><reg><formula>\frac{4\cdot5\cdot6\ldots23}{19\cdot16\cdot17\cdot18\cdot\ldots\cdot34}</formula></reg></choice>, ce qui fait voir que Vos formules n’ont aucun avanta<pc type="hyphenation">-</pc><lb break="no"/>ge sur la mienne par rapport à la simplicité. En un mot<supplied>,</supplied> si je dois dire
+      <lb/>ce que je pense, c’est une chose indigne de disputer la simplicité à une
+      <lb/>formule, <del><gap/></del>par ce que <subst><del><gap/></del><add>l</add></subst>e numerateur et le denominateur
+      <lb/>de la formule ont quelquefois des facteurs co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uns qui se détruisent,
+      <lb/>car le calcul ne devient pas pour cela plus difficile, et on n’a qu’à effa<pc type="hyphenation">-</pc><lb break="no"/>cer les facteurs co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uns. De plus il me semble qu’il est mieux fait d’ex<pc type="hyphenation">-</pc><lb break="no"/>primer la solution de ce <abbr>Probl.</abbr> 4<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <subst><del><gap/></del><add>de la maniere que</add></subst> j’ai fait, que selon <add>la</add> vôtre<del><gap/></del>
+      <lb/><add>par deux raisons. 1<hi rend="sup">o</hi></add> par<add>ce</add>que ma formule est plus uniforme<del><gap/></del> que les Vôtres, en ce que les
+      <lb/>facteurs du <subst><del><gap/></del><add>n</add></subst>umerateur du second membre de <subst><del><gap/></del><add>ma</add></subst> formule co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encent
+      <lb/>par le quantiéme de la bande du numerateur, et les facteurs du denomi<pc type="hyphenation">-</pc><lb break="no"/>nateur par le quantiéme de la bande du denominateur, ce qui est un
+      <lb/>grand secours pour la memoire. 2.<hi rend="sup">o</hi> parce que je fai par une seule
+      <lb/>formule ce que Vous faites par deux; <hi rend="u"><foreign xml:lang="lat">quod fieri potest per pauca,
+      <lb/>non debet fieri per plura</foreign></hi>.<del><gap/></del>
+  </p>
+  <p>
+      <lb/>À l’égard du <abbr>Theor.</abbr> 6<choice><orig>.</orig><reg>,</reg></choice> je n’ai pas remarqué que <choice><orig><formula>\overline{g+\overline{n-1}\times h}\cdot f-\frac{fp}{2}-fh</formula></orig><reg><formula>\Bigl(g+(n-1)h\Bigr)f-\frac{fp}{2}-fh</formula></reg></choice> de de<pc type="hyphenation">-</pc><lb break="no"/>truisent, mais j’ai remarqué qu’il n’est pas necessaire de supposer avec Vous
+      <lb/><formula>2g+2nh-4h=p</formula>, parceque j’ai d’abord trouvé cette formule <choice><orig><formula>f\times 2^{n-m-1}\times</formula></orig><reg><formula>f\cdot 2^{n-m-1}\cdot</formula></reg></choice>
+      <lb/><choice><orig><formula>2g+\overline{n+m-2}\cdot h+\overline{2g+nh-2 h}\times 2^{n-3}a+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>2g+(n+m-2)h+(2g+nh-2h)2^{n-3}a+\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> qui est beaucoup plus simple
+      <lb/>que celle<choice><orig> </orig><reg>-</reg></choice>ci <choice><orig><formula>\overline{g+\overline{n-1}\times h}\times f+\frac{fp}{2}\times 2^{n-m}-1-h\times \overline{\overline{n-m-1}\times 2^{n-m-1}-2^{n-m-1}+1}</formula></orig><reg><formula>\Bigl(g+(n-1)h\Bigr)f+\frac{fp}{2}\cdot 2^{n-m}-1-\Bigl(h(n-m-1)2^{n-m-1}-2^{n-m-1}+1\Bigr)</formula></reg></choice>
+<pb facs="1038815" n="235r"/>
+      <lb/><choice><orig><formula>+\overline{p-nh+2h}\times2^{n-3}a+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>+(p-nh+2h)2^{n-3}a+\mathrm{\;etc.}</formula></reg></choice>, que Vous m’avés co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquée au co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encement,
+      <lb/>et dans laquelle il y a une faute, sçavoir <choice><orig><formula>-\overline{h\times \overline{n-m-1}\times 2^{n-m-1}-2^{n-m-1}+1}</formula></orig><reg><formula>-\Bigl(h(n-m-1)2^{n-m-1}-2^{n-m-1}+1\Bigr)</formula></reg></choice> à la
+      <lb/>place de <choice><orig><formula>-f\overline{h\times\overline{n-m-1}\times 2^{n-m-1}-2^{n-m-1}+1}</formula></orig><reg><formula>-f\Bigl(h(n-m-1)2^{n-m-1}-2^{n-m-1}+1\Bigr)</formula></reg></choice>. Je Vous prie de remarquer ici
+      <lb/><del><gap/></del>de ce que j’ai sçû corriger cette faute, <subst><del><gap/></del><add>que je n’ai</add></subst>
+      <lb/><subst><del><gap/></del><add>pas</add></subst> tiré<del><gap/></del> ma formule de la Vôtre en y substituant seulement
+      <lb/>pour <formula>p</formula> sa valeur <formula>2g+2nh-4h</formula>, mais que je l’ai trouvée moi même en
+      <lb/>resolvant le Problême. Au reste j’avoue que cette formule <choice><orig><formula>fp-fh\times\overline{n-m-2}\cdot</formula></orig><reg><formula>fp-fh(n-m-2)\cdot</formula></reg></choice>
+      <lb/><choice><orig><formula>2^{n-m-1}+p-nh+4h\times 2^{n-3}</formula></orig><reg><formula>(2^{n-m-1}+p-nh+4h)\cdot2^{n-3}</formula></reg></choice> (il faut <choice><orig><formula>p-nh+2h\times 2^{n-3}a</formula></orig><reg><formula>(p-nh+2h)\cdot2^{n-3}a</formula></reg></choice>) <choice><orig><formula>+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>+\mathrm{\;etc.}</formula></reg></choice> est aussi
+      <lb/>simple que la mienne, je dis de plus qu’elle est la même que la mienne.
+      <lb/>Je suis bien <subst><del><gap/></del><add>aise que Vous ayés approuvé</add></subst> la formule que j’ai trouvée pour <del><gap/></del>exprimer la somme
+      <lb/>d’un nombre quel<subst><del><gap/></del><add>c</add></subst>onque de <del><gap/></del>fractions du <subst><del><gap/></del><add><abbr>probl.</abbr></add></subst> 7<choice><orig>.</orig><reg>;</reg></choice> mais Vous n’avés
+      <lb/>pas remarqué que cette formule donne plus que la solution du <abbr>Probl.</abbr> 7<choice><orig>.</orig><reg>,</reg></choice>
+      <lb/>puisque Vous dites qu’il Vous semble que Vôtre formule l’emporte sur
+      <lb/>la mienne pour la simplicité. <del><gap/></del>Vôtre formule<del><gap/></del>
+      <lb/><choice><orig><formula>\frac{a}{m-1}+\frac{b}{\overline{m-1}^{2}}+\frac{c}{\overline{m-1}^{3}}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{a}{m-1}+\frac{b}{(m-1)^{2}}+\frac{c}{(m-1)^{3}}+\mathrm{\;etc.}</formula></reg></choice> ne donne que la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de toute la suite en question,
+      <lb/>au lieu que la mienne donne la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e d’un nombre determiné <formula>n</formula> de
+      <lb/>termes de cette suite. Or trouvés<choice><orig> </orig><reg>-</reg></choice>Vous étrange qu’une solution generale
+      <lb/>soit moins simple que celle d’un cas particulier? Si <del><gap/></del>dans ma
+      <lb/>formule <choice><orig><formula>\frac{m^{n}-1}{m-1} a+\frac{A-n}{m-1} b+\frac{B-\frac{n\cdot n-1}{1\cdot 2}}{m-1} c+\frac{C-\frac{n\cdot n-1\cdot n-2}{1\cdot 2\cdot 3}}{m-1} d+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{m^{n}-1}{m-1}\cdot a+\frac{A-n}{m-1}\cdot b+\frac{B-\frac{n(n-1)}{1\cdot2}}{m-1}\cdot c+\frac{C-\frac{n(n-1)(n-2)}{1\cdot2\cdot3}}{m-1}\cdot d+\mathrm{\;etc.}</formula></reg></choice> <add>divisé par <formula>m^{n}</formula></add> Vous
+      <lb/>mettés <formula>n=\infty</formula>, ces quantités <formula>1</formula>, <formula>n</formula>, <formula>\frac{n\cdot n-1}{1\cdot2}</formula>, <choice><orig><formula>\frac{n\cdot n-1\cdot n-2}{1\cdot2\cdot3},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{n(n-1)(n-2)}{1\cdot2\cdot3},\mathrm{\;etc.}</formula></reg></choice> s’évanouiront
+      <lb/>par rapport à <formula>m^{n}</formula>, <formula>A</formula>, <formula>B</formula>, <choice><orig><formula>C \mathrm{\;\&amp;c}</formula></orig><reg><formula>C \mathrm{\;etc.}</formula></reg></choice> et la formule se changera en celleci
+      <lb/><choice><orig><formula>\frac{m^n}{m-1}a+\frac{A}{m-1} b+\frac{B}{m-1} c+\frac{C}{m-1} d+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{m^{n}}{m-1}a+\frac{A}{m-1}\cdot b+\frac{B}{m-1}\cdot c+\frac{C}{m-1}\cdot d+\mathrm{\;etc.}</formula></reg></choice> le tout divisé par <formula>m^{n}</formula>, ce qui n’est
+      <lb/>autre chose que <choice><orig><formula>\frac{a}{m-1}+\frac{b}{\overline{m-1}^{2}}+\frac{c}{\overline{m-1}^{3}}+\frac{d}{\overline{m-1}^{4}}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{a}{m-1}+\frac{b}{(m-1)^{2}}+\frac{c}{(m-1)^{3}}+\frac{d}{(m-1)^{4}}+\mathrm{\;etc.}</formula></reg></choice>
+  </p>
+  <p>
+      <lb/>Je n’ai jamais eu le soupçon que Vous n’eussiés point la formule du
+      <lb/><abbr>Probl.</abbr> 9.<hi rend="sup">me</hi><supplied>,</supplied> car j’ai bien vû par <subst><del><gap/></del><add>Vos</add></subst> deux exemples que Vous <choice><orig>scavés</orig><reg>sçavés</reg></choice> trouver
+      <lb/>et le quantiéme et la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de ces suites, et il <add>est</add> vrai que celui qui a un
+      <lb/>de ces deux problemes<supplied>,</supplied> a aussi l’autre. J’avois seulement dit que je ne
+      <lb/>voyois pas co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent ce Probleme <add>pourroit</add> depend<add>re</add> du Theoreme 6<choice><orig>.</orig><reg>,</reg></choice> mais Vous m’
+<pb facs="1038816" n="235v"/>
+      <lb break="no"/>avés ôté tout scrupule en me faisant voir que c’est la formule du
+      <lb/>theoreme 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et non pas celle du 6.<hi rend="sup">e</hi><supplied>,</supplied> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous aviés écrit par megarde,
+      <lb/>que l’on peut employer aussi dans ce Probleme en mettant <formula>f</formula> et non <formula>fq=r</formula><unclear reason="lost">.</unclear>
+      <lb/>Je Vous avoue que je n’avois pas remarqué l’accord de ces deux Problémes,
+      <lb/>et que même <add>l’enoncé de</add> Vôtre solution <del><gap/></del>du <abbr>Probl.</abbr> 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> m<supplied>’</supplied><subst><del><gap/></del><add>avoit</add></subst> paru un peu
+      <lb/>obscur, avant que Vous m’eussiés fait voir que<del><gap/></del> ma
+      <lb/>formule pour le <abbr>probl.</abbr> 9.<hi rend="sup">me</hi> etoit la même que celle que Vous avés
+      <lb/>donnée pour le <abbr>Probl.</abbr> 8.<hi rend="sup">me</hi><supplied>.</supplied> Au reste Vous dites que ce <abbr>Probl.</abbr> 9.<hi rend="sup">me</hi> n’est qu’un
+      <lb/>cas particulier du <abbr>Probl.</abbr> 10.<hi rend="sup">e</hi><supplied>,</supplied> <add><choice><orig>scavoir</orig><reg>sçavoir</reg></choice> lorsque <formula>m=n</formula>,</add> ce que je ne <subst><del><gap/></del><add>puis</add></subst> pas <add>voir</add><supplied>,</supplied> il me semble au con<pc type="hyphenation">-</pc><lb break="no"/>traire <subst><del><gap/></del><add>qu’on peut <del><gap/></del>reduire</add></subst> celuici <subst><del><gap/></del><add> à un</add></subst> cas particulier de celui<choice><orig> </orig><reg>-</reg></choice>là. Je n’ai pas parlé de
+      <lb/>ce Probléme 10.<hi rend="sup">e</hi> dans mes remarques par deux raisons<supplied>:</supplied> 1.<hi rend="sup">o</hi> parce que ce Probleme
+      <lb/>quoiqu’un des plus beaux<supplied>,</supplied> m’avoit paru un des <subst><del><gap/></del><add>m</add></subst>oins difficiles d’entre Vos
+      <lb/>10<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Problemes. 2.<hi rend="sup">o</hi> parceque je ne voulois pas relever une faute que Vous
+      <lb/>aviés laissée dans Vôtre formule, non plus que quelques autres encore qui
+      <lb/>Vous sont echappé<subst><del><gap/></del><add>es</add></subst><del><gap/></del> par ci par là en <del><gap/></del>copiant mal <del><gap/></del>Vôtre
+      <lb/><rs type="letter">Lettre</rs>. Voici co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ent j’avois trouvé la solution de ce Probleme. Soit une
+      <lb/>suite, dont le 1.<hi rend="sup">er</hi> terme soit <formula>a</formula>, la 1.<hi rend="sup">re</hi> difference <formula>b</formula>, la 2.<hi rend="sup">de</hi>
+<formula>c</formula>, la 3.<hi rend="sup">me</hi> <formula>d</formula>, la 4.<hi rend="sup">e</hi> <formula>e</formula>
+      <lb/>et ainsi de suite. La so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e d’un nombre donné <formula>p</formula> de termes de cette suite est<supplied>,</supplied>
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous <choice><orig>scavés</orig><reg>sçavés</reg></choice><supplied>,</supplied> <choice><orig><formula>pa+\frac{p\cdot p-1}{1\cdot2} b+\frac{p\cdot p-1\cdot p-2}{1\cdot2\cdot3} c+\frac{p\cdot p-1\cdot p-2\cdot p-3}{1\cdot2\cdot3\cdot4} d+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>pa+\frac{p(p-1)}{1\cdot2}\cdot b+\frac{p(p-1)(p-2)}{1\cdot2\cdot3}\cdot c+\frac{p(p-1)(p-2)(p-3)}{1\cdot2\cdot3\cdot4}\cdot d+\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied>
+      <lb/>ce qui dans le cas particulier du Probleme 10.<hi rend="sup">e</hi> en mettant pour <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <formula>d</formula>, <choice><orig><formula>e,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>e,\mathrm{\;etc.}</formula></reg></choice> les
+      <lb/>grandeurs <formula>1</formula>, <formula>a</formula>, <formula>b</formula>, <formula>am^{2}</formula>, <formula ana="corr">bn^{2}</formula>, <formula>am^{4}</formula>, <choice><orig><formula>bn^{4},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>bn^{4},\mathrm{\;etc.}</formula></reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e porte l’énoncé de ce Probleme
+      <lb/>donne <choice><orig><formula>p+\frac{p\cdot p-1}{1\cdot2} a+\frac{p\cdot p-1\cdot p-2}{1\cdot2\cdot3} b+\frac{p\cdot p-1\cdot p-2\cdot p-3}{1\cdot2\cdot3\cdot4} am^{2}+\frac{p\cdot p-1\cdot p-2\cdot p-3\cdot p-4}{1\cdot2\cdot3\cdot4\cdot5} bn^{2}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>p+\frac{p(p-1)}{1\cdot2}\cdot a+\frac{p(p-1)(p-2)}{1\cdot2\cdot3}\cdot b+\frac{p(p-1)(p-2)(p-3)}{1\cdot2\cdot3\cdot4} am^{2}+\frac{p(p-1)(p-2)(p-3)(p-4)}{1\cdot2\cdot3\cdot4\cdot5} bn^{2}+\mathrm{\;etc.}</formula></reg></choice><note type="editorial">Handschriftliche Korrektu im zweiten Bruch.</note> Or la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des termes impairs de cette suite se trouve par le moyen des
+      <lb/>termes paires <add>du binome <choice><orig><formula>\overline{1+n}^{p}</formula></orig><reg><formula>(1+n)^{p}</formula></reg></choice></add>, et celle des termes <del><gap/></del>pairs se trouve par le moyen des termes im<pc type="hyphenation">-</pc><lb break="no"/>pairs du binome <choice><orig><formula>(1+m)^{p}</formula></orig><reg><formula>\overline{1+m}^{p}</formula></reg></choice>; <del><gap/></del>en cette maniere <choice><orig><formula>\frac{\overline{1+m}^{p}+\overline{1-m}^{p}}{2}</formula></orig><reg><formula>\frac{(1+m)^{p}+(1-m)^{p}}{2}</formula></reg></choice>
+      <lb/><choice><orig><formula>=1+\frac{p\cdot p-1}{1\cdot2} m^{2}+\frac{p\cdot p-1\cdot p-2\cdot p-3}{1\cdot2\cdot3\cdot4} m^{4}+\frac{p\cdot p-1\cdot p-2\cdot p-3\cdot p-4\cdot p-5}{1\cdot2\cdot3\cdot4\cdot5\cdot6} m^{6}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>=1+\frac{p(p-1)}{1\cdot2}\cdot m^{2}+\frac{p(p-1)(p-2)(p-3)}{1\cdot2\cdot3\cdot4}\cdot m^{4}+\frac{p(p-1)(p-2)(p-3)(p-4)(p-5)}{1\cdot2\cdot3\cdot4\cdot5\cdot6}\cdot m^{6}+\mathrm{\;etc.}</formula></reg></choice><supplied>;</supplied> en ôtant <del><gap/></del>de
+      <lb/>part et d’autre <del><gap/></del>et en multipliant par <formula>\frac{a}{m^{2}}</formula>, j’aurai <choice><orig><formula>\frac{a}{m^{2}}\times \overline{\frac{\overline{1+m}^{p}+\overline{1-m}^{p}}{2}-1}</formula></orig><reg><formula>\frac{a}{m^{2}}\left(\frac{(1+m)^{p}+(1-m)^{p}}{2}-1\right)</formula></reg></choice>
+      <lb/><choice><orig><formula>=\frac{p\cdot p-1}{1\cdot2} a +\frac{p\cdot p-1\cdot p-2\cdot p-3}{1\cdot2\cdot3\cdot4} am^{2}+\frac{p\cdot p-1\cdot p-2\cdot p-3\cdot p-4\cdot p-5}{1\cdot2\cdot3\cdot4\cdot5\cdot6} am^{4} +\mathrm{\;\&amp;c.}</formula></orig><reg><formula>=\frac{p(p-1) a}{1\cdot2}+\frac{p(p-1)(p-2)(p-3)}{1\cdot2\cdot3\cdot4} am^{2}+\frac{p(p-1)(p-2)(p-3)(p-4)(p-5)}{1\cdot2\cdot3\cdot4\cdot5\cdot6} am^{4} +\mathrm{\;etc.}</formula></reg></choice> Ainsi la
+      <lb/>so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des termes pairs du binome <choice><orig><formula>\overline{1+n}^{p}</formula></orig><reg><formula>(1+n)^{p}</formula></reg></choice><supplied>,</supplied> c’est <subst><del><gap/></del><add>à dire</add></subst> <choice><orig><formula>p\cdot n+\frac{p\cdot p-1\cdot p-2}{1\cdot2\cdot3} n^{3}+</formula></orig><reg><formula>p\cdot n+\frac{p(p-1)(p-2)}{1\cdot2\cdot3}\cdot n^{3}+</formula></reg></choice>
+<pb facs="1038817" n="236r"/>
+      <lb/><choice><orig><formula>\frac{p\cdot p-1\cdot p-2\cdot p-3\cdot p-4}{1\cdot2\cdot3\cdot4\cdot5} n^{5}+\mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{p(p-1)(p-2)(p-3)(p-4)}{1\cdot2\cdot3\cdot4\cdot5}\cdot n^{5}+\mathrm{\;etc.}</formula></reg></choice> est <choice><orig><formula>=\frac{\overline{1+n}^{p}-\overline{1-n}^{p}}{2}</formula></orig><reg><formula>=\frac{(1+n)^{p}-(1-n)^{p}}{2}</formula></reg></choice>, en ôtant <del><gap/></del><formula>pn</formula> de part et d’au<pc type="hyphenation">-</pc><lb break="no"/>tre et en multipliant par <formula>\frac{b}{n^{3}}</formula> j’aurai <choice><orig><formula>\frac{p\cdot p-1\cdot p-2}{1\cdot2\cdot3} b+\frac{p\cdot p-1\cdot p-2\cdot p-3\cdot p-4}{1\cdot2\cdot3\cdot4\cdot5} bn^{2}</formula></orig><reg><formula>\frac{p(p-1)(p-2)}{1\cdot2\cdot3}\cdot b+\frac{p(p-1)(p-2)(p-3)(p-4)}{1\cdot2\cdot3\cdot4\cdot5} bn^{2}</formula></reg></choice>
+      <lb/><choice><orig><formula>+\mathrm{\;\&amp;c}=\frac{b}{n^{3}}\times \overline{\frac{\overline{1+n}^{p}-\overline{1-n}^{p}}{2}-pn}</formula></orig><reg><formula>+\mathrm{\;etc.}=\frac{b}{n^{3}}\left(\frac{(1+n)^{p}-(1-n)^{p}}{2}-pn\right)</formula></reg></choice>, à quoi si on ajoute le premier terme <formula>p</formula>
+      <lb/>et encore <choice><orig><formula>\frac{a}{m^{2}}\times\overline{\frac{\overline{1+m}^{p}+\overline{1-m}^{p}}{2}-1}</formula></orig><reg><formula>\frac{a}{m^{2}}\left(\frac{(1+m)^{p}+(1-m)^{p}}{2}-1\right)</formula></reg></choice>, on aura <add>toute</add> la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de la suite proposée.
+      <lb/>Je suis persuadé que c’est de la même maniere que Vous avés trouvé Vôtre so<pc type="hyphenation">-</pc><lb break="no"/>lution, laquelle n’est differente de la mienne qu’en ce que Vous avés mis
+      <lb/><choice><orig><formula>\pm\overline{m-1}^{p}</formula></orig><reg><formula>\pm(m-1)^{p}</formula></reg></choice><del><gap/></del> à la place de <choice><orig><formula>\overline{1-m}^{p}</formula></orig><reg><formula>(1-m)^{p}</formula></reg></choice><del><gap/></del> et <choice><orig><formula>\pm\overline{n-1}^{p}</formula></orig><reg><formula>\pm(n-1)^{p}</formula></reg></choice>
+      <lb/>à la place de <choice><orig><formula>\overline{1-n}^{p}</formula></orig><reg><formula>(1-n)^{p}</formula></reg></choice>, mais j’ai observé que dans le second membre de Vôtre
+      <lb/>formule Vous avés écrit par mégarde <choice><orig><formula>\frac{b}{n^{3}}\times \overline{\frac{\overline{n+1}^{p}\pm\overline{n-1}^{p}-np}{2}}+p</formula></orig><reg><formula>\frac{b}{n^{3}}\left(\frac{(n+1)^{p}\pm(n-1)^{p}-np}{2}\right)+p</formula></reg></choice> au lieu <subst><del><gap/></del><add>qu’il faut écrire</add></subst>
+      <lb/><choice><orig><formula>\frac{b}{n^{3}}\times\overline{\frac{\overline{n+1}^{p}\mp\overline{n-1}^{p}}{2}-np}+p</formula></orig><reg><formula>\frac{b}{n^{3}}\left(\frac{(n+1)^{p}\mp(n-1)^{p}}{2}-np\right)+p</formula></reg></choice>,<del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/>où la grandeur <formula>-np</formula> n’est pas divisée par 2, et où le signe d’en haut
+      <lb/>doit étre employé, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e au 1.<hi rend="sup">er</hi> membre de Vôtre solution <choice><orig><formula ana="corr">\frac{a}{m^{2}}\times\overline{\frac{\overline{m+1}^{p}\pm\overline{m-1}^{p}}{2}}-1</formula></orig><reg><formula>\frac{a}{m^{2}}\,\frac{(m+1)^{p}\pm(m-1)^{p}}{2}-1</formula></reg></choice>,
+      <lb/><del><gap/></del>lorsque <formula>p</formula> est un nombre pair et celui d’en bas<supplied>,</supplied> lorsque <formula>p</formula> est un
+      <lb/>nombre impair. Si <del><gap/></del>l’on suppose les generateurs<choice><orig>,</orig><reg type="deleted"/></choice> <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <formula>d</formula>, <formula>e</formula>, <choice><orig><formula>f,\mathrm{\;\&amp;c.} =</formula></orig><reg><formula>f,\mathrm{\;etc.} =</formula></reg></choice>
+      <lb/><formula>a</formula>, <formula>b</formula>, <formula>an</formula>, <formula>bm</formula>, <formula>an^{2}</formula>, <formula>bm^{2}</formula>, <formula>an^{3}</formula>, <choice><orig><formula>bm^{3}\mathrm{\;\&amp;c.}</formula></orig><reg><formula>bm^{3}\mathrm{\;etc.}</formula></reg></choice> j’ai trouvé précisement co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e Vous que la
+      <lb/>so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e de la suite est <choice><orig><formula>a\times\frac{\overline{1+\sqrt{n}}^{p}-\overline{1-\sqrt{n}}^{p}}{2\sqrt{n}}+b\times \frac{\overline{1+\sqrt{m}}^{p}+\overline{1-\sqrt{n}}^{p}-2}{2m}</formula></orig><reg><formula>a\frac{(1+\sqrt{n})^{p}-(1-\sqrt{n})^{p}}{2\sqrt{n}}+b\frac{(1+\sqrt{m})^{p}+(1-\sqrt{n})^{p}-2}{2m}</formula></reg></choice>. Mais si l’on
+      <lb/>vouloit rendre ce Probleme plus general en supposant avec Vous dans Vôtre
+      <lb/>remarque sur ce <abbr>Probl.</abbr> 10.<hi rend="sup">me</hi><choice><orig>.</orig><reg>,</reg></choice> les generateurs égaux à <formula>a</formula>, <formula>b</formula>, <formula>c</formula>, <formula>d</formula>, <formula>e</formula> ... <formula>bh</formula>, <formula>ck</formula>,
+      <lb/><formula>dl</formula>, <formula>em</formula> ... <formula>bh^{1+n}</formula>,  <formula>ck^{1+n}</formula>,<formula>dl^{1+n}</formula>, <formula>em^{1+n}</formula>, <formula>bh^{1+2n}</formula>, <formula>ck^{1+2n}</formula>, <formula ana="corr">dl^{1+2n}</formula>, <formula>em^{1+2n}</formula><supplied>,</supplied>
+      <lb/><choice><orig><formula>bh^{1+3n},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>bh^{1+3n},\mathrm{\;etc.}</formula></reg></choice><choice><orig>.</orig><reg>,</reg></choice> on auroit besoin de trouver les so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es des termes d’un binome
+      <lb/>élevé à une puissance quelconque interposés non seulement de deux
+      <lb/>en deux co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e dans le <abbr>Probl.</abbr> 10<choice><orig>.</orig><reg>,</reg></choice> mais de trois en trois, <add>ou</add> de quatre en
+      <lb/>quatre, ou de cinq en cinq <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr><supplied>,</supplied> ce qui est une chose dont je n’ai pas
+      <lb/>encore pû venir à bout. Vous dites dans Vôtre grande <rs type="letter">Lettre</rs> du mois de
+      <lb/><date>Mars</date> de l’année passée que <del><gap/></del>c’est par le secours de
+      <lb/>ce <subst><del><gap/></del><add>Probl</add></subst>éme 10<choice><orig>.</orig><reg>,</reg></choice> que Vous aviés trouvé la solution du 3.<hi rend="sup">me</hi> de<del><gap/></del> mes
+      <lb/>5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Problèmes <abbr>pag.</abbr> 401. Vous m’obligerés de me faire voir le rapport
+<pb facs="1038818" n="236v"/>
+      <lb/>qu’il y a entre ces 2<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Problemes, je ne l’ai pas pû decouvrir. Mais
+      <lb/>à propos de ces 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>Probl.</abbr><supplied>,</supplied> je Vous prie de me co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquer Vos refle<pc type="hyphenation">-</pc><lb break="no"/>xions sur les deux derniers de ces Problemes, Vous m’avés promis de ne
+      <lb/>rien laisser en arriere et de vuider tous nos differends. Je Vous ai
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué la solution du second <abbr>Probl.</abbr> de ces cinq dans ma <rs key="B_991170517021605501" type="letter">lettre</rs>
+      <lb/>du <date>28. Aout 1714</date>. Je prends la liberté de Vous prier encore une fois
+      <lb/><del><gap/></del>qu’il Vous plaise de verifier cette solution; quoiqu’on ne puisse
+      <lb/>pas donner une solution generale de ce Probleme, il y a pourtant une
+      <lb/>methode singuliere, que Vous decouvrirés bien<supplied>,</supplied> si Vous voulés
+      <lb/>prendre la peine de Vous y appliquer, pour resoudre une infinité
+      <lb/>de cas particuliers. Par <abbr>ex.</abbr>, si deux joueurs <formula>A</formula> et <formula>B</formula>, <subst><del><gap/></del><add>aprés avoir joué quelque temps</add></subst> aux conditions
+      <lb/>de ce 2.<hi rend="sup">d</hi> <abbr>Probl.</abbr> s’accordoient de <del><gap/></del>partag<add>er</add> entre eux l’argent de la banque
+      <lb/>que je suppose être 5<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> écus, j’ai trouvé que<supplied>,</supplied> si c’est à <formula>A</formula> à jouer le coup
+      <lb/>suivant, <formula>A</formula> doit prendre 11 <abbr>lb</abbr> 10 <abbr>s</abbr> 7 d et <formula>B</formula> 3 lb 9 s 5 d, mais que<supplied>,</supplied> si
+      <lb/>c’est à <formula>B</formula> à jouer, <formula>A</formula> doit prendre seulement 9 lb 11 s 4 d et <formula>B</formula> 5 lb 8 s 8 d<supplied>.</supplied>
+      <lb/>J’<subst><del><gap/></del><add>ai crû</add></subst> que ces paroles: <del><gap/></del><quote><hi rend="u">donner le 1.<hi rend="sup">er</hi> la solution d’un
+      <lb/>Probleme</hi></quote> signifient autant que <quote><hi rend="u">resoudre le 1.<hi rend="sup">er</hi> un Probleme</hi></quote>, et qu’en di<pc type="hyphenation">-</pc><lb break="no"/>sant que Vous croyés être le premier qui eust donné la solution de
+      <lb/>ce Probleme, <quote><hi rend="u">trouver la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e d’une suite de termes qui ont une
+      <lb/>derniere difference constante</hi></quote><supplied>.</supplied> Vous avés voulu dire autant qu’e<subst><del><gap/></del><add>st</add></subst> ce
+      <lb/>qu<subst><del><gap/></del><add>i</add></subst> <del><gap/></del><add>se</add> <add>trouve</add> dans Vôtre <rs type="biblio">Livre</rs> <abbr>pag.</abbr> 65<choice><orig>.</orig><reg>,</reg></choice> <abbr>l.</abbr> 7<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> et 8.<del><gap/></del>
+      <lb/><subst><del><gap/></del><add>or co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e</add></subst> selon Vôtre propre aveu Vous n’avés pas ignoré que cette ma<pc type="hyphenation">-</pc><lb break="no"/>tiere a deja été traitée par <del><gap/></del>un autre, <del><gap/></del>il me semble
+      <lb/>que je n’ai pas eû tort de Vous rappeller dans la <rs type="biblio">memoire</rs>
+      <lb/>ce que <del><gap/></del>j’ai eu l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vous écrire dans ma
+      <lb/>premiere <rs type="letter">Lettre</rs> <rs type="biblio"><abbr>pag.</abbr> 312</rs>.
+  </p>
+  <p>
+      <lb/>Je m’etonne de ce qu’aprés Vous avoir <del><gap/></del>expliqué dans ma
+      <lb/><rs type="letter">lettre</rs> precedente ce que cet <rs key="pers_DE-588-126788103" type="person">Auteur Allemand</rs><supplied>,</supplied> dont je Vous ai parlé<supplied>,</supplied>
+      <lb/>no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es premieres, secondes, troisiémes <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr><supplied>,</supplied> Vous n’avés pas
+      <lb/>compris le sens de ce Problème: <quote><hi rend="u">trouver les so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>es quelconques
+      <lb/>de cette progression Geometrique<choice><orig>,</orig><reg type="deleted"/></choice> 1, 3, 9, 27, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</hi></quote> <choice><orig>le</orig><reg>Le</reg></choice> seul mot de
+<pb facs="1038819" n="237r"/>
+      <lb/><hi rend="u">quelconques</hi> Vous auroit pû faire voir qu’il s’agit de trouver quelque
+      <lb/>chose de plus q<subst><del><gap/></del><add>ue</add></subst> n’est ce qu’on <choice><orig>scait</orig><reg>sçait</reg></choice> trouver depuis <rs key="pers_DE-588-118503863" type="person">Archimede</rs>; en un
+      <lb/>mot c’est la même chose que Vôtre Probleme 9.<hi rend="sup">me</hi><supplied>.</supplied>
+  </p>
+  <p>
+      <lb/>J’ai ri aussi bien que Vous de <del><gap/></del><add>ce que dans le temps de Vôtre demeure à <rs key="place_GEO-2643743" type="place">Londres</rs> la</add>
+      <lb/><add><rs type="biblio">Gazette</rs> Vous a</add> attribué de <rs type="biblio">nouvelles decouvertes</rs> par rapport aux Longitudes. Il est vrai
+      <lb/>ce que Vous dites que <abbr>Mr.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> est un ardent champion, je croi avec Vous
+      <lb/>que c’est lui qui a publié ce <rs type="biblio">Memoire</rs><supplied>,</supplied> dont Vous m’avés co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué le
+      <lb/>titre qui est en ces termes <hi rend="u">An Account of the book intituled Co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ercium
+      <lb/>Epistolicum <abbr>Coll.</abbr> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></hi> <del><gap/></del>Mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> n’a pas trouvé à propos de
+      <lb/>repondre à ses attaques, et pour ce qui est de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs><supplied>,</supplied> je croi qu’il tardera
+      <lb/>encore long temps à repondre aux <rs type="person">Anglois</rs>, car à ce qu’il a écrit à mon <rs key="pers_DE-588-118571249" type="person">Oncle</rs><supplied>,</supplied>
+      <lb/>il sera occupé pendant toute cette année uniquement à achever son <rs type="biblio">Histoire</rs>
+      <lb/>de la Maison de Brunswic. Il soutient que les <rs type="person">Anglois</rs> ne sçavent pas encore
+      <lb/>tout le calcul integral, et il dit qu’il a des Problemes à leur proposer<supplied>,</supplied> dont
+      <lb/>il espere qu’ils ne trouveront pas les solutions par leurs methodes, mais je crains
+      <lb/>que <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> ne se trompe dans son attente, au moins si <subst><del><gap/></del><add>ces</add></subst> Problemes ne
+      <lb/>sont pas plus difficiles que celui qu’il a envoyé à <abbr>Mr.</abbr> l’Abbé <rs key="pers_DE-588-118941941" type="person">Conti</rs>,<del><gap/></del>
+      <lb/><del><gap/></del>pour le proposer aux
+      <lb/><rs type="person">Anglois</rs> de sa co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oissance, <subst><del><gap/></del><add>quoique</add></subst> sans faire <subst><del><gap/></del><add>co<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>oitre</add></subst> qu’il vient de la part de <abbr>Mr.</abbr>
+      <lb/><rs key="pers_DE-588-118571249" type="person">Leibnits</rs>. Ce probleme etoit en ces termes: <quote><hi rend="u">Trouver la Courbe qui coupe à angles
+      <lb/>droits toutes les hyperboles d’un même centre et d’un même so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et</hi></quote>. Mon
+      <lb/><rs key="pers_DE-588-118571249" type="person">oncle</rs> a fait voir à <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> que ce Probleme est trop facile, et lui a
+      <lb/><del><gap/></del>conseillé de proposer <subst><del><gap/></del><add>cet</add></subst> autre qui est beaucoup plus
+      <lb/>difficile: <quote><hi rend="u">Trouver <del><gap/></del>la Courbe <formula>CDE</formula> qui coupe à angles droits toutes
+      <lb/><figure facs="../images/figures/1038819_01.png"></figure> les differentes Courbes <formula>ABD</formula> decrites sur l’axe <subst><del><gap/></del><add><formula>AF</formula></add></subst> et du so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et
+      <lb/><formula>A</formula><supplied>,</supplied> en sorte que par tout le rayon osculateur <formula>BG</formula> soit à sa partie
+      <lb/>interceptée <formula>BF</formula> en raison donnée.</hi></quote> J’ai resolu ce Probleme.
+      <lb/>Feu mon <rs key="pers_DE-588-118509950" type="person">oncle</rs> a donné dans les <rs type="biblio">Actes de Leipsic de 1698<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>pag.</abbr></rs>
+      <lb/>230<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> la solution de plusieurs Problemes semblables, mais il y a
+      <lb/>ajouté que leur solution n’avoit pas été difficile. Et en effet j’ai remarqué
+      <lb/>que tous les <rs type="biblio">exemples</rs> qu’il y a cités, <subst><del><gap/></del><add>et encore</add></subst> une infinité d’autres <add>se peuvent resoudre facilement par la methode</add> suivante.
+      <lb/>Soit proposé <del><gap/></del>generalement de trouver la Courbe <formula>BBB</formula> qui coupe
+<pb facs="1038820" n="237v"/>
+      <lb/><figure facs="../images/figures/1038820_01.png"/> à angles droits une infinité de courbes <formula>AB</formula>, <formula>AB</formula>, <choice><orig><formula>AB\mathrm{\;\&amp;c.}</formula></orig><reg><formula>AB\mathrm{\;etc.}</formula></reg></choice>,
+      <lb/>toutes d’un même genre et données de position.<del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb type="deleted"/><del><gap/></del>
+      <lb/><note type="editorial">Hier steht ein gestrichenes Einfügungszeichen, das auf die oben gestrichene Passage verweist.</note><del><gap/></del>Soient no<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ées <formula>x</formula> et <formula>y</formula> les coordo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ées <formula>CD</formula> et <formula>CB</formula>, <formula>p</formula> la ligne variable qui determine
+      <lb/>l’espece ou la position des courbes <formula>AB</formula>, <choice><orig><formula>AB\mathrm{\;\&amp;c.}</formula></orig><reg><formula>AB\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dont on doit chercher la valeur
+      <lb/>en <formula>x</formula>, <formula>y</formula>, et constantes par l’équation do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ée de ces Courbes. Je dis que si ayant
+      <lb/>pris la differentielle de cette valeur<supplied>,</supplied> on change <formula>dx</formula> en <formula>dy</formula> et <formula>dy</formula> en <formula>dx</formula>, et qu’
+      <lb break="no"/>on met ce qui est multiplié par <formula>dx</formula> égal à ce qui est multiplié par <formula>dy</formula>, on aura
+      <lb/>l’équation differentielle de la Courbe cherchée <formula>BBB</formula>. Pour appliquer
+      <lb/>cette regle aux <rs type="biblio">exemples</rs> de mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> soit 1.<hi rend="sup">o</hi> l’équation des Courbes
+      <lb/><formula>AB</formula> celleci <choice><orig><formula>yy=ap+ax</formula></orig><reg><formula>y^{2}=ap+ax</formula></reg></choice>, ce qui marque des Paraboles d’un même para<pc type="hyphenation">-</pc><lb break="no"/>metre <formula>a</formula> <add>et situées autour d’un même axe <formula>CD</formula></add> mais dont le so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et est éloigné <del><gap/></del>du point fixe <formula>C</formula> de la quan<pc type="hyphenation">-</pc><lb break="no"/>tité <del><gap/></del>variable <formula>p</formula>. Par cette équation on a <choice><orig><formula ana="corr">p=\frac{yy}{a}-x</formula></orig><reg><formula>p=\frac{y^{2}}{a}-x</formula></reg></choice>, dont la differen<pc type="hyphenation">-</pc><lb break="no"/>tielle est <formula>\frac{2ydy}{a}-dx</formula>, par consequent on aura <formula>\frac{2ydx}{a}=-dy</formula><supplied>,</supplied> ce qui est<del><gap/></del>
+      <lb/>une équation pour une Logarithmique ordinaire dont la soutangente
+      <lb/>est <formula>\frac{1}{2}a</formula>. Soit 2.<hi rend="sup">o</hi> l’équation des Courbes <formula>AB</formula> celle ci <choice><orig><formula>yy-2py+pp=ax</formula></orig><reg><formula>y^{2}-2py+p^{2}=ax</formula></reg></choice>
+      <lb/>qui marque des Paraboles d’un même parametre <del><gap/></del><formula>a</formula>, mais dont les axes
+      <lb/>sont paralleles à <formula>CD</formula> et les so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ets dans une <add>même</add> ligne droite <del><gap/></del>tirée per<pc type="hyphenation">-</pc><lb break="no"/>pendiculairement par le point fixe <formula>C</formula> sur l’axe <formula>CD</formula>. On aura <formula>p=y-\sqrt{ax}</formula>,
+      <lb/>et <formula>dp=dy-\frac{dx\sqrt{a}}{2\sqrt{x}}</formula>, par consequent l’équation differentielle de la Cour<pc type="hyphenation">-</pc><lb break="no"/>be cherchée sera <formula>dx=\frac{-dy\sqrt{a}}{2\sqrt{x}}</formula>, ou <formula>2\,dx\sqrt{x}=-dy\sqrt{a}</formula> dont l’integrale est
+      <lb/><formula>\frac{4}{3}x\sqrt{x}=-y\sqrt{a}</formula>, ou bien en quarrant <choice><orig><formula>16x^{3}= 9ayy</formula></orig><reg><formula>16x^{3}= 9ay^{2}</formula></reg></choice>. Soit 3.<hi rend="sup">o</hi> l’équation des
+      <lb/>Courbes <formula>AB</formula>, <formula>y^m = p^{m-1}x</formula>, on aura <formula>p=\frac{y^{\frac{m}{m-1}}}{x^{\frac{1}{m-1}}}</formula>, et <choice><orig><formula>dp=\frac{m}{m-1}\times x^{\frac{-1}{m-1}}\times y^{\frac{1}{m-1}}\,dy</formula></orig><reg><formula>dp=\frac{m}{m-1} x^{\frac{-1}{m-1}} y^{\frac{1}{m-1}}\,dy</formula></reg></choice>
+      <lb/><choice><orig><formula>-\frac{1}{m-1}\times y^{\frac{m}{m-1}}\times x^{\frac{-m-2}{m-1}}\,dx</formula></orig><reg><formula>-\frac{1}{m-1} y^{\frac{m}{m-1}} x^{\frac{-m-2}{m-1}}\,dx</formula></reg></choice>, et par consequent <choice><orig><formula>\frac{m}{m-1}\times x^{\frac{-1}{m-1}}\times y^{\frac{1}{m-1}}\,dx=-\frac{1}{m-1}\times y^{\frac{m}{m-1}}\times</formula></orig><reg><formula>\frac{m}{m-1} x^{\frac{-1}{m-1}} y^{\frac{1}{m-1}}\,dx=-\frac{1}{m-1} y^{\frac{m}{m-1}}\cdot</formula></reg></choice>
+<pb facs="1038821" n="238r"/>
+      <lb/><formula>x^{\frac{-m-2}{m-1}}\,dy</formula><supplied>,</supplied> <subst><del><gap/></del><add>ce qui</add></subst> en divisant de part et d’autre par <choice><orig><formula>\frac{1}{m-1}\times y^{\frac{1}{m-1}}\times x^{\frac{-m-2}{m-1}}</formula></orig><reg><formula>\frac{1}{m-1} y^{\frac{1}{m-1}} x^{\frac{-m-2}{m-1}}</formula></reg></choice>
+      <lb/>se reduit à <formula>mx\,dx=-y\,dy</formula>, dont l’integrale est <choice><orig><formula>mxx=aa-yy</formula></orig><reg><formula>mx^{2}=a^{2}-y^{2}</formula></reg></choice>. Si l’equa<pc type="hyphenation">-</pc><lb break="no"/>tion des Courbes <formula>AB</formula> est <choice><orig><formula>x=\mathrm{Log}\colon\frac{y-p}{1-p}</formula></orig><reg><formula>x=\mathrm{Log.}\,\frac{y-p}{1-p}</formula></reg></choice> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e dans l’exemple 4.<hi rend="sup">me</hi> de mon
+      <lb/><rs key="pers_DE-588-118509969" type="person">Oncle</rs>, pour trouver la valeur de <formula>p</formula> soit supposé <formula>x=lz</formula>, et on aura <formula>z=\frac{y-p}{1-p}</formula>
+      <lb/>ce qui donne <formula>p=\frac{y-z}{1-z}</formula>, et <choice><orig><formula>dp=\frac{dy-z\,dy-dz+y\,dz}{\square\,\overline{1+z}}=</formula></orig><reg><formula>dp=\frac{dy-z\,dy-dz+y\,dz}{(1+z)^{2}}=</formula></reg></choice> (en mettant pour <formula>dz</formula> sa
+      <lb/>valeur <formula>+zdx</formula><note type="editorial">Im Manuskript wurde bei Behandlung des Problems gemäss Exemple 4 an mehreren Stellen «<formula>\pm</formula>» zu «+» und «<formula>\mp</formula>» zu «-» korrigiert.</note>) <choice><orig><formula>\frac{dy-z\,dy-z\,dx + yz\,dx}{\square\,\overline{1-z}}</formula></orig><reg><formula>\frac{dy-z\,dy-z\,dx + yz\,dx}{(1-z)^{2}}</formula></reg></choice>, donc par la regle <formula>dx-z\,dx=-z\,dy+yz\,dy</formula>
+      <lb/>et en divisant par <formula>z</formula>, <formula>\frac{dx}{z}-dx=-dy+y\,dy</formula>, <del><gap/></del>ou bien <choice><orig><formula>+\frac{dz}{zz}-dx</formula></orig><reg><formula>+\frac{dz}{z^{2}}-dx</formula></reg></choice>
+      <lb/><formula>=-dy+y\,dy</formula><supplied>,</supplied> dont l’integrale est <choice><orig><formula>-\frac{1}{2}-x=-y+\frac{1}{2}yy</formula></orig><reg><formula>-\frac{1}{2}-x=-y+\frac{1}{2}y^{2}</formula></reg></choice>. <del><gap/></del>Si co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e dans <subst><del><gap/></del><add>l’</add></subst>ex<pc type="hyphenation">-</pc><lb break="no"/>emple <subst><del><gap/></del><add>5</add></subst><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> l’equation des Courbes <formula>AB</formula> est <choice><orig><formula>x=p\,\ell \, y</formula></orig><reg><formula>x=p\,\ell.\,y</formula></reg></choice>, on aura <choice><orig><formula>p=\frac{p}{\ell \, y}</formula></orig><reg><formula>p=\frac{p}{\ell.\, y}</formula></reg></choice>, et <formula>dp=</formula>
+      <lb/><del><gap/></del><choice><orig><formula>\frac{dx\,\ell \, y\mp\frac{x\,dy}{y}}{\square \,\ell \, y}</formula></orig><reg><formula>\frac{dx\,\ell .\, y\mp\frac{x\,dy}{y}}{(\ell.\,y)^{2}}</formula></reg></choice>, par consequent <choice><orig><formula>dy\,\ell \, y=\mp\frac{xdx}{y}</formula></orig><reg><formula>dy\,\ell.\, y=\mp\frac{xdx}{y}</formula></reg></choice> ou <choice><orig><formula>y\,dy\,\ell \, y=\mp x\,dx</formula></orig><reg><formula>y\,dy\,\ell.\, y=\mp x\,dx</formula></reg></choice><supplied>,</supplied> dont
+      <lb/>l’integrale est <choice><orig><formula>\frac{1}{2}yy\,\ell \, y\mp\frac{1}{4}yy=\mp\frac{1}{2}xx</formula></orig><reg><formula>\frac{1}{2}y^{2}\,\ell.\, y\mp\frac{1}{4}y^{2}=\mp\frac{1}{2}x^{2}</formula></reg></choice>. <abbr>Exempl.</abbr> 6. Soit <choice><orig><formula>yy=pp+px</formula></orig><reg><formula>y^{2}=p^{2}+px</formula></reg></choice>, ce
+      <lb/>qui marque des Paraboles <del><gap/></del>situées sur un même axe<supplied>,</supplied>
+      <lb/>mais dont les parametres sont égaux aux distances de leur<add>s</add> so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et<add>s</add> d’un
+      <lb/>certain point fixe pris dans l’axe. Par cette équation on aura <formula>p=-\frac{1}{2}x</formula>
+      <lb/><choice><orig><formula>+\sqrt{}\overline{\frac{1}{4}xx+yy}</formula></orig><reg><formula>+\sqrt{\frac{1}{4}x^{2}+y^{2}}</formula></reg></choice> et <choice><orig><formula>dp=-\frac{1}{2}dx+\frac{\frac{1}{4}x\,dx+y\,dy}{\sqrt{}\overline{\frac{1}{4}\overline{xx+yy}}}</formula></orig><reg><formula>dp=-\frac{1}{2}\,dx+\frac{\frac{1}{4}x\,dx+y\,dy}{\sqrt{\frac{1}{4}(x^{2}+y^{2})}}</formula></reg></choice>, donc par la regle <choice><orig><formula>-\frac{1}{2}dy+\frac{\frac{1}{4}p\,dy}{\sqrt{}\overline{\frac{1}{4}xx+yy}}</formula></orig><reg><formula>-\frac{1}{2}\,dy+\frac{\frac{1}{4}p\,dy}{\sqrt{\frac{1}{4}(x^{2}+y^{2})}}</formula></reg></choice>
+      <lb/><choice><orig><formula>=\frac{y\,dx}{\sqrt{}\overline{\frac{1}{4}xx+yy}}</formula></orig><reg><formula>=\frac{y\,dx}{\sqrt{\frac{1}{4}(x^{2}+y^{2})}}</formula></reg></choice>. La difficulté de separer les indeterminées de cette équation differen<pc type="hyphenation">-</pc><lb break="no"/>tielle a fait dire à mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, <quote><foreign xml:lang="lat"><hi rend="u">Problema hoc ad casus methodi tangentium
+      <lb/>invers<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nondum exploratos deduci</hi></foreign></quote>. <choice><orig>j</orig><reg>J</reg></choice>’en suis pourtant venu à bout et
+      <lb/>j’ai trouvé que <subst><del><gap/></del><add>la courbe cherchée est</add></subst> une courbe algebraique <del><gap/></del>dont l’équa<pc type="hyphenation">-</pc><lb break="no"/>tion est <choice><orig><formula>\sqrt[\frac{2}{3}]{}\overline{2yy-xx+x\sqrt{}\overline{xx+4yy}}=ay\sqrt{}\overline{xx+4yy}-axy</formula></orig><reg><formula>\sqrt[\frac{2}{3}]{2y^{2}-x^{2}+x\sqrt{x^{2}+4y^{2}}}=ay\sqrt{x^{2}+4y^{2}}-axy</formula></reg></choice><note type="editorial">Im Manuskript Korrekturen in der Formel.</note>. <abbr>Exempl.</abbr> 7.
+      <lb/>Soit l’equation donnée <choice><orig><formula>ayy=apx+pxx</formula></orig><reg><formula>ay^{2}=apx+px^{2}</formula></reg></choice>, ce qui est l’<rs type="biblio">exemple</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leib<pc type="hyphenation">-</pc><lb break="no"/>nitz</rs>: On aura <choice><orig><formula>p=\frac{ayy}{ax+xx}</formula></orig><reg><formula>p=\frac{ay^{2}}{ax+x^{2}}</formula></reg></choice>, et <choice><orig><formula>dp=\frac{2aaxy\,dy+2axxy\,dy-aayy\,dx-2ayyx\,dx}{\square\,\overline{ax+xx}}</formula></orig><reg><formula>dp=\frac{2a^{2}xy\,dy+2ax^{2}y\,dy-a^{2}y^{2}\,dx-2ay^{2}x\,dx}{(ax+x^{2})^{2}}</formula></reg></choice><supplied>,</supplied>
+      <lb/>donc <choice><orig><formula>2ax\,dx+2xx\,dx=-ay\,dy-2yx\,dy</formula></orig><reg><formula>2ax\,dx+2x^{2}\,dx=-ay\,dy-2yx\,dy</formula></reg></choice>, ou <choice><orig><formula>\frac{2ax\,dx+2xx\,dx}{a+2x}=-y\,dy</formula></orig><reg><formula>\frac{2ax\,dx+2x^{2}\,dx}{a+2x}=-y\,dy</formula></reg></choice>
+      <lb/>dont l’integrale est <choice><orig><formula>xx+ax-a\,\ell\colon\, \overline{a+2x}=-yy</formula></orig><reg><formula>x^{2}+ax-a\,\ell.\, (a+2x)=-y^{2}</formula></reg></choice><note type="editorial">Handschriftliche Korrekturen in der Formel.</note>, par <choice><orig><formula>\ell\colon\,\overline{a+2x}</formula></orig><reg><formula>\ell.\, (a+2x)</formula></reg></choice> j’entends le
+      <lb/>Logarithme de <choice><orig><formula>\overline{a+2x}</formula></orig><reg><formula>a+2x</formula></reg></choice> ayant pris <formula>\frac{1}{2}a</formula> pour la soutangente de la
+      <lb/><note hand="pers_DE-588-119166895"><choice><orig><g ref="#NB">NB</g></orig><reg>NB</reg></choice>. Dans l’<abbr>ex.</abbr> 6<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> en mettant pour <formula>y</formula> sa valeur <choice><orig><formula>\sqrt{}\overline{pp+px}</formula></orig><reg><formula>\sqrt{p^{2}+px}</formula></reg></choice> l’equation se change en <choice><orig><formula>p+x=\frac{1}{2}\overline{p+x}^{3}</formula></orig><reg><formula>p+x=\frac{1}{2}(p+x)^{3}</formula></reg></choice><supplied>.</supplied></note><note type="editorial">Bemerkung unten auf der Seite</note>
+<pb facs="1038822" n="238v"/>
+      <lb/>Logarithmique. <abbr>Exempl.</abbr> 8. Soit l’équation donnée <choice><orig><formula>pyy=apx+axx</formula></orig><reg><formula>py^{2}=apx+ax^{2}</formula></reg></choice><supplied>,</supplied> ce qui
+      <lb/>marque des hyperboles d’un même parametre et d’un même so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>et<supplied>,</supplied> mais dont
+      <lb/>les centres changent. On aura <choice><orig><formula>p=\frac{axx}{yy-ax}</formula></orig><reg><formula>p=\frac{ax^{2}}{y^{2}-ax}</formula></reg></choice> et <choice><orig><formula>dp=\frac{2ayyx\,dx-aaxx\,dx-2axxy\,dy}{\square yy-ax}</formula></orig><reg><formula>dp=\frac{2ay^{2}x\,dx-a^{2}x^{2}\,dx-2ax^{2}y\,dy}{(y^{2}-ax)^{2}}</formula></reg></choice><note type="editorial">In der Handschrift fehlt im Nenner das Vinculum.</note>
+      <lb/>donc <choice><orig><formula>2yy\,dy-ax\,dy=-2xy\,dx</formula></orig><reg><formula>2y^{2}\,dy-ax\,dy=-2xy\,dx</formula></reg></choice><supplied>,</supplied> ce qui est une équation où les indetermi<pc type="hyphenation">-</pc><lb break="no"/>nées ne se laissent guere separer. <abbr>Exempl.</abbr> 9. Soit l’équation donnée
+      <lb/><formula>x=y^{p}</formula><supplied>,</supplied> laquelle est pour des paraboles de divers degrés mais d’un
+      <lb/>même parametre. On aura <choice><orig><formula>p=\frac{\ell\, x}{\ell\, y}</formula></orig><reg><formula>p=\frac{\ell.\, x}{\ell.\, y}</formula></reg></choice>, et <choice><orig><formula>dp=\frac{y\,dx\, \ell\, y-x\,dy\,\ell\,x}{xy\times \square \ell\,y}</formula></orig><reg><formula>dp=\frac{y\,dx\mathrm{\ell.\,}y-x\,dy\mathrm{\ell.\,}x}{xy(\ell.\,y)^{2}}</formula></reg></choice><supplied>,</supplied> par con<pc type="hyphenation">-</pc><lb break="no"/>sequent <choice><orig><formula>y\,dy\,\ell\, y=-x\,dx\,\ell\, x</formula></orig><reg><formula>y\,dy\,\ell.\, y=-x\,dx\,\ell.\, x</formula></reg></choice><supplied>,</supplied> dont l’integrale est <choice><orig><formula>yy\,\ell\, y-\frac{1}{2}yy=-xx\,\ell\, x</formula></orig><reg><formula>y^{2}\,\ell.\, y-\frac{1}{2}y^{2}=-x^{2}\,\ell.\, x</formula></reg></choice>
+      <lb/><choice><orig><formula>+\frac{1}{2}xx\pm\mathrm{\;const.}</formula></orig><reg><formula>+\frac{1}{2}x^{2}\pm\mathrm{\;const.}</formula></reg></choice><del><gap/></del> Vous pouvés voir par ces exemples
+      <lb/>que cette regle ne sert que pour les cas où l’on peut trouver la valeur
+      <lb/>de <formula>p</formula> en termes finis, et que pour ceux<supplied>,</supplied> où cela ne se peut pas faire, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>il arrive pour la pluspart dans les courbes transcendentes, il faut employer
+      <lb/>une autre methode, que je Vous propose de chercher. Voici un autre
+      <lb/>Probleme que mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> m’a proposé et que j’ai resolu. Une ligne<del><gap/></del>
+      <lb/><figure facs="../images/figures/1038822_01.png"/> Courbe <formula>ABC</formula> et une droite <formula>FG</formula> étant
+      <lb/>données de position avec un point <formula>H</formula>,
+      <lb/>trouver une Courbe <formula>ADE</formula> de
+      <lb/>cette nature, qu<subst><del><gap/></del><add>’</add></subst>ayant tiré par le point
+      <lb/>donné <formula>H</formula> une droite quelconque <formula>HDB</formula> qui
+      <lb/>coupe les deux Courbes en <formula>D</formula> et <formula>B</formula>, les<del><gap/></del>
+      <lb/>tangentes menées par les <add>deux</add> points d’inter<pc type="hyphenation">-</pc><lb break="no"/>section<del><gap/></del> <formula>D</formula> et <formula>B</formula> concourrent dans un même
+      <lb/>point <formula>F</formula> de la ligne donnée <formula>FG</formula>. <hi rend="u">Solution</hi>.
+      <lb/>Du point <formula>H</formula> soit tirée une ligne droite
+      <lb/>quelconque <formula>HI</formula>, dans laquelle soit pris
+      <lb/>un point quelconque <formula>I</formula>. Du point <formula>B</formula> pris
+      <lb/>à volonté dans la Courbe <formula>ABC</formula> soient tirées les droites <formula>BH</formula>, <formula>BI</formula>, dont la derniere
+      <lb/>coupe la droite do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ée <formula>FG</formula> au point <formula>K</formula>, par lequel<supplied>,</supplied> si l’on mene <formula>KD</formula> parallele
+      <lb/>à <formula>HI</formula>, et qui coupe la droite <formula>BH</formula> en <formula>D</formula>, ce point d’intersection <add><formula>D</formula></add> sera dans la
+      <lb/>Courbe cherchée <formula>ADE</formula>. <hi rend="u">Demonstration</hi>. Du point <formula>C</formula> infiniment proche du
+<pb facs="1038823" n="239r"/>
+      <lb/>point <formula>B</formula> soient menées selon la même construction les droites <formula>CH</formula>, <formula>CI</formula>, <formula>LE</formula>, il
+      <lb/>faut prouver, que les lignes infiniment petites <formula>ED</formula> et <formula>CB</formula> étant prolongées con<pc type="hyphenation">-</pc><lb break="no"/>courent au même point <formula>F</formula> de la ligne <del><gap/></del><formula>FG</formula>, c’est à dire, que l’une de ces deux
+      <lb/>lignes <formula>EDF</formula> et <formula>CBF</formula> étant une ligne droite par <abbr>ex.</abbr> <formula>EDF</formula>, l’autre <formula>CBF</formula> sera
+      <lb/>aussi une ligne droite. Pour cette fin soit <formula>BM</formula> parallele à <formula>FG</formula>, et <formula>BN</formula> parallele
+      <lb/>à <formula>FDE</formula>, et on aura <choice><orig><formula>BM.KL\;::\;BI.KI\;::\;BH.DH\;::\;BN.DE</formula></orig><reg><formula>BM:KL\;=\;BI:KI\;=\;BH:DH\;=\;BN:DE</formula></reg></choice>, et permutando
+      <lb/><choice><orig><formula>BM.BN\;::\;KL.DE\;::\;FL.FE</formula></orig><reg><formula>BM:BN\;=\;KL:DE\;=\;FL:FE</formula></reg></choice>, donc les <del><gap/></del>trapezes <formula>CMBN</formula>, <formula>CLFE</formula> sont non
+      <lb/>seulement équiangles<supplied>,</supplied> mais aussi semblables et semblablement posés,
+      <lb/>par consequent leurs diagonales <formula>CB</formula>, et <formula>CF</formula> ne font qu’une meme ligne droite
+      <lb/><formula>CBF</formula>. <del><gap/></del>Ce <abbr>q. f. d.</abbr> Par le moyen de ce Probleme on peut resoudre fort
+      <lb/>facilement cet autre Probleme: Trouver la Courbure d’un fil <formula>AB</formula> suspendu
+      <lb/>aux points <formula>A</formula> et <formula>B</formula>, et tendu par une infinité de forces égales <add>et</add> également disper<pc type="hyphenation">-</pc><lb break="no"/>sées autour d’un point donné <formula>C</formula>, et dont les directions <subst><del><gap/></del><add>passent</add></subst> toutes <subst><del><gap/></del><add>par</add></subst> ce
+      <lb/>point <formula>C</formula>, en sorte que chaque particule <formula>DE</formula> de la Courbe soit poussée par une
+      <lb/>force proportionelle à l’angle <formula>DCE</formula>. Il est clair que la Courbe cherchée
+      <lb/><figure facs="../images/figures/1038823_01.png"/> seroit un cercle<supplied>,</supplied> si les <choice><sic>point</sic><corr>points</corr></choice> <formula>A</formula> et <formula>B</formula> étoient égale<pc type="hyphenation">-</pc><lb break="no"/>ment éloignés du centre des forces <formula>C</formula>, et la lon<del><gap/></del><pc type="hyphenation">-</pc><lb break="no"/><del><gap/></del><add>gueur</add> du fil égale à la longueur d’un arc circu<pc type="hyphenation">-</pc><lb break="no"/>laire <formula>AB</formula><supplied>,</supplied> dont le rayon se<subst><del><gap/></del><add>r</add></subst>oit <formula>AC</formula> ou <formula>BC</formula>. Mais pour
+      <lb/>trouver cette Courbe <formula>AB</formula><supplied>,</supplied> lorsque <formula>AC</formula> par <abbr>ex.</abbr> est
+      <lb/>plus grande que <formula>BC</formula>, imaginons un fil circulaire
+      <lb/><formula>AFH</formula> tendu par les mêmes forces que le fil <formula>AB</formula>, et par un point quelcon<pc type="hyphenation">-</pc><lb break="no"/>que <formula>D</formula> de la Courbe <formula>AB</formula> soit tirée la droite <formula>CD</formula> qui rencontre le cercle <formula>AFH</formula> en
+      <lb/><formula>F</formula>. Soit l’<subst><del><gap/></del><add>a</add></subst>ngle <formula>ACF</formula> coupé en deux parties égales par la droite <formula>CG</formula>, et à cau<pc type="hyphenation">-</pc><lb break="no"/>ses<del><gap/></del> de l’égalité des forces de part et d’autre<supplied>,</supplied> cette ligne <formula>CG</formula> sera la
+      <lb/>moyenne direction des forces<supplied>,</supplied> <del><gap/></del>qui agissent sur l’arc <formula>AF</formula> ou bien
+      <lb/>sur l’arc <formula>AD</formula>. Or cette moyenne direction doit passer par le concours des tan<pc type="hyphenation">-</pc><lb break="no"/>gentes tirées des extremités de l’arc <formula>AD</formula> aussi bien que <del><gap/></del>des extremi<pc type="hyphenation">-</pc><lb break="no"/>tés de l’arc <formula>AF</formula>. On n’a donc qu’à chercher par le <abbr>Probl.</abbr> precedent une
+<pb facs="1038824" n="239v"/>
+      <lb/>Courbe telle que partout sa tangente <formula>DG</formula> rencontre la tangente correspon<pc type="hyphenation">-</pc><lb break="no"/>dante <formula>FG</formula> du cercle <formula>AFH</formula> dans un point de la perpendiculaire <formula>AG</formula>,
+      <lb/>et on trouvera que cette Courbe <del><gap/></del><formula>AB</formula> sera une Ellipse, ce
+      <lb/>qu’on trouve<add>ra</add> aussi mais avec plus de peine par la methode que
+      <lb/>mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> a employée dans sa these <hi rend="u"><choice><orig>de</orig><reg>De</reg></choice> <rs type="biblio">Motu Musculorum</rs></hi>.<del><gap/></del>
+      <lb/><del><gap/></del>Voilà ce sont les principales de mes decouvertes, que j’ai faites depuis
+      <lb/>quelque temps malgré ma paresse<note type="comment"></note> ordinaire; je vais ajouter encore
+      <lb/>une autre, si tant est que je puisse appeller tout cela du nom de decou<pc type="hyphenation">-</pc><lb break="no"/>verte. Je Vous co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquai dans ma <rs key="B_991170517021305501" type="letter">lettre</rs> du <date>22. <abbr>Janv.</abbr> 1715<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> un Theoreme
+      <lb/>touchant les Logarithmes, j’ai trouvé depuis une autre approximation
+      <lb/>plus facile et plus juste à l’occasion du <rs type="biblio">Probleme</rs> que <abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">s’Grave<pc type="hyphenation">-</pc><lb break="no"/>sande</rs> a proposé au <rs type="biblio">Journal literaire</rs> <del><gap/></del>imprimé à <rs key="place_GEO-2747373" type="place">la Haye</rs> Tome 4<choice><orig>.</orig><reg>;</reg></choice>
+      <lb/>je compte que Vous avés ce <rs type="biblio">Journal</rs>. Le <rs type="biblio">Probleme</rs> est tel: <quote><hi rend="u">Trouver<del><gap/></del>
+      <lb/>la longu<subst><del><gap/></del><add>eur</add></subst> qu’il faut do<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>er à une Pompe pneumatique <add>d’un diametre donné</add> pour <del><gap/></del>tirer
+      <lb/>l’air d’un recipient donné dans le temps le plus court qu’il est possible.</hi></quote><note type="editorial">’sGravesande nachweisen.</note>
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">S’Gravesande</rs> a tresbien resolu ce <rs type="biblio">Probleme</rs> par les suites infinies et
+      <lb/>par la methode du retour de ces suites, et moi je l’ai resolu de cette
+      <lb/>maniere: Soit <del><gap/></del>la solidité de la pompe <add>à la</add> solidité du recipient co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+      <lb/>1 à <formula>x</formula>, et la solidité de l’espace par lequel on peut faire avancer le piston
+      <lb/>pendant qu’on tourne le robinet à la solidité du du recipient co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e 1 à <formula>a</formula>.
+      <lb/>Par la nature du <hi rend="u"><foreign xml:lang="lat">minimum</foreign></hi> j’ai cette équation <choice><orig><formula>\frac{a+x}{ax+a}=\mathrm{Log}\colon\, \overline{x+1}-\, \mathrm{Log}\colon\,x</formula></orig><reg><formula>\frac{a+x}{ax+a}=\ell.\, (x+1)-\ell.\, x</formula></reg></choice>
+      <lb/><subst><del><gap/></del><add>où</add></subst> je remarque que <formula>x+1</formula> et <formula>x</formula> doivent avoir entr’eux une raison presque
+      <lb/>d’égalité, car le temps pour tourner le robinet n’étant pas fort conside<pc type="hyphenation">-</pc><lb break="no"/>rable<supplied>,</supplied> je prevoi que la pompe doit étre trés petite, puisque ce n’est que ce
+      <lb/>temps qui augmente la longueur de la pompe. Or ma regle pour trouver
+      <lb/>la difference des Logarithmes de deux nombres presque egaux est celleci:
+      <lb/>Il faut multiplier le triple de la soutangente par la difference
+      <lb/>des quarrés de ces deux nombres et diviser le produit par <add>le quarré de</add> la so<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e
+<pb facs="1038825" n="240r"/>
+      <lb/>de ces mêmes nombres augmenté de leur double rectangle. Ayant donc
+      <lb/>appliqué cette regle au cas present on trouvera <choice><orig><formula>\frac{a+x}{ax+a}=\frac{6x+3}{6xx+6x+1}</formula></orig><reg><formula>\frac{a+x}{ax+a}=\frac{6x+3}{6x^{2}+6x+1}</formula></reg></choice>, ou en
+      <lb/>reduisant cette équation <choice><orig><formula>x^{3}+xx+\frac{1}{6}x-\frac{1}{2}ax-\frac{1}{3}a=0</formula></orig><reg><formula>x^{3}+x^{2}+\frac{1}{6}x-\frac{1}{2}ax-\frac{1}{3}a=0</formula></reg></choice>. Supposons main<pc type="hyphenation">-</pc><lb break="no"/>tenant que la solidité du recipient soit de 343<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> pouces <subst><del><gap/></del><add>cylindriques</add></subst>, le diame<pc type="hyphenation">-</pc><lb break="no"/>tre de la pompe de 3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> pouces <add>ou plutot sa base de 9 pouces circulaires</add>, et que pendant le temps qu’on <add>employe pour</add> tourne<add>r</add> le robi<pc type="hyphenation">-</pc><lb break="no"/>net<supplied>,</supplied> on peut avancer le piston d’un quart de pouce, ceci posé on aura
+      <lb/><formula>a=152\frac{4}{9}</formula>, et l’équation trouvée se changera en celleci <choice><orig><formula>x^{3}+xx-76\frac{1}{18}x</formula></orig><reg><formula>x^{3}+x^{2}-76\frac{1}{18}x</formula></reg></choice><del><gap/></del>
+      <lb/><formula>-50\frac{22}{27}=0</formula>, dont la racine est à peu prés <choice><orig><formula>8.568</formula></orig><reg><formula>8,568</formula></reg></choice>, donc la solidité cher<pc type="hyphenation">-</pc><lb break="no"/>chée de la pompe sera <choice><orig><formula>\frac{343}{8.568}</formula></orig><reg><formula>\frac{343}{8,568}</formula></reg></choice> ou <choice><orig><formula>40,03</formula></orig><reg><formula>40,03</formula></reg></choice>, et par consequent sa longueur
+      <lb/><choice><orig><formula>\frac{40,03}{9}</formula></orig><reg><formula>\frac{40.03}{9}</formula></reg></choice> ou <choice><orig><formula>4,45</formula></orig><reg><formula>4.45</formula></reg></choice>, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e <abbr>Mr.</abbr> <rs key="pers_DE-588-118939297" type="person">s’Gravesande</rs> a trouvé. J’ai co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniqué
+      <lb/>ce Theoreme pour les Logarithmes à mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs>, qui en a trouvé la de<pc type="hyphenation">-</pc><lb break="no"/>monstration, mais s’étant fondé sur un principe trés different de celui
+      <lb/>d’où je l’ai tiré. La suite de <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> <choice><orig><formula>\frac{a}{b}+\frac{a\cdot c}{b\cdot b+d}+\frac{a\cdot c\cdot c+d}{b\cdot b+d\cdot b+2d}+\frac{a\cdot c\cdot c+d\cdot c+2d}{b\cdot b+d\cdot b+2d\cdot b+3d}</formula></orig><reg><formula>\frac{a}{b}+\frac{a c}{b\cdot(b+d)}+\frac{a c(c+d)}{b(b+d)(b+2d)}+\frac{a c(c+d)(c+2d)}{b(b+d)(b+2d)(b+3d)}</formula></reg></choice>
+      <lb/><choice><orig><formula>+\mathrm{\;\&amp;c.}=\frac{a}{b-c}</formula></orig><reg><formula>+\mathrm{\;etc.}=\frac{a}{b-c}</formula></reg></choice> est trés curieuse, <subst><del><gap/></del><add>et</add></subst> il auroit été difficile d’e<add>n</add> trouver la somme<del><gap/></del>
+      <lb/><del><gap/></del><hi rend="u"><foreign xml:lang="lat"><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> priori</foreign></hi>, mai<add>s</add> il est facile de demontrer ce Theoreme par la divi<pc type="hyphenation">-</pc><lb break="no"/>sion, pourveu qu’on prouve que le dernier terme <del><gap/></del>est <formula>=0</formula>, ce qu’il n’est
+      <lb/>pas difficile de prouver. Il auroit pû rendre ce Theoreme plus general en di<pc type="hyphenation">-</pc><lb break="no"/>sant que <choice><orig><formula>\frac{1}{b-c}=\frac{1}{b}+\frac{c}{b\cdot b+d}+\frac{c\cdot c+d}{b\cdot b+d\cdot b+e}+\frac{c\cdot c+d\cdot c+e}{b\cdot b+d\cdot b+e\cdot b+f}+\frac{c\cdot c+d \cdot c+e \cdot c+f}{b\cdot b+d\cdot b+e\cdot b+f\cdot b+g}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{b-c}=\frac{1}{b}+\frac{c}{b (b+d)}+\frac{c (c+d)}{b (b+d) (b+e)}+\frac{c (c+d) (c+e)}{b (b+d) (b+e) (b+f)}+\frac{c(c+d)(c+e)(c+f)}{b(b+d) (b+e) (b+f) (b+g)}+\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied>
+      <lb/>où les lettres <formula>d</formula>, <formula>e</formula>, <formula>f</formula>, <choice><orig><formula>g\mathrm{\;\&amp;c.}</formula></orig><reg><formula>g\mathrm{\;etc.}</formula></reg></choice> peuvent étre d’une valeur quelconque, mais les
+      <lb/>dernieres d’une plus grande que les premieres. À cette occasion je Vous pro<pc type="hyphenation">-</pc><lb break="no"/>pose un Probleme, qui Vous paroitra ridicule<supplied>,</supplied> mais qui pourroit emba<pc type="hyphenation">-</pc><lb break="no"/>rasser <del><gap/></del>un autre que Vous. Deux nombres étant donnés <del><gap/></del><formula>a</formula> et <formula>b</formula>,
+      <lb/>dont l’un par <abbr>ex.</abbr> <add><formula>a</formula></add> soit plus grand que l’unité, et l’autre <formula>b</formula> plus petit
+      <lb/>que l’unité, trouver le produit qui resulte en multipliant ensemble
+      <lb/>tous les nombres possibles plus grands que <formula>b</formula> et plus petits que <formula>a</formula>.
+      <lb/>Mon <rs key="pers_DE-588-118509969" type="person">oncle</rs> et moi nous acceptons avec plaisir l’offre que Vous nous
+      <lb/>faites de nous envoyer le <rs type="biblio">Livre</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs>, et nous Vous en
+<pb facs="1038826" n="240v"/>
+      <lb/>aurons beaucoup d’obligation, Vous aurés la bonté<supplied>,</supplied> s’il Vous plait<supplied>,</supplied> de <subst><del><gap/></del><add>Vous</add></subst>
+      <lb/><del><gap/></del>adresser à <subst><del><gap/></del><add>ce même</add></subst> <abbr>Mr.</abbr> <rs type="person">Hogguer</rs> à qui Vous remites autrefois le paquet de
+      <lb/>Vos <rs type="biblio">livres</rs>, <subst><del><gap/></del><add>et qui</add></subst> est <del><gap/></del>presentement Secretaire Interprete de Mylord
+      <lb/><rs type="person">Stairs</rs>. Je pense que Vous avés le <rs type="biblio">Livre</rs> de <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>, <del><gap/></del>il nous
+      <lb/>en a fait present, le <rs type="biblio">Livre</rs> est assés beau, mais il m<add>’</add>e<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>uye <del>trop </del>par ses
+      <lb/>manieres synthetiques de demontrer,<note type="comment">Das Werk Phoronomia war tatsächlich durch die synthetische Formulierung (er hat es von der modernen Schreibweise in die synth. übersetzt. Der moderne Leser muss es </note> que je trouve fort embarassantes
+      <lb/>et quelquefois obscures. J’ai fait demander par mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> à <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leib<pc type="hyphenation">-</pc><lb break="no"/>nitz</rs>, s’il avoit <choice><orig>recû</orig><reg>reçu</reg></choice> Vôtre <rs type="biblio">Livre</rs>, mais nous n’avons pas encore <choice><orig>recû</orig><reg>reçu</reg></choice>
+      <lb/>de <rs type="letter">reponse</rs>. <abbr>Mr.</abbr> <rs key="pers_DE-588-119062372" type="person">Varignon</rs> <rs type="letter">a mandé</rs> à mon <rs key="pers_DE-588-118509969" type="person">Oncle</rs> que <choice><abbr>S. A. R.</abbr><expan>Son Altesse Royale</expan></choice> le Duc
+      <lb/><rs key="pers_DE-588-118820214" type="person">Regent</rs> avoit erigé une nouvelle Classe d’Academiciens Associés
+      <lb/>Libres, parmy lesquels on Vous avoit choisi le premier, je Vous
+      <lb/>felicite de cet ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur, je me rejouis deja de voir desormais les <rs type="biblio">Me<pc type="hyphenation">-</pc><lb break="no"/>moires de l’Academie</rs> enrichis <del><gap/></del>par Vous de plusieurs belles
+      <lb/><rs type="biblio">pieces</rs>, mais je suis faché de ce qu’il reste encore tant de <rs type="biblio">Memoires</rs>
+      <lb/>à imprimer, <add>et</add> qu’il faut attendre 3 ou 4 ans avant que <add>nous puissions voir</add> Vos decou<pc type="hyphenation">-</pc><lb break="no"/>vertes <del><gap/></del>imprimées. Ce qui me console est que Vous me co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uni<pc type="hyphenation">-</pc><lb break="no"/>querés de temps em temps quelque chose, je tacherai de m’en rendre
+      <lb/>digne par un co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>erce plus assidu et en observant plus exactement
+      <lb/>mes promesses, mais je me flatte aussi qu’à l’avenir Vous <subst><del><gap/></del><add>expliquerés</add></subst>
+      <lb/>plus favorablement mes paroles, je Vous prie aussi de ne pas
+      <lb/>prendre en mauvaise part, que j’aye un peu grondé contre Vous
+      <lb/>au co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encement de cette <rs type="letter">Lettre</rs>, il arrive <subst><del><gap/></del><add>quelquefois</add></subst> aux Amis
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e aux Amants <hi rend="u"><foreign xml:lang="lat">quod amantium ir<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> amoris redintegratio <subst><del><gap/></del><add>est</add></subst></foreign></hi>.
+      <lb/>Dans cette esperance et ayant fait mes treshumbles baisemains à <abbr>Mad.</abbr>
+      <lb/>de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs> et à Messieurs nos <rs type="person">Amis</rs><supplied>,</supplied> je me dis de tout mon coeur,
+  </p>
+  <closer>
+  <salute><lb/>Monsieur, Vôtre <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></salute> <dateline><date when="1716-03-31">31. Marti<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> 1716</date>.</dateline></closer>
+</div>
+
+
+</body>
+</text></TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430259205501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacques-André Mallet an Daniel I Bernoulli. Genf, 03. März 1772</title>
+          <title type="alt">1772.03.03: Mallet, Jacques André (1740-1790) an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055227</title>
+          <title type="alt">1772-03-03_Mallet_Jacques_Andre-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430259205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430259205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Mallet, Jacques André (1740-1790)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf "A Mr. Dan. Bernoulli"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms. fr. 655, fo.60</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430259205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406879905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055227</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Genève</origPlace>
+              <date when="1772-03-03">le 3 Mars 1772</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-129353949">Mallet, Jacques André</persName>
+          <placeName key="place_GEO-2660646" ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+          <date when="1772-03-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430261105501" type="prev"/>
+          <ptr target="B_991170430258505501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mallet_Jacques_Andre-DanIB" corresp="pers_DE-588-129353949" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-104137932">Luc, Jean André de</persName>
+            <note type="lebensdaten">(1727-1817)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1353269302">Mallet, Jean-Robert</persName>
+            <note type="lebensdaten">(1702-1771)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-128835354">Orlov, Vladimir Grigorʹevič</persName>
+            <note type="lebensdaten">(1743-1831)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117687154">Pictet, Jean-Louis</persName>
+            <note type="lebensdaten">(1739-1781)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-04" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-15" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-15" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <opener>A Mr. <rs key="pers_DE-588-118656503" type="person">Dan. Bernoulli</rs>. <rs key="place_GEO-2660646" type="place">Genève</rs> le 3 Mars 1772</opener>
+  <p>Il y a bien longtems, mon cher Monsieur, que je n’ai eu le plaisir de vous écrire, mais mes occupations et mes correspondences ont été fort dérangés depuis cet automne par les tristes circonstances où je me suis trouvé, suites de la maladie et de la mort de mon <rs key="pers_DE-588-1353269302" type="person">Père</rs> que nous avons perdu il y a quelques mois. c’est ce qui m’a empeché de répondre à la dernière lettre que vous m’avez fait l’amitié de m’écrire. il y étoit question de cet essai grossier que je fis cet été de votre nouvelle methode de ramer. vous ne me paroissiez pas satisfait du résultat donné par cette expérience, à cause de la fatigue excessive qui en résultoit pour les rameurs. Mais pour moi elle ne me surprend point, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je ne la regarde point du tout comme un obstacle à votre méthode. elle étoit ici purement accidentelle et due à leur situation un peu génée, mais surtout au poids considérable de la rame qu’ils étoient obligés de tenir en l’air, à bras tendu, fatigue qui n’auroit point lieu, si les rames étoient suspendues comme vous l’indiquez dans votre mémoire. Je tacherai de pouvoir repeter une fois ces expériences en faisant faire des rames exprès un peu plus larges et en les faisant suspendre, afin que les rameurs puissent agir d’une manière aisée, au cas que l’Académie de <rs key="place_GEO-498817" type="place">Petersbourg</rs> n’ait pas encore fait faire l’essay en grand, ce que je crois volontiers, car en <rs key="place_VER-russia" type="place">Russie</rs> tout se fait avec une lenteur extraordinaire. </p>
+  <p> J’ai reçu il y a quelques semaines de <rs key="place_GEO-498817" type="place">Petersbourg</rs> le volume qu contient toutes nos opérations dans le Nord; je suppose qu’on vous l’aura envoyé de même; vous y aurez vu dans l’article des Inclinaisons de l’aiguille aimantée que j’ai fait mention de votre méthode et de l’instrument de votre invention pour la déterminer. </p>
+  <p> J’ai trouvé fort curieux cette planche qui montre par des Courbes la marche du Barometre ensorte qu’on peut d’un coup d’oeil voir les rapports des variations du Barometre observés en même tems en différens endroits. les miennes et celles de <rs key="pers_DE-588-117687154" type="person">Pictet</rs> sont presque toujours d’accord, étant à peu près sous la même latitude, 67° . vous observerez qu’à <rs key="place_GEO-514734" type="place">Orsk</rs> sous une latitude de 51° : 12 la courbe a beaucoup moins de sinuosités que plus au Nord. au reste ce ne sont que les observations faites pendant le mois de May. </p>
+  <p> Je suis impatient que vous voyez l’ouvrage de <rs key="pers_DE-588-104137932" type="person">De Luc</rs> sur cette matière, je suis convaincu que vous en serez content <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que vous y trouverez des expériences fort curieuses. c’est un homme extremement exact, adroit <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ingénieux pour varier les expérinnces. l’impression vient d’en etre achevée, mais il ne paroit point encore. </p>
+  <p> Il y a bien quelque tems que je n’ai pas écrit à l’Acad. de <rs key="place_GEO-498817" type="place">Petersbourg</rs>. je n’ai cependant point intention de rompre commerce avec elle, je m’engageois bien volontiers à lui envoyer chaque année de mes observations, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je ne refuserois point d’en recevoir une pension, si cela me paroissoit possible, mais je crois la chose assez difficile. Je fais des voeux très sincères pour que vous jouissiez de la votre encore bien des années. Nous aurons le Comte Wolodim. <rs key="pers_DE-588-128835354" type="person">Orlow</rs> notre ancien patron dans le voisinage il a passé l’hyver à <rs key="place_GEO-2658145" type="place">Vevay</rs> pour faire inoculer ses <rs type="person">enfans</rs> j’espère le voir dans quelques jours ici. </p>
+</div>
+</body>
+</text></TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514760505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Andreas Lamey an Daniel I Bernoulli. Mannheim, 10. Mai 1767</title>
+          <title type="alt">1767.05.10: Lamey, Andreas () an Bernoulli, Daniel (1700-1782)</title>
+          <title type="alt">000055180</title>
+          <title type="alt">1767-05-10_Lamey_Andreas-Bernoulli_Daniel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514760505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514760505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118656503" type="person">Daniel I Bernoulli</rs> (1700-1782)</title>
+        <title level="s" type="Korrespondenz">Lamey, Andreas (1726-1802)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Mitteilung über Aufnahme in die Pfälzische Akademie d. Wiss. in Mannheim</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-121867">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH Archiv Bernoulli II, Daniel (1700-1782), Nr.5</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514760505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432848605504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055180</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (1,5 S. beschrieben)<dimensions unit="cm"><height>23</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dab. Mannhemij</origPlace>
+              <date when="1767-05-10">VI. Id. Maij MDCCLXVII</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-116653582">Lamey, Andreas</persName>
+          <placeName key="place_GEO-2873891" ref="https://d-nb.info/gnd/4037372-1">Mannheim</placeName>
+          <date when="1767-05-10"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514760605501" type="prev"/>
+          <ptr target="B_991170429999405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Lamey_Andreas-DanIB" corresp="pers_DE-588-116653582" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-09-24" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-02-09" who="RG">Kleinere Verbesserungen</change>
+        <change when="2024-08-06" who="RG">LB und Pb eingefügt</change>
+        <change when="2024-08-06" who="RG">Kleinere Anpassungen</change>
+        <change when="2024-08-06" who="RG">Digitalisate eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3367968/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="3367969" n="1"/>
+  <opener rend="center">
+    <salute rend="center">
+      <lb/>Viro Illustri
+      <lb/><rs key="pers_DE-588-118656503" type="person">Danieli Bernoullio</rs>
+      <lb/><abbr>S. P. D.</abbr>
+      <lb/><rs key="pers_DE-588-116653582" type="person">Andreas Lamey</rs>
+    </salute>
+  </opener>
+  <p>
+      <lb/>Accipe serena fronte, quod Tibi offertur, <rs type="organisation">Socie<pc type="hyphenation">-</pc><lb break="no"/>tatis academic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Theodoro-Palatin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> instru<pc type="hyphenation">-</pc><lb break="no"/>mentum, non ut Tibi honoris aliquid, sed ut
+      <lb/>nobis, Te, laudatissimum virum, quantum in
+      <lb/>nobis est, <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimasse coluisse<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>, laudis plurimum
+      <lb/>accedat; siquidem ea nominis Tui claritas est
+      <lb/>et existimatio, ut gratulandum omnino sit, cui Tu
+      <lb/>annumerari non negas, cuivis <abbr>reip.</abbr> literari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>Collegio. Unde non dubitamus fore, quin tanto
+<pb facs="3367970" n="2"/>
+      <lb/>Socio <rs type="organisation">Academi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nostr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> infantia ad summam
+      <lb/>subito juventutem emersisse videatur. Vale,
+      <lb/>Vir Amplissime, Musis<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Palatinis, nunc etiam
+      <lb/>Tuis, ac illarum interpreti, quantumvis inepto,
+      <lb/>pro Tua humanitate, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> summa est, fave.
+  </p>
+  <closer>
+    <dateline>
+      <lb/><abbr>Dab.</abbr> <rs key="place_GEO-2873891" type="place">Mannhemi<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs> <date when="1767-05-10">VI. Id. Mai<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> <subst><del>D</del><add>M</add></subst>DCCLXVII</date><choice><orig>,</orig><reg>.</reg></choice>
+    </dateline>
+  </closer>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3367968/canvas/3367971" n="3" type="empty"/>
+<pb facs="https://www.e-manuscripta.ch/i3f/v20/3367968/canvas/3367972" n="4"/>
+</div>
+</body>
+</text></TEI>

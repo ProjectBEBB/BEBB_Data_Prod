@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430195505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an George-Louis Le Sage. Basel, 23. August 1775</title>
+          <title type="alt">1775.08.23: Bernoulli, Johann (1710-1790) an Lesage, Georges Louis (1724-1803)</title>
+          <title type="alt">000058501</title>
+          <title type="alt">1775-08-23_Bernoulli_Johann-Lesage_Georges_Louis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430195505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430195505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Lesage, Georges Louis (1724-1803)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Papier Lesage 22</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430195505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406849305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058501</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>[Unbekannter Umfang]<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1775-08-23">ce 23. d'aoust 1775</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1775-08-23"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116948078">Lesage, Georges Louis</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516751905501" type="prev"/>
+          <ptr target="B_991170516751805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Lesage_Georges_Louis-JohIIB" corresp="pers_DE-588-116948078" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+            <note type="lebensdaten">(1704-1752)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-129353949">Mallet, Jacques-André</persName>
+            <note type="lebensdaten">(1740-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121129411">Mouchon, Pierre</persName>
+            <note type="lebensdaten">(1733-1797)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-20" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-04-20" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-04-20" who="RG">NER Erkennung</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile><text>
+<body>
+<div type="letter">
+  <opener><salute>Monsieur,</salute></opener>
+  <p>J’ai l’honneur de vous envoyer ci-joints les extraits rélatifs aux Thèses de Gravitate qui portent le nom de M. <rs key="pers_DE-588-100289665" type="person">Jallabert</rs>, tirés non seulement des deux lettres de M. <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> dont vous faites mention, mais encore d’une troisième datée du 8. xbre 1732 et des réponses de feu mon <rs key="pers_DE-588-118509969" type="person">Père</rs> à ces mêmes lettres. Comme j’ai copié moi même mot à mot ces articles, quoique fort à la hâte, vous pouvés, Monsieur, compter sur la fidélité de la copie autant que sur les originaux mêmes et je consens, si vous le souhaités, que vous me nommiés publiquement comme garans de ma copie; vous pouvés aussi pour plus grande vérification faire collationner ces copies avec leurs originaux par vôtre ami, M. <rs key="pers_DE-588-121129411" type="person">Mouchon</rs>, à qui je serai toujours pret de servir de sécond. C’auroit êté véritablement une assés grande peine, prise fort inutilement, de copier tout au long ces lettres qui sont prolixes aussi bien que leurs réponses; D’ailleurs ce sont des lettres familières qui roulent en partie sur des affaires domestiques et c’est une des raison pour lesquelles j’ai crû que vous me dispenseriés volontiers, Monsieur, de vous envoyer les originaux. Quant à l’embarras (comme vous l’appellés) que m’a donné cette copie, c’est bien peu de chose et j’en serai largement recompensé si vous voulés bien l’agréer comme une très foible marque de l’estime la mieux méritée et de la considération la plus distinguée avec lesquelles j’ai l’honneur d’être Monsieur <rs key="place_GEO-2661604" type="place">Bâle</rs> ce 23. d’aoust 1775 Votre très humble et très obéissant serviteur <rs key="pers_DE-588-117589136" type="person">J. Bernoulli</rs> </p>
+  <p>Mon <rs key="pers_DE-588-118656503" type="person">frère</rs> est bien sensible, Monsieur, aux complimens que je lui ai faits de vôtre part et me charge de vous assurer réciproquement de ses obéissances. Voulés vous bien par occasion présenter les miennes à M. <rs key="pers_DE-588-129353949" type="person">Mallet</rs> et lui dire, que je compte faire passer un petit paquet, que mon <rs key="pers_DE-588-116170654" type="person">fils</rs> m’a laissé pour lui, par quelqu’un de vos Négocians qui vont à la foire de <rs key="place_GEO-2657891" type="place">Zurzac</rs>. Monsieur Monsieur <rs key="pers_DE-588-116948078" type="person">George Louis Lesage</rs> Des Soce de <rs key="place_GEO-2643743" type="place">Londres</rs> et <rs key="place_GEO-2992166" type="place">Montpellier</rs> et Corr. de l’ac. de <rs key="place_GEO-2988507" type="place">Paris</rs> etc. <rs type="place">rue neuve de St. Germain</rs> à <rs key="place_GEO-2660646" type="place">Genève</rs> </p>
+</div>
+</body>
+</text></TEI>

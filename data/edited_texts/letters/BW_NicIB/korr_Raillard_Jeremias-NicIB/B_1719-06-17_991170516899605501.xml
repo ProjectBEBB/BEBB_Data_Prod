@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516899605501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Nicolaus I Bernoulli an Jeremias Raillard. Venedig, 17. Juni 1719</title>
+          <title type="alt">1719.06.17: Bernoulli, Nicolaus (1687-1759) an Raillard, Jeremias (1691-1744)</title>
+          <title type="alt">000059428</title>
+          <title type="alt">1719-06-17_Bernoulli_Nicolaus-Raillard_Jeremias</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516899605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516899605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Raillard, Jeremias (1691-1744)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23547">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.49r</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516899605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433522305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059428</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Venise</origPlace>
+              <date when="1719-06-17">ce 17e Juin 1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="place_GEO-3164603" ref="https://d-nb.info/gnd/4062501-1">Venedig</placeName>
+          <date when="1719-06-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516899705501" type="prev"/>
+          <ptr target="B_991170430457005501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Raillard_Jeremias-NicIB" corresp="pers_DE-588-1132220874" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-115793895">Battier, Samuel</persName>
+            <note type="lebensdaten">(1667-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1016188056">Eglinger, Christoph</persName>
+            <note type="lebensdaten">(1686-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1169962769">Karger, Reinhard</persName>
+            <note type="lebensdaten">(1685-1762)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-17" who="SG">Deutsche und englische Übersetzungen zur Veröffentlichung freigeschaltet: subtype="internal" an den Übersetzungs-divs entfernt. Prüfstatus und Übersetzungstext unverändert.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Layout an das Original angeglichen und offene Übersetzungsfragen sowie kommentarbedürftige Begriffe und Aussagen als XML-Kommentare vermerkt. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-05-11" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-11" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-11" who="RG">NER Erkennung</change>
+        <change when="2026-03-13" who="CG SG">Kollationieren abgeschlossen.</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039758/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039759" n="1"/>
+  <note hand="pers_DE-588-119166895">À <abbr>Mr.</abbr> le Docteur <rs key="pers_DE-588-1132220874" type="person">Raillard</rs>.</note>
+  <opener>
+      <lb/><salute>Monsieur et tres cher Ami.</salute></opener>
+  <p><lb/>Ayant recû l’agreable nouvelle, <del><gap/></del>que Vous avés été élû Mem<pc type="hyphenation">-</pc><lb break="no"/>bre du <rs type="organisation">grand conseil</rs>, <del><gap/></del>j’embrasse avec
+      <lb/>plaisir cette occasion favorable de Vous ecrire quelques lignes
+      <lb/>pour Vous feliciter et <add>pour</add> remplir le devoir d’un ami, qui souhaite
+      <lb/>de Vous assurer de la continuation de son attachement pour Vous.
+      <lb/>Dieu veuille que l’entrée en cette Charge Vous conduise à de
+      <lb/>plus grands emplois, et que Vous puissiés <add>avec succés</add> faire éclater le zele
+      <lb/>que Vous avés pour le bien de nôtre étât! <del><gap/></del><add>Etant persuadé</add> que nos
+      <lb/>affaires n’iroient pas mal, <del><gap/></del>si plusieurs de Vos semblables
+      <lb/>avoient part au Gouvernement, <del><gap/></del>je ne puis pas m’empecher
+      <lb/>de Vous temoigner la joye, que j’ai de <add>Vous</add> voir <del><gap/></del>dans un
+      <lb/>poste, où Vous avés occasion de Vous opposer publiquement
+      <lb/>aux desordres qui se co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ettent dans nôtre <rs key="place_VER-basela" type="place">republique</rs>, et qui
+      <lb/>ont été tant de fois le sujet de nos plaintes dans nos conversations
+      <lb/>particulieres. Je prie Dieu qu’il benisse tous Vos futurs conseils,
+      <lb/>co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e aussi ceux de toutes les honnetes gens, qui s’interessent veri<pc type="hyphenation">-</pc><lb break="no"/>tablement pour le bien de la Patrie! Au reste conservés moi,
+      <lb/>je Vous prie, l’ho<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>eur de Vôtre amitié, et <del><gap/></del><add>recevés ces lignes</add>
+      <lb/><del><gap/></del><add>comme</add> les sentimens sinceres de celui qui <del><gap/></del>est toujours avec
+      <lb/>un tres parfait attachement, </p><closer>Monsieur, Vôtre <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice> <dateline>à <rs key="place_GEO-3164603" type="place">Venise</rs> ce <date when="1719-06-17">17.<hi rend="sup">e</hi> Juin
+      <lb/>1719</date>.</dateline></closer>
+  <postscript>
+    <p><abbr>P. S.</abbr> Ayés la bonté s’il Vous plait de presenter mes respects
+        <lb/>à <abbr>Mr.</abbr> le <abbr>Dr.</abbr> <rs key="pers_DE-588-115235079X" type="person">Battier</rs>, <abbr>Mr.</abbr> le <abbr>Dr.</abbr> <rs key="pers_DE-588-1089807236" type="person">Eglinguer</rs> et à <abbr>Mr.</abbr> le Licentié
+        <lb/><rs key="pers_DE-588-1169962769" type="person">Karguer</rs>.</p>
+  </postscript>
+</div>
+<div type="translation" xml:id="B_991170516899605501_trans_de" xml:lang="de" status="unreviewed">
+<pb facs="1039759" n="1" /> <p>Mein Herr und sehr lieber Freund!</p>
+<p>Die erfreuliche Nachricht von Ihrer Wahl zum Mitglied des Grossen Rates nehme ich gern zum Anlass, Ihnen einige Zeilen zu schreiben. Ich möchte Ihnen gratulieren und zugleich die Pflicht eines Freundes erfüllen, der Ihnen seine unveränderte Verbundenheit versichern will. Gott gebe, dass der Eintritt in dieses Amt Ihnen den Weg zu noch höheren Aufgaben öffnet und dass Sie Ihren Eifer für das Wohl unseres Gemeinwesens mit Erfolg unter Beweis stellen können! Ich bin überzeugt, dass es um unsere Angelegenheiten nicht schlecht stünde, wenn mehr Menschen Ihres Schlages an der Regierung beteiligt wären. Deshalb muss ich Ihnen meine Freude darüber aussprechen, Sie in einer Stellung zu sehen, in der Sie Gelegenheit haben, den Missständen in unserer Republik öffentlich entgegenzutreten, über die wir uns in unseren persönlichen Gesprächen so oft beklagt haben. Ich bitte Gott, alle Ihre künftigen Beratungen und Ratschläge zu segnen, ebenso diejenigen aller rechtschaffenen Menschen, denen das Wohl der Heimat wirklich am Herzen liegt. Bewahren Sie mir bitte auch weiterhin die Ehre Ihrer Freundschaft und nehmen Sie diese Zeilen als aufrichtigen Ausdruck der Gesinnung eines Menschen entgegen, der Ihnen stets in tiefster Verbundenheit ergeben bleibt,</p>
+<p>mein Herr, Ihr etc.<lb type="forced"/>Venedig, 17. Juni<lb type="forced"/>1719.</p>
+<p>P. S. Bitte seien Sie so freundlich, Herrn Doktor Battier, Herrn Doktor Eglinger und Herrn Lizentiaten Karger meine ergebenen Grüsse auszurichten.</p></div>
+<div type="translation" xml:id="B_991170516899605501_trans_en" xml:lang="en" status="unreviewed">
+<pb facs="1039759" n="1" /> <p>Sir and my very dear friend,</p>
+<p>Having received the welcome news that you have been elected a member of the Great Council, I gladly take this opportunity to write you a few lines of congratulation. At the same time, I wish to fulfil the duty of a friend who wants to assure you of his continuing affection. May God grant that your entry into this office leads you to greater responsibilities, and that you may successfully demonstrate your zeal for the welfare of our commonwealth. Convinced that our affairs would not be in a bad state if more people like you had a share in government, I cannot refrain from telling you how pleased I am to see you in a position where you have the opportunity to oppose publicly the abuses committed in our republic, which have so often been the subject of our complaints in private conversation. I pray that God will bless all your future deliberations and counsels, as well as those of all honest people who truly have their country’s welfare at heart. Please continue to honour me with your friendship, and accept these lines as the sincere sentiments of one who always remains, with the deepest affection,</p>
+<p>sir, yours, etc.<lb type="forced"/>Venice, 17 June<lb type="forced"/>1719.</p>
+<p>P. S. Please be so kind as to convey my respects to Dr Battier, Dr Eglinger and Mr Karger, Licentiate.</p></div>
+</body>
+</text></TEI>

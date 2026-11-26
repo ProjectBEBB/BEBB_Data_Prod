@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516522105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jacob Basler an Johann II Bernoulli. Paris, 29. Dezember 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_f500_0006">
+            <surname>Gabbe</surname>
+            <forename>Nils</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516522105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516522105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50979">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.38-39</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516522105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433430905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057961</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>24</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>Beilagen</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1751-12-29">le 29me Xbre 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1014027802">Basler, Jacob</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1751-12-29"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430261205501" type="prev"/>
+          <ptr target="B_991170516522005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Basler_Jakob-JohIIB" corresp="pers_DE-588-1014027802" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Der Brief bezieht sich auf eine Büchersendung (Examen désinteressé von Maupertuis). Johann II Bernoulli hat die Etuis de Mathematiques erhalten. Basler berichtet über die Feste aus Anlass der Geburt des Duc de Bourgogne in Versailles.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_no_GND_id">Anhalt-Zerbst, Fürst</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-141452013">Louis</persName>
+            <note type="lebensdaten">(1751-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117683353">Chéseaux, Jean Philippe Loys de</persName>
+            <note type="lebensdaten">(1718-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Cottin, Banquier de Paris</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+            <note type="lebensdaten">(1663-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Dollfuss, Vater von Johannes Dollfuss</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Dudot, Komponist</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1055597441">Langlois, Claude</persName>
+            <note type="lebensdaten">(1690-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Miville</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Tetu, Abbé</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-19" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-06-14" who="NG">Korrigiert</change>
+        <change when="2026-05-11" who="NG">transkribiert</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614076/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1599664" type="archival"/>
+<pb facs="1599665" type="archival"/>
+<pb facs="1599666" n="38r"/>
+  <opener><lb/><dateline>Paris le <date when="1751-12-29"><abbr>29<hi rend="sup">me</hi></abbr> <abbr>X<hi rend="sup">bre</hi></abbr> 1751</date></dateline>
+      <lb/><salute>Monsieur</salute></opener>
+  <p><lb/>Votre silence me fait croire, que les <rs type="biblio">Livres</rs> dont Vous
+      <lb/>m’avez donné la <choice><orig>Commission</orig><reg>commission</reg></choice> ne sont pas encore arrivés <hi rend="sub">chez</hi>
+      <lb/>Vous, je comte pourtant, que vous les recevrez incessamment<supplied>.</supplied>
+      <lb/>Comme <choice><orig><abbr>Ms.</abbr></orig><reg>Mr.</reg></choice> <rs type="person">Dollfous</rs> ne pouvait pas s’en charger, etant sur
+      <lb/>son Depart, il en a laissé le soin à un de ses <rs type="person">amis</rs>, qui
+      <lb/>devoit les expedier avec ses hardes; Il m’a <choice><orig>eté</orig><reg>été</reg></choice> impossible
+      <lb/>de deterrer <hi rend="u"><choice><orig>L</orig><reg>L</reg></choice>’examen desinteressé des <rs type="biblio">ouvrages</rs> qui ont <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>faits pour determiner</hi> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> J’espere cependant d’en avoir quelques
+      <lb/>Exemplaires si le <rs type="person">Libraire</rs>, à qui j’ai donné la <choice><orig>Commission</orig><reg>commission</reg></choice><supplied>,</supplied>
+      <lb/>tiendra sa promesse; Les <rs type="biblio"><choice><orig>stances</orig><reg>Stances</reg></choice></rs> de L’abbé <rs type="person">Tetée</rs> sont
+      <lb/>extraordinairement rares, <del><gap/></del><add>su</add>rtout les <rs type="biblio">Editions</rs> qui sont
+      <lb/>accompagnées des <rs type="biblio">Melodies</rs> de <choice><orig><abbr>Ms</abbr></orig><reg>Mr.</reg></choice> <rs type="person">Oudot</rs>; Il ne s’en trouve
+      <lb/>que dans les Ventes de quelque particulie<unclear reason="illegible">r</unclear> par-cy par-là;
+      <lb/>Je me flatte, que vous seréz content des <rs type="biblio">Etuis de Mathema<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tiques</rs>, les ayant particulierement recommandés aux soins
+      <lb/>de l’<rs type="person">ouvrier</rs>, qui a la <choice><orig>Reputation</orig><reg>reputation</reg></choice> d<supplied>’</supplied>être fort exact dans
+      <lb/>ses ouvrages; le <abbr>s.<hi rend="sup">r</hi></abbr> <rs type="person">Langlois</rs> n’en avoit point de finis<supplied>.</supplied>
+<pb facs="1599667" n="38v"/>
+      <lb/>Je ne me <choice><orig>souçiois</orig><reg>souciois</reg></choice> pas meme d’en avoir, craignant qu’ils ne fussent
+      <lb/>pas des plus exacts, d’autant plus, que ce n’est pas lui même
+      <lb/>à ce qu’on m’a dit, qui y met la derniere main; au reste<supplied>,</supplied> Monsieur<supplied>,</supplied>
+      <lb/>si vous trouvéz que j’ay bien executé Vos ordres, continuéz
+      <lb/>à disposer de moi à votre gré, bien loin de me causer par <choice><orig>la</orig><reg>là</reg></choice>
+      <lb/>quelque <choice><orig>Embarras</orig><reg>embarras</reg></choice>, Vous <add>me</add> ferez un sensible plaisir de me fournir
+      <lb/>les moyens, de vous donner des marques de l’envie que
+      <lb/>j’ay de vous servir.</p>
+  <p><lb/>Vous avéz<supplied>,</supplied> Monsieur<supplied>,</supplied> sans doute connû <abbr><choice><orig>Ms</orig><reg>Mr.</reg></choice></abbr> de <rs type="person">Jezeau</rs><note type="editorial">Über dem «J» von «Jezeau» steht von anderer Hand «Ch».</note>
+      <lb/>de <rs type="place">Lauzanne</rs>, neveu je crois, du feu <abbr><choice><orig>M<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> <rs type="person">de Crouzas</rs><choice><orig>;;</orig><reg>.</reg></choice>
+      <lb/>Cet aimable <rs type="person">Garçon</rs>, qui a commencé à se distinguer par
+      <lb/>ses <choice><orig>Connoissances</orig><reg>connoissances</reg></choice> dans les mathematiques, mourût ici il y a
+      <lb/><del><gap/></del><add>q</add>uelque<del><gap/></del> tems d’une <choice><orig>Complication</orig><reg>complication</reg></choice> de maladies des plus
+      <lb/>opiniatres; son savoir, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> son <choice><orig>Caractere</orig><reg>caractere</reg></choice> accompli lui ont attiré
+      <lb/><choice><orig>L</orig><reg>l</reg></choice>’estime <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’amitié de tout le monde; pour moi je suis par<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>ticulierement sensible à cette mort, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> je n’ay commencé à faire
+      <lb/><choice><orig>Connoissance</orig><reg>connoissance</reg></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><orig><del><gap/></del><add>L</add>iaison</orig><reg>liaison</reg></choice> avec lui que pour le regretter<supplied>.</supplied>
+      <lb/>Il etoit chez <rs type="person">le Prince d’<choice><orig>anhalt</orig><reg>Anhalt</reg></choice> Zerbst</rs><choice><orig>,</orig><reg type="deleted"/></choice> en qualité de Precep<pc type="hyphenation">-</pc><pb facs="1599670" n="39r"/><lb break="no"/><pc type="hyphenation">-</pc>teur, où pour mieux dire, D’ami;</p>
+  <p><lb/>On continue encore à se rejouir de la naissance de Monsieur
+      <lb/><rs type="person">le Duc de Bourgogne</rs>; La derniere fête, qui se donna à
+      <lb/><rs type="place">Versailles</rs> etoit des plus magnifiques; la <rs type="organisation">Cour</rs> etoit fort bril<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>lante <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> tous les <rs type="person">seigneurs</rs> se sont distingués à l’envie, par
+      <lb/>les <choice><orig>Richesses</orig><reg>richesses</reg></choice> de leurs habits; On tirera le <date when="1751-12-30">30 de ce mois</date> un
+      <lb/>feu d’artifice, qui sera des plus superbes, suivant les prepa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>rations, qu’on y fait, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> des plus violents, par rapport à la
+      <lb/>quantité de poudre, salpetre <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> qui s’y consumera;
+      <lb/>17 milliers de poudre <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> douze milliers de salpetre, sautteront en l<supplied>’</supplied>air<supplied>;</supplied>
+      <lb/>je pense qu’il ne faudroit pas tant pour renverser toute une Ville.
+      <lb/>Comme cette Lettre vous parviendra, au <choice><orig>Commencement</orig><reg>commencement</reg></choice> de l’année
+      <lb/>agréez<supplied>,</supplied> Monsieur, les Complimens, que j’ay l’honneur de vous faire
+      <lb/>à cette occasion; Je vous souhaite une santé parfaite <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> toutes les
+      <lb/>satisfactions que vous <choice><orig>pouves</orig><reg>pouvés</reg></choice> desirer; La mienne seroit entiere
+      <lb/>si j’etois en <choice><orig>Etat</orig><reg>etat</reg></choice> de vous donner des preuves de l’attachement
+      <lb/>sincere avec lequel <choice><orig>Je</orig><reg>je</reg></choice> <choice><orig>Suis</orig><reg>suis</reg></choice><supplied>,</supplied> </p>
+  <closer>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/><salute>Votre tres humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> tres
+      <lb/>obeissant serviteur</salute>
+  <signed>Basler</signed></closer>
+  <postscript>
+    <p>
+        <lb/><choice><orig>oserois</orig><reg>Oserois</reg></choice>-je vous prier de faire les memes Complimens
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> monsieur Votre <rs type="person" key="pers_DE-588-118656503">frère</rs> de ma part.</p>
+  </postscript>
+<pb facs="1599671" n="39v"/>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs type="person">Jean Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></addrLine>
+      <addrLine>Professeur en Mathematiques</addrLine>
+      <addrLine>à <rs type="place">Basle</rs></addrLine>
+    </address>
+  </closer>
+
+</div>
+</body>
+    <back>
+      <pb facs="1599668" n="39ar"/>
+      <div type="attachment">
+        <div type="editorialNote">
+          <p>Der folgende Text befindet sich auf einem beigebundenen Zettel</p>
+        </div>
+        <div type="attachment_text">
+          <head><lb/><hi rend="c">Notte.</hi></head>
+          <p>
+            <lb/>2 Etuis de mathematiques à 22 £. --- 44 £.
+            <lb/>2 Exemplaires de la <rs type="biblio">Connoisance des tems</rs> --- 5 -
+            <lb/><rs type="biblio"><choice><orig>astronomie</orig><reg>Astronomie</reg></choice> nautique</rs> ---------------- 3 –
+            <lb/>figures <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> l’<rs type="biblio"><choice><orig>astronomie</orig><reg>Astronomie</reg></choice></rs> de <rs type="person">Cassini</rs> --------
+            <lb/><rs type="biblio">Memoires de l’academie</rs> <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> votre <rs type="person" key="pers_DE-588-118656503">frere</rs> - -
+            <lb/>quelques Estampes <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> <rs type="person">Meville</rs> - -
+            <lb/>£ = 51 -
+            <lb/>que <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> <rs type="person">Cottin</rs> m’a remboursés contre Votre Billet
+
+            </p>
+
+
+
+
+
+
+
+          <p>
+            <table>
+              <row>
+                <cell>2 Etuis de mathematiques à 22 £.</cell>
+                <cell>44 £.</cell>
+              </row>
+              <row>
+                <cell>2 Exemplaires de la <rs type="biblio">Connoisance des tems</rs></cell>
+                <cell>5 -</cell>
+              </row>
+              <row>
+                <cell><rs type="biblio"><choice><orig>astronomie</orig><reg>Astronomie</reg></choice> nautique</rs></cell>
+                <cell>3 –</cell>
+              </row>
+              <row>
+                <cell>figures <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> l’<rs type="biblio"><choice><orig>astronomie</orig><reg>Astronomie</reg></choice></rs> de <rs type="person">Cassini</rs></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><rs type="biblio">Memoires de l’academie</rs> <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> votre <rs type="person" key="pers_DE-588-118656503">frere</rs></cell>
+                <cell>- -</cell>
+              </row>
+              <row>
+                <cell>quelques Estampes <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><abbr>p<supplied>.</supplied><hi rend="sup">r</hi></abbr><expan>pour</expan></choice> <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> <rs type="person">Meville</rs></cell>
+                <cell>- -</cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell>£ = 51 -</cell>
+              </row>
+              <row>
+                <cell cols="2">que <abbr><choice><orig>m<hi rend="sup">s</hi></orig><reg>M.<hi rend="sup">r</hi></reg></choice></abbr> <rs type="person">Cottin</rs> m’a remboursés contre Votre Billet</cell>
+              </row>
+            </table>
+
+            <pb facs="1599669" n="39av" type="empty"/>
+          </p>
+        </div>
+      </div>
+    </back>
+</text>
+</TEI>

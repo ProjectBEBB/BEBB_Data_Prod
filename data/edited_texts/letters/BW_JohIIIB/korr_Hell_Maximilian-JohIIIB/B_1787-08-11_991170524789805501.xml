@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524789805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 11. August 1787</title>
+          <title type="alt">1787.08.11: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079646</title>
+          <title type="alt">1787-08-11_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524789805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524789805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128969">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.167</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524789805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440049805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079646</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>22,5</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Viennae</origPlace>
+              <date when="1787-08-11">11 Augusti 1787</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1787-08-11">11 Augusti 1787</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524789905501" type="prev"/>
+          <ptr target="B_991170524789705501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract xml:lang="eng">
+        <p>Taking advantage of Count Schmettau's journey from Vienna, Maximilian Hell sends Johann III Bernoulli copies of his work on the history of Uranus and the dispute among astronomers about the new planet's name and astronomical symbol. He asks Bernoulli to accept and distribute the copies among friends and to give one, together with Hell's greetings, to Johann Elert Bode. Hell requests Bernoulli's opinion of the publication and asks Bode not to interpret his position on the planet's name and symbol as hostile. He stresses that the designation matters little compared with the accurate determination of the planet's orbital elements through observation.</p>
+
+        <p>Maximilian Hell nutzt die Reise des Grafen Schmettau aus Wien, um Johann III Bernoulli Exemplare seiner Schrift über die Geschichte des Uranus und den Streit der Astronomen um Namen und astronomisches Zeichen des neuen Planeten zu senden. Er bittet Bernoulli, die Exemplare anzunehmen und unter Freunden zu verteilen sowie Johann Elert Bode ein Exemplar zusammen mit Hells Grüssen zu überreichen. Hell erbittet Bernoullis Urteil über die Schrift und bittet Bode, seine Haltung zum Namen und Zeichen des Planeten nicht als feindselig aufzufassen. Die Bezeichnung sei wenig wichtig im Vergleich zur genauen Bestimmung der Bahnelemente des Planeten durch Beobachtungen.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-18" who="SG CG">Kollationieren abgeschlossen</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-29" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-29" who="SG">Maschinell transkribiert.</change>
+        <change when="2026-07-29">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529609/manifest"/>
+  </facsimile>
+  <text>
+    <body>
+          <div type="letter">
+
+
+
+
+<pb facs="3529610" n="167r"/>
+<opener><salute rend="center"><lb/>Illustrissime, ac Celeberrime Domine!</salute></opener>
+<p><lb/>Utor oportuna Illustrissimi Comitis de <rs type="person" key="pers_DE-588-118608576">Schmettau</rs> occasione,
+<lb/>qui me, <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> versans, invisere dignatus est, et fasciculum hunc
+<lb/>ad Te perferendi officium ultra suscepit. Benevolo itaque animo
+<lb/><rs type="biblio">Historiam Urani<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cum Lite Astronomorum de Nomine, et H<subst><del><gap/></del><add>i</add></subst>ero<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>glypho</rs> acceptandam, et inter amicos distribuendam oro; gratum
+<lb/>erit intelligere, quis Tibi <abbr>Ill<supplied>.</supplied><hi rend="sup u">me</hi></abbr> Domine de his sensus sit?
+<lb/>gratum etiam erit, si celeberrimo Domino <rs type="person" key="pers_DE-588-116215372">Bode</rs> exemplum
+<lb/>obtuleris cum salute <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me plurima, quem rogo edocendum, ne
+<lb/>mentem meam de Nomine, et Hieroglypho novi hujus Planet<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<lb/>versibus expressam animo minus amico interpretari velit, qui
+<lb/>ultra profiteor, non <hi rend="u">esse meum motus Vocum componere Lites</hi>,
+  <lb/>sed, <hi rend="u">sit Vota Austriadum Candida nosse, satis</hi>. Parum enim
+<lb/>interest, quo Nomine et signo Planetam novum appellemus, modo
+<lb/>elementa ejus per observationes exacta definire conemur. Vale
+<lb/>et me Tui studiosissimum porro inter Tuos censere perge.
+</p>
+
+<closer><dateline><lb/><choice><orig>dabam</orig><reg>Dabam</reg></choice> <rs type="place" key="place_GEO-2761369">Vienn<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <date when="1787-08-11">11 Augusti 1787</date>
+</dateline><salute><lb/>devinctissimus
+</salute><signed><lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs>.</signed></closer>
+<pb facs="3529611" n="167v" type="empty"/>
+</div>
+    </body>
+  </text>
+</TEI>

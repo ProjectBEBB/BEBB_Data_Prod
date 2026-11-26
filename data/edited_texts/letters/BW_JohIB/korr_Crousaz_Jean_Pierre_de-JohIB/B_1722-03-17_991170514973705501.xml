@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514973705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Jean-Pierre de Crousaz an Johann I Bernoulli. Lausanne,
+            17. März 1722</title>
+          <title type="alt">000055792</title>
+          <title type="alt">1722-03-17_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514973705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514973705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Crousaz, Jean Pierre de (1663-1750) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark">
+          <p>Signatur eigenhändig. Beigebunden ist ein Blatt (11 x 17 cm)
+            mit einer Figur. Siegel. Rückseite der Adressseiten leer</p>
+          <p>Original</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Abschrift unter L Ia 908:Bl.96-99</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24646">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.19*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514973705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432939405504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055792</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>5,5 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Lausanne</origPlace>
+              <date when="1722-03-17">17e Mars
+              1722</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1722-03-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514973805501" type="prev"/>
+          <ptr target="B_991170514973605501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Crousaz freut sich, dass seine Predigten Joh. B.s Billigung gefunden haben. Von seinem
+          Discours hat er bis jetzt nur die Bögen erhalten, welche Réaumur ihm mit der Kutsche des
+          Gesandten hat schicken lassen. Der Discours ist ganz darauf enthalten, der Abschnitt über
+          die Uhrmacherei nur zum Teil. [Charles Guillaume Louis] de Bochat (1695-1753) wird ihm den
+          Rest bringen. Er wird dann das Ganze an Joh. I B. senden. Er wird - wenn Ende Monat de
+          Bochat abreist - auch seinen Commentaire schicken, der allerdings nicht für die Augen
+          eines Gelehrten wie Joh. B. geschrieben ist. Vorerst legt er Joh. B. nur einige Gedanken
+          vor, die er seinem Commentaire vorausgeschickt hat. Er versuchte dort den Begriff des
+          unendlich Kleinen und seiner verschiedenen Arten ohne spezielle Symbole [an geometrischen
+          Beispielen] zu erläutern. Crousaz bedient sich dabei der Beispiele von Rechtecken mit
+          Seiten gleicher und verschiedener Art [endlich, unendlich, unendlich klein, unendlich
+          gross]. Crousaz hat die Zurückweisung Gamaches abgeschlossen und eine Anzahl weiterer
+          Experimente gegen Newtons System zusammengestellt.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-133771261">Bochat, Charles Guillaume Loys de</persName>
+            <note type="lebensdaten">(1695-1753)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117672491">Gamaches, Étienne-Simon de</persName>
+            <note type="lebensdaten">(1672-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118749420">Réaumur, René Antoine Ferchault de</persName>
+            <note type="lebensdaten">(1683-1757)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-20" who="SG">Bild- und Seitenanker berichtigt; XML-Formatierung bereinigt. Transkriptionszeichen unverändert.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1722-03-17_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I"/>
+      </change>
+        <change when="2009-10-23" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1074603/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1722-03-17_Crousaz_Jean_Pierre_de-Bernoulli_Johann_I">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+
+
+<pb facs="1074604" n="1"/>
+        <opener>
+          <dateline>
+<lb/> à <rs type="place" key="place_GEO-2659994">Lausanne</rs> 17.<hi rend="sup">e</hi> Mars 1722</dateline>
+          <salute>
+<lb/>Monsieur</salute>
+        </opener>
+  <p>
+<lb/>L’approbation que vous donnés à mes <rs type="biblio" key="biblio_NELFL6TL">Sermons</rs> me
+          fait honeur, et vôtre
+<lb/> curiosité pour le reste de mes ouvrages est<note type="editorial">Im
+            Manuskript steht zweimal «est»</note> deja une solide gloire
+<lb/> pour moi; il n’y manquera
+          plus rien si vous les trouvés dignes de vôtre
+<lb/> attention. Je vous aurois deja envoyé,
+          Monsieur, un exemplaire de mon
+<lb/> <rs type="biblio" key="biblio_YN5L7UX3">Discours</rs>, si j’en
+          avois de complets: Mais Mr. <rs type="person" key="pers_DE-588-118749420">de Reaumur</rs> profita du carosse
+<lb/> de M. l’<rs type="person">Ambassadeur</rs> qui partoit
+          de <rs type="place" key="place_GEO-2988507">Paris</rs>, pour m’envoyer les feuilles qui
+<lb/> étoient imprimées; Mon <rs type="biblio" key="biblio_YN5L7UX3">Discours</rs> y est bien
+          entier, mais <rs type="biblio" key="biblio_XDNLEUXU">le suivant, qui
+<lb/> regarde l’Horlogerie</rs>, n’y est qu’en partie. Mr. <rs type="person" key="pers_DE-588-133771261">de Bochat</rs> m’apportera le reste,
+<lb/> et je ne
+          manquerai pas de vous envoyer le tout. J’aurai aussi l’honeur d’y joindre
+<lb/> mon <rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs>.
+          A la verité je n’avois point composé cet <rs type="biblio" key="biblio_8F9PQT7E">ouvrage</rs> pour le
+ <pb facs="1074605" n="2"/>
+<lb/> faire
+          passer sous des yeux aussi savans que les vôtres: Mon unique but a
+<lb/> été d’applanir le
+          chemin à ceux qui souhaitent de parvenir à l’intelligence
+<lb/> de vos excellens ouvrages et de
+          ceux des Auteurs, je ne dis pas qui vous
+<lb/> egalent, car je n’en connois point, mais qui
+          marchent sur vos traces les plus
+<lb/> prés qu’ils peuvent. Dés l’arrivée de Mr. <rs type="person" key="pers_DE-588-133771261">de Bochat</rs>, qui
+          part de <rs type="place" key="place_GEO-2988507">Paris</rs> à la
+<lb/> fin de ce mois, je m’aquiterai à cet égard de mon devoir. En attendant
+          permettés
+<lb/> moi de vous faire part d’un petit article. J’ai fait preceder mon <rs type="biblio" key="biblio_8F9PQT7E">Commentaire</rs>
+
+<lb/>          d’un <rs type="biblio" key="biblio_8F9PQT7E">Discours</rs> où je tâche de donner quelque idée generale des Infinimens petis
+<lb/> et de mettre un Lecteur au fait de ce qu’on entend
+          par là. Dans ce dessein je
+<lb/> me sers entr’autres d’un Rectangle <formula>BD</formula> <ref target="../images/figures/1074610_01.png">Figur</ref> qui, fini et divisé par la portion
+          finie
+<lb/> <formula>AB</formula>, donne pour Quotient la Ligne finie <formula>BC</formula>. Si
+            <formula>BA</formula> étoit un infiniment
+<lb/> petit de <formula>BD</formula>, la Ligne
+            <formula>BC</formula> parviendroit à être relativement considerée comme
+<lb/> une ligne
+          infinie. </p>
+  <p>
+<lb/>Sur <formula>Bm</formula> je prens ensuite une portion <formula>Bn</formula> qui est un
+          infiniment [petit]<note type="editorial">«petit» fehlt im Manuskript </note> de
+            <formula>Bm</formula>
+<lb/> et sur la baze <formula>Bn</formula> j’éleve un rectangle
+          infiniment petit en comparaison de <formula>BA</formula>.
+<lb/> Je fais apres cela le petit
+          Rectangle <formula>mo</formula>, puis le petit Rectangle <formula>no</formula>. Je divise
+
+<lb/>            <formula>AB</formula> par <formula>mo</formula>, puis <formula>mo</formula> par
+            <formula>no</formula>. C’est pour accoutumer l’esprit de mon Lecteur
+<lb/> nouveau dans ces
+          matieres, à passer d’un genre d’infini à l’autre, et je fais entrer
+<lb/> dans mes comparaisons
+          des Rectangles et des Lignes de divers genres. </p>
+  <p>
+<lb/>J’ai crû remarquer que quand on donne d’abord dans les Regles du Calcul et qu’on
+<lb/> se
+          familiarise avec elles avant que de s’être formé des idées exactes, metaphysiques et
+
+<lb/>          justes de la nature des Infinimens petis, on n’y vient presque jamais, et on se trouve
+
+<lb/>          embarassé dans de certains cas où il ne suffit pas de calculer, mais où il est necessaire
+
+<lb/>          de voir clair dans ce qu’on calcule: sans cela on court risque de donner dans des
+
+<lb/>          équivoques. Je me suis confirmé depuis peu que ma precaution
+<lb/> n’avoit pas été inutile. </p>
+  <p>
+<lb/>On m’a objecté: Soit dans le Rectangle <formula>BD</formula>, <formula>BC=x</formula>,
+            <formula>CD=y</formula>, <formula>Bm</formula> sera
+<lb/> <formula>=dx</formula>,
+            <formula>BA=ydx</formula>. Donc
+            <formula>\frac{BD}{AB}=\frac{xy}{ydx}=\frac{x}{dx}=\infty</formula>, et non pas à une
+
+<lb/>          quantité finie, ce qui est évident par le principe, que le Dividende est au Diviseur <pb
+            facs="1074606" n="3"/>
+<lb/> comme le Quotient à l’unité, <formula>x.dx::\infty.1</formula>.
+          Par la même raison, dans l’exemple
+<lb/> ou regle 3.<hi rend="sup">e</hi>
+          <formula>\frac{AB}{Bm}=\frac{ydx}{dx}=y</formula>, et alors <formula>y</formula>, qui
+          seroit une quantité finie en toute
+<lb/> autre occasion, doit être regardée comme indefinie,
+          parceque <formula>ydx.dx::\infty.1::y.1</formula>.
+<lb/> Mais, à dire absolument et sans aucune
+          restriction, ce que c’est que le Quotient d’un<note type="editorial">Im Manuskript steht
+            «d’un» zweimal</note>
+<lb/> infiniment petit du premier genre divisé par un infiniment petit
+          du même genre,
+<lb/> je crois qu’il est toujours fini et égal à <formula>\frac{a}{b}</formula>
+          grandeur indeterminée, lorsque ce sont des <formula>\frac{dy}{dx}</formula>,
+<lb/> et à l’unité,
+          lorsque c’est <formula>\frac{dx}{dx}=1</formula>. Mais jamais ce Quotient n’est un
+          infiniment petit
+<lb/> du second genre, Vous avés mêlé les infiniment petis qui font la
+          difference des Lignes
+<lb/> avec ceux qui font la difference des Rectangles: J’aurois voulu
+          auparavant faire vos
+<lb/> operations sur des infiniment petis homogenes. Enfin, à l’égard de la
+            5.<hi rend="sup">e</hi> Regle, elle tombe
+<lb/> en partie dans les mêmes inconveniens par le
+          mot <hi rend="u">reciproquement.</hi></p>
+  <p>
+<lb/>Car <formula>\frac{Bm}{no}</formula> (fig. 9)
+            <formula>=\frac{dx}{dydx^{2}}=\frac{1}{dydx}=\overline{\infty}^{2}</formula> infiniment
+          grand du second genre,
+<lb/> puisque <formula>dx.dydx^{2}::1.dydx::</formula> comme le fini à
+          l’infiniment petit du second genre,
+<lb/> ou comme l’infiniment grand du second genre à l’unité,
+          qui est censée finie etc. </p>
+  <p>
+<lb/>Voici ma reponse. Je crois, Monsieur, que nous pensons de même, mais je vois
+<lb/> que je ne me
+          suis pas exprimé avec assés de netteté et assés d’étendue. Avant que
+<lb/> d’expliquer les
+          signes par lesquels on designe et on calcule les Infiniment petis de divers
+<lb/> genres, ce à
+          quoi je viens dans la 4.<hi rend="sup">e</hi> Section, j’ai crû que je devois donner, dans
+          un
+<lb/> <rs type="biblio" key="biblio_8F9PQT7E">Discours</rs> preliminaire, une idée des Infinimt. petis et de leurs genres indépendammnt.
+          des
+<lb/> signes, par où on les exprime, afin que quand on s’instruira de ces signes, on ait
+          deja
+<lb/> toutes formées les idées auxquelles on les appliquera. Dans ce dessein je fais
+          remarquer
+<lb/> qu’on peut considerer, dans le même Rectangle <formula>BD</formula>, de
+          certaines quantités qui seront
+<lb/> finies dans un sens et infinies dans un autre, jusques là
+          même qu’une même quantité pouroit
+<lb/> appartenir à des Infinimt. petis de divers genres. </p>
+  <p>
+<lb/>Ainsi la Ligne <formula>BC</formula>, qui est une Ligne finie quand on la considere comme
+          le Quotient
+<lb/> de la Division du Rectangle <formula>BD</formula>, par le petit Rectangle
+            <formula>AB</formula>, cette<note type="editorial">Im Manuskript ist wiei hier im
+            Folgenden stets «cete» statt «cette» geschrieben</note> même Ligne <formula>BC</formula>
+
+<lb/>          acquiert le rapport d’une Ligne infinie dés qu’on regarde le Rectangle
+            <formula>BA</formula> comme
+<lb/> infinimt. petit, et que, par ce Rectangle
+            <formula>BA</formula> infinimt. petit, on divise le Rectangle <formula>BD</formula>
+
+<lb/>          fini, car la Ligne <formula>BC</formula> est toujours le Quotient de cette division. Mais
+          puisque
+<lb/> sur cette <formula>BC</formula> l’Infinimt. petit <formula>AB</formula> peut se
+          placer une infinité de fois, <formula>BC</formula>
+          <hi rend="u">est par là
+<lb/> regardé comme un infini</hi>, et c’est ce que j’aurois dû ajouter. </p>
+  <p>
+<lb/>Alors ma conclusion auroit precisement repondu au calcul, car si je divise
+            <formula>xy</formula> par <formula>y</formula>,
+<lb/> j’ai pour Quotient <formula>x</formula>,
+          et si je divise la même quantité <formula>xy</formula> par <formula>ydx</formula>, j’ai
+          pour <pb facs="1074607" n="4"/>
+<lb/> Quotient <formula>\frac{x}{dx}</formula>. C’est la même
+            <formula>x</formula> qui, à cause de son rapport avec <formula>dx</formula>, est
+          regardée
+<lb/> comme infinie, parce qu’elle contient <formula>dx</formula> une infinité de fois. </p>
+  <p>
+<lb/>Pour prevenir toute obscurité dans l’exemple suivant, j’aurois dû dire: Si je consi<pc type="hyphenation">-</pc><lb break="no"/>dere
+          le Rectangle infinimt. petit <formula>AB</formula> comme ayant une baze
+            <formula>Bm</formula> divisible encor
+<lb/> à l’infini (ce qui est permis en vertu des
+          remarques precedentes) la hauteur <formula>E</formula> se trou<pc type="hyphenation">-</pc><lb break="no"/>vera posée une infinité de
+          fois sur la petite Baze <formula>Bm</formula>. Sa largeur sera donc
+<lb/> infinimt. petite en
+          comparaison de la largeur du Rectangle <formula>BA</formula>, et en ce sens là
+
+<lb/>            <formula>E</formula> infinimt. petit en comparaison de l’infinimt. petit
+            <formula>BA</formula>, sera un<note type="editorial">Im Manuskript steht zweimal
+            «un»</note> infinimt.
+<lb/> petit du second genre par rapport au Rectangle fini
+            <formula>BD</formula>. Pour exprimer la même
+<lb/> verité par les signes établis, je fais
+            <formula>E=yddx</formula>, <formula>Bm=dx</formula>, ce qui me donne
+
+<lb/>            <formula>yddxdx=BA</formula>. D’où il suit que
+            <formula>\frac{BA}{Bm}=\frac{yddxdx}{dx}=yddx</formula>, qui
+<lb/> est un infinimt. petit en
+          largeur. </p>
+  <p>
+<lb/><formula>Bm=dx</formula>, et <formula>Bo=dy</formula>, sont les infinimt. petis des
+          Lignes finies <formula>E=y</formula>,
+<lb/> <formula>BC=x</formula>, et par consequent des
+          infinimt. petis du premier genre. La multiplication
+<lb/> de ces deux infinimt. petis produit le
+          petit Rectangle <formula>mo</formula>, qui est infinimt. petit en
+<lb/> comparaison du Rectangle
+            <formula>BA</formula>, et par consequent un infinimt. petit du second genre,
+<lb/> divisé par
+          un infiniment petit du premier, donneroit pour Quotient un infinimt. petit
+<lb/> du premier
+          genre en Lignes. Le calcul donne la même chose, car <formula>dydx=mo</formula> est
+
+<lb/>          infiniment. petit en comparaison du Rectangle <formula>mo</formula>, et par consequent ce
+          Rectangle
+<lb/> sera un infinimt. petit du 3.<hi rend="sup">e</hi> genre par rapport à
+            <formula>BC</formula>. Divisés-le par <formula>Bo</formula> infin.
+<lb/> petit du premier
+          genre en Lignes, vous aurés pour Quotient <formula>Bn</formula>, infinimt. petit
+<lb/> du second
+          genre en Lignes. </p>
+  <p>
+<lb/><formula>Bo=dy</formula>, <formula>Bn=ddx</formula>, <formula>dyddx</formula> est
+          infinimt. petit en comparaison de <formula>dydx</formula>,
+<lb/> et <formula>dydx=mo</formula>
+          est infinimt. petit en comparaison de <formula>ydx=BA</formula>, infiniment
+<lb/> petit en
+          comparaison de <formula>BC</formula>. Or <formula>\frac{dyddx}{dy}=ddx</formula>. </p>
+  <p>
+<lb/>Reciproquement si on avoit divisé <formula>no</formula> Rectangle infinimt. petit du
+            3.<hi rend="sup">e</hi> genre par
+<lb/> <formula>Bn</formula> côté infinimt. petit du second
+          genre, on auroit eu pour Quotient <formula>bo</formula> côté infinimt.
+<lb/> petit du premier
+          genre.</p>
+  <p>
+<lb/><formula>\frac{dyddx}{ddx}=dy</formula>. Or je reconois que cette
+            <formula>Bn=ddx</formula> est infinimt. petite en
+<lb/> comparaison de <formula>dy</formula>,
+          et que par consequent le Quotient de <formula>\frac{ddxdy}{ddx}</formula> est un
+<lb/> infini. </p>
+  <p><pb facs="1074608" n="5"/>
+<lb/> Si le Rectangle qui a pour baze <formula>Bm</formula> et pour
+          hauteur <formula>Bo</formula> (lequel est un
+<lb/> Rectangle infinimt. petit par rapport à
+            <formula>BA</formula> et par consequent un Rectangle
+<lb/> infiniment petit du second genre
+          par rapport à <formula>BC</formula>) se divisoit par le Rectangle
+<lb/> <formula>Mo</formula>,
+          infinimt. petit en comparaison de lui, le Quotient deviendroit infini; car un
+<lb/> Rectangle
+          qui a pour baze <formula>Bn</formula> se trouve une infinité de fois dans un Rectangle
+<lb/> qui
+          a pour baze <formula>Bm</formula>. Mais je n’ai pas eu intention de diviser Rectangle par
+
+<lb/>          Rectangle, mais Rectangle par côté, et tel côté qui est un infiniment petit d’un certain
+
+<lb/>          genre, devient un infini par rapport à un autre côté. Dans cet endroit je n’ai pas eu
+<lb/> en
+          vûe de former mon Lecteur au calcul; pour cela il auroit fallu l’exercer sim<pc type="hyphenation">-</pc><lb break="no"/>plement sur
+          des Quantités homogenes: Mon unique but a été de le promener
+<lb/> sur des Infinimt. petits de
+          divers genres, soit en Lignes, soit en Rectangles, et à le
+<lb/> faire passer de l’un à l’autre.
+          En un mot il saute aux yeux qu’en divisant
+<lb/> un genre d’infini par un inferieur, c’est à
+          dire, par un infinimt. plus petit, le
+<lb/> Quotient est un infini, et reciproquement si un
+          infinimt. petit est divisé par un
+<lb/> infinimt. petit d’un genre supérieur, le Quotient sera
+          un infinimt. petit, puisque
+<lb/> le Denominateur sera un infinimt. grand en comparaison de son
+          Numerateur. </p>
+  <p>
+<lb/>Mais, au lieu de faire rouler ces Dividendes et ces Diviseurs sur des Quantités
+
+<lb/>          homogenes, j’ai formé des Rectangles de differens ordres, que j’ai divisé par leurs
+<lb/> côtés,
+          lesquelles j’avois aussi supposé de differens ordres. </p>
+  <p>
+<lb/>Je me suis proposé d’engager mon Lecteur dans des raisonnemens qui lui rendissent
+
+<lb/>          familieres les comparaisons des divers genres d’infinis, qui le formassent à regarder une
+
+<lb/>          Ligne comme finie, comme infinie, comme infinimt. petite, comme infinimt. grande,
+<lb/> suivant
+          les differentes comparaisons qu’il en feroit, et pour moins l’embarasser dans
+<lb/> une matiere
+          si nouvelle, je me suis servi de l’idée commune d’un Rectangle
+<lb/> produit par la
+          multiplication d’un de ses côtés, et qui, divisé par l’un de ses
+<lb/> côtés, donne l’autre.
+          J’ai proposé des Rectangles dont les côtés fussent des Lignes
+<lb/> de même genre, ou de
+          differens genres, dans divers degrés. </p>
+  <p>
+<lb/>Il arrive qu’en se rendant bien familier son sujet afin de l’expliquer plus
+<lb/> clairement,
+          on cesse de s’appercevoir de diverses additions qu’il faudroit y faire
+<lb/> pour amener plus
+          surement un Lecteur dans les idées que l’on a, additions qu’on
+<lb/> n’auroit pas omises si on
+          avoit d’abord écrit ce qu’on pensoit lorsqu’il s’est presenté
+<lb/> à l’esprit. Ainsi, suivant
+          les differentes faces dont on envisagera ce que je dis <pb facs="1074609" n="6"/>
+<lb/> des
+          infinis dans la page 13, mes divisions se trouveront justes ou trompeuses
+<lb/> et, pour ne
+          m’être pas exprimé comme je viens de le faire, j’ai donné lieu à des
+<lb/> objections qui me
+          paroissent fondées, etc. </p>
+  <p>
+<lb/>Excusés, Monsieur, la liberté que je me donne de vous faire lire des pages
+<lb/> peu dignes de
+          vôtre attention. J’ai achevé la <rs type="biblio">refutation</rs> de Mr. <rs type="person" key="pers_DE-588-117672491">de Gamaches</rs>: J’ai aussi
+<lb/> rangé un bon nombre d’experiences contre le systeme Newtonien.
+          Voila, Monsieur,
+<lb/> de quoi vous derober quelques unes de vos precieuses heures: Vous y
+          donnerés à loisir
+<lb/> celles que vous voudrés. Dés l’arrivée de Mr. <rs type="person" key="pers_DE-588-133771261">de Bochat</rs> vous recevrés le
+          tout, comme
+<lb/> j’ai l’honeur de vous le dire. </p>
+        <closer>
+          <salute>J’ai celui d’être, dans les sentimens de la
+          plus parfaite estime
+<lb/> et d’un zele qui y repond
+<lb/> Monsieur
+<lb/> Vôtre trés humble
+<lb/> et trés
+          obeïssant serviteur </salute>
+          <signed><rs type="person" key="pers_DE-588-100097413">
+<lb/>De Crousaz</rs> </signed>
+        </closer>
+  <pb facs="1074610" n="7"/>
+
+<figure facs="../images/figures/1074610_01.png"><figDesc>Rechteckzeichnung mit den bezeichneten Punkten A, B, C, D und E sowie den Teilungspunkten m, n und o.</figDesc></figure>
+<pb facs="1074611" n="8" type="empty"/><pb facs="1074612" n="9" type="empty"/><pb facs="1074613" n="10"/>
+
+
+        <closer>
+          <address>
+            <addrLine>
+<lb/> A Monsieur</addrLine>
+            <addrLine>
+<lb/>Monsieur le Docteur <rs type="person" key="pers_DE-588-118509969">Bernoulli</rs></addrLine>
+            <addrLine>
+<lb/>Professeur en Mathematique trés celebre</addrLine>
+            <addrLine>
+<lb/>à <rs type="place" key="place_GEO-2661604">Basle</rs> </addrLine>
+          </address>
+        </closer>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

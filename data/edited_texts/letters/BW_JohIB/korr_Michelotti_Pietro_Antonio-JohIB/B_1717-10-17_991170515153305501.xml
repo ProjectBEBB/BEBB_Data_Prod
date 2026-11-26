@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170515153305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Pietro Antonio Michelotti. Basel, 17. Oktober 1717</title>
+          <title type="alt">1717.10.17: Bernoulli, Johann (1667-1748) an
+                  Michelotti, Pietro Antonio (1663-1740)</title>
+          <title type="alt">000056678</title>
+          <title type="alt">1717-10-17_Bernoulli_Johann-Michelotti_Pietro_Antonio</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515153305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515153305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Michelotti, Pietro Antonio (1673-1740)
+</title>
+        <respStmt>
+          <resp>Kollationierung der Korrespondenz</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0003">
+            <surname>Rakazovic</surname>
+            <forename>Denis</forename>
+          </persName>
+          <persName key="pers_DE-588-133700300X">
+            <surname>Mache</surname>
+            <forename>David</forename>
+          </persName>
+          <note type="remarkResponsibility">Die Mitarbeit bezieht sich auf die Korrespondenz zwischen Pietro Antonio Michelotti und Johann I Bernoulli. Denis Rakazovic und David Mache waren an unterschiedlichen Briefen beteiligt; eine sichere Zuordnung zu den einzelnen Briefen liegt derzeit nicht vor.</note>
+        </respStmt>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Eigenhändiges P.S.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24954">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 663, Nr.13</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515153305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433205205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000056678</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>12 S.<dimensions unit="cm"><height>21</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+
+              <handNote scribe="copyist"><persName key="pers_DE-588-118656503">Daniel I Bernoulli</persName> schrieb die Abschrift des Haupttexts.</handNote>
+              <handNote scribe="author">Das Postskriptum ist eigenhändig von <persName key="pers_DE-588-118509969">Johann I Bernoulli</persName>.</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Dabam Basileae</origPlace>
+              <date when="1717-10-17">a.d. 17. 8bris 1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1717-10-17"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-102552517">Michelotti, Pietro Antonio</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515153405501" type="prev"/>
+          <ptr target="B_991170515153205501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Michelotti_Pietro_Antonio-JohIB" corresp="pers_DE-588-102552517" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118659359">Borelli, Giovanni Alfonso</persName>
+            <note type="lebensdaten">(1608-1679)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11757645X">Guglielmini, Domenico</persName>
+            <note type="lebensdaten">(1655-1710)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1055365613">Keill, James</persName>
+            <note type="lebensdaten">(1673-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100704514">Wettstein, Johann Rudolf</persName>
+            <note type="lebensdaten">(1647-1711)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026" who="SG">Redaktionelle Prüfung abgeschlossen</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2022-09-07" who="RG">Seitenzahl "n" ergänzt</change>
+        <change when="2022-08-25" who="RG">Header angepasst</change>
+        <change when="2022-07-01" who="CG">Zeilenfall</change>
+        <change when="2022-03-04">Nachbearbeitung</change>
+        <change when="2019-01-07">GND-Tags und Schluss-j eingefügt</change>
+        <change when="2018-10-01">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile><graphic url="https://www.e-manuscripta.ch/i3f/v20/1078933/manifest"/></facsimile><text><body><div type="letter">
+<pb facs="1078934" n="1"/>
+  <opener><salute rend="center">Viro Pereximio at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Celeberrimo
+      <lb/>Petro Antonio <rs key="pers_DE-588-102552517" type="person">Michelotti</rs>
+      <lb/><abbr>S. P. D.</abbr>
+      <lb/>Joh. <rs key="pers_DE-588-118509969" type="person">Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></salute></opener>
+  <p>Responsionem ad binas Tuas <rs key="B_991170515153505501" type="letter">3<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Sept.</rs> et <rs key="B_991170515153405501" type="letter">9<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> ejusdem
+      <lb/>mensis</rs> datas ideo nonnihil distuli quia Agnati mei redit<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>ad oras vestras instare videbam, quo <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> illum hanc Epistolam
+      <lb/>ad Te deferendam curarem, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ita tabellarii precium h<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c saltem
+      <lb/>vice lucrarer, ut Te enim nihil celem, litter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt
+      <lb/>in <rs key="place_KON-italie" type="place"><choice><orig>Jtaliam</orig><reg>Italiam</reg></choice></rs> mittend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex <rs key="place_KON-italie" type="place">Italia</rs> ad me mittun<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>sunt omnium pretiosissim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et adeo quidem, ut valedicerem
+      <lb/>omni commercio litterario, si <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teras quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <rs key="place_KON-europa" type="place">Europ<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> Regi<pc type="hyphenation">-</pc><lb break="no"/>ones tanti constarent litter<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel accipiend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel mittend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Singu<pc type="hyphenation">-</pc><lb break="no"/>l<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> enim, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> eam habent Spissitudinem quam habuerunt nuper<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>Tu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> triente thaleri vel minimum dimidio floreno constant,
+      <lb/>quod moneo quia audio apud vos rem non ita se habere,
+      <lb/>sed litterarum pretium admodum esse vile, et ideo fortassis pu<pc type="hyphenation">-</pc><lb break="no"/>tabis nos simili vilitate gaudere: Spero Te pro e<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> es <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>quitate non <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>gre laturum, quod hac in parte animum
+      <lb/>meum Tibi tam libere ceu decet amicum aperuerim,
+      <lb/>eo quidem fine ut cogites de Litteris Tuis posth<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c per
+      <lb/>commodiorem viam ad me mittendis, aut si alia non de<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, ut sal<pc type="hyphenation">-</pc><lb break="no"/>tem litteras Tuas in minus contrahas volumen scribendo com<pc type="hyphenation">-</pc><lb break="no"/>pressius et rescindendo chartam inutilem. Sed venio ad Litterar<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+<pb facs="1078935" n="2"/>
+      <lb/>Tuarum contentum. L<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>tus maxime intellexi quod toto quod
+      <lb/>apud Te transegit tempore <rs key="pers_DE-588-117589144" type="person">filius</rs> meus ita se gesserit, ut
+      <lb/>non p<unclear>os</unclear>sis non eum collaudare; gratias quas Tibi debeo pro
+      <lb/>omnibus in eum collatis beneficiis jam ago et repeto,
+      <lb/>at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> inprimis animum benevolum et amorem vere paternum,
+      <lb/>quo eum amplexus es nunquam quoad vixero obliviscar, spe
+      <lb/>fretus et ipsum meum <rs key="pers_DE-588-117589144" type="person">filium</rs> per totam suam vitam
+      <lb/>agniturum et laudaturum Tuam hospitalitatem et bene<pc type="hyphenation">-</pc><lb break="no"/>ficentiam erga se tam insigniter exercitam, eo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> magis
+      <lb/>si ut promittis Te juvante et commendante ali<pc type="hyphenation">-</pc><lb break="no"/>quando fiat successor <rs key="pers_DE-588-119166895" type="person">Agnati</rs> mei in Archilyceo <rs key="place_GEO-3171728" type="place">Patavino</rs>:
+      <lb/>Misi ad illum <rs type="letter">litteras</rs><note type="editorial" resp="SG">Das von Johann an seinen Sohn <rs key="pers_DE-588-117589144" type="person">Nicolaus II Bernoulli</rs> weitergeleitete Schreiben Michelottis ist bislang nur indirekt bezeugt. Im Postskriptum berichtet Johann, sein Sohn habe Michelotti umgehend darauf geantwortet.</note> quas ad eum dederas et ad me miseras, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ora<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>adhuc in <rs key="place_VER-frankr" type="place">Galli<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice></rs> et quidem apud illustrissimum <rs key="pers_DE-588-117601020" type="person">Monmortium</rs>.<note type="editorial" resp="SG">In der gestrichenen Passage kündigt Johann an, dass Nicolaus I Bernoulli Michelotti Wettsteins <rs key="biblio_RC6TN74M" type="biblio"><hi rend="i">Flores eloquentiae</hi></rs> bringen werde. Auf Manuskriptseite 5 greift Johann die Ankündigung wieder auf.</note>
+      <lb/>Ad qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stiones accedo, quas moves, certissim<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>est in <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimand<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> vi, qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> aer ex vesic<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ut et ille qui ex pectore
+      <lb/>humano expelli<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, <choice><sic>attentendum</sic><corr>attendendum</corr></choice> esse tantum ad illam vim
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> immediat<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> respondet tubo vesic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ad illam, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>edi<pc type="hyphenation">-</pc><lb break="no"/>ate aerem per laryngem urget, nam clarum uti<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> est quam<pc type="hyphenation">-</pc><lb break="no"/>libet superficiei vesic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel pectoris partem urgeri per vim
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualem ei qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> respondet exitui, supposito partem illam
+      <lb/>habere <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualem amplitudinem cum foramine; ita ut toties
+      <lb/>vis illa suma<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, quot sunt partes in tot<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> superficie vesi<pc type="hyphenation">-</pc><lb break="no"/>c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel pectoris, adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> manente eadem semper vi,
+      <lb/>qua aer erumpere moli<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>; illa tamen qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> toti vesic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+<pb facs="1078936" n="3"/>
+      <lb/>vel pectori respondet varia sit pro ratione superficiei
+      <lb/>vesic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel pectoris, unde sequi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> aëris vim absolutam aliter
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimari non posse quam per eam qua exitum moli<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>per foramen aliquod dat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> amplitudinis, illa autem semper
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualis est vi contrari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tanquam reactioni qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> exitus illius
+      <lb/>coerce<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>: Quod si vero jam porro investigare lubeat quanta ergo
+      <lb/>sit vis illa priorem coërcens; considero orificio vesic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vel laryn<pc type="hyphenation">-</pc><lb break="no"/>gi applicatum esse tubum <formula>DC</formula> utrin<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> pervium verticaliter
+      <lb/><figure facs="../images/figures/1078936_01.png" hand="pers_DE-588-118509969"/> erectum, eum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ultra athmosph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ram aëris e<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> us<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> esse exten<pc type="hyphenation">-</pc><lb break="no"/>sum, quantum sufficit ut columna aërea uniformis
+      <lb/>per totam altitudinem densitatis quam columnam in
+      <lb/>tubo contineri suppono et cujus densitatem <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualem
+      <lb/>suppono densitati aëris in vesica vel pectore <formula>V</formula> contenti,
+      <lb/>quantum, <choice><sic>in quam</sic><corr>inquam</corr></choice>, sufficit, ut columna ista aërea
+      <lb/>in tubo <formula>DC</formula> contenta suo pondere descendere nitens
+      <lb/>coërcere possit aërem ex cavitate <formula>V</formula> egredi molientem per vim
+      <lb/>qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> vesica vel pectus comprimi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>: Restat ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> tantum ut
+      <lb/>inquiramus in altitudinem tubi <formula>DA</formula>, hac enim cognit<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>cognosci<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> etiam pondus aëris inclusi adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> et vis absoluta
+      <lb/>aëris ex <formula>V</formula> expellendi utpote qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ab illo pondere coërcetur:
+      <lb/>patet autem altitudinem illam tantam esse debere, ut
+      <lb/>aër <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> proprio suo pondere incumbente pressus ea cum velocita<pc type="hyphenation">-</pc><lb break="no"/>te erumpat per foraminulum in infimo loco <formula>O</formula> factum,
+      <lb/>quam haberet aër ex <formula>V</formula> expulsus, si non coërcere<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>: unde sequi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>ex ipso principio hydraulico cujus demonstrationem <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me
+<pb facs="1078937" n="4"/>
+      <lb/>datam <choice><abbr>Cl.</abbr><expan>Clarissimus</expan></choice> <rs key="pers_DE-588-119112450" type="person">Hermannus</rs> in suo <rs key="biblio_WS22BVK4" type="biblio">libro</rs> reticuit, altitudinem
+      <lb/><formula>DA</formula> fore eam per quam grave motu accelerato delapsum
+      <lb/>velocitatem illam aëris erumpentis acquirere posset.
+      <lb/>Res igi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> huc redit, ut ante omnia observe<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> quanta sit velo<pc type="hyphenation">-</pc><lb break="no"/>citas qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> aër qualibet expiratione in dato homine ex
+      <lb/>pulmone expella<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, id quod <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> sola experientia dependet.
+      <lb/>Reliqua Tibi Vir Clarissime peragenda relinquo; attendas
+      <lb/>vero, ratiocinium hoc meum supponere expirationem fieri in
+      <lb/>vacuo, vel saltem aërem externum expirationi nihil resistere;
+      <lb/>quia tamen resistit, oportet vi per hanc regulam invent<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>hoc est ponderi aëris in tubo <formula>DA</formula> contenti addere vim aëris
+      <lb/>resistentis externi, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> nimirum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivalet ponderi Mer<pc type="hyphenation">-</pc><lb break="no"/>curii in tubo barometrico ejusdem amplitudinis cujus est
+      <lb/>tubus <formula>DA</formula>; Quo facto habe<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> vis totalis, qua aër ex vesic<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> vel
+      <lb/>pulmone <formula>V</formula> expelli<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>. Plura de hac materi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> videbis in me<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>dissertatione <rs key="biblio_BS83R2A4" type="biblio">de Motu musculorum</rs>, ubi explicui modum inda<pc type="hyphenation">-</pc><lb break="no"/>gandi vires, quibus vesicul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, vel, ut <rs key="pers_DE-588-118659359" type="person">Borello</rs> vocan<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> machinul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>fibrarum muscularium inflan<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>. Quod attinet ad demonstrati<pc type="hyphenation">-</pc><lb break="no"/>onem meam principii illius hydraulici de velocitate liquoris
+      <lb/>ex vase erumpentis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualis velocitati quam acquirere
+      <lb/>potest gutta casu accelerato ex altitudine liquoris supra
+      <lb/>orificium; jure merito miraris, quod <choice><abbr>Cl.</abbr><expan>Clarissimus</expan></choice> <rs key="pers_DE-588-119112450" type="person">Hermannus</rs> illam
+      <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me sibi olim communicatam in <rs key="biblio_WS22BVK4" type="biblio">libro</rs><note type="editorial" resp="SG">Gemeint ist Abschnitt X im Anhang zu Jacob Hermanns <hi rend="i">Phoronomia</hi> (Amsterdam 1716), S. 393–394. Hermann schreibt dort, ihm sei kein früherer Beweis dafür bekannt, dass Wasser mit derselben Geschwindigkeit ausströmt, die ein Tropfen beim freien Fall aus der Höhe des Wasserspiegels über der Öffnung erreicht.</note> suo reticuerit, imo con<pc type="hyphenation">-</pc><lb break="no"/>tra veritatem dixerit, <hi rend="u">neminem ante ipsum illud principium
+      <lb/>demonstrasse</hi>; quem procedendi modum, utpote minus sincerum
+      <lb/>et parum urbanum, cum ipsi exprobrassem per <rs type="letter">litteras</rs>, agno<pc type="hyphenation">-</pc>
+<pb facs="1078938" n="5"/>
+      <lb break="no"/>vit rei veritatem petiit<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> culp<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> veniam rejiciens ejus causam
+      <lb/>in oblivionem (si credere fas est) sed ut mihi justitiam faceret
+      <lb/>coram publico, promisit se publice errorem revocaturum
+      <lb/>meam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> demonstrationem mihi assertam editurum; quod etiam
+      <lb/>pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stitit in <rs key="biblio_Z38U9TF5" type="biblio"><choice><orig>a</orig><reg>A</reg></choice><choice><abbr>ct.</abbr><expan>ctis</expan></choice> <choice><abbr>Lips.</abbr><expan>Lipsiensibus</expan></choice> <choice><abbr>an.</abbr><expan>anno</expan></choice> 1716<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> p. 375</rs><note type="editorial" resp="SG">Hermann veröffentlichte Johanns <hi rend="i">Demonstratio principii hydraulici</hi> im Anschluss an seine Abhandlung über schwingende Saiten in den <hi rend="i">Acta Eruditorum</hi> vom August 1716, S. 375–376. In der Vorbemerkung erklärt Hermann, Johanns mündlich mitgeteilter Beweis sei ihm entfallen. Der gedruckte Beweis stammt aus Johanns <rs key="B_991170514846405501" type="letter">Brief</rs> an Hermann vom 21. Dezember 1715.</note>, ubi pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>miss<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> culp<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> depre<pc type="hyphenation">-</pc><lb break="no"/>catione demonstration<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice> a me dat<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> exponit, quam ita<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ibi legere poteris.
+      <lb/><rs key="pers_DE-588-119166895" type="person">Agnatus</rs> meus afferet Tibi libellum quem petis Latino<choice><orig> </orig><reg>-</reg></choice>Germanicum
+      <lb/>cui titulus <rs key="biblio_RC6TN74M" type="biblio"><hi rend="u"><rs key="pers_DE-588-100704514" type="person">Wetstenii</rs> flores eloquenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi></rs>. <rs key="pers_DE-588-11757645X" type="person">Guilielmini</rs> <rs key="biblio_JIJCX6M8" type="biblio">Librum de natu<pc type="hyphenation">-</pc><lb break="no"/>ra fluminum</rs><note type="editorial" resp="SG">Gemeint ist Domenico Guglielminis <hi rend="i">Della natura de’ fiumi</hi> (Bologna 1697). Michelotti kündigte den Versand im <rs key="B_991170515017605501" type="letter">Brief</rs> vom 6. Juni 1716 an. Im <rs key="B_991170515153505501" type="letter">Brief</rs> vom 3. September 1717 schreibt er, er habe das Buch etwa ein Jahr zuvor geschickt.</note> post longam itineris moram tandem
+      <lb/>accepi, pro eo Tibi decentes refero gratias: Spero quod Tu quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>vicissim acceperis <rs type="biblio">mea manuscripta mathematica de calculo
+      <lb/>differentiali et integrali</rs>.</p>
+  <p>Hucus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ad <rs key="B_991170515153505501" type="letter">priorem</rs>, nunc ad posteriorem Tuam <rs key="991170515153405501" type="letter">Epistolam</rs> se<pc type="hyphenation">-</pc><lb break="no"/>quentia habe: Plan<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> nihil m<subst><del>i</del><add>o</add></subst>ror, quod Jacobi <rs key="pers_DE-588-1055365613" type="person">Keil</rs> Theoria
+      <lb/>motus musculorum me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> adverse<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, ne<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Tu Vir Clarissime illud
+      <lb/>mirari debes, siquidem nosti morem Anglorum qui sua suorum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>tantum <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimant dicta et facta, exterorum vero vel contem<pc type="hyphenation">-</pc><lb break="no"/>nunt vel per plagium sua faciunt. Miserum interim est
+      <lb/>argumentum <rs key="pers_DE-588-1055365613" type="person">Keilii</rs> ideo tantum negantis effervescentiam in
+      <lb/>vesiculis fibrillas musculorum constituentibus, <hi rend="u">quod difficile sit
+      <lb/>concipere evolationem particularum aërearum post musculor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>inflationem, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tamen particul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> non valeant perfringere
+      <lb/>cortices globulorum sanguineorum</hi>, ad hoc enim in ipsa mea <rs type="biblio">disser<pc type="hyphenation">-</pc><lb break="no"/>tatione</rs> satis super<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> respondi, quid? annon sufficit ad <choice><sic>enervendam</sic><corr>enervandam</corr></choice> hanc
+      <lb/>frivolam objectionem, ut concipiamus cortices globulorum sangui<pc type="hyphenation">-</pc><lb break="no"/>neorum esse valde solidos et tam parvis tam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> angustis poris instruc<pc type="hyphenation">-</pc><lb break="no"/>tos, ut particul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> inclusi aëris quamvis subtilissimi non possint per
+<pb facs="1078939" n="6"/>
+      <lb/>illos porulos penetrare, statim vero ac cortices globulorum
+      <lb/><choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> spiculis particularum succi nervosi vel si mavis spiri<pc type="hyphenation">-</pc><lb break="no"/>tuum animalium sunt diffracti, tunc aërem istum
+      <lb/>antea inclusum nunc diffractis globulis sui juris fact<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> valde elasticum subito erumpere ac primo impetu
+      <lb/>in parietes vesicularum illidentem easdem dilatare, sed
+      <lb/>immediate postea per poros fibrillarum (quos ad hoc ne<pc type="hyphenation">-</pc><lb break="no"/>gotium satis patulos concipere, nihil est quod obstet)
+      <lb/>evadere et in auras externas per poros cutis membranarum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>promtissime evolare. Sed vertamus nunc folium et videa<pc type="hyphenation">-</pc><lb break="no"/>mus an <rs key="pers_DE-588-1055365613" type="person">Keilii</rs> modus explicandi inflationem vesicular<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>minoribus prema<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> difficultatibus: Ubi statim animadver<pc type="hyphenation">-</pc><lb break="no"/>to vires illas attrahentes spirituum animalium quas
+      <lb/><rs key="pers_DE-588-1055365613" type="person">Keilius</rs> supponit esse mere precarias et minime
+      <lb/>concedendas donec clare ostendat, quid sit vis attractrix
+      <lb/>et quod talis revera in corporibus existat, facultates
+      <lb/>enim et qualitates occult<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cipu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> vires quibus cor<pc type="hyphenation">-</pc><lb break="no"/>pora in distans et sine contactu agere supponun<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> in
+      <lb/>se mutuo, quales sunt vires attractrices et hujusmodi chy<pc type="hyphenation">-</pc><lb break="no"/>mer<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> veteribus et scholasticis philosophis introduct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,
+      <lb/>jam diu <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> sanioribus Philosophis sunt ex<pc type="hyphenation">-</pc><lb break="no"/>plos<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et in exilium relegat<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>; quod autem nunc ab An<pc type="hyphenation">-</pc><lb break="no"/>glis quibusdam revocen<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> id fit ob cultum nimis religio<pc type="hyphenation">-</pc><lb break="no"/>sum quem deferunt suo tanquam Philosophor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> Principi <rs key="pers_DE-588-118587544" type="person">Newtono</rs> qui hanc
+<pb facs="1078940" n="7"/>
+      <lb/>corporum attractionem resuscitavit et ad omnia Natur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>no<pc type="hyphenation">-</pc><lb break="no"/>mena explicanda adhibuit, imo ad ipsas quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> effervescen<pc type="hyphenation">-</pc><lb break="no"/>tias chymicas, ut patet ex <rs key="biblio_KGWAEINJ" type="biblio"><choice><sic>Ooptica</sic><corr>Optica</corr></choice></rs> pag. 323<choice><orig>.</orig><reg>,</reg></choice> 324<choice><orig>.</orig><reg>,</reg></choice> 325, adeo
+      <lb/>ut <rs key="pers_DE-588-1055365613" type="person">Keilius</rs> nihil aliud fecerit quam Newtonizare in explica<pc type="hyphenation">-</pc><lb break="no"/>tione ebullitionis aëris intra globulos sanguinis condensati,
+      <lb/>oriund<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex congressu spirituum animalium cum sanguine, hujus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>globulorum <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> illius vim attrahentem fact<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> separatione
+      <lb/>ab isto aëre nunc iterum rarescente: sed dum Angli mordicus
+      <lb/>adh<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rent <rs key="pers_DE-588-118587544" type="person">Newtono</rs>, ejus tamen moderationem, ex nimio fervore
+      <lb/>transiliunt, Newtonus  enim talem attractionem numquam
+      <lb/>positive statuit, sed tantum eam facit hypotheticam, per qu<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice>
+      <lb/>intelligit solummodo vim aliquam, qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> corpora ad se mutuo ten<pc type="hyphenation">-</pc><lb break="no"/>dant, cuicun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> demum caus<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> attribuenda sit vis illa, quod aperte
+      <lb/>i<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>uit haud procul <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> loco citato, addens disertis verbis, <quote><hi rend="u">quam ego
+      <lb/>attractionem appello, fieri sane potest, ut ea efficia<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> <hi rend="k">Impulsu</hi>
+      <lb/>vel alio aliquo modo nobis ignoto</hi></quote><note type="editorial" resp="SG">Isaac Newton, <hi rend="i">Optice</hi> (London 1706), Frage 23, S. 322.</note>; <rs key="pers_DE-588-1055365613" type="person">Keilius</rs> vero cum c<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>teris suis popu<pc type="hyphenation">-</pc><lb break="no"/>laribus seposita <rs key="pers_DE-588-118587544" type="person">Newtoni</rs> modesti<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>, audacter asserit corporum posi<pc type="hyphenation">-</pc><lb break="no"/>tivam vim attractricem parum curans incomprehensibile esse in physica, cor<pc type="hyphenation">-</pc><lb break="no"/>pus in corpus agere <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> intervallum et citra contactum aliorum corpor<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> inter<pc type="hyphenation">-</pc><lb break="no"/>jectorum. Quod si recurrere velimus ad nescio quas virtutes incorpo<pc type="hyphenation">-</pc><lb break="no"/>reas, n<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>! magno conatu magnas nugas agit <rs key="pers_DE-588-1055365613" type="person">Keilius</rs>, quid enim
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>so tunc opus est supponere spiritus animales valida vir<pc type="hyphenation">-</pc><lb break="no"/>tute attractrice pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ditos, qui fortius attrahant globulos san<pc type="hyphenation">-</pc><lb break="no"/>guineos, quam hi ipsi attrahere possint particulas aëreas,
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> postea relict<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> rarescendo dilatent vesiculas musculares,
+      <lb/>mox iterum collapsuras per recondensationem ejusdem aëris <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+      <lb/>subsequentibus globulis sanguineis; quid inquam tanto apparatu o<pc type="hyphenation">-</pc><lb break="no"/>pus est? siquidem si fingere sufficit, fingamus potius viam magis
+<pb facs="1078941" n="8"/>
+      <lb/>compendiosam, dicamus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> musculos gaudere immediata virtute
+      <lb/>contractrice, qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ad nutum anim<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> aliave occasione statim
+      <lb/>se contrahant sine concursu sanguinis spirituum animali<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>aëris aliusve rei qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> illa sit; profecto non video cur non
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>que liceat comminisci ejusmodi virtutem contractivam im<pc type="hyphenation">-</pc><lb break="no"/>mediatam musculorum, ac alter<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> ill<choice><orig><g ref="#am">ā</g></orig><reg>am</reg></choice> vim particular<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> attractricem.
+      <lb/>Sed piget ulterius inh<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>rere ineptiis istis <rs key="pers_DE-588-1055365613" type="person">Keilianis</rs>; interim
+      <lb/>me plane non movet, quod h<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c ratione <rs key="pers_DE-588-1055365613" type="person">Keilius</rs> neget diffra<pc type="hyphenation">-</pc><lb break="no"/>ctionem illam quam ego statui globulorum sanguinis <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice>
+      <lb/>spiculis spirituum animalium factam; sufficit mihi me
+      <lb/>nihil statuisse, quod cum san<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ratione pugnet aut quod
+      <lb/>sit contra receptas et comprehensibiles corporum affectiones;
+      <lb/>Tu ipse Vir Doctissime explicationis <rs key="pers_DE-588-1055365613" type="person">Keilian<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> absurditatem
+      <lb/>aliquam non exiguam animadvertis, quando dicis Te non
+      <lb/>capere, <hi rend="u">qu<choice><orig><g ref="#ihat">î</g></orig><reg>i</reg></choice> fiat quod spiritus animales attrahant particu<pc type="hyphenation">-</pc><lb break="no"/>las globulum sanguini constituentes et non particulas
+      <lb/>aëris globulo sanguineo inclusi, quas postea attrahi <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> glo<pc type="hyphenation">-</pc><lb break="no"/>bulo sanguinis spiritibus animalibus unito asserere cogi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> <rs key="pers_DE-588-1055365613" type="person">Keilius</rs>
+      <lb/>ut explicet cessationem motus musculorum sine evolatione globulo<pc type="hyphenation">-</pc><lb break="no"/>rum aëreorum</hi>. Difficultas qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Tibi nasci<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> ex parvitate spiri<pc type="hyphenation">-</pc><lb break="no"/>tuum animalium non est insolubilis; Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ris <hi rend="u">si spiritus ani<pc type="hyphenation">-</pc><lb break="no"/>males sunt corpuscula minimarum diametrorum fluunt<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>cum sanguinis sero et globulis ad hepar, ad renes, ad omnes omni<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice>
+      <lb/>partium corporis glandulas magis patentes quam glandul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>cerebri inconspicu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quare non fluant omnes potius per reli<pc type="hyphenation">-</pc><lb break="no"/>quas glandulas quam <choice><orig><g ref="#per">&#42833;</g></orig><reg>per</reg></choice> glandulas Cerebri?</hi>  Eadem sane diffi<pc type="hyphenation">-</pc><lb break="no"/>cultas moveri posset contra omnes secretiones materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> tenuioris
+<pb facs="1078942" n="9"/>
+      <lb/>qu<choice><orig><g ref="#ihat">î</g></orig><reg>i</reg></choice> nempe fiat quod illa non potius fluat per
+      <lb/>glandulas magis patulas destinatas secretioni materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>crassiori; <choice><abbr>ex.</abbr><expan>exempli</expan></choice> <choice><abbr>gr.</abbr><expan>gratia</expan></choice> quare urina qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ut vide<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> fluidior et tenu<pc type="hyphenation">-</pc><lb break="no"/>ior est bile non potius per hepar quam per renes secerna<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> a sanguine: Verum ipse pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>vidisti responsionem, quando
+      <lb/>fingendo saltem concedis <hi rend="u">secerni spiritus animales in
+      <lb/>Cerebri glandulis vi similitudinis spirituum animalium
+      <lb/>existentium <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> primo tempore generationis</hi> (aut si vis creationis)
+      <lb/><hi rend="u">in cerebralibus glandulis</hi>; nec est quod dicas in contrarium
+      <lb/><hi rend="u">negari tamen non posse quod spiritus animales applicati
+      <lb/>cum sero sanguinis aut lymph<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> majoribus orificiis glandu<pc type="hyphenation">-</pc><lb break="no"/>larum hepatis, pancreatis, renum <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. in eadem orificia
+      <lb/>penetrent, misceantur<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> Bili, urin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, saliv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> etc.</hi> Concedo e<pc type="hyphenation">-</pc><lb break="no"/>nim in omnibus istis secretionibus semper aliquid (licet sit
+      <lb/>modicum) de spiritibus animalibus deperdi, quot nempe
+      <lb/>particul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> spirituos<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in interstitiis crassiorum particula<pc type="hyphenation">-</pc><lb break="no"/>rum bilis, urin<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, saliv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. hospitari et ita simul cum
+      <lb/>illis orificia glandularum illis humoribus destinata subrepe<pc type="hyphenation">-</pc><lb break="no"/>re at<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> excerni possunt; hoc ita verum est, ut experientia
+      <lb/>testante omnes excretiones et evacuationes insigniores in
+      <lb/>excessu peccantes sequa<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> plerum<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> virium prostratio, id
+      <lb/>quod aliunde venire non potest, quam <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> jactur<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> spi<pc type="hyphenation">-</pc><lb break="no"/>rituum animalium, sic longa salivatio, diarrh<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>a et dia<pc type="hyphenation">-</pc><lb break="no"/>betes <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>grotos valde debilitant; ita quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> nimia aquarum
+      <lb/>detractio in hydropicis per <choice><sic>paracenthesin</sic><corr>paracentesin</corr></choice> una vice facta,
+      <lb/>eos in deliquium animi dejicit. Sed quid ego, quod
+<pb facs="1078943" n="10"/>
+      <lb/><choice><sic>ayunt</sic><corr>ajunt</corr></choice>, piscem natare doceo? cum h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c omnia me
+      <lb/>multo melius intelligas, tanquam in praxi medic<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>exercitatissimus. Qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ris porr<choice><orig><g ref="#ograv">ò</g></orig><reg>o</reg></choice> <hi rend="u">qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ratione stare possit
+      <lb/>spirituum animalium vis diffringens globulos sanguine<pc type="hyphenation">-</pc><lb break="no"/>os sine perpetua irritatione et convulsione nervorum?</hi>
+      <lb/>Ad hoc ni fallor in ips<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> me<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> <choice><orig>dissertatione</orig><reg>Dissertatione</reg></choice> <rs key="biblio_BS83R2A4" type="biblio">de motu mus<pc type="hyphenation">-</pc><lb break="no"/>culorum</rs> jam est responsum: Lege tantum, si placet articu<pc type="hyphenation">-</pc><lb break="no"/>lum sextum <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> medio circiter ad finem, ubi i<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>uo spicula vel
+      <lb/>mucrones tam teneros tam<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> subtiles esse, ut ideo quia sunt acutis<pc type="hyphenation">-</pc><lb break="no"/>simi ad contactum partium corporis crassiorum ut sunt nervi sta<pc type="hyphenation">-</pc><lb break="no"/>tim hebeten<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> et obtundan<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> illos irritare et vellicare non
+      <lb/>possint, quando interim aptissimi sunt ad sese insinuan<pc type="hyphenation">-</pc><lb break="no"/>dum in exilissimos globulorum sanguineorum porulos, ipsos<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>adeo globulos etsi solidissimos diffringendos etiamsi non adeo
+      <lb/>magn<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> vi in poros intrudan<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, fungun<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> enim spicula illa
+      <lb/>officio cunei, qui ut ex legibus Mechanicis patet leviter ada<pc type="hyphenation">-</pc><lb break="no"/>ctus magn<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> pollet diffindendi virtute, sic quippe particul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>aque<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in interstitia fibrarum funis humectati debili et
+      <lb/>blando admodum conatu subrepentes tantam tamen ener<pc type="hyphenation">-</pc><lb break="no"/>giam exerunt in distendendis istis interstitiis, hinc<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> abbrevi<pc type="hyphenation">-</pc><lb break="no"/>ando fune, ut ingentia pondera, n<choice><orig><g ref="#ihat">î</g></orig><reg>i</reg></choice> omnino funis rumpa<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>sublevari que<choice><orig><g ref="#an">ā</g></orig><reg>an</reg></choice>t.</p>
+  <p>Quod tandem attinet ad duas quas ex <rs key="pers_DE-588-118587544" type="person">Newtoni</rs> <rs key="biblio_KGWAEINJ" type="biblio"><choice><orig>optica</orig><reg>Optica</reg></choice></rs><note type="editorial" resp="SG">Michelotti bat im <rs key="B_991170515153405501" type="letter">Brief</rs> vom 9. September 1717 um Erläuterung zweier Stellen aus der 22. Frage von Newtons <hi rend="i">Optice</hi> (London 1706), S. 320–321.</note>
+      <lb/>p. 320<choice><orig><g ref="#ndot">.</g></orig><reg/></choice><supplied>,</supplied> 321<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> excerpis propositiones; cum sint obscur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, fateor
+      <lb/>me ad illas non nisi conjectando respondere posse: Et qui<pc type="hyphenation">-</pc><lb break="no"/>dem, quantum ad primam, ubi dicit <hi rend="u">eorum corporum, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>
+      <lb/>sunt ejusdem generis et virtutis, quanto est, quod<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> minutius
+      <lb/>tanto fortiorem habet pro ratione magnitudinis su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>,</hi>
+<pb facs="1078944" n="11"/>
+      <lb/>(vult dicere ni fallor <hi rend="u">parvitatis su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi>) <hi rend="u">vim attrahentem</hi>;
+      <lb/>credo sensum ejus hunc esse:
+      <lb/>corpora, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> eandem quantitatem materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habent, sed in
+      <lb/>diversis voluminibus, illa qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> minutiora sunt eand<choice><orig><g ref="#em">ē</g></orig><reg>em</reg></choice>
+      <lb/>tamen materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quantitatem habentia, pollebunt
+      <lb/>sane majori vi attractiv<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> pro ratione magnitudinis
+      <lb/>su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, quam qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sunt majora, nec tamen plus ma<pc type="hyphenation">-</pc><lb break="no"/>teri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> habent, siquidem vis attractiva proportionalis
+      <lb/>est (ut supponere vide<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> <rs key="pers_DE-588-118587544" type="person">Newtonus</rs>) quantitati ma<pc type="hyphenation">-</pc><lb break="no"/>teri<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> et ejusdem densitati in corporibus ejusdem gene<pc type="hyphenation">-</pc><lb break="no"/>ris, sensum hunc esse <rs key="pers_DE-588-118587544" type="person">Newtoni</rs>, patet fere <rs type="biblio">ex exem<pc type="hyphenation">-</pc><lb break="no"/>plo quod dat de parvis magnetibus p. 321</rs><note type="editorial" resp="SG">Auf S. 321 der <rs key="biblio_KGWAEINJ" type="biblio"><hi rend="i">Optice</hi></rs> führt Newton kleine Magnete als Beispiel an. Ihm zufolge ist ihre Anziehungskraft im Verhältnis zum Gewicht stärker als die grösserer Magnete, weil ihre Teilchen näher beieinanderliegen und so ihre Kräfte leichter vereinen.</note>, quando ait
+      <lb/><hi rend="u">parvorum Magnetum particul<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, cum sint inter se <hi rend="u">proxi<pc type="hyphenation">-</pc><lb break="no"/>miores</hi>, vires suas facilius in unum <choice><sic>comjungunt</sic><corr>conjungunt</corr></choice>;</hi> Et sic si corpus
+      <lb/>aliquod verbi grati<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> in duplo minus spatium condense<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, acquiret duplo majorem vim
+      <lb/>attrahentem, etiamsi eandem retineat materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quantitatem. Hinc fluit, quod
+      <lb/>nunc alteram constituit propositionem, radios luminis, qui secundum ipsum
+      <lb/>sunt corpuscula minutissima quidem sed et omnium, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in mundo sunt
+      <lb/>long<choice><orig><g ref="#eacut">é</g></orig><reg>e</reg></choice> densissima, gaudere viribus attrahentibus longe fortissimis: Interim
+      <lb/>si <rs key="pers_DE-588-118587544" type="person">Newtonian<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> hujus hypotheseos sensum bene percepi, vide<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> claudicare
+      <lb/>regula quam tradit pro <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stimatione virium istarum attractricium in
+      <lb/>radiis luminis, secundum quam vult <hi rend="u">Attractionem radii luminis
+      <lb/>pro quantitate materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> esse ad gravitatem quam corpus aliquod
+      <lb/>projectum habet pro quantitate itidem materi<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, in composi<pc type="hyphenation">-</pc><lb break="no"/>t<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ratione velocitatis radii luminis ad velocitatem corporis illius
+      <lb/>projecti, et flexur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> seu curvatur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> line<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> quam radius describit
+      <lb/>in loco refractionis ad flexuram seu curvaturam quam id corpus
+      <lb/>projectum describit:</hi> vide<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice> dicendum fuisse
+      <lb/><hi rend="u">attractionem illam esse in composit<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ratione ex duplicata velocitatis radii
+      <lb/>ad velocitatem corporis project<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> et ex simplici flexur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> in loco</hi>
+<pb facs="1078945" n="12"/>
+      <lb/><hi rend="u">refractionis ad flexuram quam corpus projectum describit, si vi<pc type="hyphenation">-</pc><lb break="no"/>delicet inclinatio radii ad superficiem refringentem eadem sit
+      <lb/>qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est corporis illius projecti ad horizontem;</hi> notum enim est vi<pc type="hyphenation">-</pc><lb break="no"/>res centripetas quibus corpora gyrantia in circumferentiis retinen<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>esse in ratione composit<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> ex quadrata velocitatum et ex simplici
+      <lb/>reciproc<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> diametrorum hoc est ex simplici directa convexitatum
+      <lb/>seu flexurarum, flexur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> enim rationem reciprocam habent
+      <lb/>diametrorum, ita ut circulus duplo, triplo, quadruplo minor, vicis<pc type="hyphenation">-</pc><lb break="no"/>sim duplo, triplo, quadruplo majorem curvaturam vel flexu<pc type="hyphenation">-</pc><lb break="no"/>ram habere censea<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>: Unde sequi<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, si computus <rs key="pers_DE-588-118587544" type="person">Newtonianus</rs>
+      <lb/>recte se habeat, attractionem luminis non tant<choice><orig><g ref="#um">ū</g></orig><reg>um</reg></choice> 1000000000000000
+      <lb/>seu <formula>10^{15}</formula> sed <formula>10^{30}</formula> partibus majorem esse quam gravitatem corporum in
+      <lb/>superficie terr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>. Verum quantacun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> esset h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c vis, nihil omnino
+      <lb/>probat pro existenti<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> hujusmodi attractionis, imo etsi concedere<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>
+      <lb/>illa pro radiis luminis, frustr<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> tamen <rs key="pers_DE-588-1055365613" type="person">Keilius</rs> illam ad spiritus
+      <lb/>animales deducere conare<choice><orig><g ref="#tur">&#xf199;</g></orig><reg>tur</reg></choice>, nisi prius ostendat in spiritibus exi<pc type="hyphenation">-</pc><lb break="no"/>lissimis i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>ensam quo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> esse densitatem, qualem in particulis
+      <lb/>radiorum luminis supponendam esse supra monstravi; interim non
+      <lb/>video quo pacto id <rs key="pers_DE-588-1055365613" type="person">Keilius</rs> pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stare possit.</p>
+  <p><rs type="biblio">Exercitationem Tuam Secretionis Animalis</rs> quantocyus quidem
+      <lb/>publicari desidero, eam vero mihi dedicari nec spero nec peto,
+      <lb/>hoc quippe honore omnino me indignum censeo, quocirca
+      <lb/>melius feceris, si pro hoc opere Virum qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>siveris auctori<pc type="hyphenation">-</pc><lb break="no"/>tate et meritis conspicuum.</p>
+  <p>Hucus<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> ad omnia Tuarum epistolarum capita prolixe res<pc type="hyphenation">-</pc><lb break="no"/>pondi, et ita quidem <hi rend="u">prolixe</hi>, ut verear ne Tibi h<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>c me<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> prolixitate fastidium creem. Sed non facile patet qu<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>
+      <lb/>ratione potuerim brevior esse, siquidem nullam ex tan<pc type="hyphenation">-</pc><lb break="no"/>ta multitudine qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>stionum Tuarum omittere debuerim.
+      <lb/>Si vis ut breviores scribam litteras, pauciores formabis qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s<pc type="hyphenation">-</pc><lb break="no"/>tiones.</p> <closer><salute>Quod superest Vale Vir Doctissime et mihi favere perge.</salute>
+      <lb/><dateline>Dabam <rs key="place_GEO-2661604" type="place">Basile<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></rs> <choice><abbr>a. d.</abbr><expan>ad diem</expan></choice> <date when="1717-10-17">17<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 8bre<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 1717</date>.</dateline></closer>
+  <postscript hand="pers_DE-588-118509969"><p>His jam scriptis accepi <rs type="letter">litteras</rs>
+        <lb/>a <rs key="pers_DE-588-117589144" type="person">filio</rs> meo, ex quibus intelligo illum Tibi statim respondisse ad <rs type="letter">Tuas</rs> quas ipsi transmiseram<unclear>;</unclear>
+        <lb/>addit se Tibi scripsisse jam antea nempe mense Augusto per <rs key="place_GEO-3165524" type="place">Taurinum</rs>: spero Te utram<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+        <lb/>ejus <rs type="letter">epistolam</rs><note type="editorial" resp="SG">Johann berichtet von zwei Briefen seines Sohnes Nicolaus II Bernoulli an Michelotti. Den ersten schickte Nicolaus im August 1717 über Turin. Den zweiten schrieb er als Antwort auf Michelottis Schreiben, das Johann ihm weitergeleitet hatte. In seinem <rs key="B_991170515153205501" type="letter">Brief</rs> vom 20. Oktober 1717 bestätigt Michelotti, dass er einen Brief von Nicolaus erhalten hat. Welcher der beiden es war, bleibt offen.</note> nunc <choice><orig><g ref="#qui">&#xA757;</g></orig><reg>qui</reg></choice>dem accepisse.</p></postscript>
+</div></body></text></TEI>

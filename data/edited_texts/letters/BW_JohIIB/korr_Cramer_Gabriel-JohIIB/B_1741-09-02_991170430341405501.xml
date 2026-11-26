@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430341405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann II Bernoulli an Gabriel Cramer. Basel, 02. September 1741</title>
+          <title type="alt">1741.09.02: Bernoulli, Johann (1710-1790) an Cramer, Gabriel (1704-1752)</title>
+          <title type="alt">000058273</title>
+          <title type="alt">1741-09-02_Bernoulli_Johann-Cramer_Gabriel</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430341405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430341405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-117589136" type="person">Johann II Bernoulli</rs> (1710-1790)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Brief beantwortet denjenigen Cramers von 25.8.1741</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Genève, BGE</repository>
+            <idno type="callNumber">Ms. Suppl. 384, fo. 41r-42v</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430341405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406956505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058273</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3,5 S., auf fo. 42v Adresse und Siegel<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[s. l.]</origPlace>
+              <date when="1741-09-02">ce 2. 7bre 1741</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1741-09-02"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516487505501" type="prev"/>
+          <ptr target="B_991170430341305501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-136952968">Bousquet, Marc Michel</persName>
+            <note type="lebensdaten">(1696-1762)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118531379">Euler, Leonhard</persName>
+            <note type="lebensdaten">(1707-1783)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100289665">Jallabert, Jean</persName>
+            <note type="lebensdaten">(1712-1768)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089923414">Jallabert-Calandrini, Sybille-Cathérine</persName>
+            <note type="lebensdaten">(18. Jh.)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117528854">König, Samuel</persName>
+            <note type="lebensdaten">(1712-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Rive, de</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2025-09-08" who="RG">Code durchgeschaut, ergänzt, korr.</change>
+        <change when="2025-09-08" who="RG">Referenzierzungen</change>
+        <change when="2025-09-08" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaa186541f325fd105/manifest"/>
+</facsimile><text>
+<body>
+
+<div type="letter">
+<pb facs="0/61" n="41r"/>
+  <opener>
+  <dateline>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <date when="1741-09-02">2. 7<hi rend="sup">bre</hi> 1741</date>
+  </dateline>
+  </opener>
+  <p>
+      <lb/>Je suis de retour des <rs type="place">bains</rs> depuis quelques semaines mon
+      <lb/>cher Monsieur; je crois effectivement y avoir gagné un peu
+      <lb/>de santé en prenant un peu de plaisir; car je ne suis pas né
+      <lb/>pour jouir ni de beaucoup de santé ni de<del><gap/></del> beaucoup
+      <lb/>de plaisir; ce sont cependant, comme vous dites, deux
+      <lb/>grands articles dans la vie; ou plutot on ne vit qu’autant
+      <lb/>qu’on se porte bien et qu’on se plait à vivre.
+  </p>
+  <p>
+      <lb/>Comme ce qui reste à copier n’est que très peu de chose
+      <lb/>cela ne doit pas vous empecher de travailler au Catalogue
+      <lb/>raisonné des Piéces du <rs type="biblio">3.<hi rend="sup">e</hi> Tome</rs> si vous trouvés bon d’en
+      <lb/>faire un; si vous souhaités je pourrai vous donner
+      <lb/>une liste de ce que j’ai encore à vous envoyer.
+  </p>
+  <p>
+      <lb/>Vous aviés sans contredit la pièce sur le mouvement
+      <lb/>des fluides et c’est le principal de ce que vous recevrés encore;
+      <lb/>elle est, comme vous savés en deux parties et <abbr>M.</abbr> <rs key="pers_DE-588-118531379" type="person">Euler</rs>,
+      <lb/>qui par parenthèse est arrivé à <rs key="place_GEO-2950159" type="place">Berlin</rs>, nous marque
+      <lb/>que la première partie entrera dans le <rs type="biblio">IX Tome</rs>
+      <lb/>des Memoires de <rs key="place_GEO-498817" type="place"><abbr>Petersb.</abbr></rs> qui est actuellement sous la
+      <lb/>presse et la seconde dans le <rs type="biblio">X<supplied>.</supplied><hi rend="sup">e</hi></rs>; cependant comme
+      <lb/>ces mémoires s’impriment fort lentement, je doute
+      <lb/>que le <rs type="biblio">X.<hi rend="sup">e</hi> Tome</rs> et par conséquent la 2.<hi rend="sup">de</hi> partie
+      <lb/>de la <rs type="biblio">pièce</rs> soit publique avant que nôtre ouvrage
+      <lb/>soit achevé d’imprimer, surtout à présent que la
+      <lb/>guerre est dans le Nord. Ainsi je crois qu’on
+<pb facs="0/62" n="41v"/>
+      <lb/>pourroit fort bien insérer cette pièce dans le <rs type="biblio">3.<hi rend="sup">e</hi> Tome</rs>
+      <lb/>où elle ne feroit pas mal et si par malheur le <rs type="biblio">X.<hi rend="sup">e</hi> Tome
+      <lb/>des <choice><abbr>Mem.</abbr><expan>Memoires</expan></choice> de <choice><abbr>Petersb.</abbr><expan>Petersbourg</expan></choice></rs> paroissoient un peu trop tôt, on pourroit
+      <lb/>faire une note pour indiquer la raison du deplacement
+      <lb/>de cette pièce. Au reste je m’en remets entièrement à ce
+      <lb/>que vous trouverés à propos et si vous souhaités que
+      <lb/>la pièce entre dans le <rs type="biblio">2.<hi rend="sup">e</hi> Tome</rs>, il ne tiendra pas
+      <lb/>à moi que vous ne l’ayés à tems.
+  </p>
+  <p>
+      <lb/>Il est vrai que la solution de la Tautochrone dans un
+      <lb/>milieu resistant se trouve déjâ dans les <rs type="biblio">mémoires
+      <lb/>de l’<choice><abbr>acad.</abbr><expan>academie</expan></choice></rs> mais comme le latin est l’original et que
+      <lb/>la traduction n’est pas même de mon Père, j’ai
+      <lb/>cru que je ne ferois pas mal de vous l’envoyer
+      <lb/>et qu’il vaudroit mieux l’imprimer en latin
+      <lb/>qu’en françois.
+  </p>
+  <p>
+      <lb/>Le <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> me demande s’il ne conviendroit
+      <lb/>pas de mettre une Table des matières à chaque Tome,
+      <lb/>je crois, sauf vôtre meilleur avis, qu’il n’y auroit
+      <lb/>pas de mal à cela; si vous vouliés vous charger
+      <lb/>aussi de ce soin, ce seroit sans doute le meilleur, mais au
+      <lb/>defaut de cela il me semble qu’il conviendroit que
+      <lb/>vous choisissiés quelqu’un qui fit ces Tables sous
+      <lb/>vos yeux, car comme vous étes parfaitement au
+      <lb/>fait de tout ce qui entre dans cet <rs type="biblio">ouvrage</rs>, vous ètes seul
+<pb facs="0/63" n="42r"/>
+      <lb/>en état de bien faire ces Tables<supplied>,</supplied> ou du moins de conduire
+      <lb/>celui qui les doit faire. Le <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> m’avoit
+      <lb/>proposé pour cela <abbr>M<unclear>.<hi rend="sup">r</hi></unclear></abbr> <rs key="pers_DE-588-117528854" type="person">Koenig</rs>, mais il n’est pas à
+      <lb/>portée, et je crois qu’il faut absolument un homme
+      <lb/>qui soit sur les lieux et qui puisse vous consulter à
+      <lb/>tout moment; c’est ce que je répons aujourd’hui à <abbr>M<unclear>.<hi rend="sup">r</hi></unclear></abbr>
+      <lb/><rs key="pers_DE-588-136952968" type="person">Bousquet</rs> et je vous prie de lui dire aussi vôtre
+      <lb/>sentiment la dessus si vous lui ecrivés.
+  </p>
+  <p>
+      <lb/>Je suis charmé que nôtre Ami <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> se rétablisse et je
+      <lb/>souhaite de tout mon coeur que ce soit pour bien longtems;
+      <lb/>faites lui je vous prie mes plus tendres complimens. Il
+      <lb/>y a déja quelque tems que <abbr>M.<hi rend="sup">e</hi></abbr> son <rs key="pers_DE-588-1089923414" type="person">Epouse</rs> a eu la bonté de
+      <lb/>faire pour moi une Commission qui a couté 8 <abbr>L<supplied>.</supplied></abbr>, je ne sais
+      <lb/>si c’est argent de france ou argent de Genève; je priai
+      <lb/>la dessus le <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> de les faire rembourser à
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs>, mais celui ci étoit alors à la <rs type="place">Campagne</rs>
+      <lb/>et il fallut attendre son retour, <choice><orig>a</orig><reg>à</reg></choice> prèsent <abbr>M.</abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs>
+      <lb/>me marque qu’il lui a fait porter et qu’il lui a écrit
+      <lb/>à ce sujet, mais qu’il n’en a point de réponse; je crains
+      <lb/>donc que <abbr>M.</abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs> ne soit pas payé encore et j’<pc type="hyphenation"></pc><lb break="no"/>en serois dans la dernière confusion; ayés la bonté, mon
+      <lb/>cher Monsieur, de me tirer de peine, parlés <abbr>s. v. p.</abbr> à nôtre
+      <lb/><rs key="pers_DE-588-100289665" type="person">ami</rs> et s’il n’est payé, je vous prie de le payer et de
+      <lb/>le mettre à compte au <abbr>S.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-136952968" type="person">Bousquet</rs> avec qui vous
+      <lb/>avés sans doute un compte ouvert, vous me ferés
+<pb facs="0/64" n="42v"/>
+      <lb/>un plaisir sensible de me marquer le plutôt que vous
+      <lb/>pouvés si tout cela s’est<del>,</del> fait et combien c’est que
+      <lb/>j’ai dû à <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-100289665" type="person">Jallabert</rs>.
+  </p>
+  <p>
+      <lb/>C’est mon <rs key="pers_DE-588-118656503" type="person">frère</rs> et non mon <rs key="pers_DE-588-118509969" type="person">Père</rs> qui a donné une attestation
+      <lb/>à <abbr>M.</abbr> de <rs type="person">Rive</rs>; comme celui<choice><orig></orig><reg>-</reg></choice>ci m’a confié son secret sous
+      <lb/>le sceau du silence je n’en sai point de particularités.
+  </p>
+  <closer>
+  <salute>
+      <lb/>Adieu mon cher Monsieur<supplied>,</supplied> portés vous bien; Toute la
+      <lb/>maison vous fait ses <choice><abbr>Compl.</abbr><expan>Complimens</expan></choice> et moi je vous aime de
+      <lb/>tout mon coeur
+  </salute>
+  <signed><rs key="pers_DE-588-117589136" type="person"><abbr>J<supplied>.</supplied></abbr> Bernoulli</rs></signed>
+  </closer>
+  <postscript>
+    <p>
+        <lb/>Vous recevrés cette lettre d’un ordinaire plus tard que
+        <lb/>vous ne deviés la recevoir; on vient de me la raporter du
+        <lb/>Bureau; j’avois oublié d’y mettre l’adresse et par bonheur
+        <lb/>on a vu qu’elle venoit de moi.
+    </p>
+  </postscript>
+  <closer>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Cramer</addrLine>
+      <addrLine>Professeur en Philosophie</addrLine>
+      <addrLine>et Mathematiques <unclear><abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></unclear></addrLine>
+      <addrLine>à Genève</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text></TEI>

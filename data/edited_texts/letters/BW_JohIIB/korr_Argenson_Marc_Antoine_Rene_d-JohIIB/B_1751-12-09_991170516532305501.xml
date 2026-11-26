@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516532305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Marc Antoine René de Voyer de Paulmy d'Argenson an Johann II Bernoulli. Versailles, 09. Dezember 1751</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_f500_0006">
+            <surname>Gabbe</surname>
+            <forename>Nils</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516532305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516532305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Die Monatsangabe im Datum könnte auch als "7bre" gelesen werden.</p>
+          <p>Brief von Schreiberhand, Unterschrift eigenhändig</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-129687">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 715:Bl.75-76</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516532305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433442905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057928</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 Bl. (3 beschriebene S.)<dimensions unit="cm"><height>21</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Versailles</origPlace>
+              <date when="1751-12-09">le 9. xbre 1751</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-12068859X">Argenson, Marc Antoine René de Voyer de Paulmy d'</persName>
+          <placeName key="place_GEO-2969679" ref="https://d-nb.info/gnd/4063142-4">Versailles</placeName>
+          <date when="1751-12-09"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516532405501" type="prev"/>
+          <ptr target="B_991170516532205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Argenson_Marc_Antoine_Rene_d-JohIIB" corresp="pers_DE-588-12068859X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-08-07" who="SG CG">erneut kollationiert</change>
+        <change when="2026-05-27" who="SG NG">Kollationieren abgeschlossen</change>
+        <change when="2026-04-22" who="SG">transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3540780/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3540781" n="75r"/>
+  <opener><lb/><dateline>A <rs type="place" key="place_GEO-2969679">Versailles</rs> le <date when="1751-12-09">9<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> x<hi rend="sup">bre</hi> 1751.</date></dateline></opener>
+  <p>
+      <lb/>J’ai <choice><orig>recû</orig><reg>reçû</reg></choice>, Monsieur, la <rs type="lostletter">lettre</rs> que vous
+      <lb/>avez pris la peinne de m’ecrire le <date when="1751-11-28">28 du Mois
+      <lb/>passé</date>, et je reponds en même <add>tems</add> <choice><orig>a</orig><reg>à</reg></choice> quelques articles
+    <lb/>de <rs type="lostletter">vos precedentes lettres</rs>, il ne m’a pas <choice><orig>èté</orig><reg>été</reg></choice> possible
+      <lb/>jusques <choice><orig>a</orig><reg>à</reg></choice> present de le faire<supplied>,</supplied> la nouvelle
+      <lb/>place qu’il a plu au <rs type="person">Roy</rs> de m’accorder m’ayant
+      <lb/>occasionné embarras sur embarras.</p>
+  <p><lb/>Je commence, Monsieur, par vous remercier des
+      <lb/>choses tout <choice><orig>a</orig><reg>à</reg></choice> fait flatteuses que vous voulés
+      <lb/>bien me dire sur ce qui vient de m’arriver<supplied>.</supplied> Je
+      <lb/>suis bien convaincu de la sincerité du
+      <lb/>Compliment que vous me faittes <choice><orig>a</orig><reg>à</reg></choice> ce sujet et
+      <lb/><choice><orig>J</orig><reg>j</reg></choice>’aurois <choice><orig>èté</orig><reg>été</reg></choice> infiniment flatté si vôtre premier
+      <lb/><note hand="unknown"><abbr>M<supplied>.</supplied></abbr> de Bernoully.</note>
+<pb facs="3540782" n="75v"/>
+      <lb/>projet avoit eu lieu et que vos affaires
+    <lb/>ne s’y fussent point opposées, <choice><orig>J</orig><reg>j</reg></choice>’aurois eu
+      <lb/>beaucoup de plaisir <choice><orig>a</orig><reg>à</reg></choice> vous voir <choice><orig>a</orig><reg>à</reg></choice> causer avec
+      <lb/>vous et <choice><orig>a</orig><reg>à</reg></choice> vous assurer de bouche de toute ma
+      <lb/>reconnoissance.</p>
+      <p><lb/>Vous ne devés pas doutter, Monsieur, du
+      <lb/>soin que j’ai pris de parler de vous <choice><orig>a</orig><reg>à</reg></choice> mon <rs type="person">oncle</rs><supplied>,</supplied>
+      <lb/>vous devés ètre assuré de son souvenir et que
+      <lb/>les sentimens qu’il vous a vouës sont toujours
+      <lb/>les memes.</p>
+      <p><lb/>J’ai vû dans la <rs type="organisation">Bibliotheque du Roy</rs> une
+      <lb/>dent petrifiée infiniment plus belle que celle
+      <lb/>de <abbr>M<supplied>.</supplied></abbr> <rs type="person">Bavier</rs> au moyen de quoi il n’est plus
+      <lb/>question de faire usage des ses offres et je
+<pb facs="3540783" n="76r"/>
+      <lb/>Lui renverrai<supplied>,</supplied> s’il est besoin<supplied>,</supplied> le dessein qu’il
+      <lb/>m’en a donné<supplied>.</supplied></p>
+  <p><lb/>Je viens de mander au <abbr>M.<hi rend="sup">r</hi></abbr> de <rs type="person">Vertmont</rs>
+      <lb/>de faire passer de ma part <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs type="person">Broukner</rs>
+      <lb/><measure>6 Loüis d’or</measure> que vous jugés, Monsieur, etre
+      <lb/>suffisans pour reconnoitre le present qu’il
+      <lb/>m’a fait d’un exemplaire de ses <rs type="biblio">Cartes marinnes<supplied>.</supplied></rs></p>
+  <p><lb/>On ne peut rien ajoutter, Monsieur, aux
+      <lb/>sentimens de la consideration distinguée que je
+      <lb/>vous ai vouës et sur lesquels je vous prie de
+      <lb/>toujours compter de ma part</p> <closer><signed><rs type="person"><abbr>R<supplied>.</supplied></abbr> de Paulmy</rs></signed></closer>
+<pb facs="3540784" n="76v" type="empty"/>
+
+</div>
+</body>
+</text>
+</TEI>

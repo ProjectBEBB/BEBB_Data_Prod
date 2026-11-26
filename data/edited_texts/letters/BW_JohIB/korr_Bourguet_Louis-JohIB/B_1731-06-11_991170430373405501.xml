@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170430373405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Louis Bourguet. Basel, 11. Juni 1731</title>
+          <title type="alt">1731.06.11: Bernoulli, Johann (1667-1748) an
+                  Bourguet, Louis (1678-1742)</title>
+          <title type="alt">000055638</title>
+          <title type="alt">1731-06-11_Bernoulli_Johann-Bourguet_Louis</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270724185">
+            <surname>Stettler</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170430373405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170430373405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Bourguet, Louis (1678-1742)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Antwortvermerk Bourguets am Briefende: "Rece. le 21 dud: par le Messager. Rep. le 22. Et envoyé une Reconnoissance pour les 145. Lettres de Mr. Leibniz &amp; 91 des siennes outre cinq papier detachez qui traitent des mêmes choses que les Lettres." Adresse und Siegelspuren.</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Neuchâtel BPU, Ms</repository>
+            <idno type="callNumber">1267/1, fo.7-8</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170430373405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406975505504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055638</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1731-06-11">ce 11. Juin 1731.</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1731-06-11"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116298553">Bourguet, Louis</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170430374805501" type="prev"/>
+          <ptr target="B_991170430373305501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bourguet_Louis-JohIB" corresp="pers_DE-588-116298553" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. hat durch Herport den letzten Brief Bourguets erhalten. Er sendet ihm hier 144 Briefe Leibnizens an ihn zusammen mit 92 Antworten und einige andere Papiere und Auszüge. Man hat die Briefe bereits vor Jahren nummeriert. Einige seiner eigenen fehlen bzw. er hat einige nicht kopiert. Er hat einige Gedanken über die Dyadik von Leibniz erfahren, die ähnlich denen Bourguets sind. Die Anwendung auf die Musik ist ihm nicht in den Sinn gekommen. Er wird den Auszug aus B.s Brief an Caze lesen, obwohl er wenig Zeit hat, da er gerade Dekan geworden ist. Seinen Beitrag zur Bewerbung um den Akademiepreis soll er an Fontenelle senden.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1196135738">Caze, Jean</persName>
+            <note type="lebensdaten">(1682-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089876122">Herport, Johann Philipp</persName>
+            <note type="lebensdaten">(1700-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-09-25" who="MS">Korrekturen durch Autor eingebaut</change>
+        <change when="2022-10-14" who="MS">Digitalisate eingebaut</change>
+        <change when="2022-09-30" who="MS">note type="editorial" in type="comment", Notizen von fremder Hand ausgezeichnet, kleinere Tags</change>
+        <change when="2022-08-23" who="MS">Header angepasst, Seitennummern ergänzt</change>
+        <change when="2019-12-10" who="MS">Brief- und Werkttags (gibt keine Werktags, aber Kommentare) eingefügt, Personenrecherche Caze, GND Caze erstellt und getagt; Caze in BIBB eingetragen</change>
+        <change when="2019-02-20" who="MS">Personenrecherche und Personen getagt, Werkrecherche</change>
+        <change notAfter="2019-02-20" who="SG MS">kollationiert</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+<facsimile>
+  <graphic url="manifests/M_1731-06-11_991170430373405501"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="https://e-editiones.org/canvas/M_1731-06-11_991170430373405501/1" n="7r"/>
+  <opener><salute>Monsieur</salute></opener>
+  <p><lb/>J’ai reçû de la main de <abbr>Mr.</abbr> <rs key="pers_DE-588-1089876122" type="person">Herport</rs> Votre derniere <rs type="letter">Lettre</rs><note type="comment">Dieser Brief Bourguets ist nicht erhalten.</note>
+      <lb/>pleine de civilité dont je Vous suis sensiblement obligé. Voici le paquet
+      <lb/>contenant les lettres de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> avec mes reponses, elles sont
+      <lb/>numerottées, y ayant 144 lettres de <abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> et 92 des miennes,<note type="comment">In UB Basel Handschriften, L Ia 18 finden sich 94 Briefe von Johann I Bernoulli an Leibniz, in L Ia 19 finden sich 147 Briefe von Leibniz an Johann I Bernoulli.</note> outre
+      <lb/>des papiers ou extraits detachés, que Vous trouverés par ci par là.</p>
+  <p><lb/>Vous étes trop honnete pour ne me pas fier à Votre discretion par
+      <lb/>rapport à l’usage que Vous en ferés. Il y a longues années qu’on y
+      <lb/>a mis les numeros, c’étoit sans doute pour les conserver en ordre.<note type="comment">Die Basler Manuskripte der Leibniz-Korrespondenz (UB Basel, Handschriften L Ia 18 und L Ia 19) tragen noch heute die Archivnummern von Johann I Bernoulli.</note>
+      <lb/>Je voi que plusieurs de mes lettres y manquent, soit qu’elles se soi<subst><del><gap/></del><add><choice><orig><g ref="#en">ē</g></orig><reg>en</reg></choice></add></subst>t per<pc type="hyphenation">-</pc><lb break="no"/>dues ou que je n’en aye point gardé copie, car je n’ai jamais laissé
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> sans reponse. Je me souviens d’avoir eu sur la Dyadique
+      <lb/>de ce grand Ho<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e des pensées assés semblables aux Votres, quoique l’appli<pc type="hyphenation">-</pc><lb break="no"/>cation que Vous en faites à la Musique ne me soit pas venue dans l’esprit;<note type="comment" resp="SG">Bourguets Auseinandersetzung mit der Dyadik und binärer Arithmetik </note>
+      <lb/>Vous en trouverés seurement quelque chose dans nos lettres. Quand je serai
+      <lb/>de loisir je lirai avec plus d’attention l’extrait de Votre <rs type="letter">Lettre</rs> à <abbr>Mr.</abbr>
+      <lb/><rs key="pers_DE-588-1196135738" type="person">Caze</rs><note type="comment">Jean Caze (1682-1751) war ein hugenottischer «refugié» aus Montpellier, der 1700 Bürger von Genf geworden war.</note> et je tacherai d’en profiter; Lorsque je reçus la <rs type="letter">Votre</rs> on me
+      <lb/>fit Doyen de notre <rs type="organisation">faculté</rs>,<note type="editorial">Johann I Bernoulli war 1731 zum sechsten Mal zum Dekan der Philosophischen Fakultät gewählt worden.</note> c’est une charge penible qui me donnera
+      <lb/>pour un an beaucoup d’occupations et m’otera par consequent une bonne
+      <lb/>partie de mon temps pour vaquer aux meditations. C’est encore la
+      <lb/>raison Monsieur pourquoi je suis court dans cette <rs key="B_991170430373405501" type="letter">lettre</rs>; Cependant
+      <lb/>Vous voulés bien me permettre que je Vous encourage d’executer
+      <lb/>Votre dessein de travailler sur la question de l’année prochaine;<note type="editorial">Da die Pariser Akademie keine der für 1732 eingereichten Schriften mit einem Preis auszeichnen wollte, wiederholte sie die gleiche Preisfragen für die Jahre 1733 für 1734 unter Verdoppelung der Preissumme. Laut Brief von Johann Bernoulli an Louis Bourguet von 1733.04.09 hat Bourguet auf eine Teilnahme an diesem Wettbewerb verzichtet.</note>
+      <lb/>la piece que Vous ferés ne poura qu’etre fort excellente, puisque
+      <lb/>le sujet entre pour ainsi parler dans Votre element: Je souhaite de
+<pb facs="https://e-editiones.org/canvas/M_1731-06-11_991170430373405501/2" n="7v"/>
+      <lb/>tout mon coeur qu’on rende justice à votre merite en couro<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ant du prix
+      <lb/>votre ouvrage: Quand Vous l’aurés fait Vous n’avés qu’à l’envoyer à <rs key="place_GEO-2988507" type="place">Paris</rs>
+      <lb/>sous l’adresse de <abbr>Mr.</abbr> de <rs key="pers_DE-588-118639056" type="person">Fontenelle</rs><note type="comment">Bernard le Bouvier de Fontenelle (1657-1757).</note> Secretaire perpetuel de l’<rs type="organisation" key="org_DE-588-35019-9">Acade<pc type="hyphenation">-</pc><lb break="no"/>mie des Sciences</rs>; <rs key="place_STR-sthonoreparis" type="place">Rüe <abbr>S.<hi rend="sup">t</hi></abbr> Honoré</rs>, près l’<rs key="place_WEI-assomptionparis" type="place">Assomption</rs>; Vous Lui ecrirés une Lettre
+      <lb/>sans Nom<subst><del> ,</del><add> (</add></subst>si Vous ne voulés pas Vous decouvrir) en Lui indiquant le Nom de quel<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice>
+      <lb/>Ami à qui il puisse envoyer le Recepissé. Voilà tout ce qu’il faut observer et ce que
+      <lb/>j’ai observé aussi. Je suis au reste avec beaucoup d’estime et de consideration</p>
+  <closer><lb/>Monsieur
+      <lb/>Votre tres humble et tres-
+      <lb/>obeissant Serviteur
+      <lb/><signed><rs key="pers_DE-588-118509969" type="person"><abbr>J</abbr>Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></signed>
+      <lb/><dateline><rs key="place_GEO-2661604" type="place">Bâle</rs>
+      <lb/>ce <date when="1731-06-11">11<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Juin 1731</date>.</dateline>
+<note hand="pers_DE-588-116298553"><choice><abbr>Rece</abbr><expan>Recue</expan></choice> le <date when="1731-06-21">21<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> du <choice><abbr>d:</abbr><expan>dit</expan></choice></date> <choice><abbr>p</abbr><expan>par</expan></choice> le Messager <choice><abbr>Repondu</abbr><expan>Repondu</expan></choice> le <rs type="letter"><date when="1731-06-22">22</date></rs>. Et envoyé une Reconnoissance <choice><abbr>p</abbr><expan>pour</expan></choice> les 145<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> Lettres de <abbr>Mr</abbr> <rs key="pers_DE-588-118571249" type="person">Leibniz</rs> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 91<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> des sie<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>es outre cinq papiers détachez qui traitent des mêmes choses que les Lettres.</note>
+<pb facs="https://e-editiones.org/canvas/M_1731-06-11_991170430373405501/3" n="8r" type="empty"/>
+<pb facs="https://e-editiones.org/canvas/M_1731-06-11_991170430373405501/4" n="8v"/>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-116298553" type="person">Bourguet</rs>, <abbr><choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice></abbr></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2659496" type="place">Neuchatel</rs></addrLine>
+      <addrLine>Avec un paquet.</addrLine></address></closer>
+</div>
+</body>
+</text></TEI>

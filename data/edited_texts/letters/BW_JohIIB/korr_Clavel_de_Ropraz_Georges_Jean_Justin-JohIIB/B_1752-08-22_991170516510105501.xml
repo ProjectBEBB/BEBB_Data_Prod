@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516510105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Georges Jean Justin Clavel de Ropraz an Johann II Bernoulli. Ropraz, 22. August 1752</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516510105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516510105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24400">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 42, Nr.71</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516510105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433433805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058136</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Ropraz</origPlace>
+              <date when="1752-08-22">22: aout 1752</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="">Clavel de Ropraz, Georges Jean Justin</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Ropraz</placeName>
+          <date when="1752-08-22"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516510205501" type="prev"/>
+          <ptr target="B_991170516510005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Clavel_de_Ropraz_Georges_Jean_Justin-JohIIB" corresp="pers_resource_000016" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-26" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1064492/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1064493" n="1"/>
+  <opener>
+    <dateline>Rognes 22. aout 1752</dateline>
+    <salute>Monsieur</salute>
+  </opener>
+  <p>
+      <lb/>Je ne puis que continuer à vous remercier des
+      <lb/>sentimens obligeans <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> avantageux que vous
+      <lb/>conservez envers lui. Santé pour mon fils,
+      <lb/>je souhaite qu’il les rende digne. Effectivement
+      <lb/>innocent et me semble extrêmement naturelle
+      <lb/>à l’heure presente, mais c’est à vous qu’est
+      <lb/>faire le sage, en secondant votre avis
+      <lb/>de ce voy, un homme comme vous, Monsieur,
+      <lb/>est loin de passer par toutes sortes d’endroits,
+      <lb/>mais permettez moy de vous le dire quoique
+      <lb/>j’aye peutetre fait votre éloge, mais quelqu’un
+      <lb/>par votre aimable caractere <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> par le desir de
+<pb facs="1064494" n="2"/>
+      <lb/>de votre coeur que vous attirés mon attention, ce
+      <lb/>sont ces qualités de société qui ont un merite
+      <lb/>intrinseque <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> réel qui est d’usage à chaque ins<pc type="hyphenation">-</pc><lb break="no"/>tant. un grand jeune drôle, et lancé ce peu
+      <lb/><unclear>reluire</unclear>, mais enfin que le sort puisse
+      <lb/>selon mon gout le <unclear>phare</unclear> n’est pas douteux
+      <lb/>Mon cher ami mande moi n’oubliés pas ce
+      <lb/>celle <unclear>sadie</unclear>, vous me rendés l’un et
+      <lb/>l’autre parfaicte, cela est une male
+      <lb/>chose mon cher amy. J’ay l’honneur
+      <lb/>d’etre dans ces sentimens tendres <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> Madame
+      <lb/>Bernoulli votre d<unclear>e</unclear> grace avec la plus
+      <lb/>parfaite estime, Monsieur
+  </p>
+  <closer>
+      <lb/>Votre très humble
+      <lb/>très obeissant serviteur
+      <lb/>de Ropras
+<pb facs="1064495" n="3" type="empty"/>
+
+<pb facs="1064497" n="4" type="empty"/>
+
+<pb facs="1064498" n="5"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur Bernoulli</addrLine>
+      <addrLine>celebre Professeur en</addrLine>
+      <addrLine>Matematique</addrLine>
+      <addrLine>a Bale</addrLine>
+    </address>
+    <dateline><lb/>Aout 1752 à Bale</dateline>
+  </closer>
+<pb facs="1064499" n="6" type="empty"/>
+
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516522305501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Antoine Barthez de Marmorières an Johann II Bernoulli. Solothurn, 19. Mai 1763</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516522305501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516522305501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf von anderer Hand "19 Mai 1762"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50975">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.29</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516522305501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433428305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057958</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>23,5</height><width>18,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Soleure</origPlace>
+              <date when="1763-05-19">le 19e May, 1763</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1042491984">Barthez de Marmorières, Antoine</persName>
+          <placeName key="place_GEO-2658564" ref="https://d-nb.info/gnd/4055458-2">Solothurn</placeName>
+          <date when="1763-05-19"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516522405501" type="prev"/>
+          <ptr target="B_991170516522205501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Barthes_de_Marmorieres_Antoine-JohIIB" corresp="pers_DE-588-1042491984" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Barthès de Marmorières war Gesandtschaftssekretär in Solothurn. Er gratuliert zur Berufung von Johann III Bernoulli zur Berliner Akademie der Wissenschaften</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116170654">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1744-1807)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118535749">Friedrich</persName>
+            <note type="lebensdaten">(1712-1786)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-01" who="NG">Korrekturen</change>
+
+        <change when="2026-05-08" who="NG">manuelle Prüfung der Rohtranskription</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614056/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1599648" n="29r"/>
+
+    <lb/><note hand="unknown"><date when="1763-05-19">19 Mai 1763.</date></note>
+  <opener><lb/><salute>Monsieur,</salute></opener>
+  <p><lb/>la Demande qu’un grand Roy fait de <abbr>M<hi rend="sup">r</hi></abbr> votre <rs type="person">fils</rs> est
+      <lb/>un évenement heureux pour moy par l’interet sincère que
+      <lb/>je prendrai toute ma vie à ce qui vous touche. vous merités
+      <lb/>cet honneur, Monsieur, à toute sorte de titres; et votre
+      <lb/>premier né prodige de merite dans un age encore tendre
+      <lb/>étoit digne aussi de voir son genie se developper sous les
+      <lb/>plus brillans auspices. <choice><orig>j’espere</orig><reg>J’espere</reg></choice>, Monsieur, le voir remplir un
+      <lb/>jour à <rs type="place">Berlin</rs> le poste éminent ou fut porté <abbr>M<hi rend="sup">r</hi></abbr> <rs type="person">de
+      <lb/>Maupertuis</rs> dont la mémoire me sera toujours bien chère.
+      <lb/>A ce titre et à titre d’homme devoué à votre famille
+      <lb/>je prierai <abbr>M<hi rend="sup">r</hi></abbr> votre <rs type="person">fils</rs> de me donner une place dans
+      <lb/>son souvenir. <choice><orig>je</orig><reg>Je</reg></choice> prierai aussi ce jeune scavant de vouloir
+      <lb/>bien se charger pour moy d’une petite commission literaire
+<pb facs="1599649" n="29v"/>
+      <lb/>pour le pays qui le reclame, et je luy en recommanderai le
+      <lb/>succès. <choice><orig>il</orig><reg>Il</reg></choice> ne me reste plus, Monsieur, qu’à invoquer
+      <lb/>pour vous ce sentiment philosophique qui nous fait
+      <lb/>sacrifier l’interet personnel à l’interet general, et je
+      <lb/>desire que vous puissiés vous resoudre sans de trop grandes
+      <lb/>douleurs à consacrer votre cher enfant à la gloire et
+      <lb/>au bien de l’humanité.</p>
+  <closer><lb/><choice><orig>j’ay</orig><reg>J’ay</reg></choice> l’honneur d’être avec une profonde veneration,
+      <lb/><salute>Monsieur,
+      <lb/>Votre très humble et très
+      <lb/>obeissant serviteur</salute>
+      <lb/><signed>Barthès de Marmorières</signed>.
+      <lb/><dateline>Soleure le <date from="1763-05-19"><abbr>19e</abbr> May 1763</date></dateline>
+  </closer>
+  <postscript><p> <lb/>vous voudrés bien me permettre, Monsieur, de presenter
+        <lb/>ici mes respects <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<hi rend="sup">de</hi></abbr> <rs type="person">Bernoulli</rs> et <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<hi rend="sup">r</hi></abbr> votre <rs type="person">frère</rs>.</p></postscript>
+
+</div>
+</body>
+</text>
+</TEI>

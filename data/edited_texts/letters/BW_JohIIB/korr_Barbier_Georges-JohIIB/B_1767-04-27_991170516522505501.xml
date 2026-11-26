@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516522505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Georges Barbier an Johann II Bernoulli. Straßburg, 27. April 1767</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516522505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516522505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Barbier unterzeichnet als "Geographe des Fortifications d'Alsace". Er schickt ein mechanisches Problem zur Begutachtung</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50973">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.26</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516522505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433431205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057956</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>34,5</height><width>19,5</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Strasbourg</origPlace>
+              <date when="1767-04-27">ce 27. Avril 1767</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="">Barbier, Georges</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4057878-1">Straßburg</placeName>
+          <date when="1767-04-27"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516486305501" type="prev"/>
+          <ptr target="B_991170516522405501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Barbier_Georges-JohIIB" corresp="pers_resource_000007" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-06-01" who="NG">Nachkorrekturen</change>
+        <change when="2026-05-08" who="NG">manuelle Prüfung der Rohtranskription</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614046/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="1599640" type="archival"/> <pb facs="1599641" type="archival"/>
+<pb facs="1599643" n="26v"/>
+  <opener><dateline><lb/><choice><orig>a</orig><reg>à</reg></choice> <rs type="place">Strasbourg</rs> <date when="1767-04-27">ce 27. Avril 1767</date>.</dateline></opener>
+  <opener>
+      <lb/>Monsieur</opener>
+  <p> <lb/>Comme j’ay si souvent entendue <abbr>M.</abbr> <rs type="person">Baudouin</rs> qui <choice><orig>etoit</orig><reg>étoit</reg></choice> en chef
+      <lb/>à <rs type="place">Huningue</rs> <choice><sic>parlé</sic><corr>parler</corr></choice> de vos bontés et de vos complaisances pour
+      <lb/>ceux qui s’adressent <choice><orig>a</orig><reg>à</reg></choice> vous, vue celles que vous avés deja bien
+      <lb/>voulu me temoigner m’engage encore <choice><orig>a</orig><reg>à</reg></choice> y recourir, pour
+      <lb/>apprendre de vous s’y la figure cy jointe a quelque merite
+      <lb/>me paroissant neuve, et propre <choice><orig>a</orig><reg>à</reg></choice> estre appliquée <choice><orig>a</orig><reg>à</reg></choice> beaucoup
+      <lb/>de choses tres utiles; je dis neuve par que Je ne connois
+      <lb/>aucune figure Mechanique qui y ai<del><gap/></del>t rapport, et <add><choice><sic>q</sic><corr>qu</corr></choice></add>’il me
+      <lb/>paroist qu’il n’y a que le calcul superieur qui puisse en
+      <lb/>decider, et c’est ce que je n’ay pas, et même tres peu de
+      <lb/>ce qui en est infiniment éloigné, et c’est pourquoy ma
+      <lb/>reconnoissance en sera d’autant plus grande et tel que
+      <lb/>vous pourriez la <choice><sic>desiré</sic><corr>desirer</corr></choice>, s<supplied>’</supplied>y vous voulés bien <choice><sic>honorés</sic><corr>honorer</corr></choice> mon
+      <lb/>idée d’un coup d’œil, et moy, du sentiment que vous porterés
+      <lb/>de la chose.</p>
+    <lb/><closer><salute>Je suis avec respect <choice><sic>Infinie</sic><corr>infini</corr></choice>
+      <lb/>Monsieur
+      <lb/>Votre tres humble et tres
+      <lb/>obeissant serviteur</salute>
+      <lb/><signed>Barbier</signed>
+      <lb/>Geographe des <abbr>fortif<hi rend="sup">on</hi></abbr> d’<rs type="place">Alsace</rs></closer>
+
+
+
+<pb facs="1599642" n="26r"/>
+  <postscript><p>
+        <lb/>On sçait qu’un poid posé sur une
+        <lb/>verticale tel qu’en ,<formula>a</formula>, la puissance
+        <lb/>appliquée <add>en</add> ,<formula>b</formula>, n’a d’autre effort <choice><orig>a</orig><reg>à</reg></choice>
+        <lb/>faire que de <choice><orig>degager</orig><reg>dégager</reg></choice> le <abbr>frottem<hi rend="sup">t</hi></abbr>
+        <lb/>que la pesanteur du poid ,<formula>a</formula>, occasionne
+        <lb/>sur l’essieu, et ce en raison du
+        <lb/>rayon du <abbr>d.<hi rend="sup">t</hi></abbr> essieu à celuy de la
+        <lb/>puissance.
+        <lb/>Mais sy l’on vouloit faire elever
+        <lb/>le <abbr>susd.<hi rend="sup">t</hi></abbr> poid ,<formula>a</formula>, jusqu’en ,<formula>d</formula>, par
+        <lb/>le moyen de l’excedent <formula>e, f</formula>, qui
+        <lb/>forme par une courbe excentrique
+        <lb/>en espece de coin arrondie, sçavoir
+        <lb/>quel seroit l’augmentation <choice><orig>a</orig><reg>à</reg></choice> faire
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> ladite puissance pour élever led.<hi rend="sup">t</hi>
+        <lb/>poid; pourquoy, et comment.
+        <lb/><choice><orig>pourquoy</orig><reg>Pourquoy</reg></choice>, puisqu’il paroit que
+        <lb/>les plus grands leviers comme
+        <lb/><formula>1</formula>, <formula>2</formula>, <formula>3</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice><hi rend="sup">c a</hi> vont se <choice><orig>reduire</orig><reg>réduire</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> zero,
+        <lb/><choice><orig>a</orig><reg>à</reg></choice> la Verticale.
+        <lb/>que pas <choice><orig>la</orig><reg>là</reg></choice>, la forme de coin se
+        <lb/>detruit, en ne luy trouvant presque
+        <lb/>n’y base, n’y haut<hi rend="sup">o</hi>.
+        <lb/>presque, puisqu’il paroit qu’il
+        <lb/>n’y a que la réaction <formula>i h</formula>, <abbr>fig.</abbr> <formula>2</formula>, qui indique un petit <choice><orig>parallellogramme</orig><reg>parallélogramme</reg></choice>
+        <lb/>qui peut estre pris de la base au dessus de l’espece de coin comme <formula>i, l</formula>,
+        <lb/>ou de ce point parallellogramme au rayon comme <formula>m</formula>, ce qui devient bien
+        <lb/>different.
+        <lb/>Ensuitte des demandes <add>qu’on a ozé faire</add> cy-dessus pour une des dites <abbr>fig.<hi rend="sup">re</hi></abbr> comme ,<formula>B</formula>,
+        <lb/>l’essieu ,<formula>c</formula>, restant le même la puissance en <formula>L</formula>, s’il sera <choice><orig>indifferent</orig><reg>indifférent</reg></choice>
+        <lb/>que le cercle soit comme <formula>A</formula>; <formula>B</formula>; ou <formula>C</formula>; c’est <choice><orig>a</orig><reg>à</reg></choice> dire de differentes <abbr>grand<hi rend="sup">o</hi></abbr>.
+        <lb/>S’il y aura beaucoup de difference dans l’effort de la puissance de
+        <lb/>relever le poid par <formula>f, a</formula>, ou le coin <formula>Q, N</formula>, ce qui fait <formula>4</formula> fois en une
+        <lb/>tour, ou par <formula>P, N</formula>, qui seroit <formula>6</formula> fois ou <formula>O, N</formula>, qui seroit <formula>8</formula> fois;</p>
+    <p>Que s’y la puissance augmentoit en raison du <abbr>changemgrand<hi rend="sup">t</hi></abbr> des leviers
+        <lb/>quel seroit la courbe <choice><orig>a</orig><reg>à</reg></choice> substituer <choice><orig>a</orig><reg>à</reg></choice> <formula>R, S, S, T</formula>, pour que la puissance
+        <lb/>soit la même <add>par example</add>; comme <formula>R, S, S, T</formula>, qui devient <add></add> plus parallele aux
+        <lb/><abbr>p.<hi rend="sup">r</hi></abbr> cerc<del><gap/></del>les, mais qui <choice><orig>presente</orig><reg>présente</reg></choice> un coin moins aigue; que la <abbr>p.<hi rend="sup">re</hi></abbr>
+        <lb/>et la seconde une progression plus soutenue, que <abbr>lad.<hi rend="sup">te</hi></abbr> <abbr>prem.<hi rend="sup">re</hi></abbr></p>
+  </postscript>
+</div>
+</body>
+</text>
+</TEI>

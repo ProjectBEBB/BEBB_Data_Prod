@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="documentation_2" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Datenmodell und Datenbereitstellung der BEBB</title>
+                <author>Sulamith Gehr</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Dokumentation der Basler Edition der Bernoulli-Briefwechsel.</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+                <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Für die digitale Edition verfasste Dokumentation.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+                <change when="2026-11-20" who="SG">Nicht schema-konforme <att>rend</att>-Werte <val>bold</val> durch <val>b</val> ersetzt; Textinhalt unverändert.</change>
+                <change when="2026-11-20" who="SG">Direkte Bearbeitungsgeschichte für die Releaseprüfung ergänzt; Textinhalt unverändert.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Datenmodell und Datenbereitstellung der BEBB</head>
+            <p>Die Basler Edition der Bernoulli-Briefwechsel (BEBB) verbindet Briefmetadaten
+                aus dem Katalog der Universitätsbibliothek Basel mit den in TEI XML erfassten
+                Editionsdaten und den Digitalisaten der Vorlagen. Eine zentrale Quelle für
+                diese Digitalisate ist <ref target="https://www.e-manuscripta.ch/">e-manuscripta</ref>.</p>
+            <div xml:id="datenmodell">
+                <head>Fachliches Datenmodell</head>
+                <figure xml:id="datenmodell-abbildung" rendition="simple:display">
+                    <graphic url="images/bebb-datenmodell.svg">
+                        <desc>Der UB-Katalog liefert Briefmetadaten für den TEI-Header.
+                            Die Faksimile-Verweise verbinden die Edition über IIIF-Manifeste
+                            mit den Digitalisaten von e-manuscripta, BEBB und weiteren
+                            Anbietern. Die Register unterstützen die Erschliessung. Die
+                            edierten Texte umfassen Briefe, Reden und Reisetagebücher.
+                            Die Briefe sind je Hauptkorrespondent nach Briefwechsel und
+                            Korrespondenzen geordnet. TEI Publisher stellt die Daten aus
+                            eXist-db auf der am DMI betriebenen Webseite dar.</desc>
+                    </graphic>
+                </figure>
+                <p>Die Edition erschliesst Briefe und verwandte Quellen wie Reden und
+                    Reisetagebücher als eigene Dokumente. Bei Briefen verzeichnet sie die
+                    bekannten Beteiligten, Datum und Ort sowie die Überlieferung oder den
+                    Nachweis. Soweit ein Editionstext vorliegt, verbindet die Briefdatei ihn
+                    mit diesen Angaben.</p>
+                <div xml:id="brief-und-ueberlieferung">
+                    <head>Brief, Überlieferung und Editionstext</head>
+                    <p>Ein Brief kann in mehreren Fassungen überliefert sein, etwa als Ausfertigung,
+                        Entwurf oder Abschrift. Ein Druck kann als Textgrundlage dienen oder einen
+                        Brief lediglich nachweisen. Die Edition unterscheidet die für die
+                        Textkonstitution verwendete Vorlage von weiteren nachgewiesenen Fassungen.
+                        So ist ein <ref target="../letters/B_991170430277705501">Brief Jacob I
+                        Bernoullis vom 19. November 1685</ref> durch einen gedruckten Auszug
+                        nachgewiesen; im Datensatz ist kein Brieftext wiedergegeben.</p>
+                    <p>Die Herkunft eines Editionstextes, etwa aus einer früheren Druckausgabe oder
+                        der Wiki-Phase der BEBB, und sein heutiger Bearbeitungsstand werden
+                        getrennt beschrieben. Welche Fassung als Textgrundlage dient und wie die
+                        Texte bearbeitet werden, erläutern die
+                        <ref target="documentation">Editionsrichtlinien</ref>.</p>
+                </div>
+                <div xml:id="beziehungen">
+                    <head>Korrespondenzen, Register und Digitalisate</head>
+                    <list>
+                        <item>Als kumulative Edition vereint die BEBB die Briefwechsel mehrerer
+                            Hauptkorrespondenten. Ein <hi rend="b">Briefwechsel</hi> bündelt
+                            die Korrespondenzen eines Hauptkorrespondenten. Eine
+                            <hi rend="b">Korrespondenz</hi> umfasst die Briefe, die dieser
+                            mit einem bestimmten Gegenüber gewechselt hat. Ein Brief kann in
+                            mehreren Korrespondenzkontexten erscheinen; pro Route kann er
+                            andere Vorgänger und Nachfolger haben. Eine solche Nachbarschaft
+                            belegt für sich keine Antwortbeziehung.</item>
+                        <item>Die <hi rend="b">Register</hi> erschliessen Personen, Organisationen,
+                            Orte und Literatur. Sie verbinden beispielsweise eine Person mit Briefen,
+                            an denen sie beteiligt war, oder mit Stellen, an denen sie erwähnt
+                            wird. Werkkataloge verzeichnen Werke einzelner Autoren; ein Werkeintrag
+                            kann auf einen bibliografischen Nachweis verweisen.</item>
+                        <item><hi rend="b">Digitalisate</hi> zeigen die überlieferten Vorlagen.
+                            Eine Briefdatei kann mehrere Bildquellen einbinden. Faksimiles können
+                            auch vorliegen, wenn der Brief noch nicht transkribiert ist.
+                            Abbildungen zur Textdarstellung, etwa Zeichnungen mathematischer
+                            Figuren, erfüllen eine eigene Funktion.</item>
+                    </list>
+                </div>
+            </div>
+
+            <div xml:id="tei-kodierung">
+                <head>TEI-Kodierung und Verweise</head>
+                <p>Die Edition erfasst ihre Texte und Metadaten im XML-Format der Text Encoding
+                    Initiative (TEI). Der <gi>teiHeader</gi> enthält Angaben zur Quelle und
+                    zur Korrespondenz, gegebenenfalls ein Regest sowie die
+                    Bearbeitungsgeschichte. Handschriften werden in <gi>msDesc</gi>
+                    beschrieben; ein knapper Nachweis einer weiteren Fassung kann in
+                    <gi>relatedItem</gi> stehen. Das Element <gi>text</gi> nimmt den
+                    Brieftext und gegebenenfalls ergänzende Inhalte wie Kommentare oder
+                    Übersetzungen auf. Angaben zur Herkunft und Erschliessbarkeit stehen
+                    in separaten Notizen; der Bearbeitungsstand steht in
+                    <gi>revisionDesc</gi>.</p>
+                <p>Interne Verweise auf einen Brief verwenden seine TEI-Dokumentkennung
+                    (<att>xml:id</att>). Die Katalognummer bezeichnet das Katalogisat,
+                    die Signatur die Vorlage im Bestand der aufbewahrenden Institution. Der
+                    <ref target="../letters/B_991170517067405501">Brief von Nicolaus I Bernoulli
+                    an Franz Christ</ref> hat die Kennung <code>B_991170517067405501</code>.
+                    Das Briefdatum steht in den Metadaten und im Dateinamen. Die
+                    Quellenbeschreibung hält die Ortsform «Bernae» fest; die strukturierte
+                    Versandangabe verweist über einen Registerschlüssel auf Bern. Auch bei der
+                    Datierung bleiben der überlieferte Wortlaut und die normalisierte Angabe
+                    unterscheidbar.</p>
+                <p>Die Zuordnung zu Briefwechsel und Korrespondenz sowie die Navigationsverweise
+                    stehen im <gi>correspContext</gi>. Beim
+                    <ref target="../letters/B_991170514767005501">Brief von Daniel I an
+                    Johann III Bernoulli vom Juni 1766</ref> sind zwei Kontexte mit jeweils
+                    einem eigenen Verweis auf den nächsten Brief erfasst. Verknüpfungen
+                    mit den Registern verwenden lokale Kennungen, beispielsweise im
+                    Attribut <att>key</att>.</p>
+                <p>Der Faksimilebereich <gi>facsimile</gi> verweist auf IIIF-Manifeste, welche
+                    die Bildseiten und die zugehörigen Angaben beschreiben. Seitenmarken
+                    (<gi>pb</gi>) können einzelne Bildseiten über <att>facs</att> referenzieren.
+                    Sind mehrere Manifeste beteiligt, kann <att>source</att> die jeweilige
+                    Bildquelle angeben. Ein Beispiel ist der
+                    <ref target="../letters/B_991170516752105501">Brief von Johann Heinrich
+                    Lavater an Johann II Bernoulli vom 27. November 1748</ref>.</p>
+                <p>Die <ref target="documentation">Editionsrichtlinien und die Kodierungsanleitung</ref>
+                    erläutern die TEI-Strukturen im Einzelnen. Die Schema-ODD der BEBB legt fest,
+                    welche Strukturen in den Editionsdaten zulässig sind. Aus ihr wird das
+                    Relax-NG-Schema für die Validierung erzeugt.</p>
+            </div>
+
+            <div xml:id="datenfluesse">
+                <head>Datenquellen und Aufbereitung</head>
+                <div xml:id="katalog-und-redaktion">
+                    <head>Katalog der Universitätsbibliothek Basel</head>
+                    <p>Das <ref target="https://swisscollections.ch/Bibliographien/BibliographiesSpecial">Basler
+                        Inventar der Bernoulli-Briefwechsel</ref> (BIBB) im Katalog der
+                        Universitätsbibliothek Basel liefert einen grossen Teil der Briefmetadaten.
+                        Katalogangaben in MARC 21 werden für die Übernahme in den TEI-Header
+                        umgewandelt. Die Edition ergänzt unter anderem Angaben zur redaktionellen
+                        Mitarbeit, zur Bearbeitungsgeschichte und zur Navigation.</p>
+                    <p>Der vorgesehene Aktualisierungsablauf prüft Änderungen aus einem festgehaltenen
+                        Katalogstand zunächst an einer Kopie. Erst nach fachlicher Prüfung werden
+                        bestätigte Änderungen in die Arbeitsdaten übernommen. Redaktionell
+                        gepflegte Angaben und begründete Abweichungen vom Katalog müssen dabei
+                        erhalten bleiben. Für die deutschen Regesten ist nach einem abschliessenden
+                        Katalogabgleich die Pflege in der BEBB vorgesehen. Englische Abstracts
+                        werden in der Edition gepflegt; die aus dem Katalog übernommene Liste
+                        erwähnter Personen ist eine eigene Angabe.</p>
+                </div>
+                <div xml:id="weitere-datenquellen">
+                    <head>e-manuscripta und weitere Bildquellen</head>
+                    <p>Die BEBB bindet Digitalisate aus e-manuscripta über IIIF-Manifeste ein.
+                        Daneben nutzt sie Manifeste anderer Anbieter und erstellt Manifeste für
+                        die Bilder, die sie selbst bereitstellt.</p>
+                </div>
+                <div xml:id="normdaten-und-bibliografie">
+                    <head>Gemeinsame Normdatei und Bibliografie</head>
+                    <p>Wo passende Einträge vorliegen, verknüpft die BEBB Personen und
+                        Organisationen mit der Gemeinsamen Normdatei (GND). In Zusammenarbeit
+                        mit der Universitätsbibliothek Basel trägt die BEBB zur Erfassung
+                        neuer GND-Einträge bei. Bei Ortsangaben ergänzen unter anderem
+                        GeoNames-Kennungen die Registerdaten.</p>
+                    <p>Die Bibliografie wird in Zotero gepflegt und bei Bedarf als
+                        TEI-Datenbestand für die Edition aufbereitet.</p>
+                </div>
+                <div xml:id="arbeits-und-teststand">
+                    <head>Vom Arbeitsstand zur Testfassung</head>
+                    <p>Die redaktionellen Quelldaten liegen in
+                        <code>BEBB_Data_WIP</code>. Daraus wird eine Testfassung erzeugt. Bei der
+                        Aufbereitung werden unter anderem die Registereinträge zu einem Index
+                        zusammengeführt und projektspezifische Zeichenentitäten aufgelöst. Die
+                        aufbereiteten Daten werden geprüft und für die Installation in der
+                        Datenbank paketiert. Der Teststand dient dazu, das Zusammenspiel von
+                        Daten und Anwendung vor einer Veröffentlichung zu prüfen.</p>
+                </div>
+            </div>
+
+            <div xml:id="bereitstellung-und-publikation">
+                <head>Webdarstellung, Publikation und Nachnutzung</head>
+                <div xml:id="webdarstellung">
+                    <head>Hosting und Webdarstellung</head>
+                    <p>Die BEBB betreibt ihre Webanwendung auf eigener Infrastruktur am
+                        Departement Mathematik und Informatik (DMI) der Universität Basel.</p>
+                    <p>Die Webanwendung liest die bereitgestellten Daten aus der XML-Datenbank
+                        eXist-db. TEI Publisher erzeugt daraus beispielsweise Textansichten,
+                        Metadatenanzeige und Registerseiten. Die Anwendung nutzt die
+                        Korrespondenzstruktur zur Navigation und die kodierten Angaben für
+                        Volltextsuche und Suchfilter. Die Darstellungsregeln des TEI Publishers
+                        legen fest, wie die Daten in der Webanwendung erscheinen. Sie erfüllen
+                        damit eine andere Aufgabe als das Validierungsschema.</p>
+                </div>
+                <div xml:id="versionierung-und-nachnutzung">
+                    <head>Datenpublikation auf Zenodo</head>
+                    <p>Die erste Datenpublikation der BEBB auf Zenodo ist vorbereitet
+                        und steht bevor. Für das Datenpaket ist die DOI
+                        <code>10.5281/zenodo.24166103</code> reserviert.</p>
+                    <p>Der redaktionelle Bearbeitungsstand eines Briefes und die Version eines
+                        veröffentlichten Datenpakets sind unterschiedliche Angaben. Zur
+                        Datenpublikation dokumentiert die BEBB die zusammengehörigen Stände
+                        der Editionsdaten, des Schemas und der Anwendung.</p>
+                    <p>Die TEI-Metadaten der Briefdateien weisen für den Editionstext
+                        <ref target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</ref>
+                        aus. Bei nachgenutzten Bildern sind die Rechteangaben des jeweiligen
+                        Anbieters zu beachten.</p>
+                </div>
+                <div xml:id="archivierung-und-externe-dienste">
+                    <head>Archivierung und externe Briefnachweise</head>
+                    <p>Für 2027 ist die Übergabe einer statischen Fassung der Edition
+                        an <ref target="https://dasch.swiss/">DaSCH</ref> vorgesehen.
+                        Eine Probeausgabe mit ausgewählten Korrespondenzen liegt vor.</p>
+                    <p>Die BEBB plant für 2027, Briefmetadaten auch über
+                        <ref target="https://emlo.bodleian.ox.ac.uk/home">Early Modern Letters Online (EMLO)</ref>
+                        und <ref target="https://correspsearch.net/de/ueber.html">correspSearch</ref>
+                        recherchierbar zu machen.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516631905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Samuel de Constant an Johann II Bernoulli. Bern, 19. Mai 1771</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516631905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516631905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-136058">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 686:S.673-674</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516631905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433586205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058252</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>19,5</height><width>15</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Berne</origPlace>
+              <date when="1771-05-19">ce 19.e Mai 1771</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-123166314">Constant, Samuel de</persName>
+          <placeName key="place_GEO-2661552" ref="https://d-nb.info/gnd/4005762-8">Bern</placeName>
+          <date when="1771-05-19"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516632005501" type="prev"/>
+          <ptr target="B_991170516631805501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Constant_de_Rebecque_Samuel-JohIIB" corresp="pers_DE-588-123166314" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Einführungsschreiben für die Prinzessin von Daškova-Woronzovna, die nach Basel kommt und Joh. II B. besuchen will.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118678914">Daškova, Ekaterina R.</persName>
+            <note type="lebensdaten">(1743-1810)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3694472/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3694477" n="673"/>
+  <opener><salute>Monsieur</salute></opener>
+  <p><lb/>La princesse d’Azoph<note hand="unknown">il faut lire de Daschkow</note> née comtesse de Voronzow, dame
+      <lb/>Celebre par son genie, et par la part qu’elle a eu <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>la revolution de Russie, me demande ce qu’il y â de
+      <lb/>plus remarquable <choice><orig>a</orig><reg>à</reg></choice> conoitre <choice><orig>a</orig><reg>à</reg></choice> Basle, ce seroit la
+      <lb/>tromper que de ne pas lui dire que c’est Monsieur
+      <lb/>le Professeur Bernoulli, si digne d’être recherché
+      <lb/>par tout ce qui cherit les rares talents, les conoissances
+      <lb/>sublimes, et l’humanité qu’il honore; je donne
+      <lb/>donc cette lettre <choice><orig>a</orig><reg>à</reg></choice> Madame la Princesse, et me
+      <lb/>trouve tres heureux d’avoir cette occasion de
+      <lb/>vous renouveller fort <choice><orig>a</orig><reg>à</reg></choice> la hâte les sentiments
+      <lb/>de la parfaite veneration, et veritable attachement
+      <lb/>avec lequel j’ai l’honneur d’etre</p>
+  <closer><lb/>Monsieur
+      <lb/>Votre tres humble et tres
+      <lb/>Obeissant Serviteur
+      <lb/>Berne ce <date when="1771-05-19">19.<hi rend="sup">e</hi> Mai 1771</date>
+  B.<hi rend="sup">ron</hi> de Constant Rebeque</closer>
+<pb facs="3694478" n="674" type="empty"/>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_991170515372205501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Georges Joseph Tacheron. Basel,
+            27. März 1717</title>
+          <title type="alt">000057489</title>
+          <title type="alt">1717-03-27_Bernoulli_Johann_I-Tacheron_Georges_Joseph</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_resource_000077">
+            <surname>Buser</surname>
+            <forename>Tobias</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Kommentierung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170515372205501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170515372205501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Tacheron, [Georges Joseph] </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-43145">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 675:Bl.118</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170515372205501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433188205504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057489</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>21</height><width>16</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1717-03-27">ce 27. Mars
+              1717</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1717-03-27"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-114228039X">Tacheron, Georges Joseph</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170515372305501" type="prev"/>
+          <ptr target="B_991170515372105501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Tacheron_Georges_Joseph-JohIB" corresp="pers_DE-588-114228039X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Tacheron hat Joh. B. versehentlich zuviel Geld geschickt. Joh. B. meint, die richtige
+          Summe erhalten zu haben, will aber jeden Überschuss zurückschicken. Der Marechal de
+          Villars ist laut Tacheron zufrieden mit den Fortschritten, die seine Söhne unter Anleitung
+          von Joh. B. gemacht haben.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089851545">Chandieu, Benjamin de</persName>
+            <note type="lebensdaten">(1701-1784)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-132706210">Chandieu, Charles de</persName>
+            <note type="lebensdaten">(1658-1728)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1423982150">Chandieu-Villars, Esaïe de</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1717-03-27_Bernoulli_Johann_I-Tacheron_Georges_Joseph"/>
+      </change>
+        <change when="2017-07-14" who="FN">Wissenschaftliche Kommentierung abgeschlossen</change>
+        <change when="2009-09-03" who="FN TB">Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/1438571/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1717-03-27_Bernoulli_Johann_I-Tacheron_Georges_Joseph">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+  <p>
+<pb facs="1438572" n="118r"/> Monsieur </p>
+  <p>J’ay bien voulû Vous repondre incessamment pour Vous tirer de la peine où Vous étes
+          touchant l’argent que Vous m’avez payé. Vous dites qu’il Vous arriva de prendre dans Vôtre
+          armoire un sac d’argent pour un autre, je ne sçai ce qui en est, j’ay gardé ce sac, si
+          Vous croyez le reconnoitre, je pourai Vous l’envoyer, Vous n’avez qu’à me le faire
+          sçavoir: mais pour ce qui est de l’argent qui y etoit, il faut que je Vous dise, que
+          l’ayant conté, j’ay trouvé 49 ecus en especes et 4 ecus neufs de 35 bz. suisses; Si Vous
+          jugez que j’ay reçû plus qu’il ne m’etoit dû, je Vous prie de me dire la quantité du
+          surplus, à fin que je puisse Vous le renvoyer: cependant il me semble, que je n’ai reçu
+          qu’autant que Vous m’aviez destiné selon Votre Lettre,<note type="comment">Dieser Brief
+            Tacherons an Johann Bernoulli ist anscheinend nicht erhalten.</note> car 3 pieces de 35
+          bz. suisses faisant 3 {1-2} ecus en especes, il est clair, que les 49 ecus, avec les 4
+          ecus neufs font autant que 52 {1-2} ecus avec un ecu neuf, que Vous ditez avoir eu dessein
+          d’ajouter à fin de compenser la difference, qu’il peut y avoir d’un ducat à deux ecus;
+          Songez un peu en arriere, Vous pourez peutetre Vous souvenir, que le veritable sac, dans
+          lequel Vous aviez mis mon payement etoit celui que Vous m’avez donné en effet et qui
+          contenoit comme j’ay dit 49 ecus et 4 pieces <pb facs="1438573" n="118v"/> de 35 bz. suisses.
+          Vous pouvez Vous assurer, que si j’avois reçu quelque chose au dessus de ce qu’il m’etoit
+          dû, je n’aurois pas manqué de Vous le renvoyer incontinent sans attendre que Vous fussiez
+          parti: J’espere que Vous me ferez la justice de ne point douter de ma bonne foi, je suis
+          faché au dernier point, que Vous Vous soyez meconté dans Vos contes, la cause de Vôtre
+          erreur doit se trouver ailleurs, ainsi repassez tous les contes et depenses, que Vous avez
+          faites ici, j’espere que Vous trouverez enfin la source de Vôtre erreur. Mon fils<note
+            type="comment">Wahrscheinlich Daniel Bernoulli.</note> ne se souvient pas de Vous
+          avoir demandé de ma part, si Vous ne Vous seriez point trompé dans Vôtre conte; aussi ne
+          lui ai je pas donné cet ordre. J’ay un extreme plaisir d’apprendre que Mr. le Marchal de
+            <rs type="person" key="pers_DE-588-132706210">Villars</rs><note type="comment">Gemeint ist sehr wahrscheinlich <rs type="person" key="pers_DE-588-132706210">Charles de Chandieu-Villars</rs> (1658/59–1728), Vater der Brüder <rs type="person" key="pers_resource_000120">Esaïe de Chandieu-Villars</rs> und <rs type="person" key="pers_DE-588-1089851545">Benjamin de Chandieu-Villars</rs>. Charles war seit dem 26. Oktober 1704 <hi rend="i">maréchal de camp</hi>; die Briefbezeichnung «Marchal» ist deshalb kein Beleg für eine Gleichsetzung mit dem Marschall von Frankreich Claude Louis Hector de Villars. Vgl. François Cojonnex, <hi rend="i">Chandieu, Charles de</hi>, in: <hi rend="i">Lumières.Lausanne</hi>, Biographie vom 26. September 2023, sowie Louis de Charrière, <hi rend="i">Les fiefs nobles de la baronnie de Cossonay: Seigneurie de L’Isle</hi>, in: <hi rend="i">Mémoires et documents de la Société d’histoire de la Suisse romande</hi> XV (1858), S. 605–606.</note> soit content des progrés, que Messrs.
+          ses <rs type="person" key="pers_resource_000120 pers_DE-588-1089851545">Fils</rs> ont fait dans les Mathematiques sous ma manuduction,<note type="comment">Die Söhne sind sehr wahrscheinlich <rs type="person" key="pers_resource_000120">Esaïe de Chandieu-Villars</rs> und <rs type="person" key="pers_DE-588-1089851545">Benjamin de Chandieu-Villars</rs>, die im Mai 1716 unmittelbar vor ihrem Hofmeister <rs type="person" key="pers_DE-588-114228039X">Georges Joseph Tacheron</rs> in der Basler Matrikel erscheinen; vgl. <rs type="biblio" key="biblio_6E3KU9EA"><hi rend="i">Matrikel der Universität Basel</hi></rs>, Bd. IV (1975), S. 460, Nrn. 2658–2660. Crousaz empfahl sie mit einem Gouverneur am <rs type="letter" key="B_991170514976305501">31. März 1716</rs>; Bernoulli bestätigte am <rs type="letter" key="B_991170514976005501">7. August 1716</rs> ausdrücklich den eifrigen Besuch seiner Geometrielektionen durch die jungen Herren und Tacheron. Der vorliegende Brief bestätigt rückblickend ihre Fortschritte unter Bernoullis Anleitung. Ein taggenauer Unterrichtsbeginn ist daraus nicht abzuleiten.</note> je Vous
+          prie de l’asseurer de mes profonds respects, et de faire mes complimens à Messrs. ses
+          <rs type="person" key="pers_resource_000120 pers_DE-588-1089851545">Fils</rs>. Je suis avec beaucoup d’attachement Monsieur Vôtre tres humble et tres obeissant
+          Serviteur J. Bernoulli.</p>
+  <p>Bale ce 27. Mars 1717. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170517062005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Franz Christ an Nicolaus I Bernoulli. Utrecht, 29. Januar 1719</title>
+          <title type="alt">1719.01.29: Christ, Franz (1688-1744) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059045</title>
+          <title type="alt">1719-01-29_Christ_Franz-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517062005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517062005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Christ, Franz (1688-1744) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Unter dem Datum von Nic.I B. eigenhändig "Empfg. den 23ten febr."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-23545">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 25:Nr.12</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517062005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433695105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059045</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Utrecht</origPlace>
+              <date when="1719-01-29">den 29 Jan. 1719</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-140736662">Christ, Franz</persName>
+          <placeName key="place_GEO-2745912" ref="https://d-nb.info/gnd/4062222-8">Utrecht</placeName>
+          <date when="1719-01-29"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517062705501" type="prev"/>
+          <ptr target="B_991170517061605501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Christ_Franz-NicIB" corresp="pers_DE-588-140736662" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118939297">Gravesande, Willem Jacob</persName>
+            <note type="lebensdaten">(1688-1742)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-116082356">Battier, Johann Jakob</persName>
+            <note type="lebensdaten">(1664-1720)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-131366858">Bernard, Jacques</persName>
+            <note type="lebensdaten">(1658-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1366599853">Christ, Johann Jakob</persName>
+            <note type="lebensdaten">(1661-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1366600037">Christ, Anna Maria</persName>
+            <note type="lebensdaten">(1669-1724)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1052697623">Effinger, Bernhard</persName>
+            <note type="lebensdaten">(1658-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913974">Högger, Anton</persName>
+            <note type="lebensdaten">(1682-1767)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118560123">Karl</persName>
+            <note type="lebensdaten">(1682-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-100213448">Mill, David</persName>
+            <note type="lebensdaten">(1692-1756)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118869361">Noodt, Gerard</persName>
+            <note type="lebensdaten">(1647-1725)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1132220874">Raillard, Jeremias</persName>
+            <note type="lebensdaten">(1691-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119392364">Ramazzini, Bernardino</persName>
+            <note type="lebensdaten">(1633-1714)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-10031760X">Reelant, Adriaan</persName>
+            <note type="lebensdaten">(1676-1718)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118749420">Réaumur, René Antoine Ferchault de</persName>
+            <note type="lebensdaten">(1683-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104286881">Schaub, Lukas</persName>
+            <note type="lebensdaten">(1690-1758)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-120379260">Scheuchzer, Johann</persName>
+            <note type="lebensdaten">(1684-1738)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1041602804">Serrurier, Joseph</persName>
+            <note type="lebensdaten">(1663-1742)</note>
+          </person>
+        </listPerson>
+
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-09-15" who="SG">Englische Arbeitsübersetzung sprachlich überarbeitet und erneut mit dem Ausgangstext abgeglichen; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-15" who="SG">Layout der Arbeitsübersetzungen an Briefkopf, Schluss und Adresszeilen des Originals angeglichen.</change>
+        <change when="2026-09-15" who="SG">Maschinelle englische Arbeitsübersetzung ergänzt; wissenschaftlich ungeprüft und intern.</change>
+        <change when="2025-09-05" who="SG">Erste Personen ausgezeichnet</change>
+        <change when="2025-09-05" who="CG SG">Tagging und Kollationieren abgeschlossen</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader><facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1039740/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1039741" n="1"/>
+  <opener><lb/><dateline><rs type="place" key="place_GEO-2745912">Utrecht</rs> den <date when="1719-01-29">29 <abbr>Jan.</abbr> 1719.</date></dateline>
+      <lb/><note hand="pers_DE-588-119166895"><abbr>Empf.</abbr> den <date when="1719-02-23">23.<hi rend="sup">ten</hi> <abbr>febr.</abbr></date></note>
+      <lb/><salute>Liebster Fründ</salute></opener>
+  <p><lb/>Aus deiner in dem anfang deines <rs type="lostletter">briefes</rs> mir gethaner bescheltung wegen meiner lieder<pc type="hyphenation">=</pc><lb break="no"/>lichkeit, erscheinet so viel freündschaft, daß ich mich alsobald schämen muste dir darzu
+      <lb/>anlas gegeben zu haben; gleichwie ich billich beke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en mus, daß ich deine gegen mir be<pc type="hyphenation">=</pc><lb break="no"/>zeügende liebe mit nichten verdienet, so hätte ich gewißlich alle mittel anwenden sollen
+      <lb/>dieselbige, weil du mir sie ja hast vergö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en wollen, zu underhalten; ich erke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e meinen
+      <lb/>fehler und freüe mich von hertzen, daß unangesehen alles meines liederlichen ver<pc type="hyphenation">=</pc><lb break="no"/>fahrens du noch in voriger meinung gegen mir verharrest; dis einzige bitte ich
+      <lb/>dich, du wollest allen mir schädlichen argwohn, dessen du etwas in deinem <rs type="lostletter">Brief</rs> be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice><pc type="hyphenation">=</pc><lb break="no"/>bringest, fahren lassen und glauben, daß deine mir erzeügte guthaten und bekante auf<pc type="hyphenation">=</pc><lb break="no"/>richtigkeit, mich solcher massen noch allezeit gegen dir verbinden, daß ich deine freü<add>n</add>dschaft
+      <lb/>allem wurde vorziehen und nichts mehr wünschen, als dir zeigen zu kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, wie sehr ich
+      <lb/>dich liebe. Im übrigen wundert es mich hoch, daß du meldest, du habest mehr
+      <lb/>als ein Jahr keinen brief von mir erhalten, ich hab dir gewis von <rs type="place" key="place_GEO-2988507">Paris</rs> aus, im
+      <lb/><date>Martio</date> so viel ich weis, geschrieben und unseren zweck, der damalen allein auf <rs type="place" key="place_VER-hollan">Holland</rs>
+      <lb/>gienge, gemeldet; wir waren auch nicht anders entschlossen, <del><gap/></del><add>als e</add>twan 8 o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> 10 monat
+      <lb/>in <rs type="place" key="place_VER-hollan">Holland</rs> zu bleiben und dan erst naher <rs type="place" key="place_VER-englan">Engelland</rs> zu kehren; nachdem wir aber
+      <lb/><date>medio Junii</date> hier anko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und verno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, daß die lectiones erst gegen den
+      <lb/><date>September</date> wider anfangen sollten, hab ich mich alsobald entschlossen underdessen
+      <lb/>die reis in <rs type="place" key="place_VER-englan">Engelland</rs> zu verrichten, worzu wir in allem nicht mehr als 9 wochen
+      <lb/>zugebracht, so daß zweifle, wan ich dich schon auf der stell dessen berichtet,
+      <lb/>ob ich noch deine antwort zu <rs type="place" key="place_GEO-2643743">Londen</rs> hätte empfangen kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en; aufs wenigst
+      <lb/>wuste wohl, daß die brief aus <rs type="place" key="place_VER-graubu">Bündten</rs> nur bis hieher 3 wochen gemeiniglich
+      <lb/>zubringen; zu <rs type="place" key="place_GEO-2643743">Londen</rs> sind wir nicht mehr als etwas über 6 wochen gewesen
+      <lb/>und die übrige zeit theils mit der überfahrt, theils in <rs type="place" key="place_VER-hollan">Holland</rs> und <rs type="place" key="place_KON-flandern">Flanderen</rs>
+      <lb/>zugebracht; deßwegen ich dir auch bezeügen kan, wan ich nicht unversehens
+      <lb/>diesen <del><gap/></del><add>en</add>tschlus hätte fassen müssen, ich gewis dich dessen versicheret hätte, weilen
+      <lb/>ich mir wohl einbilden konte, daß deine <rs type="lostletter">brief</rs> mir nicht wurden schädlich
+      <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n und es mich wurde gefreüet haben, dir etwas gefälliges daselbs zu
+      <lb/>erweisen. Wie wir ferners unsere reis werden fortsetzen, weis ich nicht
+<pb facs="1039742" n="2"/>
+      <lb/>gewis, doch glaube, daß wir <del><gap/></del><add>b</add>is <date>Pfingsten</date> werden hier bleiben und dan durch
+      <lb/><rs type="place" key="place_KON-deutsch">Teütschland</rs> naher <rs type="place" key="place_GEO-2661604">Haus</rs> kehren; vielleicht gehen wir naher <rs type="place" key="place_GEO-2911298">Hamburg</rs> und dan
+      <lb/>ferners über <rs type="place" key="place_GEO-2950159">Berlin</rs> und <rs type="place" key="place_GEO-2935022">Dresden</rs>, aufs wenigst hab darzu einige hofnung
+      <lb/>und erwarte mit nächsten den letsten entschlus des <rs type="person">Junckeren von Wildeck</rs>,
+      <lb/>sollte ich auf dieser reis dir in etwas kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en dienen, wollestu die güte haben
+      <lb/>und mir solches melden, ich wurde trachten mit meinem fleis das vorhin
+      <lb/>versaumte wider gut zu machen; wan wir aber nur dem <rs type="place" key="place_GEW-rheina">Rhein</rs> nach wurden
+      <lb/>zuruckreissen, wurde es mich gewis erfreüen deinen <rs type="person">Vetteren</rs> als Professorem
+      <lb/>in <rs type="place" key="place_GEO-2934691">Duisburg</rs> anzutrefen, Gott gebe darzu seinen segen und erfreüe hiemit
+      <lb/>deinen <abbr>H.</abbr> <rs type="person">Oncle</rs>, deme ohne zweifel diese vocation keine geringe vergnügung
+      <lb/>verschafen wurde. So bald ich zu <rs type="place" key="place_GEO-2661604">Haus</rs> wider werde angelangt se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, so glaube
+      <lb/>ich deinem raht eines theils zu folgen, ich werde sehen ob etwas mit collegiis
+      <lb/>zu verdienen und ob die umständ mir werden zulassen auf die rechts sachen
+      <lb/>mich zu legen; es scheinet daß von seiten <abbr>H.</abbr> Baron <rs type="person" key="pers_DE-588-1089913974">Höggers</rs> für mich nichts
+      <lb/>mehr zu hofen, insonderheit da jetzund der todt des <rs type="person">Königs</rs> in <rs type="place" key="place_VER-schwede">Schweden</rs>
+      <lb/>eine grosse änderung machen wird. Ich hatte die mir seinetwegen angetragene
+      <lb/>charge deßwegen angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, weilen sonst nichts anders nach vollendeter
+      <lb/>reis zu thun sehe, ich weis wohl daß ich darzu nicht so tüchtig als aber
+      <lb/>die jugend zu underweisen, doch weil ich mich flattierte, daß ich doch auch
+      <lb/>darzu nicht gar untüchtig wäre, habe ich die gelegenheit nicht gar wollen
+      <lb/>verachten und gedacht ich könte mit fleis das was mir noch manglete
+      <lb/>wohl einbringen; es hat nicht ein jeder das glück, daß er just in demjenigen
+      <lb/>gebraucht wird wori<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en er am bequemsten ist, und mus man oft in dieser
+      <lb/>welt die batterien veränderen. Ich konte es zudem nicht wohl abschlagen,
+      <lb/>weilen <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person" key="pers_DE-588-116082356">Battier</rs> mich vorgeschlagen hatte und mein <rs type="person" key="pers_DE-588-1366599853">Vatter</rs> zu <rs type="place" key="place_GEO-2988507">Paris</rs> sehr
+      <lb/>darauf trunge, be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> dieser gelegenheit zu ihme zu ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. Weilen es aber
+      <lb/>nun allem ansehen nach zu nichts worden, mus und will ich wohl deine mir
+      <lb/>vorgeschlagene mittel vor die hand ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, was aber den darzu angehenckten
+      <lb/>puncten betrift, so will dir fre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> beke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, daß ich ihn nicht gutheissen
+      <lb/>kan; ich hab mir schon längsten vorgeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en mich nicht zu verheürahten
+      <lb/>ich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e dan in einem stand eine frau nach meinem belieben zu ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+<pb facs="1039743" n="3"/>
+      <lb/>und zu underhalten; jetzo habe ich nichts, was man gut heisset in dieser
+      <lb/>welt, als ein gutes gewissen und etwas guten nahmen; meine <rs type="person" key="pers_DE-588-1366600037 pers_DE-588-1366599853">Elteren</rs>
+      <lb/>und <rs type="person">geschwisterte</rs>, denen ich nach kräften be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>zustehen entschlossen, haben
+      <lb/>meiner hülf vo<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>öhten und wan ich schon durch hülf einer frauen etwas
+      <lb/>gelts erlangte, weistu wohl daß mir solches nicht viel helfen wurde;
+      <lb/>kan ich versicheret se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, ob ich nicht vielmehr mir allerhand verdrus wurde
+      <lb/>über den hals ziehen und villeicht weniger im stand se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n meinen zweck zu
+      <lb/>erreichen als vorhin? Ob <abbr>H.</abbr> <rs type="person" key="pers_DE-588-104286881">Schaub</rs> schon so viel erworben, als du meinest,
+      <lb/>weis ich nicht, und noch viel weniger, ob er etwas zimliches wegen seiner
+      <lb/><rs type="person">schwester</rs> wurde hergeben wollen? Was auch diese Jungfrau gesi<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>et, ist un<pc type="hyphenation">=</pc><lb break="no"/>gewis, so daß auf allen fahl wan ich schon würcklich gantz geneigt wäre deinem
+      <lb/>raht zu folgen, noch allerhand hindernus in dem weg stünden, die so leicht
+      <lb/>nicht weggeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en könten werden. Seit ich aus <rs type="place" key="place_VER-englan">Engelland</rs> zuruck habe
+      <lb/>indessen nichts mehr von <abbr>H.</abbr> <rs type="person">Schaub</rs> gehört und weis ich dato nicht wo
+      <lb/>er ist; ich hatte ihme aus <rs type="place" key="place_VER-englan">Engelland</rs> naher <rs type="place" key="place_GEO-2988507">Paris</rs> <rs type="letter">geschrieben</rs> aber keine
+      <lb/>antwort erhalten, vielleicht ist mein <rs type="letter">brief</rs> zu <rs type="place" key="place_GEO-2988507">Paris</rs> anko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, da er
+      <lb/>schon naher <rs type="place" key="place_VER-spanie">Spanien</rs> verreist war. Ich fange nun wider an zu hofen etwan
+      <lb/>auf <date>künftiges Jahr</date> dich zu sehen und wurde ich dan gelegenheit haben
+      <lb/>ferners mich mit dir zu underreden; künftigen herbst hofen wir
+      <lb/>gewis in <rs type="place" key="place_VER-schweiz">Schweitzerland</rs> zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n und wird vielleicht alsdan etwas
+      <lb/>von der Italienischen reis geredet werden; underdessen bin ich dir
+      <lb/>sehr verpflichtet für deinen geneigten willen und bitte mir ferners
+      <lb/>deine wohlgewogenheit zu erhalten, die ich i<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>er mehr und mehr zu ver<pc type="hyphenation">=</pc><lb break="no"/>dienen trachten werde. Ich bedancke mich gleichfals für deine mir über<pc type="hyphenation">=</pc><lb break="no"/>sante Demonstration über die <foreign xml:lang="lat">velocitatem gutt<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> effluentis</foreign>, ich begreif nun
+      <lb/>wohl, daß des <rs type="person">Jurins</rs> hypothesis falsch und möchte wissen, was er auf deine
+      <lb/>gründ wurde antworten kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice><del><gap/></del>en, underdessen nimt mich wunder, daß
+      <lb/>er <abbr>H.</abbr> <rs type="person" key="pers_DE-588-119112450">Hermans</rs> <rs type="biblio">Demonstration</rs> keine meldung thut und solche wort
+      <lb/>braucht als wan er der erste eine solche sach erfunden. Wan du d<unclear reason="lost">och</unclear>
+      <lb/>des <abbr>H.</abbr> <rs type="person" key="pers_DE-588-119392364">Ramazzini</rs> und <abbr>H.</abbr> <rs type="person" key="pers_DE-588-118749420">Reaumurs</rs> experiment undersucht melde
+      <lb/>mir auch deine meinung, ob sie <abbr>H.</abbr> <rs type="person" key="pers_DE-588-118571249">Leibnitzens</rs> satz beweisen o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> nicht.
+<pb facs="1039744" n="4"/>
+      <lb/>Daß du hofest bald einen guten gespa<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en an <abbr>H.</abbr> <abbr>D.</abbr> <rs type="person">Scheüchzer</rs> zu beko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, ist mir
+      <lb/>erfreülich vorko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und hingegen ist mir le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>d, daß du neben dem ordinari
+      <lb/>verdrus noch durch <rs type="biblio">schmächschriften</rs> angegriefen wirst, du thust gewis wohl
+      <lb/>wan du es dir nicht zu hertzen ziehest und schweigest, oder ja wan du reden
+      <lb/>must ohne zorn antwortest. Es ist doch mit dergleichen purschen nicht viel
+      <lb/>außzurichten, under die der <rs type="person">Keil</rs> mit recht gezehlet wird, von dessen unver<pc type="hyphenation">=</pc><lb break="no"/>schamten grobheit viel zu reden wissen. <abbr>H.</abbr> <abbr>Prof.</abbr> <rs type="person" key="pers_DE-588-1041602804">Serrurier</rs>, deme deinen
+      <lb/>grus gemeldet, haltet auch nicht viel auf ihm und wolte seine höflichkeit
+      <lb/>nicht loben. <abbr>H.</abbr> <rs type="person" key="pers_DE-588-1041602804">Serrurier</rs> sagte mir im übrigen, er wisse wohl, daß er die
+      <lb/>ehr gehabt dich zu sehen, er eri<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>ere sich aber nicht wan, glaube doch daß
+      <lb/>es schon lang und mehr als 8 jahr. <abbr>H.</abbr> <rs type="person" key="pers_DE-588-10031760X">Reland</rs> ist schon vor einem jahr
+      <lb/>gestorben und ist seine Bibliothec vor 2 o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> 3 monaten vergantet worden,
+      <lb/>ein gewisser <abbr>H.</abbr> <rs type="person" key="pers_DE-588-100213448">Mill</rs> ist an sein stehl ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en. <abbr>H.</abbr> <rs type="person" key="pers_DE-588-118869361">Noodt</rs> lebet noch und
+      <lb/>habe ich ihn im vergangenen <date>Junio</date> gesprochen auch etliche seiner lectionen
+      <lb/>mit lust angehöret; <abbr>H.</abbr> <rs type="person" key="pers_DE-588-118939297">s’Gravensande</rs>, der nun zu <rs type="place" key="place_GEO-2751773">Le<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>den</rs> Professor
+      <lb/>Matheseos ist, war nicht dorten damals, sonsten ihne auch besucht,
+      <lb/>weilen wohl wuste, daß er dich wohl ke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>e. <abbr>H.</abbr> <rs type="person" key="pers_DE-588-131366858">Bernard</rs> sein <foreign xml:lang="lat">Antecessor</foreign>
+      <lb/>ist vor ohngefehr 10 monaten gestorben und verlies eine trefliche Bibliothec,
+      <lb/>so auch ofentlich vergantet worden. Die dre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> bücher darvon du mir gemel<pc type="hyphenation">=</pc><lb break="no"/>det, habe gekauft, die editionen so du verlangest, habe aber um den
+      <lb/>Scardeonium <choice><orig><g ref="#pp">ꝛc.</g></orig><reg>etc.</reg></choice> 12 gulden <abbr>Holl.</abbr> bezahlen müssen; wan du sie bald haben
+      <lb/>must, will ich sie express<choice><orig><g ref="#egrav">è</g></orig><reg>e</reg></choice> auf <rs type="place" key="place_GEO-2661604">Basel</rs> senden, kanstu aber warten, so
+      <lb/>werden sie mit unseren bücheren gegen <date>Pfingsten</date> o<choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> nach <date>Osteren</date>
+      <lb/>fortgehen. Was wegen <abbr>H.</abbr> <rs type="person" key="pers_DE-588-1132220874">Raillard</rs> gemeldet, daß er sein recht auf der
+      <lb/>Universitet vorbehalten, kam daher, daß er mir gemeldet, ob schon er
+      <lb/>eine zunft angeno<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, so habe er doch das recht auf <choice><orig><g ref="#der">der</g></orig><reg>der</reg></choice> Universitet etwas
+      <lb/>zu pretendieren, so gemeinet den sin zu haben den ich dir gemeldet;
+      <lb/>ich mus beke<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en daß ich hieri<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en die rechte nicht weis; Im übrigen wolle
+      <lb/>Gott der Herr deinen wunsch erfüllen und mir die gelegenheit geben
+      <lb/>dir zeigen zu kö<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>en, wie sehr ich zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n wünsche</p>
+  <closer><lb/>Dein getreüer fründ
+      <lb/><signed>F<supplied>.</supplied> Christ.</signed></closer>
+</div>
+
+<div type="translation" xml:id="B_991170517062005501_trans_en" xml:lang="en" status="unreviewed">
+<p><pb facs="1039741" n="1"/> Utrecht, 29 January 1719.
+<lb type="forced"/>Dearest friend,</p>
+<p>Your reproach at the beginning of your letter for my neglect shows such friendship that I was immediately ashamed to have given you cause for it. I must admit that I have done nothing to deserve the affection you show me. Since you have nevertheless been willing to give it, I ought certainly to have done everything I could to preserve it. I acknowledge my fault and am deeply glad that, despite all my neglect, your feelings towards me remain unchanged. I ask only this: put aside the doubts about me that you voice in your letter, and believe that your kindness and the sincerity I know in you still bind me to you so closely that I value your friendship above everything and wish for nothing more than to show you how much I love you.</p>
+<p>I am, moreover, greatly surprised that you say you have received no letter from me for more than a year. I certainly wrote to you from Paris, in March as far as I remember, and told you our plans, which at that time extended only to Holland. Our intention was to stay some eight or ten months in Holland before going on to England. But when we arrived here in mid-June and heard that the lectures would not begin again until about September, I immediately decided to use the interval for our journey to England. We spent no more than nine weeks on it altogether, so I doubt whether I could still have received your reply in London even if I had informed you straight away. At least I knew well that letters from the Grisons generally take three weeks just to reach here. We were in London for only a little over six weeks, and spent the rest of the time partly on the crossings and partly in Holland and Flanders. I can therefore also assure you that, had I not had to make this decision unexpectedly, I would certainly have informed you, since I could well imagine that your letters would be of benefit to me, and it would have pleased me to do you some service there.</p>
+<p>I do not know for certain how we shall continue our <pb facs="1039742" n="2"/> journey, but I think we shall remain here until Whitsun and then return home through Germany. Perhaps we shall go to Hamburg and then on through Berlin and Dresden. At least I have some hope of it and expect the lord of Wildegg’s final decision shortly. If there is anything I can do for you on this journey, please let me know. I would do my utmost to make up for my earlier neglect. But if we simply return along the Rhine, I should certainly be delighted to find your cousin as professor in Duisburg. May God grant his blessing and thereby gladden your uncle, to whom this appointment would doubtless give no small pleasure.</p>
+<p>As soon as I have reached home again, I think I shall follow your advice in part. I shall see whether I can earn something by giving courses and whether circumstances will allow me to take up legal work. It seems there is nothing more for me to hope for from Baron Högger, especially now that the death of the King of Sweden will bring great changes. I had accepted the post offered to me on his behalf because I saw nothing else to do after completing the journey. I know well that I am not as well suited to it as to teaching the young. Yet since I flattered myself that I was not entirely unsuited to it either, I did not want to dismiss the opportunity, and thought I could make up through diligence what I still lacked. Not everyone has the good fortune to be employed in precisely what he is best fitted for, and in this world one must often change tack. Moreover, I could hardly decline, since Dr Battier had recommended me and my father in Paris strongly urged me to take the opportunity to join him.</p>
+<p>Since, however, it has now apparently come to nothing, I must now follow your suggestions, and I intend to do so. But I must frankly admit that I cannot agree with the further suggestion you added. I long ago resolved not to marry until I was in a position to choose a wife to my own liking <pb facs="1039743" n="3"/> and support her. At present I possess none of what this world calls wealth, apart from a clear conscience and some measure of a good reputation. My parents and siblings, whom I am resolved to assist to the best of my ability, need my help. Even if I obtained some money through a wife, you know well that it would not help me much. How can I be sure that I would not simply bring all sorts of trouble upon myself and be even less able to achieve my purpose? I do not know whether Mr Schaub has already acquired as much as you think, still less whether he would be willing to provide a substantial sum for his sister. What the young lady herself intends is also uncertain. Thus, even if I were now entirely disposed to follow your advice, all manner of obstacles would remain that could not easily be removed.</p>
+<p>Since returning from England I have heard nothing more from Mr Schaub and do not know where he is at present. While in England, I wrote to him in Paris, but received no answer. Perhaps my letter reached Paris when he had already left for Spain. I am now beginning to hope again that I may see you sometime next year and then have an opportunity to discuss matters further with you. We certainly hope to be in Switzerland next autumn, and perhaps the Italian journey will then be discussed. Meanwhile I am very grateful for your kind intentions. Please continue to think kindly of me; I shall do all I can to deserve it.</p>
+<p>I likewise thank you for the proof you sent me concerning the velocity of a drop of water as it flows out. I now fully understand that Jurin’s hypothesis is false, and should like to know how he could answer your arguments. Meanwhile I am surprised that he makes no mention of Mr Hermann’s proof and writes as though he were the first to have made this discovery. When you have examined the experiment of Messrs Ramazzini and Réaumur, also tell me your opinion whether it proves Mr Leibniz’s proposition or not.</p>
+<p><pb facs="1039744" n="4"/> I was glad to hear that you hope soon to gain a good companion in Dr Scheuchzer. On the other hand, I am sorry that, on top of your usual troubles, you are also being attacked in defamatory writings. You certainly do well not to take it to heart and to remain silent, or, if you must speak, to answer without anger. There is little point in arguing with such fellows, among whom Keill is rightly numbered; many people can speak of his shameless rudeness. Professor Serrurier, to whom I conveyed your greetings, does not think highly of him either and had nothing good to say about his manners. Mr Serrurier also told me that he knew he had had the honour of seeing you, but did not remember when. He thought it had been a long time ago, more than eight years.</p>
+<p>Mr Reland died a year ago, and his library was auctioned two or three months ago. A certain Mr Mill has succeeded him. Mr Noodt is still alive. I spoke with him last June and also attended several of his lectures with pleasure. Mr ’s Gravesande, who is now professor of mathematics at Leiden, was not there then; otherwise I would have visited him too, since I knew well that he knew you. Mr Bernard, his predecessor, died about ten months ago and left an excellent library, which was also publicly auctioned.</p>
+<p>I have bought the three books you mentioned, in the editions you wanted, but had to pay twelve Dutch guilders for the Scardeonius and the others. If you need them soon, I shall send them specially to Basel. If you can wait, they will go with our books towards Whitsun or after Easter. What I said about Mr Raillard having reserved his rights at the university came from his telling me that, although he had joined a guild, he still had the right to seek something at the university. I took his words to mean what I reported to you. I must confess that I do not know the rules in this matter. May God the Lord fulfil your wish and give me an opportunity to show you how much I desire to be</p>
+<p>your faithful friend,
+<lb type="forced"/>F. Christ.</p>
+</div>
+</body>
+</text></TEI>

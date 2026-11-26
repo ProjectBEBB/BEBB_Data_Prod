@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516785705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Guillaume Le Roberger an Johann II Bernoulli. Paris, 03. Januar 1775</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516785705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516785705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-135143">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 719:Bl.84-104</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516785705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433536905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000058865</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>2 Beilagen</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Paris</origPlace>
+              <date when="1775-01-03">3. Jan. 1775</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-104137290">Le Roberger, Guillaume</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+          <date when="1775-01-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516752105501" type="prev"/>
+          <ptr target="B_991170516752005501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Le_Rohbergherr_de_Vausenville_Alexandre_Henri_Guillaume-JohIIB" corresp="pers_DE-588-104137290" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="inventarisiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/3666875/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb facs="3666876" type="archival"/> <pb facs="3666877" type="archival"/> <pb facs="3666878" n="84r"/> <pb facs="3666879" n="84v" type="empty"/> <pb facs="3666880" n="85r"/> <pb facs="3666881" n="85v"/> <pb facs="3666882" n="86r"/> <pb facs="3666883" n="86v"/> <pb facs="3666884" n="87r"/> <pb facs="3666885" n="87v"/> <pb facs="3666886" n="88r"/> <pb facs="3666887" n="88v"/> <pb facs="3666888" n="89r"/> <pb facs="3666889" n="89v"/> <pb facs="3666890" n="90r"/> <pb facs="3666891" n="90v"/> <pb facs="3666892" n="91r"/> <pb facs="3666893" n="91v"/> <pb facs="3666894" n="92r"/> <pb facs="3666895" n="92v" type="empty"/> <pb facs="3666896" n="93r"/> <pb facs="3666897" n="93v"/> <pb facs="3666898" n="94r"/> <pb facs="3666899" n="94v"/> <pb facs="3666900" n="95r"/> <pb facs="3666901" n="95v"/> <pb facs="3666902" n="96r"/> <pb facs="3666903" n="96v"/> <pb facs="3666904" n="97r"/> <pb facs="3666905" n="97v"/> <pb facs="3666906" n="98r"/> <pb facs="3666907" n="98v"/> <pb facs="3666908" n="99r"/> <pb facs="3666909" n="99v"/> <pb facs="3666910" n="100r"/> <pb facs="3666911" n="100v"/> <pb facs="3666912" n="101r"/> <pb facs="3666913" n="101v"/> <pb facs="3666914" n="102r"/> <pb facs="3666915" n="102v"/> <pb facs="3666916" n="103r"/> <pb facs="3666917" n="103v"/> <pb facs="3666918" n="104r"/> <pb facs="3666919" n="104v"/>
+<head> Zu diesem Brief liegt derzeit noch keine Transkription vor. Metadaten zum Brief sind über das Info-Symbol verfügbar. </head>
+</div>
+</body>
+</text>
+</TEI>

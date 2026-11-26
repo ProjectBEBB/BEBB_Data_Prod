@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514976505501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Jean-Pierre de Crousaz. Basel, 21. September 1714</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor/>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514976505501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514976505501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändig "2 à Mr. Crousa Pr. à Lausane"</p>
+          <p>Bezug des Briefes zu Bänden der gedruckten Bernoulli Werkausgabe: Op. XCI</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Original in Lausanne (Mlle. de Crousaz) [O.Spiess]</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24618">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 656, Nr.2</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514976505501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432937305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055764</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2,5 S.<dimensions unit="cm"><height>21</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>à Bale</origPlace>
+              <date when="1714-09-21">ce 21. 7bre 1714</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1714-09-21"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-100097413">Crousaz, Jean-Pierre de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514976605501" type="prev"/>
+          <ptr target="B_991170514976405501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Crousaz_Jean_Pierre_de-JohIB" corresp="pers_DE-588-100097413" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Joh. B. freut sich, dass Crousaz sich im Streit mit Renau nach der Lektüre seines Op. XCI auf seine Seite geschlagen hat. Renau hat ihm kürzlich einen langen Brief voll von Fehlschlüssen geschrieben. Diese kommen daher, dass er die absolute Kraft des Windes mit der Energie dieser Kraft verwechselt und nicht beachtet, dass man bei Gleichgewichtsbetrachtungen nicht nur das Verhältnis der Kräfte, sondern auch ihre virtuellen Geschwindigkeiten, d.h. die Abstände ihrer Richtungen vom Auflagepunkt betrachten muss. Dies hat Joh. B. in seinem Antwortbrief Renau klarzumachen versucht. Er hofft, dass Renau die Klarheit seiner Beweise einsehen wird. Doch die Menschen zögern, Entdeckungen zu widerrufen, die ihnen viel Mühe gekostet und viel Ansehen eingebracht haben. Er wundert sich, ob Renau weitere Anhänger finden wird, und wartet auf dessen Antwort. Die Meldungen über Dittons und Whistons Methode zur Längenbestimmung sind keine Satire. Diese Herren haben eine Schrift von 70 Seiten darüber verfasst, die den grössten Stoiker zum Lachen bringt. Whiston ist Arianer, der die Göttlichkeit von Jesus Christus verneint und ihn nur für einen Propheten hält. Nach Whiston wird das tausendjährige Reich in einigen Jahren beginnen. Joh. B. empfiehlt den Überbringer des Briefes, einen Engländer, der in Basel bei ihm studiert hat [Arnold?].</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1017730709">Ditton, Humphrey</persName>
+            <note type="lebensdaten">(1675-1715)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-102079056">Renau D'Elicagaray, Bernard</persName>
+            <note type="lebensdaten">(1652-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117574678">Whiston, William</persName>
+            <note type="lebensdaten">(1667-1752)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert" ana="diplomatic-unreviewed">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-19" who="SG">Briefanfang, Briefschluss und vorhandene Adresse strukturiert.</change>
+        <change when="2026" who="SG">Grundkommentierung abgeschlossen</change>
+        <change when="2026-11" who="SG">Grundkommentierung weitergeführt</change>
+        <change when="2026-10-20" who="SG">Worttrennungen ausgezeichnet.</change>
+        <change when="2026-10-20" who="SG">Bild- und Seitenanker berichtigt; XML-Formatierung bereinigt. Transkriptionszeichen unverändert.</change>
+        <change when="2026-10-19" who="SG">Zeilenfall bildgestützt ergänzt; textnahe Ansicht noch nicht überprüft. Transkriptionszeichen unverändert.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen erneut am Ausgangstext überarbeitet; wissenschaftliche Terminologie präzisiert und offene Deutungsfragen in XML-Kommentaren festgehalten. Weiterhin intern und ohne redaktionelle Freigabe.</change>
+        <change when="2026-09-29" who="SG">Deutsche und englische Arbeitsübersetzungen ergänzt; intern, wissenschaftlich ungeprüft und in der Webansicht nicht sichtbar.</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1074359/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+
+
+  <pb facs="1074360" n="1"/>
+
+
+<opener><salute>
+<lb/> Monsieur,</salute></opener>
+
+  <p>
+<lb/>Je vous suis obligé de la peine que Vous avez prise de lire ma <rs type="biblio" key="biblio_RTB4565Q">Theorie</rs>
+<lb/> et d’approfondir la dispute qui est entre Monsieur le Chev. <rs type="person" key="pers_DE-588-102079056">Renau</rs> et moi.
+<lb/> La decision que Vous avez faite en ma faveur me cause beaucoup de
+<lb/> plaisir, cependant il y a encore quelques Geometres en <rs type="place" key="place_VER-frankr">France</rs> qui preten<pc type="hyphenation">-</pc><lb break="no"/>dent que Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> a raison, ce qui rend <choice><orig>celuici</orig><reg>celui-ci</reg></choice> fort opiniatre; Il m’e<pc type="hyphenation">-</pc>
+
+<lb break="no"/>crivit dernierement une longue <rs type="letter" key="B_991170514990605501">lettre</rs>, pour soutenir son opinion, mais
+<lb/> tous ses argumens ne sont qu’un amas de paralogismes qui tirent leur o<pc type="hyphenation">-</pc><lb break="no"/>rigine de ce qu’il confond la force absolue du vent avec l’energie de
+<lb/> cette force, ne prenant pas garde que pour comparer les effets des
+<lb/> puissances qui sont en equilibre, il ne suffit pas de considerer seule<pc type="hyphenation">-</pc><lb break="no"/>ment la proportion de ces puissances, mais aussi faut il avoir
+<lb/> egard à leurs vitesses virtuelles, c’est à dire aux distances de leurs
+<lb/> directions au point d’appuy<note type="comment" resp="SG">«Énergie» bezeichnet hier die mechanische Wirksamkeit einer Kraft, nicht Energie im heutigen Sinn. Bernoulli berücksichtigt für das Gleichgewicht neben den Kraftgrössen auch die virtuellen Geschwindigkeiten; bei einer gedachten Drehung um den Stützpunkt sind deren Komponenten in Kraftrichtung den jeweiligen Hebelarmen proportional.</note>: C’est ce que je luy ai fait voir dans
+<lb/> une <rs type="letter" key="B_991170514990505501">lettre</rs> que je lui ai ecrite en reponse à la <rs type="letter" key="B_991170514990605501">sienne</rs>; J’espere
+<lb/> qu’il cedera enfin à la clarté de mes demonstrations, à moins
+<lb/> que l’envie qu’il a d’avoir raison ne le retienne dans l’aveugle<pc type="hyphenation">-</pc><lb break="no"/>ment: Je ne m’etonne pas que Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> fasse le difficile, car,
+<lb/> comme vous dites, l’Esprit humain se fait ordinairement de la
+<lb/> peine de revoquer des decouvertes qui lui ont couté et dans lesquelles
+<lb/> il a crû avoir sujet de s’applaudir; et cela d’autant plus que <pb facs="1074361" n="2"/>
+<lb/> Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> y faisoit son fort et se distinguoit dans cette matiere,
+
+<lb/> ce qui lui a procuré son avancement; Mais je m’etonne qu’il trou<pc type="hyphenation">-</pc><lb break="no"/>ve des partisans qui veuillent soutenir son erreur, laquelle est si vi<pc type="hyphenation">-</pc><lb break="no"/>sible, qu’il faut etre destitué de toute connoissance dans ces choses, ou
+<lb/> preoccupé de prejugés pour n’en etre pas frappé à la premiere vue.
+<lb/> J’attens donc ce que Mr. <rs type="person" key="pers_DE-588-102079056">Renau</rs> me repliquera, je lui souhaite
+<lb/> des yeux d’entendement pour voir la verité; sans cela j’ai peur qu’il
+<lb/> ne se prostitue davantage au prejudice de sa reputation et de mon
+<lb/> repos, car autrement je serois obligé de lui repondre publiquement,
+<lb/> s’il persistoit dans son opiniatreté.</p>
+
+  <p>
+<lb/>Non, Monsieur, on ne s’est pas voulu moquer du <rs type="person">Gazettier</rs> en
+<lb/> lui faisant inserer dans sa <rs type="biblio" key="biblio_Q8UQ9D34">Gazette</rs><note type="comment" resp="SG">Gemeint ist sehr wahrscheinlich der Bericht über Whiston und Dittons Verfahren in den <hi rend="i">Nouvelles de divers endroits</hi> (<hi rend="i">Gazette de Berne</hi>) vom 18. August 1714, Rubrik «<hi rend="i">Nouvelles de la Grande Bretagne</hi>», Londoner Meldung vom 31. Juli. Er beschreibt die Längenbestimmung durch nächtliche Schall- und Lichtsignale von verankerten Schiffen.</note> la decouverte ridicule des longitudes
+<lb/> de Mr. <rs type="person" key="pers_DE-588-1017730709">Ditton</rs> et <rs type="person" key="pers_DE-588-117574678">Wiston</rs>; je sçai de bonne part que ces Messieurs
+<lb/> ont publié un <rs type="biblio" key="biblio_LEGD2LPL">écrit</rs> de plus de 70 feuilles,<note type="comment" resp="SG">Die <hi rend="i">Gazette de Berne</hi> vom 18. August 1714 nennt für diese Schrift 78 Seiten in Oktav.</note> par lequel ils pretendent
+<lb/> d’avoir fait cette decouverte, et cela par le moyen que l’on a
+<lb/> decrit dans les Gazettes; moyen assurement propre à faire rire le plus
+<lb/> grand Stoicien; mais en etes vous surpris, Monsieur? ne sçavez vous
+<lb/> pas que <rs type="person" key="pers_DE-588-117574678">Wiston</rs> donne dans des visions les plus extravagantes? il est
+<lb/> Arrien outré; il nie la divinité de <rs type="person" key="pers_DE-588-118557513">Jesus Christ</rs>, qui selon lui n’est
+<lb/> qu’un Prophete; il viendra, à ce que <rs type="person" key="pers_DE-588-117574678">Wiston</rs> a predit publiquement,
+<lb/> commencer le regne de 1000 ans sur la terre au bout de quelques an<pc type="hyphenation">-</pc><lb break="no"/>nées etc.</p>
+
+  <p><pb facs="1074362" n="3"/>
+<lb/>Je vous recommande le <rs type="person">Porteur</rs><note type="comment" resp="SG">Möglicherweise handelt es sich um <rs type="person" key="pers_DE-588-1141832453">John Arnold</rs>, dessen Mathematikunterricht bei Johann I Bernoulli bezeugt ist. Seine Rolle als Überbringer dieses Briefes ist bislang nicht nachgewiesen.</note> de cette lettre, il est Anglois de Na<pc type="hyphenation">-</pc><lb break="no"/>tion, il a fait ses etudes de mathematiques sous moi avec bon succes:
+<lb/> il a meme penetré jusques dans la nouvelle analyse des infinis: il
+<lb/> semble que les mathematiques soient en honneur chez les Anglois plus
+<lb/> qu’ailleur, car tout le monde de ce pays là se pique de sça<pc type="hyphenation">-</pc><lb break="no"/>voir parler au moins le langage des Geometres.</p> <closer><salute>Je suis avec tout l’attache<pc type="hyphenation">-</pc><lb break="no"/>ment possible
+<lb/> Monsieur
+<lb/> Votre tres humble et tres obeissant
+<lb/> Serviteur </salute><signed><rs type="person" key="pers_DE-588-118509969">J. Bernoulli</rs></signed>
+
+
+
+<dateline>
+<lb/>  à <rs type="place" key="place_GEO-2661604">Bale</rs> ce 21. Septembre
+
+<lb/> 1714</dateline></closer>
+<pb facs="1074363" n="4" type="empty"/></div>
+
+
+</body>
+</text>
+</TEI>

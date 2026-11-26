@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514979405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Gabriel Cramer an Johann I Bernoulli. London, 15. April 1728</title>
+          <title type="alt">1728.04.15: Cramer, Gabriel (1704-1752) an Bernoulli, Johann (1667-1748)</title>
+          <title type="alt">000055731</title>
+          <title type="alt">1728-04-15_Cramer_Gabriel-Bernoulli_Johann</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Kollationierung</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Grundkommentierung</resp>
+          <persName key="pers_DE-588-1270820532">
+            <surname>Kurz</surname>
+            <forename>Martin</forename>
+          </persName>
+          <persName key="pers_DE-588-1270721828">
+            <surname>Germann</surname>
+            <forename>Raphael</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514979405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514979405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Cramer, Gabriel (1704-1752)
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24588">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 655, Nr.3*</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514979405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432936705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055731</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>22</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Londres</origPlace>
+              <date when="1728-04-15" when-custom="1728-04-04"
+                datingMethod="#julian" calendar="#julian #gregorian">ce 4/15 avril 1728</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="gregorian"><p>Gregorianischer Kalender</p></calendar>
+        <calendar xml:id="julian"><p>Julianischer Kalender</p></calendar>
+      </calendarDesc>
+
+      <textClass>
+        <keywords>
+          <term>forces vives</term>
+          <term>forces mortes</term>
+        </keywords>
+      </textClass>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-11670912X">Cramer, Gabriel</persName>
+          <placeName key="place_GEO-2643743" ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+          <date when="1728-04-15" when-custom="1728-04-04" datingMethod="#julian"
+            calendar="#julian #gregorian"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514979505501" type="prev"/>
+          <ptr target="B_991170514979305501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Cramer_Gabriel-JohIB" corresp="pers_DE-588-11670912X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract xml:lang="deu">
+        <p>Cramer berichtet, dass Bernoullis Discours sur les loix de la communication du mouvement in England Aufsehen erregt habe. Er referiert Einwände englischer Gesprächspartner gegen Bernoullis Federversuche: Nicht die Zahl der Federn, sondern deren Druck und Wirkungsdauer seien entscheidend; gleiche Drücke während gleicher Zeiten erzeugten gleiche lebendige Kräfte. Cramer bittet Bernoulli um Erklärung, weshalb unter diesen Bedingungen der Geschwindigkeitszuwachs und nicht der Zuwachs der lebendigen Kraft bestimmt werde. Er legt zwei eigene Gegenargumente dar: Gleiche Drücke könnten ebenso mit gleichen durchlaufenen Wegen verknüpft werden; zudem sei beim Beschleunigen eines bereits bewegten Körpers auch der Aufwand für die Bewegung der antreibenden Federn zu berücksichtigen. Seine Gesprächspartner hätten diese Erwiderungen nicht vollständig anerkannt. Die Einwände von Eames gegen die Argumente der Kapitel VIII und IX beurteilt Cramer als Zirkelschlüsse. Abschliessend kündigt er eine ausführliche Gegenschrift an, deren Verfasser ihm noch unbekannt sei. Er will Bernoulli über ihr Erscheinen unterrichten und ihm eine Kopie senden, sofern er sie für beachtenswert hält. Anschliessend könne Bernoulli eine ausführliche Widerlegung verfassen und deren Aufnahme in die Philosophical Transactions anstreben.</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1325550264">Eames, John</persName>
+            <note type="lebensdaten">(1686-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <abstract xml:lang="eng">
+        <p>Cramer reports that Bernoulli’s Discours sur les loix de la communication du mouvement has caused a stir in England. He recounts objections raised by English interlocutors against Bernoulli’s spring experiments: the decisive factors are said to be the pressure exerted by the springs and its duration, rather than their number; equal pressures acting for equal times are claimed to produce equal living forces. Cramer asks Bernoulli to explain why these conditions determine the increase in velocity rather than the increase in living force. He presents two counterarguments of his own: equal pressures might equally be related to equal distances travelled; moreover, accelerating an already moving body also requires taking account of the effort involved in moving the driving springs. His interlocutors have not fully accepted these replies. Cramer regards Eames’ objections to the arguments of Chapters VIII and IX as circular. Finally, he announces a forthcoming detailed reply whose author is still unknown to him. He intends to inform Bernoulli when it appears and to send him a copy if he considers it worth his attention. Bernoulli could then write a detailed refutation and seek its publication in the Philosophical Transactions.</p>
+      </abstract>
+      <abstract>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1325550264">Eames, John</persName>
+            <note type="lebensdaten">(1686-1744)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+        </listPerson>
+      </abstract>
+    </profileDesc>
+    <revisionDesc status="grundkommentiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-02" who="RG">Grundkommentiert</change>
+
+        <change when="2026-10-17">Entwurf des englischen Abstracts auf Grundlage des Brieftextes und des bestehenden deutschen Regests ergänzt; deutsches Regest als deutsch gekennzeichnet und an Schweizer Standardsprache angepasst; redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: Registerabgleich, sichere Verlinkungen und XML-Prüfkommentare; kollationierter Text unverändert</change>
+        <change when="2025-11-05" who="MK">Code, Bemerkungen durchgeschaut, kl. Änderungen</change>
+        <change when="2025-11-03" who="SG">Grundkommentierung überprüft und Fehlendes markiert</change>
+        <change when="2025-11-03" who="MK">Code und Transkript mit Manuskript durchgeschaut, korr. sowie grundkommentiert</change>
+        <change when="2025-10-30" who="MK">Code durchgeschaut, korr., grundkommentiert</change>
+        <change when="2025-09-17" who="MK">Code durchgeschaut, Abstract und keywords ergänzt</change>
+        <change when="2025-07-07" who="MK">Code durchgeschaut, korrigiert</change>
+        <change when="2025-07-05" who="MK">Code durchgeschaut, korrigiert</change>
+        <change when="2025-05-23" who="MK">Code durchgeschaut, korrigiert</change>
+        <change when="2025-04-02" who="MK">Code durchgeschaut, korrigiert</change>
+        <change when="2025-02-17" who="MK">Code durchgeschaut, korrigiert</change>
+        <change when="2025-01-23" who="MK RG">kollationiert</change>
+        <change when="2025-01-10" who="RG">Kleinere Anpassungen/Korrekturen</change>
+        <change when="2024-11-28" who="MK">GND-Verknüpfung MS gemeldet, Grundkommentierung begonnen</change>
+        <change when="2024-11-22" who="MK">tagging angepasst, ergänzt, grundkommentiert</change>
+        <change when="2024-11-21" who="MK">tagging angepasst, ergänzt</change>
+        <change when="2023-01-16" who="RG">Zeilenabstände eingefügt und &amp; ergänzt</change>
+        <change when="2022-11-11" who="CG">Brief und bibliotags</change>
+        <change when="2022-09-14" who="CG">Header angepasst, Seitenzahlen eingefügt</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1073641/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1073642" n="1"/>
+  <opener><salute>Monsieur,</salute></opener>
+  <p><lb/>Quoi qu’il n’y ait pas longtems que je vous ai importuné d’<rs type="letter" key="B_991170514979505501" >une de mes lettres</rs>,
+      <lb/>je prens encore la Liberté de vous adresser celle-ci: Puisque vous avez la bonté de vouloir
+      <lb/>bien me faire part de vos Lumières, je profiterai de vos instructions, desquelles <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de
+      <lb/>toutes vos faveurs, je conserve un souvenir èternel <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> une reconoissance parfaite.</p>
+  <p><lb/>Votre <rs key="biblio_5MVQ5CQI" type="biblio">Livre</rs> a fait du bruït en <rs key="place_VER-englan" type="place">Angleterre</rs>. Les <rs type="person">Sectateurs</rs> de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> se sont <choice><orig>allarmez</orig><reg>allarmés</reg></choice>
+      <lb/>voiant vòtre <rs key="pers_DE-588-118509969" type="person">Nom</rs> à la Tête d’un <rs key="biblio_5MVQ5CQI" type="biblio">Ouvrage</rs> qui attaque une opinion qu’ils prétendent ètre
+      <lb/>celle de leu<subst><del><gap/></del><add>r</add></subst> <rs key="pers_DE-588-118587544" type="person">Maitre</rs>. On a, je crois<supplied>,</supplied> tenu des <note resp="MK" type="editorial">Alle Unterstreichungen vorkommend auf den drei Seiten des Briefes wohl nicht vom Autor sondern vom Empfänger hinzugefügt.</note> Conseils de Guerre, dont le résultat a été qu’on
+      <lb/>pouvoit encore se defendre, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que la place n’étoit pas si fort pressée qu’elle ne pût encore tenir
+      <lb/>bon. Voici ce qu’on a imaginé pour opposer à vos Démonstrations<supplied>.</supplied></p>
+  <p><lb/>Au premier Argument (<abbr>pag.</abbr>21, 22, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>) <choice><orig>On</orig><reg>on</reg></choice> repond que le nombre des ressorts
+      <lb/><formula>CA</formula>, <formula>CB</formula> qui produisent les forces des Corps <formula>A</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B</formula> n<add>’</add>e<add>st</add> <del>sont</del> point à considerer: puisque la pression
+      <lb/>n’est pas plus grande, soit qu’il n’y ait qu’un ressort, soit qu’il y en ait plusieurs. Qu’ainsi quoique
+      <lb/>le nombre des ressorts <formula>CA</formula> soit moindre que le nombre des ressorts <formula>CB</formula>, la force co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniquée
+      <lb/>au Corps <formula>A</formula> n’est pas moins égale à la force communiquée au Corps <formula>B</formula>. On a comparé ces
+      <lb/>Ressorts à une Corde de Musique qu’il s’agiroit d’etendre, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’on a dit que puisque la
+      <lb/>même force suffit pour alonger de 10 lignes une Corde de 10 pieds, que pour alonger
+      <lb/>de 1 ligne une Corde de 1 pied, il n’etoit pas surprenant que 18 ressorts en <formula>CB</formula> s’ouvrant
+      <lb/>chacun de 1 pouce, en tout de 18 pouces, ne produisent pas plus de force que 6 ressorts en
+      <lb/><formula>CA</formula>, qui s’ouvrent en tout de 6 pouces.</p>
+  <p><lb/>On est allé plus loin, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de ce même argument on a prétendu en tirer une
+      <lb/>Demonstration contre vous. Car on a raisonné ainsi. La pression qui agit sur le
+<pb facs="1073643" n="2"/>
+      <lb/>Corps <formula>A</formula> est ègale à la pression qui agit sur le Corps <formula>B</formula>. De plus ces deux
+      <lb/>pressions agissent pendant le même tems. Or deux pressions ègales
+      <lb/>agissant pendant le même tems, ou pendant des tems ègaux produisent
+      <lb/>des effets ègaux. Et ces effets sont les <rs type="keyword">forces vives</rs> <add>des Corps</add> qu’elles mettent en
+      <lb/>mouvement. Donc les <rs type="keyword">forces vives</rs> des Corps <formula>A</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B</formula> sont ègales. Donc la
+      <lb/>force se doit estimer par le produit de la Masse <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de la Vitesse. La même
+    <lb/>reponse sert, dit on, à l’Argument du <rs type="biblio" key="biblio_5MVQ5CQI"><abbr>Chap.</abbr> septième</rs>.<note resp="RG" type="editorial">In <rs key="biblio_5MVQ5CQI" type="biblio">Kapitel VII, §§ 1–3, des Discours</rs> leitet <rs key="pers_DE-588-118509969" type="person">Bernoulli</rs> anhand Kugeln gleicher Masse und unterschiedlich vieler gleicher Federn das Kraftmass aus Masse und Geschwindigkeitsquadrat ab. Dabei unterscheidet er den Druck der Federn vom erworbenen Wirkungsvermögen der Kugeln. Die von <rs key="pers_DE-588-11670912X" type="person">Cramer</rs> referierte Annahme, gleiche Drücke erzeugten während gleicher Zeiten gleiche lebendige Kräfte, richtet sich auch gegen diese Unterscheidung.</note>
+  </p>
+  <p><lb/>J’avoue, Monsieur, que la difficulté m’a paru considerable <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que je
+      <lb/>suis embarassé à y répondre. Il faut nier que deux <rs type="keyword">forces mortes</rs> ou pressions
+      <lb/>ègales agissant pendant des Tems ègaux produisent des <rs type="keyword">forces vives</rs> égales.
+      <lb/>Or jusqu’<choice><orig>a</orig><reg>à</reg></choice> present j’avois regardé cela comme un Axiome, ou comme une suite
+      <lb/>de la production de la force par le moien de la pression (<rs key="biblio_5MVQ5CQI" type="biblio"><abbr>Art.</abbr> 3<choice><orig>.</orig><reg>,</reg></choice> 4<choice><orig></orig><reg>,</reg></choice> 5 <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> du <abbr>Ch.</abbr> V<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs>)
+      <lb/>Vous m’obligerez de m’en expliquer la raison. Elle revient, je pense à peu près
+      <lb/>à la question que je vous faisois dans ma <rs key="B_991170514979505501" type="letter">lettre</rs> précedente, d’<choice><orig>ou</orig><reg>où</reg></choice> vient que c’est
+      <lb/>l’Element de la Vitesse <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> non celui de la Force qui est proportionel à la pression
+      <lb/>multipliée par le tems infiniment petit. Ainsi je pense que la réponse à cette
+      <lb/>question sera la Solution de la Difficulté.</p>
+  <p><lb/>Je vous exposerai les idées qui me sont venuës dans l’Esprit pour la résoudre,
+      <lb/><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> que j’ai developées à ces <rs type="person">Messieurs</rs>. J’ai dit premièrement que l’on supposoit
+      <lb/>gratis que des pressions ègales agissant pendant des tems ègaux produisent des
+      <lb/>forces ègales: que l’on peut aussi bien dire que c’est en agissant par des espaces
+      <lb/>ègaux que deux pressions ègales produisent des forces ègales. Que cela même
+      <lb/>paroitroit plus naturel, si l’on vouloit considerer les Corps <formula>A</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <formula>B</formula> comme se mouvant
+      <lb/>d’<formula>A</formula> en <formula>C</formula> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de <formula>B</formula> en <formula>C</formula>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> bandant ainsi les ressorts. Qu’alors il étoit manifeste que <formula>B</formula>
+      <lb/>qui en bandoit 18 avoit 3 fois plus de force que <formula>A</formula> qui n’en bandoit que 6.</p>
+<pb facs="1073644" n="3"/>
+  <p><lb/>Ma <abbr>2.<hi rend="sup">e</hi></abbr> reponse a été celle ci: qu’une pression agit selon qu’on lui resiste. Que
+      <lb/>si la resistance est plus grande, la pression s’aplique plus entièrement, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> moins
+      <lb/>entièrement si la rèsistance est plus pétite: Qu’ainsi pour produire des pressions
+      <lb/>ègales dans deux Corps d’ont l’un est en mouvement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’autre en repos, ou dont
+      <lb/>l’un a une grande vitesse <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’autre une petite, il faut des forces inégales, plus
+      <lb/>grande dans le premier cas, plus petite dans le second: Que, par exemple<supplied>,</supplied>
+      <lb/>pour presser ègalement un Corps qui a un degré de mouvement <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> un Corps
+      <lb/>en repos, il faut que le ressort qui presse le premier soit transporté lui même
+      <lb/>avec un degré de vitesse, ce qui éxige la force d’un autre ressort; <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> ainsi que
+      <lb/>plus un Corps a de vitesse plus il faut de force pour augmenter sa vitesse d’une
+      <lb/>quantité donnée. Et apliquant ceci à nôtre cas, j’ai fait remarquer que le Corps
+      <lb/><formula>A</formula> se mouvant moins vite que <formula>B</formula>, requeroit moins de ressorts, ou moins de force
+      <lb/>pour souffrir une pression ègale.</p>
+  <p><lb/>Mais ces <rs type="person">Messieurs</rs><note resp="RG" type="editorial">Die Gesprächspartner werden hier nicht namentlich genannt. Als möglicher Beteiligter kommt <rs key="pers_DE-588-143687417" type="person">Henry Pemberton</rs> in Betracht: Im <rs key="B_991170514978805501" type="letter">Brief vom 8. Januar 1729</rs> berichtet Cramer von einem persönlichen Gespräch mit ihm über das Wirkungsvermögen bewegter Körper und das Kraftmass. Im folgenden Absatz des vorliegenden Briefes nennt Cramer zudem Einwände von <rs key="pers_DE-588-1325550264" type="person">John Eames</rs>. Eine sichere Bestimmung des hier gemeinten Personenkreises ist damit nicht möglich.</note> n’ont pas été satisfaits entiérement de ma reponse, parce
+      <lb/><del>que</del>, ont-ils dit, que la force que les ressorts suivants emploient à transporter
+      <lb/>les précedens n’est pas transferée au Corps <formula>A</formula> ou <formula>B</formula>, puisqu’elle se depense à transporter
+      <lb/>les autres ressorts.</p>
+  <p><lb/>Touchant les Arguments des <rs key="biblio_5MVQ5CQI" type="biblio"><abbr>Chap.</abbr> 8<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> 9</rs>, je n’ai pas vû qu’on m’ait repliqué
+      <lb/>grand chose. J’ai fait sentir que les objections de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1325550264" type="person">Eames</rs> n’étoient que des petitions
+      <lb/>de principe, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> l’on en est assez convenu. On a seulement dit qu’il y avoit à la vérité
+      <lb/>quelque chose de difficile <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> d’embarassant dans la décomposition de la Direction.</p>
+  <p><lb/>Enfin, Monsieur, on m’a apris qu’on alloit vous répondre pleinement. J’ignore
+    <lb/>encore qui sera l’<rs type="person">Autheur</rs> de cette <rs type="biblio">réponse</rs><note resp="RG" type="editorial">Die angekündigte Gegenschrift ist wahrscheinlich mit Benjamin Robins’ <rs key="biblio_AT4A62U2" type="biblio">Remarks on Bernoullis Discours</rs> zu identifizieren, erschienen im Mai 1728 in The Present State of the Republick of Letters, S. 357–372. Cramer übersendet in seinem <rs key="B_991170514979205501" type="letter">Brief vom 22. Juni 1728</rs> eine französische Übersetzung und nennt Robins als Verfasser.</note>. Mais quand elle paroitra, je vous en
+      <lb/>donnerai avis <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> même copie, si je crois qu’elle en vaille la peine. Ce sera alors le
+    <lb/>tems de refuter aussi pleinement cette <rs key="biblio_AT4A62U2" type="biblio">Replique</rs>, <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> de faire inserer vôtre <rs type="biblio">refutation</rs>
+    <lb/>dans les <rs key="biblio_SSNXBWSP" type="biblio"><abbr>Transact.</abbr><abbr>Philosoph.</abbr></rs> Je ne crois pas qu’on puisse vous le refuser, puisque
+      <lb/>vous aurez été ataqué en personne.</p>
+  <closer><salute>
+      <lb/>Je vous prie de croire qu’on ne peut étre avec plus d’attachement que je le suis<supplied>,</supplied>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Votre très humble <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> très obéissant Serviteur</salute>
+<signed><lb/><rs key="pers_DE-588-11670912X" type="person"><abbr>G<supplied>.</supplied></abbr> Cramer</rs></signed>
+  <dateline><rs key="place_GEO-2643743" type="place">Londres</rs> ce <date when="1728-04-15"><formula>\frac{4}{15}</formula> avril 1728</date></dateline>
+<pb facs="1073645" n="4"/>
+    <address>
+      <addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <abbr>J.</abbr> <rs key="pers_DE-588-118509969" type="person">Bernoulli</rs> Docteur</addrLine>
+      <addrLine>en Medecine, Professeur en Mathe-</addrLine>
+      <addrLine>matiques, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</abbr><supplied>.</supplied>, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</abbr><supplied>.</supplied> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c</abbr><supplied>.</supplied></addrLine>
+      <addrLine><rs key="place_GEO-2661604" type="place">Basle</rs></addrLine></address>
+  </closer>
+</div>
+</body>
+</text></TEI>

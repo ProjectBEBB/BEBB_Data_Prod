@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="B_991170429995605501">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Johann Jacob Scheuchzer. Basel,
+            07. Dezember 1728</title>
+          <title type="alt">000057372</title>
+          <title type="alt">1728-12-07_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob</title>
+          <title level="s">Basler
+            Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_resource_000076">
+            <surname>Mazzei</surname>
+            <forename>Elena</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+            4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170429995605501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170429995605501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Scheuchzer, Johann Jakob (1672-1733) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Kurzes eigenhändiges P.S. auf p.168</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Bernoulli-Wiki</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Abschrift UB Basel L I a 667, Nr. 59</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://www.ub.unibas.ch/bernoulli/index.php/1728-12-07_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob">
+
+          <msIdentifier source="BIBB">
+            <repository>ZB Zürich</repository>
+            <idno type="callNumber">Ms. H 321, pp.167-168</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170429995605501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972406908705504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057372</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bale</origPlace>
+              <date when="1728-12-07">ce 7. Xbre
+              1728</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1728-12-07"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-118607308">Scheuchzer, Johann Jacob</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170429996905501" type="prev"/>
+          <ptr target="B_991170514980105501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Scheuchzer_Johann_Jakob-JohIB" corresp="pers_DE-588-118607308" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>PythonPlaceholderContent</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Kornmann, von Kornmann Geb. &amp;Comp.</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Maître des coches de Strassbourg</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-104179619">Woolhouse, John Thomas</persName>
+            <note type="lebensdaten">(1666-1734)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-24" who="SG">Seitenangaben und Bildzuordnung korrigiert</change>
+        <change when="2024-10">Automatic transformation from the MediaWiki to XML/TEI, documented at
+          <ptr target="https://github.com/ProjectBEBB/BEBB_Data_Prod/tree/main/Documentation/Technical_documentation/Documentation/wikiToTEI.md"/>
+      </change>
+        <change notAfter="2024-08" ana="bernoulliWiki">Created in the MediaWiki <title ref="https://ub-mediawiki.ub.unibas.ch/bernoulli">Basler Edition der
+          Bernoulli-Briefwechsel, herausgegeben von Fritz Nagel und Sulamith Gehr, in Zusammenarbeit
+          mit der Universitätsbibliothek Basel</title> at <ptr target="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/1728-12-07_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob"/>
+      </change>
+        <change>Kollationieren abgeschlossen</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/919461/manifest"/>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorialNote">
+        <head>Editorische Vorbemerkung</head>
+        <p>Dieser Brief wurde ursprünglich für eine frühere Version der BEBB erarbeitet. Diese kann
+          unter dem folgenden <ref target="https://bernoulli.ub.unibas.ch/index.php/1728-12-07_Bernoulli_Johann_I-Scheuchzer_Johann_Jakob">Link</ref> eingesehen werden. Die der Textkonstitution
+          zugrundeliegenden Editionsrichtlinien können <ref
+            target="https://ub-mediawiki.ub.unibas.ch/bernoulli/images/e/e0/Richtlinien_2011.pdf"
+            >hier</ref> eingesehen werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+
+  <p>
+<pb facs="919627" n="167"/> Monsieur et tres honoré Ami Voici enfin la boëte envoyée par
+          Mr. de <rs type="person" key="pers_DE-588-104179619">Woolhouse</rs>, contenant l’étui et le paquet, dont je Vous ai parlé dans ma derniere;
+          Je l’ai reçû hier par le coche de <rs type="place" key="place_GEO-2973783">Strasbourg</rs> sous mon adresse comme Vous voyés, c’est
+          pourquoi je n’ai pas fait difficulté, d’ouvrir cette boëte pour en oter la lettre avec
+          quelque papier que Mr. de <rs type="person" key="pers_DE-588-104179619">Woolhouse</rs> y avoit mis pour moi. Il me marque qu’il a payé le
+          port de cette boëte jusqu’ici; cependant il m’a fallu payer non seulement le port de
+          <rs type="place" key="place_GEO-2973783">Strasbourg</rs> jusques chés nous mais aussi celui de <rs type="place" key="place_GEO-2988507">Paris</rs> à <rs type="place" key="place_GEO-2973783">Strasbourg</rs>, ce qui monte en tout
+          à 1 fl. 20 X, temoin le billet de voiture (frachtzedul) qu’on m’a livré et que je joins
+          ici pour en faire foi. Je ne sçai quelle interpretation je dois donner à la civilité
+          purement verbale avec la quelle Mr. de <rs type="person" key="pers_DE-588-104179619">Woolhouse</rs> me dit que <hi rend="u">toutes les
+            lettres qu’il m’ecrira auront port payé</hi>, car jusques ici toutes les lettres que
+          j’ai reçuës de Lui, ne portant autre chose que des commissions dont il me chargeoit, m’ont
+          couté leurs ports, sans qu’il en ait franchi aucune. Si Mr. <rs type="person" key="pers_DE-588-104179619">Woolhouse</rs> veut que je continue
+          à executer ses commissions, comme il m’en prie, il seroit bien juste, que cela se fit au
+          moins sans mes depens, surtout lorsque ses commissions regardent des gens qui me sont
+          inconnus: Car quand il s’agit de Vous ou d’autres Amis, je me ferai toujours un grand
+          plaisir d’executer ses ordres, etant tres sincerement Monsieur Votre tr. humb. et tr. ob.
+            servt.<hi rend="sup">r</hi> J. Bernoulli Bale ce 7. Xbre 1728. t. s. v. p. <pb facs="919628" n="168"/> P. S. Aprés cette lettre ecrite j’ai envoyé chés le Maitre du
+          coche de <rs type="place" key="place_GEO-2973783">Strasbourg</rs>, pour lui dire que 2 livres de France ne font pas un florin de notre
+          argent mais seulement 48 X, ce qu’ayant reconnu il m’a renvoyé 12 X; ensorte que le port
+          entier n’est que d’un florin et 8 X. <pb facs="919631" n="171"/> à Monsieur Monsieur
+          Bernuilly à Basle <table>
+            <row>
+              <cell> </cell>
+              <cell> </cell>
+              <cell> </cell>
+            </row>
+            <row>
+              <cell> </cell>
+              <cell> </cell>
+              <cell> </cell>
+              <cell> X </cell>
+            </row>
+            <row>
+              <cell> fracht </cell>
+              <cell> fl. </cell>
+              <cell> - </cell>
+              <cell> 20 </cell>
+            </row>
+            <row>
+              <cell> Außlaag </cell>
+              <cell> " </cell>
+              <cell> 1 </cell>
+              <cell> </cell>
+            </row>
+            <row>
+              <cell> </cell>
+              <cell> fl. </cell>
+              <cell> 1. </cell>
+              <cell> 20 = </cell>
+            </row>
+          </table>
+<pb facs="919632" n="172-173"/> Straßburg Ady d. 30 9.<hi rend="sup">ber</hi> 1728 Monsieur
+          Hiemit im Nahmen und Geleidt Gottes sende dem Herren durch die ord. land kutsch hierunden
+          verzeichnete Güter, die geliebe in rechter Zeit zu empfangen und nach richtiger wohl
+          conditionnirter Liefferung unten stehende Fracht davon bezahlen, Gott begleits, in dessen
+          gnädigen Schutz uns wohl befohlen. D. Hr. Dw. 1 kistel mit dessen addressa Von welchem
+          nach wohl Condit. liefferung billige fracht zu bezahlen, wie auch zwey livres hiesige
+          wehrung so wür für unsere Spesen darauf praevaliert, und dem willen Monsieur Woulhouze in
+          <rs type="place" key="place_GEO-2988507">Paris</rs> darmit nach zu kommen geliebe <rs type="organisation" key="org_resource_000013">Kornmann gebr. &amp; Comp.</rs></p>
+      </div>
+<pb facs="919633" n="174" type="empty"/>
+    </body>
+  </text>
+</TEI>

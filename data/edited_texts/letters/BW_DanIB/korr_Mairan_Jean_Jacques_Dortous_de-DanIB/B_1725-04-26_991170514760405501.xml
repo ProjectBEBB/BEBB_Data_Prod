@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514760405501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Daniel I Bernoulli an Jean Jacques de Mairan. Basel, 26. April 1725</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_f500_0001">
+            <surname>Waldner</surname>
+            <forename>Simon</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514760405501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514760405501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+        <note type="relatedItem">
+          <p n="MARC-534">Original 1952 im Besitz des Antiquariats C.F. Roux-Devillas, Paris, Kat. N.S. No.30 (Angabe im Briefkatalog der UB Basel)</p>
+          <p n="MARC-544">Vorlage für die Fotokopie unter Signatur L Ia 661, Nr.14</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 53:Nr.4</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514760405501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432847105504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055187</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 Bl.<dimensions unit="cm"><height/><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Bâle</origPlace>
+              <date when="1725-04-26">ce 26 avril 1725</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1725-04-26"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-11931035X">Mairan, Jean Jacques de</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170429994005501" type="prev"/>
+          <ptr target="B_991170429993405501" type="next"/>
+          <ptr target="BW_DanIB" corresp="pers_DE-588-118656503" type="Briefwechsel"/>
+          <ptr target="korr_Mairan_Jean_Jacques_Dortous_de-DanIB" corresp="pers_DE-588-11931035X" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person/>
+        </listPerson>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-04" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2026-05-04" who="RG">NER Ergänzung 2.0</change>
+        <change when="2026-05-04" who="RG">NER Ergänzung 1.0</change>
+        <change when="2026-05-04" who="RG">NER Erkennung</change>
+        <change when="2026-03-23" who="SG SW">Kollationieren abgeschlossen</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="http://fakeURL.com"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+<pb/>
+
+  <note hand="unknown"><date>26 avril 1725</date>.</note>
+  <opener><lb/>Monsieur</opener>
+  <p><lb/>J’ai <choice><orig>eté</orig><reg>été</reg></choice> agreablement surpris en apprenant à
+      <lb/>mon arrivée à <rs key="place_GEO-2661604" type="place">Bâle</rs> l’heureux succés de ma
+      <lb/><rs type="biblio">piece sur la question des clepsidres</rs>: Comme
+      <lb/>rien ne peut egaler le jugement penetrant
+      <lb/>de Votre Illustre <rs type="organisation">Academie</rs>, rien aussi n’au<pc type="hyphenation">-</pc><lb break="no"/>roit <choice><orig>pú</orig><reg>pu</reg></choice> m’arriver de plus glorieux, que
+      <lb/>d’etre preferé par la meme à tant d’au<pc type="hyphenation">-</pc><lb break="no"/>tres concurrens. <space type="paragraph"/> Permettez<supplied>-</supplied>moi, Monsieur,
+      <lb/>qu’en Vous temoignant ma joye, je
+      <lb/>Vous fasse aussi mes remercimens tres-hum<pc type="hyphenation">-</pc><lb break="no"/>bles de tous les bons offices, que Vous m’avez
+      <lb/>faits dans cette <choice><sic>occasions</sic><corr>occasion</corr></choice>, et auxquels j’at<pc type="hyphenation">-</pc><lb break="no"/>tribue la plus grande partie de ma
+      <lb/>reuïssite. <space type="paragraph"/> Je Vous supplie, Monsieur, d’as<pc type="hyphenation">-</pc><lb break="no"/>seurer <rs type="person">Messieurs vos Collegues</rs> de mes tres-
+<pb/>
+      <lb break="no"/>humbles respects et de Leur dire, combien je
+      <lb/>suis sensible à l’honneur, qu’ils viennent de
+      <lb/>me faire; Si l’<rs type="organisation">Academie</rs> trouvoit ma
+      <lb/><rs type="biblio">piece</rs> digne d’etre imprimée, j’oserois bien
+      <lb/>Vous prier encore de vouloir y corriger
+      <lb/>auparavant les fautes de langue les plus
+      <lb/>grossieres et les expressions les moins françoises.</p>
+  <closer><lb/>Je suis avec tout le respect, qui Vous
+      <lb/>est dû<supplied>,</supplied>
+      <lb/>Monsieur<supplied>,</supplied>
+      <lb/>Votre tres humble et tres-
+      <lb break="no"/>obeïssant Serviteur
+      <lb/><signed><rs key="pers_DE-588-118656503" type="person">Daniel Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs></signed>
+      <lb/><dateline><rs key="place_GEO-2661604" type="place">Bâle</rs> ce <date>26 avril
+      <lb/>1725</date>.</dateline>
+<pb/>
+    <address><addrLine>A Monsieur</addrLine>
+      <addrLine>Monsieur <rs key="pers_DE-588-11931035X" type="person">De Mairan</rs></addrLine>
+      <addrLine>De l’<rs type="organisation">Academie Royale</rs></addrLine>
+      <addrLine>des Sciences</addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs key="place_GEO-2988507" type="place">Paris</rs>.</addrLine>
+    </address>
+  </closer>
+</div>
+</body>
+</text>
+</TEI>

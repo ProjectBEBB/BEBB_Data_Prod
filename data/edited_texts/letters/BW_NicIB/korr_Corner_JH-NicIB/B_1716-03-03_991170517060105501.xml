@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517060105501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">J.H. Corner an Nicolaus I Bernoulli. Lausanne,
+                        03. März 1716</title>
+          <title type="alt">1716.03.03: Corner, J.H. () an
+                        Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059050</title>
+          <title type="alt">1716-03-03_Corner_J_H-Bernoulli_Nicolaus</title>
+          <title level="s">Basler
+                        Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA
+                        4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517060105501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517060105501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs>
+                    (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Corner, J.H. </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24291">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.49 u. 49a</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517060105501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433694905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059050</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>2 S.<dimensions unit="cm"><height>22,5</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+            <accMat>Beilage (2 Bl.)</accMat>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Lausanne</origPlace>
+              <date when="1716-03-03">ce 3.e Mars
+                                1716</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="no_GND">Corner, J.H.</persName>
+          <placeName key="place_GEO-2659994" ref="https://d-nb.info/gnd/4034750-3">Lausanne</placeName>
+          <date when="1716-03-03"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517060405501" type="prev"/>
+          <ptr target="B_991170517059605501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Corner_JH-NicIB" corresp="pers_resource_000018" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1069608270">Treytorrens, François-Frédéric de</persName>
+            <note type="lebensdaten">(1687-1737)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-04-27" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-10-09" who="RG">Personen und Orte ausgezeichnet</change>
+        <change when="2025-10-09" who="RG">Zeilabstände eingefügt</change>
+        <change when="2025-10-09" who="RG">Seitenzahlen, Briefstruktur</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+    <facsimile>
+        <graphic url="https://www.e-manuscripta.ch/i3f/v20/1063272/manifest"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+<pb facs="1063273" n="1"/>
+  <opener>
+                    <dateline>
+      <lb/>A <rs key="place_GEO-2659994" type="place">Lausanne</rs> ce <date when="1716-03-03">3.<hi rend="sup">e</hi> Mars 1716</date>
+                    </dateline>
+                    <salute>
+      <lb/>Monsieur
+                    </salute>
+  </opener>
+  <p>
+      <lb/>Voici le modele de deux Tables par le moien des quelles on peut trouver
+      <lb/>tout d’un coup le produit d’autant de nombres entiers qu’on voudra; Le
+      <lb/>quotient d’un nombre entier quelconque, divisé par un autre nombre.
+      <lb/>La Racine quarrée, cubique, <abbr>etc.</abbr> d’un nombre entier pris à volonté.
+      <lb/>On pouroit encor par leur moien reduire tout d’un coup deux ou plu<pc type="hyphenation">-</pc><lb break="no"/>sieurs nombres entiers à leurs moindres termes, une racine sourde
+      <lb/>à sa plus simple expression; ajouter ensemble deux ou plusieurs
+      <lb/>racines sourdes commensurables <abbr>etc</abbr>.
+  </p>
+  <p>Ces deux Tables sont très aisées
+      <lb/>à calculer, et on pouroit disposer les nombres ensorte qu’étant
+      <lb/>poussé<subst><del>e</del><add>s</add></subst> jusques à un milion, elles occuperoient un Volume moin<pc type="hyphenation">-</pc><lb break="no"/>dre que celui des Tables des Logarythmes, et elles seroient exactes
+      <lb/>dans toute la rigueur geometrique. Celui qui les a inventées
+<pb facs="1063274" n="2" type="empty"/>
+<pb facs="1063275" n="3"/>
+      <lb/>est un de mes amys qui s’appelle de <rs key="pers_DE-588-1069608270" type="person">Treytorrens</rs>; c’est un jeune homme
+      <lb/>d’un grand merite; il s’est poussé dans les mathematiques aussi loin qu’aucun
+      <lb/>autre <add>de son âge</add>; et les connoissances qu’il en a sont très solides, selon le jugement des
+      <lb/>personnes habiles dans cett’Etude. Il est resolu d’aller à <rs key="place_GEO-2988507" type="place">Paris</rs> dans une couple
+      <lb/>de mois, où il restera pendant quéque tems. Il m’a chargé de vous faire
+      <lb/>ses honneurs, quoiqu’il n’ait pas l’avantage d’étre connu de <add>vous</add>; cependant
+      <lb/>il m’a dit qu’il vous connoissoit par quéques pieces de vôtre facon qu’il a vues.
+      <lb/>Si vous voulez luy accorder vôtre amitié, vous ne l’accorderez pas à une
+      <lb/>personne qui en sera indigne; c’est de quoi je vous puis garantir. Souffrez
+      <lb/>donc Monsieur que je vous la demande pour lui; et daignez me reçevoir
+      <lb/>au nombre de vos Disciples; c’est la grace que desire celui qui est avec
+      <lb/>une parfaite estime
+  </p>
+  <closer>
+                    <salute>
+      <lb/>Monsieur
+      <lb/>Vôtre tres humble et très
+      <lb/>obeissant Serviteur
+                    </salute>
+                    <signed>
+      <lb/><rs key="pers_resource_000018" type="person"><abbr>J<supplied>.</supplied></abbr> <abbr>H<supplied>.</supplied></abbr> Corner</rs>
+      <lb/>chez <abbr>M.<hi rend="sup">r</hi></abbr> le <rs type="person">Banderet Seigneur</rs></signed>
+  </closer>
+<pb facs="1063276" n="4" type="empty"/>
+<pb facs="1063277" n="5" type="empty"/>
+<pb facs="1063278" n="6"/>
+<pb facs="1063279" n="7"/>
+<pb facs="1063280" n="8" type="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

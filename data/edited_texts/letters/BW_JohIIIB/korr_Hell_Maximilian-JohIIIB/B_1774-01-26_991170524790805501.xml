@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xml:id="B_991170524790805501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Maximilian Hell an Johann III Bernoulli. Wien, 26. Januar 1774</title>
+          <title type="alt">1774.01.26: Hell, Maximilian (1720-1792) an Bernoulli, Johann III (1744-1807)</title>
+          <title type="alt">000079636</title>
+          <title type="alt">1774-01-26_Hell_Maximilian-Bernoulli_Johann_III</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170524790805501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170524790805501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-116170654" type="person">Johann III Bernoulli</rs> (1744-1807)</title>
+        <title level="s" type="Korrespondenz">Hell, Maximilian (1720-1792)</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="generalRemark"/>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-544">Konzept des Antwortbriefes, siehe Signatur L Ia 694:Bl.155v</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-128978">
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 694:Bl.155</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170524790805501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972440051905504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000079636</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>1 Bl.<dimensions unit="cm"><height>23</height><width/></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>[Wien]</origPlace>
+              <date when="1774-01-26">die 26 Jan. 1774</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="pers_DE-588-119502208">Hell, Maximilian</persName>
+          <placeName key="place_GEO-2761369" ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+          <date when="1774-01-26">die 26 Jan. 1774</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-116170654">Bernoulli, Johann III</persName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170524790905501" type="prev"/>
+          <ptr target="B_991170524790705501" type="next"/>
+          <ptr target="BW_JohIIIB" corresp="pers_DE-588-116170654" type="Briefwechsel"/>
+          <ptr target="korr_Hell_Maximilian-JohIIIB" corresp="pers_DE-588-119502208" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="lat">Lateinisch</language>
+      </langUsage>
+      <abstract>
+        <p>Bl. 155v: Konzept des Antwortbriefes, Brief an [Maximilian Hell] von [Johann III Bernoulli]</p>
+      </abstract>
+      <abstract xml:lang="eng">
+        <p>Maximilian Hell sends Johann III Bernoulli the latest Vienna ephemerides. He declares the controversy over the solar parallax with Lexell and Lalande exhausted by the appendix, which he believes demonstrates both the accuracy of his Vardø observation and the value of the solar parallax obtained from the combined observations. He emphasises the close interdependence between his observation and Green's observation in Tahiti, challenging Pingré's acceptance of Hell's result alongside his rejection of Green's. Hell then describes the severe disruption caused to his work by the suppression of the Jesuit order: collaborators and institutional support have been lost, expenses and administrative burdens have increased, and his research is disordered. Despite this, he expresses confidence that assistance will arrive and wishes Bernoulli good health.</p>
+
+        <p>Maximilian Hell sendet Johann III Bernoulli die neuesten Wiener Ephemeriden. Er erklärt den Streit mit Lexell und Lalande über die Sonnenparallaxe durch den Anhang für abgeschlossen. Dieser beweise sowohl die Genauigkeit seiner Beobachtung in Vardø als auch den aus der Gesamtheit der Beobachtungen gewonnenen Wert der Sonnenparallaxe. Hell betont die enge Abhängigkeit zwischen seiner Beobachtung und Greens Beobachtung auf Tahiti und wendet sich gegen Pingrés Annahme von Hells Ergebnis bei gleichzeitiger Verwerfung von Greens Beobachtung. Anschliessend beschreibt Hell die schweren Folgen der Aufhebung des Jesuitenordens für seine Arbeit: Mitarbeiter und institutionelle Unterstützung sind weggefallen, Ausgaben und Verwaltungslasten gestiegen und seine Forschungen in Unordnung geraten. Dennoch ist er zuversichtlich, Hilfe zu erhalten, und wünscht Bernoulli gute Gesundheit.</p>
+      </abstract>
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-11-04" who="SG">Beschriebene Rückseite als Antwortkonzept ausgewiesen.</change>
+        <change when="2026-10-25" who="SG">Anreden und Anfangsstruktur am Manuskript geprüft</change>
+        <change when="2026-10-09" who="SG">Literaturgestützten Grundkommentierungsdurchgang durchgeführt, sichere Registerverknüpfungen ergänzt und belegte Erläuterungen als XML-Kommentare vorbereitet; offene Identifikations-, Register- und Bibliographiefälle im Arbeitsdossier dokumentiert. Redaktionelle Abnahme ausstehend.</change>
+        <change when="2026-09-15" who="SG">Deutsche und englische Arbeitsübersetzungen erstellt, sprachlich überarbeitet und mit dem kollationierten Ausgangstext abgeglichen; Fachbegriffe und offene Aussagen mit XML-Kommentaren versehen. Redaktionelle Prüfung ausstehend.</change>
+        <change when="2026-09-02" who="SG">NER</change>
+        <change when="2026-08-28" who="CG SG">Kollationieren abgeschlossen</change>
+        <change when="2026-08-18" who="SG">Haupttitel und Quellenbezeichnung im TEI-Header an das BEBB-Muster angepasst.</change>
+        <change when="2026-07-28" who="SG">In TEI ausgezeichnet.</change>
+        <change when="2026-07-28" who="SG">Maschinell transkribiert.</change>
+        <change when="2025-05-09">Provisorischer Arbeitsheader aus dem swisscollections-MARCXML erzeugt.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://www.e-manuscripta.ch/i3f/v20/3529702/manifest"/>
+  </facsimile>
+  <text>
+    <front></front>
+    <body>
+<div type="letter">
+
+
+
+
+
+
+<pb facs="3529703" n="155r"/>
+<opener rend="center"><salute rend="center">
+<lb/>Illustri, celeberrimo, ac Doctissimo
+<lb/>Domino <rs type="person" key="pers_DE-588-116170654">Bernoullio</rs> Astronomo
+<lb/>longe profundissimo.
+    <lb type="forced"/>
+<lb/><rs type="person" key="pers_DE-588-119502208">Maximilianus Hell</rs> <abbr>S. P. D.</abbr>
+</salute></opener>
+<p><lb/>Pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sens <rs type="biblio">Exemplar Ephemeridum</rs> amico, ut soles, animo, accipe.
+<lb/>In Appendice Materiam de Parallaxi solis, deque litibus litterari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s
+
+<lb/>me inter et <abbr>D.</abbr> <rs type="person" key="pers_DE-588-100189180">Lexell</rs>, atque <abbr>D.</abbr> <rs type="person" key="pers_DE-588-104234059">de la Lande</rs> penitus exhausi, nec <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me
+<lb/>quidquam hac super materia deinceps scribetur; mihi satis est demon<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>str<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice>sse, et accurationem observationis me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, et quantitatem Parallaxeos
+<lb/>ex universa observationum omnium massa, non aliam exprimi, quam
+<lb/>illam, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me anno pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>terlapso proposita est; illud mirabile: quod
+<lb/>per novam hanc discussionem tantam me<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> observationis cum observa<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>tione Domini <rs type="person" key="pers_DE-588-1416938397">Green</rs> <rs type="place" key="place_WEI-tahiti">Taitensi</rs> connexionem invenerim, ut si una harum
+<lb/>exacta declaretur, altera nequeat esse erronea, aut si una sit erronea,
+<lb/>altera nequeat esse exacta; quod argumentum pugnat contra sententiam
+<lb/>Domini <rs type="person" key="pers_DE-588-104224533"><choice><orig>Pingrè</orig><reg>Pingré</reg></choice></rs>, qui meam declarat exactam, Domini <rs type="person" key="pers_DE-588-1416938397">Green</rs> contra esse
+<lb/>vult erroneam, exactamque Domini <rs type="person" key="pers_DE-588-118522027">Cook</rs> observationem.
+</p>
+
+<p>
+<lb/><rs key="org_DE-588-80092-2" type="organisation">Ordinis mei</rs> inexspectata, et incredibilis vicissitudo, in meos quoque labores
+<lb/>maximam induxit perturbationem; nec scio, quandonam in hac rerum
+<lb/><rs key="org_DE-588-80092-2" type="organisation">Societatis</rs> perturbatione, suum nanciscentur ordinem. Soci<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice> laborum dispersi,
+<lb/>adjumenta alia mihi hactenus <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> <rs key="org_DE-588-80092-2" type="organisation">Societate</rs> subministrata, adempta, rebus
+<lb/>necessari<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice>s nondum provisus, h<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>c, et similia t<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dio me maximo afficiunt.
+<lb/>Sed annum hunc mihi blandior propitiorem, unde unde autem auxilium
+<lb/>rebus meis venturum sit, nondum quidem scio, attamen venturum certus
+  <lb/>credo. Valetudinem Tibi ex animo precor optimam, qua beatus la<pc type="hyphenation">-</pc><lb break="no"/><pc type="hyphenation">-</pc>boribus Tuis excellentibus Astronomiam promovere porro pergas; </p>
+
+          <closer><salute>vale,
+<lb/>et doctissimo <rs type="person" key="pers_DE-588-116215372">Bodeo</rs> salutem <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> me impertire, vale iterum, iterumque.
+</salute><dateline><lb/>Ex <rs key="org_DE-588-90532-X" type="organisation">observatorio <abbr>C<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>s.</abbr> Regio</rs>
+<lb/><date when="1774-01-26">die 26 <abbr>Jan.</abbr> 1774</date>.
+</dateline></closer>
+<pb facs="3529704" n="155v" type="archival"/>
+</div>
+
+
+    </body>
+  </text>
+</TEI>

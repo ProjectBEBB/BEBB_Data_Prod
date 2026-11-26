@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170517018905501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Pierre Rémond de Montmort an Nicolaus I Bernoulli. Montmort, 31. Dezember 1718</title>
+          <title type="alt">1718.12.31: Montmort, Pierre Rémond de (1678-1719) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000059358</title>
+          <title type="alt">1718-12-31_Montmort_Pierre_Remond_de-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170517018905501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170517018905501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-119166895" type="person">Nicolaus I Bernoulli</rs> (1687-1759)</title>
+        <title level="s" type="Korrespondenz">Montmort, Pierre Rémond de (1678-1719) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Am Briefkopf eigenhändige Bemerkung von Nic.I B. "Empfg. den 6. d. fevr. 1719"</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Spiesstranskription</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-39637">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:2 Nr.204</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170517018905501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433689805504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000059358</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>12 S.<dimensions unit="cm"><height>24</height><width>18</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>A Monmort</origPlace>
+              <date when="1718-12-31">ce dern. Xbre 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/ohneGnd">Montmort</placeName>
+          <date when="1718-12-31"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170517019005501" type="prev"/>
+          <ptr target="B_991170517018805501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Montmort_Pierre_Remond_de-NicIB" corresp="pers_DE-588-117601020" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118509950">Bernoulli, Jakob</persName>
+            <note type="lebensdaten">(1655-1705)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153519720">Birr, Johann Jacob</persName>
+            <note type="lebensdaten">(1677-1765)</note>
+          </person>
+          <person>
+            <persName key="pers_no_GND_id">Cognet, Mlle</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-121009645">Cotes, Roger</persName>
+            <note type="lebensdaten">(1682-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-103127895">Crabtree, William</persName>
+            <note type="lebensdaten">(1610-1644)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-128644974">Derham, William</persName>
+            <note type="lebensdaten">(1657-1735)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639056">Fontenelle, Bernard Le Bovier de</persName>
+            <note type="lebensdaten">(1657-1757)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1031350314">Gascoigne, William</persName>
+            <note type="lebensdaten">(1612-1644)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118639749">Huygens, Christiaan</persName>
+            <note type="lebensdaten">(1629-1695)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1055631054">Jones, William</persName>
+            <note type="lebensdaten">(1675-1749)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119507978">Jurin, James</persName>
+            <note type="lebensdaten">(1684-1750)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11751733X">Machin, John</persName>
+            <note type="lebensdaten">(1680-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117586765">Moivre, Abraham de</persName>
+            <note type="lebensdaten">(1667-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1156687535">Cuvier de Montsoury, Pierre</persName>
+            <note type="lebensdaten">(-1751)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1155965140">Apoil de Romicourt, Françoise Madeleine</persName>
+            <note type="lebensdaten">(no lifespan info)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119543885">Riccati, Jacopo</persName>
+            <note type="lebensdaten">(1676-1754)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117260266">Stirling, James</persName>
+            <note type="lebensdaten">(1692-1770)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119062372">Varignon, Pierre</persName>
+            <note type="lebensdaten">(1654-1722)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-115598157X">Waldegrave, Francis</persName>
+            <note type="lebensdaten">(ca. 18. Jahrhundert)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-10-13" who="SG">Deutsche und englische Arbeitsübersetzungen
+          ergänzt (Montmort-Korrespondenz, Gruppe 5); am kollationierten französischen
+          Editionstext durchgesehen. Mathematische und sprachliche Prüfstellen in internen
+          XML-Kommentaren festgehalten. Übersetzungen intern und ohne redaktionelle Freigabe;
+          Ausgangstext unverändert.</change>
+        <change when="2026-10-13" who="SG">NER und Vorbereitung für die Grundkommentierung: sichere Registerverlinkungen, lokale Recherche- und Kontextkommentare sowie Wandtafel-Prüfvorschläge; Brieftext und Formeln unverändert</change>
+        <change when="2026-05-13" who="RG">Kontrolle Tags Personen und Orte</change>
+        <change when="2025-12-15" who="SG FN">Kollationieren abgeschlossen</change>
+        <change when="2025-12-12" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2025-12-09" who="SG FN">Kollationieren weitergeführt, Tagging</change>
+        <change when="2025-12-04" who="SG FN">Kollationieren weitergeführt, Tagging</change>
+        <change when="2025-12-02" who="SG FN">Kollationieren weitergeführt</change>
+        <change when="2025-12-02" who="SG">Tagging</change>
+        <change when="2025-12-01" who="SG FN">Kollationieren begonnen</change>
+        <change when="2025-12-01" who="SG">Tagging</change>
+        <change when="2025-11-28" who="JB">Bis Ende s. 7 Formeln überarbeitet.</change>
+        <change when="2025-11-26" who="SG">Teilweise Tagging, Grundkommentieren</change>
+        <change when="2025-11-24" who="JB">Seitenumbrüche eingefügt.</change>
+        <change when="2022-09-26" who="MS">correspContext</change>
+        <change when="2022-09-21" who="MS">Briefstruktur, IIIF-Manifest, Personen, Orte ausgezeichnet</change>
+        <change when="2020-06-03" who="MS">Mathe getagt, Platzhalter eingesetzt, Personenauflistung</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1361933/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1361934" n="1"/>
+  <opener><dateline>A <rs key="place_GEO-2992218" type="place">Monmort</rs> ce <date when="1718-12-31"><abbr>dern<supplied>.</supplied></abbr> <abbr><subst><del><gap/></del><add>X</add></subst><hi rend="sup">bre</hi></abbr> 1718</date>.</dateline>
+  </opener>
+  <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> <abbr>den</abbr> <date when="1719-02-06">6.<hi rend="sup">ten</hi> <abbr>febr.</abbr> 1719.</date></foreign></note>
+  <p><lb/><choice><orig>enfin</orig><reg>Enfin</reg></choice><supplied>,</supplied> Mon cher Monsieur<supplied>,</supplied> mes <rs type="lostletter">lettres</rs> sont donc perdues et en particulier <rs type="lostletter">celle</rs> <choice><orig>ou</orig><reg>où</reg></choice> je vous rendois
+      <lb/>compte si au long du <rs type="biblio" key="biblio_WRTZNU9Z">livre</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs><supplied></supplied> quoyque je me souvienne de l<supplied>’</supplied>avoir fait mettre <choice><orig>a</orig><reg>à</reg></choice> la poste par
+      <lb/>une <rs type="person">personne</rs> <choice><orig>sure</orig><reg>sûre</reg></choice>. J<supplied>’</supplied>en serois <choice><orig>console</orig><reg>consolé</reg></choice> si j<supplied>’</supplied>en avois des minutes<supplied>,</supplied> mais je n<supplied>’</supplied>ai pu retrouver que la 1.<hi rend="sup">ere</hi> feuille
+      <lb/><add>de la <rs type="lostletter">lettre</rs></add> que je vous écrivis au <date>commencement de cette année</date><supplied>,</supplied> dans laquelle j<supplied>’</supplied>examinois et resolvois les <abbr>prob.</abbr> que vous
+      <lb/>m<supplied>’</supplied>avez autrefois <rs type="letter">proposé</rs> page 402<choice><orig>.</orig><reg>,</reg></choice> <rs type="biblio"><choice><orig>essay</orig><reg>Essay</reg></choice> d’an.</rs><supplied>,</supplied> en sorte qu<supplied>’</supplied>il y aura pour moy non seulement peine de recrire<supplied>,</supplied>
+      <lb/>mais aussi peine de reinventer. L’assurance que vous me donnez que mes lettres vous font plaisir<supplied>,</supplied> me rendra
+      <lb/>cette peine legere<supplied>,</supplied> mais il me faudra un peu de temps, car outre que je suis assez paresseux<supplied>,</supplied> j<supplied>’</supplied>ay de la
+      <lb/>peine <choice><orig>a</orig><reg>à</reg></choice> remettre dans ma teste ce qui en est une fois sorty. Je vais dans cette lettre vous apprendre
+      <lb/>touttes les nouvelles que je <choice><orig>scai</orig><reg>sçai</reg></choice><supplied>.</supplied> Je finirai par les remarques que je vous ai promises sur la <choice><abbr>ppoon</abbr><reg>proposition</reg></choice> 24 du
+      <lb/><rs type="biblio"><choice><orig>traitte</orig><reg>traitté</reg></choice></rs> de feu <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509950" type="person">oncle</rs> <choice><orig>de</orig><reg>De</reg></choice> seriebus infinitis.</p>
+  <p>Voicy un beau <abbr>prob.</abbr> que <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> propose aux <rs type="person"><subst><del><gap/></del><add>G</add></subst>eometres</rs> <quote><hi rend="u">trouver <subst><del><gap/></del><add>p</add></subst>ar la quadrature <subst><del><gap/></del><add>d</add></subst>u cercle
+      <lb/>ou de l’Hyperbole la fluente de <choice><orig><formula>\frac{\dot{z}z^{\frac{\delta}{\lambda} q-1}}{e+fzq+gz^{2q}}</formula></orig><reg><formula>\frac{\dot{z}z^{\frac{\delta}{\lambda} q-1}}{e+fzq+gz^{2q}}</formula></reg></choice><supplied>,</supplied> <choice><orig>ou</orig><reg>où</reg></choice> <formula>e</formula>, <formula>f</formula>, <formula>g</formula> sont des <choice><orig>quantites</orig><reg>quantités</reg></choice> constantes, <formula>z</formula> variable,
+      <lb/><formula>\delta</formula><choice><orig>,</orig><reg type="deleted"></reg></choice> un nombre entier affirmatif ou negatif et <formula>\lambda</formula> un nombre quelconque de cette progression
+      <lb/>2, 4, 8, 16, 32, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></hi></quote><supplied>,</supplied> et il adjoute<supplied>:</supplied> <quote rend="unmarked"><foreign xml:lang="eng">This I propose to them to do without any limitation by impossible
+      <lb/>roots, it may be done more than one way tho <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs> in the <rs type="biblio"><rs key="place_GEO-2879139" type="place">Leipsic</rs> <abbr><choice><orig>act.</orig><reg>Act.</reg></choice></abbr> f<subst><del><gap/></del><add>or</add></subst> 1702<supplied>,</supplied> page 218
+      <lb/>et 219</rs><supplied>,</supplied> has undertaken to demonstrate the contrary in the case of <del><gap/></del><formula>\frac{dx}{x^{4}+a^{4}}</formula><supplied>,</supplied> wich is the
+      <lb/>simplest of all next to <choice><orig><formula>\frac{dx}{xx+aa}</formula></orig><reg><formula>\frac{dx}{x^{2}+a^{2}}</formula></reg></choice><supplied>,</supplied> which is the fluxion of an arc itself<supplied>,</supplied> the same thing may be
+      <lb/>done even in this form <choice><orig><formula>z^{\frac{\delta}{\lambda}q-1}</formula></orig><reg><formula>z^{\frac{\delta}{\lambda}q-1}</formula></reg></choice></foreign> divisé par <foreign xml:lang="eng"><formula>e + fz^{q} + gz^{2q} + hz^{3q}</formula><supplied>,</supplied> but it is enough to propose
+      <lb/>the first case.</foreign></quote></p>
+  <p><lb/>Ce <abbr>prob.</abbr> est util et tres digne de la curiosité de vos <choice><orig>scavants</orig><reg>sçavants</reg></choice> d’<rs key="place_KON-italie" type="place">Italie</rs><choice><orig>.</orig><reg>,</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> qui vous le proposerez<supplied>,</supplied>
+      <lb/>s<supplied>’</supplied>il vous plaist<supplied>,</supplied> sans oublier <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117260266" type="person">Sterling</rs>. <choice><orig>en</orig><reg>En</reg></choice> decomposant cette quantité differentielle
+      <lb/><formula>\frac{x^{8}\,dx}{x^{8}+1}</formula> on la trouve egale <choice><orig>a</orig><reg>à</reg></choice> ces 8<choice><orig>.</orig><reg>:</reg></choice> <choice><orig><formula ana="corr">\frac{x\,dx}{8}\times\frac{1}{x+\sqrt{-\sqrt{-\sqrt{}-1}}}+\frac{1}{x-\sqrt{-\sqrt{-\sqrt{-1}}}}+\frac{1}{x+\sqrt[4]{-\sqrt{-1}}}+\frac{1}{x-\sqrt[4]{-\sqrt{-1}}}+\frac{1}{x+\sqrt[8]{-1}}+\frac{1}{x-\sqrt[8]{}-1}+\frac{1}{x+\sqrt{-\sqrt[4]{-1}}}+\frac{1}{x-\sqrt{-\sqrt[4]{}-1}}</formula></orig><reg><formula>\frac{x\,dx}{8}\,\frac{1}{x+\sqrt{-\sqrt{-\sqrt{-1}}}}+\frac{1}{x-\sqrt{-\sqrt{-\sqrt{-1}}}}+\frac{1}{x+\sqrt[4]{-\sqrt{-1}}}+\frac{1}{x-\sqrt[4]{-\sqrt{-1}}}+\frac{1}{x+\sqrt[8]{-1}}+\frac{1}{x-\sqrt[8]{-1}}+\frac{1}{x+\sqrt{-\sqrt[4]{-1}}}+\frac{1}{x-\sqrt{-\sqrt[4]{-1}}}</formula></reg></choice><supplied>.</supplied> <choice><orig>que</orig><reg>Que</reg></choice> de paradoxes fournissent ces expressions<supplied>!</supplied>
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> nous éclaircira tous ces mysteres<supplied>.</supplied></p>
+  <p><lb/>J<supplied>’</supplied>aurai l’honneur d<supplied>’</supplied><rs type="letter">ecrire</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> pour le remercier des beaux <rs type="biblio">livres</rs> qu<supplied>’</supplied>il m<supplied>’</supplied>a envoyé<supplied>,</supplied>
+      <lb/>aussitost que je les aurai lus. Je les ay envoyé <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs> pour les faire relier.</p>
+  <p><lb/>Vous vous souvenez<supplied>,</supplied> <abbr>M.</abbr><supplied>,</supplied> que dans vostre <rs type="letter">lettre</rs> du <date>30 Juillet</date> vous me chargeastes de faire <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs><supplied>,</supplied> <abbr><choice><orig>secr.</orig><reg>Secr.</reg></choice></abbr> de la <rs type="organisation"><abbr><choice><orig>soc</orig><reg>Soc.</reg></choice></abbr> Royalle</rs> d’<rs key="place_VER-englan" type="place"><abbr>Angl.</abbr></rs><supplied>,</supplied> que<supplied>,</supplied> si <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> ne se retractoit de ce qu’il avoit avancé contre
+      <lb/>vous dans son écrit<choice><orig>,</orig><reg type="deleted"/></choice> intitulé <rs type="biblio"><choice><orig>defense</orig><reg>Defense</reg></choice> pour <abbr>M.</abbr> le <abbr>ch.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs></rs><choice><orig>,</orig><reg>,</reg></choice> vous prendriez vos mesures <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr>
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> s<supplied>’</supplied>est <choice><orig>acquitte</orig><reg>acquitté</reg></choice> de la commisssion<supplied>.</supplied> Voicy ce qu’il m<supplied>’</supplied><rs type="letter">ecrivoit</rs> le <date when="1718-11-06">6 <abbr>Nov.</abbr></date> <choice><orig>comme</orig><reg>Comme</reg></choice> vous <choice><orig>scavez</orig><reg>sçavez</reg></choice> l<supplied>’</supplied>angl<unclear reason="lost">ois</unclear> aussi bien que moy<supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice> ce que je crois<supplied>,</supplied> je mettrai icy ses propres termes<supplied>:</supplied></p>
+  <p><lb/><quote type="long"><foreign xml:lang="eng"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>I shall take care to acquaint <abbr>D.</abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs> with his complaint against him<choice><orig>.</orig><reg>,</reg></choice> but I think I have
+      <lb/>heard Sir <rs key="pers_DE-588-118587544" type="person">Isaac Newton</rs> himself complain of <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N.</abbr> Bernoulli</rs> upon account of what <abbr>D.<hi rend="sup">r</hi></abbr>
+      <lb/><rs type="person" key="pers_DE-588-124275087">Keill</rs> charges him with, which (<choice><orig>If</orig><reg>if</reg></choice> <choice><orig>i</orig><reg>I</reg></choice> mistake not) I for publishing in the french <rs type="biblio" key="biblio_5JEJ45VL"><choice><orig>memoires</orig><reg>Memoires</reg></choice>
+      <lb/>for 1711 some <rs type="biblio">reflexions upon a fault</rs></rs> in <abbr>S.</abbr> <rs key="pers_DE-588-118587544" type="person"><abbr>Is.</abbr> Ne<subst><del><gap/></del><add>w</add></subst>ton</rs> <rs type="biblio">book</rs>, after he himself had talk with
+      <lb/><choice><orig>sir</orig><reg>Sir</reg></choice> <rs key="pers_DE-588-118587544" type="person">Isaac</rs> <rs type="biblio">new edition</rs>, it would have lain upon him to justify himself and to have shewn
+      <lb/>that the correction he made of that error was not an effect of his ignorance<supplied>,</supplied> till <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person">Bernoulli</rs>
+      <lb/>oug<subst><del><gap/></del><add>ht</add></subst> either to have suppressed that <rs type="biblio">memoire</rs> or to have taken some notice of what he knew
+      <lb/>more of that matter<supplied>;</supplied> his not doing this<supplied>,</supplied> I believe<supplied>,</supplied> Sir <rs key="pers_DE-588-118587544" type="person">Isaac</rs> takes as a mark of <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person">Bernoul<unclear reason="illegible">li</unclear></rs>
+      <lb/>dislike to him and of the great pleasure he takes to find fault with him; this is all
+      <lb/>I know of the matter, but we shall see what <abbr>D.<hi rend="sup">r</hi></abbr> <rs type="person" key="pers_DE-588-124275087">Keill</rs> will say to it.</foreign></quote></p>
+<pb facs="1361936" n="2"/>
+  <p><lb/><choice><orig>dans</orig><reg>Dans</reg></choice> une <rs type="letter">lettre</rs> que j<supplied>’</supplied>ay <choice><orig>recu</orig><reg>reçu</reg></choice> de <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> depuis quelques jours<supplied>,</supplied> il m<supplied>’</supplied>ecrit ce qui suit<supplied>:</supplied></p>
+  <p><lb/><quote type="long"><foreign xml:lang="eng">I have a <rs type="letter">letter</rs> from <abbr>D<supplied>.</supplied></abbr> <rs type="person" key="pers_DE-588-124275087">Keill</rs><supplied>,</supplied> wherein he desires me to send you his <rs type="biblio">an<subst><del><gap/></del><add>s</add></subst>wer</rs> to what
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N.</abbr> Bernoulli</rs> charges him with<supplied>,</supplied> in <rs type="letter">what you sent</rs> lately to me. I give you <rs type="person"><abbr>D.</abbr></rs> own words<supplied>.</supplied></foreign></quote>
+      <lb/><choice><orig>le</orig><reg>Le</reg></choice> style en est un peu dur et j<supplied>’</supplied>ay hesité si je transcrirois le<add>s</add> lignes suivantes. <choice><orig>les</orig><reg>Les</reg></choice> voicy pourtant<supplied>;</supplied>
+      <lb/>peutestre se<subst><del><gap/></del><add>r</add></subst>iez<choice><orig> </orig><reg>-</reg></choice>vous faché que je les supprimasse. <choice><orig>a</orig><reg>À</reg></choice> l<supplied>’</supplied>avenir j<supplied>’</supplied>aurai soin qu<supplied>’</supplied>il n<supplied>’</supplied>y ait rien dans
+      <lb/>mes lettres qui ne puisse vous faire plaisir.</p>
+  <p><lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><quote type="long"><foreign xml:lang="eng">I wonder at the hard language <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N.</abbr> Bernoulli</rs> gives me, he should be sure of the
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><choice><sic>fait</sic><corr>fact</corr></choice> before he <choice><orig>Bestows</orig><reg>bestows</reg></choice> such all names. I had it from <choice><orig>sir</orig><reg>Sir</reg></choice> <rs key="pers_DE-588-118587544" type="person">Isaac Newton</rs> own mouth. I myself
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>saw a <rs type="biblio">solution</rs> that <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> then gave of the <rs type="biblio">probleme</rs> to <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>Nich.</abbr> Bernoulli</rs><supplied>,</supplied> it was
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>founded on the same principles of infinite serieses. <abbr>M.</abbr> de <rs key="pers_DE-588-117586765" type="person">Moivre</rs> and I believe <abbr>M<supplied>.</supplied></abbr>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><rs key="pers_DE-588-1055631054" type="person">Jones</rs><choice><orig>,</orig><reg type="deleted"/></choice> did like wise see it. <choice><orig>be<subst><del><gap/></del><add>s</add></subst>ides</orig><reg>Besides</reg></choice> <abbr>S<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Isaac Newton</rs> revised that <rs type="biblio">paper</rs>, and if it had been
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>a lye<supplied>,</supplied> he would certainly have told me of it. I will promise to give <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person">Bernoulli</rs>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>5 Pistols for every ly<subst><del><gap/></del><add>e</add></subst> that he can convict me of that I have made; whereas if he
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>pleases<supplied>,</supplied> I can shew him lyes he has made for nothing. I hate lyin<subst><del><gap/></del><add>g</add></subst> so much, that
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>I doe not love <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quivocations and subterfuges, and if ever I am in the wrong (as no
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>man o<subst><del><gap/></del><add>n</add></subst> this side of the <rs key="place_GEB-alpena" type="place">Alps</rs> is infallible) I will freely own it. Pray <del><gap/></del>write
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>to <abbr>M.</abbr> <rs key="pers_DE-588-117601020" type="person">Monmort</rs> and let him know what I say<supplied>.</supplied></foreign></quote></p>
+  <p><lb/>Je vous crois trop philosophe pour vous émouvoir de tout cela au <choice><orig>dela</orig><reg>delà</reg></choice> de ce que vous voudrez
+      <lb/>en estre ému<supplied>.</supplied></p>
+  <p><lb/><abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> m<supplied>’</supplied>a mandé dans plusieurs de ses <rs type="letter">lettres</rs> qu<supplied>’</supplied>il avoit fait tout ce qu<supplied>’</supplied>il avoit pu pour
+      <lb/>persuader <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs type="person" key="pers_DE-588-124275087">Keill</rs> d’entreprendre la solution du <abbr>prob.</abbr> qu<supplied>’</supplied>il a proposé <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs>
+      <lb/><hi rend="u"><quote>Trouver la courbe du projectile dans l’Hyppotese que les resistances soient comme les
+      <lb/><choice><orig>quarres</orig><reg>quarrés</reg></choice> des vitesses</quote></hi><supplied>,</supplied> mais qu’il n<supplied>’</supplied>avoit pas pu en venir <choice><orig>a</orig><reg>à</reg></choice> bout et que <abbr>M.</abbr> <rs type="person" key="pers_DE-588-124275087">Keill</rs> persiste <choice><orig>a</orig><reg>à</reg></choice> dire
+      <lb/>qu<supplied>’</supplied>il ne veut pas mesurer ses forces avec <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs><supplied>.</supplied> Au reste <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> me marque
+      <lb/>dans une de ses <rs type="letter">lettres</rs> du<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <date when="1718-11-06">6 <abbr>Nov.</abbr></date><supplied>,</supplied> qu<supplied>’</supplied>il a resolu ce <abbr>prob.</abbr> et m<supplied>’</supplied>envoye la <rs type="biblio">solution</rs> cachée dans
+      <lb/>ce chiffre tres court<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> (<formula>r^{4} - 1 + 4nr^{2} + 4ur{2}</formula>)<supplied>,</supplied> qu<supplied>’</supplied>il m<supplied>’</supplied>expliquera (dit<choice><orig> </orig><reg>-</reg></choice>il) aussitost que je luy
+      <lb/>aurai mandé avoir entre les mains la <rs type="biblio">solution</rs> de <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs>. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118639749" type="person">Huygens</rs> dans son
+      <lb/><rs type="biblio" key="biblio_EEFDADZC"><choice><orig>traitté</orig><reg>Traitté</reg></choice> de la pesanteur</rs> page 175 dit<supplied>,</supplied> qu’<quote rend="unmarked">il est extremement difficile sinon du tout impossible
+      <lb/>de resoudre ce probleme</quote>. Un pareil aveu d’un homme tel que <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118639749" type="person">Huygens</rs> fait beaucoup d’honneur
+      <lb/>aux soluteurs.</p>
+  <p><lb/>Vous vous souvenez<supplied>,</supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr><supplied>,</supplied> que je vous ai envoyé la <rs type="biblio">solution</rs> de <abbr><choice><orig>m</orig><reg>M</reg></choice><supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> pour ce <abbr>prob.</abbr> <quote><hi rend="u">trouver la courbe</hi>
+      <lb/>des resistances d’un pendule decrivant <del><gap/></del>une cycloide dans l’Hyppotese des resistances <choice><orig>pportionelles</orig><reg>proportionelles</reg></choice>
+      <lb/>aux quarrés des vitesses<supplied>.</supplied> <choice><orig>en</orig><reg>En</reg></choice> voicy une pour l’Hyppotese des resistances <choice><orig>pportionelles</orig><reg>proportionelles</reg></choice> aux  vite<subst><del><gap/></del><add>sses</add></subst></quote>
+      <lb/>qu<supplied>’</supplied>il m<supplied>’</supplied>a prié de vous envoyer de sa part<supplied>.</supplied></p>
+  <p><lb/><quote type="long"><foreign xml:lang="eng"><choice><orig><g ref="#quote">„</g></orig><reg/></choice>I am sensible of the mistake I committed with respect to <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N<supplied>.</supplied></abbr> Bernoulli</rs> <abbr>prob.</abbr> If the calculation
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>I have now made in hast does not deceive me, that <abbr>prob.</abbr> is solved in algebraical terms by an
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>equation in this form <choice><orig><formula>s - nnmr + \overline{m-2}A\times\overline{r-m} s^{m-1} = 0</formula></orig><reg><formula>s - n^{2}mr + (m-2)A(r-m) s^{m-1} = 0</formula></reg></choice><supplied>,</supplied>
+<formula>r</formula> being to <formula>s</formula> (which is the distance of the
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><foreign xml:lang="lat">perpendiculum</foreign> from the center of rest) as the resistance is to the accelerating force arising from
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>gravity, which is expounded by that distance; and <formula>m</formula> beeing the root of this equation
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><choice><orig><formula>mmnn - n + 1 = 0</formula></orig><reg><formula>m^{2}n^{2} - n + 1 = 0</formula></reg></choice><supplied>,</supplied> where<del><gap/></del> <formula>n</formula> is a quantity which multiplying <formula>r</formula> gives the velocity</foreign> <said>et il
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>adjoute</said> <foreign xml:lang="eng"><choice><orig>if</orig><reg>If</reg></choice> <choice><orig>i</orig><reg>I</reg></choice> am not mistaken in the present conclusion this case is easier than the other
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>I had mentioned before. To that I wonder what new discovery <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N.</abbr> Bernoulli</rs> thinks he has
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>made<supplied>,</supplied> which cannot be accounted for by what is publisht of <choice><orig>sir</orig><reg>Sir</reg></choice> <rs key="pers_DE-588-118587544" type="person">Isaac Newton</rs>.</foreign></quote></p>
+<pb facs="1361937" n="3"/>
+  <p><lb/>Je ne serois pas pour moy du sentiment de <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> et je croirois le cas de la raison simple
+      <lb/>plus difficile que celuy de la raison doublée. <choice><orig>l</orig><reg>L</reg></choice><supplied>’</supplied>un et l<supplied>’</supplied>autre a paru autrefois tres difficile <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> et depuis <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>. <choice><orig>la</orig><reg>La</reg></choice> remarque que vous avez faitte<supplied></supplied> <abbr>M.<hi rend="sup">r</hi></abbr><supplied>,</supplied> qu<supplied>’</supplied>un pendul
+      <lb/>ne se peut pas mouvoir sur une cycloide dans une cycloide dans un milieu d<supplied>’</supplied>une densité
+      <lb/>uniforme<supplied>,</supplied> dont les <choice><sic>resistance</sic><corr>resistances</corr></choice> soient comme les vitesses, est fort curieuse et je ne l’ai commu<pc type="hyphenation">-</pc><lb break="no"/>niqué <choice><orig>a</orig><reg>à</reg></choice> personne.</p>
+  <p><lb/>J<supplied>’</supplied>ay <rs type="lostletter">envoyé</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> de la part de <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> un grand <rs type="biblio">memoire</rs> sur les <choice><orig>ppes</orig><reg>principes</reg></choice> <choice><orig>employes</orig><reg>employés</reg></choice>
+      <lb/>dans le <rs type="biblio" key="biblio_WJNSM247">livre <abbr><choice><orig>meth.</orig><reg>Meth.</reg></choice></abbr> <abbr>increm.</abbr></rs> p<subst><del><gap/></del><add>ages</add></subst><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 88 et <abbr>s<subst><del><gap/></del><add>ui</add></subst>v.</abbr> pour decouvrir la durée des vibrations des cord<unclear reason="lost">es.</unclear>
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> pretend que <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> 1.<hi rend="sup">o</hi> l<supplied>’</supplied>a repris <choice><orig>a</orig><reg>à</reg></choice> tort<supplied>,</supplied> 2.<hi rend="sup">o</hi> a donné une <rs type="biblio"><subst><del><gap/></del><add>solu</add></subst>tion</rs> tres reprehensi<pc type="hyphenation">-</pc><lb break="no"/>ble. <choice><orig>tout</orig><reg>Tout</reg></choice> cela pourroit bien estre. J<supplied>’</supplied>en serois bien aise pour <abbr><choice><orig>m</orig><reg>M</reg></choice><supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> et faché pour <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><supplied>.</supplied>
+      <lb/><abbr>M<supplied>.</supplied></abbr> Vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> a sur ce sujet des <choice><orig>Idees</orig><reg>idées</reg></choice> fort differentes de celles de <rs type="person">ces <abbr>M<supplied>.</supplied><hi rend="sup">rs</hi></abbr></rs> et m<supplied>’</supplied>a fait
+      <lb/>la faveur de me les communiquer.</p>
+  <p><lb/>Je crois que <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> donnera bientost une <rs type="biblio">nouvelle edition</rs><note type="comment">Vermutlich liegt hier eine Verwechslung vor, Taylor hat 1719 eine <rs type="biblio" key="biblio_HS3BISBH">erweiterte Version seines Werks «Linear Perspective»</rs> herausgegeben.</note> de son livre <rs type="biblio" key="biblio_WJNSM247">Meth. incr.</rs><supplied>,</supplied>
+      <lb/>qui sera plus ample au double. <choice><orig>il</orig><reg>Il</reg></choice> m<supplied>’</supplied>a promis qu<supplied>’</supplied>il le rendroit plus clair et plus
+      <lb/>intelligible. <choice><orig>ce</orig><reg>Ce</reg></choice> n<supplied>’</supplied>est point assez de donner <del><gap/></del>de bonnes choses<supplied>,</supplied> il faut les bien donner<supplied>.</supplied>
+      <lb/>Nous avons eu ensemble de grands éclaircissements au sujet du reproche tres vif<supplied>,</supplied> qu<supplied>’</supplied>on luy a
+      <lb/>fait dans l’<subst><del><gap/></del><add>e</add></subst>crit intitulé <rs type="biblio" key="biblio_BBZ3AWHD"><choice><orig>epistola</orig><reg>Epistola</reg></choice> pro eminente Mathematico</rs> de n’avoir cité dans son
+      <lb/><rs type="biblio" key="biblio_WJNSM247">livre</rs> ni <abbr>M<supplied>.</supplied><hi rend="sup">rs</hi></abbr> vos <rs key="pers_DE-588-118509969 pers_DE-588-118509950" type="person">oncles</rs> ni <abbr>M.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs><supplied>,</supplied> mais seulement <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>. J<supplied>’</supplied>ay defendu la verité<supplied>.</supplied>
+      <lb/>J’aime <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> et admire ses grands talens pour la Geometrie<supplied>,</supplied> mais j’abhorre les injustices
+      <lb/>et ne puis souffrir ces pirateries si ordinaires parmy les gens de lettre<add>s</add>. Permis aux <rs type="person">Anglois</rs>
+      <lb/>d’idolatrer <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs><supplied>,</supplied> qui est certainement un tres grand homme et qui fait beaucoup d<supplied>’</supplied>honneu<unclear reason="lost">r</unclear>
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> leur <rs type="place">nation</rs><choice><orig>.</orig><reg>,</reg></choice> <subst><del><gap/></del><add>mais</add></subst> qu’ils enlevent et derobent tout aux <choice><orig>scavants</orig><reg>sçavants</reg></choice> des autres nations pour luy
+      <lb/>tout donner<supplied>,</supplied> c<supplied>’</supplied>est ce que l’on ne peut souffrir<supplied>,</supplied> et je ne suis pas surpris que les parties interessées
+      <lb/>s<supplied>’</supplied>y opposent. <choice><orig>moy</orig><reg>Moy</reg></choice> qui ne le suis pas<supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> m<supplied>’</supplied>y oppose<supplied>,</supplied> quand l’occasion s<supplied>’</supplied>en presente<supplied>,</supplied>
+      <lb/>par pure amour de la verité et de la justice. Je vous communiquerai<supplied>,</supplied> quand vous voudrez<supplied>,</supplied>
+      <lb/>ma derniere <rs type="letter">lettre</rs> <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs><supplied>,</supplied> dont j<supplied>’</supplied>ay gardé copi<subst><del><gap/></del><add>e</add></subst> et qui roulle toutte <choice><orig>ladessus</orig><reg>làdessus</reg></choice>. <choice><orig>il</orig><reg>Il</reg></choice> m<supplied>’</supplied>a fallu
+      <lb/>vaincre la pente qu’on a <choice><orig>a</orig><reg>à</reg></choice> dire et penser comme ses amis<supplied>,</supplied> et <choice><orig>Je</orig><reg>je</reg></choice> vous avoue qu’il m<supplied>’</supplied>a un peu
+      <lb/>couté de le contredire avec <subst><del><gap/></del><add>v</add></subst>ivacité comme j<supplied>’</supplied>ay fait. <choice><orig>mais</orig><reg>Mais</reg></choice> il le falloit<supplied>,</supplied> car je voyois
+      <lb/>mon pauvre <rs type="person" key="pers_DE-588-118801481">amy</rs> tout prest <choice><orig>a</orig><reg>à</reg></choice> ne connoitre de Geometre et de philosophe que le seul
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>. <choice><orig>il</orig><reg>Il</reg></choice> <choice><orig>commencoit</orig><reg>commençoit</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> parler comme <abbr>M.</abbr> <rs type="person" key="pers_DE-588-124275087">Keill</rs> sur cet article<supplied>,</supplied> et cela luy auroit
+      <lb/>fait tort dans le monde.</p>
+  <p><lb/>Il me marque qu<supplied>’</supplied>il donnera incessament au public des <rs type="biblio">tables</rs> que <abbr>M.</abbr> <rs key="pers_DE-588-121009645" type="person">Cotes</rs> avoit faittes
+      <lb/>pour suppleer <choice><orig>a</orig><reg>à</reg></choice> celles<note type="comment" resp="SG">Newtons Tafeln befinden sich in Tractatus de Quadratura Curvarum (Anhang zu Newtons Opticks, London 1704), pp. 198–204. Sie wurden </note> que <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> a donné dans son <rs type="biblio" key="biblio_IT334XQN"><choice><orig>traitté</orig><reg>Traitté</reg></choice> de quadratur<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> curvarum</rs><supplied>,</supplied>
+      <lb/><quote rend="unmarked"><foreign xml:lang="eng">where all thoses curves were reduced to the tables of logarithmes and arches of the circle</foreign></quote><supplied>.</supplied>
+      <lb/>Ils disent que ce <abbr>M.</abbr> <rs key="pers_DE-588-121009645" type="person">Cotes</rs><supplied>,</supplied> mort jeune il n<supplied>’</supplied>y a pas long temps<supplied>,</supplied> etoit excellent Geometre<supplied>.</supplied>
+      <lb/>Je veux bien le croire<supplied>,</supplied> ma<subst><del><gap/></del><add>is</add></subst> il est sûr qu’il étoit b<subst><del><gap/></del><add>ien</add></subst> mauvais philosophe<supplied>;</supplied> la preface qu<supplied>’</supplied>il
+      <lb/>a mis <subst><del><gap/></del><add><choice><orig>a</orig><reg>à</reg></choice></add></subst> la teste de la <rs type="biblio" key="6CP8LL78">nouvelle edition</rs> des <rs type="biblio" key="biblio_MF4GV2BJ"><choice><orig>ppes</orig><reg>Principes</reg></choice></rs> de <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> est une mechante piece<supplied>.</supplied> Je suis
+      <lb/>toujours faché que des gens qui ont de l<subst><del><gap/></del><add>a</add></subst> penetration et du genie pour les mathematiques<supplied>,</supplied>
+      <lb/>soient gens communs en d’autres <choice><sic>gen<subst><del><gap/></del><add>se</add></subst></sic><corr>genres</corr></choice> et souvent fort au dessous du commun. <choice><orig>cela</orig><reg>Cela</reg></choice> est pourta<unclear reason="lost">nt</unclear>
+      <lb/>fort ordinaire<supplied>.</supplied> Pour citer un exemple illustre<supplied>,</supplied> Reconnoit-on <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs><supplied>,</supplied> ce grand et fameux
+      <lb/>Geometre<choice><orig>.</orig><reg>,</reg></choice> dans ses idées physiques, dans la pluspart des questions qu’il propose <choice><orig>a</orig><reg>à</reg></choice> la fin de son
+      <lb/><rs type="biblio" key="">Optique</rs><choice><orig>.</orig><reg>?</reg></choice> <quote rend="unmarked"><foreign xml:lang="lat">Quidnam est in spatiis materi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> vacuis, unde est quod sol et planet<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ad se invicem
+      <lb/>gravitent sine materi<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> inject<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice></foreign></quote> et <subst><del><gap/></del><add>t</add></subst>ant d’autres. <choice><orig>n</orig><reg>N</reg></choice><supplied>’</supplied>est<choice><orig> </orig><reg>-</reg></choice>il pas contre le bon sens de demander
+<pb facs="1361938" n="4"/>
+      <lb/><add><unclear reason="illegible">la c</unclear>ause</add> d<supplied>’</supplied>un fait qui n<supplied>’</supplied>est pas ou même que l<supplied>’</supplied>on conteste<supplied>,</supplied> et ensuitte supposé que son vuide et
+      <lb/>sa gravitation mutuelle fussent aussi reels qu<supplied>’</supplied>ils sont imaginaires<supplied>;</supplied> n<supplied>’</supplied>est-il pas evident
+      <lb/>qu’il seroit <choice><orig>Impossible</orig><reg>impossible</reg></choice> d<supplied>’</supplied>en <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> l’<foreign xml:lang="lat">unde</foreign>, le <foreign xml:lang="lat">qu<choice><orig><g ref="#ihat">î</g></orig><reg>i</reg></choice></foreign>, le <foreign xml:lang="lat">quomodo</foreign><choice><orig>.</orig><reg>?</reg></choice></p>
+  <p><lb/>J<supplied>’</supplied>ay reçu il y a quelques jours une <rs type="letter">reponse</rs> de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> au <rs type="biblio">memoire</rs> que je luy avois
+      <lb/>envoyé<supplied></supplied> dans lequel j<supplied>’</supplied>entreprend de comparer nos <choice><orig>ppes</orig><reg>principes</reg></choice> physiques avec ceux des <choice><abbr>phil.</abbr><expan>philosophes</expan></choice>
+      <lb/><rs type="person">Anglois</rs>. Je ne <choice><orig>scai</orig><reg>sçai</reg></choice> si je repliquerai<supplied>,</supplied> car il me paroist que je perdrois mon temps. <choice><orig>les</orig><reg>Les</reg></choice> <rs type="person">Anglo<unclear reason="lost">is</unclear></rs>
+      <lb/>ont fait leur plan de se tenir ferme <choice><orig>a</orig><reg>à</reg></choice> leurs attractions<supplied>,</supplied> dont ils embrouillent toutte la
+      <lb/>physique. C<supplied>’</supplied>est une maladie de nation qu’aucun remede ne peut guerir, comme
+      <lb/>Dieu mercy elle n<supplied>’</supplied>a pas passé la mer<supplied>,</supplied> le reste de l’<rs key="place_KON-europa" type="place">Europe</rs> n<supplied>’</supplied>a pas besoin de remede
+      <lb/>ni même de preservatif contre ce pe<subst><del><gap/></del><add>ri</add></subst>patetisme renouvellé et deguisé.</p>
+  <p>Outre la <rs type="biblio"><choice><orig>theorie</orig><reg>Theorie</reg></choice> de la manœuvre de<add>s</add> vaisseau<subst><del><gap/></del><add>x</add></subst></rs> et quelque autre <rs type="biblio">bagatelle</rs>
+      <lb/>que je vous ai envoyé il y a cinq ou six mois dans un Pacquet <choice><orig>ou</orig><reg>où</reg></choice> il y avoit aussi des <rs type="biblio">livres</rs>
+      <lb/>pour <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> et pour <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><choice><orig><g ref="#ndot">.</g></orig><reg/></choice> etant <choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs> il y a environ 15 jours<supplied>,</supplied>
+      <lb/><choice><orig>J</orig><reg>j</reg></choice><supplied>’</supplied>ay fait remettre <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-1153519720" type="person">Birr</rs> un Pacquet pour <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs><supplied>,</supplied> dans lequel
+      <lb/>il y a pour vous<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 4 exemplaires du <rs type="biblio">memoire sur les suittes infinies</rs><supplied>,</supplied> qui a <choice><orig>ete</orig><reg>été</reg></choice>
+      <lb/><choice><orig>insere</orig><reg>inseré</reg></choice> dans les <choice><orig>transactions</orig><reg>Transactions</reg></choice> philosophiques<choice><orig>.</orig><reg>,</reg></choice> et 2 exemplaires de mon livre
+      <lb/><rs type="biblio" key="biblio_69NKSR46"><choice><orig>essay</orig><reg>Essay</reg></choice> d’<abbr>an.</abbr></rs> Vous donnerez<supplied>,</supplied> s<supplied>’</supplied>il vous plaist<supplied>,</supplied> de ma part <subst><del><gap/></del><add>u</add></subst>n exemplaire de
+      <lb/>l<supplied>’</supplied>un et l<supplied>’</supplied>autre <choice><orig>a</orig><reg>à</reg></choice> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs><supplied>.</supplied> Vous distribuerez le reste <choice><orig>a</orig><reg>à</reg></choice> vos <rs type="person">amis</rs>.</p>
+  <p><lb/>Je vous remercie des <rs type="biblio">livres</rs> qu<supplied>’</supplied>il vous a plu m<supplied>’</supplied>envoyer<supplied>,</supplied> je ne les ai pas encore
+      <lb/>reçus. Je suis bien faché <subst><del><gap/></del><add>q</add></subst>ue le dia<subst><del><gap/></del><add>log</add></subst>ue de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> <rs type="biblio"><choice><orig>de</orig><reg>De</reg></choice> vorticibus</rs> ne soit pas
+      <lb/>du nombre<supplied>,</supplied> j<supplied>’</supplied>avois beaucoup de curiosité <subst><del><gap/></del><add>pour cet</add></subst> <rs type="biblio">ouvrage</rs>. J<supplied>’</supplied>ay aussi une
+      <lb/>grandissime curiosité de voir <choice><orig>Imprimé</orig><reg>imprimé</reg></choice> le <rs type="biblio">livre</rs> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119543885" type="person">Riccati</rs><supplied>,</supplied> <choice><orig>ou</orig><reg>où</reg></choice> il examine et
+      <lb/>combat la theorie de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> sur la lumiere et les couleurs. <choice><orig>si</orig><reg>Si</reg></choice> vous avez
+      <lb/>trouvé le secret de separer les indeterminées dans les 4 cas que vous m<supplied>’</supplied>avez <choice><orig>marque</orig><reg>marqué</reg></choice>
+      <lb/>de l<supplied>’</supplied>equation <formula>ax^{m}dx + by^{q}x^{p}dx = dy</formula><supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> vous prie de me faire part de vos
+      <lb/>methodes et de m’apprendre<supplied>,</supplied> si vous souhaittez que je les communique en vostre
+      <lb/>nom à <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs><supplied>,</supplied> qui m<supplied>’</supplied>a demandé<supplied>,</supplied> si je <choice><orig>scavois</orig><reg>sçavois</reg></choice> comment vous vous y prenez
+      <lb/>et souhaitteroit le <choice><orig>scavoir</orig><reg>sçavoir</reg></choice>.</p>
+  <p>Je n<supplied>’</supplied>ai donné communication <choice><orig>a</orig><reg>à</reg></choice> personne de vostre <rs type="biblio">Analyse</rs> de la trajectoire de
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-118571249" type="person">Leibnitz</rs>. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> qui m<supplied>’</supplied>en a envoyé depuis peu une 2.<hi rend="sup">e</hi> de sa <choice><orig>facon</orig><reg>façon</reg></choice><supplied>,</supplied>
+      <lb/>m<supplied>’</supplied>a prié de luy faire part de la <rs type="biblio">vostre</rs> et de celle de <abbr>M<supplied>.</supplied></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs><supplied>.</supplied> Je luy ay
+      <lb/>repondu que je n<supplied>’</supplied>avois point d’ordre et que je ne pouvois faire ce qu<supplied>’</supplied>il me demandoit
+      <lb/>sans vostre consentement et celuy de <abbr>M<supplied>.</supplied></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs>.</p>
+  <p><abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> avoit proposé <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> de trouver l’integrale de <formula>ydx</formula><supplied>,</supplied> quand <formula>ydx</formula>
+      <lb break="no"/><formula>= axdy + du</formula>, <formula>du</formula> etant une <choice><orig>quantite</orig><reg>quantité</reg></choice><supplied>,</supplied> dont la fluente <subst><del><gap/></del><add>es</add></subst>t supposée donnée.
+      <lb/>Voicy la solution de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs> qui est tres facile aussi bien que le probleme
+      <lb/><choice><orig><formula>\int xdy = xy - \int ydx</formula></orig><reg><formula>\int x\,dy = xy - \int y\,dx</formula></reg></choice><note type="editorial">Das Integralzeichen wird von Momtmort als ein gewähnliches «s» geschrieben.</note>, donc prenant l’integrale de l’equation <formula ana="corr">ydx = axdy + du</formula><supplied>,</supplied>
+      <lb/>vous aurez <choice><orig><formula>\int ydx = axy - a\int ydx + u</formula></orig><reg><formula>\int y\,dx = axy - a\int y\,dx + u</formula></reg></choice><supplied>,</supplied> donc <formula>\int y\,dx=\frac{axy+u}{a+1}</formula><supplied>.</supplied></p>
+  <p><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs><supplied>,</supplied> aprez m<supplied>’</supplied>avoir communiqué sa nouvelle solution du probleme des
+      <lb/>trajectoires<supplied>,</supplied> adjoutte ce qui suit<choice><orig>.</orig><reg>:</reg></choice></p>
+<pb facs="1361939" n="5"/>
+  <p><lb/><figure facs="../images/figures/1361939_01.png"/> <quote><foreign xml:lang="eng">When the given curves <formula>Bb</formula> all pass thro the point <formula>B</formula> and their nature is expres<unclear reason="illegible">sed</unclear>
+      <lb/>by this <choice><orig>équation</orig><reg>equation</reg></choice> <choice><orig><formula>ddx = xdz^2</formula></orig><reg><formula>ddx = x\,dz^2</formula></reg></choice>,</foreign></quote> <formula>AD</formula> etant <formula>z</formula> et <formula ana="corr">Db</formula>
+<formula>x</formula>, <formula>BA</formula> et <formula>bD</formula> etant perpendiculaires <choice><orig>a</orig><reg>à</reg></choice> <formula>AD</formula><supplied>,</supplied>
+      <lb/>et il adjoute <quote rend="unmarked"><foreign xml:lang="eng">I don’t mention this a puzzling problem but as something that is
+      <lb/>little curious</foreign></quote>.</p>
+  <p><lb/>Nos <rs type="biblio"><choice><orig>memoires</orig><reg>Memoires</reg></choice> de l’academie</rs> vont bientost paroistre pour l<supplied>’</supplied>année 1716, ceux de l’année 1715 ne
+      <lb/>sont pas trop bien fournis. Je ne <choice><orig>scai</orig><reg>sçai</reg></choice> pourquoy<supplied>,</supplied> car les <choice><orig>pansions</orig><reg>pensions</reg></choice> sont mieux payés que jamais<supplied>.</supplied>
+      <lb/>Dans les <rs type="biblio" key="biblio_SSNXBWSP"><choice><orig>transactions</orig><reg>Transactions</reg></choice> philosophiques</rs> de l<supplied>’</supplied>année passée N. 354 se trouve un <rs type="biblio">extrait</rs> du <rs type="biblio">livre</rs>
+      <lb/>de <abbr>M.</abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> <choice><orig>de</orig><reg>De</reg></choice> motu aqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mixto <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> <choice><orig>ou</orig><reg>où</reg></choice> par occasion on reprend les demonstrations que
+      <lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs><supplied>,</supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> Vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> et <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119062372" type="person">Varignon</rs> ont donné en differents temps de cette belle <choice><orig>ppoon</orig><reg>proposition</reg></choice>
+      <lb/>d<supplied>’</supplied>hydrostatique que l<supplied>’</supplied>eau sortant <subst><del><gap/></del><add>p</add></subst>ar un petit trou fait au fond d<supplied>’</supplied>un tuyau plein d<supplied>’</supplied>eau
+      <lb/>en sort avec une <add>vitesse</add> telle qu’en auroit une goutte d<supplied>’</supplied>eau qui seroit <choice><orig>tombee</orig><reg>tombée</reg></choice> de la hauteur du
+      <lb/>tuyau. Un <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119507978" type="person">Jurin</rs> medecin<supplied>,</supplied> que je ne connois point et dont <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117260266" type="person">Sterling</rs> <del><gap/></del>pourra
+      <lb/>peutestre vous dire des nouvelles<supplied>,</supplied> donna au commencement de l<supplied>’</supplied>année dans les <choice><orig>transactions</orig><reg>Transactions</reg></choice>
+      <lb/>un <subst><del><gap/></del><add>lo</add></subst>ng memoire sous ce tittre <rs type="biblio"><choice><orig>de</orig><reg>De</reg></choice> motu aquarum fluentium</rs><supplied>,</supplied> il commence par dire que personne
+      <lb/>n<supplied>’</supplied>a pu jusqu<supplied>’</supplied><choice><orig>a</orig><reg>à</reg></choice> present <quote rend="unmarked"><foreign xml:lang="lat">recte determinare aqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> motum ex imi vasis foramine defluentis</foreign></quote><supplied>,</supplied>
+      <lb/>ensuitte apres avoir trouvé ou cru trouver la quantité de ce mouvement<supplied>,</supplied> il dit que <abbr>M.</abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs>
+      <lb/>est le 1.<hi rend="sup">er</hi><supplied>,</supplied> <quote rend="unmarked"><foreign xml:lang="lat">qui primus <choice><orig><g ref="#omn">õ</g></orig><reg>omn</reg></choice>ium veram aqu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> effluentis velocitatem ex genuinis principiis deductam
+      <lb/>orbi litterato exposuit</foreign></quote><supplied>.</supplied> Je voudrois bien que vous eussiez ce <rs type="biblio">memoire</rs> pour en avoir vostre sentiment<supplied>,</supplied>
+      <lb/>ainsi que sur les <abbr>prob.</abbr> 17 et 18 de <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs><choice><orig>.</orig><reg>,</reg></choice> <rs type="biblio" key="biblio_WJNSM247"><abbr>Meth.</abbr> <abbr>inc.</abbr></rs> page 89 et <abbr>suiv.</abbr><supplied>,</supplied> lorsque vous en aurez la commodité.
+      <lb/>Le meme <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119507978" type="person">Jurin</rs> a donné un autre memoire sous ce tittre <rs type="biblio"><choice><orig>an</orig><reg>An</reg></choice> account of some experiments shown
+      <lb/>before the Royal Society <del><gap/></del>with an enquiry into the cause of the ascent and suspension of water
+      <lb/>in capillary tubes</rs>. <choice><orig>les</orig><reg>Les</reg></choice> <rs type="person">Anglois</rs> avoient trouvé cy devant que la cause de la suspension des liqueurs dans
+      <lb/>les tuyaux capillaires etoit l’attraction de la surface concave. <abbr>M.</abbr> <rs key="pers_DE-588-119507978" type="person">Jurin</rs> trouve que cette cause est l<supplied>’</supplied>attraction
+      <lb/>de la periferie ou section de la surface du tube<supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice> laquelle la partie superieure de l<supplied>’</supplied>eau est contigue<supplied>.</supplied>
+      <lb/><choice><orig>quelle</orig><reg>Quelle</reg></choice> physique<supplied>,</supplied> Grands Dieux<supplied>,</supplied> et qu<supplied>’</supplied>elle est differente de celle de <abbr>M.<hi rend="sup">r</hi></abbr> Vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> dans son excellent
+      <lb/>traitté <rs type="biblio"><choice><orig>de</orig><reg>De</reg></choice> gravitate <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>theris</rs>. <abbr>M.</abbr> <rs key="pers_DE-588-119507978" type="person">Jurin</rs> attribue <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> la gloire d’avoir eu le 1<hi rend="sup">er</hi> cette pensée<supplied>;</supplied>
+      <lb/>il en fait aussi honneur <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-11751733X" type="person">Machin</rs><supplied>,</supplied> qui est maintenant secretaire <choice><orig>a</orig><reg>à</reg></choice> la place de <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs>.
+      <lb/>Voicy encore quelques articles des <rs type="biblio" key="biblio_SSNXBWSP"><choice><orig>transactions</orig><reg>Transactions</reg></choice></rs><supplied>,</supplied> qui peuvent exciter vostre curiosité<choice><orig>.</orig><reg>:</reg></choice></p>
+  <p><lb/>Extracts from<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <abbr>M.</abbr> <rs key="pers_DE-588-1031350314" type="person">Gascoigne</rs><supplied>’</supplied>s and <abbr>M.</abbr> <rs key="pers_DE-588-103127895" type="person">Crabtrie<supplied>’</supplied>s</rs> letters proving <abbr>M.</abbr> <rs key="pers_DE-588-1031350314" type="person">Gascoigne</rs> to have been the
+      <lb/>invent<subst><del><gap/></del><add>or</add></subst> of the teleskopick sights of mathematical instruments<supplied>,</supplied> and not french<choice><orig>.</orig><reg>,</reg></choice> by<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <rs key="pers_DE-588-128644974" type="person"><abbr>W.</abbr> Derham</rs><supplied>,</supplied></p>
+  <p><lb/>An attemps towards the improvements of the method of approximating in the extraction of the roots of equations in numbers by <rs key="pers_DE-588-118801481" type="person"><choice><orig>brook</orig><reg>Brook</reg></choice> Taylor</rs><choice><orig>.</orig><reg>,</reg></choice> <abbr>R<supplied>.</supplied> R. S.</abbr></p>
+  <p><lb/>Proprietates qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>dam simplices sectionum conicarum ex natur<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> focorum deduct<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> cum theoremate
+      <lb/>generali de viribus centripetis <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c<supplied>.</supplied></abbr> per <rs key="pers_DE-588-117586765" type="person"><abbr><choice><orig>abr.</orig><reg>Abr.</reg></choice></abbr> <choice><orig>moivre</orig><reg>Moivre</reg></choice></rs>.</p>
+  <p><lb/>J<supplied>’</supplied>ay <choice><orig>recu</orig><reg>reçu</reg></choice> depuis quelques jours un nouveau volume des <rs type="biblio"><choice><orig>journaux</orig><reg>Journaux</reg></choice> litteraires de <choice><orig>la</orig><reg>La</reg></choice> <choice><orig>haye</orig><reg>Haye</reg></choice></rs>
+      <lb/><choice><orig>ou</orig><reg>où</reg></choice> <subst><del><gap/></del><add>l<supplied>’</supplied>o</add></subst>n voit <choice><sic>un</sic><corr>une</corr></choice> <rs type="biblio">lettre</rs> de <abbr>M.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> aux <choice><sic>journaliste</sic><corr>journalistes</corr></choice><supplied>,</supplied> dans laquelle il se justifie du reproche
+      <lb/>que luy avoit fait <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs> dans son ecrit intitulé <rs type="biblio"><choice><orig>defense</orig><reg>Defense</reg></choice> pour <abbr>M<supplied>.</supplied></abbr> le <abbr>ch.</abbr> Newton</rs>. <abbr>M.<hi rend="sup">r</hi></abbr> <subst><del><gap/></del><add><rs key="pers_DE-588-119112450" type="person">Herman</rs></add></subst><note type="editorial">Ein vermutlich von Montmort korrigiertes «Keill» wurde nachträglich von Nicolaus I Bernoulli duirch «Herman» ersetzt.</note> donne
+      <lb/>de tres bonnes raisons<supplied>,</supplied> mais <choice><orig>a</orig><reg>à</reg></choice> mon avis le tour et le style n<supplied>’</supplied>en sont pas assez bons.</p>
+  <p><lb/>Il accuse <choice><orig>a</orig><reg>à</reg></choice> son tour <abbr>M.</abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs> d<supplied>’</supplied>avoir emprunté de feu <abbr>M<supplied>.</supplied></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> et de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-118639749" type="person">Huygens</rs> page 40<supplied>,</supplied> <abbr>lig.</abbr> 11
+      <lb/>du <rs type="biblio"><choice><orig>traitte</orig><reg>Traitté</reg></choice> de la pesanteur</rs> les <choice><orig>ppaux</orig><reg>principaux</reg></choice> fondemens de sa solution du <abbr>prob.</abbr> de la plus v<subst><del><gap/></del><add>is</add></subst>te descente
+      <lb/><abbr><choice><orig>introd.</orig><reg>Introd.</reg></choice></abbr> ad veram physicam vers la fin. <choice><orig>enfin</orig><reg>Enfin</reg></choice><choice><orig>.</orig><reg>,</reg></choice> il trouve analytiquement le <rs type="biblio">theoreme</rs> de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-124275087" type="person">Keill</rs>
+      <lb/><subst><del><gap/></del><add>qu</add></subst>i avoit donné lieu aux reproches. <choice><orig>cette</orig><reg>Cette</reg></choice> analyse est excellente et m<supplied>’</supplied>a fait plaisir quoyqu<supplied>’</supplied>un peu
+      <lb/>longue<supplied>.</supplied></p>
+  <p><lb/>Il m<supplied>’</supplied>a <rs type="letter"><choice><orig>envoye</orig><reg>envoyé</reg></choice></rs> sa methode pour integrer cette <add>é</add>qua<subst><del><gap/></del><add>tion</add></subst> <formula>adx + bdy + cxdx + eydx + fxdy + gydy = 0,</formula><note type="editorial">«0,» am Zeilenende ist nicht mehr lesbar und wurde ergänzt.</note>
+      <lb/>mais il a <choice><orig>exige</orig><reg>exigé</reg></choice> de moy que je ne la communiquerois <choice><orig>a</orig><reg>à</reg></choice> personne. <choice><orig>vous</orig><reg>Vous</reg></choice> jugez bien qu<supplied>’</supplied>il sera obei.<note type="editorial">«obei.» am Zeilenende ist nicht mehr leserlich und wurde ergänzt.</note></p>
+<pb facs="1361940" n="6"/>
+  <p><lb/>Il m<supplied>’</supplied>a aussi communiqué l<supplied>’</supplied><rs type="biblio">analyse</rs> de ce qu<supplied>’</supplied>il a publié dans les <choice><orig>journaux</orig><reg>Journaux</reg></choice> de Leipsic de
+      <lb/>cette année sur les Isoperimetre<add>s</add> et sa <rs type="biblio">nouvelle solution du <abbr>prob.</abbr> des trajectoires</rs><supplied>,</supplied> mais sans
+      <lb/>analyse ni demonstration<supplied>,</supplied> en sorte que je ne peux vous en dire mon sentiment. <choice><orig>celles</orig><reg>Celles</reg></choice> que
+      <lb/>vous avez eu la bonté de me communiquer<supplied>,</supplied> sont d’une simplicité et d<supplied>’</supplied>une élegance
+      <lb/>extraordinaire ainsi que <rs type="biblio">celle</rs> de <abbr>M.</abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs> que j<supplied>’</supplied>ay fort admirée. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs>
+      <lb/>m<supplied>’</supplied>a aussi fait voir<supplied>,</supplied> comment il separe les indeterminées dans l<supplied>’</supplied>equation <formula>x\,dy-y\,dx</formula>
+      <lb/><formula>=\frac{y^{m}\,ds}{c^{m-1}}</formula><supplied>.</supplied> Il y a encore plusieurs autres choses dans ses <rs type="letter">lettres</rs><supplied>,</supplied> mais j’apprehende qu<supplied>’</supplied>il n<supplied>’</supplied>ait
+      <lb/>tort contre <abbr>M.</abbr> <rs key="pers_DE-588-118801481" type="person">Taylor</rs>.</p>
+  <p><lb/><choice><orig>outre</orig><reg>Outre</reg></choice> le <rs type="biblio">memoire sur les suittes</rs> que je vous envoye imprimé<supplied>,</supplied> <choice><orig>J</orig><reg>j</reg></choice><supplied>’</supplied>en ai un qui contient plusieurs
+      <lb/>choses neuves et curieuses<supplied>,</supplied> dont je voudrois bien vous faire part et que je <subst><del><gap/></del><add>serois ravi de</add></subst> soumettre <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>vostre examen<supplied>,</supplied> mais nous sommes bien éloignés<choice><orig>.</orig><reg>;</reg></choice> c<supplied>’</supplied>est <choice><sic>une</sic><corr>un</corr></choice> vray<del><gap/></del> <add>malheur</add> pour moy<supplied>.</supplied></p>
+    <lb/><p><choice><orig>enfin</orig><reg>Enfin</reg></choice> <choice><orig>Je</orig><reg>je</reg></choice> suis épuisé de <choice><orig>Nouvelles</orig><reg>nouvelles</reg></choice>. Je vais pour vous divertir vous rendre compte
+      <lb/>de 3 lemmes qui se trouvent dans la <rs type="biblio">nouvelle edition</rs> du livre de <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> sous ce tittre:
+      <lb/><rs type="biblio" key="biblio_WRTZNU9Z"><add><choice><orig>the</orig><reg>The</reg></choice></add> <choice><orig>Doctrine</orig><reg>doctrine</reg></choice> of chances</rs>. Il les estime beaucoup. Vous en jugerez parce que je
+      <lb/>rapporterai dans la suitte. Je finirai parce que je vous ai promis sur la <rs type="biblio"><choice><orig>ppoon</orig><reg>proposition</reg></choice> 2<subst><del><gap/></del><add>4</add></subst> <choice><orig>de</orig><reg>De</reg></choice>
+      <lb/>seriebus infinitis</rs> de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs key="pers_DE-588-118509969" type="person">oncle</rs>.</p>
+  <p><lb/><hi rend="c">Lemme 1<hi rend="sup">er</hi>.</hi></p>
+  <p><choice><orig>les</orig><reg>Les</reg></choice> nombres dont la 1<hi rend="sup">ere</hi> <subst><del><gap/></del><add>di</add></subst>fference est constante<supplied>,</supplied> c<supplied>’</supplied><subst><del><gap/></del><add>e</add></subst>st <choice><orig>a</orig><reg>à</reg></choice> dire les nombres <choice><orig>figures</orig><reg>figurés</reg></choice> du 2<hi rend="sup">e</hi> genre<supplied>,</supplied>
+      <lb/>tels par <abbr>ex<supplied>.</supplied></abbr> que les nombres <choice><orig><formula>1; 2, 3, 4, 5 \mathrm{\;\&amp;c.}</formula></orig><reg><formula>1, 2, 3, 4, 5, \mathrm{\;etc.}</formula></reg></choice> ont pour index la <choice><orig>quantite</orig><reg>quantité</reg></choice> <formula>2-1</formula><supplied>,</supplied> ainsi pour trouver
+      <lb/>le 6<hi rend="sup">eme</hi> terme<supplied>,</supplied> je dis <choice><orig><formula>2\times 5 - 1 \times 4 = 6</formula></orig><reg><formula>2\cdot 5 - 1 \cdot 4 = 6</formula></reg></choice>.</p>
+  <p><lb/><choice><orig>les</orig><reg>Les</reg></choice> nombres <choice><orig>figurez</orig><reg>figurés</reg></choice> du 3<hi rend="sup">eme</hi> ordre<supplied>,</supplied> ceux<choice><orig> </orig><reg>-</reg></choice>cy par <abbr>Ex.</abbr> <choice><orig><formula>4, 16, 36, 64, 100 \mathrm{\;\&amp;c.}</formula></orig><reg><formula>4, 16, 36, 64, 100 \mathrm{\;etc.}</formula></reg></choice> ont pour index <formula>3-3+1</formula><supplied>,</supplied>
+      <lb/>ainsi le nombre <choice><orig><formula ana="corr">100 = 3\times 64 - 3\times 36 + 1 \times 16</formula></orig><reg><formula>100 = 3 \cdot 64 - 3 \cdot 36 + 1 \cdot 16</formula></reg></choice><supplied>.</supplied></p>
+  <p><lb/>Les nombres <choice><orig>figurez</orig><reg>figurés</reg></choice> du 4<hi rend="sup">eme</hi> ordre ont pour index <formula ana="corr">4 - 6 + 4 - 1</formula> et generallement les
+      <lb/>nombres <choice><orig>figurez</orig><reg>figurés</reg></choice><supplied>,</supplied> dont<choice><orig>,</orig><reg type="deleted"/></choice> <formula>n</formula><choice><orig>,</orig><reg type="deleted"/></choice> exprime l<supplied>’</supplied>ordre<supplied>,</supplied> ont pour index les coefficiens d<supplied>’</supplied>un binome <subst><del><gap/></del><add>tel</add></subst> que
+      <lb/><formula>a-b</formula> elevé <choice><orig>a</orig><reg>à</reg></choice> la puissance <formula>n</formula>, le 1<hi rend="sup">er</hi> non compris.</p>
+  <p><lb/><hi rend="c">Lemme 2<hi rend="sup">e</hi>.</hi></p>
+  <p><lb/><choice><orig>si</orig><reg>Si</reg></choice> dans une suitte les termes <choice><orig><formula>A, B, C, D, E, \mathrm{\;\&amp;c.}</formula></orig><reg><formula>A, B, C, D, E, \mathrm{\;etc.}</formula></reg></choice> sont continuellement decroissants
+      <lb/>et ont chaqu<supplied>’</supplied>un un certain rapport avec le <subst><del><gap/></del><add>me</add></subst>me nombre de termes precedens<supplied>,</supplied> lequel
+      <lb/>rapport soit <choice><orig>exprime</orig><reg>exprimé</reg></choice> par le meme index<choice><orig>.</orig><reg>,</reg></choice> l<supplied>’</supplied>on pourra toujours trouver la somme d<supplied>’</supplied>un
+      <lb/>nombre infini de termes d<supplied>’</supplied>une telle suitte.</p>
+  <p><lb/><abbr>Ex.</abbr> <choice><orig>soit</orig><reg>Soit</reg></choice> la r<subst><del><gap/></del><add>e</add></subst>lation de chaque terme aux deux precedens exprimée en cette sorte<supplied>,</supplied>
+      <lb/><formula>C</formula> sera <choice><orig><formula>= mBr - nArr</formula></orig><reg><formula>= mBr - nAr^{2}</formula></reg></choice> et <formula ana="corr">D</formula> sera <choice><orig><formula>= mCr - nBrr</formula></orig><reg><formula>= mCr - nBr^{2}</formula></reg></choice> et ainsi de suitte<supplied>,</supplied> la somme de la suitte
+      <lb/>infinie sera <choice><orig><formula>\frac{A+B-mrA}{1-mr+nrr}</formula></orig><reg><formula>\frac{A+B-mrA}{1-mr+nr^{2}}</formula></reg></choice><supplied>;</supplied> soit <choice><orig>a</orig><reg>à</reg></choice> trouver la somme de cette suitte</p>
+  <p><lb/><choice><orig><formula>\overset{A}{r} + \overset{B}{3rr} + \overset{C}{5r^3} + \overset{D}{7r^4} + \overset{E}{9r^5} + \overset{F}{11r^6} + \overset{G}{13r^7} \mathrm{\;\&amp;c.}</formula></orig><reg><formula>\overset{A}{r} + \overset{B}{3r^{2}} + \overset{C}{5r^3} + \overset{D}{7r^4} + \overset{E}{9r^5} + \overset{F}{11r^6} + \overset{G}{13r^7} \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> telle que <choice><orig><formula>C = 2rB - 1rrA</formula></orig><reg><formula>C = 2rB - 1r^{2}A</formula></reg></choice>, <choice><orig><formula>D = 2rC - 1rrB</formula></orig><reg><formula>D = 2rC - 1r^{2}B</formula></reg></choice><supplied>,</supplied>
+      <lb/><choice><orig><formula>\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> <formula>m</formula> et <formula>n</formula> etant respectivement 2 et 1<supplied>,</supplied> on trouve que la formule <choice><orig><formula>\frac{A+B-mrA}{1-mr+nrr}</formula></orig><reg><formula>\frac{A+B-mrA}{1-mr+nr^{2}}</formula></reg></choice> devient
+      <lb/><choice><orig><formula>=\frac{r+rr}{\overline{1-r}^{2}} =</formula></orig><reg><formula>=\frac{r+r^{2}}{(1-r)^{2}} =</formula></reg></choice> somme cherchée. Je suis <choice><orig>sur</orig><reg>sûr</reg></choice> que vous <add>en</add> voyez deja la demonstration
+      <lb/>qui <del><gap/></del>est tres facile. Voicy celle de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs>.</p>
+  <p><choice><orig><formula rend="display">\begin{align}
+      A &amp;= A \\
+      B &amp;= B \\
+      C &amp;= mBr - nArr \\
+      D &amp;= mCr - nBrr \\
+      E &amp;= mDr - nCrr \\
+      F &amp;= mEr - nDrr
+      \end{align}</formula></orig><reg><formula rend="display">\begin{align}
+      A &amp;= A \\
+      B &amp;= B \\
+      C &amp;= mBr - nAr^{2} \\
+      D &amp;= mCr - nBr^{2} \\
+      E &amp;= mDr - nCr^{2} \\
+      F &amp;= mEr - nDr^{2}
+      \end{align}</formula></reg></choice>
+
+    <l><choice><orig>soit</orig><reg>Soit</reg></choice> la 1.<hi rend="sup">ere</hi> colonne  <choice><orig><formula>A + B + C + D + E + F + \mathrm{\;\&amp;c.} = x</formula></orig><reg><formula>A + B + C + D + E + F + \mathrm{\;etc.} = x</formula></reg></choice><supplied>,</supplied></l>
+      <l>la 2<hi rend="sup">e</hi> colonne <choice><orig><formula>A + B + mBr + mCr + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>A + B + mBr + mCr + \mathrm{\;etc.}</formula></reg></choice> sera <formula>= A + B + mrx-mrA</formula><supplied>,</supplied></l>
+  <l>la 3<hi rend="sup">eme</hi> colonne <choice><orig><formula>- nArr - nBrr - nCrr - \mathrm{\;\&amp;c.}</formula></orig><reg><formula>- nAr^{2} - nBr^{2} - nCr^{2} - \mathrm{\;etc.}</formula></reg></choice> sera <choice><orig><formula>= - nrrx</formula></orig><reg><formula>= - nr^{2}x</formula></reg></choice>;</l>
+      <lb/>on a donc <choice><orig><formula>x = A + B + mrx - mrA - nrrx</formula></orig><reg><formula>x = A + B + mrx - mrA - nr^{2}x</formula></reg></choice> ou <choice><orig><formula>x=\frac{A+B-mrA}{1-mr+nrr}</formula></orig><reg><formula>x=\frac{A+B-mrA}{1-mr+nr^{2}}</formula></reg></choice><supplied>,</supplied>
+<pb facs="1361941" n="7"/>
+      et de meme l<supplied>’</supplied>index etant <formula>m - n + p</formula>, c<supplied>’</supplied>est <choice><orig>a</orig><reg>à</reg></choice> dire <formula>D</formula> etant <choice><orig><formula>mCr - nBrr + pAr^3</formula></orig><reg><formula>mCr - nBr^{2} + pAr^3</formula></reg></choice>, <formula ana="corr">E = </formula>
+      <lb/><choice><orig><formula>mDr - nCrr + pBr^3</formula></orig><reg><formula>mDr - nCr^{2} + pBr^3</formula></reg></choice><supplied>,</supplied> et ainsi de suitte<supplied>,</supplied> la somme des termes <choice><orig><formula>A + B + C + D + E+ \mathrm{\;\&amp;c.}</formula></orig><reg><formula>A + B + C + D + E+\mathrm{\;etc.}</formula></reg></choice> sera
+
+      <lb/><choice><orig><formula rend="display">\frac{\begin{aligned}A+B+C  &amp;-mrA+nrrA \\
+&amp;-mrB
+\end{aligned}}{1 - mr + nrr - pr^3}</formula></orig><reg><formula rend="display">\frac{\begin{aligned}A+B+C  &amp;-mrA+nr^{2}A \\
+&amp;-mrB
+\end{aligned}}{1 - mr + nr^{2} - pr^3}</formula></reg></choice>.
+
+      <lb/>Ainsi par <abbr>Ex.</abbr> la somme de cette suitte infinie
+      <lb/><choice><orig><formula>r + 2rr + 5r^3 + 20r^4 + 72r^5 + 261r^6 + 947r^7 \mathrm{\;\&amp;c.}</formula></orig><reg><formula>r + 2r^{2} + 5r^3 + 20r^4 + 72r^5 + 261r^6 + 947r^7 + \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dont les <choice><orig>quantites</orig><reg>quantités</reg></choice>
+      <lb/>numeriques ont entre-elle le rapport determiné par l<supplied>’</supplied>index
+      <lb/><formula>3 + 2 + 1</formula><supplied>,</supplied> sera, en substituant pour <formula>m</formula>, <formula>n</formula>, <formula>p</formula> leurs valeurs<choice><orig>;</orig><reg>,</reg></choice> <choice><orig><formula>\frac{r-rr-3r^{3}}{1-3r-2rr-r^{3}}</formula></orig><reg><formula>\frac{r-r^{2}-3r^{3}}{1-3r-2r^{2}-r^{3}}</formula></reg></choice><supplied>.</supplied>
+      <lb/>Si l<supplied>’</supplied>index est <formula>m - n + p - q</formula><supplied>,</supplied> la formule est <choice><orig><formula ana="corr">\frac{\begin{aligned}A+B+C+D &amp;-mrA+nrrA-pr^{3}A \\ &amp; - mrB + nrrB\\ &amp; - mrC\end{aligned}}{1-mr+nrr-pr^{3}+qr^{4}}</formula></orig><reg><formula>\frac{\begin{aligned}A+B+C+D &amp;-mrA+nr^{2}A-pr^{3}A \\ &amp; - mrB + nr^{2}B\\ &amp; - mrC\end{aligned}}{1-mr+nr^{2}-pr^{3}+qr^{4}}</formula></reg></choice><supplied>.</supplied> Vous voyez
+      <lb/>la loy de la progression de ces formules.</p>
+  <p><lb/>Il fait ensuitte la remarque suivante<supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice> laquelle je vous prie de faire attention<supplied>:</supplied>
+      <lb/><quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice><choice><orig>la</orig><reg>La</reg></choice> Methode precedente peut s<supplied>’</supplied>etendre <choice><orig>a</orig><reg>à</reg></choice> trouver la somme d<supplied>’</supplied>un nombre donné de termes
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>de ces suittes<supplied>,</supplied> ainsi <formula>A</formula>, <formula>B</formula>, <formula>C</formula>, <formula>D</formula> etant les 1<hi rend="sup">ers</hi> termes de la suitte<supplied>,</supplied> <formula>u</formula><supplied>,</supplied> <formula>x</formula><supplied>,</supplied> <formula>y</formula><supplied>,</supplied> <formula>z</formula> les derniers<supplied>,</supplied>
+      <lb/>la somme de la suitte sera
+
+      <lb/><choice><orig><formula rend="display">\begin{align}
+      &amp; A - mrA + nrrA - pr^{3}A + qr^{4}u \\
+      + &amp; B - mrB + nrrB - pr^{3}x + qr^{4}x \\
+      + &amp; C - mrC + nrry - pr^{3}y + qr^{4}y \\
+      + &amp; D - mrz + nrrz - pr^{3}z + qr^{4}z
+      \end{align}</formula></orig><reg><formula rend="display">\begin{align}
+          &amp; A - mrA + nr^{2}A - pr^{3}A + qr^{4}u \\
+          + &amp; B - mrB + nr^{2}B - pr^{3}x + qr^{4}x \\
+          + &amp; C - mrC + nr^{2}y - pr^{3}y + qr^{4}y \\
+          + &amp; D - mrz + nr^{2}z - pr^{3}z + qr^{4}z
+          \end{align}</formula></reg></choice>
+
+      <lb/>et si on demande un theoreme general<supplied>,</supplied> on le trouvera
+      <lb/>aisement en considerant cette formule. Ces problemes sont
+      <lb/>utils pour sommer promptement les suittes qui expriment
+      <lb/>les <choice><orig>probabilites</orig><reg>probabilités</reg></choice> qu<supplied>’</supplied>il y a que le jeu sera fini en un certain
+      <lb/>nombre de parties. <choice><orig>par</orig><reg>Par</reg></choice> <abbr>Ex<supplied>.</supplied></abbr><supplied>,</supplied> supposé que l<supplied>’</supplied>on demande
+      <lb/>combien il y a de probabilité qu<supplied>’</supplied>en 24 jeux ou A gagnera 4 marques <choice><orig>a</orig><reg>à</reg></choice> <formula>B</formula> ou que <formula>B</formula> en
+      <lb/>gagnera 4 <choice><orig>a</orig><reg>à</reg></choice> <formula>A</formula><choice><orig>.</orig><reg>,</reg></choice> la suitte qui exprime c<subst><del><gap/></del><add>ette</add></subst> <choice><orig>probabilite</orig><reg>probabilité</reg></choice> est<supplied>,</supplied> en supposant l<supplied>’</supplied>adresse des joueurs egale<supplied>,</supplied>
+      <lb/><choice><orig><formula>\frac{1}{8} \times \overline{1 + \frac{4}{4} + \frac{14}{16} + \frac{48}{64} + \frac{164}{256} + \mathrm{\;\&amp;c.}}</formula></orig><reg><formula>\frac{1}{8}  (1 + \frac{4}{4} + \frac{14}{16} + \frac{48}{64} + \frac{164}{256} + \mathrm{\;etc.})</formula></reg></choice><supplied>,</supplied> qui doit estre continuée jusqu’au onzieme terme independament
+      <lb/>du multiplicateur commun. <choice><orig>dans</orig><reg>Dans</reg></choice> cette suitte l<supplied>’</supplied>index est <formula>4 - 2</formula><supplied>,</supplied> <formula>A = 1</formula><supplied>,</supplied> <formula>B = \frac{4}{4} = 1</formula><supplied>,</supplied> <formula>m = 4</formula><supplied>,</supplied> <formula>n = 2</formula><supplied>,</supplied>
+      <lb/>et negligeant les termes <formula>C</formula>, <formula>D</formula>, <formula>u</formula>, <choice><orig><formula>x</formula></orig><reg><formula>x</formula></reg></choice>, la somme de la precedente suitte sera <choice><orig><formula>8 + y - 7z </formula></orig><reg><formula>8 + y - 7z </formula></reg></choice><supplied>;</supplied>
+      <lb/>ce qui etant multiplié par le commun multiplicateur <formula>\frac{1}{8}</formula><supplied>,</supplied> la <choice><orig>probabilite</orig><reg>probabilité</reg></choice> cherchée sera
+      <lb/><choice><orig><formula> 1 + \frac{1}{8} y - \frac{7}{8} z</formula></orig><reg><formula> 1 + \frac{1}{8} y - \frac{7}{8} z</formula></reg></choice><supplied>;</supplied> il ne reste rien qu<supplied>’</supplied><choice><orig>a</orig><reg>à</reg></choice> trouver la valeur de <choice><orig><formula>y</formula></orig><reg><formula>y</formula></reg></choice> et de <choice><orig><formula>z</formula></orig><reg><formula>z</formula></reg></choice><supplied>,</supplied> mais on en trouvera
+      <lb/>la valeur par nostre <rs type="biblio">34 <abbr>prob.</abbr></rs></quote><note type="comment">Dieses Zitat ist eine teilweise freie Übersetzung einer Passage aus Moivres The doctrine of chances, pp. 131–132 mit der Überschrift «Remark». Es ist nicht klar, ob Montmort die Passage übersetzt hat oder ob de Moivre den Text in dieser Form brieflich mitgeteilt hat.</note> |Nota| <choice><orig>ce</orig><reg>Ce</reg></choice> 34.<hi rend="sup">eme</hi> <abbr>prob.</abbr> n<supplied>’</supplied>apprend point <choice><orig>a</orig><reg>à</reg></choice> trouver ces
+      <lb/>derniers termes. Je crois estre <choice><orig>sur</orig><reg>sûr</reg></choice> que c<supplied>’</supplied>est une gasconnade de <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> qui dit
+      <lb/>icy <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> ce qu’il ne <choice><orig>scait</orig><reg>sçait</reg></choice> point. Je tiens ce probleme tres difficile <quote><hi rend="u">trouver tel terme
+      <lb/>que l<supplied>’</supplied>on voudra d<supplied>’</supplied>une suitte <choice><sic>formé</sic><corr>formée</corr></choice> sur un Index quelconque</hi></quote>. Je <choice><orig>scai</orig><reg>sçai</reg></choice> <choice><sic>certain</sic><corr>certains</corr></choice> rapports
+      <lb/>entre <formula>m</formula> et <formula>n</formula>,<del><gap/></del> lorsque l’index est <formula>m+n</formula><supplied>,</supplied> qui rendent ce probleme<del><gap/></del>
+      <lb/>pratticable<supplied>,</supplied> mais en general <choice><orig>Je</orig><reg>je</reg></choice> le tiens tres difficile<supplied>.</supplied> Vous en jugerez<supplied>,</supplied> je crois<supplied>,</supplied> comme moy<choice><orig>.</orig><reg>,</reg></choice>
+      <lb/>que <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> par <abbr>Ex<supplied>.</supplied></abbr> me donne le millieme terme de cette suitte tres simple.
+      <lb/><del><gap/></del><choice><orig><formula>1 + 5 + 23 + 105 + 479 + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>1 + 5 + 23 + 105 + 479 + \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dont l<supplied>’</supplied><subst><del><gap/></del><add>in</add></subst>dex est <formula>5 - 2</formula><supplied>,</supplied>
+      <lb/>ensorte que chaque terme de la suitte soit egal <choice><orig>a</orig><reg>à</reg></choice> <subst><del><gap/></del><add>cinq</add></subst> fois le p<subst><del><gap/></del><add>r</add></subst>ecedent moins deux fois le
+      <lb/>penultieme<choice><orig>.</orig><reg>,</reg></choice> le 1<hi rend="sup">er</hi> terme de la suitte etant<supplied>,</supplied> si l<supplied>’</supplied>on veut multiplié par <formula>r</formula><supplied>,</supplied> le 2<hi rend="sup">e</hi> par <choice><orig><formula>rr</formula></orig><reg><formula>r^{2}</formula></reg></choice><supplied>,</supplied> le 3<hi rend="sup">eme</hi> par
+      <lb/><choice><orig><formula>r^3\mathrm{\;\&amp;c.}</formula></orig><reg><formula>r^3\mathrm{\;etc.}</formula></reg></choice></p>
+  <p><lb/>J<supplied>’</supplied>ay trouvé que l<supplied>’</supplied>index etant <formula>m-n</formula> et <formula>m</formula> surpassant <formula>n</formula> de l<supplied>’</supplied>unité<supplied>,</supplied> la <subst><del><gap/></del><add>somme des <formula>p</formula> 1<hi rend="sup">ers</hi> termes</add></subst> de la suitte<supplied>,</supplied>
+      <lb/>qui sera formée sur cet index<supplied>,</supplied> sera exprimée par cette formule<supplied>:</supplied>
+      <lb/><choice><orig><formula ana="corr">\frac{nr \times \overline{r-1} \times \overline{nr}^{p}-1}{\overline{n-1} \times \overline{r-1} \times \overline{nr-1}}-\frac{r \times \overline{nr-1}\times \overline{r^{p}-1}}{\overline{n-1} \times \overline{r-1} \times \overline{nr-1}}</formula></orig><reg><formula>\frac{nr(r-1)(nr)^{p}-1}{(n-1)(r-1)(nr-1)}-\frac{r(nr-1)(r^{p}-1)}{(n-1)(r-1)(nr-1)}</formula></reg></choice><note type="editorial">Im ersten Zähler schliesst das Vinculum im Manuskript das abschliessende <formula>-1</formula> nicht ein. Gemeint ist offenbar <formula>nr(r-1)((nr)^{p}-1)</formula>. Diese Gruppierung wird durch das folgende Zahlenbeispiel gestützt: Sie ergibt <formula>4634</formula> statt <formula>4634{,}5</formula>.</note><supplied>.</supplied> <abbr>Ex.</abbr> Soit <formula>n = 3</formula><supplied>,</supplied> <formula>p = 5</formula><supplied>,</supplied> <formula>r = 2</formula> les 5 1<hi rend="sup">ers</hi> termes de cette suitte
+      <lb/><choice><orig><formula>1 \cdot 2 + 4 \cdot 2^{2} + 13 \cdot 2^{3} + 40 \cdot 2^{4} + 121 \cdot 2^{5} + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>1 \cdot 2 + 4 \cdot 2^2 + 13 \cdot 2^3 + 40 \cdot 2^4 + 121 \cdot 2^5 + \mathrm{\;etc.}</formula></reg></choice> seront <choice><orig><formula>=\frac{6\times \overline{6^{5}-1}-2\cdot5\cdot\overline{2^{5}-1}}{2\cdot5}=4634</formula></orig><reg><formula>=\frac{6(6^{5}-1)-2\cdot5(2^{5}-1)}{2\cdot5}=4634</formula></reg></choice>.</p>
+  <p><lb/>Vous verrez bien<supplied>,</supplied> Monsieur<supplied>,</supplied> que ce qui fait trouver la somme dans cette espece particuliere
+      <lb/>est<supplied>,</supplied> que chaque terme de la suitte est la somme d<supplied>’</supplied>une progression Geometrique. J<supplied>’</supplied>en ai encore decouver<unclear reason="lost">t</unclear>
+<pb facs="1361942" n="8"/>
+      <lb/>quelques autres en les reduisant par diverses adresses <choice><orig>a</orig><reg>à</reg></choice> des progressions Geometriques<supplied>,</supplied>
+      <lb/>mais je le repete<supplied>,</supplied> la solution generalle est fort difficile et je parirois que <abbr>M<supplied>.</supplied></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> ne l<supplied>’</supplied>a pas.
+      <lb/><choice><orig>les</orig><reg>Les</reg></choice> 2 1<hi rend="sup">ers</hi> termes etant <formula>a</formula> et <formula>b</formula> et l<supplied>’</supplied>index <add>etant</add> <formula>m + n</formula><supplied>,</supplied> on trouve une suitte de termes<supplied>,</supplied> dont les
+      <lb/>coefficiens formeront les bandes diagonales du triangle Arithmetique<supplied>;</supplied> ainsi dans ce
+      <lb/>10<hi rend="sup">eme</hi> terme de la suitte
+      <lb/><choice><orig><formula>m^{8}b + m^{7}na + 7m^{6}nb + 6m^{5}nna + 15m^{4}nnb + 10m^{3}n^{3}a + 10mmn^{3}b + 4mn^{4}a + n^{4}b</formula></orig><reg><formula>m^{8}b + m^{7}na + 7m^{6}nb + 6m^{5}n^{2}a + 15m^{4}n^{2}b + 10m^{3}n^{3}a + 10m^{2}n^{3}b + 4mn^{4}a + n^{4}b</formula></reg></choice>
+      <lb/>les coefficiens des <formula>b</formula> sont 1, 7, 15, 10, 1, <unclear reason="illegible">9<hi rend="sup">eme</hi></unclear> bande diagonale de droitte <choice><orig>a</orig><reg>à</reg></choice> gauche<supplied>,</supplied> et les coefficiens
+      <lb/>de <formula>a</formula> sont la 8<hi rend="sup">eme</hi> <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> 1, 6, 10, 4.</p>
+  <p><lb/>Cette suitte <choice><orig><formula>1 + 2 + 3 + 5 + 8 + 13 + \mathrm{\;\&amp;c}</formula></orig><reg><formula>1 + 2 + 3 + 5 + 8 + 13 + \mathrm{\;etc.}</formula></reg></choice> contient les bandes du triangle Arithmetique <formula>1</formula>, <formula>1+1</formula>, <formula>1+2</formula>, <formula>1+3+1</formula>,
+      <lb/><formula>1+4+3</formula>, <formula>1+5+6+1</formula>, <formula>1+6+10+4</formula>, <choice><orig><formula>1+7+15+10+1,\mathrm{\;\&amp;c.}</formula></orig><reg><formula>1+7+15+10+1,\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> en sorte que trouver le n<hi rend="sup">eme</hi> terme de cette suitte
+      <lb/>ou trouver la somme de la <choice><orig><formula>\overline{n+1}</formula></orig><reg><formula>(n+1)</formula></reg></choice><hi rend="sup">eme</hi> bande diagonale<supplied>,</supplied> c<supplied>’</supplied>est la meme chose. <choice><orig>la</orig><reg>La</reg></choice> somme de cette suitte
+      <lb/>est egale <choice><orig>a</orig><reg>à</reg></choice> 2 fois le dernier terme <formula>+</formula> le penultieme moins le second<supplied>.</supplied></p>
+  <p><lb/><choice><orig>dans</orig><reg>Dans</reg></choice> toutte suitte <choice><orig>ou</orig><reg>où</reg></choice> <subst><del><gap/></del><add>le</add></subst> 1<hi rend="sup">er</hi> terme sera <formula>a</formula><supplied>,</supplied> <add>le 2<hi rend="sup">e</hi><choice><orig>,</orig><reg type="deleted"/></choice> <formula>b</formula></add><supplied>,</supplied> et chaque terme ensuitte egal <choice><orig>a</orig><reg>à</reg></choice> la somme des deux
+      <lb/>precedens<supplied>;</supplied> le terme de la suitte<supplied>,</supplied> dont le quantiesme sera <choice><orig>,</orig><reg type="deleted"/></choice><formula>n</formula>, sera égal <choice><orig>a</orig><reg>à</reg></choice> la somme des termes de
+      <lb/>la diagonale d<supplied>’</supplied>un triangle Arithmetique<supplied>,</supplied> dont le 1<hi rend="sup">er</hi> generateur sera <formula>a</formula> et le 2. <formula>b-a</formula><supplied>,</supplied> ainsi le<add>s</add><del><gap/></del>
+      <lb/><choice><sic>terme</sic><corr>termes</corr></choice> <subst><del><gap/></del><add>d<supplied>’</supplied><choice><orig>unne</orig><reg>une</reg></choice></add></subst> suitte <add>etant</add> <choice><orig><formula>3 + 10 + 13 + 23 + 36 + 59 + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>3 + 10 + 13 + 23 + 36 + 59 + \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> <subst><del><gap/></del><add>c</add></subst>e triangle<del><gap/></del>
+
+      <lb/><formula rend="display" ana="corr">\begin{array}{cccccc}
+      3 &amp; 3 &amp; 3 &amp; 3 &amp; 3 &amp; 3\\
+      &amp; 7 &amp; 10 &amp; 13 &amp; 16 &amp; 19\\
+      &amp; &amp; 7 &amp; 17 &amp; 30 &amp; 46\\
+      &amp; &amp; &amp; 7 &amp; 24 &amp; 54\\
+      &amp; &amp; &amp; &amp; 7 &amp; 31\\
+      &amp; &amp; &amp; &amp; &amp; 7
+      \end{array}</formula>
+
+      <lb/>aura des diagonales<supplied>,</supplied> dont les sommes rendront les termes correspondants
+      <lb/>de la suitte cy<choice><orig> </orig><reg>-</reg></choice>dessus<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <choice><orig><formula>3 + 10 + 13 + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>3 + 10 + 13 + \mathrm{\;etc.}</formula></reg></choice> <choice><orig>si</orig><reg>Si</reg></choice> j<supplied>’</supplied>avois beaucoup de loisir<supplied>,</supplied> je travaillerois
+      <lb/>sur cette matiere<supplied>,</supplied> qui apparemment fourniroit des decouvertes<supplied>,</supplied> mais j<supplied>’</supplied>en ai fort
+      <lb/>peu <choice><orig>a</orig><reg>à</reg></choice> cause qu’il y a icy <subst><del><gap/></del><add>as</add></subst>sez nombreuse compagnie<supplied>,</supplied> et quand je serai
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> <rs key="place_GEO-2988507" type="place">Paris</rs><supplied>,</supplied> j<supplied>’</supplied>en aurai encore moins.</p>
+  <p><lb/><abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> auroit fort bien pu dire que nous luy avons <subst><del><gap/></del><add>do</add></subst>nné occasion de penser <choice><orig>a</orig><reg>à</reg></choice> ces sortes
+      <lb/>de suittes<choice><orig>.</orig><reg>;</reg></choice> mais ce n<supplied>’</supplied>est pas sa methode de citer. <choice><orig>les</orig><reg>Les</reg></choice> termes de cette suitte <formula>\frac{1}{8}</formula>, <formula>\frac{3}{16}</formula>, <formula>\frac{8}{32}</formula>, <choice><orig><formula ana="corr">\frac{26}{64},\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{26}{64},\mathrm{\;etc.}</formula></reg></choice> <rs type="biblio"><abbr>pag.</abbr> 320 et 330</rs><supplied>,</supplied> ne donnent-ils pas les sommes de celle<choice><orig> </orig><reg>-</reg></choice>cy <formula>\frac{1}{8}</formula><subst><del><gap/></del><add>,</add></subst> <formula>\frac{1}{16}</formula><subst><del><gap/></del><add>,</add></subst> <formula>\frac{2}{32}</formula><subst><del><gap/></del><add>,</add></subst> <formula>\frac{4}{64}</formula>, <choice><orig><formula>\frac{7}{128}\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{7}{128}\mathrm{\;etc.}</formula></reg></choice> qui est dans le cas de touttes ses suittes<supplied>?</supplied>
+      <lb/>n<supplied>’</supplied>a<choice><orig> </orig><reg>-</reg></choice>t-il pas un dans cette <rs type="biblio">page 330</rs> que vous <choice><orig>scaviez</orig><reg>sçaviez</reg></choice> sommer ces suittes<choice><orig>.</orig><reg>?</reg></choice></p>
+  <p><lb/>Je trouve dans une de vos anciennes <rs type="letter">lettres</rs> cette regle qui comprend tout le lemme 2<hi rend="sup">e</hi> de
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs>. <quote type="long"><choice><orig><g ref="#quote">„</g></orig><reg/></choice><hi rend="u">J<supplied>’</supplied>ay</hi> trouvé <choice><orig>a</orig><reg>à</reg></choice> l<supplied>’</supplied>occasion de ce <abbr>Prob.</abbr> une regle generalle pour sommer touttes
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>les suittes infinies<supplied>,</supplied> dont les termes sont des fractions<supplied>,</supplied> qui vont en cette progression<choice><orig>.</orig><reg>:</reg></choice> <hi rend="u"><choice><orig>chaque</orig><reg>Chaque</reg></choice></hi>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>Numerateur est la somme de tous les Numerateurs d’autant de fractions precedentes
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>qu<supplied>’</supplied>il y a d’<choice><orig>unites</orig><reg>unités</reg></choice> dans le nombre <add>donné</add> <formula>n</formula>, et chaque denominateur <choice><orig>à</orig><reg>a</reg></choice> au denominateur
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>de la fraction immediatement suivante la meme raison que 1 <choice><orig>a</orig><reg>à</reg></choice> <formula>m</formula><supplied>.</supplied> <choice><orig>la</orig><reg>La</reg></choice> somme d<supplied>’</supplied>une telle
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>suitte sera toujours au 1<hi rend="sup">er</hi> terme de la suitte <subst><del><gap/></del><add>comme</add></subst> <formula>m-1</formula> à <formula>m-2+\frac{1}{m^{n}}</formula> et <choice><orig>a</orig><reg>à</reg></choice> la fin <subst><del><gap/></del><add>d</add></subst>e
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>cette <rs type="letter">lettre</rs> qui par le <subst><del><gap/></del><add>grand</add></subst> nombre de belles choses qu<supplied>’</supplied>elle contient vaut seule un bon livre<supplied>;</supplied>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>vous faittes l<supplied>’</supplied>application de cette regle <choice><orig>a</orig><reg>à</reg></choice> cette suitte <choice><orig><formula>\frac{1}{8} + \frac{1}{16} + \frac{2}{32} + \frac{4}{64} + \frac{7}{128} + \mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{8} + \frac{1}{16} + \frac{2}{32} + \frac{4}{64} + \frac{7}{128} + \mathrm{\;etc.}</formula></reg></choice> dont vous
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>trouvez la somme <formula>= 1</formula>.</quote></p>
+  <p><lb/>Si l<supplied>’</supplied>on met <unclear reason="illegible">v</unclear>ostre regle en formule<supplied>,</supplied> on trouve <choice><orig><formula>a\times\frac{m^{n-1}\times\overline{m-1}}{m^{n+1}-2r^{n}+1}</formula></orig><reg><formula>a\frac{m^{n-1}(m-1)}{m^{n+1}-2r^{n}+1}</formula></reg></choice><supplied>,</supplied> ce qui donne aussi la <rs type="biblio">regle</rs> de
+      <lb/><abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs>. <choice><orig>en</orig><reg>En</reg></choice> voicy assez sur ce 2.<hi rend="sup">e</hi> lemme<supplied>;</supplied> passons au 3<hi rend="sup">eme.</hi></p>
+  <p><hi rend="c">Lemme<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> 3</hi></p>
+  <p><quote rend="unmarked"><foreign xml:lang="eng">If <del><gap/></del></foreign>l’Index <add>qui</add> exprime la relation des termes dans une suitte est <formula>m+n</formula><supplied>,</supplied> et que l<supplied>’</supplied>index
+      <lb/>d<supplied>’</supplied>une autre suitte soit <formula>p+q</formula><choice><orig>.</orig><reg>,</reg></choice> une suitte formée du produit de chaque terme de l<supplied>’</supplied>une par
+      <lb/>chaque terme correspondant de l<supplied>’</supplied>autre aura pour Index la quantité suivante<supplied>:</supplied>
+      <lb
+    /><choice><orig><formula rend="display">\begin{align}
+&amp; + mmq \\
+mp &amp; + npp+ mnpq - nnqq \\
+&amp; + 2 nq
+\end{align}</formula></orig><reg><formula rend="display">\begin{align}
+&amp; + m^{2}q \\
+mp &amp; + np^{2}+ mnpq - n^{2}q^{2} \\
+&amp; + 2 nq
+\end{align}</formula></reg></choice></quote><note type="comment">Moivre, The doctrine of change</note></p>
+<pb facs="1361943" n="9"/>
+  <p><lb/>Ainsi chaque terme de cette suitte <choice><orig><formula>1, 3, 5, 11, 21, 43 \mathrm{\;\&amp;c}</formula></orig><reg><formula>1, 3, 5, 11, 21, 43 \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dont l<supplied>’</supplied>index est <formula>1+2</formula><supplied>,</supplied> etant <choice><orig>multiplie</orig><reg>multiplié</reg></choice>
+      <lb/>par chaque terme correspondant de celle<choice><orig></orig><reg>-</reg></choice>cy 1, 2, 5, 13, 34, 89 <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr><supplied>,</supplied> dont l<supplied>’</supplied>index est <formula>3-1</formula><supplied>,</supplied>
+      <lb/>il en naistra cette suitte <choice><orig><formula>1, 6, 25, 143, 714, 3827 \mathrm{\;\&amp;c}</formula></orig><reg><formula>1, 6, 25, 143, 714, 3827 \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> dont par la formule cy<choice><orig></orig><reg>-</reg></choice>dessus l’index sera <formula>3 + 13 - 6 - 4</formula><supplied>.</supplied></p>
+  <p><lb/><choice><orig>lorsque</orig><reg>Lorsque</reg></choice> <formula ana="corr">m = p</formula> et <formula ana="corr">n = q</formula><supplied>,</supplied> la formule devient
+  <formula>
+    \vcenter{
+    \hbox{
+    \(\begin{array}{r@{\;}l}
+    mm &amp; +\, mmn \\
+    +\,n  &amp; +\, nn
+    \end{array}\)
+    }
+    }
+    \!\!-\,n^{3}</formula>
+  <quote rend="unmarked"><foreign xml:lang="eng">and in like manner other
+      <lb/>theorems may be found, which may be <choice><sic>extendet</sic><corr>extended</corr></choice> farther<supplied>,</supplied> a<subst><del><gap/></del><add>nd</add></subst> at last be comprized
+      <lb/>under one general rule</foreign></quote>. <choice><orig>cette</orig><reg>Cette</reg></choice> espece de Corollaire est tres familiere <choice><orig>a</orig><reg>à</reg></choice> <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs><supplied>;</supplied> c<supplied>’</supplied>est pour<pc type="hyphenation"></pc><lb break="no"/>tant se mocquer des gens d’appeller maniere de trouver le simple enoncé de la chose
+      <lb/><choice><orig>denue</orig><reg>denué</reg></choice> de tout vestige d<supplied>’</supplied>invention.</p>
+  <p><lb/>Il finit son <rs type="biblio">livre</rs> par ce qui suit.<note type="comment">Die folgende Passage ist eine Zusammenfassung von Moivres Text auf p. 154 der Doctrine of Chances.</note> Si une des suittes a pour Index <formula>l + m + n</formula> et l<supplied>’</supplied>autre
+      <lb/><formula>p + q</formula><choice><orig>.</orig><reg>,</reg></choice> l<supplied>’</supplied>index de celle qui sera formée des deux en la meme maniere que cy<choice><orig></orig><reg>-</reg></choice>dessus<supplied>,</supplied> sera<supplied>:</supplied>
+      <lb/><choice><orig><formula rend="display">\begin{array}{r c l c l c l c l c l}
+    &amp; + &amp; 2mq  &amp; + &amp; lmpq  &amp; + &amp; 2lnqq &amp;   &amp;       &amp;   &amp;        \\
+    lp&amp; + &amp; llq  &amp; + &amp; np^{3}&amp; - &amp; mmqq  &amp; - &amp; mnpqq &amp; + &amp; nnq^{3} \\
+    &amp; + &amp; mpp  &amp; + &amp; 3npq  &amp; + &amp; lnppq &amp;   &amp;       &amp;   &amp;
+    \end{array}</formula></orig><reg><formula rend="display">\begin{array}{r c l c l c l c l c l}
+    &amp; + &amp; 2mq  &amp; + &amp; lmpq  &amp; + &amp; 2lnq^{2} &amp;   &amp;       &amp;   &amp;        \\
+    lp&amp; + &amp; l^{2}q  &amp; + &amp; np^{3}&amp; - &amp; m^{2}q^{2}  &amp; - &amp; mnpq^{2} &amp; + &amp; n^{2}q^{3} \\
+    &amp; + &amp; mp^{2}  &amp; + &amp; 3npq  &amp; + &amp; lnp^{2}q &amp;   &amp;       &amp;   &amp;
+    \end{array}</formula></reg></choice></p>
+
+  <p><lb/>Voicy <choice><orig>Maintenant</orig><reg>maintenant</reg></choice> ce qu’il dit dans sa <rs type="biblio">preface</rs> <choice><orig>a</orig><reg>à</reg></choice> l’occasion de ces 3 lemmes<choice><orig>...</orig><reg>:</reg></choice><note type="comment">Moivre, The Doctrine of Chances, p. ix.</note> <quote rend="unmarked"><foreign xml:lang="eng">I <choice><sic>hoppe</sic><corr>hope</corr></choice> the
+      <lb/>reader excuse me not giving the demonstrations of some few things relating to this matter<supplied>,</supplied>
+      <lb/><choice><orig>Especially</orig><reg>especially</reg></choice> of the two theorems contained in <rs type="biblio">page 134 et 154</rs> <said>(c<supplied>’</supplied>est le 3<hi rend="sup">eme</hi> lemme et la formule cy<choice><orig></orig><reg>-</reg></choice>dessus<supplied>)</supplied></said>
+      <lb/>..... those demonstrations are omitted purposely to give an occasion to the reader to exercise
+      <lb/>his own ingenuity. <choice><orig>in</orig><reg>In</reg></choice> the <choice><orig>Mean</orig><reg>mean</reg></choice> Time I have deposited them with the <rs type="organisation" key="org_DE-588-39272-8">Royal Society</rs>
+      <lb/>in order to be published<supplied>,</supplied> when it shall be thought requisite.</foreign></quote> Vous voyez<supplied>,</supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr><supplied>,</supplied> que cela
+      <lb/>est de grand appareil. <choice><orig>sans</orig><reg>Sans</reg></choice> doutte que <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> y a trouvé beaucoup de difficulté<choice><orig>.</orig><reg>;</reg></choice>
+      <lb/>cela ne m<supplied>’</supplied>eust pas rebuté et j<supplied>’</supplied>aurois entrepris cette recherche<supplied>,</supplied> si elle m<supplied>’</supplied>avoit paru plus
+      <lb/>considerable<supplied>,</supplied> mais <choice><orig>a</orig><reg>à</reg></choice> quoy sert de trouver l’index d’une suitte<supplied>,</supplied> si on ne peut en trouver
+      <lb/>la somme indefiniment. <choice><orig>d</orig><reg>D</reg></choice><supplied>’</supplied>ailleur je ne suis pas content de <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs><supplied>,</supplied> qui est un homme
+      <lb/>d’esprit <choice><orig>a</orig><reg>à</reg></choice> la <choice><orig>verite</orig><reg>verité</reg></choice><supplied>,</supplied> mais qui est vain et qui ne va pas droit. Vous en serez convaincu<supplied>,</supplied>
+      <lb/>quand je vous aurai envoyé un nouvel extrait de son <rs type="biblio">livre</rs><choice><orig>.</orig><reg>,</reg></choice> que je vous offre et qui ne tiendra
+      <lb/>pas plus de deux ou 3 pages<supplied>.</supplied> Je travaillerois plus volontiers <choice><orig>a</orig><reg>à</reg></choice> ces <abbr>P<subst><del><gap/></del><add>rob.</add></subst></abbr> de <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs><supplied>,</supplied>
+      <lb/>si j<supplied>’</supplied>y etois <choice><orig>invite</orig><reg>invité</reg></choice> par un ami tel que vous<supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice> qui cela fit plaisir.</p>
+
+  <p>Avant que de quitter <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs><supplied>,</supplied> il faut que je vous parle d<supplied>’</supplied>un <abbr>prob.</abbr><supplied>,</supplied> <choice><orig>ou</orig><reg>où</reg></choice> il est <subst><del><gap/></del><add>fait mention</add></subst> de vous
+      <lb/>et qui suit immediatement le 3<hi rend="sup">eme</hi> lemme que je viens de vous rapporter. Voicy la <choice><orig>ppoon</orig><reg>proposition</reg></choice> en
+      <lb/>Anglois<supplied>:</supplied><note type="comment">Abraham de Moivre, <rs type="biblio" key="biblio_WRTZNU9Z">The Doctrine of Chances</rs>, London 1718, Problem XLIII, S. 135.</note> <quote><hi rend="u"><foreign xml:lang="eng">Supposing <formula>A</formula> et <formula>B</formula> whose <choice><orig>pportion</orig><reg>proportion</reg></choice> of Skill is as <formula>a</formula> to <formula>b</formula> to play together, till <formula>A</formula> either
+      <lb/>wins the number <formula>q</formula> of Stakes or loses number <formula>p</formula> of them<supplied>,</supplied> and that <formula>B</formula> sets at every game
+      <lb/>the sum <formula>G</formula> to the sum <formula>L</formula><supplied>,</supplied> it is required to find the advantage or disadvantage of <formula>A</formula>.</foreign></hi></quote>
+      <lb/><choice><orig>c</orig><reg>C</reg></choice><supplied>’</supplied>est de ce <abbr>prob.</abbr> que me parloit <abbr>M.</abbr> <rs key="pers_DE-588-117586765" type="person">Moivre</rs> dans une <rs type="letter">lettre</rs> du <date when="1714-07-12">1<subst><del><gap/></del><add>2</add></subst> juillet 1714<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></date> en ces termes<supplied>:</supplied>
+      <lb/><choice><orig>“</orig><reg/></choice><quote>Je ne <choice><orig>scai</orig><reg>sçai</reg></choice> point ce que <abbr>M.<hi rend="sup">r</hi></abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N<hi rend="sup">as</hi></abbr> Bernoulli</rs> juge d’un probleme que je luy ay dit avoir resolu
+      <lb/>et qui me paroist <hi rend="u">le plus beau et le plus difficile</hi> de tous ceux que j’ay jamais entrepris
+      <lb/>de resoudre.<choice><orig>”</orig><reg/></choice></quote><note type="comment">Aus De Moivres Brief an Montmort vom 12. Juli 1714, ausführlicher überliefert in <rs type="letter" key="B_991170517021705501">Montmorts Brief an Nicolaus I Bernoulli vom 15. August 1714</rs> (UB Basel, UBH L Ia 22:2 Nr. 191, S. 3): «<foreign xml:lang="fre">Mr Bernoulli le neveu ne m’a point ecrit depuis que je luy ay envoyé ma solution generalle du probleme de la Poulle; ainsi je ne scai point ce qu’il juge d’un probleme que je luy ay dit avoir resolu et qui me paroist le plus beau et le plus difficile de tous ceux que j’ay jamais entrepris de resoudre.</foreign>» In der späteren Wiedergabe lässt Montmort den einleitenden Satzteil weg und ersetzt «il» durch Bernoullis Namen.</note> Sa solution a 7 grandes pages. Je ne l<supplied>’</supplied>ai pas luë. <choice><orig>a</orig><reg>À</reg></choice> la fin<supplied>,</supplied> <choice><orig>Voicy</orig><reg>voicy</reg></choice> ce qu<supplied>’</supplied>il dit qui
+      <lb/>vous regarde<supplied>:</supplied></p>
+  <p><lb/><quote rend="unmarked"><foreign xml:lang="eng"><choice><orig>after</orig><reg>After</reg></choice> I had solved the foregoing Problem, I <rs type="letter">wrote word</rs> of it to <abbr>M.</abbr> <rs key="pers_DE-588-119166895" type="person"><abbr>N<hi rend="sup">as</hi></abbr> Bernoully</rs><supplied>,</supplied>
+      <lb/>the present professor of mathematics at <rs key="place_GEO-3171728" type="place">Padoua</rs>, without acquainting him with my solution<supplied>.</supplied>
+      <lb/>I <choice><orig>Only</orig><reg>only</reg></choice> let him know in <choice><orig>General</orig><reg>general</reg></choice> that it was done by the method<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> of <del><gap/></del>finite series; and as one
+      <lb/>of them has some affinity with the method of series used all <add>a</add>long in this <rs type="biblio">book</rs><supplied>,</supplied> I shall
+      <lb/>transcribe it here in the words of his <rs type="letter">letter</rs>. <quote><choice><orig>“</orig><reg>‹</reg></choice><choice><orig>my</orig><reg>My</reg></choice> <rs type="person" key="pers_DE-588-118509969">Uncle</rs> has observed that this problem may
+      <lb/>also be solved after the same manner as you have solved the ninth <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr><choice><orig/><reg>›</reg></choice></quote></foreign></quote> et il finit par ces mots<supplied>:</supplied></p>
+<pb facs="1361944" n="10"/>
+  <p><lb/><quote rend="unmarked"><foreign xml:lang="eng"><choice><orig>this</orig><reg>This</reg></choice> being supposed, the gain of <formula>A</formula> will be found to be <formula>AT - BS</formula> or <choice><orig><formula>\frac{AG-bL}{a-b}\times\overline{Aq-Bp}</formula></orig><reg><formula>\frac{AG-bL}{a-b}(Aq-Bp)</formula></reg></choice></foreign></quote><supplied>,</supplied>
+      <lb/>et comme il se picque de verité et d<supplied>’</supplied>equité<supplied>,</supplied> <add>il</add> adjoute ce qui suit<supplied>:</supplied></p>
+  <p><quote rend="unmarked"><foreign xml:lang="eng"><abbr>N. B.</abbr> tho<supplied>’</supplied> I may accidentally have given a usefull Hint for that elegant<del><gap/></del>
+      <lb/>method of solving the foregoing Problem, yet I think it reasonable to ascribe it entirely
+      <lb/>to its proper <rs type="person">author</rs><supplied>,</supplied> the hint having been improv’d much beyond what I could
+      <lb/>have expected<choice><orig>,</orig><reg>.</reg></choice></foreign></quote> Voyez que ce <rs type="person">Monsieur</rs> est bon<supplied>,</supplied> mais que n<supplied>’</supplied>a<choice><orig> </orig><reg>-</reg></choice>t-il donné Vostre
+      <lb/><subst><del><gap/></del><add>a</add></subst>utre method<add>e</add><supplied>,</supplied> qui est ainsi que celle qu<supplied>’</supplied>il rapporte de vous d<supplied>’</supplied>une elegance admirable
+      <lb/>et d<supplied>’</supplied>une <choice><orig>simplicite</orig><reg>simplicité</reg></choice> surprenante par comparaison <choice><orig>a</orig><reg>à</reg></choice> <del><gap/></del>la sienne. Je viens de
+      <lb/>les lire touttes deux avec bien du plaisir dans vostre <rs type="letter">lettre</rs> du <date when="1714-08-28">28 Aoust 1714</date>. <choice><orig>que</orig><reg>Que</reg></choice> n<supplied>’</supplied>a<choice><orig></orig><reg>-</reg></choice>t-il
+      <lb/>orné son <rs type="biblio" key="biblio_WRTZNU9Z">livre</rs> des <subst><del><gap/></del><add>corollaires</add></subst> dont vous m<supplied>’</supplied>avez fait part <add>dans cette <rs type="letter">lettre</rs><supplied>,</supplied></add> si vous les lu<del><gap/></del>y ave<add>z</add> envoyé<choice><orig>.</orig><reg>?</reg></choice> Il n<supplied>’</supplied>y a rien
+      <lb/>de si beau dans tout son <rs type="biblio">livre</rs> qui est pourtant tres bon<supplied>,</supplied> mais <choice><orig>ou</orig><reg>où</reg></choice> il y a peu de choses de son invention<supplied>,</supplied>
+      <lb/>quoyqu<supplied>’</supplied>il affecte beaucoup l’originalité.</p>
+  <p><lb/>Voicy <choice><orig>Presentement</orig><reg>presentement</reg></choice><supplied>,</supplied> Monsieur<supplied>,</supplied> quelques reflexions sur la Proposition 24 du <rs type="biblio" key="biblio_UM97A8GQ">traitté</rs>
+      <lb/>de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> Vostre <rs type="person" key="pers_DE-588-118509950">Oncle</rs> <choice><orig>de</orig><reg>De</reg></choice> seriebus infinitis<supplied>.</supplied></p>
+  <p><lb/><hi rend="c">Probleme.</hi></p>
+  <p><lb/><hi rend="u">On demande quel est dans cette suitte <formula>1 + 2^{m} + 3^{m} + 4^{m} ....\infty ^{m}</formula> le rapport des termes pairs aux
+      <lb/>termes impairs<supplied>,</supplied> c’est <choice><orig>a</orig><reg>à</reg></choice> dire quel est le rapport de la somme <del><gap/></del>du 1<hi rend="sup">er</hi>, 3<hi rend="sup">eme</hi>, 5<hi rend="sup">eme</hi>, <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr> termes
+      <lb/><choice><orig>a</orig><reg>à</reg></choice> la somme du 2<hi rend="sup">e</hi>, 4<hi rend="sup">eme</hi>, 6<hi rend="sup">eme</hi><supplied>,</supplied> <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></hi></p>
+  <p><lb/>Pour le trouver soit <formula>a = 1+2^{m}+3^{m}+4^{m} ..... \infty^{m}</formula> et <choice><orig><formula>b=1+2^{m}+3^{m}+4^{m}.....\overline{\frac{\infty}{2}}^{m}</formula></orig><reg><formula>b=1+2^{m}+3^{m}+4^{m}\ldots\left(\frac{\infty}{2}\right)^{m}</formula></reg></choice><supplied>,</supplied> c<supplied>’</supplied>est <choice><orig>a</orig><reg>à</reg></choice> dire
+      <lb/><formula>=</formula> <choice><orig>a</orig><reg>à</reg></choice> la 1<hi rend="sup">ere</hi> moitié des termes de la suitte<choice><orig>,</orig><reg type="deleted"/></choice> <formula>a</formula><choice><orig>,</orig><reg>.</reg></choice> On aura en integrant le dernier term<subst><del><gap/></del><add>e</add></subst> de chacune
+      <lb/>de ces deux suittes <choice><orig><formula>a=\frac{1}{m+1}\times\infty^{m+1}</formula></orig><reg><formula>a=\frac{1}{m+1}\cdot\infty^{m+1}</formula></reg></choice> et <choice><orig><formula>b=\frac{1}{m+1}\times\overline{\frac{\infty}{2}}^{m+1}</formula></orig><reg><formula>b=\frac{1}{m+1}\left(\frac{\infty}{2}\right)^{m+1}</formula></reg></choice><supplied>.</supplied> Soit supposé maintenant que<choice><orig>,</orig><reg type="deleted"/></choice> <formula>y</formula><choice><orig>,</orig><reg type="deleted"/></choice> soit
+      <lb/><formula>=</formula> à la somme des impairs <choice><orig><formula>= 1 + 3^{m} + 5^{m} + 7^{m} + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>= 1 + 3^{m} + 5^{m} + 7^{m} + \mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> <formula>a - y</formula> sera <formula>=</formula> à la somme de<add>s</add> pairs <choice><orig><formula>=2^{m}+4^{m}+6^{m}</formula></orig><reg><formula>=2^{m}+4^{m}+6^{m}</formula></reg></choice>
+      <lb/><choice><orig><formula ana="corr">+\mathrm{\;\&amp;c}=2^{m}\times 1+2^{m}+3^{m}+4^{m}....\overline{\frac{\infty}{2}}^{m} = 2^{m}b</formula></orig><reg><formula>+\mathrm{\;etc.}=2^{m}\left(1+2^{m}+3^{m}+4^{m}\ldots\left(\frac{\infty}{2}\right)^{m}\right) = 2^{m}b</formula></reg></choice>. <choice><orig>donc</orig><reg>Donc</reg></choice> <choice><orig><formula>y\;.\;a-y :: a-b\times 2^{m}\;.\;b\times 2^{m}</formula></orig><reg><formula>y : a-y = (a-b)\cdot 2^m : b\cdot 2^m</formula></reg></choice><supplied>,</supplied> et mettant
+      <lb/>pour <formula>a</formula> et <formula>b</formula> leurs valeurs, <choice><orig><formula>y\,.\,a-y\;::\;\frac{1}{m+1}\times\infty^{m+1}-\frac{1}{m+1}\times\overline{\frac{\infty}{2}}^{m+1}\times 2^{m}\,.\,\frac{1}{m+1}\times \overline{\frac{\infty}{2}}^{m+1}\times 2^{m}</formula></orig><reg><formula>y\,:\,(a-y)\;=\;\frac{1}{m+1}\cdot\infty^{m+1}-\frac{1}{m+1}\left(\frac{\infty}{2}\right)^{m+1}\cdot2^{m}\,:\,\frac{1}{m+1}\left(\frac{\infty}{2}\right)^{m+1}\cdot2^{m}</formula></reg></choice>
+      <lb/><choice><orig><formula>\;::\;\frac{2^{m+1}}{2^{m}}-1\;.\;1\;::\;1\,.\,1</formula></orig><reg><formula>=\left(\frac{2^{m+1}}{2^{m}}-1\right)\,:\,1\;=\;1\,:\,1</formula></reg></choice>.</p>
+  <p><lb/>L<subst><del><gap/></del><add>e rap</add></subst>port d’égalité entre la somme des nombres pairs et celle des nombres impairs est donc
+      <lb/>demontré dans touttes les differentes suppositions d<subst><del><gap/></del><add>u nombre</add></subst><choice><orig>,</orig><reg type="deleted"/></choice> <formula>m</formula><choice><orig>,</orig><reg type="deleted"/></choice> entier ou rompu positif ou negatif<supplied>,</supplied>
+      <lb/>pourvu qu’on puisse avoir la somme de la suitte<supplied>,</supplied> ce qui arrive toujours quand<choice><orig>,</orig><reg type="deleted"/></choice> <formula>m</formula><choice><orig>,</orig><reg type="deleted"/></choice> n<supplied>’</supplied>est pas une
+      <lb/>quantité negative égale <choice><orig>a</orig><reg>à</reg></choice> l’unité ou plus grande<supplied>.</supplied></p>
+  <p><lb/>Ainsi l’on voit que <formula>m</formula> etant <formula>-\frac{1}{2}</formula><supplied>,</supplied> le raport des termes impairs aux termes pairs sera d’égalité
+      <lb/>dans la suitte <choice><orig><formula>\frac{1}{\sqrt{}1}+\frac{1}{\sqrt{}2}+\frac{1}{\sqrt{}3}+\frac{1}{\sqrt{}4}+\frac{1}{\sqrt{}5}+\ldots\frac{1}{\sqrt{}\infty}</formula></orig><reg><formula>\frac{1}{\sqrt{1}}+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\frac{1}{\sqrt{4}}+\frac{1}{\sqrt{5}}+\ldots\frac{1}{\sqrt{\infty}}</formula></reg></choice> et non dans le rapport de <formula>\sqrt{2}-1 \text{à} 1</formula> qui formoit
+      <lb/>ce paradoxe étrange dont parle <abbr>M.</abbr> vostre <rs type="person" key="pers_DE-588-118509950">oncle</rs>: <quote><foreign xml:lang="lat">"Mirabile vero est quod in serie <choice><orig><formula>\frac{1}{\sqrt{1}}+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{\sqrt{}1}+\frac{1}{\sqrt{}2}+\frac{1}{\sqrt{}3}+\mathrm{\;etc.}</formula></reg></choice>
+      <lb/>(cujus summa infinita est ceu major serie <choice><orig><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \mathrm{\;etc.}</formula></reg></choice> propter denominatores majores)
+      <lb/>termini locorum imparium ad terminos parium juxt<choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> regulam inveniuntur habere rationem
+      <lb/><formula>\sqrt{2}-1</formula> minoris scilicet ad majus cum tamen illi cum his sigillatim collati iisdem manifesto sint
+      <lb/>majores: cujus <foreign xml:lang="grc">ἐνανtioφανείας</foreign> rationem etsi ex infiniti natur<choice><orig><g ref="#ahat">â</g></orig><reg>a</reg></choice> finito intellectui comprehendi
+      <lb/>non posse videatur<supplied>.</supplied> Nos tamen satis perspectam habemus.</foreign></quote></p>
+  <p>Lorsque je tombai la 1<hi rend="sup">ere</hi> fois sur cet endroit<supplied>,</supplied> je fus <choice><orig>frappe</orig><reg>frappé</reg></choice> de la singularité du paradoxe et je
+      <lb/>l<supplied>’</supplied>aurois rejetté<supplied>,</supplied> si l’autorité du grand nom de <rs type="person">Bernoulli</rs> et cette sorte d’infaillibilité qu<supplied>’</supplied>on attribue
+      <lb/>volontiers et pourtant mal <choice><orig>a</orig><reg>à</reg></choice> propos aux grands hommes<supplied>,</supplied> ne m<supplied>’</supplied>eust imposé au tant et plus que sa
+      <lb/>demonstration qui pourtant<supplied>,</supplied> il faut l<supplied>’</supplied>avouer<supplied>,</supplied> a un grand air de verité<supplied>.</supplied></p>
+<pb facs="1361945" n="11"/>
+  <p><lb/><choice><orig>le</orig><reg>Le</reg></choice> fondement de sa demonstration est que dans cette suitte <choice><orig><formula>\frac{1}{1^m} + \frac{1}{2^m} + \frac{1}{3^m} + \mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1^m} + \frac{1}{2^m} + \frac{1}{3^m} + \mathrm{\;etc.}</formula></reg></choice> <choice><orig>ou</orig><reg>où</reg></choice> <formula>m</formula> exprime
+      <lb/>une fraction moindre que l’unité<supplied>,</supplied> la derniere moitié de la suitte toutte composée de <choice><orig>quantites</orig><reg>quantités</reg></choice>
+      <lb/>infiniment petittes e<subst><del><gap/></del><add>s</add></subst>t nulle par rapport <choice><orig>a</orig><reg>à</reg></choice> la 1<hi rend="sup">ere</hi> moitié<supplied>,</supplied> qui est composé d<supplied>’</supplied>un nombre <add>in</add>fini <subst><del><gap/></del><add>et</add></subst>
+      <lb/>de <choice><sic>quantité</sic><corr>quantités</corr></choice> finies. <choice><orig>on</orig><reg>On</reg></choice> ne peut s<supplied>’</supplied>empescher de convenir que cela ne soit extremement
+      <lb/>vraysemblable et il faut que cela le soit beaucoup pour avoir seduit un homme aussi familiarisé
+      <lb/>avec le vray que l<supplied>’</supplied>etoit feu <abbr>M.</abbr> vostre <rs type="person" key="pers_DE-588-118509950">oncle</rs><supplied>,</supplied> que je regarde comme un des plus grands et des plus
+      <lb/>exacts Geometres <subst><del><gap/></del><add>qui</add></subst> fust jamais. Voicy<supplied>,</supplied> Monsieur<supplied>,</supplied> par quels <choice><orig>degres</orig><reg>degrés</reg></choice> j<supplied>’</supplied>en suis venu <choice><orig>a</orig><reg>à</reg></choice> decouvrir
+      <lb/>l’origine de son erreur. Je lisois l’année <choice><orig>passee</orig><reg>passée</reg></choice> le <rs type="biblio"><choice><orig>traitté</orig><reg>Traitté</reg></choice> de l’infini</rs> que <abbr>M.</abbr> de <rs key="pers_DE-588-118639056" type="person"><choice><orig>fontenelle</orig><reg>Fontenelle</reg></choice></rs> m<supplied>’</supplied>avoit
+      <lb/>communiqué<choice><orig>,</orig><reg>;</reg></choice> comme il est parfaittement beau et qu’il m<supplied>’</supplied>avoit prié de le lire avec soin<supplied>,</supplied> j’en avois la
+      <lb/>teste pleine. Je m’avisai de relire cette <choice><orig>ppoon</orig><reg>proposition</reg></choice> 24<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> du <rs type="biblio" key="biblio_UM97A8GQ">traitté</rs> <choice><orig>de</orig><reg>De</reg></choice> seriebus,<note type="comment">Die propositio 24 findet auf pp. 260–262.</note> qui m<supplied>’</supplied>avoit toujours fait
+      <lb/>de la peine<supplied>,</supplied> et l<supplied>’</supplied>ayant medité<supplied>,</supplied> je decidai en moy<choice><orig> </orig><reg>-</reg></choice>meme que la <choice><orig>ppoon</orig><reg>proposition</reg></choice> etoit fausse avant meme que
+      <lb/>d<supplied>’</supplied>avoir reconnu le defaut de la demonstration. Je voyois d<supplied>’</supplied>une part que <abbr>M<supplied>.</supplied></abbr> vostre <rs type="person" key="pers_DE-588-118509950">oncle</rs> avoit senti
+      <lb/>toutte la <choice><orig>difficulte</orig><reg>difficulté</reg></choice> et qu<supplied>’</supplied>il avoit passé outre, mais de l<supplied>’</supplied>autre<supplied>,</supplied> je voiois que je devois bruler mes livres
+      <lb/>et renoncer pour jamais <choice><orig>a</orig><reg>à</reg></choice> raisonner<supplied>,</supplied> s<supplied>’</supplied>il me falloit admettre cette proposition<supplied>,</supplied> <quote><hi rend="u">que deux suittes
+      <lb/><formula>A</formula> et <formula>B</formula> etant composées d’un égal nombre de termes et telles que chaque terme de la suitte <formula>A</formula> fust plus grand que chaque terme correspondant de la suitte <formula>B</formula><choice><orig>.</orig><reg>,</reg></choice> la suitte <formula>A</formula> pust estre plus
+      <lb/>petitte que la suitte <formula>B</formula><choice><orig>.</orig><reg>,</reg></choice></hi></quote> <subst><del><gap/></del><add><choice><orig>a</orig><reg>à</reg></choice></add></subst> quoy se reduisoit le paradoxe de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs type="person" key="pers_DE-588-118509950">Oncle</rs>. <choice><orig>dans</orig><reg>Dans</reg></choice> cette
+      <lb/>assurance <choice><orig>Je</orig><reg>je</reg></choice> cherchai la solution du probleme en me servant du calcul integral pour les
+      <lb/>nombres<supplied>,</supplied> comme je le prattiquois depuis quelque temps<choice><orig>.</orig><reg>,</reg></choice> et je trouvai celle qui est cy<choice><orig></orig><reg>-</reg></choice>dessus
+      <lb/>en suivant <choice><orig>a</orig><reg>à</reg></choice> peu pres la meme routte que <abbr>M.</abbr> vostre <rs type="person" key="pers_DE-588-118509950">Oncle</rs><supplied>.</supplied></p>
+  <p><lb/>Vous voyez<supplied>,</supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr><supplied>,</supplied> que dans la suitte de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs type="person" key="pers_DE-588-118509950">Oncle</rs>
+    <choice><orig><formula>\frac{1}{\sqrt{}1}+\frac{1}{\sqrt{}2}+\frac{1}{\sqrt{}3}+\frac{1}{\sqrt{}4}+\mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{\sqrt{1}}+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\frac{1}{\sqrt{4}}+\mathrm{\;etc.}</formula></reg></choice> la 1<hi rend="sup">ere</hi> <choice><orig>moitie</orig><reg>moitié</reg></choice>
+      <lb/>de la suitte n<supplied>’</supplied>est pas infinie par rapport <choice><orig>a</orig><reg>à</reg></choice> la 2<hi rend="sup">e</hi><choice><orig>.</orig><reg>;</reg></choice> car la 1<hi rend="sup">ere</hi> moitié est <choice><orig><formula>2\times\frac{\sqrt{}\infty}{\sqrt{}2}=\sqrt{}2\infty</formula></orig><reg><formula>2\frac{\sqrt{\infty}}{\sqrt{2}}=\sqrt{2\infty}</formula></reg></choice><supplied>,</supplied>
+      <lb/>et la 2<hi rend="sup">e</hi> est <choice><orig><formula>2\sqrt{}\infty-\sqrt{}2\infty</formula></orig><reg><formula>2\sqrt{\infty}-\sqrt{2\infty}</formula></reg></choice><choice><orig>.</orig><reg>,</reg></choice> et par consequent leur rapport <choice><orig><formula>::\;\sqrt{}2\;.\;2-\sqrt{}2</formula></orig><reg><formula>=\sqrt{2}\;:\;(2-\sqrt{2})</formula></reg></choice>
+    <choice><orig>a</orig><reg>à</reg></choice> peu pres <choice><orig><formula>::\;5\;.\;2</formula></orig><reg><formula>= 5 : 2</formula></reg></choice><supplied>,</supplied>
+      <lb/>ce qui est un paradoxe surprenant <choice><orig>a</orig><reg>à</reg></choice> la verité<supplied>,</supplied> mais qui ne heurtant pas pleinement les
+      <lb/>lumieres de la raison doit ceder <choice><orig>a</orig><reg>à</reg></choice> une demonstration exacte. <choice><orig>si</orig><reg>Si</reg></choice> quelque jour je peux l<supplied>’</supplied>eclaircir<supplied>,</supplied>
+      <lb/><choice><orig>Je</orig><reg>je</reg></choice> vous en ferai part<supplied>.</supplied> Je vous demande la meme grace<supplied>,</supplied> si vous en venez <choice><orig>a</orig><reg>à</reg></choice> bout avant moy.
+      <lb/>Je crois la demonstration de <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> vostre <rs type="person" key="pers_DE-588-118509950">oncle</rs> bonne pour le cas <choice><orig>ou</orig><reg>où</reg></choice> dans cette suitte
+      <lb/><choice><orig><formula>\frac{1}{1^m} + \frac{1}{2^m} + \frac{1}{3^m} + \mathrm{\;\&amp;c}</formula></orig><reg><formula>\frac{1}{1^m} + \frac{1}{2^m} + \frac{1}{3^m} + \mathrm{\;etc.}</formula></reg></choice>
+<formula>m</formula> est un nombre entier. Je m<supplied>’</supplied>en suis assuré de plus d<supplied>’</supplied>une <choice><orig>facon</orig><reg>façon</reg></choice> <choice><orig>a</orig><reg>à</reg></choice> l<supplied>’</supplied>egard
+      <lb/>de la suitte <choice><orig><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \mathrm{\;\&amp;c.}</formula></orig><reg><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \mathrm{\;etc.}</formula></reg></choice> et il me paroist certain que dans les <choice><orig>quarres</orig><reg>quarrés</reg></choice> <subst><del><gap/></del><add>r</add></subst>eciproques la
+      <lb/>derniere moitié est nulle par rapport <choice><orig>a</orig><reg>à</reg></choice> la 1.<hi rend="sup">ere</hi> et <choice><orig>a</orig><reg>à</reg></choice> plus forte raison dans les autres puissances<supplied>.</supplied>
+      <lb/>Je ne serois pourtant pas faché d<supplied>’</supplied>en voir une bonne demonstration.</p>
+  <p><lb/><abbr>M.<hi rend="sup">r</hi></abbr> vostre <rs type="person" key="pers_DE-588-118509950">Oncle</rs> n<supplied>’</supplied>a point examiné le cas <choice><orig>ou</orig><reg>où</reg></choice> dans la suitte <choice><orig><formula>1^m + 2^m + 3^m + 4^m ....\infty^m</formula></orig><reg><formula>1^m + 2^m + 3^m + 4^m \ldots \infty^m</formula></reg></choice>
+      <lb/><formula>m</formula> est un nombre entier <add>positif</add>. Vous voyez que l<supplied>’</supplied>on trouve icy que la somme des pairs est égale <choice><orig>a</orig><reg>à</reg></choice>
+      <lb/>celle des <choice><orig>Impairs</orig><reg>impairs</reg></choice>. <choice><orig>en</orig><reg>En</reg></choice> voicy une demonstration indirecte pour les <choice><orig>quarres</orig><reg>quarrés</reg></choice> quand <formula>m = 2</formula><supplied>:</supplied>
+      <lb/><choice><orig>pour</orig><reg>Pour</reg></choice> demontrer que <choice><orig><formula>1 + 9 + 25 + 49 + \mathrm{\;\&amp;c} = 4 + 16 + 36 + 64 + \mathrm{\;\&amp;c}</formula></orig><reg><formula>1 + 9 + 25 + 49 + \mathrm{\;etc.} = 4 + 16 + 36 + 64 + \mathrm{\;etc.}</formula></reg></choice> <choice><orig>a</orig><reg>à</reg></choice> l<supplied>’</supplied>infini<supplied>,</supplied> <choice><orig>Je</orig><reg>je</reg></choice> me sers d<supplied>’</supplied>une
+      <lb/><choice><orig>ppriete</orig><reg>proprieté</reg></choice> connue de ces nombres<supplied>,</supplied> qui se forment par l’addition de deux suittes de nombres
+      <lb/>triangulaires en cette sorte
+      <lb/><choice><orig><formula rend="display">\begin{array}{@{}ccccccccccccc@{}}
+          1 &amp; + &amp; 3 &amp; + &amp; 6 &amp; + &amp; 10 &amp; + &amp; 15 &amp; + &amp; 21 &amp; + &amp; \mathrm{\;\&amp;c} \\
+          &amp;   &amp; 1 &amp; + &amp; 3 &amp; + &amp; 6  &amp; + &amp; 10 &amp; + &amp; 15 &amp; + &amp; \mathrm{\;\&amp;c} \\
+      \hline
+      1 &amp; + &amp; 4 &amp; + &amp; 9 &amp; + &amp; 16 &amp; + &amp; 25 &amp; + &amp; 36 &amp; + &amp;
+      \end{array}</formula></orig>
+      <reg><formula rend="display">\begin{array}{@{}ccccccccccccc@{}}
+          1 &amp; + &amp; 3 &amp; + &amp; 6 &amp; + &amp; 10 &amp; + &amp; 15 &amp; + &amp; 21 &amp; + &amp; \mathrm{\;etc.} \\
+          &amp;   &amp; 1 &amp; + &amp; 3 &amp; + &amp; 6  &amp; + &amp; 10 &amp; + &amp; 15 &amp; + &amp; \mathrm{\;etc.} \\
+          \hline
+          1 &amp; + &amp; 4 &amp; + &amp; 9 &amp; + &amp; 16 &amp; + &amp; 25 &amp; + &amp; 36 &amp; + &amp; \mathrm{\;etc.}
+          \end{array}</formula></reg></choice>
+
+      <lb/>car adjoutant ensemble les impairs de ces deux suittes
+      <lb/><formula>1+0</formula>, <formula>6+3</formula>, <formula>15+10</formula>, <choice><orig><formula>28+21,\mathrm{\;\&amp;c}</formula></orig><reg><formula>28+21,\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied> ils forment les <choice><orig>Impairs</orig><reg>impairs</reg></choice> de la suitte des
+      <lb/><choice><orig>quarres</orig><reg>quarrés</reg></choice>, et adjoutant ensemble les <del><gap/></del>pairs <formula>3+1</formula>, <formula>10+6</formula>, <formula>21+15</formula>, <choice><orig><formula>28+36,\mathrm{\;\&amp;c}</formula></orig><reg><formula>28+36,\mathrm{\;etc.}</formula></reg></choice><supplied>,</supplied>
+      <lb/><choice><orig>Ils</orig><reg>ils</reg></choice> donnent les pairs dans la suitte des <choice><orig>quarres</orig><reg>quarrés</reg></choice><supplied>.</supplied>
+<pb facs="1361946" n="12"/>
+      <lb/>Il ne s<supplied>’</supplied>en manque que le dernier terme qui est icy <subst><del><gap/></del><add>21</add></subst><supplied>,</supplied> dont les pairs surpassent les impairs
+      <lb/>et generallement<supplied>,</supplied> si l<supplied>’</supplied>on prend un nombre pair <add><formula>p</formula></add> de nombres <choice><orig>quarres</orig><reg>quarrés</reg></choice><supplied>,</supplied> la somme des
+      <lb/>pairs surpassera celle des impairs<choice><orig>,</orig><reg type="deleted"/></choice> du nombre <choice><orig><formula>\frac{pp+p}{2}</formula></orig><reg><formula>\frac{p^{2}+p}{2}</formula></reg></choice><supplied>,</supplied> ce qui dans l<supplied>’</supplied>infini sera
+      <lb/><formula>\frac{\infty^{2}}{2}</formula>, nul par rapport <choice><orig>a</orig><reg>à</reg></choice> la somme de chacune de ces deux suittes qui est une puissance
+      <lb/>3<hi rend="sup">eme</hi> de l<supplied>’</supplied>infini<supplied>.</supplied></p>
+  <p><lb/>Puisque la somme de cette suitte infinie <choice><orig><formula>\frac{1}{1}+\frac{1}{\sqrt{}2}+\frac{1}{\sqrt{}3}+\frac{1}{\sqrt{}4}+\frac{1}{\sqrt{}5}\ldots\frac{1}{\sqrt{}\infty}</formula></orig><reg><formula>\frac{1}{1}+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\frac{1}{\sqrt{4}}+\frac{1}{\sqrt{5}}\ldots\frac{1}{\sqrt{\infty}}</formula></reg></choice> est <choice><orig><formula>=2\sqrt{}\infty</formula></orig><reg><formula>=2\sqrt{\infty}</formula></reg></choice><supplied>,</supplied>
+      <lb/>il s<supplied>’</supplied>ensuit que la suitte harmonique <choice><orig><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} \ldots \frac{1}{\infty}</formula></orig><reg><formula>\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} + \ldots \frac{1}{\infty}</formula></reg></choice><supplied>,</supplied> qui est
+      <lb/>beaucoup plus petitte, n<supplied>’</supplied>est pas infinie au sens qu’on l<supplied>’</supplied>entend ordinairement et que ce
+      <lb/>signe <formula>\infty</formula> exprimant une infinité d<supplied>’</supplied><choice><orig>unites</orig><reg>unités</reg></choice>, cette fraction <formula ana="corr">\frac{\infty}{m}</formula> (<del><gap/></del><formula>m</formula> e<subst><del><gap/></del><add>st</add></subst> icy
+      <lb/><add>un</add> nombre fini quelconque si grand que l<supplied>’</supplied>on voudra<choice><orig><g ref="#ndot">.</g></orig><reg/></choice>) sera infiniment plus grande que
+      <lb/>la valeur de la suitte harmonique<choice><orig>.</orig><reg>,</reg></choice> qui est un certain moyen <choice><orig><g ref="#pro">&#xA753;</g></orig><reg>pro</reg></choice>portionel entre
+      <lb/>le fini et l’infini, infiniment p<subst><del><gap/></del><add>lu</add></subst>s proche arithmetiquement du fini que de l<supplied>’</supplied>infini<supplied>.</supplied>
+      <lb/>Comme on peut considerer l<supplied>’</supplied>espace <formula ana="corr">ACD</formula> de la p<subst><del><gap/></del><add>ar</add></subst>abole <figure/>  comme composé d<supplied>’</supplied>une infinité
+      <lb/>de <choice><orig><formula>yy</formula></orig><reg><formula>y^{2}</formula></reg></choice> et l<supplied>’</supplied>espace interieur <formula>ABD</formula> co<subst><del><gap/></del><add>mme</add></subst> composé d<supplied>’</supplied>une <choice><orig>infinite</orig><reg>infinité</reg></choice> de <choice><orig><formula>\sqrt{}x</formula></orig><reg><formula>\sqrt{x}</formula></reg></choice><supplied>,</supplied> vous voyez bien<supplied>,</supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr><supplied>,</supplied> que
+      <lb/>la maniere<supplied>,</supplied> dont on a trouvé cy<choice><orig> </orig><reg>-</reg></choice>dessus les sommes <choice><orig>Numeriques</orig><reg>numeriques</reg></choice> des suittes <choice><orig><formula>1+\sqrt{}2+\sqrt{}3+\sqrt{}4 .... \sqrt{}\infty=\frac{2}{3}\infty^{\frac{3}{2}}</formula></orig><reg><formula>1+\sqrt{2}+\sqrt{3}+\sqrt{4} +\ldots\sqrt{\infty}=\frac{2}{3}\infty^{\frac{3}{2}}</formula></reg></choice> et <choice><orig><formula>1 + 2^2 + 3^2 + 4^2 + 5^2 \; .... \; \infty^2 = \frac{1}{3}\infty^ 3</formula></orig><reg><formula>1 + 2^2 + 3^2 + 4^2 + 5^2 + \ldots \infty^2 = \frac{1}{3}\infty^ 3</formula></reg></choice> donne l<supplied>’</supplied>espace <formula>ACD =</formula>
+      <lb/><formula>\frac{1}{3}y^3</formula> et l<supplied>’</supplied>espace <formula>ABD = \frac{2}{3}x^{\frac{3}{2}}</formula> et ainsi des paraboles et Hyperboles de tous les genres.</p>
+  <p><lb/>Je reprends la plume pour finir cette lettre<supplied>;</supplied> la matiere ne me manque p<subst><del><gap/></del><add>ou</add></subst>rtant pas<supplied>,</supplied>
+      <lb/>et pendant que je <subst><del><gap/></del><add>su</add></subst>is en train, <subst><del><gap/></del><add>je pourois peutestre<supplied>,</supplied> si je ne craignois de vous fatiguer<supplied>,</supplied> remplir encore</add></subst> 3 feuilles de petitte écriture<supplied></supplied>
+      <lb/>Je suis si flatté<supplied></supplied> <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr><supplied>,</supplied> du regret que vous me temoignez <choice><orig>a</orig><reg>à</reg></choice> voir dans vostre
+      <lb/><rs type="letter">lettre</rs> du <date>3. de ce mois</date> de <choice><orig>scavoir</orig><reg>sçavoir</reg></choice> mes <rs type="lostletter">lettres</rs> perdues que ma peine ne me couter<subst><del><gap/></del><add>oi</add></subst>t
+      <lb/>rien. <choice><orig>le</orig><reg>Le</reg></choice> malheur est<supplied>,</supplied> que ce que je puis vous e<subst><del><gap/></del><add>n</add></subst>voyer n<supplied>’</supplied>est que <add>des</add> <choice><sic>bagatelle</sic><corr>bagatelles</corr></choice> en
+      <lb/>comparaison des choses admirables<supplied>,</supplied> dont touttes vos <rs type="letter">lettres</rs> sont remplies<supplied>,</supplied>
+      <lb/>mais ce n<supplied>’</supplied>est pas ma faute<supplied>,</supplied> et vous devez vous contenter de ma bonne volonté.
+      <lb/>Je <choice><orig>scai</orig><reg>sçai</reg></choice> que je suis en reste avec vous sur bien des choses<choice><orig>.</orig><reg>;</reg></choice> il y en a auxquelles
+      <lb/>j<supplied>’</supplied>ay promis de repondre<supplied>.</supplied> Je l<supplied>’</supplied>avois fait dans les <rs type="lostletter">lettres</rs> qui ont <choice><orig>ete</orig><reg>été</reg></choice> perdues<supplied>,</supplied> et le
+      <lb/>puis faire encore<supplied>.</supplied> <choice><orig>il</orig><reg>Il</reg></choice> y en a aussi qui me passent et pour lesquelles le temps<supplied>,</supplied> la science
+      <lb/>et l<supplied>’</supplied>esprit me manquent egalement. Je vous demande quartier pour celles<choice><orig> </orig><reg>-</reg></choice><choice><orig>la</orig><reg>là</reg></choice>.
+      <lb/>Vous m<supplied>’</supplied>avez proposé dans <subst><del><gap/></del><add>vostre</add></subst> <rs type="letter">lettre</rs> du <date>1<hi rend="sup">er</hi> Avril 1716</date> le <abbr>prob.</abbr> qui suit<supplied>:</supplied> <choice><orig>deux</orig><reg>Deux</reg></choice> nombres <formula>a</formula> et <formula>b</formula>
+      <lb/><add>etant <choice><sic>donnees</sic><corr>donnés</corr></choice><supplied>,</supplied></add> <choice><sic>dun</sic><corr>dont</corr></choice> l<supplied>’</supplied>un soit plus grand que l<supplied>’</supplied>unité et l<supplied>’</supplied>autre <formula>b</formula> soit plus petit que l’unité<supplied>,</supplied> trouver le produit
+      <lb/>qui resulte en multipliant ensemble tous les nombres possibles plus grands que <formula>b</formula> et plus petits que <formula>a</formula>. <choice><orig>aiez</orig><reg>Aiez</reg></choice> la bonté de m<supplied>’</supplied>expliquer un peu plus en detail ce qu<supplied>’</supplied>il faut trouver<supplied>,</supplied> si les incommensura<pc type="hyphenation"></pc><lb break="no"/>bles par <abbr>Ex<supplied>.</supplied></abbr> y sont compris. <choice><orig>s</orig><reg>S</reg></choice><supplied>’</supplied>il y a quelque chose dans vos <rs type="letter">lettres</rs><supplied>,</supplied> <choice><orig>a</orig><reg>à</reg></choice> quoy vous souhaittiez particu<pc type="hyphenation"></pc><lb break="no"/>lierement que je repond<subst><del><gap/></del><add>e</add></subst><supplied>,</supplied> aiez la bonté de me le marquer. Je me ferai tout ce qui sera
+      <lb/>en moy pour me rendre digne du commerce de lettres et de l<supplied>’</supplied>amitié<supplied>,</supplied> dont vous m’honorez<supplied>.</supplied>
+      <lb/>J<supplied>’</supplied>y apporterai au moins de l<supplied>’</supplied>exactitude. Je me suis fait<supplied>,</supplied> et <abbr>Mad<supplied>.</supplied><hi rend="sup">e</hi></abbr> de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs> aussi<supplied>,</supplied> une <choice><orig>idee</orig><reg>idée</reg></choice>
+      <lb/>si belle du caractere de vostre ame et de la bonté de vostre coeur<supplied>,</supplied> que je voudrois estre
+      <lb/>vostre ami<supplied>,</supplied> quand vous n<supplied>’</supplied>auriez <subst><del><gap/></del><add>p</add></subst>as les grands et beaux talens que la nature vous a donné.
+      <lb/><abbr>Mad.<hi rend="sup">e</hi></abbr> de <rs key="pers_DE-588-1155965140" type="person">Monmort</rs> vous fait mil complimens et vostre petit <rs type="person">camarade</rs> de voyage qui vous
+      <lb/>aime toujours. Nous parlons souvent de vous. <abbr>M<supplied>.</supplied><hi rend="sup">r</hi></abbr> l<supplied>’</supplied><choice><orig>abbe</orig><reg>abbé</reg></choice> <choice><orig>D</orig><reg>d</reg></choice>’<rs key="pers_DE-588-1156687535" type="person"><choice><orig>orbais</orig><reg>Orbais</reg></choice></rs> et le pauvre <abbr>M<supplied>.</supplied></abbr> de <rs type="person" key="pers_DE-588-115598157X">Waldegrave</rs><choice><orig><g ref="#ndot">.</g></orig><reg/></choice>
+      <lb/>me recommandent souvent de vous faire des complimens de leurs parts. <abbr>M<supplied>.</supplied><hi rend="sup">lle</hi></abbr> <rs type="person"><subst><del><gap/></del><add>C</add></subst>ognet</rs> est aussi
+      <lb/>toujours de vos amis.</p>
+  <closer><salute>Je <subst><del><gap/></del><add>V</add></subst>ous embrasse et suis pour toutte ma vie Vostre <abbr>tr.</abbr> <abbr>h<supplied>.</supplied></abbr></salute> <signed><rs key="pers_DE-588-117601020" type="person">Remond de Monm<unclear reason="illegible">ort</unclear></rs></signed></closer>
+</div>
+
+
+</body>
+</text></TEI>

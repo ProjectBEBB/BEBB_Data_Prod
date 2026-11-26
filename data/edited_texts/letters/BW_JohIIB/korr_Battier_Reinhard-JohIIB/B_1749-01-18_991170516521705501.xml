@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170516521705501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Reinhard Battier an Johann II Bernoulli. Gotha, 18. Januar 1749</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <editor>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <persName key="pers_DE-588-">
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility"/>
+          </resp>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170516521705501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170516521705501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel"/>
+        <title level="s" type="Korrespondenz">
+</title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Siegel</p>
+          <p>Am Briefkopf von anderer Hand "B.m. J.B." und 18 Janv.1749."</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Metadaten</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-50985">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 679:Bl.56-57</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170516521705501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972433432005504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000057966</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>3 S.<dimensions unit="cm"><height>22,5</height><width>19</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Du Chateau de Gothe</origPlace>
+              <date when="1749-01-18">ce 18 Janv. 1749</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-1035421844">Battier, Reinhard</persName>
+          <placeName key="placeID_toBeReplacedManually" ref="https://d-nb.info/gnd/4021652-4">Gotha</placeName>
+          <date when="1749-01-18"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170516521805501" type="prev"/>
+          <ptr target="B_991170516521605501" type="next"/>
+          <ptr target="BW_JohIIB" corresp="pers_DE-588-117589136" type="Briefwechsel"/>
+          <ptr target="korr_Battier_Reinhard-JohIIB" corresp="pers_DE-588-1035421844" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fre">Französisch</language>
+      </langUsage>
+      <abstract>
+        <p>Battier schreibt diesen Brief vom Gothaischen Hof, wo er eine Stellung angenommen hat</p>
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089911661">Bernoulli, Susanna</persName>
+            <note type="lebensdaten">(1715-1803)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118731998">Maupertuis, Pierre Louis Moreau de</persName>
+            <note type="lebensdaten">(1698-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1015904726">Passavant, Daniel</persName>
+            <note type="lebensdaten">(1722-1799)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="transkribiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change when="2026-05-08" who="NG">transkribiert</change>
+        <change when="2026-05-07" who="SG">Maschinell transkribiert</change>
+        <change when="2023-10">generiert</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1614106/manifest"/>
+</facsimile>
+<text>
+<body>
+<div type="letter">
+
+
+  <p>
+<pb facs="1599704" n="56r"/> <lb/>B. m.
+<note type="archival" hand="unknown">  <lb/>B.m.
+      <lb/>J B.</note>
+      <lb/><note type="archival" hand="unknown"><date when="1749-01-18">18 <abbr>Janv.</abbr> 1749.</date></note>
+      <lb/>Monsieur,
+      <lb/>Je ne doute point, Monsieur, que Vous n’<choice><orig>ayés</orig><reg>ayez</reg></choice> appris par la <rs type="letter">Lettre</rs> de <abbr>Mr.</abbr> <rs type="person">Passerant</rs>, combien
+      <lb/>mes Etudes, et mes Occupations ordinaires ont <choice><orig>ete</orig><reg>été</reg></choice> interrompues depuis passé <date>deux mois</date> par les
+      <lb/>nouveaux Engagements, que je viens de prendre avec <rs type="organisation">la Cour de Saxe-Gotha</rs>. Par la même vous <choice><orig>prouvés</orig><reg>pouvez</reg></choice>
+      <lb/><choice><orig>scavoir</orig><reg>sçavoir</reg></choice> la Raison de mon Silence. Je n’en ferai aucune Apologie. Vous etes trop <choice><orig>equitable</orig><reg>équitable</reg></choice>, pour m’en
+      <lb/>faire un Crime. Je Vous felicite, Monsieur, de tout mon coeur, de la <choice><orig>Maniere</orig><reg>Manière</reg></choice> distinguée et glorieus<pc type="hyphenation">-</pc><lb break="no"/>se, dont on a rendû publiquement Justice <choice><orig>a</orig><reg>à</reg></choice> Vos Merites et <choice><orig>a</orig><reg>à</reg></choice> Vos Talens. Je ne connois point de Poste
+      <lb/>plus glorieux dans la Republique des <rs type="letter">Lettres</rs>, que celui, que Vous <choice><orig>occupés</orig><reg>occupez</reg></choice> si dignement. Dieu Vous y
+      <lb/>conserve dans toute sorte de Prosperité! J’aurois ici la plus belle et la plus juste Occasion du
+      <lb/>Monde de Vous renouveller les Sentiments de Reconnoissance et d’Estime, que je Vous dois a si juste
+      <lb/>Titre, si je ne m’etois pas propose de meriter <choice><orig>plutot</orig><reg>plûtot</reg></choice> Votre Approbation par des Actions dignes de
+      <lb/>Votre Attente, que par des Protestations triviales et languissantes. En Effet, a qui dois je la Perspecti<pc type="hyphenation">-</pc><lb break="no"/>ve avantageuse, que me presente ma nouvelle Situation, si ce n’est a Vous. Sans cette Generosité
+
+<pb facs="1599705" n="56v"/>
+      <lb/>avec la quelle Vous m’avés tendû la Main pour m’arracher a la Bassesse et a l’Indolence, Compagnes
+      <lb/>fidelles de l’obscurité. J’aurois succombé a mes Disgraces. Sans Vous monsieur, je n’aurois jamais <choice><orig>eté</orig><reg>été</reg></choice>
+      <lb/>Academicien, et hors de l’<rs type="organisation">Academie</rs>, comme hors de l’Eglise, point de Salut pour moi. Il n’y a qu’une
+      <lb/>Chose, qui me tient fort a Cœur. je crains beaucoup d’avoir offensé <abbr>Mons.</abbr> <rs type="person">de Maupertuis</rs> par cette
+      <lb/>Demarche, que j’ay été obligé de faire sans son Aveu. Je lui ay ecrit du depuis, mais je n’ose pas me flatter
+      <lb/>d’un heureux succes de <rs type="letter">ma Lettre</rs>. C’est pourquoi je vous suplie, monsieur, de Lui ecrire au plustôt
+      <lb/>possible, et d’adoucir un peu le Ressentiment, qu’il pourroit avoir contre moi. Je sais combien Vous pou<pc type="hyphenation">-</pc><lb break="no"/>vés sur Lui, et que je puis tout attendre de Votre Part. Ainsi j’ose me flatter, que Vous ne me refuserez
+      <lb/>pas cette nouvelle Preuve de votre Bonté. Je me passe ici, de vous ennuyer par un long recit de l’Occa<pc type="hyphenation">-</pc><lb break="no"/>sion et des Conditions de mes Engagemens. mon Oncle aura l’Honneur de Vous en faire Part.
+      <lb/>Je ne sais pas encore, si je dois me flatter de pouvoir Vous en informer moi même de Bouche. Cela depen<pc type="hyphenation">-</pc><lb break="no"/>dra des dernieres Ordres de leurs Altesses, que je n’ay pas encore reçües. Je souhaite de tout mon Cœur,
+<pb facs="1599706" n="57r"/> <lb/>que je puisse bientot sortir d’un Etat de Mollesse et d’Oisivete, qui me fait languir. L’Air de la Mer
+      <lb/>fait plus de mal a ma Santé, que l’Impétuosité des Vents et les Fatigues du Voïage. J’espere de respirer un
+      <lb/>nouvel Air dans 4 ou 5 Jours d’ici. Permettes en attendant, Monsieur, que jaye l’Honneur de Vous renou<pc type="hyphenation">-</pc><lb break="no"/>veller aussi bien qu’a <choice><orig>Ma Dame</orig><reg>Madame</reg></choice> <rs type="person">votre Epouse</rs> et a <abbr>Mons.</abbr> <rs type="person">votre Frere</rs> les Protestations de la plus
+      <lb/>parfaite Estime avec la quelle j’ay l’Honneur d’<choice><orig>etre</orig><reg>être</reg></choice></p>
+  <closer><lb/>Monsieur,
+      <lb/><salute>Votre tres humble et tres obeissant
+      <lb/>Serviteur</salute>
+      <lb/><signed>Battier</signed>
+      <lb/><dateline><rs type="place">Du Chateau de Goble</rs> ce <date when="1749-01-18">18 Janv. 1749</date></dateline>
+<pb facs="1599707" n="57v"/>
+    <address><addrLine>Monsieur</addrLine>
+      <addrLine> Monsieur <rs type="person">Jean Bernoulli</rs>, Professeur</addrLine>
+      <addrLine>en Mathematiques <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice></addrLine>
+      <addrLine>à</addrLine>
+      <addrLine><rs type="place">Bâsle</rs></addrLine></address>
+  </closer>
+
+</div>
+</body>
+</text>
+</TEI>

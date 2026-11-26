@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/ProjectBEBB/BEBB_Schema/main/BEBB_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="B_991170514608005501" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full">
+          <title type="main">Johann I Bernoulli an Nicolaus I Bernoulli. Basel, 20. Mai 1718</title>
+          <title type="alt">1718.05.20: Bernoulli, Johann (1667-1748) an Bernoulli, Nicolaus (1687-1759)</title>
+          <title type="alt">000055559</title>
+          <title type="alt">1718-05-20_Bernoulli_Johann-Bernoulli_Nicolaus</title>
+          <title level="s">Basler Edition der Bernoulli-Briefwechsel</title>
+        </title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Redaktionelle Leitung</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Wissenschaftliche Leitung</resp>
+          <persName key="pers_DE-588-117433391X">
+            <surname>Nagel</surname>
+            <forename>Fritz</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Institutionelle Projektverantwortung</resp>
+          <persName key="pers_DE-588-124238785">
+            <surname>Harbrecht</surname>
+            <forename>Helmut</forename>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Basler Edition der Bernoulli-Briefwechsel</edition>
+        <respStmt>
+          <resp>Textkonstitution</resp>
+          <persName key="pers_DE-588-128594551">
+            <surname>Gehr</surname>
+            <forename>Sulamith</forename>
+          </persName>
+          <persName key="pers_DE-588-1270723049">
+            <surname>Gass</surname>
+            <forename>Céline</forename>
+          </persName>
+        </respStmt>
+        <funder>SAGW</funder>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Redaktion der Basler Edition der Bernoulli-Briefwechsel</authority>
+        <pubPlace>Basel</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">(CC BY-SA 4.0)</licence>
+        </availability>
+        <idno type="URLWeb">https://bebb.unibas.ch/letters/B_991170514608005501</idno>
+        <idno type="URLXML">https://bebb.unibas.ch/api/document/B_991170514608005501</idno>
+        <date when="2026-11-20">20.11.2026</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="Briefwechsel">Der Briefwechsel von <rs key="pers_DE-588-118509969" type="person">Johann I Bernoulli</rs> (1667-1748)</title>
+        <title level="s" type="Korrespondenz">Bernoulli, Nicolaus I (1687-1759) </title>
+      </seriesStmt>
+      <seriesStmt>
+        <title level="s">Basler Edition der Bernoulli-Briefwechsel – Beta-Datenrelease</title>
+        <idno type="DOI" subtype="data-package-version">10.5281/zenodo.24166103</idno>
+      </seriesStmt>
+      <notesStmt>
+
+        <note type="generalRemark">
+          <p>Unter dem Datum von Nic. I B. eigenhändig "Empfg. den 4ten Junij". Papier durch Tintenfrass mit Textverlust beschädigt</p>
+        </note>
+
+        <note type="erschliessbarkeit">Erhalten</note>
+        <note type="dataGroup">Tei XML</note>
+        <note type="relatedItem">
+          <p n="MARC-533">Abschrift UB Basel L I a 673 fo.75-77 (5,5 S., 21 x 16,5 cm)</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc facs="http://dx.doi.org/10.7891/e-manuscripta-24259">
+
+          <msIdentifier source="BIBB">
+            <repository>Universitätsbibliothek Basel, Handschriften</repository>
+            <idno type="callNumber">UBH L Ia 22:1 Nr.19</idno>
+            <altIdentifier>
+              <idno type="ALMA_NZ">991170514608005501</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALMA_IZ">9972432841305504</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="ALEPH">000055559</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>4 S.<dimensions unit="cm"><height>23</height><width>17</width></dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="author">manualPlaceholderContent</handNote>
+            </handDesc>
+
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>Basel</origPlace>
+              <date when="1718-05-20">den 20. May 1718</date>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category>
+            <catDesc>letter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+
+          <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+          <placeName key="place_GEO-2661604" ref="https://d-nb.info/gnd/4004617-5">Basel</placeName>
+          <date when="1718-05-20"></date>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+          <placeName key="placeID_manualPlaceholderContent" ref="gnd_link_toBeReplacedManually">manualPlaceholderContent</placeName>
+        </correspAction>
+        <correspContext>
+          <ptr target="B_991170514608105501" type="prev"/>
+          <ptr target="B_991170514607905501" type="next"/>
+          <ptr target="BW_JohIB" corresp="pers_DE-588-118509969" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Nicolaus_I-JohIB" corresp="pers_DE-588-119166895" type="Korrespondenz"/>
+        </correspContext>
+        <correspContext>
+          <ptr target="B_991170514608105501" type="prev"/>
+          <ptr target="B_991170514607905501" type="next"/>
+          <ptr target="BW_NicIB" corresp="pers_DE-588-119166895" type="Briefwechsel"/>
+          <ptr target="korr_Bernoulli_Johann_I-NicIB" corresp="pers_DE-588-118509969" type="Korrespondenz"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="ger">Deutsch</language>
+      </langUsage>
+      <abstract>
+
+        <p>initialPythonPlaceholderContent</p>
+
+        <listPerson>
+          <person>
+            <persName key="pers_DE-588-1089913494">Battier, Dorothea</persName>
+            <note type="lebensdaten">(1704-1800)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1153514060">Bernoulli, Anna Katharina</persName>
+            <note type="lebensdaten">(1698-1780)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118656503">Bernoulli, Daniel</persName>
+            <note type="lebensdaten">(1700-1782)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-1089913311">Bernoulli, Jacob</persName>
+            <note type="lebensdaten">(1712-1769)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118509969">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1667-1748)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589136">Bernoulli, Johann</persName>
+            <note type="lebensdaten">(1710-1790)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119166895">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1687-1759)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117589144">Bernoulli, Nicolaus</persName>
+            <note type="lebensdaten">(1695-1726)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-108991332X">Falkner, Dorothea</persName>
+            <note type="lebensdaten">(1673-1764)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-119112450">Hermann, Jacob</persName>
+            <note type="lebensdaten">(1678-1733)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-124275087">Keill, John</persName>
+            <note type="lebensdaten">(1671-1721)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118571249">Leibniz, Gottfried Wilhelm</persName>
+            <note type="lebensdaten">(1646-1716)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-117601020">Montmort, Pierre Rémond de</persName>
+            <note type="lebensdaten">(1678-1719)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118587544">Newton, Isaac</persName>
+            <note type="lebensdaten">(1643-1727)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-11887733X">Poleni, Giovanni</persName>
+            <note type="lebensdaten">(1683-1761)</note>
+          </person>
+          <person>
+            <persName key="pers_DE-588-118801481">Taylor, Brook</persName>
+            <note type="lebensdaten">(1685-1731)</note>
+          </person>
+        </listPerson>
+      </abstract>
+
+      <textClass/>
+    </profileDesc>
+    <revisionDesc status="kollationiert">
+      <listChange>
+        <change type="release" n="1.0.0-beta" when="2026-11-20" who="SG" ana="changed">Erstmals im öffentlichen BEBB-Datenrelease veröffentlicht.</change>
+        <change>noch nicht kollationiert</change>
+        <change when="2025-11-14" who="SG CG">Kollationieren abgeschlossen.</change>
+        <change when="2025-11-07" who="SG CG">Kollationieren begonnen.</change>
+        <change when="2022-09-02" who="RG">Seitenzahl "n" ergänzt</change>
+        <change when="2022-07" who="RG">noch nicht ganz nachbearbeitet</change>
+        <change when="2022-08-17" who="RG">Anpassung TEI-Header</change>
+        <change notAfter="1966-02-14">transkribiert</change>
+
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+
+<facsimile>
+<graphic url="https://www.e-manuscripta.ch/i3f/v20/1063016/manifest"/>
+</facsimile><text>
+<body>
+<div type="letter">
+<pb facs="1063017" n="1"/>
+  <opener><lb/><dateline rend="right-block"><rs key="place_GEO-2661604" type="place">Basel</rs> den <date when="1718-05-20">20. Maj 1718.</date> </dateline>
+  <note hand="pers_DE-588-119166895"><foreign xml:lang="ger"><abbr>Empf.</abbr> den <date when="1718-05-20">7<hi rend="sup">ten</hi> Juni<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></date></foreign></note>
+<salute><lb/><foreign xml:lang="fre">Monsieur et tres Cher Neveu</foreign></salute></opener>
+  <p><lb/>Ewere <foreign xml:lang="lat">solutionem problematis Italis propositi</foreign> will ich dahin gestellt se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n
+      <lb/>lassen, ob sie jederman satisfacieren wird: Sie ist mir auch nicht pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sent genug
+      <lb/><unclear reason="illegible">umb</unclear> zu judicieren ob meine 2 <foreign xml:lang="lat">objectiones</foreign>, die ich dargegen formiert hab und
+      <lb/>die ich gleichfals nicht mehr wohl in gedächtnuß habe, durch ewere respon<pc type="hyphenation">-</pc><lb break="no"/>sion genugsam auffgelöset se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>en: So bald mir etwaß auß dem kopf,
+      <lb/>kan ich nicht wider als mit grossem Verdruß auff ein newes mich darauff
+      <lb/>applicieren. Betreffend aber das vermeinte <foreign xml:lang="lat">absurdum</foreign>, welches da folget
+      <lb/>auß unsren <foreign xml:lang="lat"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationibus pro resistentia mobilis in Cycloide oscillantis, in
+      <lb/>hypothesi resistenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> proportionalis velocitati</foreign>, glaube ich nun im stand
+      <lb/>zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n<supplied>,</supplied> dasselbe auff zu lösen: Man muß namlich achtung <add>auff das</add> waß man e<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice><pc type="hyphenation">-</pc><lb break="no"/>gentlich supponiert und als dan suchet, item waß dasjenige <del><gap/></del>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e was
+      <lb/>man durch den <foreign xml:lang="lat">calculum</foreign> findet; darauß ihr sehen werdet, daß es nur <foreign xml:lang="lat">per
+      <lb/>accidens</foreign> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e wan man vermeinet man könne das gefundene <foreign xml:lang="lat">ad cycloidem</foreign>
+      <lb/>applicieren: Dan es ist <foreign xml:lang="lat">pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>ter rei essentiam et necessitatem</foreign> daß Ihr
+      <lb/><figure facs="../images/figures/1063017_01.png" hand="pers_DE-588-118509969"></figure>supponiert <formula>ACBD</formula> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e eine <foreign xml:lang="lat">cyclois</foreign>; man kan <foreign xml:lang="lat">quam<pc type="hyphenation">-</pc><lb break="no"/>cun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> lineam</foreign> ne<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en, <foreign xml:lang="lat"><abbr>ex. gr.</abbr> rectam</foreign>, und supponieren
+      <lb/>das mobile fange an sich zu bewegen <foreign xml:lang="lat">in puncto <formula>A</formula>, hac
+      <lb/>lege ut in singulis punctis <formula>C</formula> urgeatur secundum di<pc type="hyphenation">-</pc><lb break="no"/>rectionem line<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> per vim motricem qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> sit <formula>a-s-pu</formula>
+      <lb/>(supposita <formula>AB=a</formula>, <formula>AC=s</formula>, velocitas <formula>CE</formula> in quolibet puncto <formula>C=u</formula>), quo posito</foreign>
+      <lb/>wan man die <foreign>naturam scal<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> velocitatum</foreign> suchet <formula>AEED</formula>, so wird man ewer
+      <lb/><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quation finden <formula>a\,ds-s\,ds-pu\,ds=u\,du</formula>, <foreign xml:lang="lat">ubi instituta separatione indeter<pc type="hyphenation">-</pc><lb break="no"/>minatarum</foreign> wird dieselbe in eine andere verwandelt, darauß man
+      <lb/>schliessen kan, daß das mobile über das <foreign xml:lang="lat">punctum <formula>B</formula></foreign> so weit hinauß lauf<pc type="hyphenation">-</pc><lb break="no"/>fen kan als es diesseits be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> anfang der bewegung gewesen ist, das ist daß <formula>BD</formula>
+      <lb/>gleich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n muß dem <formula>AB</formula>. Es ist zwar wahr daß die <foreign xml:lang="lat">vis motrix</foreign> (die man
+      <lb/>supponiert) also beschaffen ist, daß man auß blosser contemplation also
+      <lb/>bald sehen kan, daß die <foreign xml:lang="lat">velocitates in punctis <formula>C</formula>, <formula>C</formula> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualiter <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> puncto <formula>B</formula>
+      <lb/>cis et ultra distantibus</foreign> nothwendig ungleich und die <foreign xml:lang="lat">citra</foreign> <formula>B</formula> grösser se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n
+      <lb/>müsse als die <foreign xml:lang="lat">ultra</foreign> <formula>B</formula>, darauß aber folget nicht daß der gantze <foreign xml:lang="lat">excursus</foreign>
+      <lb/><formula>BD</formula> dem <foreign xml:lang="lat">spatio ante excursionem emenso</foreign> nicht könne gleich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n, dan wan
+      <lb/>schon die <foreign xml:lang="lat">velocitates <formula>CE</formula> inter <formula>B</formula> et <formula>D</formula></foreign> kleiner seind als die <foreign xml:lang="lat">velocitates <formula>CE</formula>
+      <lb/>inter <formula>A</formula> et <formula>B</formula></foreign>, was hindert es daß darum das <foreign xml:lang="lat">mobile (quamvis longiori
+      <lb/>tempore) percurrere nequeat <formula>BD</formula> <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qualem ipsi<formula>AB</formula>?</foreign>  <foreign xml:lang="fre">Enfin</foreign> ich sehe keine
+      <lb/>contradiction wan ich die <foreign xml:lang="lat">scalam velocitatum</foreign> setze<supplied>,</supplied> wie hier die figur
+      <lb/>auffweiset. Biß hieher ist dan kein <foreign xml:lang="lat">absurdum</foreign>: Nun will ich weiters
+      <lb/>gehen, und sagen wan dan das <foreign xml:lang="lat">mobile</foreign> sich in einer solchen <foreign xml:lang="lat">curva</foreign> bewegte
+      <lb/><foreign xml:lang="lat">vi gravitatis ordinari<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign>, also daß diese <foreign xml:lang="lat">vis gravitatis derivata secundum
+<pb facs="1063018" n="2"/>
+      <lb/>tangentem in quovis puncto</foreign> <formula>C</formula> also moderiert werde, daß sie se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e <formula>a-s-pu</formula>
+      <lb/>(anstatt zu setzen <formula>a-s</formula> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e die <foreign xml:lang="lat">vis tangentialis <choice><orig><g ref="#agrav">à</g></orig><reg>a</reg></choice> gravitate oriunda</foreign> und
+      <lb/><formula>pu</formula> die <foreign xml:lang="lat">resistentia</foreign><supplied>,</supplied> setze ich, welches gleich<choice><orig>,</orig><reg type="deleted"/></choice> viel giltet, alles zusa<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en
+      <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e die <foreign xml:lang="lat">vis tangentialis</foreign>, und abstrahire hiemit von der <foreign xml:lang="lat">resistentia</foreign>)
+      <lb/><del><gap/></del><add><choice><orig>S</orig><reg>s</reg></choice></add>o schliesse ich <foreign xml:lang="lat">ex natura gravitatis</foreign><supplied>,</supplied> daß zwar die <foreign xml:lang="lat">curva ad hujusmodi
+      <lb/><figure facs="../images/figures/1063018_01.png" hand="pers_DE-588-118509969"></figure> vim tangentialem faciendam requisita debe<pc type="hyphenation">-</pc><lb break="no"/>at habere terminum <formula>D</formula> infra rectam horizon<pc type="hyphenation">-</pc><lb break="no"/>talem <add><formula>AG</formula></add> per <formula>A</formula> transeuntem;</foreign> aber zu gleich muß
+      <lb/>ich auch schliessen auß obigem daß der <foreign xml:lang="lat">arcus</foreign>
+      <lb/><formula>BD</formula> gleich se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n müsse dem <foreign xml:lang="lat">arcui</foreign> <formula>AB</formula>. Nun sehe
+      <lb/>ich widerumb keine contradiction in diesem:
+      <lb/>So will ich dan endlich die <foreign xml:lang="lat">naturam curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> <formula>ACBD</formula> selbsten suchen, und se<pc type="hyphenation">-</pc><lb break="no"/>hen, ob und wie die <foreign xml:lang="lat">Cyclois</foreign> derselben satisfaciere: Sit <formula>AF=x</formula>, <formula>FC=y</formula>,
+      <lb/><formula>AB=a</formula>, <formula>AC=s</formula>, <foreign xml:lang="lat">velocitas in <formula>C=u</formula>, gravitas absoluta mobilis <formula>=g</formula><choice><orig>.</orig><reg>,</reg></choice> erit vis
+      <lb/>motrix in <formula>C=\frac{gdy}{ds}</formula>, sed ex hypothesi illa debet esse <formula>a-s-pu</formula>, ergo <formula>\frac{gdy}{ds}=</formula>
+      <lb/><formula>a-s-pu</formula>; quia vero <formula>\frac{a-s-pu}{u}\,ds=du</formula>, erit <choice><orig><formula>\overline{a-s-pu}\,ds(=g\,dy)=u\,du</formula></orig><reg><formula>(a-s-pu)\,ds(=g\,dy)=u\,du</formula></reg></choice>
+      <lb/>adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <formula>2gy=uu</formula>, et  <choice><orig><formula>u=\sqrt{}2gy</formula></orig><reg><formula>u=\sqrt{2gy}</formula></reg></choice>, quo valore ipsius <formula>u</formula> surrogato in prima <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>qua<pc type="hyphenation">-</pc><lb break="no"/>tione provenit <choice><orig><formula>g\,dy=\overline{a-s-p\sqrt{}2gy}\times ds</formula></orig><reg><formula>g\,dy=\left(a-s-p\sqrt{2gy}\right)ds</formula></reg></choice>, qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> est <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign>: Hier
+      <lb/>ist dan zu remarquieren, daß diese <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio nur in einem <foreign xml:lang="lat">casu</foreign> für die <foreign xml:lang="lat">Cyclois</foreign>
+      <lb/>se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n kan, wan namlich <formula>p</formula> gleich ist 0 oder <foreign xml:lang="lat">infinite parvum</foreign><supplied>,</supplied> das ist wan <formula>pu</formula>
+      <lb/>oder die <foreign xml:lang="lat">resistentia respectu gravitatis absolut<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> ist <foreign xml:lang="lat">infinite parva</foreign>, also daß
+      <lb/>nunmehro nichts absurdi ist daß das mobile in der Cycloide, wan die <foreign xml:lang="lat">re<pc type="hyphenation">-</pc><lb break="no"/>sistentia infinite parva</foreign> ist, den <foreign xml:lang="lat">ascensum</foreign> so gross machet als den <foreign xml:lang="lat">descensum</foreign>.
+      <lb/>Im übrigen ist die <foreign xml:lang="lat">curva <formula>ACBD</formula> pro quocun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> <formula>p</formula> construibilis per quadra<pc type="hyphenation">-</pc><lb break="no"/>turas</foreign>: Dan so man setzet <formula>y</formula> gleich zu se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n <formula>\frac{zz}{g}</formula>, so verwandelt sich meine
+      <lb/>gefundene <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quation <choice><orig><formula>g\,dy=\overline{a-s-p\sqrt{}2gy}\times\,ds</formula></orig><reg><formula>g\,dy=\left(a-s-p\sqrt{2gy}\right)\,ds</formula></reg></choice> in diese <choice><orig><formula>2z\,dz=\overline{a-s-pz\sqrt{}2}\times\,ds</formula></orig><reg><formula>2z\,dz=\left(a-s-pz\sqrt{2}\right)\,ds</formula></reg></choice>
+      <lb/>welche eine conformitet jetzund hatt mit ewerer <formula>a\,ds-s\,ds-pu\,du=u\,du</formula>.<note type="editorial">Der dritte Term ist nich gut leserlich, da eine Korrektur vorliegt. In der Abfertigung steht vermutlich <formula>pudu</formula>, in der Abschrift steht hingegen <formula>puds</formula>.</note>
+      <lb/>Obschon der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> der fre<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>lich mit dem neisen<note type="editorial">Gemäss DWB bedeutet Wort «neisen» sowviel wie «bedrängen, plagen, schädigen, verderben».</note> nur alzu wohl weisset
+      <lb/>umb zu gehen, die <foreign xml:lang="lat">similitudinem <unclear>C</unclear>urvarum trajectoriarum</foreign> in dem <foreign xml:lang="lat">exemplo
+      <lb/>proposito</foreign> entdecken sollte, so ist doch noch ungewiss, ob er <foreign xml:lang="lat">ex consideratione
+      <lb/>similitudinis</foreign> die <foreign xml:lang="lat">solutionem pro omnibus similium exemplis</foreign> finden wurde. Dan
+      <lb/>einmahl der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118801481" type="person">Tailor</rs> dessen solution der <abbr>Mr.</abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs> mir überschicket
+      <lb/>in seinem <foreign xml:lang="lat"><rs type="biblio">schediasmate</rs> <choice><orig>transactionibus</orig><reg>Transactionibus</reg></choice> inserendo vel jam inserto</foreign> sehr wohl ob<pc type="hyphenation">-</pc><lb break="no"/>serviert daß die <foreign xml:lang="lat">curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> mei exempli <rs type="person">Anglis</rs> propositi</foreign> müssen <foreign xml:lang="lat">similes</foreign> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n; den<pc type="hyphenation">-</pc><lb break="no"/>noch aber hatt er sich dieser observation nicht zu nutz gemacht, sondern hatt
+      <lb/>sich einer zi<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>lich weitläuffigen methode bedienet welche nur auff dieses
+      <lb/>sonderbar <foreign xml:lang="lat">exemplum</foreign> kan appliciert werden, wordurch Er zwar endlich
+      <lb/>findet eine <foreign xml:lang="lat"><choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quationem</foreign> die deß <rs key="pers_DE-588-119112450" type="person">Hermans</rs> <del><gap/></del>seiner zimlich ähnlich ist
+      <lb/>und <foreign xml:lang="lat">ex primis differentialibus</foreign> bestehet, hatt aber die <foreign xml:lang="lat">indeterminatas</foreign> nicht se<pc type="hyphenation">-</pc><lb break="no"/>parieren können, ist auch in der irrigen me<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>nung<supplied>,</supplied> das <foreign xml:lang="lat">problema</foreign> könne deßwegen
+      <lb/>nicht <foreign xml:lang="lat">ad quadraturas</foreign> revociert werden, <quote><hi rend="u"><foreign xml:lang="lat">haud proclive est</foreign></hi> <said>sagt er</said> <foreign xml:lang="lat"><hi rend="u">problema ad quadraturas</hi>
+<pb facs="1063019" n="3"/>
+      <lb/>revocare</foreign></quote>. Er wird aber durch meine constructionen sich refutiert befinden:
+      <lb/>doch hatt er ein ander mittel gefunden, (welches ich ob er schon dessen grund nicht
+      <lb/>anzeiget gleich entdecket) die <foreign xml:lang="lat">trajectorias</foreign> zu construiren <foreign xml:lang="lat">per intersectiones
+      <lb/>curvarum</foreign><supplied>,</supplied> also namlich daß zu einer jeden <foreign xml:lang="lat">curva normaliter trajicienda</foreign>
+      <lb/>eine <foreign xml:lang="lat">curva algebraica</foreign> kan gefunden werden von welcher sie geschnitten wird
+      <lb/>in einem <foreign xml:lang="lat">puncto quod erit in trajectoria qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sita</foreign>; diese manier zu construi<pc type="hyphenation">-</pc><lb break="no"/>ren ist nicht unartig, hätte zwar dieselbige auch finden können wan ich nur
+      <lb/>daran gedacht hätte. Der <rs key="pers_DE-588-118801481" type="person">Taylor</rs> <unclear>redet zimlich</unclear> scharff in dem <foreign xml:lang="lat">proœmio</foreign> seiner
+      <lb/>solution wider den <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118571249" type="person">Leibnits</rs> und wider uns under dem na<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en <foreign xml:lang="lat">Fautores <rs type="person">Leib<pc type="hyphenation">-</pc><lb break="no"/>nitii</rs></foreign><choice><orig>,</orig><reg>.</reg></choice> Er fahrt also an <quote><choice><orig><g ref="#quote">„</g></orig><reg/></choice><foreign xml:lang="lat">Cum <abbr>D.</abbr> <rs type="person">G. G. Leibnitius</rs> nuper defunctus, in controversia
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>jam pridem orta circa inventionem Methodi fluxionum (quam is differentialem
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>vocare maluit, sibi<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> pertinaciter appropriari nisus est) nihil omnino responsi dede<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>rit argumentis, quibus inclyti istius inventi gloria <unclear><abbr>D.</abbr></unclear> <rs key="pers_DE-588-118587544" type="person"> Newtono</rs> vendicatur; en tan<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>dem, hortante <abbr>D.</abbr> <rs key="pers_DE-588-118509969" type="person"><abbr>Joan.</abbr> Bernoulli</rs>, problema <rs type="person">geometris anglis</rs> solvendum proposuit;
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>quo scilicet vires eorum in Methodo ista experiretur <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></foreign></quote> bald hernach sagt er<supplied>,</supplied>
+      <lb/><quote><choice><orig><g ref="#quote">„</g></orig><reg/></choice><foreign xml:lang="lat">Nec istis certe <rs type="person">Leibnitii</rs> <rs type="person">Fautoribus</rs>, qui problematis solutionem etiam num conti<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>nenter efflagitant<supplied>,</supplied> jus ullum est nos ad certamen ingeniorum tanta cum licentia
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>provocandi, adeo<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> problema eorum jure merito negligi posset. Verum ne aliquando
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>exinde occasionem triumphandi arripiant, si hoc problema maneat ab <rs type="person">Anglis</rs>
+      <lb/><choice><orig><g ref="#quote">„</g></orig><reg/></choice>omnino intactum, ipse, <rs type="person">Geometra</rs> longe non summi inter nostrates subsellii, in<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><unclear>ducor,</unclear> ut solutionem edam qualem qualem problematis, nec usu, nec diffi<pc type="hyphenation">-</pc><lb break="no"/><choice><orig><g ref="#quote">„</g></orig><reg/></choice><unclear>cultate</unclear> insignis.</foreign></quote> Von der solution dieses problematis, von deren der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117601020" type="person">Mon<pc type="hyphenation">-</pc><lb break="no"/>mort</rs> sagt daß der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-118587544" type="person">Newton</rs> selbs der Auctor se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e, welcher namlich in den
+      <lb/><foreign xml:lang="lat">Transactionibus <abbr>n.<hi rend="sup">o</hi></abbr> 347<supplied>,</supplied> <rs type="person">Auctore Anonymo</rs></foreign> an tag ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en,<note type="comment">Es handelt sich um [Isaac Newton], Problematis olim in Actis Eruditorum Lipsiae propositi Solutio Generalis, Phil. Trans. March 21, 1716, pp. 399–400. </note> und dardurch kein eintzig
+      <lb/><foreign xml:lang="lat">exemplum particulare</foreign> kan solviert werden, redet der <rs key="pers_DE-588-118801481" type="person">Tailor</rs> auff folgende
+      <lb/>hochtrabende weiß <quote><foreign xml:lang="lat">In Transactione philosophica <abbr>n.<hi rend="sup">o</hi></abbr> 347 subinde prodiit so<pc type="hyphenation">-</pc><lb break="no"/>lutio maxime generalis. <choice><orig>sed</orig><reg>Sed</reg></choice> nec illa contenti fuerunt <rs type="person">Leibnitius</rs> et <rs type="person">Fautores</rs>
+      <lb/>ejus, quin illam derisui habuere, quasi qui illam excogitaverat non potuisset
+      <lb/>eam ad casum specialem <unclear>applicare</unclear>. Si nondum viderint quomodo ex illa <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quatio<pc type="hyphenation">-</pc><lb break="no"/>nes sint deducend<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>, id profecto illorum <hi rend="u">imperiti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></hi> tribuendum erit <abbr><choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c.</abbr></foreign></quote><note type="comment">P. 696.</note> Ist <choice><orig>für<pc type="hyphenation">-</pc><lb break="no"/>war</orig><reg>für<pc type="hyphenation">-</pc><lb break="no"/>wahr</reg></choice> eine artige manier umb jede stempeney<note type="editorial">Laut DWB «geschwätz» bwz. «spitzfindiges gerede».</note> und unverständlich galimatias
+      <lb/>(und sollte es schon auff rotwelsch geschrieben se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>n) für eine gültige solution
+      <lb/>passieren zu machen, indem man nur sagen darff <unclear>wan</unclear> es niemand verstehet
+      <lb/>die <foreign xml:lang="lat">culpa</foreign> se<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>e <foreign xml:lang="lat">imperiti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> Lectoris</foreign> be<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice> zu messen und nicht dem <foreign xml:lang="lat">solutori</foreign>.
+      <lb/>Auff das hin was mir ewer <rs type="person">bruder</rs> gesagt daß Ihr ihm <rs type="letter">geschrieben</rs> er solle mir
+      <lb/>melden daß ihr eine <foreign xml:lang="lat">constructionem problematis <rs key="pers_DE-588-124275087" type="person">Keiliani</rs></foreign> gefunden, und darbe<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>
+      <lb/>meldung gethan der construction des <rs key="pers_DE-588-119112450" type="person">Hermanni</rs> die er nur <foreign xml:lang="lat">simpliciter</foreign> und mit
+      <lb/>wenig worten darg<unclear>iebet in</unclear> dem <abbr>Coroll.</abbr> 7<choice><orig><g ref="#ndot">.</g></orig><reg/></choice> <rs type="biblio" key="biblio_WS22BVK4"><choice><orig>phoronom.</orig><reg>Phoronom.</reg></choice></rs><supplied>,</supplied> <abbr>p.</abbr> 354<choice><orig>.</orig><reg>,</reg></choice> hab ich, in der me<choice><orig><g ref="#ydots">ÿ</g></orig><reg>y</reg></choice>nung
+      <lb/>man werde das <foreign xml:lang="lat"><unclear reason="lost">fundamentum</unclear> constructionis su<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> ex pr<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>cedentibus</foreign> leicht ersehen
+      <lb/>können, angefangen das <abbr>Cap.</abbr> 20<choice><orig>.</orig><reg>,</reg></choice> <abbr>p.</abbr> 345 zu lesen, da ich aber zur 76. <abbr>prop.</abbr> bin
+      <lb/>ko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und etwan anderthalb paginas mit gröster mart<unclear>er durch</unclear>gelesen, ist mir endlich
+      <lb/>der schwindel anko<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>en und habe wegen der alle meine gedult überwindenden obscu<pc type="hyphenation">-</pc><lb break="no"/>ritet und perplexitet abgelassen und mich resolviert ich wolle lieber einen gantzen
+      <lb/>tag holtz hacken, als nur eine stund in deß <rs key="pers_DE-588-119112450" type="person">Hermans</rs> <rs type="biblio"><choice><orig>phoronomia</orig><reg>Phoronomia</reg></choice></rs> lesen, <quote rend="unmarked"><foreign xml:lang="fre">c’est ramer sur
+      <lb/>ls galeres que de lire, et de vouloir entendre de tels livres</foreign></quote> sagt der <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-117601020" type="person">Monmort</rs> da Er
+<pb facs="1063020" n="4"/>
+      <lb/>von der <quote rend="unmarked"><foreign xml:lang="fre">obscurité impenetrable</foreign></quote> (wie er sie ne<choice><orig><g ref="#nn">n̄</g></orig><reg>nn</reg></choice>et) deß<rs key="pers_DE-588-118801481" type="person">Tailors</rs> <rs type="biblio">schrifften</rs> redet:
+      <lb/>Damit ich nun auch eine construction <unclear>hätte</unclear> deß problematis <rs key="pers_DE-588-124275087" type="person">Keiliani</rs>, hab ich
+      <lb/>mich selber darhinder gemacht und nach kurtzer arbeit eine gefunden vermit<pc type="hyphenation">-</pc><lb break="no"/>telst meiner formul die ich anno 1713 in den <rs type="biblio">Actis <abbr>Lips.</abbr> <abbr>pag.</abbr> 119<choice><orig><g ref="#ndot">.</g></orig><reg/></choice></rs> an tag gegeben,
+      <lb/>meine construction erstrecket sich nicht <unclear>nur</unclear> auff die <foreign xml:lang="lat">hypothesin co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>unem de
+      <lb/>resistentia existente in duplicata ratione velocitatis</foreign>, sondern auch <foreign xml:lang="lat">ad supposi<pc type="hyphenation">-</pc><lb break="no"/>tionem resistenti<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> existentis in quacun<choice><orig><g ref="#que">&#xe8bf;</g></orig><reg>que</reg></choice> multiplicata ratione velocitatis</foreign>, ist
+      <lb/>also meiner construction welche <del><gap/></del>simplicior ist als des <rs key="pers_DE-588-119112450" type="person">Hermans</rs> auch
+      <lb/><foreign xml:lang="lat">multo generalior</foreign> als seine und <unclear>Ewer</unclear><supplied>,</supplied> welche ihr mir seither in ewerem let<pc type="hyphenation">-</pc><lb break="no"/>sten <rs type="letter">brieff</rs> co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>uniciert und welche fundiert ist in meinen <rs type="biblio">zweien <foreign xml:lang="lat">formulis</foreign></rs> die
+      <lb/>ich vor diesem in den Memoires publiciert, im übrigen ist sie in dem casu <rs key="pers_DE-588-124275087" type="person">Kei<pc type="hyphenation">-</pc><lb break="no"/>lii</rs> mit der meinigen conform. Ich hab gefunden daß wan die <foreign xml:lang="lat">resistentia</foreign> suppo<pc type="hyphenation">-</pc><lb break="no"/>niert wird <foreign xml:lang="lat">in simplici ratione velocitatis</foreign>, die <foreign xml:lang="lat">curva quam projectile describit,</foreign>
+      <lb/>ist in <foreign xml:lang="lat">certo casu</foreign> die <foreign xml:lang="lat">logarithmica vulgaris</foreign>, und <foreign xml:lang="lat">in omni aliu casu</foreign> <unclear>wird sie</unclear> con<pc type="hyphenation">-</pc><lb break="no"/>struiert <foreign xml:lang="lat">ope logarithmic<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice></foreign> auff folgende weis: <foreign xml:lang="lat">Sit logarithmica qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>libet <formula>CAB</formula>
+      <lb/><figure facs="../images/figures/1063020_01.png" hand="pers_DE-588-118509969"></figure> per cujus punctum quodvis <formula>A</formula> ducatur recta <formula>AD</formula> asymtoto paral<pc type="hyphenation">-</pc><lb break="no"/>lela tanquam axis futur<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> curv<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> qu<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>sit<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>; Ad singula puncta
+      <lb/><formula>D</formula>, <formula>D</formula> applicentur parallel<choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice> <formula>DB</formula>, <formula>DB</formula> in quovis angulo dato <formula>ADB</formula>,
+      <lb/>quibus <choice><orig><g ref="#ae">æ</g></orig><reg>ae</reg></choice>quales applicentur ad angulos rectos <formula>DE</formula>, <formula>DE</formula>; dico pun<pc type="hyphenation">-</pc><lb break="no"/>cta <formula>E</formula>, <formula>E</formula>, formare curvam <del><gap/></del><formula>GAFE</formula>, quam projectile de<pc type="hyphenation">-</pc><lb break="no"/>bita cum velocitate ex puncto quodam secundum tangentem e<pc type="hyphenation">-</pc><lb break="no"/>missum describet in ordine litterarum <formula>G</formula>, <formula>A</formula>, <formula>F</formula>, <unclear reason="illegible"><formula>E</formula></unclear>, hoc est <unclear reason="lost"><formula>GAF</formula> pro</unclear>
+      <lb/>ascensu et <formula>FEE</formula> pro descensu inserviet.</foreign> Dem <abbr>H<supplied>.</supplied></abbr> de <rs key="pers_DE-588-117601020" type="person">Monmort</rs>
+      <lb/>hab ich folgendes überschrieben, welches Er dem <rs key="pers_DE-588-124275087" type="person">Keil</rs> als meinem auß<pc type="hyphenation">-</pc><lb break="no"/>forderer solle zu wüssen thun: <quote rend="unmarked"><foreign xml:lang="fre">A propos de ce probleme, il faut que
+      <lb/>je Vous dise, que je l’ai resolu entierement et autant qu’on le peut resoudre, c’est à dire,
+      <lb/>que je le puis construire par le moyen des quadratures d’une maniere plus facile et
+      <lb/>plus generale que <abbr>Mr.</abbr> <rs key="pers_DE-588-119112450" type="person">Herman</rs> et mon <rs key="pers_DE-588-119166895" type="person">Neveu</rs> qui l’ont aussi resolu; car ma solu<pc type="hyphenation">-</pc><lb break="no"/>tion s’etend à quelque hypothese de resistance du milieu que l’on fasse au lieu
+      <lb/>de la co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>une que <abbr>Mr.</abbr> <unclear><rs key="pers_DE-588-124275087" type="person">Keil</rs></unclear> propose qui est <unclear>en raison des</unclear> quarrés de vitesses. Si donc
+      <lb/><abbr>Mr.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> est un aussi brave Analyste qu’il est vaillant Champion, il faut qu’il nous
+      <lb/>dise s’il a resolu Lui meme le probleme qu’il me propose, co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>e quelque chose de fort
+      <lb/>utile avant que je publie ma <rs type="biblio">solution</rs>: Pour le présent je me contente de dire
+      <lb/>que si <unclear>on suppose</unclear> la resistance de l’air en simple raison de la vitesse du projectile,
+      <lb/>la courbe qu’il decrit sera une courbe <unclear>fort connue des</unclear> Geometres, mais je <unclear>trouve</unclear>
+      <lb/>à propos d’en celer le nom, jusqu’à ce que <abbr>Mr.</abbr> <rs key="pers_DE-588-124275087" type="person">Keil</rs> ait repondu s’il a resolu le pro<pc type="hyphenation">-</pc><lb break="no"/>bleme, ou s’il ne l’a pas resolu; si jusqu’au co<choice><orig><g ref="#mm">&#xE5D2;</g></orig><reg>mm</reg></choice>encement du mois de 7bre prochain
+      <lb/>on ne Vous donne pas de sa part une reponse positive, je prendrai ce silence
+      <lb/>pour une confession tacite de son impuissance, et j’<unclear>aura</unclear>i sujet de me plaindre
+      <lb/>et de decouvrir publiquement sa maniere indecente et <unclear>malhonnete</unclear> de me tenter
+      <lb/>par des problemes qu’il n’est pas Lui meme en etat de resoudre.</foreign></quote> Weil die zeit
+      <lb/>und platz mir <unclear>gebrichet</unclear>, als bin genöthiget abzubrechen. <choice><orig>under</orig><reg>Under</reg></choice> der rhetorischen figur
+      <lb/><hi rend="u">aber ich förchte</hi> <choice><orig><g ref="#etlig">&amp;</g></orig><reg>et</reg></choice>c. ist nichts anderes zu verstehen, als mein brieff möchte <unclear>etwan</unclear> frem<pc type="hyphenation">-</pc><lb break="no"/>den leüthen in die hände gerahten.</p> <closer>Meine <rs key="pers_DE-588-108991332X" type="person">fraw</rs> und <rs key="pers_DE-588-117589144 pers_DE-588-1153514060 pers_DE-588-118656503 pers_DE-588-1089913494 pers_DE-588-117589136 pers_DE-588-1089913311" type="person">kinder</rs> lassen Euch <choice><abbr>frl.</abbr><expan>freundlich</expan></choice> <unclear>salutiren.</unclear>
+      <lb/>Verbleibe under göttlicher protection <foreign xml:lang="lat">Tuus ex asse</foreign> <signed><rs key="pers_DE-588-118509969" type="person">J. Bernoull<choice><orig><g ref="#j">j</g></orig><reg>i</reg></choice></rs>.</signed></closer>
+  <postscript><p><lb/><abbr>P. S.</abbr> An <abbr>H<supplied>.</supplied></abbr> <rs key="pers_DE-588-11887733X" type="person">Poleni</rs> meinen gruß.</p></postscript>
+</div>
+</body>
+</text></TEI>
